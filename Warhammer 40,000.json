@@ -4,7 +4,7 @@
     "id": "sys-352e-adc2-7639-d610",
     "battleScribeVersion": 2.03,
     "readme": "",
-    "revision": 14,
+    "revision": 15,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -1163,7 +1163,39 @@
       },
       {"name": "Melta Weapon", "id": "a5ab-185a-4855-0cb8", "hidden": true},
       {"name": "Possessed", "id": "3d1c-7f16-1489-fac3", "hidden": false},
-      {"name": "Plasma", "id": "cb29-f4bb-ff15-6b11", "hidden": false}
+      {
+        "name": "Plasma",
+        "id": "cb29-f4bb-ff15-6b11",
+        "hidden": false
+      },
+      {
+        "id": "5134-9a2c-0dd0-0564",
+        "name": "Clan Skurvy Detachment",
+        "hidden": false
+      },
+      {
+        "id": "2533-ba2b-7254-1b88",
+        "name": "Black-Flag Allies",
+        "hidden": false,
+        "modifiers": [
+          {
+            "type": "set",
+            "field": "hidden",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "5134-9a2c-0dd0-0564",
+                "scope": "parent",
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ]
+      }
     ],
     "costTypes": [
       {
@@ -1430,7 +1462,79 @@
           {"name": "Allies: Titanicus Traitoris", "id": "722c-1b43-cac8-8d7a", "hidden": false, "targetId": "24fa-8caf-cd68-31fb"},
           {"name": "Allies: Unaligned Forces", "id": "ea72-49d5-9b60-d6cf", "hidden": false, "targetId": "07d9-ab1c-cf28-0939"},
           {"name": "Reference", "id": "3761-5a4e-79e0-3c18", "hidden": false, "targetId": "eef1-be80-500a-edfc"},
-          {"name": "Allies: Adeptus Titanicus", "id": "d30c-1ea7-4805-b4be", "hidden": false, "targetId": "9988-6b5e-660e-d973"}
+          {
+            "name": "Allies: Adeptus Titanicus",
+            "id": "d30c-1ea7-4805-b4be",
+            "hidden": false,
+            "targetId": "9988-6b5e-660e-d973"
+          },
+          {
+            "id": "91e5-8d3e-183a-3a8a",
+            "name": "Black-Flag Allies",
+            "hidden": false,
+            "targetId": "2533-ba2b-7254-1b88",
+            "constraints": [
+              {
+                "id": "b3ab-438f-091b-b1a4",
+                "field": "51b2-306e-1021-d207",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": -1,
+                "includeChildSelections": true
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "b3ab-438f-091b-b1a4",
+                "type": "set",
+                "value": 500,
+                "conditions": [
+                  {
+                    "childId": "d62d-db22-4893-4bc0",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "field": "b3ab-438f-091b-b1a4",
+                "type": "set",
+                "value": 1000,
+                "conditions": [
+                  {
+                    "childId": "baf8-997f-e323-a090",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "field": "b3ab-438f-091b-b1a4",
+                "type": "set",
+                "value": 1500,
+                "conditions": [
+                  {
+                    "childId": "4204-82d0-908c-a62a",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          }
         ],
         "constraints": [
           {"id": "95c5-effd-74f1-c8f4", "field": "82ae-1066-5107-6ae0", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 2},
@@ -1752,7 +1856,79 @@
           {"name": "Allies: Titanicus Traitoris", "id": "3ec3-1293-b44c-f03d", "hidden": false, "targetId": "24fa-8caf-cd68-31fb"},
           {"name": "Allies: Unaligned Forces", "id": "6830-ae83-9843-426d", "hidden": false, "targetId": "07d9-ab1c-cf28-0939"},
           {"name": "Reference", "id": "14de-c9cb-628a-6881", "hidden": false, "targetId": "eef1-be80-500a-edfc"},
-          {"name": "Allies: Adeptus Titanicus", "id": "0b08-32da-55ba-d541", "hidden": false, "targetId": "9988-6b5e-660e-d973"}
+          {
+            "name": "Allies: Adeptus Titanicus",
+            "id": "0b08-32da-55ba-d541",
+            "hidden": false,
+            "targetId": "9988-6b5e-660e-d973"
+          },
+          {
+            "id": "fd96-2c0c-4b1b-c0b8",
+            "name": "Black-Flag Allies",
+            "hidden": false,
+            "targetId": "2533-ba2b-7254-1b88",
+            "constraints": [
+              {
+                "id": "bd3d-3b93-afb1-82ec",
+                "field": "51b2-306e-1021-d207",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": -1,
+                "includeChildSelections": true
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "bd3d-3b93-afb1-82ec",
+                "type": "set",
+                "value": 500,
+                "conditions": [
+                  {
+                    "childId": "d62d-db22-4893-4bc0",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "field": "bd3d-3b93-afb1-82ec",
+                "type": "set",
+                "value": 1000,
+                "conditions": [
+                  {
+                    "childId": "baf8-997f-e323-a090",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "field": "bd3d-3b93-afb1-82ec",
+                "type": "set",
+                "value": 1500,
+                "conditions": [
+                  {
+                    "childId": "4204-82d0-908c-a62a",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          }
         ],
         "constraints": [
           {
