@@ -4,7 +4,7 @@
     "id": "sys-352e-adc2-7639-d610",
     "battleScribeVersion": 2.03,
     "readme": "",
-    "revision": 16,
+    "revision": 17,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -4194,7 +4194,10 @@
         "name": "Warpstone",
         "id": "3824-5f05-ad0e-8364",
         "description": "Each time a Critical Hit is scored with a WARPSTONE weapon, add 2 to that attack’s Strength and improve its Armour Penetration by 2. After the unit finishes making its attacks, if one or more WARPSTONE Critical Hits were scored, roll one D6; on a 3+, that unit suffers D3 mortal wounds. Resolve this backlash once regardless of how many Critical Hits were scored.",
-        "hidden": false
+        "hidden": false,
+        "alias": [
+          "WARPSTONE"
+        ]
       }
     ],
     "sharedSelectionEntries": [
