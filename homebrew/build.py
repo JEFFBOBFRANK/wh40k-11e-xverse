@@ -442,7 +442,7 @@ while True:
     needed={n['targetId'] for _,o in DEPS.values() for n in walk(o) if 'targetId' in n}-contained-SYSIDS
     needed|={n['typeId'] for _,o in DEPS.values() for n in walk(o) if 'typeId' in n}-contained-SYSIDS
     additions=[]
-    for rid in needed:
+    for rid in sorted(needed):
         if rid in INDEX:
             k,obj=INDEX[rid]
             if obj.get('id') not in DEPS:additions.append((obj['id'],k,obj))
