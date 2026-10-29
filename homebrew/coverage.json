@@ -1,0 +1,1199 @@
+{
+  "source_version": "0.9.2",
+  "upstream": "JEFFBOBFRANK/wh40k-11e-xverse",
+  "upstream_commit": "4a1c157ac06d8ae2fbe6795d449b8d8812a3f45c",
+  "native_units": 58,
+  "retainers": 23,
+  "detachments": 17,
+  "enhancements": 46,
+  "requisition_datasheets": 219,
+  "requisition_budget_constraints": 29,
+  "source_gaps": [
+    {
+      "unit": "Voidship Ogryn Boarders",
+      "page": 103,
+      "issue": "Composition omits a complete numeric unit size; builder uses (3, 6). Verify against original design."
+    },
+    {
+      "unit": "Naval Ordnance Detail",
+      "page": 104,
+      "issue": "Composition omits a complete numeric unit size; builder uses (3,). Verify against original design."
+    },
+    {
+      "unit": "Voidwalker Reconnaissance Team",
+      "page": 105,
+      "issue": "Composition omits a complete numeric unit size; builder uses (5, 10). Verify against original design."
+    },
+    {
+      "unit": "Shipbreaker Exosuits",
+      "page": 106,
+      "issue": "Composition omits a complete numeric unit size; builder uses (2, 4). Verify against original design."
+    },
+    {
+      "unit": "Ecclesiarchy Penitent Engine",
+      "page": 107,
+      "issue": "Composition omits a complete numeric unit size; builder uses (1, 2). Verify against original design."
+    }
+  ],
+  "unmatched_requisition_names": [],
+  "parent_default_aliases_reset": [
+    "Weapon"
+  ],
+  "native_root_ids": {
+    "Inquisitor Coteaz": "fa69-949d-2483-0d06",
+    "Lord Inquisitor Draxus": "9b3d-a4f1-ee95-573a",
+    "Inquisitor Greyfax": "c327-ad4c-763d-d400",
+    "Inquisitor Kroyle": "d189-7dab-4dfd-74c4",
+    "Inquisitor Karamazov": "3da5-9e57-0048-18b9",
+    "Lord Inquisitor Hector Rex": "f7af-a3c8-1ecc-ddc6",
+    "Inquisitor Gideon Ravenor": "1e38-9de4-f019-cae3",
+    "Inquisitor": "bc62-1d16-efa3-c0ae",
+    "High Interrogator": "7b11-1555-c254-dbd7",
+    "Inquisitor in Power Armour": "1ead-336a-11a3-d372",
+    "Inquisitor in Terminator Armour": "6237-b8fb-8fa7-653c",
+    "Inquisitor Lord": "1634-42f8-cb9b-4110",
+    "Inquisitorial Interrogator": "37e9-d39c-ddc1-261b",
+    "Jokaero Weaponsmith": "4070-b2ef-a2bc-18be",
+    "Ministorum Priest": "8a10-c876-d56b-8968",
+    "Missionary": "fd16-63c2-55d8-80e3",
+    "Confessor": "2cf5-aed5-c936-fa96",
+    "Arbites Judge": "5c47-2c4e-991b-87cd",
+    "Arbites Marshal": "e722-cff3-4df4-bc61",
+    "Arbites Proctor": "f3bb-2d55-c32b-9eb9",
+    "Arbites Intelligencer": "0137-bb2e-269b-22df",
+    "Rogue Trader": "c6c6-2326-00fc-22d6",
+    "Naval Master-at-Arms": "7ca3-3624-df56-e1e5",
+    "Vindicare Assassin": "9ff9-d7c1-e96e-7748",
+    "Callidus Assassin": "1cc5-04cc-72a1-8000",
+    "Eversor Assassin": "58a4-2671-3ebe-0e0e",
+    "Culexus Assassin": "ac94-ab60-e001-79de",
+    "Vanus Infocyte Assassin": "fc62-0975-e686-a238",
+    "Venenum Assassin": "189f-4610-2361-7233",
+    "Adamus Assassin": "70d8-d17d-7c77-083b",
+    "Frateris Militia": "10e2-0764-b355-f2af",
+    "Imperial Navy Breachers": "60ba-0702-6c7c-6499",
+    "Inquisitorial Agents": "ebcf-001d-5ff4-2b27",
+    "Inquisitorial Weapons Cell": "12cb-269f-52dc-c876",
+    "Inquisitorial Storm Troopers": "4592-2b03-50e9-1301",
+    "Inquisitorial Bulwark Cell": "4b40-db64-15e5-012f",
+    "Inquisitorial Penitent Squad": "93a7-0845-288b-f210",
+    "Sanctifiers": "71f4-c4fe-fe9c-3431",
+    "Arco-flagellants": "ac76-5851-039c-5b98",
+    "Death Cult Assassin Cell": "d65d-af2c-4b41-d9fa",
+    "Reliquary Procession": "c2c1-5f7f-2ca6-746f",
+    "Shrine Guardians": "6f6d-c00c-c6d8-aaa8",
+    "Vigilant Squad": "a511-0921-5437-2b23",
+    "Exaction Squad": "18c2-9754-65e9-5894",
+    "Subductor Squad": "251c-be95-5db3-3b2f",
+    "Arbites Marksmen": "535a-90a0-a927-cec5",
+    "Cyber-Mastiff Pursuit Pack": "ae18-387f-a5e1-e673",
+    "Suppression Automata": "c77d-6764-240e-99d0",
+    "Voidship Ogryn Boarders": "8358-f76b-c4b0-551f",
+    "Naval Ordnance Detail": "5241-772d-bcfd-e438",
+    "Voidwalker Reconnaissance Team": "6da2-be1a-10e2-1124",
+    "Shipbreaker Exosuits": "aa6e-8194-9b44-809f",
+    "Ecclesiarchy Penitent Engine": "e211-c064-a4c8-3bc8",
+    "Tauros Venator": "4b3b-c91a-2c73-1fa6",
+    "Dynastic Gun-Cutter": "adf0-d90f-3a17-4610",
+    "Inquisitorial Chimera": "a808-6cc6-f338-826a",
+    "Arbites Repressor": "ec86-7642-4f02-5980",
+    "Arvus Lighter": "58a1-a61d-33b3-2997"
+  },
+  "requisition_units": [
+    {
+      "name": "Arco-Flagellants",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Battle Sisters Squad",
+      "faction": "Sororitas",
+      "basic": true
+    },
+    {
+      "name": "Castigator",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Celestian Sacresants",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Dominion Squad",
+      "faction": "Sororitas",
+      "basic": true
+    },
+    {
+      "name": "Exorcist",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Immolator",
+      "faction": "Sororitas",
+      "basic": true
+    },
+    {
+      "name": "Mortifiers",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Paragon Warsuits",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Penitent Engines",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Repentia Squad",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Retributor Squad",
+      "faction": "Sororitas",
+      "basic": true
+    },
+    {
+      "name": "Saint Celestine",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Seraphim Squad",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Sisters Novitiate Squad",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Sororitas Rhino",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Zephyrim Squad",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Repressor [Legends]",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Death Cult Assassins [Legends]",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Crusaders [Legends]",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Battle Sanctum [Legends]",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Sanctifiers",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Celestian Insidiants",
+      "faction": "Sororitas",
+      "basic": false
+    },
+    {
+      "name": "Archaeopter Fusilave",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Archaeopter Stratoraptor",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Archaeopter Transvector",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Corpuscarii Electro-Priests",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Fulgurite Electro-Priests",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Ironstrider Ballistarii",
+      "faction": "Mechanicus",
+      "basic": true
+    },
+    {
+      "name": "Kastelan Robots",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Kataphron Breachers",
+      "faction": "Mechanicus",
+      "basic": true
+    },
+    {
+      "name": "Kataphron Destroyers",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Onager Dunecrawler",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Pteraxii Skystalkers",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Pteraxii Sterylizors",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Serberys Raiders",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Serberys Sulphurhounds",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Sicarian Infiltrators",
+      "faction": "Mechanicus",
+      "basic": true
+    },
+    {
+      "name": "Sicarian Ruststalkers",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Skitarii Rangers",
+      "faction": "Mechanicus",
+      "basic": true
+    },
+    {
+      "name": "Skitarii Vanguard",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Skorpius Disintegrator",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Skorpius Dunerider",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Sydonian Dragoons with taser lances",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Tech-Priest Dominus",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Tech-Priest Enginseer",
+      "faction": "Mechanicus",
+      "basic": true
+    },
+    {
+      "name": "Tech-Priest Manipulus",
+      "faction": "Mechanicus",
+      "basic": true
+    },
+    {
+      "name": "Technoarcheologist",
+      "faction": "Mechanicus",
+      "basic": true
+    },
+    {
+      "name": "Cybernetica Datasmith",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Secutarii Hoplites [Legends]",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Secutarii Peltasts [Legends]",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Terrax-Pattern Termite [Legends]",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Sydonian Dragoons with radium jezzails",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Servitors [Legends]",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Servitor Battleclade",
+      "faction": "Mechanicus",
+      "basic": true
+    },
+    {
+      "name": "Hastarii Exterminators",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Hastarii Fusiliers",
+      "faction": "Mechanicus",
+      "basic": false
+    },
+    {
+      "name": "Aegis Defence Line",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Armoured Sentinels",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Attilan Rough Riders",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Basilisk",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Bullgryn Squad",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Cadian Castellan",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Cadian Shock Troops",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Catachan Jungle Fighters",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Chimera",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Commissar",
+      "faction": "Militarum",
+      "basic": true
+    },
+    {
+      "name": "Death Korps of Krieg",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Deathstrike",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Field Ordnance Battery",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Gaunt\u2019s Ghosts",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Cadian Heavy Weapons Squad",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Hellhound",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Hydra",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Kasrkin",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Leman Russ Battle Tank",
+      "faction": "Militarum",
+      "basic": true
+    },
+    {
+      "name": "Leman Russ Demolisher",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Leman Russ Eradicator",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Leman Russ Executioner",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Leman Russ Exterminator",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Leman Russ Punisher",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Leman Russ Vanquisher",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Manticore",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Militarum Tempestus Command Squad",
+      "faction": "Militarum",
+      "basic": true
+    },
+    {
+      "name": "Munitorum Servitors [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Ogryn Squad",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Regimental Attach\u00e9s [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Rogal Dorn Battle Tank",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Scout Sentinels",
+      "faction": "Militarum",
+      "basic": true
+    },
+    {
+      "name": "Leman Russ Commander",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Taurox",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Taurox Prime",
+      "faction": "Militarum",
+      "basic": true
+    },
+    {
+      "name": "Tempestus Scions",
+      "faction": "Militarum",
+      "basic": true
+    },
+    {
+      "name": "Valkyrie",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Wyvern",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Death Riders",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Carnodon [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Cyclops Demolition Vehicle",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Malcador [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Malcador Annihilator [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Malcador Defender [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Malcador Infernus [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Medusa Carriage Battery [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Earthshaker Carriage Battery [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Praetor [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Crassus [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Colossus [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Avenger Strike Fighter",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Voss-pattern Lightning [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Vulture Gunship [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Tarantula Battery [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Rapier Laser Destroyer Battery [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Hades Breaching Drill [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Trojan Support Vehicle [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Valkyrie Sky Talon [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Aquila Lander [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Death Korps Grenadier Squad [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Centaur Light Carrier [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Stygies Destroyer Tank Hunter [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Atlas Recovery Vehicle [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Sabre Weapons Battery [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Elysian Drop Sentinel [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Elysian Sniper Squad [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Heavy Mortar Team [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Armageddon-pattern Medusa [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Heavy Quad Launcher Team [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Arvus Lighter [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Vendetta Gunship [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Minotaur [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Death Rider Commissar [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Sentinel Powerlifter [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Manticore Platform [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Hydra Platform [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Griffon Mortar Carrier [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Earthshaker Platform [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Mukaali Riders [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Salamander Scout Vehicle [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Tauros Assault Vehicle [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Tauros Venator [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Salamander Command Vehicle [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Storm Chimera [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Tempestus Aquilons",
+      "faction": "Militarum",
+      "basic": true
+    },
+    {
+      "name": "Ratlings",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Rogal Dorn Commander",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Krieg Combat Engineers",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Catachan Heavy Weapons Squad",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Krieg Heavy Weapons Squad",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Artillery Team",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Hell's Last [Legends]",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Hippogriff AFV",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Centaur RSV",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Cadian Recon Squad",
+      "faction": "Militarum",
+      "basic": false
+    },
+    {
+      "name": "Brotherhood Terminator Squad",
+      "faction": "Grey Knights",
+      "basic": true
+    },
+    {
+      "name": "Land Raider",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Land Raider Crusader",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Land Raider Redeemer",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Razorback",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Rhino",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Stormhawk Interceptor",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Stormraven Gunship",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Stormtalon Gunship",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Interceptor Squad",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Nemesis Dreadknight",
+      "faction": "Grey Knights",
+      "basic": true
+    },
+    {
+      "name": "Paladin Squad",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Purgation Squad",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Purifier Squad",
+      "faction": "Grey Knights",
+      "basic": true
+    },
+    {
+      "name": "Servitors [Legends]",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Strike Squad",
+      "faction": "Grey Knights",
+      "basic": true
+    },
+    {
+      "name": "Grey Knights Thunderhawk Gunship",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Grey Knights Dreadnought [Legends]",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Grey Knights Relic Razorback [Legends]",
+      "faction": "Grey Knights",
+      "basic": false
+    },
+    {
+      "name": "Intercessor Squad",
+      "faction": "Astartes",
+      "basic": false
+    },
+    {
+      "name": "Assault Intercessor Squad",
+      "faction": "Astartes",
+      "basic": false
+    },
+    {
+      "name": "Heavy Intercessor Squad",
+      "faction": "Astartes",
+      "basic": false
+    },
+    {
+      "name": "Scout Squad",
+      "faction": "Astartes",
+      "basic": false
+    },
+    {
+      "name": "Bladeguard Veteran Squad",
+      "faction": "Astartes",
+      "basic": false
+    },
+    {
+      "name": "Sternguard Veteran Squad",
+      "faction": "Astartes",
+      "basic": false
+    },
+    {
+      "name": "Rhino",
+      "faction": "Astartes",
+      "basic": false
+    },
+    {
+      "name": "Impulsor",
+      "faction": "Astartes",
+      "basic": false
+    },
+    {
+      "name": "Assault Intercessors with Jump Packs",
+      "faction": "Astartes",
+      "basic": false
+    },
+    {
+      "name": "Company Heroes",
+      "faction": "Astartes",
+      "basic": false
+    },
+    {
+      "name": "Anathema Psykana Rhino",
+      "faction": "Silence",
+      "basic": false
+    },
+    {
+      "name": "Prosecutors",
+      "faction": "Silence",
+      "basic": false
+    },
+    {
+      "name": "Vigilators",
+      "faction": "Silence",
+      "basic": false
+    },
+    {
+      "name": "Witchseekers",
+      "faction": "Silence",
+      "basic": false
+    },
+    {
+      "name": "Canis Rex",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Armiger Warglaive",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Armiger Helverin",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Knight Paladin",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Knight Errant",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Knight Gallant",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Knight Warden",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Knight Crusader",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Knight Preceptor",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Knight Castellan",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Knight Valiant",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Acastus Knight Asterius",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Acastus Knight Porphyrion",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Cerastus Knight Lancer",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Cerastus Knight Castigator",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Cerastus Knight Acheron",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Cerastus Knight Atrapos",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Questoris Knight Magaera",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Questoris Knight Styrix",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Armiger Moirax",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Knight Defender",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Knight Destrier",
+      "faction": "Knights",
+      "basic": false
+    },
+    {
+      "name": "Warhound Titan",
+      "faction": "Titans",
+      "basic": false
+    },
+    {
+      "name": "Reaver Titan",
+      "faction": "Titans",
+      "basic": false
+    },
+    {
+      "name": "Warbringer Nemesis Titan",
+      "faction": "Titans",
+      "basic": false
+    },
+    {
+      "name": "Warlord Titan",
+      "faction": "Titans",
+      "basic": false
+    },
+    {
+      "name": "Corvus Blackstar",
+      "faction": "Deathwatch",
+      "basic": true
+    },
+    {
+      "name": "Deathwatch Terminator Squad",
+      "faction": "Deathwatch",
+      "basic": true
+    },
+    {
+      "name": "Fortis Kill Team",
+      "faction": "Deathwatch",
+      "basic": false
+    },
+    {
+      "name": "Indomitor Kill Team",
+      "faction": "Deathwatch",
+      "basic": false
+    },
+    {
+      "name": "Spectrus Kill Team",
+      "faction": "Deathwatch",
+      "basic": false
+    },
+    {
+      "name": "Deathwatch Veterans",
+      "faction": "Deathwatch",
+      "basic": true
+    },
+    {
+      "name": "Talonstrike Kill Team",
+      "faction": "Deathwatch",
+      "basic": false
+    },
+    {
+      "name": "Decimus Kill Team",
+      "faction": "Deathwatch",
+      "basic": true
+    }
+  ]
+}

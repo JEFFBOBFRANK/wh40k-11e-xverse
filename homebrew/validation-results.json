@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "structural_and_source_checks": 32251,
+  "budget_allocation_scenarios": 6300,
+  "new_recruit_runtime_test": "Not completed; browser local-folder picker unavailable",
+  "source_gaps": [
+    {
+      "unit": "Voidship Ogryn Boarders",
+      "page": 103,
+      "issue": "Composition omits a complete numeric unit size; builder uses (3, 6). Verify against original design."
+    },
+    {
+      "unit": "Naval Ordnance Detail",
+      "page": 104,
+      "issue": "Composition omits a complete numeric unit size; builder uses (3,). Verify against original design."
+    },
+    {
+      "unit": "Voidwalker Reconnaissance Team",
+      "page": 105,
+      "issue": "Composition omits a complete numeric unit size; builder uses (5, 10). Verify against original design."
+    },
+    {
+      "unit": "Shipbreaker Exosuits",
+      "page": 106,
+      "issue": "Composition omits a complete numeric unit size; builder uses (2, 4). Verify against original design."
+    },
+    {
+      "unit": "Ecclesiarchy Penitent Engine",
+      "page": 107,
+      "issue": "Composition omits a complete numeric unit size; builder uses (1, 2). Verify against original design."
+    }
+  ]
+}
