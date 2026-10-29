@@ -42,7 +42,7 @@
     "categoryEntries": [],
     "entryLinks": [
       {
-        "name": "Detachments",
+        "name": "Detachment",
         "id": "d0d0-8f00-72ec-65aa",
         "targetId": "a012-95c1-55bf-fffb",
         "type": "selectionEntry",
@@ -6123,7 +6123,7 @@
         ]
       },
       {
-        "name": "Detachments",
+        "name": "Detachment",
         "id": "a012-95c1-55bf-fffb",
         "hidden": false,
         "import": true,
@@ -6177,7 +6177,7 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "Selected Detachments",
+            "name": "Detachment",
             "id": "d599-a0f4-a05b-0a2b",
             "hidden": false,
             "constraints": [
@@ -6200,6 +6200,7 @@
                 "includeChildSelections": false
               }
             ],
+            "defaultSelectionEntryId": "none",
             "selectionEntries": [
               {
                 "name": "The Emperor's Mandate",
