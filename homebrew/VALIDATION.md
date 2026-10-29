@@ -20,6 +20,9 @@ Structural and source checks cover catalogue links, profile types, defaults, roo
 - Remove Stratagem profiles from each detachment's rules view. A separate **Stratagem References** selection shows the selected detachments' Stratagems; costs and rules are retained.
 - Display army references as named Rules with paragraphs, labels and readable lists, instead of a single Abilities table containing PDF line breaks.
 - Increase catalogue and system revisions to invalidate older cached data.
+- Check parent model keywords as well as unit-root keywords for Requisition eligibility. This excludes Saint Celestine, Gaunt’s Ghosts and Hell's Last, and correctly admits the Cadian, Catachan and Krieg command squads through the non-Epic OFFICER permission.
+
+Live regression checks confirmed Chapter Intervention unlocks Purge the Foe; Purgation Force plus Imperial Cordon unlocks Purge the Foe and Take and Hold; choosing a different Ordo replaces the previous Ordo while retaining Imperial Cordon. Army reference paragraphs, headings and lists render correctly. The detachment profile contains its rules and allowed dispositions without Stratagems. Full card-export testing remains pending.
 
 Live New Recruit smoke checks passed for GitHub installation, faction selection, and manual Army Roster creation, with native units and gated Requisitions visible. The guided setup initially skipped Detachment; the entry/group names were corrected to the standard `Detachment` names. Retesting guided setup against refreshed data remains pending. If the wizard offers no Force Disposition choices, go Back and select **Skip the guided setup and create the list right away**, then configure Battle Size, Detachment and Force Disposition in the roster. Full list validation and 40k Card exports still require testing.
 

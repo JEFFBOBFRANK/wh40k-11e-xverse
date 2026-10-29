@@ -43,12 +43,12 @@ cfg=next(x for x in c['sharedSelectionEntries'] if x['name']=='Detachment');dets
 stratref=next(x for x in c['sharedSelectionEntries'] if x['name']=='Stratagem References')
 for d in src['detachments']:
  e=next(x for x in dets if x['name']==d['name']);assert next(x['value'] for x in e['costs'] if x['name']=='Detachment Points')==d['dp'];checks+=1
- sr=next(x for x in stratref['selectionEntries'] if x['name']==d['name']+' Stratagems')
- assert sr['hidden'] and sr['modifiers'][0]['conditions'][0]['childId']==e['id'];checks+=1
  for st in d['stratagems']:
   name=st['name']+' / '+str(st['cost'])+' CP'
   assert not any(p['name']==name for p in e.get('profiles',[]))
-  assert any(p['name']==name and ' '.join(p['description'].replace('**','').split())==' '.join(st['text'].split()) for p in sr['rules']);checks+=2
+  link=next(x for x in stratref['infoLinks'] if x['name']==d['name']+' — '+name)
+  assert link['hidden'] and link['modifiers'][0]['conditions'][0]['childId']==e['id']
+  p=idx[link['targetId']];assert ' '.join(p['description'].replace('**','').split())==' '.join(st['text'].split());checks+=3
 assert len(next(x for x in src['detachments'] if x['name']=='Veiled Blade Elimination Force')['stratagems'])==6
 # Compare the source's dispositions to the actual standard category IDs. This
 # catches names that look identical in the UI but contain PDF whitespace.
@@ -87,6 +87,13 @@ for size in range(5):
     if m['field']=='hidden' and conditions_match(m,selected,counts):hidden=m['value']
    if not hidden:actual.add(e['name'])
   assert actual==expected,('dispositions',selected,expected,actual)
+  actual_strats=set()
+  for link in stratref['infoLinks']:
+   hidden=link['hidden']
+   for m in link['modifiers']:
+    if conditions_match(m,selected,counts):hidden=m['value']
+   if not hidden:actual_strats.add(link['name'].split(' — ')[0])
+  assert actual_strats=={e['name'] for e in chosen},('Stratagem visibility',selected,actual_strats)
   unique_valid=counts.get(ordocat['id'],0)<=ordocat['constraints'][0]['value']
   entry_valid=True
   for e in chosen:
@@ -102,6 +109,16 @@ for rr in ref['rules']:
  assert '\n\n' in rr['description'],rr['name']
  assert not re.search(r'(?<!\n)\n(?!\n|\- )',rr['description']),rr['name'];checks+=2
 assert not cov['unmatched_requisition_names']
+for rec in cov['requisition_units']:
+ e=next(idx[l['targetId']] for l in c['entryLinks'] if l['name']==rec['name']+' (Requisitioned)')
+ kw={l['name'].upper().replace('FACTION: ','').strip() for n in walk(e) if n is e or n.get('type') in ['unit','model'] for l in n.get('categoryLinks',[]) if l.get('name')}
+ if rec['faction'] in ['Sororitas','Grey Knights','Deathwatch']:assert not (kw&{'CHARACTER','EPIC HERO'}),(rec,kw)
+ if rec['faction']=='Militarum':assert 'EPIC HERO' not in kw and ('CHARACTER' not in kw or 'OFFICER' in kw),rec
+ if rec['faction']=='Mechanicus':assert 'EPIC HERO' not in kw and ('CHARACTER' not in kw or 'TECH-PRIEST' in kw),rec
+ checks+=1
+reqnames={x['name'] for x in cov['requisition_units']}
+assert 'Saint Celestine' not in reqnames and 'Gaunt’s Ghosts' not in reqnames and "Hell's Last [Legends]" not in reqnames
+assert {'Cadian Command Squad','Catachan Command Squad','Krieg Command Squad'}<=reqnames;checks+=2
 for l in c['entryLinks']:
  if l['name'].endswith('(Requisitioned)'):assert sum(bool(x.get('primary')) for x in idx[l['targetId']]['categoryLinks'])==1;checks+=1
 for n in ['Inquisitor Kroyle','Inquisitor Karamazov','Inquisitor Gideon Ravenor']:assert not native[n].get('associations');checks+=1

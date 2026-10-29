@@ -53,7 +53,7 @@ def group(o,n,key,mini=0,maxi=1):
 G=load('Warhammer 40,000.json')['gameSystem']
 BASE=load('Imperium - Agents of the Imperium.json')['catalogue']
 C=copy.deepcopy(BASE)
-C.update(name='Imperium - Agents of the Imperium (Homebrew v0.9.2)',revision=BASE['revision']+2,gameSystemId=NEW_SYS,selectionEntries=[],entryLinks=[])
+C.update(name='Imperium - Agents of the Imperium (Homebrew v0.9.2)',revision=BASE['revision']+3,gameSystemId=NEW_SYS,selectionEntries=[],entryLinks=[])
 C['readme']='Agents of the Imperium v0.9.2 homebrew. See README.md and homebrew/VALIDATION.md. Select Army Roster, Battle Size, Detachments and Force Disposition. Requisitions retain parent datasheets. This is an unofficial playtest catalogue.'
 for l in C.get('catalogueLinks',[]):l['importRootEntries']=False
 CATS={x['name'].upper():x['id'] for x in G['categoryEntries']+C.get('categoryEntries',[])}
@@ -103,11 +103,11 @@ root(ref)
 # detachment selection's rules view. Only selected detachments contribute.
 stratref=entry('Stratagem References','stratagem-references');tag(stratref,'Reference',True);exact(stratref,1,'stratagem-reference-exact')
 for d in SRC['detachments']:
-    e=entry(d['name']+' Stratagems','stratagem-reference:'+d['name']);exact(e,1,e['id']+'required')
-    e['hidden']=True;e['modifiers']=[mod('hidden',False,[condition(DETIDS[d['name']])])]
     for s in d['stratagems']:
-        append(e,'rules',dict(name=s['name']+' / '+str(s['cost'])+' CP',id=uid(e['id']+s['name']),hidden=False,description=reference_text(dict(name=s['name'],text=s['text']))))
-    append(stratref,'selectionEntries',e)
+        name=d['name']+' — '+s['name']+' / '+str(s['cost'])+' CP'
+        rule=dict(name=name,id=uid('stratagem-rule:'+d['name']+s['name']),hidden=False,description=reference_text(dict(name=s['name'],text=s['text'])))
+        append(C,'sharedRules',rule)
+        append(stratref,'infoLinks',dict(name=name,id=uid('stratagem-link:'+d['name']+s['name']),targetId=rule['id'],type='rule',hidden=True,modifiers=[mod('hidden',False,[condition(DETIDS[d['name']])])]))
 root(stratref)
 
 # Writ definitions are shared so the once-per-army limit applies across bearers.
@@ -418,7 +418,9 @@ for f in UP.glob('*.json'):
             for node in walk(obj):
                 if 'id' in node:INDEX.setdefault(node['id'],(key,obj));NODE_NAMES.setdefault(node['id'],node.get('name',''))
 def keywords(o):
-    return {l.get('name',NODE_NAMES.get(l.get('targetId'),'' )).upper().replace('FACTION: ','') for l in o.get('categoryLinks',[])}
+    # Mixed-model datasheets may put CHARACTER on a model rather than on
+    # the unit root (for example Saint Celestine and her Geminae).
+    return {l.get('name',NODE_NAMES.get(l.get('targetId'),'' )).upper().replace('FACTION: ','').strip() for n in walk(o) if n is o or n.get('type') in ['unit','model'] for l in n.get('categoryLinks',[])}
 def isdatasheet(o):return o.get('type') in ['unit','model'] and any(l.get('primary') for l in o.get('categoryLinks',[])) and '[Crucible]' not in o.get('name','')
 BASE_ALLOWED={
  'Sororitas':{'Battle Sisters Squad','Dominion Squad','Retributor Squad','Immolator'},
@@ -436,7 +438,7 @@ SELECTED=[];MISSING_BASE=[]
 for faction,pc in ALLPARENTS.items():
     candidates=[x for x in pc.get('sharedSelectionEntries',[]) if isdatasheet(x)]
     for unit in candidates:
-        kw=keywords(unit);n=unit['name'];ischar='CHARACTER' in kw;epic='EPIC HERO' in kw
+        kw=keywords(unit);n=unit['name'];epic='EPIC HERO' in kw;ischar='CHARACTER' in kw or epic
         if faction=='Deathwatch' and not ('DEATHWATCH' in kw or n in BASE_ALLOWED['Deathwatch']):continue
         if faction=='Astartes' and n not in CHAPTER:continue
         if faction=='Silence' and (ischar or not ('ANATHEMA PSYKANA' in kw or n=='Anathema Psykana Rhino')):continue
@@ -453,7 +455,7 @@ for faction,pc in ALLPARENTS.items():
     present={x['name'] for x in candidates}
     for n in BASE_ALLOWED[faction]-present:MISSING_BASE.append(dict(faction=faction,unit=n))
 
-R=dict(name='Agents Requisitions Library',id=uid('requisitions-library'),gameSystemId=NEW_SYS,gameSystemRevision=G['revision'],revision=1,battleScribeVersion=2.03,library=True,type='catalogue',xmlns='http://www.battlescribe.net/schema/catalogueSchema')
+R=dict(name='Agents Requisitions Library',id=uid('requisitions-library'),gameSystemId=NEW_SYS,gameSystemRevision=G['revision'],revision=2,battleScribeVersion=2.03,library=True,type='catalogue',xmlns='http://www.battlescribe.net/schema/catalogueSchema')
 DEPS={}
 for record in SELECTED:DEPS[record['original']['id']]=('sharedSelectionEntries',record['original'])
 while True:
@@ -670,7 +672,8 @@ for node in walk(R):
 for f in UP.glob('*.json'):
     if f.name in ['Warhammer 40,000.json','Imperium - Agents of the Imperium.json']:continue
     (REPO/f.name).write_bytes(f.read_bytes())
-G['id']=NEW_SYS;G['revision']+=2
+G['id']=NEW_SYS;G['revision']+=3
+C['gameSystemRevision']=G['revision'];R['gameSystemRevision']=G['revision']
 for node in walk(G):
     if node.get('name')=='3. Onslaught (3000 Point limit)':node['hidden']=False
     if node.get('name')=='Army Roster':node['readme']=node.get('readme','')+'\n\nAgents homebrew v0.9.2: see homebrew/VALIDATION.md for source gaps and validation status.'
