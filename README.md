@@ -10,7 +10,9 @@ This fork includes Skaven, Black-Flag and a playtest Agents of the Imperium v0.9
 4. Create a list using **Imperium - Agents of the Imperium (Homebrew v0.9.2)** and **Army Roster**.
 5. Select Battle Size, Detachments and one Force Disposition. Add native units or Requisitions as permitted by the selected detachments.
 
-If this fork is already installed, refresh its data. Existing official Agents lists may need rebuilding because the native roster has changed.
+Detachment profiles show their rules and allowed dispositions. **Unique: ORDO** permits only one Ordo Detachment in the army. Stratagems are in the separate **Stratagem References** selection and follow the selected detachments. Army references use separate readable rule sections.
+
+If this fork is already installed, update it to **Latest Commit (Head)** and update the list's data. Catalogue and system revisions have been increased for these fixes. Existing official Agents lists may need rebuilding because the native roster has changed.
 
 ## Agents build status
 
