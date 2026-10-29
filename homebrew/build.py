@@ -71,8 +71,10 @@ def root(o,kind='selectionEntry'):
     append(C,'sharedSelectionEntries',o)
     append(C,'entryLinks',dict(name=o['name'],id=uid('root:'+o['id']),targetId=o['id'],type=kind,hidden=False,import_=True))
 DETIDS={d['name']:uid('detachment:'+d['name']) for d in SRC['detachments']}
-detconfig=entry('Detachments','detachments-config');tag(detconfig,'Configuration',True);exact(detconfig,1,'detachment-config-limit')
-dg=group(detconfig,'Selected Detachments','selected-detachments',1,4)
+detconfig=entry('Detachment','detachments-config');tag(detconfig,'Configuration',True);exact(detconfig,1,'detachment-config-limit')
+# New Recruit's guided setup recognizes the standard Detachment entry/group names.
+dg=group(detconfig,'Detachment','selected-detachments',1,4)
+dg['defaultSelectionEntryId']='none'
 for d in SRC['detachments']:
     e=entry(d['name'],'detachment:'+d['name']);maxn(e,1,e['id']+'max');cost(e,DP,d['dp'])
     for disp in d['dispositions']:tag(e,disp)

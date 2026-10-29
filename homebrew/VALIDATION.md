@@ -11,9 +11,9 @@ This catalogue transcribes the user's complete Agents of the Imperium v0.9.2 cod
 
 ## Checks completed
 
-32,251 structural and source checks passed: catalogue links, profile types, defaults, root visibility structure, primary categories, native stats, source weapon values, both squad points tiers, retainer nesting, detachment DP and Stratagem text. 6,300 independent allowance-allocation scenarios passed. See `validation-results.json`.
+32,252 structural and source checks passed: catalogue links, profile types, defaults, root visibility structure, primary categories, native stats, source weapon values, both squad points tiers, retainer nesting, detachment DP and Stratagem text. 6,300 independent allowance-allocation scenarios passed. See `validation-results.json`.
 
-These checks are not the New Recruit roster engine. Live list-building and 40k Card exports still require testing. The available cloud browser did not expose its local-folder chooser to automation.
+Live New Recruit smoke checks passed for GitHub installation, faction selection, and manual Army Roster creation, with native units and gated Requisitions visible. The guided setup initially skipped Detachment; the entry/group names were corrected to the standard `Detachment` names. Retesting guided setup against refreshed data remains pending. If the wizard offers no Force Disposition choices, go Back and select **Skip the guided setup and create the list right away**, then configure Battle Size, Detachment and Force Disposition in the roster. Full list validation and 40k Card exports still require testing.
 
 ## Provisional model counts
 

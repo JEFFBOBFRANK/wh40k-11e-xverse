@@ -1,8 +1,8 @@
 {
   "status": "PASS",
-  "structural_and_source_checks": 32251,
+  "structural_and_source_checks": 32252,
   "budget_allocation_scenarios": 6300,
-  "new_recruit_runtime_test": "Not completed; browser local-folder picker unavailable",
+  "new_recruit_runtime_test": "GitHub installation, faction selection and manual roster creation passed. Guided setup retest, complete roster validation and card export remain pending.",
   "source_gaps": [
     {
       "unit": "Voidship Ogryn Boarders",

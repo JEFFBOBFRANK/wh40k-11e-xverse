@@ -31,7 +31,7 @@ for u in src['units']:
  if len(u['points'])==2:
   size=next(g for g in e['selectionEntryGroups'] if g['name']=='Unit Size');assert [u['points'][0]+next(z['value'] for z in x['costs'] if z['name']=='pts') for x in size['selectionEntries']]==u['points'];checks+=1
 rt=next(g for g in native['Rogue Trader']['selectionEntryGroups'] if g['name']=='Household Retainers');assert len(rt['selectionEntries'])==23;assert not any(x['name'] in {l['name'] for l in c['entryLinks']} for x in src['retainers']);checks+=2
-cfg=next(x for x in c['sharedSelectionEntries'] if x['name']=='Detachments');dets=next(g for g in cfg['selectionEntryGroups'] if g['name']=='Selected Detachments')['selectionEntries'];assert len(dets)==17
+cfg=next(x for x in c['sharedSelectionEntries'] if x['name']=='Detachment');dets=next(g for g in cfg['selectionEntryGroups'] if g['name']=='Detachment')['selectionEntries'];assert len(dets)==17
 for d in src['detachments']:
  e=next(x for x in dets if x['name']==d['name']);assert next(x['value'] for x in e['costs'] if x['name']=='Detachment Points')==d['dp'];checks+=1
  for st in d['stratagems']:assert any(p['name']==st['name']+' / '+str(st['cost'])+' CP' and p['characteristics'][0]['$text']==st['text'] for p in e['profiles']);checks+=1
@@ -57,5 +57,5 @@ for sid,base in sizes:
      if sum(v for x,v in spend.items() if x not in omit)>cap:valid=False
     assert valid==expected,('budget',spend,pools,base);scenarios+=1
 assert any('Skaven' in n for n in f) and any('Black-Flag' in n for n in f)
-report=dict(status='PASS',structural_and_source_checks=checks,budget_allocation_scenarios=scenarios,new_recruit_runtime_test='Not completed; browser local-folder picker unavailable',source_gaps=cov['source_gaps'])
+report=dict(status='PASS',structural_and_source_checks=checks,budget_allocation_scenarios=scenarios,new_recruit_runtime_test='GitHub installation, faction selection and manual roster creation passed. Guided setup retest, complete roster validation and card export remain pending.',source_gaps=cov['source_gaps'])
 (R/'homebrew/validation-results.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
