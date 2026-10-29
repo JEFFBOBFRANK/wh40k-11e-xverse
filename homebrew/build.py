@@ -53,15 +53,17 @@ def group(o,n,key,mini=0,maxi=1):
 G=load('Warhammer 40,000.json')['gameSystem']
 BASE=load('Imperium - Agents of the Imperium.json')['catalogue']
 C=copy.deepcopy(BASE)
-C.update(name='Imperium - Agents of the Imperium (Homebrew v0.9.2)',revision=BASE['revision']+1,gameSystemId=NEW_SYS,selectionEntries=[],entryLinks=[])
+C.update(name='Imperium - Agents of the Imperium (Homebrew v0.9.2)',revision=BASE['revision']+2,gameSystemId=NEW_SYS,selectionEntries=[],entryLinks=[])
 C['readme']='Agents of the Imperium v0.9.2 homebrew. See README.md and homebrew/VALIDATION.md. Select Army Roster, Battle Size, Detachments and Force Disposition. Requisitions retain parent datasheets. This is an unofficial playtest catalogue.'
 for l in C.get('catalogueLinks',[]):l['importRootEntries']=False
 CATS={x['name'].upper():x['id'] for x in G['categoryEntries']+C.get('categoryEntries',[])}
 def catid(n):
+    n=n.strip()
     if n.upper() not in CATS:
         cid=uid('category:'+n.upper());CATS[n.upper()]=cid;append(C,'categoryEntries',dict(name=n,id=cid,hidden=False))
     return CATS[n.upper()]
 def tag(o,n,primary=False):
+    n=n.strip()
     cid=catid(n);append(o,'categoryLinks',dict(name=n,id=uid(o['id']+':cat:'+n),targetId=cid,primary=primary,hidden=False));return cid
 TYPES={p['name']:p for p in G['profileTypes']}
 def profile(n,kind,values,key):
@@ -79,17 +81,34 @@ for d in SRC['detachments']:
     e=entry(d['name'],'detachment:'+d['name']);maxn(e,1,e['id']+'max');cost(e,DP,d['dp'])
     for disp in d['dispositions']:tag(e,disp)
     if d['dp']==3:tag(e,'3DP Detachment')
-    if d['ordo']:tag(e,'Unique: ORDO')
+    if d['ordo']:
+        tag(e,'Unique: ORDO')
+        ability(e,'Unique: ORDO','An army can include only one Detachment with Unique: ORDO.')
+        # Also cap each entry when another Ordo is already selected. This
+        # prevents a second choice and flags invalid combinations in old lists.
+        append(e,'modifiers',dict(field=e['constraints'][0]['id'],type='set',value=0,conditionGroups=[dict(type='or',conditions=[condition(DETIDS[other['name']],scope='roster') for other in SRC['detachments'] if other['ordo'] and other['name']!=d['name']])]))
+    ability(e,'Force Dispositions',', '.join(x.strip() for x in d['dispositions'])+'. Select one available Force Disposition for the army.')
     for r in d['rules']:ability(e,r['name'],r['text'])
-    for s in d['stratagems']:ability(e,s['name']+' / '+str(s['cost'])+' CP',s['text'])
     append(dg,'selectionEntries',e)
 # One Ordo across all selected detachments.
-ordo=tag(detconfig,'Unique: ORDO')
-detconfig['categoryLinks'][-1]['constraints']=[con('only-one-ordo','max',1,'force',children=True)]
+ordo=catid('Unique: ORDO')
+next(x for x in C['categoryEntries'] if x['id']==ordo)['constraints']=[con('only-one-ordo','max',1,'roster',children=True)]
 root(detconfig)
 ref=entry('Army Rules and References','references');tag(ref,'Reference',True);exact(ref,1,'reference-exact')
-for r in SRC['references']:ability(ref,r['name'],r['text'])
+from reference_format import reference_text
+for r in SRC['references']:
+    append(ref,'rules',dict(name=r['name'],id=uid(ref['id']+r['name']),hidden=False,description=reference_text(r)))
 root(ref)
+# Stratagems remain available in their own reference, away from the
+# detachment selection's rules view. Only selected detachments contribute.
+stratref=entry('Stratagem References','stratagem-references');tag(stratref,'Reference',True);exact(stratref,1,'stratagem-reference-exact')
+for d in SRC['detachments']:
+    e=entry(d['name']+' Stratagems','stratagem-reference:'+d['name']);exact(e,1,e['id']+'required')
+    e['hidden']=True;e['modifiers']=[mod('hidden',False,[condition(DETIDS[d['name']])])]
+    for s in d['stratagems']:
+        append(e,'rules',dict(name=s['name']+' / '+str(s['cost'])+' CP',id=uid(e['id']+s['name']),hidden=False,description=reference_text(dict(name=s['name'],text=s['text']))))
+    append(stratref,'selectionEntries',e)
+root(stratref)
 
 # Writ definitions are shared so the once-per-army limit applies across bearers.
 WRITS=[]
@@ -586,7 +605,7 @@ for u,e in zip(SRC['units'],NATIVE):
 
 # Shared universal rules and faction references follow the tutorial's card
 # structure. Bespoke datasheet abilities remain Abilities profiles.
-armyrule=dict(name='Imperial Authority',id=uid('imperial-authority-rule'),hidden=False,description=next(r['text'] for r in SRC['references'] if r['page']==4))
+armyrule=dict(name='Imperial Authority',id=uid('imperial-authority-rule'),hidden=False,description=reference_text(next(r for r in SRC['references'] if r['page']==4)))
 append(C,'sharedRules',armyrule)
 coreindex={r['name'].lower():r for r in G.get('sharedRules',[])}
 for e in NATIVE:
@@ -651,7 +670,7 @@ for node in walk(R):
 for f in UP.glob('*.json'):
     if f.name in ['Warhammer 40,000.json','Imperium - Agents of the Imperium.json']:continue
     (REPO/f.name).write_bytes(f.read_bytes())
-G['id']=NEW_SYS;G['revision']+=1
+G['id']=NEW_SYS;G['revision']+=2
 for node in walk(G):
     if node.get('name')=='3. Onslaught (3000 Point limit)':node['hidden']=False
     if node.get('name')=='Army Roster':node['readme']=node.get('readme','')+'\n\nAgents homebrew v0.9.2: see homebrew/VALIDATION.md for source gaps and validation status.'

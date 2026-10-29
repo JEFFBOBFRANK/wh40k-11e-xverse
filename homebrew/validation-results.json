@@ -1,8 +1,9 @@
 {
   "status": "PASS",
-  "structural_and_source_checks": 32252,
+  "structural_and_source_checks": 32401,
   "budget_allocation_scenarios": 6300,
-  "new_recruit_runtime_test": "GitHub installation, faction selection and manual roster creation passed. Guided setup retest, complete roster validation and card export remain pending.",
+  "detachment_configuration_scenarios": 3214,
+  "new_recruit_runtime_test": "Initial GitHub installation, faction selection and manual roster creation passed. This revision fixes Ordo Unique, disposition categories and reference formatting; live regression verification is recorded in VALIDATION.md. Complete roster validation and card export remain pending.",
   "source_gaps": [
     {
       "unit": "Voidship Ogryn Boarders",

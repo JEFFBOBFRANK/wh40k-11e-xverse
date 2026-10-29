@@ -11,7 +11,15 @@ This catalogue transcribes the user's complete Agents of the Imperium v0.9.2 cod
 
 ## Checks completed
 
-32,252 structural and source checks passed: catalogue links, profile types, defaults, root visibility structure, primary categories, native stats, source weapon values, both squad points tiers, retainer nesting, detachment DP and Stratagem text. 6,300 independent allowance-allocation scenarios passed. See `validation-results.json`.
+Structural and source checks cover catalogue links, profile types, defaults, root visibility structure, primary categories, native stats, source weapon values, both squad points tiers, retainer nesting, detachment DP and Stratagem text. 6,300 independent allowance-allocation scenarios and 3,214 detachment combinations (zero to four detachments) test Requisition budgets, disposition unions, and Ordo Unique restrictions. Exact check counts are in `validation-results.json`.
+
+## Detachment and reference fixes
+
+- Strip PDF whitespace from category names so all 17 detachments unlock the standard dispositions shown in the codex.
+- Count the nine selected Ordo detachments under a roster-wide **Unique: ORDO** maximum of one, and cap each Ordo choice at zero when another Ordo is selected. Non-Ordo detachments do not consume this allowance.
+- Remove Stratagem profiles from each detachment's rules view. A separate **Stratagem References** selection shows the selected detachments' Stratagems; costs and rules are retained.
+- Display army references as named Rules with paragraphs, labels and readable lists, instead of a single Abilities table containing PDF line breaks.
+- Increase catalogue and system revisions to invalidate older cached data.
 
 Live New Recruit smoke checks passed for GitHub installation, faction selection, and manual Army Roster creation, with native units and gated Requisitions visible. The guided setup initially skipped Detachment; the entry/group names were corrected to the standard `Detachment` names. Retesting guided setup against refreshed data remains pending. If the wizard offers no Force Disposition choices, go Back and select **Skip the guided setup and create the list right away**, then configure Battle Size, Detachment and Force Disposition in the roster. Full list validation and 40k Card exports still require testing.
 
