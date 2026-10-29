@@ -1,26 +1,29 @@
-Warhammer 40,000: 11th Edition
-==============================
+# Xverse — Warhammer 40,000 11e homebrew
 
-[![Open bugs](https://img.shields.io/github/issues/BSData/TemplateDataRepo/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/wh40k-11e/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Contributors](https://img.shields.io/github/contributors/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/BSData/wh40k-11e/graphs/contributors)
-[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/BSData/wh40k-11e/pulse/monthly)
+This fork includes Skaven, Black-Flag and a playtest Agents of the Imperium v0.9.2 catalogue.
 
-[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://www.bsdata.net/discord)
+## Install in New Recruit
 
-## Overview ##
+1. Open **Games → Add more games → Add from Github**.
+2. Choose **Latest Commit (Head)**.
+3. Enter `https://github.com/JEFFBOBFRANK/wh40k-11e-xverse` and add the game.
+4. Create a list using **Imperium - Agents of the Imperium (Homebrew v0.9.2)** and **Army Roster**.
+5. Select Battle Size, Detachments and one Force Disposition. Add native units or Requisitions as permitted by the selected detachments.
 
-__What's this?__
+If this fork is already installed, refresh its data. Existing official Agents lists may need rebuilding because the native roster has changed.
 
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by any company/publisher.
+## Agents build status
 
-__I found a bug!__ / *I have another request*
+58 native datasheets; 23 household retainers; 17 detachments; 46 Enhancements/Upgrades. Parent datasheets are included for Requisitions.
 
-Great, thank you! Please [Report a bug][bug report] - you can also suggest enhancements and raise other issues there.
+**Playtest build:** structural/source checks passed, but live roster and card-export testing is pending. Five unit model counts are provisional. Read [validation notes](homebrew/VALIDATION.md) before use. This catalogue replaces the Agents root roster, including its behavior when imported by other Imperial catalogues.
 
-## Links ##
+Skaven and Black-Flag catalogue files are preserved. No automatic upstream updates are enabled.
 
-* [BSData organization homepage][BSData.net]
+## Sources
 
-[BSData.net]: https://www.bsdata.net/
-[bug report]: https://github.com/BSData/wh40k-11e/issues/new/choose
+- Original data: https://github.com/BSData/wh40k-11e
+- Authoring tutorial: https://github.com/DerTanteKethe/custom40k-homebrew-system/wiki/NewRecruit-Data-Author-Tutorial
+- Agents rules: the user's complete homebrew codex v0.9.2, transcribed in `homebrew/source-data.json`.
+
+Unofficial fan content; not endorsed by Games Workshop or New Recruit. Parent publications remain authoritative for requisitioned datasheets and points. A rebuild script and validation script are provided in `homebrew/`.
