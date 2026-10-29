@@ -4,9 +4,9 @@
     "id": "b00-cd86-4b4c-97ba",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-352e-adc2-7639-d610",
-    "gameSystemRevision": 1,
+    "gameSystemRevision": 20,
     "library": false,
-    "revision": 17,
+    "revision": 18,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -768,32 +768,6 @@
         "type": "selectionEntry",
         "hidden": false,
         "import": true
-      },
-      {
-        "name": "Saint Celestine (Requisitioned)",
-        "id": "61f6-5f9e-9e82-7994",
-        "targetId": "c931-1810-be57-6572",
-        "type": "selectionEntry",
-        "hidden": true,
-        "import": true,
-        "modifiers": [
-          {
-            "field": "hidden",
-            "value": false,
-            "type": "set",
-            "conditions": [
-              {
-                "childId": "58b2-0faf-a945-0c87",
-                "field": "selections",
-                "scope": "force",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          }
-        ]
       },
       {
         "name": "Seraphim Squad (Requisitioned)",
@@ -1952,6 +1926,32 @@
         ]
       },
       {
+        "name": "Cadian Command Squad (Requisitioned)",
+        "id": "c855-de50-b503-d169",
+        "targetId": "c983-90fc-68e7-c6b9",
+        "type": "selectionEntry",
+        "hidden": true,
+        "import": true,
+        "modifiers": [
+          {
+            "field": "hidden",
+            "value": false,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "37ad-0066-d543-f00d",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Cadian Shock Troops (Requisitioned)",
         "id": "3e91-977a-e64c-2fe5",
         "targetId": "d817-9e9a-abd1-eef3",
@@ -2093,32 +2093,6 @@
         "name": "Field Ordnance Battery (Requisitioned)",
         "id": "c6c0-37e0-5623-3a8b",
         "targetId": "8852-e1de-9db9-facc",
-        "type": "selectionEntry",
-        "hidden": true,
-        "import": true,
-        "modifiers": [
-          {
-            "field": "hidden",
-            "value": false,
-            "type": "set",
-            "conditions": [
-              {
-                "childId": "37ad-0066-d543-f00d",
-                "field": "selections",
-                "scope": "force",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Gaunt’s Ghosts (Requisitioned)",
-        "id": "3aa3-7864-f28e-9968",
-        "targetId": "3aaf-ccbf-ef8d-7797",
         "type": "selectionEntry",
         "hidden": true,
         "import": true,
@@ -3906,6 +3880,58 @@
         ]
       },
       {
+        "name": "Krieg Command Squad (Requisitioned)",
+        "id": "9a40-b093-9ed3-feb8",
+        "targetId": "1fc6-b7d3-b957-8ec3",
+        "type": "selectionEntry",
+        "hidden": true,
+        "import": true,
+        "modifiers": [
+          {
+            "field": "hidden",
+            "value": false,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "37ad-0066-d543-f00d",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Catachan Command Squad (Requisitioned)",
+        "id": "4433-9b5c-03a3-5ede",
+        "targetId": "3431-0fab-e5ae-7efd",
+        "type": "selectionEntry",
+        "hidden": true,
+        "import": true,
+        "modifiers": [
+          {
+            "field": "hidden",
+            "value": false,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "37ad-0066-d543-f00d",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Rogal Dorn Commander (Requisitioned)",
         "id": "aab3-451d-8c3d-9201",
         "targetId": "d2b0-a741-fb40-d666",
@@ -4013,32 +4039,6 @@
         "name": "Artillery Team (Requisitioned)",
         "id": "9c45-36ba-1e94-97b7",
         "targetId": "76dc-31a6-86fa-cffd",
-        "type": "selectionEntry",
-        "hidden": true,
-        "import": true,
-        "modifiers": [
-          {
-            "field": "hidden",
-            "value": false,
-            "type": "set",
-            "conditions": [
-              {
-                "childId": "37ad-0066-d543-f00d",
-                "field": "selections",
-                "scope": "force",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Hell's Last [Legends] (Requisitioned)",
-        "id": "9687-1f10-71fe-6a8e",
-        "targetId": "389b-f56e-902b-f636",
         "type": "selectionEntry",
         "hidden": true,
         "import": true,
@@ -5784,6 +5784,438 @@
             ]
           }
         ]
+      },
+      {
+        "name": "The Emperor's Mandate — Coordinated Execution / 1 CP",
+        "id": "06ce-c153-91ce-aa48",
+        "hidden": false,
+        "description": "WHEN: Start of your Shooting phase. TARGET: Two friendly units that have AGENTS OF THE IMPERIUM or REQUISITIONED. The units must have different native branch keywords or different parent Faction keywords. EFFECT: Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by each model in those units by 1 when targeting the Priority Target."
+      },
+      {
+        "name": "The Emperor's Mandate — Imperial Shieldwall / 1 CP",
+        "id": "7777-2b03-4e52-0a26",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit selects its targets. TARGET: One friendly AGENTS OF THE IMPERIUM or REQUISITIONED INFANTRY unit selected as a target. EFFECT: Until the end of the phase, add 1 to armour saving throws made for models in that unit."
+      },
+      {
+        "name": "The Emperor's Mandate — Overwhelming Authority / 1 CP",
+        "id": "7fce-c986-2c45-55ae",
+        "hidden": false,
+        "description": "WHEN: Your Command phase, after taking Battle-shock tests. TARGET: One friendly Battle-shocked AGENTS OF THE IMPERIUM or REQUISITIONED unit. EFFECT: That unit is no longer Battle-shocked. Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in it, unless that characteristic is 0. This Stratagem can target a Battle-shocked unit."
+      },
+      {
+        "name": "The Emperor's Mandate — Coordinated Advance / 1 CP",
+        "id": "c8e9-be0f-328e-2e03",
+        "hidden": false,
+        "description": "WHEN: Your Movement phase, just after a friendly unit ends an Advance move. TARGET: That AGENTS OF THE IMPERIUM or REQUISITIONED INFANTRY unit. EFFECT: Until the end of the turn, that unit is eligible to shoot and declare a charge despite having Advanced."
+      },
+      {
+        "name": "The Emperor's Mandate — Contingency Orders / 1 CP",
+        "id": "b9a7-8c15-6a6f-6cd7",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move. TARGET: One friendly AGENTS OF THE IMPERIUM or REQUISITIONED INFANTRY unit within 8\" of that enemy unit and not within Engagement Range of enemy units. EFFECT: That friendly unit can make a Normal move of up to 6\"."
+      },
+      {
+        "name": "The Emperor's Mandate — Reassignment of Assets / 1 CP",
+        "id": "8425-140f-49e0-3fe7",
+        "hidden": false,
+        "description": "WHEN: End of your opponent's turn. TARGET: One friendly AGENTS OF THE IMPERIUM or REQUISITIONED INFANTRY unit more than 8\" horizontally from all enemy models. EFFECT: Remove that unit from the battlefield and place it into Strategic Reserves."
+      },
+      {
+        "name": "Purgation Force — Promethium Storm / 1 CP",
+        "id": "2a4c-5c51-d37b-a009",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS unit. EFFECT: Until the end of the phase, add 1 to the Strength characteristic and improve the Armour Penetration characteristic by 1 for Torrent weapons equipped by each qualifying model in that unit."
+      },
+      {
+        "name": "Purgation Force — Exploit Their Terror / 1 CP",
+        "id": "367c-1290-ac8e-1720",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly unit is selected to shoot or fight. TARGET: One friendly INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS unit. EFFECT: Until the end of the phase, each time an INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS model in that unit attacks a Battle-shocked unit, add 1 to the Wound roll."
+      },
+      {
+        "name": "Purgation Force — Faith Against Fury / 1 CP",
+        "id": "fcf2-687f-27c1-9bb2",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets. TARGET: One friendly INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS INFANTRY unit selected as a target. EFFECT: Until the end of the phase, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack, to a minimum of 1."
+      },
+      {
+        "name": "Purgation Force — Relentless Purgation / 1 CP",
+        "id": "9734-cb27-3eec-119c",
+        "hidden": false,
+        "description": "WHEN: Your Movement phase, just after a friendly unit ends a Fall Back move. TARGET: One friendly INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS unit. EFFECT: Until the end of the turn, that unit is eligible to shoot and declare a charge despite having Fallen Back."
+      },
+      {
+        "name": "Purgation Force — Burn Them As They Flee / 1 CP",
+        "id": "e659-ae0b-c02d-969d",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Movement phase, just after an enemy unit ends a Fall Back move. TARGET: One friendly INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS INFANTRY unit that was within Engagement Range of that enemy unit at the start of the phase and is eligible to shoot. EFFECT: That friendly unit can shoot as if it were your Shooting phase, targeting only the enemy unit that Fell Back. Resolve those attacks immediately, following normal range, visibility and targeting restrictions."
+      },
+      {
+        "name": "Purgation Force — The Martyrs' Sentence / 1 CP",
+        "id": "3ceb-9581-1755-c807",
+        "hidden": false,
+        "description": "WHEN: The Fight phase, just after an enemy unit selects its targets. TARGET: One friendly INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS INFANTRY unit selected as a target. EFFECT: Until the end of the phase, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6. On a 4+, do not remove it yet. After the attacking unit has fought, that destroyed model can fight, then is removed. Each destroyed model can fight only once."
+      },
+      {
+        "name": "Xenocide Force — Adaptive Rearmament / 1 CP",
+        "id": "83a3-b590-0054-33fc",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION or ORDO XENOS unit. EFFECT: Select Lethal Hits or Sustained Hits 1. Until the end of the phase, ranged weapons equipped by each INQUISITION or ORDO XENOS model in that unit have that ability."
+      },
+      {
+        "name": "Xenocide Force — Surgical Interdiction / 1 CP",
+        "id": "a94e-a101-add9-1993",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION or ORDO XENOS unit. EFFECT: After that unit has shot, select one enemy unit hit by its attacks. Until the end of the turn, that enemy unit cannot be selected as a target of Fire Overwatch or Heroic Intervention."
+      },
+      {
+        "name": "Xenocide Force — Hunter's Reposition / 1 CP",
+        "id": "2a01-f190-0488-5af4",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, just after a friendly unit has shot. TARGET: That friendly INQUISITION or ORDO XENOS INFANTRY unit, if it is not within Engagement Range of enemy units. EFFECT: That unit can make a Normal move of up to 6\". It cannot declare a charge this turn."
+      },
+      {
+        "name": "Xenocide Force — Experimental Ammunition / 1 CP",
+        "id": "9a10-9b20-547f-e981",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION or ORDO XENOS unit. EFFECT: Until the end of the phase, add 6\" to the Range characteristic and improve the Armour Penetration characteristic by 1 of ranged weapons equipped by each INQUISITION or ORDO XENOS model in that unit."
+      },
+      {
+        "name": "Xenocide Force — Cut Down the Quarry / 1 CP",
+        "id": "4b1b-16ac-3d89-a17d",
+        "hidden": false,
+        "description": "WHEN: The Fight phase, when a friendly unit is selected to fight. TARGET: One friendly INQUISITION or ORDO XENOS unit. EFFECT: Until the end of the phase, each time an INQUISITION or ORDO XENOS model in that unit makes an attack targeting the Priority Target, add 1 to the Wound roll."
+      },
+      {
+        "name": "Xenocide Force — Return To the Conclave / 1 CP",
+        "id": "ea9f-d8e8-7dbd-3ba1",
+        "hidden": false,
+        "description": "WHEN: End of your opponent's turn. TARGET: One friendly INQUISITION or ORDO XENOS INFANTRY unit not within Engagement Range of enemy units. EFFECT: Remove that unit from the battlefield and place it into Strategic Reserves. Until the end of your next Movement phase, that unit has Deep Strike."
+      },
+      {
+        "name": "Daemonhunt Force — Truesilver Aegis / 1 CP",
+        "id": "29b4-9fc4-ed88-0595",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets. TARGET: One friendly INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA unit selected as a target. EFFECT: Until the end of the phase, worsen the Armour Penetration characteristic of attacks that target that unit by 1."
+      },
+      {
+        "name": "Daemonhunt Force — Sanctioned Teleportation / 1 CP",
+        "id": "9147-7f2f-c929-1a0a",
+        "hidden": false,
+        "description": "WHEN: End of your opponent's turn. TARGET: One friendly INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA INFANTRY unit not within Engagement Range of enemy units. EFFECT: Remove that unit from the battlefield and place it into Strategic Reserves. Until the end of your next Movement phase, it has Deep Strike."
+      },
+      {
+        "name": "Daemonhunt Force — Hammer Blow / 1 CP",
+        "id": "42db-3746-d870-0d55",
+        "hidden": false,
+        "description": "WHEN: Your Charge phase, just after a friendly unit ends a Charge move. TARGET: One friendly INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA unit. EFFECT: Until the end of the turn, add 1 to Wound rolls for melee attacks made by INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA models in that unit."
+      },
+      {
+        "name": "Daemonhunt Force — Psychic Confluence / 1 CP",
+        "id": "a65b-7b48-1b5d-4622",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA PSYKER INFANTRY unit. EFFECT: Until the end of the phase, add 1 to the Damage characteristic of Psychic ranged weapons equipped by each INQUISITION or ORDO MALLEUS model in that unit."
+      },
+      {
+        "name": "Daemonhunt Force — Ritual of Binding / 1 CP",
+        "id": "a90c-832e-4c9b-75ad",
+        "hidden": false,
+        "description": "WHEN: End of your Shooting phase. TARGET: One friendly INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA unit that hit an enemy unit with a Psychic attack this phase. EFFECT: Select one enemy unit hit by one of those Psychic attacks. Until the end of its next Movement phase, that enemy unit cannot Advance."
+      },
+      {
+        "name": "Daemonhunt Force — Counter-Incursion / 1 CP",
+        "id": "fea3-f771-73f6-dacb",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Movement phase, just after an enemy unit is set up from Reserves. TARGET: One friendly INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA INFANTRY unit within 12\" of that enemy unit and eligible to shoot. EFFECT: That friendly unit can shoot as if it were your Shooting phase, targeting only that enemy unit and following normal targeting restrictions."
+      },
+      {
+        "name": "Requisitioned Battle Group — Concentrated Fire / 1 CP",
+        "id": "981b-f6e0-8fff-80c0",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or ORDO MILITARUM unit. EFFECT: Until the end of the phase, add 1 to the Strength characteristic of ranged weapons equipped by each INQUISITION, ADEPTUS ARBITES or ORDO MILITARUM model in that unit."
+      },
+      {
+        "name": "Requisitioned Battle Group — Entrenched Defence / 1 CP",
+        "id": "4632-64cd-552b-fbc4",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit selects its targets. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or ORDO MILITARUM INFANTRY unit selected as a target. EFFECT: Until that enemy unit has finished making its attacks, add 1 to armour saving throws made for models in that friendly unit."
+      },
+      {
+        "name": "Requisitioned Battle Group — Tactical Withdrawal / 1 CP",
+        "id": "df5a-d1c9-8c9e-fc65",
+        "hidden": false,
+        "description": "WHEN: Your Movement phase, just after a friendly unit ends a Fall Back move. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or ORDO MILITARUM unit. EFFECT: Until the end of the turn, that unit is eligible to shoot and declare a charge despite having Fallen Back."
+      },
+      {
+        "name": "Technological Intervention — Overclocked Firepower / 1 CP",
+        "id": "bed6-de76-5ab3-6431",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION, ORDO MACHINUM or native AGENTS OF THE IMPERIUM VEHICLE unit. EFFECT: Until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by each INQUISITION, ORDO MACHINUM or native AGENTS OF THE IMPERIUM VEHICLE model in that unit. Those weapons also have Hazardous."
+      },
+      {
+        "name": "Technological Intervention — Machine Interference / 1 CP",
+        "id": "0647-9ebf-33cf-ded9",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase, when an enemy VEHICLE unit is selected to shoot. TARGET: One friendly INQUISITOR or TECH-PRIEST model that can see that enemy unit. EFFECT: Until that enemy unit has finished making its attacks, subtract 1 from its Hit rolls."
+      },
+      {
+        "name": "Technological Intervention — Emergency Restoration / 1 CP",
+        "id": "9631-9b19-49ae-60d6",
+        "hidden": false,
+        "description": "WHEN: Your Command phase. TARGET: One friendly native AGENTS OF THE IMPERIUM VEHICLE or ORDO MACHINUM VEHICLE model within 12\" of a friendly INQUISITOR or TECH-PRIEST model. EFFECT: That VEHICLE model regains up to 3 lost wounds."
+      },
+      {
+        "name": "Quarantine Force — Sterilise the Site / 1 CP",
+        "id": "c613-4d74-ce45-a1cf",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or MINISTORUM unit. EFFECT: Until the end of the phase, ranged weapons equipped by each INQUISITION, ADEPTUS ARBITES or MINISTORUM model in that unit have Ignores Cover and add 1 to their Strength characteristics."
+      },
+      {
+        "name": "Quarantine Force — Contain the Outbreak / 1 CP",
+        "id": "53b5-f65e-7f35-7765",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Movement phase, when an enemy unit is selected to Fall Back. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or MINISTORUM INFANTRY unit within Engagement Range of that enemy unit. EFFECT: That enemy unit must use the Desperate Escape mode for that Fall Back move. If it is Battle-shocked, subtract 1 from its hazard rolls."
+      },
+      {
+        "name": "Quarantine Force — Field Treatment / 1 CP",
+        "id": "9cbd-7cc4-436b-77b9",
+        "hidden": false,
+        "description": "WHEN: Your Command phase. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or MINISTORUM INFANTRY unit below its Starting Strength. EFFECT: Select one option: return up to D3+3 destroyed non-CHARACTER models with a starting Wounds characteristic of 1; return up to D3 destroyed non-CHARACTER models with a starting Wounds characteristic of 2; or return one destroyed non-CHARACTER model with a starting Wounds characteristic of 3 or more. Return the selected models at full wounds, following normal rules for returning models."
+      },
+      {
+        "name": "Chapter Intervention — Transport Assault / 1 CP",
+        "id": "0712-9151-7f7a-dd62",
+        "hidden": false,
+        "description": "WHEN: Your Movement phase, just after a friendly unit disembarks from a TRANSPORT that made a Normal move this phase. TARGET: That friendly INQUISITION, ADEPTUS ARBITES or ORDO ASTARTES INFANTRY unit. EFFECT: That unit is eligible to declare a charge this turn despite having disembarked after its TRANSPORT made a Normal move."
+      },
+      {
+        "name": "Chapter Intervention — Relentless Advance / 1 CP",
+        "id": "4662-f180-5437-fc90",
+        "hidden": false,
+        "description": "WHEN: Your Movement phase, just after a friendly unit ends an Advance move. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or ORDO ASTARTES unit. EFFECT: Until the end of the turn, that unit is eligible to shoot and declare a charge despite having Advanced."
+      },
+      {
+        "name": "Chapter Intervention — Armoured Brotherhood / 1 CP",
+        "id": "2237-ab91-1460-7d19",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or ORDO ASTARTES unit selected as a target. EFFECT: Until that enemy unit has finished making its attacks, worsen the Armour Penetration characteristic of attacks that target that friendly unit by 1."
+      },
+      {
+        "name": "Temporal Intervention — Temporal Displacement / 1 CP",
+        "id": "74ad-c6e7-03c8-f713",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit within 8\" of that enemy unit and not within Engagement Range of enemy units. EFFECT: That friendly unit can make a Normal move of up to 6\"."
+      },
+      {
+        "name": "Temporal Intervention — Foreseen Strike / 1 CP",
+        "id": "aca6-ab70-2f85-1aae",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase or the Fight phase, just before making a Hit or Wound roll for a friendly model. TARGET: The AGENTS OF THE IMPERIUM unit containing that model. EFFECT: Treat that one Hit or Wound roll as an unmodified 6 instead of rolling it."
+      },
+      {
+        "name": "Temporal Intervention — Stolen Initiative / 1 CP",
+        "id": "3047-e913-ff61-e098",
+        "hidden": false,
+        "description": "WHEN: The Fight phase, just after an enemy unit has fought. TARGET: One friendly AGENTS OF THE IMPERIUM unit within Engagement Range of enemy units that has not fought this phase. EFFECT: That friendly unit fights next."
+      },
+      {
+        "name": "Execution Directorate — Expose Their Defences / 1 CP",
+        "id": "7e16-ccac-953c-dd0b",
+        "hidden": false,
+        "description": "WHEN: Start of your Shooting phase. TARGET: One friendly INQUISITOR model. EFFECT: Select one enemy unit visible to that model. Until the end of the phase, ranged attacks made by friendly INQUISITION, ASSASSINORUM, DEATH CULT ASSASSINS, ARBITES MARKSMEN or ARBITES INTELLIGENCER models that target that enemy unit have Ignores Cover."
+      },
+      {
+        "name": "Execution Directorate — Covered Extraction / 1 CP",
+        "id": "bc81-f49a-2de3-b884",
+        "hidden": false,
+        "description": "WHEN: End of your opponent's turn. TARGET: One friendly INQUISITION, ASSASSINORUM, DEATH CULT ASSASSINS, ARBITES MARKSMEN or ARBITES INTELLIGENCER INFANTRY unit not within Engagement Range of enemy units. EFFECT: Remove that unit from the battlefield and place it into Strategic Reserves. Until the end of your next Movement phase, that unit has Deep Strike."
+      },
+      {
+        "name": "Execution Directorate — No Witnesses / 1 CP",
+        "id": "8cdc-d80b-2890-69de",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly unit is selected to shoot or fight. TARGET: One friendly INQUISITION, ASSASSINORUM, DEATH CULT ASSASSINS, ARBITES MARKSMEN or ARBITES INTELLIGENCER unit. EFFECT: Until the end of the phase, each time an INQUISITION, ASSASSINORUM, DEATH CULT ASSASSINS, ARBITES MARKSMEN or ARBITES INTELLIGENCER model in that unit attacks an enemy unit below its Starting Strength, improve the Armour Penetration characteristic of that attack by 1."
+      },
+      {
+        "name": "Imperial Cordon — Hold the Line / 1 CP",
+        "id": "c37e-0fc5-1fe6-bd1a",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets. TARGET: One friendly ADEPTUS ARBITES, INQUISITION or VOIDFARERS INFANTRY unit selected as a target. EFFECT: Until the end of the phase, add 1 to armour saving throws made for models in that friendly unit."
+      },
+      {
+        "name": "Imperial Cordon — Suppressive Enforcement / 1 CP",
+        "id": "c3cd-aeef-6c0e-1bf4",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, just after a friendly unit has shot. TARGET: One friendly ADEPTUS ARBITES, INQUISITION or VOIDFARERS unit. EFFECT: Select one enemy unit hit by an attack made by an ADEPTUS ARBITES, INQUISITION or VOIDFARERS model in that unit. Until the start of your next Command phase, that enemy unit cannot start an Action."
+      },
+      {
+        "name": "Imperial Cordon — Rapid Response / 1 CP",
+        "id": "f2ce-9576-d624-d1cf",
+        "hidden": false,
+        "description": "WHEN: End of your opponent's Movement phase. TARGET: One friendly ADEPTUS ARBITES, INQUISITION or VOIDFARERS INFANTRY unit not within Engagement Range of enemy units. EFFECT: That unit can make a Normal move of up to 6\". It must end that move within range of an objective marker."
+      },
+      {
+        "name": "Veiled Blade Elimination Force — Prime Target / 1 CP",
+        "id": "33e4-b72e-a5ac-6552",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly unit is selected to shoot or fight. TARGET: One friendly AGENTS OF THE IMPERIUM unit. EFFECT: Until the end of the phase, each time an AGENTS OF THE IMPERIUM model in that unit attacks a CHARACTER unit, you can re-roll the Wound roll. ASSASSINORUM models in that unit can re-roll the Wound roll against any target."
+      },
+      {
+        "name": "Veiled Blade Elimination Force — Orbital Oversight / 1 CP",
+        "id": "63f3-f697-99ba-22b2",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit selects its targets. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit selected as a target. EFFECT: Until the end of the phase, models in that unit can be selected as targets of ranged attacks only if the attacking model is within 18\" of that unit, or within 6\" if that unit has Lone Operative. The triggering enemy unit can select new targets. After that enemy unit has shot, if the friendly unit survives and is not within Engagement Range of enemy units, it can make a Normal move of up to 6\"."
+      },
+      {
+        "name": "Veiled Blade Elimination Force — Hyperstimms / 2 CP",
+        "id": "c3f4-03e1-971d-68d5",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets. TARGET: One friendly AGENTS OF THE IMPERIUM CHARACTER unit selected as a target. EFFECT: Until the end of the phase, add 1 to the Toughness characteristic of models in that unit. EVERSOR ASSASSIN models in it also have Feel No Pain 4+."
+      },
+      {
+        "name": "Veiled Blade Elimination Force — Blind Grenades / 1 CP",
+        "id": "a952-b894-f245-36e6",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Charge phase, just after an enemy unit declares its charge targets and before its Charge roll. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit declared as a target, if it is not within Engagement Range of enemy units. EFFECT: Subtract 1 from that Charge roll, or subtract 2 if the friendly unit contains a VINDICARE ASSASSIN model. Until the end of your next turn, that friendly unit is eligible to shoot and declare a charge despite having Fallen Back."
+      },
+      {
+        "name": "Veiled Blade Elimination Force — Will-Sapping Salvo / 1 CP",
+        "id": "2ec1-ffef-b677-6101",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit. EFFECT: Until the end of the phase, ranged weapons equipped by each AGENTS OF THE IMPERIUM model in that unit have Sustained Hits 1. The Damage characteristic of ranged weapons equipped by CULEXUS ASSASSIN models in that unit is 3."
+      },
+      {
+        "name": "Veiled Blade Elimination Force — Ensnaring Trap / 1 CP",
+        "id": "e4a8-f727-443e-771b",
+        "hidden": false,
+        "description": "WHEN: End of your opponent's Charge phase. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit eligible to declare a charge against one or more enemy units within 6\" of it. EFFECT: That unit can declare a charge against one or more eligible enemy units within 6\". It does not receive a Charge bonus this turn. Until the end of the turn, add 1 to Wound rolls for melee attacks made by CALLIDUS ASSASSIN models in that unit."
+      },
+      {
+        "name": "Warrant of Exploration — Unorthodox Arsenal / 1 CP",
+        "id": "4115-a4a4-d04b-9048",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly unit is selected to shoot or fight. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit. EFFECT: Select Lethal Hits or Sustained Hits 1. Until the end of the phase, weapons equipped by each AGENTS OF THE IMPERIUM model in that unit have the selected ability. If the unit contains a ROGUE TRADER model or is currently selected as Warranted Agents, those weapons have both abilities instead."
+      },
+      {
+        "name": "Warrant of Exploration — Expeditionary Landing / 1 CP",
+        "id": "36b5-27a7-d663-c594",
+        "hidden": false,
+        "description": "WHEN: Start of the Reinforcements step of your Movement phase. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit in Strategic Reserves. EFFECT: Until the end of the phase, that unit has Deep Strike. If it contains a ROGUE TRADER model, it cannot be selected as a target of Fire Overwatch this turn."
+      },
+      {
+        "name": "Warrant of Exploration — Claim the Prize / 1 CP",
+        "id": "9856-9c6a-6c75-5e03",
+        "hidden": false,
+        "description": "WHEN: End of the Fight phase. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit not within Engagement Range of enemy units. EFFECT: That unit can make a Normal move of up to 6\" and must end it within range of an objective marker outside your deployment zone. If it contains a ROGUE TRADER model, it can instead make a Normal move of up to 9\" with no objective or deployment-zone endpoint requirement. Normal move restrictions still apply."
+      },
+      {
+        "name": "Navis Boarding Force — Breach Their Lines / 1 CP",
+        "id": "5506-fd8a-19ca-43e2",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly VOIDFARERS, INQUISITION or ADEPTUS ARBITES INFANTRY unit that disembarked from a TRANSPORT or arrived from Reserves this turn. EFFECT: Until the end of the phase, add 1 to Wound rolls for ranged attacks made by VOIDFARERS, INQUISITION or ADEPTUS ARBITES models in that unit."
+      },
+      {
+        "name": "Navis Boarding Force — Brace For Impact / 1 CP",
+        "id": "10cb-6235-98e2-aa49",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit selects its targets. TARGET: One friendly native AGENTS OF THE IMPERIUM TRANSPORT unit selected as a target. EFFECT: Until the end of the phase, each time an attack targets that unit, if its Strength characteristic exceeds that unit's Toughness, subtract 1 from the Wound roll. If a model in that unit is destroyed this phase, add 1 to hazard rolls made for models disembarking from it as a result of its destruction, and their units do not become Battle-shocked as a result of those Emergency Disembark moves. This does not end any existing Battle-shock effect."
+      },
+      {
+        "name": "Navis Boarding Force — Combat Extraction / 1 CP",
+        "id": "bf44-74b3-cbc1-61d3",
+        "hidden": false,
+        "description": "WHEN: End of your opponent's Fight phase. TARGET: One friendly VOIDFARERS, INQUISITION or ADEPTUS ARBITES INFANTRY unit not within Engagement Range of enemy units and wholly within 6\" of a friendly native AGENTS OF THE IMPERIUM TRANSPORT model. EFFECT: That unit can embark within that TRANSPORT, provided every model is eligible and capacity permits."
+      },
+      {
+        "name": "Procession of Faith — Defiant To the End / 1 CP",
+        "id": "7ae1-0c93-f5b7-9993",
+        "hidden": false,
+        "description": "WHEN: The Fight phase, just after an enemy unit selects its targets. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or MINISTORUM INFANTRY unit selected as a target. EFFECT: Until the end of the phase, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6. On a 4+, do not remove it yet. After the attacking unit has fought, that destroyed model can fight, then is removed. Each destroyed model can fight only once."
+      },
+      {
+        "name": "Procession of Faith — Unbroken Conviction / 1 CP",
+        "id": "bfd6-1efd-9a8b-a442",
+        "hidden": false,
+        "description": "WHEN: Just after a friendly unit fails a Battle-shock test. TARGET: That friendly INQUISITION, ADEPTUS ARBITES or MINISTORUM unit. EFFECT: Treat that test as having been passed instead. This Stratagem can target a Battle-shocked unit."
+      },
+      {
+        "name": "Procession of Faith — Avenging Faith / 1 CP",
+        "id": "ed43-db9b-d1f4-8b1c",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly unit is selected to shoot or fight. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or MINISTORUM unit below its Starting Strength. EFFECT: Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by each INQUISITION, ADEPTUS ARBITES or MINISTORUM model in that unit by 1."
+      },
+      {
+        "name": "God-Engine Mandate — Coordinated Annihilation / 1 CP",
+        "id": "67f1-00d8-fee5-e7cc",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One Requisitioned ADEPTUS TITANICUS unit. EFFECT: Select one enemy unit hit by a friendly AGENTS OF THE IMPERIUM model earlier this turn. Until the end of the phase, add 1 to Wound rolls and you can re-roll Damage rolls for ranged attacks made by the Titan that target that enemy unit."
+      },
+      {
+        "name": "God-Engine Mandate — Void Shield Surge / 1 CP",
+        "id": "bb74-404f-e1f4-9917",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit selects its targets. TARGET: One Requisitioned ADEPTUS TITANICUS unit selected as a target. EFFECT: Until the end of the phase, that model has a 4+ invulnerable save against ranged attacks."
+      },
+      {
+        "name": "God-Engine Mandate — Colossal Advance / 1 CP",
+        "id": "62f3-77af-a2ff-9498",
+        "hidden": false,
+        "description": "WHEN: Your Movement phase, just after a friendly unit ends an Advance move. TARGET: That Requisitioned ADEPTUS TITANICUS unit. EFFECT: Until the end of the turn, that unit is eligible to shoot despite having Advanced."
+      },
+      {
+        "name": "God-Engine Mandate — Point-Blank Annihilation / 1 CP",
+        "id": "3f37-b8b6-ccbb-61fa",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One Requisitioned ADEPTUS TITANICUS unit. EFFECT: Until the end of the phase, that model ignores Hit-roll penalties caused by units being within Engagement Range. Its Blast weapons can target enemy units within Engagement Range of it, provided those enemy units are not also within Engagement Range of another friendly unit."
+      },
+      {
+        "name": "God-Engine Mandate — Exploit the Breach / 1 CP",
+        "id": "3031-0550-2e3e-c707",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase, just after a Requisitioned ADEPTUS TITANICUS model has shot. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit not within Engagement Range of enemy units. EFFECT: That unit can make a Normal move of up to 6\". It can still shoot and declare a charge later in the turn if otherwise eligible."
+      },
+      {
+        "name": "God-Engine Mandate — Preserve the Expedition / 1 CP",
+        "id": "2a63-62d8-94f3-ed07",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit selected as a target. EFFECT: Until the end of the phase, subtract 1 from Wound rolls for attacks that target that unit."
+      },
+      {
+        "name": "Oathsworn Lance — Fulfil the Oath / 1 CP",
+        "id": "4f03-7ed0-09e4-85d5",
+        "hidden": false,
+        "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly unit is selected to shoot or fight. TARGET: One Requisitioned IMPERIAL KNIGHTS unit. EFFECT: Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by each IMPERIAL KNIGHTS model in that unit by 1."
+      },
+      {
+        "name": "Oathsworn Lance — Noble Intercession / 1 CP",
+        "id": "be6b-25a0-cf83-76b6",
+        "hidden": false,
+        "description": "WHEN: End of your opponent's Charge phase. TARGET: One Requisitioned IMPERIAL KNIGHTS unit eligible to declare a charge against an enemy unit within 12\" that is within Engagement Range of a friendly AGENTS OF THE IMPERIUM INFANTRY unit. EFFECT: That Knight unit can declare a charge against that enemy unit. You can re-roll its Charge roll. It does not receive a Charge bonus this turn."
+      },
+      {
+        "name": "Oathsworn Lance — Honoured Advance / 1 CP",
+        "id": "a5d0-31b4-f5c4-624f",
+        "hidden": false,
+        "description": "WHEN: Your Movement phase, just after a friendly unit ends an Advance or Fall Back move. TARGET: That Requisitioned IMPERIAL KNIGHTS unit. EFFECT: Until the end of the turn, that unit is eligible to shoot and declare a charge despite having Advanced or Fallen Back."
+      },
+      {
+        "name": "Oathsworn Lance — Ion Screen / 1 CP",
+        "id": "22bb-bb7b-6c52-c1a5",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit selects its targets. TARGET: One Requisitioned IMPERIAL KNIGHTS unit selected as a target. EFFECT: Until the end of the phase, models in that unit have a 4+ invulnerable save against ranged attacks."
+      },
+      {
+        "name": "Oathsworn Lance — March of the Household / 1 CP",
+        "id": "6f27-bbbe-f162-9364",
+        "hidden": false,
+        "description": "WHEN: Your Movement phase, just after a friendly unit ends an Advance move. TARGET: That friendly AGENTS OF THE IMPERIUM INFANTRY unit. EFFECT: Until the end of the turn, that unit is eligible to shoot and declare a charge despite having Advanced."
+      },
+      {
+        "name": "Oathsworn Lance — A Knight's Vengeance / 1 CP",
+        "id": "8956-2152-2e2d-2b34",
+        "hidden": false,
+        "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit has shot and destroyed a friendly AGENTS OF THE IMPERIUM unit. TARGET: One Requisitioned IMPERIAL KNIGHTS unit eligible to shoot. EFFECT: That Knight unit can shoot with one ranged weapon as if it were your Shooting phase, targeting only that enemy unit and following normal targeting restrictions."
       },
       {
         "name": "Imperial Authority",
@@ -9494,33 +9926,13 @@
             "includeChildSelections": false
           }
         ],
-        "selectionEntries": [
+        "infoLinks": [
           {
-            "name": "The Emperor's Mandate Stratagems",
-            "id": "9fcf-300d-7f9b-3834",
+            "name": "The Emperor's Mandate — Coordinated Execution / 1 CP",
+            "id": "ec33-b13d-1000-3cb5",
+            "targetId": "06ce-c153-91ce-aa48",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
-              {
-                "id": "5813-f484-33c6-74e3",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "bba4-338b-c9ec-9886",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
             "modifiers": [
               {
                 "field": "hidden",
@@ -9538,72 +9950,139 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "The Emperor's Mandate — Imperial Shieldwall / 1 CP",
+            "id": "ba60-f16c-cc0b-4f59",
+            "targetId": "7777-2b03-4e52-0a26",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Coordinated Execution / 1 CP",
-                "id": "ffea-04a1-d447-af4c",
-                "hidden": false,
-                "description": "WHEN: Start of your Shooting phase. TARGET: Two friendly units that have AGENTS OF THE IMPERIUM or REQUISITIONED. The units must have different native branch keywords or different parent Faction keywords. EFFECT: Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by each model in those units by 1 when targeting the Priority Target."
-              },
-              {
-                "name": "Imperial Shieldwall / 1 CP",
-                "id": "a192-ed34-dde2-0cb5",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit selects its targets. TARGET: One friendly AGENTS OF THE IMPERIUM or REQUISITIONED INFANTRY unit selected as a target. EFFECT: Until the end of the phase, add 1 to armour saving throws made for models in that unit."
-              },
-              {
-                "name": "Overwhelming Authority / 1 CP",
-                "id": "e260-81bc-013b-dc52",
-                "hidden": false,
-                "description": "WHEN: Your Command phase, after taking Battle-shock tests. TARGET: One friendly Battle-shocked AGENTS OF THE IMPERIUM or REQUISITIONED unit. EFFECT: That unit is no longer Battle-shocked. Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in it, unless that characteristic is 0. This Stratagem can target a Battle-shocked unit."
-              },
-              {
-                "name": "Coordinated Advance / 1 CP",
-                "id": "8202-5114-0938-bc18",
-                "hidden": false,
-                "description": "WHEN: Your Movement phase, just after a friendly unit ends an Advance move. TARGET: That AGENTS OF THE IMPERIUM or REQUISITIONED INFANTRY unit. EFFECT: Until the end of the turn, that unit is eligible to shoot and declare a charge despite having Advanced."
-              },
-              {
-                "name": "Contingency Orders / 1 CP",
-                "id": "950c-69e5-9ec1-d8f7",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move. TARGET: One friendly AGENTS OF THE IMPERIUM or REQUISITIONED INFANTRY unit within 8\" of that enemy unit and not within Engagement Range of enemy units. EFFECT: That friendly unit can make a Normal move of up to 6\"."
-              },
-              {
-                "name": "Reassignment of Assets / 1 CP",
-                "id": "7989-c035-2ba2-76e7",
-                "hidden": false,
-                "description": "WHEN: End of your opponent's turn. TARGET: One friendly AGENTS OF THE IMPERIUM or REQUISITIONED INFANTRY unit more than 8\" horizontally from all enemy models. EFFECT: Remove that unit from the battlefield and place it into Strategic Reserves."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "2b41-3436-2be8-7361",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Purgation Force Stratagems",
-            "id": "f41f-75cb-2284-edc2",
+            "name": "The Emperor's Mandate — Overwhelming Authority / 1 CP",
+            "id": "7258-1886-5e70-f919",
+            "targetId": "7fce-c986-2c45-55ae",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "820d-ad59-6389-f88a",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "b8e3-1f88-3848-5850",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "2b41-3436-2be8-7361",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "The Emperor's Mandate — Coordinated Advance / 1 CP",
+            "id": "ed3d-45d8-8fe5-3ff2",
+            "targetId": "c8e9-be0f-328e-2e03",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "2b41-3436-2be8-7361",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "The Emperor's Mandate — Contingency Orders / 1 CP",
+            "id": "6c8d-039a-1b8d-8223",
+            "targetId": "b9a7-8c15-6a6f-6cd7",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "2b41-3436-2be8-7361",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "The Emperor's Mandate — Reassignment of Assets / 1 CP",
+            "id": "0f1e-bee3-33c4-66d2",
+            "targetId": "8425-140f-49e0-3fe7",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "2b41-3436-2be8-7361",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Purgation Force — Promethium Storm / 1 CP",
+            "id": "402d-8c91-82d7-c43e",
+            "targetId": "2a4c-5c51-d37b-a009",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -9621,72 +10100,139 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Purgation Force — Exploit Their Terror / 1 CP",
+            "id": "c052-7582-6139-bd60",
+            "targetId": "367c-1290-ac8e-1720",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Promethium Storm / 1 CP",
-                "id": "0a91-5369-d36f-9492",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS unit. EFFECT: Until the end of the phase, add 1 to the Strength characteristic and improve the Armour Penetration characteristic by 1 for Torrent weapons equipped by each qualifying model in that unit."
-              },
-              {
-                "name": "Exploit Their Terror / 1 CP",
-                "id": "92dd-5e3e-c77a-6a86",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly unit is selected to shoot or fight. TARGET: One friendly INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS unit. EFFECT: Until the end of the phase, each time an INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS model in that unit attacks a Battle-shocked unit, add 1 to the Wound roll."
-              },
-              {
-                "name": "Faith Against Fury / 1 CP",
-                "id": "7184-2846-42e0-04c3",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets. TARGET: One friendly INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS INFANTRY unit selected as a target. EFFECT: Until the end of the phase, each time an attack is allocated to a model in that unit, subtract 1 from the Damage characteristic of that attack, to a minimum of 1."
-              },
-              {
-                "name": "Relentless Purgation / 1 CP",
-                "id": "4e1c-5611-e6c5-95e1",
-                "hidden": false,
-                "description": "WHEN: Your Movement phase, just after a friendly unit ends a Fall Back move. TARGET: One friendly INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS unit. EFFECT: Until the end of the turn, that unit is eligible to shoot and declare a charge despite having Fallen Back."
-              },
-              {
-                "name": "Burn Them As They Flee / 1 CP",
-                "id": "184b-1f51-6b2c-fef6",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Movement phase, just after an enemy unit ends a Fall Back move. TARGET: One friendly INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS INFANTRY unit that was within Engagement Range of that enemy unit at the start of the phase and is eligible to shoot. EFFECT: That friendly unit can shoot as if it were your Shooting phase, targeting only the enemy unit that Fell Back. Resolve those attacks immediately, following normal range, visibility and targeting restrictions."
-              },
-              {
-                "name": "The Martyrs' Sentence / 1 CP",
-                "id": "1dcc-2dc2-94da-e3d8",
-                "hidden": false,
-                "description": "WHEN: The Fight phase, just after an enemy unit selects its targets. TARGET: One friendly INQUISITION, MINISTORUM, ADEPTUS ARBITES or ORDO HERETICUS INFANTRY unit selected as a target. EFFECT: Until the end of the phase, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6. On a 4+, do not remove it yet. After the attacking unit has fought, that destroyed model can fight, then is removed. Each destroyed model can fight only once."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "58b2-0faf-a945-0c87",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Xenocide Force Stratagems",
-            "id": "ef70-4cc8-aff9-50de",
+            "name": "Purgation Force — Faith Against Fury / 1 CP",
+            "id": "0fc7-dd51-357f-3535",
+            "targetId": "fcf2-687f-27c1-9bb2",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "ff2f-c3d8-410d-a79d",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "3ccd-7177-28d2-9e58",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "58b2-0faf-a945-0c87",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Purgation Force — Relentless Purgation / 1 CP",
+            "id": "ae0e-cfa2-64b4-3db2",
+            "targetId": "9734-cb27-3eec-119c",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "58b2-0faf-a945-0c87",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Purgation Force — Burn Them As They Flee / 1 CP",
+            "id": "3960-5dcd-c280-6139",
+            "targetId": "e659-ae0b-c02d-969d",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "58b2-0faf-a945-0c87",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Purgation Force — The Martyrs' Sentence / 1 CP",
+            "id": "d0be-a750-e87e-f17f",
+            "targetId": "3ceb-9581-1755-c807",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "58b2-0faf-a945-0c87",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Xenocide Force — Adaptive Rearmament / 1 CP",
+            "id": "0d30-3457-e0b3-7200",
+            "targetId": "83a3-b590-0054-33fc",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -9704,72 +10250,139 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Xenocide Force — Surgical Interdiction / 1 CP",
+            "id": "a2f1-9dfd-5d9c-e600",
+            "targetId": "a94e-a101-add9-1993",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Adaptive Rearmament / 1 CP",
-                "id": "9394-759e-83d3-ed7e",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION or ORDO XENOS unit. EFFECT: Select Lethal Hits or Sustained Hits 1. Until the end of the phase, ranged weapons equipped by each INQUISITION or ORDO XENOS model in that unit have that ability."
-              },
-              {
-                "name": "Surgical Interdiction / 1 CP",
-                "id": "f18e-6d18-ca74-c956",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION or ORDO XENOS unit. EFFECT: After that unit has shot, select one enemy unit hit by its attacks. Until the end of the turn, that enemy unit cannot be selected as a target of Fire Overwatch or Heroic Intervention."
-              },
-              {
-                "name": "Hunter's Reposition / 1 CP",
-                "id": "dfe1-e056-f6e6-dda4",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, just after a friendly unit has shot. TARGET: That friendly INQUISITION or ORDO XENOS INFANTRY unit, if it is not within Engagement Range of enemy units. EFFECT: That unit can make a Normal move of up to 6\". It cannot declare a charge this turn."
-              },
-              {
-                "name": "Experimental Ammunition / 1 CP",
-                "id": "b5be-48e5-dfbf-68ac",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION or ORDO XENOS unit. EFFECT: Until the end of the phase, add 6\" to the Range characteristic and improve the Armour Penetration characteristic by 1 of ranged weapons equipped by each INQUISITION or ORDO XENOS model in that unit."
-              },
-              {
-                "name": "Cut Down the Quarry / 1 CP",
-                "id": "4067-b398-b248-c62f",
-                "hidden": false,
-                "description": "WHEN: The Fight phase, when a friendly unit is selected to fight. TARGET: One friendly INQUISITION or ORDO XENOS unit. EFFECT: Until the end of the phase, each time an INQUISITION or ORDO XENOS model in that unit makes an attack targeting the Priority Target, add 1 to the Wound roll."
-              },
-              {
-                "name": "Return To the Conclave / 1 CP",
-                "id": "4bfc-efaf-b514-dcb3",
-                "hidden": false,
-                "description": "WHEN: End of your opponent's turn. TARGET: One friendly INQUISITION or ORDO XENOS INFANTRY unit not within Engagement Range of enemy units. EFFECT: Remove that unit from the battlefield and place it into Strategic Reserves. Until the end of your next Movement phase, that unit has Deep Strike."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "bb72-5d65-184a-0eb4",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Daemonhunt Force Stratagems",
-            "id": "661f-ebbf-5bf3-9477",
+            "name": "Xenocide Force — Hunter's Reposition / 1 CP",
+            "id": "1f64-89f7-beaf-1d42",
+            "targetId": "2a01-f190-0488-5af4",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "a532-dd2f-7791-aea3",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "622d-7024-803a-fd3c",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "bb72-5d65-184a-0eb4",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Xenocide Force — Experimental Ammunition / 1 CP",
+            "id": "9874-3e10-6d47-4a27",
+            "targetId": "9a10-9b20-547f-e981",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "bb72-5d65-184a-0eb4",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Xenocide Force — Cut Down the Quarry / 1 CP",
+            "id": "2d4d-e27f-5bd9-3cf0",
+            "targetId": "4b1b-16ac-3d89-a17d",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "bb72-5d65-184a-0eb4",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Xenocide Force — Return To the Conclave / 1 CP",
+            "id": "99da-9c42-0320-8a3b",
+            "targetId": "ea9f-d8e8-7dbd-3ba1",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "bb72-5d65-184a-0eb4",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Daemonhunt Force — Truesilver Aegis / 1 CP",
+            "id": "0f4e-df2b-6667-f06a",
+            "targetId": "29b4-9fc4-ed88-0595",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -9787,72 +10400,139 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Daemonhunt Force — Sanctioned Teleportation / 1 CP",
+            "id": "cca4-fe8a-5be3-b26b",
+            "targetId": "9147-7f2f-c929-1a0a",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Truesilver Aegis / 1 CP",
-                "id": "b148-b853-fde6-48bb",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets. TARGET: One friendly INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA unit selected as a target. EFFECT: Until the end of the phase, worsen the Armour Penetration characteristic of attacks that target that unit by 1."
-              },
-              {
-                "name": "Sanctioned Teleportation / 1 CP",
-                "id": "574a-eacf-a6b5-152a",
-                "hidden": false,
-                "description": "WHEN: End of your opponent's turn. TARGET: One friendly INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA INFANTRY unit not within Engagement Range of enemy units. EFFECT: Remove that unit from the battlefield and place it into Strategic Reserves. Until the end of your next Movement phase, it has Deep Strike."
-              },
-              {
-                "name": "Hammer Blow / 1 CP",
-                "id": "6de3-5a48-34c1-3ac2",
-                "hidden": false,
-                "description": "WHEN: Your Charge phase, just after a friendly unit ends a Charge move. TARGET: One friendly INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA unit. EFFECT: Until the end of the turn, add 1 to Wound rolls for melee attacks made by INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA models in that unit."
-              },
-              {
-                "name": "Psychic Confluence / 1 CP",
-                "id": "d2ec-6754-4837-41f6",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA PSYKER INFANTRY unit. EFFECT: Until the end of the phase, add 1 to the Damage characteristic of Psychic ranged weapons equipped by each INQUISITION or ORDO MALLEUS model in that unit."
-              },
-              {
-                "name": "Ritual of Binding / 1 CP",
-                "id": "b8f5-ce19-8102-33ff",
-                "hidden": false,
-                "description": "WHEN: End of your Shooting phase. TARGET: One friendly INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA unit that hit an enemy unit with a Psychic attack this phase. EFFECT: Select one enemy unit hit by one of those Psychic attacks. Until the end of its next Movement phase, that enemy unit cannot Advance."
-              },
-              {
-                "name": "Counter-Incursion / 1 CP",
-                "id": "93d8-a5bc-a86c-a951",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Movement phase, just after an enemy unit is set up from Reserves. TARGET: One friendly INQUISITION, ORDO MALLEUS or ANATHEMA PSYKANA INFANTRY unit within 12\" of that enemy unit and eligible to shoot. EFFECT: That friendly unit can shoot as if it were your Shooting phase, targeting only that enemy unit and following normal targeting restrictions."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "287a-527d-3edb-4beb",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Requisitioned Battle Group Stratagems",
-            "id": "b2a1-74d7-ff32-3daa",
+            "name": "Daemonhunt Force — Hammer Blow / 1 CP",
+            "id": "60f9-593d-a72e-f58d",
+            "targetId": "42db-3746-d870-0d55",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "67e0-b33d-4fa7-e85e",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "7ccd-4cbd-783c-17c4",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "287a-527d-3edb-4beb",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Daemonhunt Force — Psychic Confluence / 1 CP",
+            "id": "ae14-1bd7-5393-18ca",
+            "targetId": "a65b-7b48-1b5d-4622",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "287a-527d-3edb-4beb",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Daemonhunt Force — Ritual of Binding / 1 CP",
+            "id": "fe6a-3b3b-5d88-344a",
+            "targetId": "a90c-832e-4c9b-75ad",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "287a-527d-3edb-4beb",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Daemonhunt Force — Counter-Incursion / 1 CP",
+            "id": "67a0-a7e2-58c7-b04c",
+            "targetId": "fea3-f771-73f6-dacb",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "287a-527d-3edb-4beb",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Requisitioned Battle Group — Concentrated Fire / 1 CP",
+            "id": "a0d4-b45b-1aaf-08c0",
+            "targetId": "981b-f6e0-8fff-80c0",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -9870,54 +10550,64 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Requisitioned Battle Group — Entrenched Defence / 1 CP",
+            "id": "57c4-8219-7e03-b93b",
+            "targetId": "4632-64cd-552b-fbc4",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Concentrated Fire / 1 CP",
-                "id": "583a-3669-a9cc-bd62",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or ORDO MILITARUM unit. EFFECT: Until the end of the phase, add 1 to the Strength characteristic of ranged weapons equipped by each INQUISITION, ADEPTUS ARBITES or ORDO MILITARUM model in that unit."
-              },
-              {
-                "name": "Entrenched Defence / 1 CP",
-                "id": "a7ed-90a7-b196-94bb",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit selects its targets. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or ORDO MILITARUM INFANTRY unit selected as a target. EFFECT: Until that enemy unit has finished making its attacks, add 1 to armour saving throws made for models in that friendly unit."
-              },
-              {
-                "name": "Tactical Withdrawal / 1 CP",
-                "id": "58de-b587-6587-c502",
-                "hidden": false,
-                "description": "WHEN: Your Movement phase, just after a friendly unit ends a Fall Back move. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or ORDO MILITARUM unit. EFFECT: Until the end of the turn, that unit is eligible to shoot and declare a charge despite having Fallen Back."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "37ad-0066-d543-f00d",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Technological Intervention Stratagems",
-            "id": "09c4-e2c7-881a-8bfb",
+            "name": "Requisitioned Battle Group — Tactical Withdrawal / 1 CP",
+            "id": "b6cc-a5cb-07bb-6299",
+            "targetId": "df5a-d1c9-8c9e-fc65",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "f218-6552-7cf9-726b",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "abe4-7d0b-8ce1-7f93",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "37ad-0066-d543-f00d",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Technological Intervention — Overclocked Firepower / 1 CP",
+            "id": "439a-6155-4cb3-de35",
+            "targetId": "bed6-de76-5ab3-6431",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -9935,54 +10625,64 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Technological Intervention — Machine Interference / 1 CP",
+            "id": "54e9-2592-3baf-0208",
+            "targetId": "0647-9ebf-33cf-ded9",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Overclocked Firepower / 1 CP",
-                "id": "5f3f-a02a-10b5-13b9",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION, ORDO MACHINUM or native AGENTS OF THE IMPERIUM VEHICLE unit. EFFECT: Until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by each INQUISITION, ORDO MACHINUM or native AGENTS OF THE IMPERIUM VEHICLE model in that unit. Those weapons also have Hazardous."
-              },
-              {
-                "name": "Machine Interference / 1 CP",
-                "id": "8edd-38b0-86fb-9a23",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase, when an enemy VEHICLE unit is selected to shoot. TARGET: One friendly INQUISITOR or TECH-PRIEST model that can see that enemy unit. EFFECT: Until that enemy unit has finished making its attacks, subtract 1 from its Hit rolls."
-              },
-              {
-                "name": "Emergency Restoration / 1 CP",
-                "id": "bc44-101b-1a77-ab7a",
-                "hidden": false,
-                "description": "WHEN: Your Command phase. TARGET: One friendly native AGENTS OF THE IMPERIUM VEHICLE or ORDO MACHINUM VEHICLE model within 12\" of a friendly INQUISITOR or TECH-PRIEST model. EFFECT: That VEHICLE model regains up to 3 lost wounds."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "4c17-ffc0-7e86-a709",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Quarantine Force Stratagems",
-            "id": "5ad2-827a-9404-3a92",
+            "name": "Technological Intervention — Emergency Restoration / 1 CP",
+            "id": "40fb-a7a9-c63a-5d38",
+            "targetId": "9631-9b19-49ae-60d6",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "4a5f-665a-89a7-4c1a",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "b8da-b3c3-4be8-43d0",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "4c17-ffc0-7e86-a709",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Quarantine Force — Sterilise the Site / 1 CP",
+            "id": "fe93-f371-d7fc-1334",
+            "targetId": "c613-4d74-ce45-a1cf",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -10000,54 +10700,64 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Quarantine Force — Contain the Outbreak / 1 CP",
+            "id": "babd-dd58-9c44-b59a",
+            "targetId": "53b5-f65e-7f35-7765",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Sterilise the Site / 1 CP",
-                "id": "d830-954e-1d04-8e88",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or MINISTORUM unit. EFFECT: Until the end of the phase, ranged weapons equipped by each INQUISITION, ADEPTUS ARBITES or MINISTORUM model in that unit have Ignores Cover and add 1 to their Strength characteristics."
-              },
-              {
-                "name": "Contain the Outbreak / 1 CP",
-                "id": "7649-17db-180c-9e74",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Movement phase, when an enemy unit is selected to Fall Back. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or MINISTORUM INFANTRY unit within Engagement Range of that enemy unit. EFFECT: That enemy unit must use the Desperate Escape mode for that Fall Back move. If it is Battle-shocked, subtract 1 from its hazard rolls."
-              },
-              {
-                "name": "Field Treatment / 1 CP",
-                "id": "9fc2-668a-c16d-ff7d",
-                "hidden": false,
-                "description": "WHEN: Your Command phase. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or MINISTORUM INFANTRY unit below its Starting Strength. EFFECT: Select one option: return up to D3+3 destroyed non-CHARACTER models with a starting Wounds characteristic of 1; return up to D3 destroyed non-CHARACTER models with a starting Wounds characteristic of 2; or return one destroyed non-CHARACTER model with a starting Wounds characteristic of 3 or more. Return the selected models at full wounds, following normal rules for returning models."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "e568-cc60-74ad-a21a",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Chapter Intervention Stratagems",
-            "id": "6678-2a12-0fc4-2795",
+            "name": "Quarantine Force — Field Treatment / 1 CP",
+            "id": "8b3a-74f9-b287-78e1",
+            "targetId": "9cbd-7cc4-436b-77b9",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "36d9-d898-5372-d920",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "6e09-7500-b7db-c663",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "e568-cc60-74ad-a21a",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Chapter Intervention — Transport Assault / 1 CP",
+            "id": "3a0a-e76a-d5a7-fc9b",
+            "targetId": "0712-9151-7f7a-dd62",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -10065,54 +10775,64 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Chapter Intervention — Relentless Advance / 1 CP",
+            "id": "02e2-b268-f8ec-fdc1",
+            "targetId": "4662-f180-5437-fc90",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Transport Assault / 1 CP",
-                "id": "249f-1c3f-2351-4c62",
-                "hidden": false,
-                "description": "WHEN: Your Movement phase, just after a friendly unit disembarks from a TRANSPORT that made a Normal move this phase. TARGET: That friendly INQUISITION, ADEPTUS ARBITES or ORDO ASTARTES INFANTRY unit. EFFECT: That unit is eligible to declare a charge this turn despite having disembarked after its TRANSPORT made a Normal move."
-              },
-              {
-                "name": "Relentless Advance / 1 CP",
-                "id": "0a2f-6022-7044-439d",
-                "hidden": false,
-                "description": "WHEN: Your Movement phase, just after a friendly unit ends an Advance move. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or ORDO ASTARTES unit. EFFECT: Until the end of the turn, that unit is eligible to shoot and declare a charge despite having Advanced."
-              },
-              {
-                "name": "Armoured Brotherhood / 1 CP",
-                "id": "80f2-343a-fa3a-b216",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or ORDO ASTARTES unit selected as a target. EFFECT: Until that enemy unit has finished making its attacks, worsen the Armour Penetration characteristic of attacks that target that friendly unit by 1."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "4680-0d2b-0215-effd",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Temporal Intervention Stratagems",
-            "id": "8443-045b-2da3-b61f",
+            "name": "Chapter Intervention — Armoured Brotherhood / 1 CP",
+            "id": "7dfe-489a-7d49-b5f8",
+            "targetId": "2237-ab91-1460-7d19",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "db0d-50fe-ed1d-d2bf",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "39ff-c376-d0f3-b76c",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "4680-0d2b-0215-effd",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Temporal Intervention — Temporal Displacement / 1 CP",
+            "id": "1101-bc24-a51b-3312",
+            "targetId": "74ad-c6e7-03c8-f713",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -10130,54 +10850,64 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Temporal Intervention — Foreseen Strike / 1 CP",
+            "id": "74db-5fc0-a5c1-6aad",
+            "targetId": "aca6-ab70-2f85-1aae",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Temporal Displacement / 1 CP",
-                "id": "1b08-205b-5211-3c3f",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit within 8\" of that enemy unit and not within Engagement Range of enemy units. EFFECT: That friendly unit can make a Normal move of up to 6\"."
-              },
-              {
-                "name": "Foreseen Strike / 1 CP",
-                "id": "f46f-146f-b7e6-1f8f",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase or the Fight phase, just before making a Hit or Wound roll for a friendly model. TARGET: The AGENTS OF THE IMPERIUM unit containing that model. EFFECT: Treat that one Hit or Wound roll as an unmodified 6 instead of rolling it."
-              },
-              {
-                "name": "Stolen Initiative / 1 CP",
-                "id": "9080-ee92-810f-9894",
-                "hidden": false,
-                "description": "WHEN: The Fight phase, just after an enemy unit has fought. TARGET: One friendly AGENTS OF THE IMPERIUM unit within Engagement Range of enemy units that has not fought this phase. EFFECT: That friendly unit fights next."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "2412-a34d-ddd0-7ee0",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Execution Directorate Stratagems",
-            "id": "ba67-401e-bd0a-c728",
+            "name": "Temporal Intervention — Stolen Initiative / 1 CP",
+            "id": "14fc-e2ca-9778-e320",
+            "targetId": "3047-e913-ff61-e098",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "1aff-1c08-0e97-8c3b",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "c0ce-dba2-623e-1512",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "2412-a34d-ddd0-7ee0",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Execution Directorate — Expose Their Defences / 1 CP",
+            "id": "446d-600a-1f16-6068",
+            "targetId": "7e16-ccac-953c-dd0b",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -10195,54 +10925,64 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Execution Directorate — Covered Extraction / 1 CP",
+            "id": "9625-19a2-1137-8088",
+            "targetId": "bc81-f49a-2de3-b884",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Expose Their Defences / 1 CP",
-                "id": "f895-6f1d-5ad2-6033",
-                "hidden": false,
-                "description": "WHEN: Start of your Shooting phase. TARGET: One friendly INQUISITOR model. EFFECT: Select one enemy unit visible to that model. Until the end of the phase, ranged attacks made by friendly INQUISITION, ASSASSINORUM, DEATH CULT ASSASSINS, ARBITES MARKSMEN or ARBITES INTELLIGENCER models that target that enemy unit have Ignores Cover."
-              },
-              {
-                "name": "Covered Extraction / 1 CP",
-                "id": "947d-063a-7430-d79c",
-                "hidden": false,
-                "description": "WHEN: End of your opponent's turn. TARGET: One friendly INQUISITION, ASSASSINORUM, DEATH CULT ASSASSINS, ARBITES MARKSMEN or ARBITES INTELLIGENCER INFANTRY unit not within Engagement Range of enemy units. EFFECT: Remove that unit from the battlefield and place it into Strategic Reserves. Until the end of your next Movement phase, that unit has Deep Strike."
-              },
-              {
-                "name": "No Witnesses / 1 CP",
-                "id": "0944-e971-6c78-1d31",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly unit is selected to shoot or fight. TARGET: One friendly INQUISITION, ASSASSINORUM, DEATH CULT ASSASSINS, ARBITES MARKSMEN or ARBITES INTELLIGENCER unit. EFFECT: Until the end of the phase, each time an INQUISITION, ASSASSINORUM, DEATH CULT ASSASSINS, ARBITES MARKSMEN or ARBITES INTELLIGENCER model in that unit attacks an enemy unit below its Starting Strength, improve the Armour Penetration characteristic of that attack by 1."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "e5ce-67b1-103e-5fc0",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Imperial Cordon Stratagems",
-            "id": "9707-c5f0-a6e6-d374",
+            "name": "Execution Directorate — No Witnesses / 1 CP",
+            "id": "f640-20d3-3346-f33e",
+            "targetId": "8cdc-d80b-2890-69de",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "f298-dbb3-4052-02cc",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "04a6-875f-ecc8-902e",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "e5ce-67b1-103e-5fc0",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Imperial Cordon — Hold the Line / 1 CP",
+            "id": "942b-0c38-3a6c-82b4",
+            "targetId": "c37e-0fc5-1fe6-bd1a",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -10260,54 +11000,64 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Imperial Cordon — Suppressive Enforcement / 1 CP",
+            "id": "dc1a-e4d6-b8b2-8016",
+            "targetId": "c3cd-aeef-6c0e-1bf4",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Hold the Line / 1 CP",
-                "id": "c47a-43ee-4958-ae6f",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets. TARGET: One friendly ADEPTUS ARBITES, INQUISITION or VOIDFARERS INFANTRY unit selected as a target. EFFECT: Until the end of the phase, add 1 to armour saving throws made for models in that friendly unit."
-              },
-              {
-                "name": "Suppressive Enforcement / 1 CP",
-                "id": "9ec8-a034-12e9-690f",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, just after a friendly unit has shot. TARGET: One friendly ADEPTUS ARBITES, INQUISITION or VOIDFARERS unit. EFFECT: Select one enemy unit hit by an attack made by an ADEPTUS ARBITES, INQUISITION or VOIDFARERS model in that unit. Until the start of your next Command phase, that enemy unit cannot start an Action."
-              },
-              {
-                "name": "Rapid Response / 1 CP",
-                "id": "1b31-1510-4106-bf58",
-                "hidden": false,
-                "description": "WHEN: End of your opponent's Movement phase. TARGET: One friendly ADEPTUS ARBITES, INQUISITION or VOIDFARERS INFANTRY unit not within Engagement Range of enemy units. EFFECT: That unit can make a Normal move of up to 6\". It must end that move within range of an objective marker."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "f52a-1a49-b2cf-8a9e",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Veiled Blade Elimination Force Stratagems",
-            "id": "ae8f-00f4-8dc4-2df5",
+            "name": "Imperial Cordon — Rapid Response / 1 CP",
+            "id": "8876-f6a6-4337-e5b2",
+            "targetId": "f2ce-9576-d624-d1cf",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "eb9d-d0e2-24a9-d4a9",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "373c-8090-ae61-dc75",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "f52a-1a49-b2cf-8a9e",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Veiled Blade Elimination Force — Prime Target / 1 CP",
+            "id": "936e-f5c4-f011-bc41",
+            "targetId": "33e4-b72e-a5ac-6552",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -10325,72 +11075,139 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Veiled Blade Elimination Force — Orbital Oversight / 1 CP",
+            "id": "4a2b-f7a5-4679-e4fd",
+            "targetId": "63f3-f697-99ba-22b2",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Prime Target / 1 CP",
-                "id": "2daa-8f4f-b438-ffae",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly unit is selected to shoot or fight. TARGET: One friendly AGENTS OF THE IMPERIUM unit. EFFECT: Until the end of the phase, each time an AGENTS OF THE IMPERIUM model in that unit attacks a CHARACTER unit, you can re-roll the Wound roll. ASSASSINORUM models in that unit can re-roll the Wound roll against any target."
-              },
-              {
-                "name": "Orbital Oversight / 1 CP",
-                "id": "018b-8c5c-3f70-a3e6",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit selects its targets. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit selected as a target. EFFECT: Until the end of the phase, models in that unit can be selected as targets of ranged attacks only if the attacking model is within 18\" of that unit, or within 6\" if that unit has Lone Operative. The triggering enemy unit can select new targets. After that enemy unit has shot, if the friendly unit survives and is not within Engagement Range of enemy units, it can make a Normal move of up to 6\"."
-              },
-              {
-                "name": "Hyperstimms / 2 CP",
-                "id": "29c7-91a2-3f53-67e6",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets. TARGET: One friendly AGENTS OF THE IMPERIUM CHARACTER unit selected as a target. EFFECT: Until the end of the phase, add 1 to the Toughness characteristic of models in that unit. EVERSOR ASSASSIN models in it also have Feel No Pain 4+."
-              },
-              {
-                "name": "Blind Grenades / 1 CP",
-                "id": "1a25-81fb-2f51-1538",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Charge phase, just after an enemy unit declares its charge targets and before its Charge roll. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit declared as a target, if it is not within Engagement Range of enemy units. EFFECT: Subtract 1 from that Charge roll, or subtract 2 if the friendly unit contains a VINDICARE ASSASSIN model. Until the end of your next turn, that friendly unit is eligible to shoot and declare a charge despite having Fallen Back."
-              },
-              {
-                "name": "Will-Sapping Salvo / 1 CP",
-                "id": "9245-b591-928f-d404",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit. EFFECT: Until the end of the phase, ranged weapons equipped by each AGENTS OF THE IMPERIUM model in that unit have Sustained Hits 1. The Damage characteristic of ranged weapons equipped by CULEXUS ASSASSIN models in that unit is 3."
-              },
-              {
-                "name": "Ensnaring Trap / 1 CP",
-                "id": "fb96-caa3-3f71-e538",
-                "hidden": false,
-                "description": "WHEN: End of your opponent's Charge phase. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit eligible to declare a charge against one or more enemy units within 6\" of it. EFFECT: That unit can declare a charge against one or more eligible enemy units within 6\". It does not receive a Charge bonus this turn. Until the end of the turn, add 1 to Wound rolls for melee attacks made by CALLIDUS ASSASSIN models in that unit."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "c5c8-5ecd-45e7-a935",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Warrant of Exploration Stratagems",
-            "id": "e4e9-fb79-682a-9b5e",
+            "name": "Veiled Blade Elimination Force — Hyperstimms / 2 CP",
+            "id": "06ed-347b-f287-2f13",
+            "targetId": "c3f4-03e1-971d-68d5",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "5e04-0654-b281-35b9",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "73eb-cc90-afb9-ff6f",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "c5c8-5ecd-45e7-a935",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Veiled Blade Elimination Force — Blind Grenades / 1 CP",
+            "id": "b511-4606-0a6e-e357",
+            "targetId": "a952-b894-f245-36e6",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "c5c8-5ecd-45e7-a935",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veiled Blade Elimination Force — Will-Sapping Salvo / 1 CP",
+            "id": "c5c7-88d7-dbb4-58c5",
+            "targetId": "2ec1-ffef-b677-6101",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "c5c8-5ecd-45e7-a935",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veiled Blade Elimination Force — Ensnaring Trap / 1 CP",
+            "id": "7a52-e29b-10a3-7d10",
+            "targetId": "e4a8-f727-443e-771b",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "c5c8-5ecd-45e7-a935",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Warrant of Exploration — Unorthodox Arsenal / 1 CP",
+            "id": "cf71-d32e-2258-6b17",
+            "targetId": "4115-a4a4-d04b-9048",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -10408,54 +11225,64 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Warrant of Exploration — Expeditionary Landing / 1 CP",
+            "id": "5522-5dfd-e440-0262",
+            "targetId": "36b5-27a7-d663-c594",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Unorthodox Arsenal / 1 CP",
-                "id": "d101-61ec-9f16-9f70",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly unit is selected to shoot or fight. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit. EFFECT: Select Lethal Hits or Sustained Hits 1. Until the end of the phase, weapons equipped by each AGENTS OF THE IMPERIUM model in that unit have the selected ability. If the unit contains a ROGUE TRADER model or is currently selected as Warranted Agents, those weapons have both abilities instead."
-              },
-              {
-                "name": "Expeditionary Landing / 1 CP",
-                "id": "e2b6-f5ec-41ac-7086",
-                "hidden": false,
-                "description": "WHEN: Start of the Reinforcements step of your Movement phase. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit in Strategic Reserves. EFFECT: Until the end of the phase, that unit has Deep Strike. If it contains a ROGUE TRADER model, it cannot be selected as a target of Fire Overwatch this turn."
-              },
-              {
-                "name": "Claim the Prize / 1 CP",
-                "id": "dcc9-c5d7-a62a-6d61",
-                "hidden": false,
-                "description": "WHEN: End of the Fight phase. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit not within Engagement Range of enemy units. EFFECT: That unit can make a Normal move of up to 6\" and must end it within range of an objective marker outside your deployment zone. If it contains a ROGUE TRADER model, it can instead make a Normal move of up to 9\" with no objective or deployment-zone endpoint requirement. Normal move restrictions still apply."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "4e3f-cc36-d93e-e361",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Navis Boarding Force Stratagems",
-            "id": "28ef-e1a1-f3ef-bdfa",
+            "name": "Warrant of Exploration — Claim the Prize / 1 CP",
+            "id": "3324-a54f-ddfe-aa04",
+            "targetId": "9856-9c6a-6c75-5e03",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "6d6b-e831-303b-d963",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "a528-2143-d432-2212",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "4e3f-cc36-d93e-e361",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Navis Boarding Force — Breach Their Lines / 1 CP",
+            "id": "2256-76cc-2256-36dd",
+            "targetId": "5506-fd8a-19ca-43e2",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -10473,54 +11300,64 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Navis Boarding Force — Brace For Impact / 1 CP",
+            "id": "3413-8f78-7ab5-fdf4",
+            "targetId": "10cb-6235-98e2-aa49",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Breach Their Lines / 1 CP",
-                "id": "cc40-eb49-9751-462f",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One friendly VOIDFARERS, INQUISITION or ADEPTUS ARBITES INFANTRY unit that disembarked from a TRANSPORT or arrived from Reserves this turn. EFFECT: Until the end of the phase, add 1 to Wound rolls for ranged attacks made by VOIDFARERS, INQUISITION or ADEPTUS ARBITES models in that unit."
-              },
-              {
-                "name": "Brace For Impact / 1 CP",
-                "id": "661b-5c8c-6728-0847",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit selects its targets. TARGET: One friendly native AGENTS OF THE IMPERIUM TRANSPORT unit selected as a target. EFFECT: Until the end of the phase, each time an attack targets that unit, if its Strength characteristic exceeds that unit's Toughness, subtract 1 from the Wound roll. If a model in that unit is destroyed this phase, add 1 to hazard rolls made for models disembarking from it as a result of its destruction, and their units do not become Battle-shocked as a result of those Emergency Disembark moves. This does not end any existing Battle-shock effect."
-              },
-              {
-                "name": "Combat Extraction / 1 CP",
-                "id": "ebd8-60f9-4b6f-50af",
-                "hidden": false,
-                "description": "WHEN: End of your opponent's Fight phase. TARGET: One friendly VOIDFARERS, INQUISITION or ADEPTUS ARBITES INFANTRY unit not within Engagement Range of enemy units and wholly within 6\" of a friendly native AGENTS OF THE IMPERIUM TRANSPORT model. EFFECT: That unit can embark within that TRANSPORT, provided every model is eligible and capacity permits."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "1bde-4944-e90e-4b61",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Procession of Faith Stratagems",
-            "id": "ae66-dc2f-5ee8-43d7",
+            "name": "Navis Boarding Force — Combat Extraction / 1 CP",
+            "id": "8e24-8301-4196-de24",
+            "targetId": "bf44-74b3-cbc1-61d3",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "fdd4-dc49-0a20-e29b",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "18d5-a8c2-fe29-275c",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "1bde-4944-e90e-4b61",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "Procession of Faith — Defiant To the End / 1 CP",
+            "id": "2d42-f324-dd7b-e4f8",
+            "targetId": "7ae1-0c93-f5b7-9993",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -10538,54 +11375,64 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Procession of Faith — Unbroken Conviction / 1 CP",
+            "id": "5b87-a196-a882-f37f",
+            "targetId": "bfd6-1efd-9a8b-a442",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Defiant To the End / 1 CP",
-                "id": "6bb5-c59d-2da9-3b33",
-                "hidden": false,
-                "description": "WHEN: The Fight phase, just after an enemy unit selects its targets. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or MINISTORUM INFANTRY unit selected as a target. EFFECT: Until the end of the phase, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6. On a 4+, do not remove it yet. After the attacking unit has fought, that destroyed model can fight, then is removed. Each destroyed model can fight only once."
-              },
-              {
-                "name": "Unbroken Conviction / 1 CP",
-                "id": "0f09-d972-822d-c2e2",
-                "hidden": false,
-                "description": "WHEN: Just after a friendly unit fails a Battle-shock test. TARGET: That friendly INQUISITION, ADEPTUS ARBITES or MINISTORUM unit. EFFECT: Treat that test as having been passed instead. This Stratagem can target a Battle-shocked unit."
-              },
-              {
-                "name": "Avenging Faith / 1 CP",
-                "id": "2651-a9a3-aea1-e331",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly unit is selected to shoot or fight. TARGET: One friendly INQUISITION, ADEPTUS ARBITES or MINISTORUM unit below its Starting Strength. EFFECT: Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by each INQUISITION, ADEPTUS ARBITES or MINISTORUM model in that unit by 1."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "f3a6-d72c-452b-cb61",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "God-Engine Mandate Stratagems",
-            "id": "0fd4-1e42-edd2-aa5a",
+            "name": "Procession of Faith — Avenging Faith / 1 CP",
+            "id": "5d9c-261b-4fd5-5a0d",
+            "targetId": "ed43-db9b-d1f4-8b1c",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "1cae-c741-8b14-fdf0",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "69ee-2847-3e15-02f0",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "f3a6-d72c-452b-cb61",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "God-Engine Mandate — Coordinated Annihilation / 1 CP",
+            "id": "e1b1-4b60-378e-3772",
+            "targetId": "67f1-00d8-fee5-e7cc",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -10603,72 +11450,139 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "God-Engine Mandate — Void Shield Surge / 1 CP",
+            "id": "89ce-774f-1fa7-3dac",
+            "targetId": "bb74-404f-e1f4-9917",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Coordinated Annihilation / 1 CP",
-                "id": "94fe-fdc4-cba2-30a2",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One Requisitioned ADEPTUS TITANICUS unit. EFFECT: Select one enemy unit hit by a friendly AGENTS OF THE IMPERIUM model earlier this turn. Until the end of the phase, add 1 to Wound rolls and you can re-roll Damage rolls for ranged attacks made by the Titan that target that enemy unit."
-              },
-              {
-                "name": "Void Shield Surge / 1 CP",
-                "id": "c9fb-1da8-f3b1-706d",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit selects its targets. TARGET: One Requisitioned ADEPTUS TITANICUS unit selected as a target. EFFECT: Until the end of the phase, that model has a 4+ invulnerable save against ranged attacks."
-              },
-              {
-                "name": "Colossal Advance / 1 CP",
-                "id": "e7b9-3c16-8b61-9f83",
-                "hidden": false,
-                "description": "WHEN: Your Movement phase, just after a friendly unit ends an Advance move. TARGET: That Requisitioned ADEPTUS TITANICUS unit. EFFECT: Until the end of the turn, that unit is eligible to shoot despite having Advanced."
-              },
-              {
-                "name": "Point-Blank Annihilation / 1 CP",
-                "id": "c02c-4135-dc58-f0c9",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, when a friendly unit is selected to shoot. TARGET: One Requisitioned ADEPTUS TITANICUS unit. EFFECT: Until the end of the phase, that model ignores Hit-roll penalties caused by units being within Engagement Range. Its Blast weapons can target enemy units within Engagement Range of it, provided those enemy units are not also within Engagement Range of another friendly unit."
-              },
-              {
-                "name": "Exploit the Breach / 1 CP",
-                "id": "8533-b90a-213a-70bb",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase, just after a Requisitioned ADEPTUS TITANICUS model has shot. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit not within Engagement Range of enemy units. EFFECT: That unit can make a Normal move of up to 6\". It can still shoot and declare a charge later in the turn if otherwise eligible."
-              },
-              {
-                "name": "Preserve the Expedition / 1 CP",
-                "id": "adbc-0ad2-31cb-5677",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets. TARGET: One friendly AGENTS OF THE IMPERIUM INFANTRY unit selected as a target. EFFECT: Until the end of the phase, subtract 1 from Wound rolls for attacks that target that unit."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "54b8-30fd-9b02-3229",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Oathsworn Lance Stratagems",
-            "id": "178d-00c0-de53-f630",
+            "name": "God-Engine Mandate — Colossal Advance / 1 CP",
+            "id": "fa13-e762-9d9f-dead",
+            "targetId": "62f3-77af-a2ff-9498",
+            "type": "rule",
             "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
+            "modifiers": [
               {
-                "id": "1f63-aa67-ec69-536e",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "62a0-5c66-fdea-ff08",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "54b8-30fd-9b02-3229",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
-            ],
+            ]
+          },
+          {
+            "name": "God-Engine Mandate — Point-Blank Annihilation / 1 CP",
+            "id": "3ba0-9f67-1337-5d09",
+            "targetId": "3f37-b8b6-ccbb-61fa",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "54b8-30fd-9b02-3229",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "God-Engine Mandate — Exploit the Breach / 1 CP",
+            "id": "8596-74ba-e986-9a7e",
+            "targetId": "3031-0550-2e3e-c707",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "54b8-30fd-9b02-3229",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "God-Engine Mandate — Preserve the Expedition / 1 CP",
+            "id": "2c34-9760-c861-43c9",
+            "targetId": "2a63-62d8-94f3-ed07",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "54b8-30fd-9b02-3229",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oathsworn Lance — Fulfil the Oath / 1 CP",
+            "id": "89f9-cbce-4a1d-654e",
+            "targetId": "4f03-7ed0-09e4-85d5",
+            "type": "rule",
+            "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
@@ -10686,43 +11600,130 @@
                   }
                 ]
               }
-            ],
-            "rules": [
+            ]
+          },
+          {
+            "name": "Oathsworn Lance — Noble Intercession / 1 CP",
+            "id": "6919-5792-168b-7dba",
+            "targetId": "be6b-25a0-cf83-76b6",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Fulfil the Oath / 1 CP",
-                "id": "7c16-dd15-34aa-3acf",
-                "hidden": false,
-                "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly unit is selected to shoot or fight. TARGET: One Requisitioned IMPERIAL KNIGHTS unit. EFFECT: Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by each IMPERIAL KNIGHTS model in that unit by 1."
-              },
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "6174-5afb-b8b1-0b35",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oathsworn Lance — Honoured Advance / 1 CP",
+            "id": "285c-09af-266b-9bc1",
+            "targetId": "a5d0-31b4-f5c4-624f",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Noble Intercession / 1 CP",
-                "id": "44b8-2f97-adea-73f3",
-                "hidden": false,
-                "description": "WHEN: End of your opponent's Charge phase. TARGET: One Requisitioned IMPERIAL KNIGHTS unit eligible to declare a charge against an enemy unit within 12\" that is within Engagement Range of a friendly AGENTS OF THE IMPERIUM INFANTRY unit. EFFECT: That Knight unit can declare a charge against that enemy unit. You can re-roll its Charge roll. It does not receive a Charge bonus this turn."
-              },
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "6174-5afb-b8b1-0b35",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oathsworn Lance — Ion Screen / 1 CP",
+            "id": "af27-5df9-ba53-f63c",
+            "targetId": "22bb-bb7b-6c52-c1a5",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Honoured Advance / 1 CP",
-                "id": "49c6-d638-253e-3c0e",
-                "hidden": false,
-                "description": "WHEN: Your Movement phase, just after a friendly unit ends an Advance or Fall Back move. TARGET: That Requisitioned IMPERIAL KNIGHTS unit. EFFECT: Until the end of the turn, that unit is eligible to shoot and declare a charge despite having Advanced or Fallen Back."
-              },
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "6174-5afb-b8b1-0b35",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oathsworn Lance — March of the Household / 1 CP",
+            "id": "ed2c-b6da-6b2f-ab9f",
+            "targetId": "6f27-bbbe-f162-9364",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "Ion Screen / 1 CP",
-                "id": "55a7-54df-02e1-751a",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit selects its targets. TARGET: One Requisitioned IMPERIAL KNIGHTS unit selected as a target. EFFECT: Until the end of the phase, models in that unit have a 4+ invulnerable save against ranged attacks."
-              },
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "6174-5afb-b8b1-0b35",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Oathsworn Lance — A Knight's Vengeance / 1 CP",
+            "id": "8260-4133-d228-25db",
+            "targetId": "8956-2152-2e2d-2b34",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
               {
-                "name": "March of the Household / 1 CP",
-                "id": "439c-4ca4-150e-f10b",
-                "hidden": false,
-                "description": "WHEN: Your Movement phase, just after a friendly unit ends an Advance move. TARGET: That friendly AGENTS OF THE IMPERIUM INFANTRY unit. EFFECT: Until the end of the turn, that unit is eligible to shoot and declare a charge despite having Advanced."
-              },
-              {
-                "name": "A Knight's Vengeance / 1 CP",
-                "id": "0311-611f-e258-b059",
-                "hidden": false,
-                "description": "WHEN: Your opponent's Shooting phase, just after an enemy unit has shot and destroyed a friendly AGENTS OF THE IMPERIUM unit. TARGET: One Requisitioned IMPERIAL KNIGHTS unit eligible to shoot. EFFECT: That Knight unit can shoot with one ranged weapon as if it were your Shooting phase, targeting only that enemy unit and following normal targeting restrictions."
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "6174-5afb-b8b1-0b35",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
