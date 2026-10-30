@@ -4,7 +4,7 @@
     "id": "sys-352e-adc2-7639-d610",
     "battleScribeVersion": 2.03,
     "readme": "",
-    "revision": 21,
+    "revision": 22,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -19788,6 +19788,186 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Requisition allowance (total)",
+            "id": "93f1-16fc-dade-2fee",
+            "targetId": "9133-a56f-57a4-2c08",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Sororitas",
+            "id": "893e-b0e0-eff0-c991",
+            "targetId": "04de-a417-b802-971a",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Deathwatch",
+            "id": "d57d-4897-eaa2-9639",
+            "targetId": "da40-3979-24db-c183",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Grey Knights",
+            "id": "8d21-a3c0-4891-9bc4",
+            "targetId": "c841-a4a2-8425-fcd2",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Militarum",
+            "id": "23ba-7d49-a3f3-5346",
+            "targetId": "c176-f932-5cd9-78df",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Mechanicus",
+            "id": "ebd4-f61f-d91d-2fa5",
+            "targetId": "ead3-54f7-d9bc-179a",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Astartes",
+            "id": "edb6-b7ba-dc21-78ff",
+            "targetId": "103c-c40b-3245-647d",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Knights",
+            "id": "a0f8-481d-27b7-e502",
+            "targetId": "2c1d-d910-66cb-ff57",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Sororitas, Deathwatch",
+            "id": "310f-41f5-3b79-e047",
+            "targetId": "cb97-6242-ba79-0353",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Sororitas, Grey Knights",
+            "id": "e129-d7b0-1d40-0b3d",
+            "targetId": "e1f2-defd-2728-9b0d",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Sororitas, Militarum",
+            "id": "b9d3-cc30-04a0-b127",
+            "targetId": "a610-8832-57f3-4535",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Sororitas, Mechanicus",
+            "id": "67e7-aedb-2d10-2236",
+            "targetId": "0969-dc58-deb7-691d",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Sororitas, Astartes",
+            "id": "517d-e838-3780-815d",
+            "targetId": "0d0b-d4d4-c1ba-a9b4",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Sororitas, Knights",
+            "id": "b33d-dabd-2e4a-4f76",
+            "targetId": "5353-2983-f0f9-9a1e",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Deathwatch, Grey Knights",
+            "id": "e6ae-6ab1-5dd1-c9d1",
+            "targetId": "b0ca-b63b-a650-7242",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Deathwatch, Militarum",
+            "id": "59d2-c5eb-37a7-9f71",
+            "targetId": "5bb8-bfdb-cb67-f2f9",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Deathwatch, Mechanicus",
+            "id": "1216-e0aa-12b0-fe35",
+            "targetId": "6d73-dddb-b77d-885c",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Deathwatch, Astartes",
+            "id": "c060-d13b-46d0-0a95",
+            "targetId": "22f4-f438-9c48-b9c0",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Deathwatch, Knights",
+            "id": "b203-3d75-57cd-5b69",
+            "targetId": "a81f-2033-2899-36f7",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Grey Knights, Militarum",
+            "id": "b547-a188-eb9f-04e2",
+            "targetId": "e00b-05a4-0074-98bc",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Grey Knights, Mechanicus",
+            "id": "8868-b17a-f373-274f",
+            "targetId": "653d-fce9-3be7-a56d",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Grey Knights, Astartes",
+            "id": "97f0-7adf-1db9-c7c3",
+            "targetId": "8c87-ac62-b405-41bf",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Grey Knights, Knights",
+            "id": "4e58-1975-2cd7-5adc",
+            "targetId": "2afd-affc-70df-ec81",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Militarum, Mechanicus",
+            "id": "49fb-3d15-2dfa-e36f",
+            "targetId": "5906-fbc2-a4ce-e44f",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Militarum, Astartes",
+            "id": "a012-eafa-39c3-02df",
+            "targetId": "d474-dfed-b008-d071",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Militarum, Knights",
+            "id": "7d55-36b7-afb2-9cf8",
+            "targetId": "6e2f-dd11-ba7b-21e5",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Mechanicus, Astartes",
+            "id": "43f5-4a86-1ee8-166e",
+            "targetId": "aede-beed-bcf3-bfda",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Mechanicus, Knights",
+            "id": "38ae-19d3-0455-a246",
+            "targetId": "48fa-1226-f274-c996",
+            "hidden": false
+          },
+          {
+            "name": "Requisition allowance excluding Astartes, Knights",
+            "id": "7210-f262-b5a4-b89c",
+            "targetId": "c844-1cd9-c003-80b6",
+            "hidden": false
+          },
+          {
+            "name": "Requisitioned Titan",
+            "id": "1d88-fbf0-3e3d-b421",
+            "targetId": "43de-ce80-01a6-b246",
+            "hidden": false
           },
           {
             "name": "Requisitions — Adepta Sororitas",

@@ -3,7 +3,7 @@
     "name": "Agents Requisitions Library",
     "id": "4c75-1943-4eb8-f9c8",
     "gameSystemId": "sys-352e-adc2-7639-d610",
-    "gameSystemRevision": 21,
+    "gameSystemRevision": 22,
     "revision": 3,
     "battleScribeVersion": 2.03,
     "library": true,
