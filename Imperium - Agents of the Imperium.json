@@ -4,9 +4,9 @@
     "id": "b00-cd86-4b4c-97ba",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-352e-adc2-7639-d610",
-    "gameSystemRevision": 20,
+    "gameSystemRevision": 21,
     "library": false,
-    "revision": 18,
+    "revision": 19,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -45,6 +45,14 @@
         "name": "Detachment",
         "id": "d0d0-8f00-72ec-65aa",
         "targetId": "a012-95c1-55bf-fffb",
+        "type": "selectionEntry",
+        "hidden": false,
+        "import": true
+      },
+      {
+        "name": "Requisition Options",
+        "id": "fd81-9c20-8565-b4ea",
+        "targetId": "0c92-3726-d1e4-ab39",
         "type": "selectionEntry",
         "hidden": false,
         "import": true
@@ -896,6 +904,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -917,6 +941,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -948,6 +988,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -969,6 +1025,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -1602,6 +1674,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -1628,6 +1716,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -1649,6 +1753,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -1701,6 +1821,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -2440,6 +2576,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -2487,6 +2639,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -2698,6 +2866,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -2750,6 +2934,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -2771,6 +2971,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -2802,6 +3018,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -2823,6 +3055,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -2854,6 +3102,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -2875,6 +3139,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -2906,6 +3186,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -2932,6 +3228,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -2953,6 +3265,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3010,6 +3338,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3031,6 +3375,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3062,6 +3422,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3083,6 +3459,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3114,6 +3506,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3135,6 +3543,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3166,6 +3590,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3187,6 +3627,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3218,6 +3674,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3239,6 +3711,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3270,6 +3758,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3291,6 +3795,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3322,6 +3842,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3343,6 +3879,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3374,6 +3926,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3395,6 +3963,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3426,6 +4010,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3447,6 +4047,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3478,6 +4094,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3499,6 +4131,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3530,6 +4178,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3551,6 +4215,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3582,6 +4262,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3603,6 +4299,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3634,6 +4346,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3655,6 +4383,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3686,6 +4430,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3707,6 +4467,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3738,6 +4514,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3759,6 +4551,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -3790,6 +4598,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3816,6 +4640,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -3837,6 +4677,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -4472,6 +5328,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -4532,6 +5404,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -4553,6 +5441,22 @@
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "value": true,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "9a28-3b49-feec-648c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "lessThan",
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
@@ -6673,20 +7577,6 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Force Dispositions",
-                    "id": "188c-2824-059c-1885",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Take and Hold, Disruption. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
-                  {
                     "name": "Requisitions",
                     "id": "0852-7bd8-ce75-abce",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -6824,20 +7714,6 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "An army can include only one Detachment with Unique: ORDO."
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Force Dispositions",
-                    "id": "8512-0044-07e4-b14b",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Purge the Foe. Select one available Force Disposition for the army."
                       }
                     ]
                   },
@@ -7009,20 +7885,6 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "An army can include only one Detachment with Unique: ORDO."
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Force Dispositions",
-                    "id": "a10b-fd97-0b0b-8bad",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Reconnaissance. Select one available Force Disposition for the army."
                       }
                     ]
                   },
@@ -7212,20 +8074,6 @@
                     ]
                   },
                   {
-                    "name": "Force Dispositions",
-                    "id": "7926-9161-6896-fb41",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Priority Assets. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
-                  {
                     "name": "Requisitions",
                     "id": "5922-a304-c95b-bffc",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -7411,20 +8259,6 @@
                     ]
                   },
                   {
-                    "name": "Force Dispositions",
-                    "id": "45d3-0c87-b6d4-2992",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Take and Hold. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
-                  {
                     "name": "Requisitions",
                     "id": "8371-69f2-d020-0bc9",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -7592,20 +8426,6 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "An army can include only one Detachment with Unique: ORDO."
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Force Dispositions",
-                    "id": "7b73-ca65-35ac-c9d8",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Priority Assets. Select one available Force Disposition for the army."
                       }
                     ]
                   },
@@ -7781,20 +8601,6 @@
                     ]
                   },
                   {
-                    "name": "Force Dispositions",
-                    "id": "4aec-ba42-eef1-f8d0",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Take and Hold. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
-                  {
                     "name": "Eradicate the Affliction",
                     "id": "f226-ce53-61a4-8873",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -7948,20 +8754,6 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "An army can include only one Detachment with Unique: ORDO."
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Force Dispositions",
-                    "id": "7db2-eb53-a733-8b26",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Purge the Foe. Select one available Force Disposition for the army."
                       }
                     ]
                   },
@@ -8165,20 +8957,6 @@
                     ]
                   },
                   {
-                    "name": "Force Dispositions",
-                    "id": "d845-d389-4b15-060f",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Disruption. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
-                  {
                     "name": "Foreseen Outcomes",
                     "id": "bd3b-b91a-326e-6f0a",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -8336,20 +9114,6 @@
                     ]
                   },
                   {
-                    "name": "Force Dispositions",
-                    "id": "df23-4a38-fded-42c2",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Reconnaissance. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
-                  {
                     "name": "Directed Execution",
                     "id": "4bf4-f215-bff5-4275",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -8486,20 +9250,6 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Force Dispositions",
-                    "id": "932a-bf22-e25b-2b87",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Take and Hold. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
-                  {
                     "name": "Jurisdiction Established",
                     "id": "1760-e840-309a-812d",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -8549,20 +9299,6 @@
                   }
                 ],
                 "profiles": [
-                  {
-                    "name": "Force Dispositions",
-                    "id": "8cee-8b01-2209-d86a",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Purge the Foe. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
                   {
                     "name": "Extremis Sanction",
                     "id": "e9ea-6636-0d71-74e2",
@@ -8628,20 +9364,6 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Force Dispositions",
-                    "id": "48f8-d1b1-5f6f-2e50",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Reconnaissance. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
-                  {
                     "name": "Warranted Agents",
                     "id": "bbac-a26d-9b34-4983",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -8691,20 +9413,6 @@
                   }
                 ],
                 "profiles": [
-                  {
-                    "name": "Force Dispositions",
-                    "id": "b245-d12e-0509-6b34",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Priority Assets. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
                   {
                     "name": "Imperial Embarkation",
                     "id": "1a05-1478-5096-3171",
@@ -8770,20 +9478,6 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Force Dispositions",
-                    "id": "1752-d393-2e09-9ea1",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Take and Hold. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
-                  {
                     "name": "The Faithful Press On",
                     "id": "0c1e-9c68-1f3a-b069",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -8847,20 +9541,6 @@
                   }
                 ],
                 "profiles": [
-                  {
-                    "name": "Force Dispositions",
-                    "id": "de55-6611-1acc-e22a",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Priority Assets, Purge the Foe. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
                   {
                     "name": "Requisitions",
                     "id": "d51c-b9cf-a8b7-d6c8",
@@ -8967,20 +9647,6 @@
                   }
                 ],
                 "profiles": [
-                  {
-                    "name": "Force Dispositions",
-                    "id": "17a8-add2-d215-031c",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Purge the Foe. Select one available Force Disposition for the army."
-                      }
-                    ]
-                  },
                   {
                     "name": "Requisitions",
                     "id": "c49e-5f3c-02f3-63fd",
@@ -9790,6 +10456,63 @@
                 "value": 1
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Requisition Options",
+        "id": "0c92-3726-d1e4-ab39",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {
+            "name": "Configuration",
+            "id": "75e5-7bde-9997-bee6",
+            "targetId": "4ac9-fd30-1e3d-b249",
+            "primary": true,
+            "hidden": false
+          }
+        ],
+        "constraints": [
+          {
+            "id": "cd13-4e36-1893-078e",
+            "type": "min",
+            "value": 1,
+            "scope": "parent",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": false
+          },
+          {
+            "id": "30de-2f3f-5dd6-134e",
+            "type": "max",
+            "value": 1,
+            "scope": "parent",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Include Legends",
+            "id": "9a28-3b49-feec-648c",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "e67b-6eac-36b6-acb4",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "defaultAmount": 0
           }
         ]
       },
@@ -48426,9 +49149,9 @@
         "type": "model",
         "categoryLinks": [
           {
-            "name": "Character",
-            "id": "e744-17a4-729f-b141",
-            "targetId": "9cfd-1c32-585f-7d5c",
+            "name": "Epic Hero",
+            "id": "5722-764f-75f0-d3b8",
+            "targetId": "4f3a-f0f7-6647-348d",
             "primary": true,
             "hidden": false
           },
@@ -48454,6 +49177,13 @@
             "hidden": false
           },
           {
+            "name": "CHARACTER",
+            "id": "e03d-b8ff-101f-b0bb",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "VINDICARE ASSASSIN",
             "id": "34b9-8aa9-3546-de14",
             "targetId": "bbce-4a66-765f-6f5f",
@@ -48472,7 +49202,7 @@
           {
             "id": "23f2-23d9-5531-0fd7",
             "type": "max",
-            "value": 3,
+            "value": 1,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -48952,275 +49682,6 @@
             ]
           }
         ],
-        "selectionEntryGroups": [
-          {
-            "name": "Enhancements and Upgrades",
-            "id": "4516-c99b-4074-4195",
-            "hidden": false,
-            "constraints": [
-              {
-                "id": "9faf-38de-ef05-1fb9",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "3c69-e231-e567-b1e1",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "entryLinks": [
-              {
-                "name": "Seal of the Senatorum",
-                "id": "3283-3c14-e620-7a1d",
-                "targetId": "7bb0-7a50-0b18-56d7",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Master of Retinues",
-                "id": "686e-b2a6-19ee-6cf8",
-                "targetId": "9981-6a59-5e75-6520",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Strategic Conductor",
-                "id": "399f-c58c-246f-1779",
-                "targetId": "3576-2bc5-e174-1a12",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Executioner's Seal",
-                "id": "4094-021c-302c-cb9c",
-                "targetId": "d83c-4fd3-fb57-fe93",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Ignis",
-                "id": "9859-9080-41fb-d770",
-                "targetId": "0546-680a-686c-69eb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Heresius",
-                "id": "6c17-1ba9-8a2b-1983",
-                "targetId": "6908-dcb9-b124-680f",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Witchfinder",
-                "id": "2775-5883-fc6e-1f7d",
-                "targetId": "3cbd-163f-bfef-b9ed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Righteous Exemplar",
-                "id": "db4c-40f7-622b-c24f",
-                "targetId": "23a0-1f38-b33d-d6d8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Alien Hunter",
-                "id": "acbc-1e79-7e1e-69c4",
-                "targetId": "223f-0422-c0ce-0a33",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Translocation Beacon",
-                "id": "3e91-c17c-5216-c8c7",
-                "targetId": "bc77-e380-705a-eeeb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Xenophase Weapon",
-                "id": "68d2-6f53-9847-34ec",
-                "targetId": "c494-a318-192f-220b",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Daemonica",
-                "id": "32c3-bf21-f1b6-4119",
-                "targetId": "9e07-592c-6ea2-c4f4",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sigil of Exigence",
-                "id": "cab6-5cb4-0193-955c",
-                "targetId": "7a61-6977-7daf-9670",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Cuirass of Sacrifice",
-                "id": "5dcb-70f3-f511-ce00",
-                "targetId": "b3fc-72e1-88ce-09a9",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Munitorum Mandate",
-                "id": "cc3b-5527-feaf-3420",
-                "targetId": "c37c-be52-05cc-4eed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Forward Observer",
-                "id": "0650-ca34-afa0-10b4",
-                "targetId": "8da5-4718-e62e-dec8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Omnissian Relic",
-                "id": "9e26-bf1d-1967-367d",
-                "targetId": "664d-1d75-c769-e787",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sanctioned Cybernetics",
-                "id": "6abe-750d-eb82-ca54",
-                "targetId": "be8f-5256-4103-d29d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Veteran of Outbreaks",
-                "id": "d7fb-acdd-bdb2-20cb",
-                "targetId": "efa6-0cd6-99b9-a71d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chapter Liaison",
-                "id": "0ce1-b70d-dd6e-07f1",
-                "targetId": "83a3-8078-6f4a-9584",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the Chapter",
-                "id": "b22c-452e-52ad-9bcd",
-                "targetId": "bde6-b553-8c96-fd2d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chronometric Familiar",
-                "id": "845c-1feb-f8d0-e09e",
-                "targetId": "2dfa-fc4a-74dd-95cb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Paradox Ward",
-                "id": "f8a9-76e6-b690-7a6f",
-                "targetId": "1b59-36b6-d49e-77b2",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Marshal of the Cordon",
-                "id": "8bcd-3f07-1723-2971",
-                "targetId": "68c0-aa85-5ee1-1565",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Embedded Handler",
-                "id": "2faf-6521-ed1c-0594",
-                "targetId": "881d-7be8-3a26-6ebf",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Privileged Charter",
-                "id": "6823-b369-a6ad-f0b9",
-                "targetId": "9e13-b930-82fa-b120",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Combat Landers",
-                "id": "c0a8-70f1-b9aa-5000",
-                "targetId": "9aca-ae6b-cd1e-e5fb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Fervent Orator",
-                "id": "9299-903b-460e-6131",
-                "targetId": "02d0-22ad-c355-f53c",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the First Martyr",
-                "id": "5fa9-95c6-cebe-881d",
-                "targetId": "1af7-1a14-bf96-0e57",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Herald of Concord",
-                "id": "7442-4928-835b-86df",
-                "targetId": "0e58-d3a7-0cea-5863",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              }
-            ]
-          }
-        ],
         "infoLinks": [
           {
             "name": "Infiltrators",
@@ -49260,9 +49721,9 @@
         "type": "model",
         "categoryLinks": [
           {
-            "name": "Character",
-            "id": "ba51-1183-5735-add2",
-            "targetId": "9cfd-1c32-585f-7d5c",
+            "name": "Epic Hero",
+            "id": "4e7b-3712-1e57-8aa1",
+            "targetId": "4f3a-f0f7-6647-348d",
             "primary": true,
             "hidden": false
           },
@@ -49288,6 +49749,13 @@
             "hidden": false
           },
           {
+            "name": "CHARACTER",
+            "id": "6ae2-1119-c230-1c86",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "CALLIDUS ASSASSIN",
             "id": "8eb4-365b-91f9-8701",
             "targetId": "9063-fa49-9ba2-9350",
@@ -49306,7 +49774,7 @@
           {
             "id": "358d-7d1f-61f5-dc87",
             "type": "max",
-            "value": 3,
+            "value": 1,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -49685,275 +50153,6 @@
             ]
           }
         ],
-        "selectionEntryGroups": [
-          {
-            "name": "Enhancements and Upgrades",
-            "id": "c4a9-82b7-340f-44a4",
-            "hidden": false,
-            "constraints": [
-              {
-                "id": "7643-4c85-7f56-7d95",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "9a2f-57f5-56af-f687",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "entryLinks": [
-              {
-                "name": "Seal of the Senatorum",
-                "id": "7193-c6a5-a423-af64",
-                "targetId": "7bb0-7a50-0b18-56d7",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Master of Retinues",
-                "id": "8c24-3a5a-90f4-5faf",
-                "targetId": "9981-6a59-5e75-6520",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Strategic Conductor",
-                "id": "75a7-1ca3-e514-1aba",
-                "targetId": "3576-2bc5-e174-1a12",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Executioner's Seal",
-                "id": "4f89-00ec-4e8f-31ea",
-                "targetId": "d83c-4fd3-fb57-fe93",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Ignis",
-                "id": "833c-28aa-6927-311d",
-                "targetId": "0546-680a-686c-69eb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Heresius",
-                "id": "a4fb-6906-f9fb-a94b",
-                "targetId": "6908-dcb9-b124-680f",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Witchfinder",
-                "id": "a9dc-4b35-2e9b-018b",
-                "targetId": "3cbd-163f-bfef-b9ed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Righteous Exemplar",
-                "id": "9f5e-5167-d9f3-bfcc",
-                "targetId": "23a0-1f38-b33d-d6d8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Alien Hunter",
-                "id": "97b9-ffb4-5ad9-4139",
-                "targetId": "223f-0422-c0ce-0a33",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Translocation Beacon",
-                "id": "eb54-24c4-bd91-ef89",
-                "targetId": "bc77-e380-705a-eeeb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Xenophase Weapon",
-                "id": "24df-a93b-5dec-2def",
-                "targetId": "c494-a318-192f-220b",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Daemonica",
-                "id": "df0d-bd6e-ee63-6cea",
-                "targetId": "9e07-592c-6ea2-c4f4",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sigil of Exigence",
-                "id": "38b7-b22f-5354-e294",
-                "targetId": "7a61-6977-7daf-9670",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Cuirass of Sacrifice",
-                "id": "1541-f8d3-6802-73d9",
-                "targetId": "b3fc-72e1-88ce-09a9",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Munitorum Mandate",
-                "id": "736d-df53-ec67-d9b9",
-                "targetId": "c37c-be52-05cc-4eed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Forward Observer",
-                "id": "c1e6-a9c5-abe6-112f",
-                "targetId": "8da5-4718-e62e-dec8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Omnissian Relic",
-                "id": "1142-52b1-93f4-ba8b",
-                "targetId": "664d-1d75-c769-e787",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sanctioned Cybernetics",
-                "id": "3275-28b9-3a45-cf1f",
-                "targetId": "be8f-5256-4103-d29d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Veteran of Outbreaks",
-                "id": "4e25-82b5-9d41-bfe9",
-                "targetId": "efa6-0cd6-99b9-a71d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chapter Liaison",
-                "id": "9f80-b67e-dfc9-ae6e",
-                "targetId": "83a3-8078-6f4a-9584",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the Chapter",
-                "id": "ed58-0f87-3fe0-0a72",
-                "targetId": "bde6-b553-8c96-fd2d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chronometric Familiar",
-                "id": "90da-d73b-d423-65ba",
-                "targetId": "2dfa-fc4a-74dd-95cb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Paradox Ward",
-                "id": "1be0-516f-10cc-c5d7",
-                "targetId": "1b59-36b6-d49e-77b2",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Marshal of the Cordon",
-                "id": "b2e9-1b43-e2b4-d757",
-                "targetId": "68c0-aa85-5ee1-1565",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Embedded Handler",
-                "id": "2d9d-aa21-83f9-53bb",
-                "targetId": "881d-7be8-3a26-6ebf",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Privileged Charter",
-                "id": "2bcc-3606-c615-208c",
-                "targetId": "9e13-b930-82fa-b120",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Combat Landers",
-                "id": "020e-ba8f-b4fa-872d",
-                "targetId": "9aca-ae6b-cd1e-e5fb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Fervent Orator",
-                "id": "5be0-74cc-3800-ce65",
-                "targetId": "02d0-22ad-c355-f53c",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the First Martyr",
-                "id": "8bdb-15fa-f351-fe24",
-                "targetId": "1af7-1a14-bf96-0e57",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Herald of Concord",
-                "id": "d2ba-1d1c-e2d2-41e7",
-                "targetId": "0e58-d3a7-0cea-5863",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              }
-            ]
-          }
-        ],
         "infoLinks": [
           {
             "name": "Deep Strike",
@@ -49986,9 +50185,9 @@
         "type": "model",
         "categoryLinks": [
           {
-            "name": "Character",
-            "id": "489a-7d1f-7f6d-fa66",
-            "targetId": "9cfd-1c32-585f-7d5c",
+            "name": "Epic Hero",
+            "id": "c2c5-467c-029a-f3e4",
+            "targetId": "4f3a-f0f7-6647-348d",
             "primary": true,
             "hidden": false
           },
@@ -50014,6 +50213,13 @@
             "hidden": false
           },
           {
+            "name": "CHARACTER",
+            "id": "d7fd-64e9-dbbe-4b91",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "EVERSOR ASSASSIN",
             "id": "89a7-8fa0-e8db-683d",
             "targetId": "3494-754d-59d1-1d6c",
@@ -50032,7 +50238,7 @@
           {
             "id": "5063-9312-5861-989a",
             "type": "max",
-            "value": 3,
+            "value": 1,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -50484,275 +50690,6 @@
             ]
           }
         ],
-        "selectionEntryGroups": [
-          {
-            "name": "Enhancements and Upgrades",
-            "id": "498a-d75f-7ee3-6289",
-            "hidden": false,
-            "constraints": [
-              {
-                "id": "e34d-3b30-bf4e-6ee8",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "f619-bbed-f028-0a0e",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "entryLinks": [
-              {
-                "name": "Seal of the Senatorum",
-                "id": "616a-184f-3fd3-4db2",
-                "targetId": "7bb0-7a50-0b18-56d7",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Master of Retinues",
-                "id": "a4fa-f3ab-dd1e-1d1f",
-                "targetId": "9981-6a59-5e75-6520",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Strategic Conductor",
-                "id": "0c43-33d7-6221-a878",
-                "targetId": "3576-2bc5-e174-1a12",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Executioner's Seal",
-                "id": "c145-4adf-f8d9-5c51",
-                "targetId": "d83c-4fd3-fb57-fe93",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Ignis",
-                "id": "36b4-9b77-606e-61cd",
-                "targetId": "0546-680a-686c-69eb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Heresius",
-                "id": "b1ab-05e5-dddc-4800",
-                "targetId": "6908-dcb9-b124-680f",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Witchfinder",
-                "id": "f4bd-907d-d445-7732",
-                "targetId": "3cbd-163f-bfef-b9ed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Righteous Exemplar",
-                "id": "55b9-d8ba-1087-9a23",
-                "targetId": "23a0-1f38-b33d-d6d8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Alien Hunter",
-                "id": "dced-fa50-4fc8-51df",
-                "targetId": "223f-0422-c0ce-0a33",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Translocation Beacon",
-                "id": "f2f3-ff63-0a7d-e198",
-                "targetId": "bc77-e380-705a-eeeb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Xenophase Weapon",
-                "id": "1fb7-311c-bdcb-0510",
-                "targetId": "c494-a318-192f-220b",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Daemonica",
-                "id": "49e7-b63d-f765-9902",
-                "targetId": "9e07-592c-6ea2-c4f4",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sigil of Exigence",
-                "id": "78e6-5c8e-c9fe-00ad",
-                "targetId": "7a61-6977-7daf-9670",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Cuirass of Sacrifice",
-                "id": "eadc-a83e-9b4e-572a",
-                "targetId": "b3fc-72e1-88ce-09a9",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Munitorum Mandate",
-                "id": "74b0-95fb-20ba-5cc2",
-                "targetId": "c37c-be52-05cc-4eed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Forward Observer",
-                "id": "e67b-be43-a3f4-0ba8",
-                "targetId": "8da5-4718-e62e-dec8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Omnissian Relic",
-                "id": "9fba-b822-098f-eb98",
-                "targetId": "664d-1d75-c769-e787",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sanctioned Cybernetics",
-                "id": "4997-8170-b56c-1c4e",
-                "targetId": "be8f-5256-4103-d29d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Veteran of Outbreaks",
-                "id": "3d52-0962-82ea-7e82",
-                "targetId": "efa6-0cd6-99b9-a71d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chapter Liaison",
-                "id": "0c06-0ea9-04ef-0558",
-                "targetId": "83a3-8078-6f4a-9584",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the Chapter",
-                "id": "6db6-66fa-f534-ceed",
-                "targetId": "bde6-b553-8c96-fd2d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chronometric Familiar",
-                "id": "a682-e6c8-8347-45a5",
-                "targetId": "2dfa-fc4a-74dd-95cb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Paradox Ward",
-                "id": "ae0b-71f5-ed31-d5f9",
-                "targetId": "1b59-36b6-d49e-77b2",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Marshal of the Cordon",
-                "id": "d77d-3809-f4a9-0559",
-                "targetId": "68c0-aa85-5ee1-1565",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Embedded Handler",
-                "id": "09c9-fbb5-0d02-8665",
-                "targetId": "881d-7be8-3a26-6ebf",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Privileged Charter",
-                "id": "4c2a-882f-8937-584d",
-                "targetId": "9e13-b930-82fa-b120",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Combat Landers",
-                "id": "1f6e-831f-203d-cf84",
-                "targetId": "9aca-ae6b-cd1e-e5fb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Fervent Orator",
-                "id": "b906-63c7-eb4a-980e",
-                "targetId": "02d0-22ad-c355-f53c",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the First Martyr",
-                "id": "eb9d-703a-08ca-5e7d",
-                "targetId": "1af7-1a14-bf96-0e57",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Herald of Concord",
-                "id": "25d6-c60f-a906-f67d",
-                "targetId": "0e58-d3a7-0cea-5863",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              }
-            ]
-          }
-        ],
         "infoLinks": [
           {
             "name": "Scouts 8\"",
@@ -50785,9 +50722,9 @@
         "type": "model",
         "categoryLinks": [
           {
-            "name": "Character",
-            "id": "7f7a-2987-c112-6b49",
-            "targetId": "9cfd-1c32-585f-7d5c",
+            "name": "Epic Hero",
+            "id": "a573-bc81-a5b5-fdc5",
+            "targetId": "4f3a-f0f7-6647-348d",
             "primary": true,
             "hidden": false
           },
@@ -50813,6 +50750,13 @@
             "hidden": false
           },
           {
+            "name": "CHARACTER",
+            "id": "6fc1-de33-5d38-4ab6",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "CULEXUS ASSASSIN",
             "id": "8737-3dc3-0a28-546e",
             "targetId": "1d30-5c67-e36f-9e55",
@@ -50831,7 +50775,7 @@
           {
             "id": "21a2-1a78-9100-c0db",
             "type": "max",
-            "value": 3,
+            "value": 1,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -51196,275 +51140,6 @@
             ]
           }
         ],
-        "selectionEntryGroups": [
-          {
-            "name": "Enhancements and Upgrades",
-            "id": "050b-c5f3-2180-4a25",
-            "hidden": false,
-            "constraints": [
-              {
-                "id": "891d-d1ce-3e50-2129",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "1735-361c-7c0e-9779",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "entryLinks": [
-              {
-                "name": "Seal of the Senatorum",
-                "id": "5dce-6616-5d7c-9a28",
-                "targetId": "7bb0-7a50-0b18-56d7",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Master of Retinues",
-                "id": "876c-a1f3-cc39-d98f",
-                "targetId": "9981-6a59-5e75-6520",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Strategic Conductor",
-                "id": "d69b-9761-10ea-a800",
-                "targetId": "3576-2bc5-e174-1a12",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Executioner's Seal",
-                "id": "e2d6-9bc0-a07a-8a02",
-                "targetId": "d83c-4fd3-fb57-fe93",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Ignis",
-                "id": "9eba-e400-a4d6-012c",
-                "targetId": "0546-680a-686c-69eb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Heresius",
-                "id": "d168-74c4-c4f4-7025",
-                "targetId": "6908-dcb9-b124-680f",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Witchfinder",
-                "id": "df9d-bdd3-a5ec-19e8",
-                "targetId": "3cbd-163f-bfef-b9ed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Righteous Exemplar",
-                "id": "9d14-d3cb-4abe-959e",
-                "targetId": "23a0-1f38-b33d-d6d8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Alien Hunter",
-                "id": "ee73-59ba-017c-445f",
-                "targetId": "223f-0422-c0ce-0a33",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Translocation Beacon",
-                "id": "7eab-94b4-b419-2ee5",
-                "targetId": "bc77-e380-705a-eeeb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Xenophase Weapon",
-                "id": "4ae5-d0e7-e35f-1651",
-                "targetId": "c494-a318-192f-220b",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Daemonica",
-                "id": "9654-4d9f-d3ed-5f25",
-                "targetId": "9e07-592c-6ea2-c4f4",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sigil of Exigence",
-                "id": "63ca-9e96-3551-75d7",
-                "targetId": "7a61-6977-7daf-9670",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Cuirass of Sacrifice",
-                "id": "4c11-5699-cbb7-0b88",
-                "targetId": "b3fc-72e1-88ce-09a9",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Munitorum Mandate",
-                "id": "a4c9-1ab6-30a6-0af4",
-                "targetId": "c37c-be52-05cc-4eed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Forward Observer",
-                "id": "a8ea-a105-e9a0-5f98",
-                "targetId": "8da5-4718-e62e-dec8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Omnissian Relic",
-                "id": "ab87-1bf1-ebf6-a103",
-                "targetId": "664d-1d75-c769-e787",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sanctioned Cybernetics",
-                "id": "72d6-cfeb-f1d3-41cb",
-                "targetId": "be8f-5256-4103-d29d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Veteran of Outbreaks",
-                "id": "b44f-d019-c76e-a47c",
-                "targetId": "efa6-0cd6-99b9-a71d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chapter Liaison",
-                "id": "a2ac-650e-b846-a475",
-                "targetId": "83a3-8078-6f4a-9584",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the Chapter",
-                "id": "dcde-9a69-d718-315a",
-                "targetId": "bde6-b553-8c96-fd2d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chronometric Familiar",
-                "id": "1c0d-dc4a-c3f7-b6bd",
-                "targetId": "2dfa-fc4a-74dd-95cb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Paradox Ward",
-                "id": "f73f-2831-044e-d5c6",
-                "targetId": "1b59-36b6-d49e-77b2",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Marshal of the Cordon",
-                "id": "329f-c6b4-53db-c2d0",
-                "targetId": "68c0-aa85-5ee1-1565",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Embedded Handler",
-                "id": "2807-d7f4-a529-97b1",
-                "targetId": "881d-7be8-3a26-6ebf",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Privileged Charter",
-                "id": "beb8-b1ec-d73f-5942",
-                "targetId": "9e13-b930-82fa-b120",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Combat Landers",
-                "id": "b921-f755-f19f-db8a",
-                "targetId": "9aca-ae6b-cd1e-e5fb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Fervent Orator",
-                "id": "9dce-d260-ee69-4d45",
-                "targetId": "02d0-22ad-c355-f53c",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the First Martyr",
-                "id": "f426-fe15-f930-e471",
-                "targetId": "1af7-1a14-bf96-0e57",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Herald of Concord",
-                "id": "3b84-b8c3-ef18-8f75",
-                "targetId": "0e58-d3a7-0cea-5863",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              }
-            ]
-          }
-        ],
         "infoLinks": [
           {
             "name": "Lone Operative",
@@ -51490,9 +51165,9 @@
         "type": "model",
         "categoryLinks": [
           {
-            "name": "Character",
-            "id": "db5a-b346-b510-02df",
-            "targetId": "9cfd-1c32-585f-7d5c",
+            "name": "Epic Hero",
+            "id": "3140-5663-a08f-74f2",
+            "targetId": "4f3a-f0f7-6647-348d",
             "primary": true,
             "hidden": false
           },
@@ -51518,6 +51193,13 @@
             "hidden": false
           },
           {
+            "name": "CHARACTER",
+            "id": "6b0e-4835-d87f-5e59",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "VANUS INFOCYTE ASSASSIN",
             "id": "e7b1-74ea-e60f-5fce",
             "targetId": "3ac9-bb5a-dd1d-9bd4",
@@ -51536,7 +51218,7 @@
           {
             "id": "c1b5-2b3e-5938-655b",
             "type": "max",
-            "value": 3,
+            "value": 1,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -51915,275 +51597,6 @@
             ]
           }
         ],
-        "selectionEntryGroups": [
-          {
-            "name": "Enhancements and Upgrades",
-            "id": "0cd3-9275-78e7-1403",
-            "hidden": false,
-            "constraints": [
-              {
-                "id": "9f7f-c3fa-71d4-0353",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "a62f-1f74-c7f6-ed20",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "entryLinks": [
-              {
-                "name": "Seal of the Senatorum",
-                "id": "adb7-836b-ece8-f8a0",
-                "targetId": "7bb0-7a50-0b18-56d7",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Master of Retinues",
-                "id": "1ac2-e5ac-d236-249f",
-                "targetId": "9981-6a59-5e75-6520",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Strategic Conductor",
-                "id": "9772-9488-70d1-854b",
-                "targetId": "3576-2bc5-e174-1a12",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Executioner's Seal",
-                "id": "7cfc-e5c1-cd02-7d80",
-                "targetId": "d83c-4fd3-fb57-fe93",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Ignis",
-                "id": "c7c5-0e5a-ab05-f218",
-                "targetId": "0546-680a-686c-69eb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Heresius",
-                "id": "ea27-f8f1-e199-37a6",
-                "targetId": "6908-dcb9-b124-680f",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Witchfinder",
-                "id": "4325-1512-8304-1965",
-                "targetId": "3cbd-163f-bfef-b9ed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Righteous Exemplar",
-                "id": "3aaf-9ba5-67d8-d803",
-                "targetId": "23a0-1f38-b33d-d6d8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Alien Hunter",
-                "id": "e2c0-b370-ec4b-6cf5",
-                "targetId": "223f-0422-c0ce-0a33",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Translocation Beacon",
-                "id": "3a49-01b2-62eb-f17b",
-                "targetId": "bc77-e380-705a-eeeb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Xenophase Weapon",
-                "id": "8bea-e581-a601-63c5",
-                "targetId": "c494-a318-192f-220b",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Daemonica",
-                "id": "1d63-58eb-b61c-e706",
-                "targetId": "9e07-592c-6ea2-c4f4",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sigil of Exigence",
-                "id": "a2a4-ed56-9ecf-e22e",
-                "targetId": "7a61-6977-7daf-9670",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Cuirass of Sacrifice",
-                "id": "5e64-7b04-7d17-2a80",
-                "targetId": "b3fc-72e1-88ce-09a9",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Munitorum Mandate",
-                "id": "6066-55c0-e308-926a",
-                "targetId": "c37c-be52-05cc-4eed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Forward Observer",
-                "id": "c046-8e7d-bf0f-1b12",
-                "targetId": "8da5-4718-e62e-dec8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Omnissian Relic",
-                "id": "22e7-c51b-d29e-c528",
-                "targetId": "664d-1d75-c769-e787",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sanctioned Cybernetics",
-                "id": "8b4b-d67b-c9eb-7ceb",
-                "targetId": "be8f-5256-4103-d29d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Veteran of Outbreaks",
-                "id": "6d9f-c7a1-a33a-e6cf",
-                "targetId": "efa6-0cd6-99b9-a71d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chapter Liaison",
-                "id": "a0ec-49c9-efbf-6fc9",
-                "targetId": "83a3-8078-6f4a-9584",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the Chapter",
-                "id": "3725-dddc-65f3-47df",
-                "targetId": "bde6-b553-8c96-fd2d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chronometric Familiar",
-                "id": "34ba-08c9-0652-9ff2",
-                "targetId": "2dfa-fc4a-74dd-95cb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Paradox Ward",
-                "id": "7802-94a0-3e64-8462",
-                "targetId": "1b59-36b6-d49e-77b2",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Marshal of the Cordon",
-                "id": "ab11-21ac-a2bd-53ed",
-                "targetId": "68c0-aa85-5ee1-1565",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Embedded Handler",
-                "id": "1e0f-aacb-591d-f613",
-                "targetId": "881d-7be8-3a26-6ebf",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Privileged Charter",
-                "id": "0980-1271-ba4c-9aef",
-                "targetId": "9e13-b930-82fa-b120",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Combat Landers",
-                "id": "ad22-1496-2d33-0dee",
-                "targetId": "9aca-ae6b-cd1e-e5fb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Fervent Orator",
-                "id": "2284-afdc-e618-5cff",
-                "targetId": "02d0-22ad-c355-f53c",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the First Martyr",
-                "id": "1f20-eea0-a5c8-812d",
-                "targetId": "1af7-1a14-bf96-0e57",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Herald of Concord",
-                "id": "21eb-bcac-d41d-d32b",
-                "targetId": "0e58-d3a7-0cea-5863",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              }
-            ]
-          }
-        ],
         "infoLinks": [
           {
             "name": "Infiltrators",
@@ -52216,9 +51629,9 @@
         "type": "model",
         "categoryLinks": [
           {
-            "name": "Character",
-            "id": "f5a0-e334-c3dd-c40f",
-            "targetId": "9cfd-1c32-585f-7d5c",
+            "name": "Epic Hero",
+            "id": "8987-7ce1-0ba9-9762",
+            "targetId": "4f3a-f0f7-6647-348d",
             "primary": true,
             "hidden": false
           },
@@ -52244,6 +51657,13 @@
             "hidden": false
           },
           {
+            "name": "CHARACTER",
+            "id": "5d57-98b7-ee45-c5c9",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "VENENUM ASSASSIN",
             "id": "64da-2a37-6aaf-b681",
             "targetId": "fc1d-2627-6433-8c84",
@@ -52262,7 +51682,7 @@
           {
             "id": "10bf-8237-a35d-74f3",
             "type": "max",
-            "value": 3,
+            "value": 1,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -52728,275 +52148,6 @@
             ]
           }
         ],
-        "selectionEntryGroups": [
-          {
-            "name": "Enhancements and Upgrades",
-            "id": "8fc7-0510-b085-eda9",
-            "hidden": false,
-            "constraints": [
-              {
-                "id": "d4f0-5727-2cbc-bf61",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "4f02-9296-881d-4c08",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "entryLinks": [
-              {
-                "name": "Seal of the Senatorum",
-                "id": "9dd5-787c-5419-321b",
-                "targetId": "7bb0-7a50-0b18-56d7",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Master of Retinues",
-                "id": "17c8-fcb5-72ef-17a9",
-                "targetId": "9981-6a59-5e75-6520",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Strategic Conductor",
-                "id": "2aac-ebcb-8aa3-e864",
-                "targetId": "3576-2bc5-e174-1a12",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Executioner's Seal",
-                "id": "01cc-7406-e7be-f8ce",
-                "targetId": "d83c-4fd3-fb57-fe93",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Ignis",
-                "id": "e9a4-3863-8a7e-11cf",
-                "targetId": "0546-680a-686c-69eb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Heresius",
-                "id": "2dd5-0ff7-0a9a-9b82",
-                "targetId": "6908-dcb9-b124-680f",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Witchfinder",
-                "id": "6810-f6c1-f1b1-2b95",
-                "targetId": "3cbd-163f-bfef-b9ed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Righteous Exemplar",
-                "id": "1d47-4692-03e8-332e",
-                "targetId": "23a0-1f38-b33d-d6d8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Alien Hunter",
-                "id": "5a20-7235-c4f4-67f3",
-                "targetId": "223f-0422-c0ce-0a33",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Translocation Beacon",
-                "id": "787f-bc12-8bf9-a85c",
-                "targetId": "bc77-e380-705a-eeeb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Xenophase Weapon",
-                "id": "3af4-8afe-143a-269e",
-                "targetId": "c494-a318-192f-220b",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Daemonica",
-                "id": "0998-a4f4-07ab-8564",
-                "targetId": "9e07-592c-6ea2-c4f4",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sigil of Exigence",
-                "id": "2aa1-9519-8ad5-5d16",
-                "targetId": "7a61-6977-7daf-9670",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Cuirass of Sacrifice",
-                "id": "5322-01b4-229e-7430",
-                "targetId": "b3fc-72e1-88ce-09a9",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Munitorum Mandate",
-                "id": "70db-eaba-b23b-4f84",
-                "targetId": "c37c-be52-05cc-4eed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Forward Observer",
-                "id": "cc90-9a45-6d90-77d7",
-                "targetId": "8da5-4718-e62e-dec8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Omnissian Relic",
-                "id": "06af-d628-82b6-d806",
-                "targetId": "664d-1d75-c769-e787",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sanctioned Cybernetics",
-                "id": "c3c2-1c0a-72f0-e5cd",
-                "targetId": "be8f-5256-4103-d29d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Veteran of Outbreaks",
-                "id": "c035-2658-54e1-e89a",
-                "targetId": "efa6-0cd6-99b9-a71d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chapter Liaison",
-                "id": "3483-689f-55f7-d235",
-                "targetId": "83a3-8078-6f4a-9584",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the Chapter",
-                "id": "d9de-1ac0-af21-2149",
-                "targetId": "bde6-b553-8c96-fd2d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chronometric Familiar",
-                "id": "5be9-06da-ec34-e3d7",
-                "targetId": "2dfa-fc4a-74dd-95cb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Paradox Ward",
-                "id": "3e89-1c81-e75a-9860",
-                "targetId": "1b59-36b6-d49e-77b2",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Marshal of the Cordon",
-                "id": "5bb3-d89b-cd6d-5c3a",
-                "targetId": "68c0-aa85-5ee1-1565",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Embedded Handler",
-                "id": "4aa7-ea37-b0d0-17f2",
-                "targetId": "881d-7be8-3a26-6ebf",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Privileged Charter",
-                "id": "2f70-f7f1-2e9b-b520",
-                "targetId": "9e13-b930-82fa-b120",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Combat Landers",
-                "id": "ba0b-3e01-3fa6-19f9",
-                "targetId": "9aca-ae6b-cd1e-e5fb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Fervent Orator",
-                "id": "671f-be55-9806-bf57",
-                "targetId": "02d0-22ad-c355-f53c",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the First Martyr",
-                "id": "33ef-fdb1-5bf9-2a09",
-                "targetId": "1af7-1a14-bf96-0e57",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Herald of Concord",
-                "id": "f561-9183-b7a4-61df",
-                "targetId": "0e58-d3a7-0cea-5863",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              }
-            ]
-          }
-        ],
         "infoLinks": [
           {
             "name": "Infiltrators",
@@ -53029,9 +52180,9 @@
         "type": "model",
         "categoryLinks": [
           {
-            "name": "Character",
-            "id": "ecbe-108a-0734-8c06",
-            "targetId": "9cfd-1c32-585f-7d5c",
+            "name": "Epic Hero",
+            "id": "13f2-6fc5-34a4-8558",
+            "targetId": "4f3a-f0f7-6647-348d",
             "primary": true,
             "hidden": false
           },
@@ -53057,6 +52208,13 @@
             "hidden": false
           },
           {
+            "name": "CHARACTER",
+            "id": "1ca4-4744-7b00-0871",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "ADAMUS ASSASSIN",
             "id": "6614-9d75-c846-792e",
             "targetId": "1fb1-5c08-4108-57cd",
@@ -53075,7 +52233,7 @@
           {
             "id": "b389-b723-e6b9-f559",
             "type": "max",
-            "value": 3,
+            "value": 1,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -53524,275 +52682,6 @@
                     "includeChildSelections": true
                   }
                 ]
-              }
-            ]
-          }
-        ],
-        "selectionEntryGroups": [
-          {
-            "name": "Enhancements and Upgrades",
-            "id": "bdbb-48e9-63cb-c77f",
-            "hidden": false,
-            "constraints": [
-              {
-                "id": "54d8-4b92-d308-4744",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "7eca-7c84-8789-5019",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "entryLinks": [
-              {
-                "name": "Seal of the Senatorum",
-                "id": "6525-84b1-e500-72ab",
-                "targetId": "7bb0-7a50-0b18-56d7",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Master of Retinues",
-                "id": "be30-01a2-2e14-5685",
-                "targetId": "9981-6a59-5e75-6520",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Strategic Conductor",
-                "id": "eabc-3617-a8e2-f794",
-                "targetId": "3576-2bc5-e174-1a12",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Executioner's Seal",
-                "id": "66d9-77ff-ddaf-807a",
-                "targetId": "d83c-4fd3-fb57-fe93",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Ignis",
-                "id": "79b2-cbe7-c16e-a117",
-                "targetId": "0546-680a-686c-69eb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Heresius",
-                "id": "0081-66a1-0536-464b",
-                "targetId": "6908-dcb9-b124-680f",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Witchfinder",
-                "id": "3d37-ea0f-8e21-d74d",
-                "targetId": "3cbd-163f-bfef-b9ed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Righteous Exemplar",
-                "id": "978d-a80f-4a1f-472d",
-                "targetId": "23a0-1f38-b33d-d6d8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Alien Hunter",
-                "id": "b6ea-c255-bd1b-3a32",
-                "targetId": "223f-0422-c0ce-0a33",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Translocation Beacon",
-                "id": "4725-aa13-26b7-c639",
-                "targetId": "bc77-e380-705a-eeeb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Xenophase Weapon",
-                "id": "80b7-f31e-96ef-7c0d",
-                "targetId": "c494-a318-192f-220b",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Liber Daemonica",
-                "id": "9f9d-04f8-cafb-ef32",
-                "targetId": "9e07-592c-6ea2-c4f4",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sigil of Exigence",
-                "id": "ffc2-4cdc-4e01-0ea8",
-                "targetId": "7a61-6977-7daf-9670",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Cuirass of Sacrifice",
-                "id": "5c1d-c131-fbca-95c6",
-                "targetId": "b3fc-72e1-88ce-09a9",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Munitorum Mandate",
-                "id": "14a0-8a69-72e6-3de7",
-                "targetId": "c37c-be52-05cc-4eed",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Forward Observer",
-                "id": "bf67-1ebf-b1fa-a371",
-                "targetId": "8da5-4718-e62e-dec8",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Omnissian Relic",
-                "id": "f702-8618-5cfa-a868",
-                "targetId": "664d-1d75-c769-e787",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Sanctioned Cybernetics",
-                "id": "f34f-b6e0-b90e-18e0",
-                "targetId": "be8f-5256-4103-d29d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Veteran of Outbreaks",
-                "id": "c78f-ed9f-db59-48f8",
-                "targetId": "efa6-0cd6-99b9-a71d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chapter Liaison",
-                "id": "65a8-00ff-f747-5430",
-                "targetId": "83a3-8078-6f4a-9584",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the Chapter",
-                "id": "b310-fde9-1594-ef39",
-                "targetId": "bde6-b553-8c96-fd2d",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Chronometric Familiar",
-                "id": "b590-8f8c-1499-e299",
-                "targetId": "2dfa-fc4a-74dd-95cb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Paradox Ward",
-                "id": "3abb-6c98-844e-8f9e",
-                "targetId": "1b59-36b6-d49e-77b2",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Marshal of the Cordon",
-                "id": "d7de-3f8c-61cb-7a80",
-                "targetId": "68c0-aa85-5ee1-1565",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Embedded Handler",
-                "id": "9a48-13ea-13a9-81e2",
-                "targetId": "881d-7be8-3a26-6ebf",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Privileged Charter",
-                "id": "0aaa-f2f3-4261-ffdd",
-                "targetId": "9e13-b930-82fa-b120",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Combat Landers",
-                "id": "0d4f-82a9-0b00-c623",
-                "targetId": "9aca-ae6b-cd1e-e5fb",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Fervent Orator",
-                "id": "8ab2-cd2d-0e9a-6b3c",
-                "targetId": "02d0-22ad-c355-f53c",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Relic of the First Martyr",
-                "id": "6568-6ea8-7bee-873b",
-                "targetId": "1af7-1a14-bf96-0e57",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              },
-              {
-                "name": "Herald of Concord",
-                "id": "d70b-89db-ed17-af33",
-                "targetId": "0e58-d3a7-0cea-5863",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
               }
             ]
           }
