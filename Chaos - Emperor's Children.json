@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children (Homebrew v3.1)",
-    "revision": 15,
+    "revision": 16,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -3162,7 +3162,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ]
       },
@@ -3259,7 +3259,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "costs": [
@@ -4057,7 +4057,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "costs": [
@@ -4434,7 +4434,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "costs": [
@@ -4813,7 +4813,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "costs": [
@@ -5243,7 +5243,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "costs": [
@@ -5988,7 +5988,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "costs": [
@@ -6791,7 +6791,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "costs": [
@@ -7307,7 +7307,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "costs": [
@@ -7557,7 +7557,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "costs": [
@@ -8047,7 +8047,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -9735,7 +9735,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -10967,7 +10967,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -12055,7 +12055,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -13150,7 +13150,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -14164,7 +14164,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -15171,7 +15171,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -16303,7 +16303,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -17178,7 +17178,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -18695,7 +18695,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -20089,7 +20089,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -21294,7 +21294,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -22277,7 +22277,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -23393,7 +23393,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -24769,7 +24769,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -25808,7 +25808,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -26811,7 +26811,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -27928,7 +27928,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -28102,7 +28102,7 @@
                             "scope": "f75b-de8c-df19-ed03",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -28654,7 +28654,7 @@
                             "scope": "f75b-de8c-df19-ed03",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -28881,7 +28881,7 @@
                         "scope": "269c-aa07-ffcf-855b",
                         "field": "selections",
                         "shared": true,
-                        "includeChildSelections": false
+                        "includeChildSelections": true
                       }
                     ]
                   }
@@ -28961,7 +28961,7 @@
                             "scope": "f75b-de8c-df19-ed03",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -29513,7 +29513,7 @@
                             "scope": "f75b-de8c-df19-ed03",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -29740,7 +29740,7 @@
                         "scope": "8247-d416-5ed9-1ba8",
                         "field": "selections",
                         "shared": true,
-                        "includeChildSelections": false
+                        "includeChildSelections": true
                       }
                     ]
                   }
@@ -29920,7 +29920,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -30094,7 +30094,7 @@
                             "scope": "dd01-50f2-b820-8d70",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -30646,7 +30646,7 @@
                             "scope": "dd01-50f2-b820-8d70",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -30906,7 +30906,7 @@
                             "scope": "dd01-50f2-b820-8d70",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           },
                           {
                             "id": "d758-ce49-f170-6e37",
@@ -30915,7 +30915,7 @@
                             "scope": "dd01-50f2-b820-8d70",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -31183,7 +31183,7 @@
                             "scope": "dd01-50f2-b820-8d70",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           },
                           {
                             "id": "61e1-d7ab-4381-6bde",
@@ -31192,7 +31192,7 @@
                             "scope": "dd01-50f2-b820-8d70",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -31419,7 +31419,7 @@
                         "scope": "34ae-2de4-e891-eb4d",
                         "field": "selections",
                         "shared": true,
-                        "includeChildSelections": false
+                        "includeChildSelections": true
                       }
                     ]
                   }
@@ -31499,7 +31499,7 @@
                             "scope": "dd01-50f2-b820-8d70",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -32051,7 +32051,7 @@
                             "scope": "dd01-50f2-b820-8d70",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -32311,7 +32311,7 @@
                             "scope": "dd01-50f2-b820-8d70",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           },
                           {
                             "id": "2a92-273c-988d-caab",
@@ -32320,7 +32320,7 @@
                             "scope": "dd01-50f2-b820-8d70",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -32588,7 +32588,7 @@
                             "scope": "dd01-50f2-b820-8d70",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           },
                           {
                             "id": "6cdc-3a47-c160-ca55",
@@ -32597,7 +32597,7 @@
                             "scope": "dd01-50f2-b820-8d70",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -32824,7 +32824,7 @@
                         "scope": "8c5e-7ead-5895-1518",
                         "field": "selections",
                         "shared": true,
-                        "includeChildSelections": false
+                        "includeChildSelections": true
                       }
                     ]
                   }
@@ -32971,7 +32971,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -33145,7 +33145,7 @@
                             "scope": "e97c-e1fc-7cc1-8c99",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -33369,7 +33369,7 @@
                             "scope": "e97c-e1fc-7cc1-8c99",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -33647,7 +33647,7 @@
                             "scope": "e97c-e1fc-7cc1-8c99",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -33871,7 +33871,7 @@
                             "scope": "e97c-e1fc-7cc1-8c99",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -34242,7 +34242,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -34416,7 +34416,7 @@
                             "scope": "3599-4ccb-da68-4ad5",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -34659,7 +34659,7 @@
                             "scope": "3599-4ccb-da68-4ad5",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           },
                           {
                             "id": "088e-5669-fe2b-6b13",
@@ -34668,7 +34668,7 @@
                             "scope": "3599-4ccb-da68-4ad5",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -34946,7 +34946,7 @@
                             "scope": "3599-4ccb-da68-4ad5",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -35189,7 +35189,7 @@
                             "scope": "3599-4ccb-da68-4ad5",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           },
                           {
                             "id": "12ca-b942-46f4-9df5",
@@ -35198,7 +35198,7 @@
                             "scope": "3599-4ccb-da68-4ad5",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -35590,7 +35590,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -35738,7 +35738,7 @@
                     "scope": "33f6-f78f-ace5-e1c5",
                     "field": "selections",
                     "shared": true,
-                    "includeChildSelections": false
+                    "includeChildSelections": true
                   }
                 ],
                 "profiles": [
@@ -35891,7 +35891,7 @@
                 "scope": "33f6-f78f-ace5-e1c5",
                 "field": "selections",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": true
               }
             ]
           },
@@ -35918,7 +35918,7 @@
                 "scope": "33f6-f78f-ace5-e1c5",
                 "field": "selections",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": true
               }
             ]
           }
@@ -35975,7 +35975,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -36164,7 +36164,7 @@
                     "scope": "fd3c-29a8-2489-d7bd",
                     "field": "selections",
                     "shared": true,
-                    "includeChildSelections": false
+                    "includeChildSelections": true
                   }
                 ],
                 "profiles": [
@@ -36678,7 +36678,7 @@
                     "scope": "fd3c-29a8-2489-d7bd",
                     "field": "selections",
                     "shared": true,
-                    "includeChildSelections": false
+                    "includeChildSelections": true
                   }
                 ],
                 "profiles": [
@@ -36921,7 +36921,7 @@
                     "scope": "fd3c-29a8-2489-d7bd",
                     "field": "selections",
                     "shared": true,
-                    "includeChildSelections": false
+                    "includeChildSelections": true
                   }
                 ],
                 "profiles": [
@@ -37307,7 +37307,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -37481,7 +37481,7 @@
                             "scope": "7861-7095-1186-f5bf",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -37759,7 +37759,7 @@
                             "scope": "7861-7095-1186-f5bf",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -38130,7 +38130,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -38278,7 +38278,7 @@
                     "scope": "8c94-629d-4458-b252",
                     "field": "selections",
                     "shared": true,
-                    "includeChildSelections": false
+                    "includeChildSelections": true
                   }
                 ],
                 "profiles": [
@@ -38643,7 +38643,7 @@
                     "scope": "8c94-629d-4458-b252",
                     "field": "selections",
                     "shared": true,
-                    "includeChildSelections": false
+                    "includeChildSelections": true
                   }
                 ],
                 "profiles": [
@@ -38973,7 +38973,7 @@
                     "scope": "8c94-629d-4458-b252",
                     "field": "selections",
                     "shared": true,
-                    "includeChildSelections": false
+                    "includeChildSelections": true
                   }
                 ],
                 "profiles": [
@@ -39481,7 +39481,7 @@
                     "scope": "8c94-629d-4458-b252",
                     "field": "selections",
                     "shared": true,
-                    "includeChildSelections": false
+                    "includeChildSelections": true
                   }
                 ],
                 "profiles": [
@@ -39775,7 +39775,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -39923,7 +39923,7 @@
                     "scope": "730a-c1dd-e993-b45f",
                     "field": "selections",
                     "shared": true,
-                    "includeChildSelections": false
+                    "includeChildSelections": true
                   }
                 ],
                 "profiles": [
@@ -40210,7 +40210,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -40358,7 +40358,7 @@
                     "scope": "6c60-bd6a-5112-b2c5",
                     "field": "selections",
                     "shared": true,
-                    "includeChildSelections": false
+                    "includeChildSelections": true
                   }
                 ],
                 "profiles": [
@@ -40737,7 +40737,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -40911,7 +40911,7 @@
                             "scope": "ee5b-7580-4f6c-3828",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -41135,7 +41135,7 @@
                             "scope": "ee5b-7580-4f6c-3828",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -41378,7 +41378,7 @@
                             "scope": "ee5b-7580-4f6c-3828",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           },
                           {
                             "id": "7442-095e-1774-a0d8",
@@ -41387,7 +41387,7 @@
                             "scope": "ee5b-7580-4f6c-3828",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -41665,7 +41665,7 @@
                             "scope": "ee5b-7580-4f6c-3828",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -41889,7 +41889,7 @@
                             "scope": "ee5b-7580-4f6c-3828",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -42132,7 +42132,7 @@
                             "scope": "ee5b-7580-4f6c-3828",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           },
                           {
                             "id": "1b44-b9c7-454d-15d0",
@@ -42141,7 +42141,7 @@
                             "scope": "ee5b-7580-4f6c-3828",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -42505,7 +42505,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -42679,7 +42679,7 @@
                             "scope": "ecb3-940a-235f-5fb7",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -42883,7 +42883,7 @@
                             "scope": "ecb3-940a-235f-5fb7",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -43187,7 +43187,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -43361,7 +43361,7 @@
                             "scope": "cf64-c240-3c50-8b86",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -44007,7 +44007,7 @@
                             "scope": "cf64-c240-3c50-8b86",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -44429,7 +44429,7 @@
                             "scope": "cf64-c240-3c50-8b86",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -45075,7 +45075,7 @@
                             "scope": "cf64-c240-3c50-8b86",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -45604,7 +45604,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -45778,7 +45778,7 @@
                             "scope": "2b9c-fce1-ac4d-9532",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -45982,7 +45982,7 @@
                             "scope": "2b9c-fce1-ac4d-9532",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -46220,7 +46220,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -46394,7 +46394,7 @@
                             "scope": "525d-b7ed-74da-f27e",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -46598,7 +46598,7 @@
                             "scope": "525d-b7ed-74da-f27e",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -46836,7 +46836,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -47416,7 +47416,7 @@
                     "scope": "4ead-5a17-9491-415a",
                     "field": "selections",
                     "shared": true,
-                    "includeChildSelections": false
+                    "includeChildSelections": true
                   }
                 ],
                 "profiles": [
@@ -47715,7 +47715,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -47889,7 +47889,7 @@
                             "scope": "3bbd-2b00-4e51-9486",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -48345,7 +48345,7 @@
                             "scope": "3bbd-2b00-4e51-9486",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -48588,7 +48588,7 @@
                             "scope": "3bbd-2b00-4e51-9486",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           },
                           {
                             "id": "3327-3d05-7632-8cec",
@@ -48597,7 +48597,7 @@
                             "scope": "3bbd-2b00-4e51-9486",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -48981,7 +48981,7 @@
                             "scope": "3bbd-2b00-4e51-9486",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -49437,7 +49437,7 @@
                             "scope": "3bbd-2b00-4e51-9486",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -49680,7 +49680,7 @@
                             "scope": "3bbd-2b00-4e51-9486",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           },
                           {
                             "id": "141c-b85e-23b2-9c33",
@@ -49689,7 +49689,7 @@
                             "scope": "3bbd-2b00-4e51-9486",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -50140,7 +50140,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -50535,7 +50535,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -50709,7 +50709,7 @@
                             "scope": "4610-5a6b-f529-f4a8",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -50936,7 +50936,7 @@
                         "scope": "e032-552a-da95-6b16",
                         "field": "selections",
                         "shared": true,
-                        "includeChildSelections": false
+                        "includeChildSelections": true
                       }
                     ]
                   },
@@ -50963,7 +50963,7 @@
                         "scope": "e032-552a-da95-6b16",
                         "field": "selections",
                         "shared": true,
-                        "includeChildSelections": false
+                        "includeChildSelections": true
                       }
                     ]
                   }
@@ -51043,7 +51043,7 @@
                             "scope": "4610-5a6b-f529-f4a8",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -51270,7 +51270,7 @@
                         "scope": "2c57-6eec-b1b8-94a4",
                         "field": "selections",
                         "shared": true,
-                        "includeChildSelections": false
+                        "includeChildSelections": true
                       }
                     ]
                   },
@@ -51297,7 +51297,7 @@
                         "scope": "2c57-6eec-b1b8-94a4",
                         "field": "selections",
                         "shared": true,
-                        "includeChildSelections": false
+                        "includeChildSelections": true
                       }
                     ]
                   }
@@ -51383,7 +51383,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -51531,7 +51531,7 @@
                     "scope": "4057-bd3a-e37d-2e90",
                     "field": "selections",
                     "shared": true,
-                    "includeChildSelections": false
+                    "includeChildSelections": true
                   }
                 ],
                 "profiles": [
@@ -51712,7 +51712,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -51959,7 +51959,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -52133,7 +52133,7 @@
                             "scope": "757c-7ab2-7468-554e",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -52337,7 +52337,7 @@
                             "scope": "757c-7ab2-7468-554e",
                             "field": "selections",
                             "shared": true,
-                            "includeChildSelections": false
+                            "includeChildSelections": true
                           }
                         ],
                         "profiles": [
@@ -53014,7 +53014,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -53877,7 +53877,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -54780,7 +54780,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -57063,7 +57063,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -58920,7 +58920,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -60287,7 +60287,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -61720,7 +61720,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -62802,7 +62802,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -63212,7 +63212,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -64298,7 +64298,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -65121,7 +65121,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65159,7 +65159,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65197,7 +65197,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65235,7 +65235,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65279,7 +65279,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65317,7 +65317,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65355,7 +65355,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65393,7 +65393,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65431,7 +65431,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65469,7 +65469,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65507,7 +65507,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65545,7 +65545,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65583,7 +65583,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65621,7 +65621,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65659,7 +65659,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65697,7 +65697,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65735,7 +65735,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65773,7 +65773,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65811,7 +65811,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65849,7 +65849,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65887,7 +65887,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65925,7 +65925,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -65963,7 +65963,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66001,7 +66001,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66039,7 +66039,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66077,7 +66077,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66115,7 +66115,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66153,7 +66153,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66191,7 +66191,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66229,7 +66229,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66315,7 +66315,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66395,7 +66395,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66475,7 +66475,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66555,7 +66555,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66635,7 +66635,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66715,7 +66715,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66795,7 +66795,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66875,7 +66875,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -66955,7 +66955,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
@@ -67035,7 +67035,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "rules": [
