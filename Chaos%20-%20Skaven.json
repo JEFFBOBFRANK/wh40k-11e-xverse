@@ -1,6 +1,6 @@
 {
   "catalogue": {
-    "name": "Chaos - Skaven",
+    "name": "Chaos - 🐀 Skaven",
     "id": "9439-bdfb-124d-fa29",
     "authorContact": "",
     "authorName": "Homebrew data compiled from Codex: Skaven 0.10.4",
@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 17,
     "library": false,
-    "revision": 11,
+    "revision": 12,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "categoryEntries": [

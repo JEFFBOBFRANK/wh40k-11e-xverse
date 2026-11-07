@@ -1,12 +1,12 @@
 {
   "catalogue": {
-    "name": "Imperium - Agents of the Imperium (Homebrew v0.9.2)",
+    "name": "Imperium - Agents of the Imperium",
     "id": "b00-cd86-4b4c-97ba",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 22,
     "library": false,
-    "revision": 19,
+    "revision": 20,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [

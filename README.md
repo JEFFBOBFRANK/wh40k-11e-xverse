@@ -7,7 +7,7 @@ This fork includes Skaven, Black-Flag and a playtest Agents of the Imperium v0.9
 1. Open **Games → Add more games → Add from Github**.
 2. Choose **Latest Commit (Head)**.
 3. Enter `https://github.com/JEFFBOBFRANK/wh40k-11e-xverse` and add the game.
-4. Create a list using **Imperium - Agents of the Imperium (Homebrew v0.9.2)** and **Army Roster**.
+4. Create a list using **Imperium - Agents of the Imperium** and **Army Roster**.
 5. Select Battle Size, Detachments and one Force Disposition. Add native units or Requisitions as permitted by the selected detachments.
 
 Detachment profiles show their rules. Force Disposition is selected in Configuration. **Requisition Options → Include Legends** turns Legends datasheets on or off (off by default). Requisition units are grouped by faction. The seven Assassinorum operatives are Epic Heroes, limited to one of each and excluded from Enhancements. **Unique: ORDO** permits only one Ordo Detachment in the army. Stratagems are in the separate **Stratagem References** selection and follow the selected detachments. Army references use separate readable rule sections.
@@ -39,4 +39,6 @@ Legions of Excess appear only with Carnival of Excess, Perfumed Procession or Ri
 
 ## Faction icons
 
-The EC catalogue uses the standard faction name so New Recruit displays its built-in Emperor’s Children symbol. Its rules remain homebrew v3.1. Existing roster IDs and selections are preserved. Optional `settings/icons.json` provides mappings for homebrew names and Skaven when importing the complete folder locally. New Recruit’s current GitHub snapshot importer reads only the root tree and skips that settings folder, so the Skaven symbol does not yet load from a GitHub installation.
+Emperor’s Children and Agents of the Imperium use their standard faction names so New Recruit displays the built-in emblems. Their homebrew versions remain EC v3.1 and Agents v0.9.2, recorded in the catalogue notes. Catalogue identifiers and all rules/selections are preserved.
+
+Skaven uses a rat marker in its name: **🐀 Skaven**. This works with the normal GitHub installation without requiring custom icon settings. It is a text/emoji fallback, not the official Skaven emblem. Optional `settings/icons.json` contains native icon mappings for local folder imports; New Recruit’s current GitHub importer skips that settings directory.
