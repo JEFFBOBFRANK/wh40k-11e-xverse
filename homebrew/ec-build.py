@@ -24,7 +24,7 @@ def price(o,v,typ=PT):app(o,'costs',dict(name={PT:'pts',DP:'Detachment Points',E
 def group(o,n,key,mini=0,maxi=1):
  g=dict(name=n,id=uid(key),hidden=False);app(o,'selectionEntryGroups',g)
  app(g,'constraints',con(key+'min','min',mini));app(g,'constraints',con(key+'max','max',maxi));return g
-C={k:OLD[k] for k in ['id','battleScribeVersion','gameSystemId','xmlns']};C.update(name="Chaos - Emperor's Children",revision=OLD['revision']+6,gameSystemRevision=G['revision']+1,library=False,type='catalogue',authorName='Xverse homebrew',readme='Emperor’s Children homebrew v3.1, 7 November 2026. Create a new Army Roster after updating. Source transcription, build and validation notes are in homebrew/ec-*. Missing new detachment dispositions are provisional; see ec-VALIDATION.md.')
+C={k:OLD[k] for k in ['id','battleScribeVersion','gameSystemId','xmlns']};C.update(name="Chaos - Emperor's Children",revision=OLD['revision']+7,gameSystemRevision=G['revision']+1,library=False,type='catalogue',authorName='Xverse homebrew',readme='Emperor’s Children homebrew v3.1, 7 November 2026. Create a new Army Roster after updating. Source transcription, build and validation notes are in homebrew/ec-*. Missing new detachment dispositions are provisional; see ec-VALIDATION.md.')
 CATS={x['name'].upper():x['id'] for x in G['categoryEntries']+OLD.get('categoryEntries',[])}
 # Keep original keyword identifiers for cross-catalogue compatibility.
 C['categoryEntries']=[dict(name=x['name'],id=x['id'],hidden=False) for x in OLD.get('categoryEntries',[])]
@@ -351,8 +351,10 @@ for u in S['units']:
   app(g,'entryLinks',l)
 # Update only the current system snapshot; preserve previous Agents fixes.
 G['revision']+=1;C['gameSystemRevision']=G['revision']
+from ec_reference_format import apply_references
+REFERENCE_REPORT=apply_references(C,G,S)
 a.output.mkdir(parents=True,exist_ok=True)
 for fn,key,obj in [("Chaos - Emperor's Children.json",'catalogue',C),('Warhammer 40,000.json','gameSystem',G)]:
  (a.output/fn).write_text(json.dumps({key:obj},indent=2,ensure_ascii=False)+'\n')
-coverage=dict(source_version=S['version'],source_pdf_sha256=S['pdf_sha256'],native_units=45,allied_units=13,weapon_profiles=sum(len(u['weapons']) for u in S['units']),detachments=15,enhancements=40,stratagems=60,dispositions_inherited=['Peerless Bladesmen','Rapid Evisceration','Mercurial Host'],dispositions_unspecified=UNSPECIFIED,native_root_ids={n:e['id'] for n,e in NATIVE.items()},runtime_test='Published-revision live checks are recorded in homebrew/ec-VALIDATION.md.')
+coverage=dict(source_version=S['version'],source_pdf_sha256=S['pdf_sha256'],reference_display=REFERENCE_REPORT,native_units=45,allied_units=13,weapon_profiles=sum(len(u['weapons']) for u in S['units']),detachments=15,enhancements=40,stratagems=60,dispositions_inherited=['Peerless Bladesmen','Rapid Evisceration','Mercurial Host'],dispositions_unspecified=UNSPECIFIED,native_root_ids={n:e['id'] for n,e in NATIVE.items()},runtime_test='Published-revision live checks are recorded in homebrew/ec-VALIDATION.md.')
 (a.output/'ec-coverage.json').write_text(json.dumps(coverage,indent=2)+'\n');print(json.dumps(coverage,indent=2))

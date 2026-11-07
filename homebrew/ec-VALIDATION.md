@@ -34,3 +34,13 @@ Use an isolated baseline checkout of `JEFFBOBFRANK/wh40k-11e-xverse` at `b7ecd9e
 `python3 homebrew/ec-validate.py --data /path/to/output --source homebrew/ec-source-data.json`
 
 Copy the generated two root catalogues and EC reports into the repository. The builder uses the standard library and does not require the PDF at build time.
+
+## Datasheet and reference display pass
+
+Compared against repository baseline `40a09b3045e8a7c0d092364246140cdabcd2bb4e`. Standard Unit/weapon profiles and the existing model/equipment selection graph are preserved. EC’s former single visible datasheet rules block is now separately named Abilities profiles, as used by Agents, Space Marines and Chaos Space Marines. The original transcription remains hidden for source checks. The pass adds 466 named ability/information profiles, 73 links to core rules, 345 links from weapon choices to weapon rules, and the custom codex publication/page on all 58 datasheets. No publication/page is invented for a continuation-only ability: the root entry records the datasheet’s starting page.
+
+All twenty army reference sections remain. Printed tables are reconstructed from their fixed-width source columns as labelled rows, retaining wording/numbers and wrapped cells. Warband elixir activation, duration and Stupefied effects are separate paragraphs. Linked army rule descriptions use the same formatted references. Stratagem selection and detachment visibility remain unchanged.
+
+The updated validator passes 85,291 source/structure checks, including 1,362 reference checks, and 5,823 detachment/ally scenarios. With `--previous /path/to/previous`, it also checks the unchanged mechanical selection graph and every existing profile against that snapshot. The system file is unchanged. The formatter `ec_reference_format.py` must sit beside `ec-build.py`.
+
+Live New Recruit checks passed against catalogue commit `64469ce9d5223d81afd35d56fcf7ffa765e0e5b1`: all twenty army reference sections rendered, labelled transport/attachment/signature-elixir rows and printed page citations were present, Fulgrim displayed separate bespoke abilities including his continuation-page Ambrosia and ordinary-dose exception, and Noise Marines displayed their six-model default weapons, named Terrifying Crescendo and core weapon-rule references. The hidden source block did not appear as a second visible datasheet rules section. Full exported-card layout checks remain part of broader playtesting.

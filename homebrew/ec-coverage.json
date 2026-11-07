@@ -1,6 +1,13 @@
 {
   "source_version": "3.1",
   "source_pdf_sha256": "9f67e82df35648405bab0aba5cb725ae9b52696dbd5621b250fad60ff348722d",
+  "reference_display": {
+    "reference_sections": 20,
+    "named_ability_profiles": 466,
+    "core_rule_links": 73,
+    "weapon_rule_links": 345,
+    "source_publication": "Emperor's Children Homebrew Codex v3.1"
+  },
   "native_units": 45,
   "allied_units": 13,
   "weapon_profiles": 244,

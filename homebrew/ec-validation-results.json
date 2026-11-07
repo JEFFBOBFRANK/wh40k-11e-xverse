@@ -1,7 +1,9 @@
 {
   "status": "PASS",
+  "reference_checks": 1362,
+  "named_ability_profiles": 466,
   "source_version": "3.1",
-  "source_checks": 82579,
+  "source_checks": 85291,
   "detachment_and_ally_scenarios": 5823,
   "units": 58,
   "weapon_profiles": 244,
