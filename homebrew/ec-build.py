@@ -24,7 +24,7 @@ def price(o,v,typ=PT):app(o,'costs',dict(name={PT:'pts',DP:'Detachment Points',E
 def group(o,n,key,mini=0,maxi=1):
  g=dict(name=n,id=uid(key),hidden=False);app(o,'selectionEntryGroups',g)
  app(g,'constraints',con(key+'min','min',mini));app(g,'constraints',con(key+'max','max',maxi));return g
-C={k:OLD[k] for k in ['id','battleScribeVersion','gameSystemId','xmlns']};C.update(name="Chaos - Emperor's Children (Homebrew v3.1)",revision=OLD['revision']+5,gameSystemRevision=G['revision']+1,library=False,type='catalogue',authorName='Xverse homebrew',readme='Emperor’s Children homebrew v3.1, 7 November 2026. Create a new Army Roster after updating. Source transcription, build and validation notes are in homebrew/ec-*. Missing new detachment dispositions are provisional; see ec-VALIDATION.md.')
+C={k:OLD[k] for k in ['id','battleScribeVersion','gameSystemId','xmlns']};C.update(name="Chaos - Emperor's Children",revision=OLD['revision']+6,gameSystemRevision=G['revision']+1,library=False,type='catalogue',authorName='Xverse homebrew',readme='Emperor’s Children homebrew v3.1, 7 November 2026. Create a new Army Roster after updating. Source transcription, build and validation notes are in homebrew/ec-*. Missing new detachment dispositions are provisional; see ec-VALIDATION.md.')
 CATS={x['name'].upper():x['id'] for x in G['categoryEntries']+OLD.get('categoryEntries',[])}
 # Keep original keyword identifiers for cross-catalogue compatibility.
 C['categoryEntries']=[dict(name=x['name'],id=x['id'],hidden=False) for x in OLD.get('categoryEntries',[])]
