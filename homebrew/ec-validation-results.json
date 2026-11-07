@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "source_version": "3.1",
+  "source_checks": 82579,
+  "detachment_and_ally_scenarios": 5823,
+  "units": 58,
+  "weapon_profiles": 244,
+  "enhancements": 40,
+  "stratagems": 60,
+  "dispositions_unspecified": [
+    "Perfumed Procession",
+    "Ritual Host",
+    "The Perfect Formula",
+    "The Flesh Perfected",
+    "The Harmonic Cabal",
+    "Carnival of Engines",
+    "Cult of Perfect Agony",
+    "The Veiled Hunt",
+    "The Gilded Retinue",
+    "Kakophonic Conclave"
+  ],
+  "live_validation": "Published-revision live checks are recorded in homebrew/ec-VALIDATION.md."
+}
