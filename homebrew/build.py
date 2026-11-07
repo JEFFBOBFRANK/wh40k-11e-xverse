@@ -53,7 +53,7 @@ def group(o,n,key,mini=0,maxi=1):
 G=load('Warhammer 40,000.json')['gameSystem']
 BASE=load('Imperium - Agents of the Imperium.json')['catalogue']
 C=copy.deepcopy(BASE)
-C.update(name='Imperium - Agents of the Imperium (Homebrew v0.9.2)',revision=BASE['revision']+3,gameSystemId=NEW_SYS,selectionEntries=[],entryLinks=[])
+C.update(name='Imperium - Agents of the Imperium',revision=BASE['revision']+4,gameSystemId=NEW_SYS,selectionEntries=[],entryLinks=[])
 C['readme']='Agents of the Imperium v0.9.2 homebrew. See README.md and homebrew/VALIDATION.md. Select Army Roster, Battle Size, Detachments and Force Disposition. Requisitions retain parent datasheets. This is an unofficial playtest catalogue.'
 for l in C.get('catalogueLinks',[]):l['importRootEntries']=False
 CATS={x['name'].upper():x['id'] for x in G['categoryEntries']+C.get('categoryEntries',[])}
