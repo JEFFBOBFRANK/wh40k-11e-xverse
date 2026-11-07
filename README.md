@@ -32,7 +32,11 @@ Unofficial fan content; not endorsed by Games Workshop or New Recruit. Parent pu
 
 ## Emperor’s Children v3.1
 
-The custom EC catalogue now includes all 58 datasheets (45 EC and 13 Legions of Excess allies), 15 detachments, 40 enhancements/upgrades, 60 stratagems, equipment and permanent elixir choices from the 7 November 2026 codex. Refresh to Latest Commit (Head), then create a new **Chaos - Emperor's Children (Homebrew v3.1)** Army Roster.
+The custom EC catalogue now includes all 58 datasheets (45 EC and 13 Legions of Excess allies), 15 detachments, 40 enhancements/upgrades, 60 stratagems, equipment and permanent elixir choices from the 7 November 2026 codex. Refresh to Latest Commit (Head), then create a new **Chaos - Emperor's Children** Army Roster.
 
 Legions of Excess appear only with Carnival of Excess, Perfumed Procession or Ritual Host, with a validated points allowance. See [EC validation and source gaps](homebrew/ec-VALIDATION.md): ten new packages lack printed dispositions, so their standard disposition choices are provisional. The source transcription, deterministic builder and checks are in `homebrew/ec-*`.
 
+
+## Faction icons
+
+The EC catalogue uses the standard faction name so New Recruit displays its built-in Emperor’s Children symbol. Its rules remain homebrew v3.1. Existing roster IDs and selections are preserved. Optional `settings/icons.json` provides mappings for homebrew names and Skaven when importing the complete folder locally. New Recruit’s current GitHub snapshot importer reads only the root tree and skips that settings folder, so the Skaven symbol does not yet load from a GitHub installation.
