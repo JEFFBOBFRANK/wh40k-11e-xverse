@@ -29,3 +29,10 @@ Skaven and Black-Flag catalogue files are preserved. No automatic upstream updat
 - Agents rules: the user's complete homebrew codex v0.9.2, transcribed in `homebrew/source-data.json`.
 
 Unofficial fan content; not endorsed by Games Workshop or New Recruit. Parent publications remain authoritative for requisitioned datasheets and points. A rebuild script and validation script are provided in `homebrew/`.
+
+## Emperor’s Children v3.1
+
+The custom EC catalogue now includes all 58 datasheets (45 EC and 13 Legions of Excess allies), 15 detachments, 40 enhancements/upgrades, 60 stratagems, equipment and permanent elixir choices from the 7 November 2026 codex. Refresh to Latest Commit (Head), then create a new **Chaos - Emperor's Children (Homebrew v3.1)** Army Roster.
+
+Legions of Excess appear only with Carnival of Excess, Perfumed Procession or Ritual Host, with a validated points allowance. See [EC validation and source gaps](homebrew/ec-VALIDATION.md): ten new packages lack printed dispositions, so their standard disposition choices are provisional. The source transcription, deterministic builder and checks are in `homebrew/ec-*`.
+
