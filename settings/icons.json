@@ -1,0 +1,65 @@
+{
+  "category_icons": {
+    "field": "name",
+    "icons": {
+      "configuration": "configuration.svg"
+    }
+  },
+  "army_icons": {
+    "field": "name",
+    "icons": {
+      "Chaos": "chaos_space_marines.png",
+      "Imperium": "imperium.png",
+      "Imperium - Adeptus Astartes": "adeptus-astartes.png",
+      "Xenos": "xenos.svg",
+      "Aeldari - Craftworlds": "craftworlds.png",
+      "Xenos - Aeldari": "craftworlds.png",
+      "Aeldari - Drukhari": "Dark-Eldar.png",
+      "Xenos - Drukhari": "Dark-Eldar.png",
+      "Aeldari - Ynnari": "ynnari.png",
+      "Chaos - Chaos Daemons": "chaos_daemons.png",
+      "Chaos - Chaos Knights": "chaos_knights.png",
+      "Chaos - Chaos Space Marines": "chaos_space_marines.png",
+      "Chaos - Death Guard": "death-guard.png",
+      "Chaos - Thousand Sons": "thousand_sons.png",
+      "Chaos - Titanicus Traitoris": "titanicus_traitoris.png",
+      "Chaos - World Eaters": "world_eaters.png",
+      "Chaos - Emperor's Children": "ec.png",
+      "Imperium - Adepta Sororitas": "adepta_sororitas.png",
+      "Imperium - Adeptus Astartes - Black Templars": "black_templars.png",
+      "Imperium - Adeptus Astartes - Blood Angels": "blood-angels.png",
+      "Imperium - Adeptus Astartes - Dark Angels": "dark-angels.png",
+      "Imperium - Adeptus Astartes - Deathwatch": "Deathwatch.png",
+      "Imperium - Adeptus Astartes - Imperial Fists": "imperial-fists.png",
+      "Imperium - Adeptus Astartes - Iron Hands": "iron-hands.png",
+      "Imperium - Adeptus Astartes - Raven Guard": "raven-guard.png",
+      "Imperium - Adeptus Astartes - Salamanders": "salamanders.png",
+      "Imperium - Adeptus Astartes - Space Marines": "adeptus-astartes.png",
+      "Imperium - Adeptus Astartes - Space Wolves": "space-wolfs.png",
+      "Imperium - Adeptus Astartes - Ultramarines": "ultramarines.png",
+      "Imperium - Adeptus Astartes - White Scars": "white-scars.png",
+      "Imperium - Adeptus Custodes": "Adeptus-Custodes.png",
+      "Imperium - Adeptus Mechanicus": "adeptus-mechanicus.png",
+      "Imperium - Adeptus Titanicus": "Collegia-Titanica.png",
+      "Imperium - Agents of the Imperium": "imperium.png",
+      "Imperium - Astra Militarum": "imperium.png",
+      "Imperium - Grey Knights": "gray_knights.png",
+      "Imperium - Imperial Knights": "Imperial-Knights.png",
+      "Imperium - Space Marines": "adeptus-astartes.png",
+      "Xenos - Genestealer Cults": "The-Hivecult.png",
+      "Xenos - Leagues of Votann": "leagues_of_voltan.png",
+      "Xenos - Necrons": "necrons.png",
+      "Xenos - Orks": "orks.png",
+      "Xenos - T'au Empire": "Tau.png",
+      "Xenos - Tyranids": "tyranid.png",
+      "Chaos - Emperor's Children (Homebrew v3.1)": "ec.png",
+      "Chaos - Skaven": "../../age-of-sigmar-4th/Age%20of%20Sigmar/icons/skaven.svg",
+      "Skaven": "../../age-of-sigmar-4th/Age%20of%20Sigmar/icons/skaven.svg",
+      "Imperium - Agents of the Imperium (Homebrew v0.9.2)": "imperium.png"
+    }
+  },
+  "weapons": {
+    "name": "weapon",
+    "icon": "bolter-mkv-02.svg"
+  }
+}
