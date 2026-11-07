@@ -4,7 +4,7 @@
     "id": "sys-352e-adc2-7639-d610",
     "battleScribeVersion": 2.03,
     "readme": "",
-    "revision": 22,
+    "revision": 23,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -19282,6 +19282,148 @@
         "name": "Jump Packs",
         "id": "46e8-9474-2a56-1e03",
         "hidden": false
+      },
+      {
+        "name": "Legions of Excess",
+        "id": "e300-e652-996f-9010",
+        "hidden": false,
+        "constraints": [
+          {
+            "id": "5e40-220b-eb6a-65f3",
+            "type": "max",
+            "value": 0,
+            "scope": "force",
+            "field": "51b2-306e-1021-d207",
+            "shared": true,
+            "includeChildSelections": true,
+            "message": "Legions of Excess allowance exceeded ({value} points maximum)."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "5e40-220b-eb6a-65f3",
+            "value": 500,
+            "type": "increment",
+            "conditions": [
+              {
+                "childId": "4eb3-b022-9fa6-4b75",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "5e40-220b-eb6a-65f3",
+            "value": 500,
+            "type": "increment",
+            "conditions": [
+              {
+                "childId": "7d11-5332-67ba-782d",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "5e40-220b-eb6a-65f3",
+            "value": 500,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "d62d-db22-4893-4bc0",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              },
+              {
+                "childId": "ada9-9f95-5767-81d2",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "5e40-220b-eb6a-65f3",
+            "value": 1000,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "baf8-997f-e323-a090",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              },
+              {
+                "childId": "ada9-9f95-5767-81d2",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "5e40-220b-eb6a-65f3",
+            "value": 1500,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "4204-82d0-908c-a62a",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              },
+              {
+                "childId": "ada9-9f95-5767-81d2",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Living Elixir assignments",
+        "id": "5a87-b3de-e586-5776",
+        "hidden": false,
+        "constraints": [
+          {
+            "id": "6505-c5b9-e867-ada9",
+            "type": "max",
+            "value": 3,
+            "scope": "force",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "costTypes": [
@@ -20021,6 +20163,18 @@
             "name": "Requisitions — Adeptus Titanicus",
             "id": "672c-34c6-8f44-871c",
             "targetId": "ce45-a58d-1e57-fa47",
+            "hidden": false
+          },
+          {
+            "name": "Legions of Excess",
+            "id": "a43c-d35c-2d8a-575c",
+            "targetId": "e300-e652-996f-9010",
+            "hidden": false
+          },
+          {
+            "name": "Living Elixir assignments",
+            "id": "750f-26b9-9fcf-6a76",
+            "targetId": "5a87-b3de-e586-5776",
             "hidden": false
           }
         ],
