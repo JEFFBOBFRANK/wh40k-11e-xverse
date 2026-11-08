@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 29,
+    "revision": 30,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -996,7 +996,7 @@
                   {
                     "name": "Exquisite Swordsmanship",
                     "id": "4597-f473-a76a-e500",
-                    "description": "\n\nEach time an EC unit, excluding Vehicles, is selected to fight, if it made a Charge move this turn, select one fighting form for that unit until the end of the phase. Each unit chooses independently. \n\n**The Duellist:** Melee weapons equipped by models in this unit gain Precision. \n\n**The Executioner:** Add 1 to the Damage of melee weapons equipped by models in this unit. \n\n**The Coiling Serpent:** Each time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\". It does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit. Other requirements of that move still apply.",
+                    "description": "\n\nEach time an EC unit, excluding Vehicles, is selected to fight, if it made a Charge move this turn, select one fighting form for that unit until the end of the phase. \n\n**The Duellist:** Melee weapons equipped by models in this unit gain Precision. \n\n**The Executioner:** Add 1 to the Damage of melee weapons equipped by models in this unit. \n\n**The Coiling Serpent:** Each time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\". It does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit. Other requirements of that move still apply.",
                     "hidden": false
                   }
                 ],
