@@ -109,6 +109,7 @@ def apply_rules_display(catalogue,system,source=None):
   body=re.sub(r'#{1,6}\s*(When|Target|Effect|Restriction|Requirement|Duration|Cost)\s*\n',lambda m:m[1].upper()+': ',body,flags=re.I)
   body=re.sub(r'\s*(WHEN|TARGET|EFFECT|RESTRICTION|REQUIREMENT|DURATION|COST):\s*',lambda m:'\n\n### '+m[1].title()+'\n\n',body)
   rule['description']='\n\n'+body.strip()
+ apply_character_and_summoning_updates(catalogue,system)
  rename_sonic_weapons(catalogue)
  catalogue['readme']='Emperor’s Children homebrew v3.2. Dispositions assigned for all sixteen detachments. Update the list data after updating the game.'
 
@@ -128,3 +129,32 @@ def rename_sonic_weapons(node):
    else:rename_sonic_weapons(value)
  elif isinstance(node,list):
   for value in node:rename_sonic_weapons(value)
+
+
+def apply_character_and_summoning_updates(catalogue,system):
+ import re
+ entries={entry['name']:entry for entry in catalogue['sharedSelectionEntries']}
+ doom=next(p for p in entries['Doomrider']['profiles'] if p.get('typeName')=='Unit')
+ next(c for c in doom['characteristics'] if c['name']=='InSv')['$text']='4+'
+ def map_text(node,transform):
+  if isinstance(node,dict):
+   for key,value in node.items():
+    if isinstance(value,str):node[key]=transform(value)
+    else:map_text(value,transform)
+  elif isinstance(node,list):
+   for value in node:map_text(value,transform)
+ lucius=entries['Lucius the Eternal']
+ map_text(lucius,lambda text:text.replace('Feel No Pain 4+','Feel No Pain 5+'))
+ fnp=next(r['id'] for r in system['sharedRules'] if r['name']=='Feel No Pain 5+')
+ for link in lucius.get('infoLinks',[]):
+  if link.get('name')=='Feel No Pain 5+':link['targetId']=fnp
+ def summoning(text):
+  text=re.sub(r'(Initial(?: Manifestation:)? )D3(?![+0-9])',r'\g<1>D3+1',text)
+  text=re.sub(r'(?<=gains )D3(?![+0-9])(?= Manifestation points)',r'D3+1',text)
+  text=text.replace('Roll two D3 for initial Manifestation and select one result.',
+                    'Roll two D3, select one result and add 1 for initial Manifestation.')
+  if 'initial Manifestation' in text:
+   text=text.replace('roll two D3 and select one result.',
+                     'roll two D3, select one result and add 1.')
+  return text
+ map_text(catalogue,summoning)
