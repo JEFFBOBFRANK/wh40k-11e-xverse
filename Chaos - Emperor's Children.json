@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 23,
+    "revision": 24,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -1224,37 +1224,7 @@
                   {
                     "name": "Instruments of Excess",
                     "id": "8dd0-4c8f-af26-1896",
-                    "description": "\n\nAn Emperor's Children unit gains SONIC while any model in it is equipped with a Sonic Weapon. Attached units count all their models. All firing profiles of the following weapons qualify:\n\nSonic blaster; twin sonic blaster; screamer pistol; combi-weapon - sonic; blastmaster; dreadblastmaster; grand blastmaster; cathedral blastmaster; Defiler blastmaster; sonic balespewer; sonic destructor; cathedral sonic immolator; resonance cannon; shriek cannon; grand vox array; Death Scream; The Eighth's Refrain.",
-                    "hidden": false
-                  },
-                  {
-                    "name": "Stage Tokens",
-                    "id": "ce8a-57d1-3ebb-35eb",
-                    "description": "\n\nStart the battle with 0 Stage Tokens. Unspent tokens carry between rounds. Your pool cannot exceed 12, and you can gain at most 6 per battle round.\n\nAfter a friendly Emperor's Children unit shoots in your Shooting phase, if its Sonic Weapon attacks caused an enemy model to lose one or more wounds, gain 1 Stage Token. Each unit can generate this reward once per Shooting phase.\n\nOnce per Shooting phase, after a friendly Emperor's Children SONIC unit destroys an enemy unit with a Sonic Weapon ranged attack, gain 1 additional Stage Token. Resolve these gains before paying for Daemonic Encore.",
-                    "hidden": false
-                  },
-                  {
-                    "name": "Discordant Overture (2 Stage Tokens)",
-                    "id": "d557-92b0-1491-5629",
-                    "description": "\n\nWHEN: Your Shooting phase, after a friendly SONIC unit has shot and hit an enemy unit with a listed Sonic Weapon.\n\nEFFECT: That enemy unit takes a Battle-shock test, subtracting 1 from the result. Resolve after that attacking unit's shooting. Multiple Overtures cannot target the same unit in one phase.",
-                    "hidden": false
-                  },
-                  {
-                    "name": "Shattering Crescendo (4 Stage Tokens)",
-                    "id": "eb62-908a-72d1-a09b",
-                    "description": "\n\nWHEN: Your Shooting phase, when you select one friendly EC unit to shoot.\n\nREQUIREMENT: Select one enemy unit that was already hit by a listed Sonic Weapon earlier in the phase.\n\nEFFECT: Until the end of this phase, add 1 to the Damage characteristic of ranged attacks made by the selected EC unit that target that enemy unit. Once per Shooting phase. This bonus does not stack with The Grand Finale.",
-                    "hidden": false
-                  },
-                  {
-                    "name": "Daemonic Encore (7 Stage Tokens)",
-                    "id": "16b3-0118-4dfe-3bbf",
-                    "description": "\n\nWHEN: Immediately after a friendly EC SONIC unit destroys an enemy unit with one or more of its ranged attacks. Mark the position of the last model removed from that destroyed enemy unit.\n\nEFFECT: Create and summon one unit of ten Daemonettes without paying any army points, without a summoner, without a sacrifice and without a summoning-pool declaration. Set up the first Daemonette model as close as possible to the last removed model's position; set up the remaining models as close as possible while keeping the unit in coherency. Models cannot overlap occupied bases or be placed in impassable positions. Ignore the ordinary 8-inch enemy-distance requirement: these Daemonettes may be set up within Engagement Range of enemy units. The unit begins with 3 Manifestation points (maximum 3) and does not lose a point at the end of the phase in which it appears. Afterwards it uses the ordinary Manifestation rules. If it becomes Debound, remove it from the battle rather than return it to the summoning pool. If all ten models cannot be placed legally in coherency, the summon cannot be performed and no tokens are spent. These free Daemonettes do not grant access to paid Legions of Excess allies or additional free datasheets.",
-                    "hidden": false
-                  },
-                  {
-                    "name": "The Grand Finale (9 Stage Tokens)",
-                    "id": "8780-d7a3-2f5a-2f64",
-                    "description": "\n\nWHEN: Start of your Shooting phase.\n\nEFFECT: Until the end of that phase, add 1 to the Damage characteristic of ranged weapons equipped by models in friendly EC SONIC units when targeting enemy units within 12\" of those models. Once per battle. This bonus cannot stack with Shattering Crescendo on the same attack.",
+                    "description": "\n\nAn Emperor's Children unit gains SONIC while any model in it is equipped with a Sonic Weapon. Attached units count all their models. All firing profiles of the following weapons qualify:\n\n### Sonic Weapons\n\n- Sonic blaster\n- twin sonic blaster\n- screamer pistol\n- combi-weapon - sonic\n- blastmaster\n- dreadblastmaster\n- grand blastmaster\n- cathedral blastmaster\n- Defiler blastmaster\n- sonic balespewer\n- sonic destructor\n- cathedral sonic immolator\n- resonance cannon\n- shriek cannon\n- grand vox array\n- Death Scream\n- The Eighth's Refrain\n\n### Stage Tokens\n\nStart the battle with 0 Stage Tokens. Unspent tokens carry between rounds. Your pool cannot exceed 12, and you can gain at most 6 per battle round.\n\n**Damage Verse**\n\nAfter a friendly Emperor's Children unit shoots in your Shooting phase, if its Sonic Weapon attacks caused an enemy model to lose one or more wounds, gain 1 Stage Token. Each unit can generate this reward once per Shooting phase.\n\n**Slaughter Verse**\n\nOnce per Shooting phase, after a friendly Emperor's Children SONIC unit destroys an enemy unit with a Sonic Weapon ranged attack, gain 1 additional Stage Token. Resolve these gains before paying for Daemonic Encore.\n\n### Discordant Overture (2 Stage Tokens)\n\n#### When\n\nYour Shooting phase, after a friendly SONIC unit has shot and hit an enemy unit with a listed Sonic Weapon.\n\n#### Effect\n\nThat enemy unit takes a Battle-shock test, subtracting 1 from the result. Resolve after that attacking unit's shooting. Multiple Overtures cannot target the same unit in one phase.\n\n### Shattering Crescendo (4 Stage Tokens)\n\n#### When\n\nYour Shooting phase, when you select one friendly EC unit to shoot.\n\n#### Requirement\n\nSelect one enemy unit that was already hit by a listed Sonic Weapon earlier in the phase.\n\n#### Effect\n\nUntil the end of this phase, add 1 to the Damage characteristic of ranged attacks made by the selected EC unit that target that enemy unit. Once per Shooting phase. This bonus does not stack with The Grand Finale.\n\n### Daemonic Encore (7 Stage Tokens)\n\n#### When\n\nImmediately after a friendly EC SONIC unit destroys an enemy unit with one or more of its ranged attacks. Mark the position of the last model removed from that destroyed enemy unit.\n\n#### Effect\n\nCreate and summon one unit of ten Daemonettes without paying any army points, without a summoner, without a sacrifice and without a summoning-pool declaration.\n\nSet up the first Daemonette model as close as possible to the last removed model's position; set up the remaining models as close as possible while keeping the unit in coherency. Models cannot overlap occupied bases or be placed in impassable positions. Ignore the ordinary 8-inch enemy-distance requirement: these Daemonettes may be set up within Engagement Range of enemy units.\n\nThe unit begins with 3 Manifestation points (maximum 3) and does not lose a point at the end of the phase in which it appears. Afterwards it uses the ordinary Manifestation rules. If it becomes Debound, remove it from the battle rather than return it to the summoning pool.\n\nIf all ten models cannot be placed legally in coherency, the summon cannot be performed and no tokens are spent.\n\nThese free Daemonettes do not grant access to paid Legions of Excess allies or additional free datasheets.\n\n### The Grand Finale (9 Stage Tokens)\n\n#### When\n\nStart of your Shooting phase.\n\n#### Effect\n\nUntil the end of that phase, add 1 to the Damage characteristic of ranged weapons equipped by models in friendly EC SONIC units when targeting enemy units within 12\" of those models. Once per battle. This bonus cannot stack with Shattering Crescendo on the same attack.",
                     "hidden": false
                   }
                 ],
@@ -79536,397 +79506,397 @@
       {
         "name": "Perfumed Procession — Exhalation of Bliss / 1 CP",
         "id": "9f7f-105d-dd92-9002",
-        "description": "WHEN: Start of any phase. TARGET: One friendly unit with Living Elixir. EFFECT: Replace its assigned elixir with another Warband Elixir until the end of the phase, then restore its original selection.",
+        "description": "\n\n### When\n\nStart of any phase.\n\n### Target\n\nOne friendly unit with Living Elixir.\n\n### Effect\n\nReplace its assigned elixir with another Warband Elixir until the end of the phase, then restore its original selection.",
         "hidden": false
       },
       {
         "name": "Perfumed Procession — Perfumed Veil / 1 CP",
         "id": "b188-a45c-3db0-de86",
-        "description": "WHEN: Your opponent's Shooting phase, after an enemy unit selects its targets. TARGET: One friendly non-Daemon EC unit selected as a target and within a Living Elixir aura. EFFECT: Until the end of the phase, subtract 1 from Wound rolls for ranged attacks targeting your unit.",
+        "description": "\n\n### When\n\nYour opponent's Shooting phase, after an enemy unit selects its targets.\n\n### Target\n\nOne friendly non-Daemon EC unit selected as a target and within a Living Elixir aura.\n\n### Effect\n\nUntil the end of the phase, subtract 1 from Wound rolls for ranged attacks targeting your unit.",
         "hidden": false
       },
       {
         "name": "Perfumed Procession — Follow the Fragrance / 1 CP",
         "id": "f422-d784-7e29-86dc",
-        "description": "WHEN: Your Movement phase, after a friendly non-Daemon EC unit finishes a Normal, Advance or Fall Back move. TARGET: One unengaged friendly Living Elixir unit that was within 6\" of that EC unit before the move. EFFECT: Your target can make a Normal move of up to 6\", ending within 6\" of that EC unit.",
+        "description": "\n\n### When\n\nYour Movement phase, after a friendly non-Daemon EC unit finishes a Normal, Advance or Fall Back move.\n\n### Target\n\nOne unengaged friendly Living Elixir unit that was within 6\" of that EC unit before the move.\n\n### Effect\n\nYour target can make a Normal move of up to 6\", ending within 6\" of that EC unit.",
         "hidden": false
       },
       {
         "name": "Ritual Host — Summoning Circle / 1 CP",
         "id": "bb24-a8c8-29a7-83be",
-        "description": "WHEN: When a friendly non-Daemon EC Character begins a summoning ritual. TARGET: That Character and one other friendly non-Daemon EC Character within 6\" that has not performed a ritual this turn. EFFECT: Both count as having performed a ritual this turn. Roll two D3 for initial Manifestation and select one result. This cannot combine with Consecrated Sacrificial Knife on the same roll. The performing Character must meet the chosen ritual's requirements.",
+        "description": "\n\n### When\n\nWhen a friendly non-Daemon EC Character begins a summoning ritual.\n\n### Target\n\nThat Character and one other friendly non-Daemon EC Character within 6\" that has not performed a ritual this turn.\n\n### Effect\n\nBoth count as having performed a ritual this turn. Roll two D3 for initial Manifestation and select one result. This cannot combine with Consecrated Sacrificial Knife on the same roll. The performing Character must meet the chosen ritual's requirements.",
         "hidden": false
       },
       {
         "name": "Ritual Host — An Offering Nonetheless / 1 CP",
         "id": "83c2-1fa3-b56a-6d52",
-        "description": "WHEN: When a friendly non-Daemon EC Infantry unit is destroyed by an enemy attack. TARGET: One friendly non-Daemon EC Psyker within 6\" of that unit immediately before its last model was removed. EFFECT: Until the end of your next Charge phase, that Psyker can use the destroyed unit as the sacrifice for one Greater Daemonic Ritual. Perform that ritual at its normal timing.",
+        "description": "\n\n### When\n\nWhen a friendly non-Daemon EC Infantry unit is destroyed by an enemy attack.\n\n### Target\n\nOne friendly non-Daemon EC Psyker within 6\" of that unit immediately before its last model was removed.\n\n### Effect\n\nUntil the end of your next Charge phase, that Psyker can use the destroyed unit as the sacrifice for one Greater Daemonic Ritual. Perform that ritual at its normal timing.",
         "hidden": false
       },
       {
         "name": "Ritual Host — Blood Anchors / 1 CP",
         "id": "114a-ac91-ee32-80c8",
-        "description": "WHEN: At the end of a phase in your turn, when a Legions of Excess unit would lose its final Manifestation point. TARGET: That friendly Legions unit and one friendly non-Daemon EC unit within 6\". EFFECT: The EC unit suffers D3 mortal wounds. The Legions unit does not lose that point this phase. Preserving a point is not a Manifestation gain.",
+        "description": "\n\n### When\n\nAt the end of a phase in your turn, when a Legions of Excess unit would lose its final Manifestation point.\n\n### Target\n\nThat friendly Legions unit and one friendly non-Daemon EC unit within 6\".\n\n### Effect\n\nThe EC unit suffers D3 mortal wounds. The Legions unit does not lose that point this phase. Preserving a point is not a Manifestation gain.",
         "hidden": false
       },
       {
         "name": "The Perfect Formula — Measured Indulgence / 1 CP",
         "id": "c710-c91a-284f-0f6c",
-        "description": "WHEN: Start of any phase. TARGET: One friendly EC unit with Combat Drugs. EFFECT: Your unit can activate one accessible elixir, ignoring its activation timing and taking its normal dosage test. An elixir normally lasting a phase lasts until the end of the current phase; one normally lasting a turn lasts until the end of the current turn.",
+        "description": "\n\n### When\n\nStart of any phase.\n\n### Target\n\nOne friendly EC unit with Combat Drugs.\n\n### Effect\n\nYour unit can activate one accessible elixir, ignoring its activation timing and taking its normal dosage test. An elixir normally lasting a phase lasts until the end of the current phase; one normally lasting a turn lasts until the end of the current turn.",
         "hidden": false
       },
       {
         "name": "The Perfect Formula — Measured Toxicity / 1 CP",
         "id": "d0d0-3fda-1352-83fc",
-        "description": "WHEN: Immediately before a friendly unit takes a dosage Leadership test. TARGET: That unit. EFFECT: It suffers 2 mortal wounds and automatically passes that test.",
+        "description": "\n\n### When\n\nImmediately before a friendly unit takes a dosage Leadership test.\n\n### Target\n\nThat unit.\n\n### Effect\n\nIt suffers 2 mortal wounds and automatically passes that test.",
         "hidden": false
       },
       {
         "name": "The Perfect Formula — Metabolic Reserve / 1 CP",
         "id": "682f-c9f6-0c44-50f0",
-        "description": "WHEN: When a Warband Elixir activated by an ordinary dosage would expire. TARGET: The friendly unit benefiting from that elixir. EFFECT: That elixir instead lasts until the start of your next Command phase.",
+        "description": "\n\n### When\n\nWhen a Warband Elixir activated by an ordinary dosage would expire.\n\n### Target\n\nThe friendly unit benefiting from that elixir.\n\n### Effect\n\nThat elixir instead lasts until the start of your next Command phase.",
         "hidden": false
       },
       {
         "name": "The Flesh Perfected — Emergency Sutures / 1 CP",
         "id": "bef9-0e33-8c12-0fe3",
-        "description": "WHEN: After an enemy unit finishes making its attacks. TARGET: One surviving friendly non-Daemon EC Infantry unit that lost wounds to those attacks and is within 6\" of a friendly Chirurgeon. EFFECT: Your unit heals D3 wounds.",
+        "description": "\n\n### When\n\nAfter an enemy unit finishes making its attacks.\n\n### Target\n\nOne surviving friendly non-Daemon EC Infantry unit that lost wounds to those attacks and is within 6\" of a friendly Chirurgeon.\n\n### Effect\n\nYour unit heals D3 wounds.",
         "hidden": false
       },
       {
         "name": "The Flesh Perfected — Clinical Preparation / 1 CP",
         "id": "f324-6e9a-fa6c-fcac",
-        "description": "WHEN: Immediately before a friendly non-Daemon EC Infantry unit within 6\" of a friendly Chirurgeon takes a dosage Leadership test or Battle-shock test. TARGET: That Infantry unit. EFFECT: It automatically passes that test.",
+        "description": "\n\n### When\n\nImmediately before a friendly non-Daemon EC Infantry unit within 6\" of a friendly Chirurgeon takes a dosage Leadership test or Battle-shock test.\n\n### Target\n\nThat Infantry unit.\n\n### Effect\n\nIt automatically passes that test.",
         "hidden": false
       },
       {
         "name": "The Flesh Perfected — Recovery Detail / 1 CP",
         "id": "c5e3-45e0-6844-116b",
-        "description": "WHEN: End of your opponent's Fight phase. TARGET: One unengaged friendly non-Daemon EC Infantry unit within 6\" of a friendly Chirurgeon. EFFECT: It can make a Normal move of up to 6\", ending within 6\" of a friendly Chirurgeon.",
+        "description": "\n\n### When\n\nEnd of your opponent's Fight phase.\n\n### Target\n\nOne unengaged friendly non-Daemon EC Infantry unit within 6\" of a friendly Chirurgeon.\n\n### Effect\n\nIt can make a Normal move of up to 6\", ending within 6\" of a friendly Chirurgeon.",
         "hidden": false
       },
       {
         "name": "The Harmonic Cabal — Psychic Concordance / 1 CP",
         "id": "0c40-3964-7432-c78e",
-        "description": "WHEN: When a friendly EC or Legions of Excess Psyker uses a non-summoning psychic power. TARGET: That Psyker and another friendly EC or Legions of Excess Psyker within 6\". EFFECT: Measure the power's target range and visibility from the second Psyker. The original caster uses the power, rolls and spends its allowance. Powers restricted to the caster or its own unit retain those recipients.",
+        "description": "\n\n### When\n\nWhen a friendly EC or Legions of Excess Psyker uses a non-summoning psychic power.\n\n### Target\n\nThat Psyker and another friendly EC or Legions of Excess Psyker within 6\".\n\n### Effect\n\nMeasure the power's target range and visibility from the second Psyker. The original caster uses the power, rolls and spends its allowance. Powers restricted to the caster or its own unit retain those recipients.",
         "hidden": false
       },
       {
         "name": "The Harmonic Cabal — Warp Ward / 1 CP",
         "id": "ddbe-81e3-c170-eee6",
-        "description": "WHEN: After an enemy unit selects targets for a Psychic weapon. TARGET: One friendly EC or Legions of Excess unit selected as a target and within 6\" of a friendly EC or Legions of Excess Psyker. EFFECT: Until the end of the phase, your unit has Feel No Pain 4+ against Psychic attacks and mortal wounds.",
+        "description": "\n\n### When\n\nAfter an enemy unit selects targets for a Psychic weapon.\n\n### Target\n\nOne friendly EC or Legions of Excess unit selected as a target and within 6\" of a friendly EC or Legions of Excess Psyker.\n\n### Effect\n\nUntil the end of the phase, your unit has Feel No Pain 4+ against Psychic attacks and mortal wounds.",
         "hidden": false
       },
       {
         "name": "The Harmonic Cabal — Focused Malice / 1 CP",
         "id": "605d-429f-af57-1768",
-        "description": "WHEN: Your Shooting phase, when a friendly EC or Legions of Excess Psyker unit is selected to shoot. TARGET: That unit. EFFECT: Until the end of the phase, its Psychic ranged weapons gain Ignores Cover and improve their AP by 1.",
+        "description": "\n\n### When\n\nYour Shooting phase, when a friendly EC or Legions of Excess Psyker unit is selected to shoot.\n\n### Target\n\nThat unit.\n\n### Effect\n\nUntil the end of the phase, its Psychic ranged weapons gain Ignores Cover and improve their AP by 1.",
         "hidden": false
       },
       {
         "name": "Rapid Evisceration — Violent Disembarkation / 1 CP",
         "id": "d871-a3e3-8595-823b",
-        "description": "WHEN: Your Movement phase, when a friendly EC Infantry unit embarked within a Transport that made a Normal move this phase is selected to make a disembark move. TARGET: That embarked EC Infantry unit. EFFECT: Your unit can make an assault disembark move instead of a disembark move.",
+        "description": "\n\n### When\n\nYour Movement phase, when a friendly EC Infantry unit embarked within a Transport that made a Normal move this phase is selected to make a disembark move.\n\n### Target\n\nThat embarked EC Infantry unit.\n\n### Effect\n\nYour unit can make an assault disembark move instead of a disembark move.",
         "hidden": false
       },
       {
         "name": "Rapid Evisceration — Point-Blank Reception / 1 CP",
         "id": "526d-e501-b296-b151",
-        "description": "WHEN: Your Shooting phase, when a friendly EC Infantry unit that disembarked this turn is selected to shoot. TARGET: That unit. EFFECT: Until the end of the phase, improve the AP of its ranged attacks targeting enemies within 12\" by 1.",
+        "description": "\n\n### When\n\nYour Shooting phase, when a friendly EC Infantry unit that disembarked this turn is selected to shoot.\n\n### Target\n\nThat unit.\n\n### Effect\n\nUntil the end of the phase, improve the AP of its ranged attacks targeting enemies within 12\" by 1.",
         "hidden": false
       },
       {
         "name": "Rapid Evisceration — Back Into the Limelight / 1 CP",
         "id": "58ec-4e1d-3357-3b99",
-        "description": "WHEN: End of either Fight phase. TARGET: One unengaged friendly EC Infantry unit wholly within 3\" of a friendly EC Transport. EFFECT: It can immediately embark within that Transport.",
+        "description": "\n\n### When\n\nEnd of either Fight phase.\n\n### Target\n\nOne unengaged friendly EC Infantry unit wholly within 3\" of a friendly EC Transport.\n\n### Effect\n\nIt can immediately embark within that Transport.",
         "hidden": false
       },
       {
         "name": "Carnival of Engines — Feed the Furnace / 1 CP",
         "id": "986e-2780-2d23-bf57",
-        "description": "WHEN: Your Shooting phase or the Fight phase, when a friendly EC Daemon Vehicle, Agoniser or Threnody Dreadnought is selected to shoot or fight. TARGET: That unit. EFFECT: Until the end of the phase, re-roll Wound rolls of 1 for its attacks targeting Battle-shocked units.",
+        "description": "\n\n### When\n\nYour Shooting phase or the Fight phase, when a friendly EC Daemon Vehicle, Agoniser or Threnody Dreadnought is selected to shoot or fight.\n\n### Target\n\nThat unit.\n\n### Effect\n\nUntil the end of the phase, re-roll Wound rolls of 1 for its attacks targeting Battle-shocked units.",
         "hidden": false
       },
       {
         "name": "Carnival of Engines — Revel in the Wreckage / 1 CP",
         "id": "f6b6-ce3f-9dd5-9d9c",
-        "description": "WHEN: After a friendly EC Daemon Vehicle, Agoniser or Threnody Dreadnought destroys an enemy unit with its attacks. TARGET: That attacking unit. EFFECT: Its model heals D3+3 wounds.",
+        "description": "\n\n### When\n\nAfter a friendly EC Daemon Vehicle, Agoniser or Threnody Dreadnought destroys an enemy unit with its attacks.\n\n### Target\n\nThat attacking unit.\n\n### Effect\n\nIts model heals D3+3 wounds.",
         "hidden": false
       },
       {
         "name": "Carnival of Engines — A Last Catastrophe / 1 CP",
         "id": "6a68-3b34-9291-f902",
-        "description": "WHEN: When a friendly EC Vehicle with Deadly Demise is destroyed, before rolling for that ability. TARGET: That Vehicle unit. You can use this Stratagem on it even though it has just been destroyed. EFFECT: Its Deadly Demise triggers on a 4+ instead of its normal result.",
+        "description": "\n\n### When\n\nWhen a friendly EC Vehicle with Deadly Demise is destroyed, before rolling for that ability.\n\n### Target\n\nThat Vehicle unit. You can use this Stratagem on it even though it has just been destroyed.\n\n### Effect\n\nIts Deadly Demise triggers on a 4+ instead of its normal result.",
         "hidden": false
       },
       {
         "name": "Cult of Perfect Agony — The Crowd Surges / 1 CP",
         "id": "6d44-73bf-430b-ee65",
-        "description": "WHEN: Start of your Movement phase. TARGET: One friendly Devotees unit within 6\" of a friendly non-Daemon EC Character. EFFECT: Add 2\" to its Move until the end of the phase.",
+        "description": "\n\n### When\n\nStart of your Movement phase.\n\n### Target\n\nOne friendly Devotees unit within 6\" of a friendly non-Daemon EC Character.\n\n### Effect\n\nAdd 2\" to its Move until the end of the phase.",
         "hidden": false
       },
       {
         "name": "Cult of Perfect Agony — Bodies for Beauty / 1 CP",
         "id": "fe4c-dfb0-2980-9b4f",
-        "description": "WHEN: After an enemy unit selects targets in the Shooting or Fight phase. TARGET: One friendly non-Daemon EC Infantry unit selected as a target and one friendly Devotees unit within 6\" of it. EFFECT: The Devotees unit suffers D3 mortal wounds. Until that enemy unit finishes attacking, subtract 1 from Wound rolls for attacks targeting the protected unit.",
+        "description": "\n\n### When\n\nAfter an enemy unit selects targets in the Shooting or Fight phase.\n\n### Target\n\nOne friendly non-Daemon EC Infantry unit selected as a target and one friendly Devotees unit within 6\" of it.\n\n### Effect\n\nThe Devotees unit suffers D3 mortal wounds. Until that enemy unit finishes attacking, subtract 1 from Wound rolls for attacks targeting the protected unit.",
         "hidden": false
       },
       {
         "name": "Cult of Perfect Agony — Devotion Undiminished / 1 CP",
         "id": "c966-7814-446a-6737",
-        "description": "WHEN: After an enemy unit has shot. TARGET: One surviving friendly Devotees unit that lost one or more models to those attacks. EFFECT: It can make a Normal move of up to 6\", ending closer to the attacking unit.",
+        "description": "\n\n### When\n\nAfter an enemy unit has shot.\n\n### Target\n\nOne surviving friendly Devotees unit that lost one or more models to those attacks.\n\n### Effect\n\nIt can make a Normal move of up to 6\", ending closer to the attacking unit.",
         "hidden": false
       },
       {
         "name": "The Veiled Hunt — Slip the Noose / 1 CP",
         "id": "ba1f-dad8-5cc2-3557",
-        "description": "WHEN: Your opponent's Movement phase, after an enemy unit ends a Normal, Advance or Fall Back move within 8\" of a friendly Ghosts or Gilded Knife unit. TARGET: That unengaged friendly unit. EFFECT: It can make a Normal move of up to 6\".",
+        "description": "\n\n### When\n\nYour opponent's Movement phase, after an enemy unit ends a Normal, Advance or Fall Back move within 8\" of a friendly Ghosts or Gilded Knife unit.\n\n### Target\n\nThat unengaged friendly unit.\n\n### Effect\n\nIt can make a Normal move of up to 6\".",
         "hidden": false
       },
       {
         "name": "The Veiled Hunt — Death in the Mist / 1 CP",
         "id": "d905-8ab6-d4d9-f6c6",
-        "description": "WHEN: Your Shooting phase, when a friendly Ghosts or Gilded Knife unit is selected to shoot. TARGET: That unit. EFFECT: Until the end of the phase, its ranged weapons gain Precision and improve their AP by 1.",
+        "description": "\n\n### When\n\nYour Shooting phase, when a friendly Ghosts or Gilded Knife unit is selected to shoot.\n\n### Target\n\nThat unit.\n\n### Effect\n\nUntil the end of the phase, its ranged weapons gain Precision and improve their AP by 1.",
         "hidden": false
       },
       {
         "name": "The Veiled Hunt — Another False Reflection / 1 CP",
         "id": "ada0-fd69-2e8c-5f04",
-        "description": "WHEN: End of your Movement phase. TARGET: One friendly Ghosts or Gilded Knife unit that is unengaged and more than 6\" from all enemy units. EFFECT: Remove it from the battlefield and set it up again more than 8\" horizontally from all enemy models. It cannot charge this turn.",
+        "description": "\n\n### When\n\nEnd of your Movement phase.\n\n### Target\n\nOne friendly Ghosts or Gilded Knife unit that is unengaged and more than 6\" from all enemy units.\n\n### Effect\n\nRemove it from the battlefield and set it up again more than 8\" horizontally from all enemy models. It cannot charge this turn.",
         "hidden": false
       },
       {
         "name": "The Gilded Retinue — Sovereign Footing / 1 CP",
         "id": "cf94-ef65-6485-a523",
-        "description": "WHEN: Start of your opponent's Charge phase. TARGET: One friendly Excruciator Terminator, Phoenix Guard Terminator or Flawless Blade unit. EFFECT: Until the end of the phase, subtract 2 from Charge rolls for charges targeting your unit.",
+        "description": "\n\n### When\n\nStart of your opponent's Charge phase.\n\n### Target\n\nOne friendly Excruciator Terminator, Phoenix Guard Terminator or Flawless Blade unit.\n\n### Effect\n\nUntil the end of the phase, subtract 2 from Charge rolls for charges targeting your unit.",
         "hidden": false
       },
       {
         "name": "The Gilded Retinue — Pierce the Pretender / 1 CP",
         "id": "ae09-e785-4a5f-7ff4",
-        "description": "WHEN: Fight phase, when a friendly Excruciator Terminator, Phoenix Guard Terminator or Flawless Blade unit is selected to fight. TARGET: That unit. EFFECT: Until the end of the phase, its melee weapons gain Precision.",
+        "description": "\n\n### When\n\nFight phase, when a friendly Excruciator Terminator, Phoenix Guard Terminator or Flawless Blade unit is selected to fight.\n\n### Target\n\nThat unit.\n\n### Effect\n\nUntil the end of the phase, its melee weapons gain Precision.",
         "hidden": false
       },
       {
         "name": "The Gilded Retinue — A Perfect Landing / 1 CP",
         "id": "70f2-a2e8-719d-bb8c",
-        "description": "WHEN: Your Movement phase, immediately after a friendly Excruciator Terminator or Phoenix Guard Terminator unit makes an ingress move using Deep Strike. TARGET: That unit. EFFECT: Add 1 to its Charge rolls until the end of the turn.",
+        "description": "\n\n### When\n\nYour Movement phase, immediately after a friendly Excruciator Terminator or Phoenix Guard Terminator unit makes an ingress move using Deep Strike.\n\n### Target\n\nThat unit.\n\n### Effect\n\nAdd 1 to its Charge rolls until the end of the turn.",
         "hidden": false
       },
       {
         "name": "Kakophonic Conclave — Focused Rupture / 1 CP",
         "id": "1e60-6842-b670-b46f",
-        "description": "WHEN: Your Shooting phase, when a friendly EC unit is selected to shoot. TARGET: That unit. EFFECT: Until the end of the phase, add 1 to Wound rolls for its ranged attacks targeting Monster or Vehicle units.",
+        "description": "\n\n### When\n\nYour Shooting phase, when a friendly EC unit is selected to shoot.\n\n### Target\n\nThat unit.\n\n### Effect\n\nUntil the end of the phase, add 1 to Wound rolls for its ranged attacks targeting Monster or Vehicle units.",
         "hidden": false
       },
       {
         "name": "Kakophonic Conclave — Point-Blank Discord / 1 CP",
         "id": "bdaa-aea0-6acf-311f",
-        "description": "WHEN: Your Shooting phase, when an engaged friendly EC Infantry or Walker unit is selected to shoot. TARGET: That unit. EFFECT: Its ranged weapons gain Close-Quarters until the end of the phase. Weapons with Blast lose that ability and gain 1 Attack for the same duration.",
+        "description": "\n\n### When\n\nYour Shooting phase, when an engaged friendly EC Infantry or Walker unit is selected to shoot.\n\n### Target\n\nThat unit.\n\n### Effect\n\nIts ranged weapons gain Close-Quarters until the end of the phase. Weapons with Blast lose that ability and gain 1 Attack for the same duration.",
         "hidden": false
       },
       {
         "name": "Kakophonic Conclave — Drowning Crescendo / 1 CP",
         "id": "41a0-b208-d3dd-94d3",
-        "description": "WHEN: Your Shooting phase, after a friendly EC unit finishes shooting. TARGET: That unit. EFFECT: Select one enemy unit hit by its attacks. That enemy unit must take a Battle-shock test, subtracting 1 from the result.",
+        "description": "\n\n### When\n\nYour Shooting phase, after a friendly EC unit finishes shooting.\n\n### Target\n\nThat unit.\n\n### Effect\n\nSelect one enemy unit hit by its attacks. That enemy unit must take a Battle-shock test, subtracting 1 from the result.",
         "hidden": false
       },
       {
         "name": "Kakophonic Conclave — Echoing Annihilation / 1 CP",
         "id": "765d-93a0-e3aa-70c7",
-        "description": "WHEN: Your Shooting phase, after a friendly EC unit destroys an enemy unit with its attacks. TARGET: That attacking unit. EFFECT: Select another enemy unit that was within 6\" of the destroyed unit immediately before its last model was removed. That enemy unit must take a Battle-shock test.",
+        "description": "\n\n### When\n\nYour Shooting phase, after a friendly EC unit destroys an enemy unit with its attacks.\n\n### Target\n\nThat attacking unit.\n\n### Effect\n\nSelect another enemy unit that was within 6\" of the destroyed unit immediately before its last model was removed. That enemy unit must take a Battle-shock test.",
         "hidden": false
       },
       {
         "name": "Kakophonic Conclave — Feedback Reprisal / 2 CP",
         "id": "0684-b978-c64e-cd3e",
-        "description": "WHEN: Your opponent's Shooting phase, after an enemy unit has shot. TARGET: One surviving friendly Noise Marines or Dissonant Colossi unit that lost one or more models to those attacks. EFFECT: Your unit can shoot using normal shooting, targeting only that enemy unit.",
+        "description": "\n\n### When\n\nYour opponent's Shooting phase, after an enemy unit has shot.\n\n### Target\n\nOne surviving friendly Noise Marines or Dissonant Colossi unit that lost one or more models to those attacks.\n\n### Effect\n\nYour unit can shoot using normal shooting, targeting only that enemy unit.",
         "hidden": false
       },
       {
         "name": "Kakophonic Conclave — Discordant Veil / 1 CP",
         "id": "215b-69e8-e019-cc4c",
-        "description": "WHEN: Your opponent's Shooting phase, after an enemy unit selects its targets. TARGET: One friendly EC Infantry unit selected as a target. EFFECT: Until the end of the phase, subtract 1 from Hit rolls for ranged attacks targeting your unit.",
+        "description": "\n\n### When\n\nYour opponent's Shooting phase, after an enemy unit selects its targets.\n\n### Target\n\nOne friendly EC Infantry unit selected as a target.\n\n### Effect\n\nUntil the end of the phase, subtract 1 from Hit rolls for ranged attacks targeting your unit.",
         "hidden": false
       },
       {
         "name": "Peerless Bladesmen — Unerring Lunge / 1 CP",
         "id": "6b40-c131-08f7-ec85",
-        "description": "WHEN: Your Charge phase, before a friendly EC unit makes a Charge roll. TARGET: That unit, excluding Vehicles. EFFECT: Add 2 to that Charge roll.",
+        "description": "\n\n### When\n\nYour Charge phase, before a friendly EC unit makes a Charge roll.\n\n### Target\n\nThat unit, excluding Vehicles.\n\n### Effect\n\nAdd 2 to that Charge roll.",
         "hidden": false
       },
       {
         "name": "Peerless Bladesmen — Faultless Parry / 1 CP",
         "id": "315a-9afd-069e-bba6",
-        "description": "WHEN: Fight phase, after an enemy unit selects its targets. TARGET: One friendly EC unit selected as a target, excluding Vehicles. EFFECT: Until that enemy unit finishes attacking, subtract 1 from the Damage of melee attacks targeting your unit, to a minimum of 1.",
+        "description": "\n\n### When\n\nFight phase, after an enemy unit selects its targets.\n\n### Target\n\nOne friendly EC unit selected as a target, excluding Vehicles.\n\n### Effect\n\nUntil that enemy unit finishes attacking, subtract 1 from the Damage of melee attacks targeting your unit, to a minimum of 1.",
         "hidden": false
       },
       {
         "name": "Peerless Bladesmen — Cut Out the Heart / 1 CP",
         "id": "566c-5956-68f7-89b2",
-        "description": "WHEN: Fight phase, when a friendly EC unit is selected to fight. TARGET: That unit, excluding Vehicles. EFFECT: Until the end of the phase, add 1 to Wound rolls for its melee attacks targeting Character units.",
+        "description": "\n\n### When\n\nFight phase, when a friendly EC unit is selected to fight.\n\n### Target\n\nThat unit, excluding Vehicles.\n\n### Effect\n\nUntil the end of the phase, add 1 to Wound rolls for its melee attacks targeting Character units.",
         "hidden": false
       },
       {
         "name": "Peerless Bladesmen — Cut Down the Weak / 2 CP",
         "id": "f178-2cc3-87b1-7923",
-        "description": "WHEN: Your opponent's Movement phase, immediately after an enemy unit makes a Fall Back move. TARGET: One friendly EC unit within 6\" of that enemy unit that would be eligible to charge it if it were your Charge phase. Vehicles can only be selected if they are Walkers. EFFECT: Your unit can declare a charge, including that enemy unit among its charge targets. Your unit does not receive a Charge bonus this turn.",
+        "description": "\n\n### When\n\nYour opponent's Movement phase, immediately after an enemy unit makes a Fall Back move.\n\n### Target\n\nOne friendly EC unit within 6\" of that enemy unit that would be eligible to charge it if it were your Charge phase. Vehicles can only be selected if they are Walkers.\n\n### Effect\n\nYour unit can declare a charge, including that enemy unit among its charge targets. Your unit does not receive a Charge bonus this turn.",
         "hidden": false
       },
       {
         "name": "Peerless Bladesmen — Exploit the Opening / 1 CP",
         "id": "925c-b5c0-f6a4-8d33",
-        "description": "WHEN: Fight phase, after a friendly EC unit finishes fighting and destroyed an enemy unit with its attacks. TARGET: That unit, excluding Vehicles. EFFECT: If your unit is unengaged, it can make a Normal move of up to 6\".",
+        "description": "\n\n### When\n\nFight phase, after a friendly EC unit finishes fighting and destroyed an enemy unit with its attacks.\n\n### Target\n\nThat unit, excluding Vehicles.\n\n### Effect\n\nIf your unit is unengaged, it can make a Normal move of up to 6\".",
         "hidden": false
       },
       {
         "name": "Peerless Bladesmen — Flawless Execution / 2 CP",
         "id": "48ef-48a0-c770-2cba",
-        "description": "WHEN: Fight phase, when a friendly EC unit is selected to fight. TARGET: One friendly Infractors, Flawless Blades, Excruciator Terminators or Phoenix Guard Terminators unit. EFFECT: Until the end of the phase, add 1 to the Damage of melee weapons equipped by models in your unit.",
+        "description": "\n\n### When\n\nFight phase, when a friendly EC unit is selected to fight.\n\n### Target\n\nOne friendly Infractors, Flawless Blades, Excruciator Terminators or Phoenix Guard Terminators unit.\n\n### Effect\n\nUntil the end of the phase, add 1 to the Damage of melee weapons equipped by models in your unit.",
         "hidden": false
       },
       {
         "name": "Mercurial Host — Slip Beyond Reach / 1 CP",
         "id": "61e7-a9e3-8996-74eb",
-        "description": "WHEN: Your opponent's Movement phase, after an enemy unit finishes a Normal, Advance or Fall Back move. TARGET: One engaged Mercurial unit within 8\" of that enemy unit. EFFECT: Your unit can make a Fall Back move of up to 6\".",
+        "description": "\n\n### When\n\nYour opponent's Movement phase, after an enemy unit finishes a Normal, Advance or Fall Back move.\n\n### Target\n\nOne engaged Mercurial unit within 8\" of that enemy unit.\n\n### Effect\n\nYour unit can make a Fall Back move of up to 6\".",
         "hidden": false
       },
       {
         "name": "Mercurial Host — Cruel Momentum / 1 CP",
         "id": "546a-f214-e3b8-10ad",
-        "description": "WHEN: Your Charge phase, after a Mercurial unit ends a Charge move. TARGET: That unit. EFFECT: Select one enemy unit engaged with your unit and roll six D6. For each 4+, that enemy unit suffers 1 mortal wound.",
+        "description": "\n\n### When\n\nYour Charge phase, after a Mercurial unit ends a Charge move.\n\n### Target\n\nThat unit.\n\n### Effect\n\nSelect one enemy unit engaged with your unit and roll six D6. For each 4+, that enemy unit suffers 1 mortal wound.",
         "hidden": false
       },
       {
         "name": "Mercurial Host — A Change of Partners / 1 CP",
         "id": "3c1f-290b-6563-84c0",
-        "description": "WHEN: Your Movement phase, after a Mercurial unit finishes a Fall Back move. TARGET: That unit. EFFECT: It can immediately make a Normal move of up to 6\".",
+        "description": "\n\n### When\n\nYour Movement phase, after a Mercurial unit finishes a Fall Back move.\n\n### Target\n\nThat unit.\n\n### Effect\n\nIt can immediately make a Normal move of up to 6\".",
         "hidden": false
       },
       {
         "name": "Mercurial Host — Surging Pursuit / 1 CP",
         "id": "9adf-9e57-a962-3e3f",
-        "description": "WHEN: Your opponent's Movement phase, after an enemy unit finishes a Fall Back move. TARGET: One unengaged Mercurial unit that was engaged with that enemy unit at the start of the phase. EFFECT: Your unit can make a Normal move of up to 6\", ending closer to that enemy unit.",
+        "description": "\n\n### When\n\nYour opponent's Movement phase, after an enemy unit finishes a Fall Back move.\n\n### Target\n\nOne unengaged Mercurial unit that was engaged with that enemy unit at the start of the phase.\n\n### Effect\n\nYour unit can make a Normal move of up to 6\", ending closer to that enemy unit.",
         "hidden": false
       },
       {
         "name": "Mercurial Host — Running Battle / 1 CP",
         "id": "915d-f0d7-2caa-8577",
-        "description": "WHEN: Your Shooting phase, after a Mercurial unit finishes shooting. TARGET: That unit. EFFECT: If unengaged, it can make a Normal move of up to 6\". It cannot declare a charge this turn.",
+        "description": "\n\n### When\n\nYour Shooting phase, after a Mercurial unit finishes shooting.\n\n### Target\n\nThat unit.\n\n### Effect\n\nIf unengaged, it can make a Normal move of up to 6\". It cannot declare a charge this turn.",
         "hidden": false
       },
       {
         "name": "Mercurial Host — The Vanishing Procession / 1 CP",
         "id": "dd19-8fee-a685-a5bb",
-        "description": "WHEN: End of your opponent's turn. TARGET: One unengaged Mercurial unit. EFFECT: Place your unit into Strategic Reserves.",
+        "description": "\n\n### When\n\nEnd of your opponent's turn.\n\n### Target\n\nOne unengaged Mercurial unit.\n\n### Effect\n\nPlace your unit into Strategic Reserves.",
         "hidden": false
       },
       {
         "name": "Coterie of the Conceited — Protection of the Dark Prince / 1 CP",
         "id": "4e7e-9516-66c1-520f",
-        "description": "WHEN: Any phase, just after a mortal wound or attack is allocated to a model in an EMPEROR'S CHILDREN unit from your army. TARGET: That EMPEROR'S CHILDREN unit. EFFECT: Until the end of the phase, models in your unit have the Feel No Pain 6+ ability, and the Feel No Pain 4+ ability against mortal wounds.",
+        "description": "\n\n### When\n\nAny phase, just after a mortal wound or attack is allocated to a model in an EMPEROR'S CHILDREN unit from your army.\n\n### Target\n\nThat EMPEROR'S CHILDREN unit.\n\n### Effect\n\nUntil the end of the phase, models in your unit have the Feel No Pain 6+ ability, and the Feel No Pain 4+ ability against mortal wounds.",
         "hidden": false
       },
       {
         "name": "Coterie of the Conceited — Unshakeable Opponents / 1 CP",
         "id": "5099-df19-e96d-7ac1",
-        "description": "WHEN: Command phase. TARGET: One EMPEROR'S CHILDREN unit from your army. EFFECT: Until the end of the turn, each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack's Ballistic Skill or Weapon Skill characteristic; the Hit roll; the Wound roll.",
+        "description": "\n\n### When\n\nCommand phase.\n\n### Target\n\nOne EMPEROR'S CHILDREN unit from your army.\n\n### Effect\n\nUntil the end of the turn, each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack's Ballistic Skill or Weapon Skill characteristic; the Hit roll; the Wound roll.",
         "hidden": false
       },
       {
         "name": "Coterie of the Conceited — Embrace the Pain / 1 CP",
         "id": "e986-b193-8e6e-24ca",
-        "description": "WHEN: Start of the Fight phase. TARGET: One EMPEROR'S CHILDREN INFANTRY unit from your army. EFFECT: Until the end of the phase, each time an enemy model within Engagement Range of your unit selects targets, it must select your unit as the target of its attacks.",
+        "description": "\n\n### When\n\nStart of the Fight phase.\n\n### Target\n\nOne EMPEROR'S CHILDREN INFANTRY unit from your army.\n\n### Effect\n\nUntil the end of the phase, each time an enemy model within Engagement Range of your unit selects targets, it must select your unit as the target of its attacks.",
         "hidden": false
       },
       {
         "name": "Coterie of the Conceited — Martial Perfection / 1 CP",
         "id": "3285-d400-8659-96a5",
-        "description": "WHEN: Fight phase. TARGET: One EMPEROR'S CHILDREN unit from your army that has not been selected to fight this phase. EFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
+        "description": "\n\n### When\n\nFight phase.\n\n### Target\n\nOne EMPEROR'S CHILDREN unit from your army that has not been selected to fight this phase.\n\n### Effect\n\nUntil the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
         "hidden": false
       },
       {
         "name": "Coterie of the Conceited — Unbound Arrogance / 1 CP",
         "id": "0bec-6d80-a4b0-8170",
-        "description": "WHEN: Your Shooting phase or the Fight phase, just after an EMPEROR'S CHILDREN unit from your army destroys an enemy unit. TARGET: That EMPEROR'S CHILDREN unit. EFFECT: Increase your pledge to Slaanesh by 1. Once per battle round.",
+        "description": "\n\n### When\n\nYour Shooting phase or the Fight phase, just after an EMPEROR'S CHILDREN unit from your army destroys an enemy unit.\n\n### Target\n\nThat EMPEROR'S CHILDREN unit.\n\n### Effect\n\nIncrease your pledge to Slaanesh by 1. Once per battle round.",
         "hidden": false
       },
       {
         "name": "Coterie of the Conceited — Armour of Abhorrence / 1 CP",
         "id": "2f65-945e-63dc-3512",
-        "description": "WHEN: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets. TARGET: One EMPEROR'S CHILDREN unit from your army that was selected as the target of one or more of the attacking unit's attacks. EFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+        "description": "\n\n### When\n\nYour opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n### Target\n\nOne EMPEROR'S CHILDREN unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n### Effect\n\nUntil the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
         "hidden": false
       },
       {
         "name": "Carnival of Excess — Sustained by Agony / 1 CP",
         "id": "fdb2-c074-976d-b50e",
-        "description": "WHEN: Either Fight phase, after a friendly EC unit destroys an enemy unit. TARGET: That attacking EC unit. EFFECT: Select one friendly Legions of Excess unit within 6\". That Legions unit heals D3+3 wounds, using the normal restoration procedure, including eligible returned models. This does not grant Manifestation points.",
+        "description": "\n\n### When\n\nEither Fight phase, after a friendly EC unit destroys an enemy unit.\n\n### Target\n\nThat attacking EC unit.\n\n### Effect\n\nSelect one friendly Legions of Excess unit within 6\". That Legions unit heals D3+3 wounds, using the normal restoration procedure, including eligible returned models. This does not grant Manifestation points.",
         "hidden": false
       },
       {
         "name": "Carnival of Excess — Ecstatic Slaughter / 1 CP",
         "id": "5f92-cadb-99c0-20d9",
-        "description": "WHEN: Either Fight phase, after a friendly Legions of Excess unit destroys an enemy unit. TARGET: That Legions unit and one unengaged friendly EC unit within 6\" of it. EFFECT: The EC unit can declare a charge. If it has already been selected to fight this phase, it cannot fight again this phase.",
+        "description": "\n\n### When\n\nEither Fight phase, after a friendly Legions of Excess unit destroys an enemy unit.\n\n### Target\n\nThat Legions unit and one unengaged friendly EC unit within 6\" of it.\n\n### Effect\n\nThe EC unit can declare a charge. If it has already been selected to fight this phase, it cannot fight again this phase.",
         "hidden": false
       },
       {
         "name": "Carnival of Excess — Violent Crescendo / 1 CP",
         "id": "0199-ea7d-dc97-42fa",
-        "description": "WHEN: Fight phase. TARGET: One friendly Slaanesh Infantry, Mounted or Beast unit that has not been selected to fight this phase. EFFECT: Until the end of the phase: Each time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\". It does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit. Other requirements of that move still apply.",
+        "description": "\n\n### When\n\nFight phase.\n\n### Target\n\nOne friendly Slaanesh Infantry, Mounted or Beast unit that has not been selected to fight this phase.\n\n### Effect\n\nUntil the end of the phase: Each time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\". It does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit. Other requirements of that move still apply.",
         "hidden": false
       },
       {
         "name": "Carnival of Excess — Sycophantic Surge / 1 CP",
         "id": "2e35-96db-ee60-2649",
-        "description": "WHEN: Your Charge phase. TARGET: One friendly Legions of Excess unit. EFFECT: Until the end of the phase, it can declare a charge after Advancing or Falling Back, provided at least one charge target is engaged with a friendly EC unit.",
+        "description": "\n\n### When\n\nYour Charge phase.\n\n### Target\n\nOne friendly Legions of Excess unit.\n\n### Effect\n\nUntil the end of the phase, it can declare a charge after Advancing or Falling Back, provided at least one charge target is engaged with a friendly EC unit.",
         "hidden": false
       },
       {
         "name": "Carnival of Excess — Uncanny Reactions / 1 CP",
         "id": "df60-969b-cfa5-2dbb",
-        "description": "WHEN: Your opponent's Shooting phase, after an enemy unit selects its targets. TARGET: One friendly Slaanesh unit selected as a target. EFFECT: Until the end of the phase, subtract 1 from Hit rolls for attacks targeting your unit.",
+        "description": "\n\n### When\n\nYour opponent's Shooting phase, after an enemy unit selects its targets.\n\n### Target\n\nOne friendly Slaanesh unit selected as a target.\n\n### Effect\n\nUntil the end of the phase, subtract 1 from Hit rolls for attacks targeting your unit.",
         "hidden": false
       },
       {
         "name": "Carnival of Excess — Dark Apparitions / 2 CP",
         "id": "dae1-51b0-f9be-de11",
-        "description": "WHEN: End of your opponent's Fight phase. TARGET: One unengaged friendly Legions of Excess unit, excluding Greater Daemons. EFFECT: Your unit becomes Debound. The next time it is summoned, it can be set up more than 6\" horizontally from enemy models instead of 8\". Use the normal summoner, ritual and initial Manifestation procedure; retain surviving models and wounds.",
+        "description": "\n\n### When\n\nEnd of your opponent's Fight phase.\n\n### Target\n\nOne unengaged friendly Legions of Excess unit, excluding Greater Daemons.\n\n### Effect\n\nYour unit becomes Debound. The next time it is summoned, it can be set up more than 6\" horizontally from enemy models instead of 8\". Use the normal summoner, ritual and initial Manifestation procedure; retain surviving models and wounds.",
         "hidden": false
       },
       {
         "name": "The Grand Symphony — Precise Harmonics / 1 CP",
         "id": "302d-98ea-a7fe-d229",
-        "description": "WHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Re-roll Hit rolls of 1 for attacks made with listed Sonic Weapons until the end of the phase.",
+        "description": "\n\n### When\n\nYour Shooting phase, when a friendly SONIC unit is selected to shoot.\n\n### Target\n\nThat unit.\n\n### Effect\n\nRe-roll Hit rolls of 1 for attacks made with listed Sonic Weapons until the end of the phase.",
         "hidden": false
       },
       {
         "name": "The Grand Symphony — Deafening Pressure / 1 CP",
         "id": "af62-f515-98fd-bbec",
-        "description": "WHEN: Your Shooting phase, after a friendly SONIC unit has shot. TARGET: One enemy unit hit by a listed Sonic Weapon from that unit. EFFECT: Subtract 2\" from that enemy unit's Move characteristic and subtract 2 from its Charge rolls until the start of your next Shooting phase.",
+        "description": "\n\n### When\n\nYour Shooting phase, after a friendly SONIC unit has shot.\n\n### Target\n\nOne enemy unit hit by a listed Sonic Weapon from that unit.\n\n### Effect\n\nSubtract 2\" from that enemy unit's Move characteristic and subtract 2 from its Charge rolls until the start of your next Shooting phase.",
         "hidden": false
       },
       {
         "name": "The Grand Symphony — Wall of Noise / 1 CP",
         "id": "d09b-248c-edea-bb7a",
-        "description": "WHEN: Your opponent's Shooting phase, immediately after an enemy unit selects targets. TARGET: One friendly SONIC unit selected as a target. EFFECT: Until the attacking unit has finished its attacks, worsen the AP of ranged attacks targeting your unit by 1.",
+        "description": "\n\n### When\n\nYour opponent's Shooting phase, immediately after an enemy unit selects targets.\n\n### Target\n\nOne friendly SONIC unit selected as a target.\n\n### Effect\n\nUntil the attacking unit has finished its attacks, worsen the AP of ranged attacks targeting your unit by 1.",
         "hidden": false
       },
       {
         "name": "The Grand Symphony — Overwhelming Volume / 1 CP",
         "id": "17c2-4b8b-4497-cf6b",
-        "description": "WHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Until the end of the phase, add 1 to Wound rolls made for its attacks with listed Sonic Weapons against Battle-shocked enemy units.",
+        "description": "\n\n### When\n\nYour Shooting phase, when a friendly SONIC unit is selected to shoot.\n\n### Target\n\nThat unit.\n\n### Effect\n\nUntil the end of the phase, add 1 to Wound rolls made for its attacks with listed Sonic Weapons against Battle-shocked enemy units.",
         "hidden": false
       },
       {
         "name": "The Grand Symphony — Reverberating Terror / 1 CP",
         "id": "0643-a0f6-1f17-64df",
-        "description": "WHEN: Your Shooting phase, after a friendly SONIC unit destroys an enemy unit with a ranged attack. TARGET: That SONIC unit. EFFECT: Select one other enemy unit within 6\" of the last model removed from the destroyed unit. It must take a Battle-shock test, subtracting 1 from the result.",
+        "description": "\n\n### When\n\nYour Shooting phase, after a friendly SONIC unit destroys an enemy unit with a ranged attack.\n\n### Target\n\nThat SONIC unit.\n\n### Effect\n\nSelect one other enemy unit within 6\" of the last model removed from the destroyed unit. It must take a Battle-shock test, subtracting 1 from the result.",
         "hidden": false
       },
       {
         "name": "The Grand Symphony — Measured Crescendo / 1 CP",
         "id": "c544-a8d2-b1e0-5fed",
-        "description": "WHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Until the end of the phase, when that unit makes ranged attacks with listed Sonic Weapons, ignore modifiers to its Ballistic Skill characteristic and Hit rolls.",
+        "description": "\n\n### When\n\nYour Shooting phase, when a friendly SONIC unit is selected to shoot.\n\n### Target\n\nThat unit.\n\n### Effect\n\nUntil the end of the phase, when that unit makes ranged attacks with listed Sonic Weapons, ignore modifiers to its Ballistic Skill characteristic and Hit rolls.",
         "hidden": false
       },
       {
