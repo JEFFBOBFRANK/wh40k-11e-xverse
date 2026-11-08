@@ -1,7 +1,7 @@
 """Keep datasheet abilities separate from core rules and source metadata.
 
-Used by both builders and the one-off catalogue migration. Does not alter
-selections, costs, weapons, keywords, attachments or roster constraints.
+Used by both builders and the one-off catalogue migration. Also repairs Agents model pools and power selections; preserves costs,
+weapons, keywords and attachments.
 """
 import hashlib
 import re
@@ -288,6 +288,7 @@ def uniform_datasheets(catalogue):
             node['profiles'].sort(key=rank)
 
     if catalogue.get("id") == "b00-cd86-4b4c-97ba":
+        repair_agents_structure(catalogue)
         agents_rule_layout(catalogue)
         enforce_agents_writ_limits(catalogue)
 
@@ -304,10 +305,12 @@ def agents_rule_layout(catalogue):
             profile['characteristics'][0]['$text'] = '\n\nYou cannot include more than one INQUISITOR LORD unit in your army.'
 
     def layout(text):
+        text = re.sub(r'(?m)^-[ \t]*\n+', '\n\n', text)
         text = re.sub(r'\s*\*\*([^*\n]+:)\*\*[ \t\n]*',
                       lambda m: '\n\n**' + m[1] + '**\n\n', text)
-        text = re.sub(r'(?<![\w*])(WHEN|TARGET|EFFECT|RESTRICTION|REQUIREMENT|DURATION|COST):[ \t\n]*',
-                      lambda m: '\n\n' + m[1] + ':\n\n', text, flags=re.I)
+        text = re.sub(r'(?<![\w*])(WHEN|TARGET|EFFECT|RESTRICTION|REQUIREMENT|DURATION|COST|LIMIT):[ \t\n]*',
+                      lambda m: '\n\n**' + m[1] + ':**\n\n', text, flags=re.I)
+        text = re.sub(r'[ \t]+(?=\n)', '', text)
         text = re.sub(r'(?m)^([A-Z][A-Za-z0-9 /()’"+\-]{0,65}:)[ \t]+',
                       lambda m: m[1] + '\n\n', text)
         return '\n\n' + re.sub(r'\n{3,}', '\n\n', text.strip())
@@ -343,3 +346,107 @@ def enforce_agents_writ_limits(catalogue):
                 if constraint.get('type') == 'max' and constraint.get('scope') == 'roster':
                     constraint['value'] = 1
                     constraint['includeChildSelections'] = True
+
+
+def repair_agents_structure(catalogue):
+    import copy
+    entries={e['name']:e for e in catalogue['sharedSelectionEntries']}
+    def value(node,kind):
+        return next((c['value'] for c in node.get('constraints',[]) if c.get('field')=='selections' and c['type']==kind),0)
+    # Model pools open with the complete basic squad; specialists replace basics.
+    for entry in entries.values():
+        if entry.get('type') not in ['model','unit']:continue
+        for group in list(walk(entry)):
+            models=[n for n in group.get('selectionEntries',[]) if n.get('type')=='model']
+            if group.get('type')=='model' or not models or not value(group,'min'):continue
+            flexible=[m for m in models if any(c['id']==uid(m['id']+':basic-min') for c in m.get('constraints',[]))] or [m for m in models if not value(m,'min')]
+            if not flexible:continue
+            regular=max(flexible,key=lambda m:value(m,'max'))
+            if value(regular,'max')<value(group,'min')-sum(value(m,'min') for m in models):continue
+            needed=value(group,'min')-sum(value(m,'min') for m in models if m is not regular)
+            minimum=next((c for c in regular.get('constraints',[]) if c['type']=='min'),None)
+            if minimum is None:
+                minimum=dict(id=uid(regular['id']+':basic-min'),type='min',scope='parent',field='selections',value=needed,shared=True,includeChildSelections=False)
+                regular.setdefault('constraints',[]).append(minimum)
+            regular['defaultAmount']=needed
+            maximum=next(c for c in regular['constraints'] if c['type']=='max')
+            for modifier in list(regular.get('modifiers',[])):
+                if modifier.get('field')==maximum['id'] and modifier.get('type')=='set':
+                    clone=copy.deepcopy(modifier);clone['field']=minimum['id']
+                    if clone not in regular['modifiers']:regular['modifiers'].append(clone)
+            # Include specialist models in nested replacement subgroups too.
+            replacements=[n for n in walk(group) if n.get('type')=='model' and n is not regular and not value(n,'min')]
+            for specialist in replacements:
+                for constraint in [minimum,maximum]:
+                    modifier=dict(field=constraint['id'],type='increment',value=-1,repeats=[dict(childId=specialist['id'],field='selections',scope=entry['id'],shared=True,includeChildSelections=True,value=1,repeats=1,roundUp=False)])
+                    if modifier not in regular.setdefault('modifiers',[]):regular['modifiers'].append(modifier)
+        for node in list(walk(entry)):
+            if node.get('type')=='model':node.setdefault('defaultAmount',value(node,'min'))
+        # Guard/EC-style physical models each carry their own stat profile.
+        if entry.get('type')!='unit' or entry['name']=='Rogue Trader':continue
+        models=[n for n in walk(entry) if n is not entry and n.get('type')=='model']
+        stats=next((p for p in entry.get('profiles',[]) if p.get('typeName')=='Unit'),None)
+        if not models or stats is None:continue
+        for model in models:
+            if not any(p.get('typeName')=='Unit' for p in model.get('profiles',[])):
+                profile=copy.deepcopy(stats);profile.update(id=uid(model['id']+':stats'),name=stats['name'],hidden=False)
+                model.setdefault('profiles',[]).insert(0,profile)
+            if entry['name']=='Imperial Navy Breachers' and model['name']=='Endurant':
+                for profile in model['profiles']:
+                    if profile.get('typeName')=='Unit':
+                        profile['name']='Endurant';next(c for c in profile['characteristics'] if c['name']=='InSv')['$text']='4+'
+                for profile in model['profiles']:
+                    if profile.get('typeName')=='Abilities' and 'Apply the Endurant shield rule' in profile['characteristics'][0]['$text']:profile['hidden']=True
+        stats['hidden']=True
+    # Count the Rogue Trader as a physical model alongside household retainers.
+    trader=entries['Rogue Trader']
+    captain_id=uid(trader['id']+':captain-model')
+    if not any(n.get('id')==captain_id for n in trader.get('selectionEntries',[])):
+        stats=next(p for p in trader['profiles'] if p['typeName']=='Unit')
+        profile=copy.deepcopy(stats);profile.update(id=uid(captain_id+':stats'),hidden=False)
+        captain=dict(id=captain_id,name='Rogue Trader',type='model',hidden=False,import_=True,defaultAmount=1,
+            profiles=[profile],constraints=[dict(id=uid(captain_id+':'+kind),type=kind,value=1,scope='parent',field='selections',shared=True,includeChildSelections=False) for kind in ['min','max']])
+        captain['import']=captain.pop('import_')
+        captain['selectionEntryGroups']=[g for g in trader['selectionEntryGroups'] if g['name'] in ['Ranged weapon','Melee weapon']]
+        trader['selectionEntryGroups']=[g for g in trader['selectionEntryGroups'] if g['name'] not in ['Ranged weapon','Melee weapon']]
+        trader.setdefault('selectionEntries',[]).insert(0,captain);stats['hidden']=True
+    # Restore the Jokaero's three printed choices lost during text extraction.
+    jokaero=entries['Jokaero Weaponsmith']
+    ability=next(p for p in jokaero['profiles'] if p['name']=='Inconceivable Augmentation')
+    ability['characteristics'][0]['$text']='At the start of your Command phase, select one augmentation below. Until the start of your next Command phase, ranged weapons equipped by models in this unit gain its benefit.\n\n**Weapon Calibration:**\n\nAdd 6" to the Range characteristic.\n\n**Lethal Augmentation:**\n\nThose weapons have Lethal Hits: MONSTER/VEHICLE.\n\n**Armour Disruption:**\n\nImprove the Armour Penetration characteristic by 1.'
+    for p in jokaero['profiles']:
+        if p['name'].startswith('Lethal Augmentation Those'):p['hidden']=True
+    for link in jokaero.get('entryLinks',[]):
+        if link['name']=='Warlord':
+            link['hidden']=True
+            if not any(c['type']=='max' and c['value']==0 for c in link.get('constraints',[])):
+                link.setdefault('constraints',[]).append(dict(id=uid(link['id']+':not-warlord'),type='max',value=0,scope='parent',field='selections',shared=True,includeChildSelections=False))
+    # Psychic Gifts show only the chosen variant's actual powers, not two chapters.
+    variants={'Inquisitor':'Mental Interrogation','High Interrogator':'Psychometric Survey','Inquisitor in Power Armour':'Psychic Onslaught','Inquisitor in Terminator Armour':'Displacement Field','Inquisitor Lord':'Dominion of the Mind'}
+    psykana=next(r for r in catalogue['sharedRules'] if r['name']=='Sanctioned Psykana')
+    for name,power in variants.items():
+        entry=entries[name]
+        gifts=next(n for n in walk(entry) if n.get('type')=='upgrade' and n['name']=='Psychic Gifts')
+        if any(p['name']==power+' (Psychic Level '+('2' if name=='Inquisitor Lord' else '1')+')' for p in gifts.get('profiles',[])):continue
+        common=next(p for p in gifts['profiles'] if p['name']=='Sanctioned Psykana')
+        unique=next(p for p in gifts['profiles'] if p['name']=='Psychic Gifts')
+        text=' '.join(common['characteristics'][0]['$text'].split())
+        prescience=text.split('Prescience - Psychic Level 1:',1)[1].split('Psychic Barrier - Psychic Level 1:',1)[0]
+        barrier=text.split('Psychic Barrier - Psychic Level 1:',1)[1].split('Variant',1)[0]
+        text=' '.join(unique['characteristics'][0]['$text'].split())
+        import re
+        matches=list(re.finditer(r'(Mental Interrogation|Psychometric Survey|Psychic Onslaught|Displacement Field|Dominion of the Mind) - Level (\d) / [^:]+:',text))
+        match=next(m for m in matches if m[1]==power);i=matches.index(match);body=text[match.end():matches[i+1].start() if i+1<len(matches) else len(text)]
+        for profile in gifts['profiles']:profile['hidden']=True
+        for title,description in [('Prescience (Psychic Level 1)',prescience),('Psychic Barrier (Psychic Level 1)',barrier),(power+' (Psychic Level '+match[2]+')',body)]:
+            profile=copy.deepcopy(common);profile.update(id=uid(gifts['id']+':'+title),name=title,hidden=False);profile['characteristics'][0]['$text']=description.strip();gifts['profiles'].append(profile)
+        rule_link(gifts,psykana,'Sanctioned Psykana (Psyker Level '+('2' if name=='Inquisitor Lord' else '1')+')')
+        for profile in entry['profiles']:
+            if profile['name']=='Blessed Wardings / Psychic Gifts':profile['hidden']=True
+    vindicare=entries['Vindicare Assassin']
+    ammunition=next(p for p in vindicare['profiles'] if p['name']=='Exitus Ammunition')
+    choices=[p for p in vindicare['profiles'] if p['name'] in ['Turbo-penetrator','Hellfire','Shieldbreaker']]
+    if '**Turbo-penetrator:**' not in ammunition['characteristics'][0]['$text']:
+        for p in choices:
+            ammunition['characteristics'][0]['$text']+='\n\n**'+p['name']+':**\n\n'+p['characteristics'][0]['$text'].strip()
+            p['hidden']=True
