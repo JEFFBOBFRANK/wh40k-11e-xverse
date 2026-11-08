@@ -296,11 +296,11 @@ def agents_rule_layout(catalogue):
     lord = next(e for e in catalogue['sharedSelectionEntries'] if e['name'] == 'Inquisitor Lord')
     for constraint in lord.get('constraints', []):
         if constraint.get('type') == 'max' and constraint.get('scope') == 'roster' and constraint.get('field') == 'selections':
-            constraint['value'] = 3
+            constraint['value'] = 1
     for profile in lord.get('profiles', []):
         if profile['name'] == 'Inquisitorial Supremacy':
-            profile['hidden'] = True
-            profile['characteristics'][0]['$text'] = '\n\nYou can include up to three INQUISITOR LORD units in your army.'
+            profile['hidden'] = False
+            profile['characteristics'][0]['$text'] = '\n\nYou cannot include more than one INQUISITOR LORD unit in your army.'
 
     def layout(text):
         text = re.sub(r'\s*\*\*([^*\n]+:)\*\*[ \t\n]*',
