@@ -530,7 +530,7 @@ for rec in SELECTED:
     if f in BONUS:
         det=next(d for d in SRC['detachments'] if d['name']==BONUS[f])
         if det['ordo']:append(e,'modifiers',mod('category',catid(det['ordo']),[condition(DETIDS[det['name']])],'add'))
-    ability(e,'Separate Command','This is a Requisitioned unit. Use its parent datasheet and published points. It does not gain Agents of the Imperium or parent faction army rules unless an explicit selected Detachment grants access. See Imperial Requisitions. Parent snapshot: JEFFBOBFRANK/wh40k-11e-xverse '+PARENT_COMMIT+'.')
+    ability(e,'Separate Command','This is a Requisitioned unit. Use its parent datasheet and published points. It does not gain Agents of the Imperium or parent faction army rules unless an explicit selected Detachment grants access. See Imperial Requisitions. Parent snapshot: JEFFBOBFRANK/wh40k-11e-xverse '+PARENT_COMMIT+'.'); e['profiles'][-1]['hidden']=True
     if f=='Titans':ability(e,'Sanctioned Command','Do not apply Striding Colossus to this Requisitioned model.')
     if f=='Astartes' and rec['original']['name']=='Company Heroes':ability(e,'Company Liaison','An INQUISITOR with Leader can lead this unit and satisfies its CAPTAIN or CHAPTER MASTER requirement.')
     if f=='Astartes' and rec['original']['name']=='Rhino':ability(e,'Company Liaison','This Requisitioned Rhino can transport TACTICUS models; retain all other passenger restrictions and capacity costs.')
