@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 22,
     "library": false,
-    "revision": 24,
+    "revision": 25,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -30099,12 +30099,12 @@
             "id": "d845-094d-5a03-2f63",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "\n\nYou cannot include more than one INQUISITOR LORD unit in your army. This datasheet is not an Epic Hero."
+                "$text": "\n\nYou can include up to three INQUISITOR LORD units in your army."
               }
             ]
           },
