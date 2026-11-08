@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 24,
+    "revision": 25,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -64281,7 +64281,7 @@
             "id": "13ae-76eb-34ac-b51f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
