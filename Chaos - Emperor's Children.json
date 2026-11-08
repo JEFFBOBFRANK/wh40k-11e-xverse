@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 33,
+    "revision": 34,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -68880,6 +68880,13 @@
             "targetId": "31bb-7d77-943e-94bd",
             "primary": false,
             "hidden": false
+          },
+          {
+            "name": "Titanic",
+            "id": "d141-fefb-265b-c43b",
+            "targetId": "5929-ad51-d006-e008",
+            "primary": false,
+            "hidden": false
           }
         ],
         "constraints": [
@@ -69110,7 +69117,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Walker, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children."
+                "$text": "Keywords: Vehicle, Walker, Titanic, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children."
               }
             ]
           }
@@ -69120,7 +69127,7 @@
             "name": "Datasheet rules and equipment",
             "id": "00f8-c0fd-12b7-8be2",
             "hidden": true,
-            "description": "Army rules: Combat Drugs.\n\nComposition: 1 Threnody Dreadnought Equipment: Cathedral sonic immolator, two heavy bolters, cathedral fist, crushing tread.\n\n**Equipment options**\n\nReplace two heavy bolters with two sonic blasters. Replace fist with twin lascannon or requiem cannon. Crushing tread remains available. Select one profile for a multi-profile weapon.\n\nCore: Damaged 8, Deadly Demise D6.\n\n**Interred in Rapture**\n\nAt the start of the battle, select one accessible Combat Elixir. This model becomes Stupefied with it active and does not recover through normal Command-phase recovery. Other abilities can end or suspend this normally. Unless another effect prevents it, it becomes Stupefied again at the end of your next Command phase with the previous elixir. This never refreshes a once-per-battle use.\n\n**This Ground Is My Stage**\n\nAt the start of your Command phase, select one objective marker this model is within range of, whether or not you control it. Until the start of your next Command phase, while within range of that marker, this model cannot be Stupefied, retains its selected elixir's normal effects only and cannot activate additional elixirs. Ending Stupefied this way also clears its Battle-shock; ordinary subsequent Battle-shock is possible. If it leaves range, it immediately becomes Stupefied again unless another ability prevents this.\n\n**Unending Refrain**\n\nAfter this model has shot, select one enemy unit hit by one or more attacks made with its cathedral sonic immolator. That enemy unit must take a Battle-shock test.\n\nKeywords: Vehicle, Walker, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children.",
+            "description": "Army rules: Combat Drugs.\n\nComposition: 1 Threnody Dreadnought Equipment: Cathedral sonic immolator, two heavy bolters, cathedral fist, crushing tread.\n\n**Equipment options**\n\nReplace two heavy bolters with two sonic blasters. Replace fist with twin lascannon or requiem cannon. Crushing tread remains available. Select one profile for a multi-profile weapon.\n\nCore: Damaged 8, Deadly Demise D6.\n\n**Interred in Rapture**\n\nAt the start of the battle, select one accessible Combat Elixir. This model becomes Stupefied with it active and does not recover through normal Command-phase recovery. Other abilities can end or suspend this normally. Unless another effect prevents it, it becomes Stupefied again at the end of your next Command phase with the previous elixir. This never refreshes a once-per-battle use.\n\n**This Ground Is My Stage**\n\nAt the start of your Command phase, select one objective marker this model is within range of, whether or not you control it. Until the start of your next Command phase, while within range of that marker, this model cannot be Stupefied, retains its selected elixir's normal effects only and cannot activate additional elixirs. Ending Stupefied this way also clears its Battle-shock; ordinary subsequent Battle-shock is possible. If it leaves range, it immediately becomes Stupefied again unless another ability prevents this.\n\n**Unending Refrain**\n\nAfter this model has shot, select one enemy unit hit by one or more attacks made with its cathedral sonic immolator. That enemy unit must take a Battle-shock test.\n\nKeywords: Vehicle, Walker, Titanic, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "112"
           }
@@ -70468,7 +70475,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "112",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Threnody Dreadnought Equipment: Cathedral sonic immolator, two heavy bolters, cathedral fist, crushing tread.\n\nCore: Damaged 8, Deadly Demise D6.\n\nKeywords: Vehicle, Walker, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace two heavy bolters with two sonic blasters. Replace fist with twin lascannon or requiem cannon. Crushing tread remains available. Select one profile for a multi-profile weapon."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Threnody Dreadnought Equipment: Cathedral sonic immolator, two heavy bolters, cathedral fist, crushing tread.\n\nCore: Damaged 8, Deadly Demise D6.\n\nKeywords: Vehicle, Walker, Titanic, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace two heavy bolters with two sonic blasters. Replace fist with twin lascannon or requiem cannon. Crushing tread remains available. Select one profile for a multi-profile weapon."
       },
       {
         "name": "Cacophant",
