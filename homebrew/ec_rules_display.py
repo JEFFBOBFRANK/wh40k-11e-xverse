@@ -21,7 +21,16 @@ def apply_rules_display(catalogue,system,source=None):
  refs['infoLinks']=[dict(id=uid('reference:'+n),name=n,type='rule',targetId=shared[n]['id'],hidden=False) for n in ['Combat Drugs','Bound Excess','Sublime Strategist']]
  # Elixir selection entries show the same operative effects as the rule.
  from datasheet_format import walk
+ lance=next(r['id'] for r in system['sharedRules'] if r['name']=='Lance')
  for node in walk(catalogue):
+  for profile in node.get('profiles',[]):
+   if profile.get('typeName')=='Melee Weapons' and profile['name']=='Phoenix power spear':
+    keywords=next(c for c in profile['characteristics'] if c['name']=='Keywords')
+    if 'Lance' not in keywords['$text']:
+     keywords['$text']='Lance' if keywords['$text'] in ['','-'] else keywords['$text']+', Lance'
+    links=node.setdefault('infoLinks',[])
+    if not any(link.get('targetId')==lance for link in links):
+     links.append(dict(id=uid(profile['id']+':lance'),name='Lance',type='rule',targetId=lance,hidden=False))
   for r in node.get('rules',[]):
    match=next((e for e in data['elixirs'] if e['name']==r['name']),None)
    if match:
