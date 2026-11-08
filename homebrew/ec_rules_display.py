@@ -39,6 +39,9 @@ def apply_rules_display(catalogue,system,source=None):
    else:continue
    p['name']=name+' (Signature Elixir)'
    p['characteristics'][0]['$text']=data['signature_elixirs'][name]
+  for profile in e.get('profiles',[]):
+   if profile.get('typeName')=='Abilities' and profile['name']=='Wargear Points':
+    profile['hidden']=True
   # Remove the extra lucid-doses explanation: the complete model-specific
   # permission belongs in Master of Excess on Fulgrim's own datasheet.
   if e['name']=='Fulgrim':
