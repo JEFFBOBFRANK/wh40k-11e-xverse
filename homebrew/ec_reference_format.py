@@ -214,6 +214,9 @@ def apply_references(catalogue, system, source):
             keywords = ', '.join(p['characteristics'][-1]['$text'] for p in weapons)
             for rule in matching_rules(keywords, system['sharedRules']):
                 weapon_links += add_rule_link(node, rule)
+    from datasheet_format import clean_ec_catalogue
+    clean_ec_catalogue(catalogue, system, source)
     return dict(reference_sections=len(formatted), named_ability_profiles=ability_count,
                 core_rule_links=core_links, weapon_rule_links=weapon_links,
                 source_publication=publication['name'])
+

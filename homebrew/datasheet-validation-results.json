@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "catalogues": [
+    {
+      "catalogue": "Chaos - Emperor's Children",
+      "revision": 19,
+      "units": 58,
+      "original_profiles_preserved": 926,
+      "duplicate_metadata_rows_hidden": 226,
+      "roster_mechanics_unchanged": true,
+      "idempotent": true
+    },
+    {
+      "catalogue": "Imperium - Agents of the Imperium",
+      "revision": 21,
+      "units": 58,
+      "original_profiles_preserved": 954,
+      "duplicate_metadata_rows_hidden": 127,
+      "roster_mechanics_unchanged": true,
+      "idempotent": true
+    }
+  ],
+  "fulgrim_visible_abilities": [
+    "The Phoenician Prince",
+    "Master of Excess",
+    "Sovereign of Sensation",
+    "Weapon ability: Daemonic Poisons - Serpentine tail",
+    "Signature Elixir: Phoenician Ambrosia",
+    "Ordinary doses while lucid",
+    "Supreme Commander"
+  ]
+}

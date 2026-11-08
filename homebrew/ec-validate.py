@@ -113,9 +113,9 @@ for u in S['units']:
  assert e.get('publicationId') in publication_ids and e.get('page')==str(u['page']);reference_checks+=1
  original=next(r for r in e['rules'] if r['name']=='Datasheet rules and equipment')
  assert original.get('hidden') is True;reference_checks+=1
- abilities=[p for p in e['profiles'] if p.get('typeName')=='Abilities']
+ abilities=[p for p in e['profiles'] if p.get('typeName')=='Abilities' and not p.get('hidden')]
  rendered=' '.join(' '.join([p['name']]+[c['$text'] for c in p['characteristics']]).replace('**','') for p in abilities)
- rendered=' '.join(rendered.split())
+ rendered=' '.join((rendered+' '+e.get('readme','')).split())
  for paragraph in re.split(r'\n\s*\n',u['rules']):
   value=' '.join(paragraph.replace('**','').split())
   if not value or value==u['name']+' / Continued' or re.fullmatch(r'[A-Z][A-Z /]+ / ABILITIES',value):continue
@@ -134,16 +134,20 @@ for unit,required in {'Fulgrim':{'Deep Strike','Deadly Demise'},'Lord Exultant':
 if a.previous:
  previous=json.loads((a.previous/"Chaos - Emperor's Children.json").read_text())['catalogue']
  def mechanics(node):
-  if isinstance(node,dict):return {k:mechanics(v) for k,v in node.items() if k not in {'profiles','rules','sharedRules','infoLinks','publications','publicationId','page','revision'}}
+  if isinstance(node,dict):return {k:mechanics(v) for k,v in node.items() if k not in {'profiles','rules','sharedRules','infoLinks','publications','publicationId','page','revision','readme'}}
   if isinstance(node,list):return [mechanics(v) for v in node]
   return node
  assert mechanics(previous)==mechanics(C),'Selection mechanics changed'
  for node in walk(previous):
   for old_profile in node.get('profiles',[]):
-   assert idx[old_profile['id']]==old_profile,old_profile['name'];reference_checks+=1
+   from datasheet_format import METADATA
+   expected=dict(old_profile)
+   if old_profile.get('typeName')=='Abilities' and old_profile['name'] in METADATA:expected['hidden']=True
+   assert idx[old_profile['id']]==expected,old_profile['name'];reference_checks+=1
  if (a.previous/'Warhammer 40,000.json').exists():
   assert json.loads((a.previous/'Warhammer 40,000.json').read_text())['gameSystem']==G
  reference_checks+=1
 checks+=reference_checks
-report=dict(status='PASS',reference_checks=reference_checks,named_ability_profiles=sum(p.get('typeName')=='Abilities' for u in native.values() for p in u.get('profiles',[])),source_version='3.1',source_checks=checks,detachment_and_ally_scenarios=scenarios,units=58,weapon_profiles=244,enhancements=40,stratagems=60,dispositions_unspecified=cov['dispositions_unspecified'],live_validation='Published-revision live checks are recorded in homebrew/ec-VALIDATION.md.')
+report=dict(status='PASS',reference_checks=reference_checks,named_ability_profiles=sum(p.get('typeName')=='Abilities' and not p.get('hidden') for u in native.values() for p in u.get('profiles',[])),source_version='3.1',source_checks=checks,detachment_and_ally_scenarios=scenarios,units=58,weapon_profiles=244,enhancements=40,stratagems=60,dispositions_unspecified=cov['dispositions_unspecified'],live_validation='Published-revision live checks are recorded in homebrew/ec-VALIDATION.md.')
 (a.data/'ec-validation-results.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
+

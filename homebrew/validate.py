@@ -7,7 +7,8 @@ def walk(x):
   for v in x.values():yield from walk(v)
  elif isinstance(x,list):
   for v in x:yield from walk(v)
-f={p.name:next(iter(json.loads(p.read_text()).values())) for p in R.glob('*.json')}
+f={p.name:next(iter(doc.values())) for p in R.glob('*.json')
+   if (doc:=json.loads(p.read_text())).keys() in ({'catalogue'}, {'gameSystem'})}
 s=f['Warhammer 40,000.json'];c=f['Imperium - Agents of the Imperium.json'];q=f['Agents Requisitions Library.json'];src=json.loads((R/'homebrew/source-data.json').read_text());cov=json.loads((R/'homebrew/coverage.json').read_text());roots={v['id']:v for v in f.values()};checks=0
 for o in [c,q]:
  linked=[o,s];seen=set();queue=[o]
@@ -122,7 +123,7 @@ assert {'Cadian Command Squad','Catachan Command Squad','Krieg Command Squad'}<=
 for l in c['entryLinks']:
  if l['name'].endswith('(Requisitioned)'):assert sum(bool(x.get('primary')) for x in idx[l['targetId']]['categoryLinks'])==1;checks+=1
 for n in ['Inquisitor Kroyle','Inquisitor Karamazov','Inquisitor Gideon Ravenor']:assert not native[n].get('associations');checks+=1
-budgets=[l for l in next(f for f in s['forceEntries'] if f['name']=='Army Roster')['categoryLinks'] if l['name'].startswith('Requisition allowance')];assert len(budgets)==29
+budgets=[idx[l['targetId']] for l in next(f for f in s['forceEntries'] if f['name']=='Army Roster')['categoryLinks'] if l['name'].startswith('Requisition allowance')];assert len(budgets)==29
 bonus={'Sororitas':'Purgation Force','Deathwatch':'Xenocide Force','Grey Knights':'Daemonhunt Force','Militarum':'Requisitioned Battle Group','Mechanicus':'Technological Intervention','Astartes':'Chapter Intervention','Knights':'Oathsworn Lance'};detids={x['name']:x['id'] for x in dets};sizes=[('d62d-db22-4893-4bc0',250),('baf8-997f-e323-a090',500),('4204-82d0-908c-a62a',750)]
 random.seed(92);scenarios=0
 for sid,base in sizes:
@@ -141,3 +142,4 @@ for sid,base in sizes:
 assert any('Skaven' in n for n in f) and any('Black-Flag' in n for n in f)
 report=dict(status='PASS',structural_and_source_checks=checks,budget_allocation_scenarios=scenarios,detachment_configuration_scenarios=config_scenarios,new_recruit_runtime_test='Initial GitHub installation, faction selection and manual roster creation passed. This revision fixes Ordo Unique, disposition categories and reference formatting; live regression verification is recorded in VALIDATION.md. Complete roster validation and card export remain pending.',source_gaps=cov['source_gaps'])
 (R/'homebrew/validation-results.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
+

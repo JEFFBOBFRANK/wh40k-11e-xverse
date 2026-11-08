@@ -623,6 +623,9 @@ for e in NATIVE:
     e['profiles']=kept
     append(e,'infoLinks',dict(name='Imperial Authority',id=uid(e['id']+':factionrule'),targetId=armyrule['id'],type='rule',hidden=False))
 
+from datasheet_format import clean_agents_catalogue
+clean_agents_catalogue(C, G, SRC)
+
 # Preserve the existing fork's system identity and its other homebrew factions.
 # Keep only legacy Agents definitions directly used by other factions, plus
 # their transitive dependencies. They are library definitions, never roots.
@@ -682,3 +685,4 @@ for filename,rootkey,obj in [('Warhammer 40,000.json','gameSystem',G),('Imperium
 coverage={'source_version':SRC['version'],'upstream':'JEFFBOBFRANK/wh40k-11e-xverse','upstream_commit':PARENT_COMMIT,'native_units':len(NATIVE),'retainers':len(SRC['retainers']),'detachments':len(SRC['detachments']),'enhancements':len(ENH_DEFS),'requisition_datasheets':len(REQUISITIONS),'requisition_budget_constraints':len(BUDGETS),'source_gaps':SOURCE_GAPS,'unmatched_requisition_names':MISSING_BASE,'parent_default_aliases_reset':DEFAULT_FIXES,'native_root_ids':{u['name']:e['id'] for u,e in zip(SRC['units'],NATIVE)},'requisition_units':[dict(name=r['original']['name'],faction=r['faction'],basic=r['basic']) for r in SELECTED]}
 (HERE/'coverage.json').write_text(json.dumps(coverage,indent=2)+'\n')
 print(json.dumps({k:v for k,v in coverage.items() if k not in ['native_root_ids','requisition_units']},indent=2))
+
