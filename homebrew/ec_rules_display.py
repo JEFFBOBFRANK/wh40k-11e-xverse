@@ -40,7 +40,7 @@ def apply_rules_display(catalogue,system,source=None):
    p['name']=name+' (Signature Elixir)'
    p['characteristics'][0]['$text']=data['signature_elixirs'][name]
   for profile in e.get('profiles',[]):
-   if profile.get('typeName')=='Abilities' and profile['name']=='Wargear Points':
+   if profile.get('typeName')=='Abilities' and profile['name'] in {'Wargear Points','Weapon Selection'}:
     profile['hidden']=True
   # Remove the extra lucid-doses explanation: the complete model-specific
   # permission belongs in Master of Excess on Fulgrim's own datasheet.
@@ -49,6 +49,13 @@ def apply_rules_display(catalogue,system,source=None):
    master['characteristics'][0]['$text']='Before the battle, select two different Warband Elixirs for this model. Their normal effects are always active for it without dosage tests. While not Stupefied, this model can take additional ordinary Combat Elixirs using their normal timing and dosage tests. When it becomes Stupefied, it retains both permanent elixirs, gains their Stupefied effects, and gains the normal and Stupefied effects of one additional accessible Combat Elixir.'
    for p in e['profiles']:
     if p['name']=='Ordinary Doses While Lucid':p['hidden']=True
+  if e['name']=='Lucius the Eternal':
+   eternal=next(p for p in e['profiles'] if p['name']=='The Eternal')
+   eternal['characteristics'][0]['$text']="**Mark a host**\n\nOnce per turn, during the Shooting or Fight phase, when Lucius is destroyed by an attack made by an enemy unit, the controller of that attacking unit must select one non-Epic Hero Infantry model from that attacking unit, if one exists. Place an ETERNAL marker on that model.\n\n**Possession**\n\nAt the start of each Fight phase, roll one D6 for the marked model. On a 3+, remove the marker, destroy that model and return Lucius to the battlefield in its former position with D6 wounds remaining.\n\n- If his base cannot fit exactly, place him as close as possible.\n- He can be set up within Engagement Range of the host's former unit or other enemy units.\n- Lucius returns as a separate single-model unit and is Stupefied and Battle-shocked.\n\n**Combat Elixir**\n\nSelect one Combat Elixir from this codex for his unit, including Signature, Warband, detachment and enhancement elixirs. It gains the normal and Stupefied effects for that state. This does not refresh an expended once-per-battle use.\n\n**Host destroyed**\n\nIf the host dies before possession resolves, that marker is lost and does not revive Lucius."
+  if e['name']=='Phoenix Guard Terminators':
+   for node in walk(e):
+    if node.get('typeName')=='Melee Weapons' and node['name']=='Phoenix power spear':
+     next(c for c in node['characteristics'] if c['name']=='A')['$text']='5'
   if e['name']=='Agoniser':
    for p in e.get('profiles',[]):
     if p['name']=='Equipment Options':
