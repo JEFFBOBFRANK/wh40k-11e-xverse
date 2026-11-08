@@ -5,12 +5,12 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 20,
+    "revision": 21,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
     "authorName": "Xverse homebrew",
-    "readme": "Emperor’s Children homebrew v3.1, 7 November 2026. Create a new Army Roster after updating. Source transcription, build and validation notes are in homebrew/ec-*. Missing new detachment dispositions are provisional; see ec-VALIDATION.md.",
+    "readme": "Emperor’s Children homebrew v3.2, 7 November 2026. Create a new Army Roster after updating. Source transcription, build and validation notes are in homebrew/ec-*. Missing new detachment dispositions are provisional; see ec-VALIDATION.md.",
     "categoryEntries": [
       {
         "name": "Faction: Emperor's Children",
@@ -376,6 +376,11 @@
         "name": "Chaos Land Raider",
         "id": "fbca-52d3-f782-102d",
         "hidden": false
+      },
+      {
+        "name": "SONIC",
+        "id": "b33d-bce2-7dd2-6589",
+        "hidden": false
       }
     ],
     "sharedSelectionEntries": [
@@ -513,7 +518,7 @@
                     "name": "Disposition source gap",
                     "id": "eb1f-787d-6c72-19b2",
                     "hidden": false,
-                    "description": "V3.1 does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
+                    "description": "The codex does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
                   }
                 ]
               },
@@ -589,7 +594,7 @@
                     "name": "Disposition source gap",
                     "id": "7aa2-4b93-90e1-b195",
                     "hidden": false,
-                    "description": "V3.1 does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
+                    "description": "The codex does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
                   }
                 ]
               },
@@ -665,7 +670,7 @@
                     "name": "Disposition source gap",
                     "id": "d638-ba97-1f57-a7e5",
                     "hidden": false,
-                    "description": "V3.1 does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
+                    "description": "The codex does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
                   }
                 ]
               },
@@ -741,7 +746,7 @@
                     "name": "Disposition source gap",
                     "id": "21ca-899b-f1b7-d065",
                     "hidden": false,
-                    "description": "V3.1 does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
+                    "description": "The codex does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
                   }
                 ]
               },
@@ -817,7 +822,7 @@
                     "name": "Disposition source gap",
                     "id": "6e8d-0a0a-d7d0-2adb",
                     "hidden": false,
-                    "description": "V3.1 does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
+                    "description": "The codex does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
                   }
                 ]
               },
@@ -935,7 +940,7 @@
                     "name": "Disposition source gap",
                     "id": "9d60-8b39-073d-cee7",
                     "hidden": false,
-                    "description": "V3.1 does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
+                    "description": "The codex does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
                   }
                 ]
               },
@@ -1011,7 +1016,7 @@
                     "name": "Disposition source gap",
                     "id": "f203-c4ff-b3bc-b924",
                     "hidden": false,
-                    "description": "V3.1 does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
+                    "description": "The codex does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
                   }
                 ]
               },
@@ -1087,7 +1092,7 @@
                     "name": "Disposition source gap",
                     "id": "a980-6541-deb5-e261",
                     "hidden": false,
-                    "description": "V3.1 does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
+                    "description": "The codex does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
                   }
                 ]
               },
@@ -1163,7 +1168,7 @@
                     "name": "Disposition source gap",
                     "id": "f4e6-236b-23c1-6769",
                     "hidden": false,
-                    "description": "V3.1 does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
+                    "description": "The codex does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
                   }
                 ]
               },
@@ -1233,13 +1238,13 @@
                     "name": "Detachment rule",
                     "id": "ae03-56cf-838f-a377",
                     "hidden": false,
-                    "description": "**2 DP**\n\n\n\n**Overwhelming Resonance**\n\nEach time an EC model makes a ranged attack targeting an enemy unit within 12\" of that model, improve that attack's AP by 1 and add 1 to its Damage. \n\n"
+                    "description": "**2 DP**\n\n**Overwhelming Resonance**\n\nEach time an EC model makes a ranged attack targeting an enemy unit within 12\" of that model, add 1 to the Strength characteristic of that attack and improve its Armour Penetration characteristic by 1."
                   },
                   {
                     "name": "Disposition source gap",
                     "id": "c2d5-a3a3-23e7-9927",
                     "hidden": false,
-                    "description": "V3.1 does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
+                    "description": "The codex does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
                   }
                 ]
               },
@@ -1436,6 +1441,89 @@
                     "id": "295f-f8ce-7d27-9861",
                     "hidden": false,
                     "description": "3 DP  / Disruption or Priority Assets \n\n**Allied allowance**\n\nYou can include Legions of Excess allies up to 500 points at Incursion, 1,000 points at Strike Force or 1,500 points at Onslaught. Legions models cannot be your Warlord. \n\n**Daemonic Empowerment**\n\nAn EC unit within 6\" of one or more friendly Legions of Excess units is  Empowered . A Legions of Excess unit within 6\" of one or more friendly EC units is Empowered. EC units:  While Empowered, add 1 to this unit's dosage Leadership tests. If it activates its first ordinary Combat Elixir dose of the turn while Empowered, it heals D3 wounds after resolving the dosage test and its consequences. This restoration occurs once per unit per turn. Becoming Stupefied does not trigger it. Legions units:  While Empowered, add 1 to this unit's Advance and Charge rolls. Mortal Anchors:  Each time a Legions unit is summoned, if it is Empowered at the end of that phase, it does not lose a Manifestation point at that phase's end. Afterwards, its normal losses resume. \n\n"
+                  }
+                ]
+              },
+              {
+                "name": "The Grand Symphony",
+                "id": "0b26-ef8c-7137-d99d",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "ecd0-82b3-addd-7cdb",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 3
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Disruption",
+                    "id": "8626-f70d-ea11-5010",
+                    "targetId": "ecf8-cf72-7d5b-1b5b",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "Priority Assets",
+                    "id": "a131-9341-4fc8-4563",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "Purge the Foe",
+                    "id": "ce1d-92e6-d994-ec2d",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "Take and Hold",
+                    "id": "1e12-0078-513a-94cc",
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "Reconnaissance",
+                    "id": "9e08-8817-c848-43e0",
+                    "targetId": "b4a7-5083-fe94-4d24",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "3DP Detachment",
+                    "id": "80a1-5f59-3d3a-d677",
+                    "targetId": "7d80-2de5-816e-9d2b",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Detachment rule",
+                    "id": "e79f-a4fc-ae98-e55d",
+                    "hidden": false,
+                    "description": "3DP / DETACHMENT RULE\n\n\n\n\nThe Grand Symphony\nThe Emperor's Children make war as a performance, amassing Stage Tokens through sonic violence before\nspending them on escalating rewards.\n\n\n\n  3 DP / THE GRAND SYMPHONY\n  One 3DP selection. No other detachment can be selected at Strike Force.\n\n\nInstruments of Excess\n\nSONIC is an equipment-derived UNIT keyword. A friendly Emperor's Children unit containing at least\none model equipped with a weapon from the Sonic Weapons register (page 136) gains SONIC. If no\nsuch model remains, it loses SONIC. SONIC is not a weapon keyword, and weapons not listed do not\nbecome Sonic Weapons merely because their unit has SONIC.\n\nAttached units count the equipment of their combined models. Determine eligibility from equipment\nactually taken when mustering, not from every option printed on a datasheet. This keyword rule\napplies throughout this codex; the Grand Symphony is the detachment that spends Stage Tokens.\n\nStage Tokens - building the performance\n\nStarting pool: 0 Stage Tokens. Unspent tokens carry between rounds. Your pool cannot exceed 12\nStage Tokens; you can gain at most 6 in each battle round. Tokens are not CP, do not interact with\nStratagem cost rules, and are not gained by Legions of Excess units.\n\nDamage verse: After a friendly EC unit finishes shooting in your Shooting phase, if one or more attacks\nmade by that unit with a listed Sonic Weapon caused an enemy model to lose one or more wounds,\ngain 1 Stage Token. A unit can generate this reward only once per Shooting phase, no matter how\nmany weapons hit or how much damage it dealt.\n\nSlaughter verse: Once per Shooting phase, after a friendly EC SONIC unit destroys an enemy unit with\na ranged attack made with a listed Sonic Weapon, gain 1 additional Stage Token. Resolve these token\ngains before checking whether you can pay for Daemonic Encore.\n\nTrigger precision: A successful Wound roll that is saved does not count as damage. Any enemy unit\ndestroyed by an attack from a friendly SONIC unit can trigger Daemonic Encore, but only a listed Sonic\nWeapon generates the extra Slaughter verse token.\n\nAvailable performances\n\nSpend your stored Stage Tokens on the performances on page 137 at their specified timing. You must\nhave enough tokens before paying. The same Stage Tokens cannot fund more than one performance.\n+1 Damage bonuses from Shattering Crescendo and The Grand Finale do not stack on the same\nattack.\n\n3DP / PERFORMANCE COSTS\n\n\n\n\nSpend Stage Tokens\nChoose between disrupting enemy formations, intensifying gunfire or materialising daemons at the climax of a\nslaughter.\n\n\nDiscordant Overture - 2 Stage Tokens\n\nWHEN: Your Shooting phase, after a friendly SONIC unit has shot and hit an enemy unit with a listed Sonic\nWeapon. EFFECT: That enemy unit takes a Battle-shock test, subtracting 1 from the result. Resolve after that\nattacking unit's shooting. Multiple Overtures cannot target the same unit in one phase.\n\nShattering Crescendo - 4 Stage Tokens\n\nWHEN: Your Shooting phase, when you select one friendly EC unit to shoot. REQUIREMENT: Select one enemy\nunit that was already hit by a listed Sonic Weapon earlier in the phase. EFFECT: Until the end of this phase, add\n1 to the Damage characteristic of ranged attacks made by the selected EC unit that target that enemy unit.\nOnce per Shooting phase.\n\nDaemonic Encore - 7 Stage Tokens\n\nWHEN: Immediately after a friendly EC SONIC unit destroys an enemy unit with one or more of its ranged\nattacks. Mark the position of the last model removed from that destroyed enemy unit. EFFECT: Create and\nsummon one unit of ten Daemonettes without paying any army points, without a summoner, without a sacrifice\nand without a summoning-pool declaration.\n\nSet up the first Daemonette model as close as possible to the last removed model's position; set up the\nremaining models as close as possible while keeping the unit in coherency. Models cannot overlap occupied\nbases or be placed in impassable positions. Ignore the ordinary 8-inch enemy-distance requirement: these\nDaemonettes may be set up within Engagement Range of enemy units. This permission overrides only that\nsetup restriction.\n\nThe unit begins with 3 Manifestation points (maximum 3) and does not lose a point at the end of the phase in\nwhich it appears. Afterwards it uses the ordinary Manifestation rules. If it becomes Debound, remove it from the\nbattle rather than return it to the summoning pool. It can fight and, if eligible, charge normally under core rules.\nIf all ten models cannot be placed legally in coherency, the summon cannot be performed and no tokens are\nspent.\n\nNo per-turn or per-battle summoning cap. You can repeat Daemonic Encore every time you meet its trigger and\ncan pay the tokens. These free Daemonettes do not grant access to paid Legions of Excess allies or additional\nfree datasheets.\n\nThe Grand Finale - 9 Stage Tokens\n\nWHEN: Start of your Shooting phase. EFFECT: Until the end of that phase, add 1 to the Damage characteristic of\nranged weapons equipped by models in friendly EC SONIC units when targeting enemy units within 12\" of those\nmodels. Once per battle. This bonus cannot stack with Shattering Crescendo on the same attack."
+                  },
+                  {
+                    "name": "Disposition source gap",
+                    "id": "bbbb-e1fc-38d3-4f38",
+                    "hidden": false,
+                    "description": "The codex does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md."
                   }
                 ]
               }
@@ -1638,6 +1726,22 @@
             "description": "**Trigger / state — Resolve**\n\n- **Ordinary dosage:** Resolve: Start of permitted phase; Leadership test. Effect applies either way. Failure: 2MW, then Battle-shock.\n\n- **Pain Brings Clarity:** Resolve: Friendly EC or enemy unit destroyed within 6\", or enemy within 6\" fails Battle-shock. Wounds alone do not trigger it. Never clears Stupefied.\n\n- **Voluntary Stupefied:** Resolve: End own Command phase. Select one accessible elixir; normal + amplified effects. Cancel other elixirs; become Battle-shocked; no new doses.\n\n- **While Stupefied:** Resolve: Auto-fail Leadership / Battle-shock; cannot clear Battle-shock. Specific exceptions only.\n\n- **Recovery:** Resolve: Next own Command Battle-shock step: automatic pass, end Stupefied and chosen elixir; clear Battle-shock. Threnody exception.\n\n- **Bound Excess:** Resolve: Two recorded permanent Warband normal effects. No new doses, no Stupefied. Fulgrim instead has Master of Excess.\n\n- **Sublime Strategist:** Resolve: At battle-round start: qualifying Warlord grants 1CP. Lucius and Doomrider excluded.\n\n- **Exultation in Ruin:** Resolve: Daemon engine unit kill by attacks: one non-Daemon friendly EC unit within 6\" invokes Pain.\n\n- **Sonic weapons:** Resolve: Sonic blasters / pistols S6; sonic combi S5. Blast 1 or printed higher value; blastmasters Blast 2.\n\n- **Phoenix Guard:** Resolve: 3 models; M8, T6, 2+, W4, 4++; spear A8, WS2+, S7, AP-2, D2, Lance, Twin-linked.\n\n- **Threnody:** Resolve: T12, W24, OC10. Permanently Stupefied unless explicitly lucid.\n\nRecord chosen elixirs, dosage failures, Stupefied recovery, once-per-battle uses and permanent selections. Use the full rules and datasheets when a summary omits a condition.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "133"
+          },
+          {
+            "name": "Sonic Weapons and SONIC Eligibility",
+            "id": "6547-2cdc-de96-8c4e",
+            "hidden": false,
+            "description": "WEAPONS / EQUIPMENT REFERENCE\n\nSonic Weapons\nThis list defines equipment eligibility; the SONIC label belongs to the UNIT, not to an individual weapon profile.\n\n Weapon family Listed Sonic Weapons\n\n Handheld and sidearm Sonic blaster; twin sonic blaster; screamer pistol\n\n Combi-weapons Combi-weapon - sonic\n\n Blastmasters Blastmaster; dreadblastmaster\n\n Large blastmasters Grand blastmaster; cathedral blastmaster\n\n Defiler armory Defiler blastmaster; sonic balespewer\n\n Heavy sonic Sonic destructor; cathedral sonic immolator\n\n Resonance Resonance cannon\n\n Specialist weapons Shriek cannon; grand vox array\n\n Named weapons Death Scream; The Eighth's Refrain\n\nFor a weapon printed with multiple named firing profiles (for example, crescendo and rupture, or a focused\nprofile), each printed profile of that listed weapon counts. Weapon variants with the same listed base name\ncount. A generic weapon with the words \"sonic\" only in an ability description does not qualify unless listed here.\n\nPractical equipment examples\n\nAlways SONIC with printed standard equipment: Noise Marines, Lord Kakophonist, Eidolon, Ramos, Dissonant\nColossi, Threnody Dreadnought and Stage of Excess.\n\nSONIC when the listed option is taken: Cacophant (resonance cannon), Defiler (Defiler blastmaster or sonic\nbalespewer), Palatine Ravager (sonic destructor or sonic blasters), Chaos Land Raider (cathedral blastmasters\nor twin sonic blaster), Chaos Rhino (sonic combi-weapon), Heldrake (sonic balespewer), Excruciator Terminators\n(sonic combi-weapon or shriek cannon), and any other EC unit with an equipped weapon from the register.\n\nNot Sonic Weapons in this edition: Ghost whisper carbines and the doomfire projector. These profiles can be\nreconsidered separately; they do not qualify simply for thematic similarity.\n\nWhat SONIC does, and does not, mean\n\nStage Token generation requires attacks made with listed Sonic Weapons, not attacks with any gun in a SONIC\nunit. By contrast, Shattering Crescendo can enhance a selected EC unit's ranged attacks, and The Grand Finale\ncan enhance all ranged weapons carried by SONIC units as specifically printed on page 137.",
+            "publicationId": "fe49-c7c8-5b8c-a4c5",
+            "page": "136"
+          },
+          {
+            "name": "Grand Symphony Performances",
+            "id": "93d7-7477-1f6e-cc54",
+            "hidden": false,
+            "description": "3DP / PERFORMANCE COSTS\n\nSpend Stage Tokens\nChoose between disrupting enemy formations, intensifying gunfire or materialising daemons at the climax of a\nslaughter.\n\nDiscordant Overture - 2 Stage Tokens\n\nWHEN: Your Shooting phase, after a friendly SONIC unit has shot and hit an enemy unit with a listed Sonic\nWeapon. EFFECT: That enemy unit takes a Battle-shock test, subtracting 1 from the result. Resolve after that\nattacking unit's shooting. Multiple Overtures cannot target the same unit in one phase.\n\nShattering Crescendo - 4 Stage Tokens\n\nWHEN: Your Shooting phase, when you select one friendly EC unit to shoot. REQUIREMENT: Select one enemy\nunit that was already hit by a listed Sonic Weapon earlier in the phase. EFFECT: Until the end of this phase, add\n1 to the Damage characteristic of ranged attacks made by the selected EC unit that target that enemy unit.\nOnce per Shooting phase.\n\nDaemonic Encore - 7 Stage Tokens\n\nWHEN: Immediately after a friendly EC SONIC unit destroys an enemy unit with one or more of its ranged\nattacks. Mark the position of the last model removed from that destroyed enemy unit. EFFECT: Create and\nsummon one unit of ten Daemonettes without paying any army points, without a summoner, without a sacrifice\nand without a summoning-pool declaration.\n\nSet up the first Daemonette model as close as possible to the last removed model's position; set up the\nremaining models as close as possible while keeping the unit in coherency. Models cannot overlap occupied\nbases or be placed in impassable positions. Ignore the ordinary 8-inch enemy-distance requirement: these\nDaemonettes may be set up within Engagement Range of enemy units. This permission overrides only that\nsetup restriction.\n\nThe unit begins with 3 Manifestation points (maximum 3) and does not lose a point at the end of the phase in\nwhich it appears. Afterwards it uses the ordinary Manifestation rules. If it becomes Debound, remove it from the\nbattle rather than return it to the summoning pool. It can fight and, if eligible, charge normally under core rules.\nIf all ten models cannot be placed legally in coherency, the summon cannot be performed and no tokens are\nspent.\n\nNo per-turn or per-battle summoning cap. You can repeat Daemonic Encore every time you meet its trigger and\ncan pay the tokens. These free Daemonettes do not grant access to paid Legions of Excess allies or additional\nfree datasheets.\n\nThe Grand Finale - 9 Stage Tokens\n\nWHEN: Start of your Shooting phase. EFFECT: Until the end of that phase, add 1 to the Damage characteristic of\nranged weapons equipped by models in friendly EC SONIC units when targeting enemy units within 12\" of those\nmodels. Once per battle. This bonus cannot stack with Shattering Crescendo on the same attack.",
+            "publicationId": "fe49-c7c8-5b8c-a4c5",
+            "page": "137"
           }
         ]
       },
@@ -3166,6 +3270,156 @@
                 "conditions": [
                   {
                     "childId": "ada9-9f95-5767-81d2",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "The Grand Symphony — Precise Harmonics / 1 CP",
+            "id": "1908-07c4-c77a-f641",
+            "targetId": "302d-98ea-a7fe-d229",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "0b26-ef8c-7137-d99d",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "The Grand Symphony — Deafening Pressure / 1 CP",
+            "id": "0786-6584-8fb0-0a0a",
+            "targetId": "af62-f515-98fd-bbec",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "0b26-ef8c-7137-d99d",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "The Grand Symphony — Wall of Noise / 1 CP",
+            "id": "6de0-2b02-0564-ed66",
+            "targetId": "d09b-248c-edea-bb7a",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "0b26-ef8c-7137-d99d",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "The Grand Symphony — Overwhelming Volume / 1 CP",
+            "id": "c23c-7fc7-7a95-0274",
+            "targetId": "17c2-4b8b-4497-cf6b",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "0b26-ef8c-7137-d99d",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "The Grand Symphony — Reverberating Terror / 1 CP",
+            "id": "0ee0-66ea-34a1-1b85",
+            "targetId": "0643-a0f6-1f17-64df",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "0b26-ef8c-7137-d99d",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "The Grand Symphony — Measured Crescendo / 1 CP",
+            "id": "dec5-8cab-942b-8583",
+            "targetId": "c544-a8d2-b1e0-5fed",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "0b26-ef8c-7137-d99d",
                     "field": "selections",
                     "scope": "force",
                     "type": "atLeast",
@@ -5436,6 +5690,29 @@
             ]
           }
         ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c4fb-3415-337c-46bb",
+                    "field": "selections",
+                    "scope": "1903-a6bd-8c2c-b5f0",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "54",
         "readme": "Composition: 1 Eidolon.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Leader, Deep Strike, Feel No Pain 5+.\n\nKeywords: Infantry, Character, Epic Hero, Jump Pack, Fly, Chaos, Slaanesh, Eidolon, Emperor's Children.\n\nDeath Scream: [TORRENT], [BLAST 2], [IGNORES COVER]. Glory Aeterna: [DEVASTATING WOUNDS]."
@@ -6018,6 +6295,29 @@
                     "field": "selections",
                     "scope": "self",
                     "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2c95-956e-b050-aab5",
+                    "field": "selections",
+                    "scope": "a8ea-1ee4-cb8f-e883",
+                    "type": "atLeast",
                     "value": 1,
                     "shared": true,
                     "includeChildSelections": true
@@ -7995,7 +8295,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 300
+            "value": 280
           }
         ],
         "profiles": [
@@ -8790,7 +9090,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 70
           }
         ],
         "profiles": [
@@ -9166,7 +9466,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 125
+            "value": 110
           }
         ],
         "profiles": [
@@ -9954,6 +10254,27 @@
                         "includeChildSelections": true
                       }
                     ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "1f9b-673e-bbb6-2190",
+                    "field": "selections",
+                    "scope": "3f9d-668c-4e5b-5c3e",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
                   }
                 ]
               }
@@ -11694,6 +12015,90 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "Maestro's Perfect Pitch",
+                "id": "3a51-661b-f490-4f4e",
+                "targetId": "f3f5-e91b-ee04-50cd",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "1f9b-673e-bbb6-2190",
+                        "field": "selections",
+                        "scope": "3f9d-668c-4e5b-5c3e",
+                        "type": "lessThan",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Audience of One Thousand",
+                "id": "10da-14ca-29ca-1c1f",
+                "targetId": "94cf-7956-e2ce-7c45",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "1f9b-673e-bbb6-2190",
+                        "field": "selections",
+                        "scope": "3f9d-668c-4e5b-5c3e",
+                        "type": "lessThan",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
               }
             ]
           }
@@ -11816,6 +12221,36 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b13a-8447-c890-56b6",
+                    "field": "selections",
+                    "scope": "4573-3b3f-2f8b-9025",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "13d9-b204-a054-ca46",
+                    "field": "selections",
+                    "scope": "4573-3b3f-2f8b-9025",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -13081,6 +13516,108 @@
                         "field": "selections",
                         "scope": "force",
                         "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Maestro's Perfect Pitch",
+                "id": "48d1-5cf7-ed3e-5cce",
+                "targetId": "f3f5-e91b-ee04-50cd",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "b13a-8447-c890-56b6",
+                        "field": "selections",
+                        "scope": "4573-3b3f-2f8b-9025",
+                        "type": "lessThan",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "13d9-b204-a054-ca46",
+                        "field": "selections",
+                        "scope": "4573-3b3f-2f8b-9025",
+                        "type": "lessThan",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Audience of One Thousand",
+                "id": "789d-3da8-2e0f-6f58",
+                "targetId": "94cf-7956-e2ce-7c45",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "b13a-8447-c890-56b6",
+                        "field": "selections",
+                        "scope": "4573-3b3f-2f8b-9025",
+                        "type": "lessThan",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "13d9-b204-a054-ca46",
+                        "field": "selections",
+                        "scope": "4573-3b3f-2f8b-9025",
+                        "type": "lessThan",
                         "value": 1,
                         "shared": true,
                         "includeChildSelections": true
@@ -15826,7 +16363,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 160
+            "value": 180
           }
         ],
         "profiles": [
@@ -16971,7 +17508,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 190
+            "value": 215
           }
         ],
         "profiles": [
@@ -20444,6 +20981,27 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "61ee-f4d6-5b7f-2f6f",
+                    "field": "selections",
+                    "scope": "8f7d-1cec-6f97-013e",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -21834,6 +22392,90 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "Maestro's Perfect Pitch",
+                "id": "51da-7488-4ed6-e69d",
+                "targetId": "f3f5-e91b-ee04-50cd",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "61ee-f4d6-5b7f-2f6f",
+                        "field": "selections",
+                        "scope": "8f7d-1cec-6f97-013e",
+                        "type": "lessThan",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Audience of One Thousand",
+                "id": "68f7-d284-9e7e-1b43",
+                "targetId": "94cf-7956-e2ce-7c45",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "61ee-f4d6-5b7f-2f6f",
+                        "field": "selections",
+                        "scope": "8f7d-1cec-6f97-013e",
+                        "type": "lessThan",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
               }
             ]
           }
@@ -22156,6 +22798,27 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "d8b1-994a-02f8-d278",
+                    "field": "selections",
+                    "scope": "5c2c-a9b8-3c1d-6ab8",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -23617,6 +24280,90 @@
                         "field": "selections",
                         "scope": "force",
                         "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Maestro's Perfect Pitch",
+                "id": "16d5-269f-2f87-7290",
+                "targetId": "f3f5-e91b-ee04-50cd",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "d8b1-994a-02f8-d278",
+                        "field": "selections",
+                        "scope": "5c2c-a9b8-3c1d-6ab8",
+                        "type": "lessThan",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Audience of One Thousand",
+                "id": "8675-2f5a-e238-3edd",
+                "targetId": "94cf-7956-e2ce-7c45",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "d8b1-994a-02f8-d278",
+                        "field": "selections",
+                        "scope": "5c2c-a9b8-3c1d-6ab8",
+                        "type": "lessThan",
                         "value": 1,
                         "shared": true,
                         "includeChildSelections": true
@@ -27560,7 +28307,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 240
+            "value": 220
           }
         ],
         "profiles": [
@@ -29203,7 +29950,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 50
           }
         ],
         "profiles": [
@@ -30419,7 +31166,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 60
           }
         ],
         "profiles": [
@@ -31578,7 +32325,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 105
           }
         ],
         "profiles": [
@@ -41375,7 +42122,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 70
           }
         ],
         "profiles": [
@@ -41938,6 +42685,54 @@
                         "includeChildSelections": true
                       }
                     ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "3801-036e-3f01-ea46",
+                    "field": "selections",
+                    "scope": "fd3c-29a8-2489-d7bd",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "96d5-cce8-de8a-70a6",
+                    "field": "selections",
+                    "scope": "fd3c-29a8-2489-d7bd",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "61ec-d474-f500-75f2",
+                    "field": "selections",
+                    "scope": "fd3c-29a8-2489-d7bd",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "b4aa-750a-05c7-1561",
+                    "field": "selections",
+                    "scope": "fd3c-29a8-2489-d7bd",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
                   }
                 ]
               }
@@ -43322,6 +44117,32 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "Amplification Array [Upgrade]",
+                "id": "a84d-4d65-afe1-15d1",
+                "targetId": "446b-1fa9-407a-0745",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
               }
             ]
           }
@@ -44363,6 +45184,45 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2ece-544b-194f-9301",
+                    "field": "selections",
+                    "scope": "8c94-629d-4458-b252",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "daf4-0d24-de8c-af2c",
+                    "field": "selections",
+                    "scope": "8c94-629d-4458-b252",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "050f-0710-ccf1-fdaf",
+                    "field": "selections",
+                    "scope": "8c94-629d-4458-b252",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -46803,6 +47663,27 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5f7e-b1c5-72ac-c636",
+                    "field": "selections",
+                    "scope": "6c60-bd6a-5112-b2c5",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -47346,6 +48227,32 @@
                     "conditions": [
                       {
                         "childId": "8eb1-8eec-1e5e-03eb",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Amplification Array [Upgrade]",
+                "id": "bb86-beee-8ef1-a21e",
+                "targetId": "446b-1fa9-407a-0745",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
                         "field": "selections",
                         "scope": "force",
                         "type": "atLeast",
@@ -50187,6 +51094,54 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "14da-6734-7cb7-23ed",
+                    "field": "selections",
+                    "scope": "cf64-c240-3c50-8b86",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "68da-5485-3914-7019",
+                    "field": "selections",
+                    "scope": "cf64-c240-3c50-8b86",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "92c2-b7a6-5500-5d1e",
+                    "field": "selections",
+                    "scope": "cf64-c240-3c50-8b86",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "8249-1ba5-e4d1-3fe7",
+                    "field": "selections",
+                    "scope": "cf64-c240-3c50-8b86",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -52880,7 +53835,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 100
           }
         ],
         "profiles": [
@@ -53287,7 +54242,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 110
+                    "value": 100
                   }
                 ],
                 "selectionEntryGroups": [
@@ -53617,7 +54572,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 55
+            "value": 45
           }
         ],
         "profiles": [
@@ -54038,7 +54993,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 55
+                    "value": 45
                   }
                 ],
                 "selectionEntryGroups": [
@@ -54375,7 +55330,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 105
           }
         ],
         "profiles": [
@@ -55407,6 +56362,90 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "6eb3-7570-78d2-d282",
+                    "field": "selections",
+                    "scope": "3bbd-2b00-4e51-9486",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "b0f2-a72b-763d-9875",
+                    "field": "selections",
+                    "scope": "3bbd-2b00-4e51-9486",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "1527-4b1e-14f9-1f10",
+                    "field": "selections",
+                    "scope": "3bbd-2b00-4e51-9486",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "3ced-81ff-aad9-b4ae",
+                    "field": "selections",
+                    "scope": "3bbd-2b00-4e51-9486",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "56fe-2bb4-d7e2-8fba",
+                    "field": "selections",
+                    "scope": "3bbd-2b00-4e51-9486",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "cd02-b4b6-2c41-8a9e",
+                    "field": "selections",
+                    "scope": "3bbd-2b00-4e51-9486",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "3746-4874-7e6d-a830",
+                    "field": "selections",
+                    "scope": "3bbd-2b00-4e51-9486",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "997e-b8c0-88ae-1797",
+                    "field": "selections",
+                    "scope": "3bbd-2b00-4e51-9486",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -58114,6 +59153,27 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5eec-540d-bce3-38df",
+                    "field": "selections",
+                    "scope": "8a73-5e8a-3b7f-8b6e",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -58652,7 +59712,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 60
           }
         ],
         "profiles": [
@@ -59219,7 +60279,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 70
+                    "value": 60
                   }
                 ],
                 "selectionEntryGroups": [
@@ -59667,7 +60727,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 75
           }
         ],
         "profiles": [
@@ -60092,7 +61152,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 145
+            "value": 130
           }
         ],
         "profiles": [
@@ -60444,7 +61504,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 70
           }
         ],
         "profiles": [
@@ -60837,7 +61897,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 80
+                    "value": 70
                   }
                 ],
                 "selectionEntryGroups": [
@@ -61637,6 +62697,27 @@
                         "includeChildSelections": true
                       }
                     ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "fa42-3a00-a0fc-e6d0",
+                    "field": "selections",
+                    "scope": "e63a-75a3-c7c6-4075",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
                   }
                 ]
               }
@@ -63737,6 +64818,36 @@
                 ]
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f199-c001-03ad-c18f",
+                    "field": "selections",
+                    "scope": "aa38-b1cc-d27b-089c",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "e8aa-c253-160c-9bd8",
+                    "field": "selections",
+                    "scope": "aa38-b1cc-d27b-089c",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -63834,6 +64945,20 @@
             ]
           },
           {
+            "name": "Wargear Points",
+            "id": "13ae-76eb-34ac-b51f",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Hades lascannon and heavy reaper autocannon each cost an additional 15 points per equipped weapon."
+              }
+            ]
+          },
+          {
             "name": "Equipment Options",
             "id": "bdc9-3524-d85c-40d8",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -63923,7 +65048,7 @@
             "name": "Datasheet rules and equipment",
             "id": "8453-b13e-f582-aea5",
             "hidden": true,
-            "description": "Army rules: Bound Excess.\n\nComposition: 1 Defiler Equipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy baleflamer, shearing claws.\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\nDefiler / Abilities\n\n**Equipment options**\n\nReplace main cannon with ectoplasma destructor or Defiler blastmaster. Replace two excruciator cannons with two magma cutters. Replace either heavy missile launcher or heavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge; maximum one electroscourge. Heavy baleflamer may instead become sonic balespewer.\n\nCore: Damaged 6, Deadly Demise D6.\n\n**Scuttling Walker**\n\nNormal, Advance and Fall Back moves can pass through non-Titanic models and terrain, including enemy Engagement Range, but cannot end engaged. Automatically pass Desperate Escape tests for these moves.\n\n**Revel in Desecration**\n\nAttacks targeting enemies that are not Below Half-strength have +1 to Hit rolls.\n\n**Exultation in Ruin**\n\nAfter this unit has shot or fought, if its attacks destroyed one or more enemy units, select one friendly non-Daemon EC unit within 6\". That unit resolves Pain Brings Clarity as though an enemy unit had been destroyed within 6\" of it. This cannot clear Battle-shock while Stupefied.\n\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's Children.",
+            "description": "Army rules: Bound Excess.\n\nComposition: 1 Defiler Equipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy baleflamer, shearing claws.\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\nDefiler / Abilities\n\n**Equipment options**\n\nReplace main cannon with ectoplasma destructor or Defiler blastmaster. Replace two excruciator cannons with two magma cutters. Replace either heavy missile launcher or heavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge; maximum one electroscourge. Heavy baleflamer may instead become sonic balespewer.\n\nCore: Damaged 6, Deadly Demise D6.\n\n**Scuttling Walker**\n\nNormal, Advance and Fall Back moves can pass through non-Titanic models and terrain, including enemy Engagement Range, but cannot end engaged. Automatically pass Desperate Escape tests for these moves.\n\n**Revel in Desecration**\n\nAttacks targeting enemies that are not Below Half-strength have +1 to Hit rolls.\n\n**Exultation in Ruin**\n\nAfter this unit has shot or fought, if its attacks destroyed one or more enemy units, select one friendly non-Daemon EC unit within 6\". That unit resolves Pain Brings Clarity as though an enemy unit had been destroyed within 6\" of it. This cannot clear Battle-shock while Stupefied.\n\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's Children.\n\n**Wargear Points**\n\nHades lascannon and heavy reaper autocannon each cost an additional 15 points per equipped weapon.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "109"
           }
@@ -65173,6 +66298,13 @@
                           }
                         ]
                       }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 15
+                      }
                     ]
                   }
                 ]
@@ -65266,6 +66398,13 @@
                             "$text": "Devastating Wounds, Sustained Hits 1"
                           }
                         ]
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 15
                       }
                     ],
                     "infoLinks": [
@@ -65650,6 +66789,13 @@
                           }
                         ]
                       }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 15
+                      }
                     ]
                   }
                 ]
@@ -65743,6 +66889,13 @@
                             "$text": "Devastating Wounds, Sustained Hits 1"
                           }
                         ]
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 15
                       }
                     ],
                     "infoLinks": [
@@ -68415,6 +69568,45 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "3cf4-9c90-0b9a-1233",
+                    "field": "selections",
+                    "scope": "f795-e1f2-0664-594a",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "3378-7724-6c35-723b",
+                    "field": "selections",
+                    "scope": "f795-e1f2-0664-594a",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "670a-a8f2-1d26-ada0",
+                    "field": "selections",
+                    "scope": "f795-e1f2-0664-594a",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -69737,6 +70929,32 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "Amplification Array [Upgrade]",
+                "id": "3741-209a-ba79-b330",
+                "targetId": "446b-1fa9-407a-0745",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
               }
             ]
           }
@@ -70007,6 +71225,36 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "e7b6-ae1f-7253-95bc",
+                    "field": "selections",
+                    "scope": "b255-36f5-f1db-3d4d",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "f6db-0013-13bc-49ab",
+                    "field": "selections",
+                    "scope": "b255-36f5-f1db-3d4d",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -71524,6 +72772,32 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "Amplification Array [Upgrade]",
+                "id": "aa45-2c59-d3e6-5d9e",
+                "targetId": "446b-1fa9-407a-0745",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
               }
             ]
           }
@@ -71621,6 +72895,36 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "e7f8-6e8f-2795-9cda",
+                    "field": "selections",
+                    "scope": "1493-3cf8-5682-615e",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "51d5-fcb7-c064-4bfd",
+                    "field": "selections",
+                    "scope": "1493-3cf8-5682-615e",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -73438,13 +74742,43 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "191a-1536-5704-9dd9",
+                    "field": "selections",
+                    "scope": "2ec3-d7d3-6896-c83c",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "914a-fc05-7c37-03f2",
+                    "field": "selections",
+                    "scope": "2ec3-d7d3-6896-c83c",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 260
+            "value": 250
           }
         ],
         "profiles": [
@@ -74726,6 +76060,27 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "80e6-d008-7868-fb23",
+                    "field": "selections",
+                    "scope": "7406-e44d-004d-2652",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -76519,6 +77874,82 @@
         ]
       },
       {
+        "name": "Maestro's Perfect Pitch",
+        "id": "f3f5-e91b-ee04-50cd",
+        "type": "upgrade",
+        "hidden": false,
+        "import": true,
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 20
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          }
+        ],
+        "constraints": [
+          {
+            "id": "434b-11de-65ea-cbcd",
+            "type": "max",
+            "value": 1,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ],
+        "rules": [
+          {
+            "name": "Maestro's Perfect Pitch",
+            "id": "a98c-c648-56a0-f331",
+            "hidden": false,
+            "description": "EC SONIC Character. While the bearer is leading a unit, each time a model in that unit makes a ranged attack with a listed Sonic Weapon, re-roll a Hit roll of 1."
+          }
+        ]
+      },
+      {
+        "name": "Audience of One Thousand",
+        "id": "94cf-7956-e2ce-7c45",
+        "type": "upgrade",
+        "hidden": false,
+        "import": true,
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 25
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          }
+        ],
+        "constraints": [
+          {
+            "id": "f645-a749-1e26-1a5f",
+            "type": "max",
+            "value": 1,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ],
+        "rules": [
+          {
+            "name": "Audience of One Thousand",
+            "id": "b6de-88cb-04ea-0f1b",
+            "hidden": false,
+            "description": "EC SONIC Character. Once per battle round, after the bearer's unit generates a Stage Token through its Sonic Weapon attacks, gain 1 additional Stage Token, subject to the pool maximum and the 6-per-battle-round gain limit."
+          }
+        ]
+      },
+      {
         "name": "Conductor's Baton",
         "id": "d51c-80cc-b7d7-8a9e",
         "type": "upgrade",
@@ -77095,6 +78526,86 @@
                       },
                       {
                         "childId": "4035-6188-38f5-fca1",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amplification Array [Upgrade]",
+        "id": "446b-1fa9-407a-0745",
+        "type": "upgrade",
+        "hidden": false,
+        "import": true,
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 15
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          }
+        ],
+        "constraints": [
+          {
+            "id": "4fcf-665a-c1ba-982d",
+            "type": "max",
+            "value": 3,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ],
+        "rules": [
+          {
+            "name": "Amplification Array [Upgrade]",
+            "id": "5f1f-8262-1719-08bb",
+            "hidden": false,
+            "description": "Noise Marines, Dissonant Colossi, Cacophant or Threnody Dreadnought. Add 3\" to the Range characteristic of listed Sonic Weapons equipped by models in that unit."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "set",
+            "value": 0,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "roster",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "446b-1fa9-407a-0745",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -79056,6 +80567,42 @@
         "hidden": false
       },
       {
+        "name": "The Grand Symphony — Precise Harmonics / 1 CP",
+        "id": "302d-98ea-a7fe-d229",
+        "description": "WHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Re-roll Hit rolls of 1 for attacks made with listed Sonic Weapons until the end of the phase.",
+        "hidden": false
+      },
+      {
+        "name": "The Grand Symphony — Deafening Pressure / 1 CP",
+        "id": "af62-f515-98fd-bbec",
+        "description": "WHEN: Your Shooting phase, after a friendly SONIC unit has shot. TARGET: One enemy unit hit by a listed Sonic Weapon from that unit. EFFECT: Subtract 2\" from that enemy unit's Move characteristic and subtract 2 from its Charge rolls until the start of your next Shooting phase.",
+        "hidden": false
+      },
+      {
+        "name": "The Grand Symphony — Wall of Noise / 1 CP",
+        "id": "d09b-248c-edea-bb7a",
+        "description": "WHEN: Your opponent's Shooting phase, immediately after an enemy unit selects targets. TARGET: One friendly SONIC unit selected as a target. EFFECT: Until the attacking unit has finished its attacks, worsen the AP of ranged attacks targeting your unit by 1.",
+        "hidden": false
+      },
+      {
+        "name": "The Grand Symphony — Overwhelming Volume / 1 CP",
+        "id": "17c2-4b8b-4497-cf6b",
+        "description": "WHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Until the end of the phase, add 1 to Wound rolls made for its attacks with listed Sonic Weapons against Battle-shocked enemy units.",
+        "hidden": false
+      },
+      {
+        "name": "The Grand Symphony — Reverberating Terror / 1 CP",
+        "id": "0643-a0f6-1f17-64df",
+        "description": "WHEN: Your Shooting phase, after a friendly SONIC unit destroys an enemy unit with a ranged attack. TARGET: That SONIC unit. EFFECT: Select one other enemy unit within 6\" of the last model removed from the destroyed unit. It must take a Battle-shock test, subtracting 1 from the result.",
+        "hidden": false
+      },
+      {
+        "name": "The Grand Symphony — Measured Crescendo / 1 CP",
+        "id": "c544-a8d2-b1e0-5fed",
+        "description": "WHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Until the end of the phase, when that unit makes ranged attacks with listed Sonic Weapons, ignore modifiers to its Ballistic Skill characteristic and Hit rolls.",
+        "hidden": false
+      },
+      {
         "name": "Combat Drugs",
         "id": "ba01-c487-2242-7c4d",
         "description": "**Combat Elixirs**\n\nCombat Drugs includes dosages, Pain Brings Clarity and Stupefied. There are eight core Warband Elixirs; selected detachments can add further Warband choices. A Signature Elixir is accessible only where its datasheet or another ability grants access. A rule permitting one Combat Elixir from this codex can select Warband, Signature, detachment or enhancement elixirs, but cannot refresh an expended once-per-battle use. \n\n**Taking a dose**\n\nAt the start of a phase allowed by an accessible elixir, an eligible unit can activate it and take a Leadership test. Resolve the elixir whether the test passes or fails. On a failure, the unit suffers 2 mortal wounds , then becomes Battle-shocked, in that order. Wounds lost to the dosage do not themselves trigger Pain Brings Clarity. \n\n**Multiple doses**\n\nA unit can activate several different accessible elixirs while eligible, taking a separate test for each. It cannot activate the same elixir again while that elixir is active; identical effects do not stack. Battle-shock prevents new ordinary doses but does not end existing effects. \n\n**Daemons and bound bodies**\n\nDaemons do not take ordinary doses or become Stupefied unless specifically permitted. Bound Excess grants persistent normal benefits directly to its model. Daemon abilities can administer elixirs to eligible recipients without the Daemon consuming them. Fulgrim has his own exception. \n\n**Scope of benefits**\n\nAn ordinary dose affects the whole receiving unit, including attached models, except where its text names a particular model or weapon. Elixirs can modify only attacks or rolls that actually occur: Torrent has no Hit roll, and Advance-and-shoot permission does not remove unrelated restrictions. \n\n**Timing outside the normal phase**\n\nAn ability that grants an out-of-phase activation must say so. Becoming Stupefied ignores the selected elixir's activation window and extends it until recovery. Benefits still apply only to their specified actions: Hallucinogens prevents Movement-phase Overwatch; it does not create Charge-phase Overwatch.\n\n**Pain Brings Clarity**\n\nA unit with Combat Drugs that is Battle-shocked but not Stupefied immediately ceases to be Battle-shocked when either of the following occurs: 1. A friendly Emperor's Children unit or an enemy unit within 6\" of it is destroyed. 2. An enemy unit within 6\" of it fails a Battle-shock test. For a unit being destroyed, measure the distance immediately before its last model is removed. Losing wounds or individual models does not trigger this rule. The receiving unit does not need to have caused the destruction. Its attacks destroying an enemy unit farther than 6\" away do not ordinarily trigger this rule. Explicit abilities can grant additional ways to invoke it. \n\n**Become Stupefied**\n\nAt the end of your Command phase , after earlier scoring, an eligible unit can become Stupefied. Choose one accessible Combat Elixir, ignoring its activation timing. It becomes Battle-shocked, ends all other elixir effects, and gains the chosen elixir's normal effect and its amplified Stupefied effect. No dosage test is taken for this choice. \n\n**While Stupefied**\n\nThe selected elixir lasts until recovery, overriding its normal duration. The unit cannot take new doses or ordinarily change its selected elixir. It automatically fails Leadership and Battle-shock tests and cannot cease to be Battle-shocked, including through Pain Brings Clarity. An explicit exception can override this. \n\n**Recovery**\n\nIn your next Command phase, at the normal Battle-shock step, automatically pass this unit's recovery test. Resolve this even if it would not otherwise need a test. This explicitly overrides automatic failure: Stupefied and its selected elixir end, and Battle-shock clears. The unit may become Stupefied again at the end of that phase. \n\n**Exceptions**\n\nFulgrim is not Battle-shocked while Stupefied. Lucius can suspend the state. The Threnody does not recover normally and has an objective-based lucidity ability. Bound Excess ordinarily prohibits Stupefied. These exceptions are described on their sheets.",
@@ -79107,8 +80654,8 @@
     "publications": [
       {
         "id": "fe49-c7c8-5b8c-a4c5",
-        "name": "Emperor's Children Homebrew Codex v3.1",
-        "shortName": "EC Homebrew v3.1",
+        "name": "Emperor's Children Homebrew Codex v3.2",
+        "shortName": "EC Homebrew v3.2",
         "publicationDate": "07/11/2026",
         "publisher": "Xverse homebrew",
         "hidden": false
