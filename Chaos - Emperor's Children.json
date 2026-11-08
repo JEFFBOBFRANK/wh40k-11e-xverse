@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 25,
+    "revision": 26,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -4242,7 +4242,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per turn, during the Shooting or Fight phase, when Lucius is destroyed by an attack made by an enemy unit, the controller of that attacking unit must select one non-Epic Hero Infantry model from that attacking unit, if one exists. Place an ETERNAL marker on that model. At the start of each Fight phase, roll one D6 for the marked model. On a 3+, remove the marker, destroy that model and return Lucius to the battlefield in its former position with D6 wounds remaining. If his base cannot fit exactly, place him as close as possible. He can be set up within Engagement Range of the host's former unit or other enemy units. Lucius returns as a separate single-model unit and is Stupefied and Battle-shocked. Select one Combat Elixir from this codex for his unit, including Signature, Warband, detachment and enhancement elixirs. It gains the normal and Stupefied effects for that state. This does not refresh an expended once-per-battle use. If the host dies before possession resolves, that marker is lost and does not revive Lucius. If the attacking unit contains no eligible host, no marker is placed. Remove the marker before destroying a successfully possessed host so its destruction does not cancel that successful return."
+                "$text": "**Mark a host**\n\nOnce per turn, during the Shooting or Fight phase, when Lucius is destroyed by an attack made by an enemy unit, the controller of that attacking unit must select one non-Epic Hero Infantry model from that attacking unit, if one exists. Place an ETERNAL marker on that model.\n\n**Possession**\n\nAt the start of each Fight phase, roll one D6 for the marked model. On a 3+, remove the marker, destroy that model and return Lucius to the battlefield in its former position with D6 wounds remaining.\n\n- If his base cannot fit exactly, place him as close as possible.\n- He can be set up within Engagement Range of the host's former unit or other enemy units.\n- Lucius returns as a separate single-model unit and is Stupefied and Battle-shocked.\n\n**Combat Elixir**\n\nSelect one Combat Elixir from this codex for his unit, including Signature, Warband, detachment and enhancement elixirs. It gains the normal and Stupefied effects for that state. This does not refresh an expended once-per-battle use.\n\n**Host destroyed**\n\nIf the host dies before possession resolves, that marker is lost and does not revive Lucius."
               }
             ]
           },
@@ -46826,7 +46826,7 @@
                           {
                             "name": "A",
                             "typeId": "2337-daa1-6682-b110",
-                            "$text": "8"
+                            "$text": "5"
                           },
                           {
                             "name": "WS",
