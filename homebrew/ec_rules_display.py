@@ -62,4 +62,13 @@ def apply_rules_display(catalogue,system,source=None):
    e['infoLinks'].append(dict(id=uid(e['id']+':summoning'),name='Summoning Rituals',targetId=shared['Summoning Rituals']['id'],type='rule',hidden=False))
   # Named rules replace the generic 'Detachment rule' source dump.
   e['rules']=[dict(name=r['name'],id=uid(e['id']+':'+r['name']),description='\n\n'+r['text'],hidden=False) for r in data['detachments'][e['name']]]
+ # Stratagems use a separate labelled section for each field.
+ import re
+ for rule in catalogue['sharedRules']:
+  if not re.search(r'/ \d+ CP$',rule['name']):continue
+  body=rule['description']
+  # Normalize earlier formatting so repeated builds produce identical output.
+  body=re.sub(r'#{1,6}\s*(When|Target|Effect|Restriction|Requirement|Duration|Cost)\s*\n',lambda m:m[1].upper()+': ',body,flags=re.I)
+  body=re.sub(r'\s*(WHEN|TARGET|EFFECT|RESTRICTION|REQUIREMENT|DURATION|COST):\s*',lambda m:'\n\n### '+m[1].title()+'\n\n',body)
+  rule['description']='\n\n'+body.strip()
  catalogue['readme']='Emperor’s Children homebrew v3.2. Dispositions assigned for all sixteen detachments. Update the list data after updating the game.'
