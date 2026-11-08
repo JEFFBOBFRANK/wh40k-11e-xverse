@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 31,
+    "revision": 32,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -46860,7 +46860,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Lance, Twin-linked"
+                            "$text": "Lance, Cleave 2"
                           }
                         ]
                       }
@@ -46868,10 +46868,17 @@
                     "infoLinks": [
                       {
                         "id": "aeb3-5304-9dcd-ff5e",
-                        "name": "Twin-linked",
+                        "name": "Cleave",
                         "type": "rule",
-                        "targetId": "cf93-ad4d-2f08-a79d",
-                        "hidden": false
+                        "targetId": "bf16-5d16-4725-f912",
+                        "hidden": false,
+                        "modifiers": [
+                          {
+                            "field": "name",
+                            "type": "set",
+                            "value": "Cleave 2"
+                          }
+                        ]
                       },
                       {
                         "id": "510b-8987-7acd-7342",
