@@ -286,3 +286,27 @@ def uniform_datasheets(catalogue):
             return 1
         if 'profiles' in node:
             node['profiles'].sort(key=rank)
+
+    if catalogue.get("id") == "b00-cd86-4b4c-97ba":
+        agents_rule_layout(catalogue)
+
+
+def agents_rule_layout(catalogue):
+    """Place rule bodies and labelled subparts below their headings."""
+    def layout(text):
+        text = re.sub(r'\s*\*\*([^*\n]+:)\*\*[ \t\n]*',
+                      lambda m: '\n\n**' + m[1] + '**\n\n', text)
+        text = re.sub(r'(?<![\w*])(WHEN|TARGET|EFFECT|RESTRICTION|REQUIREMENT|DURATION|COST):[ \t\n]*',
+                      lambda m: '\n\n' + m[1] + ':\n\n', text, flags=re.I)
+        text = re.sub(r'(?m)^([A-Z][A-Za-z0-9 /()’"+\-]{0,65}:)[ \t]+',
+                      lambda m: m[1] + '\n\n', text)
+        return '\n\n' + re.sub(r'\n{3,}', '\n\n', text.strip())
+    for node in walk(catalogue):
+        if node.get('hidden'):
+            continue
+        if 'description' in node:
+            node['description'] = layout(node['description'])
+        if node.get('typeName') == 'Abilities':
+            for characteristic in node.get('characteristics', []):
+                if characteristic.get('name') == 'Description':
+                    characteristic['$text'] = layout(characteristic['$text'])
