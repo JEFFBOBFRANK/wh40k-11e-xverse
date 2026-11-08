@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 22,
     "library": false,
-    "revision": 26,
+    "revision": 27,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -12478,7 +12478,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -12512,7 +12512,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -12546,7 +12546,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -12580,7 +12580,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -12641,7 +12641,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -12702,7 +12702,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -12763,7 +12763,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -12824,7 +12824,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -12885,7 +12885,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -12946,7 +12946,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -13007,7 +13007,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -13068,7 +13068,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -13129,7 +13129,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -13190,7 +13190,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -13251,7 +13251,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -13312,7 +13312,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -13373,7 +13373,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -13434,7 +13434,7 @@
             "scope": "roster",
             "field": "selections",
             "shared": true,
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -20699,7 +20699,7 @@
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": true
               },
               {
                 "id": "270e-86a1-c50b-3298",
@@ -20708,7 +20708,7 @@
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": true
               }
             ],
             "entryLinks": [
@@ -20718,7 +20718,18 @@
                 "targetId": "a036-6d76-2a08-f28e",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "3a47-6e80-1795-4258",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Ordo Hereticus - Writ of Condemnation",
@@ -20726,7 +20737,18 @@
                 "targetId": "ff32-ce91-cf73-dd79",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "5709-3636-b322-d722",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Ordo Malleus - Writ of Abjuration",
@@ -20734,7 +20756,18 @@
                 "targetId": "81e8-4328-1c4f-b95d",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "c6bf-4798-d306-1963",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Purgation",
@@ -20742,7 +20775,18 @@
                 "targetId": "8640-fa89-228c-d534",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "e4d6-53ce-8611-a35d",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Zeal",
@@ -20750,7 +20794,18 @@
                 "targetId": "c916-c279-b490-ebdf",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "1aac-a9a4-4b59-9382",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Detainment",
@@ -20758,7 +20813,18 @@
                 "targetId": "b194-7f60-16b7-b874",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "3590-9beb-604c-b632",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Adaptation",
@@ -20766,7 +20832,18 @@
                 "targetId": "d29c-a1a9-837e-a4b8",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "911f-ad24-2202-1a95",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Evasion",
@@ -20774,7 +20851,18 @@
                 "targetId": "da93-accb-49ce-2b95",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "42db-ae94-5a4f-7ea3",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Penetration",
@@ -20782,7 +20870,18 @@
                 "targetId": "6490-a42c-9041-e91e",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "ba22-d9a7-f525-cc00",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Anathema",
@@ -20790,7 +20889,18 @@
                 "targetId": "2933-d0ad-6cd4-ce4f",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "a4d3-b297-3172-11c3",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of the Aegis",
@@ -20798,7 +20908,18 @@
                 "targetId": "1e3d-074b-5e90-39c7",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "1c3d-0197-0f51-d49f",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Severance",
@@ -20806,7 +20927,18 @@
                 "targetId": "4af4-8e5c-e7fc-429a",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "d26e-0706-f92f-878d",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Mobilisation",
@@ -20814,7 +20946,18 @@
                 "targetId": "2aae-5022-fc24-710c",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "5eec-b8b3-cc1a-8e6e",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Disassembly",
@@ -20822,7 +20965,18 @@
                 "targetId": "6daa-7f46-47d9-e2ec",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "d2ed-1269-fb57-97b9",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Quarantine",
@@ -20830,7 +20984,18 @@
                 "targetId": "df76-4d12-56f0-899a",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "b596-a246-f0a8-de4b",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Intervention",
@@ -20838,7 +21003,18 @@
                 "targetId": "9056-bfc4-414f-b845",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "a792-aee7-ca6e-2072",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Recurrence",
@@ -20846,7 +21022,18 @@
                 "targetId": "59d5-0fdd-5404-6e11",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "80b8-a4d2-a639-6d71",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Execution",
@@ -20854,7 +21041,18 @@
                 "targetId": "a399-77f6-8c4d-8762",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "acab-2ea6-8cda-729f",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
@@ -26397,7 +26595,7 @@
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": true
               },
               {
                 "id": "3793-0c4d-0a01-6dba",
@@ -26406,7 +26604,7 @@
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": true
               }
             ],
             "entryLinks": [
@@ -26416,7 +26614,18 @@
                 "targetId": "a036-6d76-2a08-f28e",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "3517-c094-2feb-e85d",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Ordo Hereticus - Writ of Condemnation",
@@ -26424,7 +26633,18 @@
                 "targetId": "ff32-ce91-cf73-dd79",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "82d9-e187-4810-18b4",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Ordo Malleus - Writ of Abjuration",
@@ -26432,7 +26652,18 @@
                 "targetId": "81e8-4328-1c4f-b95d",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "2190-93ab-e0b7-83bb",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Purgation",
@@ -26440,7 +26671,18 @@
                 "targetId": "8640-fa89-228c-d534",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "ac6a-72c1-a80c-52f8",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Zeal",
@@ -26448,7 +26690,18 @@
                 "targetId": "c916-c279-b490-ebdf",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "e8a2-e708-8410-a7b0",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Detainment",
@@ -26456,7 +26709,18 @@
                 "targetId": "b194-7f60-16b7-b874",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "54e1-8243-120e-8767",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Adaptation",
@@ -26464,7 +26728,18 @@
                 "targetId": "d29c-a1a9-837e-a4b8",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "8135-9a84-d341-2907",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Evasion",
@@ -26472,7 +26747,18 @@
                 "targetId": "da93-accb-49ce-2b95",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "b956-faa3-840d-47a5",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Penetration",
@@ -26480,7 +26766,18 @@
                 "targetId": "6490-a42c-9041-e91e",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "ae4d-a9a2-d394-0924",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Anathema",
@@ -26488,7 +26785,18 @@
                 "targetId": "2933-d0ad-6cd4-ce4f",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "f6aa-0ad4-4d95-488e",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of the Aegis",
@@ -26496,7 +26804,18 @@
                 "targetId": "1e3d-074b-5e90-39c7",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "8b10-7f4a-ee6a-9289",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Severance",
@@ -26504,7 +26823,18 @@
                 "targetId": "4af4-8e5c-e7fc-429a",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "b65b-3d4d-1262-5cfc",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Mobilisation",
@@ -26512,7 +26842,18 @@
                 "targetId": "2aae-5022-fc24-710c",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "9675-5481-7018-f7b9",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Disassembly",
@@ -26520,7 +26861,18 @@
                 "targetId": "6daa-7f46-47d9-e2ec",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "05fd-6cdd-c804-0559",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Quarantine",
@@ -26528,7 +26880,18 @@
                 "targetId": "df76-4d12-56f0-899a",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "df28-a5d7-535e-be89",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Intervention",
@@ -26536,7 +26899,18 @@
                 "targetId": "9056-bfc4-414f-b845",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "fad2-ecba-5677-3484",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Recurrence",
@@ -26544,7 +26918,18 @@
                 "targetId": "59d5-0fdd-5404-6e11",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "8ecd-ccd9-9597-a3a8",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Execution",
@@ -26552,7 +26937,18 @@
                 "targetId": "a399-77f6-8c4d-8762",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "7cff-02f4-a3b1-d958",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
@@ -29047,7 +29443,7 @@
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": true
               },
               {
                 "id": "c747-ebcf-b7ae-03cb",
@@ -29056,7 +29452,7 @@
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": true
               }
             ],
             "entryLinks": [
@@ -29066,7 +29462,18 @@
                 "targetId": "a036-6d76-2a08-f28e",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "64c3-7292-5e04-2331",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Ordo Hereticus - Writ of Condemnation",
@@ -29074,7 +29481,18 @@
                 "targetId": "ff32-ce91-cf73-dd79",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "c06e-49cf-7355-d1d1",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Ordo Malleus - Writ of Abjuration",
@@ -29082,7 +29500,18 @@
                 "targetId": "81e8-4328-1c4f-b95d",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "284c-7305-ac25-ea79",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Purgation",
@@ -29090,7 +29519,18 @@
                 "targetId": "8640-fa89-228c-d534",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "4726-2065-491a-4f80",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Zeal",
@@ -29098,7 +29538,18 @@
                 "targetId": "c916-c279-b490-ebdf",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "bcdf-3596-8c3f-44c8",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Detainment",
@@ -29106,7 +29557,18 @@
                 "targetId": "b194-7f60-16b7-b874",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "1805-bb9f-64f2-f77e",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Adaptation",
@@ -29114,7 +29576,18 @@
                 "targetId": "d29c-a1a9-837e-a4b8",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "2c7b-474d-e43e-865d",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Evasion",
@@ -29122,7 +29595,18 @@
                 "targetId": "da93-accb-49ce-2b95",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "8515-747d-66a5-4d4c",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Penetration",
@@ -29130,7 +29614,18 @@
                 "targetId": "6490-a42c-9041-e91e",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "78fe-efb3-46ed-b943",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Anathema",
@@ -29138,7 +29633,18 @@
                 "targetId": "2933-d0ad-6cd4-ce4f",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "46f3-9aca-af15-8651",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of the Aegis",
@@ -29146,7 +29652,18 @@
                 "targetId": "1e3d-074b-5e90-39c7",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "02da-c2aa-19d7-9628",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Severance",
@@ -29154,7 +29671,18 @@
                 "targetId": "4af4-8e5c-e7fc-429a",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "93d3-0255-a02c-dc48",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Mobilisation",
@@ -29162,7 +29690,18 @@
                 "targetId": "2aae-5022-fc24-710c",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "caee-d90b-7919-849c",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Disassembly",
@@ -29170,7 +29709,18 @@
                 "targetId": "6daa-7f46-47d9-e2ec",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "857f-4f42-f25d-a8e0",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Quarantine",
@@ -29178,7 +29728,18 @@
                 "targetId": "df76-4d12-56f0-899a",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "07c4-395d-9322-ca31",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Intervention",
@@ -29186,7 +29747,18 @@
                 "targetId": "9056-bfc4-414f-b845",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "8f1a-014b-df74-40cb",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Recurrence",
@@ -29194,7 +29766,18 @@
                 "targetId": "59d5-0fdd-5404-6e11",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "a80f-864d-779d-a32e",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Execution",
@@ -29202,7 +29785,18 @@
                 "targetId": "a399-77f6-8c4d-8762",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "dc0b-b7be-c0b9-a68b",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
@@ -32878,7 +33472,7 @@
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": true
               },
               {
                 "id": "28fc-c81e-b114-5d07",
@@ -32887,7 +33481,7 @@
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": true
               }
             ],
             "entryLinks": [
@@ -32897,7 +33491,18 @@
                 "targetId": "a036-6d76-2a08-f28e",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "afe1-616a-6793-9efa",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Ordo Hereticus - Writ of Condemnation",
@@ -32905,7 +33510,18 @@
                 "targetId": "ff32-ce91-cf73-dd79",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "f5c3-9c52-08bd-3d23",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Ordo Malleus - Writ of Abjuration",
@@ -32913,7 +33529,18 @@
                 "targetId": "81e8-4328-1c4f-b95d",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "2bc4-b066-65b8-37ff",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Purgation",
@@ -32921,7 +33548,18 @@
                 "targetId": "8640-fa89-228c-d534",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "0fd9-709a-43b1-e24e",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Zeal",
@@ -32929,7 +33567,18 @@
                 "targetId": "c916-c279-b490-ebdf",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "2e5d-8b3a-c45d-5e5a",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Detainment",
@@ -32937,7 +33586,18 @@
                 "targetId": "b194-7f60-16b7-b874",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "f3a5-360e-bf0f-4ad3",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Adaptation",
@@ -32945,7 +33605,18 @@
                 "targetId": "d29c-a1a9-837e-a4b8",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "c2bf-112c-692b-bed2",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Evasion",
@@ -32953,7 +33624,18 @@
                 "targetId": "da93-accb-49ce-2b95",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "492b-d944-e6d7-472d",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Penetration",
@@ -32961,7 +33643,18 @@
                 "targetId": "6490-a42c-9041-e91e",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "1430-dad2-2cc4-8634",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Anathema",
@@ -32969,7 +33662,18 @@
                 "targetId": "2933-d0ad-6cd4-ce4f",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "aa06-605a-5c97-0355",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of the Aegis",
@@ -32977,7 +33681,18 @@
                 "targetId": "1e3d-074b-5e90-39c7",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "1ea0-2da3-5383-781b",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Severance",
@@ -32985,7 +33700,18 @@
                 "targetId": "4af4-8e5c-e7fc-429a",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "299c-23a0-25f2-d788",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Mobilisation",
@@ -32993,7 +33719,18 @@
                 "targetId": "2aae-5022-fc24-710c",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "a72a-9bf6-1458-3d1a",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Disassembly",
@@ -33001,7 +33738,18 @@
                 "targetId": "6daa-7f46-47d9-e2ec",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "20e2-dcfc-f7b3-6c6c",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Quarantine",
@@ -33009,7 +33757,18 @@
                 "targetId": "df76-4d12-56f0-899a",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "f29f-866d-2186-3908",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Intervention",
@@ -33017,7 +33776,18 @@
                 "targetId": "9056-bfc4-414f-b845",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "1e83-c647-0552-df07",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Recurrence",
@@ -33025,7 +33795,18 @@
                 "targetId": "59d5-0fdd-5404-6e11",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "6bcc-ab7d-21eb-0fc8",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               },
               {
                 "name": "Writ of Execution",
@@ -33033,7 +33814,18 @@
                 "targetId": "a399-77f6-8c4d-8762",
                 "type": "selectionEntry",
                 "hidden": false,
-                "import": true
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "9ce5-539a-45bb-e460",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
