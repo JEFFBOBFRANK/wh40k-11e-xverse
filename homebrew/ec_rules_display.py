@@ -81,4 +81,22 @@ def apply_rules_display(catalogue,system,source=None):
   body=re.sub(r'#{1,6}\s*(When|Target|Effect|Restriction|Requirement|Duration|Cost)\s*\n',lambda m:m[1].upper()+': ',body,flags=re.I)
   body=re.sub(r'\s*(WHEN|TARGET|EFFECT|RESTRICTION|REQUIREMENT|DURATION|COST):\s*',lambda m:'\n\n### '+m[1].title()+'\n\n',body)
   rule['description']='\n\n'+body.strip()
+ rename_sonic_weapons(catalogue)
  catalogue['readme']='Emperor’s Children homebrew v3.2. Dispositions assigned for all sixteen detachments. Update the list data after updating the game.'
+
+
+def rename_sonic_weapons(node):
+ import re
+ names={'dreadblastmaster':'dreadblaster','dread blastmaster':'dreadblaster','defiler blastmaster':'discord cannon','grand blastmaster':'requiem cannon','cathedral blastmaster':'cathedral annihilator'}
+ pattern=re.compile(r'\b(?:'+ '|'.join(re.escape(n) for n in names)+r')(s?)\b',re.I)
+ def replace(match):
+  old=match[0]; key=old[:-1] if match[1] else old
+  new=names[key.casefold()]
+  if key[0].isupper():new=new[0].upper()+new[1:]
+  return new+match[1]
+ if isinstance(node,dict):
+  for key,value in node.items():
+   if isinstance(value,str):node[key]=pattern.sub(replace,value)
+   else:rename_sonic_weapons(value)
+ elif isinstance(node,list):
+  for value in node:rename_sonic_weapons(value)
