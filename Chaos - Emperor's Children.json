@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 26,
+    "revision": 27,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -4279,7 +4279,7 @@
             "name": "Weapon Selection",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -5426,7 +5426,7 @@
             "name": "Weapon Selection",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -6950,7 +6950,7 @@
             "name": "Weapon Selection",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
