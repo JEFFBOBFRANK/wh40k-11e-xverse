@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 22,
     "library": false,
-    "revision": 22,
+    "revision": 23,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -18219,20 +18219,6 @@
             ]
           },
           {
-            "name": "Armoury",
-            "id": "6e53-6e45-5deb-7297",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
-              }
-            ]
-          },
-          {
             "id": "1d0b-99de-6a63-78dd",
             "name": "Leader",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -18243,6 +18229,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+              }
+            ]
+          },
+          {
+            "name": "Armoury",
+            "id": "6e53-6e45-5deb-7297",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
               }
             ]
           },
@@ -21608,7 +21608,7 @@
             "hidden": false
           }
         ],
-        "readme": "1 Inquisitor. Bolt pistol, power sword and Blessed Wardings. Apply armoury exchanges on the Inquisitorial Armoury; all wargear is included in the 75-point playtest cost. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+        "readme": "1 Inquisitor. Bolt pistol, power sword and Blessed Wardings. Apply armoury exchanges on the Inquisitorial Armoury; all wargear is included in the 75-point playtest cost. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments.\n\nArmoury: Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
       },
       {
         "name": "High Interrogator",
@@ -21766,20 +21766,6 @@
             ]
           },
           {
-            "name": "Armoury",
-            "id": "96e2-9066-afb3-53a3",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
-              }
-            ]
-          },
-          {
             "id": "acdd-2750-b351-9546",
             "name": "Leader",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -21790,6 +21776,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents, Storm Troopers or eligible IMPERIUM BATTLELINE INFANTRY. The broader Requisition permission does not apply."
+              }
+            ]
+          },
+          {
+            "name": "Armoury",
+            "id": "96e2-9066-afb3-53a3",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
               }
             ]
           },
@@ -23665,7 +23665,7 @@
             "hidden": false
           }
         ],
-        "readme": "1 High Interrogator. Executioner pistol and power sword. The pistol may be replaced with a combi-weapon or plasma pistol; the sword may be replaced with a power maul, or a force weapon if Psychic Gifts is selected. Armoury profiles: the Inquisitorial Armoury. Leader: Inquisitorial Agents, Storm Troopers or eligible IMPERIUM BATTLELINE INFANTRY. The broader Requisition permission does not apply."
+        "readme": "1 High Interrogator. Executioner pistol and power sword. The pistol may be replaced with a combi-weapon or plasma pistol; the sword may be replaced with a power maul, or a force weapon if Psychic Gifts is selected. Armoury profiles: the Inquisitorial Armoury. Leader: Inquisitorial Agents, Storm Troopers or eligible IMPERIUM BATTLELINE INFANTRY. The broader Requisition permission does not apply.\n\nArmoury: Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
       },
       {
         "name": "Inquisitor in Power Armour",
@@ -23858,20 +23858,6 @@
             ]
           },
           {
-            "name": "Armoury",
-            "id": "7393-a2e6-590e-3b35",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
-              }
-            ]
-          },
-          {
             "id": "0917-06c0-a931-60c7",
             "name": "Leader",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -23882,6 +23868,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+              }
+            ]
+          },
+          {
+            "name": "Armoury",
+            "id": "7393-a2e6-590e-3b35",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
               }
             ]
           },
@@ -27315,7 +27315,7 @@
             "hidden": false
           }
         ],
-        "readme": "1 Inquisitor in Power Armour. Combi-bolter and power sword. May exchange its ranged weapon for a listed combi-weapon, Imperial pistol or xenos firearm, and its melee weapon for a power maul, fist, thunder hammer, null rod or Scythian Venom Talon. Use the Inquisitorial Armoury. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+        "readme": "1 Inquisitor in Power Armour. Combi-bolter and power sword. May exchange its ranged weapon for a listed combi-weapon, Imperial pistol or xenos firearm, and its melee weapon for a power maul, fist, thunder hammer, null rod or Scythian Venom Talon. Use the Inquisitorial Armoury. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments.\n\nArmoury: Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
       },
       {
         "name": "Inquisitor in Terminator Armour",
@@ -27529,20 +27529,6 @@
             ]
           },
           {
-            "name": "Armoury",
-            "id": "80ad-b530-f6f2-d81a",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
-              }
-            ]
-          },
-          {
             "id": "f2bd-d468-5310-920b",
             "name": "Leader",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -27567,6 +27553,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cannot embark in the Inquisitorial Chimera."
+              }
+            ]
+          },
+          {
+            "name": "Armoury",
+            "id": "80ad-b530-f6f2-d81a",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
               }
             ]
           },
@@ -29972,7 +29972,7 @@
             "hidden": false
           }
         ],
-        "readme": "1 Inquisitor in Terminator Armour. Storm bolter and power fist. May replace the storm bolter with a listed combi-weapon, or with a psycannon if it takes Psychic Gifts. May replace the power fist with a thunder hammer, power sword or eligible force weapon. Generic alternatives use the Inquisitorial Armoury. Cannot embark in the Inquisitorial Chimera. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+        "readme": "1 Inquisitor in Terminator Armour. Storm bolter and power fist. May replace the storm bolter with a listed combi-weapon, or with a psycannon if it takes Psychic Gifts. May replace the power fist with a thunder hammer, power sword or eligible force weapon. Generic alternatives use the Inquisitorial Armoury. Cannot embark in the Inquisitorial Chimera. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments.\n\nArmoury: Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
       },
       {
         "name": "Inquisitor Lord",
@@ -30193,20 +30193,6 @@
             ]
           },
           {
-            "name": "Armoury",
-            "id": "3d49-9e99-a472-9cbd",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
-              }
-            ]
-          },
-          {
             "id": "17c0-e422-51a5-2c8e",
             "name": "Leader",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -30217,6 +30203,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+              }
+            ]
+          },
+          {
+            "name": "Armoury",
+            "id": "3d49-9e99-a472-9cbd",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
               }
             ]
           },
@@ -33796,7 +33796,7 @@
             "hidden": false
           }
         ],
-        "readme": "1 Inquisitor Lord. Combi-bolter, master-crafted power sword or master-crafted power maul, and Blessed Wardings or Psychic Gifts. Generic armoury exchanges use the Inquisitorial Armoury; this datasheet's weapon profiles take precedence. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+        "readme": "1 Inquisitor Lord. Combi-bolter, master-crafted power sword or master-crafted power maul, and Blessed Wardings or Psychic Gifts. Generic armoury exchanges use the Inquisitorial Armoury; this datasheet's weapon profiles take precedence. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments.\n\nArmoury: Additional permitted weapon profiles are on the Inquisitorial Armoury reference cards. The equipment options on this datasheet determine which profiles this model can take."
       },
       {
         "name": "Inquisitorial Interrogator",
@@ -40665,7 +40665,7 @@
             "name": "Datasheet Restrictions",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -41419,7 +41419,7 @@
             "hidden": false
           }
         ],
-        "readme": "Power maul and combat shotgun, or power maul, bolt pistol and assault shield. The shield bearer has a 4+ invulnerable save. Support: Vigilant Squad or Subductor Squad; may attach alongside a Leader under the core Support rules."
+        "readme": "Power maul and combat shotgun, or power maul, bolt pistol and assault shield. The shield bearer has a 4+ invulnerable save. Support: Vigilant Squad or Subductor Squad; may attach alongside a Leader under the core Support rules.\n\nDatasheet Restrictions: The shield bearer has a 4+ invulnerable save."
       },
       {
         "name": "Arbites Intelligencer",
@@ -69274,7 +69274,7 @@
             "name": "Datasheet Restrictions",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -69592,7 +69592,7 @@
             "hidden": false
           }
         ],
-        "readme": "1 Reliquary Procession, equipped with sacred censers and processional staves. Occupies three transport spaces."
+        "readme": "1 Reliquary Procession, equipped with sacred censers and processional staves. Occupies three transport spaces.\n\nDatasheet Restrictions: Occupies three transport spaces."
       },
       {
         "name": "Shrine Guardians",
@@ -75392,7 +75392,7 @@
             "name": "Datasheet Restrictions",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -75922,7 +75922,7 @@
             "hidden": false
           }
         ],
-        "readme": "Each model has a boarding shotgun, boarding maul and shield. Shotgun -> grenadier gauntlet; maul -> breaching hammer. Each model occupies 3 transport spaces where permitted. Suggested 40mm bases."
+        "readme": "Each model has a boarding shotgun, boarding maul and shield. Shotgun -> grenadier gauntlet; maul -> breaching hammer. Each model occupies 3 transport spaces where permitted. Suggested 40mm bases.\n\nDatasheet Restrictions: Each model occupies 3 transport spaces where permitted."
       },
       {
         "name": "Naval Ordnance Detail",

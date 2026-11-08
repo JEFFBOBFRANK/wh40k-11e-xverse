@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 21,
+    "revision": 22,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -8474,7 +8474,7 @@
             "id": "68ed-bb32-d5f2-6f20",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -8988,7 +8988,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "58",
-        "readme": "Core: Damaged 7, Deadly Demise D6. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Shalaxi Helbane. Equipment: Lash of Slaanesh, Pavane of Slaanesh, Soulpiercer, Snapping claws.\n\nKeywords: Monster, Character, Epic Hero, Chaos, Daemon, Summoned, Slaanesh, Shalaxi Helbane, Greater Daemon, Psyker. Faction: Legions of Excess."
+        "readme": "Core: Damaged 7, Deadly Demise D6. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Shalaxi Helbane. Equipment: Lash of Slaanesh, Pavane of Slaanesh, Soulpiercer, Snapping claws.\n\nKeywords: Monster, Character, Epic Hero, Chaos, Daemon, Summoned, Slaanesh, Shalaxi Helbane, Greater Daemon, Psyker. Faction: Legions of Excess.\n\nEquipment Options: No options. Select one Pavane profile when shooting."
       },
       {
         "name": "The Masque of Slaanesh",
@@ -9631,7 +9631,7 @@
             "id": "873e-3582-868f-392c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -10138,7 +10138,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "61",
-        "readme": "Core: Leader. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Syll'Esske. Equipment: Cacophonic choir, Scourging whip, Axe of Dominion.\n\nKeywords: Monster, Character, Epic Hero, Chaos, Daemon, Summoned, Slaanesh, Syll'Esske, Psyker. Faction: Legions of Excess."
+        "readme": "Core: Leader. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Syll'Esske. Equipment: Cacophonic choir, Scourging whip, Axe of Dominion.\n\nKeywords: Monster, Character, Epic Hero, Chaos, Daemon, Summoned, Slaanesh, Syll'Esske, Psyker. Faction: Legions of Excess.\n\nEquipment Options: No options. Select one Cacophonic choir profile when shooting."
       },
       {
         "name": "Lord Exultant",
@@ -10362,34 +10362,6 @@
             ]
           },
           {
-            "name": "Sidearms",
-            "id": "dcf1-b792-547d-7f3c",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Bolt and plasma pistols have Close-Quarters; supercharged plasma also has Hazardous. Screamer pistols have Close-Quarters, Blast 1 and Ignores Cover."
-              }
-            ]
-          },
-          {
-            "name": "Equipment",
-            "id": "40e8-80bb-02be-4d7a",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Equipped with bolt pistol, plasma pistol, Phoenix power spear and close combat weapon. Replace plasma pistol with power fist or rapture lash; replace spear with master-crafted power sword or screamer pistol. Sword: Precision; spear: Lance; lash: Extra Attacks."
-              }
-            ]
-          },
-          {
             "name": "Lord of the Host",
             "id": "8028-4189-cf3f-8e90",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -10414,6 +10386,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Infractors, Tormentors."
+              }
+            ]
+          },
+          {
+            "name": "Sidearms",
+            "id": "dcf1-b792-547d-7f3c",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Bolt and plasma pistols have Close-Quarters; supercharged plasma also has Hazardous. Screamer pistols have Close-Quarters, Blast 1 and Ignores Cover."
+              }
+            ]
+          },
+          {
+            "name": "Equipment",
+            "id": "40e8-80bb-02be-4d7a",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Equipped with bolt pistol, plasma pistol, Phoenix power spear and close combat weapon. Replace plasma pistol with power fist or rapture lash; replace spear with master-crafted power sword or screamer pistol. Sword: Precision; spear: Lance; lash: Extra Attacks."
               }
             ]
           },
@@ -12144,7 +12144,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "63",
-        "readme": "Composition: 1 Lord Exultant.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Leader. Leader: Infractors, Tormentors. Baseline points: 95 each for first two units; 105 for third or later."
+        "readme": "Composition: 1 Lord Exultant.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Leader. Leader: Infractors, Tormentors. Baseline points: 95 each for first two units; 105 for third or later.\n\nSidearms: Bolt and plasma pistols have Close-Quarters; supercharged plasma also has Hazardous. Screamer pistols have Close-Quarters, Blast 1 and Ignores Cover.\n\nEquipment: Equipped with bolt pistol, plasma pistol, Phoenix power spear and close combat weapon. Replace plasma pistol with power fist or rapture lash; replace spear with master-crafted power sword or screamer pistol. Sword: Precision; spear: Lance; lash: Extra Attacks."
       },
       {
         "name": "Lord Kakophonist",
@@ -12336,20 +12336,6 @@
             ]
           },
           {
-            "name": "Sidearms",
-            "id": "8f2e-d4e9-6bf2-b85b",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Bolt and plasma pistols have Close-Quarters; supercharged plasma also has Hazardous. Screamer pistols have Close-Quarters, Blast 1 and Ignores Cover. Equipment: screamer pistol and power sword. The sword can be replaced by a second screamer pistol and a close combat weapon."
-              }
-            ]
-          },
-          {
             "name": "Leader",
             "id": "419c-c455-1859-8673",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -12360,6 +12346,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Noise Marines, Excruciator Terminators."
+              }
+            ]
+          },
+          {
+            "name": "Sidearms",
+            "id": "8f2e-d4e9-6bf2-b85b",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Bolt and plasma pistols have Close-Quarters; supercharged plasma also has Hazardous. Screamer pistols have Close-Quarters, Blast 1 and Ignores Cover. Equipment: screamer pistol and power sword. The sword can be replaced by a second screamer pistol and a close combat weapon."
               }
             ]
           },
@@ -13671,7 +13671,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "64",
-        "readme": "Composition: 1 Lord Kakophonist.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Leader. Leader: Excruciator Terminators, Noise Marines. Baseline points: 70.\n\nScreamer pistol: Close-Quarters, Blast 1, Ignores Cover."
+        "readme": "Composition: 1 Lord Kakophonist.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Leader. Leader: Excruciator Terminators, Noise Marines. Baseline points: 70.\n\nScreamer pistol: Close-Quarters, Blast 1, Ignores Cover.\n\nSidearms: Bolt and plasma pistols have Close-Quarters; supercharged plasma also has Hazardous. Screamer pistols have Close-Quarters, Blast 1 and Ignores Cover. Equipment: screamer pistol and power sword. The sword can be replaced by a second screamer pistol and a close combat weapon."
       },
       {
         "name": "Raptureweaver",
@@ -20076,7 +20076,7 @@
             "id": "86c1-71b6-67b8-99f2",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -20902,7 +20902,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "71",
-        "readme": "Composition: 1 Idol of Sublime Perfection.\n\nArmy rules: Bound Excess.\n\nCore: Deadly Demise D3.\n\nKeywords: Monster, Character, Daemon, Chaos, Slaanesh, Idol of Sublime Perfection, Emperor's Children."
+        "readme": "Composition: 1 Idol of Sublime Perfection.\n\nArmy rules: Bound Excess.\n\nCore: Deadly Demise D3.\n\nKeywords: Monster, Character, Daemon, Chaos, Slaanesh, Idol of Sublime Perfection, Emperor's Children.\n\nBound Daemonic Body: This model has the Daemon keyword and remains an Emperor's Children unit. It does not have Combat Drugs and cannot take dosages itself. Its two permanent Warband Elixir effects come only from Bound Excess. Communion of Excess administers Nectar to nearby eligible units; it is not a dosage taken by the Idol. This model does not have Manifestation and is not summoned or Debound through the Legions of Excess rules."
       },
       {
         "name": "Chirurgeon",
@@ -21103,7 +21103,7 @@
             "id": "cfb1-4bd5-4f0a-4b89",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -22707,7 +22707,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "73",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Chirurgeon Equipment: Injector pistol, surgical implements, reductor\n\nCore: Support.\n\nKeywords: Infantry, Character, Chirurgeon, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Chirurgeon Equipment: Injector pistol, surgical implements, reductor\n\nCore: Support.\n\nKeywords: Infantry, Character, Chirurgeon, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace the injector pistol with a bolt pistol, plasma pistol or screamer pistol."
       },
       {
         "name": "Lord Exultant with Jump Pack",
@@ -22922,7 +22922,7 @@
             "id": "c920-d87e-e1aa-28e9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -24408,7 +24408,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "74",
-        "readme": "Army rules: Combat Drugs, Sublime Strategist.\n\nComposition: 1 Lord Exultant with Jump Pack Equipment: Bolt pistol, Phoenix power spear\n\nCore: Deep Strike, Leader.\n\nKeywords: Infantry, Character, Jump Pack, Fly, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs, Sublime Strategist.\n\nComposition: 1 Lord Exultant with Jump Pack Equipment: Bolt pistol, Phoenix power spear\n\nCore: Deep Strike, Leader.\n\nKeywords: Infantry, Character, Jump Pack, Fly, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace bolt pistol with plasma or screamer pistol. Replace spear with power fist."
       },
       {
         "name": "Herald of Excess",
@@ -24588,7 +24588,7 @@
             "id": "6cee-d75e-b704-4d73",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -25755,7 +25755,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "75",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Herald of Excess Equipment: Bolt pistol, staff of excess\n\nCore: Support.\n\nKeywords: Infantry, Character, Herald of Excess, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Herald of Excess Equipment: Bolt pistol, staff of excess\n\nCore: Support.\n\nKeywords: Infantry, Character, Herald of Excess, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace bolt pistol with plasma pistol."
       },
       {
         "name": "The Gilded Knife",
@@ -28490,7 +28490,7 @@
             "id": "df11-6578-2574-03c9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -29837,7 +29837,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "78",
-        "readme": "Core: Damaged 6, Deadly Demise D6. Army rules: Manifestation. Psyker Level: 3.\n\nComposition: 1 Keeper of Secrets. Equipment: Phantasmagoria, Living whip, Witstealer sword, Snapping claws, Ritual knife.\n\nKeywords: Monster, Character, Chaos, Daemon, Summoned, Slaanesh, Keeper of Secrets, Greater Daemon, Psyker. Faction: Legions of Excess."
+        "readme": "Core: Damaged 6, Deadly Demise D6. Army rules: Manifestation. Psyker Level: 3.\n\nComposition: 1 Keeper of Secrets. Equipment: Phantasmagoria, Living whip, Witstealer sword, Snapping claws, Ritual knife.\n\nKeywords: Monster, Character, Chaos, Daemon, Summoned, Slaanesh, Keeper of Secrets, Greater Daemon, Psyker. Faction: Legions of Excess.\n\nEquipment Options: Phantasmagoria, witstealer sword and snapping claws are standard. Select one additional option: living whip, ritual knife or shining aegis. A shining aegis improves its Save to 3+. Select one Phantasmagoria profile when shooting."
       },
       {
         "name": "Tranceweaver",
@@ -31275,7 +31275,7 @@
             "id": "96c5-a38d-edbb-d8cc",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -32212,7 +32212,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "82",
-        "readme": "Core: Leader. Army rules: Manifestation.\n\nComposition: 1 Infernal Enrapturess. Equipment: Heartstring lyre, Ravaging claws.\n\nKeywords: Infantry, Character, Chaos, Daemon, Summoned, Slaanesh, Infernal Enrapturess. Faction: Legions of Excess."
+        "readme": "Core: Leader. Army rules: Manifestation.\n\nComposition: 1 Infernal Enrapturess. Equipment: Heartstring lyre, Ravaging claws.\n\nKeywords: Infantry, Character, Chaos, Daemon, Summoned, Slaanesh, Infernal Enrapturess. Faction: Legions of Excess.\n\nEquipment Options: No options. Select one heartstring lyre profile when shooting. This model is not a Psyker."
       },
       {
         "name": "Contorted Epitome",
@@ -33737,7 +33737,7 @@
             "id": "15a8-0915-9f17-3570",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -35752,7 +35752,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "85",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Obsessionist and 4 or 9 Infractors Equipment: Obsessionist: bolt pistol and power sword. Others: bolt pistol and duelling sabre.\n\nCore: Scouts 6\".\n\nKeywords: Infantry, Battleline, Explosives, Infractors, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Obsessionist and 4 or 9 Infractors Equipment: Obsessionist: bolt pistol and power sword. Others: bolt pistol and duelling sabre.\n\nCore: Scouts 6\".\n\nKeywords: Infantry, Battleline, Explosives, Infractors, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Obsessionist may replace bolt pistol with plasma pistol and power sword with rapture lash. One Infractor may carry an Icon of Excess."
       },
       {
         "name": "Tormentors",
@@ -35939,7 +35939,7 @@
             "id": "badc-7941-f1ca-1f45",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -39108,7 +39108,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "86",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Obsessionist and 4 or 9 Tormentors Equipment: Obsessionist: bolt pistol and power sword. Others: boltgun and close combat weapon.\n\nCore: Infiltrators.\n\nKeywords: Infantry, Battleline, Explosives, Tormentors, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Obsessionist and 4 or 9 Tormentors Equipment: Obsessionist: bolt pistol and power sword. Others: boltgun and close combat weapon.\n\nCore: Infiltrators.\n\nKeywords: Infantry, Battleline, Explosives, Tormentors, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Obsessionist may replace bolt pistol with plasma pistol and sword with rapture lash. For each 5 models, one Tormentor may replace its boltgun with a plasma gun and one other with a meltagun. One model may carry an Icon of Excess."
       },
       {
         "name": "Ecstatic Congregation",
@@ -40698,7 +40698,7 @@
             "id": "6547-97d8-f8db-c7a8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -42016,7 +42016,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "88",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 5 or 10 Fleshbound Equipment: Each: implant gun and grafted blades.\n\nCore: None.\n\nKeywords: Infantry, Battleline, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 5 or 10 Fleshbound Equipment: Each: implant gun and grafted blades.\n\nCore: None.\n\nKeywords: Infantry, Battleline, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: For each 5 models, up to two may replace grafted blades with heavy cleavers."
       },
       {
         "name": "Daemonettes",
@@ -42245,7 +42245,7 @@
             "id": "67ad-456e-0590-ebc7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -42576,7 +42576,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "89",
-        "readme": "Core: Fights First. Army rules: Manifestation.\n\nComposition: 1 Alluress and 9 Daemonettes. Equipment: Slashing claws.\n\nKeywords: Infantry, Battleline, Chaos, Daemon, Summoned, Slaanesh, Daemonettes.\n\nFaction: Legions of Excess."
+        "readme": "Core: Fights First. Army rules: Manifestation.\n\nComposition: 1 Alluress and 9 Daemonettes. Equipment: Slashing claws.\n\nKeywords: Infantry, Battleline, Chaos, Daemon, Summoned, Slaanesh, Daemonettes.\n\nFaction: Legions of Excess.\n\nEquipment Options: One Daemonette can carry a daemonic icon and a different Daemonette can carry an instrument of Chaos."
       },
       {
         "name": "Noise Marines",
@@ -42824,7 +42824,7 @@
             "id": "78c0-1915-dfb8-b820",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -44149,7 +44149,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "90",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Disharmonist and 5 Noise Marines Equipment: Sonic blasters and close combat weapons.\n\nCore: None.\n\nKeywords: Infantry, Noise Marines, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Disharmonist and 5 Noise Marines Equipment: Sonic blasters and close combat weapons.\n\nCore: None.\n\nKeywords: Infantry, Noise Marines, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Up to two Noise Marines may replace sonic blasters with blastmasters. Disharmonist may replace sonic blaster with screamer pistol and power sword."
       },
       {
         "name": "Flawless Blades",
@@ -44329,7 +44329,7 @@
             "id": "6aa8-b776-0b96-85aa",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -45107,7 +45107,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "91",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 3 or 6 Flawless Blades Equipment: Each: blissblade and bolt pistol.\n\nCore: None.\n\nKeywords: Infantry, Explosives, Flawless Blades, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 3 or 6 Flawless Blades Equipment: Each: blissblade and bolt pistol.\n\nCore: None.\n\nKeywords: Infantry, Explosives, Flawless Blades, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: None."
       },
       {
         "name": "Excruciator Terminators",
@@ -45312,7 +45312,7 @@
             "id": "e751-56d9-9bf7-de16",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -46995,7 +46995,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "92",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Excruciator champion and 4 Excruciators Equipment: Each: combi-weapon and accursed blade.\n\nCore: Deep Strike.\n\nKeywords: Infantry, Terminator, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Excruciator champion and 4 Excruciators Equipment: Each: combi-weapon and accursed blade.\n\nCore: Deep Strike.\n\nKeywords: Infantry, Terminator, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: One model may replace combi-weapon with a shriek cannon or doomfire projector. Up to two may replace blade with power fist. One may replace combi-weapon and blade with paired blades. Select one combi profile each time a model shoots."
       },
       {
         "name": "Phoenix Guard Terminators",
@@ -48429,7 +48429,7 @@
             "id": "d84b-a032-2470-1080",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -50237,7 +50237,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "95",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Ghost champion and 4 or 9 Ghosts Equipment: Each: whisper carbine and ghost blade; champion carries a power blade.\n\nCore: Infiltrators, Stealth.\n\nKeywords: Infantry, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Ghost champion and 4 or 9 Ghosts Equipment: Each: whisper carbine and ghost blade; champion carries a power blade.\n\nCore: Infiltrators, Stealth.\n\nKeywords: Infantry, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: For each 5 models, one Ghost may replace whisper carbine with execution needler."
       },
       {
         "name": "Chained Thralls",
@@ -51229,7 +51229,7 @@
             "id": "9d92-3390-1383-965c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -53736,7 +53736,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "97",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Talon champion and 4 or 9 Talons Equipment: Each: screamer pistol and Talon blade.\n\nCore: Deep Strike.\n\nKeywords: Infantry, Jump Pack, Fly, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Talon champion and 4 or 9 Talons Equipment: Each: screamer pistol and Talon blade.\n\nCore: Deep Strike.\n\nKeywords: Infantry, Jump Pack, Fly, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Any model may replace screamer pistol with bolt pistol. Champion may instead take a plasma pistol and may replace Talon blade with power weapon."
       },
       {
         "name": "Mirror Guard",
@@ -55453,7 +55453,7 @@
             "id": "3ae7-cbc8-f412-3bd7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -56292,7 +56292,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "100",
-        "readme": "Core: None. Army rules: Manifestation. Psyker Level: 1.\n\nComposition: 1 Cantor and 2 Choristers. Equipment: Unmaking chorus, Talons of discord.\n\nKeywords: Infantry, Chaos, Daemon, Summoned, Slaanesh, Choir of Unmaking, Psyker.\n\nFaction: Legions of Excess."
+        "readme": "Core: None. Army rules: Manifestation. Psyker Level: 1.\n\nComposition: 1 Cantor and 2 Choristers. Equipment: Unmaking chorus, Talons of discord.\n\nKeywords: Infantry, Chaos, Daemon, Summoned, Slaanesh, Choir of Unmaking, Psyker.\n\nFaction: Legions of Excess.\n\nEquipment Options: Each model selects one chorus profile when shooting. The unit is Psyker Level 1, not each model separately."
       },
       {
         "name": "Howling Cavaliers",
@@ -56521,7 +56521,7 @@
             "id": "3cdf-2b4a-3b9e-c218",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -59074,7 +59074,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "101",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Cavalier champion and 2 or 5 Cavaliers Equipment: Each: twin sonic blaster and rider blade; champion has a power weapon.\n\nCore: Scouts 6\".\n\nKeywords: Mounted, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Cavalier champion and 2 or 5 Cavaliers Equipment: Each: twin sonic blaster and rider blade; champion has a power weapon.\n\nCore: Scouts 6\".\n\nKeywords: Mounted, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: For each 3 models, one may replace twin sonic blaster with a combi-weapon. Select one combi profile each time it shoots."
       },
       {
         "name": "Stage of Excess",
@@ -59821,7 +59821,7 @@
             "id": "db93-a675-d236-a1d4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -60649,7 +60649,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "103",
-        "readme": "Core: None. Army rules: Manifestation.\n\nComposition: 1 Heartseeker and 4 or 9 Seekers. Equipment: Slashing claws, Lashing tongue.\n\nKeywords: Mounted, Chaos, Daemon, Summoned, Slaanesh, Seekers. Faction: Legions of Excess."
+        "readme": "Core: None. Army rules: Manifestation.\n\nComposition: 1 Heartseeker and 4 or 9 Seekers. Equipment: Slashing claws, Lashing tongue.\n\nKeywords: Mounted, Chaos, Daemon, Summoned, Slaanesh, Seekers. Faction: Legions of Excess.\n\nEquipment Options: One Seeker can carry a daemonic icon and a different Seeker can carry an instrument of Chaos."
       },
       {
         "name": "Chaos Spawn",
@@ -62809,7 +62809,7 @@
             "id": "85c4-27fc-cc59-2d02",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -63639,7 +63639,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "107",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Chaos Rhino Equipment: Combi-bolter and armoured tracks.\n\nCore: Deadly Demise D3, Firing Deck 2.\n\nKeywords: Vehicle, Transport, Dedicated Transport, Rhino, Smoke, Frame, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Chaos Rhino Equipment: Combi-bolter and armoured tracks.\n\nCore: Deadly Demise D3, Firing Deck 2.\n\nKeywords: Vehicle, Transport, Dedicated Transport, Rhino, Smoke, Frame, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: May take a havoc launcher and either one additional combi-bolter or one EC combi-weapon. The EC combi-weapon uses the sonic/plasma/melta profiles printed below."
       },
       {
         "name": "Maulerfiend",
@@ -63853,7 +63853,7 @@
             "id": "178b-a4a4-5904-35cc",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -64691,7 +64691,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "108",
-        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Maulerfiend Equipment: Maulerfiend fists and lasher tendrils.\n\nCore: Damaged 4, Deadly Demise D3.\n\nKeywords: Vehicle, Walker, Daemon, Maulerfiend, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Maulerfiend Equipment: Maulerfiend fists and lasher tendrils.\n\nCore: Damaged 4, Deadly Demise D3.\n\nKeywords: Vehicle, Walker, Daemon, Maulerfiend, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace lasher tendrils with two magma cutters."
       },
       {
         "name": "Defiler",
@@ -64963,7 +64963,7 @@
             "id": "bdc9-3524-d85c-40d8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -67376,7 +67376,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "109",
-        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Defiler Equipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy baleflamer, shearing claws.\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\nDefiler / Abilities\n\nCore: Damaged 6, Deadly Demise D6.\n\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Defiler Equipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy baleflamer, shearing claws.\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\nDefiler / Abilities\n\nCore: Damaged 6, Deadly Demise D6.\n\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace main cannon with ectoplasma destructor or Defiler blastmaster. Replace two excruciator cannons with two magma cutters. Replace either heavy missile launcher or heavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge; maximum one electroscourge. Heavy baleflamer may instead become sonic balespewer."
       },
       {
         "name": "Agoniser",
@@ -69708,7 +69708,7 @@
             "id": "7718-7729-5b6d-a4f9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -71134,7 +71134,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "112",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Threnody Dreadnought Equipment: Cathedral sonic immolator, two heavy bolters, cathedral fist, crushing tread.\n\nCore: Damaged 8, Deadly Demise D6.\n\nKeywords: Vehicle, Walker, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Threnody Dreadnought Equipment: Cathedral sonic immolator, two heavy bolters, cathedral fist, crushing tread.\n\nCore: Damaged 8, Deadly Demise D6.\n\nKeywords: Vehicle, Walker, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace two heavy bolters with two sonic blasters. Replace fist with twin lascannon or grand blastmaster. Crushing tread remains available. Select one profile for a multi-profile weapon."
       },
       {
         "name": "Cacophant",
@@ -71344,7 +71344,7 @@
             "id": "be1f-1e4a-b690-7a42",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -72804,7 +72804,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "113",
-        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Cacophant Equipment: Two Hades autocannons and Cacophant jaws.\n\nCore: Damaged 4, Deadly Demise D3.\n\nKeywords: Vehicle, Walker, Daemon, Forgefiend, Cacophant, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Cacophant Equipment: Two Hades autocannons and Cacophant jaws.\n\nCore: Damaged 4, Deadly Demise D3.\n\nKeywords: Vehicle, Walker, Daemon, Forgefiend, Cacophant, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace both Hades autocannons with two ectoplasma cannons or two resonance cannons. Replace jaws with one ectoplasma or resonance cannon; doing so grants armoured limbs instead of jaws. Arm weapons are selected as a pair."
       },
       {
         "name": "Palatine Ravager",
@@ -73000,7 +73000,7 @@
             "id": "11b8-3229-1967-f34e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -74099,7 +74099,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "114",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Palatine Ravager Equipment: Predator autocannon, two heavy bolters, armoured tracks.\n\nCore: Damaged 3, Deadly Demise D3.\n\nKeywords: Vehicle, Frame, Smoke, Predator, Palatine Ravager, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Palatine Ravager Equipment: Predator autocannon, two heavy bolters, armoured tracks.\n\nCore: Damaged 3, Deadly Demise D3.\n\nKeywords: Vehicle, Frame, Smoke, Predator, Palatine Ravager, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace turret autocannon with twin lascannon or sonic destructor. Replace both heavy bolters with two lascannons or two sonic blasters. May equip one havoc launcher."
       },
       {
         "name": "Dreadclaw",
@@ -74859,7 +74859,7 @@
             "id": "c520-fc7c-5dfa-7542",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -75976,7 +75976,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "116",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Chaos Land Raider Equipment: Two soulshatter lascannons, twin heavy bolter, armoured tracks.\n\nCore: Damaged 5, Deadly Demise D6.\n\nKeywords: Vehicle, Frame, Transport, Smoke, Land Raider, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Chaos Land Raider Equipment: Two soulshatter lascannons, twin heavy bolter, armoured tracks.\n\nCore: Damaged 5, Deadly Demise D6.\n\nKeywords: Vehicle, Frame, Transport, Smoke, Land Raider, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace both soulshatter lascannons with two cathedral blastmasters. Replace twin heavy bolter with twin sonic blaster. May equip one multi-melta and/or one havoc launcher."
       },
       {
         "name": "Heldrake",
@@ -76170,7 +76170,7 @@
             "id": "430d-71f9-2383-4eba",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -77029,7 +77029,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "117",
-        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Heldrake Equipment: Hades autocannon and Heldrake claws.\n\nCore: Damaged 5, Deadly Demise D3.\n\nKeywords: Vehicle, Fly, Daemon, Heldrake, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Heldrake Equipment: Hades autocannon and Heldrake claws.\n\nCore: Damaged 5, Deadly Demise D3.\n\nKeywords: Vehicle, Fly, Daemon, Heldrake, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace Hades autocannon with sonic balespewer."
       },
       {
         "name": "Lingering Intoxication",
