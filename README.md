@@ -48,3 +48,11 @@ Skaven uses a rat marker in its name: **🐀 Skaven**. This works with the norma
 EC keeps the standard Unit, Ranged Weapons and Melee Weapons profiles and its existing equipment/model choices. Bespoke rules now use separately named Abilities profiles, matching the structure used by Agents, Space Marines and Chaos Space Marines. Core abilities and weapon keywords link to the existing system rules. All 58 datasheets have the custom codex publication and starting page recorded.
 
 Army Rules and References retains twenty source sections, with mobile-readable labelled rows for mustering, commanders, psyker levels, summoning outcomes, transport capacities, Leader/Support attachments, signature elixirs and the back-page reminder. The eight Warband Elixirs retain separate timing, duration and amplified-effect paragraphs. The original full datasheet transcription is retained as a hidden rule for source auditing. No points, stats, equipment choices, attachments, elixir selections or validation limits changed in this display pass.
+
+
+
+## Datasheet display cleanup — EC and Agents
+
+Both homebrew catalogues now keep actual datasheet abilities separate from shared rules. Composition/equipment and duplicate printed keyword summaries are retained in unit configuration notes, with original profiles hidden for auditing. Core rules use standard rule references with their printed values (including Scouts, Feel No Pain, Deadly Demise, Firing Deck and Damaged). Leader/Support eligibility, psychic levels, Supreme Commander and genuine equipment restrictions remain visible. Agents retainers receive the same core/faction cleanup. Points, weapon/stat profiles, native keyword tags, equipment groups, attachments, Legends options, Ordo restrictions, Requisition budgets and EC ally allowances are unchanged. Update to Latest Commit (Head) and update your list data.
+
+The shared formatter is `homebrew/datasheet_format.py`; both builders call it. Regression results are in `homebrew/datasheet-validation-results.json`.

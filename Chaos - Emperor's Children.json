@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 18,
+    "revision": 19,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -3359,7 +3359,7 @@
             "id": "a432-a8fe-9550-0b9c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -3373,7 +3373,7 @@
             "id": "6999-6a9f-c58a-ef28",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -3387,7 +3387,7 @@
             "id": "dcb2-31c7-957e-f157",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -3401,7 +3401,7 @@
             "id": "05ef-9e80-d04b-5442",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -3415,7 +3415,7 @@
             "id": "15da-c0ed-b39b-1ec8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -3507,6 +3507,20 @@
                 "$text": "While not Stupefied, Fulgrim can take multiple different additional ordinary Combat Elixirs using their normal timing and dosage Leadership tests, beyond his two permanent Master of Excess selections. While Stupefied, he cannot take new ordinary doses."
               }
             ]
+          },
+          {
+            "id": "cee1-c9a9-cc9f-b0e8",
+            "name": "Supreme Commander",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "must be your Warlord."
+              }
+            ]
           }
         ],
         "rules": [
@@ -3553,7 +3567,14 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D6"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -4236,7 +4257,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "50"
+        "page": "50",
+        "readme": "Composition: 1 Fulgrim.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Deep Strike, Deadly Demise D6.\n\nKeywords: Monster, Mobile, Fly, Character, Epic Hero, Daemon, Chaos, Slaanesh, Primarch, Fulgrim, Emperor's Children. Supreme Commander: must be your Warlord.\n\nMalefic lash: [SUSTAINED HITS 1]. Blades - strike: [SUSTAINED HITS 2]. Blades - sweep: [CLEAVE 2], [SUSTAINED HITS 2]. Serpentine tail: [EXTRA ATTACKS]."
       },
       {
         "name": "Lucius the Eternal",
@@ -4363,7 +4385,7 @@
             "id": "4bc5-8a83-668e-09ec",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -4377,7 +4399,7 @@
             "id": "4e85-c333-d1d2-ae86",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -4391,7 +4413,7 @@
             "id": "ad60-04c9-2ec0-93c8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -4405,7 +4427,7 @@
             "id": "b384-95b6-e765-9280",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -4419,7 +4441,7 @@
             "id": "714c-ed23-32b1-92c8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -4523,6 +4545,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Once per battle, at the start of a phase, Lucius's unit can ignore Stupefied until the end of the current turn and immediately cease to be Battle-shocked. This explicitly overrides the normal restriction. During that interval, its selected elixir's normal effect continues, its Stupefied benefit and penalties are suspended, and it can take new doses normally. At the end of that turn, it becomes Stupefied and Battle-shocked again; other elixirs end and the original selected elixir's Stupefied effect resumes. This does not spend a new activation, refresh a once-per-battle use or extend the original next Command-phase recovery."
+              }
+            ]
+          },
+          {
+            "id": "41f2-454c-8eab-c326",
+            "name": "Weapon selection",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "It does not have Extra Attacks; choose a melee weapon normally unless a rule explicitly grants otherwise."
               }
             ]
           }
@@ -4810,7 +4846,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "52"
+        "page": "52",
+        "readme": "Composition: 1 Lucius the Eternal.\n\nArmy rules: Combat Drugs.\n\nCore: Leader, Lone Operative, Feel No Pain 4+. Leader: Flawless Blades, Phoenix Guard Terminators.\n\nKeywords: Infantry, Character, Epic Hero, Chaos, Slaanesh, Lucius the Eternal, Emperor's Children.\n\nBlade of the Laer: [PRECISION]. Lash of Torment: [SUSTAINED HITS 1]. It does not have Extra Attacks; choose a melee weapon normally unless a rule explicitly grants otherwise."
       },
       {
         "name": "Eidolon",
@@ -4951,7 +4988,7 @@
             "id": "ff86-cc69-7483-c421",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -4965,7 +5002,7 @@
             "id": "b262-f6d2-af9a-a7d0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -4979,7 +5016,7 @@
             "id": "3454-29d7-ffc0-a53f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -4993,7 +5030,7 @@
             "id": "e6f2-0183-880e-47ae",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -5007,7 +5044,7 @@
             "id": "9f48-b855-a7ea-5787",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -5400,7 +5437,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "54"
+        "page": "54",
+        "readme": "Composition: 1 Eidolon.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Leader, Deep Strike, Feel No Pain 5+.\n\nKeywords: Infantry, Character, Epic Hero, Jump Pack, Fly, Chaos, Slaanesh, Eidolon, Emperor's Children.\n\nDeath Scream: [TORRENT], [BLAST 2], [IGNORES COVER]. Glory Aeterna: [DEVASTATING WOUNDS]."
       },
       {
         "name": "Ramos",
@@ -5527,7 +5565,7 @@
             "id": "b612-0203-0525-0f94",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -5541,7 +5579,7 @@
             "id": "eb55-7142-8b1f-cd8e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -5555,7 +5593,7 @@
             "id": "a674-2261-8a6b-35af",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -5569,7 +5607,7 @@
             "id": "57d6-08c9-c34f-395e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -5583,7 +5621,7 @@
             "id": "81cb-7515-902a-1139",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -5645,6 +5683,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Noise Marines, Excruciator Terminators, Dissonant Colossi."
+              }
+            ]
+          },
+          {
+            "id": "bcaa-355c-42d4-8e03",
+            "name": "Weapon selection",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Select one Refrain profile when shooting."
               }
             ]
           }
@@ -5976,7 +6028,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "55"
+        "page": "55",
+        "readme": "Composition: 1 Ramos.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Leader. Leader: Noise Marines, Excruciator Terminators, Dissonant Colossi.\n\nKeywords: Infantry, Character, Epic Hero, Chaos, Slaanesh, Ramos, Emperor's Children.\n\nFocused: [BLAST 2], [IGNORES COVER]. Saturation: [BLAST 2], [IGNORES COVER]. Select one Refrain profile when shooting."
       },
       {
         "name": "Julius Kaesoron",
@@ -6110,7 +6163,7 @@
             "id": "e969-93c6-2e45-2685",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -6124,7 +6177,7 @@
             "id": "e854-0936-b9ac-a530",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -6138,7 +6191,7 @@
             "id": "466e-c22c-422f-6a3c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -6152,7 +6205,7 @@
             "id": "27f9-615c-12a0-b948",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -6200,6 +6253,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "At the end of your Command phase, select one friendly Emperor's Children Infantry unit within 6\" of Julius that is neither Battle-shocked nor Stupefied. Select one Warband Elixir for that unit. Its normal effect is active until the end of the turn, ignoring its usual activation phase and without a dosage Leadership test."
+              }
+            ]
+          },
+          {
+            "id": "65f7-8b0a-7c4a-cb5c",
+            "name": "Elixir restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Julius does not consume Combat Elixirs or become Stupefied."
               }
             ]
           }
@@ -6850,7 +6917,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "56"
+        "page": "56",
+        "readme": "Composition: 1 Julius Kaesoron.\n\nArmy rules: Bound Excess, Sublime Strategist.\n\nCore: Deep Strike. Keywords: Monster, Character, Epic Hero, Daemon, Chaos, Slaanesh, Julius Kaesoron, Emperor's Children. Julius does not consume Combat Elixirs or become Stupefied.\n\nWarpfire: [IGNORES COVER]. Favoured blade: [SUSTAINED HITS 1]. Talons: [EXTRA ATTACKS]."
       },
       {
         "name": "Doomrider",
@@ -6991,7 +7059,7 @@
             "id": "53cf-213a-5b6c-567d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -7005,7 +7073,7 @@
             "id": "90c9-07b8-15e6-f20d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -7019,7 +7087,7 @@
             "id": "6e59-4cfb-43e9-5cb8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -7033,7 +7101,7 @@
             "id": "2c98-3a51-d469-f064",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -7095,6 +7163,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "When an enemy unit is destroyed by Doomrider's attacks or Ride Them Down, friendly Emperor's Children units within 6\" can invoke Pain Brings Clarity. This does not clear Battle-shock while Stupefied."
+              }
+            ]
+          },
+          {
+            "id": "5f7e-a47a-cc23-e875",
+            "name": "Elixir restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Doomrider does not consume Combat Elixirs or become Stupefied."
+              }
+            ]
+          },
+          {
+            "id": "0cc0-efab-57b5-8174",
+            "name": "Weapon selection",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Hunter can target only Monster or Vehicle units."
               }
             ]
           }
@@ -7789,7 +7885,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "57"
+        "page": "57",
+        "readme": "Composition: 1 Doomrider.\n\nArmy rules: Bound Excess.\n\nCore: Deep Strike. Keywords: Mounted, Fly, Character, Epic Hero, Daemon, Chaos, Slaanesh, Doomrider, Emperor's Children. Doomrider does not consume Combat Elixirs or become Stupefied.\n\nBoth meltagun profiles: [MELTA 3], [TWIN-LINKED]. Hunter can target only Monster or Vehicle units. Hellblade: [SUSTAINED HITS 1]. Wheels: [EXTRA ATTACKS]."
       },
       {
         "name": "Shalaxi Helbane",
@@ -7951,7 +8048,7 @@
             "id": "3b6d-8cc6-8711-e290",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -7965,7 +8062,7 @@
             "id": "c124-7893-2b55-f964",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -8049,7 +8146,7 @@
             "id": "bb17-8432-2bb0-0df1",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -8113,6 +8210,20 @@
                 "$text": "At the start of your Shooting phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, if its quarry is visible and within 18\", that unit must take a Battle-shock test, subtracting 1 from the result. Manifestation gains use the normal triggers and caps."
               }
             ]
+          },
+          {
+            "id": "1813-a17e-dd57-f85b",
+            "name": "Psyker Level",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "2."
+              }
+            ]
           }
         ],
         "rules": [
@@ -8145,14 +8256,28 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D6"
+              }
+            ]
           },
           {
             "id": "94c4-0a1a-e811-a3ac",
             "name": "Damaged",
             "type": "rule",
             "targetId": "c68c-a968-354f-bb99",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 7"
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -8562,7 +8687,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "58"
+        "page": "58",
+        "readme": "Core: Damaged 7, Deadly Demise D6. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Shalaxi Helbane. Equipment: Lash of Slaanesh, Pavane of Slaanesh, Soulpiercer, Snapping claws.\n\nKeywords: Monster, Character, Epic Hero, Chaos, Daemon, Summoned, Slaanesh, Shalaxi Helbane, Greater Daemon, Psyker. Faction: Legions of Excess."
       },
       {
         "name": "The Masque of Slaanesh",
@@ -8717,7 +8843,7 @@
             "id": "8f54-1619-5fd0-13b5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -8731,7 +8857,7 @@
             "id": "bbed-2e3b-4aa7-48ff",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -8801,7 +8927,7 @@
             "id": "56b8-9995-9d50-6808",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -8937,7 +9063,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "60"
+        "page": "60",
+        "readme": "Core: Fights First, Lone Operative. Army rules: Manifestation.\n\nComposition: 1 The Masque of Slaanesh. Equipment: Serrated claws.\n\nKeywords: Infantry, Character, Epic Hero, Fly, Chaos, Daemon, Summoned, Slaanesh, The Masque of Slaanesh. Faction: Legions of Excess."
       },
       {
         "name": "Syll'Esske",
@@ -9092,7 +9219,7 @@
             "id": "d6b1-5633-7229-7e80",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -9106,7 +9233,7 @@
             "id": "a99e-f0ea-0e0c-ebc0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -9190,7 +9317,7 @@
             "id": "d8f5-2c62-c564-ff90",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -9238,6 +9365,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Leader and Bodyguard are summoned together as one Attached unit and share one Manifestation total. Use the common Attached-unit rules in the summoning chapter."
+              }
+            ]
+          },
+          {
+            "id": "8736-f249-9f19-e62d",
+            "name": "Psyker Level",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "2."
               }
             ]
           }
@@ -9696,7 +9837,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "61"
+        "page": "61",
+        "readme": "Core: Leader. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Syll'Esske. Equipment: Cacophonic choir, Scourging whip, Axe of Dominion.\n\nKeywords: Monster, Character, Epic Hero, Chaos, Daemon, Summoned, Slaanesh, Syll'Esske, Psyker. Faction: Legions of Excess."
       },
       {
         "name": "Lord Exultant",
@@ -9875,7 +10017,7 @@
             "id": "b0cc-b545-22d2-9dca",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -9889,7 +10031,7 @@
             "id": "85b6-95f1-4ccc-ea97",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -9903,7 +10045,7 @@
             "id": "4ef3-e92f-97f3-15f2",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -11596,7 +11738,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "63"
+        "page": "63",
+        "readme": "Composition: 1 Lord Exultant.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Leader. Leader: Infractors, Tormentors. Baseline points: 95 each for first two units; 105 for third or later."
       },
       {
         "name": "Lord Kakophonist",
@@ -11734,7 +11877,7 @@
             "id": "3f92-0203-e0d9-d8bd",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -11748,7 +11891,7 @@
             "id": "78a4-3f70-da61-c361",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -11762,7 +11905,7 @@
             "id": "8644-9c73-9b36-dcc6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -11776,7 +11919,7 @@
             "id": "6743-61dc-7394-d91f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -12990,7 +13133,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "64"
+        "page": "64",
+        "readme": "Composition: 1 Lord Kakophonist.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Leader. Leader: Excruciator Terminators, Noise Marines. Baseline points: 70.\n\nScreamer pistol: Close-Quarters, Blast 1, Ignores Cover."
       },
       {
         "name": "Raptureweaver",
@@ -13135,7 +13279,7 @@
             "id": "7fe5-ebb0-061f-2a7c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -13149,7 +13293,7 @@
             "id": "4730-1f93-cbaa-64ac",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -13163,7 +13307,7 @@
             "id": "a898-4359-e114-2493",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -13177,7 +13321,7 @@
             "id": "e79b-e445-845c-a5e5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -13191,7 +13335,7 @@
             "id": "0d4b-3ea2-0eaa-4c4e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -13253,6 +13397,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Tormentors, Infractors, Noise Marines."
+              }
+            ]
+          },
+          {
+            "id": "c7a5-a649-9a34-e2e8",
+            "name": "Psyker Level",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1."
               }
             ]
           }
@@ -14261,7 +14419,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "65"
+        "page": "65",
+        "readme": "Composition: 1 Raptureweaver.\n\nArmy rules: Combat Drugs.\n\nCore: Leader. Psyker Level: 1. Leader: Tormentors, Infractors, Noise Marines.\n\nKeywords: Infantry, Character, Psyker, Chaos, Slaanesh, Raptureweaver, Emperor's Children.\n\nBoth Blissfire profiles: [PSYCHIC], [TORRENT], [BLAST 1], [IGNORES COVER]. Focused also has [HAZARDOUS]. Mirrorstave: [PSYCHIC]."
       },
       {
         "name": "Torment Oracle",
@@ -14406,7 +14565,7 @@
             "id": "ff86-5740-6e0e-a938",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -14420,7 +14579,7 @@
             "id": "80c5-a51b-d482-7ca1",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -14434,7 +14593,7 @@
             "id": "6ce2-75e1-9cae-f505",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -14448,7 +14607,7 @@
             "id": "afff-18ae-d851-d322",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -14462,7 +14621,7 @@
             "id": "5f6b-eeca-525b-21c8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -14552,6 +14711,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "In your Shooting phase, if this unit is not Battle-shocked, select one enemy Infantry unit within 12\" of and visible to this model that is not within Engagement Range of any units from your army. Make a psychic roll by rolling one D6. On a 1, this unit becomes Battle-shocked. Regardless of the roll, your opponent must make a Normal move of up to 6\" with the selected enemy unit towards this model, ending as close to this model as possible. Models must maintain coherency and cannot move within Engagement Range of units from your army."
+              }
+            ]
+          },
+          {
+            "id": "6dba-678f-eb71-477e",
+            "name": "Psyker Level",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "2."
               }
             ]
           }
@@ -15553,7 +15726,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "66"
+        "page": "66",
+        "readme": "Composition: 1 Torment Oracle.\n\nArmy rules: Combat Drugs.\n\nCore: Leader. Psyker Level: 2. Leader: Tormentors, Noise Marines, Flawless Blades.\n\nKeywords: Infantry, Character, Psyker, Chaos, Slaanesh, Torment Oracle, Emperor's Children.\n\nBoth Soulspike profiles: [PSYCHIC], [PRECISION]. Focused also has [HAZARDOUS]. Agonist's blade: [PSYCHIC], [PRECISION]."
       },
       {
         "name": "Daemon Prince of Slaanesh",
@@ -15705,7 +15879,7 @@
             "id": "8b2e-7df7-2957-5f6f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -15719,7 +15893,7 @@
             "id": "29ee-292f-e7a8-d038",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -15733,7 +15907,7 @@
             "id": "e692-9cbd-6037-c0e6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -15747,7 +15921,7 @@
             "id": "7174-348a-3f6b-1b11",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -15797,6 +15971,20 @@
                 "$text": "In the Fight phase, when this model is destroyed by a melee attack, if its unit has not yet been selected to fight this phase, roll one D6. On a 2+, leave this model on the battlefield. It is removed after its unit has fought, or at the end of the phase, whichever happens first."
               }
             ]
+          },
+          {
+            "id": "641c-3c21-755d-d651",
+            "name": "Elixir restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This Prince does not consume Combat Elixirs or become Stupefied."
+              }
+            ]
           }
         ],
         "rules": [
@@ -15836,7 +16024,14 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D3"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -16676,7 +16871,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "68"
+        "page": "68",
+        "readme": "Composition: 1 Daemon Prince of Slaanesh.\n\nArmy rules: Bound Excess, Sublime Strategist.\n\nCore: Deadly Demise D3.\n\nKeywords: Monster, Character, Daemon, Chaos, Slaanesh, Daemon Prince, Emperor's Children. This Prince does not consume Combat Elixirs or become Stupefied."
       },
       {
         "name": "Daemon Prince with Wings",
@@ -16828,7 +17024,7 @@
             "id": "5c37-9fc3-deca-9117",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -16842,7 +17038,7 @@
             "id": "c33c-a3f7-9237-7e05",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -16856,7 +17052,7 @@
             "id": "2a79-b0af-7a4c-558c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -16870,7 +17066,7 @@
             "id": "f69f-e761-f743-c32c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -16934,6 +17130,20 @@
                 "$text": "Activate at the start of your Movement phase; lasts until the end of the turn. Add 2\" to the Move characteristic of models in this unit. If Stupefied, that unit also gains Fly, and you add 2 to its Charge rolls."
               }
             ]
+          },
+          {
+            "id": "2d09-a00e-f041-a47c",
+            "name": "Elixir restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This Prince supplies its own elixir to another unit; it does not consume it or become Stupefied."
+              }
+            ]
           }
         ],
         "rules": [
@@ -16980,7 +17190,14 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D3"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -17820,7 +18037,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "69"
+        "page": "69",
+        "readme": "Composition: 1 Daemon Prince with Wings.\n\nArmy rules: Bound Excess, Sublime Strategist.\n\nCore: Deadly Demise D3, Deep Strike.\n\nKeywords: Monster, Fly, Character, Daemon, Chaos, Slaanesh, Daemon Prince with Wings, Emperor's Children. This Prince supplies its own elixir to another unit; it does not consume it or become Stupefied."
       },
       {
         "name": "Lord Exultant in Terminator Armour",
@@ -17965,7 +18183,7 @@
             "id": "a34d-aec6-f978-b802",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -17979,7 +18197,7 @@
             "id": "d7a2-e46c-067b-4c18",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -17993,7 +18211,7 @@
             "id": "c921-b061-ba70-6239",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -18007,7 +18225,7 @@
             "id": "0ccb-7a7b-73e5-dcfd",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -18021,7 +18239,7 @@
             "id": "082e-8334-cc8c-14f7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -19105,7 +19323,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "70"
+        "page": "70",
+        "readme": "Composition: 1 Lord Exultant in Terminator Armour.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Deep Strike, Leader. Leader: Excruciator Terminators, Phoenix Guard Terminators.\n\nKeywords: Infantry, Terminator, Character, Chaos, Slaanesh, Lord Exultant in Terminator Armour, Emperor's Children.\n\nCombi-bolter: [RAPID FIRE 2]. Equipped with a combi-bolter and either a Phoenix power spear or Sceptre of Exquisite Ruin. The spear replaces the original Exultant's blade; the Sceptre is the renamed crushing weapon."
       },
       {
         "name": "Idol of Sublime Perfection",
@@ -19250,7 +19469,7 @@
             "id": "5cc0-8876-2944-93d6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -19264,7 +19483,7 @@
             "id": "6d99-e288-cc1d-73ca",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -19278,7 +19497,7 @@
             "id": "46a2-d80f-081e-e6e4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -19292,7 +19511,7 @@
             "id": "9bf3-60fb-f04d-cb59",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -19416,7 +19635,14 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D3"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -20138,7 +20364,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "71"
+        "page": "71",
+        "readme": "Composition: 1 Idol of Sublime Perfection.\n\nArmy rules: Bound Excess.\n\nCore: Deadly Demise D3.\n\nKeywords: Monster, Character, Daemon, Chaos, Slaanesh, Idol of Sublime Perfection, Emperor's Children."
       },
       {
         "name": "Chirurgeon",
@@ -20276,7 +20503,7 @@
             "id": "af92-3829-70ae-fff0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -20290,7 +20517,7 @@
             "id": "89fd-bdfd-8889-94b1",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -20318,7 +20545,7 @@
             "id": "7ddf-f9eb-1201-27b4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -20374,7 +20601,7 @@
             "id": "14bd-7454-5665-9305",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -21837,7 +22064,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "73"
+        "page": "73",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Chirurgeon Equipment: Injector pistol, surgical implements, reductor\n\nCore: Support.\n\nKeywords: Infantry, Character, Chirurgeon, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Lord Exultant with Jump Pack",
@@ -21989,7 +22217,7 @@
             "id": "9322-bd6d-6f9f-c775",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -22003,7 +22231,7 @@
             "id": "f6ae-c35d-c607-0079",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -22031,7 +22259,7 @@
             "id": "94e2-fd28-dd27-0efe",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -22087,7 +22315,7 @@
             "id": "2e5f-9701-4959-c53e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -23432,7 +23660,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "74"
+        "page": "74",
+        "readme": "Army rules: Combat Drugs, Sublime Strategist.\n\nComposition: 1 Lord Exultant with Jump Pack Equipment: Bolt pistol, Phoenix power spear\n\nCore: Deep Strike, Leader.\n\nKeywords: Infantry, Character, Jump Pack, Fly, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Herald of Excess",
@@ -23570,7 +23799,7 @@
             "id": "4ab7-1c62-3018-5024",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -23584,7 +23813,7 @@
             "id": "11b0-1bc9-db97-ab1d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -23612,7 +23841,7 @@
             "id": "5949-9320-ccd8-1541",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -23668,7 +23897,7 @@
             "id": "f3fa-f7ee-9220-00b7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -24778,7 +25007,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "75"
+        "page": "75",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Herald of Excess Equipment: Bolt pistol, staff of excess\n\nCore: Support.\n\nKeywords: Infantry, Character, Herald of Excess, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "The Gilded Knife",
@@ -24923,7 +25153,7 @@
             "id": "3629-d9be-f123-0b60",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -24937,7 +25167,7 @@
             "id": "3c50-d0a7-f51f-6b65",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -24951,7 +25181,7 @@
             "id": "bbeb-410c-1eca-c88d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -25007,7 +25237,7 @@
             "id": "6041-89e3-fd6c-b367",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -25930,7 +26160,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "76"
+        "page": "76",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Gilded Knife Equipment: Needle pistol, gilded blades\n\nCore: Infiltrators, Stealth, Lone Operative, Leader.\n\nKeywords: Infantry, Character, Gilded Knife, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Sibyl of Excess",
@@ -26075,7 +26306,7 @@
             "id": "52f4-4b19-dc1f-31b9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -26089,7 +26320,7 @@
             "id": "8398-85dd-678a-5938",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -26103,7 +26334,7 @@
             "id": "4cf9-ee88-7e37-2a37",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -26201,7 +26432,7 @@
             "id": "1cfc-43fe-57b4-f2df",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -27208,7 +27439,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "77"
+        "page": "77",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Sibyl of Excess Equipment: Rapturestorm, sibylline staff\n\nCore: Leader.\n\nKeywords: Infantry, Character, Psyker, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Keeper of Secrets",
@@ -27399,7 +27631,7 @@
             "id": "f1f9-ce2e-415c-cb3c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -27413,7 +27645,7 @@
             "id": "115b-da7a-3857-f11b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -27469,7 +27701,7 @@
             "id": "572b-c0c8-05d0-5ea3",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -27547,6 +27779,20 @@
                 "$text": "At the start of your Command phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select up to two friendly Legions of Excess units within 6\". Each gains 1 Manifestation point, subject to its maximum and the limit of gaining 1 point per phase."
               }
             ]
+          },
+          {
+            "id": "94c8-915a-2b07-77de",
+            "name": "Psyker Level",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "3."
+              }
+            ]
           }
         ],
         "rules": [
@@ -27579,14 +27825,28 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D6"
+              }
+            ]
           },
           {
             "id": "3613-db0a-66b3-6b7e",
             "name": "Damaged",
             "type": "rule",
             "targetId": "c68c-a968-354f-bb99",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 6"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -28829,7 +29089,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "78"
+        "page": "78",
+        "readme": "Core: Damaged 6, Deadly Demise D6. Army rules: Manifestation. Psyker Level: 3.\n\nComposition: 1 Keeper of Secrets. Equipment: Phantasmagoria, Living whip, Witstealer sword, Snapping claws, Ritual knife.\n\nKeywords: Monster, Character, Chaos, Daemon, Summoned, Slaanesh, Keeper of Secrets, Greater Daemon, Psyker. Faction: Legions of Excess."
       },
       {
         "name": "Tranceweaver",
@@ -28995,7 +29256,7 @@
             "id": "07f0-9193-bad5-86be",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -29009,7 +29270,7 @@
             "id": "b941-2346-9910-4ad1",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -29065,7 +29326,7 @@
             "id": "230c-219f-3bad-d07d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -29099,6 +29360,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "At the start of either player's Shooting phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, subtract 1 from Hit rolls for ranged attacks targeting this model's unit until the end of the phase."
+              }
+            ]
+          },
+          {
+            "id": "f8a0-d807-e96e-cfe3",
+            "name": "Psyker Level",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1."
               }
             ]
           }
@@ -30037,7 +30312,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "80"
+        "page": "80",
+        "readme": "Core: Fights First, Leader. Army rules: Manifestation. Psyker Level: 1.\n\nComposition: 1 Tranceweaver. Equipment: Beguiling whispers, Ravaging claws.\n\nKeywords: Infantry, Character, Chaos, Daemon, Summoned, Slaanesh, Tranceweaver, Psyker. Faction: Legions of Excess."
       },
       {
         "name": "Infernal Enrapturess",
@@ -30196,7 +30472,7 @@
             "id": "3029-5034-d0ea-5769",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -30210,7 +30486,7 @@
             "id": "cb47-5490-5a93-149d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -30294,7 +30570,7 @@
             "id": "09a7-bbcb-f828-426f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -31188,7 +31464,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "82"
+        "page": "82",
+        "readme": "Core: Leader. Army rules: Manifestation.\n\nComposition: 1 Infernal Enrapturess. Equipment: Heartstring lyre, Ravaging claws.\n\nKeywords: Infantry, Character, Chaos, Daemon, Summoned, Slaanesh, Infernal Enrapturess. Faction: Legions of Excess."
       },
       {
         "name": "Contorted Epitome",
@@ -31354,7 +31631,7 @@
             "id": "60d0-5011-2193-d76d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -31368,7 +31645,7 @@
             "id": "babc-321e-88bd-d576",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -31424,7 +31701,7 @@
             "id": "5a46-413b-bd27-ad97",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -31472,6 +31749,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "At the start of your Movement phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one friendly Legions of Excess Infantry unit wholly within 6\" that is unengaged. Remove it and set it up anywhere more than 8\" horizontally from all enemy models. It counts as having made a Normal move and cannot move again that phase. This is not summoning and restores no models, wounds or Manifestation points. Rules for leaving the battlefield apply."
+              }
+            ]
+          },
+          {
+            "id": "8993-c982-45d9-d878",
+            "name": "Psyker Level",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "3."
               }
             ]
           }
@@ -32511,7 +32802,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "83"
+        "page": "83",
+        "readme": "Core: Leader. Army rules: Manifestation. Psyker Level: 3.\n\nComposition: 1 Contorted Epitome. Equipment: Shattered reflections, Ravaging claws, Coiled tentacles.\n\nKeywords: Infantry, Character, Chaos, Daemon, Summoned, Slaanesh, Contorted Epitome, Psyker. Faction: Legions of Excess."
       },
       {
         "name": "Infractors",
@@ -32656,7 +32948,7 @@
             "id": "6660-1322-4c72-b2ec",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -32670,7 +32962,7 @@
             "id": "795d-2cca-dcf8-23a9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -32698,7 +32990,7 @@
             "id": "6787-704c-0a6c-d841",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -32740,7 +33032,7 @@
             "id": "e6b1-42ed-e14b-2467",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -34712,7 +35004,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "85"
+        "page": "85",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Obsessionist and 4 or 9 Infractors Equipment: Obsessionist: bolt pistol and power sword. Others: bolt pistol and duelling sabre.\n\nCore: Scouts 6\".\n\nKeywords: Infantry, Battleline, Explosives, Infractors, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Tormentors",
@@ -34857,7 +35150,7 @@
             "id": "31e4-1823-aa37-e5ce",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -34871,7 +35164,7 @@
             "id": "4b2f-0982-be53-5345",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -34899,7 +35192,7 @@
             "id": "68b2-bbe5-0c89-7d62",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -34941,7 +35234,7 @@
             "id": "b4e8-a663-4255-b84a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -38067,7 +38360,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "86"
+        "page": "86",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Obsessionist and 4 or 9 Tormentors Equipment: Obsessionist: bolt pistol and power sword. Others: boltgun and close combat weapon.\n\nCore: Infiltrators.\n\nKeywords: Infantry, Battleline, Explosives, Tormentors, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Ecstatic Congregation",
@@ -38205,7 +38499,7 @@
             "id": "1dfd-d831-ff8b-08ab",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -38219,7 +38513,7 @@
             "id": "fe26-1c4c-90c9-1779",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -38233,7 +38527,7 @@
             "id": "9c88-70e9-e046-b899",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -38289,7 +38583,7 @@
             "id": "c2b9-d65e-cd49-0fb1",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -39476,7 +39770,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "87"
+        "page": "87",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 congregation champion and 9 or 19 devotees Equipment: Each: congregation firearm and ritual blade. Champion: firearm and lash.\n\nCore: None.\n\nKeywords: Infantry, Battleline, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Fleshbound",
@@ -39614,7 +39909,7 @@
             "id": "8522-731f-3835-77f0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -39628,7 +39923,7 @@
             "id": "98b4-ddf9-8bf9-d07a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -39656,7 +39951,7 @@
             "id": "8bd4-14db-1b54-f4b0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -39712,7 +40007,7 @@
             "id": "03ce-2b64-16bb-281f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -40973,7 +41268,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "88"
+        "page": "88",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 5 or 10 Fleshbound Equipment: Each: implant gun and grafted blades.\n\nCore: None.\n\nKeywords: Infantry, Battleline, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Daemonettes",
@@ -41132,7 +41428,7 @@
             "id": "461a-d3d5-ba0b-b368",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -41146,7 +41442,7 @@
             "id": "44eb-1e4c-9534-2ac6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -41230,7 +41526,7 @@
             "id": "ddeb-1489-a863-885b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -41532,7 +41828,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "89"
+        "page": "89",
+        "readme": "Core: Fights First. Army rules: Manifestation.\n\nComposition: 1 Alluress and 9 Daemonettes. Equipment: Slashing claws.\n\nKeywords: Infantry, Battleline, Chaos, Daemon, Summoned, Slaanesh, Daemonettes.\n\nFaction: Legions of Excess."
       },
       {
         "name": "Noise Marines",
@@ -41704,7 +42001,7 @@
             "id": "e125-7eb3-5491-e37d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -41718,7 +42015,7 @@
             "id": "5b3b-5597-1c0f-056f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -41746,7 +42043,7 @@
             "id": "5e97-f8d1-b015-9368",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -41774,7 +42071,7 @@
             "id": "b627-3cbe-79ef-e3c6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -43030,7 +43327,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "90"
+        "page": "90",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Disharmonist and 5 Noise Marines Equipment: Sonic blasters and close combat weapons.\n\nCore: None.\n\nKeywords: Infantry, Noise Marines, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Flawless Blades",
@@ -43168,7 +43466,7 @@
             "id": "1388-c4e5-02f2-e6a6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -43182,7 +43480,7 @@
             "id": "8a56-9942-c902-d44b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -43210,7 +43508,7 @@
             "id": "c105-bfb2-a41d-a0aa",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -43252,7 +43550,7 @@
             "id": "3b2d-3312-fa06-1a0c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -43987,7 +44285,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "91"
+        "page": "91",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 3 or 6 Flawless Blades Equipment: Each: blissblade and bolt pistol.\n\nCore: None.\n\nKeywords: Infantry, Explosives, Flawless Blades, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Excruciator Terminators",
@@ -44125,7 +44424,7 @@
             "id": "3456-8438-f96b-d5e9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -44139,7 +44438,7 @@
             "id": "e02f-745a-c8a8-991d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -44167,7 +44466,7 @@
             "id": "9600-9f85-5ab5-0197",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -44195,7 +44494,7 @@
             "id": "e076-fc34-0fc5-802c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -45835,7 +46134,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "92"
+        "page": "92",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Excruciator champion and 4 Excruciators Equipment: Each: combi-weapon and accursed blade.\n\nCore: Deep Strike.\n\nKeywords: Infantry, Terminator, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Phoenix Guard Terminators",
@@ -45973,7 +46273,7 @@
             "id": "7ff7-4ffd-4a9d-8504",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -45987,7 +46287,7 @@
             "id": "d695-c4e5-167d-f053",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -46001,7 +46301,7 @@
             "id": "ede1-8f90-2e2b-6f2c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -46085,7 +46385,7 @@
             "id": "9da6-9681-5f93-984f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -46430,7 +46730,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "93"
+        "page": "93",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 3 Phoenix Guard Terminators; maximum 3 Equipment: Each: Phoenix power spear.\n\nCore: Deep Strike.\n\nKeywords: Infantry, Terminator, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Dissonant Colossi",
@@ -46561,7 +46862,7 @@
             "id": "1b10-56f8-07ae-0bd7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -46575,7 +46876,7 @@
             "id": "ad9d-a37e-3b8b-0f9c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -46589,7 +46890,7 @@
             "id": "068e-0b85-e69f-3a96",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -46631,7 +46932,7 @@
             "id": "6185-d069-e046-cd0e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -47061,7 +47362,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "94"
+        "page": "94",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 3 Dissonant Colossi Equipment: Each: dreadblastmaster and crushing fists.\n\nCore: None.\n\nKeywords: Infantry, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Ghosts",
@@ -47192,7 +47494,7 @@
             "id": "8c29-cb55-cf16-dd86",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -47206,7 +47508,7 @@
             "id": "3c3c-92e8-11bd-ef6e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -47234,7 +47536,7 @@
             "id": "820d-dbf2-2d6c-19c7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -47276,7 +47578,7 @@
             "id": "dcb7-35c3-7f13-b4c5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -49027,7 +49329,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "95"
+        "page": "95",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Ghost champion and 4 or 9 Ghosts Equipment: Each: whisper carbine and ghost blade; champion carries a power blade.\n\nCore: Infiltrators, Stealth.\n\nKeywords: Infantry, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Chained Thralls",
@@ -49158,7 +49461,7 @@
             "id": "493a-a2be-819e-36a1",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -49172,7 +49475,7 @@
             "id": "a0f8-1c24-c221-6ab0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -49186,7 +49489,7 @@
             "id": "550f-1598-4a27-37c9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -49242,7 +49545,7 @@
             "id": "9adb-af61-2e6b-dc87",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -49797,7 +50100,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "96"
+        "page": "96",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 10 or 20 Chained Thralls Equipment: Each: desperate blows.\n\nCore: None.\n\nKeywords: Infantry, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Rapture Talons",
@@ -49942,7 +50246,7 @@
             "id": "64d7-058c-375a-ed90",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -49956,7 +50260,7 @@
             "id": "7f71-230b-99fa-1310",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -49984,7 +50288,7 @@
             "id": "6b02-7131-319c-0389",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -50026,7 +50330,7 @@
             "id": "d999-11a3-f469-4391",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -52476,7 +52780,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "97"
+        "page": "97",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Talon champion and 4 or 9 Talons Equipment: Each: screamer pistol and Talon blade.\n\nCore: Deep Strike.\n\nKeywords: Infantry, Jump Pack, Fly, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Mirror Guard",
@@ -52628,7 +52933,7 @@
             "id": "b929-e76d-b337-9c34",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -52642,7 +52947,7 @@
             "id": "dfd9-4d44-a357-d4ba",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -52698,7 +53003,7 @@
             "id": "37b6-0bc1-a980-fc67",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -53205,7 +53510,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "98"
+        "page": "98",
+        "readme": "Core: None. Army rules: Manifestation.\n\nComposition: 1 Mirrorblade Exemplar and 4 or 9 Mirror Guard. Equipment: Shardglass blades.\n\nKeywords: Infantry, Chaos, Daemon, Summoned, Slaanesh, Mirror Guard. Faction: Legions of Excess."
       },
       {
         "name": "Furies of Slaanesh",
@@ -53364,7 +53670,7 @@
             "id": "a144-5470-4939-df33",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -53378,7 +53684,7 @@
             "id": "5033-89bf-b38c-82a7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -53462,7 +53768,7 @@
             "id": "4c83-b103-c81d-1be5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -53962,7 +54268,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "99"
+        "page": "99",
+        "readme": "Core: Stealth. Army rules: Manifestation.\n\nComposition: 5 or 10 Furies. Equipment: Hooked claws.\n\nKeywords: Infantry, Fly, Chaos, Daemon, Summoned, Slaanesh, Furies of Slaanesh.\n\nFaction: Legions of Excess."
       },
       {
         "name": "Choir of Unmaking",
@@ -54121,7 +54428,7 @@
             "id": "da1e-f7b4-7996-5da8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -54135,7 +54442,7 @@
             "id": "99a1-552e-5eb2-bb3b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -54205,7 +54512,7 @@
             "id": "5193-dd88-d997-7595",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -54225,6 +54532,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Leader: Infernal Enrapturess, Contorted Epitome."
+              }
+            ]
+          },
+          {
+            "id": "223c-4fe7-c945-60ed",
+            "name": "Psyker Level",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1."
               }
             ]
           }
@@ -55015,7 +55336,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "100"
+        "page": "100",
+        "readme": "Core: None. Army rules: Manifestation. Psyker Level: 1.\n\nComposition: 1 Cantor and 2 Choristers. Equipment: Unmaking chorus, Talons of discord.\n\nKeywords: Infantry, Chaos, Daemon, Summoned, Slaanesh, Choir of Unmaking, Psyker.\n\nFaction: Legions of Excess."
       },
       {
         "name": "Howling Cavaliers",
@@ -55146,7 +55468,7 @@
             "id": "bda8-76ed-d4d6-8885",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -55160,7 +55482,7 @@
             "id": "c6f9-7be1-8377-f45e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -55188,7 +55510,7 @@
             "id": "25b0-59cd-c373-1ea7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -55216,7 +55538,7 @@
             "id": "3767-5be9-e4fb-eaea",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -57712,7 +58034,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "101"
+        "page": "101",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Cavalier champion and 2 or 5 Cavaliers Equipment: Each: twin sonic blaster and rider blade; champion has a power weapon.\n\nCore: Scouts 6\".\n\nKeywords: Mounted, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Stage of Excess",
@@ -57850,7 +58173,7 @@
             "id": "9b34-2c88-93c1-0418",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -57864,7 +58187,7 @@
             "id": "ddc5-a32e-b2b5-124a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -57878,7 +58201,7 @@
             "id": "ada8-425f-e251-be43",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -57920,7 +58243,7 @@
             "id": "235f-d185-35b6-194e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -57960,7 +58283,14 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D3"
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -58222,7 +58552,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "102"
+        "page": "102",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Stage of Excess; crew and beasts form one model Equipment: Grand vox array, performer blades, parade-beast limbs.\n\nCore: Deadly Demise D3.\n\nKeywords: Mounted, Mobile, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Seekers",
@@ -58374,7 +58705,7 @@
             "id": "5cf0-2c49-eafa-97c7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -58388,7 +58719,7 @@
             "id": "ac67-4b0c-d7f1-a424",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -58472,7 +58803,7 @@
             "id": "a2de-319d-829b-339f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -59257,7 +59588,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "103"
+        "page": "103",
+        "readme": "Core: None. Army rules: Manifestation.\n\nComposition: 1 Heartseeker and 4 or 9 Seekers. Equipment: Slashing claws, Lashing tongue.\n\nKeywords: Mounted, Chaos, Daemon, Summoned, Slaanesh, Seekers. Faction: Legions of Excess."
       },
       {
         "name": "Chaos Spawn",
@@ -59388,7 +59720,7 @@
             "id": "e106-7789-2064-a627",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -59402,7 +59734,7 @@
             "id": "303f-33a2-46d3-4e78",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -59416,7 +59748,7 @@
             "id": "519d-213e-1f9d-dbdc",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -59458,7 +59790,7 @@
             "id": "6fdf-63b5-ab16-b8ca",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -59681,7 +60013,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "104"
+        "page": "104",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 2 Chaos Spawn Equipment: Each: hideous mutations.\n\nCore: Feel No Pain 5+.\n\nKeywords: Beast, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Greater Chaos Spawn",
@@ -59812,7 +60145,7 @@
             "id": "cfa6-e8ae-fc61-5273",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -59826,7 +60159,7 @@
             "id": "7e6a-528a-99b5-6e64",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -59840,7 +60173,7 @@
             "id": "e174-5d36-0c15-2251",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -59882,7 +60215,7 @@
             "id": "b14a-bf10-7c2f-479e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -60011,7 +60344,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "105"
+        "page": "105",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Greater Chaos Spawn Equipment: Grotesque mutations.\n\nCore: Feel No Pain 5+.\n\nKeywords: Beast, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Fiends",
@@ -60163,7 +60497,7 @@
             "id": "3c61-6eea-9cc9-78d7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -60177,7 +60511,7 @@
             "id": "c88f-dad3-8d44-0a49",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -60233,7 +60567,7 @@
             "id": "0902-f059-143f-da89",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -61158,7 +61492,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "106"
+        "page": "106",
+        "readme": "Core: None. Army rules: Manifestation.\n\nComposition: 1 Blissbringer and 2 or 5 Fiends. Equipment: Barbed tail and dissecting claws.\n\nKeywords: Beast, Chaos, Daemon, Summoned, Slaanesh, Fiends. Faction: Legions of Excess."
       },
       {
         "name": "Chaos Rhino",
@@ -61365,7 +61700,7 @@
             "id": "694b-ce2c-21eb-e3b4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -61379,7 +61714,7 @@
             "id": "d3e6-b5c3-37d5-4fb4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -61407,7 +61742,7 @@
             "id": "b952-5c9d-e94e-9c45",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -61449,7 +61784,7 @@
             "id": "b375-a1a9-d52e-3ac8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -61489,14 +61824,28 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D3"
+              }
+            ]
           },
           {
             "id": "89bc-9329-5a00-2ea0",
             "name": "Firing Deck",
             "type": "rule",
             "targetId": "13b2-6518-dab3-7ea1",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Firing Deck 2"
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -62208,7 +62557,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "107"
+        "page": "107",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Chaos Rhino Equipment: Combi-bolter and armoured tracks.\n\nCore: Deadly Demise D3, Firing Deck 2.\n\nKeywords: Vehicle, Transport, Dedicated Transport, Rhino, Smoke, Frame, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Maulerfiend",
@@ -62394,7 +62744,7 @@
             "id": "d231-2073-6aa9-3538",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -62408,7 +62758,7 @@
             "id": "a0a1-23ea-3152-cbd4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -62436,7 +62786,7 @@
             "id": "fe6c-e876-719f-9c77",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -62478,7 +62828,7 @@
             "id": "7c44-b491-90b9-c13c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -62518,14 +62868,28 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D3"
+              }
+            ]
           },
           {
             "id": "fc1b-a001-8962-0d80",
             "name": "Damaged",
             "type": "rule",
             "targetId": "c68c-a968-354f-bb99",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 4"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -63245,7 +63609,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "108"
+        "page": "108",
+        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Maulerfiend Equipment: Maulerfiend fists and lasher tendrils.\n\nCore: Damaged 4, Deadly Demise D3.\n\nKeywords: Vehicle, Walker, Daemon, Maulerfiend, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Defiler",
@@ -63431,7 +63796,7 @@
             "id": "e1d9-e012-b92f-f293",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -63445,7 +63810,7 @@
             "id": "92f6-8ae8-e288-e849",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -63459,7 +63824,7 @@
             "id": "d8a1-49f7-67c9-8cd2",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -63487,7 +63852,7 @@
             "id": "0cbb-c777-b66b-424e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -63543,7 +63908,7 @@
             "id": "bfb6-7419-ab4c-1686",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -63583,14 +63948,28 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D6"
+              }
+            ]
           },
           {
             "id": "3b92-bbd7-0fd9-3338",
             "name": "Damaged",
             "type": "rule",
             "targetId": "c68c-a968-354f-bb99",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 6"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -65843,7 +66222,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "109"
+        "page": "109",
+        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Defiler Equipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy baleflamer, shearing claws.\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\nDefiler / Abilities\n\nCore: Damaged 6, Deadly Demise D6.\n\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Agoniser",
@@ -65988,7 +66368,7 @@
             "id": "a1cb-732f-a88d-b62a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -66002,7 +66382,7 @@
             "id": "55a8-4c0d-163b-c101",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -66030,7 +66410,7 @@
             "id": "7a14-0302-efc9-6a7f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -66072,7 +66452,7 @@
             "id": "16b7-1179-cac6-3afd",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -66112,7 +66492,14 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D3"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -67948,7 +68335,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "111"
+        "page": "111",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Agoniser Equipment: Multi-melta, Helbrute fist and heavy flamer.\n\nCore: Deadly Demise D3.\n\nKeywords: Vehicle, Walker, Helbrute, Agoniser, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Threnody Dreadnought",
@@ -68086,7 +68474,7 @@
             "id": "f5ea-c23a-1d45-d512",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -68100,7 +68488,7 @@
             "id": "2f44-b661-c2b1-8bbf",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -68128,7 +68516,7 @@
             "id": "1784-3bc1-8424-166b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -68184,7 +68572,7 @@
             "id": "1058-fb81-d0d2-a10b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -68224,14 +68612,28 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D6"
+              }
+            ]
           },
           {
             "id": "f33f-aa70-369d-5364",
             "name": "Damaged",
             "type": "rule",
             "targetId": "c68c-a968-354f-bb99",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 8"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -69513,7 +69915,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "112"
+        "page": "112",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Threnody Dreadnought Equipment: Cathedral sonic immolator, two heavy bolters, cathedral fist, crushing tread.\n\nCore: Damaged 8, Deadly Demise D6.\n\nKeywords: Vehicle, Walker, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Cacophant",
@@ -69665,7 +70068,7 @@
             "id": "dc64-8822-9bcd-eab8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -69679,7 +70082,7 @@
             "id": "efdf-836a-e064-71a2",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -69707,7 +70110,7 @@
             "id": "44ba-544d-f8e6-a7cb",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -69749,7 +70152,7 @@
             "id": "d448-2ae6-1d76-1423",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -69789,14 +70192,28 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D3"
+              }
+            ]
           },
           {
             "id": "0116-e049-4b0e-4835",
             "name": "Damaged",
             "type": "rule",
             "targetId": "c68c-a968-354f-bb99",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 4"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -71112,7 +71529,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "113"
+        "page": "113",
+        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Cacophant Equipment: Two Hades autocannons and Cacophant jaws.\n\nCore: Damaged 4, Deadly Demise D3.\n\nKeywords: Vehicle, Walker, Daemon, Forgefiend, Cacophant, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Palatine Ravager",
@@ -71264,7 +71682,7 @@
             "id": "d8b8-9042-5284-39d9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -71278,7 +71696,7 @@
             "id": "9177-77d2-65b7-e36b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -71306,7 +71724,7 @@
             "id": "7f5d-49eb-6df7-55c0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -71334,7 +71752,7 @@
             "id": "5d24-713f-8a50-f531",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -71374,14 +71792,28 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D3"
+              }
+            ]
           },
           {
             "id": "1531-c554-2d82-3194",
             "name": "Damaged",
             "type": "rule",
             "targetId": "c68c-a968-354f-bb99",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 3"
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -72362,7 +72794,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "114"
+        "page": "114",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Palatine Ravager Equipment: Predator autocannon, two heavy bolters, armoured tracks.\n\nCore: Damaged 3, Deadly Demise D3.\n\nKeywords: Vehicle, Frame, Smoke, Predator, Palatine Ravager, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Dreadclaw",
@@ -72507,7 +72940,7 @@
             "id": "8d68-ddde-c0e0-984e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -72521,7 +72954,7 @@
             "id": "d1d7-1468-5ebe-4ad2",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -72535,7 +72968,7 @@
             "id": "9dba-005f-d490-b4aa",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -72591,7 +73024,7 @@
             "id": "6e7e-925e-6082-e60f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -72638,7 +73071,14 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D3"
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -72897,7 +73337,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "115"
+        "page": "115",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Dreadclaw Equipment: Thermal jets and impaling talons.\n\nCore: Deep Strike, Deadly Demise D3.\n\nKeywords: Vehicle, Transport, Fly, Dreadclaw, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Chaos Land Raider",
@@ -73056,7 +73497,7 @@
             "id": "1286-9a8c-ace7-4fa6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -73070,7 +73511,7 @@
             "id": "74a8-dff2-e9cf-c02e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -73098,7 +73539,7 @@
             "id": "a49a-3028-0c06-9fc7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -73140,7 +73581,7 @@
             "id": "c42a-8666-82c3-8606",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -73180,14 +73621,28 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D6"
+              }
+            ]
           },
           {
             "id": "8088-0877-5bf0-59c1",
             "name": "Damaged",
             "type": "rule",
             "targetId": "c68c-a968-354f-bb99",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 5"
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -74186,7 +74641,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "116"
+        "page": "116",
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Chaos Land Raider Equipment: Two soulshatter lascannons, twin heavy bolter, armoured tracks.\n\nCore: Damaged 5, Deadly Demise D6.\n\nKeywords: Vehicle, Frame, Transport, Smoke, Land Raider, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Heldrake",
@@ -74331,7 +74787,7 @@
             "id": "8b62-0a2f-26bf-b1c5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -74345,7 +74801,7 @@
             "id": "8d69-ceb2-c4ac-bb4e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -74373,7 +74829,7 @@
             "id": "b20b-e241-8027-8b13",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -74415,7 +74871,7 @@
             "id": "b8e7-6aed-1130-3568",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -74455,14 +74911,28 @@
             "name": "Deadly Demise",
             "type": "rule",
             "targetId": "b68a-5ded-65ac-98c",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D3"
+              }
+            ]
           },
           {
             "id": "2045-89a0-c18f-726a",
             "name": "Damaged",
             "type": "rule",
             "targetId": "c68c-a968-354f-bb99",
-            "hidden": false
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 5"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -75203,7 +75673,8 @@
           }
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
-        "page": "117"
+        "page": "117",
+        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Heldrake Equipment: Hades autocannon and Heldrake claws.\n\nCore: Damaged 5, Deadly Demise D3.\n\nKeywords: Vehicle, Fly, Daemon, Heldrake, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Lingering Intoxication",
