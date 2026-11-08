@@ -109,6 +109,7 @@ def apply_rules_display(catalogue,system,source=None):
   body=re.sub(r'#{1,6}\s*(When|Target|Effect|Restriction|Requirement|Duration|Cost)\s*\n',lambda m:m[1].upper()+': ',body,flags=re.I)
   body=re.sub(r'\s*(WHEN|TARGET|EFFECT|RESTRICTION|REQUIREMENT|DURATION|COST):\s*',lambda m:'\n\n### '+m[1].title()+'\n\n',body)
   rule['description']='\n\n'+body.strip()
+ apply_threnody_titanic(catalogue,system)
  apply_character_and_summoning_updates(catalogue,system)
  rename_sonic_weapons(catalogue)
  catalogue['readme']='Emperor’s Children homebrew v3.2. Dispositions assigned for all sixteen detachments. Update the list data after updating the game.'
@@ -158,3 +159,15 @@ def apply_character_and_summoning_updates(catalogue,system):
                      'roll two D3, select one result and add 1.')
   return text
  map_text(catalogue,summoning)
+
+
+def apply_threnody_titanic(catalogue,system):
+ from datasheet_format import walk
+ entry=next(e for e in catalogue['sharedSelectionEntries'] if e['name']=='Threnody Dreadnought')
+ titanic=next(c['id'] for c in system['categoryEntries']+catalogue.get('categoryEntries',[]) if c['name']=='Titanic')
+ if not any(link.get('targetId')==titanic for link in entry['categoryLinks']):
+  entry['categoryLinks'].append(dict(name='Titanic',id=uid(entry['id']+':titanic'),targetId=titanic,primary=False,hidden=False))
+ for node in walk(entry):
+  for key,value in node.items():
+   if isinstance(value,str):
+    node[key]=value.replace('Keywords: Vehicle, Walker, Threnody Dreadnought','Keywords: Vehicle, Walker, Titanic, Threnody Dreadnought')
