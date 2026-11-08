@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 22,
     "library": false,
-    "revision": 21,
+    "revision": 22,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -13623,20 +13623,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "173e-f654-40a4-438e",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader, Imperial Strategist"
-              }
-            ]
-          },
-          {
             "name": "Authority of the Inquisition",
             "id": "26e5-a697-a5b1-6502",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -13693,7 +13679,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Writ of Exorcism",
+            "name": "Imperial Sanction: Writ of Exorcism",
             "id": "743b-1ffb-f04b-b85c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -13703,20 +13689,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cost: 2 AP. When: Start of the Shooting phase or Fight phase. Target: One enemy unit within 18\" of this model. Effect: Until the end of the phase, subtract 1 from Wound rolls for attacks made by models in that unit. If it is a PSYKER or DAEMON unit, its models also cannot re-roll Hit or Wound rolls. Limit: Once per battle round for this model."
-              }
-            ]
-          },
-          {
-            "name": "Unit composition and equipment",
-            "id": "aca8-2c4b-3da7-454e",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Inquisitor Coteaz. Bolt pistol, Psychic Blast and Nemesis daemon hammer. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
               }
             ]
           },
@@ -13731,6 +13703,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "173e-f654-40a4-438e",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader, Imperial Strategist"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "aca8-2c4b-3da7-454e",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Inquisitor Coteaz. Bolt pistol, Psychic Blast and Nemesis daemon hammer. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
               }
             ]
           }
@@ -14390,20 +14390,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "a56e-0571-e226-e61a",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader, Imperial Strategist"
-              }
-            ]
-          },
-          {
             "name": "Authority of the Inquisition",
             "id": "1f46-0caa-f62d-ffd3",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -14418,7 +14404,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Psychic Veil [Psychic]",
+            "name": "Imperial Sanction: Psychic Veil [Psychic]",
             "id": "4e1b-2c27-3c5f-3fb0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -14428,20 +14414,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cost: 1 AP. When: Start of your opponent's Shooting phase. Target: One friendly AGENTS OF THE IMPERIUM INFANTRY unit within 12\" of this model. Effect: Until the end of the phase, models in that unit can be selected as targets of ranged attacks only if the attacking model is within 18\" of that unit. Limit: Once per battle round for this model."
-              }
-            ]
-          },
-          {
-            "name": "Unit composition and equipment",
-            "id": "0527-d138-9f1f-171d",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Lord Inquisitor Draxus. Dirgesinger, Psychic Tempest and power fist. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
               }
             ]
           },
@@ -14456,6 +14428,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "a56e-0571-e226-e61a",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader, Imperial Strategist"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "0527-d138-9f1f-171d",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Lord Inquisitor Draxus. Dirgesinger, Psychic Tempest and power fist. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
               }
             ]
           }
@@ -15113,20 +15113,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "aa3d-ae55-5f54-4bf5",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader, Imperial Strategist"
-              }
-            ]
-          },
-          {
             "name": "Psyoculum",
             "id": "527a-7c38-5e73-5d6d",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -15155,7 +15141,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Writ of Witchfinding",
+            "name": "Imperial Sanction: Writ of Witchfinding",
             "id": "41ae-0ee8-a372-7a4b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -15165,20 +15151,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cost: 1 AP. When: Start of your Shooting phase. Target: One enemy unit within 18\" of and visible to this model. Effect: Until the end of the phase, that unit cannot benefit from Lone Operative or Stealth. If it contains one or more PSYKER models, also add 1 to Wound rolls for attacks made by friendly AGENTS OF THE IMPERIUM models that target it. Limit: Once per battle round for this model."
-              }
-            ]
-          },
-          {
-            "name": "Unit composition and equipment",
-            "id": "902e-2634-df92-1925",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Inquisitor Greyfax. Castigation, condemnor stake and master-crafted power sword. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
               }
             ]
           },
@@ -15193,6 +15165,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "aa3d-ae55-5f54-4bf5",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader, Imperial Strategist"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "902e-2634-df92-1925",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Inquisitor Greyfax. Castigation, condemnor stake and master-crafted power sword. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
               }
             ]
           }
@@ -15864,7 +15864,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Unrelenting Pursuit",
+            "name": "Imperial Sanction: Unrelenting Pursuit",
             "id": "b618-2730-1533-5efa",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -15874,20 +15874,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cost: 1 AP. When: End of your opponent's Movement phase. Target: This model, if your Priority Target is within 18\" and this model is not within Engagement Range of an enemy unit. Effect: This model can make a Normal move of up to 6\". Limit: Once per battle round for this model."
-              }
-            ]
-          },
-          {
-            "name": "CORE",
-            "id": "f7e2-1917-bec5-8167",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lone Operative, Scouts 6\", Imperial Strategist"
               }
             ]
           },
@@ -15906,7 +15892,35 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "id": "4ebf-3761-670a-e7ba",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model is MOUNTED, not a Leader, and has no Bodyguard attachments."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "f7e2-1917-bec5-8167",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Lone Operative, Scouts 6\", Imperial Strategist"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "3d88-10fa-3d68-fac7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -15916,20 +15930,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "1 Inquisitor Kroyle. Jindarii tox-cycler, stubcarbine, butcher blade and Garralisk claws and teeth. This model is MOUNTED, not a Leader, and has no Bodyguard attachments."
-              }
-            ]
-          },
-          {
-            "id": "4ebf-3761-670a-e7ba",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model is MOUNTED, not a Leader, and has no Bodyguard attachments."
               }
             ]
           }
@@ -16467,20 +16467,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "df6b-975a-2726-ae34",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Deadly Demise 1, Imperial Strategist"
-              }
-            ]
-          },
-          {
             "name": "Unsubtle Crusader",
             "id": "9fc9-db80-d5fb-442d",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -16495,7 +16481,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Orbital Sentence",
+            "name": "Imperial Sanction: Orbital Sentence",
             "id": "3be8-30fa-ee33-f5da",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -16509,7 +16495,35 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "id": "ea5c-3da6-b514-67ff",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Not a Leader."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "df6b-975a-2726-ae34",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deadly Demise 1, Imperial Strategist"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "bdf6-7bb3-44b4-6bc6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -16519,20 +16533,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "1 Inquisitor Karamazov. Master-crafted multi-melta and master-crafted power sword. Not a Leader."
-              }
-            ]
-          },
-          {
-            "id": "ea5c-3da6-b514-67ff",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Not a Leader."
               }
             ]
           }
@@ -16878,20 +16878,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "2e57-6de4-4d36-f656",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader, Imperial Strategist, Sanctioned Psykana (Psyker Level 2)"
-              }
-            ]
-          },
-          {
             "name": "Daemonhunter Supreme",
             "id": "b0c0-6eb8-180d-5907",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -16920,7 +16906,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Writ of Banishment",
+            "name": "Imperial Sanction: Writ of Banishment",
             "id": "fc60-6813-0a50-0a2f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -16934,7 +16920,7 @@
             ]
           },
           {
-            "name": "Aegis of Terra - Psychic Level 1",
+            "name": "Aegis of Terra (Psychic Level 1)",
             "id": "8bf3-5fe1-528b-0fc7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -16948,7 +16934,7 @@
             ]
           },
           {
-            "name": "Litany of Banishment - Psychic Level 1",
+            "name": "Litany of Banishment (Psychic Level 1)",
             "id": "d3e8-7d24-82b7-9d79",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -16962,7 +16948,7 @@
             ]
           },
           {
-            "name": "Grimoire of True Names - Psychic Level 2",
+            "name": "Grimoire of True Names (Psychic Level 2)",
             "id": "dbd1-8994-4804-1022",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -16972,20 +16958,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "When: Start of the Fight phase. Target: One enemy unit within 12\" of this model. After a Psychic Roll, subtract 1 from Hit rolls for attacks made by models in that unit until the end of the phase. If it is a DAEMON unit, also subtract 1 from those Wound rolls."
-              }
-            ]
-          },
-          {
-            "name": "Unit composition and equipment",
-            "id": "7ed7-1abc-b2c2-3ffa",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Lord Inquisitor Hector Rex. Artificer armour, storm shield, Arias and psycannon bolt pistol. Select one Arias profile when making its attacks. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
               }
             ]
           },
@@ -17005,7 +16977,7 @@
           },
           {
             "id": "75ec-3e6e-2a4d-0ae6",
-            "name": "Datasheet restrictions",
+            "name": "Datasheet Restrictions",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -17014,6 +16986,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Select one Arias profile when making its attacks."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "2e57-6de4-4d36-f656",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader, Imperial Strategist, Sanctioned Psykana (Psyker Level 2)"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "7ed7-1abc-b2c2-3ffa",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Lord Inquisitor Hector Rex. Artificer armour, storm shield, Arias and psycannon bolt pistol. Select one Arias profile when making its attacks. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
               }
             ]
           }
@@ -17642,6 +17642,90 @@
             ]
           },
           {
+            "name": "Telekinetic Shield (Psychic Level 1)",
+            "id": "9183-d81e-c8d6-5a5c",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When: Start of your opponent's Shooting phase. Target: One friendly INQUISITION INFANTRY unit within 12\" of this model. After a Psychic Roll, models in that unit have a 5+ invulnerable save until the end of the phase."
+              }
+            ]
+          },
+          {
+            "name": "Mental Suppression (Psychic Level 1)",
+            "id": "ccf4-faaa-3309-2c9d",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When: Start of the Fight phase. Target: One enemy unit within 18\" of this model. After a Psychic Roll, subtract 1 from Hit rolls for attacks made by models in that unit until the end of the phase."
+              }
+            ]
+          },
+          {
+            "name": "Waring (Psychic Level 2)",
+            "id": "9785-b189-4b15-54f1",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When: Your Shooting phase, when a friendly INQUISITION INFANTRY unit within 18\" of this model is selected to shoot. After a Psychic Roll, you can re-roll Hit rolls for that unit's ranged attacks until the end of the phase."
+              }
+            ]
+          },
+          {
+            "name": "Psychic Domination (Psychic Level 3)",
+            "id": "1771-866d-94ba-7d20",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When: Start of your opponent's Movement phase. Target: One enemy INFANTRY unit within 18\" of and visible to this model. After a Psychic Roll, until the end of the phase subtract 2\" from the Move characteristic of models in that unit, and that unit cannot Advance."
+              }
+            ]
+          },
+          {
+            "name": "Imperial Sanction: Mind's Eye",
+            "id": "7b66-aefd-cbbb-a896",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Cost: 2 AP. When: Start of your Shooting phase. Target: One friendly INQUISITION INFANTRY unit within 18\" of this model. Effect: Until the end of the phase, ranged weapons equipped by models in that unit have Precision when targeting your Priority Target. Limit: Once per battle round for this model."
+              }
+            ]
+          },
+          {
+            "id": "8f45-a6a6-0dd5-0e61",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Not a Leader. The combined levels of powers used cannot exceed 3 per battle round."
+              }
+            ]
+          },
+          {
             "name": "CORE",
             "id": "7dad-c946-9d9f-5330",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -17656,77 +17740,7 @@
             ]
           },
           {
-            "name": "Telekinetic Shield - Psychic Level 1",
-            "id": "9183-d81e-c8d6-5a5c",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "When: Start of your opponent's Shooting phase. Target: One friendly INQUISITION INFANTRY unit within 12\" of this model. After a Psychic Roll, models in that unit have a 5+ invulnerable save until the end of the phase."
-              }
-            ]
-          },
-          {
-            "name": "Mental Suppression - Psychic Level 1",
-            "id": "ccf4-faaa-3309-2c9d",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "When: Start of the Fight phase. Target: One enemy unit within 18\" of this model. After a Psychic Roll, subtract 1 from Hit rolls for attacks made by models in that unit until the end of the phase."
-              }
-            ]
-          },
-          {
-            "name": "Waring - Psychic Level 2",
-            "id": "9785-b189-4b15-54f1",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "When: Your Shooting phase, when a friendly INQUISITION INFANTRY unit within 18\" of this model is selected to shoot. After a Psychic Roll, you can re-roll Hit rolls for that unit's ranged attacks until the end of the phase."
-              }
-            ]
-          },
-          {
-            "name": "Psychic Domination - Psychic Level 3",
-            "id": "1771-866d-94ba-7d20",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "When: Start of your opponent's Movement phase. Target: One enemy INFANTRY unit within 18\" of and visible to this model. After a Psychic Roll, until the end of the phase subtract 2\" from the Move characteristic of models in that unit, and that unit cannot Advance."
-              }
-            ]
-          },
-          {
-            "name": "IMPERIAL SANCTION / Mind's Eye",
-            "id": "7b66-aefd-cbbb-a896",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Cost: 2 AP. When: Start of your Shooting phase. Target: One friendly INQUISITION INFANTRY unit within 18\" of this model. Effect: Until the end of the phase, ranged weapons equipped by models in that unit have Precision when targeting your Priority Target. Limit: Once per battle round for this model."
-              }
-            ]
-          },
-          {
-            "name": "Unit composition and equipment",
+            "name": "Unit Composition and Equipment",
             "id": "ce2e-bd83-2c66-590a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -17736,20 +17750,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "1 Inquisitor Gideon Ravenor. Paired psycannons, Mind Spear and force-chair impact. Not a Leader. The combined levels of powers used cannot exceed 3 per battle round."
-              }
-            ]
-          },
-          {
-            "id": "8f45-a6a6-0dd5-0e61",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Not a Leader. The combined levels of powers used cannot exceed 3 per battle round."
               }
             ]
           }
@@ -18163,20 +18163,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "e8d7-85f4-4f9e-b2f3",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader, Imperial Strategist"
-              }
-            ]
-          },
-          {
             "name": "Power of the Rosette",
             "id": "474a-dc79-2c9d-f6c1",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -18247,20 +18233,6 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
-            "id": "ce03-84a5-afe3-bf35",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Inquisitor. Bolt pistol, power sword and Blessed Wardings. Apply armoury exchanges on the Inquisitorial Armoury; all wargear is included in the 75-point playtest cost. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
-              }
-            ]
-          },
-          {
             "id": "1d0b-99de-6a63-78dd",
             "name": "Leader",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -18271,6 +18243,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "e8d7-85f4-4f9e-b2f3",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader, Imperial Strategist"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "ce03-84a5-afe3-bf35",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Inquisitor. Bolt pistol, power sword and Blessed Wardings. Apply armoury exchanges on the Inquisitorial Armoury; all wargear is included in the 75-point playtest cost. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
               }
             ]
           }
@@ -21724,20 +21724,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "8611-4144-79de-a923",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader"
-              }
-            ]
-          },
-          {
             "name": "Field Investigator",
             "id": "0f81-3ab1-1346-7112",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -21766,7 +21752,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Sealed Orders",
+            "name": "Imperial Sanction: Sealed Orders",
             "id": "ffff-3a28-b600-0b26",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -21794,20 +21780,6 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
-            "id": "988d-9779-2888-3f74",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 High Interrogator. Executioner pistol and power sword. The pistol may be replaced with a combi-weapon or plasma pistol; the sword may be replaced with a power maul, or a force weapon if Psychic Gifts is selected. Armoury profiles: the Inquisitorial Armoury. Leader: Inquisitorial Agents, Storm Troopers or eligible IMPERIUM BATTLELINE INFANTRY. The broader Requisition permission does not apply."
-              }
-            ]
-          },
-          {
             "id": "acdd-2750-b351-9546",
             "name": "Leader",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -21818,6 +21790,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents, Storm Troopers or eligible IMPERIUM BATTLELINE INFANTRY. The broader Requisition permission does not apply."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "8611-4144-79de-a923",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "988d-9779-2888-3f74",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 High Interrogator. Executioner pistol and power sword. The pistol may be replaced with a combi-weapon or plasma pistol; the sword may be replaced with a power maul, or a force weapon if Psychic Gifts is selected. Armoury profiles: the Inquisitorial Armoury. Leader: Inquisitorial Agents, Storm Troopers or eligible IMPERIUM BATTLELINE INFANTRY. The broader Requisition permission does not apply."
               }
             ]
           }
@@ -23788,20 +23788,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "794d-60ca-fdb8-8224",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader, Imperial Strategist"
-              }
-            ]
-          },
-          {
             "name": "Power of the Rosette",
             "id": "d0ab-b0d3-fea9-39b0",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -23886,20 +23872,6 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
-            "id": "a90d-b59e-0336-3e47",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Inquisitor in Power Armour. Combi-bolter and power sword. May exchange its ranged weapon for a listed combi-weapon, Imperial pistol or xenos firearm, and its melee weapon for a power maul, fist, thunder hammer, null rod or Scythian Venom Talon. Use the Inquisitorial Armoury. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
-              }
-            ]
-          },
-          {
             "id": "0917-06c0-a931-60c7",
             "name": "Leader",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -23910,6 +23882,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "794d-60ca-fdb8-8224",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader, Imperial Strategist"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "a90d-b59e-0336-3e47",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Inquisitor in Power Armour. Combi-bolter and power sword. May exchange its ranged weapon for a listed combi-weapon, Imperial pistol or xenos firearm, and its melee weapon for a power maul, fist, thunder hammer, null rod or Scythian Venom Talon. Use the Inquisitorial Armoury. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
               }
             ]
           }
@@ -27445,20 +27445,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "113f-a6fa-672b-a184",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Deep Strike, Leader, Imperial Strategist"
-              }
-            ]
-          },
-          {
             "name": "Rites of Teleportation",
             "id": "7125-ffa5-4e00-df31",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -27557,20 +27543,6 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
-            "id": "5316-f1f5-cbb8-aedd",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Inquisitor in Terminator Armour. Storm bolter and power fist. May replace the storm bolter with a listed combi-weapon, or with a psycannon if it takes Psychic Gifts. May replace the power fist with a thunder hammer, power sword or eligible force weapon. Generic alternatives use the Inquisitorial Armoury. Cannot embark in the Inquisitorial Chimera. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
-              }
-            ]
-          },
-          {
             "id": "f2bd-d468-5310-920b",
             "name": "Leader",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -27586,7 +27558,7 @@
           },
           {
             "id": "52b3-0668-8df2-6e64",
-            "name": "Datasheet restrictions",
+            "name": "Datasheet Restrictions",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -27595,6 +27567,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cannot embark in the Inquisitorial Chimera."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "113f-a6fa-672b-a184",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike, Leader, Imperial Strategist"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "5316-f1f5-cbb8-aedd",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Inquisitor in Terminator Armour. Storm bolter and power fist. May replace the storm bolter with a listed combi-weapon, or with a psycannon if it takes Psychic Gifts. May replace the power fist with a thunder hammer, power sword or eligible force weapon. Generic alternatives use the Inquisitorial Armoury. Cannot embark in the Inquisitorial Chimera. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
               }
             ]
           }
@@ -30095,20 +30095,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "24fb-96c0-3d28-5934",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader, Imperial Strategist"
-              }
-            ]
-          },
-          {
             "name": "Inquisitorial Supremacy",
             "id": "d845-094d-5a03-2f63",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -30221,20 +30207,6 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
-            "id": "ccea-8750-34ed-3321",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Inquisitor Lord. Combi-bolter, master-crafted power sword or master-crafted power maul, and Blessed Wardings or Psychic Gifts. Generic armoury exchanges use the Inquisitorial Armoury; this datasheet's weapon profiles take precedence. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
-              }
-            ]
-          },
-          {
             "id": "17c0-e422-51a5-2c8e",
             "name": "Leader",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -30245,6 +30217,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "24fb-96c0-3d28-5934",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader, Imperial Strategist"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "ccea-8750-34ed-3321",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Inquisitor Lord. Combi-bolter, master-crafted power sword or master-crafted power maul, and Blessed Wardings or Psychic Gifts. Generic armoury exchanges use the Inquisitorial Armoury; this datasheet's weapon profiles take precedence. Leader: Inquisitorial Agents, Inquisitorial Storm Troopers, Inquisitorial Bulwark Cell, eligible IMPERIUM BATTLELINE INFANTRY, and qualifying Requisitioned IMPERIUM INFANTRY; see Command and Retinue Attachments."
               }
             ]
           }
@@ -33912,20 +33912,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "83f2-a8c2-7897-54a5",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Support"
-              }
-            ]
-          },
-          {
             "name": "Inquisitorial Apprenticeship",
             "id": "f68a-28ac-7ff9-5855",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -33940,7 +33926,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Field Interdiction",
+            "name": "Imperial Sanction: Field Interdiction",
             "id": "6af2-8dff-dbc7-b88d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -33950,20 +33936,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cost: 1 AP. When: In your Shooting phase, before selecting a friendly unit to shoot. Target: One friendly INQUISITION INFANTRY unit within 12\" of this model. Effect: Until the end of the phase, ranged weapons equipped by models in that unit have Ignores Cover when targeting your Priority Target. Limit: Once per battle round for this model."
-              }
-            ]
-          },
-          {
-            "name": "Unit composition and equipment",
-            "id": "e0e2-239b-9d4a-cba4",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Inquisitorial Interrogator. Executioner pistol and power sword. May replace the pistol with a condemnor shotgun and the sword with a power maul. Support: Inquisitorial Agents, Inquisitorial Weapons Cell or eligible IMPERIUM BATTLELINE INFANTRY. No Rosette, Writ or Imperial Strategist."
               }
             ]
           },
@@ -33978,6 +33950,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents, Inquisitorial Weapons Cell or eligible IMPERIUM BATTLELINE INFANTRY. No Rosette, Writ or Imperial Strategist."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "83f2-a8c2-7897-54a5",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Support"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "e0e2-239b-9d4a-cba4",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Inquisitorial Interrogator. Executioner pistol and power sword. May replace the pistol with a condemnor shotgun and the sword with a power maul. Support: Inquisitorial Agents, Inquisitorial Weapons Cell or eligible IMPERIUM BATTLELINE INFANTRY. No Rosette, Writ or Imperial Strategist."
               }
             ]
           }
@@ -34920,20 +34920,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "5191-806b-ee2f-3e0c",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Support"
-              }
-            ]
-          },
-          {
             "name": "Lethal Augmentation Those weapons have Lethal Hits",
             "id": "5dc3-3c59-1d7b-3eee",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -34948,20 +34934,6 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
-            "id": "f47d-3555-6f35-c11d",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Jokaero Weaponsmith. Jokaero weapons (choose scattered or focused profile when firing) and close combat weapon. Support: Inquisitorial Agents or Inquisitorial Weapons Cell."
-              }
-            ]
-          },
-          {
             "id": "fd16-5cf0-29fe-5f4a",
             "name": "Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -34972,6 +34944,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Inquisitorial Agents or Inquisitorial Weapons Cell."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "5191-806b-ee2f-3e0c",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Support"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "f47d-3555-6f35-c11d",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Jokaero Weaponsmith. Jokaero weapons (choose scattered or focused profile when firing) and close combat weapon. Support: Inquisitorial Agents or Inquisitorial Weapons Cell."
               }
             ]
           }
@@ -35694,20 +35694,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "50d0-3391-dbdd-faa6",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Support"
-              }
-            ]
-          },
-          {
             "name": "Holy Hatred",
             "id": "1c05-4a34-9db7-4a9b",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -35736,20 +35722,6 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
-            "id": "d3a2-9a7a-9911-a2d6",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Ministorum Priest. Zealot's vindictor, replaceable with holy pistol and power weapon. Support: Sanctifiers, Frateris Militia, Arco-flagellants, Death Cult Assassin Cell, Shrine Guardians, Imperial Navy Breachers, Vigilant Squad, Subductor Squad, Exaction Squad, Inquisitorial Agents or Inquisitorial Penitent Squad."
-              }
-            ]
-          },
-          {
             "id": "9b8d-5f7a-df27-e321",
             "name": "Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -35760,6 +35732,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Sanctifiers, Frateris Militia, Arco-flagellants, Death Cult Assassin Cell, Shrine Guardians, Imperial Navy Breachers, Vigilant Squad, Subductor Squad, Exaction Squad, Inquisitorial Agents or Inquisitorial Penitent Squad."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "50d0-3391-dbdd-faa6",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Support"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "d3a2-9a7a-9911-a2d6",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Ministorum Priest. Zealot's vindictor, replaceable with holy pistol and power weapon. Support: Sanctifiers, Frateris Militia, Arco-flagellants, Death Cult Assassin Cell, Shrine Guardians, Imperial Navy Breachers, Vigilant Squad, Subductor Squad, Exaction Squad, Inquisitorial Agents or Inquisitorial Penitent Squad."
               }
             ]
           }
@@ -36711,20 +36711,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "5794-cbfa-4226-67c8",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader"
-              }
-            ]
-          },
-          {
             "name": "Pilgrim's Resolve",
             "id": "111d-71e4-ed7d-23d9",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -36739,7 +36725,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / March of the Faithful",
+            "name": "Imperial Sanction: March of the Faithful",
             "id": "8d29-ac99-a290-6228",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -36749,20 +36735,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cost: 1 AP. When: Your Movement phase, when a friendly unit is selected to Advance. Target: That friendly MINISTORUM INFANTRY unit, if it is within 8\" of this model. Effect: That unit is eligible to declare a charge this turn despite having Advanced. Limit: Once per battle round for this model."
-              }
-            ]
-          },
-          {
-            "name": "Unit composition and equipment",
-            "id": "09fc-42a4-9270-e1b7",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Missionary. Holy shotgun and power maul. May replace the shotgun with a Ministorum flamer or plasma pistol, and the maul with a power sword. Leader: Frateris Militia, Sanctifiers or Shrine Guardians."
               }
             ]
           },
@@ -36777,6 +36749,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Frateris Militia, Sanctifiers or Shrine Guardians."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "5794-cbfa-4226-67c8",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "09fc-42a4-9270-e1b7",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Missionary. Holy shotgun and power maul. May replace the shotgun with a Ministorum flamer or plasma pistol, and the maul with a power sword. Leader: Frateris Militia, Sanctifiers or Shrine Guardians."
               }
             ]
           }
@@ -37805,20 +37805,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "999e-552b-09d7-0cad",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader"
-              }
-            ]
-          },
-          {
             "name": "Voice of the Ecclesiarchy (Aura)",
             "id": "2dd7-9c94-195e-6e18",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -37833,7 +37819,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Litany of Martyrdom",
+            "name": "Imperial Sanction: Litany of Martyrdom",
             "id": "3685-6584-1f10-40fe",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -37843,20 +37829,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cost: 2 AP. When: Start of the Fight phase. Target: Up to two friendly MINISTORUM INFANTRY units within 8\" of this model. Effect: Until the end of the phase, each time a model in one of those units is destroyed by a melee attack, if it has not fought this phase, roll one D6. On a 4+, do not remove it yet. After the attacking unit finishes its attacks, that destroyed model can fight, then is removed. Each destroyed model can fight only once. Limit: Once per battle round for this model."
-              }
-            ]
-          },
-          {
-            "name": "Unit composition and equipment",
-            "id": "b1c6-9f8f-ee27-f5d8",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Confessor. Condemnor pistol and crozius arcanum. May replace the pistol with an inferno pistol. Leader: Frateris Militia, Sanctifiers or Shrine Guardians."
               }
             ]
           },
@@ -37871,6 +37843,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Frateris Militia, Sanctifiers or Shrine Guardians."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "999e-552b-09d7-0cad",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "b1c6-9f8f-ee27-f5d8",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Confessor. Condemnor pistol and crozius arcanum. May replace the pistol with an inferno pistol. Leader: Frateris Militia, Sanctifiers or Shrine Guardians."
               }
             ]
           }
@@ -38700,20 +38700,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "92f5-bbc9-3333-5fca",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader, Imperial Strategist"
-              }
-            ]
-          },
-          {
             "name": "Incorruptible Authority",
             "id": "75e9-0ba9-4ba7-ce4f",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -38728,7 +38714,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Judicial Edict",
+            "name": "Imperial Sanction: Judicial Edict",
             "id": "ff22-e74a-8804-e133",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -38738,20 +38724,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cost: 2 AP. When: Start of your Shooting phase. Target: One enemy unit within 18\" of this model. Effect: Until the end of the turn, subtract 1 from the Objective Control characteristic of models in that unit, to a minimum of 0. Limit: Once per battle round for this model."
-              }
-            ]
-          },
-          {
-            "name": "Unit composition and equipment",
-            "id": "a864-86a2-5086-f8bd",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Judicial power maul and master-crafted bolt pistol; the pistol may be replaced with a plasma pistol. Leader: Vigilant Squad or Subductor Squad."
               }
             ]
           },
@@ -38766,6 +38738,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Vigilant Squad or Subductor Squad."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "92f5-bbc9-3333-5fca",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader, Imperial Strategist"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "a864-86a2-5086-f8bd",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Judicial power maul and master-crafted bolt pistol; the pistol may be replaced with a plasma pistol. Leader: Vigilant Squad or Subductor Squad."
               }
             ]
           }
@@ -39623,20 +39623,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "9216-cbaa-3046-ca84",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader, Imperial Strategist"
-              }
-            ]
-          },
-          {
             "name": "Battlefield Discipline",
             "id": "cbee-ec17-87ec-1f6e",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -39651,7 +39637,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Coordinated Advance",
+            "name": "Imperial Sanction: Coordinated Advance",
             "id": "e7d8-2bf0-e6c7-299d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -39661,20 +39647,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cost: 1 AP. When: Start of your Movement phase. Target: Up to two friendly ADEPTUS ARBITES INFANTRY units within 8\" of this model. Effect: Until the end of the phase, add 2\" to the Move characteristic of models in those units. Suppression Automata are eligible. Limit: Once per battle round for this model."
-              }
-            ]
-          },
-          {
-            "name": "Unit composition and equipment",
-            "id": "beea-8560-61ba-af00",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Bolt pistol and power sword. May replace the pistol with a plasma pistol and the sword with a power maul. Leader: Vigilant Squad or Subductor Squad."
               }
             ]
           },
@@ -39689,6 +39661,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Vigilant Squad or Subductor Squad."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "9216-cbaa-3046-ca84",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader, Imperial Strategist"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "beea-8560-61ba-af00",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Bolt pistol and power sword. May replace the pistol with a plasma pistol and the sword with a power maul. Leader: Vigilant Squad or Subductor Squad."
               }
             ]
           }
@@ -40619,7 +40619,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Quell Riot",
+            "name": "Imperial Sanction: Quell Riot",
             "id": "b0a6-2cf2-0390-5100",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -40629,20 +40629,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cost: 1 AP. When: In your opponent's Charge phase, just after an enemy unit ends a Charge move within Engagement Range of this model's unit. Target: That enemy unit. Effect: Until the end of the turn, subtract 1 from Hit rolls for attacks made by models in that unit. Limit: Once per battle for this model."
-              }
-            ]
-          },
-          {
-            "name": "CORE",
-            "id": "294d-d9db-88d9-d798",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Support"
               }
             ]
           },
@@ -40657,20 +40643,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "While this model is attached to a unit, each time a model in that unit makes a melee attack targeting an enemy unit within range of an objective marker, you can re-roll a Hit roll of 1."
-              }
-            ]
-          },
-          {
-            "name": "Unit composition and equipment",
-            "id": "0c32-d478-9556-a2cc",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Power maul and combat shotgun, or power maul, bolt pistol and assault shield. The shield bearer has a 4+ invulnerable save. Support: Vigilant Squad or Subductor Squad; may attach alongside a Leader under the core Support rules."
               }
             ]
           },
@@ -40690,7 +40662,7 @@
           },
           {
             "id": "208f-d1b6-d55b-2828",
-            "name": "Datasheet restrictions",
+            "name": "Datasheet Restrictions",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -40699,6 +40671,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "The shield bearer has a 4+ invulnerable save."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "294d-d9db-88d9-d798",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Support"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "0c32-d478-9556-a2cc",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Power maul and combat shotgun, or power maul, bolt pistol and assault shield. The shield bearer has a 4+ invulnerable save. Support: Vigilant Squad or Subductor Squad; may attach alongside a Leader under the core Support rules."
               }
             ]
           }
@@ -41535,20 +41535,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "1b5c-32b3-031a-eb2c",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lone Operative, Infiltrators, Stealth"
-              }
-            ]
-          },
-          {
             "name": "Surveillance Network",
             "id": "f94d-c5db-cdc8-dfdd",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -41563,7 +41549,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Expose the Guilty",
+            "name": "Imperial Sanction: Expose the Guilty",
             "id": "6222-3067-3826-7c67",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -41577,7 +41563,35 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "id": "28c4-0132-c46c-26cf",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model is not a Leader."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "1b5c-32b3-031a-eb2c",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Lone Operative, Infiltrators, Stealth"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "f188-d224-9cee-77d0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -41587,20 +41601,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Master-crafted executioner pistol and power sword. May replace the pistol with a plasma pistol and the sword with a power maul. This model is not a Leader."
-              }
-            ]
-          },
-          {
-            "id": "28c4-0132-c46c-26cf",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model is not a Leader."
               }
             ]
           }
@@ -42546,7 +42546,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "id": "a9f6-f3a3-6927-6c5a",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Only one Rogue Trader unit per army. Astartes and Stealth Suit retainers occupy two transport spaces each."
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "d81b-2b7e-b0fb-fdf6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -42556,20 +42570,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "1 Rogue Trader and 0-8 different retainers. Select one ranged weapon and one melee weapon for the Rogue Trader. Add each retainer at most once, paying its printed individual cost. Only one Rogue Trader unit per army. Astartes and Stealth Suit retainers occupy two transport spaces each. Retainer selection and model-specific rules: the Household Retainer cards."
-              }
-            ]
-          },
-          {
-            "id": "a9f6-f3a3-6927-6c5a",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Only one Rogue Trader unit per army. Astartes and Stealth Suit retainers occupy two transport spaces each."
               }
             ]
           }
@@ -43306,20 +43306,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "5118-31a8-9657-62fd",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Hunter's Mark",
                     "id": "cf02-76ce-e0e6-b6d8",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -43330,6 +43316,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "After this model resolves its long rifle attacks, each enemy unit hit by one or more of those attacks is marked until the end of the phase. Ranged weapons equipped by other models in this unit have Ignores Cover when targeting a marked enemy unit."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "5118-31a8-9657-62fd",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -43615,20 +43615,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "27db-970e-c16f-38be",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Piratical Footwork",
                     "id": "6068-8146-0fed-f768",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -43639,6 +43625,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "While this model is in this unit, you can re-roll Advance rolls made for this unit."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "27db-970e-c16f-38be",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -43917,20 +43917,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "2516-340d-4cc7-75be",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Pathfinder of the Wild",
                     "id": "70b6-27cd-ab97-9914",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -43941,6 +43927,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "While this model is in this unit, ignore modifiers to the Move characteristics of models in this unit and to Advance rolls made for it."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "2516-340d-4cc7-75be",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -44219,6 +44219,20 @@
                     ]
                   },
                   {
+                    "name": "Threads of Fate (Psychic Level 1)",
+                    "id": "7b86-d333-519c-7f4b",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "When: Start of your opponent's Shooting phase. After making a Psychic Roll, models in this unit have a 5+ invulnerable save until the end of the phase. Use Sanctioned Psykana on Sanctioned Psykana."
+                      }
+                    ]
+                  },
+                  {
                     "name": "CORE",
                     "id": "eeda-afe1-e202-8791",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -44243,20 +44257,6 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Threads of Fate - Psychic Level 1",
-                    "id": "7b86-d333-519c-7f4b",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "When: Start of your opponent's Shooting phase. After making a Psychic Roll, models in this unit have a 5+ invulnerable save until the end of the phase. Use Sanctioned Psykana on Sanctioned Psykana."
                       }
                     ]
                   }
@@ -44565,20 +44565,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "aeb4-c444-a7c1-c8ca",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Murderous Opportunist",
                     "id": "5d24-6c38-3308-7434",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -44603,6 +44589,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "This model has a 5+ invulnerable save against melee attacks."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "aeb4-c444-a7c1-c8ca",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -44904,20 +44904,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "432d-fe8a-a68f-031a",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Markerlight Designation",
                     "id": "b404-4477-3def-f8ab",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -44928,6 +44914,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "After this model resolves its ranged attacks, each enemy unit hit by one or more of those attacks is marked until the end of the phase. You can re-roll Hit rolls of 1 for ranged attacks made by other models in this unit that target a marked enemy unit."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "432d-fe8a-a68f-031a",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -45325,20 +45325,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "467c-d4ad-38f6-cd04",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Camouflage Field",
                     "id": "fe4d-5e3d-9b73-5745",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -45363,6 +45349,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "This model has FLY and BATTLESUIT and occupies two transport spaces."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "467c-d4ad-38f6-cd04",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -45758,20 +45758,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "0ab0-faf0-4ee6-7823",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Experienced Tracker",
                     "id": "7feb-2c60-f64e-7ab2",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -45782,6 +45768,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "While this model is in this unit, this unit has Scouts 6\"."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "0ab0-faf0-4ee6-7823",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -46060,20 +46060,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "924e-5819-8a55-3845",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Dakka, Dakka, Dakka!",
                     "id": "1d44-fd56-70a0-93e9",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -46084,6 +46070,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "After this model resolves its snazzgun attacks, until the end of the phase, ranged weapons equipped by other models in this unit have Sustained Hits 1: INFANTRY when targeting an enemy INFANTRY unit hit by one or more of those snazzgun attacks."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "924e-5819-8a55-3845",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -46369,20 +46369,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "e75f-f34f-bc02-f554",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Ancient Trade Charter",
                     "id": "450d-e72f-530f-c0ca",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -46393,6 +46379,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "While this model is in this unit, add 1 to the Objective Control characteristic of models in this unit while they are within range of your Dynastic Claim. This is separate from Right of Conquest."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "e75f-f34f-bc02-f554",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -46662,20 +46662,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "7202-2f42-2305-72ae",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Contract of Violence",
                     "id": "765f-5038-ab83-13de",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -46700,6 +46686,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "This ability applies to this model only."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "7202-2f42-2305-72ae",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -46905,20 +46905,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "649b-5b2a-07fe-6bb7",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Master of Accounts",
                     "id": "2794-daf4-042d-a8d9",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -46929,6 +46915,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "Once per battle, at the end of your turn, if this model is in this unit and this unit controls your Dynastic Claim, gain 1 AP."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "649b-5b2a-07fe-6bb7",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -47207,20 +47207,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "f9c9-e7e2-7e66-93bc",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Master-at-Arms",
                     "id": "6de7-6f3c-d694-91ee",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -47231,6 +47217,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "Once per battle round, when this unit is selected to shoot or fight, select one model in this unit. Until the end of the phase, add 1 to Hit rolls for attacks made by that model."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "f9c9-e7e2-7e66-93bc",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -47509,7 +47509,7 @@
                     ]
                   },
                   {
-                    "name": "Warp Eye - Psychic Level 1",
+                    "name": "Warp Eye (Psychic Level 1)",
                     "id": "6aed-78ef-72d9-0c72",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
@@ -47519,6 +47519,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "When: Start of your Shooting phase. Target: One enemy unit within 12\" of and visible to this model. After a Psychic Roll, that unit must take a Battle-shock test, subtracting 1 from the result. If it fails, it suffers D3 mortal wounds."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Warp Lock (Psychic Level 2)",
+                    "id": "ca08-3a6d-b177-7a73",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "When: Start of your opponent's Movement phase. After a Psychic Roll, enemy units being set up from Reserves cannot be set up within 12\" of this unit until the end of the phase. Use Sanctioned Psykana on Sanctioned Psykana."
                       }
                     ]
                   },
@@ -47547,20 +47561,6 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Warp Lock - Psychic Level 2",
-                    "id": "ca08-3a6d-b177-7a73",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "When: Start of your opponent's Movement phase. After a Psychic Roll, enemy units being set up from Reserves cannot be set up within 12\" of this unit until the end of the phase. Use Sanctioned Psykana on Sanctioned Psykana."
                       }
                     ]
                   }
@@ -47869,20 +47869,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "75de-fb36-d42a-f4a0",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Archeotech Calibration",
                     "id": "aee0-0563-422f-0ee2",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -47893,6 +47879,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "At the start of your Shooting phase, select one other model in this unit. Until the end of the phase, improve the Armour Penetration characteristic of that model's ranged weapons by 1."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "75de-fb36-d42a-f4a0",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -48178,20 +48178,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "c514-30f2-69f8-4ff2",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Recalibrated Targeting",
                     "id": "609c-dbda-c8ba-a466",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -48202,6 +48188,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "While this model is in this unit, each time a model in this unit makes a ranged attack targeting a VEHICLE unit, you can re-roll a Wound roll of 1."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "c514-30f2-69f8-4ff2",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -48583,20 +48583,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "30af-6d01-d2d4-33c9",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Quiet Kill",
                     "id": "1730-dbd5-42e7-0e76",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -48607,6 +48593,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "While this model is in this unit, the Rogue Trader model's melee weapons have Precision."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "30af-6d01-d2d4-33c9",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -48812,20 +48812,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "f9e0-15b0-c03b-a999",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Rejuvenation Treatment",
                     "id": "3502-1114-7db9-ac3e",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -48836,6 +48822,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "At the start of your Command phase, select one model in this unit. That model regains up to D3 lost wounds, to its starting Wounds characteristic. Once per battle, instead of healing a model, you can return one destroyed retainer with a starting Wounds characteristic of 1 to this unit at full wounds, following normal rules for returning models."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "f9e0-15b0-c03b-a999",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -49114,20 +49114,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "f333-da0d-a6e0-17d4",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Clear the Decks",
                     "id": "d58f-bc85-a45d-23d3",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -49138,6 +49124,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "While this model is in this unit, in a turn in which this unit disembarked from a transport, ranged weapons equipped by models in this unit have Assault."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "f333-da0d-a6e0-17d4",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -49416,20 +49416,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "86dc-4094-fba3-12fa",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Head-Taker",
                     "id": "3ffd-5b12-67f5-4a7e",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -49454,6 +49440,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "This model occupies two transport spaces."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "86dc-4094-fba3-12fa",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -49741,20 +49741,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "f3bb-f387-77e8-e9f9",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Unbroken Oath",
                     "id": "a72d-760e-4a41-b37d",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -49779,6 +49765,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "This model occupies two transport spaces. It does not have the ULTRAMARINES keyword."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "f3bb-f387-77e8-e9f9",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -50064,20 +50064,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "3c15-00a5-fc41-62f1",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Incineration Protocol",
                     "id": "7116-aad7-419b-f7d4",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -50102,6 +50088,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "This model occupies two transport spaces."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "3c15-00a5-fc41-62f1",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -50557,20 +50557,6 @@
                     ]
                   },
                   {
-                    "name": "FACTION",
-                    "id": "63a1-edaf-7cb1-586b",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": true,
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Imperial Authority"
-                      }
-                    ]
-                  },
-                  {
                     "name": "Litany of Faith",
                     "id": "5002-c928-ce13-a168",
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -50581,6 +50567,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "While this model is in this unit, you can re-roll Battle-shock tests taken for this unit."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "FACTION",
+                    "id": "63a1-edaf-7cb1-586b",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": true,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Imperial Authority"
                       }
                     ]
                   }
@@ -51301,20 +51301,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "b071-9665-0825-4a89",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader"
-              }
-            ]
-          },
-          {
             "name": "Boarding Discipline",
             "id": "530a-1f74-cc3f-f229",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -51329,7 +51315,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Breach and Clear",
+            "name": "Imperial Sanction: Breach and Clear",
             "id": "de34-333b-9431-8354",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -51339,20 +51325,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Cost: 1 AP. When: Your Movement phase, just after a friendly unit disembarks from a transport. Target: That friendly VOIDFARERS INFANTRY unit, if it is within 8\" of this model after disembarking. Effect: Until the end of the turn, its ranged weapons have Ignores Cover and it cannot be selected as a target of Fire Overwatch. Limit: Once per battle round for this model."
-              }
-            ]
-          },
-          {
-            "name": "Unit composition and equipment",
-            "id": "9ae9-06fd-7692-ea27",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "1 Naval Master-at-Arms. Naval shock shotgun and power cutlass. May replace the shotgun with a plasma pistol and the cutlass with a shock maul. Leader: Imperial Navy Breachers, Voidwalker Reconnaissance Team or Naval Ordnance Detail."
               }
             ]
           },
@@ -51367,6 +51339,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Imperial Navy Breachers, Voidwalker Reconnaissance Team or Naval Ordnance Detail."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "b071-9665-0825-4a89",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
+            "id": "9ae9-06fd-7692-ea27",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "1 Naval Master-at-Arms. Naval shock shotgun and power cutlass. May replace the shotgun with a plasma pistol and the cutlass with a shock maul. Leader: Imperial Navy Breachers, Voidwalker Reconnaissance Team or Naval Ordnance Detail."
               }
             ]
           }
@@ -52341,20 +52341,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "46d7-bc23-bbe9-5b6b",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Infiltrators, Lone Operative, Stealth"
-              }
-            ]
-          },
-          {
             "name": "Dead-shot",
             "id": "b997-527d-ef29-0bb3",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -52397,7 +52383,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "46d7-bc23-bbe9-5b6b",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Infiltrators, Lone Operative, Stealth"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "7833-21c2-b008-bffc",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -52946,20 +52946,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "0d53-e5a2-2bcb-5f90",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Deep Strike, Lone Operative"
-              }
-            ]
-          },
-          {
             "name": "A Word in Your Ear...",
             "id": "39cb-697a-2a2e-e45b",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -52988,7 +52974,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "0d53-e5a2-2bcb-5f90",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike, Lone Operative"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "1ed3-3e18-09a2-576a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -53415,20 +53415,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "69ff-ae01-51f5-31e0",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Scouts 8\", Feel No Pain 5+"
-              }
-            ]
-          },
-          {
             "name": "Frenzon",
             "id": "d983-4837-f750-3925",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -53471,7 +53457,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "69ff-ae01-51f5-31e0",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Scouts 8\", Feel No Pain 5+"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "c667-2bf3-a134-9748",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -53971,20 +53971,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "066e-b13d-2616-e072",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lone Operative"
-              }
-            ]
-          },
-          {
             "name": "Etherium",
             "id": "0592-f1f4-203f-19df",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -54013,7 +53999,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "066e-b13d-2616-e072",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Lone Operative"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "0a81-8e53-5745-de62",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -54482,20 +54482,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "c7e1-1d9f-b890-6c79",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Infiltrators, Lone Operative"
-              }
-            ]
-          },
-          {
             "name": "The Cleanest Kill",
             "id": "ffa0-e6c9-3dec-c3dd",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -54510,7 +54496,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "c7e1-1d9f-b890-6c79",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Infiltrators, Lone Operative"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "3229-b860-6aae-c6ec",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -54928,20 +54928,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "42df-3042-77b6-2509",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Infiltrators, Lone Operative"
-              }
-            ]
-          },
-          {
             "name": "The Venum - Hookfang",
             "id": "33c8-628a-790f-fde8",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -54970,7 +54956,7 @@
             ]
           },
           {
-            "name": "Persistent poison",
+            "name": "Persistent Poison",
             "id": "0a39-63aa-3348-ddfc",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -54998,7 +54984,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "42df-3042-77b6-2509",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Infiltrators, Lone Operative"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "fd09-a4c9-e351-22a7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -55549,20 +55549,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "c926-51dc-40d6-d959",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Infiltrators, Lone Operative, Fights First"
-              }
-            ]
-          },
-          {
             "name": "Death's Artisan",
             "id": "c009-fd9e-a985-7ca8",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -55591,7 +55577,35 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "id": "59ca-1a8e-b7ab-07bc",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Select one profile for each weapon when it is used;"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "c926-51dc-40d6-d959",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Infiltrators, Lone Operative, Fights First"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "7e2d-b8a2-1115-9b15",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -55633,20 +55647,6 @@
                     "includeChildSelections": true
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "id": "59ca-1a8e-b7ab-07bc",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Select one profile for each weapon when it is used;"
               }
             ]
           }
@@ -57331,7 +57331,7 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "Unit Composition and Equipment",
             "id": "7284-c825-88e6-8239",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -57540,7 +57540,7 @@
             ]
           },
           {
-            "name": "Endurant shield",
+            "name": "Endurant Shield",
             "id": "4fd7-cf92-801c-0c4f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -57554,7 +57554,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "id": "8315-7c37-daad-fa66",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Hunter chainfist attacks can target only MONSTER or VEHICLE units."
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "7679-ba12-0586-1760",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -57564,20 +57578,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "1 Navis Sergeant-at-Arms and 9 Navis Armsmen. One Armsman has a heavy shotgun and Endurant shield; one has a las-volley, plasma gun or meltagun; one has a demolition charge; one has a pistol and power weapon; one Hatchcutter has an autopistol and human chainfist. Remaining Armsmen have shotguns. The Sergeant has shotgun and chainsword, or bolt pistol and power weapon. Hunter chainfist attacks can target only MONSTER or VEHICLE units."
-              }
-            ]
-          },
-          {
-            "id": "8315-7c37-daad-fa66",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Hunter chainfist attacks can target only MONSTER or VEHICLE units."
               }
             ]
           }
@@ -58102,7 +58102,7 @@
             ],
             "profiles": [
               {
-                "name": "Endurant shield",
+                "name": "Endurant Shield",
                 "id": "7d5b-b30b-503d-7373",
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "Abilities",
@@ -61111,7 +61111,7 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "Unit Composition and Equipment",
             "id": "8776-9231-8b47-09fa",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -61743,7 +61743,7 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "Unit Composition and Equipment",
             "id": "a393-e62d-63ce-bd78",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -63963,20 +63963,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "d4cf-fb63-01fa-19f5",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Deep Strike"
-              }
-            ]
-          },
-          {
             "name": "Inquisitorial Training",
             "id": "4ef5-807f-62b4-0b0c",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -64005,7 +63991,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "d4cf-fb63-01fa-19f5",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "86fe-5551-8ce3-505d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -64783,7 +64783,7 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "Unit Composition and Equipment",
             "id": "1322-eabf-792a-1192",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -66177,7 +66177,7 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "Unit Composition and Equipment",
             "id": "76b1-4b93-0732-0eb0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -66309,20 +66309,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "2657-2796-4677-d7a4",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Scouts 6\""
-              }
-            ]
-          },
-          {
             "name": "Ministorum Sermon",
             "id": "b899-a79d-bc06-f072",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -66379,7 +66365,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "2657-2796-4677-d7a4",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Scouts 6\""
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "f7a4-217b-c133-c1c5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -68423,20 +68423,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "8357-17a1-3af3-1d5f",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Feel No Pain 5+"
-              }
-            ]
-          },
-          {
             "name": "Extremis Trigger Word",
             "id": "a58a-9177-6a6a-8494",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -68451,7 +68437,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "8357-17a1-3af3-1d5f",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Feel No Pain 5+"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "95d7-afb7-155a-dba6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -68907,20 +68907,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "4c1b-9b1d-f2b1-235f",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Infiltrators, Stealth"
-              }
-            ]
-          },
-          {
             "name": "Death Vow",
             "id": "4b5a-3408-28cb-0e3b",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -68935,7 +68921,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "4c1b-9b1d-f2b1-235f",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Infiltrators, Stealth"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "b25b-3843-f18e-0aa0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -69270,7 +69270,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "id": "4d97-7a95-a3fc-227e",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Occupies three transport spaces."
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "6f62-49d7-f296-4dd7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -69280,20 +69294,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "1 Reliquary Procession, equipped with sacred censers and processional staves. Occupies three transport spaces."
-              }
-            ]
-          },
-          {
-            "id": "4d97-7a95-a3fc-227e",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Occupies three transport spaces."
               }
             ]
           }
@@ -70808,7 +70808,7 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "Unit Composition and Equipment",
             "id": "e8a7-e519-bf6e-fc27",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -70968,7 +70968,7 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "Unit Composition and Equipment",
             "id": "0f64-e8a3-30f9-ae33",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -72473,20 +72473,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "bdb1-9e9c-0525-0d31",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Infiltrators, Deep Strike"
-              }
-            ]
-          },
-          {
             "name": "Imperial Law",
             "id": "888f-8f86-cd01-fa0e",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -72501,7 +72487,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Extraction Protocol",
+            "name": "Imperial Sanction: Extraction Protocol",
             "id": "3eeb-2c42-a2f6-3649",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -72515,7 +72501,35 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "id": "d2d3-70de-4659-1c27",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "The third Exaction Squad selected in your army costs 70/100 points instead of 60/90 points."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "bdb1-9e9c-0525-0d31",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Infiltrators, Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "9a28-e8a9-fd7b-c882",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -72525,20 +72539,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "5 Exactioners and 1 Cyber-mastiff, or 10 Exactioners and 1 Cyber-mastiff. No medic. Each Exactioner has a combat shotgun; for every five Exactioners, one may instead take an executioner shotgun and one other may take a shock maul. The Cyber-mastiff has jaws. The third Exaction Squad selected in your army costs 70/100 points instead of 60/90 points."
-              }
-            ]
-          },
-          {
-            "id": "d2d3-70de-4659-1c27",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "The third Exaction Squad selected in your army costs 70/100 points instead of 60/90 points."
               }
             ]
           }
@@ -72884,7 +72884,7 @@
             ]
           },
           {
-            "name": "IMPERIAL SANCTION / Writ of Detainment",
+            "name": "Imperial Sanction: Writ of Detainment",
             "id": "8956-bfe5-221b-de59",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -72898,7 +72898,7 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "Unit Composition and Equipment",
             "id": "ad37-6827-d6c5-7258",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -73356,20 +73356,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "9b83-24de-5e29-e681",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Infiltrators"
-              }
-            ]
-          },
-          {
             "name": "Target Acquisition",
             "id": "e0b9-dde1-700a-c7a6",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -73384,7 +73370,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "9b83-24de-5e29-e681",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Infiltrators"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "481a-d29e-62db-f60f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -73956,20 +73956,6 @@
         ],
         "profiles": [
           {
-            "name": "CORE",
-            "id": "3b2d-cb6e-b7ec-4815",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Scouts 6\""
-              }
-            ]
-          },
-          {
             "name": "Pursuit Protocol",
             "id": "f836-5af3-ac86-e44d",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -73984,7 +73970,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "3b2d-cb6e-b7ec-4815",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Scouts 6\""
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "879c-8f27-1eaa-5487",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -74811,7 +74811,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "id": "9c9d-8410-7fac-a817",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Excluded from ordinary transports unless expressly permitted."
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "3f72-fdf2-d006-df3c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -74821,20 +74835,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "2 or 4 Suppression Automata, each with a concussion cannon and shock baton. Excluded from ordinary transports unless expressly permitted."
-              }
-            ]
-          },
-          {
-            "id": "9c9d-8410-7fac-a817",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Excluded from ordinary transports unless expressly permitted."
               }
             ]
           }
@@ -75346,20 +75346,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "30b9-9e3d-7524-8b98",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Feel No Pain 6+"
-              }
-            ]
-          },
-          {
             "name": "Boarding Shields",
             "id": "4078-4b7c-e308-6815",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -75402,7 +75388,35 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "id": "b1ed-3c50-ea68-c012",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each model occupies 3 transport spaces where permitted."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "30b9-9e3d-7524-8b98",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Feel No Pain 6+"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "c9a1-18f3-1f17-13e8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -75412,20 +75426,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Each model has a boarding shotgun, boarding maul and shield. Shotgun -> grenadier gauntlet; maul -> breaching hammer. Each model occupies 3 transport spaces where permitted. Suggested 40mm bases."
-              }
-            ]
-          },
-          {
-            "id": "b1ed-3c50-ea68-c012",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each model occupies 3 transport spaces where permitted."
               }
             ]
           }
@@ -76045,7 +76045,7 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "Unit Composition and Equipment",
             "id": "e499-3f56-804e-abfd",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -77665,20 +77665,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "5b97-a3a6-1477-6ec4",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Scouts 6\", Infiltrators"
-              }
-            ]
-          },
-          {
             "name": "Grapnel Traverse",
             "id": "d34e-f393-3797-a851",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -77707,7 +77693,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "5b97-a3a6-1477-6ec4",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Scouts 6\", Infiltrators"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "3d80-cfca-bddd-0cd6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -78325,7 +78325,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "id": "5921-fc1f-00f3-be5e",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Hunter only targets MONSTER/VEHICLE."
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "2987-9c00-bc3d-bac5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -78335,20 +78349,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Each has plasma cutter and hydraulic claw; may exchange plasma cutter for rivet cannon. One in every two can instead have melta lance; one in every two can take siege drill. 50mm suggested bases. Hunter only targets MONSTER/VEHICLE."
-              }
-            ]
-          },
-          {
-            "id": "5921-fc1f-00f3-be5e",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Hunter only targets MONSTER/VEHICLE."
               }
             ]
           }
@@ -79190,20 +79190,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "66f0-ea87-74e3-a3dd",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Feel No Pain 5+, Deadly Demise 1"
-              }
-            ]
-          },
-          {
             "name": "Endless Suffering",
             "id": "b4fd-a37b-eb8c-3a19",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -79218,7 +79204,35 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "id": "c760-c529-2b98-10ed",
+            "name": "Datasheet Restrictions",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "the mixed pair does not gain Extra Attacks."
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "id": "66f0-ea87-74e3-a3dd",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Feel No Pain 5+, Deadly Demise 1"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "4bd0-dbda-08a6-ea61",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -79228,20 +79242,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Each Engine has penitent flamers and twin buzz-blades. May replace twin buzz-blades with twin flails or with one buzz-blade and one penitent flail. Apply the normal melee weapon-selection rules; the mixed pair does not gain Extra Attacks."
-              }
-            ]
-          },
-          {
-            "id": "c760-c529-2b98-10ed",
-            "name": "Datasheet restrictions",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "the mixed pair does not gain Extra Attacks."
               }
             ]
           }
@@ -79992,20 +79992,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "54cb-f16a-61a0-adbd",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Scouts 8\", Deadly Demise 1"
-              }
-            ]
-          },
-          {
             "name": "Hot Pursuit",
             "id": "003a-3e66-cef4-e50a",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -80020,7 +80006,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "54cb-f16a-61a0-adbd",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Scouts 8\", Deadly Demise 1"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "fc72-4db1-2636-dfa4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -80423,20 +80423,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "b328-7930-c612-806d",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Deep Strike, Hover, Deadly Demise D3"
-              }
-            ]
-          },
-          {
             "name": "Emergency Retrieval",
             "id": "1177-8fe0-491f-0034",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -80451,7 +80437,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "b328-7930-c612-806d",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike, Hover, Deadly Demise D3"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "cade-a9db-e898-0962",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -80899,20 +80899,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "799f-6148-8170-ec4a",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Deadly Demise D3, Firing Deck 2"
-              }
-            ]
-          },
-          {
             "name": "Transport",
             "id": "2d67-7842-9b14-9bee",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -80955,7 +80941,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "799f-6148-8170-ec4a",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deadly Demise D3, Firing Deck 2"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "daa2-2313-5cd0-ddf6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -82059,20 +82059,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "4282-4226-93db-4180",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Firing Deck 6, Deadly Demise D3"
-              }
-            ]
-          },
-          {
             "name": "Transport",
             "id": "d5ef-e621-461c-6eb5",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -82101,7 +82087,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "4282-4226-93db-4180",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Firing Deck 6, Deadly Demise D3"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "0152-ddee-b23a-833b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -82572,20 +82572,6 @@
             ]
           },
           {
-            "name": "CORE",
-            "id": "e307-a136-d345-ec40",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": true,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Hover, Deadly Demise 1"
-              }
-            ]
-          },
-          {
             "name": "Aerial Deployment",
             "id": "1bb8-91f8-05d7-e64a",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -82614,7 +82600,21 @@
             ]
           },
           {
-            "name": "Unit composition and equipment",
+            "name": "CORE",
+            "id": "e307-a136-d345-ec40",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": true,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Hover, Deadly Demise 1"
+              }
+            ]
+          },
+          {
+            "name": "Unit Composition and Equipment",
             "id": "e574-751a-a54f-91b7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
