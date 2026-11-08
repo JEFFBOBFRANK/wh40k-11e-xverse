@@ -71,9 +71,19 @@ def apply_rules_display(catalogue,system,source=None):
    eternal=next(p for p in e['profiles'] if p['name']=='The Eternal')
    eternal['characteristics'][0]['$text']="**Mark a host**\n\nOnce per turn, during the Shooting or Fight phase, when Lucius is destroyed by an attack made by an enemy unit, the controller of that attacking unit must select one non-Epic Hero Infantry model from that attacking unit, if one exists. Place an ETERNAL marker on that model.\n\n**Possession**\n\nAt the start of each Fight phase, roll one D6 for the marked model. On a 3+, remove the marker, destroy that model and return Lucius to the battlefield in its former position with D6 wounds remaining.\n\n- If his base cannot fit exactly, place him as close as possible.\n- He can be set up within Engagement Range of the host's former unit or other enemy units.\n- Lucius returns as a separate single-model unit and is Stupefied and Battle-shocked.\n\n**Combat Elixir**\n\nSelect one Combat Elixir from this codex for his unit, including Signature, Warband, detachment and enhancement elixirs. It gains the normal and Stupefied effects for that state. This does not refresh an expended once-per-battle use.\n\n**Host destroyed**\n\nIf the host dies before possession resolves, that marker is lost and does not revive Lucius."
   if e['name']=='Phoenix Guard Terminators':
+   cleave=next(r['id'] for r in system['sharedRules'] if r['name']=='Cleave')
+   twin=next(r['id'] for r in system['sharedRules'] if r['name']=='Twin-linked')
    for node in walk(e):
-    if node.get('typeName')=='Melee Weapons' and node['name']=='Phoenix power spear':
-     next(c for c in node['characteristics'] if c['name']=='A')['$text']='5'
+    for profile in node.get('profiles',[]):
+     if profile.get('typeName')=='Melee Weapons' and profile['name']=='Phoenix power spear':
+      next(c for c in profile['characteristics'] if c['name']=='A')['$text']='5'
+      next(c for c in profile['characteristics'] if c['name']=='Keywords')['$text']='Lance, Cleave 2'
+      links=node.setdefault('infoLinks',[])
+      link=next((link for link in links if link.get('targetId') in [twin,cleave]),None)
+      if link is None:
+       link=dict(id=uid(profile['id']+':cleave'),type='rule',hidden=False)
+       links.append(link)
+      link.update(name='Cleave',targetId=cleave,modifiers=[dict(field='name',type='set',value='Cleave 2')])
   if e['name']=='Agoniser':
    for p in e.get('profiles',[]):
     if p['name']=='Equipment Options':
