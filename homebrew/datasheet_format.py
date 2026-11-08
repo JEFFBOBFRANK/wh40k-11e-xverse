@@ -156,6 +156,8 @@ def clean_ec_catalogue(catalogue, system, source):
             core_rules(entry, system, core[1])
         weapon_rules(entry, system)
 
+    uniform_datasheets(catalogue)
+
 
 def agent_composition_notes(text):
     """Keep attachment eligibility and genuine restrictions visible on the card.
@@ -218,3 +220,50 @@ def clean_agents_catalogue(catalogue, system, source):
         for name, text in agent_composition_notes(unit['composition']):
             add_ability(entry, system, name, text)
         weapon_rules(entry, system)
+
+    uniform_datasheets(catalogue)
+
+
+def uniform_datasheets(catalogue):
+    """Apply consistent display labels/order without changing gameplay text."""
+    labels = {
+        'Army rules': 'Army Rules',
+        'Unit composition and equipment': 'Unit Composition and Equipment',
+        'Printed keywords and notes': 'Printed Keywords and Notes',
+        'Datasheet notes': 'Datasheet Notes',
+        'Equipment options': 'Equipment Options',
+        'Eligible attachments': 'Eligible Attachments',
+        'Elixir restrictions': 'Elixir Restrictions',
+        'Weapon selection': 'Weapon Selection',
+        'Datasheet restrictions': 'Datasheet Restrictions',
+        'Ordinary doses while lucid': 'Ordinary Doses While Lucid',
+        'Attached manifestation': 'Attached Manifestation',
+        'Bound daemonic body': 'Bound Daemonic Body',
+        'Persistent poison': 'Persistent Poison',
+        'Endurant shield': 'Endurant Shield',
+    }
+    # Include previous labels so rebuilding and cleaning stay idempotent.
+    METADATA.update(labels.get(n, n) for n in tuple(METADATA))
+    for node in walk(catalogue):
+        for profile in node.get('profiles', []):
+            if profile.get('typeName') != 'Abilities':
+                continue
+            name = labels.get(profile['name'], profile['name'])
+            name = re.sub(r'^IMPERIAL SANCTION / ', 'Imperial Sanction: ', name)
+            name = re.sub(r' - Psychic Level (\d+)$', r' (Psychic Level \1)', name)
+            name = re.sub(r' - (\d+) inch Aura$', r' (\1" Aura)', name)
+            name = re.sub(r' - Aura$', ' (Aura)', name)
+            profile['name'] = name
+        # Stable ordering preserves the source order within each section.
+        def rank(profile):
+            if profile.get('hidden'):
+                return 4
+            if profile.get('typeName') != 'Abilities':
+                return 0
+            if profile['name'] in ('Leader', 'Support', 'Attachments', 'Eligible Attachments'):
+                return 2
+            if profile['name'] in ('Equipment Options', 'Weapon Selection', 'Datasheet Restrictions'):
+                return 3
+            return 1
+        if 'profiles' in node:
+            node['profiles'].sort(key=rank)
