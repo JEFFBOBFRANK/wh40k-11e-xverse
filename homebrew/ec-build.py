@@ -1,6 +1,6 @@
 """Build the EC v3.2 catalogue. Uses only the Python standard library.
 Usage: python3 build_ec.py --baseline DIR --output DIR
-The baseline must be the unmodified b7ecd9e system/catalogue snapshot.
+Use a complete current system/catalogue snapshot as the baseline.
 Source data is the adjacent ec-source-data.json (or source-data.json in work).
 """
 import argparse,json,copy,hashlib,re
@@ -24,7 +24,7 @@ def price(o,v,typ=PT):app(o,'costs',dict(name={PT:'pts',DP:'Detachment Points',E
 def group(o,n,key,mini=0,maxi=1):
  g=dict(name=n,id=uid(key),hidden=False);app(o,'selectionEntryGroups',g)
  app(g,'constraints',con(key+'min','min',mini));app(g,'constraints',con(key+'max','max',maxi));return g
-C={k:OLD[k] for k in ['id','battleScribeVersion','gameSystemId','xmlns']};C.update(name="Chaos - Emperor's Children",revision=OLD['revision']+1,gameSystemRevision=G['revision']+1,library=False,type='catalogue',authorName='Xverse homebrew',readme='Emperor’s Children homebrew v3.2, 7 November 2026. Create a new Army Roster after updating. Source transcription, build and validation notes are in homebrew/ec-*. Missing new detachment dispositions are provisional; see ec-VALIDATION.md.')
+C={k:OLD[k] for k in ['id','battleScribeVersion','gameSystemId','xmlns']};C.update(name="Chaos - Emperor's Children",revision=OLD['revision']+1,gameSystemRevision=G['revision']+1,library=False,type='catalogue',authorName='Xverse homebrew',readme='Emperor’s Children homebrew v3.2, 7 November 2026. Create a new Army Roster after updating. Source transcription, build and validation notes are in homebrew/ec-*.')
 CATS={x['name'].upper():x['id'] for x in G['categoryEntries']+OLD.get('categoryEntries',[])}
 # Keep original keyword identifiers for cross-catalogue compatibility.
 C['categoryEntries']=[dict(name=x['name'],id=x['id'],hidden=False) for x in OLD.get('categoryEntries',[])]
@@ -49,7 +49,7 @@ def linkrule(o,r,name=None,cs=None):
  if cs is not None:l['modifiers']=[mod('hidden',False,cs)]
  app(o,'infoLinks',l);return l
 # Published dispositions for returning packages, explicit v3.1 permissions first.
-disp={'Coterie of the Conceited':['Priority Assets','Purge the Foe'],'Carnival of Excess':['Disruption','Priority Assets'],'Peerless Bladesmen':['Priority Assets'],'Rapid Evisceration':['Disruption'],'Mercurial Host':['Reconnaissance']}
+disp=json.loads((HERE/'ec-display-data.json').read_text())['dispositions']
 ALL_DISP=['Disruption','Priority Assets','Purge the Foe','Take and Hold','Reconnaissance']
 UNSPECIFIED=[d['name'] for d in S['detachments'] if d['name'] not in disp]
 DET={d['name']:uid('det:'+d['name']) for d in S['detachments']}

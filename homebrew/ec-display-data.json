@@ -1,0 +1,273 @@
+{
+  "dispositions": {
+    "Perfumed Procession": [
+      "Priority Assets"
+    ],
+    "Ritual Host": [
+      "Take and Hold"
+    ],
+    "The Perfect Formula": [
+      "Disruption"
+    ],
+    "The Flesh Perfected": [
+      "Take and Hold"
+    ],
+    "The Harmonic Cabal": [
+      "Disruption"
+    ],
+    "Rapid Evisceration": [
+      "Disruption"
+    ],
+    "Carnival of Engines": [
+      "Purge the Foe"
+    ],
+    "Cult of Perfect Agony": [
+      "Take and Hold"
+    ],
+    "The Veiled Hunt": [
+      "Reconnaissance"
+    ],
+    "The Gilded Retinue": [
+      "Priority Assets"
+    ],
+    "Kakophonic Conclave": [
+      "Purge the Foe"
+    ],
+    "Peerless Bladesmen": [
+      "Priority Assets"
+    ],
+    "Mercurial Host": [
+      "Reconnaissance"
+    ],
+    "Coterie of the Conceited": [
+      "Priority Assets",
+      "Purge the Foe"
+    ],
+    "Carnival of Excess": [
+      "Disruption",
+      "Priority Assets"
+    ],
+    "The Grand Symphony": [
+      "Purge the Foe",
+      "Priority Assets"
+    ]
+  },
+  "elixirs": [
+    {
+      "name": "Hyperstimulants",
+      "timing": "start of your Movement phase",
+      "duration": "end of the turn",
+      "effect": "Ranged attacks made by this unit have Assault, and making an Advance move does not prevent this unit from declaring a charge that turn. ",
+      "stupefied": "also add 2 to Advance rolls made for this unit."
+    },
+    {
+      "name": "Frenzon",
+      "timing": "start of your Movement phase",
+      "duration": "end of the turn",
+      "effect": "Making a Fall Back move does not prevent this unit from shooting or declaring a charge that turn. ",
+      "stupefied": "also add 3\" to the distance models in this unit can move when making a Fall Back move."
+    },
+    {
+      "name": "Adrenal Surge",
+      "timing": "start of either Fight phase",
+      "duration": "end of the phase",
+      "effect": "Add 2 to the Strength characteristic of melee weapons equipped by models in this unit. ",
+      "stupefied": "each time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\". It does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit. Other requirements of that move still apply."
+    },
+    {
+      "name": "Razor's Edge",
+      "timing": "start of your Shooting phase or either Fight phase",
+      "duration": "end of the phase",
+      "effect": "Improve the Armour Penetration characteristic of this unit's attacks by 1. ",
+      "stupefied": "those attacks also have [LETHAL HITS]."
+    },
+    {
+      "name": "Soporific Musk",
+      "timing": "start of either Fight phase",
+      "duration": "end of the phase",
+      "effect": "Subtract 1 from Hit rolls for melee attacks that target this unit. ",
+      "stupefied": "select one enemy unit within Engagement Range of this unit. That enemy unit loses Fights First until the end of the phase."
+    },
+    {
+      "name": "Hallucinogens",
+      "timing": "start of your Movement phase",
+      "duration": "end of the phase",
+      "effect": "Enemy units cannot target this unit with attacks made using the Fire Overwatch Stratagem. ",
+      "stupefied": "moves made by this unit cannot trigger enemy abilities that allow reactive moves during that phase."
+    },
+    {
+      "name": "Heightened Senses",
+      "timing": "start of your Shooting phase or either Fight phase",
+      "duration": "end of the phase",
+      "effect": "Add 1 to Hit rolls for attacks made by models in this unit. ",
+      "stupefied": "each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+    },
+    {
+      "name": "Euphoric Numbness",
+      "timing": "start of any phase",
+      "duration": "end of the phase",
+      "effect": "Models in this unit have Feel No Pain 5+. ",
+      "stupefied": "each time a model in this unit is destroyed by an enemy attack in the Fight phase, if this unit has not yet been selected to fight this phase, roll one D6. On a 4+, leave that model on the battlefield. It is removed after this unit has fought, or at the end of the phase, whichever happens first."
+    }
+  ],
+  "army_rules": {
+    "Combat Drugs": "**Combat Elixirs**\n\nAt the start of a phase specified by an accessible Combat Elixir, this unit can activate that elixir and take a Leadership test. Resolve its effects whether the test passes or fails. If failed, this unit suffers 2 mortal wounds, then becomes Battle-shocked.\n\nThis unit can activate multiple different elixirs, taking a separate test for each. It cannot activate an elixir while that elixir is already active. Battle-shock prevents new doses but does not end active effects.\n\n**Pain Brings Clarity**\n\nIf this unit is Battle-shocked but not Stupefied, it immediately ceases to be Battle-shocked when a friendly Emperor's Children unit or an enemy unit within 6\" is destroyed, or an enemy unit within 6\" fails a Battle-shock test. Measure range immediately before the last model of a destroyed unit is removed.\n\n**Stupefied**\n\nAt the end of your Command phase, after scoring, this unit can become Stupefied. Choose one accessible Combat Elixir, ignoring its activation timing and without taking a dosage test. This unit becomes Battle-shocked, ends its other elixir effects, and gains the chosen elixir's normal and Stupefied effects until it recovers.\n\nWhile Stupefied, this unit cannot take new doses or change its chosen elixir, automatically fails Leadership and Battle-shock tests, and cannot cease to be Battle-shocked.\n\nIn your next Command phase, at the Battle-shock step, automatically pass this unit's recovery test, even if it would not otherwise take one. Stupefied and its selected elixir end, and this unit ceases to be Battle-shocked.\n\n**Warband Elixirs**\n\n**Hyperstimulants**\n\n**Activate:** start of your Movement phase.\n\n**Duration:** end of the turn.\n\nRanged attacks made by this unit have Assault, and making an Advance move does not prevent this unit from declaring a charge that turn. \n\n**Stupefied:** also add 2 to Advance rolls made for this unit.\n\n**Frenzon**\n\n**Activate:** start of your Movement phase.\n\n**Duration:** end of the turn.\n\nMaking a Fall Back move does not prevent this unit from shooting or declaring a charge that turn. \n\n**Stupefied:** also add 3\" to the distance models in this unit can move when making a Fall Back move.\n\n**Adrenal Surge**\n\n**Activate:** start of either Fight phase.\n\n**Duration:** end of the phase.\n\nAdd 2 to the Strength characteristic of melee weapons equipped by models in this unit. \n\n**Stupefied:** each time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\". It does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit. Other requirements of that move still apply.\n\n**Razor's Edge**\n\n**Activate:** start of your Shooting phase or either Fight phase.\n\n**Duration:** end of the phase.\n\nImprove the Armour Penetration characteristic of this unit's attacks by 1. \n\n**Stupefied:** those attacks also have [LETHAL HITS].\n\n**Soporific Musk**\n\n**Activate:** start of either Fight phase.\n\n**Duration:** end of the phase.\n\nSubtract 1 from Hit rolls for melee attacks that target this unit. \n\n**Stupefied:** select one enemy unit within Engagement Range of this unit. That enemy unit loses Fights First until the end of the phase.\n\n**Hallucinogens**\n\n**Activate:** start of your Movement phase.\n\n**Duration:** end of the phase.\n\nEnemy units cannot target this unit with attacks made using the Fire Overwatch Stratagem. \n\n**Stupefied:** moves made by this unit cannot trigger enemy abilities that allow reactive moves during that phase.\n\n**Heightened Senses**\n\n**Activate:** start of your Shooting phase or either Fight phase.\n\n**Duration:** end of the phase.\n\nAdd 1 to Hit rolls for attacks made by models in this unit. \n\n**Stupefied:** each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n\n**Euphoric Numbness**\n\n**Activate:** start of any phase.\n\n**Duration:** end of the phase.\n\nModels in this unit have Feel No Pain 5+. \n\n**Stupefied:** each time a model in this unit is destroyed by an enemy attack in the Fight phase, if this unit has not yet been selected to fight this phase, roll one D6. On a 4+, leave that model on the battlefield. It is removed after this unit has fought, or at the end of the phase, whichever happens first.",
+    "Bound Excess": "When mustering your army, select two different Warband Elixirs for this model. Their normal effects are always active for this model, ignoring activation timing and duration. This model cannot activate additional Combat Elixirs or become Stupefied. If an effect requires an enemy selection, make that selection at the start of each applicable phase.",
+    "Sublime Strategist": "At the start of each battle round, if your Warlord has this ability, gain 1CP.",
+    "Manifestation": "Each time this unit is summoned, it gains D3 Manifestation points, to its datasheet's maximum.\n\nEach time a unit within 6\" of this unit is destroyed or fails a Battle-shock test, this unit gains 1 Manifestation point. Measure range before the destroyed unit's last model is removed. This unit can gain at most 1 Manifestation point per phase and cannot exceed its maximum.\n\nAt the end of each phase in your turn, after resolving gains, this unit loses 1 Manifestation point. If it has 0, it becomes Debound: remove it from the battlefield and return it to your summoning pool with its surviving models and remaining wounds. Becoming Debound does not count as being destroyed. Resummoning rolls its initial Manifestation again and does not restore models or wounds.",
+    "Summoning Rituals": "**Lesser Daemonic Ritual (Psychic Level 1)**\n\nAt the start of a phase in your turn, a friendly non-Daemon Psyker whose unit is not Battle-shocked can use this power. Roll one D6; on a 1, its unit becomes Battle-shocked. Regardless of the result, select one unit in your summoning pool, excluding Greater Daemons. Set it up wholly within 6\" of that Psyker and more than 8\" horizontally from enemy models. It gains D3 Manifestation points.\n\n**Greater Daemonic Ritual**\n\nAt the start of your Charge phase, select a friendly non-Daemon Psyker that has not performed a ritual this turn and one other friendly non-Daemon Infantry unit within 6\" of it. Destroy that Infantry unit, then set up one Greater Daemon from your summoning pool wholly within 6\" of the Psyker and more than 8\" horizontally from enemy models. It gains D3 Manifestation points and can charge that phase.\n\nEach Psyker can perform one ritual per turn. The lesser ritual consumes 1 level of its psychic allowance. Summon an attached Leader and Bodyguard together with one ritual and one shared Manifestation total."
+  },
+  "signature_elixirs": {
+    "Phoenician Ambrosia": "Once per battle, at the start of either Fight phase, this unit can activate this elixir. Its effects last until the end of that phase.\n\nFulgrim's daemonic blade attacks score Critical Hits on unmodified Hit rolls of 5+. \n\nIf this unit is Stupefied, once during this activation, when he fights, he can make attacks with both the strike and sweep profiles of his daemonic blades. Resolve the tail only once; this is not another fight activation and grants no additional Pile-in or Consolidation.",
+    "Duellist's Ichor": "At the start of either Fight phase, this unit can activate this elixir. Its effects last until the end of that phase.\n\nMelee weapons equipped by models in this unit have [SUSTAINED HITS 1]. \n\nIf this unit is Stupefied, their melee attacks also score Critical Hits on unmodified Hit rolls of 5+.",
+    "The Perfect Moment": "Once per battle, at the start of either Fight phase, this unit can activate this elixir. Its effects last until its end.\n\nLucius's melee weapons have [DEVASTATING WOUNDS]. \n\nIf this unit is Stupefied, once in that phase, after his unit has resolved its melee attacks, Lucius can make one additional set of melee attacks. Only Lucius attacks again; no additional Pile-in, Consolidation or bodyguard attacks are granted.",
+    "Kakophonic Distillate": "At the start of your Shooting phase or the Fight phase, this unit can activate this elixir. Its effects last until the end of that phase.\n\nDeath Scream has Devastating Wounds. \n\nIf this unit is Stupefied, each time this model's unit is selected to fight, after its Pile-in move and before making its melee attacks, this model can make normal shooting attacks with Death Scream, targeting one enemy unit engaged with its unit. For those attacks, Death Scream loses Blast and has +2 Attacks, for 8 attacks. These attacks can target that engaged unit.",
+    "Deathless Chorus": "At the start of either Shooting phase, this unit can activate this elixir. Its effects last until the end of that phase.\n\nRanged weapons equipped by models in this unit have Lethal Hits. \n\nIf this unit is Stupefied, each time a model in this unit is destroyed by an enemy ranged attack, roll one D6. On a 4+, leave that model on the battlefield until the attacking unit has resolved its attacks. The destroyed model can then make normal shooting attacks with its ranged weapons, after which it is removed. Each model can shoot this way only once per phase.",
+    "Prismatic Nectar": "At the start of your Movement phase, this unit can activate this elixir. Its effects last until the end of the turn.\n\nWhen this unit Advances, do not make an Advance roll; instead, add 6\" to models' Move characteristic for that Advance. \n\nIf this unit is Stupefied, models in this unit can also move through other models when making Normal, Advance or Fall Back moves. They cannot end overlapping another model or within Engagement Range of enemy models.",
+    "Tyrant's Tears": "At the start of your Shooting phase, this unit can activate this elixir. Its effects last until the end of the phase.\n\nSoulspike gains [IGNORES COVER]. \n\nIf this unit is Stupefied, its attacks also have [DEVASTATING WOUNDS].",
+    "Ichor of Ascension": "At the start of your Movement phase, this unit can activate this elixir. Its effects last until the end of the turn.\n\nAdd 2\" to the Move characteristic of models in this unit. \n\nIf this unit is Stupefied, that unit also gains Fly, and you add 2 to its Charge rolls.",
+    "Sovereign Ichor": "At the start of either Fight phase, this unit can activate this elixir. Its effects last until the end of that phase.\n\nImprove the Damage characteristic of this model's melee weapons by 1. \n\nIf this unit is Stupefied, those weapons also gain [CLEAVE 2].",
+    "Nectar of the Idol": "While this elixir is active, add 1 to the Attacks characteristic of melee weapons equipped by models in the affected unit. If that unit is Stupefied, those weapons also have [CLEAVE 2].",
+    "Mirrorblood Distillate": "At the start of either Fight phase, this unit can activate this elixir. Its effects last until its end.\n\nModels in this unit have a 4+ invulnerable save. \n\nIf this unit is Stupefied, each unmodified saving throw of 6 against a melee attack inflicts 1 mortal wound on the attacking unit after it finishes making its attacks, to a maximum of 6 mortal wounds per phase.",
+    "Aureate Vitae": "At the start of either Charge phase, this unit can activate this elixir. Its effects last until the end of the turn.\n\nRe-roll Charge rolls for this unit. \n\nIf this unit is Stupefied, this unit also has Fights First.",
+    "Sarcophagus Ichor": "At the start of either Shooting phase or the Fight phase, this unit can activate this elixir. Its effects last until its end.\n\nEach time an attack targets this unit, subtract 1 from its Damage characteristic, to a minimum of 1. \n\nIf this unit is Stupefied, after an enemy unit finishes making its attacks against this model, it heals D3 wounds, provided it was not destroyed."
+  },
+  "detachments": {
+    "Perfumed Procession": [
+      {
+        "name": "Allied Allowance",
+        "text": "You can include up to 500 points of Legions of Excess. This allowance stacks with Ritual Host, permitting 1,000 points when both are selected."
+      },
+      {
+        "name": "Living Elixirs",
+        "text": "When mustering your army, select up to three Legions of Excess units from Keeper of Secrets, Tranceweaver, Infernal Enrapturess, Contorted Epitome, Fiends and Choir of Unmaking. Assign each selected unit one Warband Elixir. Living Elixir (6\" Aura): Friendly non-Daemon EC units within 6\" gain that elixir's normal effect. No dosage test is taken and no Stupefied amplification is granted. Identical effects do not stack. The effect ends when the recipient leaves range or the source leaves the battlefield."
+      }
+    ],
+    "Ritual Host": [
+      {
+        "name": "Allied Allowance",
+        "text": "You can include up to 500 points of Legions of Excess. This allowance stacks with Perfumed Procession, permitting 1,000 points when both are selected."
+      },
+      {
+        "name": "A Thousand Willing Voices",
+        "text": "Non-Daemon EC Characters without Psyker can perform Lesser Daemonic Ritual as though they were Psyker Level 1, solely for that ritual. When a non-Daemon EC Psyker Character performs Lesser Daemonic Ritual, it does not consume that model's psychic-level allowance. Each summoner retains the normal one-ritual-per-turn limit. Greater Daemonic Ritual retains its Psyker and sacrifice requirements."
+      }
+    ],
+    "The Perfect Formula": [
+      {
+        "name": "An Expanded Apothecary",
+        "text": "Add Chronostim and Sovereign Delusion to your army's available Warband Elixirs."
+      },
+      {
+        "name": "Warband Elixir: Chronostim",
+        "text": "Start of your Shooting phase; until its end. After this unit has shot, it can make a Normal move of up to 6\" if unengaged. If Stupefied, that move can be up to 9\" instead. A unit that makes this move cannot charge that turn."
+      },
+      {
+        "name": "Warband Elixir: Sovereign Delusion",
+        "text": "Start of either Command phase; until the end of the turn. Add 1 to models' OC. If Stupefied, Battle-shock does not set their OC to 0; use their modified OC instead."
+      }
+    ],
+    "The Flesh Perfected": [
+      {
+        "name": "Reconstructive Perfection",
+        "text": "When a Chirurgeon uses Reconstructive Art, select its own unit or another friendly non-Daemon EC Infantry unit within 6\". That unit heals D3+3 wounds instead of D3+1. A unit can benefit from Reconstructive Art only once per phase."
+      }
+    ],
+    "The Harmonic Cabal": [
+      {
+        "name": "Resonant Minds",
+        "text": "Once per battle round, each friendly EC or Legions of Excess Psyker unit can use one Level 1 psychic power without consuming its psychic-level allowance. The power's normal procedure applies. This does not itself grant allied access."
+      }
+    ],
+    "Rapid Evisceration": [
+      {
+        "name": "Arrive in Splendour",
+        "text": "Add 2\" to the Move of friendly EC Transport models. Each time a friendly EC Infantry unit disembarks from a Transport, add 1 to its Charge rolls until the end of the turn."
+      }
+    ],
+    "Carnival of Engines": [
+      {
+        "name": "Witness the Spectacle",
+        "text": "When a friendly EC Daemon Vehicle resolves Exultation in Ruin, it can select up to two eligible friendly units instead of one."
+      }
+    ],
+    "Cult of Perfect Agony": [
+      {
+        "name": "Their Suffering, Our Apotheosis",
+        "text": "For this detachment, Devotees means Ecstatic Congregation, Chained Thralls and Fleshbound units. Once per turn, after a friendly Devotees unit is destroyed, select one friendly non-Daemon EC unit with Combat Drugs within 6\" of that unit immediately before its last model was removed. The selected unit can activate one accessible elixir, ignoring its activation timing and taking its normal dosage test. An elixir normally lasting a phase lasts until the end of the current phase; one normally lasting a turn lasts until the end of the current turn."
+      }
+    ],
+    "The Veiled Hunt": [
+      {
+        "name": "The Hunt Begins Before the Battle",
+        "text": "Before deployment, select up to three non-Daemon EC Infantry units, excluding Terminator and Jump Pack units. Models in those units gain Scouts 6\"."
+      }
+    ],
+    "The Gilded Retinue": [
+      {
+        "name": "Peerless Technique",
+        "text": "At the start of each Fight phase, each friendly Excruciator Terminator, Phoenix Guard Terminator and Flawless Blade unit can select one technique until the end of the phase: \n\n**The Killing Stroke:** Improve the AP of melee weapons equipped by models in this unit by 1. \n\n**The Perfect Guard:** Each time a melee attack targets this unit, worsen that attack's AP by 1."
+      }
+    ],
+    "Kakophonic Conclave": [
+      {
+        "name": "Overwhelming Resonance",
+        "text": "Each time an EC model makes a ranged attack targeting an enemy unit within 12\" of that model, add 1 to the Strength characteristic of that attack and improve its Armour Penetration characteristic by 1."
+      }
+    ],
+    "Peerless Bladesmen": [
+      {
+        "name": "Exquisite Swordsmanship",
+        "text": "Each time an EC unit, excluding Vehicles, is selected to fight, if it made a Charge move this turn, select one fighting form for that unit until the end of the phase. Each unit chooses independently. \n\n**The Duellist:** Melee weapons equipped by models in this unit gain Precision. \n\n**The Executioner:** Add 1 to the Damage of melee weapons equipped by models in this unit. \n\n**The Coiling Serpent:** Each time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\". It does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit. Other requirements of that move still apply."
+      }
+    ],
+    "Mercurial Host": [
+      {
+        "name": "Never Still",
+        "text": "For this detachment, Mercurial units means friendly EC Infantry, Mounted and Beast units. Add 2\" to the Move of models in Mercurial units. Once per turn, after an enemy unit ends a Normal, Advance or Fall Back move within 8\" of an unengaged Mercurial unit, one such friendly unit can make a Normal move of up to 6\"."
+      }
+    ],
+    "Coterie of the Conceited": [
+      {
+        "name": "Pledges to the Dark Prince",
+        "text": "At the start of the battle round, if your WARLORD is on the battlefield, you must pledge a number to Slaanesh representing how many enemy units will be destroyed this battle round. At the end of the battle round, if the number of enemy units destroyed this battle round is greater than or equal to your pledge, you gain a number of Pact points equal to your pledge. Otherwise, you do not gain any Pact points this battle round and your WARLORD model suffers D3 mortal wounds. EMPEROR'S CHILDREN units from your army gain a bonus depending on how many Pact points you have gained during the battle (these are all cumulative): \n\n**1+ Pact:** Each time a model in this unit makes an attack, re-roll a Hit roll of 1. \n\n**3+ Pact:** Each time a model in this unit makes an attack, re-roll a Wound roll of 1. \n\n**5+ Pact:** Melee weapons equipped by models in this unit have the [LETHAL HITS] and [SUSTAINED HITS 1] abilities. \n\n**7+ Pact:** Each time a model in this unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+."
+      }
+    ],
+    "Carnival of Excess": [
+      {
+        "name": "Allied Allowance",
+        "text": "You can include Legions of Excess allies up to 500 points at Incursion, 1,000 points at Strike Force or 1,500 points at Onslaught. Legions models cannot be your Warlord."
+      },
+      {
+        "name": "Daemonic Empowerment",
+        "text": "An EC unit within 6\" of one or more friendly Legions of Excess units is Empowered . A Legions of Excess unit within 6\" of one or more friendly EC units is Empowered. \n\n**EC units:** While Empowered, add 1 to this unit's dosage Leadership tests. If it activates its first ordinary Combat Elixir dose of the turn while Empowered, it heals D3 wounds after resolving the dosage test and its consequences. This restoration occurs once per unit per turn. Becoming Stupefied does not trigger it. \n\n**Legions units:** While Empowered, add 1 to this unit's Advance and Charge rolls. \n\n**Mortal Anchors:** Each time a Legions unit is summoned, if it is Empowered at the end of that phase, it does not lose a Manifestation point at that phase's end. Afterwards, its normal losses resume."
+      }
+    ],
+    "The Grand Symphony": [
+      {
+        "name": "Instruments of Excess",
+        "text": "An Emperor's Children unit gains SONIC while any model in it is equipped with a Sonic Weapon. Attached units count all their models. All firing profiles of the following weapons qualify:\n\nSonic blaster; twin sonic blaster; screamer pistol; combi-weapon - sonic; blastmaster; dreadblastmaster; grand blastmaster; cathedral blastmaster; Defiler blastmaster; sonic balespewer; sonic destructor; cathedral sonic immolator; resonance cannon; shriek cannon; grand vox array; Death Scream; The Eighth's Refrain."
+      },
+      {
+        "name": "Stage Tokens",
+        "text": "Start the battle with 0 Stage Tokens. Unspent tokens carry between rounds. Your pool cannot exceed 12, and you can gain at most 6 per battle round.\n\nAfter a friendly Emperor's Children unit shoots in your Shooting phase, if its Sonic Weapon attacks caused an enemy model to lose one or more wounds, gain 1 Stage Token. Each unit can generate this reward once per Shooting phase.\n\nOnce per Shooting phase, after a friendly Emperor's Children SONIC unit destroys an enemy unit with a Sonic Weapon ranged attack, gain 1 additional Stage Token. Resolve these gains before paying for Daemonic Encore."
+      },
+      {
+        "name": "Discordant Overture (2 Stage Tokens)",
+        "text": "WHEN: Your Shooting phase, after a friendly SONIC unit has shot and hit an enemy unit with a listed Sonic Weapon.\n\nEFFECT: That enemy unit takes a Battle-shock test, subtracting 1 from the result. Resolve after that attacking unit's shooting. Multiple Overtures cannot target the same unit in one phase."
+      },
+      {
+        "name": "Shattering Crescendo (4 Stage Tokens)",
+        "text": "WHEN: Your Shooting phase, when you select one friendly EC unit to shoot.\n\nREQUIREMENT: Select one enemy unit that was already hit by a listed Sonic Weapon earlier in the phase.\n\nEFFECT: Until the end of this phase, add 1 to the Damage characteristic of ranged attacks made by the selected EC unit that target that enemy unit. Once per Shooting phase. This bonus does not stack with The Grand Finale."
+      },
+      {
+        "name": "Daemonic Encore (7 Stage Tokens)",
+        "text": "WHEN: Immediately after a friendly EC SONIC unit destroys an enemy unit with one or more of its ranged attacks. Mark the position of the last model removed from that destroyed enemy unit.\n\nEFFECT: Create and summon one unit of ten Daemonettes without paying any army points, without a summoner, without a sacrifice and without a summoning-pool declaration. Set up the first Daemonette model as close as possible to the last removed model's position; set up the remaining models as close as possible while keeping the unit in coherency. Models cannot overlap occupied bases or be placed in impassable positions. Ignore the ordinary 8-inch enemy-distance requirement: these Daemonettes may be set up within Engagement Range of enemy units. The unit begins with 3 Manifestation points (maximum 3) and does not lose a point at the end of the phase in which it appears. Afterwards it uses the ordinary Manifestation rules. If it becomes Debound, remove it from the battle rather than return it to the summoning pool. If all ten models cannot be placed legally in coherency, the summon cannot be performed and no tokens are spent. These free Daemonettes do not grant access to paid Legions of Excess allies or additional free datasheets."
+      },
+      {
+        "name": "The Grand Finale (9 Stage Tokens)",
+        "text": "WHEN: Start of your Shooting phase.\n\nEFFECT: Until the end of that phase, add 1 to the Damage characteristic of ranged weapons equipped by models in friendly EC SONIC units when targeting enemy units within 12\" of those models. Once per battle. This bonus cannot stack with Shattering Crescendo on the same attack."
+      }
+    ]
+  }
+}

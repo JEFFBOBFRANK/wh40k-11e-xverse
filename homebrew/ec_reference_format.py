@@ -216,7 +216,9 @@ def apply_references(catalogue, system, source):
                 weapon_links += add_rule_link(node, rule)
     from datasheet_format import clean_ec_catalogue
     clean_ec_catalogue(catalogue, system, source)
-    return dict(reference_sections=len(formatted), named_ability_profiles=ability_count,
+    from ec_rules_display import apply_rules_display
+    apply_rules_display(catalogue, system, source)
+    return dict(reference_sections=3, named_ability_profiles=ability_count,
                 core_rule_links=core_links, weapon_rule_links=weapon_links,
                 source_publication=publication['name'])
 
