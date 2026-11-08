@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 30,
+    "revision": 31,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -18601,9 +18601,18 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "-"
+                            "$text": "Lance"
                           }
                         ]
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "48b2-ac0c-c1a0-4c1c",
+                        "name": "Lance",
+                        "type": "rule",
+                        "targetId": "2ebc-abdf-8129-6c57",
+                        "hidden": false
                       }
                     ]
                   }
