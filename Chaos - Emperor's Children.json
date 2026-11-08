@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 27,
+    "revision": 28,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -1224,7 +1224,7 @@
                   {
                     "name": "Instruments of Excess",
                     "id": "8dd0-4c8f-af26-1896",
-                    "description": "\n\nAn Emperor's Children unit gains SONIC while any model in it is equipped with a Sonic Weapon. Attached units count all their models. All firing profiles of the following weapons qualify:\n\n### Sonic Weapons\n\n- Sonic blaster\n- twin sonic blaster\n- screamer pistol\n- combi-weapon - sonic\n- blastmaster\n- dreadblastmaster\n- grand blastmaster\n- cathedral blastmaster\n- Defiler blastmaster\n- sonic balespewer\n- sonic destructor\n- cathedral sonic immolator\n- resonance cannon\n- shriek cannon\n- grand vox array\n- Death Scream\n- The Eighth's Refrain\n\n### Stage Tokens\n\nStart the battle with 0 Stage Tokens. Unspent tokens carry between rounds. Your pool cannot exceed 12, and you can gain at most 6 per battle round.\n\n**Damage Verse**\n\nAfter a friendly Emperor's Children unit shoots in your Shooting phase, if its Sonic Weapon attacks caused an enemy model to lose one or more wounds, gain 1 Stage Token. Each unit can generate this reward once per Shooting phase.\n\n**Slaughter Verse**\n\nOnce per Shooting phase, after a friendly Emperor's Children SONIC unit destroys an enemy unit with a Sonic Weapon ranged attack, gain 1 additional Stage Token. Resolve these gains before paying for Daemonic Encore.\n\n### Discordant Overture (2 Stage Tokens)\n\n#### When\n\nYour Shooting phase, after a friendly SONIC unit has shot and hit an enemy unit with a listed Sonic Weapon.\n\n#### Effect\n\nThat enemy unit takes a Battle-shock test, subtracting 1 from the result. Resolve after that attacking unit's shooting. Multiple Overtures cannot target the same unit in one phase.\n\n### Shattering Crescendo (4 Stage Tokens)\n\n#### When\n\nYour Shooting phase, when you select one friendly EC unit to shoot.\n\n#### Requirement\n\nSelect one enemy unit that was already hit by a listed Sonic Weapon earlier in the phase.\n\n#### Effect\n\nUntil the end of this phase, add 1 to the Damage characteristic of ranged attacks made by the selected EC unit that target that enemy unit. Once per Shooting phase. This bonus does not stack with The Grand Finale.\n\n### Daemonic Encore (7 Stage Tokens)\n\n#### When\n\nImmediately after a friendly EC SONIC unit destroys an enemy unit with one or more of its ranged attacks. Mark the position of the last model removed from that destroyed enemy unit.\n\n#### Effect\n\nCreate and summon one unit of ten Daemonettes without paying any army points, without a summoner, without a sacrifice and without a summoning-pool declaration.\n\nSet up the first Daemonette model as close as possible to the last removed model's position; set up the remaining models as close as possible while keeping the unit in coherency. Models cannot overlap occupied bases or be placed in impassable positions. Ignore the ordinary 8-inch enemy-distance requirement: these Daemonettes may be set up within Engagement Range of enemy units.\n\nThe unit begins with 3 Manifestation points (maximum 3) and does not lose a point at the end of the phase in which it appears. Afterwards it uses the ordinary Manifestation rules. If it becomes Debound, remove it from the battle rather than return it to the summoning pool.\n\nIf all ten models cannot be placed legally in coherency, the summon cannot be performed and no tokens are spent.\n\nThese free Daemonettes do not grant access to paid Legions of Excess allies or additional free datasheets.\n\n### The Grand Finale (9 Stage Tokens)\n\n#### When\n\nStart of your Shooting phase.\n\n#### Effect\n\nUntil the end of that phase, add 1 to the Damage characteristic of ranged weapons equipped by models in friendly EC SONIC units when targeting enemy units within 12\" of those models. Once per battle. This bonus cannot stack with Shattering Crescendo on the same attack.",
+                    "description": "\n\nAn Emperor's Children unit gains SONIC while any model in it is equipped with a Sonic Weapon. Attached units count all their models. All firing profiles of the following weapons qualify:\n\n### Sonic Weapons\n\n- Sonic blaster\n- twin sonic blaster\n- screamer pistol\n- combi-weapon - sonic\n- blastmaster\n- dreadblaster\n- requiem cannon\n- cathedral annihilator\n- Discord cannon\n- sonic balespewer\n- sonic destructor\n- cathedral sonic immolator\n- resonance cannon\n- shriek cannon\n- grand vox array\n- Death Scream\n- The Eighth's Refrain\n\n### Stage Tokens\n\nStart the battle with 0 Stage Tokens. Unspent tokens carry between rounds. Your pool cannot exceed 12, and you can gain at most 6 per battle round.\n\n**Damage Verse**\n\nAfter a friendly Emperor's Children unit shoots in your Shooting phase, if its Sonic Weapon attacks caused an enemy model to lose one or more wounds, gain 1 Stage Token. Each unit can generate this reward once per Shooting phase.\n\n**Slaughter Verse**\n\nOnce per Shooting phase, after a friendly Emperor's Children SONIC unit destroys an enemy unit with a Sonic Weapon ranged attack, gain 1 additional Stage Token. Resolve these gains before paying for Daemonic Encore.\n\n### Discordant Overture (2 Stage Tokens)\n\n#### When\n\nYour Shooting phase, after a friendly SONIC unit has shot and hit an enemy unit with a listed Sonic Weapon.\n\n#### Effect\n\nThat enemy unit takes a Battle-shock test, subtracting 1 from the result. Resolve after that attacking unit's shooting. Multiple Overtures cannot target the same unit in one phase.\n\n### Shattering Crescendo (4 Stage Tokens)\n\n#### When\n\nYour Shooting phase, when you select one friendly EC unit to shoot.\n\n#### Requirement\n\nSelect one enemy unit that was already hit by a listed Sonic Weapon earlier in the phase.\n\n#### Effect\n\nUntil the end of this phase, add 1 to the Damage characteristic of ranged attacks made by the selected EC unit that target that enemy unit. Once per Shooting phase. This bonus does not stack with The Grand Finale.\n\n### Daemonic Encore (7 Stage Tokens)\n\n#### When\n\nImmediately after a friendly EC SONIC unit destroys an enemy unit with one or more of its ranged attacks. Mark the position of the last model removed from that destroyed enemy unit.\n\n#### Effect\n\nCreate and summon one unit of ten Daemonettes without paying any army points, without a summoner, without a sacrifice and without a summoning-pool declaration.\n\nSet up the first Daemonette model as close as possible to the last removed model's position; set up the remaining models as close as possible while keeping the unit in coherency. Models cannot overlap occupied bases or be placed in impassable positions. Ignore the ordinary 8-inch enemy-distance requirement: these Daemonettes may be set up within Engagement Range of enemy units.\n\nThe unit begins with 3 Manifestation points (maximum 3) and does not lose a point at the end of the phase in which it appears. Afterwards it uses the ordinary Manifestation rules. If it becomes Debound, remove it from the battle rather than return it to the summoning pool.\n\nIf all ten models cannot be placed legally in coherency, the summon cannot be performed and no tokens are spent.\n\nThese free Daemonettes do not grant access to paid Legions of Excess allies or additional free datasheets.\n\n### The Grand Finale (9 Stage Tokens)\n\n#### When\n\nStart of your Shooting phase.\n\n#### Effect\n\nUntil the end of that phase, add 1 to the Damage characteristic of ranged weapons equipped by models in friendly EC SONIC units when targeting enemy units within 12\" of those models. Once per battle. This bonus cannot stack with Shattering Crescendo on the same attack.",
                     "hidden": false
                   }
                 ],
@@ -47185,7 +47185,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 3 Dissonant Colossi Equipment: Each: dreadblastmaster and crushing fists."
+                "$text": "Composition: 3 Dissonant Colossi Equipment: Each: dreadblaster and crushing fists."
               }
             ]
           },
@@ -47223,7 +47223,7 @@
             "name": "Datasheet rules and equipment",
             "id": "1924-2553-124b-3cd4",
             "hidden": true,
-            "description": "Army rules: Combat Drugs.\n\nComposition: 3 Dissonant Colossi Equipment: Each: dreadblastmaster and crushing fists.\n\nCore: None.\n\n**Resonance Fracture**\n\nAfter this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, add 1 to Wound rolls for ranged attacks made by other friendly EC units that target that enemy unit. Multiple applications do not stack.\n\n**Attachments**\n\nLeader: Ramos.\n\nKeywords: Infantry, Chaos, Slaanesh. Faction: Emperor's Children.",
+            "description": "Army rules: Combat Drugs.\n\nComposition: 3 Dissonant Colossi Equipment: Each: dreadblaster and crushing fists.\n\nCore: None.\n\n**Resonance Fracture**\n\nAfter this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, add 1 to Wound rolls for ranged attacks made by other friendly EC units that target that enemy unit. Multiple applications do not stack.\n\n**Attachments**\n\nLeader: Ramos.\n\nKeywords: Infantry, Chaos, Slaanesh. Faction: Emperor's Children.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "94"
           }
@@ -47338,7 +47338,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "Dreadblastmaster",
+                    "name": "Dreadblaster",
                     "id": "5f7e-b1c5-72ac-c636",
                     "type": "upgrade",
                     "hidden": false,
@@ -47366,7 +47366,7 @@
                     "defaultAmount": 1,
                     "profiles": [
                       {
-                        "name": "Dreadblastmaster - crescendo",
+                        "name": "Dreadblaster - crescendo",
                         "id": "01df-b62e-ecbe-cb7f",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -47410,7 +47410,7 @@
                         ]
                       },
                       {
-                        "name": "Dreadblastmaster - rupture",
+                        "name": "Dreadblaster - rupture",
                         "id": "be93-a68d-6090-62d7",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -47658,7 +47658,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "94",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 3 Dissonant Colossi Equipment: Each: dreadblastmaster and crushing fists.\n\nCore: None.\n\nKeywords: Infantry, Chaos, Slaanesh. Faction: Emperor's Children."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 3 Dissonant Colossi Equipment: Each: dreadblaster and crushing fists.\n\nCore: None.\n\nKeywords: Infantry, Chaos, Slaanesh. Faction: Emperor's Children."
       },
       {
         "name": "Ghosts",
@@ -64300,7 +64300,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Replace main cannon with ectoplasma destructor or Defiler blastmaster. Replace two excruciator cannons with two magma cutters. Replace either heavy missile launcher or heavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge; maximum one electroscourge. Heavy baleflamer may instead become sonic balespewer."
+                "$text": "Replace main cannon with ectoplasma destructor or Discord cannon. Replace two excruciator cannons with two magma cutters. Replace either heavy missile launcher or heavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge; maximum one electroscourge. Heavy baleflamer may instead become sonic balespewer."
               }
             ]
           },
@@ -64380,7 +64380,7 @@
             "name": "Datasheet rules and equipment",
             "id": "8453-b13e-f582-aea5",
             "hidden": true,
-            "description": "Army rules: Bound Excess.\n\nComposition: 1 Defiler Equipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy baleflamer, shearing claws.\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\nDefiler / Abilities\n\n**Equipment options**\n\nReplace main cannon with ectoplasma destructor or Defiler blastmaster. Replace two excruciator cannons with two magma cutters. Replace either heavy missile launcher or heavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge; maximum one electroscourge. Heavy baleflamer may instead become sonic balespewer.\n\nCore: Damaged 6, Deadly Demise D6.\n\n**Scuttling Walker**\n\nNormal, Advance and Fall Back moves can pass through non-Titanic models and terrain, including enemy Engagement Range, but cannot end engaged. Automatically pass Desperate Escape tests for these moves.\n\n**Revel in Desecration**\n\nAttacks targeting enemies that are not Below Half-strength have +1 to Hit rolls.\n\n**Exultation in Ruin**\n\nAfter this unit has shot or fought, if its attacks destroyed one or more enemy units, select one friendly non-Daemon EC unit within 6\". That unit resolves Pain Brings Clarity as though an enemy unit had been destroyed within 6\" of it. This cannot clear Battle-shock while Stupefied.\n\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's Children.\n\n**Wargear Points**\n\nHades lascannon and heavy reaper autocannon each cost an additional 15 points per equipped weapon.",
+            "description": "Army rules: Bound Excess.\n\nComposition: 1 Defiler Equipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy baleflamer, shearing claws.\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\nDefiler / Abilities\n\n**Equipment options**\n\nReplace main cannon with ectoplasma destructor or Discord cannon. Replace two excruciator cannons with two magma cutters. Replace either heavy missile launcher or heavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge; maximum one electroscourge. Heavy baleflamer may instead become sonic balespewer.\n\nCore: Damaged 6, Deadly Demise D6.\n\n**Scuttling Walker**\n\nNormal, Advance and Fall Back moves can pass through non-Titanic models and terrain, including enemy Engagement Range, but cannot end engaged. Automatically pass Desperate Escape tests for these moves.\n\n**Revel in Desecration**\n\nAttacks targeting enemies that are not Below Half-strength have +1 to Hit rolls.\n\n**Exultation in Ruin**\n\nAfter this unit has shot or fought, if its attacks destroyed one or more enemy units, select one friendly non-Daemon EC unit within 6\". That unit resolves Pain Brings Clarity as though an enemy unit had been destroyed within 6\" of it. This cannot clear Battle-shock while Stupefied.\n\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's Children.\n\n**Wargear Points**\n\nHades lascannon and heavy reaper autocannon each cost an additional 15 points per equipped weapon.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "109"
           }
@@ -64987,7 +64987,7 @@
                 ]
               },
               {
-                "name": "Defiler blastmaster",
+                "name": "Discord cannon",
                 "id": "af7b-0292-9611-331b",
                 "type": "upgrade",
                 "hidden": false,
@@ -65005,7 +65005,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "Defiler blastmaster",
+                    "name": "Discord cannon",
                     "id": "f199-c001-03ad-c18f",
                     "type": "upgrade",
                     "hidden": false,
@@ -65033,7 +65033,7 @@
                     "defaultAmount": 1,
                     "profiles": [
                       {
-                        "name": "Defiler blastmaster - crescendo",
+                        "name": "Discord cannon - crescendo",
                         "id": "75a7-4fb6-861e-6f16",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -65077,7 +65077,7 @@
                         ]
                       },
                       {
-                        "name": "Defiler blastmaster - rupture",
+                        "name": "Discord cannon - rupture",
                         "id": "c7c4-e19d-7164-c8ae",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -66708,7 +66708,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "109",
-        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Defiler Equipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy baleflamer, shearing claws.\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\nDefiler / Abilities\n\nCore: Damaged 6, Deadly Demise D6.\n\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace main cannon with ectoplasma destructor or Defiler blastmaster. Replace two excruciator cannons with two magma cutters. Replace either heavy missile launcher or heavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge; maximum one electroscourge. Heavy baleflamer may instead become sonic balespewer."
+        "readme": "Army rules: Bound Excess.\n\nComposition: 1 Defiler Equipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy baleflamer, shearing claws.\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\nDefiler / Abilities\n\nCore: Damaged 6, Deadly Demise D6.\n\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace main cannon with ectoplasma destructor or Discord cannon. Replace two excruciator cannons with two magma cutters. Replace either heavy missile launcher or heavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge; maximum one electroscourge. Heavy baleflamer may instead become sonic balespewer."
       },
       {
         "name": "Agoniser",
@@ -69038,7 +69038,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Replace two heavy bolters with two sonic blasters. Replace fist with twin lascannon or grand blastmaster. Crushing tread remains available. Select one profile for a multi-profile weapon."
+                "$text": "Replace two heavy bolters with two sonic blasters. Replace fist with twin lascannon or requiem cannon. Crushing tread remains available. Select one profile for a multi-profile weapon."
               }
             ]
           },
@@ -69104,7 +69104,7 @@
             "name": "Datasheet rules and equipment",
             "id": "00f8-c0fd-12b7-8be2",
             "hidden": true,
-            "description": "Army rules: Combat Drugs.\n\nComposition: 1 Threnody Dreadnought Equipment: Cathedral sonic immolator, two heavy bolters, cathedral fist, crushing tread.\n\n**Equipment options**\n\nReplace two heavy bolters with two sonic blasters. Replace fist with twin lascannon or grand blastmaster. Crushing tread remains available. Select one profile for a multi-profile weapon.\n\nCore: Damaged 8, Deadly Demise D6.\n\n**Interred in Rapture**\n\nAt the start of the battle, select one accessible Combat Elixir. This model becomes Stupefied with it active and does not recover through normal Command-phase recovery. Other abilities can end or suspend this normally. Unless another effect prevents it, it becomes Stupefied again at the end of your next Command phase with the previous elixir. This never refreshes a once-per-battle use.\n\n**This Ground Is My Stage**\n\nAt the start of your Command phase, select one objective marker this model is within range of, whether or not you control it. Until the start of your next Command phase, while within range of that marker, this model cannot be Stupefied, retains its selected elixir's normal effects only and cannot activate additional elixirs. Ending Stupefied this way also clears its Battle-shock; ordinary subsequent Battle-shock is possible. If it leaves range, it immediately becomes Stupefied again unless another ability prevents this.\n\n**Unending Refrain**\n\nAfter this model has shot, select one enemy unit hit by one or more attacks made with its cathedral sonic immolator. That enemy unit must take a Battle-shock test.\n\nKeywords: Vehicle, Walker, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children.",
+            "description": "Army rules: Combat Drugs.\n\nComposition: 1 Threnody Dreadnought Equipment: Cathedral sonic immolator, two heavy bolters, cathedral fist, crushing tread.\n\n**Equipment options**\n\nReplace two heavy bolters with two sonic blasters. Replace fist with twin lascannon or requiem cannon. Crushing tread remains available. Select one profile for a multi-profile weapon.\n\nCore: Damaged 8, Deadly Demise D6.\n\n**Interred in Rapture**\n\nAt the start of the battle, select one accessible Combat Elixir. This model becomes Stupefied with it active and does not recover through normal Command-phase recovery. Other abilities can end or suspend this normally. Unless another effect prevents it, it becomes Stupefied again at the end of your next Command phase with the previous elixir. This never refreshes a once-per-battle use.\n\n**This Ground Is My Stage**\n\nAt the start of your Command phase, select one objective marker this model is within range of, whether or not you control it. Until the start of your next Command phase, while within range of that marker, this model cannot be Stupefied, retains its selected elixir's normal effects only and cannot activate additional elixirs. Ending Stupefied this way also clears its Battle-shock; ordinary subsequent Battle-shock is possible. If it leaves range, it immediately becomes Stupefied again unless another ability prevents this.\n\n**Unending Refrain**\n\nAfter this model has shot, select one enemy unit hit by one or more attacks made with its cathedral sonic immolator. That enemy unit must take a Battle-shock test.\n\nKeywords: Vehicle, Walker, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "112"
           }
@@ -69989,7 +69989,7 @@
                 ]
               },
               {
-                "name": "Grand blastmaster",
+                "name": "Requiem cannon",
                 "id": "60fa-f710-e666-3b8d",
                 "type": "upgrade",
                 "hidden": false,
@@ -70007,7 +70007,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "Grand blastmaster",
+                    "name": "Requiem cannon",
                     "id": "3378-7724-6c35-723b",
                     "type": "upgrade",
                     "hidden": false,
@@ -70035,7 +70035,7 @@
                     "defaultAmount": 1,
                     "profiles": [
                       {
-                        "name": "Grand blastmaster - crescendo",
+                        "name": "Requiem cannon - crescendo",
                         "id": "5c2d-406a-333d-91f3",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -70079,7 +70079,7 @@
                         ]
                       },
                       {
-                        "name": "Grand blastmaster - rupture",
+                        "name": "Requiem cannon - rupture",
                         "id": "acd2-0d5c-dd98-18a8",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -70452,7 +70452,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "112",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Threnody Dreadnought Equipment: Cathedral sonic immolator, two heavy bolters, cathedral fist, crushing tread.\n\nCore: Damaged 8, Deadly Demise D6.\n\nKeywords: Vehicle, Walker, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace two heavy bolters with two sonic blasters. Replace fist with twin lascannon or grand blastmaster. Crushing tread remains available. Select one profile for a multi-profile weapon."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Threnody Dreadnought Equipment: Cathedral sonic immolator, two heavy bolters, cathedral fist, crushing tread.\n\nCore: Damaged 8, Deadly Demise D6.\n\nKeywords: Vehicle, Walker, Threnody Dreadnought, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace two heavy bolters with two sonic blasters. Replace fist with twin lascannon or requiem cannon. Crushing tread remains available. Select one profile for a multi-profile weapon."
       },
       {
         "name": "Cacophant",
@@ -74168,7 +74168,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Replace both soulshatter lascannons with two cathedral blastmasters. Replace twin heavy bolter with twin sonic blaster. May equip one multi-melta and/or one havoc launcher."
+                "$text": "Replace both soulshatter lascannons with two cathedral annihilators. Replace twin heavy bolter with twin sonic blaster. May equip one multi-melta and/or one havoc launcher."
               }
             ]
           },
@@ -74234,7 +74234,7 @@
             "name": "Datasheet rules and equipment",
             "id": "26f1-c584-f96e-202f",
             "hidden": true,
-            "description": "Army rules: Combat Drugs.\n\nComposition: 1 Chaos Land Raider Equipment: Two soulshatter lascannons, twin heavy bolter, armoured tracks.\n\n**Equipment options**\n\nReplace both soulshatter lascannons with two cathedral blastmasters. Replace twin heavy bolter with twin sonic blaster. May equip one multi-melta and/or one havoc launcher.\n\nCore: Damaged 5, Deadly Demise D6.\n\n**Transport**\n\nThis model has a transport capacity of 14 non-Daemon Emperor's Children Infantry models. Each Terminator and Flawless Blade model takes up two spaces; each Dissonant Colossus takes up three. Jump Pack models cannot embark.\n\n**Assault Ramp**\n\nAfter this model completes a Normal move in your Movement phase, units embarked within it can make an assault disembark move.\n\nKeywords: Vehicle, Frame, Transport, Smoke, Land Raider, Chaos, Slaanesh. Faction: Emperor's Children.",
+            "description": "Army rules: Combat Drugs.\n\nComposition: 1 Chaos Land Raider Equipment: Two soulshatter lascannons, twin heavy bolter, armoured tracks.\n\n**Equipment options**\n\nReplace both soulshatter lascannons with two cathedral annihilators. Replace twin heavy bolter with twin sonic blaster. May equip one multi-melta and/or one havoc launcher.\n\nCore: Damaged 5, Deadly Demise D6.\n\n**Transport**\n\nThis model has a transport capacity of 14 non-Daemon Emperor's Children Infantry models. Each Terminator and Flawless Blade model takes up two spaces; each Dissonant Colossus takes up three. Jump Pack models cannot embark.\n\n**Assault Ramp**\n\nAfter this model completes a Normal move in your Movement phase, units embarked within it can make an assault disembark move.\n\nKeywords: Vehicle, Frame, Transport, Smoke, Land Raider, Chaos, Slaanesh. Faction: Emperor's Children.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "116"
           }
@@ -74474,7 +74474,7 @@
                 ]
               },
               {
-                "name": "Two cathedral blastmasters",
+                "name": "Two cathedral annihilators",
                 "id": "caa9-1d43-0cc7-4b3b",
                 "type": "upgrade",
                 "hidden": false,
@@ -74492,7 +74492,7 @@
                 ],
                 "selectionEntries": [
                   {
-                    "name": "Cathedral blastmaster",
+                    "name": "Cathedral annihilator",
                     "id": "191a-1536-5704-9dd9",
                     "type": "upgrade",
                     "hidden": false,
@@ -74520,7 +74520,7 @@
                     "defaultAmount": 2,
                     "profiles": [
                       {
-                        "name": "Cathedral blastmaster - crescendo",
+                        "name": "Cathedral annihilator - crescendo",
                         "id": "a6d9-6155-e353-eca0",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -74564,7 +74564,7 @@
                         ]
                       },
                       {
-                        "name": "Cathedral blastmaster - rupture",
+                        "name": "Cathedral annihilator - rupture",
                         "id": "abac-7462-95ca-46f5",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -75273,7 +75273,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "116",
-        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Chaos Land Raider Equipment: Two soulshatter lascannons, twin heavy bolter, armoured tracks.\n\nCore: Damaged 5, Deadly Demise D6.\n\nKeywords: Vehicle, Frame, Transport, Smoke, Land Raider, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace both soulshatter lascannons with two cathedral blastmasters. Replace twin heavy bolter with twin sonic blaster. May equip one multi-melta and/or one havoc launcher."
+        "readme": "Army rules: Combat Drugs.\n\nComposition: 1 Chaos Land Raider Equipment: Two soulshatter lascannons, twin heavy bolter, armoured tracks.\n\nCore: Damaged 5, Deadly Demise D6.\n\nKeywords: Vehicle, Frame, Transport, Smoke, Land Raider, Chaos, Slaanesh. Faction: Emperor's Children.\n\nEquipment Options: Replace both soulshatter lascannons with two cathedral annihilators. Replace twin heavy bolter with twin sonic blaster. May equip one multi-melta and/or one havoc launcher."
       },
       {
         "name": "Heldrake",
