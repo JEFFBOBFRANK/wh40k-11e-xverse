@@ -166,8 +166,8 @@ def add_rule_link(node, rule):
 
 def apply_references(catalogue, system, source):
     publication = dict(id=uid('publication:ec3.1'),
-                       name="Emperor's Children Homebrew Codex v3.1",
-                       shortName='EC Homebrew v3.1', publicationDate='07/11/2026',
+                       name="Emperor's Children Homebrew Codex v3.2",
+                       shortName='EC Homebrew v3.2', publicationDate='07/11/2026',
                        publisher='Xverse homebrew', hidden=False)
     catalogue.setdefault('publications', []).append(publication)
     reference = next(entry for entry in catalogue['sharedSelectionEntries']

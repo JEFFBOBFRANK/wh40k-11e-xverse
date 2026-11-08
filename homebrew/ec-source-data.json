@@ -1,7 +1,9 @@
 {
-  "version": "3.1",
-  "pdf_sha256": "9f67e82df35648405bab0aba5cb725ae9b52696dbd5621b250fad60ff348722d",
-  "source_library_version": 9,
+  "version": "3.2",
+  "source_library_version": {
+    "library_file_id": "libfile_c25329aac6508191b5ba601b70e982d7",
+    "file_name": "Emperors_Children_Codex_v3.2_Grand_Symphony.pdf"
+  },
   "units": [
     {
       "name": "Fulgrim",
@@ -460,7 +462,7 @@
         1
       ],
       "points": [
-        300
+        280
       ],
       "copy_price": false,
       "role": "Epic Hero",
@@ -561,7 +563,7 @@
         1
       ],
       "points": [
-        80
+        70
       ],
       "copy_price": false,
       "role": "Epic Hero",
@@ -613,7 +615,7 @@
         1
       ],
       "points": [
-        125
+        110
       ],
       "copy_price": false,
       "role": "Epic Hero",
@@ -1078,7 +1080,7 @@
         1
       ],
       "points": [
-        160
+        180
       ],
       "copy_price": false,
       "role": "Character",
@@ -1152,7 +1154,7 @@
         1
       ],
       "points": [
-        190
+        215
       ],
       "copy_price": false,
       "role": "Character",
@@ -1796,7 +1798,7 @@
         1
       ],
       "points": [
-        240
+        220
       ],
       "copy_price": false,
       "role": "Character",
@@ -1908,7 +1910,7 @@
         1
       ],
       "points": [
-        60
+        50
       ],
       "copy_price": false,
       "role": "Character",
@@ -1983,7 +1985,7 @@
         1
       ],
       "points": [
-        70
+        60
       ],
       "copy_price": false,
       "role": "Character",
@@ -2057,7 +2059,7 @@
         1
       ],
       "points": [
-        120
+        105
       ],
       "copy_price": false,
       "role": "Character",
@@ -2560,7 +2562,7 @@
         10
       ],
       "points": [
-        80
+        70
       ],
       "copy_price": false,
       "role": "Battleline",
@@ -3271,8 +3273,8 @@
         10
       ],
       "points": [
-        110,
-        220
+        100,
+        200
       ],
       "copy_price": false,
       "role": "Infantry",
@@ -3322,8 +3324,8 @@
         10
       ],
       "points": [
-        55,
-        110
+        45,
+        90
       ],
       "copy_price": false,
       "role": "Infantry",
@@ -3373,7 +3375,7 @@
         3
       ],
       "points": [
-        120
+        105
       ],
       "copy_price": false,
       "role": "Infantry",
@@ -3627,8 +3629,8 @@
         10
       ],
       "points": [
-        70,
-        140
+        60,
+        120
       ],
       "copy_price": false,
       "role": "Mounted",
@@ -3689,7 +3691,7 @@
         2
       ],
       "points": [
-        85
+        75
       ],
       "copy_price": false,
       "role": "Beast",
@@ -3735,7 +3737,7 @@
         1
       ],
       "points": [
-        145
+        130
       ],
       "copy_price": false,
       "role": "Beast",
@@ -3782,8 +3784,8 @@
         6
       ],
       "points": [
-        80,
-        160
+        70,
+        140
       ],
       "copy_price": false,
       "role": "Beast",
@@ -4216,7 +4218,7 @@
           "keywords": "Torrent, Blast 1, Ignores Cover"
         }
       ],
-      "rules": "Army rules: Bound Excess.\n\nComposition: 1 Defiler Equipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy baleflamer, shearing claws.\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\nDefiler / Abilities\n\n**Equipment options**\n\nReplace main cannon with ectoplasma destructor or Defiler blastmaster. Replace two excruciator cannons with two magma cutters. Replace either heavy missile launcher or heavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge; maximum one electroscourge. Heavy baleflamer may instead become sonic balespewer.\n\nCore: Damaged 6, Deadly Demise D6.\n\n**Scuttling Walker**\n\nNormal, Advance and Fall Back moves can pass through non-Titanic models and terrain, including enemy Engagement Range, but cannot end engaged. Automatically pass Desperate Escape tests for these moves.\n\n**Revel in Desecration**\n\nAttacks targeting enemies that are not Below Half-strength have +1 to Hit rolls.\n\n**Exultation in Ruin**\n\nAfter this unit has shot or fought, if its attacks destroyed one or more enemy units, select one friendly non-Daemon EC unit within 6\". That unit resolves Pain Brings Clarity as though an enemy unit had been destroyed within 6\" of it. This cannot clear Battle-shock while Stupefied.\n\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's Children.",
+      "rules": "Army rules: Bound Excess.\n\nComposition: 1 Defiler Equipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy baleflamer, shearing claws.\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\nDefiler / Abilities\n\n**Equipment options**\n\nReplace main cannon with ectoplasma destructor or Defiler blastmaster. Replace two excruciator cannons with two magma cutters. Replace either heavy missile launcher or heavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge; maximum one electroscourge. Heavy baleflamer may instead become sonic balespewer.\n\nCore: Damaged 6, Deadly Demise D6.\n\n**Scuttling Walker**\n\nNormal, Advance and Fall Back moves can pass through non-Titanic models and terrain, including enemy Engagement Range, but cannot end engaged. Automatically pass Desperate Escape tests for these moves.\n\n**Revel in Desecration**\n\nAttacks targeting enemies that are not Below Half-strength have +1 to Hit rolls.\n\n**Exultation in Ruin**\n\nAfter this unit has shot or fought, if its attacks destroyed one or more enemy units, select one friendly non-Daemon EC unit within 6\". That unit resolves Pain Brings Clarity as though an enemy unit had been destroyed within 6\" of it. This cannot clear Battle-shock while Stupefied.\n\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's Children.\n\n**Wargear Points**\n\nHades lascannon and heavy reaper autocannon each cost an additional 15 points per equipped weapon.",
       "keywords": [
         "Vehicle",
         "Walker",
@@ -4228,7 +4230,11 @@
       "army_rules": [
         "Bound Excess"
       ],
-      "raw_text": "Army rules: Bound Excess.\nComposition: 1 Defiler\nEquipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy\nbaleflamer, shearing claws.\n\n\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\n\n\nDefiler / Abilities\nEquipment options\nReplace main cannon with ectoplasma destructor or Defiler blastmaster. Replace two\nexcruciator cannons with two magma cutters. Replace either heavy missile launcher or\nheavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge;\nmaximum one electroscourge. Heavy baleflamer may instead become sonic balespewer.\nCore: Damaged 6, Deadly Demise D6.\nScuttling Walker\nNormal, Advance and Fall Back moves can pass through non-Titanic models and terrain,\nincluding enemy Engagement Range, but cannot end engaged. Automatically pass\nDesperate Escape tests for these moves.\nRevel in Desecration\nAttacks targeting enemies that are not Below Half-strength have +1 to Hit rolls.\nExultation in Ruin\nAfter this unit has shot or fought, if its attacks destroyed one or more enemy units, select\none friendly non-Daemon EC unit within 6\". That unit resolves Pain Brings Clarity as though\nan enemy unit had been destroyed within 6\" of it. This cannot clear Battle-shock while\nStupefied.\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's\nChildren."
+      "raw_text": "Army rules: Bound Excess.\nComposition: 1 Defiler\nEquipment: Hades battle cannon, two excruciator cannons, heavy missile launcher, heavy\nbaleflamer, shearing claws.\n\n\n\nVEHICLE / EQUIPMENT AND ABILITIES\n\n\n\nDefiler / Abilities\nEquipment options\nReplace main cannon with ectoplasma destructor or Defiler blastmaster. Replace two\nexcruciator cannons with two magma cutters. Replace either heavy missile launcher or\nheavy baleflamer with Hades lascannon, heavy reaper autocannon or electroscourge;\nmaximum one electroscourge. Heavy baleflamer may instead become sonic balespewer.\nCore: Damaged 6, Deadly Demise D6.\nScuttling Walker\nNormal, Advance and Fall Back moves can pass through non-Titanic models and terrain,\nincluding enemy Engagement Range, but cannot end engaged. Automatically pass\nDesperate Escape tests for these moves.\nRevel in Desecration\nAttacks targeting enemies that are not Below Half-strength have +1 to Hit rolls.\nExultation in Ruin\nAfter this unit has shot or fought, if its attacks destroyed one or more enemy units, select\none friendly non-Daemon EC unit within 6\". That unit resolves Pain Brings Clarity as though\nan enemy unit had been destroyed within 6\" of it. This cannot clear Battle-shock while\nStupefied.\nKeywords: Vehicle, Walker, Daemon, Defiler, Chaos, Slaanesh. Faction: Emperor's\nChildren.",
+      "wargear_points": {
+        "Hades lascannon": 15,
+        "Heavy reaper autocannon": 15
+      }
     },
     {
       "name": "Agoniser",
@@ -4902,7 +4908,7 @@
         1
       ],
       "points": [
-        260
+        250
       ],
       "copy_price": false,
       "role": "Vehicle",
@@ -5491,7 +5497,7 @@
       "name": "Kakophonic Conclave",
       "dp": 2,
       "page": 39,
-      "rules": "**2 DP**\n\n\n\n**Overwhelming Resonance**\n\nEach time an EC model makes a ranged attack targeting an enemy unit within 12\" of that model, improve that attack's AP by 1 and add 1 to its Damage. \n\n",
+      "rules": "**2 DP**\n\n**Overwhelming Resonance**\n\nEach time an EC model makes a ranged attack targeting an enemy unit within 12\" of that model, add 1 to the Strength characteristic of that attack and improve its Armour Penetration characteristic by 1.",
       "enhancements": [
         {
           "name": "Conductor's Baton",
@@ -5806,6 +5812,64 @@
           "text": "WHEN: End of your opponent's Fight phase. TARGET: One unengaged friendly Legions of Excess unit, excluding Greater Daemons. EFFECT: Your unit becomes Debound. The next time it is summoned, it can be set up more than 6\" horizontally from enemy models instead of 8\". Use the normal summoner, ritual and initial Manifestation procedure; retain surviving models and wounds."
         }
       ]
+    },
+    {
+      "name": "The Grand Symphony",
+      "dp": 3,
+      "page": 135,
+      "rules": "3DP / DETACHMENT RULE\n\n\n\n\nThe Grand Symphony\nThe Emperor's Children make war as a performance, amassing Stage Tokens through sonic violence before\nspending them on escalating rewards.\n\n\n\n  3 DP / THE GRAND SYMPHONY\n  One 3DP selection. No other detachment can be selected at Strike Force.\n\n\nInstruments of Excess\n\nSONIC is an equipment-derived UNIT keyword. A friendly Emperor's Children unit containing at least\none model equipped with a weapon from the Sonic Weapons register (page 136) gains SONIC. If no\nsuch model remains, it loses SONIC. SONIC is not a weapon keyword, and weapons not listed do not\nbecome Sonic Weapons merely because their unit has SONIC.\n\nAttached units count the equipment of their combined models. Determine eligibility from equipment\nactually taken when mustering, not from every option printed on a datasheet. This keyword rule\napplies throughout this codex; the Grand Symphony is the detachment that spends Stage Tokens.\n\nStage Tokens - building the performance\n\nStarting pool: 0 Stage Tokens. Unspent tokens carry between rounds. Your pool cannot exceed 12\nStage Tokens; you can gain at most 6 in each battle round. Tokens are not CP, do not interact with\nStratagem cost rules, and are not gained by Legions of Excess units.\n\nDamage verse: After a friendly EC unit finishes shooting in your Shooting phase, if one or more attacks\nmade by that unit with a listed Sonic Weapon caused an enemy model to lose one or more wounds,\ngain 1 Stage Token. A unit can generate this reward only once per Shooting phase, no matter how\nmany weapons hit or how much damage it dealt.\n\nSlaughter verse: Once per Shooting phase, after a friendly EC SONIC unit destroys an enemy unit with\na ranged attack made with a listed Sonic Weapon, gain 1 additional Stage Token. Resolve these token\ngains before checking whether you can pay for Daemonic Encore.\n\nTrigger precision: A successful Wound roll that is saved does not count as damage. Any enemy unit\ndestroyed by an attack from a friendly SONIC unit can trigger Daemonic Encore, but only a listed Sonic\nWeapon generates the extra Slaughter verse token.\n\nAvailable performances\n\nSpend your stored Stage Tokens on the performances on page 137 at their specified timing. You must\nhave enough tokens before paying. The same Stage Tokens cannot fund more than one performance.\n+1 Damage bonuses from Shattering Crescendo and The Grand Finale do not stack on the same\nattack.\n\n3DP / PERFORMANCE COSTS\n\n\n\n\nSpend Stage Tokens\nChoose between disrupting enemy formations, intensifying gunfire or materialising daemons at the climax of a\nslaughter.\n\n\nDiscordant Overture - 2 Stage Tokens\n\nWHEN: Your Shooting phase, after a friendly SONIC unit has shot and hit an enemy unit with a listed Sonic\nWeapon. EFFECT: That enemy unit takes a Battle-shock test, subtracting 1 from the result. Resolve after that\nattacking unit's shooting. Multiple Overtures cannot target the same unit in one phase.\n\nShattering Crescendo - 4 Stage Tokens\n\nWHEN: Your Shooting phase, when you select one friendly EC unit to shoot. REQUIREMENT: Select one enemy\nunit that was already hit by a listed Sonic Weapon earlier in the phase. EFFECT: Until the end of this phase, add\n1 to the Damage characteristic of ranged attacks made by the selected EC unit that target that enemy unit.\nOnce per Shooting phase.\n\nDaemonic Encore - 7 Stage Tokens\n\nWHEN: Immediately after a friendly EC SONIC unit destroys an enemy unit with one or more of its ranged\nattacks. Mark the position of the last model removed from that destroyed enemy unit. EFFECT: Create and\nsummon one unit of ten Daemonettes without paying any army points, without a summoner, without a sacrifice\nand without a summoning-pool declaration.\n\nSet up the first Daemonette model as close as possible to the last removed model's position; set up the\nremaining models as close as possible while keeping the unit in coherency. Models cannot overlap occupied\nbases or be placed in impassable positions. Ignore the ordinary 8-inch enemy-distance requirement: these\nDaemonettes may be set up within Engagement Range of enemy units. This permission overrides only that\nsetup restriction.\n\nThe unit begins with 3 Manifestation points (maximum 3) and does not lose a point at the end of the phase in\nwhich it appears. Afterwards it uses the ordinary Manifestation rules. If it becomes Debound, remove it from the\nbattle rather than return it to the summoning pool. It can fight and, if eligible, charge normally under core rules.\nIf all ten models cannot be placed legally in coherency, the summon cannot be performed and no tokens are\nspent.\n\nNo per-turn or per-battle summoning cap. You can repeat Daemonic Encore every time you meet its trigger and\ncan pay the tokens. These free Daemonettes do not grant access to paid Legions of Excess allies or additional\nfree datasheets.\n\nThe Grand Finale - 9 Stage Tokens\n\nWHEN: Start of your Shooting phase. EFFECT: Until the end of that phase, add 1 to the Damage characteristic of\nranged weapons equipped by models in friendly EC SONIC units when targeting enemy units within 12\" of those\nmodels. Once per battle. This bonus cannot stack with Shattering Crescendo on the same attack.",
+      "enhancements": [
+        {
+          "name": "Maestro's Perfect Pitch",
+          "points": 20,
+          "text": "EC SONIC Character. While the bearer is leading a unit, each time a model in that unit makes a ranged attack with a listed Sonic Weapon, re-roll a Hit roll of 1.",
+          "upgrade": false
+        },
+        {
+          "name": "Audience of One Thousand",
+          "points": 25,
+          "text": "EC SONIC Character. Once per battle round, after the bearer's unit generates a Stage Token through its Sonic Weapon attacks, gain 1 additional Stage Token, subject to the pool maximum and the 6-per-battle-round gain limit.",
+          "upgrade": false
+        },
+        {
+          "name": "Amplification Array [Upgrade]",
+          "points": 15,
+          "text": "Noise Marines, Dissonant Colossi, Cacophant or Threnody Dreadnought. Add 3\" to the Range characteristic of listed Sonic Weapons equipped by models in that unit.",
+          "upgrade": true
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Precise Harmonics",
+          "cp": 1,
+          "text": "WHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Re-roll Hit rolls of 1 for attacks made with listed Sonic Weapons until the end of the phase."
+        },
+        {
+          "name": "Deafening Pressure",
+          "cp": 1,
+          "text": "WHEN: Your Shooting phase, after a friendly SONIC unit has shot. TARGET: One enemy unit hit by a listed Sonic Weapon from that unit. EFFECT: Subtract 2\" from that enemy unit's Move characteristic and subtract 2 from its Charge rolls until the start of your next Shooting phase."
+        },
+        {
+          "name": "Wall of Noise",
+          "cp": 1,
+          "text": "WHEN: Your opponent's Shooting phase, immediately after an enemy unit selects targets. TARGET: One friendly SONIC unit selected as a target. EFFECT: Until the attacking unit has finished its attacks, worsen the AP of ranged attacks targeting your unit by 1."
+        },
+        {
+          "name": "Overwhelming Volume",
+          "cp": 1,
+          "text": "WHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Until the end of the phase, add 1 to Wound rolls made for its attacks with listed Sonic Weapons against Battle-shocked enemy units."
+        },
+        {
+          "name": "Reverberating Terror",
+          "cp": 1,
+          "text": "WHEN: Your Shooting phase, after a friendly SONIC unit destroys an enemy unit with a ranged attack. TARGET: That SONIC unit. EFFECT: Select one other enemy unit within 6\" of the last model removed from the destroyed unit. It must take a Battle-shock test, subtracting 1 from the result."
+        },
+        {
+          "name": "Measured Crescendo",
+          "cp": 1,
+          "text": "WHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Until the end of the phase, when that unit makes ranged attacks with listed Sonic Weapons, ignore modifiers to its Ballistic Skill characteristic and Hit rolls."
+        }
+      ]
     }
   ],
   "references": [
@@ -5908,6 +5972,16 @@
       "page": 133,
       "title": "At the table",
       "text": "Trigger / state Resolve Ordinary dosage Start of permitted phase; Leadership test. Effect applies either way. Failure: 2MW, then Battle-shock. Pain Brings Clarity Friendly EC or enemy unit destroyed within 6\", or enemy within 6\" fails Battle-shock. Wounds alone do not trigger it. Never clears Stupefied. Voluntary Stupefied End own Command phase. Select one accessible elixir; normal + amplified effects. Cancel other elixirs; become Battle-shocked; no new doses. While Stupefied Auto-fail Leadership / Battle-shock; cannot clear Battle-shock. Specific exceptions only. Recovery Next own Command Battle-shock step: automatic pass, end Stupefied and chosen elixir; clear Battle-shock. Threnody exception. Bound Excess Two recorded permanent Warband normal effects. No new doses, no Stupefied. Fulgrim instead has Master of Excess. Sublime Strategist At battle-round start: qualifying Warlord grants 1CP. Lucius and Doomrider excluded. Exultation in Ruin Daemon engine unit kill by attacks: one non-Daemon friendly EC unit within 6\" invokes Pain. Sonic weapons Sonic blasters / pistols S6; sonic combi S5. Blast 1 or printed higher value; blastmasters Blast 2. Phoenix Guard 3 models; M8, T6, 2+, W4, 4++; spear A8, WS2+, S7, AP-2, D2, Lance, Twin-linked. Threnody T12, W24, OC10. Permanently Stupefied unless explicitly lucid. Record chosen elixirs, dosage failures, Stupefied recovery, once-per-battle uses and permanent selections. Use the full rules and datasheets when a summary omits a condition."
+    },
+    {
+      "title": "Sonic Weapons and SONIC Eligibility",
+      "page": 136,
+      "text": "WEAPONS / EQUIPMENT REFERENCE\n\n\n\n\nSonic Weapons\nThis list defines equipment eligibility; the SONIC label belongs to the UNIT, not to an individual weapon profile.\n\n\n\n  Weapon family                        Listed Sonic Weapons\n\n\n  Handheld and sidearm                 Sonic blaster; twin sonic blaster; screamer pistol\n\n\n  Combi-weapons                        Combi-weapon - sonic\n\n\n  Blastmasters                         Blastmaster; dreadblastmaster\n\n\n  Large blastmasters                   Grand blastmaster; cathedral blastmaster\n\n\n  Defiler armory                       Defiler blastmaster; sonic balespewer\n\n\n  Heavy sonic                          Sonic destructor; cathedral sonic immolator\n\n\n  Resonance                            Resonance cannon\n\n\n  Specialist weapons                   Shriek cannon; grand vox array\n\n\n  Named weapons                        Death Scream; The Eighth's Refrain\n\n\nFor a weapon printed with multiple named firing profiles (for example, crescendo and rupture, or a focused\nprofile), each printed profile of that listed weapon counts. Weapon variants with the same listed base name\ncount. A generic weapon with the words \"sonic\" only in an ability description does not qualify unless listed here.\n\nPractical equipment examples\n\nAlways SONIC with printed standard equipment: Noise Marines, Lord Kakophonist, Eidolon, Ramos, Dissonant\nColossi, Threnody Dreadnought and Stage of Excess.\n\nSONIC when the listed option is taken: Cacophant (resonance cannon), Defiler (Defiler blastmaster or sonic\nbalespewer), Palatine Ravager (sonic destructor or sonic blasters), Chaos Land Raider (cathedral blastmasters\nor twin sonic blaster), Chaos Rhino (sonic combi-weapon), Heldrake (sonic balespewer), Excruciator Terminators\n(sonic combi-weapon or shriek cannon), and any other EC unit with an equipped weapon from the register.\n\nNot Sonic Weapons in this edition: Ghost whisper carbines and the doomfire projector. These profiles can be\nreconsidered separately; they do not qualify simply for thematic similarity.\n\nWhat SONIC does, and does not, mean\n\nStage Token generation requires attacks made with listed Sonic Weapons, not attacks with any gun in a SONIC\nunit. By contrast, Shattering Crescendo can enhance a selected EC unit's ranged attacks, and The Grand Finale\ncan enhance all ranged weapons carried by SONIC units as specifically printed on page 137."
+    },
+    {
+      "title": "Grand Symphony Performances",
+      "page": 137,
+      "text": "3DP / PERFORMANCE COSTS\n\n\n\n\nSpend Stage Tokens\nChoose between disrupting enemy formations, intensifying gunfire or materialising daemons at the climax of a\nslaughter.\n\n\nDiscordant Overture - 2 Stage Tokens\n\nWHEN: Your Shooting phase, after a friendly SONIC unit has shot and hit an enemy unit with a listed Sonic\nWeapon. EFFECT: That enemy unit takes a Battle-shock test, subtracting 1 from the result. Resolve after that\nattacking unit's shooting. Multiple Overtures cannot target the same unit in one phase.\n\nShattering Crescendo - 4 Stage Tokens\n\nWHEN: Your Shooting phase, when you select one friendly EC unit to shoot. REQUIREMENT: Select one enemy\nunit that was already hit by a listed Sonic Weapon earlier in the phase. EFFECT: Until the end of this phase, add\n1 to the Damage characteristic of ranged attacks made by the selected EC unit that target that enemy unit.\nOnce per Shooting phase.\n\nDaemonic Encore - 7 Stage Tokens\n\nWHEN: Immediately after a friendly EC SONIC unit destroys an enemy unit with one or more of its ranged\nattacks. Mark the position of the last model removed from that destroyed enemy unit. EFFECT: Create and\nsummon one unit of ten Daemonettes without paying any army points, without a summoner, without a sacrifice\nand without a summoning-pool declaration.\n\nSet up the first Daemonette model as close as possible to the last removed model's position; set up the\nremaining models as close as possible while keeping the unit in coherency. Models cannot overlap occupied\nbases or be placed in impassable positions. Ignore the ordinary 8-inch enemy-distance requirement: these\nDaemonettes may be set up within Engagement Range of enemy units. This permission overrides only that\nsetup restriction.\n\nThe unit begins with 3 Manifestation points (maximum 3) and does not lose a point at the end of the phase in\nwhich it appears. Afterwards it uses the ordinary Manifestation rules. If it becomes Debound, remove it from the\nbattle rather than return it to the summoning pool. It can fight and, if eligible, charge normally under core rules.\nIf all ten models cannot be placed legally in coherency, the summon cannot be performed and no tokens are\nspent.\n\nNo per-turn or per-battle summoning cap. You can repeat Daemonic Encore every time you meet its trigger and\ncan pay the tokens. These free Daemonettes do not grant access to paid Legions of Excess allies or additional\nfree datasheets.\n\nThe Grand Finale - 9 Stage Tokens\n\nWHEN: Start of your Shooting phase. EFFECT: Until the end of that phase, add 1 to the Damage characteristic of\nranged weapons equipped by models in friendly EC SONIC units when targeting enemy units within 12\" of those\nmodels. Once per battle. This bonus cannot stack with Shattering Crescendo on the same attack."
     }
   ],
   "elixir_pages": [
@@ -6047,6 +6121,14 @@
     "130": "UNOFFICIAL PERSONAL HOMEBREW\n\n\n\nSources and edition record\nProject archive\nEmperors_Children_Rules_Archive_v0.1.pdf; read in full. Earlier character and army-rule\nrecord, superseded by the latest conversation.\nLegacy layout reference\nEmperor's Children datasheets.pdf; six pages. Layout inspection only; retired unit rules\nexcluded.\nOld EC codex structure\nTale of Painters, review and photographed contents, 1 March 2025: https://taleofpainters.co\nm/2025/03/review-emperors-children-champions-of-slaanesh-army-set/\n10e Space Marines structure\nWarhammer Community, Saturday Pre-orders - The Space Marines Are Here, 30 September\n2023: https://www.warhammer-community.com/en-gb/articles/6PnaoxGh/saturday-pre-orde\nrs-the-space-marines-are-here/\n11e Space Marines structure\nWarhammer Community, Behold the most impressive Codex: Space Marines yet; 15\ndetachments preview; First look: Space Marines datasheets, September 2026. https://www.\nwarhammer-community.com/en-gb/articles/jfqdowqw/behold-the-most-impressive-codex-sp\nace-marines-yet/\n11e construction and flamers\nWarhammer Community: Building an army in the new edition; Space Marines detachments -\nSalamanders, Raven Guard, and more. https://www.warhammer-community.com/en-gb/arti\ncles/95fucn12/building-an-army-in-the-new-edition-of-warhammer-40000/ ; https://www.war\nhammer-community.com/en-gb/articles/dhwqtqkc/space-marines-detachments-salamander\ns-raven-guard-and-more/\nIRONBUILT baseline\n11e dataset version 2026.11.03-1521-29d4f556; accessed 4 November 2026. https://github\n.com/IRONBUILT-LLC/ironbuilt-data/blob/2a3afa1a32aa6c4f9c39dd6fe9184012777aa436/da\ntasets/wh40k-11e.json\nCommander CP reference\nWarhammer Community, Space Marines rules - First look (10 September 2026), and the\nTranshuman Strategist, Da Boss and Aquila Commander reference entries, checked 5\nNovember 2026. https://www.warhammer-community.com/en-gb/articles/ifgezlgu/space-ma\nrines-rules-first-look/\nCurrent transport and stratagem reference\nIRONBUILT live 11e dataset 2026.11.06-1700-6cb9870b, checked 7 November 2026. Rhino,\nLand Raider, Drop Pod and Peerless Bladesmen were read directly.\nhttps://ironbuilt.app/rules/adeptus-astartes ; https://ironbuilt.app/rules/emperor-s-children",
     "131": "UNOFFICIAL PERSONAL HOMEBREW\n\n\n\nSources and edition record /\nContinued\nIRONBUILT wording audit / 10e EC\nDataset 2026.10.09-1249-3d47834a; all 23 EC/Legions entries and 7 detachments checked.\nPinned public data: https://github.com/IRONBUILT-LLC/ironbuilt-data/blob/6e9d7781ea8311\n1cd67dad9eb2ad4742c416d01f/datasets/wh40k-10e.json\nIRONBUILT wording audit / transition EC and 11e SM\nDataset 2026.11.06-1700-6cb9870b; checked 7 November 2026. EC: 23 entries and 10\ndetachments. Adeptus Astartes (Codex): 77 active core/Ultramarines datasheets and 17\ndetachment packages. The separate older Astartes faction was not used as the current\ncodex. https://github.com/IRONBUILT-LLC/ironbuilt-data/blob/43262e56a689959760ec7ef89\n710c62c8e8a5803/datasets/wh40k-11e.json\nReference access\nThis wording pass uses the pinned IRONBUILT rule entries, alongside the earlier structural\nsources. Complete commercial codex PDFs were not supplied. Project-specific abilities,\nprofiles and points remain the accepted custom values.\nWarhammer 40,000 and the associated setting, names and marks belong to their\nrespective rights holders. This is an independent personal homebrew rules compilation, not\nan official Games Workshop publication. No official faction lore or artwork is reproduced.\nEdition 3.1 / 7 November 2026.",
     "132": "ALLIED QUICK REFERENCE\n\n\n\nLegions at the table\n Trigger / state                    Resolve\n\n Access                             Carnival of Excess 3DP; Perfumed Procession 1DP; Ritual Host 1DP. Use printed\n                                    points allowances.\n\n Summon lesser                      Non-Daemon Psyker; Level 1 power; start of a phase in your turn; wholly within\n                                    6 inches, more than 8 inches from enemies.\n\n Summon greater                     Start own Charge; non-Daemon Psyker; sacrifice another non-Daemon Infantry\n                                    unit within 6 inches; then place greater daemon.\n\n Initial points                     D3 each summoning. Maximum 3 lesser / 6 greater.\n\n Gain points                        A unit destroyed or fails Battle-shock within 6 inches. Either allegiance;\n                                    maximum 1 gain per phase.\n\n Lose points                        1 at the end of EACH phase in YOUR turn. Furies: only your Fight phase.\n\n Debound                            Return surviving models and remaining wounds to pool. Not destroyed;\n                                    leaving-battlefield rules trigger.\n\n Furies                             Base OC0; each enemy model destroyed gives one Fury +1 OC, maximum 3.\n                                    Persists through resummoning.\n\n Auras                              Reality Unravels affects both allegiances: Daemons +1 melee AP; non-Daemons\n                                    worse Leadership.\n\nUse the full chapter for timing, attachment and exception wording.",
-    "133": "BACK-PAGE QUICK REFERENCE\n\n\n\nAt the table\n Trigger / state                     Resolve\n\n Ordinary dosage                     Start of permitted phase; Leadership test. Effect applies either way. Failure:\n                                     2MW, then Battle-shock.\n\n Pain Brings Clarity                 Friendly EC or enemy unit destroyed within 6\", or enemy within 6\" fails\n                                     Battle-shock. Wounds alone do not trigger it. Never clears Stupefied.\n\n Voluntary Stupefied                 End own Command phase. Select one accessible elixir; normal + amplified\n                                     effects. Cancel other elixirs; become Battle-shocked; no new doses.\n\n While Stupefied                     Auto-fail Leadership / Battle-shock; cannot clear Battle-shock. Specific\n                                     exceptions only.\n\n Recovery                            Next own Command Battle-shock step: automatic pass, end Stupefied and\n                                     chosen elixir; clear Battle-shock. Threnody exception.\n\n Bound Excess                        Two recorded permanent Warband normal effects. No new doses, no Stupefied.\n                                     Fulgrim instead has Master of Excess.\n\n Sublime Strategist                  At battle-round start: qualifying Warlord grants 1CP. Lucius and Doomrider\n                                     excluded.\n\n Exultation in Ruin                  Daemon engine unit kill by attacks: one non-Daemon friendly EC unit within 6\"\n                                     invokes Pain.\n\n Sonic weapons                       Sonic blasters / pistols S6; sonic combi S5. Blast 1 or printed higher value;\n                                     blastmasters Blast 2.\n\n Phoenix Guard                       3 models; M8, T6, 2+, W4, 4++; spear A8, WS2+, S7, AP-2, D2, Lance,\n                                     Twin-linked.\n\n Threnody                            T12, W24, OC10. Permanently Stupefied unless explicitly lucid.\n\nRecord chosen elixirs, dosage failures, Stupefied recovery, once-per-battle uses and\npermanent selections. Use the full rules and datasheets when a summary omits a condition."
-  }
+    "133": "BACK-PAGE QUICK REFERENCE\n\n\n\nAt the table\n Trigger / state                     Resolve\n\n Ordinary dosage                     Start of permitted phase; Leadership test. Effect applies either way. Failure:\n                                     2MW, then Battle-shock.\n\n Pain Brings Clarity                 Friendly EC or enemy unit destroyed within 6\", or enemy within 6\" fails\n                                     Battle-shock. Wounds alone do not trigger it. Never clears Stupefied.\n\n Voluntary Stupefied                 End own Command phase. Select one accessible elixir; normal + amplified\n                                     effects. Cancel other elixirs; become Battle-shocked; no new doses.\n\n While Stupefied                     Auto-fail Leadership / Battle-shock; cannot clear Battle-shock. Specific\n                                     exceptions only.\n\n Recovery                            Next own Command Battle-shock step: automatic pass, end Stupefied and\n                                     chosen elixir; clear Battle-shock. Threnody exception.\n\n Bound Excess                        Two recorded permanent Warband normal effects. No new doses, no Stupefied.\n                                     Fulgrim instead has Master of Excess.\n\n Sublime Strategist                  At battle-round start: qualifying Warlord grants 1CP. Lucius and Doomrider\n                                     excluded.\n\n Exultation in Ruin                  Daemon engine unit kill by attacks: one non-Daemon friendly EC unit within 6\"\n                                     invokes Pain.\n\n Sonic weapons                       Sonic blasters / pistols S6; sonic combi S5. Blast 1 or printed higher value;\n                                     blastmasters Blast 2.\n\n Phoenix Guard                       3 models; M8, T6, 2+, W4, 4++; spear A8, WS2+, S7, AP-2, D2, Lance,\n                                     Twin-linked.\n\n Threnody                            T12, W24, OC10. Permanently Stupefied unless explicitly lucid.\n\nRecord chosen elixirs, dosage failures, Stupefied recovery, once-per-battle uses and\npermanent selections. Use the full rules and datasheets when a summary omits a condition.",
+    "134": "BALANCE PATCH / 7 NOVEMBER 2026\n\n\n\nPoints revision v3.1a\nSupersedes the affected points entries on pages 58-120; all other rules are unchanged.\n\n\n\n Emperor's Children adjustments\n\n Unit                                                                                    Old            New\n\n Daemon Prince of Slaanesh                                                               160            180\n\n Daemon Prince with Wings                                                                190            215\n\n Chaos Land Raider                                                                       260            250\n\n Chaos Spawn (2)                                                                         85             75\n\n Greater Chaos Spawn                                                                     145            130\n\n\n Legions of Excess - all 13 datasheets\n\n Unit                                                                                    Old            New\n\n Shalaxi Helbane                                                                         300            280\n\n The Masque of Slaanesh                                                                  80             70\n\n Syll'Esske                                                                              125            110\n\n Keeper of Secrets                                                                       240            220\n\n Tranceweaver                                                                            60             50\n\n Infernal Enrapturess                                                                    70             60\n\n Contorted Epitome                                                                       120            105\n\n Daemonettes                                                                             80             70\n\n Mirror Guard                                                                            110 / 220      100 / 200\n\n Furies of Slaanesh                                                                      55 / 110       45 / 90\n\n Choir of Unmaking                                                                       120            105\n\n Seekers                                                                                 70 / 140       60 / 120\n\n Fiends                                                                                  80 / 160       70 / 140\n\n\n\n\nScope: only the 13 summoned Legions of Excess datasheets receive the blanket daemon\nreduction. EC daemon engines, Fulgrim, Julius, Doomrider and the Idol are unchanged.\n\nPoints retained in v3.2; see pages 135-139 for detachment and weapon-cost changes.\n\n\n\n\n                                                                                                     134 / 139",
+    "135": "3DP / DETACHMENT RULE\n\n\n\n\nThe Grand Symphony\nThe Emperor's Children make war as a performance, amassing Stage Tokens through sonic violence before\nspending them on escalating rewards.\n\n\n\n  3 DP / THE GRAND SYMPHONY\n  One 3DP selection. No other detachment can be selected at Strike Force.\n\n\nInstruments of Excess\n\nSONIC is an equipment-derived UNIT keyword. A friendly Emperor's Children unit containing at least\none model equipped with a weapon from the Sonic Weapons register (page 136) gains SONIC. If no\nsuch model remains, it loses SONIC. SONIC is not a weapon keyword, and weapons not listed do not\nbecome Sonic Weapons merely because their unit has SONIC.\n\nAttached units count the equipment of their combined models. Determine eligibility from equipment\nactually taken when mustering, not from every option printed on a datasheet. This keyword rule\napplies throughout this codex; the Grand Symphony is the detachment that spends Stage Tokens.\n\nStage Tokens - building the performance\n\nStarting pool: 0 Stage Tokens. Unspent tokens carry between rounds. Your pool cannot exceed 12\nStage Tokens; you can gain at most 6 in each battle round. Tokens are not CP, do not interact with\nStratagem cost rules, and are not gained by Legions of Excess units.\n\nDamage verse: After a friendly EC unit finishes shooting in your Shooting phase, if one or more attacks\nmade by that unit with a listed Sonic Weapon caused an enemy model to lose one or more wounds,\ngain 1 Stage Token. A unit can generate this reward only once per Shooting phase, no matter how\nmany weapons hit or how much damage it dealt.\n\nSlaughter verse: Once per Shooting phase, after a friendly EC SONIC unit destroys an enemy unit with\na ranged attack made with a listed Sonic Weapon, gain 1 additional Stage Token. Resolve these token\ngains before checking whether you can pay for Daemonic Encore.\n\nTrigger precision: A successful Wound roll that is saved does not count as damage. Any enemy unit\ndestroyed by an attack from a friendly SONIC unit can trigger Daemonic Encore, but only a listed Sonic\nWeapon generates the extra Slaughter verse token.\n\nAvailable performances\n\nSpend your stored Stage Tokens on the performances on page 137 at their specified timing. You must\nhave enough tokens before paying. The same Stage Tokens cannot fund more than one performance.\n+1 Damage bonuses from Shattering Crescendo and The Grand Finale do not stack on the same\nattack.",
+    "136": "WEAPONS / EQUIPMENT REFERENCE\n\n\n\n\nSonic Weapons\nThis list defines equipment eligibility; the SONIC label belongs to the UNIT, not to an individual weapon profile.\n\n\n\n  Weapon family                        Listed Sonic Weapons\n\n\n  Handheld and sidearm                 Sonic blaster; twin sonic blaster; screamer pistol\n\n\n  Combi-weapons                        Combi-weapon - sonic\n\n\n  Blastmasters                         Blastmaster; dreadblastmaster\n\n\n  Large blastmasters                   Grand blastmaster; cathedral blastmaster\n\n\n  Defiler armory                       Defiler blastmaster; sonic balespewer\n\n\n  Heavy sonic                          Sonic destructor; cathedral sonic immolator\n\n\n  Resonance                            Resonance cannon\n\n\n  Specialist weapons                   Shriek cannon; grand vox array\n\n\n  Named weapons                        Death Scream; The Eighth's Refrain\n\n\nFor a weapon printed with multiple named firing profiles (for example, crescendo and rupture, or a focused\nprofile), each printed profile of that listed weapon counts. Weapon variants with the same listed base name\ncount. A generic weapon with the words \"sonic\" only in an ability description does not qualify unless listed here.\n\nPractical equipment examples\n\nAlways SONIC with printed standard equipment: Noise Marines, Lord Kakophonist, Eidolon, Ramos, Dissonant\nColossi, Threnody Dreadnought and Stage of Excess.\n\nSONIC when the listed option is taken: Cacophant (resonance cannon), Defiler (Defiler blastmaster or sonic\nbalespewer), Palatine Ravager (sonic destructor or sonic blasters), Chaos Land Raider (cathedral blastmasters\nor twin sonic blaster), Chaos Rhino (sonic combi-weapon), Heldrake (sonic balespewer), Excruciator Terminators\n(sonic combi-weapon or shriek cannon), and any other EC unit with an equipped weapon from the register.\n\nNot Sonic Weapons in this edition: Ghost whisper carbines and the doomfire projector. These profiles can be\nreconsidered separately; they do not qualify simply for thematic similarity.\n\nWhat SONIC does, and does not, mean\n\nStage Token generation requires attacks made with listed Sonic Weapons, not attacks with any gun in a SONIC\nunit. By contrast, Shattering Crescendo can enhance a selected EC unit's ranged attacks, and The Grand Finale\ncan enhance all ranged weapons carried by SONIC units as specifically printed on page 137.",
+    "137": "3DP / PERFORMANCE COSTS\n\n\n\n\nSpend Stage Tokens\nChoose between disrupting enemy formations, intensifying gunfire or materialising daemons at the climax of a\nslaughter.\n\n\nDiscordant Overture - 2 Stage Tokens\n\nWHEN: Your Shooting phase, after a friendly SONIC unit has shot and hit an enemy unit with a listed Sonic\nWeapon. EFFECT: That enemy unit takes a Battle-shock test, subtracting 1 from the result. Resolve after that\nattacking unit's shooting. Multiple Overtures cannot target the same unit in one phase.\n\nShattering Crescendo - 4 Stage Tokens\n\nWHEN: Your Shooting phase, when you select one friendly EC unit to shoot. REQUIREMENT: Select one enemy\nunit that was already hit by a listed Sonic Weapon earlier in the phase. EFFECT: Until the end of this phase, add\n1 to the Damage characteristic of ranged attacks made by the selected EC unit that target that enemy unit.\nOnce per Shooting phase.\n\nDaemonic Encore - 7 Stage Tokens\n\nWHEN: Immediately after a friendly EC SONIC unit destroys an enemy unit with one or more of its ranged\nattacks. Mark the position of the last model removed from that destroyed enemy unit. EFFECT: Create and\nsummon one unit of ten Daemonettes without paying any army points, without a summoner, without a sacrifice\nand without a summoning-pool declaration.\n\nSet up the first Daemonette model as close as possible to the last removed model's position; set up the\nremaining models as close as possible while keeping the unit in coherency. Models cannot overlap occupied\nbases or be placed in impassable positions. Ignore the ordinary 8-inch enemy-distance requirement: these\nDaemonettes may be set up within Engagement Range of enemy units. This permission overrides only that\nsetup restriction.\n\nThe unit begins with 3 Manifestation points (maximum 3) and does not lose a point at the end of the phase in\nwhich it appears. Afterwards it uses the ordinary Manifestation rules. If it becomes Debound, remove it from the\nbattle rather than return it to the summoning pool. It can fight and, if eligible, charge normally under core rules.\nIf all ten models cannot be placed legally in coherency, the summon cannot be performed and no tokens are\nspent.\n\nNo per-turn or per-battle summoning cap. You can repeat Daemonic Encore every time you meet its trigger and\ncan pay the tokens. These free Daemonettes do not grant access to paid Legions of Excess allies or additional\nfree datasheets.\n\nThe Grand Finale - 9 Stage Tokens\n\nWHEN: Start of your Shooting phase. EFFECT: Until the end of that phase, add 1 to the Damage characteristic of\nranged weapons equipped by models in friendly EC SONIC units when targeting enemy units within 12\" of those\nmodels. Once per battle. This bonus cannot stack with Shattering Crescendo on the same attack.",
+    "138": "3DP / UPGRADES AND STRATAGEMS\n\n\n\n\nGrand Symphony / I\nThe detachment does not add datasheets. All enhancements and stratagems apply only while The Grand\nSymphony is selected.\n\n\nEnhancements and Upgrades\nMaestro's Perfect Pitch / 20 points\n\nEC SONIC Character. While the bearer is leading a unit, each time a model in that unit makes a ranged attack\nwith a listed Sonic Weapon, re-roll a Hit roll of 1.\nAudience of One Thousand / 25 points\n\nEC SONIC Character. Once per battle round, after the bearer's unit generates a Stage Token through its Sonic\nWeapon attacks, gain 1 additional Stage Token, subject to the pool maximum and the 6-per-battle-round gain\nlimit.\nAmplification Array [Upgrade] / 15 points\n\nNoise Marines, Dissonant Colossi, Cacophant or Threnody Dreadnought. Add 3\" to the Range characteristic of\nlisted Sonic Weapons equipped by models in that unit.\n\nStratagems\nPrecise Harmonics / 1CP\n\nWHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Re-roll\nHit rolls of 1 for attacks made with listed Sonic Weapons until the end of the phase.\nDeafening Pressure / 1CP\n\nWHEN: Your Shooting phase, after a friendly SONIC unit has shot. TARGET: One enemy unit hit by a listed Sonic\nWeapon from that unit. EFFECT: Subtract 2\" from that enemy unit's Move characteristic and subtract 2 from its\nCharge rolls until the start of your next Shooting phase.\nWall of Noise / 1CP\n\nWHEN: Your opponent's Shooting phase, immediately after an enemy unit selects targets. TARGET: One friendly\nSONIC unit selected as a target. EFFECT: Until the attacking unit has finished its attacks, worsen the AP of\nranged attacks targeting your unit by 1.",
+    "139": "3DP / STRATAGEMS AND REVISION\n\n\n\n\nGrand Symphony / II\nGrand Symphony is the sixteenth detachment and the third 3DP option in this codex.\n\n\nStratagems / Continued\nOverwhelming Volume / 1CP\n\nWHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Until\nthe end of the phase, add 1 to Wound rolls made for its attacks with listed Sonic Weapons against\nBattle-shocked enemy units.\nReverberating Terror / 1CP\n\nWHEN: Your Shooting phase, after a friendly SONIC unit destroys an enemy unit with a ranged attack. TARGET:\nThat SONIC unit. EFFECT: Select one other enemy unit within 6\" of the last model removed from the destroyed\nunit. It must take a Battle-shock test, subtracting 1 from the result.\nMeasured Crescendo / 1CP\n\nWHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Until\nthe end of the phase, when that unit makes ranged attacks with listed Sonic Weapons, ignore modifiers to its\nBallistic Skill characteristic and Hit rolls.\n\nVersion 3.2 - accepted changes\n\nKakophonic Conclave (2DP): Overwhelming Resonance now adds +1 Strength and improves AP by 1 for EC\nranged attacks against targets within 12\"; its former unconditional +1 ranged Damage is removed. Its\nenhancements and stratagems are otherwise unchanged.\n\nNew 3DP option: The Grand Symphony brings the total to 16 detachments (10 x 1DP; 3 x 2DP; 3 x 3DP). It adds\nan equipment-derived SONIC unit keyword, Stage Tokens, four performances and unlimited token-paid free\nDaemonette summons. No new datasheets are added.\n\nWargear points: Defiler Hades lascannon and heavy reaper autocannon each cost an additional 15 points per\nequipped weapon. The points register and Defiler equipment page have been updated. This is the confirmed\nGW-derived surcharge; no unverified costs were invented for custom resonance weapons.\n\nRetained balance patch: All v3.1a unit-point reductions and the two Daemon Prince increases remain in force,\nincluding the 250-point Chaos Land Raider, cheaper Spawn, and cheaper Legions of Excess daemons.\n\nPlacement exception: Daemonic Encore is intentionally allowed to place Daemonettes in Engagement Range\nand has no per-game or per-turn quantity cap. Normal placement requirements still apply unless explicitly\noverridden on page 137."
+  },
+  "baseline_pdf_sha256": "9f67e82df35648405bab0aba5cb725ae9b52696dbd5621b250fad60ff348722d",
+  "pdf_sha256": null
 }

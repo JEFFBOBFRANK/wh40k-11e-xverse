@@ -1,0 +1,10 @@
+{
+  "version": "3.2",
+  "catalogue_revision": 21,
+  "datasheets": 58,
+  "detachments": 16,
+  "enhancements": 43,
+  "stratagems": 66,
+  "checks": "All unit prices and larger sizes match source; Defiler surcharges; IDs and references; Grand Symphony cost and stratagems; conditional SONIC; allied exclusions.",
+  "live_new_recruit_test": "Not performed for this revision"
+}

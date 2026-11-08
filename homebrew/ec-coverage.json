@@ -1,19 +1,19 @@
 {
-  "source_version": "3.1",
-  "source_pdf_sha256": "9f67e82df35648405bab0aba5cb725ae9b52696dbd5621b250fad60ff348722d",
+  "source_version": "3.2",
+  "source_pdf_sha256": null,
   "reference_display": {
-    "reference_sections": 20,
-    "named_ability_profiles": 466,
+    "reference_sections": 22,
+    "named_ability_profiles": 467,
     "core_rule_links": 73,
     "weapon_rule_links": 345,
-    "source_publication": "Emperor's Children Homebrew Codex v3.1"
+    "source_publication": "Emperor's Children Homebrew Codex v3.2"
   },
   "native_units": 45,
   "allied_units": 13,
   "weapon_profiles": 244,
-  "detachments": 15,
-  "enhancements": 40,
-  "stratagems": 60,
+  "detachments": 16,
+  "enhancements": 43,
+  "stratagems": 66,
   "dispositions_inherited": [
     "Peerless Bladesmen",
     "Rapid Evisceration",
@@ -29,7 +29,8 @@
     "Cult of Perfect Agony",
     "The Veiled Hunt",
     "The Gilded Retinue",
-    "Kakophonic Conclave"
+    "Kakophonic Conclave",
+    "The Grand Symphony"
   ],
   "native_root_ids": {
     "Fulgrim": "a8b6-7688-16a5-defd",

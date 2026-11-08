@@ -1,4 +1,4 @@
-"""Build the EC v3.1 catalogue. Uses only the Python standard library.
+"""Build the EC v3.2 catalogue. Uses only the Python standard library.
 Usage: python3 build_ec.py --baseline DIR --output DIR
 The baseline must be the unmodified b7ecd9e system/catalogue snapshot.
 Source data is the adjacent ec-source-data.json (or source-data.json in work).
@@ -24,7 +24,7 @@ def price(o,v,typ=PT):app(o,'costs',dict(name={PT:'pts',DP:'Detachment Points',E
 def group(o,n,key,mini=0,maxi=1):
  g=dict(name=n,id=uid(key),hidden=False);app(o,'selectionEntryGroups',g)
  app(g,'constraints',con(key+'min','min',mini));app(g,'constraints',con(key+'max','max',maxi));return g
-C={k:OLD[k] for k in ['id','battleScribeVersion','gameSystemId','xmlns']};C.update(name="Chaos - Emperor's Children",revision=OLD['revision']+7,gameSystemRevision=G['revision']+1,library=False,type='catalogue',authorName='Xverse homebrew',readme='Emperor’s Children homebrew v3.1, 7 November 2026. Create a new Army Roster after updating. Source transcription, build and validation notes are in homebrew/ec-*. Missing new detachment dispositions are provisional; see ec-VALIDATION.md.')
+C={k:OLD[k] for k in ['id','battleScribeVersion','gameSystemId','xmlns']};C.update(name="Chaos - Emperor's Children",revision=OLD['revision']+1,gameSystemRevision=G['revision']+1,library=False,type='catalogue',authorName='Xverse homebrew',readme='Emperor’s Children homebrew v3.2, 7 November 2026. Create a new Army Roster after updating. Source transcription, build and validation notes are in homebrew/ec-*. Missing new detachment dispositions are provisional; see ec-VALIDATION.md.')
 CATS={x['name'].upper():x['id'] for x in G['categoryEntries']+OLD.get('categoryEntries',[])}
 # Keep original keyword identifiers for cross-catalogue compatibility.
 C['categoryEntries']=[dict(name=x['name'],id=x['id'],hidden=False) for x in OLD.get('categoryEntries',[])]
@@ -59,7 +59,7 @@ for d in S['detachments']:
  for x in disp.get(d['name'],ALL_DISP):tag(e,x)
  if d['dp']==3:tag(e,'3DP Detachment')
  rule(e,'Detachment rule',d['rules'])
- if d['name'] in UNSPECIFIED:rule(e,'Disposition source gap','V3.1 does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md.')
+ if d['name'] in UNSPECIFIED:rule(e,'Disposition source gap','The codex does not state this detachment’s Force Disposition. Standard dispositions are provisionally selectable; agree the choice with your opponent. See homebrew/ec-VALIDATION.md.')
  app(dg,'selectionEntries',e)
 root(cfg)
 # References and selected-detachment stratagems are separate from detachment rules.
@@ -111,6 +111,7 @@ def gear(o,n,qty=1):
  e=entry(n,o['id']+':gear:'+n);exact(e,qty,e['id']+'qty');e['defaultAmount']=qty
  for w in matches:
   vals=w['values']+[w['keywords']];profile(e,w['name'],'Melee Weapons' if vals[0]=='Melee' else 'Ranged Weapons',vals);USED.add(w['name'])
+ price(e,UNIT.get('wargear_points',{}).get(n,0)) if n in UNIT.get('wargear_points',{}) else None
  app(o,'selectionEntries',e);return e
 def choice(o,n,opts,minimum=1,quantity=1):
  g=group(o,n,o['id']+':choice:'+n,minimum,1);g['defaultSelectionEntryId']='none' if minimum==0 else uid(g['id']+':'+opts[0][0] if isinstance(opts[0],tuple) else g['id']+':'+opts[0])
@@ -301,6 +302,24 @@ SUPPORT={'Chirurgeon':['Tormentors','Infractors','Noise Marines','Flawless Blade
 for kind,lookup in [('Leader',LEADERS),('Support',SUPPORT)]:
  for name,targets in lookup.items():
   e=NATIVE[name];app(e,'associations',dict(name='Leading' if kind=='Leader' else 'Supporting',id=uid(e['id']+':attachment'),action='group',childId='unit',childName='unit',includeChildSelections=True,label=kind,max=1,min=1 if kind=='Support' else 0,scope='force',conditionGroups=[dict(type='or',conditions=[cond(NATIVE[n]['id'],'self','instanceOf') for n in targets])]))
+SONIC_WEAPONS = {'sonic blaster','twin sonic blaster','screamer pistol','combi-weapon - sonic','blastmaster','dreadblastmaster','grand blastmaster','cathedral blastmaster','defiler blastmaster','sonic balespewer','sonic destructor','cathedral sonic immolator','resonance cannon','shriek cannon','grand vox array','death scream',"the eighth's refrain"}
+def is_sonic(name):
+ n=name.casefold()
+ return any(n==w or n.startswith(w+' - ') for w in SONIC_WEAPONS)
+def walk_nodes(node):
+ if isinstance(node,dict):
+  yield node
+  for value in node.values():yield from walk_nodes(value)
+ elif isinstance(node,list):
+  for value in node:yield from walk_nodes(value)
+SONIC=cat('SONIC')
+for u in S['units']:
+ if u['allied']:continue
+ e=NATIVE[u['name']]
+ weapons=[n for n in walk_nodes(e) if any(p.get('typeName') in ['Ranged Weapons','Melee Weapons'] and is_sonic(p['name']) for p in n.get('profiles',[]))]
+ if not weapons:continue
+ app(e,'modifiers',dict(field='category',type='add',value=SONIC,conditionGroups=[dict(type='or',conditions=[cond(w['id'],e['id']) for w in weapons])]))
+
 # Eligibility is based on the printed first sentence and explicit unit names.
 def eligible(u,d,h):
  kw=set(u['keywords']);name=u['name'];text=h['text'].split('. ')[0];allied=u['allied'];char='Character' in kw
@@ -311,6 +330,9 @@ def eligible(u,d,h):
  if h['name']=='Warp Walker':return not allied or name=='Keeper of Secrets'
  if d['name']=='The Harmonic Cabal':return char and 'Psyker' in kw
  if allied:return False
+ if d['name']=='The Grand Symphony':
+  if h['upgrade']:return name in ['Noise Marines','Dissonant Colossi','Cacophant','Threnody Dreadnought']
+  return char and any(is_sonic(w['name']) for w in u['weapons'])
  if 'Non-Daemon' in text or 'non-Daemon' in text:
   if 'Daemon' in kw:return False
  if h['name'] in ['Master of Reconstruction',"Reanimator's Vial"]:return name=='Chirurgeon'
@@ -346,6 +368,9 @@ for u in S['units']:
     app(he,'modifiers',dict(field=EN,type='set',value=0,conditionGroups=[dict(type='and',localConditionGroups=[dict(field='selections',includeChildSelections=True,repeats=1,scope='roster',type='atLeast',value=1,conditions=[cond('any','self','before'),cond(eid,'self','instanceOf')])])]))
    app(C,'sharedSelectionEntries',he)
   l=dict(name=h['name'],id=uid(g['id']+eid),targetId=eid,type='selectionEntry',hidden=True,modifiers=[mod('hidden',False,[cond(DET[d['name']])])],**{'import':True})
+  if d['name']=='The Grand Symphony' and not h['upgrade']:
+   weapons=[n for n in walk_nodes(e) if any(p.get('typeName') in ['Ranged Weapons','Melee Weapons'] and is_sonic(p['name']) for p in n.get('profiles',[]))]
+   l['modifiers'].append(mod('hidden',True,[cond(w['id'],e['id'],'lessThan') for w in weapons]))
   if h['name'].startswith('Censer'):
    living=next(x for x in e['selectionEntryGroups'] if x['name']=='Living Elixir assignment');l['modifiers'].append(mod('hidden',True,[cond(x['id'],e['id'],'lessThan') for x in living['selectionEntries']]))
   app(g,'entryLinks',l)
@@ -356,5 +381,6 @@ REFERENCE_REPORT=apply_references(C,G,S)
 a.output.mkdir(parents=True,exist_ok=True)
 for fn,key,obj in [("Chaos - Emperor's Children.json",'catalogue',C),('Warhammer 40,000.json','gameSystem',G)]:
  (a.output/fn).write_text(json.dumps({key:obj},indent=2,ensure_ascii=False)+'\n')
-coverage=dict(source_version=S['version'],source_pdf_sha256=S['pdf_sha256'],reference_display=REFERENCE_REPORT,native_units=45,allied_units=13,weapon_profiles=sum(len(u['weapons']) for u in S['units']),detachments=15,enhancements=40,stratagems=60,dispositions_inherited=['Peerless Bladesmen','Rapid Evisceration','Mercurial Host'],dispositions_unspecified=UNSPECIFIED,native_root_ids={n:e['id'] for n,e in NATIVE.items()},runtime_test='Published-revision live checks are recorded in homebrew/ec-VALIDATION.md.')
+coverage=dict(source_version=S['version'],source_pdf_sha256=S['pdf_sha256'],reference_display=REFERENCE_REPORT,native_units=45,allied_units=13,weapon_profiles=sum(len(u['weapons']) for u in S['units']),detachments=16,enhancements=43,stratagems=66,dispositions_inherited=['Peerless Bladesmen','Rapid Evisceration','Mercurial Host'],dispositions_unspecified=UNSPECIFIED,native_root_ids={n:e['id'] for n,e in NATIVE.items()},runtime_test='Published-revision live checks are recorded in homebrew/ec-VALIDATION.md.')
 (a.output/'ec-coverage.json').write_text(json.dumps(coverage,indent=2)+'\n');print(json.dumps(coverage,indent=2))
+
