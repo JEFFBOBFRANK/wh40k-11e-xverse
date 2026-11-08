@@ -254,6 +254,25 @@ def uniform_datasheets(catalogue):
             name = re.sub(r' - (\d+) inch Aura$', r' (\1" Aura)', name)
             name = re.sub(r' - Aura$', ' (Aura)', name)
             profile['name'] = name
+        # Audited display-only summaries: the underlying rules and equipment
+        # remain in their native profiles, references and configuration notes.
+        redundant = {'Bound Daemonic Body', 'Armoury', 'Sidearms', 'Equipment'}
+        duplicate_restrictions = {'Arbites Proctor', 'Reliquary Procession',
+                                  'Voidship Ogryn Boarders'}
+        for profile in node.get('profiles', []):
+            if profile.get('typeName') != 'Abilities' or profile.get('hidden'):
+                continue
+            name = profile['name']
+            # Agoniser's options paragraph also states a two-fist combat bonus.
+            # Preserve that functional rule; ordinary equipment exchanges are
+            # already represented by the selectable equipment groups.
+            hide = (name in redundant or
+                    (name == 'Equipment Options' and node.get('name') != 'Agoniser') or
+                    (name == 'Datasheet Restrictions' and
+                     node.get('name') in duplicate_restrictions))
+            if hide:
+                preserve_metadata(node, name + ': ' + profile['characteristics'][0]['$text'])
+                profile['hidden'] = True
         # Stable ordering preserves the source order within each section.
         def rank(profile):
             if profile.get('hidden'):
