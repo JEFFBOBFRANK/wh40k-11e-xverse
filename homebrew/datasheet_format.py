@@ -289,6 +289,7 @@ def uniform_datasheets(catalogue):
 
     if catalogue.get("id") == "b00-cd86-4b4c-97ba":
         agents_rule_layout(catalogue)
+        enforce_agents_writ_limits(catalogue)
 
 
 def agents_rule_layout(catalogue):
@@ -319,3 +320,26 @@ def agents_rule_layout(catalogue):
             for characteristic in node.get('characteristics', []):
                 if characteristic.get('name') == 'Description':
                     characteristic['$text'] = layout(characteristic['$text'])
+
+
+def enforce_agents_writ_limits(catalogue):
+    writ_ids = set()
+    for entry in catalogue['sharedSelectionEntries']:
+        for group in entry.get('selectionEntryGroups', []):
+            if group['name'] != 'Inquisitorial Writ':
+                continue
+            for constraint in group.get('constraints', []):
+                if constraint.get('field') == 'selections':
+                    constraint['value'] = 1
+                    constraint['includeChildSelections'] = True
+            for link in group.get('entryLinks', []):
+                writ_ids.add(link['targetId'])
+                constraints = link.setdefault('constraints', [])
+                if not any(c.get('type') == 'max' and c.get('scope') == 'parent' for c in constraints):
+                    constraints.append(dict(id=uid(link['id']+':writ-local-max'),type='max',value=1,scope='parent',field='selections',shared=True,includeChildSelections=True))
+    for entry in catalogue['sharedSelectionEntries']:
+        if entry['id'] in writ_ids:
+            for constraint in entry.get('constraints', []):
+                if constraint.get('type') == 'max' and constraint.get('scope') == 'roster':
+                    constraint['value'] = 1
+                    constraint['includeChildSelections'] = True
