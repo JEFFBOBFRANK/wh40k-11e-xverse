@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 32,
+    "revision": 33,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -4326,7 +4326,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Core: Leader, Lone Operative, Feel No Pain 4+. Leader: Flawless Blades, Phoenix Guard Terminators."
+                "$text": "Core: Leader, Lone Operative, Feel No Pain 5+. Leader: Flawless Blades, Phoenix Guard Terminators."
               }
             ]
           },
@@ -4364,7 +4364,7 @@
             "name": "Datasheet rules and equipment",
             "id": "7381-e5d5-ac22-673a",
             "hidden": true,
-            "description": "Composition: 1 Lucius the Eternal.\n\nArmy rules: Combat Drugs.\n\nCore: Leader, Lone Operative, Feel No Pain 4+. Leader: Flawless Blades, Phoenix Guard Terminators.\n\nKeywords: Infantry, Character, Epic Hero, Chaos, Slaanesh, Lucius the Eternal, Emperor's Children.\n\nBlade of the Laer: [PRECISION]. Lash of Torment: [SUSTAINED HITS 1]. It does not have Extra Attacks; choose a melee weapon normally unless a rule explicitly grants otherwise.\n\n**A Challenge Worthy of Skill**\n\nEach time this model makes an attack that targets a Character, Monster or Walker unit, you can re-roll the Hit roll and the Wound roll.\n\n**Duellist's Hubris**\n\nAt the start of the Fight phase, if this model is not leading a unit, it has Fights First until the end of the phase.\n\n**Signature Elixir: Duellist's Ichor**\n\nActivate at the start of either Fight phase; lasts until the end of that phase. Melee weapons equipped by models in this unit have [SUSTAINED HITS 1]. If Stupefied, their melee attacks also score Critical Hits on unmodified Hit rolls of 5+. Reusable.\n\n**Signature Elixir: The Perfect Moment**\n\nOnce per battle. Activate at the start of either Fight phase; lasts until its end. Lucius's melee weapons have [DEVASTATING WOUNDS]. If Stupefied, once in that phase, after his unit has resolved its melee attacks, Lucius can make one additional set of melee attacks. Only Lucius attacks again; no additional Pile-in, Consolidation or bodyguard attacks are granted.\n\n**Leader**\n\nFlawless Blades, Phoenix Guard Terminators.\n\nEPIC HERO / ABILITIES\n\nLucius the Eternal / Continued\n\n**The Eternal**\n\nOnce per turn, during the Shooting or Fight phase, when Lucius is destroyed by an attack made by an enemy unit, the controller of that attacking unit must select one non-Epic Hero Infantry model from that attacking unit, if one exists. Place an ETERNAL marker on that model. At the start of each Fight phase, roll one D6 for the marked model. On a 3+, remove the marker, destroy that model and return Lucius to the battlefield in its former position with D6 wounds remaining. If his base cannot fit exactly, place him as close as possible. He can be set up within Engagement Range of the host's former unit or other enemy units. Lucius returns as a separate single-model unit and is Stupefied and Battle-shocked. Select one Combat Elixir from this codex for his unit, including Signature, Warband, detachment and enhancement elixirs. It gains the normal and Stupefied effects for that state. This does not refresh an expended once-per-battle use. If the host dies before possession resolves, that marker is lost and does not revive Lucius. If the attacking unit contains no eligible host, no marker is placed. Remove the marker before destroying a successfully possessed host so its destruction does not cancel that successful return.\n\n**A Moment of Lucidity**\n\nOnce per battle, at the start of a phase, Lucius's unit can ignore Stupefied until the end of the current turn and immediately cease to be Battle-shocked. This explicitly overrides the normal restriction. During that interval, its selected elixir's normal effect continues, its Stupefied benefit and penalties are suspended, and it can take new doses normally. At the end of that turn, it becomes Stupefied and Battle-shocked again; other elixirs end and the original selected elixir's Stupefied effect resumes. This does not spend a new activation, refresh a once-per-battle use or extend the original next Command-phase recovery.",
+            "description": "Composition: 1 Lucius the Eternal.\n\nArmy rules: Combat Drugs.\n\nCore: Leader, Lone Operative, Feel No Pain 5+. Leader: Flawless Blades, Phoenix Guard Terminators.\n\nKeywords: Infantry, Character, Epic Hero, Chaos, Slaanesh, Lucius the Eternal, Emperor's Children.\n\nBlade of the Laer: [PRECISION]. Lash of Torment: [SUSTAINED HITS 1]. It does not have Extra Attacks; choose a melee weapon normally unless a rule explicitly grants otherwise.\n\n**A Challenge Worthy of Skill**\n\nEach time this model makes an attack that targets a Character, Monster or Walker unit, you can re-roll the Hit roll and the Wound roll.\n\n**Duellist's Hubris**\n\nAt the start of the Fight phase, if this model is not leading a unit, it has Fights First until the end of the phase.\n\n**Signature Elixir: Duellist's Ichor**\n\nActivate at the start of either Fight phase; lasts until the end of that phase. Melee weapons equipped by models in this unit have [SUSTAINED HITS 1]. If Stupefied, their melee attacks also score Critical Hits on unmodified Hit rolls of 5+. Reusable.\n\n**Signature Elixir: The Perfect Moment**\n\nOnce per battle. Activate at the start of either Fight phase; lasts until its end. Lucius's melee weapons have [DEVASTATING WOUNDS]. If Stupefied, once in that phase, after his unit has resolved its melee attacks, Lucius can make one additional set of melee attacks. Only Lucius attacks again; no additional Pile-in, Consolidation or bodyguard attacks are granted.\n\n**Leader**\n\nFlawless Blades, Phoenix Guard Terminators.\n\nEPIC HERO / ABILITIES\n\nLucius the Eternal / Continued\n\n**The Eternal**\n\nOnce per turn, during the Shooting or Fight phase, when Lucius is destroyed by an attack made by an enemy unit, the controller of that attacking unit must select one non-Epic Hero Infantry model from that attacking unit, if one exists. Place an ETERNAL marker on that model. At the start of each Fight phase, roll one D6 for the marked model. On a 3+, remove the marker, destroy that model and return Lucius to the battlefield in its former position with D6 wounds remaining. If his base cannot fit exactly, place him as close as possible. He can be set up within Engagement Range of the host's former unit or other enemy units. Lucius returns as a separate single-model unit and is Stupefied and Battle-shocked. Select one Combat Elixir from this codex for his unit, including Signature, Warband, detachment and enhancement elixirs. It gains the normal and Stupefied effects for that state. This does not refresh an expended once-per-battle use. If the host dies before possession resolves, that marker is lost and does not revive Lucius. If the attacking unit contains no eligible host, no marker is placed. Remove the marker before destroying a successfully possessed host so its destruction does not cancel that successful return.\n\n**A Moment of Lucidity**\n\nOnce per battle, at the start of a phase, Lucius's unit can ignore Stupefied until the end of the current turn and immediately cease to be Battle-shocked. This explicitly overrides the normal restriction. During that interval, its selected elixir's normal effect continues, its Stupefied benefit and penalties are suspended, and it can take new doses normally. At the end of that turn, it becomes Stupefied and Battle-shocked again; other elixirs end and the original selected elixir's Stupefied effect resumes. This does not spend a new activation, refresh a once-per-battle use or extend the original next Command-phase recovery.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "52"
           }
@@ -4393,9 +4393,9 @@
           },
           {
             "id": "ceae-7f7c-4ef3-fc0a",
-            "name": "Feel No Pain 4+",
+            "name": "Feel No Pain 5+",
             "type": "rule",
-            "targetId": "eed0-ef83-b6cf-dddf",
+            "targetId": "5e10-6d62-2624-80a8",
             "hidden": false
           }
         ],
@@ -4636,7 +4636,7 @@
         ],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "52",
-        "readme": "Composition: 1 Lucius the Eternal.\n\nArmy rules: Combat Drugs.\n\nCore: Leader, Lone Operative, Feel No Pain 4+. Leader: Flawless Blades, Phoenix Guard Terminators.\n\nKeywords: Infantry, Character, Epic Hero, Chaos, Slaanesh, Lucius the Eternal, Emperor's Children.\n\nBlade of the Laer: [PRECISION]. Lash of Torment: [SUSTAINED HITS 1]. It does not have Extra Attacks; choose a melee weapon normally unless a rule explicitly grants otherwise."
+        "readme": "Composition: 1 Lucius the Eternal.\n\nArmy rules: Combat Drugs.\n\nCore: Leader, Lone Operative, Feel No Pain 5+. Leader: Flawless Blades, Phoenix Guard Terminators.\n\nKeywords: Infantry, Character, Epic Hero, Chaos, Slaanesh, Lucius the Eternal, Emperor's Children.\n\nBlade of the Laer: [PRECISION]. Lash of Torment: [SUSTAINED HITS 1]. It does not have Extra Attacks; choose a melee weapon normally unless a rule explicitly grants otherwise."
       },
       {
         "name": "Eidolon",
@@ -6871,7 +6871,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+"
+                "$text": "4+"
               }
             ]
           },
@@ -7916,7 +7916,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Greater Daemonic Ritual; sacrifice required. Initial Manifestation: D3; maximum 6. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Greater Daemonic Ritual; sacrifice required. Initial Manifestation: D3+1; maximum 6. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
               }
             ]
           },
@@ -8052,7 +8052,7 @@
             "name": "Datasheet rules and equipment",
             "id": "e93c-5926-1545-8b32",
             "hidden": true,
-            "description": "Core: Damaged 7, Deadly Demise D6. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Shalaxi Helbane. Equipment: Lash of Slaanesh, Pavane of Slaanesh, Soulpiercer, Snapping claws.\n\n**Equipment options**\n\nNo options. Select one Pavane profile when shooting.\n\n**Monarch of the Hunt**\n\nAt the start of the first battle round, select one enemy unit as this model's quarry. Re-roll melee Hit and Wound rolls against its quarry. When its quarry is destroyed, immediately select another enemy unit as its quarry. Becoming Debound does not change the selected quarry.\n\n**No Prey Can Evade**\n\nRe-roll Advance and Charge rolls made for this model.\n\n**The Hunt Sustains**\n\nAt the end of each phase in your turn, if this model is within Engagement Range of its quarry, it does not lose a point through the Manifestation army rule.\n\n**Summoning and Manifestation**\n\nGreater Daemonic Ritual; sacrifice required. Initial Manifestation: D3; maximum 6. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Monster, Character, Epic Hero, Chaos, Daemon, Summoned, Slaanesh, Shalaxi Helbane, Greater Daemon, Psyker. Faction: Legions of Excess.\n\nEPIC HERO / LEGIONS OF EXCESS / ABILITIES\n\nShalaxi Helbane / Continued\n\n**Reality Unravels - 12 inch Aura**\n\nWhile a unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1; otherwise, worsen its Leadership characteristic by 1. This affects friendly and enemy units alike. Multiple instances of Reality Unravels do not stack.\n\n**The Hunting Ground - 6 inch Aura**\n\nWhenever any other unit within 6\" of this model is selected to Fall Back, it must first take a Battle-shock test. If it fails, it cannot Fall Back that phase. This affects friendly and enemy units, including Daemons.\n\n**Inescapable Obsession (Psychic Level 1)**\n\nAt the start of your Charge phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, until the end of the phase, this model can declare a charge even if it Advanced or Fell Back this turn, provided its quarry is a target of that charge.\n\n**Terror of the Hunt (Psychic Level 1)**\n\nAt the start of your Shooting phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, if its quarry is visible and within 18\", that unit must take a Battle-shock test, subtracting 1 from the result. Manifestation gains use the normal triggers and caps.",
+            "description": "Core: Damaged 7, Deadly Demise D6. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Shalaxi Helbane. Equipment: Lash of Slaanesh, Pavane of Slaanesh, Soulpiercer, Snapping claws.\n\n**Equipment options**\n\nNo options. Select one Pavane profile when shooting.\n\n**Monarch of the Hunt**\n\nAt the start of the first battle round, select one enemy unit as this model's quarry. Re-roll melee Hit and Wound rolls against its quarry. When its quarry is destroyed, immediately select another enemy unit as its quarry. Becoming Debound does not change the selected quarry.\n\n**No Prey Can Evade**\n\nRe-roll Advance and Charge rolls made for this model.\n\n**The Hunt Sustains**\n\nAt the end of each phase in your turn, if this model is within Engagement Range of its quarry, it does not lose a point through the Manifestation army rule.\n\n**Summoning and Manifestation**\n\nGreater Daemonic Ritual; sacrifice required. Initial Manifestation: D3+1; maximum 6. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Monster, Character, Epic Hero, Chaos, Daemon, Summoned, Slaanesh, Shalaxi Helbane, Greater Daemon, Psyker. Faction: Legions of Excess.\n\nEPIC HERO / LEGIONS OF EXCESS / ABILITIES\n\nShalaxi Helbane / Continued\n\n**Reality Unravels - 12 inch Aura**\n\nWhile a unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1; otherwise, worsen its Leadership characteristic by 1. This affects friendly and enemy units alike. Multiple instances of Reality Unravels do not stack.\n\n**The Hunting Ground - 6 inch Aura**\n\nWhenever any other unit within 6\" of this model is selected to Fall Back, it must first take a Battle-shock test. If it fails, it cannot Fall Back that phase. This affects friendly and enemy units, including Daemons.\n\n**Inescapable Obsession (Psychic Level 1)**\n\nAt the start of your Charge phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, until the end of the phase, this model can declare a charge even if it Advanced or Fell Back this turn, provided its quarry is a target of that charge.\n\n**Terror of the Hunt (Psychic Level 1)**\n\nAt the start of your Shooting phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, if its quarry is visible and within 18\", that unit must take a Battle-shock test, subtracting 1 from the result. Manifestation gains use the normal triggers and caps.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "58"
           }
@@ -8711,7 +8711,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
               }
             ]
           },
@@ -8763,7 +8763,7 @@
             "name": "Datasheet rules and equipment",
             "id": "768b-537c-8c3c-63fa",
             "hidden": true,
-            "description": "Core: Fights First, Lone Operative. Army rules: Manifestation.\n\nComposition: 1 The Masque of Slaanesh. Equipment: Serrated claws.\n\n**The Eternal Dance**\n\nAt the start of either Fight phase, select one enemy unit within 6\". Until the end of the phase, friendly Legions of Excess and Emperor's Children models add 1 to melee Wound rolls against that unit, and models in that enemy unit subtract 1 from their melee Wound rolls.\n\n**Dazzling Acrobatics**\n\nThis model can declare a charge in a turn in which it Advanced or Fell Back.\n\n**The Final Bow**\n\nWhen this model becomes Debound, immediately before removing it, select one enemy unit within 6\". That unit must take a Battle-shock test. Other nearby daemons can gain Manifestation normally. Remove the Masque afterward; this ability does not prevent its Debinding.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Infantry, Character, Epic Hero, Fly, Chaos, Daemon, Summoned, Slaanesh, The Masque of Slaanesh. Faction: Legions of Excess.",
+            "description": "Core: Fights First, Lone Operative. Army rules: Manifestation.\n\nComposition: 1 The Masque of Slaanesh. Equipment: Serrated claws.\n\n**The Eternal Dance**\n\nAt the start of either Fight phase, select one enemy unit within 6\". Until the end of the phase, friendly Legions of Excess and Emperor's Children models add 1 to melee Wound rolls against that unit, and models in that enemy unit subtract 1 from their melee Wound rolls.\n\n**Dazzling Acrobatics**\n\nThis model can declare a charge in a turn in which it Advanced or Fell Back.\n\n**The Final Bow**\n\nWhen this model becomes Debound, immediately before removing it, select one enemy unit within 6\". That unit must take a Battle-shock test. Other nearby daemons can gain Manifestation normally. Remove the Masque afterward; this ability does not prevent its Debinding.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Infantry, Character, Epic Hero, Fly, Chaos, Daemon, Summoned, Slaanesh, The Masque of Slaanesh. Faction: Legions of Excess.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "60"
           }
@@ -9073,7 +9073,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
               }
             ]
           },
@@ -9209,7 +9209,7 @@
             "name": "Datasheet rules and equipment",
             "id": "4c14-fe35-67d4-e412",
             "hidden": true,
-            "description": "Core: Leader. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Syll'Esske. Equipment: Cacophonic choir, Scourging whip, Axe of Dominion.\n\n**Equipment options**\n\nNo options. Select one Cacophonic choir profile when shooting.\n\n**Prince of Slaanesh**\n\nWhile leading a unit, successful unmodified melee Wound rolls of 5+ for that unit are Critical Wounds.\n\n**Delightful Agonies**\n\nThe first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, return it as close as possible to where it was destroyed, outside Engagement Range of all enemy units, with full wounds remaining. Retain its remaining Manifestation points; returning does not replenish them. Becoming Debound does not trigger this ability.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\n**Leader**\n\nDaemonettes, Mirror Guard.\n\nKeywords: Monster, Character, Epic Hero, Chaos, Daemon, Summoned, Slaanesh, Syll'Esske, Psyker. Faction: Legions of Excess.\n\n**Leader**\n\nDaemonettes, Mirror Guard.\n\nEPIC HERO / LEGIONS OF EXCESS / ABILITIES\n\nSyll'Esske / Continued\n\n**Exquisite Suffering (Psychic Level 1)**\n\nAt the start of either Fight phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, models in this model's unit have Feel No Pain 5+ until the end of the phase.\n\n**Discordant Union (Psychic Level 2)**\n\nAt the start of your Command phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one friendly Legions of Excess unit within 6\". It gains 1 Manifestation point, subject to its maximum and the limit of gaining 1 point per phase.\n\n**Attached manifestation**\n\nLeader and Bodyguard are summoned together as one Attached unit and share one Manifestation total. Use the common Attached-unit rules in the summoning chapter.",
+            "description": "Core: Leader. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Syll'Esske. Equipment: Cacophonic choir, Scourging whip, Axe of Dominion.\n\n**Equipment options**\n\nNo options. Select one Cacophonic choir profile when shooting.\n\n**Prince of Slaanesh**\n\nWhile leading a unit, successful unmodified melee Wound rolls of 5+ for that unit are Critical Wounds.\n\n**Delightful Agonies**\n\nThe first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, return it as close as possible to where it was destroyed, outside Engagement Range of all enemy units, with full wounds remaining. Retain its remaining Manifestation points; returning does not replenish them. Becoming Debound does not trigger this ability.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\n**Leader**\n\nDaemonettes, Mirror Guard.\n\nKeywords: Monster, Character, Epic Hero, Chaos, Daemon, Summoned, Slaanesh, Syll'Esske, Psyker. Faction: Legions of Excess.\n\n**Leader**\n\nDaemonettes, Mirror Guard.\n\nEPIC HERO / LEGIONS OF EXCESS / ABILITIES\n\nSyll'Esske / Continued\n\n**Exquisite Suffering (Psychic Level 1)**\n\nAt the start of either Fight phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, models in this model's unit have Feel No Pain 5+ until the end of the phase.\n\n**Discordant Union (Psychic Level 2)**\n\nAt the start of your Command phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one friendly Legions of Excess unit within 6\". It gains 1 Manifestation point, subject to its maximum and the limit of gaining 1 point per phase.\n\n**Attached manifestation**\n\nLeader and Bodyguard are summoned together as one Attached unit and share one Manifestation total. Use the common Attached-unit rules in the summoning chapter.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "61"
           }
@@ -27857,7 +27857,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Greater Daemonic Ritual; sacrifice required. Initial Manifestation: D3; maximum 6. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Greater Daemonic Ritual; sacrifice required. Initial Manifestation: D3+1; maximum 6. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
               }
             ]
           },
@@ -28007,7 +28007,7 @@
             "name": "Datasheet rules and equipment",
             "id": "ef15-2d19-1c04-3c84",
             "hidden": true,
-            "description": "Core: Damaged 6, Deadly Demise D6. Army rules: Manifestation. Psyker Level: 3.\n\nComposition: 1 Keeper of Secrets. Equipment: Phantasmagoria, Living whip, Witstealer sword, Snapping claws, Ritual knife.\n\n**Equipment options**\n\nPhantasmagoria, witstealer sword and snapping claws are standard. Select one additional option: living whip, ritual knife or shining aegis. A shining aegis improves its Save to 3+. Select one Phantasmagoria profile when shooting.\n\n**Mesmerising Form**\n\nSubtract 1 from Hit rolls for attacks targeting this model.\n\n**Summoning and Manifestation**\n\nGreater Daemonic Ritual; sacrifice required. Initial Manifestation: D3; maximum 6. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Monster, Character, Chaos, Daemon, Summoned, Slaanesh, Keeper of Secrets, Greater Daemon, Psyker. Faction: Legions of Excess.\n\nCHARACTER / LEGIONS OF EXCESS / ABILITIES\n\nKeeper of Secrets / Continued\n\n**Reality Unravels - 12 inch Aura**\n\nWhile a unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1; otherwise, worsen its Leadership characteristic by 1. This affects friendly and enemy units alike. Multiple instances of Reality Unravels do not stack.\n\n**Palace of Sensation - 6 inch Aura**\n\nAt the start of either Fight phase, every non-Daemon unit within 6\" must take a Battle-shock test. Friendly and enemy units are affected. Each Keeper resolves its own aura.\n\n**Acquiescence (Psychic Level 1)**\n\nAt the start of your opponent's Charge phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one visible enemy unit within 18\". Subtract 2 from its Charge rolls until the end of the phase.\n\n**Pavane of Ecstasy (Psychic Level 2)**\n\nAt the start of your Movement phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one friendly Legions of Excess unit within 12\" that is unengaged. It can immediately make a Normal move of up to 6\".\n\n**Rapturous Dominion (Psychic Level 3)**\n\nAt the start of your Command phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select up to two friendly Legions of Excess units within 6\". Each gains 1 Manifestation point, subject to its maximum and the limit of gaining 1 point per phase.",
+            "description": "Core: Damaged 6, Deadly Demise D6. Army rules: Manifestation. Psyker Level: 3.\n\nComposition: 1 Keeper of Secrets. Equipment: Phantasmagoria, Living whip, Witstealer sword, Snapping claws, Ritual knife.\n\n**Equipment options**\n\nPhantasmagoria, witstealer sword and snapping claws are standard. Select one additional option: living whip, ritual knife or shining aegis. A shining aegis improves its Save to 3+. Select one Phantasmagoria profile when shooting.\n\n**Mesmerising Form**\n\nSubtract 1 from Hit rolls for attacks targeting this model.\n\n**Summoning and Manifestation**\n\nGreater Daemonic Ritual; sacrifice required. Initial Manifestation: D3+1; maximum 6. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Monster, Character, Chaos, Daemon, Summoned, Slaanesh, Keeper of Secrets, Greater Daemon, Psyker. Faction: Legions of Excess.\n\nCHARACTER / LEGIONS OF EXCESS / ABILITIES\n\nKeeper of Secrets / Continued\n\n**Reality Unravels - 12 inch Aura**\n\nWhile a unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1; otherwise, worsen its Leadership characteristic by 1. This affects friendly and enemy units alike. Multiple instances of Reality Unravels do not stack.\n\n**Palace of Sensation - 6 inch Aura**\n\nAt the start of either Fight phase, every non-Daemon unit within 6\" must take a Battle-shock test. Friendly and enemy units are affected. Each Keeper resolves its own aura.\n\n**Acquiescence (Psychic Level 1)**\n\nAt the start of your opponent's Charge phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one visible enemy unit within 18\". Subtract 2 from its Charge rolls until the end of the phase.\n\n**Pavane of Ecstasy (Psychic Level 2)**\n\nAt the start of your Movement phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one friendly Legions of Excess unit within 12\" that is unengaged. It can immediately make a Normal move of up to 6\".\n\n**Rapturous Dominion (Psychic Level 3)**\n\nAt the start of your Command phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select up to two friendly Legions of Excess units within 6\". Each gains 1 Manifestation point, subject to its maximum and the limit of gaining 1 point per phase.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "78"
           }
@@ -29482,7 +29482,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
               }
             ]
           },
@@ -29590,7 +29590,7 @@
             "name": "Datasheet rules and equipment",
             "id": "aca1-f656-efb3-ad98",
             "hidden": true,
-            "description": "Core: Fights First, Leader. Army rules: Manifestation. Psyker Level: 1.\n\nComposition: 1 Tranceweaver. Equipment: Beguiling whispers, Ravaging claws.\n\n**Mesmeric Guidance**\n\nWhile leading a unit, that unit can make Pile-in and Consolidation moves of up to 6\", following the normal restrictions.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\n**Leader**\n\nDaemonettes.\n\nKeywords: Infantry, Character, Chaos, Daemon, Summoned, Slaanesh, Tranceweaver, Psyker. Faction: Legions of Excess.\n\n**Leader**\n\nDaemonettes.\n\nCHARACTER / LEGIONS OF EXCESS / ABILITIES\n\nTranceweaver / Continued\n\n**Symphony of Pain (Psychic Level 1)**\n\nAt the start of your Fight phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one visible Battle-shocked enemy unit within 12\". Friendly Legions of Excess models add 1 to melee Hit and Wound rolls against that unit until the end of the phase.\n\n**Soporific Veil (Psychic Level 1)**\n\nAt the start of either player's Shooting phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, subtract 1 from Hit rolls for ranged attacks targeting this model's unit until the end of the phase.",
+            "description": "Core: Fights First, Leader. Army rules: Manifestation. Psyker Level: 1.\n\nComposition: 1 Tranceweaver. Equipment: Beguiling whispers, Ravaging claws.\n\n**Mesmeric Guidance**\n\nWhile leading a unit, that unit can make Pile-in and Consolidation moves of up to 6\", following the normal restrictions.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\n**Leader**\n\nDaemonettes.\n\nKeywords: Infantry, Character, Chaos, Daemon, Summoned, Slaanesh, Tranceweaver, Psyker. Faction: Legions of Excess.\n\n**Leader**\n\nDaemonettes.\n\nCHARACTER / LEGIONS OF EXCESS / ABILITIES\n\nTranceweaver / Continued\n\n**Symphony of Pain (Psychic Level 1)**\n\nAt the start of your Fight phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one visible Battle-shocked enemy unit within 12\". Friendly Legions of Excess models add 1 to melee Hit and Wound rolls against that unit until the end of the phase.\n\n**Soporific Veil (Psychic Level 1)**\n\nAt the start of either player's Shooting phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, subtract 1 from Hit rolls for ranged attacks targeting this model's unit until the end of the phase.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "80"
           }
@@ -30712,7 +30712,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
               }
             ]
           },
@@ -30792,7 +30792,7 @@
             "name": "Datasheet rules and equipment",
             "id": "f18f-a1bf-0104-e522",
             "hidden": true,
-            "description": "Core: Leader. Army rules: Manifestation.\n\nComposition: 1 Infernal Enrapturess. Equipment: Heartstring lyre, Ravaging claws.\n\n**Equipment options**\n\nNo options. Select one heartstring lyre profile when shooting. This model is not a Psyker.\n\n**Harmonic Alignment**\n\nStart of your Command phase: select one friendly Legions of Excess unit within 6\". Restore D3 wounds to it. First heal any wounded model; remaining restoration can return destroyed non-Character models at full wounds, spending restoration equal to each returned model's Wounds characteristic. Insufficient remaining restoration is lost. Do not exceed Starting Strength or return an entirely destroyed unit.\n\n**Discordant Disruption - Aura**\n\nWhile an enemy Psyker unit is within 12\", its Psychic weapons have Hazardous.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\n**Leader**\n\nDaemonettes, Choir of Unmaking.\n\nKeywords: Infantry, Character, Chaos, Daemon, Summoned, Slaanesh, Infernal Enrapturess. Faction: Legions of Excess.\n\n**Leader**\n\nDaemonettes, Choir of Unmaking.",
+            "description": "Core: Leader. Army rules: Manifestation.\n\nComposition: 1 Infernal Enrapturess. Equipment: Heartstring lyre, Ravaging claws.\n\n**Equipment options**\n\nNo options. Select one heartstring lyre profile when shooting. This model is not a Psyker.\n\n**Harmonic Alignment**\n\nStart of your Command phase: select one friendly Legions of Excess unit within 6\". Restore D3 wounds to it. First heal any wounded model; remaining restoration can return destroyed non-Character models at full wounds, spending restoration equal to each returned model's Wounds characteristic. Insufficient remaining restoration is lost. Do not exceed Starting Strength or return an entirely destroyed unit.\n\n**Discordant Disruption - Aura**\n\nWhile an enemy Psyker unit is within 12\", its Psychic weapons have Hazardous.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\n**Leader**\n\nDaemonettes, Choir of Unmaking.\n\nKeywords: Infantry, Character, Chaos, Daemon, Summoned, Slaanesh, Infernal Enrapturess. Faction: Legions of Excess.\n\n**Leader**\n\nDaemonettes, Choir of Unmaking.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "82"
           }
@@ -31857,7 +31857,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
               }
             ]
           },
@@ -31979,7 +31979,7 @@
             "name": "Datasheet rules and equipment",
             "id": "0161-4177-ffd0-3c4c",
             "hidden": true,
-            "description": "Core: Leader. Army rules: Manifestation. Psyker Level: 3.\n\nComposition: 1 Contorted Epitome. Equipment: Shattered reflections, Ravaging claws, Coiled tentacles.\n\n**Horrible Fascination - Aura**\n\nSubtract 1 from Battle-shock tests taken by enemy units within 6\". Multiple instances of this aura do not stack.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\n**Leader**\n\nDaemonettes, Mirror Guard, Choir of Unmaking.\n\nKeywords: Infantry, Character, Chaos, Daemon, Summoned, Slaanesh, Contorted Epitome, Psyker. Faction: Legions of Excess.\n\n**Leader**\n\nDaemonettes, Mirror Guard, Choir of Unmaking.\n\nCHARACTER / LEGIONS OF EXCESS / ABILITIES\n\nContorted Epitome / Continued\n\n**Reflected Terror (Psychic Level 1)**\n\nAt the start of your Shooting phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one visible enemy unit within 18\". It must take a Battle-shock test.\n\n**Swallow Energy (Psychic Level 2)**\n\nAt the start of your Command phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, until your next Command phase starts, models in this model's unit have Feel No Pain 4+ against mortal wounds and Psychic attacks.\n\n**Twisted Passage (Psychic Level 3)**\n\nAt the start of your Movement phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one friendly Legions of Excess Infantry unit wholly within 6\" that is unengaged. Remove it and set it up anywhere more than 8\" horizontally from all enemy models. It counts as having made a Normal move and cannot move again that phase. This is not summoning and restores no models, wounds or Manifestation points. Rules for leaving the battlefield apply.",
+            "description": "Core: Leader. Army rules: Manifestation. Psyker Level: 3.\n\nComposition: 1 Contorted Epitome. Equipment: Shattered reflections, Ravaging claws, Coiled tentacles.\n\n**Horrible Fascination - Aura**\n\nSubtract 1 from Battle-shock tests taken by enemy units within 6\". Multiple instances of this aura do not stack.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\n**Leader**\n\nDaemonettes, Mirror Guard, Choir of Unmaking.\n\nKeywords: Infantry, Character, Chaos, Daemon, Summoned, Slaanesh, Contorted Epitome, Psyker. Faction: Legions of Excess.\n\n**Leader**\n\nDaemonettes, Mirror Guard, Choir of Unmaking.\n\nCHARACTER / LEGIONS OF EXCESS / ABILITIES\n\nContorted Epitome / Continued\n\n**Reflected Terror (Psychic Level 1)**\n\nAt the start of your Shooting phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one visible enemy unit within 18\". It must take a Battle-shock test.\n\n**Swallow Energy (Psychic Level 2)**\n\nAt the start of your Command phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, until your next Command phase starts, models in this model's unit have Feel No Pain 4+ against mortal wounds and Psychic attacks.\n\n**Twisted Passage (Psychic Level 3)**\n\nAt the start of your Movement phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one friendly Legions of Excess Infantry unit wholly within 6\" that is unengaged. Remove it and set it up anywhere more than 8\" horizontally from all enemy models. It counts as having made a Normal move and cannot move again that phase. This is not summoning and restores no models, wounds or Manifestation points. Rules for leaving the battlefield apply.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "83"
           }
@@ -41654,7 +41654,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
               }
             ]
           },
@@ -41734,7 +41734,7 @@
             "name": "Datasheet rules and equipment",
             "id": "ea25-883f-423e-e807",
             "hidden": true,
-            "description": "Core: Fights First. Army rules: Manifestation.\n\nComposition: 1 Alluress and 9 Daemonettes. Equipment: Slashing claws.\n\n**Equipment options**\n\nOne Daemonette can carry a daemonic icon and a different Daemonette can carry an instrument of Chaos.\n\n**Horrifying Beauty**\n\nAt the start of either Fight phase, each enemy unit within Engagement Range of one or more friendly units with this ability must take a Battle-shock test. Subtract 1 if it is Below Half-strength. A unit takes only one test through this ability per phase.\n\n**Daemonic Icon**\n\nEach time this unit is summoned, you can re-roll its initial Manifestation roll.\n\n**Instrument of Chaos**\n\nAdd 1 to this unit's Charge rolls.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Infantry, Battleline, Chaos, Daemon, Summoned, Slaanesh, Daemonettes.\n\nFaction: Legions of Excess.\n\n**Eligible attachments**\n\nLeader: Syll'Esske, Tranceweaver, Infernal Enrapturess, Contorted Epitome.",
+            "description": "Core: Fights First. Army rules: Manifestation.\n\nComposition: 1 Alluress and 9 Daemonettes. Equipment: Slashing claws.\n\n**Equipment options**\n\nOne Daemonette can carry a daemonic icon and a different Daemonette can carry an instrument of Chaos.\n\n**Horrifying Beauty**\n\nAt the start of either Fight phase, each enemy unit within Engagement Range of one or more friendly units with this ability must take a Battle-shock test. Subtract 1 if it is Below Half-strength. A unit takes only one test through this ability per phase.\n\n**Daemonic Icon**\n\nEach time this unit is summoned, you can re-roll its initial Manifestation roll.\n\n**Instrument of Chaos**\n\nAdd 1 to this unit's Charge rolls.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Infantry, Battleline, Chaos, Daemon, Summoned, Slaanesh, Daemonettes.\n\nFaction: Legions of Excess.\n\n**Eligible attachments**\n\nLeader: Syll'Esske, Tranceweaver, Infernal Enrapturess, Contorted Epitome.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "89"
           }
@@ -53304,7 +53304,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
               }
             ]
           },
@@ -53826,7 +53826,7 @@
             "name": "Datasheet rules and equipment",
             "id": "42ab-02ff-1db5-066f",
             "hidden": true,
-            "description": "Core: None. Army rules: Manifestation.\n\nComposition: 1 Mirrorblade Exemplar and 4 or 9 Mirror Guard. Equipment: Shardglass blades.\n\n**Stolen Reflection**\n\nAt the start of the Fight phase, select one enemy unit engaged with this unit. Until the end of the phase, worsen the Weapon Skill of melee weapons equipped by models in that enemy unit by 1. Multiple instances do not stack.\n\n**Through the Looking Glass**\n\nWhen making Pile-in or Consolidation moves, models in this unit can move through other models. They cannot end overlapping another model's base. All other restrictions on those moves apply.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Infantry, Chaos, Daemon, Summoned, Slaanesh, Mirror Guard. Faction: Legions of Excess.\n\n**Eligible attachments**\n\nLeader: Syll'Esske, Contorted Epitome.",
+            "description": "Core: None. Army rules: Manifestation.\n\nComposition: 1 Mirrorblade Exemplar and 4 or 9 Mirror Guard. Equipment: Shardglass blades.\n\n**Stolen Reflection**\n\nAt the start of the Fight phase, select one enemy unit engaged with this unit. Until the end of the phase, worsen the Weapon Skill of melee weapons equipped by models in that enemy unit by 1. Multiple instances do not stack.\n\n**Through the Looking Glass**\n\nWhen making Pile-in or Consolidation moves, models in this unit can move through other models. They cannot end overlapping another model's base. All other restrictions on those moves apply.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Infantry, Chaos, Daemon, Summoned, Slaanesh, Mirror Guard. Faction: Legions of Excess.\n\n**Eligible attachments**\n\nLeader: Syll'Esske, Contorted Epitome.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "98"
           }
@@ -54055,7 +54055,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Non-Daemon and Daemon Psykers can summon this unit. It loses Manifestation only at the end of your Fight phase, instead of at the end of every phase in your turn. Initial D3, maximum 3 and normal gain restrictions still apply."
+                "$text": "Non-Daemon and Daemon Psykers can summon this unit. It loses Manifestation only at the end of your Fight phase, instead of at the end of every phase in your turn. Initial D3+1, maximum 3 and normal gain restrictions still apply."
               }
             ]
           },
@@ -54069,7 +54069,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lesser Daemonic Ritual; non-Daemon or Daemon Psyker. Initial D3; maximum 3. Lose 1 only at the end of your Fight phase."
+                "$text": "Lesser Daemonic Ritual; non-Daemon or Daemon Psyker. Initial D3+1; maximum 3. Lose 1 only at the end of your Fight phase."
               }
             ]
           },
@@ -54577,7 +54577,7 @@
             "name": "Datasheet rules and equipment",
             "id": "eed5-478c-d69a-9b9a",
             "hidden": true,
-            "description": "Core: Stealth. Army rules: Manifestation.\n\nComposition: 5 or 10 Furies. Equipment: Hooked claws.\n\n**Scattering Shadows**\n\nOnce per turn, after an enemy unit ends a Normal, Advance or Fall Back move within 8\", if this unit is unengaged, it can make a Normal move of up to 12\".\n\n**Fluttering Retreat**\n\nAt the end of either player's Fight phase, this unit can make a Fall Back move if engaged, or a Normal move of up to 12\" if unengaged.\n\n**Collectors of Sensation**\n\nEach time this unit destroys an enemy model, select one model in this unit. Increase that model's OC by 1, to a maximum of 3, until the end of the battle. These increases persist through becoming Debound and being summoned again.\n\n**Insignificant Manifestations**\n\nNon-Daemon and Daemon Psykers can summon this unit. It loses Manifestation only at the end of your Fight phase, instead of at the end of every phase in your turn. Initial D3, maximum 3 and normal gain restrictions still apply.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual; non-Daemon or Daemon Psyker. Initial D3; maximum 3. Lose 1 only at the end of your Fight phase.\n\nKeywords: Infantry, Fly, Chaos, Daemon, Summoned, Slaanesh, Furies of Slaanesh.\n\nFaction: Legions of Excess.",
+            "description": "Core: Stealth. Army rules: Manifestation.\n\nComposition: 5 or 10 Furies. Equipment: Hooked claws.\n\n**Scattering Shadows**\n\nOnce per turn, after an enemy unit ends a Normal, Advance or Fall Back move within 8\", if this unit is unengaged, it can make a Normal move of up to 12\".\n\n**Fluttering Retreat**\n\nAt the end of either player's Fight phase, this unit can make a Fall Back move if engaged, or a Normal move of up to 12\" if unengaged.\n\n**Collectors of Sensation**\n\nEach time this unit destroys an enemy model, select one model in this unit. Increase that model's OC by 1, to a maximum of 3, until the end of the battle. These increases persist through becoming Debound and being summoned again.\n\n**Insignificant Manifestations**\n\nNon-Daemon and Daemon Psykers can summon this unit. It loses Manifestation only at the end of your Fight phase, instead of at the end of every phase in your turn. Initial D3+1, maximum 3 and normal gain restrictions still apply.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual; non-Daemon or Daemon Psyker. Initial D3+1; maximum 3. Lose 1 only at the end of your Fight phase.\n\nKeywords: Infantry, Fly, Chaos, Daemon, Summoned, Slaanesh, Furies of Slaanesh.\n\nFaction: Legions of Excess.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "99"
           }
@@ -54799,7 +54799,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
               }
             ]
           },
@@ -54893,7 +54893,7 @@
             "name": "Datasheet rules and equipment",
             "id": "61a2-8be5-8e73-9c60",
             "hidden": true,
-            "description": "Core: None. Army rules: Manifestation. Psyker Level: 1.\n\nComposition: 1 Cantor and 2 Choristers. Equipment: Unmaking chorus, Talons of discord.\n\n**Equipment options**\n\nEach model selects one chorus profile when shooting. The unit is Psyker Level 1, not each model separately.\n\n**Discordant Revelation**\n\nAfter this unit has shot, select one enemy unit hit by one or more attacks made with its Unmaking chorus. That enemy unit must take a Battle-shock test.\n\n**Unending Refrain (Psychic Level 1)**\n\nAt the start of a phase in your turn, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one other friendly Legions of Excess unit within 6\". It does not lose a Manifestation point through its army rule at the end of the phase. This unit can use this power only once per turn. Preserving a point does not consume the recipient's point-gain allowance.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Infantry, Chaos, Daemon, Summoned, Slaanesh, Choir of Unmaking, Psyker.\n\nFaction: Legions of Excess.\n\n**Eligible attachments**\n\nLeader: Infernal Enrapturess, Contorted Epitome.",
+            "description": "Core: None. Army rules: Manifestation. Psyker Level: 1.\n\nComposition: 1 Cantor and 2 Choristers. Equipment: Unmaking chorus, Talons of discord.\n\n**Equipment options**\n\nEach model selects one chorus profile when shooting. The unit is Psyker Level 1, not each model separately.\n\n**Discordant Revelation**\n\nAfter this unit has shot, select one enemy unit hit by one or more attacks made with its Unmaking chorus. That enemy unit must take a Battle-shock test.\n\n**Unending Refrain (Psychic Level 1)**\n\nAt the start of a phase in your turn, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one other friendly Legions of Excess unit within 6\". It does not lose a Manifestation point through its army rule at the end of the phase. This unit can use this power only once per turn. Preserving a point does not consume the recipient's point-gain allowance.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Infantry, Chaos, Daemon, Summoned, Slaanesh, Choir of Unmaking, Psyker.\n\nFaction: Legions of Excess.\n\n**Eligible attachments**\n\nLeader: Infernal Enrapturess, Contorted Epitome.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "100"
           }
@@ -59181,7 +59181,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
               }
             ]
           },
@@ -59995,7 +59995,7 @@
             "name": "Datasheet rules and equipment",
             "id": "4d0d-e212-114c-04aa",
             "hidden": true,
-            "description": "Core: None. Army rules: Manifestation.\n\nComposition: 1 Heartseeker and 4 or 9 Seekers. Equipment: Slashing claws, Lashing tongue.\n\n**Equipment options**\n\nOne Seeker can carry a daemonic icon and a different Seeker can carry an instrument of Chaos.\n\n**Unholy Speed**\n\nRe-roll Advance and Charge rolls. This unit can declare a charge in a turn in which it Advanced.\n\n**Daemonic Icon**\n\nEach time this unit is summoned, you can re-roll its initial Manifestation roll.\n\n**Instrument of Chaos**\n\nAdd 1 to this unit's Charge rolls.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Mounted, Chaos, Daemon, Summoned, Slaanesh, Seekers. Faction: Legions of Excess.",
+            "description": "Core: None. Army rules: Manifestation.\n\nComposition: 1 Heartseeker and 4 or 9 Seekers. Equipment: Slashing claws, Lashing tongue.\n\n**Equipment options**\n\nOne Seeker can carry a daemonic icon and a different Seeker can carry an instrument of Chaos.\n\n**Unholy Speed**\n\nRe-roll Advance and Charge rolls. This unit can declare a charge in a turn in which it Advanced.\n\n**Daemonic Icon**\n\nEach time this unit is summoned, you can re-roll its initial Manifestation roll.\n\n**Instrument of Chaos**\n\nAdd 1 to this unit's Charge rolls.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Mounted, Chaos, Daemon, Summoned, Slaanesh, Seekers. Faction: Legions of Excess.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "103"
           }
@@ -60945,7 +60945,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Lesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
               }
             ]
           },
@@ -61885,7 +61885,7 @@
             "name": "Datasheet rules and equipment",
             "id": "6f1f-09a0-dd3e-337e",
             "hidden": true,
-            "description": "Core: None. Army rules: Manifestation.\n\nComposition: 1 Blissbringer and 2 or 5 Fiends. Equipment: Barbed tail and dissecting claws.\n\n**Soporific Musk**\n\nEach time an enemy unit, excluding Monsters and Vehicles, Falls Back while engaged with this unit, its models must take Desperate Escape tests. If that unit is Battle-shocked, subtract 1 from those tests.\n\n**Intoxicating Arrival**\n\nAfter this unit ends a Charge move, select one enemy unit engaged with it. That enemy unit must take a Battle-shock test. Resolve this before Manifestation loss at the end of your Charge phase.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Beast, Chaos, Daemon, Summoned, Slaanesh, Fiends. Faction: Legions of Excess.",
+            "description": "Core: None. Army rules: Manifestation.\n\nComposition: 1 Blissbringer and 2 or 5 Fiends. Equipment: Barbed tail and dissecting claws.\n\n**Soporific Musk**\n\nEach time an enemy unit, excluding Monsters and Vehicles, Falls Back while engaged with this unit, its models must take Desperate Escape tests. If that unit is Battle-shocked, subtract 1 from those tests.\n\n**Intoxicating Arrival**\n\nAfter this unit ends a Charge move, select one enemy unit engaged with it. That enemy unit must take a Battle-shock test. Resolve this before Manifestation loss at the end of your Charge phase.\n\n**Summoning and Manifestation**\n\nLesser Daemonic Ritual. Initial Manifestation: D3+1; maximum 3. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise.\n\nKeywords: Beast, Chaos, Daemon, Summoned, Slaanesh, Fiends. Faction: Legions of Excess.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "106"
           }
@@ -76468,7 +76468,7 @@
             "name": "Consecrated Sacrificial Knife",
             "id": "3b49-1273-09cf-43b2",
             "hidden": false,
-            "description": "Non-Daemon EC Psyker Character. Once per battle, when determining a Greater Daemon's initial Manifestation after the bearer summons it, roll two D3 and select one result."
+            "description": "Non-Daemon EC Psyker Character. Once per battle, when determining a Greater Daemon's initial Manifestation after the bearer summons it, roll two D3, select one result and add 1."
           }
         ]
       },
@@ -79554,7 +79554,7 @@
       {
         "name": "Ritual Host — Summoning Circle / 1 CP",
         "id": "bb24-a8c8-29a7-83be",
-        "description": "\n\n### When\n\nWhen a friendly non-Daemon EC Character begins a summoning ritual.\n\n### Target\n\nThat Character and one other friendly non-Daemon EC Character within 6\" that has not performed a ritual this turn.\n\n### Effect\n\nBoth count as having performed a ritual this turn. Roll two D3 for initial Manifestation and select one result. This cannot combine with Consecrated Sacrificial Knife on the same roll. The performing Character must meet the chosen ritual's requirements.",
+        "description": "\n\n### When\n\nWhen a friendly non-Daemon EC Character begins a summoning ritual.\n\n### Target\n\nThat Character and one other friendly non-Daemon EC Character within 6\" that has not performed a ritual this turn.\n\n### Effect\n\nBoth count as having performed a ritual this turn. Roll two D3, select one result and add 1 for initial Manifestation. This cannot combine with Consecrated Sacrificial Knife on the same roll. The performing Character must meet the chosen ritual's requirements.",
         "hidden": false
       },
       {
@@ -79956,7 +79956,7 @@
       {
         "name": "Manifestation",
         "id": "056c-12c7-df45-8120",
-        "description": "\n\nEach time this unit is summoned, it gains D3 Manifestation points, to its datasheet's maximum.\n\nEach time a unit within 6\" of this unit is destroyed or fails a Battle-shock test, this unit gains 1 Manifestation point. Measure range before the destroyed unit's last model is removed. This unit can gain at most 1 Manifestation point per phase and cannot exceed its maximum.\n\nAt the end of each phase in your turn, after resolving gains, this unit loses 1 Manifestation point. If it has 0, it becomes Debound: remove it from the battlefield and return it to your summoning pool with its surviving models and remaining wounds. Becoming Debound does not count as being destroyed. Resummoning rolls its initial Manifestation again and does not restore models or wounds.",
+        "description": "\n\nEach time this unit is summoned, it gains D3+1 Manifestation points, to its datasheet's maximum.\n\nEach time a unit within 6\" of this unit is destroyed or fails a Battle-shock test, this unit gains 1 Manifestation point. Measure range before the destroyed unit's last model is removed. This unit can gain at most 1 Manifestation point per phase and cannot exceed its maximum.\n\nAt the end of each phase in your turn, after resolving gains, this unit loses 1 Manifestation point. If it has 0, it becomes Debound: remove it from the battlefield and return it to your summoning pool with its surviving models and remaining wounds. Becoming Debound does not count as being destroyed. Resummoning rolls its initial Manifestation again and does not restore models or wounds.",
         "hidden": false,
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "14"
@@ -79972,7 +79972,7 @@
       {
         "name": "Summoning Rituals",
         "id": "c9a6-4ceb-5170-5afc",
-        "description": "\n\n**Lesser Daemonic Ritual (Psychic Level 1)**\n\nAt the start of a phase in your turn, a friendly non-Daemon Psyker whose unit is not Battle-shocked can use this power. Roll one D6; on a 1, its unit becomes Battle-shocked. Regardless of the result, select one unit in your summoning pool, excluding Greater Daemons. Set it up wholly within 6\" of that Psyker and more than 8\" horizontally from enemy models. It gains D3 Manifestation points.\n\n**Greater Daemonic Ritual**\n\nAt the start of your Charge phase, select a friendly non-Daemon Psyker that has not performed a ritual this turn and one other friendly non-Daemon Infantry unit within 6\" of it. Destroy that Infantry unit, then set up one Greater Daemon from your summoning pool wholly within 6\" of the Psyker and more than 8\" horizontally from enemy models. It gains D3 Manifestation points and can charge that phase.\n\nEach Psyker can perform one ritual per turn. The lesser ritual consumes 1 level of its psychic allowance. Summon an attached Leader and Bodyguard together with one ritual and one shared Manifestation total.",
+        "description": "\n\n**Lesser Daemonic Ritual (Psychic Level 1)**\n\nAt the start of a phase in your turn, a friendly non-Daemon Psyker whose unit is not Battle-shocked can use this power. Roll one D6; on a 1, its unit becomes Battle-shocked. Regardless of the result, select one unit in your summoning pool, excluding Greater Daemons. Set it up wholly within 6\" of that Psyker and more than 8\" horizontally from enemy models. It gains D3+1 Manifestation points.\n\n**Greater Daemonic Ritual**\n\nAt the start of your Charge phase, select a friendly non-Daemon Psyker that has not performed a ritual this turn and one other friendly non-Daemon Infantry unit within 6\" of it. Destroy that Infantry unit, then set up one Greater Daemon from your summoning pool wholly within 6\" of the Psyker and more than 8\" horizontally from enemy models. It gains D3+1 Manifestation points and can charge that phase.\n\nEach Psyker can perform one ritual per turn. The lesser ritual consumes 1 level of its psychic allowance. Summon an attached Leader and Bodyguard together with one ritual and one shared Manifestation total.",
         "hidden": false,
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "15, 16"
