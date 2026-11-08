@@ -4,7 +4,7 @@
     "id": "4c75-1943-4eb8-f9c8",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 22,
-    "revision": 3,
+    "revision": 4,
     "battleScribeVersion": 2.03,
     "library": true,
     "type": "catalogue",
@@ -667,7 +667,7 @@
             "id": "61fb-09a2-f70e-550c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -1401,7 +1401,7 @@
             "id": "07c3-47fa-7326-db4f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -2722,7 +2722,7 @@
             "id": "f2e7-ea81-366f-bae9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -3801,7 +3801,7 @@
             "id": "5ad9-3887-8d3b-b066",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -4853,7 +4853,7 @@
             "id": "70ce-6924-81a2-b2d2",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -6284,7 +6284,7 @@
             "id": "f8b5-7f9f-5dc5-8f7e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -7456,7 +7456,7 @@
             "id": "bf48-dfd7-fa17-2442",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -8495,7 +8495,7 @@
             "id": "ce19-a28c-c3a3-fc85",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -10090,7 +10090,7 @@
             "id": "ac15-0520-0655-4cf8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -12081,7 +12081,7 @@
             "id": "b0c2-40e6-23b5-9c33",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -13306,7 +13306,7 @@
             "id": "7926-1bc3-acc6-ff2c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -14254,7 +14254,7 @@
             "id": "318f-7936-349a-4275",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -15365,7 +15365,7 @@
             "id": "eabe-b54f-d27e-c1f1",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -17187,7 +17187,7 @@
             "id": "dbf2-feb5-0d3b-b2ae",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -18535,7 +18535,7 @@
             "id": "0fc8-cce0-33fc-1f2e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -19312,7 +19312,7 @@
             "id": "8983-114b-f8a8-f2c7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -20330,7 +20330,7 @@
             "id": "8cd8-1590-370a-1ca1",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -21293,7 +21293,7 @@
             "id": "d55d-f423-ad82-9edd",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -22079,7 +22079,7 @@
             "id": "228e-462a-646a-8b90",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -22614,7 +22614,7 @@
             "id": "aed1-3f50-78dd-809a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -23291,7 +23291,7 @@
             "id": "ebcd-f176-335f-4f6c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -25565,7 +25565,7 @@
             "id": "2179-42f2-c5e4-6da1",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -26924,7 +26924,7 @@
             "id": "6a3f-a1e5-5309-248d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -27668,7 +27668,7 @@
             "id": "2d7c-3761-7425-44c7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -28692,7 +28692,7 @@
             "id": "be69-3c39-42d9-88bc",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -29536,7 +29536,7 @@
             "id": "4214-9f23-e7bd-72a6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -30389,7 +30389,7 @@
             "id": "60dc-296a-06b6-2367",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -31185,7 +31185,7 @@
             "id": "4ff9-6e8e-080a-31e8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -32190,7 +32190,7 @@
             "id": "aa43-febf-f968-5c28",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -33674,7 +33674,7 @@
             "id": "0248-7cec-68b7-8414",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -34628,7 +34628,7 @@
             "id": "5a68-5eef-9ee5-ac43",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -35576,7 +35576,7 @@
             "id": "3ac5-ad18-3e9c-95e5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -37174,7 +37174,7 @@
             "id": "3648-f519-4d9a-8261",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -38292,7 +38292,7 @@
             "id": "c4dd-5e9c-fb6c-aa73",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -39489,7 +39489,7 @@
             "id": "310a-aaac-5eac-d45b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -40958,7 +40958,7 @@
             "id": "1f2a-a0ee-cde7-132e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -42440,7 +42440,7 @@
             "id": "fb49-a6fa-bbe5-e8f9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -43887,7 +43887,7 @@
             "id": "4688-098a-e468-1ca7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -45101,7 +45101,7 @@
             "id": "bd7b-353a-c4fd-ee31",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -46971,7 +46971,7 @@
             "id": "aed3-1639-d4e1-ce12",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -48835,7 +48835,7 @@
             "id": "189c-d92f-0f9a-5ebf",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -49968,7 +49968,7 @@
             "id": "1841-9a8b-786f-94d0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -50627,7 +50627,7 @@
             "id": "d566-6bcc-1c51-040e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -51752,7 +51752,7 @@
             "id": "2618-365d-ab07-f72f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -53086,7 +53086,7 @@
             "id": "0fde-4b2a-9459-06c4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -54147,7 +54147,7 @@
             "id": "2242-1fa1-7a41-7d82",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -55274,7 +55274,7 @@
             "id": "6819-3907-14df-9264",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -56211,7 +56211,7 @@
             "id": "473b-b7d4-455b-2780",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -57043,7 +57043,7 @@
             "id": "58e4-780f-99fd-a9e6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -58660,7 +58660,7 @@
             "id": "891a-4ab9-25b2-f196",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -60469,7 +60469,7 @@
             "id": "f8a6-11bc-ed95-45cd",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -61640,7 +61640,7 @@
             "id": "9c93-ae44-716d-042b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -62570,7 +62570,7 @@
             "id": "ae24-8701-29b6-430d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -63962,7 +63962,7 @@
             "id": "7ae0-8e8b-dd9b-0a12",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -65675,7 +65675,7 @@
             "id": "740e-d2d0-2a23-040e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -66739,7 +66739,7 @@
             "id": "4817-a07e-2281-7538",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -67563,7 +67563,7 @@
             "id": "f0ce-ca75-d358-a82a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -68188,7 +68188,7 @@
             "id": "ec5c-44d3-64c7-e423",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -69283,7 +69283,7 @@
             "id": "7938-470e-ca0b-b444",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -70606,7 +70606,7 @@
             "id": "50e6-dc2c-3041-0805",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -71431,7 +71431,7 @@
             "id": "e719-b6cf-3bba-a0cf",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -72648,7 +72648,7 @@
             "id": "0e3f-2a00-0200-47b2",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -73801,7 +73801,7 @@
             "id": "1bc8-323d-9b8a-a6a7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -75744,7 +75744,7 @@
             "id": "00f4-c3be-442a-f65d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -76747,7 +76747,7 @@
             "id": "f9aa-c867-43c3-86db",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -78224,7 +78224,7 @@
             "id": "0272-bb75-ea73-55e8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -79597,7 +79597,7 @@
             "id": "83d3-e110-e399-cd27",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -80562,7 +80562,7 @@
             "id": "787f-e660-113d-1637",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -83407,7 +83407,7 @@
             "id": "5720-3c56-cf2d-1db5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -84135,7 +84135,7 @@
             "id": "33d7-011d-fb4b-38c8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -85455,7 +85455,7 @@
             "id": "b89b-1a5b-c94e-fc84",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -86855,7 +86855,7 @@
             "id": "9d7d-df11-ddcc-919f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -87924,7 +87924,7 @@
             "id": "c4a5-adcc-8c15-dd53",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -88754,7 +88754,7 @@
             "id": "5232-d5b0-c5db-b516",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -90538,7 +90538,7 @@
             "id": "9020-9e7f-6de2-97be",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -91252,7 +91252,7 @@
             "id": "9d0a-40cf-dc74-82f8",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -91966,7 +91966,7 @@
             "id": "ec62-18c7-c4e8-733f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -92680,7 +92680,7 @@
             "id": "b17c-eb55-4a6f-7485",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -93394,7 +93394,7 @@
             "id": "fdbd-5171-2f0e-ee88",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -94216,7 +94216,7 @@
             "id": "1684-7f88-1557-b3ff",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -94840,7 +94840,7 @@
             "id": "a709-056a-3785-d9ad",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -95592,7 +95592,7 @@
             "id": "1eaf-db12-1d76-15a7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -96553,7 +96553,7 @@
             "id": "92f5-62d7-f7c6-022e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -98319,7 +98319,7 @@
             "id": "3751-6bee-4738-de12",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -99458,7 +99458,7 @@
             "id": "f33d-5052-d051-af6c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -100280,7 +100280,7 @@
             "id": "c29d-095c-c8b9-77cf",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -101334,7 +101334,7 @@
             "id": "9a19-f1dd-4077-610c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -102501,7 +102501,7 @@
             "id": "7d53-60bb-f0aa-7085",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -103601,7 +103601,7 @@
             "id": "9fe8-62f5-6af2-cfb4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -104908,7 +104908,7 @@
             "id": "1971-9f85-ddfb-d536",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -105701,7 +105701,7 @@
             "id": "b0e2-32d9-bbae-1b9f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -107227,7 +107227,7 @@
             "id": "33f9-fd6e-14ed-1fb6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -108913,7 +108913,7 @@
             "id": "6cf6-1fe7-91fe-9d7e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -109833,7 +109833,7 @@
             "id": "73a7-6f9c-22e7-af65",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -110646,7 +110646,7 @@
             "id": "cc51-5b24-439b-70e9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -111607,7 +111607,7 @@
             "id": "a5b1-7c87-5401-7af4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -113004,7 +113004,7 @@
             "id": "f9fb-ddb1-5bed-1466",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -113620,7 +113620,7 @@
             "id": "f826-5b4a-75ff-dcf3",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -114699,7 +114699,7 @@
             "id": "a83f-3ca8-6ec7-e104",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -115789,7 +115789,7 @@
             "id": "6456-507b-6aa7-758c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -116824,7 +116824,7 @@
             "id": "422d-136b-c906-a8bc",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -117857,7 +117857,7 @@
             "id": "3fba-ffad-2090-f730",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -118660,7 +118660,7 @@
             "id": "24e0-cc48-7ca9-9804",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -119471,7 +119471,7 @@
             "id": "78cb-a86b-f980-5c93",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -120474,7 +120474,7 @@
             "id": "4a2e-d410-86c8-3df0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -121233,7 +121233,7 @@
             "id": "072c-8b33-7350-71d0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -122087,7 +122087,7 @@
             "id": "12e5-c81a-f937-f7e4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -122906,7 +122906,7 @@
             "id": "e43e-0391-9a77-82d6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -123691,7 +123691,7 @@
             "id": "766f-7289-ac08-91ea",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -124693,7 +124693,7 @@
             "id": "d7eb-69b8-d08a-87fe",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -125918,7 +125918,7 @@
             "id": "6e45-ee1a-51cc-9106",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -126699,7 +126699,7 @@
             "id": "e272-60be-13da-c8f0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -127404,7 +127404,7 @@
             "id": "3b9e-15b7-e071-8263",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -128173,7 +128173,7 @@
             "id": "7b85-d46c-c33e-8969",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -129003,7 +129003,7 @@
             "id": "115e-4c1f-4b68-0ae9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -129749,7 +129749,7 @@
             "id": "558f-c64c-98d4-f640",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -131476,7 +131476,7 @@
             "id": "defa-0eeb-b509-5100",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -132189,7 +132189,7 @@
             "id": "2d02-0a55-6984-f2b2",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -133026,7 +133026,7 @@
             "id": "a52d-eb32-be32-31be",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -133497,7 +133497,7 @@
             "id": "ed35-112b-8701-6e9e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -134317,7 +134317,7 @@
             "id": "17ba-ab70-7ba3-5a21",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -135097,7 +135097,7 @@
             "id": "3733-890b-8e9f-6239",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -135873,7 +135873,7 @@
             "id": "91a8-1b97-169e-1365",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -136638,7 +136638,7 @@
             "id": "8752-91cc-d52a-1dbe",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -137531,7 +137531,7 @@
             "id": "6e2c-219f-6497-651e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -138290,7 +138290,7 @@
             "id": "b8c5-80a6-8cf0-32dc",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -138991,7 +138991,7 @@
             "id": "5f87-171a-5839-b9ad",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -139960,7 +139960,7 @@
             "id": "2a36-79d3-4222-4ce0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -140762,7 +140762,7 @@
             "id": "b028-5038-fad7-2db4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -141736,7 +141736,7 @@
             "id": "655d-54ba-0fc7-cebc",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -142231,7 +142231,7 @@
             "id": "9273-92b4-a9e4-113d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -142715,7 +142715,7 @@
             "id": "8c1e-76ac-59f9-a511",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -143426,7 +143426,7 @@
             "id": "8674-6d12-4775-53d7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -144100,7 +144100,7 @@
             "id": "9217-4707-0006-dec0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -144747,7 +144747,7 @@
             "id": "ef29-6e54-5a22-1cd5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -145873,7 +145873,7 @@
             "id": "2f23-89ee-61f9-d310",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -146699,7 +146699,7 @@
             "id": "96d3-d81e-cd7f-ea15",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -147567,7 +147567,7 @@
             "id": "28d1-a4a2-20c2-219a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -148358,7 +148358,7 @@
             "id": "b4b7-163c-9fd3-3066",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -149215,7 +149215,7 @@
             "id": "68fc-a26b-7adc-22ac",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -150060,7 +150060,7 @@
             "id": "29b4-8c1b-df75-19f4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -151959,7 +151959,7 @@
             "id": "3a56-4b23-432f-004e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -153314,7 +153314,7 @@
             "id": "7803-2ae4-93e7-d82a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -155489,7 +155489,7 @@
             "id": "0723-f5a5-aecc-2ea7",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -157894,7 +157894,7 @@
             "id": "ef6c-96f1-8b02-7002",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -159124,7 +159124,7 @@
             "id": "e735-acab-9b8f-abaf",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -160437,7 +160437,7 @@
             "id": "b9c8-f7ef-6241-839b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -161738,7 +161738,7 @@
             "id": "3116-282f-b4cf-fb44",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -163015,7 +163015,7 @@
             "id": "8ef7-89c5-847d-a294",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -164113,7 +164113,7 @@
             "id": "0f99-27f8-e1dd-ed1c",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -165528,7 +165528,7 @@
             "id": "1cd4-840e-7579-71a0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -166263,7 +166263,7 @@
             "id": "27be-3287-2a0a-a25a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -168242,7 +168242,7 @@
             "id": "25c4-c578-79ed-01ea",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -169802,7 +169802,7 @@
             "id": "ec63-231b-b9f5-3589",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -170720,7 +170720,7 @@
             "id": "7619-557d-340c-8a24",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -171593,7 +171593,7 @@
             "id": "97cd-f1c0-ea3f-c7e9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -172505,7 +172505,7 @@
             "id": "e8ac-190a-621b-e8dc",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -173350,7 +173350,7 @@
             "id": "e47c-dd4c-03fc-c7b1",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -174059,7 +174059,7 @@
             "id": "2798-3743-1054-6f68",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -175045,7 +175045,7 @@
             "id": "0527-75bb-7429-95f3",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -176247,7 +176247,7 @@
             "id": "8f15-1346-d358-14c5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -177152,7 +177152,7 @@
             "id": "38ca-06f7-9e10-3869",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -178255,7 +178255,7 @@
             "id": "12bf-c28f-dd92-ae58",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -179212,7 +179212,7 @@
             "id": "b3eb-8236-cff0-4740",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -180766,7 +180766,7 @@
             "id": "ba3d-0e58-7de1-6e70",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -181937,7 +181937,7 @@
             "id": "51e5-f675-744a-7516",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -183246,7 +183246,7 @@
             "id": "3031-4607-efa8-07b5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -184673,7 +184673,7 @@
             "id": "2d6c-c5f0-61bd-2e5b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -185674,7 +185674,7 @@
             "id": "ec88-4386-5ea5-c266",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -186816,7 +186816,7 @@
             "id": "f640-9255-e1ec-2baa",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -188250,7 +188250,7 @@
             "id": "eff9-9b3e-4bd1-b5c5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -189172,7 +189172,7 @@
             "id": "60d3-96f0-9e7e-006a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -190718,7 +190718,7 @@
             "id": "40cf-8914-c72e-7b3a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -191742,7 +191742,7 @@
             "id": "4260-23eb-1325-b82a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -193015,7 +193015,7 @@
             "id": "1785-1fd2-3b0f-3e61",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -195044,7 +195044,7 @@
             "id": "b6cb-66f4-5ed7-d3e2",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -196055,7 +196055,7 @@
             "id": "5aa0-2cbf-0c44-227e",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -197480,7 +197480,7 @@
             "id": "9a1d-45f5-2ded-e571",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -198290,7 +198290,7 @@
             "id": "c3a6-6b60-d8be-0d9b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -199377,7 +199377,7 @@
             "id": "9eda-bfc2-5ed7-ff8f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -200547,7 +200547,7 @@
             "id": "28bd-b08a-54b3-8386",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -202276,7 +202276,7 @@
             "id": "8a39-eb17-16c7-536a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -203208,7 +203208,7 @@
             "id": "accd-1235-5016-0674",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -204458,7 +204458,7 @@
             "id": "12cf-a1d8-5f6e-228f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -205592,7 +205592,7 @@
             "id": "f68e-3db1-3a1d-d280",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -207058,7 +207058,7 @@
             "id": "b40e-aff6-ba58-a0a3",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -207833,7 +207833,7 @@
             "id": "0b84-97ae-4cc3-1aae",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -208853,7 +208853,7 @@
             "id": "c0a9-78ad-1882-78c0",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -209661,7 +209661,7 @@
             "id": "84a0-579b-812e-2949",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -210616,7 +210616,7 @@
             "id": "5333-6c76-c836-2245",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -211404,7 +211404,7 @@
             "id": "f895-104a-b5e2-604f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -212489,7 +212489,7 @@
             "id": "86b9-6da5-7017-db18",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -213336,7 +213336,7 @@
             "id": "04b7-2330-34e7-b5ea",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -214404,7 +214404,7 @@
             "id": "3bf2-ba02-600f-3f0d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -215505,7 +215505,7 @@
             "id": "1986-039c-3f18-f03a",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -216615,7 +216615,7 @@
             "id": "bd2a-4820-6b97-2cc9",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -217691,7 +217691,7 @@
             "id": "c6fa-0995-3b6a-ffe6",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -218714,7 +218714,7 @@
             "id": "5d52-82f3-d8ee-50f4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -220089,7 +220089,7 @@
             "id": "dc06-93db-4e79-9941",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -221038,7 +221038,7 @@
             "id": "91f2-6de2-dabb-dbba",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -222021,7 +222021,7 @@
             "id": "2225-1f97-989e-127b",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -223133,7 +223133,7 @@
             "id": "6c37-5d16-62a9-9810",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -224320,7 +224320,7 @@
             "id": "15d6-69d7-a64d-2ece",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -225442,7 +225442,7 @@
             "id": "a073-b625-f089-3bb4",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -226729,7 +226729,7 @@
             "id": "ba8b-cc1e-690a-5c9f",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -228062,7 +228062,7 @@
             "id": "9ca0-47ec-c099-2a07",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -229396,7 +229396,7 @@
             "id": "8f50-fe76-51c6-fa14",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -230550,7 +230550,7 @@
             "id": "8cb9-0a91-a51f-f731",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -231588,7 +231588,7 @@
             "id": "3e36-fea9-6b84-3be1",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -232835,7 +232835,7 @@
             "id": "a8df-cfee-082e-9841",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -234162,7 +234162,7 @@
             "id": "e966-1d3a-237c-fa21",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -235976,7 +235976,7 @@
             "id": "fe8c-a7b1-7e44-f7f2",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -237336,7 +237336,7 @@
             "id": "a99e-f97a-c701-5e9d",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -239506,7 +239506,7 @@
             "id": "f1ed-7b26-547b-5dbe",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -241976,7 +241976,7 @@
             "id": "431a-0b8d-d40c-c2ff",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -244232,7 +244232,7 @@
             "id": "7e1b-cdb8-1d6f-c5f5",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -247169,7 +247169,7 @@
             "id": "3d42-5570-0214-9804",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -249553,7 +249553,7 @@
             "id": "0ce6-cd9f-bcf3-00b1",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
@@ -251213,7 +251213,7 @@
             "id": "4027-e829-e469-5d45",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "hidden": false,
+            "hidden": true,
             "characteristics": [
               {
                 "name": "Description",
