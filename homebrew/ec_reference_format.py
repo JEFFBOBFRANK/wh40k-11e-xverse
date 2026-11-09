@@ -65,6 +65,8 @@ def source_table(source, page, first, after, source_column=False):
 
 def reference_text(ref, source):
     text = ref['text']
+    if ref['page'] == 16 and '**Blood:**' in text:
+        return tidy(text)
     for first, after, source_column in TABLES.get(ref['page'], []):
         labels, rows = source_table(source, ref['page'], first, after, source_column)
         flat_header = ' '.join(labels)

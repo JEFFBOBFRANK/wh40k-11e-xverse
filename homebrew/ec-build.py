@@ -52,10 +52,10 @@ def linkrule(o,r,name=None,cs=None):
 disp=json.loads((HERE/'ec-display-data.json').read_text())['dispositions']
 ALL_DISP=['Disruption','Priority Assets','Purge the Foe','Take and Hold','Reconnaissance']
 UNSPECIFIED=[d['name'] for d in S['detachments'] if d['name'] not in disp]
-DET={d['name']:uid('det:'+d['name']) for d in S['detachments']}
+DET={d['name']:uid('det:'+S.get('detachment_id_aliases',{}).get(d['name'],d['name'])) for d in S['detachments']}
 cfg=entry('Detachment','detachment');tag(cfg,'Configuration',True);exact(cfg,1,'detachment-config');dg=group(cfg,'Detachment','det-group',1,4);dg['defaultSelectionEntryId']='none'
 for d in S['detachments']:
- e=entry(d['name'],'det:'+d['name']);maximum(e,1,e['id']+'max');price(e,d['dp'],DP)
+ e=entry(d['name'],'det:'+S.get('detachment_id_aliases',{}).get(d['name'],d['name']));maximum(e,1,e['id']+'max');price(e,d['dp'],DP)
  for x in disp.get(d['name'],ALL_DISP):tag(e,x)
  if d['dp']==3:tag(e,'3DP Detachment')
  rule(e,'Detachment rule',d['rules'])
@@ -312,14 +312,6 @@ def walk_nodes(node):
   for value in node.values():yield from walk_nodes(value)
  elif isinstance(node,list):
   for value in node:yield from walk_nodes(value)
-SONIC=cat('SONIC')
-for u in S['units']:
- if u['allied']:continue
- e=NATIVE[u['name']]
- weapons=[n for n in walk_nodes(e) if any(p.get('typeName') in ['Ranged Weapons','Melee Weapons'] and is_sonic(p['name']) for p in n.get('profiles',[]))]
- if not weapons:continue
- app(e,'modifiers',dict(field='category',type='add',value=SONIC,conditionGroups=[dict(type='or',conditions=[cond(w['id'],e['id']) for w in weapons])]))
-
 # Eligibility is based on the printed first sentence and explicit unit names.
 def eligible(u,d,h):
  kw=set(u['keywords']);name=u['name'];text=h['text'].split('. ')[0];allied=u['allied'];char='Character' in kw
@@ -330,9 +322,6 @@ def eligible(u,d,h):
  if h['name']=='Warp Walker':return not allied or name=='Keeper of Secrets'
  if d['name']=='The Harmonic Cabal':return char and 'Psyker' in kw
  if allied:return False
- if d['name']=='The Grand Symphony':
-  if h['upgrade']:return name in ['Noise Marines','Dissonant Colossi','Cacophant','Threnody Dreadnought']
-  return char and any(is_sonic(w['name']) for w in u['weapons'])
  if 'Non-Daemon' in text or 'non-Daemon' in text:
   if 'Daemon' in kw:return False
  if h['name'] in ['Master of Reconstruction',"Reanimator's Vial"]:return name=='Chirurgeon'
@@ -368,9 +357,6 @@ for u in S['units']:
     app(he,'modifiers',dict(field=EN,type='set',value=0,conditionGroups=[dict(type='and',localConditionGroups=[dict(field='selections',includeChildSelections=True,repeats=1,scope='roster',type='atLeast',value=1,conditions=[cond('any','self','before'),cond(eid,'self','instanceOf')])])]))
    app(C,'sharedSelectionEntries',he)
   l=dict(name=h['name'],id=uid(g['id']+eid),targetId=eid,type='selectionEntry',hidden=True,modifiers=[mod('hidden',False,[cond(DET[d['name']])])],**{'import':True})
-  if d['name']=='The Grand Symphony' and not h['upgrade']:
-   weapons=[n for n in walk_nodes(e) if any(p.get('typeName') in ['Ranged Weapons','Melee Weapons'] and is_sonic(p['name']) for p in n.get('profiles',[]))]
-   l['modifiers'].append(mod('hidden',True,[cond(w['id'],e['id'],'lessThan') for w in weapons]))
   if h['name'].startswith('Censer'):
    living=next(x for x in e['selectionEntryGroups'] if x['name']=='Living Elixir assignment');l['modifiers'].append(mod('hidden',True,[cond(x['id'],e['id'],'lessThan') for x in living['selectionEntries']]))
   app(g,'entryLinks',l)
@@ -381,6 +367,6 @@ REFERENCE_REPORT=apply_references(C,G,S)
 a.output.mkdir(parents=True,exist_ok=True)
 for fn,key,obj in [("Chaos - Emperor's Children.json",'catalogue',C),('Warhammer 40,000.json','gameSystem',G)]:
  (a.output/fn).write_text(json.dumps({key:obj},indent=2,ensure_ascii=False)+'\n')
-coverage=dict(source_version=S['version'],source_pdf_sha256=S['pdf_sha256'],reference_display=REFERENCE_REPORT,native_units=45,allied_units=13,weapon_profiles=sum(len(u['weapons']) for u in S['units']),detachments=16,enhancements=43,stratagems=66,dispositions_inherited=['Peerless Bladesmen','Rapid Evisceration','Mercurial Host'],dispositions_unspecified=UNSPECIFIED,native_root_ids={n:e['id'] for n,e in NATIVE.items()},runtime_test='Published-revision live checks are recorded in homebrew/ec-VALIDATION.md.')
+coverage=dict(source_version=S['version'],source_pdf_sha256=S['pdf_sha256'],reference_display=REFERENCE_REPORT,native_units=sum(not u['allied'] for u in S['units']),allied_units=sum(u['allied'] for u in S['units']),weapon_profiles=sum(len(u['weapons']) for u in S['units']),detachments=16,enhancements=sum(len(d['enhancements']) for d in S['detachments']),stratagems=sum(len(d['stratagems']) for d in S['detachments']),dispositions_inherited=['Peerless Bladesmen','Rapid Evisceration','Mercurial Host'],dispositions_unspecified=UNSPECIFIED,native_root_ids={n:e['id'] for n,e in NATIVE.items()},runtime_test='Published-revision live checks are recorded in homebrew/ec-VALIDATION.md.')
 (a.output/'ec-coverage.json').write_text(json.dumps(coverage,indent=2)+'\n');print(json.dumps(coverage,indent=2))
 

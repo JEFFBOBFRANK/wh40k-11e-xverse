@@ -112,7 +112,8 @@ def apply_rules_display(catalogue,system,source=None):
  apply_threnody_titanic(catalogue,system)
  apply_character_and_summoning_updates(catalogue,system)
  rename_sonic_weapons(catalogue)
- catalogue['readme']='Emperor’s Children homebrew v3.2. Dispositions assigned for all sixteen detachments. Update the list data after updating the game.'
+ from ec_theatre_update import apply_latest
+ apply_latest(catalogue,system,source)
 
 
 def rename_sonic_weapons(node):
