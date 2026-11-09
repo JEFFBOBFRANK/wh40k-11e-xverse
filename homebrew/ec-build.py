@@ -252,9 +252,9 @@ for u in S['units']:
  capu=maximum(o,limit,o['id']+'copies','roster')
  if limit>1:app(o,'modifiers',mod(capu['id'],limit//3*2,[cond(INC)]))
  price(o,u['points'][0]);profile(o,u['name'],'Unit',u['stats'])
- if u['copy_price']:
-  threshold={'Lord Exultant':2,'Noise Marines':2,'Chaos Rhino':3,'Maulerfiend':2,'Defiler':1}[u['name']]
-  app(o,'modifiers',dict(field=PT,type='increment',value=u['points'][1]-u['points'][0],conditionGroups=[dict(type='and',localConditionGroups=[dict(field='selections',includeChildForces=True,includeChildSelections=True,repeats=1,scope='parent',type='atLeast',value=threshold,conditions=[cond('any','self','before'),cond(o['id'],'self','instanceOf')])])]))
+ repeat_cost=S['additional_selection_costs'].get(u['name'])
+ if repeat_cost:
+  app(o,'modifiers',dict(field=PT,type='increment',value=repeat_cost['points'],conditionGroups=[dict(type='and',localConditionGroups=[dict(field='selections',includeChildForces=True,includeChildSelections=True,repeats=1,scope='parent',type='atLeast',value=repeat_cost['from_selection']-1,conditions=[cond('any','self','before'),cond(o['id'],'self','instanceOf')])])]))
  if len(u['sizes'])==2:
   sz=group(o,'Unit Size',o['id']+':size',1,1)
   for j,n in enumerate(u['sizes']):

@@ -5751,9 +5751,9 @@
     },
     {
       "name": "Carnival of Excess",
-      "dp": 3,
+      "dp": 2,
       "page": 47,
-      "rules": "3 DP  / Disruption or Priority Assets \n\n**Allied allowance**\n\nYou can include Legions of Excess allies up to 500 points at Incursion, 1,000 points at Strike Force or 1,500 points at Onslaught. Legions models cannot be your Warlord. \n\n**Daemonic Empowerment**\n\nAn EC unit within 6\" of one or more friendly Legions of Excess units is  Empowered . A Legions of Excess unit within 6\" of one or more friendly EC units is Empowered. EC units:  While Empowered, add 1 to this unit's dosage Leadership tests. If it activates its first ordinary Combat Elixir dose of the turn while Empowered, it heals D3 wounds after resolving the dosage test and its consequences. This restoration occurs once per unit per turn. Becoming Stupefied does not trigger it. Legions units:  While Empowered, add 1 to this unit's Advance and Charge rolls. Mortal Anchors:  Each time a Legions unit is summoned, if it is Empowered at the end of that phase, it does not lose a Manifestation point at that phase's end. Afterwards, its normal losses resume. \n\n",
+      "rules": "2 DP  / Disruption or Priority Assets \n\n**Allied allowance**\n\nYou can include Legions of Excess allies up to 500 points at Incursion, 1,000 points at Strike Force or 1,500 points at Onslaught. Legions models cannot be your Warlord. \n\n**Daemonic Empowerment**\n\nAn EC unit within 6\" of one or more friendly Legions of Excess units is  Empowered . A Legions of Excess unit within 6\" of one or more friendly EC units is Empowered. EC units:  While Empowered, add 1 to this unit's dosage Leadership tests. If it activates its first ordinary Combat Elixir dose of the turn while Empowered, it heals D3 wounds after resolving the dosage test and its consequences. This restoration occurs once per unit per turn. Becoming Stupefied does not trigger it. Legions units:  While Empowered, add 1 to this unit's Advance and Charge rolls. Mortal Anchors:  Each time a Legions unit is summoned, if it is Empowered at the end of that phase, it does not lose a Manifestation point at that phase's end. Afterwards, its normal losses resume. \n\n",
       "enhancements": [
         {
           "name": "Empyric Suffusion",
@@ -6130,5 +6130,83 @@
     "139": "3DP / STRATAGEMS AND REVISION\n\n\n\n\nGrand Symphony / II\nGrand Symphony is the sixteenth detachment and the third 3DP option in this codex.\n\n\nStratagems / Continued\nOverwhelming Volume / 1CP\n\nWHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Until\nthe end of the phase, add 1 to Wound rolls made for its attacks with listed Sonic Weapons against\nBattle-shocked enemy units.\nReverberating Terror / 1CP\n\nWHEN: Your Shooting phase, after a friendly SONIC unit destroys an enemy unit with a ranged attack. TARGET:\nThat SONIC unit. EFFECT: Select one other enemy unit within 6\" of the last model removed from the destroyed\nunit. It must take a Battle-shock test, subtracting 1 from the result.\nMeasured Crescendo / 1CP\n\nWHEN: Your Shooting phase, when a friendly SONIC unit is selected to shoot. TARGET: That unit. EFFECT: Until\nthe end of the phase, when that unit makes ranged attacks with listed Sonic Weapons, ignore modifiers to its\nBallistic Skill characteristic and Hit rolls.\n\nVersion 3.2 - accepted changes\n\nKakophonic Conclave (2DP): Overwhelming Resonance now adds +1 Strength and improves AP by 1 for EC\nranged attacks against targets within 12\"; its former unconditional +1 ranged Damage is removed. Its\nenhancements and stratagems are otherwise unchanged.\n\nNew 3DP option: The Grand Symphony brings the total to 16 detachments (10 x 1DP; 3 x 2DP; 3 x 3DP). It adds\nan equipment-derived SONIC unit keyword, Stage Tokens, four performances and unlimited token-paid free\nDaemonette summons. No new datasheets are added.\n\nWargear points: Defiler Hades lascannon and heavy reaper autocannon each cost an additional 15 points per\nequipped weapon. The points register and Defiler equipment page have been updated. This is the confirmed\nGW-derived surcharge; no unverified costs were invented for custom resonance weapons.\n\nRetained balance patch: All v3.1a unit-point reductions and the two Daemon Prince increases remain in force,\nincluding the 250-point Chaos Land Raider, cheaper Spawn, and cheaper Legions of Excess daemons.\n\nPlacement exception: Daemonic Encore is intentionally allowed to place Daemonettes in Engagement Range\nand has no per-game or per-turn quantity cap. Normal placement requirements still apply unless explicitly\noverridden on page 137."
   },
   "baseline_pdf_sha256": "9f67e82df35648405bab0aba5cb725ae9b52696dbd5621b250fad60ff348722d",
-  "pdf_sha256": null
+  "pdf_sha256": null,
+  "additional_selection_costs": {
+    "Lord Exultant": {
+      "from_selection": 3,
+      "points": 10
+    },
+    "Lord Exultant with Jump Pack": {
+      "from_selection": 3,
+      "points": 10
+    },
+    "Daemon Prince of Slaanesh": {
+      "from_selection": 2,
+      "points": 15
+    },
+    "Daemon Prince with Wings": {
+      "from_selection": 2,
+      "points": 20
+    },
+    "Idol of Sublime Perfection": {
+      "from_selection": 2,
+      "points": 15
+    },
+    "Keeper of Secrets": {
+      "from_selection": 3,
+      "points": 15
+    },
+    "Noise Marines": {
+      "from_selection": 3,
+      "points": 15
+    },
+    "Excruciator Terminators": {
+      "from_selection": 3,
+      "points": 30
+    },
+    "Phoenix Guard Terminators": {
+      "from_selection": 3,
+      "points": 30
+    },
+    "Dissonant Colossi": {
+      "from_selection": 3,
+      "points": 20
+    },
+    "Rapture Talons": {
+      "from_selection": 3,
+      "points": 10
+    },
+    "Stage of Excess": {
+      "from_selection": 2,
+      "points": 20
+    },
+    "Chaos Rhino": {
+      "from_selection": 4,
+      "points": 10
+    },
+    "Maulerfiend": {
+      "from_selection": 3,
+      "points": 10
+    },
+    "Defiler": {
+      "from_selection": 2,
+      "points": 50
+    },
+    "Threnody Dreadnought": {
+      "from_selection": 2,
+      "points": 25
+    },
+    "Cacophant": {
+      "from_selection": 3,
+      "points": 10
+    },
+    "Palatine Ravager": {
+      "from_selection": 3,
+      "points": 10
+    },
+    "Chaos Land Raider": {
+      "from_selection": 3,
+      "points": 20
+    }
+  }
 }
