@@ -5,12 +5,12 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 37,
+    "revision": 38,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
     "authorName": "Xverse homebrew",
-    "readme": "Emperor’s Children homebrew v3.2. Dispositions assigned for all sixteen detachments. Update the list data after updating the game.",
+    "readme": "Emperor's Children homebrew: Theatre of Excess and Vhalyss update. Update your list's data after updating the game.",
     "categoryEntries": [
       {
         "name": "Faction: Emperor's Children",
@@ -378,8 +378,13 @@
         "hidden": false
       },
       {
-        "name": "SONIC",
-        "id": "b33d-bce2-7dd2-6589",
+        "name": "Vhalyss",
+        "id": "955b-ee7a-7b96-1ac8",
+        "hidden": false
+      },
+      {
+        "name": "Vhalyss, the First Scream",
+        "id": "0e47-b53c-e6fe-61d7",
         "hidden": false
       }
     ],
@@ -996,7 +1001,7 @@
                   {
                     "name": "Exquisite Swordsmanship",
                     "id": "4597-f473-a76a-e500",
-                    "description": "\n\nEach time an EC unit, excluding Vehicles, is selected to fight, if it made a Charge move this turn, select one fighting form for that unit until the end of the phase. \n\n**The Duellist:** Melee weapons equipped by models in this unit gain Precision. \n\n**The Executioner:** Add 1 to the Damage of melee weapons equipped by models in this unit. \n\n**The Coiling Serpent:** Each time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\". It does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit. Other requirements of that move still apply.",
+                    "description": "\n\nEach time an EC unit, excluding Vehicles, is selected to fight, if it made a Charge move this turn, select one fighting form for that unit until the end of the phase. \n\n**The Duellist:** Melee weapons equipped by models in this unit gain Precision. \n\n**The Executioner:** Melee weapons equipped by models in this unit have Devastating Wounds. \n\n**The Coiling Serpent:** Each time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\". It does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit. Other requirements of that move still apply.",
                     "hidden": false
                   }
                 ],
@@ -1167,7 +1172,7 @@
                 ]
               },
               {
-                "name": "The Grand Symphony",
+                "name": "The Theatre of Excess",
                 "id": "0b26-ef8c-7137-d99d",
                 "type": "upgrade",
                 "hidden": false,
@@ -1215,9 +1220,15 @@
                 ],
                 "rules": [
                   {
-                    "name": "Instruments of Excess",
-                    "id": "8dd0-4c8f-af26-1896",
-                    "description": "\n\nAn Emperor's Children unit gains SONIC while any model in it is equipped with a Sonic Weapon. Attached units count all their models. All firing profiles of the following weapons qualify:\n\n### Sonic Weapons\n\n- Sonic blaster\n- twin sonic blaster\n- screamer pistol\n- combi-weapon - sonic\n- blastmaster\n- dreadblaster\n- requiem cannon\n- cathedral annihilator\n- Discord cannon\n- sonic balespewer\n- sonic destructor\n- cathedral sonic immolator\n- resonance cannon\n- shriek cannon\n- grand vox array\n- Death Scream\n- The Eighth's Refrain\n\n### Stage Tokens\n\nStart the battle with 0 Stage Tokens. Unspent tokens carry between rounds. Your pool cannot exceed 12, and you can gain at most 6 per battle round.\n\n**Damage Verse**\n\nAfter a friendly Emperor's Children unit shoots in your Shooting phase, if its Sonic Weapon attacks caused an enemy model to lose one or more wounds, gain 1 Stage Token. Each unit can generate this reward once per Shooting phase.\n\n**Slaughter Verse**\n\nOnce per Shooting phase, after a friendly Emperor's Children SONIC unit destroys an enemy unit with a Sonic Weapon ranged attack, gain 1 additional Stage Token. Resolve these gains before paying for Daemonic Encore.\n\n### Discordant Overture (2 Stage Tokens)\n\n#### When\n\nYour Shooting phase, after a friendly SONIC unit has shot and hit an enemy unit with a listed Sonic Weapon.\n\n#### Effect\n\nThat enemy unit takes a Battle-shock test, subtracting 1 from the result. Resolve after that attacking unit's shooting. Multiple Overtures cannot target the same unit in one phase.\n\n### Shattering Crescendo (4 Stage Tokens)\n\n#### When\n\nYour Shooting phase, when you select one friendly EC unit to shoot.\n\n#### Requirement\n\nSelect one enemy unit that was already hit by a listed Sonic Weapon earlier in the phase.\n\n#### Effect\n\nUntil the end of this phase, add 1 to the Damage characteristic of ranged attacks made by the selected EC unit that target that enemy unit. Once per Shooting phase. This bonus does not stack with The Grand Finale.\n\n### Daemonic Encore (7 Stage Tokens)\n\n#### When\n\nImmediately after a friendly EC SONIC unit destroys an enemy unit with one or more of its ranged attacks. Mark the position of the last model removed from that destroyed enemy unit.\n\n#### Effect\n\nCreate and summon one unit of ten Daemonettes without paying any army points, without a summoner, without a sacrifice and without a summoning-pool declaration.\n\nSet up the first Daemonette model as close as possible to the last removed model's position; set up the remaining models as close as possible while keeping the unit in coherency. Models cannot overlap occupied bases or be placed in impassable positions. Ignore the ordinary 8-inch enemy-distance requirement: these Daemonettes may be set up within Engagement Range of enemy units.\n\nThe unit begins with 3 Manifestation points (maximum 3) and does not lose a point at the end of the phase in which it appears. Afterwards it uses the ordinary Manifestation rules. If it becomes Debound, remove it from the battle rather than return it to the summoning pool.\n\nIf all ten models cannot be placed legally in coherency, the summon cannot be performed and no tokens are spent.\n\nThese free Daemonettes do not grant access to paid Legions of Excess allies or additional free datasheets.\n\n### The Grand Finale (9 Stage Tokens)\n\n#### When\n\nStart of your Shooting phase.\n\n#### Effect\n\nUntil the end of that phase, add 1 to the Damage characteristic of ranged weapons equipped by models in friendly EC SONIC units when targeting enemy units within 12\" of those models. Once per battle. This bonus cannot stack with Shattering Crescendo on the same attack.",
+                    "name": "Competing Performers",
+                    "id": "9a88-0767-d823-f0ef",
+                    "description": "\n\nAt the start of the battle, select three Emperor's Children units from your army as Performers. Assign one the Duellist role, one the Dancer role and one the Executioner role. Select one Performer to hold the Spotlight.\n\n**Duellist:** Fight an enemy unit, inflict damage and survive that Fight phase.\n\n**Dancer:** Complete a charge or move within range of an enemy-controlled objective marker.\n\n**Executioner:** Destroy an enemy unit.\n\nWhen a Performer completes its role's feat, it earns an Ovation. Each Performer can earn one Ovation per battle round. When a Performer earns an Ovation, it takes the Spotlight from its current holder.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "The Three Acts",
+                    "id": "a4ac-c6a9-1cb2-8288",
+                    "description": "\n\nStart the battle in Act I. Each Act replaces the previous Act's army-wide and Spotlight benefits.\n\n### Act I\n\nAdd 2\" to the Move characteristic of models in friendly Emperor's Children units. Re-roll Charge rolls for the Performer holding the Spotlight.\n\nAt the end of a battle round in which two different Performers earned an Ovation, advance to Act II.\n\n### Act II\n\nEach time a friendly Emperor's Children unit makes a Charge move, add 1 to the Attacks characteristic of its melee weapons, excluding Extra Attacks weapons, until the end of the turn. The Performer holding the Spotlight has Feel No Pain 5+.\n\nAt the end of a battle round, advance to Act III if all three Performers have each earned an Ovation while Act II was active and the Spotlight holder has destroyed an enemy unit during Act II. Ovations used to unlock an Act do not count towards unlocking the next.\n\n### Act III — Warpstorm of Excess\n\nImprove the Armour Penetration characteristic of melee weapons equipped by models in friendly Emperor's Children units by 1.\n\n**Eye of the Warpstorm (Aura):** At the start of either Fight phase, each enemy unit within 9\" of the Performer holding the Spotlight must take a Battle-shock test. While a friendly Emperor's Children unit is within 9\" of that Performer, add 1 to Wound rolls for its melee attacks that target Battle-shocked units.\n\n**Daemonic Encore:** Once per battle round, when the Performer holding the Spotlight destroys an enemy unit, set up a new unit of ten Daemonettes within the Warpstorm and more than 8\" horizontally from enemy models. This unit costs no army points and enters with 3 Manifestation points, without a summoner, offering or Manifestation roll. It follows the normal Manifestation rules, including losing a point at the end of its arrival phase.",
                     "hidden": false
                   }
                 ],
@@ -2888,150 +2899,150 @@
             ]
           },
           {
-            "name": "The Grand Symphony — Precise Harmonics / 1 CP",
-            "id": "1908-07c4-c77a-f641",
-            "targetId": "302d-98ea-a7fe-d229",
+            "name": "The Theatre of Excess — Improvised Brilliance / 1 CP",
+            "id": "3462-6f1e-82ad-c795",
+            "targetId": "5a4a-9d4c-d38e-4a64",
             "type": "rule",
             "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
-                "value": false,
                 "type": "set",
+                "value": false,
                 "conditions": [
                   {
                     "childId": "0b26-ef8c-7137-d99d",
                     "field": "selections",
                     "scope": "force",
-                    "type": "atLeast",
-                    "value": 1,
                     "shared": true,
-                    "includeChildSelections": true
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
                   }
                 ]
               }
             ]
           },
           {
-            "name": "The Grand Symphony — Deafening Pressure / 1 CP",
-            "id": "0786-6584-8fb0-0a0a",
-            "targetId": "af62-f515-98fd-bbec",
+            "name": "The Theatre of Excess — All Eyes Upon Me / 1 CP",
+            "id": "2c93-c83f-bb25-3a10",
+            "targetId": "beee-e4f0-eccb-8ecf",
             "type": "rule",
             "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
-                "value": false,
                 "type": "set",
+                "value": false,
                 "conditions": [
                   {
                     "childId": "0b26-ef8c-7137-d99d",
                     "field": "selections",
                     "scope": "force",
-                    "type": "atLeast",
-                    "value": 1,
                     "shared": true,
-                    "includeChildSelections": true
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
                   }
                 ]
               }
             ]
           },
           {
-            "name": "The Grand Symphony — Wall of Noise / 1 CP",
-            "id": "6de0-2b02-0564-ed66",
-            "targetId": "d09b-248c-edea-bb7a",
+            "name": "The Theatre of Excess — The Show Must Go On / 1 CP",
+            "id": "f2f3-6237-5021-6dd5",
+            "targetId": "5e9c-57b9-6533-9327",
             "type": "rule",
             "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
-                "value": false,
                 "type": "set",
+                "value": false,
                 "conditions": [
                   {
                     "childId": "0b26-ef8c-7137-d99d",
                     "field": "selections",
                     "scope": "force",
-                    "type": "atLeast",
-                    "value": 1,
                     "shared": true,
-                    "includeChildSelections": true
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
                   }
                 ]
               }
             ]
           },
           {
-            "name": "The Grand Symphony — Overwhelming Volume / 1 CP",
-            "id": "c23c-7fc7-7a95-0274",
-            "targetId": "17c2-4b8b-4497-cf6b",
+            "name": "The Theatre of Excess — A Magnificent Entrance / 1 CP",
+            "id": "416c-68d8-06a0-13b9",
+            "targetId": "645e-56fe-9ea6-8bfa",
             "type": "rule",
             "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
-                "value": false,
                 "type": "set",
+                "value": false,
                 "conditions": [
                   {
                     "childId": "0b26-ef8c-7137-d99d",
                     "field": "selections",
                     "scope": "force",
-                    "type": "atLeast",
-                    "value": 1,
                     "shared": true,
-                    "includeChildSelections": true
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
                   }
                 ]
               }
             ]
           },
           {
-            "name": "The Grand Symphony — Reverberating Terror / 1 CP",
-            "id": "0ee0-66ea-34a1-1b85",
-            "targetId": "0643-a0f6-1f17-64df",
+            "name": "The Theatre of Excess — The Perfect Performance / 1 CP",
+            "id": "1233-dcd9-bd4d-5df6",
+            "targetId": "f167-62a6-bc2a-eeb2",
             "type": "rule",
             "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
-                "value": false,
                 "type": "set",
+                "value": false,
                 "conditions": [
                   {
                     "childId": "0b26-ef8c-7137-d99d",
                     "field": "selections",
                     "scope": "force",
-                    "type": "atLeast",
-                    "value": 1,
                     "shared": true,
-                    "includeChildSelections": true
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
                   }
                 ]
               }
             ]
           },
           {
-            "name": "The Grand Symphony — Measured Crescendo / 1 CP",
-            "id": "dec5-8cab-942b-8583",
-            "targetId": "c544-a8d2-b1e0-5fed",
+            "name": "The Theatre of Excess — The Curtain Tears / 1 CP",
+            "id": "7321-5bb7-3824-dbc1",
+            "targetId": "a38e-0c23-5f87-aa9e",
             "type": "rule",
             "hidden": true,
             "modifiers": [
               {
                 "field": "hidden",
-                "value": false,
                 "type": "set",
+                "value": false,
                 "conditions": [
                   {
                     "childId": "0b26-ef8c-7137-d99d",
                     "field": "selections",
                     "scope": "force",
-                    "type": "atLeast",
-                    "value": 1,
                     "shared": true,
-                    "includeChildSelections": true
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
                   }
                 ]
               }
@@ -5275,29 +5286,7 @@
             ]
           }
         ],
-        "modifiers": [
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "c4fb-3415-337c-46bb",
-                    "field": "selections",
-                    "scope": "1903-a6bd-8c2c-b5f0",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
+        "modifiers": [],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "54",
         "readme": "Composition: 1 Eidolon.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Leader, Deep Strike, Feel No Pain 5+.\n\nKeywords: Infantry, Character, Epic Hero, Jump Pack, Fly, Chaos, Slaanesh, Eidolon, Emperor's Children.\n\nDeath Scream: [TORRENT], [BLAST 2], [IGNORES COVER]. Glory Aeterna: [DEVASTATING WOUNDS]."
@@ -5882,29 +5871,7 @@
             ]
           }
         ],
-        "modifiers": [
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "2c95-956e-b050-aab5",
-                    "field": "selections",
-                    "scope": "a8ea-1ee4-cb8f-e883",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
+        "modifiers": [],
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "55",
         "readme": "Composition: 1 Ramos.\n\nArmy rules: Combat Drugs, Sublime Strategist.\n\nCore: Leader. Leader: Noise Marines, Excruciator Terminators, Dissonant Colossi.\n\nKeywords: Infantry, Character, Epic Hero, Chaos, Slaanesh, Ramos, Emperor's Children.\n\nFocused: [BLAST 2], [IGNORES COVER]. Saturation: [BLAST 2], [IGNORES COVER]. Select one Refrain profile when shooting."
@@ -7973,7 +7940,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Greater Daemonic Ritual; sacrifice required. Initial Manifestation: D3+1; maximum 6. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Greater Daemonic Ritual. Maximum Manifestation: 6."
               }
             ]
           },
@@ -9797,27 +9764,6 @@
             ]
           },
           {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "1f9b-673e-bbb6-2190",
-                    "field": "selections",
-                    "scope": "3f9d-668c-4e5b-5c3e",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 10,
@@ -11589,88 +11535,108 @@
                 "import": true
               },
               {
-                "name": "Maestro's Perfect Pitch",
-                "id": "3a51-661b-f490-4f4e",
-                "targetId": "f3f5-e91b-ee04-50cd",
+                "name": "The Golden Laurels",
+                "id": "e567-d739-b290-88a2",
+                "targetId": "2a7b-7bab-5e01-dc89",
                 "type": "selectionEntry",
                 "hidden": true,
+                "import": true,
                 "modifiers": [
                   {
                     "field": "hidden",
-                    "value": false,
                     "type": "set",
+                    "value": false,
                     "conditions": [
                       {
                         "childId": "0b26-ef8c-7137-d99d",
                         "field": "selections",
                         "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
                         "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "field": "hidden",
-                    "value": true,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "1f9b-673e-bbb6-2190",
-                        "field": "selections",
-                        "scope": "3f9d-668c-4e5b-5c3e",
-                        "type": "lessThan",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
+                        "value": 1
                       }
                     ]
                   }
-                ],
-                "import": true
+                ]
               },
               {
-                "name": "Audience of One Thousand",
-                "id": "10da-14ca-29ca-1c1f",
-                "targetId": "94cf-7956-e2ce-7c45",
+                "name": "Envious Perfection",
+                "id": "0fca-7e31-aaa6-7552",
+                "targetId": "1c88-a8b9-d25d-cc82",
                 "type": "selectionEntry",
                 "hidden": true,
+                "import": true,
                 "modifiers": [
                   {
                     "field": "hidden",
-                    "value": false,
                     "type": "set",
+                    "value": false,
                     "conditions": [
                       {
                         "childId": "0b26-ef8c-7137-d99d",
                         "field": "selections",
                         "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
                         "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "field": "hidden",
-                    "value": true,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "1f9b-673e-bbb6-2190",
-                        "field": "selections",
-                        "scope": "3f9d-668c-4e5b-5c3e",
-                        "type": "lessThan",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
+                        "value": 1
                       }
                     ]
                   }
-                ],
-                "import": true
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "1b6b-6bc4-e742-a682",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "f10f-818a-a558-7088",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -11793,36 +11759,6 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "b13a-8447-c890-56b6",
-                    "field": "selections",
-                    "scope": "4573-3b3f-2f8b-9025",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "13d9-b204-a054-ca46",
-                    "field": "selections",
-                    "scope": "4573-3b3f-2f8b-9025",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
               }
             ]
           }
@@ -13091,106 +13027,108 @@
                 "import": true
               },
               {
-                "name": "Maestro's Perfect Pitch",
-                "id": "48d1-5cf7-ed3e-5cce",
-                "targetId": "f3f5-e91b-ee04-50cd",
+                "name": "The Golden Laurels",
+                "id": "5417-58a8-be6e-1fac",
+                "targetId": "2a7b-7bab-5e01-dc89",
                 "type": "selectionEntry",
                 "hidden": true,
+                "import": true,
                 "modifiers": [
                   {
                     "field": "hidden",
-                    "value": false,
                     "type": "set",
+                    "value": false,
                     "conditions": [
                       {
                         "childId": "0b26-ef8c-7137-d99d",
                         "field": "selections",
                         "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
                         "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "field": "hidden",
-                    "value": true,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "b13a-8447-c890-56b6",
-                        "field": "selections",
-                        "scope": "4573-3b3f-2f8b-9025",
-                        "type": "lessThan",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "13d9-b204-a054-ca46",
-                        "field": "selections",
-                        "scope": "4573-3b3f-2f8b-9025",
-                        "type": "lessThan",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
+                        "value": 1
                       }
                     ]
                   }
-                ],
-                "import": true
+                ]
               },
               {
-                "name": "Audience of One Thousand",
-                "id": "789d-3da8-2e0f-6f58",
-                "targetId": "94cf-7956-e2ce-7c45",
+                "name": "Envious Perfection",
+                "id": "311a-4b3b-c26e-99e0",
+                "targetId": "1c88-a8b9-d25d-cc82",
                 "type": "selectionEntry",
                 "hidden": true,
+                "import": true,
                 "modifiers": [
                   {
                     "field": "hidden",
-                    "value": false,
                     "type": "set",
+                    "value": false,
                     "conditions": [
                       {
                         "childId": "0b26-ef8c-7137-d99d",
                         "field": "selections",
                         "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
                         "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "field": "hidden",
-                    "value": true,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "b13a-8447-c890-56b6",
-                        "field": "selections",
-                        "scope": "4573-3b3f-2f8b-9025",
-                        "type": "lessThan",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "13d9-b204-a054-ca46",
-                        "field": "selections",
-                        "scope": "4573-3b3f-2f8b-9025",
-                        "type": "lessThan",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
+                        "value": 1
                       }
                     ]
                   }
-                ],
-                "import": true
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "e194-c078-b6d3-e3ba",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "4e6a-cd18-d404-28ef",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -14509,6 +14447,110 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "The Golden Laurels",
+                "id": "459c-945f-ce12-a85f",
+                "targetId": "2a7b-7bab-5e01-dc89",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Envious Perfection",
+                "id": "71c3-9977-1668-34a1",
+                "targetId": "1c88-a8b9-d25d-cc82",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "cf61-5888-9878-eb5d",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "cb55-0c5f-f74e-f523",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -15809,6 +15851,110 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "The Golden Laurels",
+                "id": "97ab-7c32-c76d-23e8",
+                "targetId": "2a7b-7bab-5e01-dc89",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Envious Perfection",
+                "id": "ee83-b248-8502-508e",
+                "targetId": "1c88-a8b9-d25d-cc82",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "b7ef-c0c7-71d4-313d",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "9e35-f50e-c31a-ebf8",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -16802,6 +16948,110 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "The Golden Laurels",
+                "id": "137b-08fa-11bc-3de4",
+                "targetId": "2a7b-7bab-5e01-dc89",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Envious Perfection",
+                "id": "fcb1-5257-b5d4-46d6",
+                "targetId": "1c88-a8b9-d25d-cc82",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "8ace-4899-3473-ed6e",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "b48d-bf7c-d89d-dd6d",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -18010,6 +18260,110 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "The Golden Laurels",
+                "id": "5564-83a9-3ad9-da6f",
+                "targetId": "2a7b-7bab-5e01-dc89",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Envious Perfection",
+                "id": "3292-8379-dfe4-db8d",
+                "targetId": "1c88-a8b9-d25d-cc82",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "b281-06d4-6da8-f69e",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "faab-bbaa-adb3-c042",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -19453,6 +19807,110 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "The Golden Laurels",
+                "id": "a11c-ae74-6a64-4be6",
+                "targetId": "2a7b-7bab-5e01-dc89",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Envious Perfection",
+                "id": "a629-9c70-b07f-47d2",
+                "targetId": "1c88-a8b9-d25d-cc82",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "a2ec-e82c-45dd-ce24",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "7047-fb4c-6a00-199d",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -20499,6 +20957,110 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "The Golden Laurels",
+                "id": "cc98-105d-fe62-8b46",
+                "targetId": "2a7b-7bab-5e01-dc89",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Envious Perfection",
+                "id": "bbef-0708-6d6e-40f4",
+                "targetId": "1c88-a8b9-d25d-cc82",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "c832-3fff-4604-38e2",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "d988-e2ee-1536-58fb",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -20658,27 +21220,6 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "61ee-f4d6-5b7f-2f6f",
-                    "field": "selections",
-                    "scope": "8f7d-1cec-6f97-013e",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
               }
             ]
           }
@@ -22066,88 +22607,108 @@
                 "import": true
               },
               {
-                "name": "Maestro's Perfect Pitch",
-                "id": "51da-7488-4ed6-e69d",
-                "targetId": "f3f5-e91b-ee04-50cd",
+                "name": "The Golden Laurels",
+                "id": "822f-a903-2daa-cd78",
+                "targetId": "2a7b-7bab-5e01-dc89",
                 "type": "selectionEntry",
                 "hidden": true,
+                "import": true,
                 "modifiers": [
                   {
                     "field": "hidden",
-                    "value": false,
                     "type": "set",
+                    "value": false,
                     "conditions": [
                       {
                         "childId": "0b26-ef8c-7137-d99d",
                         "field": "selections",
                         "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
                         "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "field": "hidden",
-                    "value": true,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "61ee-f4d6-5b7f-2f6f",
-                        "field": "selections",
-                        "scope": "8f7d-1cec-6f97-013e",
-                        "type": "lessThan",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
+                        "value": 1
                       }
                     ]
                   }
-                ],
-                "import": true
+                ]
               },
               {
-                "name": "Audience of One Thousand",
-                "id": "68f7-d284-9e7e-1b43",
-                "targetId": "94cf-7956-e2ce-7c45",
+                "name": "Envious Perfection",
+                "id": "01c2-4acf-770b-de9c",
+                "targetId": "1c88-a8b9-d25d-cc82",
                 "type": "selectionEntry",
                 "hidden": true,
+                "import": true,
                 "modifiers": [
                   {
                     "field": "hidden",
-                    "value": false,
                     "type": "set",
+                    "value": false,
                     "conditions": [
                       {
                         "childId": "0b26-ef8c-7137-d99d",
                         "field": "selections",
                         "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
                         "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "field": "hidden",
-                    "value": true,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "61ee-f4d6-5b7f-2f6f",
-                        "field": "selections",
-                        "scope": "8f7d-1cec-6f97-013e",
-                        "type": "lessThan",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
+                        "value": 1
                       }
                     ]
                   }
-                ],
-                "import": true
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "62fa-2a2f-001d-dc0b",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "d012-230d-a250-45fa",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -22470,27 +23031,6 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "d8b1-994a-02f8-d278",
-                    "field": "selections",
-                    "scope": "5c2c-a9b8-3c1d-6ab8",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
               }
             ]
           },
@@ -23997,88 +24537,108 @@
                 "import": true
               },
               {
-                "name": "Maestro's Perfect Pitch",
-                "id": "16d5-269f-2f87-7290",
-                "targetId": "f3f5-e91b-ee04-50cd",
+                "name": "The Golden Laurels",
+                "id": "933b-2755-9c25-508b",
+                "targetId": "2a7b-7bab-5e01-dc89",
                 "type": "selectionEntry",
                 "hidden": true,
+                "import": true,
                 "modifiers": [
                   {
                     "field": "hidden",
-                    "value": false,
                     "type": "set",
+                    "value": false,
                     "conditions": [
                       {
                         "childId": "0b26-ef8c-7137-d99d",
                         "field": "selections",
                         "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
                         "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "field": "hidden",
-                    "value": true,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "d8b1-994a-02f8-d278",
-                        "field": "selections",
-                        "scope": "5c2c-a9b8-3c1d-6ab8",
-                        "type": "lessThan",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
+                        "value": 1
                       }
                     ]
                   }
-                ],
-                "import": true
+                ]
               },
               {
-                "name": "Audience of One Thousand",
-                "id": "8675-2f5a-e238-3edd",
-                "targetId": "94cf-7956-e2ce-7c45",
+                "name": "Envious Perfection",
+                "id": "a1ae-4b19-b9d0-c9b3",
+                "targetId": "1c88-a8b9-d25d-cc82",
                 "type": "selectionEntry",
                 "hidden": true,
+                "import": true,
                 "modifiers": [
                   {
                     "field": "hidden",
-                    "value": false,
                     "type": "set",
+                    "value": false,
                     "conditions": [
                       {
                         "childId": "0b26-ef8c-7137-d99d",
                         "field": "selections",
                         "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
                         "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "field": "hidden",
-                    "value": true,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "d8b1-994a-02f8-d278",
-                        "field": "selections",
-                        "scope": "5c2c-a9b8-3c1d-6ab8",
-                        "type": "lessThan",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
+                        "value": 1
                       }
                     ]
                   }
-                ],
-                "import": true
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "f833-72a3-48ce-a6bc",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "4dfc-e6b4-df1a-83b6",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -25298,6 +25858,110 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "The Golden Laurels",
+                "id": "c182-1ef3-64a5-76c2",
+                "targetId": "2a7b-7bab-5e01-dc89",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Envious Perfection",
+                "id": "9ae1-51a9-72b3-897e",
+                "targetId": "1c88-a8b9-d25d-cc82",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "6661-5675-c371-bbd8",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "21fb-b4d7-57f7-8178",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -26595,6 +27259,110 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "The Golden Laurels",
+                "id": "1488-5fa9-6c72-4986",
+                "targetId": "2a7b-7bab-5e01-dc89",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Envious Perfection",
+                "id": "2027-b3bd-1905-868c",
+                "targetId": "1c88-a8b9-d25d-cc82",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "a349-b549-5993-230c",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "bf0a-7f4b-3e17-14de",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -27867,6 +28635,110 @@
                   }
                 ],
                 "import": true
+              },
+              {
+                "name": "The Golden Laurels",
+                "id": "e266-38ce-a6f0-ff69",
+                "targetId": "2a7b-7bab-5e01-dc89",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Envious Perfection",
+                "id": "d9b2-d50c-b206-9e87",
+                "targetId": "1c88-a8b9-d25d-cc82",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Master of Ceremonies",
+                "id": "69a9-1ede-ac7f-4a05",
+                "targetId": "1551-a537-4810-4b63",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "The Last Bow",
+                "id": "27a3-8257-f870-dbec",
+                "targetId": "014b-2381-6796-055e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "import": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "0b26-ef8c-7137-d99d",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -28125,7 +28997,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Greater Daemonic Ritual; sacrifice required. Initial Manifestation: D3+1; maximum 6. Lose 1 at the end of every phase in your turn, except where a datasheet says otherwise."
+                "$text": "Greater Daemonic Ritual. Maximum Manifestation: 6."
               }
             ]
           },
@@ -42350,54 +43222,6 @@
             ]
           },
           {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "3801-036e-3f01-ea46",
-                    "field": "selections",
-                    "scope": "fd3c-29a8-2489-d7bd",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "96d5-cce8-de8a-70a6",
-                    "field": "selections",
-                    "scope": "fd3c-29a8-2489-d7bd",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "61ec-d474-f500-75f2",
-                    "field": "selections",
-                    "scope": "fd3c-29a8-2489-d7bd",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "b4aa-750a-05c7-1561",
-                    "field": "selections",
-                    "scope": "fd3c-29a8-2489-d7bd",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 15,
@@ -43811,32 +44635,6 @@
                   }
                 ],
                 "import": true
-              },
-              {
-                "name": "Amplification Array [Upgrade]",
-                "id": "a84d-4d65-afe1-15d1",
-                "targetId": "446b-1fa9-407a-0745",
-                "type": "selectionEntry",
-                "hidden": true,
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "value": false,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "0b26-ef8c-7137-d99d",
-                        "field": "selections",
-                        "scope": "force",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ],
-                "import": true
               }
             ]
           }
@@ -44871,45 +45669,6 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "2ece-544b-194f-9301",
-                    "field": "selections",
-                    "scope": "8c94-629d-4458-b252",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "daf4-0d24-de8c-af2c",
-                    "field": "selections",
-                    "scope": "8c94-629d-4458-b252",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "050f-0710-ccf1-fdaf",
-                    "field": "selections",
-                    "scope": "8c94-629d-4458-b252",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
               }
             ]
           },
@@ -47429,27 +48188,6 @@
             ]
           },
           {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "5f7e-b1c5-72ac-c636",
-                    "field": "selections",
-                    "scope": "6c60-bd6a-5112-b2c5",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 20,
@@ -48026,32 +48764,6 @@
                     "conditions": [
                       {
                         "childId": "8eb1-8eec-1e5e-03eb",
-                        "field": "selections",
-                        "scope": "force",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ],
-                "import": true
-              },
-              {
-                "name": "Amplification Array [Upgrade]",
-                "id": "bb86-beee-8ef1-a21e",
-                "targetId": "446b-1fa9-407a-0745",
-                "type": "selectionEntry",
-                "hidden": true,
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "value": false,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "0b26-ef8c-7137-d99d",
                         "field": "selections",
                         "scope": "force",
                         "type": "atLeast",
@@ -50877,54 +51589,6 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "14da-6734-7cb7-23ed",
-                    "field": "selections",
-                    "scope": "cf64-c240-3c50-8b86",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "68da-5485-3914-7019",
-                    "field": "selections",
-                    "scope": "cf64-c240-3c50-8b86",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "92c2-b7a6-5500-5d1e",
-                    "field": "selections",
-                    "scope": "cf64-c240-3c50-8b86",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "8249-1ba5-e4d1-3fe7",
-                    "field": "selections",
-                    "scope": "cf64-c240-3c50-8b86",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
               }
             ]
           },
@@ -56184,90 +56848,6 @@
                 "includeChildSelections": true
               }
             ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "6eb3-7570-78d2-d282",
-                    "field": "selections",
-                    "scope": "3bbd-2b00-4e51-9486",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "b0f2-a72b-763d-9875",
-                    "field": "selections",
-                    "scope": "3bbd-2b00-4e51-9486",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "1527-4b1e-14f9-1f10",
-                    "field": "selections",
-                    "scope": "3bbd-2b00-4e51-9486",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "3ced-81ff-aad9-b4ae",
-                    "field": "selections",
-                    "scope": "3bbd-2b00-4e51-9486",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "56fe-2bb4-d7e2-8fba",
-                    "field": "selections",
-                    "scope": "3bbd-2b00-4e51-9486",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "cd02-b4b6-2c41-8a9e",
-                    "field": "selections",
-                    "scope": "3bbd-2b00-4e51-9486",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "3746-4874-7e6d-a830",
-                    "field": "selections",
-                    "scope": "3bbd-2b00-4e51-9486",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "997e-b8c0-88ae-1797",
-                    "field": "selections",
-                    "scope": "3bbd-2b00-4e51-9486",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
           }
         ],
         "costs": [
@@ -58964,27 +59544,6 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "5eec-540d-bce3-38df",
-                    "field": "selections",
-                    "scope": "8a73-5e8a-3b7f-8b6e",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
               }
             ]
           },
@@ -62496,27 +63055,6 @@
             ]
           },
           {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "fa42-3a00-a0fc-e6d0",
-                    "field": "selections",
-                    "scope": "e63a-75a3-c7c6-4075",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 10,
@@ -64604,36 +65142,6 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "f199-c001-03ad-c18f",
-                    "field": "selections",
-                    "scope": "aa38-b1cc-d27b-089c",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "e8aa-c253-160c-9bd8",
-                    "field": "selections",
-                    "scope": "aa38-b1cc-d27b-089c",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
               }
             ]
           },
@@ -69400,45 +69908,6 @@
             ]
           },
           {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "3cf4-9c90-0b9a-1233",
-                    "field": "selections",
-                    "scope": "f795-e1f2-0664-594a",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "3378-7724-6c35-723b",
-                    "field": "selections",
-                    "scope": "f795-e1f2-0664-594a",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "670a-a8f2-1d26-ada0",
-                    "field": "selections",
-                    "scope": "f795-e1f2-0664-594a",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 25,
@@ -70794,32 +71263,6 @@
                   }
                 ],
                 "import": true
-              },
-              {
-                "name": "Amplification Array [Upgrade]",
-                "id": "3741-209a-ba79-b330",
-                "targetId": "446b-1fa9-407a-0745",
-                "type": "selectionEntry",
-                "hidden": true,
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "value": false,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "0b26-ef8c-7137-d99d",
-                        "field": "selections",
-                        "scope": "force",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ],
-                "import": true
               }
             ]
           }
@@ -71090,36 +71533,6 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "e7b6-ae1f-7253-95bc",
-                    "field": "selections",
-                    "scope": "b255-36f5-f1db-3d4d",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "f6db-0013-13bc-49ab",
-                    "field": "selections",
-                    "scope": "b255-36f5-f1db-3d4d",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
               }
             ]
           },
@@ -72693,32 +73106,6 @@
                   }
                 ],
                 "import": true
-              },
-              {
-                "name": "Amplification Array [Upgrade]",
-                "id": "aa45-2c59-d3e6-5d9e",
-                "targetId": "446b-1fa9-407a-0745",
-                "type": "selectionEntry",
-                "hidden": true,
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "value": false,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "0b26-ef8c-7137-d99d",
-                        "field": "selections",
-                        "scope": "force",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ],
-                "import": true
               }
             ]
           }
@@ -72816,36 +73203,6 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "e7f8-6e8f-2795-9cda",
-                    "field": "selections",
-                    "scope": "1493-3cf8-5682-615e",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "51d5-fcb7-c064-4bfd",
-                    "field": "selections",
-                    "scope": "1493-3cf8-5682-615e",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
               }
             ]
           },
@@ -74693,36 +75050,6 @@
             ]
           },
           {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "191a-1536-5704-9dd9",
-                    "field": "selections",
-                    "scope": "2ec3-d7d3-6896-c83c",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "914a-fc05-7c37-03f2",
-                    "field": "selections",
-                    "scope": "2ec3-d7d3-6896-c83c",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 20,
@@ -76046,27 +76373,6 @@
                 "includeChildSelections": true
               }
             ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "80e6-d008-7868-fb23",
-                    "field": "selections",
-                    "scope": "7406-e44d-004d-2652",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
           }
         ],
         "costs": [
@@ -77125,7 +77431,7 @@
             "name": "Consecrated Sacrificial Knife",
             "id": "3b49-1273-09cf-43b2",
             "hidden": false,
-            "description": "Non-Daemon EC Psyker Character. Once per battle, when determining a Greater Daemon's initial Manifestation after the bearer summons it, roll two D3, select one result and add 1."
+            "description": "Non-Daemon EC Psyker Character. Once per battle, when determining a Greater Daemon's initial Manifestation after the bearer summons it, roll two D3 and choose one result before applying the summoning distance bonus."
           }
         ]
       },
@@ -77858,82 +78164,6 @@
         ]
       },
       {
-        "name": "Maestro's Perfect Pitch",
-        "id": "f3f5-e91b-ee04-50cd",
-        "type": "upgrade",
-        "hidden": false,
-        "import": true,
-        "costs": [
-          {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 20
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
-            "value": 1
-          }
-        ],
-        "constraints": [
-          {
-            "id": "434b-11de-65ea-cbcd",
-            "type": "max",
-            "value": 1,
-            "scope": "roster",
-            "field": "selections",
-            "shared": true,
-            "includeChildSelections": true
-          }
-        ],
-        "rules": [
-          {
-            "name": "Maestro's Perfect Pitch",
-            "id": "a98c-c648-56a0-f331",
-            "hidden": false,
-            "description": "EC SONIC Character. While the bearer is leading a unit, each time a model in that unit makes a ranged attack with a listed Sonic Weapon, re-roll a Hit roll of 1."
-          }
-        ]
-      },
-      {
-        "name": "Audience of One Thousand",
-        "id": "94cf-7956-e2ce-7c45",
-        "type": "upgrade",
-        "hidden": false,
-        "import": true,
-        "costs": [
-          {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 25
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
-            "value": 1
-          }
-        ],
-        "constraints": [
-          {
-            "id": "f645-a749-1e26-1a5f",
-            "type": "max",
-            "value": 1,
-            "scope": "roster",
-            "field": "selections",
-            "shared": true,
-            "includeChildSelections": true
-          }
-        ],
-        "rules": [
-          {
-            "name": "Audience of One Thousand",
-            "id": "b6de-88cb-04ea-0f1b",
-            "hidden": false,
-            "description": "EC SONIC Character. Once per battle round, after the bearer's unit generates a Stage Token through its Sonic Weapon attacks, gain 1 additional Stage Token, subject to the pool maximum and the 6-per-battle-round gain limit."
-          }
-        ]
-      },
-      {
         "name": "Conductor's Baton",
         "id": "d51c-80cc-b7d7-8a9e",
         "type": "upgrade",
@@ -78526,86 +78756,6 @@
         ]
       },
       {
-        "name": "Amplification Array [Upgrade]",
-        "id": "446b-1fa9-407a-0745",
-        "type": "upgrade",
-        "hidden": false,
-        "import": true,
-        "costs": [
-          {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 15
-          },
-          {
-            "name": "Enhancements",
-            "typeId": "f759-1bc4-cb3a-f0d2",
-            "value": 1
-          }
-        ],
-        "constraints": [
-          {
-            "id": "4fcf-665a-c1ba-982d",
-            "type": "max",
-            "value": 3,
-            "scope": "roster",
-            "field": "selections",
-            "shared": true,
-            "includeChildSelections": true
-          }
-        ],
-        "rules": [
-          {
-            "name": "Amplification Array [Upgrade]",
-            "id": "5f1f-8262-1719-08bb",
-            "hidden": false,
-            "description": "Noise Marines, Dissonant Colossi, Cacophant or Threnody Dreadnought. Add 3\" to the Range characteristic of listed Sonic Weapons equipped by models in that unit."
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "f759-1bc4-cb3a-f0d2",
-            "type": "set",
-            "value": 0,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "roster",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "before",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "446b-1fa9-407a-0745",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "instanceOf",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "name": "Auric Panoply [Upgrade]",
         "id": "5d82-80bc-a70f-aa5f",
         "type": "upgrade",
@@ -79162,6 +79312,696 @@
                 ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Vhalyss, the First Scream",
+        "id": "17b6-3705-e4fa-c21a",
+        "type": "model",
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "2b19-e1db-5829-3c07",
+            "type": "max",
+            "value": 1,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 255
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Vhalyss, the First Scream",
+            "id": "1d8a-2100-2217-e216",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
+              },
+              {
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "16"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "5+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "5"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": "4+"
+              }
+            ]
+          },
+          {
+            "name": "Reality Unravels (12\" Aura)",
+            "id": "1994-4ae0-f94e-18e5",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While a unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1; otherwise, worsen its Leadership characteristic by 1. This affects friendly and enemy units alike. Multiple instances of Reality Unravels do not stack."
+              }
+            ]
+          },
+          {
+            "name": "The First Symphony (6\" Aura)",
+            "id": "9a52-ea35-f48c-c3bd",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time a friendly Emperor's Children unit within 6\" of this model is selected to shoot, you can re-roll one Wound roll of 1 for its attacks made with Sonic Weapons."
+              }
+            ]
+          },
+          {
+            "name": "The Perfect Discord",
+            "id": "47f3-ecde-c82c-8982",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "After this model has shot, select one enemy unit hit by one or more of its attacks. That unit must take a Battle-shock test, subtracting 1 from the result."
+              }
+            ]
+          },
+          {
+            "name": "A Symphony Without End",
+            "id": "60f0-cf42-acbb-bfa7",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle round, after an enemy unit within 12\" of this model fails a Battle-shock test, select one other friendly Legions of Excess unit within 9\". It gains 1 Manifestation point, subject to its maximum and the normal per-phase gain limit."
+              }
+            ]
+          },
+          {
+            "name": "Ruinous Counterpoint (Psychic Level 1)",
+            "id": "7a62-c134-6762-1ba7",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of your Shooting phase, if this model is not Battle-shocked, make a psychic roll. On a 1, this model becomes Battle-shocked. Regardless of the result, select one visible enemy unit within 18\". Until the end of the phase, subtract 1 from Battle-shock tests taken for that unit."
+              }
+            ]
+          },
+          {
+            "name": "Summoning and Manifestation",
+            "id": "dccb-d5b0-35ae-0e65",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Greater Daemonic Ritual. Maximum Manifestation: 6."
+              }
+            ]
+          },
+          {
+            "name": "Psyker",
+            "id": "5d52-173e-b6c8-49a8",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Level 2."
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Datasheet rules and equipment",
+            "id": "4e91-4132-fa37-24bf",
+            "description": "Core: Deadly Demise D6, Damaged 6. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Vhalyss, the First Scream. Equipment: First Scream, Talons of Discord.\n\n**Reality Unravels (12\" Aura)**\n\nWhile a unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1; otherwise, worsen its Leadership characteristic by 1. This affects friendly and enemy units alike. Multiple instances of Reality Unravels do not stack.\n\n**The First Symphony (6\" Aura)**\n\nEach time a friendly Emperor's Children unit within 6\" of this model is selected to shoot, you can re-roll one Wound roll of 1 for its attacks made with Sonic Weapons.\n\n**The Perfect Discord**\n\nAfter this model has shot, select one enemy unit hit by one or more of its attacks. That unit must take a Battle-shock test, subtracting 1 from the result.\n\n**A Symphony Without End**\n\nOnce per battle round, after an enemy unit within 12\" of this model fails a Battle-shock test, select one other friendly Legions of Excess unit within 9\". It gains 1 Manifestation point, subject to its maximum and the normal per-phase gain limit.\n\n**Ruinous Counterpoint (Psychic Level 1)**\n\nAt the start of your Shooting phase, if this model is not Battle-shocked, make a psychic roll. On a 1, this model becomes Battle-shocked. Regardless of the result, select one visible enemy unit within 18\". Until the end of the phase, subtract 1 from Battle-shock tests taken for that unit.\n\n**Summoning and Manifestation**\n\nGreater Daemonic Ritual. Maximum Manifestation: 6.\n\n**Psyker**\n\nLevel 2.\n\nKeywords: Monster, Character, Epic Hero, Daemon, Greater Daemon, Psyker, Slaanesh, Summoned, Vhalyss. Faction: Legions of Excess.",
+            "hidden": true
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Legions of Excess",
+            "id": "6cd4-518c-f366-2180",
+            "targetId": "e300-e652-996f-9010",
+            "primary": true,
+            "hidden": false
+          },
+          {
+            "name": "Monster",
+            "id": "9249-7ed2-e664-1a2f",
+            "targetId": "9693-cf84-fe69-37a9",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Character",
+            "id": "0d12-dd24-a023-81c7",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Epic Hero",
+            "id": "fdd1-591e-1ab2-10da",
+            "targetId": "4f3a-f0f7-6647-348d",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Daemon",
+            "id": "e5dd-31c9-d8fb-ec36",
+            "targetId": "9c0e-7e25-4580-e439",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Greater Daemon",
+            "id": "b2fd-4afe-fc87-97a4",
+            "targetId": "d445-8a18-5300-c3cc",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Psyker",
+            "id": "d383-c37d-2922-f99e",
+            "targetId": "13bf-2bee-3ae0-b414",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Slaanesh",
+            "id": "0daa-855d-92ca-cb4f",
+            "targetId": "b2a9-ede5-7a83-4da8",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Summoned",
+            "id": "fd86-08bb-caac-4e39",
+            "targetId": "38a2-f283-606d-7a37",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Vhalyss",
+            "id": "8111-695d-c7a0-967d",
+            "targetId": "955b-ee7a-7b96-1ac8",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Vhalyss, the First Scream",
+            "id": "26d2-f19d-219f-35c6",
+            "targetId": "0e47-b53c-e6fe-61d7",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Faction: Legions of Excess",
+            "id": "8e61-f621-1390-d6cd",
+            "targetId": "4c25-d2f3-36bb-8067",
+            "primary": false,
+            "hidden": false
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Manifestation",
+            "id": "742e-c47b-09ac-e1ca",
+            "targetId": "056c-12c7-df45-8120",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "name": "Summoning Rituals",
+            "id": "34c6-c2ac-2410-1418",
+            "targetId": "c9a6-4ceb-5170-5afc",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "name": "Deadly Demise",
+            "id": "4cfc-98c5-a194-6fb7",
+            "targetId": "b68a-5ded-65ac-98c",
+            "type": "rule",
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D6"
+              }
+            ]
+          },
+          {
+            "name": "Damaged",
+            "id": "8059-a2bf-9a27-123b",
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 6"
+              }
+            ]
+          },
+          {
+            "name": "Sonic Weapons",
+            "id": "cd81-205d-fac8-2cbd",
+            "targetId": "221a-d76e-5760-c47b",
+            "type": "rule",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "First Scream",
+            "id": "3105-d981-13fd-4f61",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "defaultAmount": 1,
+            "constraints": [
+              {
+                "id": "7ad4-181a-a651-a93a",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "afa8-32d2-03f0-2d88",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "name": "First Scream - Crescendo",
+                "id": "4487-3124-6927-c04b",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "24\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "Blast 2, Ignores Cover, Psychic"
+                  }
+                ]
+              },
+              {
+                "name": "First Scream - Rupture",
+                "id": "ed17-fae6-1fe6-3cfa",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "24\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "14"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-3"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "Blast 2, Ignores Cover, Psychic"
+                  }
+                ]
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Blast",
+                "id": "aada-b2b8-674c-1e36",
+                "targetId": "6c1f-1cf7-ff25-c99e",
+                "type": "rule",
+                "hidden": false,
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Blast 2"
+                  }
+                ]
+              },
+              {
+                "name": "Ignores Cover",
+                "id": "7f2b-105c-ea89-63a7",
+                "targetId": "4640-43e7-30b-215a",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "name": "Psychic",
+                "id": "ef49-a705-b3db-c6f4",
+                "targetId": "e9c4-2bb8-12ee-cd1b",
+                "type": "rule",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Talons of Discord",
+            "id": "60f1-2876-d27a-ccd1",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "defaultAmount": 1,
+            "constraints": [
+              {
+                "id": "01be-c9cf-b961-53fc",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "3513-8930-7af6-3d12",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Talons of Discord",
+                "id": "20ff-eabe-9154-57fd",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "9"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Golden Laurels",
+        "id": "2a7b-7bab-5e01-dc89",
+        "type": "upgrade",
+        "hidden": false,
+        "import": true,
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 20
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          }
+        ],
+        "constraints": [
+          {
+            "id": "a801-d5ee-48d7-f3fc",
+            "type": "max",
+            "value": 1,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ],
+        "rules": [
+          {
+            "name": "The Golden Laurels",
+            "id": "6a42-3e74-4379-dd29",
+            "hidden": false,
+            "description": "Emperor's Children Character model only. While the bearer's unit holds the Spotlight, add 1 to its Charge rolls. Once per battle round, when it steals the Spotlight, it can make a Normal move of up to 3\" if it is not within Engagement Range of any enemy units."
+          }
+        ]
+      },
+      {
+        "name": "Envious Perfection",
+        "id": "1c88-a8b9-d25d-cc82",
+        "type": "upgrade",
+        "hidden": false,
+        "import": true,
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 25
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          }
+        ],
+        "constraints": [
+          {
+            "id": "e579-8ba8-242b-2a04",
+            "type": "max",
+            "value": 1,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ],
+        "rules": [
+          {
+            "name": "Envious Perfection",
+            "id": "def1-a1c1-1c79-6f73",
+            "hidden": false,
+            "description": "Emperor's Children Character model only. Once per battle round, when another Performer steals the Spotlight from the bearer's unit, re-roll melee Hit rolls for the bearer's unit until the end of the phase."
+          }
+        ]
+      },
+      {
+        "name": "Master of Ceremonies",
+        "id": "1551-a537-4810-4b63",
+        "type": "upgrade",
+        "hidden": false,
+        "import": true,
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 25
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          }
+        ],
+        "constraints": [
+          {
+            "id": "7d00-04d4-f4c0-2db4",
+            "type": "max",
+            "value": 1,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ],
+        "rules": [
+          {
+            "name": "Master of Ceremonies",
+            "id": "7422-9a4e-f9bd-3459",
+            "hidden": false,
+            "description": "Emperor's Children Character model only. Once per battle round, after the bearer's unit earns an Ovation, select one other friendly Performer within 9\". That unit can make a Normal move of up to 3\" if it is not within Engagement Range of any enemy units."
+          }
+        ]
+      },
+      {
+        "name": "The Last Bow",
+        "id": "014b-2381-6796-055e",
+        "type": "upgrade",
+        "hidden": false,
+        "import": true,
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 15
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          }
+        ],
+        "constraints": [
+          {
+            "id": "ee1b-04c5-f1e0-b8e1",
+            "type": "max",
+            "value": 1,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ],
+        "rules": [
+          {
+            "name": "The Last Bow",
+            "id": "97c4-9d79-3a5d-1f9e",
+            "hidden": false,
+            "description": "Emperor's Children Character model only. Once per battle, when the bearer's unit is destroyed while it is a Performer, select one friendly Emperor's Children unit within 9\" of its last model that is not already a Performer. That unit inherits the destroyed unit's Performer role and the Spotlight, if it held it. The replacement cannot earn an Ovation during the current phase."
           }
         ]
       }
@@ -80187,6 +81027,55 @@
         "type": "selectionEntry",
         "hidden": false,
         "import": true
+      },
+      {
+        "name": "Vhalyss, the First Scream",
+        "id": "eaf7-fe35-0bcf-6f0c",
+        "targetId": "17b6-3705-e4fa-c21a",
+        "type": "selectionEntry",
+        "hidden": true,
+        "import": true,
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4eb3-b022-9fa6-4b75",
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "7d11-5332-67ba-782d",
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ada9-9f95-5767-81d2",
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedRules": [
@@ -80211,13 +81100,13 @@
       {
         "name": "Ritual Host — Summoning Circle / 1 CP",
         "id": "bb24-a8c8-29a7-83be",
-        "description": "\n\n### When\n\nWhen a friendly non-Daemon EC Character begins a summoning ritual.\n\n### Target\n\nThat Character and one other friendly non-Daemon EC Character within 6\" that has not performed a ritual this turn.\n\n### Effect\n\nBoth count as having performed a ritual this turn. Roll two D3, select one result and add 1 for initial Manifestation. This cannot combine with Consecrated Sacrificial Knife on the same roll. The performing Character must meet the chosen ritual's requirements.",
+        "description": "\n\n### When\n\nWhen a friendly non-Daemon EC Character begins a summoning ritual.\n\n### Target\n\nThat Character and one other friendly non-Daemon EC Character within 6\" that has not performed a ritual this turn.\n\n### Effect\n\nBoth count as having performed a ritual this turn. Roll two D3 and choose one result for initial Manifestation, then apply the ritual's initial Manifestation modifier. This cannot combine with Consecrated Sacrificial Knife on the same roll. The performing Character must meet the chosen ritual's requirements.",
         "hidden": false
       },
       {
         "name": "Ritual Host — An Offering Nonetheless / 1 CP",
         "id": "83c2-1fa3-b56a-6d52",
-        "description": "\n\n### When\n\nWhen a friendly non-Daemon EC Infantry unit is destroyed by an enemy attack.\n\n### Target\n\nOne friendly non-Daemon EC Psyker within 6\" of that unit immediately before its last model was removed.\n\n### Effect\n\nUntil the end of your next Charge phase, that Psyker can use the destroyed unit as the sacrifice for one Greater Daemonic Ritual. Perform that ritual at its normal timing.",
+        "description": "\n\n### When\n\nWhen a friendly non-Daemon EC Infantry unit is destroyed by an enemy attack.\n\n### Target\n\nOne friendly non-Daemon EC Psyker within 6\" of that unit immediately before its last model was removed.\n\n### Effect\n\nUntil the end of your next Charge phase, that Psyker can use the destroyed unit as the offering for one Greater Daemonic Ritual. Perform that ritual at its normal timing.",
         "hidden": false
       },
       {
@@ -80551,42 +81440,6 @@
         "hidden": false
       },
       {
-        "name": "The Grand Symphony — Precise Harmonics / 1 CP",
-        "id": "302d-98ea-a7fe-d229",
-        "description": "\n\n### When\n\nYour Shooting phase, when a friendly SONIC unit is selected to shoot.\n\n### Target\n\nThat unit.\n\n### Effect\n\nRe-roll Hit rolls of 1 for attacks made with listed Sonic Weapons until the end of the phase.",
-        "hidden": false
-      },
-      {
-        "name": "The Grand Symphony — Deafening Pressure / 1 CP",
-        "id": "af62-f515-98fd-bbec",
-        "description": "\n\n### When\n\nYour Shooting phase, after a friendly SONIC unit has shot.\n\n### Target\n\nOne enemy unit hit by a listed Sonic Weapon from that unit.\n\n### Effect\n\nSubtract 2\" from that enemy unit's Move characteristic and subtract 2 from its Charge rolls until the start of your next Shooting phase.",
-        "hidden": false
-      },
-      {
-        "name": "The Grand Symphony — Wall of Noise / 1 CP",
-        "id": "d09b-248c-edea-bb7a",
-        "description": "\n\n### When\n\nYour opponent's Shooting phase, immediately after an enemy unit selects targets.\n\n### Target\n\nOne friendly SONIC unit selected as a target.\n\n### Effect\n\nUntil the attacking unit has finished its attacks, worsen the AP of ranged attacks targeting your unit by 1.",
-        "hidden": false
-      },
-      {
-        "name": "The Grand Symphony — Overwhelming Volume / 1 CP",
-        "id": "17c2-4b8b-4497-cf6b",
-        "description": "\n\n### When\n\nYour Shooting phase, when a friendly SONIC unit is selected to shoot.\n\n### Target\n\nThat unit.\n\n### Effect\n\nUntil the end of the phase, add 1 to Wound rolls made for its attacks with listed Sonic Weapons against Battle-shocked enemy units.",
-        "hidden": false
-      },
-      {
-        "name": "The Grand Symphony — Reverberating Terror / 1 CP",
-        "id": "0643-a0f6-1f17-64df",
-        "description": "\n\n### When\n\nYour Shooting phase, after a friendly SONIC unit destroys an enemy unit with a ranged attack.\n\n### Target\n\nThat SONIC unit.\n\n### Effect\n\nSelect one other enemy unit within 6\" of the last model removed from the destroyed unit. It must take a Battle-shock test, subtracting 1 from the result.",
-        "hidden": false
-      },
-      {
-        "name": "The Grand Symphony — Measured Crescendo / 1 CP",
-        "id": "c544-a8d2-b1e0-5fed",
-        "description": "\n\n### When\n\nYour Shooting phase, when a friendly SONIC unit is selected to shoot.\n\n### Target\n\nThat unit.\n\n### Effect\n\nUntil the end of the phase, when that unit makes ranged attacks with listed Sonic Weapons, ignore modifiers to its Ballistic Skill characteristic and Hit rolls.",
-        "hidden": false
-      },
-      {
         "name": "Combat Drugs",
         "id": "ba01-c487-2242-7c4d",
         "description": "\n\n**Combat Elixirs**\n\nAt the start of a phase specified by an accessible Combat Elixir, this unit can activate that elixir and take a Leadership test. Resolve its effects whether the test passes or fails. If failed, this unit suffers 2 mortal wounds, then becomes Battle-shocked.\n\nThis unit can activate multiple different elixirs, taking a separate test for each. It cannot activate an elixir while that elixir is already active. Battle-shock prevents new doses but does not end active effects.\n\n**Pain Brings Clarity**\n\nIf this unit is Battle-shocked but not Stupefied, it immediately ceases to be Battle-shocked when a friendly Emperor's Children unit or an enemy unit within 6\" is destroyed, or an enemy unit within 6\" fails a Battle-shock test. Measure range immediately before the last model of a destroyed unit is removed.\n\n**Stupefied**\n\nAt the end of your Command phase, after scoring, this unit can become Stupefied. Choose one accessible Combat Elixir, ignoring its activation timing and without taking a dosage test. This unit becomes Battle-shocked, ends its other elixir effects, and gains the chosen elixir's normal and Stupefied effects until it recovers.\n\nWhile Stupefied, this unit cannot take new doses or change its chosen elixir, automatically fails Leadership and Battle-shock tests, and cannot cease to be Battle-shocked.\n\nIn your next Command phase, at the Battle-shock step, automatically pass this unit's recovery test, even if it would not otherwise take one. Stupefied and its selected elixir end, and this unit ceases to be Battle-shocked.\n\n**Warband Elixirs**\n\n**Hyperstimulants**\n\n**Activate:** start of your Movement phase.\n\n**Duration:** end of the turn.\n\nRanged attacks made by this unit have Assault, and making an Advance move does not prevent this unit from declaring a charge that turn. \n\n**Stupefied:** also add 2 to Advance rolls made for this unit.\n\n**Frenzon**\n\n**Activate:** start of your Movement phase.\n\n**Duration:** end of the turn.\n\nMaking a Fall Back move does not prevent this unit from shooting or declaring a charge that turn. \n\n**Stupefied:** also add 3\" to the distance models in this unit can move when making a Fall Back move.\n\n**Adrenal Surge**\n\n**Activate:** start of either Fight phase.\n\n**Duration:** end of the phase.\n\nAdd 2 to the Strength characteristic of melee weapons equipped by models in this unit. \n\n**Stupefied:** each time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\". It does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit. Other requirements of that move still apply.\n\n**Razor's Edge**\n\n**Activate:** start of your Shooting phase or either Fight phase.\n\n**Duration:** end of the phase.\n\nImprove the Armour Penetration characteristic of this unit's attacks by 1. \n\n**Stupefied:** those attacks also have [LETHAL HITS].\n\n**Soporific Musk**\n\n**Activate:** start of either Fight phase.\n\n**Duration:** end of the phase.\n\nSubtract 1 from Hit rolls for melee attacks that target this unit. \n\n**Stupefied:** select one enemy unit within Engagement Range of this unit. That enemy unit loses Fights First until the end of the phase.\n\n**Hallucinogens**\n\n**Activate:** start of your Movement phase.\n\n**Duration:** end of the phase.\n\nEnemy units cannot target this unit with attacks made using the Fire Overwatch Stratagem. \n\n**Stupefied:** moves made by this unit cannot trigger enemy abilities that allow reactive moves during that phase.\n\n**Heightened Senses**\n\n**Activate:** start of your Shooting phase or either Fight phase.\n\n**Duration:** end of the phase.\n\nAdd 1 to Hit rolls for attacks made by models in this unit. \n\n**Stupefied:** each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n\n**Euphoric Numbness**\n\n**Activate:** start of any phase.\n\n**Duration:** end of the phase.\n\nModels in this unit have Feel No Pain 5+. \n\n**Stupefied:** each time a model in this unit is destroyed by an enemy attack in the Fight phase, if this unit has not yet been selected to fight this phase, roll one D6. On a 4+, leave that model on the battlefield. It is removed after this unit has fought, or at the end of the phase, whichever happens first.",
@@ -80613,7 +81466,7 @@
       {
         "name": "Manifestation",
         "id": "056c-12c7-df45-8120",
-        "description": "\n\nEach time this unit is summoned, it gains D3+1 Manifestation points, to its datasheet's maximum.\n\nEach time a unit within 6\" of this unit is destroyed or fails a Battle-shock test, this unit gains 1 Manifestation point. Measure range before the destroyed unit's last model is removed. This unit can gain at most 1 Manifestation point per phase and cannot exceed its maximum.\n\nAt the end of each phase in your turn, after resolving gains, this unit loses 1 Manifestation point. If it has 0, it becomes Debound: remove it from the battlefield and return it to your summoning pool with its surviving models and remaining wounds. Becoming Debound does not count as being destroyed. Resummoning rolls its initial Manifestation again and does not restore models or wounds.",
+        "description": "\n\nInitial Manifestation is determined by the summoning ritual or effect used, to the unit's datasheet maximum.\n\nEach time a unit within 6\" of this unit is destroyed or fails a Battle-shock test, this unit gains 1 Manifestation point. Measure range before the destroyed unit's last model is removed. This unit can gain at most 1 Manifestation point per phase and cannot exceed its maximum.\n\nAt the end of each phase in your turn, after resolving gains, this unit loses 1 Manifestation point. If it has 0, it becomes Debound: remove it from the battlefield and return it to your summoning pool with its surviving models and remaining wounds. Becoming Debound does not count as being destroyed. Resummoning rolls its initial Manifestation again and does not restore models or wounds.",
         "hidden": false,
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "14"
@@ -80629,10 +81482,52 @@
       {
         "name": "Summoning Rituals",
         "id": "c9a6-4ceb-5170-5afc",
-        "description": "\n\n**Lesser Daemonic Ritual (Psychic Level 1)**\n\nAt the start of a phase in your turn, a friendly non-Daemon Psyker whose unit is not Battle-shocked can use this power. Roll one D6; on a 1, its unit becomes Battle-shocked. Regardless of the result, select one unit in your summoning pool, excluding Greater Daemons. Set it up wholly within 6\" of that Psyker and more than 8\" horizontally from enemy models. It gains D3+1 Manifestation points.\n\n**Greater Daemonic Ritual**\n\nAt the start of your Charge phase, select a friendly non-Daemon Psyker that has not performed a ritual this turn and one other friendly non-Daemon Infantry unit within 6\" of it. Destroy that Infantry unit, then set up one Greater Daemon from your summoning pool wholly within 6\" of the Psyker and more than 8\" horizontally from enemy models. It gains D3+1 Manifestation points and can charge that phase.\n\nEach Psyker can perform one ritual per turn. The lesser ritual consumes 1 level of its psychic allowance. Summon an attached Leader and Bodyguard together with one ritual and one shared Manifestation total.",
+        "description": "\n\n**Lesser Daemonic Ritual (Psychic Level 1)**\n\nAt the start of a phase in your turn, a friendly non-Daemon Psyker whose unit is not Battle-shocked can use this power. Roll one D6; on a 1, its unit becomes Battle-shocked. Regardless of the result, select one unit in your summoning pool, excluding Greater Daemons. Set it up wholly within 6\" of that Psyker and more than 8\" horizontally from enemy models. It gains D3 Manifestation points.\n\n**Greater Daemonic Ritual**\n\nAt the start of your Charge phase, select a friendly non-Daemon Psyker that has not performed a ritual this turn. Pay one offering below, then summon one Greater Daemon from your summoning pool wholly within 24\" of that Psyker and more than 8\" horizontally from enemy models. It can charge that phase.\n\n**Blood:** Destroy three non-Character models from one friendly non-Daemon Emperor's Children Infantry unit within 6\" of the Psyker.\n\n**Pain:** One friendly non-Daemon Emperor's Children unit within 6\" of the Psyker suffers 4 mortal wounds. These wounds cannot be prevented.\n\n**Souls:** Use one enemy unit destroyed within 12\" of the Psyker earlier that turn. Each destroyed enemy unit can be used for this offering only once.\n\n**Essence:** One friendly Legions of Excess unit within 6\" of the Psyker loses 3 Manifestation points. If it reaches 0, it becomes Debound.\n\nInitial Manifestation is determined by the summoning distance, to a maximum of 6:\n\n- Wholly within 6\": D3+3.\n- Otherwise, wholly within 12\": D3+1.\n- Otherwise, wholly within 24\": D3.\n\nEach Psyker can perform one ritual per turn. The lesser ritual consumes 1 level of its psychic allowance. Summon an attached Leader and Bodyguard together with one ritual and one shared Manifestation total.",
         "hidden": false,
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "15, 16"
+      },
+      {
+        "name": "The Theatre of Excess — Improvised Brilliance / 1 CP",
+        "id": "5a4a-9d4c-d38e-4a64",
+        "description": "\n\n### When\n\nStart of your Shooting phase or the Fight phase.\n\n### Target\n\nOne friendly Emperor's Children Performer.\n\n### Effect\n\nUntil the end of the phase, your unit can earn an Ovation by completing any Performer-role feat instead of only its assigned role's feat. It can still earn only one Ovation per battle round.",
+        "hidden": false
+      },
+      {
+        "name": "The Theatre of Excess — All Eyes Upon Me / 1 CP",
+        "id": "beee-e4f0-eccb-8ecf",
+        "description": "\n\n### When\n\nYour opponent's Shooting phase or the Fight phase, just after an enemy unit selects its targets.\n\n### Target\n\nOne friendly Emperor's Children Performer selected as a target that does not hold the Spotlight.\n\n### Effect\n\nUntil the attacking unit has finished making its attacks, subtract 1 from Hit rolls for attacks that target your unit.",
+        "hidden": false
+      },
+      {
+        "name": "The Theatre of Excess — The Show Must Go On / 1 CP",
+        "id": "5e9c-57b9-6533-9327",
+        "description": "\n\n### When\n\nAny phase, when a friendly Emperor's Children Performer is destroyed.\n\n### Target\n\nThat Performer and one friendly Emperor's Children unit within 9\" of its last model that is not already a Performer.\n\n### Effect\n\nThe surviving unit inherits the destroyed unit's Performer role and the Spotlight, if it held it. The replacement cannot earn an Ovation during the current phase.",
+        "hidden": false
+      },
+      {
+        "name": "The Theatre of Excess — A Magnificent Entrance / 1 CP",
+        "id": "645e-56fe-9ea6-8bfa",
+        "description": "\n\n### When\n\nYour Movement phase, immediately after a friendly Emperor's Children Performer finishes an Advance move.\n\n### Target\n\nThat Performer.\n\n### Effect\n\nUntil the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced.",
+        "hidden": false
+      },
+      {
+        "name": "The Theatre of Excess — The Perfect Performance / 1 CP",
+        "id": "f167-62a6-bc2a-eeb2",
+        "description": "\n\n### When\n\nThe Fight phase, when the friendly Performer holding the Spotlight is selected to fight.\n\n### Target\n\nThat Performer.\n\n### Effect\n\nUntil the end of the phase, add 1 to Wound rolls for melee attacks made by your unit that target Character, Monster or Vehicle units.",
+        "hidden": false
+      },
+      {
+        "name": "The Theatre of Excess — The Curtain Tears / 1 CP",
+        "id": "a38e-0c23-5f87-aa9e",
+        "description": "\n\n### When\n\nWhen a friendly Daemonettes unit is manifested using Daemonic Encore.\n\n### Target\n\nThat Daemonettes unit.\n\n### Effect\n\nYour unit does not lose a Manifestation point at the end of its arrival phase. Afterwards, the normal Manifestation rules apply.",
+        "hidden": false
+      },
+      {
+        "name": "Sonic Weapons",
+        "id": "221a-d76e-5760-c47b",
+        "hidden": false,
+        "description": "Sonic Weapons: Sonic blaster; twin sonic blaster; screamer pistol; combi-weapon - sonic; blastmaster; dreadblaster; requiem cannon; cathedral annihilator; Discord cannon; sonic balespewer; sonic destructor; cathedral sonic immolator; resonance cannon; shriek cannon; grand vox array; Death Scream; The Eighth's Refrain; First Scream. All firing profiles of these weapons qualify."
       }
     ],
     "publications": [
