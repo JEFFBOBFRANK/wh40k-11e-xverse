@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 38,
+    "revision": 39,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -1274,6 +1274,164 @@
                             "shared": true,
                             "includeChildSelections": true,
                             "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "d62d-db22-4893-4bc0",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "4eb3-b022-9fa6-4b75",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "7d11-5332-67ba-782d",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "8f40-8421-8651-62c8",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "510e-9910-61a7-a9e2",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c802-0284-8394-a3d3",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "e2be-cd6f-a91e-c2e1",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "31d0-3c70-b971-3786",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "65e2-c238-97fe-47c2",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "a6ec-9029-4637-cd14",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "b68a-274b-875e-5b6b",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "8eb1-8eec-1e5e-03eb",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "062d-1c8f-049f-9156",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "50fe-6c86-cafa-feb0",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "b941-ca22-0849-51e1",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "ada9-9f95-5767-81d2",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "0b26-ef8c-7137-d99d",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
                             "value": 1
                           }
                         ]

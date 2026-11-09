@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 22,
     "library": false,
-    "revision": 29,
+    "revision": 30,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -9757,6 +9757,173 @@
                             "shared": true,
                             "includeChildSelections": true,
                             "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "d62d-db22-4893-4bc0",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "2b41-3436-2be8-7361",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "58b2-0faf-a945-0c87",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "bb72-5d65-184a-0eb4",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "287a-527d-3edb-4beb",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "37ad-0066-d543-f00d",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "4c17-ffc0-7e86-a709",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "e568-cc60-74ad-a21a",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "4680-0d2b-0215-effd",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "2412-a34d-ddd0-7ee0",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "e5ce-67b1-103e-5fc0",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "f52a-1a49-b2cf-8a9e",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c5c8-5ecd-45e7-a935",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "4e3f-cc36-d93e-e361",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "1bde-4944-e90e-4b61",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "f3a6-d72c-452b-cb61",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "54b8-30fd-9b02-3229",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {
+                            "childId": "6174-5afb-b8b1-0b35",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
                             "value": 1
                           }
                         ]
