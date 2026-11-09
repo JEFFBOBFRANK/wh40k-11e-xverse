@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 36,
+    "revision": 37,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -430,18 +430,18 @@
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
-                "field": "selections",
+                "field": "82ae-1066-5107-6ae0",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": true
               },
               {
                 "id": "12b6-01e6-aefc-543d",
                 "type": "max",
-                "value": 4,
+                "value": 2,
                 "scope": "parent",
-                "field": "selections",
+                "field": "82ae-1066-5107-6ae0",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": true
               }
             ],
             "defaultSelectionEntryId": "none",
@@ -1222,6 +1222,70 @@
                   }
                 ],
                 "infoLinks": []
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "12b6-01e6-aefc-543d",
+                "type": "set",
+                "value": 3,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "baf8-997f-e323-a090",
+                        "field": "selections",
+                        "scope": "force",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ],
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "d62d-db22-4893-4bc0",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "7d80-2de5-816e-9d2b",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "12b6-01e6-aefc-543d",
+                "type": "set",
+                "value": 4,
+                "conditions": [
+                  {
+                    "childId": "4204-82d0-908c-a62a",
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
