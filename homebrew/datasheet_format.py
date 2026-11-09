@@ -455,7 +455,7 @@ def repair_agents_structure(catalogue):
 
 
 def detachment_point_counter(catalogue):
-    """Count Detachment Points in the selector, using the army's size limits."""
+    """Count DP without hiding Incursion's single-3DP option before selection."""
     from copy import deepcopy
     dp='82ae-1066-5107-6ae0'
     for entry in catalogue.get('sharedSelectionEntries', []):
@@ -473,6 +473,14 @@ def detachment_point_counter(catalogue):
             group['modifiers']=[m for m in group.get('modifiers', []) if m.get('field') not in {c['id'] for c in limits}]
             def selected(child):
                 return dict(childId=child,field='selections',scope='force',shared=True,includeChildSelections=True,type='atLeast',value=1)
+            # New Recruit hides choices costing more than the current group max.
+            # Allow the initial 3DP choice before its category raises the budget.
+            # Once a normal detachment is selected, the usual 2DP limit applies.
+            empty_incursion = dict(type='and', conditions=[selected('d62d-db22-4893-4bc0')])
+            for detachment in group.get('selectionEntries', []):
+                absent = selected(detachment['id'])
+                absent['type'] = 'lessThan'
+                empty_incursion['conditions'].append(absent)
             group['modifiers'].extend([
-                dict(field=maximum['id'],type='set',value=3,conditionGroups=[dict(type='or',conditions=[selected('baf8-997f-e323-a090')],conditionGroups=[dict(type='and',conditions=[selected('d62d-db22-4893-4bc0'),selected('7d80-2de5-816e-9d2b')])])]),
+                dict(field=maximum['id'],type='set',value=3,conditionGroups=[dict(type='or',conditions=[selected('baf8-997f-e323-a090')],conditionGroups=[dict(type='and',conditions=[selected('d62d-db22-4893-4bc0'),selected('7d80-2de5-816e-9d2b')]), empty_incursion])]),
                 dict(field=maximum['id'],type='set',value=4,conditions=[selected('4204-82d0-908c-a62a')])])
