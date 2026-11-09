@@ -287,6 +287,8 @@ def uniform_datasheets(catalogue):
         if 'profiles' in node:
             node['profiles'].sort(key=rank)
 
+    detachment_point_counter(catalogue)
+
     if catalogue.get("id") == "b00-cd86-4b4c-97ba":
         repair_agents_structure(catalogue)
         agents_rule_layout(catalogue)
@@ -450,3 +452,27 @@ def repair_agents_structure(catalogue):
         for p in choices:
             ammunition['characteristics'][0]['$text']+='\n\n**'+p['name']+':**\n\n'+p['characteristics'][0]['$text'].strip()
             p['hidden']=True
+
+
+def detachment_point_counter(catalogue):
+    """Count Detachment Points in the selector, using the army's size limits."""
+    from copy import deepcopy
+    dp='82ae-1066-5107-6ae0'
+    for entry in catalogue.get('sharedSelectionEntries', []):
+        if entry.get('name') != 'Detachment':
+            continue
+        for group in entry.get('selectionEntryGroups', []):
+            if group.get('name') != 'Detachment':
+                continue
+            limits=[c for c in group.get('constraints', []) if c.get('field') in ('selections',dp)]
+            for constraint in limits:
+                constraint['field']=dp
+                constraint['includeChildSelections']=True
+                constraint['value']=1 if constraint['type']=='min' else 2
+            maximum=next(c for c in limits if c['type']=='max')
+            group['modifiers']=[m for m in group.get('modifiers', []) if m.get('field') not in {c['id'] for c in limits}]
+            def selected(child):
+                return dict(childId=child,field='selections',scope='force',shared=True,includeChildSelections=True,type='atLeast',value=1)
+            group['modifiers'].extend([
+                dict(field=maximum['id'],type='set',value=3,conditionGroups=[dict(type='or',conditions=[selected('baf8-997f-e323-a090')],conditionGroups=[dict(type='and',conditions=[selected('d62d-db22-4893-4bc0'),selected('7d80-2de5-816e-9d2b')])])]),
+                dict(field=maximum['id'],type='set',value=4,conditions=[selected('4204-82d0-908c-a62a')])])
