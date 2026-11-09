@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 34,
+    "revision": 36,
     "gameSystemRevision": 23,
     "library": false,
     "type": "catalogue",
@@ -1123,17 +1123,10 @@
                   {
                     "name": "Detachment Points",
                     "typeId": "82ae-1066-5107-6ae0",
-                    "value": 3
+                    "value": 2
                   }
                 ],
                 "categoryLinks": [
-                  {
-                    "name": "3DP Detachment",
-                    "id": "ceb1-ca20-7d8b-f0df",
-                    "targetId": "7d80-2de5-816e-9d2b",
-                    "primary": false,
-                    "hidden": false
-                  },
                   {
                     "name": "Disruption",
                     "id": "b9ec-e964-11a3-27bd",
@@ -9740,6 +9733,27 @@
             ]
           },
           {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "1f9b-673e-bbb6-2190",
+                    "field": "selections",
+                    "scope": "3f9d-668c-4e5b-5c3e",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 10,
@@ -9767,6 +9781,7 @@
                       },
                       {
                         "childId": "3f9d-668c-4e5b-5c3e",
+                        "childName": "Lord Exultant",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -9775,27 +9790,6 @@
                         "includeChildSelections": true
                       }
                     ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "1f9b-673e-bbb6-2190",
-                    "field": "selections",
-                    "scope": "3f9d-668c-4e5b-5c3e",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
                   }
                 ]
               }
@@ -15850,6 +15844,48 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "adca-d6bd-3aff-e002",
+                        "childName": "Daemon Prince of Slaanesh",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -16993,6 +17029,48 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 20,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "c81b-12e2-6acb-4c21",
+                        "childName": "Daemon Prince with Wings",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -19440,6 +19518,48 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "0c25-6d00-b9d3-ce78",
+                        "childName": "Idol of Sublime Perfection",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -22305,6 +22425,48 @@
                     "value": 1,
                     "shared": true,
                     "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "5c2c-a9b8-3c1d-6ab8",
+                        "childName": "Lord Exultant with Jump Pack",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -27759,6 +27921,48 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "863d-9379-214d-eeba",
+                        "childName": "Keeper of Secrets",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -42082,47 +42286,6 @@
             ]
           },
           {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "before",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "fd3c-29a8-2489-d7bd",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "instanceOf",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "field": "category",
             "type": "add",
             "value": "b33d-bce2-7dd2-6589",
@@ -42165,6 +42328,48 @@
                     "value": 1,
                     "shared": true,
                     "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "fd3c-29a8-2489-d7bd",
+                        "childName": "Noise Marines",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -44643,6 +44848,48 @@
                 ]
               }
             ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 30,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "8c94-629d-4458-b252",
+                        "childName": "Excruciator Terminators",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -46485,6 +46732,48 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 30,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "730a-c1dd-e993-b45f",
+                        "childName": "Phoenix Guard Terminators",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -47091,6 +47380,48 @@
                     "value": 1,
                     "shared": true,
                     "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 20,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "6c60-bd6a-5112-b2c5",
+                        "childName": "Dissonant Colossi",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -50528,6 +50859,48 @@
                     "value": 1,
                     "shared": true,
                     "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "cf64-c240-3c50-8b86",
+                        "childName": "Rapture Talons",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -58550,6 +58923,48 @@
                 ]
               }
             ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 20,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "8a73-5e8a-3b7f-8b6e",
+                        "childName": "Stage of Excess",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -62017,6 +62432,27 @@
             ]
           },
           {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "fa42-3a00-a0fc-e6d0",
+                    "field": "selections",
+                    "scope": "e63a-75a3-c7c6-4075",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 10,
@@ -62044,6 +62480,7 @@
                       },
                       {
                         "childId": "e63a-75a3-c7c6-4075",
+                        "childName": "Chaos Rhino",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -62052,27 +62489,6 @@
                         "includeChildSelections": true
                       }
                     ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "fa42-3a00-a0fc-e6d0",
-                    "field": "selections",
-                    "scope": "e63a-75a3-c7c6-4075",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
                   }
                 ]
               }
@@ -63102,6 +63518,7 @@
                       },
                       {
                         "childId": "6bb2-1d8d-08a5-5e6f",
+                        "childName": "Maulerfiend",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -64127,6 +64544,36 @@
             ]
           },
           {
+            "field": "category",
+            "type": "add",
+            "value": "b33d-bce2-7dd2-6589",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f199-c001-03ad-c18f",
+                    "field": "selections",
+                    "scope": "aa38-b1cc-d27b-089c",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "e8aa-c253-160c-9bd8",
+                    "field": "selections",
+                    "scope": "aa38-b1cc-d27b-089c",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 50,
@@ -64154,6 +64601,7 @@
                       },
                       {
                         "childId": "aa38-b1cc-d27b-089c",
+                        "childName": "Defiler",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -64162,36 +64610,6 @@
                         "includeChildSelections": true
                       }
                     ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "b33d-bce2-7dd2-6589",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "f199-c001-03ad-c18f",
-                    "field": "selections",
-                    "scope": "aa38-b1cc-d27b-089c",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "e8aa-c253-160c-9bd8",
-                    "field": "selections",
-                    "scope": "aa38-b1cc-d27b-089c",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
                   }
                 ]
               }
@@ -68955,6 +69373,48 @@
                 ]
               }
             ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 25,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "f795-e1f2-0664-594a",
+                        "childName": "Threnody Dreadnought",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -70594,6 +71054,48 @@
                     "value": 1,
                     "shared": true,
                     "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "b255-36f5-f1db-3d4d",
+                        "childName": "Cacophant",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -72278,6 +72780,48 @@
                     "value": 1,
                     "shared": true,
                     "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "1493-3cf8-5682-615e",
+                        "childName": "Palatine Ravager",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -74109,6 +74653,48 @@
                     "value": 1,
                     "shared": true,
                     "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 20,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "2ec3-d7d3-6896-c83c",
+                        "childName": "Chaos Land Raider",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
