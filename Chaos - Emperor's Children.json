@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 49,
+    "revision": 50,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -3286,6 +3286,20 @@
                 "$text": "In your opponent's Fight phase, before your opponent selects their first unit to fight in the Fights Remaining step, this model can be selected to fight if it is eligible."
               }
             ]
+          },
+          {
+            "name": "Leader",
+            "id": "fde1-8717-b04d-057c",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following unit:\n\n■ PHOENIX GUARD TERMINATORS"
+              }
+            ]
           }
         ],
         "rules": [
@@ -3331,6 +3345,13 @@
             "id": "0a36-3a34-76da-01ce",
             "name": "Thrill Seekers",
             "targetId": "ba01-c487-2242-7c4d",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "d342-2f71-71da-743b",
+            "name": "Leader",
+            "targetId": "b4dd-3e1f-41cb-218f",
             "type": "rule",
             "hidden": false
           }
@@ -3893,7 +3914,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Flawless Blades, Phoenix Guard Terminators."
+                "$text": "This model can be attached to the following units:\n\n■ FLAWLESS BLADES\n■ PHOENIX GUARD TERMINATORS"
               }
             ]
           },
@@ -4447,7 +4468,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Infractors, Flawless Blades, Rapture Talons."
+                "$text": "This model can be attached to the following units:\n\n■ INFRACTORS\n■ FLAWLESS BLADES\n■ RAPTURE TALONS"
               }
             ]
           },
@@ -4990,7 +5011,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Noise Marines, Excruciator Terminators, Dissonant Colossi."
+                "$text": "This model can be attached to the following units:\n\n■ NOISE MARINES\n■ EXCRUCIATOR TERMINATORS\n■ DISSONANT COLOSSI"
               }
             ]
           },
@@ -7892,7 +7913,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Daemonettes, Mirror Guard."
+                "$text": "This model can be attached to the following units:\n\n■ DAEMONETTES\n■ MIRROR GUARD"
               }
             ]
           },
@@ -8622,7 +8643,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Infractors, Tormentors, Flawless Blades."
+                "$text": "This model can be attached to the following units:\n\n■ INFRACTORS\n■ TORMENTORS\n■ FLAWLESS BLADES"
               }
             ]
           },
@@ -10664,7 +10685,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Noise Marines, Excruciator Terminators."
+                "$text": "This model can be attached to the following units:\n\n■ NOISE MARINES\n■ EXCRUCIATOR TERMINATORS"
               }
             ]
           },
@@ -12255,7 +12276,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Tormentors, Infractors, Noise Marines."
+                "$text": "This model can be attached to the following units:\n\n■ TORMENTORS\n■ INFRACTORS\n■ NOISE MARINES"
               }
             ]
           },
@@ -13678,7 +13699,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Tormentors, Noise Marines, Flawless Blades."
+                "$text": "This model can be attached to the following units:\n\n■ TORMENTORS\n■ NOISE MARINES\n■ FLAWLESS BLADES"
               }
             ]
           },
@@ -17391,7 +17412,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Excruciator Terminators, Phoenix Guard Terminators."
+                "$text": "This model can be attached to the following units:\n\n■ EXCRUCIATOR TERMINATORS\n■ PHOENIX GUARD TERMINATORS"
               }
             ]
           },
@@ -19839,20 +19860,6 @@
             ]
           },
           {
-            "name": "Attachments",
-            "id": "ce97-40ac-812a-84a4",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Support: Tormentors, Infractors, Noise Marines, Flawless Blades or Fleshbound. One Leader and one Support may join the same bodyguard."
-              }
-            ]
-          },
-          {
             "name": "Equipment Options",
             "id": "cfb1-4bd5-4f0a-4b89",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -19905,6 +19912,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Infantry, Character, Chirurgeon, Chaos, Slaanesh. Faction: Emperor's Children."
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "id": "d97c-5546-16ee-6759",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units:\n\n■ TORMENTORS\n■ INFRACTORS\n■ NOISE MARINES\n■ FLAWLESS BLADES\n■ FLESHBOUND"
               }
             ]
           }
@@ -21690,20 +21711,6 @@
             ]
           },
           {
-            "name": "Attachments",
-            "id": "e523-1fda-01a7-873a",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Rapture Talons."
-              }
-            ]
-          },
-          {
             "name": "Equipment Options",
             "id": "c920-d87e-e1aa-28e9",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -21756,6 +21763,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Infantry, Character, Jump Pack, Fly, Chaos, Slaanesh. Faction: Emperor's Children."
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "id": "09c0-7965-50ca-b315",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following unit:\n\n■ RAPTURE TALONS"
               }
             ]
           }
@@ -23459,20 +23480,6 @@
             ]
           },
           {
-            "name": "Attachments",
-            "id": "e9df-848a-8413-fb25",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Support: Tormentors, Infractors, Noise Marines, Flawless Blades, Fleshbound or Ecstatic Congregation."
-              }
-            ]
-          },
-          {
             "name": "Equipment Options",
             "id": "6cee-d75e-b704-4d73",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -23525,6 +23532,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Infantry, Character, Herald of Excess, Chaos, Slaanesh. Faction: Emperor's Children."
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "id": "83ba-588a-5a9d-0d21",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units:\n\n■ TORMENTORS\n■ INFRACTORS\n■ NOISE MARINES\n■ FLAWLESS BLADES\n■ FLESHBOUND\n■ ECSTATIC CONGREGATION"
               }
             ]
           }
@@ -24922,20 +24943,6 @@
             ]
           },
           {
-            "name": "Attachments",
-            "id": "e70b-7d3c-c506-c02d",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Ghosts or Ecstatic Congregation."
-              }
-            ]
-          },
-          {
             "name": "Unit Composition and Equipment",
             "id": "3c50-d0a7-f51f-6b65",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -24974,6 +24981,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Infantry, Character, Gilded Knife, Chaos, Slaanesh. Faction: Emperor's Children."
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "id": "52c0-27c2-4266-2082",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units:\n\n■ GHOSTS\n■ ECSTATIC CONGREGATION"
               }
             ]
           }
@@ -26226,20 +26247,6 @@
             ]
           },
           {
-            "name": "Attachments",
-            "id": "24e8-360a-c691-8b33",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Ecstatic Congregation, Chained Thralls or Fleshbound."
-              }
-            ]
-          },
-          {
             "name": "Unit Composition and Equipment",
             "id": "8398-85dd-678a-5938",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -26278,6 +26285,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Infantry, Character, Psyker, Chaos, Slaanesh. Faction: Emperor's Children."
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "id": "d977-988b-af1b-5c9f",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units:\n\n■ ECSTATIC CONGREGATION\n■ CHAINED THRALLS\n■ FLESHBOUND"
               }
             ]
           }
@@ -28767,7 +28788,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Daemonettes."
+                "$text": "This model can be attached to the following unit:\n\n■ DAEMONETTES"
               }
             ]
           },
@@ -29386,7 +29407,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Daemonettes, Choir of Unmaking."
+                "$text": "This model can be attached to the following units:\n\n■ DAEMONETTES\n■ CHOIR OF UNMAKING"
               }
             ]
           },
@@ -30017,7 +30038,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Daemonettes, Mirror Guard, Choir of Unmaking."
+                "$text": "This model can be attached to the following units:\n\n■ DAEMONETTES\n■ MIRROR GUARD\n■ CHOIR OF UNMAKING"
               }
             ]
           },
@@ -30682,20 +30703,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Re-roll melee Wound rolls of 1. Against an enemy unit within range of an objective marker, re-roll all melee Wound rolls instead."
-              }
-            ]
-          },
-          {
-            "name": "Eligible Attachments",
-            "id": "d3eb-5281-ecfc-0cd3",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Eidolon, Lord Exultant, Raptureweaver. Support: Chirurgeon, Herald of Excess."
               }
             ]
           },
@@ -32887,20 +32894,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "At the end of your Command phase, each objective marker you control that this unit is within range of becomes secured."
-              }
-            ]
-          },
-          {
-            "name": "Eligible Attachments",
-            "id": "de23-997a-a703-2e50",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Lord Exultant, Raptureweaver, Torment Oracle. Support: Chirurgeon, Herald of Excess."
               }
             ]
           },
@@ -36224,20 +36217,6 @@
             ]
           },
           {
-            "name": "Attachments",
-            "id": "fcf1-245d-fe98-9eab",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: The Gilded Knife or Sibyl of Excess. Support: Herald of Excess."
-              }
-            ]
-          },
-          {
             "name": "Unit Composition and Equipment",
             "id": "fe26-1c4c-90c9-1779",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -37556,20 +37535,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Once per phase, when this unit heals wounds, increase the number of wounds healed by 1."
-              }
-            ]
-          },
-          {
-            "name": "Attachments",
-            "id": "2b66-263f-b4f8-afd3",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Sibyl of Excess. Support: Chirurgeon or Herald of Excess."
               }
             ]
           },
@@ -39033,20 +38998,6 @@
             ]
           },
           {
-            "name": "Eligible Attachments",
-            "id": "1961-30a0-c3d7-a8e2",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Syll'Esske, Tranceweaver, Infernal Enrapturess, Contorted Epitome."
-              }
-            ]
-          },
-          {
             "name": "Equipment Options",
             "id": "67ad-456e-0590-ebc7",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -39547,20 +39498,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "In your Shooting phase, after this unit shoots, select one enemy unit hit by its attacks. Until the start of your next Shooting phase, subtract 1 from Leadership and Battle-shock tests taken for that enemy unit."
-              }
-            ]
-          },
-          {
-            "name": "Eligible Attachments",
-            "id": "1796-7974-5e35-f72d",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Ramos, Lord Kakophonist, Raptureweaver, Torment Oracle. Support: Chirurgeon, Herald of Excess."
               }
             ]
           },
@@ -40983,20 +40920,6 @@
             ]
           },
           {
-            "name": "Eligible Attachments",
-            "id": "81ab-9fec-f388-875e",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Lucius the Eternal, Eidolon, Lord Exultant, Torment Oracle. Support: Chirurgeon, Herald of Excess."
-              }
-            ]
-          },
-          {
             "name": "Equipment Options",
             "id": "6aa8-b776-0b96-85aa",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -41944,20 +41867,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "After this unit shoots, select one enemy unit within 12\" that was hit by its attacks. That enemy unit must take a Battle-shock test, subtracting 1 from the result."
-              }
-            ]
-          },
-          {
-            "name": "Eligible Attachments",
-            "id": "3b31-50b4-4945-915b",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Ramos, Lord Kakophonist, Lord Exultant in Terminator Armour."
               }
             ]
           },
@@ -43808,20 +43717,6 @@
             ]
           },
           {
-            "name": "Attachments",
-            "id": "60d1-88cb-bf23-5c6f",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Lucius or Lord Exultant in Terminator Armour; alternatively attach to Fulgrim using Retinue of the Phoenician."
-              }
-            ]
-          },
-          {
             "name": "Unit Composition and Equipment",
             "id": "d695-c4e5-167d-f053",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -44327,20 +44222,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "After this unit shoots, select one enemy unit hit by its attacks. Until the end of the phase, add 1 to Wound rolls for ranged attacks made by other friendly EC units that target that enemy unit. Multiple applications do not stack."
-              }
-            ]
-          },
-          {
-            "name": "Attachments",
-            "id": "d848-5024-e8dc-5788",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Ramos."
               }
             ]
           },
@@ -44912,20 +44793,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "After this unit has shot, those attacks do not prevent it from being Hidden."
-              }
-            ]
-          },
-          {
-            "name": "Attachments",
-            "id": "86b7-3386-7c92-1ad7",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: The Gilded Knife."
               }
             ]
           },
@@ -46823,20 +46690,6 @@
             ]
           },
           {
-            "name": "Attachments",
-            "id": "7506-522e-ed38-2282",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Sibyl of Excess."
-              }
-            ]
-          },
-          {
             "name": "Unit Composition and Equipment",
             "id": "a0f8-1c24-c221-6ab0",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -47558,20 +47411,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "At the end of the Fight phase, if this unit fought that phase and is engaged, it can make a Fall Back move of up to 6\"."
-              }
-            ]
-          },
-          {
-            "name": "Attachments",
-            "id": "69f1-60b7-fed4-99fb",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Eidolon or Lord Exultant with Jump Pack."
               }
             ]
           },
@@ -49790,20 +49629,6 @@
             ]
           },
           {
-            "name": "Eligible Attachments",
-            "id": "b000-3c05-9a33-c424",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Syll'Esske, Contorted Epitome."
-              }
-            ]
-          },
-          {
             "name": "CORE",
             "id": "b929-e76d-b337-9c34",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -51266,20 +51091,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "1."
-              }
-            ]
-          },
-          {
-            "name": "Eligible Attachments",
-            "id": "d7c3-f3e7-0fd8-18de",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Leader: Infernal Enrapturess, Contorted Epitome."
               }
             ]
           },
@@ -70127,7 +69938,7 @@
             "name": "Master of the Marquee",
             "id": "38b7-edcc-f25d-1fdb",
             "hidden": false,
-            "description": "EMPEROR'S CHILDREN CHARACTER only, excluding EPIC HEROES. Once per battle round, at the start of a phase, if the bearer's unit is a Performer, you can transfer the Spotlight to one other surviving Performer within 12\" of the bearer's unit."
+            "description": "EMPEROR'S CHILDREN CHARACTER only. Once per battle round, at the start of a phase, if the bearer's unit is a Performer, you can transfer the Spotlight to one other surviving Performer within 12\" of the bearer's unit."
           }
         ]
       },
@@ -70165,7 +69976,7 @@
             "name": "Crimson Masque",
             "id": "6fb4-e982-5304-6843",
             "hidden": false,
-            "description": "EMPEROR'S CHILDREN CHARACTER only, excluding EPIC HEROES. While the bearer's unit holds the Spotlight, melee weapons equipped by models in that unit have PRECISION."
+            "description": "EMPEROR'S CHILDREN CHARACTER only. While the bearer's unit holds the Spotlight, melee weapons equipped by models in that unit have PRECISION."
           }
         ]
       },
@@ -70203,7 +70014,7 @@
             "name": "Understudy's Mask",
             "id": "dd3e-5204-364e-ef0d",
             "hidden": false,
-            "description": "EMPEROR'S CHILDREN CHARACTER only, excluding EPIC HEROES. Once per battle, when a Performer is destroyed, if the bearer's unit is on the battlefield, is eligible to become a Performer and currently has no Performer role, it immediately assumes the destroyed unit's role, inheriting its Spotlight and recorded Ovations."
+            "description": "EMPEROR'S CHILDREN CHARACTER only. Once per battle, when a Performer is destroyed, if the bearer's unit is on the battlefield, is eligible to become a Performer and currently has no Performer role, it immediately assumes the destroyed unit's role, inheriting its Spotlight and recorded Ovations."
           }
         ]
       },
@@ -70241,7 +70052,7 @@
             "name": "Rapturous Applause",
             "id": "d1b4-a9dd-8029-5787",
             "hidden": false,
-            "description": "EMPEROR'S CHILDREN CHARACTER only, excluding EPIC HEROES. Once per battle round, after the bearer's Performer unit earns an Ovation, select one enemy unit within 6\" of it. That enemy unit must take a Battle-shock test, subtracting 1 from the result."
+            "description": "EMPEROR'S CHILDREN CHARACTER only. Once per battle round, after the bearer's Performer unit earns an Ovation, select one enemy unit within 6\" of it. That enemy unit must take a Battle-shock test, subtracting 1 from the result."
           }
         ]
       },
@@ -70279,7 +70090,7 @@
             "name": "The Silver Tongue",
             "id": "117a-5e0d-ce1b-8f77",
             "hidden": false,
-            "description": "EMPEROR'S CHILDREN CHARACTER, excluding EPIC HEROES. When your army offers a Seduction to an enemy unit within 12\" of the bearer, subtract 1 from that unit's resistance roll. This cannot make the roll automatically fail."
+            "description": "EMPEROR'S CHILDREN CHARACTER. When your army offers a Seduction to an enemy unit within 12\" of the bearer, subtract 1 from that unit's resistance roll. This cannot make the roll automatically fail."
           }
         ]
       },
@@ -70317,7 +70128,7 @@
             "name": "A Thousand Promises",
             "id": "781e-6bbd-6c9d-412e",
             "hidden": false,
-            "description": "EMPEROR'S CHILDREN CHARACTER, excluding EPIC HEROES. Once per battle round, after an enemy unit within 12\" of the bearer successfully resists a Seduction, you can choose for it to retain its current Level rather than decrease it by one."
+            "description": "EMPEROR'S CHILDREN CHARACTER. Once per battle round, after an enemy unit within 12\" of the bearer successfully resists a Seduction, you can choose for it to retain its current Level rather than decrease it by one."
           }
         ]
       },
@@ -70355,7 +70166,7 @@
             "name": "Mirror of Forbidden Truths",
             "id": "7231-1f4f-5b29-621c",
             "hidden": false,
-            "description": "EMPEROR'S CHILDREN CHARACTER, excluding EPIC HEROES. Each time an enemy unit within 6\" of the bearer accepts a Seduction or fails its resistance roll, that enemy unit must take a Battle-shock test."
+            "description": "EMPEROR'S CHILDREN CHARACTER. Each time an enemy unit within 6\" of the bearer accepts a Seduction or fails its resistance roll, that enemy unit must take a Battle-shock test."
           }
         ]
       },
@@ -70393,7 +70204,7 @@
             "name": "Favoured Tempter",
             "id": "344c-17c3-c691-81a2",
             "hidden": false,
-            "description": "EMPEROR'S CHILDREN CHARACTER, excluding EPIC HEROES. Once per battle round, when you select an enemy unit within 12\" of the bearer for a Thrall of the Dark Prince possession test, subtract 1 from its Leadership test result."
+            "description": "EMPEROR'S CHILDREN CHARACTER. Once per battle round, when you select an enemy unit within 12\" of the bearer for a Thrall of the Dark Prince possession test, subtract 1 from its Leadership test result."
           }
         ]
       },
@@ -70431,7 +70242,7 @@
             "name": "Sceptre of Edicts",
             "id": "1f97-64f4-f68d-4c8d",
             "hidden": false,
-            "description": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST, excluding EPIC HEROES. The bearer can issue Doctrines to eligible units within **18\"** instead of 12\"."
+            "description": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST. The bearer can issue Doctrines to eligible units within **18\"** instead of 12\"."
           }
         ]
       },
@@ -70469,7 +70280,7 @@
             "name": "Purest Allegiance",
             "id": "f3df-6116-eb91-b285",
             "hidden": false,
-            "description": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST, excluding EPIC HEROES. Once per battle round, the first unit to receive a Doctrine from the bearer suffers **no mortal wounds** from its issuance."
+            "description": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST. Once per battle round, the first unit to receive a Doctrine from the bearer suffers **no mortal wounds** from its issuance."
           }
         ]
       },
@@ -70507,7 +70318,7 @@
             "name": "Master of Protocol",
             "id": "753d-6c1f-319b-a3d4",
             "hidden": false,
-            "description": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST, excluding EPIC HEROES. The bearer can issue **two** Doctrines per battle round to **different** units instead of one."
+            "description": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST. The bearer can issue **two** Doctrines per battle round to **different** units instead of one."
           }
         ]
       },
@@ -70545,7 +70356,7 @@
             "name": "The Dictator's Writ",
             "id": "faed-a97a-454e-af94",
             "hidden": false,
-            "description": "EMPEROR'S CHILDREN CHARACTER, excluding EPIC HEROES. While the bearer's unit has a Doctrine, its melee weapons have **PRECISION**."
+            "description": "EMPEROR'S CHILDREN CHARACTER. While the bearer's unit has a Doctrine, its melee weapons have **PRECISION**."
           }
         ]
       },
@@ -70621,7 +70432,7 @@
             "name": "Glassed Veins",
             "id": "76f2-c151-1636-efea",
             "hidden": false,
-            "description": "Non-DAEMON Emperor's Children CHARACTER, excluding EPIC HEROES. Re-roll one Leadership test made by the bearer's unit to cease being Stupefied per battle round."
+            "description": "Non-DAEMON Emperor's Children CHARACTER. Re-roll one Leadership test made by the bearer's unit to cease being Stupefied per battle round."
           }
         ]
       },
