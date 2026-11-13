@@ -98,10 +98,9 @@ def apply_costs(units):
             assert len(sizes) == 2, name
             for size, price in zip(sizes, prices):
                 named(size["costs"], "pts")["value"] = price - prices[0]
-    # Both units have fixed base prices, with Cacophant wargear priced separately.
-    for name in ("Cacophant", "Rapture Talons"):
-        unit = units[name]
-        unit["modifiers"] = [modifier for modifier in unit["modifiers"]
+    # Its 4.0 price is a flat 190 plus the three selectable cannon costs.
+    cacophant = units["Cacophant"]
+    cacophant["modifiers"] = [modifier for modifier in cacophant["modifiers"]
                              if modifier["field"] != POINTS]
 
 
@@ -564,7 +563,7 @@ def migrate(catalogue, system):
         clean_timing(unit)
         remove_profiles(unit, "Elixir Restrictions")
     weapon_rules(units["Infractors"], system)
-    catalogue["revision"] = 45
+    catalogue["revision"] = 46
     system["revision"] += 1
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."

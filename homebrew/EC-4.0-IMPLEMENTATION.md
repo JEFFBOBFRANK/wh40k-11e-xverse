@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 45 includes 58 datasheets and 13 detachments. The five
+Catalogue revision 46 includes 58 datasheets and 13 detachments. The five
 Phase 6 packages use the 4.0 master handoff. Thrill Seekers, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -13,7 +13,8 @@ shows the stratagems for the selected detachments.
 | Combat Drugs | Purge the Foe |
 | The Gilded Host | Take and Hold |
 
-Rapture Talons cost 105 points for five or 200 for ten. Regular Talons carry
+Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
+surcharge on the third and subsequent squads. Regular Talons carry
 bolt pistols. The champion carries a screamer pistol with a plasma pistol
 option. Vhalyss remains 255. Threnody designates an objective
 when deployed, has OC 10 and cannot be Stupefied within its range, and is
