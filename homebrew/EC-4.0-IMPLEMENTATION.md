@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 47 includes 58 datasheets and 13 detachments. The five
+Catalogue revision 48 includes 58 datasheets and 13 detachments. The five
 Phase 6 packages use the 4.0 master handoff. Thrill Seekers, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -12,6 +12,9 @@ shows the stratagems for the selected detachments.
 | The Exalted Court | Priority Assets |
 | Combat Drugs | Purge the Foe |
 | The Gilded Host | Take and Hold |
+
+Ritual Host and Carnival of Excess each allow Legions of Excess units up to
+half the battle size points limit. Both have Unique: DAEMON.
 
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry

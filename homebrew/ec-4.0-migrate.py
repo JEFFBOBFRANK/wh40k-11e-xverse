@@ -371,25 +371,25 @@ def stratagem(catalogue, detachment, name, when, target, effect):
 
 
 def apply_peerless(catalogue, detachment):
-    infantry_or_mounted = "friendly Emperor's Children Infantry or Mounted unit"
+    friendly = "friendly Emperor's Children unit"
     detachment["rules"][0].update(
         name="The Killing Sequence",
-        description="\n\nOnce per Fight phase, after a friendly Emperor's Children Infantry or Mounted unit finishes fighting and one or more of its melee attacks inflicted damage, select one other friendly Emperor's Children Infantry or Mounted unit within 6\", eligible to fight and not yet fought that phase. That unit fights immediately.",
+        description="\n\nOnce per Fight phase, after a friendly Emperor's Children unit finishes fighting and its melee attacks inflicted damage, select one other friendly Emperor's Children unit within 6\" that is eligible to fight and has not fought this phase. That unit fights immediately.",
     )
     name = detachment["name"]
     stratagem(catalogue, name, "Unerring Lunge",
-              f"Your Charge phase, before a {infantry_or_mounted} makes a Charge roll.",
+              f"Your Charge phase, before a {friendly} makes a Charge roll.",
               "That unit.", "Add 2 to that Charge roll.")
     stratagem(catalogue, name, "Faultless Parry",
               "The Fight phase, after an enemy unit selects its targets.",
-              f"One {infantry_or_mounted} selected as a target.",
+              f"One {friendly} selected as a target.",
               "Until that enemy unit finishes attacking, subtract 1 from the Damage characteristic of melee attacks that target your unit, to a minimum of 1.")
     stratagem(catalogue, name, "Cut Out the Heart",
-              f"The Fight phase, when a {infantry_or_mounted} is selected to fight.",
+              f"The Fight phase, when a {friendly} is selected to fight.",
               "That unit.", "Until the end of the phase, melee weapons equipped by models in your unit have Precision.")
     stratagem(catalogue, name, "Cut Down the Weak",
               "Your opponent's Movement phase, immediately after an enemy unit finishes a Fall Back move.",
-              f"One {infantry_or_mounted} within 6\" of that enemy unit that is eligible to charge it.",
+              f"One {friendly} within 6\" of that enemy unit that is eligible to charge it.",
               "Your unit can declare a charge that includes that enemy unit as a target.")
     stratagem(catalogue, name, "Exploit the Opening",
               "The Fight phase, when a unit is selected to fight using The Killing Sequence.",
@@ -433,7 +433,17 @@ def clone_entry(template, name):
 
 def eligible(unit, restriction):
     categories = {link["name"] for link in unit.get("categoryLinks", [])}
-    if not {"Character", "Faction: Emperor's Children"} <= categories or "Epic Hero" in categories:
+    if restriction == "character-or-keeper" and unit["name"] == "Keeper of Secrets":
+        return True
+    if "Faction: Emperor's Children" not in categories:
+        return False
+    if restriction == "vehicle":
+        return "Vehicle" in categories
+    if restriction == "gilded-elite":
+        return unit["name"] in {"Flawless Blades", "Dissonant Colossi", "Noise Marines"}
+    if restriction == "chirurgeon":
+        return unit["name"] == "Chirurgeon"
+    if "Character" not in categories or "Epic Hero" in categories:
         return False
     if restriction == "strategist":
         return any(link["name"] == "Sublime Strategist" for link in unit.get("infoLinks", []))
@@ -441,8 +451,33 @@ def eligible(unit, restriction):
         return "Daemon" not in categories
     if restriction == "terminator":
         return "Terminator" in categories
-    assert restriction == "character"
+    assert restriction in {"character", "character-or-keeper"}
     return True
+
+
+def add_enhancement(entries, det, upgrade, template, previous=None, previous_links=None):
+    name = upgrade["name"]
+    enhancement = previous if previous is not None else clone_entry(template, name)
+    named(enhancement["costs"], "pts")["value"] = upgrade["points"]
+    enhancement["rules"][0].update(name=name, description=upgrade["text"])
+    for unit in entries:
+        if eligible(unit, upgrade["eligibility"]):
+            options = named(unit["selectionEntryGroups"], "Enhancements and Upgrades")
+            key = (options["id"], enhancement["id"])
+            link = (previous_links or {}).get(key)
+            if link is None:
+                link = gated_link(name, enhancement["id"], det["id"], "selectionEntry", options["id"])
+            options["entryLinks"].append(link)
+    entries.append(enhancement)
+
+
+def add_stratagem(catalogue, det, strat, refs, previous=None):
+    name = f'{det["name"]} — {strat["name"]} / {strat["cp"]} CP'
+    rule = previous if previous is not None else {"id": identifier(name), "hidden": False}
+    rule["name"] = name
+    catalogue["sharedRules"].append(rule)
+    stratagem(catalogue, det["name"], strat["name"], strat["when"], strat["target"], strat["effect"])
+    refs["infoLinks"].append(gated_link(name, rule["id"], det["id"], "rule", refs["id"]))
 
 
 def add_detachment_packages(catalogue, system, detachments, theatre, enhancement_template):
@@ -465,25 +500,88 @@ def add_detachment_packages(catalogue, system, detachments, theatre, enhancement
             detachments.append(det)
 
         for upgrade in package["enhancements"]:
-            enhancement = clone_entry(enhancement_template, upgrade["name"])
-            named(enhancement["costs"], "pts")["value"] = upgrade["points"]
-            enhancement["rules"][0].update(name=upgrade["name"], description=upgrade["text"])
-            for unit in entries:
-                if not eligible(unit, upgrade["eligibility"]):
-                    continue
-                options = named(unit["selectionEntryGroups"], "Enhancements and Upgrades")
-                options["entryLinks"].append(gated_link(upgrade["name"], enhancement["id"],
-                                                         det["id"], "selectionEntry", options["id"]))
-            entries.append(enhancement)
+            add_enhancement(entries, det, upgrade, enhancement_template)
 
         for strat in package["stratagems"]:
-            title = f'{name} — {strat["name"]} / {strat["cp"]} CP'
-            rule_id = identifier(title)
-            catalogue["sharedRules"].append({"name": title, "id": rule_id, "hidden": False,
-                                              "description": ""})
-            stratagem(catalogue, name, strat["name"], strat["when"], strat["target"], strat["effect"])
-            stratagems["infoLinks"].append(gated_link(title, rule_id, det["id"],
-                                                     "rule", stratagems["id"]))
+            add_stratagem(catalogue, det, strat, stratagems)
+
+
+def replace_detachment_contents(catalogue, detachments, template):
+    entries = catalogue["sharedSelectionEntries"]
+    refs = named(entries, "Stratagem References")
+    for name, changes in RULES["revisions"].items():
+        det = named(detachments, name)
+        if "rules" in changes:
+            previous_rules = {rule["name"]: rule["id"] for rule in det["rules"]}
+            det["rules"] = [
+                {"name": title, "id": previous_rules.get(title, identifier(det["id"] + ":" + title)),
+                 "hidden": False, "description": "\n\n" + description}
+                for title, description in changes["rules"].items()
+            ]
+        if "enhancements" in changes:
+            removed = set()
+            previous_links = {}
+            for unit in entries:
+                for group in unit.get("selectionEntryGroups", []):
+                    if group["name"] != "Enhancements and Upgrades":
+                        continue
+                    kept = []
+                    for link in group["entryLinks"]:
+                        if any(n.get("childId") == det["id"] for n in walk(link)):
+                            removed.add(link["targetId"])
+                            previous_links[(group["id"], link["targetId"])] = link
+                        else:
+                            kept.append(link)
+                    group["entryLinks"] = kept
+            previous = {entry["name"]: entry for entry in entries if entry["id"] in removed}
+            entries[:] = [entry for entry in entries if entry["id"] not in removed]
+            for upgrade in changes["enhancements"]:
+                add_enhancement(entries, det, upgrade, template, previous.get(upgrade["name"]), previous_links)
+        if "stratagems" in changes:
+            prefix = name + " — "
+            previous = {r["name"][len(prefix):].split(" / ")[0]: r
+                        for r in catalogue["sharedRules"] if r["name"].startswith(prefix)}
+            ids = {rule["id"] for rule in previous.values()}
+            catalogue["sharedRules"] = [r for r in catalogue["sharedRules"] if r["id"] not in ids]
+            refs["infoLinks"] = [link for link in refs["infoLinks"] if link["targetId"] not in ids]
+            for strat in changes["stratagems"]:
+                add_stratagem(catalogue, det, strat, refs, previous.get(strat["name"]))
+
+
+def set_daemon_allowance(catalogue, system, detachments):
+    daemon_dets = [named(detachments, name) for name in ("Ritual Host", "Carnival of Excess")]
+    category_name = "Unique: DAEMON"
+    category_id = identifier(category_name)
+    catalogue["categoryEntries"].append({
+        "name": category_name, "id": category_id, "hidden": False,
+        "constraints": [{"id": identifier(category_name + ":max"), "type": "max", "value": 1,
+                         "scope": "roster", "field": "selections", "shared": True,
+                         "includeChildSelections": True, "includeChildForces": True}],
+    })
+    for det, other in (daemon_dets, daemon_dets[::-1]):
+        det["categoryLinks"].append({
+            "name": category_name, "id": identifier(det["id"] + ":" + category_name),
+            "targetId": category_id, "primary": False, "hidden": False,
+        })
+        det["modifiers"] = [{
+            "field": det["constraints"][0]["id"], "type": "set", "value": 0,
+            "conditions": [{"childId": other["id"], "field": "selections", "scope": "roster",
+                            "type": "atLeast", "value": 1, "shared": True,
+                            "includeChildSelections": True, "includeChildForces": True}],
+        }]
+        det["rules"].append({"name": category_name, "id": identifier(det["id"] + ":unique-daemon"),
+                             "hidden": False, "description": "Your army can include one Unique: DAEMON detachment."})
+    legions = named(system["categoryEntries"], "Legions of Excess")
+    allowance = []
+    for modifier in legions["modifiers"]:
+        if modifier["type"] != "set":
+            continue
+        battle_size, gate = modifier["conditions"]
+        assert gate["childId"] == daemon_dets[1]["id"]
+        for det in daemon_dets:
+            allowance.append(dict(modifier, conditions=[battle_size, dict(gate, childId=det["id"])]))
+    assert {modifier["value"] for modifier in allowance} == {500, 1000, 1500}
+    legions["modifiers"] = allowance
 
 
 def apply_detachment_changes(catalogue, system):
@@ -529,6 +627,8 @@ def apply_detachment_changes(catalogue, system):
     apply_peerless(catalogue, named(group["selectionEntries"], "Peerless Bladesmen"))
 
     apply_compatibility(catalogue, group["selectionEntries"])
+    replace_detachment_contents(catalogue, group["selectionEntries"], enhancement_template)
+    set_daemon_allowance(catalogue, system, group["selectionEntries"])
 
 
 def apply_compatibility(catalogue, detachments):
@@ -600,8 +700,8 @@ def migrate(catalogue, system):
         remove_profiles(unit, "Elixir Restrictions")
     weapon_rules(units["Infractors"], system)
     edit_player_text(catalogue, units)
-    catalogue["revision"] = 47
-    system["revision"] += 1
+    catalogue["revision"] = 48
+    system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
 
