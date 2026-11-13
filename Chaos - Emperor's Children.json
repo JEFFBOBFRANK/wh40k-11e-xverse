@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 51,
+    "revision": 52,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -22339,7 +22339,7 @@
                           {
                             "name": "A",
                             "typeId": "2337-daa1-6682-b110",
-                            "$text": "6"
+                            "$text": "5"
                           },
                           {
                             "name": "WS",
