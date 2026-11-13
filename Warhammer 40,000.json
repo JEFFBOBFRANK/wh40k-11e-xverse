@@ -4,7 +4,7 @@
     "id": "sys-352e-adc2-7639-d610",
     "battleScribeVersion": 2.03,
     "readme": "",
-    "revision": 24,
+    "revision": 25,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -19303,8 +19303,17 @@
           {
             "field": "5e40-220b-eb6a-65f3",
             "value": 500,
-            "type": "increment",
+            "type": "set",
             "conditions": [
+              {
+                "childId": "d62d-db22-4893-4bc0",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              },
               {
                 "childId": "7d11-5332-67ba-782d",
                 "field": "selections",
@@ -19356,7 +19365,57 @@
                 "includeChildSelections": true
               },
               {
+                "childId": "7d11-5332-67ba-782d",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "5e40-220b-eb6a-65f3",
+            "value": 1000,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "baf8-997f-e323-a090",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              },
+              {
                 "childId": "ada9-9f95-5767-81d2",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "5e40-220b-eb6a-65f3",
+            "value": 1500,
+            "type": "set",
+            "conditions": [
+              {
+                "childId": "4204-82d0-908c-a62a",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              },
+              {
+                "childId": "7d11-5332-67ba-782d",
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",
