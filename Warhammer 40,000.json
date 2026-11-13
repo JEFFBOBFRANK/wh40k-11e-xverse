@@ -4,7 +4,7 @@
     "id": "sys-352e-adc2-7639-d610",
     "battleScribeVersion": 2.03,
     "readme": "",
-    "revision": 23,
+    "revision": 24,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -19300,22 +19300,6 @@
           }
         ],
         "modifiers": [
-          {
-            "field": "5e40-220b-eb6a-65f3",
-            "value": 500,
-            "type": "increment",
-            "conditions": [
-              {
-                "childId": "4eb3-b022-9fa6-4b75",
-                "field": "selections",
-                "scope": "force",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          },
           {
             "field": "5e40-220b-eb6a-65f3",
             "value": 500,
