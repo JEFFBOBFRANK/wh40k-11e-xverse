@@ -550,6 +550,42 @@ def apply_compatibility(catalogue, detachments):
             link["name"] = dark_apparitions["name"]
 
 
+def edit_player_text(catalogue, units):
+    editorial = RULES["editorial"]
+    rule_text = dict(editorial["rules"])
+    ability_text = dict(editorial["abilities"])
+    for node in walk(catalogue):
+        node_id = node.get("id")
+        if node_id in rule_text:
+            node["description"] = rule_text.pop(node_id)
+        if node_id in ability_text:
+            node["characteristics"][0]["$text"] = ability_text.pop(node_id)
+    assert not rule_text and not ability_text, (rule_text.keys(), ability_text.keys())
+
+    for unit in units.values():
+        notes = []
+        for paragraph in unit.get("readme", "").split("\n\n"):
+            if paragraph.startswith(("Army rules:", "Core:", "Keywords:", "Faction:")):
+                continue
+            if paragraph.strip() in {"", "VEHICLE / EQUIPMENT AND ABILITIES", "Defiler", "Abilities", "Defiler\nAbilities"}:
+                continue
+            if paragraph.startswith("Equipment Options:"):
+                paragraph = paragraph.removeprefix("Equipment Options: No options. ")
+                if paragraph == "Equipment Options: None.":
+                    continue
+            notes.append(paragraph)
+        readme = "\n\n".join(notes)
+        for before, after in editorial["noteReplacements"].get(unit["name"], {}).items():
+            assert before in readme, (unit["name"], before)
+            readme = readme.replace(before, after)
+        for redundant in editorial["noteCuts"].get(unit["name"], []):
+            assert redundant in readme, (unit["name"], redundant)
+            readme = readme.replace(redundant, "")
+        readme = re.sub(r"(?<!\n) Equipment: ", "\nEquipment: ", readme)
+        unit["readme"] = "\n\n".join(part.strip() for part in readme.split("\n\n") if part.strip())
+    named(units["Sibyl of Excess"]["profiles"], "Psyker Level 3")["name"] = "Psyker Level"
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -563,7 +599,8 @@ def migrate(catalogue, system):
         clean_timing(unit)
         remove_profiles(unit, "Elixir Restrictions")
     weapon_rules(units["Infractors"], system)
-    catalogue["revision"] = 46
+    edit_player_text(catalogue, units)
+    catalogue["revision"] = 47
     system["revision"] += 1
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
