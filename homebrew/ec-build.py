@@ -9,6 +9,8 @@ A=argparse.ArgumentParser();A.add_argument('--baseline',type=Path,required=True)
 HERE=Path(__file__).parent
 S=json.loads(next(p for p in [HERE/'ec-source-data.json',HERE/'source-data.json'] if p.exists()).read_text())
 G=json.loads((a.baseline/'Warhammer 40,000.json').read_text())['gameSystem'];OLD=json.loads((a.baseline/"Chaos - Emperor's Children.json").read_text())['catalogue']
+if OLD['revision'] >= 44:
+ raise SystemExit('EC 4.0 is built with homebrew/ec-4.0-migrate.py from revision 43.')
 PT='51b2-306e-1021-d207';DP='82ae-1066-5107-6ae0';EN='f759-1bc4-cb3a-f0d2';INC='d62d-db22-4893-4bc0';STRIKE='baf8-997f-e323-a090';ONS='4204-82d0-908c-a62a'
 def uid(s):
  h=hashlib.sha256(('ec-3.1:'+s).encode()).hexdigest()[:16];return '-'.join(h[i:i+4] for i in range(0,16,4))
