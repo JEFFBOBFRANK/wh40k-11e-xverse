@@ -16,25 +16,25 @@
           "name": "Master of the Marquee",
           "points": 25,
           "eligibility": "character",
-          "text": "EMPEROR'S CHILDREN CHARACTER only, excluding EPIC HEROES. Once per battle round, at the start of a phase, if the bearer's unit is a Performer, you can transfer the Spotlight to one other surviving Performer within 12\" of the bearer's unit."
+          "text": "EMPEROR'S CHILDREN CHARACTER only. Once per battle round, at the start of a phase, if the bearer's unit is a Performer, you can transfer the Spotlight to one other surviving Performer within 12\" of the bearer's unit."
         },
         {
           "name": "Crimson Masque",
           "points": 20,
           "eligibility": "character",
-          "text": "EMPEROR'S CHILDREN CHARACTER only, excluding EPIC HEROES. While the bearer's unit holds the Spotlight, melee weapons equipped by models in that unit have PRECISION."
+          "text": "EMPEROR'S CHILDREN CHARACTER only. While the bearer's unit holds the Spotlight, melee weapons equipped by models in that unit have PRECISION."
         },
         {
           "name": "Understudy's Mask",
           "points": 15,
           "eligibility": "character",
-          "text": "EMPEROR'S CHILDREN CHARACTER only, excluding EPIC HEROES. Once per battle, when a Performer is destroyed, if the bearer's unit is on the battlefield, is eligible to become a Performer and currently has no Performer role, it immediately assumes the destroyed unit's role, inheriting its Spotlight and recorded Ovations."
+          "text": "EMPEROR'S CHILDREN CHARACTER only. Once per battle, when a Performer is destroyed, if the bearer's unit is on the battlefield, is eligible to become a Performer and currently has no Performer role, it immediately assumes the destroyed unit's role, inheriting its Spotlight and recorded Ovations."
         },
         {
           "name": "Rapturous Applause",
           "points": 20,
           "eligibility": "character",
-          "text": "EMPEROR'S CHILDREN CHARACTER only, excluding EPIC HEROES. Once per battle round, after the bearer's Performer unit earns an Ovation, select one enemy unit within 6\" of it. That enemy unit must take a Battle-shock test, subtracting 1 from the result."
+          "text": "EMPEROR'S CHILDREN CHARACTER only. Once per battle round, after the bearer's Performer unit earns an Ovation, select one enemy unit within 6\" of it. That enemy unit must take a Battle-shock test, subtracting 1 from the result."
         }
       ],
       "stratagems": [
@@ -98,25 +98,25 @@
           "name": "The Silver Tongue",
           "points": 25,
           "eligibility": "character",
-          "text": "EMPEROR'S CHILDREN CHARACTER, excluding EPIC HEROES. When your army offers a Seduction to an enemy unit within 12\" of the bearer, subtract 1 from that unit's resistance roll. This cannot make the roll automatically fail."
+          "text": "EMPEROR'S CHILDREN CHARACTER. When your army offers a Seduction to an enemy unit within 12\" of the bearer, subtract 1 from that unit's resistance roll. This cannot make the roll automatically fail."
         },
         {
           "name": "A Thousand Promises",
           "points": 20,
           "eligibility": "character",
-          "text": "EMPEROR'S CHILDREN CHARACTER, excluding EPIC HEROES. Once per battle round, after an enemy unit within 12\" of the bearer successfully resists a Seduction, you can choose for it to retain its current Level rather than decrease it by one."
+          "text": "EMPEROR'S CHILDREN CHARACTER. Once per battle round, after an enemy unit within 12\" of the bearer successfully resists a Seduction, you can choose for it to retain its current Level rather than decrease it by one."
         },
         {
           "name": "Mirror of Forbidden Truths",
           "points": 20,
           "eligibility": "character",
-          "text": "EMPEROR'S CHILDREN CHARACTER, excluding EPIC HEROES. Each time an enemy unit within 6\" of the bearer accepts a Seduction or fails its resistance roll, that enemy unit must take a Battle-shock test."
+          "text": "EMPEROR'S CHILDREN CHARACTER. Each time an enemy unit within 6\" of the bearer accepts a Seduction or fails its resistance roll, that enemy unit must take a Battle-shock test."
         },
         {
           "name": "Favoured Tempter",
           "points": 25,
           "eligibility": "character",
-          "text": "EMPEROR'S CHILDREN CHARACTER, excluding EPIC HEROES. Once per battle round, when you select an enemy unit within 12\" of the bearer for a Thrall of the Dark Prince possession test, subtract 1 from its Leadership test result."
+          "text": "EMPEROR'S CHILDREN CHARACTER. Once per battle round, when you select an enemy unit within 12\" of the bearer for a Thrall of the Dark Prince possession test, subtract 1 from its Leadership test result."
         }
       ],
       "stratagems": [
@@ -179,25 +179,25 @@
           "name": "Sceptre of Edicts",
           "points": 25,
           "eligibility": "strategist",
-          "text": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST, excluding EPIC HEROES. The bearer can issue Doctrines to eligible units within **18\"** instead of 12\"."
+          "text": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST. The bearer can issue Doctrines to eligible units within **18\"** instead of 12\"."
         },
         {
           "name": "Purest Allegiance",
           "points": 20,
           "eligibility": "strategist",
-          "text": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST, excluding EPIC HEROES. Once per battle round, the first unit to receive a Doctrine from the bearer suffers **no mortal wounds** from its issuance."
+          "text": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST. Once per battle round, the first unit to receive a Doctrine from the bearer suffers **no mortal wounds** from its issuance."
         },
         {
           "name": "Master of Protocol",
           "points": 30,
           "eligibility": "strategist",
-          "text": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST, excluding EPIC HEROES. The bearer can issue **two** Doctrines per battle round to **different** units instead of one."
+          "text": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST. The bearer can issue **two** Doctrines per battle round to **different** units instead of one."
         },
         {
           "name": "The Dictator's Writ",
           "points": 20,
           "eligibility": "character",
-          "text": "EMPEROR'S CHILDREN CHARACTER, excluding EPIC HEROES. While the bearer's unit has a Doctrine, its melee weapons have **PRECISION**."
+          "text": "EMPEROR'S CHILDREN CHARACTER. While the bearer's unit has a Doctrine, its melee weapons have **PRECISION**."
         }
       ],
       "stratagems": [
@@ -266,7 +266,7 @@
           "name": "Glassed Veins",
           "points": 20,
           "eligibility": "non-daemon",
-          "text": "Non-DAEMON Emperor's Children CHARACTER, excluding EPIC HEROES. Re-roll one Leadership test made by the bearer's unit to cease being Stupefied per battle round."
+          "text": "Non-DAEMON Emperor's Children CHARACTER. Re-roll one Leadership test made by the bearer's unit to cease being Stupefied per battle round."
         }
       ],
       "stratagems": [

@@ -167,9 +167,6 @@ def apply_native_units(units):
     extra_choice = copy.deepcopy(choices[0])
     extra_choice["childId"] = bodyguard["id"]
     choices.append(extra_choice)
-    ability(exultant, "Leader", "Infractors, Tormentors, Flawless Blades.")
-    ability(bodyguard, "Eligible Attachments",
-            "Leader: Lucius the Eternal, Eidolon, Lord Exultant, Torment Oracle. Support: Chirurgeon, Herald of Excess.")
     exultant["readme"] = exultant["readme"].replace("Leader: Infractors, Tormentors.",
                                                   "Leader: Infractors, Tormentors, Flawless Blades.")
 
@@ -686,6 +683,28 @@ def edit_player_text(catalogue, units):
     named(units["Sibyl of Excess"]["profiles"], "Psyker Level 3")["name"] = "Psyker Level"
 
 
+def format_leader_and_support(units, system):
+    names_by_id = {unit["id"]: unit["name"] for unit in units.values()}
+    core = {rule["name"]: rule for rule in system["sharedRules"] if rule["name"] in {"Leader", "Support"}}
+    for unit in units.values():
+        remove_profiles(unit, "Attachments", "Eligible Attachments")
+        for association in unit.get("associations", []):
+            label = association.get("label")
+            if label not in core:
+                continue
+            targets = dict.fromkeys(
+                names_by_id[condition["childId"]]
+                for group in association["conditionGroups"]
+                for condition in group["conditions"]
+                if condition["type"] == "instanceOf"
+            )
+            assert targets, unit["name"]
+            noun = "unit" if len(targets) == 1 else "units"
+            bullets = "\n".join("■ " + name.upper() for name in targets)
+            ability(unit, label, f"This model can be attached to the following {noun}:\n\n{bullets}")
+            rule_link(unit, core[label])
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -700,7 +719,8 @@ def migrate(catalogue, system):
         remove_profiles(unit, "Elixir Restrictions")
     weapon_rules(units["Infractors"], system)
     edit_player_text(catalogue, units)
-    catalogue["revision"] = 49
+    format_leader_and_support(units, system)
+    catalogue["revision"] = 50
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
