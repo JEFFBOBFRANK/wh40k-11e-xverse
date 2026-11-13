@@ -711,6 +711,7 @@ def migrate(catalogue, system):
              if entry["type"] in {"unit", "model"}}
     apply_costs(units)
     apply_native_units(units)
+    change_profiles(units["Lord Exultant with Jump Pack"], {"Melee Weapons"}, "Phoenix power spear", A="5")
     for name in ("Lord Exultant with Jump Pack", "Excruciator Terminators"):
         change_profiles(units[name], {"Melee Weapons"}, "Power fist", S="8")
     apply_legions(catalogue, units)
@@ -722,7 +723,7 @@ def migrate(catalogue, system):
     weapon_rules(units["Infractors"], system)
     edit_player_text(catalogue, units)
     format_leader_and_support(units, system)
-    catalogue["revision"] = 51
+    catalogue["revision"] = 52
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
