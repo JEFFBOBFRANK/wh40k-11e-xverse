@@ -1,0 +1,699 @@
+{
+  "detachments": [
+    {
+      "name": "The Theatre of Excess",
+      "points": 3,
+      "dispositions": [
+        "Purge the Foe",
+        "Disruption"
+      ],
+      "rule": {
+        "name": "The Performance Eternal",
+        "text": "**Cast the Performers.** At the start of your first Command phase, select three different friendly Emperor's Children units on the battlefield. Designate one **the Duellist**, one **the Dancer** and one **the Executioner**. Select one role to hold **the Spotlight**. Each role can earn no more than one **Ovation** per battle round.\n\n**Ovation triggers:**\n- **Duellist:** During the Fight phase, its melee attacks inflict damage on a CHARACTER, MONSTER or VEHICLE unit, and the Duellist survives until the end of that phase. If the enemy army has no surviving CHARACTER, MONSTER or VEHICLE units, damaging any enemy unit in melee qualifies.\n- **Dancer:** In your Charge phase, it completes a Charge move ending within range of an objective marker you did **not** control immediately before it began that Charge move.\n- **Executioner:** Its attacks destroy an enemy unit.\n\n**Spotlight:** Immediately after a Performer earns an Ovation, its role takes the Spotlight until another role earns it or a rule transfers it.\n\n**Replacement:** At the start of your next Command phase after a Performer is destroyed or permanently leaves the battlefield, assign its role to an eligible unit without a role, if possible. The role retains its Spotlight and Ovations, even while vacant. A returning Performer loses its role if replaced.\n\n**The Three Acts:** Your army begins in **Act I**. At the end of a battle round, check for advancement. The new Act replaces the previous Act at the start of the next battle round.\n\n**Act I — The Opening Flourish**<br>**Army:** Add 2\" to the Move characteristic of models in friendly Emperor's Children units.<br>**Spotlight:** Re-roll Charge rolls for the Performer holding the Spotlight.<br>**Advance to Act II:** During the same battle round, two **different** Performer roles each earned an Ovation.\n\n**Act II — The Rapturous Climax**<br>**Army:** Add 1 to the Attacks characteristic of melee weapons equipped by models in friendly Emperor's Children units during a turn in which their unit made a Charge move.<br>**Spotlight:** The Performer holding the Spotlight has FIGHTS FIRST.<br>**Advance to Act III:** Since entering Act II, all **three** roles have earned at least one Ovation, and the Performer holding the Spotlight destroyed at least one enemy unit with its attacks while Act II was active.\n\n**Act III — The Grand Finale**<br>**Army:** Add 1 to the Attacks characteristic and improve the Armour Penetration characteristic by 1 of melee weapons equipped by models in friendly Emperor's Children units.<br>**Spotlight:** Once per battle round, immediately after the Performer holding the Spotlight finishes fighting, if that unit is still on the battlefield, it can make a Pile-in move of up to 6\" and **fight one additional time**, provided it is then eligible to fight."
+      },
+      "enhancements": [
+        {
+          "name": "Master of the Marquee",
+          "points": 25,
+          "eligibility": "character",
+          "text": "EMPEROR'S CHILDREN CHARACTER only. Once per battle round, at the start of a phase, if the bearer's unit is a Performer, you can transfer the Spotlight to one other surviving Performer within 12\" of the bearer's unit."
+        },
+        {
+          "name": "Crimson Masque",
+          "points": 20,
+          "eligibility": "character",
+          "text": "EMPEROR'S CHILDREN CHARACTER only. While the bearer's unit holds the Spotlight, melee weapons equipped by models in that unit have PRECISION."
+        },
+        {
+          "name": "Understudy's Mask",
+          "points": 15,
+          "eligibility": "character",
+          "text": "EMPEROR'S CHILDREN CHARACTER only. Once per battle, when a Performer is destroyed, if the bearer's unit is on the battlefield, is eligible to become a Performer and currently has no Performer role, it immediately assumes the destroyed unit's role, inheriting its Spotlight and recorded Ovations."
+        },
+        {
+          "name": "Rapturous Applause",
+          "points": 20,
+          "eligibility": "character",
+          "text": "EMPEROR'S CHILDREN CHARACTER only. Once per battle round, after the bearer's Performer unit earns an Ovation, select one enemy unit within 6\" of it. That enemy unit must take a Battle-shock test, subtracting 1 from the result."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "A Perfect Entrance",
+          "cp": 1,
+          "when": "Your Charge phase, just before a Performer from your army makes a Charge roll.",
+          "target": "That Performer.",
+          "effect": "Add 2 to the Charge roll."
+        },
+        {
+          "name": "Steal the Spotlight",
+          "cp": 1,
+          "when": "At the start of the Fight phase.",
+          "target": "One surviving Performer from your army.",
+          "effect": "That Performer's role takes the Spotlight. It does not earn an Ovation."
+        },
+        {
+          "name": "Stolen Ovation",
+          "cp": 1,
+          "when": "After an enemy unit within Engagement Range of one of your Performers fails a Battle-shock test.",
+          "target": "That Performer, provided its role has not earned an Ovation this battle round.",
+          "effect": "That role earns one Ovation."
+        },
+        {
+          "name": "Beneath the Footlights",
+          "cp": 1,
+          "when": "Your opponent's Shooting phase, after an enemy unit selects its targets.",
+          "target": "The friendly Performer holding the Spotlight, if selected as a target.",
+          "effect": "Until the attacking unit has finished its attacks, worsen the Armour Penetration characteristic of attacks targeting your unit by 1."
+        },
+        {
+          "name": "No One Leaves the Stage",
+          "cp": 1,
+          "when": "At the end of the Fight phase, after a Performer from your army inflicted damage on an enemy unit with its melee attacks this phase.",
+          "target": "That Performer and one such surviving enemy unit within Engagement Range.",
+          "effect": "Until the end of your opponent's next Movement phase, each time that enemy unit is selected to Fall Back it must first pass a Leadership test. If it fails, it cannot Fall Back this phase."
+        },
+        {
+          "name": "The Final Bow",
+          "cp": 2,
+          "when": "Fight phase, immediately after an enemy unit finishes its melee attacks and destroys the Performer holding the Spotlight, before removing its last model.",
+          "target": "That destroyed Performer, **only if it has not fought this phase**.",
+          "effect": "The Performer can fight before being removed. It cannot use The Grand Finale's additional fight."
+        }
+      ]
+    },
+    {
+      "name": "The Seductions of Slaanesh",
+      "points": 3,
+      "dispositions": [
+        "Disruption",
+        "Take and Hold"
+      ],
+      "rule": {
+        "name": "Whispers of the Dark Prince",
+        "text": "At the start of each phase, you can offer a Seduction to one unit within 12\" of a friendly Emperor's Children unit. You can choose an enemy unit in either player's turn or a friendly Emperor's Children unit in your turn. If the target is at Level 0, choose a Seduction for it. A unit keeps its Seduction until it returns to Level 0.\n\n**Deepening Temptation**\nAt the start of each player's Command phase, automatically offer a Seduction to each eligible unit that player controls at Level I or higher, regardless of range.\n\n**Accepting and resisting**\nA friendly Emperor's Children unit always accepts and can reach only Level II. An enemy unit can reach Level III. An offer to a unit at its maximum Level has no effect.\n\n- **Accept:** Increase the unit's Level by one. If it reaches Level III, it takes a Battle-shock test with a −1 modifier.\n- **Resist at Level 0:** The unit's controller can decline without rolling.\n- **Resist at Level I or II:** Roll one D6. A roll of 5+ resists Level II and a roll of 6+ resists Level III. On a success, reduce the unit's Level by one and subtract 1 from its next Battle-shock test this battle round. On a failure, increase its Level by one. If it reaches Level III this way, it suffers 3 mortal wounds.\n\nApply all Boons and Prices from the unit's current Level and each lower Level.\n\n**Rapture of Speed**\n- **I — Boon:** Add 2\" to the unit's Move characteristic. **Price:** It cannot Fall Back.\n- **II — Boon:** It can declare a charge in a turn in which it Advanced. **Price:** Subtract 1 from Hit rolls for its ranged attacks.\n- **III — Boon:** Add 2\" to the unit's Move characteristic. It can re-roll Charge rolls. **Price:** Before it declares a charge, it takes a Leadership test. On a failure, the Emperor's Children player chooses a legal charge target. If none is eligible, the unit cannot charge.\n\n**Exquisite Agony**\n- **I — Boon:** Feel No Pain 6+. **Price:** Worsen Leadership by 1.\n- **II — Boon:** Feel No Pain 5+. **Price:** Subtract 1 from Battle-shock test results.\n- **III — Boon:** Feel No Pain 4+. **Price:** At the start of each battle round, this unit suffers 3 mortal wounds.\n\n**Ecstatic Violence**\n- **I — Boon:** Re-roll Hit rolls of 1 for melee attacks. **Price:** When declaring a charge or selecting targets for melee attacks, it must include the closest eligible enemy unit where possible.\n- **II — Boon:** Add 1 to the Attacks characteristic of its melee weapons. **Price:** Subtract 1 from saving throws made for models in the unit.\n- **III — Boon:** Its melee weapons gain LETHAL HITS and add 1 to their Strength characteristic. **Price:** The unit has FIGHTS LAST.\n\n**Perfect Sensation**\n- **I — Boon:** Its ranged weapons have IGNORES COVER. **Price:** Its ranged weapons must target the closest eligible enemy unit wherever possible.\n- **II — Boon:** Improve the Ballistic Skill characteristic of its ranged weapons by 1. **Price:** Subtract 2\" from its Move characteristic.\n- **III — Boon:** Its ranged weapons gain SUSTAINED HITS 1. **Price:** The unit has Objective Control 0 and cannot Advance.\n\n**Whispered Secrets**\n- **I — Boon:** Once per phase, re-roll one Hit roll, Wound roll or saving throw made for the unit. **Price:** Worsen its Leadership by 1.\n- **II — Boon:** Its attacks score Critical Hits on unmodified Hit rolls of 5+. **Price:** The unit cannot be targeted by its controlling player's Stratagems.\n- **III — Boon:** Re-roll Hit rolls of 1 and Wound rolls of 1 for its attacks. **Price:** After this unit finishes shooting or fighting, it suffers D3 mortal wounds.\n\n**Thrall of the Dark Prince**\n- **I — Boon:** Re-roll Hit rolls of 1 and Wound rolls of 1 for its attacks. **Price:** Worsen its Leadership by 1.\n- **II — Boon:** Improve the AP characteristic of its weapons by 1. **Price:** When the unit shoots or declares a charge, it takes a Leadership test before selecting targets. If it fails, the Emperor's Children player chooses its legal targets.\n- **III — Boon:** Feel No Pain 5+. **Price:** Possession.\n\n**Possession**\n\nAt the start of **your** Movement, Shooting or Fight phase, select one enemy unit with Thrall of the Dark Prince at Level III, excluding Epic Hero units, within 12\" of one of your Emperor's Children units. Its controlling player makes a Leadership test for it.\n- **Passed:** Reduce its Seduction to Level II.\n- **Failed:** Control the unit for one immediate action. In Movement, make one Normal move. In Shooting, shoot once. In the Fight phase, make a Charge move of up to 6\" without rolling, then fight once if eligible. For target selection during that action, treat its original army as enemy and your Emperor's Children units as friendly. Use the possessed unit's characteristics and abilities. Your Stratagems and army rules do not apply.\n\n**Possession limitations:** Possession cannot force a disembark, activate a faction rule, spend CP or change mission ownership or scoring. A unit can be possessed only once per battle round. After a failed test, reset its Level to 0 once the action is resolved or if it cannot act."
+      },
+      "enhancements": [
+        {
+          "name": "The Silver Tongue",
+          "points": 25,
+          "eligibility": "character",
+          "text": "EMPEROR'S CHILDREN CHARACTER. When your army offers a Seduction to an enemy unit within 12\" of the bearer, subtract 1 from that unit's resistance roll. This cannot make the roll automatically fail."
+        },
+        {
+          "name": "A Thousand Promises",
+          "points": 20,
+          "eligibility": "character",
+          "text": "EMPEROR'S CHILDREN CHARACTER. Once per battle round, after an enemy unit within 12\" of the bearer successfully resists a Seduction, you can choose for it to retain its current Level rather than decrease it by one."
+        },
+        {
+          "name": "Mirror of Forbidden Truths",
+          "points": 20,
+          "eligibility": "character",
+          "text": "EMPEROR'S CHILDREN CHARACTER. Each time an enemy unit within 6\" of the bearer accepts a Seduction or fails its resistance roll, that enemy unit must take a Battle-shock test."
+        },
+        {
+          "name": "Favoured Tempter",
+          "points": 25,
+          "eligibility": "character",
+          "text": "EMPEROR'S CHILDREN CHARACTER. Once per battle round, when you select an enemy unit within 12\" of the bearer for a Thrall of the Dark Prince possession test, subtract 1 from its Leadership test result."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "The Sweetest Lie",
+          "cp": 1,
+          "when": "Immediately after an enemy unit successfully resists one of your Seduction offers.",
+          "target": "That enemy unit, provided it is within 12\" of a friendly Emperor's Children CHARACTER.",
+          "effect": "Its controlling player must re-roll that resistance roll."
+        },
+        {
+          "name": "A Taste of Ruin",
+          "cp": 1,
+          "when": "Your Shooting or Fight phase, when a friendly Emperor's Children unit is selected to shoot or fight.",
+          "target": "That friendly unit and one enemy unit with Seduction Level II or III it can legally target.",
+          "effect": "Until the end of the phase, re-roll Wound rolls of 1 for your unit's attacks targeting that enemy unit."
+        },
+        {
+          "name": "Withering Withdrawal",
+          "cp": 1,
+          "when": "Your opponent's Movement phase, when an enemy unit with Seduction Level I or higher is selected to make a Fall Back move.",
+          "target": "That enemy unit, within 12\" of a friendly Emperor's Children unit.",
+          "effect": "The enemy unit must pass a Leadership test before making that move. On a failure, it cannot Fall Back this phase."
+        },
+        {
+          "name": "The Price Comes Due",
+          "cp": 1,
+          "when": "At the start of the Fight phase.",
+          "target": "One enemy unit with Seduction Level II or III within 12\" of a friendly Emperor's Children unit.",
+          "effect": "That unit takes a Battle-shock test, subtracting 1 from the result. If failed, it suffers D3 mortal wounds."
+        },
+        {
+          "name": "Drowned in Delight",
+          "cp": 1,
+          "when": "After an enemy unit with Seduction Level II or III destroys one of your Emperor's Children units.",
+          "target": "That enemy unit and one surviving friendly Emperor's Children unit within 6\" of it.",
+          "effect": "The enemy unit immediately takes a Battle-shock test, subtracting 1 from the result. If that test fails, the friendly selected unit can make a Normal move of up to 3\" if it is unengaged."
+        },
+        {
+          "name": "One Final Indulgence",
+          "cp": 2,
+          "when": "At the start of your Movement, Shooting or Fight phase, before attempting possession.",
+          "target": "One enemy unit with Seduction Level III within 12\" of a friendly Emperor's Children CHARACTER.",
+          "effect": "If its Seduction is **Thrall of the Dark Prince**, subtract 2 from the Leadership test result for its possession attempt this phase. Otherwise, the target suffers 3 mortal wounds and its Seduction decreases to Level II."
+        }
+      ]
+    },
+    {
+      "name": "The Exalted Court",
+      "points": 2,
+      "dispositions": [
+        "Priority Assets"
+      ],
+      "rule": {
+        "name": "The Sovereign's Will",
+        "text": "Add 1 to the Attacks characteristic of melee weapons equipped by friendly Emperor's Children Character models.\n\n**Issue Doctrines**\nOnce per battle round, **at the start of any phase**, each friendly Emperor's Children CHARACTER with **SUBLIME STRATEGIST** on the battlefield can issue one Doctrine to one friendly **Emperor's Children** unit within **12\"**. Fulgrim can issue **two Doctrines per battle round**, to two different eligible units; these can be issued in the same or different phases.\n\nThe recipient immediately suffers **1 mortal wound**, or **3 mortal wounds** if Stupefied. If it survives, it gains the chosen Doctrine **until the start of your next Command phase**. A new Doctrine replaces any existing Doctrine.\n\n**Doctrines**\n\n- **Decree of Slaughter:** Melee weapons equipped by models in this unit have **LETHAL HITS** and **SUSTAINED HITS 1**.\n- **Decree of Iron Loyalty:** Models in this unit have a **5+ invulnerable save**.\n- **Decree of the Perfect Hunt:** Add 2\" to the Move characteristic of models in this unit."
+      },
+      "enhancements": [
+        {
+          "name": "Sceptre of Edicts",
+          "points": 25,
+          "eligibility": "strategist",
+          "text": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST. The bearer can issue Doctrines to eligible units within **18\"** instead of 12\"."
+        },
+        {
+          "name": "Purest Allegiance",
+          "points": 20,
+          "eligibility": "strategist",
+          "text": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST. Once per battle round, the first unit to receive a Doctrine from the bearer suffers **no mortal wounds** from its issuance."
+        },
+        {
+          "name": "Master of Protocol",
+          "points": 30,
+          "eligibility": "strategist",
+          "text": "EMPEROR'S CHILDREN CHARACTER with SUBLIME STRATEGIST. The bearer can issue **two** Doctrines per battle round to **different** units instead of one."
+        },
+        {
+          "name": "The Dictator's Writ",
+          "points": 20,
+          "eligibility": "character",
+          "text": "EMPEROR'S CHILDREN CHARACTER. While the bearer's unit has a Doctrine, its melee weapons have **PRECISION**."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "By Royal Command",
+          "cp": 1,
+          "when": "At the start of any phase, immediately after one of your SUBLIME STRATEGIST CHARACTERS issues a Doctrine.",
+          "target": "The unit that received that Doctrine.",
+          "effect": "The unit suffers 1 additional mortal wound, or 3 if Stupefied. If it survives, it gains a second, different Doctrine until the first expires. A unit can benefit from this Stratagem only once per battle round."
+        },
+        {
+          "name": "Maintain Formation",
+          "cp": 1,
+          "when": "Your opponent's Movement phase, after an enemy unit ends a Normal, Advance or Fall Back move within 9\" of one of your unengaged units with a Doctrine.",
+          "target": "That friendly unit.",
+          "effect": "It can make a Normal move of up to **3\"**."
+        },
+        {
+          "name": "Iron Mandate",
+          "cp": 1,
+          "when": "Your opponent's Shooting phase or the Fight phase, after an enemy unit selects targets for its attacks.",
+          "target": "One friendly Emperor's Children unit with a Doctrine selected as a target.",
+          "effect": "Until that enemy unit finishes attacking, subtract 1 from the Damage characteristic of attacks targeting your unit (minimum 1)."
+        },
+        {
+          "name": "Of One Mind",
+          "cp": 1,
+          "when": "Your Charge phase, immediately after a friendly unit with a Doctrine completes a Charge move.",
+          "target": "One other unengaged friendly Emperor's Children INFANTRY or MOUNTED unit within 6\" of it.",
+          "effect": "The selected unit can immediately declare a charge if otherwise eligible."
+        },
+        {
+          "name": "Reassignment of Honour",
+          "cp": 1,
+          "when": "Immediately after a friendly Emperor's Children unit with a Doctrine is destroyed.",
+          "target": "One other eligible friendly Emperor's Children unit within 6\" of the destroyed unit immediately before its last model was removed.",
+          "effect": "The new unit suffers **1 mortal wound (3 if Stupefied)**. If it survives, it gains the destroyed unit's Doctrine until its original expiry. It replaces an existing Doctrine if present."
+        },
+        {
+          "name": "A Worthy Sacrifice",
+          "cp": 2,
+          "when": "Fight phase, immediately after an enemy unit finishes its melee attacks that destroyed one of your units with a Doctrine, before its last model is removed.",
+          "target": "That destroyed unit, if it has **not already fought this phase**.",
+          "effect": "Roll one D6. On a 4+, it can fight before being removed."
+        }
+      ]
+    },
+    {
+      "name": "Combat Drugs",
+      "points": 1,
+      "dispositions": [
+        "Purge the Foe"
+      ],
+      "rule": {
+        "name": "Carefully Measured Excess",
+        "text": "When a friendly non-Daemon Emperor's Children Infantry, Mounted or Beast unit that is not Stupefied is selected to Advance, charge or fight, or is selected as the target of melee attacks, it can take one drug whose trigger it meets. Take a Leadership test for each dose. Resolve the drug on a pass or fail. On a failure, the unit also suffers 2 mortal wounds and becomes Stupefied.\n\nA unit can have multiple different drugs active. It can take another dose of a drug after its effect expires.\n\n- **Predator's Ichor:** When selected to fight, add 1 to the Strength characteristic of its melee weapons until the end of the phase.\n- **Caustic Ecstasy:** When selected to fight, improve the Armour Penetration characteristic of its melee weapons by 1 until the end of the phase.\n- **Quicksilver Adrenaline:** When selected to Advance or charge, add 1 to its Advance and Charge rolls until the end of the turn.\n- **Reflex Narcotics:** When selected as the target of melee attacks, subtract 1 from Hit rolls for those attacks."
+      },
+      "enhancements": [
+        {
+          "name": "Master Chemist",
+          "points": 25,
+          "eligibility": "non-daemon",
+          "text": "Non-Daemon Emperor's Children Character. Once per battle round, when the bearer's unit takes a dose, it can take a second, different drug whose trigger it meets. Resolve each dose separately."
+        },
+        {
+          "name": "Glassed Veins",
+          "points": 20,
+          "eligibility": "non-daemon",
+          "text": "Non-DAEMON Emperor's Children CHARACTER. Re-roll one Leadership test made by the bearer's unit to cease being Stupefied per battle round."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Second Dose",
+          "cp": 1,
+          "when": "When a friendly unit from this detachment selects a Combat Drug, before resolving its effect.",
+          "target": "That unit.",
+          "effect": "Your unit can take one additional, different drug whose trigger it meets. Resolve each dose separately."
+        },
+        {
+          "name": "Surgical Appetite",
+          "cp": 1,
+          "when": "Fight phase, immediately after a friendly unit that selected a Combat Drug this battle round destroys an enemy unit with its melee attacks.",
+          "target": "That attacking unit.",
+          "effect": "Restore D3 wounds to that unit, including returning eligible non-Character models up to Starting Strength."
+        },
+        {
+          "name": "Preternatural Reflexes",
+          "cp": 1,
+          "when": "Your opponent's Shooting phase, after an enemy unit selects its targets.",
+          "target": "One friendly unit that selected a Combat Drug this battle round and was chosen as a target.",
+          "effect": "Until the enemy unit finishes attacking, subtract 1 from Hit rolls for its ranged attacks targeting your unit."
+        }
+      ]
+    },
+    {
+      "name": "The Gilded Host",
+      "points": 1,
+      "dispositions": [
+        "Take and Hold"
+      ],
+      "rule": {
+        "name": "Unbroken Perfection",
+        "text": "Re-roll saving throws of 1 for models in friendly Emperor's Children Terminator units."
+      },
+      "enhancements": [
+        {
+          "name": "Imperious Standard",
+          "points": 20,
+          "eligibility": "terminator",
+          "text": "Emperor's Children Terminator Character. While the bearer leads a Terminator unit, add 1 to the Objective Control characteristic of models in that unit."
+        },
+        {
+          "name": "Immaculate Panoply [Upgrade]",
+          "points": 20,
+          "eligibility": "gilded-elite",
+          "text": "Flawless Blades, Dissonant Colossi or Noise Marines only. This unit benefits from Unbroken Perfection as if it were a Terminator unit."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Gilded Defiance",
+          "cp": 1,
+          "when": "Shooting or Fight phase, after an enemy unit selects its targets.",
+          "target": "One friendly Emperor's Children Terminator, Flawless Blades, Dissonant Colossi or Noise Marines unit selected as a target.",
+          "effect": "Until that enemy unit finishes attacking, subtract 1 from the Damage characteristic of attacks targeting your unit, to a minimum of 1."
+        },
+        {
+          "name": "Perfect Execution",
+          "cp": 1,
+          "when": "Your Shooting phase or the Fight phase, when an eligible unit is selected to shoot or fight.",
+          "target": "One friendly Emperor's Children Terminator, Flawless Blades, Dissonant Colossi or Noise Marines unit selected to shoot or fight.",
+          "effect": "Until the end of the phase, re-roll Wound rolls of 1 for your unit's attacks against enemy units within range of an objective marker."
+        },
+        {
+          "name": "We Shall Not Yield",
+          "cp": 1,
+          "when": "Immediately after an eligible unit fails a Battle-shock test.",
+          "target": "One friendly Emperor's Children Terminator, Flawless Blades, Dissonant Colossi or Noise Marines unit that failed the test, even if Battle-shocked.",
+          "effect": "Treat that test as passed. Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit."
+        }
+      ]
+    }
+  ],
+  "armyRules": {
+    "Thrill Seekers": "**Surrender to Excess**\n\nEach time a friendly Emperor's Children unit is selected to move, shoot or fight, or is selected as the target of an enemy unit's attacks, you can choose for it to become **Stupefied**. Decide before the move, fight or attacks are resolved.\n\n**Stupefied**\n\nWhile an Emperor's Children unit is Stupefied:\n\n- Each time a model in that unit makes an attack, re-roll a Hit roll of **1**. If the target is within **12\"** of the attacking model, you can re-roll the Hit roll instead.\n- That unit is eligible to shoot and declare a charge after Advancing or Falling Back. If it Advanced or Fell Back this turn, an attack it makes with a ranged weapon scores a Hit **only on an unmodified Hit roll of 5+**.\n- When it shoots, each ranged weapon must target the closest enemy unit eligible for that weapon, measured from the attacking model. If two eligible enemy units are equally close, its controlling player chooses between them. A charge declared by the unit must include the closest eligible enemy unit, if one exists.\n- Models in the unit have **Feel No Pain 5+**.\n- Models in the unit have **Objective Control 0**.\n- **Worsen its Leadership characteristic by 1**.\n- It cannot be selected as the target of friendly Stratagems, unless the Stratagem explicitly allows targeting a Stupefied unit.\n\n**Fading Euphoria**\n\nAt the Battle-shock step of **your Command phase**, each friendly Stupefied unit takes a Leadership test separate from any Battle-shock test. On a pass, it ceases to be Stupefied.\n\n**Pain Brings Clarity**\n\nWhen a friendly Emperor's Children unit or an enemy unit within **6\"** of a friendly Stupefied Emperor's Children unit is destroyed, or when an enemy unit within **6\"** of it fails a Battle-shock test, that Stupefied unit can immediately take a Leadership test. On a pass, it ceases to be Stupefied. Measure distances to a destroyed unit immediately before its last model is removed.\n\nA unit **cannot** cease being Stupefied during the same phase in which it became Stupefied.",
+    "Manifestation": "**Summoning Pool**\n\nLegions of Excess units begin the battle in your **Summoning Pool**. A summoned Attached unit uses **one Ritual**, shares **one Manifestation total** and becomes Debound as one unit.\n\n**Manifestation Capacity**\n\nGreater Daemons have a maximum of **9 points**. Lesser Daemons have a maximum of **6 points**.\n\n**Initial Manifestation**\n\nAfter paying the Ritual costs and resolving its risks, set up the summoned unit wholly within **24\"** of its Psyker and more than **8\"** horizontally from all enemy models. Roll for its initial Manifestation using the applicable distance band, up to its capacity.\n\n| Placed wholly within | Initial Manifestation |\n|---|---|\n| **6\"** | **D3+3** |\n| **12\"** (but not wholly within 6\") | **D3+1** |\n| **24\"** (but not wholly within 12\") | **D3** |\n\n**Feeding on Suffering**\n\nEach time a friendly or enemy non-Daemon unit within **6\"** of a Legions of Excess unit on the battlefield is destroyed or fails a Battle-shock test, that Legions of Excess unit gains **1 Manifestation point**, up to its capacity. Measure a destroyed unit's range immediately before removing its last model.\n\n**Fading Presence**\n\nAt the end of **each phase in your turn**, after any applicable gains that phase, every Legions of Excess unit on the battlefield with Manifestation loses **1 point**. **Furies of Slaanesh** lose this point only at the end of **your Fight phase**.\n\n**Debound**\n\nIf a unit has **0 Manifestation points**, it immediately becomes **Debound**. Return its surviving models to the Summoning Pool with their remaining wounds. Debound does not count as destruction.",
+    "Summoning Rituals": "**Lesser Daemonic Ritual — Psychic Level 1**\n\nAt the start of a phase in **your turn**, one friendly **non-Daemon Psyker** unit that is not Battle-shocked can attempt a Lesser Daemonic Ritual, spending **1** of its available psychic-level allowance for the battle round. Roll one D6 as a psychic roll. On a **1**, the caster's unit becomes Battle-shocked; regardless of the roll, complete the Ritual if legal. Select a **Lesser** Legions of Excess unit in your Summoning Pool and set it up using the Initial Manifestation rules.\n\nA Psyker can repeat this Ritual while it has psychic-level allowance remaining. A friendly Daemon Psyker can use it only to summon Furies of Slaanesh.\n\nA summoned Lesser unit can charge that turn if eligible.\n\n**Greater Daemonic Ritual**\n\nAt the start of **your Charge phase**, select one friendly **non-Daemon Psyker** that **has not performed any summoning Ritual earlier this turn**. Select one Greater Daemon still in your Summoning Pool, then pay **one** of these costs:\n\n- **Sacrifice:** Destroy one **other** friendly non-Daemon Emperor's Children INFANTRY unit within **6\"** of the summoning Psyker.\n- **Essence:** Select one friendly Legions of Excess unit within **6\"** of the summoning Psyker with **at least 3 Manifestation points**. Remove **3 Manifestation points** from it as payment.\n\nResolve the cost, then set up the Greater Daemon using the Initial Manifestation rules.\n\nA Greater Ritual spends no psychic-level allowance. Each eligible Psyker can perform its own Greater Ritual. A summoned Greater Daemon can charge that phase if eligible."
+  },
+  "compatibility": {
+    "detachmentRules": [
+      {
+        "detachment": "Mercurial Host",
+        "name": "Never Still",
+        "text": "Add 1 to Advance and Charge rolls for friendly Emperor's Children units. Friendly Emperor's Children Infantry, Mounted and Beast units are Mercurial units. Once per battle round, after an enemy unit ends a Normal, Advance or Fall Back move within 8\" of an unengaged Mercurial unit, you can select one such Mercurial unit to make a Normal move of D3+3\"."
+      },
+      {
+        "detachment": "Ritual Host",
+        "name": "Allied Allowance",
+        "text": "You can include Legions of Excess units up to half your army's points limit: 500 at Incursion, 1,000 at Strike Force or 1,500 at Onslaught. Legions of Excess models cannot be your Warlord."
+      },
+      {
+        "detachment": "Ritual Host",
+        "name": "A Thousand Willing Voices",
+        "text": "A friendly non-Daemon Emperor's Children Character without Psyker can perform **one Lesser Daemonic Ritual per turn** as though it were Psyker LEVEL 1, solely for that ritual. A friendly non-Daemon Emperor's Children Psyker Character can perform **one additional Lesser Daemonic Ritual per turn** without spending its psychic-level allowance."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "Consecrated Sacrificial Knife",
+        "text": "Non-Daemon Emperor's Children Psyker Character. Once per battle, when determining a Greater Daemon's initial Manifestation after the bearer summons it, roll the D3 component twice and choose one result, then add the summoning-distance modifier. This cannot combine with Summoning Circle on the same roll."
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "Dark Apparitions",
+        "detachment": "Carnival of Excess",
+        "when": "End of your opponent's Fight phase.",
+        "target": "One unengaged friendly Legions of Excess unit, excluding Greater Daemons.",
+        "effect": "That unit becomes Debound. The next time it is summoned, it can be set up more than 5\" horizontally from all enemy models and cannot declare a charge that turn."
+      },
+      {
+        "name": "Summoning Circle",
+        "detachment": "Ritual Host",
+        "when": "When a friendly non-Daemon EC Character begins a summoning ritual.",
+        "target": "That Character and one other friendly non-Daemon EC Character within 6\" that has not performed a ritual this turn.",
+        "effect": "Both count as having performed a ritual this turn. Roll the D3 component of initial Manifestation twice and choose one result, then add the summoning-distance modifier. This cannot combine with Consecrated Sacrificial Knife on the same roll."
+      }
+    ]
+  },
+  "editorial": {
+    "rules": {
+      "221a-d76e-5760-c47b": "Sonic blaster, twin sonic blaster, screamer pistol, combi-weapon - sonic, blastmaster, dreadblaster, requiem cannon, cathedral annihilator, Discord cannon, sonic balespewer, sonic destructor, cathedral sonic immolator, resonance cannon, shriek cannon, grand vox array, Death Scream, The Eighth's Refrain, First Scream. All profiles qualify.",
+      "694d-e320-8cc1-12bf": "\n\nOnce per battle round, each friendly EC or Legions of Excess Psyker unit can use one Level 1 psychic power without consuming its psychic-level allowance.",
+      "1728-c774-fe56-0bea": "\n\nAt the start of the battle round, if your Warlord is on the battlefield, pledge how many enemy units you will destroy this round. At the end of the round, if you met or exceeded your pledge, gain Pact points equal to your pledge. Otherwise, your Warlord suffers D3 mortal wounds. Your Emperor's Children units gain the following cumulative bonuses: \n\n**1+ Pact:** Each time a model in this unit makes an attack, re-roll a Hit roll of 1. \n\n**3+ Pact:** Each time a model in this unit makes an attack, re-roll a Wound roll of 1. \n\n**5+ Pact:** Melee weapons equipped by models in this unit have the [LETHAL HITS] and [SUSTAINED HITS 1] abilities. \n\n**7+ Pact:** Each time a model in this unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+.",
+      "114a-ac91-ee32-80c8": "\n\n### When\n\nAt the end of a phase in your turn, when a Legions of Excess unit would lose its final Manifestation point.\n\n### Target\n\nThat friendly Legions unit and one friendly non-Daemon EC unit within 6\".\n\n### Effect\n\nThe EC unit suffers D3 mortal wounds. The Legions unit does not lose that point this phase.",
+      "fdb2-c074-976d-b50e": "\n\n### When\n\nEither Fight phase, after a friendly EC unit destroys an enemy unit.\n\n### Target\n\nThat attacking EC unit.\n\n### Effect\n\nSelect one friendly Legions of Excess unit within 6\". That unit heals D3+3 wounds, including returning eligible models.",
+      "0199-ea7d-dc97-42fa": "\n\n### When\n\nFight phase.\n\n### Target\n\nOne friendly Slaanesh Infantry, Mounted or Beast unit that has not been selected to fight this phase.\n\n### Effect\n\nUntil the end of the phase: Each time a model in this unit makes a Pile-in or Consolidation move, it can move up to 6\". It does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit.",
+      "1134-6cc3-4ae6-e487": "EMPEROR'S CHILDREN model only. The first time the bearer is destroyed, take a Leadership test for the bearer at the end of the phase. If it passes, set the bearer back up on the battlefield as close as possible to where it was destroyed and unengaged, with D6 wounds remaining (up to its Wounds characteristic).",
+      "ae38-1b0a-1137-c8da": "EMPEROR'S CHILDREN model only. At the start of your Shooting phase, select one enemy unit within 12\" of and visible to the bearer. That unit must take a Leadership test, subtracting 2 from the result if it is Battle-shocked. On a failure, it suffers 3 mortal wounds.",
+      "11b5-5745-d1ff-9293": "EMPEROR'S CHILDREN model only. Once per turn, after making a Hit roll, a Wound roll or a saving throw for a model in the bearer's unit, if the bearer is not Battle-shocked, you can change the result to an unmodified 6.",
+      "8ba2-34d3-bd3c-e3be": "EC or Legions of Excess Psyker Character. Add 6\" to the Range of the bearer's Psychic ranged weapons and to the target-selection ranges of its non-summoning psychic powers.",
+      "7973-7775-5878-c04b": "Chirurgeon. Once per battle, at the end of the Fight phase, one friendly non-Daemon EC Infantry unit within 6\" heals D3+3 wounds."
+    },
+    "abilities": {
+      "cee1-c9a9-cc9f-b0e8": "This model must be your Warlord.",
+      "d62e-92e9-e1cd-4eb6": "Once per battle, at the start of the Fight phase, this model can score Critical Hits with its daemonic blades on unmodified Hit rolls of 5+ until the end of the phase. While Stupefied, it can use both blade profiles when it fights. Resolve its Serpentine tail attacks once.",
+      "97dc-23a7-eaa4-35ee": "Once per battle, at the start of the Fight phase, this model can give its melee weapons Devastating Wounds until the end of the phase.",
+      "afca-37a0-8e19-16db": "**Mark a host**\n\nOnce per turn, during the Shooting or Fight phase, when Lucius is destroyed by an attack made by an enemy unit, the controller of that attacking unit must select one non-Epic Hero Infantry model from that attacking unit, if one exists. Place an ETERNAL marker on that model.\n\n**Possession**\n\nAt the start of each Fight phase, roll one D6 for the marked model. On a 3+, remove the marker, destroy that model and return Lucius to the battlefield in its former position with D6 wounds remaining.\n\n- If his base cannot fit exactly, place him as close as possible.\n- He can be set up within Engagement Range of the host's former unit or other enemy units.\n- Lucius returns as a separate single-model unit and is Stupefied and Battle-shocked.\n\n**Host destroyed**\n\nRemove the marker if the host dies before possession.",
+      "aa52-a7ac-fe7f-1ef6": "Once per battle, at the start of the Fight phase, this model can add 3 to the Attacks characteristic of its melee weapons and improve their AP by 1 until the end of the phase.",
+      "9188-7109-2cf6-d66e": "While a friendly or enemy unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1. Worsen the Leadership of non-Daemon units in range by 1.",
+      "113e-932f-68cb-ff20": "While a friendly or enemy unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1. Worsen the Leadership of non-Daemon units in range by 1.",
+      "1994-4ae0-f94e-18e5": "While a friendly or enemy unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1. Worsen the Leadership of non-Daemon units in range by 1.",
+      "491d-3f34-8e1e-42c3": "When any other friendly or enemy unit within 6\" of this model is selected to Fall Back, it must first take a Battle-shock test. If it fails, it cannot Fall Back that phase.",
+      "8eea-f0d6-7663-d024": "At the start of your Shooting phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, if its quarry is visible and within 18\", that unit must take a Battle-shock test, subtracting 1 from the result.",
+      "53c6-eac3-8025-fabe": "When this model becomes Debound, select one enemy unit within 6\" to take a Battle-shock test before removing this model.",
+      "27f8-13ee-7b41-a586": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, return it as close as possible to where it was destroyed, outside Engagement Range of all enemy units, with full wounds remaining. It keeps its remaining Manifestation points.",
+      "dc96-f21d-12b7-12c8": "When an enemy unit selects this unit as a target of its attacks, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the roll, until the end of the phase, subtract 1 from Hit rolls for attacks that target this unit.",
+      "f254-5f81-a845-c0d5": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not Battle-shocked and is unengaged, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the roll, this unit can make a Normal move of up to 6\".",
+      "d821-d3d8-d25c-530f": "In your Shooting phase, if this unit is not Battle-shocked, select one enemy unit within 18\" of and visible to this model, then roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the roll, that enemy unit must take a Battle-shock test, subtracting 1 from the result.",
+      "3ff0-9068-af22-dc20": "At the start of your opponent's Movement phase, if this unit is not Battle-shocked, select one enemy unit within 18\" of and visible to this model, then roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the roll, until the end of that turn, subtract 2\" from that enemy unit's Move characteristic and subtract 2 from its Charge rolls.",
+      "01b6-6544-734c-bf63": "In your Shooting phase, if this unit is not Battle-shocked, select one enemy Infantry unit within 12\" of and visible to this model that is not within Engagement Range of any units from your army. Roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the roll, your opponent must make a Normal move of up to 6\" with the selected enemy unit towards this model, ending as close to this model as possible.",
+      "3343-d7d6-8682-a2f5": "In your Shooting phase, select one enemy Infantry unit within 12\" of and visible to this model that is not engaged with any units from your army. That enemy unit must take a Battle-shock test. If it fails, your opponent must make a Normal move of up to D6\" with it, ending as close to this model as possible.",
+      "ee24-b3fa-80e8-1186": "For this model's unit, the enemy-failed-Battle-shock trigger of Pain Brings Clarity has a range of 8\" instead of 6\".",
+      "e618-816a-36b0-ac90": "3.",
+      "7110-7bda-9ade-eb09": "At the start of the Fight phase, each friendly or enemy non-Daemon unit within 6\" must take a Battle-shock test. Each Keeper resolves its own aura.",
+      "2580-78e0-d467-d29f": "While leading a unit, that unit can make Pile-in and Consolidation moves of up to 6\".",
+      "8c03-817a-300e-ac22": "At the start of your Movement phase, if this unit is not Battle-shocked, you can roll one D6 as a psychic roll. On a 1, this unit becomes Battle-shocked. Regardless of the result, select one friendly Legions of Excess Infantry unit wholly within 6\" that is unengaged. Remove it and set it up anywhere more than 8\" horizontally from all enemy models. It counts as having made a Normal move and cannot move again that phase. It retains its surviving models, wounds and Manifestation points.",
+      "d525-5b6e-b9ad-38aa": "At the start of your Movement phase, if a friendly Emperor's Children Character is within 6\" of this unit, you can inflict 1 mortal wound on this unit. If you do, it has +3\" Move until the end of the phase.",
+      "3d59-48fc-746e-9bfc": "At the start of the Shooting or Fight phase, this model can reduce the Damage characteristic of attacks targeting it by 1 until the end of the phase, to a minimum of 1. While Stupefied, it heals D3 wounds after an enemy unit finishes attacking it, if it survives.",
+      "8569-e524-e345-232e": "After this model shoots, select one enemy unit hit by its Death Scream. That enemy unit must take a Battle-shock test.",
+      "1ad0-873d-1ee5-874c": "After this unit shoots, select one enemy unit hit by its Unmaking chorus. That enemy unit must take a Battle-shock test.",
+      "7e5a-7be0-23f3-c4e5": "After this model shoots, select one enemy unit hit by its cathedral sonic immolator. That enemy unit must take a Battle-shock test.",
+      "47f3-ecde-c82c-8982": "After this model shoots, select one enemy unit hit by its attacks. That unit must take a Battle-shock test, subtracting 1 from the result.",
+      "e722-a377-5093-0d92": "After this unit shoots, select one enemy unit hit by its attacks. Until the end of the phase, add 1 to Wound rolls for ranged attacks made by other friendly EC units that target that enemy unit. Multiple applications do not stack.",
+      "7245-4715-c1d9-f099": "In your Shooting phase, after this unit shoots, select one enemy unit hit by its attacks. Until the start of your next Shooting phase, subtract 1 from Leadership and Battle-shock tests taken for that enemy unit.",
+      "aac3-1510-1575-2352": "After this unit shoots, select one enemy unit within 12\" that was hit by its attacks. That enemy unit must take a Battle-shock test, subtracting 1 from the result."
+    },
+    "noteReplacements": {
+      "Doomrider": {
+        "Both meltagun profiles: [MELTA 3], [TWIN-LINKED]. Hunter can target only Monster or Vehicle units. Hellblade: [SUSTAINED HITS 1]. Wheels: [EXTRA ATTACKS].": "Meltagun (Hunter) can target only Monster or Vehicle units."
+      }
+    },
+    "noteCuts": {
+      "Fulgrim": [
+        "Malefic lash: [SUSTAINED HITS 1]. Blades - strike: [SUSTAINED HITS 2]. Blades - sweep: [CLEAVE 2], [SUSTAINED HITS 2]. Serpentine tail: [EXTRA ATTACKS]."
+      ],
+      "Lucius the Eternal": [
+        "Blade of the Laer: [PRECISION]. Lash of Torment: [SUSTAINED HITS 1]. It does not have Extra Attacks; choose a melee weapon normally unless a rule explicitly grants otherwise."
+      ],
+      "Eidolon": [
+        "Death Scream: [TORRENT], [BLAST 2], [IGNORES COVER]. Glory Aeterna: [DEVASTATING WOUNDS]."
+      ],
+      "Ramos": [
+        "Focused: [BLAST 2], [IGNORES COVER]. Saturation: [BLAST 2], [IGNORES COVER]. Select one Refrain profile when shooting."
+      ],
+      "Julius Kaesoron": [
+        "Warpfire: [IGNORES COVER]. Favoured blade: [SUSTAINED HITS 1]. Talons: [EXTRA ATTACKS]."
+      ],
+      "Lord Exultant": [
+        "Sidearms: Bolt and plasma pistols have Close-Quarters; supercharged plasma also has Hazardous. Screamer pistols have Close-Quarters, Blast 1 and Ignores Cover.",
+        " Sword: Precision; spear: Lance; lash: Extra Attacks."
+      ],
+      "Lord Kakophonist": [
+        "Screamer pistol: Close-Quarters, Blast 1, Ignores Cover.",
+        "Sidearms: Bolt and plasma pistols have Close-Quarters; supercharged plasma also has Hazardous. Screamer pistols have Close-Quarters, Blast 1 and Ignores Cover. "
+      ],
+      "Raptureweaver": [
+        "Both Blissfire profiles: [PSYCHIC], [TORRENT], [BLAST 1], [IGNORES COVER]. Focused also has [HAZARDOUS]. Mirrorstave: [PSYCHIC]."
+      ],
+      "Torment Oracle": [
+        "Both Soulspike profiles: [PSYCHIC], [PRECISION]. Focused also has [HAZARDOUS]. Agonist's blade: [PSYCHIC], [PRECISION]."
+      ],
+      "Lord Exultant in Terminator Armour": [
+        "Combi-bolter: [RAPID FIRE 2]. ",
+        " The spear replaces the original Exultant's blade; the Sceptre is the renamed crushing weapon."
+      ],
+      "Shalaxi Helbane": [
+        "Select one Pavane profile when shooting."
+      ],
+      "Syll'Esske": [
+        "Select one Cacophonic choir profile when shooting."
+      ],
+      "Keeper of Secrets": [
+        " A shining aegis improves its Save to 3+. Select one Phantasmagoria profile when shooting."
+      ],
+      "Infernal Enrapturess": [
+        "Select one heartstring lyre profile when shooting. This model is not a Psyker."
+      ],
+      "Excruciator Terminators": [
+        " Select one combi profile each time a model shoots."
+      ],
+      "Choir of Unmaking": [
+        "Equipment Options: Each model selects one chorus profile when shooting. The unit is Psyker Level 1, not each model separately."
+      ],
+      "Howling Cavaliers": [
+        " Select one combi profile each time it shoots."
+      ],
+      "Chaos Rhino": [
+        " The EC combi-weapon uses the sonic/plasma/melta profiles printed below."
+      ],
+      "Threnody Dreadnought": [
+        " Select one profile for a multi-profile weapon."
+      ],
+      "Cacophant": [
+        " Arm weapons are selected as a pair."
+      ]
+    }
+  },
+  "revisions": {
+    "Mercurial Host": {
+      "stratagems": [
+        {
+          "name": "Cruel Momentum",
+          "cp": 1,
+          "when": "Your Charge phase, after a friendly Mercurial unit completes a Charge move.",
+          "target": "That unit.",
+          "effect": "Select one enemy unit within Engagement Range of your unit. Roll six D6. For each 4+, that enemy unit suffers 1 mortal wound."
+        },
+        {
+          "name": "The Vanishing Procession",
+          "cp": 1,
+          "when": "End of your opponent's turn.",
+          "target": "One unengaged friendly Mercurial unit.",
+          "effect": "Place your unit into Strategic Reserves."
+        },
+        {
+          "name": "Untouchable Grace",
+          "cp": 1,
+          "when": "Your opponent's Shooting phase or the Fight phase, after an enemy unit selects its targets.",
+          "target": "One friendly Mercurial unit selected as a target.",
+          "effect": "Until that enemy unit finishes attacking, subtract 1 from Hit rolls for attacks targeting your unit."
+        },
+        {
+          "name": "Break the Line",
+          "cp": 1,
+          "when": "Your Charge phase, after a friendly Mercurial unit completes a Charge move.",
+          "target": "That unit.",
+          "effect": "Select one enemy unit within Engagement Range of your unit. It takes a Battle-shock test with a −1 modifier."
+        },
+        {
+          "name": "Murderous Velocity",
+          "cp": 1,
+          "when": "Fight phase, when a friendly Mercurial unit that charged this turn is selected to fight.",
+          "target": "That unit.",
+          "effect": "Until the end of the phase, improve the Armour Penetration characteristic of your unit's melee weapons by 1."
+        },
+        {
+          "name": "Hunting in Packs",
+          "cp": 1,
+          "when": "Fight phase, when a friendly Mercurial unit is selected to fight.",
+          "target": "That unit.",
+          "effect": "Until the end of the phase, add 1 to Wound rolls for your unit's melee attacks targeting an enemy unit within Engagement Range of another friendly Mercurial unit."
+        }
+      ]
+    },
+    "Carnival of Engines": {
+      "rules": {
+        "Cacophony of Steel": "After a friendly Emperor's Children Vehicle unit shoots, select one enemy unit hit by its attacks. That unit takes a Battle-shock test with a −1 modifier and subtracts 1 from Hit rolls until the start of your next Shooting phase. Each enemy unit takes at most one test from this ability per battle round."
+      },
+      "enhancements": [
+        {
+          "name": "Perfected Targeting Array [Upgrade]",
+          "points": 30,
+          "eligibility": "vehicle",
+          "text": "Emperor's Children Vehicle only. Re-roll Hit rolls of 1 for the bearer's attacks."
+        },
+        {
+          "name": "Predatory Overdrive [Upgrade]",
+          "points": 25,
+          "eligibility": "vehicle",
+          "text": "Emperor's Children Vehicle only. Once per battle round, after an enemy unit fails a Battle-shock test caused by the bearer's Cacophony of Steel, the bearer can make a Normal move of up to 6\"."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Feed the Furnace",
+          "cp": 1,
+          "when": "Your Shooting phase or the Fight phase, when a friendly Emperor's Children Vehicle unit is selected to shoot or fight.",
+          "target": "That unit.",
+          "effect": "Until the end of the phase, re-roll Wound rolls of 1 for your unit's attacks targeting Battle-shocked units."
+        },
+        {
+          "name": "Revel in the Wreckage",
+          "cp": 1,
+          "when": "After a friendly Emperor's Children Vehicle unit destroys an enemy unit with its attacks.",
+          "target": "That unit.",
+          "effect": "One model in your unit regains D3+3 lost wounds."
+        },
+        {
+          "name": "A Last Catastrophe",
+          "cp": 1,
+          "when": "After a friendly Emperor's Children Vehicle unit with Deadly Demise is destroyed, before rolling for that ability.",
+          "target": "That destroyed Vehicle unit.",
+          "effect": "Its Deadly Demise triggers on a 4+ instead of its normal result."
+        }
+      ]
+    },
+    "Carnival of Excess": {
+      "rules": {
+        "Allied Allowance": "You can include Legions of Excess units up to half your army's points limit: 500 at Incursion, 1,000 at Strike Force or 1,500 at Onslaught. Legions of Excess models cannot be your Warlord.",
+        "Daemonic Communion": "Friendly Emperor's Children and Legions of Excess units are Empowered while within 6\" of one another.\n\n**Blood for the Dark Prince**\nAfter an Empowered Emperor's Children unit destroys an enemy unit, select one friendly Legions of Excess unit within 6\" of it. The next time the selected unit fights, add 1 to the Attacks characteristic of its melee weapons until the end of the phase.\n\n**Ecstatic Slaughter**\nAfter an Empowered Legions of Excess unit destroys an enemy unit, select one friendly Emperor's Children unit within 6\" of it. The next time the selected unit fights, add 1 to Wound rolls for its melee attacks until the end of the phase.\n\nRepeated uses of the same ability do not stack."
+      },
+      "enhancements": [
+        {
+          "name": "Empyric Suffusion",
+          "points": 20,
+          "eligibility": "character",
+          "text": "Emperor's Children Character. Increase ranges measured to or from the bearer's unit for Daemonic Communion by 3\"."
+        },
+        {
+          "name": "Vessel of the Dark Prince",
+          "points": 20,
+          "eligibility": "character",
+          "text": "Emperor's Children Character. At the start of your Command phase, select one friendly Legions of Excess unit within 6\" of the bearer. The bearer's unit suffers D3 mortal wounds, and the selected unit gains 1 Manifestation point."
+        },
+        {
+          "name": "Possessed Blade",
+          "points": 25,
+          "eligibility": "character",
+          "text": "Emperor's Children Character. Select one of the bearer's melee weapons and add 1 to its Attacks characteristic. Each time the bearer is selected to fight, you can add 1 to that weapon's Damage characteristic and give it Devastating Wounds and Hazardous for those attacks."
+        },
+        {
+          "name": "Warp Walker",
+          "points": 30,
+          "eligibility": "character-or-keeper",
+          "text": "Emperor's Children Character or Keeper of Secrets. When the bearer's unit Advances, change its Advance roll to a 6. During Normal, Advance and Fall Back moves, its models can move through enemy models and their Engagement Range, but cannot end within Engagement Range. Automatically pass Desperate Escape tests for those moves."
+        }
+      ]
+    },
+    "The Flesh Perfected": {
+      "rules": {
+        "Experimental Augmentation": "Once per battle round in your Command phase, each friendly Emperor's Children Chirurgeon model can select one friendly Emperor's Children Infantry unit within 6\" that contains a non-Character model. Destroy one non-Character model in that unit, then give it one Surgical Augmentation. Each unit can receive one augmentation per battle. It lasts until the end of the battle.\n\n- **Ossified Carapace:** Add 1 to the Toughness characteristic of models in this unit.\n- **Redundant Musculature:** Once per phase, when an enemy unit targets this unit with attacks, subtract 1 from the Damage characteristic of its attacks against this unit until it finishes attacking, to a minimum of 1.\n- **Serrated Bone Grafts:** This unit's melee weapons have Anti-Infantry 4+.\n- **Volatile Organ Implants:** Each time a model in this unit is destroyed, roll one D6 before removing it. On a 4+, each enemy unit within 2\" of that model suffers 1 mortal wound.\n- **Neural Disruptors:** Subtract 1 from Battle-shock tests taken by enemy units within 6\" of this unit."
+      },
+      "enhancements": [
+        {
+          "name": "Master of Augmentation",
+          "points": 20,
+          "eligibility": "chirurgeon",
+          "text": "Chirurgeon only. Once per battle, when the bearer uses Experimental Augmentation, it can select two eligible units instead of one."
+        },
+        {
+          "name": "Reanimator's Vial",
+          "points": 20,
+          "eligibility": "chirurgeon",
+          "text": "Chirurgeon only. Once per battle, at the end of the Fight phase, one friendly non-Daemon Emperor's Children Infantry unit within 6\" of the bearer heals D3+3 wounds."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Surgical Precision",
+          "cp": 1,
+          "when": "Fight phase, when a friendly Emperor's Children Infantry unit with a Surgical Augmentation is selected to fight.",
+          "target": "That unit.",
+          "effect": "Until the end of the phase, your unit's melee weapons have Precision."
+        },
+        {
+          "name": "Involuntary Convulsions",
+          "cp": 1,
+          "when": "Start of the Fight phase.",
+          "target": "One friendly Emperor's Children Infantry unit with a Surgical Augmentation.",
+          "effect": "Destroy one non-Character model in your unit. If you do, it gains Fights First until the end of the phase."
+        },
+        {
+          "name": "Aberrant Anatomy",
+          "cp": 1,
+          "when": "Fight phase, after an enemy unit finishes making melee attacks against a friendly Emperor's Children Infantry unit with a Surgical Augmentation.",
+          "target": "That friendly unit, if it lost one or more models to those attacks.",
+          "effect": "The attacking enemy unit suffers D3 mortal wounds."
+        }
+      ]
+    },
+    "The Harmonic Cabal": {
+      "stratagems": [
+        {
+          "name": "Psychic Concordance",
+          "cp": 1,
+          "when": "When a friendly Emperor's Children or Legions of Excess Psyker unit uses a non-summoning psychic power, before its psychic roll.",
+          "target": "That Psyker unit.",
+          "effect": "Your unit suffers D3 mortal wounds. If it does, skip the psychic roll and resolve the power."
+        },
+        {
+          "name": "Warp Ward",
+          "cp": 1,
+          "when": "After an enemy unit selects targets for a Psychic weapon.",
+          "target": "One friendly Emperor's Children or Legions of Excess unit selected as a target and within 6\" of a friendly Emperor's Children or Legions of Excess Psyker.",
+          "effect": "Until the end of the phase, your unit has Feel No Pain 4+ against Psychic attacks and mortal wounds."
+        },
+        {
+          "name": "Focused Malice",
+          "cp": 1,
+          "when": "Your Shooting phase, when a friendly Emperor's Children or Legions of Excess Psyker unit is selected to shoot.",
+          "target": "That unit.",
+          "effect": "Until the end of the phase, improve the Armour Penetration characteristic of your unit's Psychic ranged weapons by 1."
+        }
+      ]
+    }
+  }
+}
