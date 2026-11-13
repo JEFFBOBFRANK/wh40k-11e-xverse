@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 52,
+    "revision": 53,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -1033,7 +1033,7 @@
                   {
                     "name": "Whispers of the Dark Prince",
                     "id": "c6c2-9286-5051-fb28",
-                    "description": "\n\nAt the start of each phase, you can offer a Seduction to one enemy unit or one friendly Emperor's Children unit within 12\" of a friendly Emperor's Children unit. If the target is at Level 0, choose a Seduction for it. A unit keeps its Seduction until it returns to Level 0.\n\n**Deepening Temptation**\nAt the start of each player's Command phase, automatically offer a Seduction to each eligible unit that player controls at Level I or higher, regardless of range.\n\n**Accepting and resisting**\nA friendly Emperor's Children unit always accepts and can reach only Level II. An enemy unit can reach Level III. An offer to a unit at its maximum Level has no effect.\n\n- **Accept:** Increase the unit's Level by one. If it reaches Level III, it takes a Battle-shock test with a −1 modifier.\n- **Resist at Level 0:** The unit's controller can decline without rolling.\n- **Resist at Level I or II:** Roll one D6. A roll of 5+ resists Level II and a roll of 6+ resists Level III. On a success, reduce the unit's Level by one and subtract 1 from its next Battle-shock test this battle round. On a failure, increase its Level by one. If it reaches Level III this way, it suffers 3 mortal wounds.\n\nApply all Boons and Prices from the unit's current Level and each lower Level.\n\n**Rapture of Speed**\n- **I — Boon:** Add 2\" to the unit's Move characteristic. **Price:** It cannot Fall Back.\n- **II — Boon:** It can declare a charge in a turn in which it Advanced. **Price:** Subtract 1 from Hit rolls for its ranged attacks.\n- **III — Boon:** Add 2\" to the unit's Move characteristic. It can re-roll Charge rolls. **Price:** Before it declares a charge, it takes a Leadership test. On a failure, the Emperor's Children player chooses a legal charge target. If none is eligible, the unit cannot charge.\n\n**Exquisite Agony**\n- **I — Boon:** Feel No Pain 6+. **Price:** Worsen Leadership by 1.\n- **II — Boon:** Feel No Pain 5+. **Price:** Subtract 1 from Battle-shock test results.\n- **III — Boon:** Feel No Pain 4+. **Price:** At the start of each battle round, this unit suffers 3 mortal wounds.\n\n**Ecstatic Violence**\n- **I — Boon:** Re-roll Hit rolls of 1 for melee attacks. **Price:** When declaring a charge or selecting targets for melee attacks, it must include the closest eligible enemy unit where possible.\n- **II — Boon:** Add 1 to the Attacks characteristic of its melee weapons. **Price:** Subtract 1 from saving throws made for models in the unit.\n- **III — Boon:** Its melee weapons gain LETHAL HITS and add 1 to their Strength characteristic. **Price:** The unit has FIGHTS LAST.\n\n**Perfect Sensation**\n- **I — Boon:** Its ranged weapons have IGNORES COVER. **Price:** Its ranged weapons must target the closest eligible enemy unit wherever possible.\n- **II — Boon:** Improve the Ballistic Skill characteristic of its ranged weapons by 1. **Price:** Subtract 2\" from its Move characteristic.\n- **III — Boon:** Its ranged weapons gain SUSTAINED HITS 1. **Price:** The unit has Objective Control 0 and cannot Advance.\n\n**Whispered Secrets**\n- **I — Boon:** Once per phase, re-roll one Hit roll, Wound roll or saving throw made for the unit. **Price:** Worsen its Leadership by 1.\n- **II — Boon:** Its attacks score Critical Hits on unmodified Hit rolls of 5+. **Price:** The unit cannot be targeted by its controlling player's Stratagems.\n- **III — Boon:** Re-roll Hit rolls of 1 and Wound rolls of 1 for its attacks. **Price:** After this unit finishes shooting or fighting, it suffers D3 mortal wounds.\n\n**Thrall of the Dark Prince**\n- **I — Boon:** Re-roll Hit rolls of 1 and Wound rolls of 1 for its attacks. **Price:** Worsen its Leadership by 1.\n- **II — Boon:** Improve the AP characteristic of its weapons by 1. **Price:** When the unit shoots or declares a charge, it takes a Leadership test before selecting targets. If it fails, the Emperor's Children player chooses its legal targets.\n- **III — Boon:** Feel No Pain 5+. **Price:** Possession.\n\n**Possession**\n\nAt the start of **your** Movement, Shooting or Fight phase, select one enemy unit with Thrall of the Dark Prince at Level III, excluding Epic Hero units, within 12\" of one of your Emperor's Children units. Its controlling player makes a Leadership test for it.\n- **Passed:** Reduce its Seduction to Level II.\n- **Failed:** Control the unit for one immediate action. In Movement, make one Normal move. In Shooting, shoot once. In the Fight phase, make a Charge move of up to 6\" without rolling, then fight once if eligible. For target selection during that action, treat its original army as enemy and your Emperor's Children units as friendly. Use the possessed unit's characteristics and abilities. Your Stratagems and army rules do not apply.\n\n**Possession limitations:** Possession cannot force a disembark, activate a faction rule, spend CP or change mission ownership or scoring. A unit can be possessed only once per battle round. After a failed test, reset its Level to 0 once the action is resolved or if it cannot act.",
+                    "description": "\n\nAt the start of each phase, you can offer a Seduction to one unit within 12\" of a friendly Emperor's Children unit. You can choose an enemy unit in either player's turn or a friendly Emperor's Children unit in your turn. If the target is at Level 0, choose a Seduction for it. A unit keeps its Seduction until it returns to Level 0.\n\n**Deepening Temptation**\nAt the start of each player's Command phase, automatically offer a Seduction to each eligible unit that player controls at Level I or higher, regardless of range.\n\n**Accepting and resisting**\nA friendly Emperor's Children unit always accepts and can reach only Level II. An enemy unit can reach Level III. An offer to a unit at its maximum Level has no effect.\n\n- **Accept:** Increase the unit's Level by one. If it reaches Level III, it takes a Battle-shock test with a −1 modifier.\n- **Resist at Level 0:** The unit's controller can decline without rolling.\n- **Resist at Level I or II:** Roll one D6. A roll of 5+ resists Level II and a roll of 6+ resists Level III. On a success, reduce the unit's Level by one and subtract 1 from its next Battle-shock test this battle round. On a failure, increase its Level by one. If it reaches Level III this way, it suffers 3 mortal wounds.\n\nApply all Boons and Prices from the unit's current Level and each lower Level.\n\n**Rapture of Speed**\n- **I — Boon:** Add 2\" to the unit's Move characteristic. **Price:** It cannot Fall Back.\n- **II — Boon:** It can declare a charge in a turn in which it Advanced. **Price:** Subtract 1 from Hit rolls for its ranged attacks.\n- **III — Boon:** Add 2\" to the unit's Move characteristic. It can re-roll Charge rolls. **Price:** Before it declares a charge, it takes a Leadership test. On a failure, the Emperor's Children player chooses a legal charge target. If none is eligible, the unit cannot charge.\n\n**Exquisite Agony**\n- **I — Boon:** Feel No Pain 6+. **Price:** Worsen Leadership by 1.\n- **II — Boon:** Feel No Pain 5+. **Price:** Subtract 1 from Battle-shock test results.\n- **III — Boon:** Feel No Pain 4+. **Price:** At the start of each battle round, this unit suffers 3 mortal wounds.\n\n**Ecstatic Violence**\n- **I — Boon:** Re-roll Hit rolls of 1 for melee attacks. **Price:** When declaring a charge or selecting targets for melee attacks, it must include the closest eligible enemy unit where possible.\n- **II — Boon:** Add 1 to the Attacks characteristic of its melee weapons. **Price:** Subtract 1 from saving throws made for models in the unit.\n- **III — Boon:** Its melee weapons gain LETHAL HITS and add 1 to their Strength characteristic. **Price:** The unit has FIGHTS LAST.\n\n**Perfect Sensation**\n- **I — Boon:** Its ranged weapons have IGNORES COVER. **Price:** Its ranged weapons must target the closest eligible enemy unit wherever possible.\n- **II — Boon:** Improve the Ballistic Skill characteristic of its ranged weapons by 1. **Price:** Subtract 2\" from its Move characteristic.\n- **III — Boon:** Its ranged weapons gain SUSTAINED HITS 1. **Price:** The unit has Objective Control 0 and cannot Advance.\n\n**Whispered Secrets**\n- **I — Boon:** Once per phase, re-roll one Hit roll, Wound roll or saving throw made for the unit. **Price:** Worsen its Leadership by 1.\n- **II — Boon:** Its attacks score Critical Hits on unmodified Hit rolls of 5+. **Price:** The unit cannot be targeted by its controlling player's Stratagems.\n- **III — Boon:** Re-roll Hit rolls of 1 and Wound rolls of 1 for its attacks. **Price:** After this unit finishes shooting or fighting, it suffers D3 mortal wounds.\n\n**Thrall of the Dark Prince**\n- **I — Boon:** Re-roll Hit rolls of 1 and Wound rolls of 1 for its attacks. **Price:** Worsen its Leadership by 1.\n- **II — Boon:** Improve the AP characteristic of its weapons by 1. **Price:** When the unit shoots or declares a charge, it takes a Leadership test before selecting targets. If it fails, the Emperor's Children player chooses its legal targets.\n- **III — Boon:** Feel No Pain 5+. **Price:** Possession.\n\n**Possession**\n\nAt the start of **your** Movement, Shooting or Fight phase, select one enemy unit with Thrall of the Dark Prince at Level III, excluding Epic Hero units, within 12\" of one of your Emperor's Children units. Its controlling player makes a Leadership test for it.\n- **Passed:** Reduce its Seduction to Level II.\n- **Failed:** Control the unit for one immediate action. In Movement, make one Normal move. In Shooting, shoot once. In the Fight phase, make a Charge move of up to 6\" without rolling, then fight once if eligible. For target selection during that action, treat its original army as enemy and your Emperor's Children units as friendly. Use the possessed unit's characteristics and abilities. Your Stratagems and army rules do not apply.\n\n**Possession limitations:** Possession cannot force a disembark, activate a faction rule, spend CP or change mission ownership or scoring. A unit can be possessed only once per battle round. After a failed test, reset its Level to 0 once the action is resolved or if it cannot act.",
                     "hidden": false
                   }
                 ],
@@ -42881,7 +42881,7 @@
                                   {
                                     "name": "A",
                                     "typeId": "3bb-c35f-f54-fb08",
-                                    "$text": "6"
+                                    "$text": "4"
                                   },
                                   {
                                     "name": "BS",
@@ -44430,7 +44430,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "4"
                           },
                           {
                             "name": "BS",
@@ -54484,7 +54484,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "12"
+                    "$text": "10"
                   },
                   {
                     "name": "BS",
@@ -58518,7 +58518,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "10"
+                            "$text": "8"
                           },
                           {
                             "name": "BS",
@@ -59909,7 +59909,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "9"
+                            "$text": "7"
                           },
                           {
                             "name": "BS",
@@ -64126,7 +64126,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "4"
                           },
                           {
                             "name": "BS",
@@ -64586,7 +64586,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "4"
                           },
                           {
                             "name": "BS",
@@ -65506,7 +65506,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "8"
+                            "$text": "6"
                           },
                           {
                             "name": "BS",
@@ -67258,7 +67258,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "8"
+                            "$text": "6"
                           },
                           {
                             "name": "BS",
@@ -67550,7 +67550,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "4"
                           },
                           {
                             "name": "BS",
@@ -69721,7 +69721,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "8"
+                    "$text": "6"
                   },
                   {
                     "name": "BS",
