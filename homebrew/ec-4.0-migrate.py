@@ -32,7 +32,8 @@ UNIT_PRICES = {
     "Fleshbound": (80, 150), "Daemonettes": (70,), "Noise Marines": (175,),
     "Flawless Blades": (95, 190), "Excruciator Terminators": (195,),
     "Phoenix Guard Terminators": (210,), "Dissonant Colossi": (250,), "Ghosts": (85, 160),
-    "Chained Thralls": (40, 75), "Mirror Guard": (100, 200), "Furies of Slaanesh": (45, 90),
+    "Chained Thralls": (40, 75), "Rapture Talons": (105, 200),
+    "Mirror Guard": (100, 200), "Furies of Slaanesh": (45, 90),
     "Choir of Unmaking": (125,), "Howling Cavaliers": (110, 210), "Stage of Excess": (200,),
     "Chaos Spawn": (75,), "Greater Chaos Spawn": (145,), "Fiends": (80, 160),
     "Chaos Rhino": (70,), "Maulerfiend": (120,), "Defiler": (300,), "Agoniser": (185,),
@@ -97,9 +98,10 @@ def apply_costs(units):
             assert len(sizes) == 2, name
             for size, price in zip(sizes, prices):
                 named(size["costs"], "pts")["value"] = price - prices[0]
-    # Its 4.0 price is a flat 190 plus the three selectable cannon costs.
-    cacophant = units["Cacophant"]
-    cacophant["modifiers"] = [modifier for modifier in cacophant["modifiers"]
+    # Both units have fixed base prices, with Cacophant wargear priced separately.
+    for name in ("Cacophant", "Rapture Talons"):
+        unit = units[name]
+        unit["modifiers"] = [modifier for modifier in unit["modifiers"]
                              if modifier["field"] != POINTS]
 
 
@@ -562,7 +564,7 @@ def migrate(catalogue, system):
         clean_timing(unit)
         remove_profiles(unit, "Elixir Restrictions")
     weapon_rules(units["Infractors"], system)
-    catalogue["revision"] = 44
+    catalogue["revision"] = 45
     system["revision"] += 1
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
