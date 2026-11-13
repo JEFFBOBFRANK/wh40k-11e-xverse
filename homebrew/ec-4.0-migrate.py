@@ -700,7 +700,7 @@ def migrate(catalogue, system):
         remove_profiles(unit, "Elixir Restrictions")
     weapon_rules(units["Infractors"], system)
     edit_player_text(catalogue, units)
-    catalogue["revision"] = 48
+    catalogue["revision"] = 49
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
