@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 56 includes 58 datasheets and 14 detachments.
+Catalogue revision 57 includes 58 datasheets and 14 detachments.
 The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -22,6 +22,10 @@ Ritual Host and Carnival of Excess each allow Legions of Excess units up to
 half the battle size points limit. Both have Unique: DAEMON.
 
 Chained Thralls cost 30 points for 10 or 60 for 20 and have a 6+ invulnerable save.
+
+Revision 57 updates seven Requisition Thresholds and seven Enhancement
+prices. Perfection Through Agony protects Enraptured Flawless Blades when
+Daemonic Patrons resolves at the end of the phase.
 
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry

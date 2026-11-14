@@ -11,6 +11,24 @@ from pathlib import Path
 from datasheet_format import detachment_point_counter, rule_link, weapon_rules
 
 POINTS = "51b2-306e-1021-d207"
+REQUISITION_THRESHOLDS = {
+    "Defiler": (2, 50),
+    "Threnody Dreadnought": (2, 50),
+    "Stage of Excess": (2, 25),
+    "Cacophant": (3, 25),
+    "Palatine Ravager": (3, 20),
+    "Idol of Sublime Perfection": (3, 25),
+    "Maulerfiend": (3, 15),
+}
+ENHANCEMENT_PRICES = {
+    "Master of Exquisite Swordsmanship": 15,
+    "Sceptre of Edicts": 15,
+    "Silken Escape": 15,
+    "Glassed Veins": 10,
+    "Rapturous Applause": 10,
+    "A Thousand Promises": 15,
+    "Bloodless Elegance": 10,
+}
 GREATER_DAEMONS = {"Shalaxi Helbane", "Keeper of Secrets", "Vhalyss, the First Scream"}
 RETIRED_DETACHMENTS = {
     "Perfumed Procession", "The Perfect Formula", "Rapid Evisceration", "The Veiled Hunt",
@@ -707,6 +725,47 @@ def format_leader_and_support(units, system):
             rule_link(unit, core[label])
 
 
+def apply_requisition_thresholds(units):
+    template = copy.deepcopy(next(
+        modifier for modifier in units["Defiler"]["modifiers"]
+        if modifier["field"] == POINTS and modifier["type"] == "increment"
+    ))
+    for name, (first_charged_copy, surcharge) in REQUISITION_THRESHOLDS.items():
+        unit = units[name]
+        modifier = copy.deepcopy(template)
+        modifier["value"] = surcharge
+        preceding_copies = modifier["conditionGroups"][0]["localConditionGroups"][0]
+        preceding_copies["value"] = first_charged_copy - 1
+        selector = next(c for c in preceding_copies["conditions"] if c["type"] == "instanceOf")
+        selector.update(childId=unit["id"], childName=name)
+        unit["modifiers"] = [
+            existing for existing in unit["modifiers"]
+            if existing["field"] != POINTS or existing["type"] != "increment"
+        ]
+        unit["modifiers"].append(modifier)
+
+
+def apply_revision_57(catalogue):
+    entries = catalogue["sharedSelectionEntries"]
+    units = {entry["name"]: entry for entry in entries if entry["type"] in {"unit", "model"}}
+    apply_requisition_thresholds(units)
+    for name, price in ENHANCEMENT_PRICES.items():
+        named(named(entries, name)["costs"], "pts")["value"] = price
+    glassed_veins = named(named(entries, "Glassed Veins")["rules"], "Glassed Veins")
+    glassed_veins["description"] = (
+        "Non-DAEMON Emperor's Children CHARACTER. Once per battle round, when the bearer's "
+        "unit takes a Leadership test to cease being Stupefied, you can re-roll that test."
+    )
+    group = named(named(entries, "Detachment")["selectionEntryGroups"], "Detachment")
+    blades = named(group["selectionEntries"], "Blades of Exquisite Pain")
+    suffering = named(blades["rules"], "The Art of Suffering")
+    suffering["description"] += (
+        "\n\nAt the end of the phase, while a friendly Flawless Blades unit is Enraptured, "
+        "do not destroy a model in that unit as a result of its Daemonic Patrons ability."
+    )
+    catalogue["revision"] = 57
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -738,7 +797,7 @@ def migrate(catalogue, system):
     weapon_rules(units["Infractors"], system)
     edit_player_text(catalogue, units)
     format_leader_and_support(units, system)
-    catalogue["revision"] = 56
+    apply_revision_57(catalogue)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
