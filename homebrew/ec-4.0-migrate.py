@@ -32,7 +32,7 @@ UNIT_PRICES = {
     "Fleshbound": (80, 150), "Daemonettes": (70,), "Noise Marines": (175,),
     "Flawless Blades": (95, 190), "Excruciator Terminators": (195,),
     "Phoenix Guard Terminators": (210,), "Dissonant Colossi": (250,), "Ghosts": (85, 160),
-    "Chained Thralls": (40, 75), "Rapture Talons": (105, 200),
+    "Chained Thralls": (30, 60), "Rapture Talons": (105, 200),
     "Mirror Guard": (100, 200), "Furies of Slaanesh": (45, 90),
     "Choir of Unmaking": (125,), "Howling Cavaliers": (110, 210), "Stage of Excess": (200,),
     "Chaos Spawn": (75,), "Greater Chaos Spawn": (145,), "Fiends": (80, 160),
@@ -116,6 +116,8 @@ def clean_timing(unit):
 
 
 def apply_native_units(units):
+    change_profiles(units["Chained Thralls"], {"Unit"}, InSv="6+")
+
     unit = units["Fulgrim"]
     change_profiles(unit, {"Unit"}, T="11", W="18")
     for mode, keywords in [("strike", "Sustained Hits 1"), ("sweep", "Cleave 2, Sustained Hits 1")]:
@@ -736,7 +738,7 @@ def migrate(catalogue, system):
     weapon_rules(units["Infractors"], system)
     edit_player_text(catalogue, units)
     format_leader_and_support(units, system)
-    catalogue["revision"] = 54
+    catalogue["revision"] = 55
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
