@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 55,
+    "revision": 56,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -829,7 +829,7 @@
                   {
                     "name": "Pledges to the Dark Prince",
                     "id": "1728-c774-fe56-0bea",
-                    "description": "\n\nAt the start of the battle round, if your Warlord is on the battlefield, pledge how many enemy units you will destroy this round. At the end of the round, if you met or exceeded your pledge, gain Pact points equal to your pledge. Otherwise, your Warlord suffers D3 mortal wounds. Your Emperor's Children units gain the following cumulative bonuses: \n\n**1+ Pact:** Each time a model in this unit makes an attack, re-roll a Hit roll of 1. \n\n**3+ Pact:** Each time a model in this unit makes an attack, re-roll a Wound roll of 1. \n\n**5+ Pact:** Melee weapons equipped by models in this unit have the [LETHAL HITS] and [SUSTAINED HITS 1] abilities. \n\n**7+ Pact:** Each time a model in this unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+.",
+                    "description": "\n\nAt the start of the battle round, if your Warlord is on the battlefield, pledge how many enemy units you will destroy this round. At the end of the round, if you met or exceeded your pledge, gain Pact points equal to your pledge. Otherwise, your Warlord suffers D3 mortal wounds.\n\nFriendly Emperor's Children units gain the following cumulative bonuses:\n\n**1+ Pact — Arrogant Advance:** Add 1 to Advance and Charge rolls made for friendly Emperor's Children units.\n\n**3+ Pact — Merciless Perfection:** Improve the Armour Penetration characteristic of attacks made by friendly Emperor's Children models by 1.\n\n**5+ Pact — Unmatched Excellence:** Melee weapons equipped by friendly Emperor's Children models have [LETHAL HITS] and [SUSTAINED HITS 1].\n\n**7+ Pact — The Prince's Favourites:** Each time a friendly Emperor's Children model makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
                     "hidden": false
                   }
                 ],
