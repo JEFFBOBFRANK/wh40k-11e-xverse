@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 53,
+    "revision": 54,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -596,6 +596,12 @@
                     "id": "6430-eb85-b24b-7dad",
                     "hidden": false,
                     "description": "\n\nOnce per battle round in your Command phase, each friendly Emperor's Children Chirurgeon model can select one friendly Emperor's Children Infantry unit within 6\" that contains a non-Character model. Destroy one non-Character model in that unit, then give it one Surgical Augmentation. Each unit can receive one augmentation per battle. It lasts until the end of the battle.\n\n- **Ossified Carapace:** Add 1 to the Toughness characteristic of models in this unit.\n- **Redundant Musculature:** Once per phase, when an enemy unit targets this unit with attacks, subtract 1 from the Damage characteristic of its attacks against this unit until it finishes attacking, to a minimum of 1.\n- **Serrated Bone Grafts:** This unit's melee weapons have Anti-Infantry 4+.\n- **Volatile Organ Implants:** Each time a model in this unit is destroyed, roll one D6 before removing it. On a 4+, each enemy unit within 2\" of that model suffers 1 mortal wound.\n- **Neural Disruptors:** Subtract 1 from Battle-shock tests taken by enemy units within 6\" of this unit."
+                  },
+                  {
+                    "name": "Surgical Conditioning",
+                    "id": "ff5f-8276-fb6a-46d4",
+                    "hidden": false,
+                    "description": "\n\nOnce per battle round, when a friendly Emperor's Children unit with a Surgical Augmentation within 6\" of a friendly Chirurgeon must take a Leadership test for Fading Euphoria or Pain Brings Clarity, you can destroy one non-Character model in that unit. If you do, choose whether it automatically passes or fails that test."
                   }
                 ],
                 "infoLinks": []
@@ -1167,6 +1173,49 @@
                   }
                 ],
                 "infoLinks": []
+              },
+              {
+                "name": "Blades of Exquisite Pain",
+                "id": "f0dd-1264-6a15-3e4e",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "0c4f-30cb-f3a7-f3b3",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "id": "d9c5-22ad-96cb-bdb6",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "The Art of Suffering",
+                    "id": "56e7-dd41-c1df-5b93",
+                    "description": "\n\nWhen a friendly Emperor's Children unit is selected to fight, you can give its melee weapons [DEVASTATING WOUNDS] until it finishes making its attacks.\n\nEach time an attack made by a friendly Emperor's Children unit would inflict damage on an enemy unit through Devastating Wounds, prevent that damage and place one Pain Token on that enemy unit for each point of damage prevented. Pain Tokens remain until spent or the unit is destroyed.\n\n**Thresholds of Agony**\n\n- **3+ — Exposed Nerves:** Worsen armour saving throws made for that enemy unit by 1 against attacks made by friendly Emperor's Children units.\n- **6+ — Unbearable Agony:** Subtract 1 from Hit rolls for attacks made by that enemy unit. The first time it reaches 6 Pain Tokens each battle round, it must take a Battle-shock test.\n- **9+ — Agony Beyond Endurance:** Add 1 to Wound rolls for attacks made by friendly Emperor's Children units against that enemy unit. After a friendly Emperor's Children unit finishes resolving its attacks against an enemy unit with 9 or more Pain Tokens, the attacking unit can make a Normal or Fall Back move, as applicable. Each friendly unit can make this move only once per phase.\n\n**Pain Payments**\n\n- **Nerves Unstrung:** When an enemy unit is selected to fight, you can remove 3 Pain Tokens from it. Until the end of the phase, subtract 1 from the Damage characteristic of its melee weapons, to a minimum of 1.\n- **The Perfect Scream:** At the start of the Fight phase, you can remove 6 Pain Tokens from one enemy unit. Until the end of the phase, it cannot benefit from Fights First or be selected to fight until all eligible friendly Emperor's Children units have fought.\n- **Savour the Suffering:** When a friendly unit must take a Leadership test for Fading Euphoria or Pain Brings Clarity, you can remove 2 Pain Tokens from an enemy unit within 6\" of it. If you do, the friendly unit automatically fails that test.\n\n**Perfection Through Agony**\n\nAfter a friendly Flawless Blades unit finishes making its melee attacks, if it placed 6 or more Pain Tokens on its Obsession with those attacks, it becomes Enraptured.",
+                    "hidden": false
+                  }
+                ],
+                "infoLinks": []
               }
             ],
             "modifiers": [
@@ -1340,6 +1389,15 @@
                             "includeChildSelections": true,
                             "type": "lessThan",
                             "value": 1
+                          },
+                          {
+                            "childId": "f0dd-1264-6a15-3e4e",
+                            "field": "selections",
+                            "scope": "force",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "type": "lessThan",
+                            "value": 1
                           }
                         ]
                       }
@@ -1413,7 +1471,7 @@
           },
           {
             "id": "b850-ed2e-a92b-38ec",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -2596,6 +2654,81 @@
             ]
           },
           {
+            "name": "Blades of Exquisite Pain — A Thousand Cuts / 1 CP",
+            "id": "2589-054d-6178-1b65",
+            "targetId": "72cc-3774-ac91-e6c6",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "f0dd-1264-6a15-3e4e",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Blades of Exquisite Pain — Savour the Last Scream / 1 CP",
+            "id": "ef6b-8ae8-7b69-ac9e",
+            "targetId": "70d6-4dbe-4870-0742",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "f0dd-1264-6a15-3e4e",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Blades of Exquisite Pain — Welcome the Pain / 1 CP",
+            "id": "60d8-4f32-cf2e-085b",
+            "targetId": "6ed7-b9e0-484b-ebd2",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "f0dd-1264-6a15-3e4e",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Mercurial Host — Cruel Momentum / 1 CP",
             "id": "874e-d6a3-5dd8-961d",
             "targetId": "546a-f214-e3b8-10ad",
@@ -3343,7 +3476,7 @@
           },
           {
             "id": "0a36-3a34-76da-01ce",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -4023,7 +4156,7 @@
           },
           {
             "id": "7edc-80b9-b7a2-a43c",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -4570,7 +4703,7 @@
           },
           {
             "id": "2c86-3142-859f-77fc",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -4997,7 +5130,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model leads a Stupefied unit, when it shoots after Advancing or Falling Back, its ranged attacks use their normal Ballistic Skill instead of only hitting on unmodified Hit rolls of 5+."
+                "$text": "While this model leads a Stupefied unit, that unit is eligible to shoot after Advancing or Falling Back."
               }
             ]
           },
@@ -5113,7 +5246,7 @@
           },
           {
             "id": "413b-23c0-d351-e343",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -5649,7 +5782,7 @@
           },
           {
             "id": "3209-11d1-0238-f0ec",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -6178,7 +6311,7 @@
           },
           {
             "id": "171c-b980-e94c-b65e",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -8731,7 +8864,7 @@
           },
           {
             "id": "d5a7-5ad5-abe3-4e12",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -10358,6 +10491,58 @@
                 "import": true
               },
               {
+                "name": "The Connoisseur's Eye",
+                "id": "6da9-df72-249d-9f38",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "6e6d-bc06-7924-c377",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
                 "name": "Empyric Suffusion",
                 "id": "ebd6-1879-b39c-1f55",
                 "targetId": "6d94-e482-b8f1-3417",
@@ -10773,7 +10958,7 @@
           },
           {
             "id": "20f7-4159-ab46-3861",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -11923,6 +12108,58 @@
                 "import": true
               },
               {
+                "name": "The Connoisseur's Eye",
+                "id": "f28b-a488-b6ec-de51",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "f328-f307-e906-925a",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
                 "name": "Empyric Suffusion",
                 "id": "221e-7f0e-3e7f-7074",
                 "targetId": "6d94-e482-b8f1-3417",
@@ -12357,7 +12594,7 @@
           },
           {
             "id": "855c-1f29-7bad-153a",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -13357,6 +13594,58 @@
                 "import": true
               },
               {
+                "name": "The Connoisseur's Eye",
+                "id": "a9d0-98ad-1e68-3ce1",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "8b14-35fb-3639-06ad",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
                 "name": "Empyric Suffusion",
                 "id": "4f45-6808-a5b3-f9d8",
                 "targetId": "6d94-e482-b8f1-3417",
@@ -13780,7 +14069,7 @@
           },
           {
             "id": "0c76-8513-c255-e561",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -14773,6 +15062,58 @@
                 "import": true
               },
               {
+                "name": "The Connoisseur's Eye",
+                "id": "88eb-34f2-89c2-4747",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "00de-e5c2-b2ce-b63e",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
                 "name": "Empyric Suffusion",
                 "id": "1df9-f10d-c6e3-9587",
                 "targetId": "6d94-e482-b8f1-3417",
@@ -15189,7 +15530,7 @@
           },
           {
             "id": "e40d-0a41-1df2-60c8",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -15732,6 +16073,58 @@
                     "conditions": [
                       {
                         "childId": "2b89-ad7e-e411-bc93",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "The Connoisseur's Eye",
+                "id": "ff22-344b-f356-ec4f",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "b9ff-c87e-ebb6-65bb",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
                         "field": "selections",
                         "scope": "force",
                         "type": "atLeast",
@@ -16362,7 +16755,7 @@
           },
           {
             "id": "6490-7fa2-5803-caf8",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -16905,6 +17298,58 @@
                     "conditions": [
                       {
                         "childId": "2b89-ad7e-e411-bc93",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "The Connoisseur's Eye",
+                "id": "997c-5d86-436c-347a",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "670b-4831-ae9e-08d6",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
                         "field": "selections",
                         "scope": "force",
                         "type": "atLeast",
@@ -17507,7 +17952,7 @@
           },
           {
             "id": "2b85-379f-9717-68bb",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -18581,6 +19026,58 @@
                 "import": true
               },
               {
+                "name": "The Connoisseur's Eye",
+                "id": "de27-7ca5-b8a9-27a2",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "d87b-280a-28d2-5362",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
                 "name": "Empyric Suffusion",
                 "id": "6b41-d679-b0f1-15c0",
                 "targetId": "6d94-e482-b8f1-3417",
@@ -19036,7 +19533,7 @@
           },
           {
             "id": "bde6-3714-1c13-6af1",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -19514,6 +20011,58 @@
                 "import": true
               },
               {
+                "name": "The Connoisseur's Eye",
+                "id": "a0cf-dda0-530b-0814",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "602a-e4c6-d453-9968",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
                 "name": "Empyric Suffusion",
                 "id": "1f78-b3b9-fba8-a0df",
                 "targetId": "6d94-e482-b8f1-3417",
@@ -19950,7 +20499,7 @@
           },
           {
             "id": "457a-06da-1291-be04",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -21122,6 +21671,58 @@
                 "import": true
               },
               {
+                "name": "The Connoisseur's Eye",
+                "id": "ce30-d47c-0df5-aa75",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "bac8-7d57-b389-ba99",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
                 "name": "Empyric Suffusion",
                 "id": "c227-470e-a73f-59f9",
                 "targetId": "6d94-e482-b8f1-3417",
@@ -21815,7 +22416,7 @@
           },
           {
             "id": "e197-7b47-b5fe-7aec",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -23180,6 +23781,58 @@
                 "import": true
               },
               {
+                "name": "The Connoisseur's Eye",
+                "id": "ef1c-367b-7da2-850d",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "b404-685d-2f84-3cba",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
                 "name": "Empyric Suffusion",
                 "id": "7a7d-73d7-f961-f106",
                 "targetId": "6d94-e482-b8f1-3417",
@@ -23570,7 +24223,7 @@
           },
           {
             "id": "e51b-5432-8b2a-3fc7",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -24515,6 +25168,58 @@
                 "import": true
               },
               {
+                "name": "The Connoisseur's Eye",
+                "id": "0962-052c-0c47-6858",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "1b15-fb0e-769a-1a0b",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
                 "name": "Empyric Suffusion",
                 "id": "12c9-0d43-d7d2-e608",
                 "targetId": "6d94-e482-b8f1-3417",
@@ -25040,7 +25745,7 @@
           },
           {
             "id": "2497-f32b-b6ee-5aa7",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -25928,6 +26633,58 @@
                 "import": true
               },
               {
+                "name": "The Connoisseur's Eye",
+                "id": "c7cf-034c-05a7-1151",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "0be6-075c-c38c-c8a7",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
                 "name": "Empyric Suffusion",
                 "id": "0576-afa1-8a3b-3229",
                 "targetId": "6d94-e482-b8f1-3417",
@@ -26323,7 +27080,7 @@
           },
           {
             "id": "d21d-b261-b2e2-9f69",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -27303,6 +28060,58 @@
                     "conditions": [
                       {
                         "childId": "15a3-eab5-47eb-ef5c",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "The Connoisseur's Eye",
+                "id": "ad25-539b-ce57-4aa0",
+                "targetId": "12b8-93c3-19c6-64aa",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Choir of Flayed Nerves",
+                "id": "1c75-c096-e403-f626",
+                "targetId": "39dd-1918-a7ba-c655",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f0dd-1264-6a15-3e4e",
                         "field": "selections",
                         "scope": "force",
                         "type": "atLeast",
@@ -32735,7 +33544,7 @@
           },
           {
             "id": "22ee-0a59-559b-5451",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -36047,7 +36856,7 @@
           },
           {
             "id": "d4a4-54f9-bb93-bdb7",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -37369,7 +38178,7 @@
         "infoLinks": [
           {
             "id": "d0e9-189a-ae6a-dd24",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -38779,7 +39588,7 @@
         "infoLinks": [
           {
             "id": "bbba-8f64-e0c4-3e24",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -39571,7 +40380,7 @@
         "infoLinks": [
           {
             "id": "7b03-7a93-dbce-16a5",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -41673,7 +42482,7 @@
         "infoLinks": [
           {
             "id": "6454-a0a1-783e-196e",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -41947,7 +42756,7 @@
           },
           {
             "id": "6dbc-a31c-0213-9008",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -43779,7 +44588,7 @@
           },
           {
             "id": "1b8f-103e-f73a-72df",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -44281,7 +45090,7 @@
         "infoLinks": [
           {
             "id": "0e86-f0d3-ef3c-28ef",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -46527,7 +47336,7 @@
           },
           {
             "id": "058c-c245-8ff7-ce86",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -47210,7 +48019,7 @@
         "infoLinks": [
           {
             "id": "8980-db3b-5780-9a8b",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -49431,7 +50240,7 @@
           },
           {
             "id": "6381-eac3-d3f9-0178",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -54153,7 +54962,7 @@
         "infoLinks": [
           {
             "id": "8a55-b238-53aa-3667",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -54434,7 +55243,7 @@
           },
           {
             "id": "3e10-1beb-872d-109e",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -54917,7 +55726,7 @@
           },
           {
             "id": "05d8-fe95-4df1-7951",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -55321,7 +56130,7 @@
           },
           {
             "id": "63bf-c845-800c-b910",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -56444,7 +57253,7 @@
           },
           {
             "id": "71ec-e642-a6d3-5292",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -57468,7 +58277,7 @@
           },
           {
             "id": "ef4b-732d-847c-d8d9",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -58218,7 +59027,7 @@
           },
           {
             "id": "8d7f-9a8e-2b8c-5f1f",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -60431,7 +61240,7 @@
           },
           {
             "id": "1a88-4561-c1ff-d6cc",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -62619,7 +63428,7 @@
           },
           {
             "id": "0c52-f1c1-64bd-5607",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -63712,7 +64521,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model is Stupefied, when selected to shoot it can overdrive its weapons. Until the end of the phase, its ranged weapons have Hazardous. If it Advanced or Fell Back, its ranged attacks use their normal Ballistic Skill instead of only hitting on unmodified Hit rolls of 5+."
+                "$text": "While this model is Stupefied, it can overdrive its weapons when selected to shoot. It is eligible to shoot after Advancing or Falling Back if it overdrives its weapons. Until the end of the phase, its ranged weapons have Hazardous."
               }
             ]
           },
@@ -63828,7 +64637,7 @@
           },
           {
             "id": "2b72-7dab-0c62-09f0",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -65139,7 +65948,7 @@
           },
           {
             "id": "9817-0b04-8c53-b650",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -66409,7 +67218,7 @@
           },
           {
             "id": "58f6-a597-feff-6d6c",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -66994,7 +67803,7 @@
           },
           {
             "id": "278f-fb52-8170-a7f3",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -68263,7 +69072,7 @@
           },
           {
             "id": "41b3-935c-858f-c7bd",
-            "name": "Thrill Seekers",
+            "name": "The Pursuit of Perfection",
             "targetId": "ba01-c487-2242-7c4d",
             "type": "rule",
             "hidden": false
@@ -70513,6 +71322,82 @@
         ]
       },
       {
+        "name": "The Connoisseur's Eye",
+        "id": "12b8-93c3-19c6-64aa",
+        "type": "upgrade",
+        "hidden": false,
+        "import": true,
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 20
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          }
+        ],
+        "constraints": [
+          {
+            "id": "dd48-1b7d-51a6-4a3b",
+            "type": "max",
+            "value": 1,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ],
+        "rules": [
+          {
+            "name": "The Connoisseur's Eye",
+            "id": "224f-a62f-297b-9bef",
+            "hidden": false,
+            "description": "EMPEROR'S CHILDREN CHARACTER. Once per phase, when the bearer's unit places one or more Pain Tokens on an enemy unit with its attacks, place 1 additional Pain Token on that enemy unit."
+          }
+        ]
+      },
+      {
+        "name": "Choir of Flayed Nerves",
+        "id": "39dd-1918-a7ba-c655",
+        "type": "upgrade",
+        "hidden": false,
+        "import": true,
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 20
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          }
+        ],
+        "constraints": [
+          {
+            "id": "ec09-a8b8-c523-6bbd",
+            "type": "max",
+            "value": 1,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ],
+        "rules": [
+          {
+            "name": "Choir of Flayed Nerves",
+            "id": "abb0-3ced-a5d9-99db",
+            "hidden": false,
+            "description": "EMPEROR'S CHILDREN CHARACTER. Subtract 1 from Battle-shock tests taken by enemy units that have one or more Pain Tokens and are within 12\" of the bearer. Each time such a unit fails a Battle-shock test, place 2 Pain Tokens on it."
+          }
+        ]
+      },
+      {
         "name": "Perfected Targeting Array [Upgrade]",
         "id": "22ea-151e-964d-2eaf",
         "type": "upgrade",
@@ -71799,7 +72684,7 @@
       {
         "name": "Coterie of the Conceited — Martial Perfection / 1 CP",
         "id": "3285-d400-8659-96a5",
-        "description": "\n\n### When\n\nFight phase.\n\n### Target\n\nOne EMPEROR'S CHILDREN unit from your army that has not been selected to fight this phase.\n\n### Effect\n\nUntil the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
+        "description": "\n\n### When\n\nFight phase, when a friendly Emperor's Children unit is selected to fight.\n\n### Target\n\nThat unit.\n\n### Effect\n\nUntil the end of the phase, add 1 to Wound rolls for melee attacks made by your unit. If your unit fails to destroy any enemy models this phase, it suffers D3 mortal wounds after resolving its attacks.",
         "hidden": false
       },
       {
@@ -71851,9 +72736,9 @@
         "hidden": false
       },
       {
-        "name": "Thrill Seekers",
+        "name": "The Pursuit of Perfection",
         "id": "ba01-c487-2242-7c4d",
-        "description": "\n\n**Surrender to Excess**\n\nEach time a friendly Emperor's Children unit is selected to move, shoot or fight, or is selected as the target of an enemy unit's attacks, you can choose for it to become **Stupefied**. Decide before the move, fight or attacks are resolved.\n\n**Stupefied**\n\nWhile an Emperor's Children unit is Stupefied:\n\n- Each time a model in that unit makes an attack, re-roll a Hit roll of **1**. If the target is within **12\"** of the attacking model, you can re-roll the Hit roll instead.\n- That unit is eligible to shoot and declare a charge after Advancing or Falling Back. If it Advanced or Fell Back this turn, an attack it makes with a ranged weapon scores a Hit **only on an unmodified Hit roll of 5+**.\n- When it shoots, each ranged weapon must target the closest enemy unit eligible for that weapon, measured from the attacking model. If two eligible enemy units are equally close, its controlling player chooses between them. A charge declared by the unit must include the closest eligible enemy unit, if one exists.\n- Models in the unit have **Feel No Pain 5+**.\n- Models in the unit have **Objective Control 0**.\n- **Worsen its Leadership characteristic by 1**.\n- It cannot be selected as the target of friendly Stratagems, unless the Stratagem explicitly allows targeting a Stupefied unit.\n\n**Fading Euphoria**\n\nAt the Battle-shock step of **your Command phase**, each friendly Stupefied unit takes a Leadership test separate from any Battle-shock test. On a pass, it ceases to be Stupefied.\n\n**Pain Brings Clarity**\n\nWhen a friendly Emperor's Children unit or an enemy unit within **6\"** of a friendly Stupefied Emperor's Children unit is destroyed, or when an enemy unit within **6\"** of it fails a Battle-shock test, that Stupefied unit can immediately take a Leadership test. On a pass, it ceases to be Stupefied. Measure distances to a destroyed unit immediately before its last model is removed.\n\nA unit **cannot** cease being Stupefied during the same phase in which it became Stupefied.",
+        "description": "\n\n**Perfect Execution**\n\nWhen a friendly Emperor's Children unit is selected to shoot or fight, if it is neither Obsessed, Enraptured nor Stupefied, you can select one eligible enemy unit as its Obsession. Your unit becomes Obsessed.\n\n**Obsessed**\n\nRe-roll Hit rolls of 1 and Wound rolls of 1 for attacks against this unit's Obsession. Each attack must target its Obsession if eligible, and each charge it declares must include its Obsession if eligible. A unit can have only one Obsession.\n\n**Surrender to Excess**\n\n- Immediately after this unit destroys its Obsession with its attacks, it ceases to be Obsessed and becomes Enraptured.\n- At the end of the turn, if its Obsession survives, this unit ceases to be Obsessed and becomes Stupefied.\n- If its Obsession is destroyed by another source or otherwise removed before this resolves, this unit ceases to be Obsessed.\n\nA unit can be in only one of these states at a time.\n\n**Enraptured**\n\n- Re-roll Hit rolls of 1 for this unit's attacks. If the target is within 12\" of the attacking model, you can re-roll the Hit roll instead.\n- This unit is eligible to shoot and declare a charge after Advancing or Falling Back.\n- Models in this unit have Feel No Pain 6+.\n- Worsen this unit's Leadership characteristic by 1.\n\n**Stupefied**\n\n- Re-roll Wound rolls of 1 for this unit's attacks. If the target is within 12\" of the attacking model, you can re-roll the Wound roll instead.\n- Models in this unit have Feel No Pain 5+ and Objective Control 0.\n- Worsen this unit's Leadership characteristic by 1.\n- This unit cannot be targeted by friendly Stratagems unless the Stratagem explicitly permits it.\n- Each attack must target the closest eligible enemy unit to this unit whenever possible. Measure between the closest models in the two units. Each charge it declares must include the closest eligible enemy unit.\n\n**Fading Euphoria**\n\nDuring the Battle-shock step of your Command phase, each friendly Enraptured or Stupefied unit must take a Leadership test. On a pass, it ceases to be Enraptured or Stupefied. On a failure, it remains in its current state.\n\n**Pain Brings Clarity**\n\nWhen any unit within 6\" of a friendly Enraptured or Stupefied unit is destroyed, or an enemy unit within 6\" of it fails a Battle-shock test, that friendly unit must take a Leadership test. Measure to a destroyed unit before removing its last model. On a pass, the testing unit ceases to be Enraptured or Stupefied. On a failure, it remains in its current state. Each unit can take this test only once per phase.",
         "hidden": false,
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "5, 6"
@@ -72031,6 +72916,24 @@
         "hidden": false,
         "name": "The Gilded Host — We Shall Not Yield / 1 CP",
         "description": "\n\n### When\n\nImmediately after an eligible unit fails a Battle-shock test.\n\n### Target\n\nOne friendly Emperor's Children Terminator, Flawless Blades, Dissonant Colossi or Noise Marines unit that failed the test, even if Battle-shocked.\n\n### Effect\n\nTreat that test as passed. Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit."
+      },
+      {
+        "id": "72cc-3774-ac91-e6c6",
+        "hidden": false,
+        "name": "Blades of Exquisite Pain — A Thousand Cuts / 1 CP",
+        "description": "\n\n### When\n\nYour Shooting phase or the Fight phase, when a friendly Emperor's Children unit is selected to shoot or fight.\n\n### Target\n\nThat unit.\n\n### Effect\n\nThe first time one of your unit's attacks would inflict damage on an enemy unit this phase, you can prevent up to 3 of that damage and place one Pain Token on that enemy unit for each point of damage prevented."
+      },
+      {
+        "id": "70d6-4dbe-4870-0742",
+        "hidden": false,
+        "name": "Blades of Exquisite Pain — Savour the Last Scream / 1 CP",
+        "description": "\n\n### When\n\nAny phase, just after an enemy unit with Pain Tokens is destroyed, before removing its last model.\n\n### Target\n\nOne other enemy unit within 6\" of the destroyed unit.\n\n### Effect\n\nTransfer up to 3 Pain Tokens from the destroyed unit to the target. Resolve any newly reached thresholds."
+      },
+      {
+        "id": "6ed7-b9e0-484b-ebd2",
+        "hidden": false,
+        "name": "Blades of Exquisite Pain — Welcome the Pain / 1 CP",
+        "description": "\n\n### When\n\nYour opponent's Shooting phase or the Fight phase, just after an enemy unit with at least 3 Pain Tokens selects its targets.\n\n### Target\n\nOne friendly Emperor's Children unit selected as a target of those attacks.\n\n### Effect\n\nRemove 3 Pain Tokens from the attacking unit. Until it finishes making its attacks, subtract 1 from Wound rolls for attacks that target your unit."
       },
       {
         "name": "Mercurial Host — Cruel Momentum / 1 CP",
