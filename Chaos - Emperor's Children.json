@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 54,
+    "revision": 55,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -47422,7 +47422,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 40
+            "value": 30
           }
         ],
         "profiles": [
@@ -47466,7 +47466,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "-"
+                "$text": "6+"
               }
             ]
           },
@@ -47685,7 +47685,7 @@
                               {
                                 "name": "InSv",
                                 "typeId": "55a7-5b54-c60d-11dc",
-                                "$text": "-"
+                                "$text": "6+"
                               }
                             ]
                           }
@@ -47792,7 +47792,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 35
+                    "value": 30
                   }
                 ],
                 "selectionEntryGroups": [
@@ -47889,7 +47889,7 @@
                               {
                                 "name": "InSv",
                                 "typeId": "55a7-5b54-c60d-11dc",
-                                "$text": "-"
+                                "$text": "6+"
                               }
                             ]
                           }
