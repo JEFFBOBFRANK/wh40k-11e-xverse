@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 56,
+    "revision": 57,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -1211,7 +1211,7 @@
                   {
                     "name": "The Art of Suffering",
                     "id": "56e7-dd41-c1df-5b93",
-                    "description": "\n\nWhen a friendly Emperor's Children unit is selected to fight, you can give its melee weapons [DEVASTATING WOUNDS] until it finishes making its attacks.\n\nEach time an attack made by a friendly Emperor's Children unit would inflict damage on an enemy unit through Devastating Wounds, prevent that damage and place one Pain Token on that enemy unit for each point of damage prevented. Pain Tokens remain until spent or the unit is destroyed.\n\n**Thresholds of Agony**\n\n- **3+ — Exposed Nerves:** Worsen armour saving throws made for that enemy unit by 1 against attacks made by friendly Emperor's Children units.\n- **6+ — Unbearable Agony:** Subtract 1 from Hit rolls for attacks made by that enemy unit. The first time it reaches 6 Pain Tokens each battle round, it must take a Battle-shock test.\n- **9+ — Agony Beyond Endurance:** Add 1 to Wound rolls for attacks made by friendly Emperor's Children units against that enemy unit. After a friendly Emperor's Children unit finishes resolving its attacks against an enemy unit with 9 or more Pain Tokens, the attacking unit can make a Normal or Fall Back move, as applicable. Each friendly unit can make this move only once per phase.\n\n**Pain Payments**\n\n- **Nerves Unstrung:** When an enemy unit is selected to fight, you can remove 3 Pain Tokens from it. Until the end of the phase, subtract 1 from the Damage characteristic of its melee weapons, to a minimum of 1.\n- **The Perfect Scream:** At the start of the Fight phase, you can remove 6 Pain Tokens from one enemy unit. Until the end of the phase, it cannot benefit from Fights First or be selected to fight until all eligible friendly Emperor's Children units have fought.\n- **Savour the Suffering:** When a friendly unit must take a Leadership test for Fading Euphoria or Pain Brings Clarity, you can remove 2 Pain Tokens from an enemy unit within 6\" of it. If you do, the friendly unit automatically fails that test.\n\n**Perfection Through Agony**\n\nAfter a friendly Flawless Blades unit finishes making its melee attacks, if it placed 6 or more Pain Tokens on its Obsession with those attacks, it becomes Enraptured.",
+                    "description": "\n\nWhen a friendly Emperor's Children unit is selected to fight, you can give its melee weapons [DEVASTATING WOUNDS] until it finishes making its attacks.\n\nEach time an attack made by a friendly Emperor's Children unit would inflict damage on an enemy unit through Devastating Wounds, prevent that damage and place one Pain Token on that enemy unit for each point of damage prevented. Pain Tokens remain until spent or the unit is destroyed.\n\n**Thresholds of Agony**\n\n- **3+ — Exposed Nerves:** Worsen armour saving throws made for that enemy unit by 1 against attacks made by friendly Emperor's Children units.\n- **6+ — Unbearable Agony:** Subtract 1 from Hit rolls for attacks made by that enemy unit. The first time it reaches 6 Pain Tokens each battle round, it must take a Battle-shock test.\n- **9+ — Agony Beyond Endurance:** Add 1 to Wound rolls for attacks made by friendly Emperor's Children units against that enemy unit. After a friendly Emperor's Children unit finishes resolving its attacks against an enemy unit with 9 or more Pain Tokens, the attacking unit can make a Normal or Fall Back move, as applicable. Each friendly unit can make this move only once per phase.\n\n**Pain Payments**\n\n- **Nerves Unstrung:** When an enemy unit is selected to fight, you can remove 3 Pain Tokens from it. Until the end of the phase, subtract 1 from the Damage characteristic of its melee weapons, to a minimum of 1.\n- **The Perfect Scream:** At the start of the Fight phase, you can remove 6 Pain Tokens from one enemy unit. Until the end of the phase, it cannot benefit from Fights First or be selected to fight until all eligible friendly Emperor's Children units have fought.\n- **Savour the Suffering:** When a friendly unit must take a Leadership test for Fading Euphoria or Pain Brings Clarity, you can remove 2 Pain Tokens from an enemy unit within 6\" of it. If you do, the friendly unit automatically fails that test.\n\n**Perfection Through Agony**\n\nAfter a friendly Flawless Blades unit finishes making its melee attacks, if it placed 6 or more Pain Tokens on its Obsession with those attacks, it becomes Enraptured.\n\nAt the end of the phase, while a friendly Flawless Blades unit is Enraptured, do not destroy a model in that unit as a result of its Daemonic Patrons ability.",
                     "hidden": false
                   }
                 ],
@@ -19315,7 +19315,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 15,
+            "value": 25,
             "conditionGroups": [
               {
                 "type": "and",
@@ -19327,7 +19327,7 @@
                     "repeats": 1,
                     "scope": "parent",
                     "type": "atLeast",
-                    "value": 1,
+                    "value": 2,
                     "conditions": [
                       {
                         "childId": "any",
@@ -55053,7 +55053,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 20,
+            "value": 25,
             "conditionGroups": [
               {
                 "type": "and",
@@ -58059,7 +58059,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 10,
+            "value": 15,
             "conditionGroups": [
               {
                 "type": "and",
@@ -63196,7 +63196,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 25,
+            "value": 50,
             "conditionGroups": [
               {
                 "type": "and",
@@ -64455,6 +64455,48 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 25,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "b255-36f5-f1db-3d4d",
+                        "childName": "Cacophant",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -65744,7 +65786,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 10,
+            "value": 20,
             "conditionGroups": [
               {
                 "type": "and",
@@ -69581,7 +69623,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 25
+            "value": 15
           },
           {
             "name": "Enhancements",
@@ -69657,7 +69699,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 15
+            "value": 10
           },
           {
             "name": "Enhancements",
@@ -69733,7 +69775,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 20
+            "value": 15
           },
           {
             "name": "Enhancements",
@@ -70837,7 +70879,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 20
+            "value": 10
           },
           {
             "name": "Enhancements",
@@ -70913,7 +70955,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 20
+            "value": 15
           },
           {
             "name": "Enhancements",
@@ -71027,7 +71069,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 25
+            "value": 15
           },
           {
             "name": "Enhancements",
@@ -71217,7 +71259,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 20
+            "value": 10
           },
           {
             "name": "Enhancements",
@@ -71241,7 +71283,7 @@
             "name": "Glassed Veins",
             "id": "76f2-c151-1636-efea",
             "hidden": false,
-            "description": "Non-DAEMON Emperor's Children CHARACTER. Re-roll one Leadership test made by the bearer's unit to cease being Stupefied per battle round."
+            "description": "Non-DAEMON Emperor's Children CHARACTER. Once per battle round, when the bearer's unit takes a Leadership test to cease being Stupefied, you can re-roll that test."
           }
         ]
       },
