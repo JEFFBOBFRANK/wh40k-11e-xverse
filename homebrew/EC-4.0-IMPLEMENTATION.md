@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 55 includes 58 datasheets and 14 detachments.
+Catalogue revision 56 includes 58 datasheets and 14 detachments.
 The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.

@@ -738,7 +738,7 @@ def migrate(catalogue, system):
     weapon_rules(units["Infractors"], system)
     edit_player_text(catalogue, units)
     format_leader_and_support(units, system)
-    catalogue["revision"] = 55
+    catalogue["revision"] = 56
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
