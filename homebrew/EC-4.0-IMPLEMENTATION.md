@@ -1,7 +1,7 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 53 includes 58 datasheets and 13 detachments. The five
-Phase 6 packages use the 4.0 master handoff. Thrill Seekers, Manifestation
+Catalogue revision 54 includes 58 datasheets and 14 detachments.
+The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
 
@@ -11,7 +11,12 @@ shows the stratagems for the selected detachments.
 | The Seductions of Slaanesh | Disruption, Take and Hold |
 | The Exalted Court | Priority Assets |
 | Combat Drugs | Purge the Foe |
+| Blades of Exquisite Pain | Purge the Foe |
 | The Gilded Host | Take and Hold |
+
+The November 13 playtest adds Blades of Exquisite Pain, Surgical
+Conditioning and the revised Martial Perfection. Pain Token conversion
+timing and competing effects on Leadership tests remain open for playtesting.
 
 Ritual Host and Carnival of Excess each allow Legions of Excess units up to
 half the battle size points limit. Both have Unique: DAEMON.

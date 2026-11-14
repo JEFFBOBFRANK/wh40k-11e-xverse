@@ -150,7 +150,7 @@ def apply_native_units(units):
             'Once per battle round, when another friendly Stupefied Emperor\'s Children Infantry unit within 6" of this model declares a charge, that unit can ignore the closest-target restriction from Stupefied and re-roll its Charge roll.')
 
     ability(units["Ramos"], "Deathless Chorus",
-            "While this model leads a Stupefied unit, when it shoots after Advancing or Falling Back, its ranged attacks use their normal Ballistic Skill instead of only hitting on unmodified Hit rolls of 5+.",
+            "While this model leads a Stupefied unit, that unit is eligible to shoot after Advancing or Falling Back.",
             previous="Deathless Chorus (Signature Elixir)")
 
     unit = units["Julius Kaesoron"]
@@ -281,7 +281,7 @@ def apply_native_units(units):
     ability(threnody, "Cacophonous Annihilation",
             'While this model is Stupefied, improve the AP of its ranged attacks against enemy units within 12" by 1.')
     ability(units["Cacophant"], "Predatory Crescendo",
-            "While this model is Stupefied, when selected to shoot it can overdrive its weapons. Until the end of the phase, its ranged weapons have Hazardous. If it Advanced or Fell Back, its ranged attacks use their normal Ballistic Skill instead of only hitting on unmodified Hit rolls of 5+.")
+            "While this model is Stupefied, it can overdrive its weapons when selected to shoot. It is eligible to shoot after Advancing or Falling Back if it overdrives its weapons. Until the end of the phase, its ranged weapons have Hazardous.")
     heldrake = units["Heldrake"]
     change_profiles(heldrake, {"Unit"}, M='14"', T="10", W="16", Sv="3+", InSv="5+", OC="0")
     change_profiles(heldrake, {"Ranged Weapons"}, "Sonic balespewer", A="6")
@@ -332,7 +332,7 @@ def apply_legions(catalogue, units):
 def apply_army_rules(catalogue, units):
     rules = catalogue["sharedRules"]
     rule = named(rules, "Combat Drugs")
-    rule["name"] = "Thrill Seekers"
+    rule["name"] = "The Pursuit of Perfection"
     obsolete = {named(rules, name)["id"] for name in ("Bound Excess", "Warband Elixirs")}
     for name, description in RULES["armyRules"].items():
         named(rules, name)["description"] = "\n\n" + description
@@ -345,7 +345,7 @@ def apply_army_rules(catalogue, units):
         if native:
             rule_link(unit, rule)
             unit["readme"] = re.sub(r"Army rules: (?:Combat Drugs|Bound Excess)",
-                                    "Army rules: Thrill Seekers", unit.get("readme", ""))
+                                    "Army rules: The Pursuit of Perfection", unit.get("readme", ""))
             unit["readme"] = re.sub(r" (?:Julius|Doomrider|This Prince) does not consume Combat Elixirs or become Stupefied\.", "", unit["readme"])
             unit["readme"] = re.sub(r" This Prince supplies its own elixir to another unit; it does not consume it or become Stupefied\.", "", unit["readme"])
             unit["readme"] = re.sub(r"\n\nBound Daemonic Body:.*?(?=\n\n|\Z)", "", unit["readme"], flags=re.S)
@@ -357,7 +357,7 @@ def apply_army_rules(catalogue, units):
         remove_profiles(unit, "Army Rules")
     refs = named(catalogue["sharedSelectionEntries"], "Army Rules and References")
     refs["infoLinks"] = [link for link in refs["infoLinks"] if link["targetId"] not in obsolete | {rule["id"]}]
-    for name in ("Thrill Seekers", "Manifestation", "Summoning Rituals"):
+    for name in ("The Pursuit of Perfection", "Manifestation", "Summoning Rituals"):
         rule_link(refs, named(catalogue["sharedRules"], name))
 
 
@@ -736,7 +736,7 @@ def migrate(catalogue, system):
     weapon_rules(units["Infractors"], system)
     edit_player_text(catalogue, units)
     format_leader_and_support(units, system)
-    catalogue["revision"] = 53
+    catalogue["revision"] = 54
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
