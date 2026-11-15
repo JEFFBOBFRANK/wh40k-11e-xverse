@@ -884,6 +884,16 @@ def apply_revision_59(catalogue):
     catalogue["revision"] = 59
 
 
+def apply_revision_60(catalogue):
+    fulgrim = named(catalogue["sharedSelectionEntries"], "Fulgrim")
+    ambrosia = named(fulgrim["profiles"], "Phoenician Ambrosia")["characteristics"][0]
+    ambrosia["$text"] = ambrosia["$text"].replace(
+        "Once per Fight phase, after this model fights,",
+        "After this model fights,",
+    )
+    catalogue["revision"] = 60
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -918,6 +928,7 @@ def migrate(catalogue, system):
     apply_revision_57(catalogue)
     apply_revision_58(catalogue)
     apply_revision_59(catalogue)
+    apply_revision_60(catalogue)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
