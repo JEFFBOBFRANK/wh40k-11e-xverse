@@ -75,6 +75,10 @@ Revision 69 records the Infractors' Icon of Excess as wargear on one regular
 Infractor in roster exports. In older squads with a squad-level icon, untick
 that icon and select it under an Infractor's wargear.
 
+Revision 70 uses the Tormentors' squad-level Icon of Excess control for
+Infractors. Its bearer picker accepts one regular Infractor. Existing
+model-level icon selections remain editable until removed.
+
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
 bolt pistols. The champion carries a screamer pistol with a plasma pistol

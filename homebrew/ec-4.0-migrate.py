@@ -1451,6 +1451,12 @@ def apply_revision_69(catalogue):
     catalogue["revision"] = 69
 
 
+def apply_revision_70(catalogue):
+    entries = catalogue["sharedSelectionEntries"]
+    restore_squad_wargear(entries, named(entries, "Infractors"), "Icon of Excess")
+    catalogue["revision"] = 70
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -1494,6 +1500,7 @@ def migrate(catalogue, system):
     apply_revision_67(catalogue)
     apply_revision_68(catalogue)
     apply_revision_69(catalogue)
+    apply_revision_70(catalogue)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
