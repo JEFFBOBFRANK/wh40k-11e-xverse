@@ -1027,6 +1027,100 @@ def apply_revision_62(catalogue):
     catalogue["revision"] = 62
 
 
+def assign_model_wargear(catalogue, unit, models, name, profile):
+    legacy = [node for node in walk(unit)
+              if node.get("type") == "upgrade" and node["name"] == name]
+    assert legacy, (unit["name"], name)
+    # Keep a saved unit-level selection visible until the player reassigns it.
+    for choice in legacy:
+        choice["hidden"] = True
+        choice["modifiers"] = [dict(
+            field="hidden", type="set", value=False,
+            conditions=[selection_count(unit, choice["id"], "atLeast", 1)],
+        )]
+        if not choice.get("profiles"):
+            legacy_profile = copy.deepcopy(profile)
+            legacy_profile["id"] = identifier(choice["id"] + ":ability")
+            choice["profiles"] = [legacy_profile]
+        choice["profiles"][0]["characteristics"][0]["$text"] = profile["characteristics"][0]["$text"]
+
+    target_id = identifier(unit["id"] + ":bearer:" + name)
+    target = dict(name=name, id=target_id, type="upgrade", hidden=False,
+                  profiles=[profile], constraints=[
+                      dict(id=identifier(target_id + ":limit"), type="max", value=1,
+                           field="selections", scope=unit["id"], shared=True,
+                           includeChildSelections=True),
+                  ])
+    catalogue["sharedSelectionEntries"].append(target)
+    legacy_selected = [selection_count(unit, choice["id"], "atLeast", 1) for choice in legacy]
+    for model in models:
+        link = dict(name=name, id=identifier(model["id"] + ":bearer:" + name),
+                    targetId=target_id, type="selectionEntry", hidden=False,
+                    modifiers=[dict(field="hidden", type="set", value=True,
+                                    conditionGroups=[dict(type="or", conditions=legacy_selected)])])
+        link["import"] = True
+        model.setdefault("entryLinks", []).append(link)
+
+
+def apply_revision_63(catalogue):
+    entries = catalogue["sharedSelectionEntries"]
+    fulgrim = named(entries, "Fulgrim")
+    ambrosia = named(fulgrim["profiles"], "Phoenician Ambrosia")["characteristics"][0]
+    for state, subtitle in (("Obsessed", "Perfect Precision"),
+                            ("Enraptured", "Ecstatic Slaughter"),
+                            ("Stupefied", "Unrestrained Savagery")):
+        ambrosia["$text"] = ambrosia["$text"].replace(
+            f"**{state} — {subtitle}**\n\n", f"**{state}**  \n",
+        )
+    ambrosia["$text"] = ambrosia["$text"].replace(
+        "Ecstatic Slaughter's additional attacks", "The additional attacks while Enraptured",
+    )
+    for unit in (fulgrim, named(entries, "Lucius the Eternal")):
+        for profile in unit["profiles"]:
+            if profile["typeName"] != "Abilities" or profile.get("hidden"):
+                continue
+            description = profile["characteristics"][0]
+            if description["$text"].startswith("**"):
+                # The viewer renders the first Markdown paragraph inline with the title.
+                description["$text"] = "\u200b  \n" + description["$text"]
+
+    for name in ("Infractors", "Tormentors"):
+        unit = named(entries, name)
+        options = [node for node in walk(unit)
+                   if node.get("type") == "upgrade" and node["name"] == "Icon of Excess"]
+        profile = copy.deepcopy(options[0]["profiles"][0])
+        profile["id"] = identifier(unit["id"] + ":bearer:icon-profile")
+        profile["characteristics"][0]["$text"] = 'While this unit contains the bearer, each time this unit destroys an enemy unit with its attacks, every enemy unit within 6" of this unit must take a Battle-shock test.'
+        model_name = "Infractor" if name == "Infractors" else None
+        models = [node for node in walk(unit) if node.get("type") == "model"
+                  and (model_name is None or node["name"] == model_name)]
+        assign_model_wargear(catalogue, unit, models, "Icon of Excess", profile)
+
+    unit = named(entries, "Daemonettes")
+    model = named(named(unit["selectionEntryGroups"], "Models")["selectionEntries"], "Daemonette")
+    original_links = len(model.get("entryLinks", []))
+    for choice, title, effect in (
+        ("Daemonic icon", "Daemonic Icon", "you can re-roll its initial Manifestation roll each time it is summoned."),
+        ("Instrument of Chaos", "Instrument of Chaos", "add 1 to its Charge rolls."),
+    ):
+        profile = named(unit["profiles"], title)
+        unit["profiles"].remove(profile)
+        profile["characteristics"][0]["$text"] = "While this unit contains the bearer, " + effect
+        assign_model_wargear(catalogue, unit, [model], choice, profile)
+    links = model["entryLinks"]
+    gear = dict(name="Bearer wargear", id=identifier(model["id"] + ":bearer-wargear"),
+                hidden=False, entryLinks=links[original_links:], constraints=[
+                    dict(id=identifier(model["id"] + ":bearer-limit"), type="max", value=1,
+                         scope="parent", field="selections", shared=True,
+                         includeChildSelections=False),
+                ])
+    del links[original_links:]
+    if not links:
+        del model["entryLinks"]
+    model.setdefault("selectionEntryGroups", []).append(gear)
+    catalogue["revision"] = 63
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -1063,6 +1157,7 @@ def migrate(catalogue, system):
     apply_revision_59(catalogue)
     apply_revision_60(catalogue)
     apply_revision_62(catalogue)
+    apply_revision_63(catalogue)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
