@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 58,
+    "revision": 59,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -3309,7 +3309,7 @@
             ]
           },
           {
-            "name": "Weapon ability: Daemonic Poisons - Serpentine tail",
+            "name": "Weapon Ability: Daemonic Poisons — Serpentine Tail",
             "id": "b767-8a38-8348-35ed",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -3318,7 +3318,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "After resolving attacks with this weapon, each enemy unit that suffered damage from those attacks is Poisoned until the end of the battle round. While a unit is Poisoned, subtract 1 from the Damage characteristic of weapons equipped by its models, to a minimum of 1."
+                "$text": "After resolving attacks with this weapon, each enemy unit that suffered damage from those attacks is Poisoned until the end of the phase. While a unit is Poisoned, subtract 1 from the Damage characteristic of melee weapons equipped by its models, to a minimum of 1."
               }
             ]
           },
