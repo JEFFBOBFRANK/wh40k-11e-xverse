@@ -1523,6 +1523,7 @@ def migrate(catalogue, system):
     apply_revision_70(catalogue)
     apply_revision_71(catalogue, system)
     apply_revision_72(catalogue, system)
+    catalogue["revision"] = 73
     system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
