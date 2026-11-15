@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 58 includes 58 datasheets and 14 detachments.
+Catalogue revision 59 includes 58 datasheets and 14 detachments.
 The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -29,14 +29,16 @@ Daemonic Patrons resolves at the end of the phase.
 
 Revision 58 updates Fulgrim, Julius, Eidolon, the Threnody Dreadnought
 and recovery abilities for The Pursuit of Perfection. Pain Brings Clarity
-cannot clear a state during the turn it began.
+cannot clear a state during the turn it began. The Threnody is Enraptured
+within range of its designated objective and Stupefied outside that range.
+
+Revision 59 updates Fulgrim's Daemonic Poisons. It lasts until the end
+of the phase and reduces the Damage of melee weapons by 1, to a minimum of 1.
 
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
 bolt pistols. The champion carries a screamer pistol with a plasma pistol
-option. Vhalyss remains 255. Threnody designates an objective
-when deployed, has OC 10 and cannot be Stupefied within its range, and is
-Stupefied outside its range. Awakening Chimes uses the 4.0 suspension rule.
+option. Vhalyss remains 255. Awakening Chimes uses the 4.0 suspension rule.
 
 ## Rebuild
 

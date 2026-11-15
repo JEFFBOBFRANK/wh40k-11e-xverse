@@ -871,6 +871,19 @@ While Enraptured or Stupefied, this model can attack with each Daemonic Blades p
     catalogue["revision"] = 58
 
 
+def apply_revision_59(catalogue):
+    fulgrim = named(catalogue["sharedSelectionEntries"], "Fulgrim")
+    ability(
+        fulgrim,
+        "Weapon Ability: Daemonic Poisons — Serpentine Tail",
+        "After resolving attacks with this weapon, each enemy unit that suffered damage from those attacks "
+        "is Poisoned until the end of the phase. While a unit is Poisoned, subtract 1 from the Damage "
+        "characteristic of melee weapons equipped by its models, to a minimum of 1.",
+        previous="Weapon ability: Daemonic Poisons - Serpentine tail",
+    )
+    catalogue["revision"] = 59
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -904,6 +917,7 @@ def migrate(catalogue, system):
     format_leader_and_support(units, system)
     apply_revision_57(catalogue)
     apply_revision_58(catalogue)
+    apply_revision_59(catalogue)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
