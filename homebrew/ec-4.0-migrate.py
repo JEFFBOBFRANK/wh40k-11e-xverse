@@ -1226,43 +1226,6 @@ def apply_revision_64(catalogue, system):
     catalogue["revision"] = 64
 
 
-def restore_squad_size_controls(unit, sizes):
-    newer_groups = [group for group in unit["selectionEntryGroups"]
-                    if group is not sizes and group["name"] != "Enhancements and Upgrades"]
-    newer_models = [model for model in unit.get("selectionEntries", [])
-                    if model.get("type") == "model"]
-    newer_models.extend(model for group in newer_groups for model in group["selectionEntries"])
-    use_newer = dict(type="or", conditions=[
-        selection_count(unit, model["id"], "atLeast", 1) for model in newer_models
-    ])
-    no_older_size = [selection_count(unit, size["id"], "equalTo", 0)
-                    for size in sizes["selectionEntries"]]
-    for node in [*newer_models, *newer_groups]:
-        node["hidden"] = True
-        if "defaultAmount" in node:
-            node["defaultAmount"] = 0
-        node["modifiers"] = [modifier for modifier in node.get("modifiers", [])
-                             if modifier["field"] != "hidden"]
-        active = dict(conditions=no_older_size, conditionGroups=[use_newer])
-        switches = [dict(field="hidden", type="set", value=False, **active)]
-        for limit in node.get("constraints", []):
-            if limit["type"] == "min" and limit["value"]:
-                switches.append(dict(field=limit["id"], type="set", value=limit["value"], **active))
-                limit["value"] = 0
-        node["modifiers"][:0] = switches
-
-    sizes["hidden"] = False
-    sizes["defaultSelectionEntryId"] = sizes["selectionEntries"][0]["id"]
-    minimum = next(c for c in sizes["constraints"] if c["type"] == "min")
-    minimum["value"] = 1
-    sizes["modifiers"] = [
-        dict(field="hidden", type="set", value=True,
-             conditions=no_older_size, conditionGroups=[use_newer]),
-        dict(field=minimum["id"], type="set", value=0,
-             conditions=no_older_size, conditionGroups=[use_newer]),
-    ]
-
-
 def restore_squad_wargear(entries, unit, name):
     squad_option = named(unit["selectionEntries"], name)
     saved_options = [entry for entry in walk(unit)
@@ -1293,11 +1256,6 @@ def restore_squad_wargear(entries, unit, name):
 
 def apply_revision_65(catalogue):
     entries = catalogue["sharedSelectionEntries"]
-    for unit in entries:
-        for group in unit.get("selectionEntryGroups", []):
-            if group["name"] == "Unit Size":
-                restore_squad_size_controls(unit, group)
-
     for name in ("Infractors", "Tormentors"):
         restore_squad_wargear(entries, named(entries, name), "Icon of Excess")
 
@@ -1320,6 +1278,108 @@ def apply_revision_65(catalogue):
         restore_squad_wargear(entries, unit, name)
 
     catalogue["revision"] = 65
+
+
+def add_bearer_pickers(entries):
+    for unit_name, gear_names, eligible in (
+        ("Infractors", {"Icon of Excess"}, "Infractor"),
+        ("Tormentors", {"Icon of Excess"}, None),
+        ("Daemonettes", {"Daemonic Icon", "Instrument of Chaos"}, "Daemonette"),
+    ):
+        unit = named(entries, unit_name)
+        models = [model for model in walk(unit)
+                  if model.get("type") == "model" and model.get("name") == eligible]
+        for gear in list(walk(unit)):
+            if gear.get("type") != "upgrade" or gear.get("name") not in gear_names:
+                continue
+            association = dict(
+                name="Instrument" if gear["name"] == "Instrument of Chaos" else "Icon",
+                id=identifier(gear["id"] + ":bearer"),
+                childId=models[0]["id"] if len(models) == 1 else "model",
+                includeChildSelections=True, min=1, max=1, scope=unit["id"],
+            )
+            if len(models) > 1:
+                association["conditionGroups"] = [dict(type="or", conditions=[
+                    dict(childId=model["id"], field="selections", scope="self",
+                         type="instanceOf", value=1, shared=True, includeChildSelections=False)
+                    for model in models
+                ])]
+            gear["associations"] = [association]
+
+
+def apply_revision_66(catalogue, system):
+    profiles = {
+        "Screamer pistol": ('12"', "3", "6", "-1", "2", "Close-Quarters"),
+        "Sonic blaster": ('18"', "3", "6", "-1", "2", ""),
+        "Twin sonic blaster": ('18"', "4", "6", "-1", "2", "Twin-linked"),
+        "Combi-weapon - sonic": ('18"', "4", "5", "-1", "1", "Assault"),
+        "Whisper carbine": ('18"', "2", "6", "-1", "1", ""),
+        "Blastmaster - varied frequency": ('18"', "6", "6", "-2", "1", "Blast 2"),
+        "Blastmaster - single frequency": ('18"', "3", "10", "-2", "3", "Blast 2"),
+        "Shriek cannon": ('24"', "4", "7", "-2", "2", "Precision"),
+        "Discord cannon - crescendo": ('24"', "8", "8", "-2", "2", "Blast 2"),
+        "Discord cannon - rupture": ('24"', "3", "14", "-3", "D3+3", "Blast 2"),
+        "Requiem cannon - crescendo": ('24"', "6", "9", "-2", "2", ""),
+        "Requiem cannon - rupture": ('24"', "2", "16", "-4", "D3+3", ""),
+        "Dreadblaster - crescendo": ('24"', "4", "8", "-2", "2", "Blast 2"),
+        "Dreadblaster - rupture": ('24"', "2", "14", "-3", "D3+3", ""),
+        "Resonance cannon - crescendo": ('24"', "4", "8", "-1", "2", "Blast 1"),
+        "Resonance cannon - rupture": ('24"', "2", "12", "-2", "3", "Blast 1"),
+        "Sonic destructor - crescendo": ('24"', "4", "8", "-1", "2", "Blast 2"),
+        "Sonic destructor - rupture": ('36"', "2", "14", "-3", "D3+3", ""),
+        "Sonic balespewer": ('18"', "6", "10", "-2", "2", "Torrent"),
+        "Cathedral sonic immolator": ('18"', "8", "12", "-2", "3", "Torrent"),
+        "Grand vox array": ('24"', "10", "6", "-1", "2", "Blast 1"),
+    }
+    sonic_without_new_stats = {"Death Scream", "The Eighth's Refrain", "First Scream"}
+    entries = catalogue["sharedSelectionEntries"]
+    raider = named(entries, "Chaos Land Raider")
+    ghosts = named(entries, "Ghosts")
+    # Retain selection and profile IDs for existing two-cannon loadouts.
+    for node in walk(raider):
+        for field in ("name", "description", "readme", "$text"):
+            if field not in node:
+                continue
+            node[field] = node[field].replace("Cathedral annihilator", "Requiem cannon")
+            node[field] = node[field].replace("cathedral annihilator", "requiem cannon")
+    ghosts["infoLinks"] = [link for link in ghosts["infoLinks"] if link["name"] != "Stealth"]
+    for node in walk(ghosts):
+        for field in ("description", "readme", "$text"):
+            if field in node:
+                node[field] = node[field].replace("Infiltrators, Stealth", "Infiltrators")
+
+    blast_id = named(system["sharedRules"], "Blast")["id"]
+    for node in list(walk(catalogue)):
+        ranged = [p for p in node.get("profiles", []) if p["typeName"] == "Ranged Weapons"]
+        changed = False
+        for profile in ranged:
+            name = profile["name"]
+            characteristics = {c["name"]: c for c in profile["characteristics"]}
+            if name in profiles:
+                distance, attacks, strength, ap, damage, keywords = profiles[name]
+                for field, value in zip(("Range", "A", "S", "AP", "D"),
+                                        (distance, attacks, strength, ap, damage)):
+                    characteristics[field]["$text"] = value
+                keywords = keywords.split(", ") if keywords else []
+                keywords.append("Ignores Cover")
+            elif name.split(" - ", 1)[0] in sonic_without_new_stats:
+                keywords = [keyword for keyword in characteristics["Keywords"]["$text"].split(", ")
+                            if not keyword.casefold().startswith("blast")]
+            else:
+                continue
+            characteristics["Keywords"]["$text"] = ", ".join(keywords)
+            changed = True
+        if changed:
+            if not any("blast" in named(p["characteristics"], "Keywords")["$text"].casefold()
+                       for p in ranged):
+                node["infoLinks"] = [link for link in node.get("infoLinks", [])
+                                     if link["targetId"] != blast_id]
+            weapon_rules(node, system)
+
+    rule_link(named(entries, "Army Rules and References"),
+              named(catalogue["sharedRules"], "Sonic Weapons"))
+    add_bearer_pickers(entries)
+    catalogue["revision"] = 66
 
 
 def migrate(catalogue, system):
@@ -1361,6 +1421,7 @@ def migrate(catalogue, system):
     apply_revision_63(catalogue)
     apply_revision_64(catalogue, system)
     apply_revision_65(catalogue)
+    apply_revision_66(catalogue, system)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."

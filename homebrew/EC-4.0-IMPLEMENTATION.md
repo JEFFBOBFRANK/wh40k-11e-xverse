@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 65 includes 58 datasheets and 14 detachments.
+Catalogue revision 66 includes 58 datasheets and 14 detachments.
 The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -56,6 +56,13 @@ Revision 65 restores the earlier Unit Size and specialist controls for new
 units. Icon of Excess, Daemonic Icon and Instrument of Chaos appear at squad
 level, following the Legionaries' Chaos icon layout. Saved model and wargear
 selections from the previous layouts can still be opened.
+
+Revision 66 updates the sonic arsenal and replaces the Land Raider's
+Cathedral annihilators with Requiem cannons. Fresh variable-size squads
+use direct model counters. The squad-level icon and instrument options
+open a picker for models already selected in the squad. Playtest the
+Requiem cannon's anti-armour output and the Cathedral sonic immolator's
+Torrent damage.
 
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
