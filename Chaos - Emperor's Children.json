@@ -31739,6 +31739,31 @@
                                     ]
                                   }
                                 ]
+                              },
+                              {
+                                "field": "hidden",
+                                "type": "set",
+                                "value": true,
+                                "conditions": [
+                                  {
+                                    "childId": "1231-f70f-ef73-cb06",
+                                    "field": "selections",
+                                    "scope": "f75b-de8c-df19-ed03",
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "shared": true,
+                                    "includeChildSelections": true
+                                  },
+                                  {
+                                    "childId": "71ce-7b5e-c835-3b70",
+                                    "field": "selections",
+                                    "scope": "parent",
+                                    "type": "equalTo",
+                                    "value": 0,
+                                    "shared": true,
+                                    "includeChildSelections": true
+                                  }
+                                ]
                               }
                             ],
                             "import": true
@@ -32666,6 +32691,31 @@
                                         "includeChildSelections": true
                                       }
                                     ]
+                                  }
+                                ]
+                              },
+                              {
+                                "field": "hidden",
+                                "type": "set",
+                                "value": true,
+                                "conditions": [
+                                  {
+                                    "childId": "1231-f70f-ef73-cb06",
+                                    "field": "selections",
+                                    "scope": "f75b-de8c-df19-ed03",
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "shared": true,
+                                    "includeChildSelections": true
+                                  },
+                                  {
+                                    "childId": "90c4-3fcd-d29c-5e17",
+                                    "field": "selections",
+                                    "scope": "parent",
+                                    "type": "equalTo",
+                                    "value": 0,
+                                    "shared": true,
+                                    "includeChildSelections": true
                                   }
                                 ]
                               }
@@ -33731,6 +33781,31 @@
                             "includeChildSelections": true
                           }
                         ]
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "1231-f70f-ef73-cb06",
+                        "field": "selections",
+                        "scope": "f75b-de8c-df19-ed03",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "4fa2-fdf7-c6e5-6868",
+                        "field": "selections",
+                        "scope": "parent",
+                        "type": "equalTo",
+                        "value": 0,
+                        "shared": true,
+                        "includeChildSelections": true
                       }
                     ]
                   }
