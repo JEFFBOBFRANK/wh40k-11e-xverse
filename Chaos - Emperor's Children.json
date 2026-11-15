@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 63,
+    "revision": 64,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -6410,7 +6410,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D6"
+                    "$text": "D3+2"
                   },
                   {
                     "name": "Keywords",
@@ -6454,7 +6454,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D6"
+                    "$text": "D3+2"
                   },
                   {
                     "name": "Keywords",
@@ -17820,7 +17820,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "4"
+                    "$text": "2"
                   },
                   {
                     "name": "BS",
@@ -17845,7 +17845,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "RAPID FIRE 2"
+                    "$text": "Rapid Fire 2"
                   }
                 ]
               }
@@ -35489,7 +35489,7 @@
                                   {
                                     "name": "D",
                                     "typeId": "a354-c1c8-a745-f9e3",
-                                    "$text": "D6"
+                                    "$text": "D3+2"
                                   },
                                   {
                                     "name": "Keywords",
@@ -37099,7 +37099,7 @@
                                   {
                                     "name": "D",
                                     "typeId": "a354-c1c8-a745-f9e3",
-                                    "$text": "D6"
+                                    "$text": "D3+2"
                                   },
                                   {
                                     "name": "Keywords",
@@ -38240,7 +38240,7 @@
                           {
                             "name": "D",
                             "typeId": "a354-c1c8-a745-f9e3",
-                            "$text": "D6"
+                            "$text": "D3+2"
                           },
                           {
                             "name": "Keywords",
@@ -43438,17 +43438,229 @@
             ],
             "selectionEntries": [
               {
+                "name": "Alluress",
+                "id": "5381-a422-122a-906d",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "defaultAmount": 1,
+                "constraints": [
+                  {
+                    "id": "808d-e3ee-f58e-fe1b",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "70ae-069c-3c81-11c4",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Alluress",
+                    "id": "abf1-478f-c7cb-0b9a",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "hidden": false,
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "8\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "7+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "7+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "5+"
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Slashing claws",
+                    "id": "7cd6-b084-6c9d-800b",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "constraints": [
+                      {
+                        "id": "beee-5871-8e26-74fe",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "cdea-a3f8-edd6-5991",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "defaultAmount": 1,
+                    "profiles": [
+                      {
+                        "name": "Slashing claws",
+                        "id": "a961-1ab1-2846-f11f",
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "hidden": false,
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-1"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Devastating Wounds"
+                          }
+                        ]
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "aa22-7208-de76-2367",
+                        "name": "Devastating Wounds",
+                        "type": "rule",
+                        "targetId": "be1e-ac8e-1e2c-3528",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
+                "sortIndex": 0,
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "field": "808d-e3ee-f58e-fe1b",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "f0a1-e2c1-bc11-3ced",
+                        "field": "selections",
+                        "scope": "33f6-f78f-ace5-e1c5",
+                        "type": "atLeast",
+                        "value": 10,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "5381-a422-122a-906d",
+                        "field": "selections",
+                        "scope": "33f6-f78f-ace5-e1c5",
+                        "type": "equalTo",
+                        "value": 0,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "field": "hidden",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "f0a1-e2c1-bc11-3ced",
+                        "field": "selections",
+                        "scope": "33f6-f78f-ace5-e1c5",
+                        "type": "atLeast",
+                        "value": 10,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "5381-a422-122a-906d",
+                        "field": "selections",
+                        "scope": "33f6-f78f-ace5-e1c5",
+                        "type": "equalTo",
+                        "value": 0,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "name": "Daemonette",
                 "id": "f0a1-e2c1-bc11-3ced",
                 "type": "model",
                 "hidden": false,
                 "import": true,
-                "defaultAmount": 10,
+                "defaultAmount": 9,
                 "constraints": [
                   {
                     "id": "db43-5e04-16e2-152f",
                     "type": "min",
-                    "value": 10,
+                    "value": 9,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -43457,7 +43669,7 @@
                   {
                     "id": "7093-9dc8-9a35-5f1d",
                     "type": "max",
-                    "value": 10,
+                    "value": 9,
                     "scope": "33f6-f78f-ace5-e1c5",
                     "field": "selections",
                     "shared": true,
@@ -43597,12 +43809,12 @@
                 ],
                 "selectionEntryGroups": [
                   {
-                    "name": "Bearer wargear",
+                    "name": "Wargear",
                     "id": "4781-0a20-4fe7-c49e",
                     "hidden": false,
                     "entryLinks": [
                       {
-                        "name": "Daemonic icon",
+                        "name": "Daemonic Icon",
                         "id": "81a5-ccb6-d9c5-c0f6",
                         "targetId": "99d2-e528-333f-6940",
                         "type": "selectionEntry",
@@ -43674,16 +43886,77 @@
                         "shared": true,
                         "includeChildSelections": false
                       }
+                    ],
+                    "flatten": true
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "append",
+                    "field": "name",
+                    "value": "with Daemonic Icon",
+                    "conditions": [
+                      {
+                        "childId": "81a5-ccb6-d9c5-c0f6",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "append",
+                    "field": "name",
+                    "value": "with Instrument of Chaos",
+                    "conditions": [
+                      {
+                        "childId": "31ae-1334-4fee-5389",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "field": "7093-9dc8-9a35-5f1d",
+                    "value": 10,
+                    "conditions": [
+                      {
+                        "childId": "f0a1-e2c1-bc11-3ced",
+                        "field": "selections",
+                        "scope": "33f6-f78f-ace5-e1c5",
+                        "type": "atLeast",
+                        "value": 10,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "5381-a422-122a-906d",
+                        "field": "selections",
+                        "scope": "33f6-f78f-ace5-e1c5",
+                        "type": "equalTo",
+                        "value": 0,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
                     ]
                   }
-                ]
+                ],
+                "sortIndex": 1
               }
             ]
           }
         ],
         "selectionEntries": [
           {
-            "name": "Daemonic icon",
+            "name": "Daemonic Icon",
             "id": "6cf5-7913-ddf6-77fa",
             "type": "upgrade",
             "hidden": true,
@@ -46991,7 +47264,7 @@
                         ]
                       },
                       {
-                        "name": "Combi-weapon - plasma",
+                        "name": "Combi-weapon - Purgatus",
                         "id": "3a52-9f8a-a8ee-4db4",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -47035,7 +47308,7 @@
                         ]
                       },
                       {
-                        "name": "Combi-weapon - melta",
+                        "name": "Combi-weapon - Damnatus",
                         "id": "1748-4820-7b3b-3eaa",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -47379,7 +47652,7 @@
                         ]
                       },
                       {
-                        "name": "Combi-weapon - plasma",
+                        "name": "Combi-weapon - Purgatus",
                         "id": "b656-12c7-eb47-2f18",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -47423,7 +47696,7 @@
                         ]
                       },
                       {
-                        "name": "Combi-weapon - melta",
+                        "name": "Combi-weapon - Damnatus",
                         "id": "341c-57e7-991e-5b57",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -59300,7 +59573,7 @@
                                     ]
                                   },
                                   {
-                                    "name": "Combi-weapon - plasma",
+                                    "name": "Combi-weapon - Purgatus",
                                     "id": "d924-b609-82a0-7e6d",
                                     "typeId": "f77d-b953-8fa4-b762",
                                     "typeName": "Ranged Weapons",
@@ -59344,7 +59617,7 @@
                                     ]
                                   },
                                   {
-                                    "name": "Combi-weapon - melta",
+                                    "name": "Combi-weapon - Damnatus",
                                     "id": "dbde-5373-df8f-ef9b",
                                     "typeId": "f77d-b953-8fa4-b762",
                                     "typeName": "Ranged Weapons",
@@ -59914,7 +60187,7 @@
                                 ]
                               },
                               {
-                                "name": "Combi-weapon - plasma",
+                                "name": "Combi-weapon - Purgatus",
                                 "id": "8599-283a-c036-60f1",
                                 "typeId": "f77d-b953-8fa4-b762",
                                 "typeName": "Ranged Weapons",
@@ -59958,7 +60231,7 @@
                                 ]
                               },
                               {
-                                "name": "Combi-weapon - melta",
+                                "name": "Combi-weapon - Damnatus",
                                 "id": "de0c-731b-45de-20b7",
                                 "typeId": "f77d-b953-8fa4-b762",
                                 "typeName": "Ranged Weapons",
@@ -60424,7 +60697,7 @@
                                     ]
                                   },
                                   {
-                                    "name": "Combi-weapon - plasma",
+                                    "name": "Combi-weapon - Purgatus",
                                     "id": "17c6-9366-0250-5a24",
                                     "typeId": "f77d-b953-8fa4-b762",
                                     "typeName": "Ranged Weapons",
@@ -60468,7 +60741,7 @@
                                     ]
                                   },
                                   {
-                                    "name": "Combi-weapon - melta",
+                                    "name": "Combi-weapon - Damnatus",
                                     "id": "270e-6b21-3eb4-07f8",
                                     "typeId": "f77d-b953-8fa4-b762",
                                     "typeName": "Ranged Weapons",
@@ -61038,7 +61311,7 @@
                                 ]
                               },
                               {
-                                "name": "Combi-weapon - plasma",
+                                "name": "Combi-weapon - Purgatus",
                                 "id": "076d-81e9-c27a-88c9",
                                 "typeId": "f77d-b953-8fa4-b762",
                                 "typeName": "Ranged Weapons",
@@ -61082,7 +61355,7 @@
                                 ]
                               },
                               {
-                                "name": "Combi-weapon - melta",
+                                "name": "Combi-weapon - Damnatus",
                                 "id": "eea9-b224-1aa0-bfe1",
                                 "typeId": "f77d-b953-8fa4-b762",
                                 "typeName": "Ranged Weapons",
@@ -61783,7 +62056,7 @@
                         ]
                       },
                       {
-                        "name": "Combi-weapon - plasma",
+                        "name": "Combi-weapon - Purgatus",
                         "id": "4386-8980-0548-a404",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -61827,7 +62100,7 @@
                         ]
                       },
                       {
-                        "name": "Combi-weapon - melta",
+                        "name": "Combi-weapon - Damnatus",
                         "id": "a07b-b7ea-e907-5aa7",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -62315,7 +62588,7 @@
                         ]
                       },
                       {
-                        "name": "Combi-weapon - plasma",
+                        "name": "Combi-weapon - Purgatus",
                         "id": "4383-2f6d-bbdf-91d9",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -62359,7 +62632,7 @@
                         ]
                       },
                       {
-                        "name": "Combi-weapon - melta",
+                        "name": "Combi-weapon - Damnatus",
                         "id": "1a6a-a021-75a5-3442",
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -65454,7 +65727,7 @@
                     ]
                   },
                   {
-                    "name": "Combi-weapon - plasma",
+                    "name": "Combi-weapon - Purgatus",
                     "id": "a63b-0de6-fe66-006d",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
@@ -65498,7 +65771,7 @@
                     ]
                   },
                   {
-                    "name": "Combi-weapon - melta",
+                    "name": "Combi-weapon - Damnatus",
                     "id": "72df-43fc-7f6f-6c6a",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
@@ -68709,12 +68982,12 @@
                       {
                         "name": "S",
                         "typeId": "2229-f494-25db-c5d3",
-                        "$text": "9"
+                        "$text": "10"
                       },
                       {
                         "name": "AP",
                         "typeId": "9ead-8a10-520-de15",
-                        "$text": "-4"
+                        "$text": "-3"
                       },
                       {
                         "name": "D",
@@ -68724,7 +68997,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Melta 2"
+                        "$text": "Melta 3"
                       }
                     ]
                   },
@@ -68758,7 +69031,7 @@
                       {
                         "name": "AP",
                         "typeId": "9ead-8a10-520-de15",
-                        "$text": "-4"
+                        "$text": "-3"
                       },
                       {
                         "name": "D",
@@ -68768,7 +69041,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Melta 2, Hunter: Monster/Vehicle"
+                        "$text": "Melta 3, Hunter: Monster/Vehicle"
                       }
                     ]
                   }
@@ -69013,7 +69286,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "2"
+                        "$text": "1"
                       },
                       {
                         "name": "BS",
@@ -69086,7 +69359,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "6"
+                        "$text": "3"
                       },
                       {
                         "name": "BS",
@@ -69096,7 +69369,7 @@
                       {
                         "name": "S",
                         "typeId": "2229-f494-25db-c5d3",
-                        "$text": "6"
+                        "$text": "5"
                       },
                       {
                         "name": "AP",
@@ -69111,7 +69384,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Sustained Hits 1, Twin-linked"
+                        "$text": "Rapid Fire 2, Sustained Hits 1, Twin-linked"
                       }
                     ]
                   }
@@ -69129,6 +69402,13 @@
                     "name": "Sustained Hits",
                     "type": "rule",
                     "targetId": "1897-c22c-9597-12b1",
+                    "hidden": false
+                  },
+                  {
+                    "id": "56ad-347f-1998-a48a",
+                    "name": "Rapid Fire",
+                    "targetId": "c5c8-8b58-b8b6-7786",
+                    "type": "rule",
                     "hidden": false
                   }
                 ]
@@ -69320,7 +69600,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -69330,7 +69610,7 @@
                           {
                             "name": "S",
                             "typeId": "2229-f494-25db-c5d3",
-                            "$text": "6"
+                            "$text": "5"
                           },
                           {
                             "name": "AP",
@@ -69345,7 +69625,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Torrent, Blast 1, Ignores Cover"
+                            "$text": "Blast 2, Torrent"
                           }
                         ]
                       }
@@ -69356,13 +69636,6 @@
                         "name": "Blast",
                         "type": "rule",
                         "targetId": "6c1f-1cf7-ff25-c99e",
-                        "hidden": false
-                      },
-                      {
-                        "id": "ca30-df7d-e0ac-3737",
-                        "name": "Ignores Cover",
-                        "type": "rule",
-                        "targetId": "4640-43e7-30b-215a",
                         "hidden": false
                       },
                       {
@@ -69728,7 +70001,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -69738,7 +70011,7 @@
                           {
                             "name": "S",
                             "typeId": "2229-f494-25db-c5d3",
-                            "$text": "6"
+                            "$text": "5"
                           },
                           {
                             "name": "AP",
@@ -69753,7 +70026,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Torrent, Blast 1, Ignores Cover"
+                            "$text": "Blast 2, Torrent"
                           }
                         ]
                       }
@@ -69764,13 +70037,6 @@
                         "name": "Blast",
                         "type": "rule",
                         "targetId": "6c1f-1cf7-ff25-c99e",
-                        "hidden": false
-                      },
-                      {
-                        "id": "fafe-81a3-00d2-2f0e",
-                        "name": "Ignores Cover",
-                        "type": "rule",
-                        "targetId": "4640-43e7-30b-215a",
                         "hidden": false
                       },
                       {
@@ -69817,7 +70083,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "6"
+                        "$text": "4"
                       },
                       {
                         "name": "BS",
@@ -69827,7 +70093,7 @@
                       {
                         "name": "S",
                         "typeId": "2229-f494-25db-c5d3",
-                        "$text": "5"
+                        "$text": "4"
                       },
                       {
                         "name": "AP",
@@ -70625,7 +70891,7 @@
                           {
                             "name": "S",
                             "typeId": "2229-f494-25db-c5d3",
-                            "$text": "6"
+                            "$text": "5"
                           },
                           {
                             "name": "AP",
@@ -70640,7 +70906,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Sustained Hits 1"
+                            "$text": "Rapid Fire 2, Sustained Hits 1"
                           }
                         ]
                       }
@@ -70651,6 +70917,13 @@
                         "name": "Sustained Hits",
                         "type": "rule",
                         "targetId": "1897-c22c-9597-12b1",
+                        "hidden": false
+                      },
+                      {
+                        "id": "8263-205a-ad8a-a67d",
+                        "name": "Rapid Fire",
+                        "targetId": "c5c8-8b58-b8b6-7786",
+                        "type": "rule",
                         "hidden": false
                       }
                     ]
@@ -70945,7 +71218,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "2"
+                        "$text": "1"
                       },
                       {
                         "name": "BS",
@@ -73105,7 +73378,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "6"
+                        "$text": "4"
                       },
                       {
                         "name": "BS",
@@ -73130,9 +73403,18 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "-"
+                        "$text": "Rapid Fire 2"
                       }
                     ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "1847-27d6-632a-0e0a",
+                    "name": "Rapid Fire",
+                    "targetId": "c5c8-8b58-b8b6-7786",
+                    "type": "rule",
+                    "hidden": false
                   }
                 ]
               },
@@ -73169,7 +73451,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "2"
+                        "$text": "1"
                       },
                       {
                         "name": "BS",
@@ -73432,7 +73714,7 @@
                           {
                             "name": "S",
                             "typeId": "2229-f494-25db-c5d3",
-                            "$text": "6"
+                            "$text": "5"
                           },
                           {
                             "name": "AP",
@@ -73729,7 +74011,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "3"
+                        "$text": "D6"
                       },
                       {
                         "name": "BS",
@@ -75116,7 +75398,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "6"
+                        "$text": "3"
                       },
                       {
                         "name": "BS",
@@ -75126,7 +75408,7 @@
                       {
                         "name": "S",
                         "typeId": "2229-f494-25db-c5d3",
-                        "$text": "6"
+                        "$text": "5"
                       },
                       {
                         "name": "AP",
@@ -75141,7 +75423,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Sustained Hits 1, Twin-linked"
+                        "$text": "Rapid Fire 2, Sustained Hits 1, Twin-linked"
                       }
                     ]
                   }
@@ -75159,6 +75441,13 @@
                     "name": "Sustained Hits",
                     "type": "rule",
                     "targetId": "1897-c22c-9597-12b1",
+                    "hidden": false
+                  },
+                  {
+                    "id": "a5fd-59bd-d668-8f9f",
+                    "name": "Rapid Fire",
+                    "targetId": "c5c8-8b58-b8b6-7786",
+                    "type": "rule",
                     "hidden": false
                   }
                 ]
@@ -75321,12 +75610,12 @@
                       {
                         "name": "S",
                         "typeId": "2229-f494-25db-c5d3",
-                        "$text": "9"
+                        "$text": "10"
                       },
                       {
                         "name": "AP",
                         "typeId": "9ead-8a10-520-de15",
-                        "$text": "-4"
+                        "$text": "-3"
                       },
                       {
                         "name": "D",
@@ -75336,7 +75625,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Melta 2"
+                        "$text": "Melta 3"
                       }
                     ]
                   },
@@ -75370,7 +75659,7 @@
                       {
                         "name": "AP",
                         "typeId": "9ead-8a10-520-de15",
-                        "$text": "-4"
+                        "$text": "-3"
                       },
                       {
                         "name": "D",
@@ -75380,7 +75669,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Melta 2, Hunter: Monster/Vehicle"
+                        "$text": "Melta 3, Hunter: Monster/Vehicle"
                       }
                     ]
                   }
@@ -75456,7 +75745,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "3"
+                        "$text": "D6"
                       },
                       {
                         "name": "BS",
@@ -75913,7 +76202,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "8"
+                        "$text": "6"
                       },
                       {
                         "name": "BS",
@@ -75923,7 +76212,7 @@
                       {
                         "name": "S",
                         "typeId": "2229-f494-25db-c5d3",
-                        "$text": "9"
+                        "$text": "8"
                       },
                       {
                         "name": "AP",
@@ -75933,7 +76222,7 @@
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "3"
+                        "$text": "2"
                       },
                       {
                         "name": "Keywords",
@@ -78483,7 +78772,7 @@
         ]
       },
       {
-        "name": "Daemonic icon",
+        "name": "Daemonic Icon",
         "id": "99d2-e528-333f-6940",
         "type": "upgrade",
         "hidden": false,
