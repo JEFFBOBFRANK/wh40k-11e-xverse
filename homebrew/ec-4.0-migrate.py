@@ -766,6 +766,111 @@ def apply_revision_57(catalogue):
     catalogue["revision"] = 57
 
 
+def apply_revision_58(catalogue):
+    entries = catalogue["sharedSelectionEntries"]
+    revised_abilities = {
+        "Fulgrim": {
+            "Sovereign of Sensation": (
+                "Once per battle round, when this model would become Enraptured or Stupefied, "
+                "you can choose for it to enter the other state or neither state instead."
+            ),
+            "Phoenician Ambrosia": """**Obsessed — Perfect Precision**
+
+Each time this model makes an attack with its Daemonic Blades against its Obsession, an unmodified Hit roll of 5+ scores a Critical Hit.
+
+**Enraptured — Ecstatic Slaughter**
+
+Once per Fight phase, after this model fights, it can make an additional Pile-in move of up to 3", even if it is in base-to-base contact with an enemy model. When doing so, it can move towards any enemy unit instead of the closest enemy model. After this move, this model can make attacks with the Daemonic Blades profile it did not use during its first fight this phase.
+
+**Stupefied — Unrestrained Savagery**
+
+Each time this model fights, it can make attacks with both profiles of its Daemonic Blades (Strike and Sweep).
+
+**Attack restrictions**
+
+While Enraptured or Stupefied, this model can attack with each Daemonic Blades profile and its Serpentine Tail only once per Fight phase, even if another rule allows it to fight again. Ecstatic Slaughter's additional attacks are made only by this model and do not count as fighting again.""",
+        },
+        "Julius Kaesoron": {
+            "Gifts of the Favoured Son": (
+                'At the end of your Command phase, select one other friendly Emperor\'s Children unit within 6" '
+                "of this model. That unit can either become Enraptured or cease to be Stupefied "
+                "without taking a Leadership test."
+            ),
+        },
+        "Eidolon": {
+            "Lord Commander Primus": (
+                'Once per battle round, when another friendly Emperor\'s Children Infantry unit within 6" of '
+                "this model declares a charge, that unit can re-roll its Charge roll. If that unit is Stupefied, "
+                "it can also ignore the closest-target restriction of that state for that charge."
+            ),
+        },
+        "Threnody Dreadnought": {
+            "Interred in Rapture": (
+                "When this model is set up during deployment, select one objective marker on the battlefield. "
+                "While this model is within range of that marker, it is Enraptured. Otherwise, it is Stupefied. "
+                "This model cannot become Obsessed or cease to be Enraptured or Stupefied except as specified "
+                "by this ability."
+            ),
+        },
+    }
+    for unit_name, abilities in revised_abilities.items():
+        for name, description in abilities.items():
+            ability(named(entries, unit_name), name, description, previous=name)
+
+    for unit_name, name, original in (
+        ("Lord Exultant in Terminator Armour", "Unbroken Arrogance", "cease being Stupefied"),
+        ("Chirurgeon", "Controlled Overdose", "cease being Stupefied"),
+        ("Idol of Sublime Perfection", "Fed by Suffering", "ceased to be Stupefied"),
+        ("Herald of Excess", "Procession of Sensation (Aura)", "ends Stupefied"),
+    ):
+        profile = named(named(entries, unit_name)["profiles"], name)["characteristics"][0]
+        assert original in profile["$text"], name
+        profile["$text"] = profile["$text"].replace(original, original.replace("Stupefied", "Enraptured or Stupefied"))
+    glassed = named(named(entries, "Glassed Veins")["rules"], "Glassed Veins")
+    glassed["description"] = glassed["description"].replace(
+        "cease being Stupefied", "cease being Enraptured or Stupefied"
+    )
+
+    pursuit = named(catalogue["sharedRules"], "The Pursuit of Perfection")
+    pursuit["description"] = pursuit["description"].replace(
+        "A unit can be in only one of these states at a time.",
+        "When a unit enters one of these states, it ceases to be in any other of these states.",
+    )
+    pursuit["description"] += (
+        " Pain Brings Clarity cannot cause a unit to cease being Enraptured or Stupefied "
+        "during the turn in which it entered that state."
+    )
+
+    for detachment, names in (
+        ("The Exalted Court", ("By Royal Command", "Reassignment of Honour")),
+        ("The Theatre of Excess", ("Steal the Spotlight", "Stolen Ovation", "The Final Bow")),
+    ):
+        for name in names:
+            prefix = f"{detachment} — {name} / "
+            strat = next(rule for rule in catalogue["sharedRules"] if rule["name"].startswith(prefix))
+            target, effect = strat["description"].split("\n\n### Effect", 1)
+            strat["description"] = (
+                target + " You can target that friendly unit with this Stratagem even if it is Stupefied."
+                "\n\n### Effect" + effect
+            )
+
+    group = named(named(entries, "Detachment")["selectionEntryGroups"], "Detachment")
+    detachments = group["selectionEntries"]
+    blades = named(named(detachments, "Blades of Exquisite Pain")["rules"], "The Art of Suffering")
+    blades["description"] = blades["description"].replace(
+        "on its Obsession with those attacks, it becomes Enraptured.",
+        "on its Obsession with those attacks, it ceases to be Obsessed and becomes Enraptured.",
+    )
+    seductions = named(named(detachments, "The Seductions of Slaanesh")["rules"], "Whispers of the Dark Prince")
+    seductions["description"] = seductions["description"].replace(
+        "Apply all Boons and Prices from the unit's current Level and each lower Level.",
+        "Apply all Boons and Prices from the unit's current Level and each lower Level. "
+        "Apply any Seduction Price that requires the closest eligible enemy where possible "
+        "within the targeting restrictions of Obsessed or Stupefied.",
+    )
+    catalogue["revision"] = 58
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -798,6 +903,7 @@ def migrate(catalogue, system):
     edit_player_text(catalogue, units)
     format_leader_and_support(units, system)
     apply_revision_57(catalogue)
+    apply_revision_58(catalogue)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."

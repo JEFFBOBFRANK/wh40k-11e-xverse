@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 57 includes 58 datasheets and 14 detachments.
+Catalogue revision 58 includes 58 datasheets and 14 detachments.
 The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -26,6 +26,10 @@ Chained Thralls cost 30 points for 10 or 60 for 20 and have a 6+ invulnerable sa
 Revision 57 updates seven Requisition Thresholds and seven Enhancement
 prices. Perfection Through Agony protects Enraptured Flawless Blades when
 Daemonic Patrons resolves at the end of the phase.
+
+Revision 58 updates Fulgrim, Julius, Eidolon, the Threnody Dreadnought
+and recovery abilities for The Pursuit of Perfection. Pain Brings Clarity
+cannot clear a state during the turn it began.
 
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
