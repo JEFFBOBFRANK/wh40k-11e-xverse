@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 59,
+    "revision": 60,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -3332,7 +3332,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "**Obsessed — Perfect Precision**\n\nEach time this model makes an attack with its Daemonic Blades against its Obsession, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n**Enraptured — Ecstatic Slaughter**\n\nOnce per Fight phase, after this model fights, it can make an additional Pile-in move of up to 3\", even if it is in base-to-base contact with an enemy model. When doing so, it can move towards any enemy unit instead of the closest enemy model. After this move, this model can make attacks with the Daemonic Blades profile it did not use during its first fight this phase.\n\n**Stupefied — Unrestrained Savagery**\n\nEach time this model fights, it can make attacks with both profiles of its Daemonic Blades (Strike and Sweep).\n\n**Attack restrictions**\n\nWhile Enraptured or Stupefied, this model can attack with each Daemonic Blades profile and its Serpentine Tail only once per Fight phase, even if another rule allows it to fight again. Ecstatic Slaughter's additional attacks are made only by this model and do not count as fighting again."
+                "$text": "**Obsessed — Perfect Precision**\n\nEach time this model makes an attack with its Daemonic Blades against its Obsession, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n**Enraptured — Ecstatic Slaughter**\n\nAfter this model fights, it can make an additional Pile-in move of up to 3\", even if it is in base-to-base contact with an enemy model. When doing so, it can move towards any enemy unit instead of the closest enemy model. After this move, this model can make attacks with the Daemonic Blades profile it did not use during its first fight this phase.\n\n**Stupefied — Unrestrained Savagery**\n\nEach time this model fights, it can make attacks with both profiles of its Daemonic Blades (Strike and Sweep).\n\n**Attack restrictions**\n\nWhile Enraptured or Stupefied, this model can attack with each Daemonic Blades profile and its Serpentine Tail only once per Fight phase, even if another rule allows it to fight again. Ecstatic Slaughter's additional attacks are made only by this model and do not count as fighting again."
               }
             ]
           },
