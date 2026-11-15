@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 64 includes 58 datasheets and 14 detachments.
+Catalogue revision 65 includes 58 datasheets and 14 detachments.
 The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -51,6 +51,11 @@ Revision 64 aligns shared weapons with the November Space Marines codex
 profiles. Doomrider's melta modes use D3+2 and retain Melta 3. Newly added
 Daemonettes use the standard Alluress and nine Daemonettes composition,
 with the icon and instrument on separate eligible models.
+
+Revision 65 restores the earlier Unit Size and specialist controls for new
+units. Icon of Excess, Daemonic Icon and Instrument of Chaos appear at squad
+level, following the Legionaries' Chaos icon layout. Saved model and wargear
+selections from the previous layouts can still be opened.
 
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry

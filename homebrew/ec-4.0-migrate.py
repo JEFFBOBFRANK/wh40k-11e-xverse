@@ -1226,6 +1226,102 @@ def apply_revision_64(catalogue, system):
     catalogue["revision"] = 64
 
 
+def restore_squad_size_controls(unit, sizes):
+    newer_groups = [group for group in unit["selectionEntryGroups"]
+                    if group is not sizes and group["name"] != "Enhancements and Upgrades"]
+    newer_models = [model for model in unit.get("selectionEntries", [])
+                    if model.get("type") == "model"]
+    newer_models.extend(model for group in newer_groups for model in group["selectionEntries"])
+    use_newer = dict(type="or", conditions=[
+        selection_count(unit, model["id"], "atLeast", 1) for model in newer_models
+    ])
+    no_older_size = [selection_count(unit, size["id"], "equalTo", 0)
+                    for size in sizes["selectionEntries"]]
+    for node in [*newer_models, *newer_groups]:
+        node["hidden"] = True
+        if "defaultAmount" in node:
+            node["defaultAmount"] = 0
+        node["modifiers"] = [modifier for modifier in node.get("modifiers", [])
+                             if modifier["field"] != "hidden"]
+        active = dict(conditions=no_older_size, conditionGroups=[use_newer])
+        switches = [dict(field="hidden", type="set", value=False, **active)]
+        for limit in node.get("constraints", []):
+            if limit["type"] == "min" and limit["value"]:
+                switches.append(dict(field=limit["id"], type="set", value=limit["value"], **active))
+                limit["value"] = 0
+        node["modifiers"][:0] = switches
+
+    sizes["hidden"] = False
+    sizes["defaultSelectionEntryId"] = sizes["selectionEntries"][0]["id"]
+    minimum = next(c for c in sizes["constraints"] if c["type"] == "min")
+    minimum["value"] = 1
+    sizes["modifiers"] = [
+        dict(field="hidden", type="set", value=True,
+             conditions=no_older_size, conditionGroups=[use_newer]),
+        dict(field=minimum["id"], type="set", value=0,
+             conditions=no_older_size, conditionGroups=[use_newer]),
+    ]
+
+
+def restore_squad_wargear(entries, unit, name):
+    squad_option = named(unit["selectionEntries"], name)
+    saved_options = [entry for entry in walk(unit)
+                     if entry is not squad_option and entry.get("name") == name
+                     and entry.get("type") in {"upgrade", "selectionEntry"}]
+    squad_option.update(hidden=False, modifiers=[dict(
+        field="hidden", type="set", value=True,
+        conditionGroups=[dict(type="or", conditions=[
+            selection_count(unit, entry["id"], "atLeast", 1) for entry in saved_options
+        ])],
+    )])
+    for old in saved_options:
+        old.update(hidden=True, modifiers=[dict(
+            field="hidden", type="set", value=False,
+            conditions=[selection_count(unit, old["id"], "atLeast", 1)],
+        )])
+    # The option remains a bearer-dependent rule, like the Legionaries' icon.
+    profile = squad_option["profiles"][0]
+    if name == "Icon of Excess":
+        profile["characteristics"][0]["$text"] = (
+            'Each time the bearer’s unit destroys an enemy unit with its attacks, every enemy '
+            'unit within 6" of the bearer’s unit must take a Battle-shock test.'
+        )
+    for entry in saved_options:
+        target = next((e for e in entries if e["id"] == entry.get("targetId")), entry)
+        target["profiles"][0]["characteristics"][0]["$text"] = profile["characteristics"][0]["$text"]
+
+
+def apply_revision_65(catalogue):
+    entries = catalogue["sharedSelectionEntries"]
+    for unit in entries:
+        for group in unit.get("selectionEntryGroups", []):
+            if group["name"] == "Unit Size":
+                restore_squad_size_controls(unit, group)
+
+    for name in ("Infractors", "Tormentors"):
+        restore_squad_wargear(entries, named(entries, name), "Icon of Excess")
+
+    unit = named(entries, "Daemonettes")
+    models = named(unit["selectionEntryGroups"], "Models")
+    alluress = named(models["selectionEntries"], "Alluress")
+    daemonette = named(models["selectionEntries"], "Daemonette")
+    alluress_selected = selection_count(unit, alluress["id"], "atLeast", 1)
+    alluress.update(hidden=True, defaultAmount=0, modifiers=[
+        dict(type="set", field="hidden", value=False, conditions=[alluress_selected]),
+    ])
+    next(c for c in alluress["constraints"] if c["type"] == "min")["value"] = 0
+    daemonette["modifiers"] = [m for m in daemonette["modifiers"] if m["field"] == "name"]
+    daemonette["defaultAmount"] = 10
+    for limit in daemonette["constraints"]:
+        limit["value"] = 10
+        daemonette["modifiers"].append(dict(type="set", field=limit["id"], value=9,
+                                          conditions=[alluress_selected]))
+    for name in ("Daemonic Icon", "Instrument of Chaos"):
+        restore_squad_wargear(entries, unit, name)
+
+    catalogue["revision"] = 65
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -1264,6 +1360,7 @@ def migrate(catalogue, system):
     apply_revision_62(catalogue)
     apply_revision_63(catalogue)
     apply_revision_64(catalogue, system)
+    apply_revision_65(catalogue)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
