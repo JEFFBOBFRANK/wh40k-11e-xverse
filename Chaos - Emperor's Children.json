@@ -44147,50 +44147,6 @@
         ],
         "profiles": [
           {
-            "name": "Noise Marines",
-            "id": "fd96-15bf-b0dd-293d",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "5"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "3+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "3"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "-"
-              }
-            ]
-          },
-          {
             "name": "Terrifying Crescendo",
             "id": "7245-4715-c1d9-f099",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -45126,7 +45082,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Noise Marine with blastmaster",
+                    "name": "Noise Marine",
                     "id": "0321-5851-3063-f0b2",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
