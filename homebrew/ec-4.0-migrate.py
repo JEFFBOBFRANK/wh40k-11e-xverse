@@ -1462,6 +1462,21 @@ def apply_revision_71(catalogue, system):
     catalogue["revision"] = 71
 
 
+def apply_revision_72(catalogue, system):
+    labels = [rule["name"] for rule in system["sharedRules"]]
+    labels += [category["name"].removeprefix("Faction: ")
+               for book in (system, catalogue) for category in book["categoryEntries"]]
+    canonical = {label.upper(): label for label in labels if len(label) > 3 and not label.isupper()}
+    names = "|".join(re.escape(label) for label in sorted(canonical, key=len, reverse=True))
+    keyword = re.compile(rf"(?<![A-Za-z])(?:{names})(?![A-Za-z])")
+
+    for node in walk(catalogue):
+        for field in ("description", "readme", "$text"):
+            if isinstance(node.get(field), str):
+                node[field] = keyword.sub(lambda match: canonical[match[0]], node[field])
+    catalogue["revision"] = 72
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -1507,6 +1522,7 @@ def migrate(catalogue, system):
     apply_revision_69(catalogue)
     apply_revision_70(catalogue)
     apply_revision_71(catalogue, system)
+    apply_revision_72(catalogue, system)
     system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
