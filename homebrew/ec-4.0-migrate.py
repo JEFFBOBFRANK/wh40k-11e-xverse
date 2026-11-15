@@ -1427,6 +1427,30 @@ def apply_revision_68(catalogue):
     catalogue["revision"] = 68
 
 
+def apply_revision_69(catalogue):
+    infractors = named(catalogue["sharedSelectionEntries"], "Infractors")
+    icons = [option for option in walk(infractors) if option.get("name") == "Icon of Excess"]
+    legacy_icons = [option for option in icons if option.get("type") == "upgrade"]
+    legacy_selected = [selection_count(infractors, option["id"], "atLeast", 1)
+                       for option in legacy_icons]
+    for option, selected in zip(legacy_icons, legacy_selected):
+        # Keep old rosters editable. New icons live under the bearer model.
+        option.update(hidden=True, modifiers=[dict(
+            field="hidden", type="set", value=False, conditions=[selected],
+        )])
+    for link in icons:
+        if link.get("type") == "selectionEntry":
+            taken = selection_count(infractors, link["targetId"], "atLeast", 1)
+            unselected_here = dict(childId=link["id"], field="selections", scope="parent",
+                                   type="equalTo", value=0, shared=True, includeChildSelections=True)
+            link.update(hidden=False, modifiers=[
+                dict(field="hidden", type="set", value=True,
+                     conditionGroups=[dict(type="or", conditions=legacy_selected)]),
+                dict(field="hidden", type="set", value=True, conditions=[taken, unselected_here]),
+            ])
+    catalogue["revision"] = 69
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -1469,6 +1493,7 @@ def migrate(catalogue, system):
     apply_revision_66(catalogue, system)
     apply_revision_67(catalogue)
     apply_revision_68(catalogue)
+    apply_revision_69(catalogue)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
