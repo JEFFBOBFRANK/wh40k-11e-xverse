@@ -89,6 +89,10 @@ standard labels, such as Hazardous and Devastating Wounds.
 Revision 73 states the scope of Thresholds of Agony and Pain Payments at the
 top of The Art of Suffering and gives Pain Token generation its own heading.
 
+Revision 74 uses the revised Art of Suffering wording. Exposed Nerves worsens
+armour saves against all attackers, and Agony Beyond Endurance permits one
+move per phase.
+
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
 bolt pistols. The champion carries a screamer pistol with a plasma pistol

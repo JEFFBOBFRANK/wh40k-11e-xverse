@@ -754,13 +754,6 @@ def apply_revision_57(catalogue):
         "Non-DAEMON Emperor's Children CHARACTER. Once per battle round, when the bearer's "
         "unit takes a Leadership test to cease being Stupefied, you can re-roll that test."
     )
-    group = named(named(entries, "Detachment")["selectionEntryGroups"], "Detachment")
-    blades = named(group["selectionEntries"], "Blades of Exquisite Pain")
-    suffering = named(blades["rules"], "The Art of Suffering")
-    suffering["description"] += (
-        "\n\nAt the end of the phase, while a friendly Flawless Blades unit is Enraptured, "
-        "do not destroy a model in that unit as a result of its Daemonic Patrons ability."
-    )
     catalogue["revision"] = 57
 
 
@@ -854,11 +847,6 @@ While Enraptured or Stupefied, this model can attack with each Daemonic Blades p
 
     group = named(named(entries, "Detachment")["selectionEntryGroups"], "Detachment")
     detachments = group["selectionEntries"]
-    blades = named(named(detachments, "Blades of Exquisite Pain")["rules"], "The Art of Suffering")
-    blades["description"] = blades["description"].replace(
-        "on its Obsession with those attacks, it becomes Enraptured.",
-        "on its Obsession with those attacks, it ceases to be Obsessed and becomes Enraptured.",
-    )
     seductions = named(named(detachments, "The Seductions of Slaanesh")["rules"], "Whispers of the Dark Prince")
     seductions["description"] = seductions["description"].replace(
         "Apply all Boons and Prices from the unit's current Level and each lower Level.",
@@ -1523,7 +1511,7 @@ def migrate(catalogue, system):
     apply_revision_70(catalogue)
     apply_revision_71(catalogue, system)
     apply_revision_72(catalogue, system)
-    catalogue["revision"] = 73
+    catalogue["revision"] = 74
     system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
