@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 61,
+    "revision": 62,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -9101,36 +9101,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Plasma pistol",
-                    "id": "6943-5ee9-2db6-f6d8",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "14cb-0823-a6fa-bff5",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "6c27-5dd7-e507-18f0",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Plasma pistol - standard",
@@ -9255,36 +9225,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Power fist",
-                    "id": "abc3-b129-adea-61fb",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "5350-1fbf-04dd-5a43",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "713c-f0c5-ca3c-e12e",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Power fist",
@@ -9347,36 +9287,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Rapture lash",
-                    "id": "dc11-a4a4-b41c-96ee",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "e367-ebea-eec3-bed5",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "014b-4e74-049b-8faf",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -9480,36 +9390,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Phoenix power spear",
-                    "id": "c66f-0547-3017-a1d0",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "b8d7-55c8-4361-7b65",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "f632-89d8-b32a-6411",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Phoenix power spear",
@@ -9583,36 +9463,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Master-crafted power sword",
-                    "id": "5f9d-43bc-69b2-4205",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "7a83-e046-b021-e9f7",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "7ddc-bfad-b3c7-6f99",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Master-crafted power sword",
@@ -9684,36 +9534,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Screamer pistol",
-                    "id": "1f9b-673e-bbb6-2190",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "ca21-9afa-286f-249d",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "de63-5819-d660-8edb",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -11133,36 +10953,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Power sword",
-                    "id": "0068-dbfc-3a6e-81f3",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "22aa-c60b-9546-c3a8",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "cc76-57b4-5a84-7b7f",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -18115,36 +17905,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Phoenix power spear",
-                    "id": "463e-4c25-9f88-4f2a",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "acc6-6cd4-1e7b-9398",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "41e5-bdb3-66f8-cab6",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Phoenix power spear",
@@ -18216,36 +17976,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Sceptre of Exquisite Ruin",
-                    "id": "1f9f-6bc7-d3a8-8ca2",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "06d7-9728-23c4-cda7",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "e97c-8d84-aa9a-5e93",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -20577,36 +20307,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Injector pistol",
-                    "id": "d246-d41f-9097-ff03",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "7670-b80b-d36a-40e1",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "dcdd-3de1-9b63-0683",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Injector pistol",
@@ -20687,36 +20387,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Bolt pistol",
-                    "id": "909f-ee73-8d99-5a5f",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "07fe-c325-31af-248a",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "b616-8edb-77f3-b8ed",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Bolt pistol",
@@ -20788,36 +20458,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Plasma pistol",
-                    "id": "bf88-c703-c50b-77af",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "69f0-7dbc-d9f6-067f",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "5ba5-86bb-e566-44d0",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -20942,36 +20582,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Screamer pistol",
-                    "id": "61ee-f4d6-5b7f-2f6f",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "5626-0fb6-f81c-1285",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "a797-fae8-3206-7c3f",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -22494,36 +22104,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Bolt pistol",
-                    "id": "39b8-6fee-929e-810b",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "9cc1-751f-0ce8-c2ea",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "ee7f-03ff-e596-5b44",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Bolt pistol",
@@ -22595,36 +22175,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Plasma pistol",
-                    "id": "af00-14e8-d443-6178",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "bd65-87ea-876c-5d3f",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "c875-9256-ebdd-5e3b",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -22751,36 +22301,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Screamer pistol",
-                    "id": "d8b1-994a-02f8-d278",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "189e-bcbf-54f9-3b3e",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "7d2f-10b7-ffdb-48da",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Screamer pistol",
@@ -22896,36 +22416,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Phoenix power spear",
-                    "id": "4859-8bd9-0fa7-a86d",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "38fd-8d21-6bf2-fe16",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "63b6-a189-f314-26f2",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Phoenix power spear",
@@ -22997,36 +22487,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Power fist",
-                    "id": "7065-b47a-d771-c423",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "4e1c-87f8-86ff-e16e",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "dccc-d558-a966-c4d2",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -24301,36 +23761,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Bolt pistol",
-                    "id": "4b96-a553-a344-88fd",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "a990-ea44-4c30-058b",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "e1b5-7c5c-2515-71f8",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Bolt pistol",
@@ -24402,36 +23832,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Plasma pistol",
-                    "id": "9f2e-96a6-da7f-f2f9",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "7b5e-8c77-9c07-d737",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "cd30-a71f-d6e0-7781",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -28714,36 +28114,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Living whip",
-                    "id": "0d23-af5c-dfa5-6796",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "5a88-bf89-b3ef-1d2c",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "d726-ff7a-a99a-d0e3",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Living whip",
@@ -28815,36 +28185,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Ritual knife",
-                    "id": "057d-8ce1-1acc-fdcf",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "8745-52bc-0ee1-c36f",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "5a71-012d-9e52-4d64",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -31842,36 +31182,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Bolt pistol",
-                                    "id": "c492-5d8c-8905-2a86",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "042e-bfca-2726-e971",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "649a-c341-ed48-e4f1",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Bolt pistol",
@@ -31943,36 +31253,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Plasma pistol",
-                                    "id": "23ae-928a-767a-96ec",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "73ba-fbe9-19cb-da8d",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "8617-d93a-9344-a9e2",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -32127,36 +31407,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Power sword",
-                                    "id": "a4d2-2eff-f00f-0279",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "00ed-700d-47c4-a4d3",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "3ab2-6fb4-7b78-740f",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Power sword",
@@ -32219,36 +31469,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Rapture lash",
-                                    "id": "6868-24ab-5a53-bc6c",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "d457-9d54-5d6b-a7bd",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "aee6-e2df-acdc-7b35",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -32776,36 +31996,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Bolt pistol",
-                                    "id": "1ffd-612d-d082-3094",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "71ff-3a49-0396-79e1",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "569e-d0a3-cb26-3dfe",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Bolt pistol",
@@ -32877,36 +32067,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Plasma pistol",
-                                    "id": "0b2c-1c6a-223f-d0b6",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "9fa2-e362-e224-2574",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "5ca9-8019-8b54-d31e",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -33061,36 +32221,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Power sword",
-                                    "id": "4e74-3536-cf4c-e9fb",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "15ba-e1dd-3006-599f",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "fb69-fc24-df22-5e21",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Power sword",
@@ -33153,36 +32283,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Rapture lash",
-                                    "id": "c203-0668-a5ae-246c",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "5fd8-324a-61fd-7ecc",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "ba90-f410-f77b-57f4",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -33780,36 +32880,6 @@
                         "includeChildSelections": false
                       }
                     ],
-                    "selectionEntries": [
-                      {
-                        "name": "Bolt pistol",
-                        "id": "2301-4666-9a98-c97a",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "34d3-a1cc-2355-df0a",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "222f-b276-9da9-5672",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
-                      }
-                    ],
                     "profiles": [
                       {
                         "name": "Bolt pistol",
@@ -33881,36 +32951,6 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "name": "Plasma pistol",
-                        "id": "dad8-0dae-7548-7ed3",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "5c23-16f7-01dd-a797",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "f980-dbb9-bb9e-9d12",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
                       }
                     ],
                     "profiles": [
@@ -34065,36 +33105,6 @@
                         "includeChildSelections": false
                       }
                     ],
-                    "selectionEntries": [
-                      {
-                        "name": "Power sword",
-                        "id": "6808-0e74-6e00-be78",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "bc1a-38b0-78ae-9875",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "1e21-716a-29b3-a729",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
-                      }
-                    ],
                     "profiles": [
                       {
                         "name": "Power sword",
@@ -34157,36 +33167,6 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "name": "Rapture lash",
-                        "id": "b0da-fae8-9f84-bb8b",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "6924-3262-e46a-38ef",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "5549-77dc-85cc-36aa",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
                       }
                     ],
                     "profiles": [
@@ -35112,36 +34092,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Bolt pistol",
-                                    "id": "4e27-08a7-5279-ef49",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "38b1-7f57-e692-5911",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "4160-e04e-8387-8a91",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Bolt pistol",
@@ -35220,36 +34170,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Plasma pistol",
-                                    "id": "2894-6573-0e98-df04",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "7012-6a36-7be9-ec80",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "7d54-d827-e86a-deea",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -35411,36 +34331,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Power sword",
-                                    "id": "1d9b-8853-9c8d-5c6b",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "1cb2-6083-7792-3241",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "6c03-8778-6ef4-8340",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Power sword",
@@ -35503,36 +34393,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Rapture lash",
-                                    "id": "24aa-9cd9-d5f8-879f",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "7d03-9061-40c0-bb84",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "5970-3f4d-d9b9-036b",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -36620,36 +35480,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Bolt pistol",
-                                    "id": "23c7-b3fc-23f0-5a21",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "b8d1-07e5-4fb3-5c10",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "9b28-c3a4-d32e-7ed7",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Bolt pistol",
@@ -36728,36 +35558,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Plasma pistol",
-                                    "id": "29d9-c602-f3fc-61c4",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "2035-a0c1-ee6a-6ac3",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "b594-e8ec-47ea-21e8",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -36919,36 +35719,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Power sword",
-                                    "id": "f7f8-9f96-ebfb-b744",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "1203-d6d5-57c5-37c5",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "6945-3ff0-d411-fc3e",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Power sword",
@@ -37011,36 +35781,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Rapture lash",
-                                    "id": "6c24-7803-1f51-bcf0",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "3c1e-9310-2b43-a6d6",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "5cdd-1a05-4483-4aea",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -39084,36 +37824,6 @@
                         "includeChildSelections": false
                       }
                     ],
-                    "selectionEntries": [
-                      {
-                        "name": "Bolt pistol",
-                        "id": "3a93-306d-f303-5371",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "e540-5f70-c418-ca18",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "edf8-b445-c4a4-6244",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
-                      }
-                    ],
                     "profiles": [
                       {
                         "name": "Bolt pistol",
@@ -39192,36 +37902,6 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "name": "Plasma pistol",
-                        "id": "c2e3-6dbf-b912-8347",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "c2ca-7872-8fd5-a867",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "838c-2e8b-daf6-a422",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
                       }
                     ],
                     "profiles": [
@@ -39383,36 +38063,6 @@
                         "includeChildSelections": false
                       }
                     ],
-                    "selectionEntries": [
-                      {
-                        "name": "Power sword",
-                        "id": "3136-ff1b-ff6d-a728",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "1aab-fd16-3cc9-a5ca",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "61fd-e25e-d4d8-ad1e",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
-                      }
-                    ],
                     "profiles": [
                       {
                         "name": "Power sword",
@@ -39475,36 +38125,6 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "name": "Rapture lash",
-                        "id": "7fe2-80b5-6cac-9743",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "97d3-4436-7258-8b63",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "7039-6699-3eb2-c858",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
                       }
                     ],
                     "profiles": [
@@ -48151,36 +46771,6 @@
                             "includeChildSelections": false
                           }
                         ],
-                        "selectionEntries": [
-                          {
-                            "name": "Shriek cannon",
-                            "id": "050f-0710-ccf1-fdaf",
-                            "type": "upgrade",
-                            "hidden": true,
-                            "import": true,
-                            "constraints": [
-                              {
-                                "id": "bcf7-2d33-8f8f-1ce2",
-                                "type": "min",
-                                "value": 1,
-                                "scope": "parent",
-                                "field": "selections",
-                                "shared": true,
-                                "includeChildSelections": false
-                              },
-                              {
-                                "id": "3bba-5f09-d54f-f7e6",
-                                "type": "max",
-                                "value": 1,
-                                "scope": "parent",
-                                "field": "selections",
-                                "shared": true,
-                                "includeChildSelections": false
-                              }
-                            ],
-                            "defaultAmount": 1
-                          }
-                        ],
                         "profiles": [
                           {
                             "name": "Shriek cannon",
@@ -48259,36 +46849,6 @@
                             "field": "selections",
                             "shared": true,
                             "includeChildSelections": false
-                          }
-                        ],
-                        "selectionEntries": [
-                          {
-                            "name": "Doomfire projector",
-                            "id": "2856-6709-93b5-e9bb",
-                            "type": "upgrade",
-                            "hidden": true,
-                            "import": true,
-                            "constraints": [
-                              {
-                                "id": "9d15-e612-fe48-4e70",
-                                "type": "min",
-                                "value": 1,
-                                "scope": "parent",
-                                "field": "selections",
-                                "shared": true,
-                                "includeChildSelections": false
-                              },
-                              {
-                                "id": "51b5-ce86-ca0d-9f62",
-                                "type": "max",
-                                "value": 1,
-                                "scope": "parent",
-                                "field": "selections",
-                                "shared": true,
-                                "includeChildSelections": false
-                              }
-                            ],
-                            "defaultAmount": 1
                           }
                         ],
                         "profiles": [
@@ -48406,36 +46966,6 @@
                             "includeChildSelections": false
                           }
                         ],
-                        "selectionEntries": [
-                          {
-                            "name": "Accursed blade",
-                            "id": "2b35-5d61-9ccf-acad",
-                            "type": "upgrade",
-                            "hidden": true,
-                            "import": true,
-                            "constraints": [
-                              {
-                                "id": "c801-7f2c-3cfa-e0e1",
-                                "type": "min",
-                                "value": 1,
-                                "scope": "parent",
-                                "field": "selections",
-                                "shared": true,
-                                "includeChildSelections": false
-                              },
-                              {
-                                "id": "1a50-1055-d7ba-9a40",
-                                "type": "max",
-                                "value": 1,
-                                "scope": "parent",
-                                "field": "selections",
-                                "shared": true,
-                                "includeChildSelections": false
-                              }
-                            ],
-                            "defaultAmount": 1
-                          }
-                        ],
                         "profiles": [
                           {
                             "name": "Accursed blade",
@@ -48498,36 +47028,6 @@
                             "field": "selections",
                             "shared": true,
                             "includeChildSelections": false
-                          }
-                        ],
-                        "selectionEntries": [
-                          {
-                            "name": "Power fist",
-                            "id": "f245-39a2-4c8c-a928",
-                            "type": "upgrade",
-                            "hidden": true,
-                            "import": true,
-                            "constraints": [
-                              {
-                                "id": "d9ea-d6af-e98f-c3bf",
-                                "type": "min",
-                                "value": 1,
-                                "scope": "parent",
-                                "field": "selections",
-                                "shared": true,
-                                "includeChildSelections": false
-                              },
-                              {
-                                "id": "be0a-7553-c2fd-2e9b",
-                                "type": "max",
-                                "value": 1,
-                                "scope": "parent",
-                                "field": "selections",
-                                "shared": true,
-                                "includeChildSelections": false
-                              }
-                            ],
-                            "defaultAmount": 1
                           }
                         ],
                         "profiles": [
@@ -54312,36 +52812,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Screamer pistol",
-                                    "id": "14da-6734-7cb7-23ed",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "f0bf-d04e-8fd5-b96e",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "d0fb-527a-708a-cebf",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Screamer pistol",
@@ -54427,36 +52897,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Plasma pistol",
-                                    "id": "5154-5a42-3951-e982",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "95ad-7347-acce-90ac",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "4e6d-3487-39ec-ba09",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -54611,36 +53051,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Talon blade",
-                                    "id": "c53f-6761-4c35-8345",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "84d8-fee7-5eef-983d",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "9b47-7eef-a961-c29c",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Talon blade",
@@ -54703,36 +53113,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Champion power weapon",
-                                    "id": "ce0d-2850-8cdc-f447",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "8bea-758a-a7ec-ee96",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "6db9-2cba-4391-a1ea",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -54901,36 +53281,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Bolt pistol",
-                                    "id": "da32-b020-bc53-9907",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "1e1c-8478-f136-e3fe",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "d7eb-b033-27da-cd07",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -55240,36 +53590,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Screamer pistol",
-                                    "id": "92c2-b7a6-5500-5d1e",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "3bc1-cb81-7319-3c8a",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "6745-29a6-4519-4581",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Screamer pistol",
@@ -55355,36 +53675,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Plasma pistol",
-                                    "id": "3532-27a3-f328-2ce0",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "d975-9145-be34-ff33",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "8680-d670-53b8-b8f9",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -55539,36 +53829,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Talon blade",
-                                    "id": "69a2-0879-736c-a79a",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "4b18-b880-def0-2d6f",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "ba6e-00a4-5eb9-c38f",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Talon blade",
@@ -55631,36 +53891,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Champion power weapon",
-                                    "id": "47ff-ac56-8eb6-c40a",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "d57a-9c22-a6bf-6eba",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "1009-d08b-9847-74a4",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -55829,36 +54059,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Bolt pistol",
-                                    "id": "6f0c-927e-ecab-8a91",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "fe01-c014-f14a-04c6",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "178a-f0a9-d792-2288",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -56238,36 +54438,6 @@
                         "includeChildSelections": false
                       }
                     ],
-                    "selectionEntries": [
-                      {
-                        "name": "Screamer pistol",
-                        "id": "e4e9-1ae1-b84a-cb8f",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "e815-3c54-0519-6c4e",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "b8ba-531f-f18c-2227",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
-                      }
-                    ],
                     "profiles": [
                       {
                         "name": "Screamer pistol",
@@ -56353,36 +54523,6 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "name": "Plasma pistol",
-                        "id": "20c0-1261-600d-8ead",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "0111-4998-93c8-9532",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "5ff3-85db-c683-224f",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
                       }
                     ],
                     "profiles": [
@@ -56537,36 +54677,6 @@
                         "includeChildSelections": false
                       }
                     ],
-                    "selectionEntries": [
-                      {
-                        "name": "Talon blade",
-                        "id": "47a5-9aba-7268-b734",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "f953-39ef-07c1-8b16",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "816f-adeb-9877-e147",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
-                      }
-                    ],
                     "profiles": [
                       {
                         "name": "Talon blade",
@@ -56629,36 +54739,6 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "name": "Champion power weapon",
-                        "id": "850a-0b4e-38c7-1efe",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "6e25-96e0-d746-c1f7",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "35a0-a405-3d0c-b4a5",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
                       }
                     ],
                     "profiles": [
@@ -56860,36 +54940,6 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "name": "Bolt pistol",
-                        "id": "4533-e535-deba-339d",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "2696-f7c2-169c-1572",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "af69-3b11-13d0-dcde",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
                       }
                     ],
                     "profiles": [
@@ -60186,36 +58236,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Twin sonic blaster",
-                                    "id": "6eb3-7570-78d2-d282",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "fd3b-3bbb-81a5-00f5",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "5151-12e8-2762-8093",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Twin sonic blaster",
@@ -60301,36 +58321,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Combi-weapon",
-                                    "id": "b0f2-a72b-763d-9875",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "bbad-af50-3826-28b8",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "a841-3b53-7e96-3c77",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -61370,36 +59360,6 @@
                                     "includeChildSelections": false
                                   }
                                 ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Twin sonic blaster",
-                                    "id": "56fe-2bb4-d7e2-8fba",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "beaf-20cc-562e-da90",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "b0b1-73f4-1816-0887",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
-                                  }
-                                ],
                                 "profiles": [
                                   {
                                     "name": "Twin sonic blaster",
@@ -61485,36 +59445,6 @@
                                     "field": "selections",
                                     "shared": true,
                                     "includeChildSelections": false
-                                  }
-                                ],
-                                "selectionEntries": [
-                                  {
-                                    "name": "Combi-weapon",
-                                    "id": "cd02-b4b6-2c41-8a9e",
-                                    "type": "upgrade",
-                                    "hidden": true,
-                                    "import": true,
-                                    "constraints": [
-                                      {
-                                        "id": "b1cb-7b49-55a5-3b7b",
-                                        "type": "min",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      },
-                                      {
-                                        "id": "9bbc-ec52-0a3a-58d0",
-                                        "type": "max",
-                                        "value": 1,
-                                        "scope": "parent",
-                                        "field": "selections",
-                                        "shared": true,
-                                        "includeChildSelections": false
-                                      }
-                                    ],
-                                    "defaultAmount": 1
                                   }
                                 ],
                                 "profiles": [
@@ -63321,36 +61251,6 @@
                         "includeChildSelections": false
                       }
                     ],
-                    "selectionEntries": [
-                      {
-                        "name": "Twin sonic blaster",
-                        "id": "cc0f-a3a9-c954-997b",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "c080-28aa-c465-8321",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "59a5-084a-7683-f80d",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
-                      }
-                    ],
                     "profiles": [
                       {
                         "name": "Twin sonic blaster",
@@ -63436,36 +61336,6 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "name": "Combi-weapon",
-                        "id": "21b9-1b2c-1366-d9b2",
-                        "type": "upgrade",
-                        "hidden": true,
-                        "import": true,
-                        "constraints": [
-                          {
-                            "id": "95ce-8d05-1b38-82c9",
-                            "type": "min",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          },
-                          {
-                            "id": "f521-2810-6f05-362e",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "defaultAmount": 1
                       }
                     ],
                     "profiles": [
@@ -66534,36 +64404,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Combi-bolter",
-                    "id": "8dc1-94b1-68e6-d8dd",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "0b6d-6ba7-aaf9-28eb",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "591c-674f-c43f-2d2f",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Combi-bolter",
@@ -66635,36 +64475,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Combi-weapon",
-                    "id": "fa42-3a00-a0fc-e6d0",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "f394-0c91-6369-19c1",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "bbaf-673f-f893-966f",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -66868,36 +64678,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Havoc launcher",
-                    "id": "b739-1191-5dab-3dff",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "d17f-a9b5-4955-5146",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "307c-e501-7cb4-35b9",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -67397,36 +65177,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Lasher tendrils",
-                    "id": "d569-ad8e-be21-f4a0",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "ff7e-e145-73ba-be28",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "6d2d-ccfc-5f0b-92f0",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -68149,36 +65899,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Hades battle cannon",
-                    "id": "86e4-41e0-3d23-eb66",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "3394-e567-448c-861c",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "f235-7b82-20b8-1c65",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Hades battle cannon",
@@ -68252,36 +65972,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Ectoplasma destructor",
-                    "id": "0034-1cb8-c96f-5c3f",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "f3f1-e7af-da79-6d6f",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "2a1f-0b21-4eef-7e60",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Ectoplasma destructor",
@@ -68353,36 +66043,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Discord cannon",
-                    "id": "f199-c001-03ad-c18f",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "0756-6855-6529-7761",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "431d-feb7-34b5-a093",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -68762,36 +66422,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Heavy missile launcher",
-                    "id": "06f9-2bfb-6ff6-2e67",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "a9b5-95e0-6191-f5b3",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "2754-8837-b49f-a672",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Heavy missile launcher - frag",
@@ -68909,36 +66539,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Hades lascannon",
-                    "id": "bfb2-051d-d555-a8a1",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "55a7-49f8-0dce-d071",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "0b43-9c33-7149-8aab",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Hades lascannon",
@@ -69008,36 +66608,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Heavy reaper autocannon",
-                    "id": "0756-dfd8-322f-4b51",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "d61f-4050-88b2-44ae",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "12b8-daa1-b7f9-61e6",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -69125,36 +66695,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Electroscourge",
-                    "id": "66b4-c964-1792-2f10",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "4a02-0705-c178-8110",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "273f-a8d2-ef6d-c7a5",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "modifiers": [
@@ -69283,36 +66823,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Heavy baleflamer",
-                    "id": "2941-24af-4b49-6d03",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "2fbc-a8de-8311-3973",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "04d1-1320-a4d0-05ab",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Heavy baleflamer",
@@ -69400,36 +66910,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Hades lascannon",
-                    "id": "fdf9-7c65-c79d-8751",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "3b32-1fdd-78b6-458b",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "df41-452f-f6cf-abbe",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Hades lascannon",
@@ -69499,36 +66979,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Heavy reaper autocannon",
-                    "id": "b13c-8f0e-2c45-3506",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "79c7-4b6b-445c-2634",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "3fc6-e41d-e290-0d71",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -69616,36 +67066,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Electroscourge",
-                    "id": "febc-521c-4030-b98b",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "2b5e-9554-c7bd-01c7",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "281b-95d6-0eb5-c297",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "modifiers": [
@@ -69744,36 +67164,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Sonic balespewer",
-                    "id": "e8aa-c253-160c-9bd8",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "7e86-c28e-e243-816a",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "026d-86db-83ee-e8d1",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -70362,36 +67752,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Multi-melta",
-                    "id": "50e3-4ceb-7598-c392",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "e1df-234b-d661-66d4",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "f41e-5f6d-3a71-6ccb",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Multi-melta",
@@ -70507,36 +67867,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Helbrute plasma cannon",
-                    "id": "6f9e-7bcb-06d7-e7ce",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "b1e4-e0b0-9cda-d419",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "ddec-4612-e308-0ca2",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -70663,36 +67993,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Twin autocannon",
-                    "id": "8027-222a-4d6e-db79",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "6930-8c06-b0fb-2997",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "0995-f219-a19f-0fe5",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Twin autocannon",
@@ -70766,36 +68066,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Twin lascannon",
-                    "id": "79af-0e00-6b49-f6c0",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "316c-e322-9cec-c4ca",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "4a4d-62bb-9db9-6824",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Twin lascannon",
@@ -70867,36 +68137,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Twin heavy bolter",
-                    "id": "3626-4282-5dfb-0735",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "d368-31ae-482f-cfe8",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "db1e-dc77-a306-285c",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -71222,36 +68462,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Helbrute hammer",
-                    "id": "82e3-1473-04ec-5f28",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "37e0-f9f7-6b31-6c94",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "4629-10b4-af35-1299",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Helbrute hammer",
@@ -71314,36 +68524,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Power scourge",
-                    "id": "9e40-1c21-3c91-c9cd",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "a4ed-d811-4fff-1521",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "81bd-6ecb-fa03-8455",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -71690,36 +68870,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Missile launcher",
-                    "id": "d20f-c8da-c5a9-d962",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "1023-329c-e1d3-708f",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "1ab5-bd36-3952-6c2c",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Missile launcher - frag",
@@ -71837,36 +68987,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Helbrute hammer",
-                    "id": "3db2-5f00-1113-6c41",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "3259-50d2-192c-945a",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "4fd0-00e3-9598-d69d",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Helbrute hammer",
@@ -71929,36 +69049,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Power scourge",
-                    "id": "5c37-2c47-5560-9388",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "01bf-dc98-2f19-3f4f",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "242e-1f0d-c7e9-f0f9",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -72791,36 +69881,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Cathedral fist",
-                    "id": "008e-f3e3-9b82-e97b",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "108c-70d8-5206-d232",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "929c-a1cf-fe21-fcec",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Cathedral fist - strike",
@@ -72938,36 +69998,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Twin lascannon",
-                    "id": "59ec-68fb-c2cf-c99e",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "a715-9f54-f21c-17a9",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "30fe-d808-6573-8505",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Twin lascannon",
@@ -73039,36 +70069,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Requiem cannon",
-                    "id": "3378-7724-6c35-723b",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "109f-fe2a-205d-48e0",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "ead6-2f50-8512-e06e",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -74187,36 +71187,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Cacophant jaws",
-                    "id": "e858-661a-264d-9b8e",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "8ebd-56b2-fab6-a375",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "72e3-8d2b-5fcb-aad6",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Cacophant jaws",
@@ -75188,36 +72158,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Predator autocannon",
-                    "id": "802f-0c57-d753-e252",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "c74d-a1a1-8825-fa0b",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "d5f7-0725-ac8f-de8f",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Predator autocannon",
@@ -75280,36 +72220,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Twin lascannon",
-                    "id": "29eb-385f-6b1c-4783",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "a92a-345a-9697-7ee2",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "de6f-f92b-66f4-7063",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -75383,36 +72293,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Sonic destructor",
-                    "id": "e7f8-6e8f-2795-9cda",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "2a03-e7fd-f0f9-a272",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "48a0-7f8c-410a-9a49",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -75900,36 +72780,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Havoc launcher",
-                    "id": "a07c-3d83-7dfa-faa7",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "4183-9365-2631-62b8",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "e4b9-da28-8a3c-6c4f",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -77319,36 +74169,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Twin heavy bolter",
-                    "id": "8088-7fc8-509f-b51b",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "88b8-3c9f-48e6-611f",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "155e-88e2-147a-054d",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Twin heavy bolter",
@@ -77427,36 +74247,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Twin sonic blaster",
-                    "id": "914a-fc05-7c37-03f2",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "8c24-c242-96ff-5ca0",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "c146-cc05-4501-842f",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -77572,36 +74362,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Multi-melta",
-                    "id": "54b2-6819-6f11-092d",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "a815-13af-554a-2600",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "78f4-3055-bbf3-7fd4",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -77747,36 +74507,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Havoc launcher",
-                    "id": "0381-65e2-d471-316b",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "a11f-203e-0f40-d8a0",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "e3b1-e41c-8dc7-5fb9",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
@@ -78236,36 +74966,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "Hades autocannon",
-                    "id": "4de7-b168-1a6a-3ccf",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "94d1-93d5-37c7-14b9",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "94e6-4f66-1d72-82bf",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
-                  }
-                ],
                 "profiles": [
                   {
                     "name": "Hades autocannon",
@@ -78328,36 +75028,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "name": "Sonic balespewer",
-                    "id": "80e6-d008-7868-fb23",
-                    "type": "upgrade",
-                    "hidden": true,
-                    "import": true,
-                    "constraints": [
-                      {
-                        "id": "0e96-ac3a-040f-6d96",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "d525-dcaf-2939-bb8a",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultAmount": 1
                   }
                 ],
                 "profiles": [
