@@ -1382,6 +1382,43 @@ def apply_revision_66(catalogue, system):
     catalogue["revision"] = 66
 
 
+def consolidate_infantry_profiles(entries):
+    for unit in entries:
+        if unit.get("type") != "unit" or not any(
+            link["name"] == "Infantry" for link in unit.get("categoryLinks", [])
+        ):
+            continue
+
+        model_profiles = [profile for model in walk(unit) if model.get("type") == "model"
+                          for profile in model.get("profiles", [])
+                          if profile["typeName"] == "Unit" and not profile.get("hidden")]
+        stats = {profile["name"]: tuple(c["$text"] for c in profile["characteristics"])
+                 for profile in model_profiles}
+        for profile in model_profiles:
+            base_name, separator, _ = profile["name"].partition(" with ")
+            if separator and stats.get(base_name) == stats[profile["name"]]:
+                profile["name"] = base_name
+
+        # The models already supply these stats. Keep any distinct unit profile.
+        unit["profiles"] = [
+            profile for profile in unit.get("profiles", [])
+            if profile["typeName"] != "Unit"
+            or tuple(c["$text"] for c in profile["characteristics"]) not in stats.values()
+        ]
+
+
+def apply_revision_67(catalogue):
+    entries = catalogue["sharedSelectionEntries"]
+    infractors = named(entries, "Infractors")
+    for option in walk(infractors):
+        if option.get("name") == "Icon of Excess":
+            for association in option.get("associations", []):
+                association["defaultSelectionEntryId"] = "none"
+
+    consolidate_infantry_profiles(entries)
+    catalogue["revision"] = 67
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -1422,6 +1459,7 @@ def migrate(catalogue, system):
     apply_revision_64(catalogue, system)
     apply_revision_65(catalogue)
     apply_revision_66(catalogue, system)
+    apply_revision_67(catalogue)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."

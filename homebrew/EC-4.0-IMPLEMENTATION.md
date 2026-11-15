@@ -64,6 +64,10 @@ open a picker for models already selected in the squad. Playtest the
 Requiem cannon's anti-armour output and the Cathedral sonic immolator's
 Torrent damage.
 
+Revision 67 opens an explicit bearer choice for the Infractors' Icon of
+Excess. Infantry stat blocks use one profile per model type when weapon
+variants share the same stats. Model loadouts still list each weapon.
+
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
 bolt pistols. The champion carries a screamer pistol with a plasma pistol
