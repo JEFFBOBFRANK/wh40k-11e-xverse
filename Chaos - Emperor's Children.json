@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 69,
+    "revision": 70,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -31768,7 +31768,8 @@
                             ],
                             "import": true
                           }
-                        ]
+                        ],
+                        "flatten": true
                       }
                     ]
                   }
@@ -32722,7 +32723,8 @@
                             ],
                             "import": true
                           }
-                        ]
+                        ],
+                        "flatten": true
                       }
                     ]
                   }
@@ -33812,7 +33814,8 @@
                 ],
                 "import": true
               }
-            ]
+            ],
+            "flatten": true
           },
           {
             "name": "Icon of Excess",
