@@ -894,6 +894,139 @@ def apply_revision_60(catalogue):
     catalogue["revision"] = 60
 
 
+def selection_count(unit, child, kind, amount):
+    return dict(childId=child, field="selections", scope=unit["id"], type=kind,
+                value=amount, shared=True, includeChildSelections=True)
+
+
+def expose_squad_composition(unit, legacy):
+    small, large = legacy["selectionEntries"]
+    source = named(small["selectionEntryGroups"], "Models")
+    large_group = named(large["selectionEntryGroups"], "Models")
+    small_size = next(c["value"] for c in source["constraints"] if c["type"] == "min")
+    large_size = next(c["value"] for c in large_group["constraints"] if c["type"] == "min")
+
+    # Older rosters already store a size and its child selections. Keep that
+    # path active for those units and expose the model counters for new ones.
+    old_size = [selection_count(unit, size["id"], "atLeast", 1) for size in (small, large)]
+    new_size = [selection_count(unit, size["id"], "equalTo", 0) for size in (small, large)]
+    legacy["hidden"] = True
+    legacy["defaultSelectionEntryId"] = "none"
+    next(c for c in legacy["constraints"] if c["type"] == "min")["value"] = 0
+    legacy.setdefault("modifiers", []).append(dict(
+        field="hidden", type="set", value=False,
+        conditionGroups=[dict(type="or", conditions=old_size)],
+    ))
+
+    def clone_with_new_ids(branch):
+        cloned = copy.deepcopy(branch)
+        ids = {obj["id"]: identifier("unit-editor:" + obj["id"])
+               for obj in walk(cloned) if "id" in obj}
+        for obj in walk(cloned):
+            for key, value in obj.items():
+                if isinstance(value, str) and value in ids:
+                    obj[key] = ids[value]
+        return cloned
+
+    def hide_with_legacy(entry):
+        entry.setdefault("modifiers", []).append(dict(
+            field="hidden", type="set", value=True,
+            conditionGroups=[dict(type="or", conditions=old_size)],
+        ))
+        return entry
+
+    group = clone_with_new_ids(source)
+    models = group["selectionEntries"]
+    regular = max(models, key=lambda e: e["defaultAmount"])
+    specialists = [model for model in models if not model["defaultAmount"]]
+    champions = [model for model in models if model is not regular and model["defaultAmount"]]
+    champion_count = sum(model["defaultAmount"] for model in champions)
+    regular_min = next(c for c in regular["constraints"] if c["type"] == "min")
+    regular_max = next(c for c in regular["constraints"] if c["type"] == "max")
+    regular_max.update(value=large_size - champion_count, scope="parent",
+                       includeChildSelections=False)
+
+    large_squad = selection_count(unit, "model", "atLeast", large_size)
+    for model in specialists:
+        large_model = named(large_group["selectionEntries"], model["name"])
+        maxima = [c for c in model["constraints"] if c["type"] == "max"]
+        limit = min(maxima, key=lambda c: c["value"])
+        model["constraints"] = [limit]
+        limit.update(scope="parent", includeChildSelections=False)
+        large_limit = min(c["value"] for c in large_model["constraints"] if c["type"] == "max")
+        adjustments = model.setdefault("modifiers", [])
+        adjustments.insert(0, dict(field=limit["id"], type="set", value=large_limit,
+                                   conditions=[large_squad]))
+        for adjustment in adjustments[1:]:
+            assert adjustment["field"] == limit["id"], model["name"]
+            adjustment.update(type="decrement", value=1)
+            for condition in adjustment["conditions"]:
+                condition["scope"] = unit["id"]
+
+    for adjustment in list(regular.get("modifiers", [])):
+        if adjustment["field"] == regular_min["id"]:
+            maximum_adjustment = copy.deepcopy(adjustment)
+            maximum_adjustment["field"] = regular_max["id"]
+            regular["modifiers"].append(maximum_adjustment)
+
+    direct = unit.setdefault("selectionEntries", [])
+    for champion in champions:
+        champion_max = next(c for c in champion["constraints"] if c["type"] == "max")
+        champion_max.update(scope="parent", includeChildSelections=False)
+        champion["sortIndex"] = 0
+        direct.append(hide_with_legacy(champion))
+
+    if specialists:
+        lower, upper = small_size - champion_count, large_size - champion_count
+        group.update(name=f"{lower}-{upper} {unit['name']}",
+                     defaultSelectionEntryId=regular["id"], sortIndex=1)
+        for constraint in group["constraints"]:
+            constraint["value"] = lower if constraint["type"] == "min" else upper
+        group["selectionEntries"] = [regular, *specialists]
+        unit["selectionEntryGroups"].append(hide_with_legacy(group))
+    else:
+        regular["sortIndex"] = 1
+        direct.append(hide_with_legacy(regular))
+
+    for option in clone_with_new_ids(small.get("selectionEntries", [])):
+        option["constraints"] = [c for c in option["constraints"] if c["scope"] == "parent"]
+        option["sortIndex"] = 2
+        direct.append(hide_with_legacy(option))
+
+    unit.setdefault("modifiers", []).extend([
+        dict(field=POINTS, type="increment", value=named(large["costs"], "pts")["value"],
+             conditions=[*new_size, selection_count(unit, "model", "greaterThan", small_size)]),
+        dict(field="error", type="add", value=f"Select exactly {small_size} or {large_size} models.",
+             conditions=[*new_size, selection_count(unit, "model", "greaterThan", small_size),
+                         selection_count(unit, "model", "lessThan", large_size)]),
+    ])
+
+
+def apply_revision_62(catalogue):
+    for unit in catalogue["sharedSelectionEntries"]:
+        if unit.get("type") not in {"unit", "model"}:
+            continue
+        for group in list(unit.get("selectionEntryGroups", [])):
+            if group["name"] == "Unit Size":
+                expose_squad_composition(unit, group)
+
+        for option in list(walk(unit)):
+            weapons = option.get("selectionEntries", [])
+            if option.get("type") != "upgrade" or len(weapons) != 1:
+                continue
+            weapon = weapons[0]
+            if weapon["name"] != option["name"] or weapon.get("defaultAmount") != 1:
+                continue
+            if not any(p["typeName"] in {"Melee Weapons", "Ranged Weapons"}
+                       for p in weapon.get("profiles", [])):
+                continue
+            for key in ("profiles", "infoLinks", "costs"):
+                if key in weapon:
+                    option.setdefault(key, []).extend(weapon[key])
+            del option["selectionEntries"]
+    catalogue["revision"] = 62
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -929,6 +1062,7 @@ def migrate(catalogue, system):
     apply_revision_58(catalogue)
     apply_revision_59(catalogue)
     apply_revision_60(catalogue)
+    apply_revision_62(catalogue)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."

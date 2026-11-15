@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 60 includes 58 datasheets and 14 detachments.
+Catalogue revision 62 includes 58 datasheets and 14 detachments.
 The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -37,6 +37,11 @@ of the phase and reduces the Damage of melee weapons by 1, to a minimum of 1.
 
 Revision 60 corrects the trigger for Fulgrim's Ecstatic Slaughter Pile-in.
 The limits on his weapon attacks still apply.
+
+Revision 62 gives new variable-size units model counters, with champion
+wargear and specialists listed separately. Squads retain their two legal
+sizes and corresponding prices. Units already saved using Unit Size keep
+that selection path. Single-weapon choices show their profile on the choice.
 
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
