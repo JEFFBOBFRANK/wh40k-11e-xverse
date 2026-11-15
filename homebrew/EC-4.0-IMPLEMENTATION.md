@@ -68,6 +68,9 @@ Revision 67 opens an explicit bearer choice for the Infractors' Icon of
 Excess. Infantry stat blocks use one profile per model type when weapon
 variants share the same stats. Model loadouts still list each weapon.
 
+Revision 68 applies the same stat block format to Howling Cavaliers, Chaos
+Spawn, and Fiends.
+
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
 bolt pistols. The champion carries a screamer pistol with a plasma pistol

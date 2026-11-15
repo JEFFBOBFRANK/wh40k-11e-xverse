@@ -1382,16 +1382,17 @@ def apply_revision_66(catalogue, system):
     catalogue["revision"] = 66
 
 
-def consolidate_infantry_profiles(entries):
+def consolidate_unit_profiles(entries):
     for unit in entries:
-        if unit.get("type") != "unit" or not any(
-            link["name"] == "Infantry" for link in unit.get("categoryLinks", [])
-        ):
+        if unit.get("type") != "unit":
             continue
 
         model_profiles = [profile for model in walk(unit) if model.get("type") == "model"
                           for profile in model.get("profiles", [])
                           if profile["typeName"] == "Unit" and not profile.get("hidden")]
+        if not model_profiles:
+            continue
+
         stats = {profile["name"]: tuple(c["$text"] for c in profile["characteristics"])
                  for profile in model_profiles}
         for profile in model_profiles:
@@ -1415,8 +1416,15 @@ def apply_revision_67(catalogue):
             for association in option.get("associations", []):
                 association["defaultSelectionEntryId"] = "none"
 
-    consolidate_infantry_profiles(entries)
+    consolidate_unit_profiles(unit for unit in entries if any(
+        link["name"] == "Infantry" for link in unit.get("categoryLinks", [])
+    ))
     catalogue["revision"] = 67
+
+
+def apply_revision_68(catalogue):
+    consolidate_unit_profiles(catalogue["sharedSelectionEntries"])
+    catalogue["revision"] = 68
 
 
 def migrate(catalogue, system):
@@ -1460,6 +1468,7 @@ def migrate(catalogue, system):
     apply_revision_65(catalogue)
     apply_revision_66(catalogue, system)
     apply_revision_67(catalogue)
+    apply_revision_68(catalogue)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
