@@ -93,6 +93,12 @@ Revision 74 uses the revised Art of Suffering wording. Exposed Nerves worsens
 armour saves against all attackers, and Agony Beyond Endurance permits one
 move per phase.
 
+Revision 75 separates leading subrule headings from their rule and ability
+titles in New Recruit. Standalone subrule headings sit directly above their text.
+
+Revision 76 applies the same layout to subrule paragraphs after introductory
+text, preserving list labels and ordinary inline rule descriptions.
+
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
 bolt pistols. The champion carries a screamer pistol with a plasma pistol

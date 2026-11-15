@@ -1061,15 +1061,6 @@ def apply_revision_63(catalogue):
     ambrosia["$text"] = ambrosia["$text"].replace(
         "Ecstatic Slaughter's additional attacks", "The additional attacks while Enraptured",
     )
-    for unit in (fulgrim, named(entries, "Lucius the Eternal")):
-        for profile in unit["profiles"]:
-            if profile["typeName"] != "Abilities" or profile.get("hidden"):
-                continue
-            description = profile["characteristics"][0]
-            if description["$text"].startswith("**"):
-                # The viewer renders the first Markdown paragraph inline with the title.
-                description["$text"] = "\u200b  \n" + description["$text"]
-
     for name in ("Infractors", "Tormentors"):
         unit = named(entries, name)
         options = [node for node in walk(unit)
@@ -1465,6 +1456,32 @@ def apply_revision_72(catalogue, system):
     catalogue["revision"] = 72
 
 
+def format_subrules(catalogue):
+    paragraph_label = re.compile(r"(^|\n\n)(\*\*[^*\n]+[.:]\*\*) +")
+    opening_heading = re.compile(r"^\*\*[^*\n]+\*\*[ \t]*\n")
+    heading_before_text = re.compile(r"^(\*\*[^*\n]+\*\*)[ \t]*\n{1,2}(?=[\w'\"“‘])", re.M)
+
+    def format_text(text):
+        start = text.lstrip()
+        start = paragraph_label.sub(r"\1\2  \n", start)
+        body = heading_before_text.sub(r"\1<br>", start)
+        if not opening_heading.match(start):
+            return text[:len(text) - len(text.lstrip())] + body
+        # New Recruit places the first Markdown paragraph inline with the title.
+        # HTML breaks avoid the extra line spacing of Markdown breaks here.
+        return "\u200b<br><br>" + body
+
+    for node in walk(catalogue):
+        for key in ("rules", "sharedRules"):
+            for rule in node.get(key, []):
+                if not rule.get("hidden") and isinstance(rule.get("description"), str):
+                    rule["description"] = format_text(rule["description"])
+        if node.get("typeName") == "Abilities" and not node.get("hidden"):
+            for field in node["characteristics"]:
+                if field["name"] == "Description":
+                    field["$text"] = format_text(field["$text"])
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -1511,7 +1528,8 @@ def migrate(catalogue, system):
     apply_revision_70(catalogue)
     apply_revision_71(catalogue, system)
     apply_revision_72(catalogue, system)
-    catalogue["revision"] = 74
+    format_subrules(catalogue)
+    catalogue["revision"] = 76
     system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
