@@ -586,8 +586,6 @@ def set_daemon_allowance(catalogue, system, detachments):
                             "type": "atLeast", "value": 1, "shared": True,
                             "includeChildSelections": True, "includeChildForces": True}],
         }]
-        det["rules"].append({"name": category_name, "id": identifier(det["id"] + ":unique-daemon"),
-                             "hidden": False, "description": "Your army can include one Unique: DAEMON detachment."})
     legions = named(system["categoryEntries"], "Legions of Excess")
     allowance = []
     for modifier in legions["modifiers"]:
@@ -1457,6 +1455,13 @@ def apply_revision_70(catalogue):
     catalogue["revision"] = 70
 
 
+def apply_revision_71(catalogue, system):
+    # Keep the category for the Incursion budget calculation.
+    category = named(system["categoryEntries"], "3DP Detachment")
+    del category["constraints"]
+    catalogue["revision"] = 71
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -1501,7 +1506,8 @@ def migrate(catalogue, system):
     apply_revision_68(catalogue)
     apply_revision_69(catalogue)
     apply_revision_70(catalogue)
-    system["revision"] += 2
+    apply_revision_71(catalogue, system)
+    system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
 

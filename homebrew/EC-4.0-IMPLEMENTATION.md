@@ -79,6 +79,10 @@ Revision 70 uses the Tormentors' squad-level Icon of Excess control for
 Infractors. Its bearer picker accepts one regular Infractor. Existing
 model-level icon selections remain editable until removed.
 
+Revision 71 removes the shared cap on the number of 3-DP detachments.
+Legions of Excess benefit from Thresholds of Agony and Pain Payments.
+Ritual Host and Carnival of Excess remain mutually exclusive in list building.
+
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
 bolt pistols. The champion carries a screamer pistol with a plasma pistol
