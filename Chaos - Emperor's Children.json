@@ -30833,50 +30833,6 @@
         ],
         "profiles": [
           {
-            "name": "Infractors",
-            "id": "d4ef-80b2-06fb-24e0",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "7\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "5"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "3+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "2"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "2"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "-"
-              }
-            ]
-          },
-          {
             "name": "Excessive Assault",
             "id": "d3db-760a-7b94-cbc4",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -34028,50 +33984,6 @@
         ],
         "profiles": [
           {
-            "name": "Tormentors",
-            "id": "f29d-4793-61f6-90ea",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "7\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "5"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "3+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "2"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "2"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "-"
-              }
-            ]
-          },
-          {
             "name": "Objective Defiled",
             "id": "0fbb-3546-f76b-46fe",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -35052,7 +34964,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Tormentor with Plasma gun",
+                            "name": "Tormentor",
                             "id": "4a8c-955d-8dac-28ee",
                             "typeId": "c547-1836-d8a-ff4f",
                             "typeName": "Unit",
@@ -35380,7 +35292,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Tormentor with Meltagun",
+                            "name": "Tormentor",
                             "id": "9a04-0b28-ad34-14ba",
                             "typeId": "c547-1836-d8a-ff4f",
                             "typeName": "Unit",
@@ -36581,7 +36493,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Tormentor with Plasma gun",
+                            "name": "Tormentor",
                             "id": "bce8-386c-5a98-eef7",
                             "typeId": "c547-1836-d8a-ff4f",
                             "typeName": "Unit",
@@ -36909,7 +36821,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Tormentor with Meltagun",
+                            "name": "Tormentor",
                             "id": "4b9b-973f-39f1-abb4",
                             "typeId": "c547-1836-d8a-ff4f",
                             "typeName": "Unit",
@@ -37664,7 +37576,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Tormentor with Plasma gun",
+                    "name": "Tormentor",
                     "id": "ec13-ace6-756c-3286",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -37992,7 +37904,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Tormentor with Meltagun",
+                    "name": "Tormentor",
                     "id": "f323-c136-6d82-ade3",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -39200,50 +39112,6 @@
           }
         ],
         "profiles": [
-          {
-            "name": "Ecstatic Congregation",
-            "id": "8ede-e03a-d9b9-8d73",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "3"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "6+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "1"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "7+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "-"
-              }
-            ]
-          },
           {
             "name": "Ecstatic Chorus (Aura)",
             "id": "9f4b-86c9-22d2-cf6c",
@@ -41166,50 +41034,6 @@
         ],
         "profiles": [
           {
-            "name": "Fleshbound",
-            "id": "6c5d-49f1-0bec-faaf",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "8\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "4"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "5+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "2"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "7+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "2"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "-"
-              }
-            ]
-          },
-          {
             "name": "Mutable Flesh",
             "id": "0473-e241-1865-afa5",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -41669,7 +41493,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Fleshbound with heavy cleaver",
+                            "name": "Fleshbound",
                             "id": "6a9a-a74f-388a-e9ab",
                             "typeId": "c547-1836-d8a-ff4f",
                             "typeName": "Unit",
@@ -42226,7 +42050,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Fleshbound with heavy cleaver",
+                            "name": "Fleshbound",
                             "id": "0072-123b-75e4-c5b8",
                             "typeId": "c547-1836-d8a-ff4f",
                             "typeName": "Unit",
@@ -42819,7 +42643,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Fleshbound with heavy cleaver",
+                    "name": "Fleshbound",
                     "id": "8556-7a84-8669-a3bf",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -43210,50 +43034,6 @@
           }
         ],
         "profiles": [
-          {
-            "name": "Daemonettes",
-            "id": "fc73-6ea6-76d0-6e5e",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "8\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "3"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "7+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "1"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "7+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+"
-              }
-            ]
-          },
           {
             "name": "Horrifying Beauty",
             "id": "8a0c-a767-5947-8fe7",
@@ -45563,50 +45343,6 @@
         ],
         "profiles": [
           {
-            "name": "Flawless Blades",
-            "id": "07f8-56d1-b1c8-035b",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "8\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "5"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "3+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "3"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+"
-              }
-            ]
-          },
-          {
             "name": "Daemonic Patrons",
             "id": "428e-ce60-ece0-8e1f",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -46828,50 +46564,6 @@
         ],
         "profiles": [
           {
-            "name": "Excruciator Terminators",
-            "id": "427b-2ac4-dce1-85f6",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "6"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "2+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "3"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "4+"
-              }
-            ]
-          },
-          {
             "name": "Lethal Obsession",
             "id": "aac3-1510-1575-2352",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -47411,7 +47103,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Excruciator with power fist",
+                    "name": "Excruciator",
                     "id": "216f-ae7e-ff09-641e",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -47764,7 +47456,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Excruciator with heavy weapon",
+                    "name": "Excruciator",
                     "id": "5a6c-b600-8a1d-db80",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -48191,7 +47883,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Excruciator with paired blades",
+                    "name": "Excruciator",
                     "id": "6d2f-d168-6425-0096",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -48511,50 +48203,6 @@
           }
         ],
         "profiles": [
-          {
-            "name": "Phoenix Guard Terminators",
-            "id": "ad94-9021-b809-daab",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "8\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "6"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "2+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "4"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "4+"
-              }
-            ]
-          },
           {
             "name": "Gilded Retinue",
             "id": "12bf-6263-a360-6e5d",
@@ -49062,50 +48710,6 @@
           }
         ],
         "profiles": [
-          {
-            "name": "Dissonant Colossi",
-            "id": "568a-ec11-d820-0f0a",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "8"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "2+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "5"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+"
-              }
-            ]
-          },
           {
             "name": "Resonance Fracture",
             "id": "e722-a377-5093-0d92",
@@ -49710,50 +49314,6 @@
           }
         ],
         "profiles": [
-          {
-            "name": "Ghosts",
-            "id": "a2da-c7c6-f526-2a47",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "8\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "4"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "3+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "2"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "-"
-              }
-            ]
-          },
           {
             "name": "False Echoes",
             "id": "4d15-7fbd-a178-b05b",
@@ -50424,7 +49984,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Ghost with execution needler",
+                            "name": "Ghost",
                             "id": "2713-7e92-c1b1-7b11",
                             "typeId": "c547-1836-d8a-ff4f",
                             "typeName": "Unit",
@@ -51205,7 +50765,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Ghost with execution needler",
+                            "name": "Ghost",
                             "id": "c041-c332-9f53-0d43",
                             "typeId": "c547-1836-d8a-ff4f",
                             "typeName": "Unit",
@@ -51789,7 +51349,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Ghost with execution needler",
+                    "name": "Ghost",
                     "id": "4f35-f750-c90a-5613",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -52503,50 +52063,6 @@
           }
         ],
         "profiles": [
-          {
-            "name": "Chained Thralls",
-            "id": "c11d-0f6e-3f96-c277",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "3"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "6+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "1"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "8+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "0"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "6+"
-              }
-            ]
-          },
           {
             "name": "Living Screens (Aura)",
             "id": "5262-c9e9-5429-a021",
@@ -53536,50 +53052,6 @@
           }
         ],
         "profiles": [
-          {
-            "name": "Rapture Talons",
-            "id": "f196-3b90-dd2a-2577",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "12\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "5"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "3+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "2"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "-"
-              }
-            ]
-          },
           {
             "name": "Cut and Depart",
             "id": "0c64-1bd7-bd5f-4203",
@@ -56303,50 +55775,6 @@
         ],
         "profiles": [
           {
-            "name": "Mirror Guard",
-            "id": "e180-9cdd-a049-ea26",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "8\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "4"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "5+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "2"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "4+"
-              }
-            ]
-          },
-          {
             "name": "Stolen Reflection",
             "id": "a8d3-138b-7277-9d97",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -57314,50 +56742,6 @@
         ],
         "profiles": [
           {
-            "name": "Furies of Slaanesh",
-            "id": "d6bf-1566-b2fd-d6dc",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "12\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "3"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "6+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "1"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "7+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "0"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+"
-              }
-            ]
-          },
-          {
             "name": "Scattering Shadows",
             "id": "8c8c-6e65-a35c-a5e3",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -58283,50 +57667,6 @@
           }
         ],
         "profiles": [
-          {
-            "name": "Choir of Unmaking",
-            "id": "fb49-4d36-dfd9-3801",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "8\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "4"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "6+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "3"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+"
-              }
-            ]
-          },
           {
             "name": "Discordant Revelation",
             "id": "1ad0-873d-1ee5-874c",
