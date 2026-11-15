@@ -31699,67 +31699,19 @@
                             "id": "71ce-7b5e-c835-3b70",
                             "targetId": "1231-f70f-ef73-cb06",
                             "type": "selectionEntry",
-                            "hidden": false,
+                            "hidden": true,
                             "modifiers": [
                               {
                                 "field": "hidden",
                                 "type": "set",
-                                "value": true,
-                                "conditionGroups": [
-                                  {
-                                    "type": "or",
-                                    "conditions": [
-                                      {
-                                        "childId": "4280-b57a-c815-26ac",
-                                        "field": "selections",
-                                        "scope": "f75b-de8c-df19-ed03",
-                                        "type": "atLeast",
-                                        "value": 1,
-                                        "shared": true,
-                                        "includeChildSelections": true
-                                      },
-                                      {
-                                        "childId": "2578-48fe-d3e0-6eae",
-                                        "field": "selections",
-                                        "scope": "f75b-de8c-df19-ed03",
-                                        "type": "atLeast",
-                                        "value": 1,
-                                        "shared": true,
-                                        "includeChildSelections": true
-                                      },
-                                      {
-                                        "childId": "0112-cb7c-d485-1085",
-                                        "field": "selections",
-                                        "scope": "f75b-de8c-df19-ed03",
-                                        "type": "atLeast",
-                                        "value": 1,
-                                        "shared": true,
-                                        "includeChildSelections": true
-                                      }
-                                    ]
-                                  }
-                                ]
-                              },
-                              {
-                                "field": "hidden",
-                                "type": "set",
-                                "value": true,
+                                "value": false,
                                 "conditions": [
                                   {
-                                    "childId": "1231-f70f-ef73-cb06",
+                                    "childId": "71ce-7b5e-c835-3b70",
                                     "field": "selections",
                                     "scope": "f75b-de8c-df19-ed03",
                                     "type": "atLeast",
                                     "value": 1,
-                                    "shared": true,
-                                    "includeChildSelections": true
-                                  },
-                                  {
-                                    "childId": "71ce-7b5e-c835-3b70",
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "type": "equalTo",
-                                    "value": 0,
                                     "shared": true,
                                     "includeChildSelections": true
                                   }
@@ -32653,67 +32605,19 @@
                             "id": "90c4-3fcd-d29c-5e17",
                             "targetId": "1231-f70f-ef73-cb06",
                             "type": "selectionEntry",
-                            "hidden": false,
+                            "hidden": true,
                             "modifiers": [
                               {
                                 "field": "hidden",
                                 "type": "set",
-                                "value": true,
-                                "conditionGroups": [
-                                  {
-                                    "type": "or",
-                                    "conditions": [
-                                      {
-                                        "childId": "4280-b57a-c815-26ac",
-                                        "field": "selections",
-                                        "scope": "f75b-de8c-df19-ed03",
-                                        "type": "atLeast",
-                                        "value": 1,
-                                        "shared": true,
-                                        "includeChildSelections": true
-                                      },
-                                      {
-                                        "childId": "2578-48fe-d3e0-6eae",
-                                        "field": "selections",
-                                        "scope": "f75b-de8c-df19-ed03",
-                                        "type": "atLeast",
-                                        "value": 1,
-                                        "shared": true,
-                                        "includeChildSelections": true
-                                      },
-                                      {
-                                        "childId": "0112-cb7c-d485-1085",
-                                        "field": "selections",
-                                        "scope": "f75b-de8c-df19-ed03",
-                                        "type": "atLeast",
-                                        "value": 1,
-                                        "shared": true,
-                                        "includeChildSelections": true
-                                      }
-                                    ]
-                                  }
-                                ]
-                              },
-                              {
-                                "field": "hidden",
-                                "type": "set",
-                                "value": true,
+                                "value": false,
                                 "conditions": [
                                   {
-                                    "childId": "1231-f70f-ef73-cb06",
+                                    "childId": "90c4-3fcd-d29c-5e17",
                                     "field": "selections",
                                     "scope": "f75b-de8c-df19-ed03",
                                     "type": "atLeast",
                                     "value": 1,
-                                    "shared": true,
-                                    "includeChildSelections": true
-                                  },
-                                  {
-                                    "childId": "90c4-3fcd-d29c-5e17",
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "type": "equalTo",
-                                    "value": 0,
                                     "shared": true,
                                     "includeChildSelections": true
                                   }
@@ -33478,8 +33382,7 @@
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
-                "includeChildSelections": false,
-                "automatic": true
+                "includeChildSelections": false
               },
               {
                 "id": "7ce6-f7bc-c43b-95bd",
@@ -33488,8 +33391,7 @@
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
-                "includeChildSelections": false,
-                "automatic": true
+                "includeChildSelections": false
               }
             ],
             "profiles": [
@@ -33737,88 +33639,6 @@
                     ]
                   }
                 ]
-              },
-              {
-                "type": "set",
-                "field": "12f4-d0a0-284a-7698",
-                "value": 3,
-                "conditions": [
-                  {
-                    "childId": "2b93-30c1-5b58-5979",
-                    "field": "selections",
-                    "scope": "f75b-de8c-df19-ed03",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "field": "7ce6-f7bc-c43b-95bd",
-                "value": 8,
-                "conditions": [
-                  {
-                    "childId": "2b93-30c1-5b58-5979",
-                    "field": "selections",
-                    "scope": "f75b-de8c-df19-ed03",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "field": "7ce6-f7bc-c43b-95bd",
-                "value": 3,
-                "conditions": [
-                  {
-                    "childId": "2b93-30c1-5b58-5979",
-                    "field": "selections",
-                    "scope": "f75b-de8c-df19-ed03",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "90fd-6840-2410-28e9",
-                    "field": "selections",
-                    "scope": "f75b-de8c-df19-ed03",
-                    "type": "equalTo",
-                    "value": 4,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "field": "12f4-d0a0-284a-7698",
-                "value": 9,
-                "conditions": [
-                  {
-                    "childId": "2b93-30c1-5b58-5979",
-                    "field": "selections",
-                    "scope": "f75b-de8c-df19-ed03",
-                    "type": "equalTo",
-                    "value": 0,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "90fd-6840-2410-28e9",
-                    "field": "selections",
-                    "scope": "f75b-de8c-df19-ed03",
-                    "type": "equalTo",
-                    "value": 8,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
               }
             ],
             "entryLinks": [
@@ -33854,7 +33674,7 @@
             "name": "Icon of Excess",
             "id": "0112-cb7c-d485-1085",
             "type": "upgrade",
-            "hidden": true,
+            "hidden": false,
             "import": true,
             "constraints": [
               {
@@ -33888,16 +33708,57 @@
               {
                 "field": "hidden",
                 "type": "set",
-                "value": false,
-                "conditions": [
+                "value": true,
+                "conditionGroups": [
                   {
-                    "childId": "0112-cb7c-d485-1085",
-                    "field": "selections",
-                    "scope": "f75b-de8c-df19-ed03",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "71ce-7b5e-c835-3b70",
+                        "field": "selections",
+                        "scope": "f75b-de8c-df19-ed03",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "4280-b57a-c815-26ac",
+                        "field": "selections",
+                        "scope": "f75b-de8c-df19-ed03",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "90c4-3fcd-d29c-5e17",
+                        "field": "selections",
+                        "scope": "f75b-de8c-df19-ed03",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "2578-48fe-d3e0-6eae",
+                        "field": "selections",
+                        "scope": "f75b-de8c-df19-ed03",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "4fa2-fdf7-c6e5-6868",
+                        "field": "selections",
+                        "scope": "f75b-de8c-df19-ed03",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -33948,389 +33809,6 @@
                 "defaultSelectionEntryId": "none"
               }
             ]
-          },
-          {
-            "name": "Infractor with Icon of Excess",
-            "id": "2b93-30c1-5b58-5979",
-            "type": "model",
-            "hidden": false,
-            "import": true,
-            "defaultAmount": 0,
-            "constraints": [
-              {
-                "id": "80a0-9a84-2d36-9ab4",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "profiles": [
-              {
-                "name": "Infractor",
-                "id": "7756-bffb-5c30-1334",
-                "typeId": "c547-1836-d8a-ff4f",
-                "typeName": "Unit",
-                "hidden": false,
-                "characteristics": [
-                  {
-                    "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "7\""
-                  },
-                  {
-                    "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4",
-                    "$text": "5"
-                  },
-                  {
-                    "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da",
-                    "$text": "3+"
-                  },
-                  {
-                    "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc",
-                    "$text": "6+"
-                  },
-                  {
-                    "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "InSv",
-                    "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": "-"
-                  }
-                ]
-              }
-            ],
-            "selectionEntries": [
-              {
-                "name": "Bolt pistol",
-                "id": "e680-70fa-2258-082a",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "constraints": [
-                  {
-                    "id": "d90b-a7f9-24b0-b606",
-                    "type": "min",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  },
-                  {
-                    "id": "0402-5841-56d6-05a7",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ],
-                "defaultAmount": 1,
-                "profiles": [
-                  {
-                    "name": "Bolt pistol",
-                    "id": "ed3e-8d93-6eb2-4e5b",
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "12\""
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "5"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-1"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Close-Quarters"
-                      }
-                    ]
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "3e82-10b3-fae4-13a5",
-                    "name": "Close-quarters",
-                    "type": "rule",
-                    "targetId": "5238-5ad4-52f7-6eb4",
-                    "hidden": false
-                  }
-                ]
-              },
-              {
-                "name": "Duelling sabre",
-                "id": "6207-fd58-229f-a1f5",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "constraints": [
-                  {
-                    "id": "d96c-1f1a-13e4-491e",
-                    "type": "min",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  },
-                  {
-                    "id": "3f62-696d-e052-d03c",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ],
-                "defaultAmount": 1,
-                "profiles": [
-                  {
-                    "name": "Duelling sabre",
-                    "id": "9880-8b51-79d3-802f",
-                    "typeId": "8a40-4aaa-c780-9046",
-                    "typeName": "Melee Weapons",
-                    "hidden": false,
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "914c-b413-91e3-a132",
-                        "$text": "Melee"
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "2337-daa1-6682-b110",
-                        "$text": "4"
-                      },
-                      {
-                        "name": "WS",
-                        "typeId": "95d1-95f-45b4-11d6",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "ab33-d393-96ce-ccba",
-                        "$text": "5"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "41a0-1301-112a-e2f2",
-                        "$text": "-1"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "3254-9fe6-d824-513e",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Precision"
-                      }
-                    ]
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "b3e3-c5c4-5c73-dd0c",
-                    "name": "Precision",
-                    "type": "rule",
-                    "targetId": "9143-31ae-e0a6-6007",
-                    "hidden": false
-                  }
-                ]
-              }
-            ],
-            "sortIndex": 2,
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditionGroups": [
-                  {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "childId": "269c-aa07-ffcf-855b",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "8247-d416-5ed9-1ba8",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditionGroups": [
-                  {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "childId": "71ce-7b5e-c835-3b70",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "4280-b57a-c815-26ac",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "2cf4-d10f-8b4e-679a",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "90c4-3fcd-d29c-5e17",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "2578-48fe-d3e0-6eae",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "27ab-9c20-0a19-b6e5",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "4fa2-fdf7-c6e5-6868",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "0112-cb7c-d485-1085",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "823d-3d34-8821-f0d0",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "entryLinks": [
-              {
-                "name": "Icon of Excess",
-                "id": "939d-95af-4b5a-8f91",
-                "targetId": "1231-f70f-ef73-cb06",
-                "type": "selectionEntry",
-                "hidden": false,
-                "modifiers": [],
-                "import": true,
-                "defaultAmount": 1,
-                "constraints": [
-                  {
-                    "id": "a3a1-2235-13e5-3398",
-                    "type": "min",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ]
-              }
-            ],
-            "flatten": true
           }
         ]
       },
