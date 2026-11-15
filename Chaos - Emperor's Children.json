@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 57,
+    "revision": 58,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -1039,7 +1039,7 @@
                   {
                     "name": "Whispers of the Dark Prince",
                     "id": "c6c2-9286-5051-fb28",
-                    "description": "\n\nAt the start of each phase, you can offer a Seduction to one unit within 12\" of a friendly Emperor's Children unit. You can choose an enemy unit in either player's turn or a friendly Emperor's Children unit in your turn. If the target is at Level 0, choose a Seduction for it. A unit keeps its Seduction until it returns to Level 0.\n\n**Deepening Temptation**\nAt the start of each player's Command phase, automatically offer a Seduction to each eligible unit that player controls at Level I or higher, regardless of range.\n\n**Accepting and resisting**\nA friendly Emperor's Children unit always accepts and can reach only Level II. An enemy unit can reach Level III. An offer to a unit at its maximum Level has no effect.\n\n- **Accept:** Increase the unit's Level by one. If it reaches Level III, it takes a Battle-shock test with a −1 modifier.\n- **Resist at Level 0:** The unit's controller can decline without rolling.\n- **Resist at Level I or II:** Roll one D6. A roll of 5+ resists Level II and a roll of 6+ resists Level III. On a success, reduce the unit's Level by one and subtract 1 from its next Battle-shock test this battle round. On a failure, increase its Level by one. If it reaches Level III this way, it suffers 3 mortal wounds.\n\nApply all Boons and Prices from the unit's current Level and each lower Level.\n\n**Rapture of Speed**\n- **I — Boon:** Add 2\" to the unit's Move characteristic. **Price:** It cannot Fall Back.\n- **II — Boon:** It can declare a charge in a turn in which it Advanced. **Price:** Subtract 1 from Hit rolls for its ranged attacks.\n- **III — Boon:** Add 2\" to the unit's Move characteristic. It can re-roll Charge rolls. **Price:** Before it declares a charge, it takes a Leadership test. On a failure, the Emperor's Children player chooses a legal charge target. If none is eligible, the unit cannot charge.\n\n**Exquisite Agony**\n- **I — Boon:** Feel No Pain 6+. **Price:** Worsen Leadership by 1.\n- **II — Boon:** Feel No Pain 5+. **Price:** Subtract 1 from Battle-shock test results.\n- **III — Boon:** Feel No Pain 4+. **Price:** At the start of each battle round, this unit suffers 3 mortal wounds.\n\n**Ecstatic Violence**\n- **I — Boon:** Re-roll Hit rolls of 1 for melee attacks. **Price:** When declaring a charge or selecting targets for melee attacks, it must include the closest eligible enemy unit where possible.\n- **II — Boon:** Add 1 to the Attacks characteristic of its melee weapons. **Price:** Subtract 1 from saving throws made for models in the unit.\n- **III — Boon:** Its melee weapons gain LETHAL HITS and add 1 to their Strength characteristic. **Price:** The unit has FIGHTS LAST.\n\n**Perfect Sensation**\n- **I — Boon:** Its ranged weapons have IGNORES COVER. **Price:** Its ranged weapons must target the closest eligible enemy unit wherever possible.\n- **II — Boon:** Improve the Ballistic Skill characteristic of its ranged weapons by 1. **Price:** Subtract 2\" from its Move characteristic.\n- **III — Boon:** Its ranged weapons gain SUSTAINED HITS 1. **Price:** The unit has Objective Control 0 and cannot Advance.\n\n**Whispered Secrets**\n- **I — Boon:** Once per phase, re-roll one Hit roll, Wound roll or saving throw made for the unit. **Price:** Worsen its Leadership by 1.\n- **II — Boon:** Its attacks score Critical Hits on unmodified Hit rolls of 5+. **Price:** The unit cannot be targeted by its controlling player's Stratagems.\n- **III — Boon:** Re-roll Hit rolls of 1 and Wound rolls of 1 for its attacks. **Price:** After this unit finishes shooting or fighting, it suffers D3 mortal wounds.\n\n**Thrall of the Dark Prince**\n- **I — Boon:** Re-roll Hit rolls of 1 and Wound rolls of 1 for its attacks. **Price:** Worsen its Leadership by 1.\n- **II — Boon:** Improve the AP characteristic of its weapons by 1. **Price:** When the unit shoots or declares a charge, it takes a Leadership test before selecting targets. If it fails, the Emperor's Children player chooses its legal targets.\n- **III — Boon:** Feel No Pain 5+. **Price:** Possession.\n\n**Possession**\n\nAt the start of **your** Movement, Shooting or Fight phase, select one enemy unit with Thrall of the Dark Prince at Level III, excluding Epic Hero units, within 12\" of one of your Emperor's Children units. Its controlling player makes a Leadership test for it.\n- **Passed:** Reduce its Seduction to Level II.\n- **Failed:** Control the unit for one immediate action. In Movement, make one Normal move. In Shooting, shoot once. In the Fight phase, make a Charge move of up to 6\" without rolling, then fight once if eligible. For target selection during that action, treat its original army as enemy and your Emperor's Children units as friendly. Use the possessed unit's characteristics and abilities. Your Stratagems and army rules do not apply.\n\n**Possession limitations:** Possession cannot force a disembark, activate a faction rule, spend CP or change mission ownership or scoring. A unit can be possessed only once per battle round. After a failed test, reset its Level to 0 once the action is resolved or if it cannot act.",
+                    "description": "\n\nAt the start of each phase, you can offer a Seduction to one unit within 12\" of a friendly Emperor's Children unit. You can choose an enemy unit in either player's turn or a friendly Emperor's Children unit in your turn. If the target is at Level 0, choose a Seduction for it. A unit keeps its Seduction until it returns to Level 0.\n\n**Deepening Temptation**\nAt the start of each player's Command phase, automatically offer a Seduction to each eligible unit that player controls at Level I or higher, regardless of range.\n\n**Accepting and resisting**\nA friendly Emperor's Children unit always accepts and can reach only Level II. An enemy unit can reach Level III. An offer to a unit at its maximum Level has no effect.\n\n- **Accept:** Increase the unit's Level by one. If it reaches Level III, it takes a Battle-shock test with a −1 modifier.\n- **Resist at Level 0:** The unit's controller can decline without rolling.\n- **Resist at Level I or II:** Roll one D6. A roll of 5+ resists Level II and a roll of 6+ resists Level III. On a success, reduce the unit's Level by one and subtract 1 from its next Battle-shock test this battle round. On a failure, increase its Level by one. If it reaches Level III this way, it suffers 3 mortal wounds.\n\nApply all Boons and Prices from the unit's current Level and each lower Level. Apply any Seduction Price that requires the closest eligible enemy where possible within the targeting restrictions of Obsessed or Stupefied.\n\n**Rapture of Speed**\n- **I — Boon:** Add 2\" to the unit's Move characteristic. **Price:** It cannot Fall Back.\n- **II — Boon:** It can declare a charge in a turn in which it Advanced. **Price:** Subtract 1 from Hit rolls for its ranged attacks.\n- **III — Boon:** Add 2\" to the unit's Move characteristic. It can re-roll Charge rolls. **Price:** Before it declares a charge, it takes a Leadership test. On a failure, the Emperor's Children player chooses a legal charge target. If none is eligible, the unit cannot charge.\n\n**Exquisite Agony**\n- **I — Boon:** Feel No Pain 6+. **Price:** Worsen Leadership by 1.\n- **II — Boon:** Feel No Pain 5+. **Price:** Subtract 1 from Battle-shock test results.\n- **III — Boon:** Feel No Pain 4+. **Price:** At the start of each battle round, this unit suffers 3 mortal wounds.\n\n**Ecstatic Violence**\n- **I — Boon:** Re-roll Hit rolls of 1 for melee attacks. **Price:** When declaring a charge or selecting targets for melee attacks, it must include the closest eligible enemy unit where possible.\n- **II — Boon:** Add 1 to the Attacks characteristic of its melee weapons. **Price:** Subtract 1 from saving throws made for models in the unit.\n- **III — Boon:** Its melee weapons gain LETHAL HITS and add 1 to their Strength characteristic. **Price:** The unit has FIGHTS LAST.\n\n**Perfect Sensation**\n- **I — Boon:** Its ranged weapons have IGNORES COVER. **Price:** Its ranged weapons must target the closest eligible enemy unit wherever possible.\n- **II — Boon:** Improve the Ballistic Skill characteristic of its ranged weapons by 1. **Price:** Subtract 2\" from its Move characteristic.\n- **III — Boon:** Its ranged weapons gain SUSTAINED HITS 1. **Price:** The unit has Objective Control 0 and cannot Advance.\n\n**Whispered Secrets**\n- **I — Boon:** Once per phase, re-roll one Hit roll, Wound roll or saving throw made for the unit. **Price:** Worsen its Leadership by 1.\n- **II — Boon:** Its attacks score Critical Hits on unmodified Hit rolls of 5+. **Price:** The unit cannot be targeted by its controlling player's Stratagems.\n- **III — Boon:** Re-roll Hit rolls of 1 and Wound rolls of 1 for its attacks. **Price:** After this unit finishes shooting or fighting, it suffers D3 mortal wounds.\n\n**Thrall of the Dark Prince**\n- **I — Boon:** Re-roll Hit rolls of 1 and Wound rolls of 1 for its attacks. **Price:** Worsen its Leadership by 1.\n- **II — Boon:** Improve the AP characteristic of its weapons by 1. **Price:** When the unit shoots or declares a charge, it takes a Leadership test before selecting targets. If it fails, the Emperor's Children player chooses its legal targets.\n- **III — Boon:** Feel No Pain 5+. **Price:** Possession.\n\n**Possession**\n\nAt the start of **your** Movement, Shooting or Fight phase, select one enemy unit with Thrall of the Dark Prince at Level III, excluding Epic Hero units, within 12\" of one of your Emperor's Children units. Its controlling player makes a Leadership test for it.\n- **Passed:** Reduce its Seduction to Level II.\n- **Failed:** Control the unit for one immediate action. In Movement, make one Normal move. In Shooting, shoot once. In the Fight phase, make a Charge move of up to 6\" without rolling, then fight once if eligible. For target selection during that action, treat its original army as enemy and your Emperor's Children units as friendly. Use the possessed unit's characteristics and abilities. Your Stratagems and army rules do not apply.\n\n**Possession limitations:** Possession cannot force a disembark, activate a faction rule, spend CP or change mission ownership or scoring. A unit can be possessed only once per battle round. After a failed test, reset its Level to 0 once the action is resolved or if it cannot act.",
                     "hidden": false
                   }
                 ],
@@ -1211,7 +1211,7 @@
                   {
                     "name": "The Art of Suffering",
                     "id": "56e7-dd41-c1df-5b93",
-                    "description": "\n\nWhen a friendly Emperor's Children unit is selected to fight, you can give its melee weapons [DEVASTATING WOUNDS] until it finishes making its attacks.\n\nEach time an attack made by a friendly Emperor's Children unit would inflict damage on an enemy unit through Devastating Wounds, prevent that damage and place one Pain Token on that enemy unit for each point of damage prevented. Pain Tokens remain until spent or the unit is destroyed.\n\n**Thresholds of Agony**\n\n- **3+ — Exposed Nerves:** Worsen armour saving throws made for that enemy unit by 1 against attacks made by friendly Emperor's Children units.\n- **6+ — Unbearable Agony:** Subtract 1 from Hit rolls for attacks made by that enemy unit. The first time it reaches 6 Pain Tokens each battle round, it must take a Battle-shock test.\n- **9+ — Agony Beyond Endurance:** Add 1 to Wound rolls for attacks made by friendly Emperor's Children units against that enemy unit. After a friendly Emperor's Children unit finishes resolving its attacks against an enemy unit with 9 or more Pain Tokens, the attacking unit can make a Normal or Fall Back move, as applicable. Each friendly unit can make this move only once per phase.\n\n**Pain Payments**\n\n- **Nerves Unstrung:** When an enemy unit is selected to fight, you can remove 3 Pain Tokens from it. Until the end of the phase, subtract 1 from the Damage characteristic of its melee weapons, to a minimum of 1.\n- **The Perfect Scream:** At the start of the Fight phase, you can remove 6 Pain Tokens from one enemy unit. Until the end of the phase, it cannot benefit from Fights First or be selected to fight until all eligible friendly Emperor's Children units have fought.\n- **Savour the Suffering:** When a friendly unit must take a Leadership test for Fading Euphoria or Pain Brings Clarity, you can remove 2 Pain Tokens from an enemy unit within 6\" of it. If you do, the friendly unit automatically fails that test.\n\n**Perfection Through Agony**\n\nAfter a friendly Flawless Blades unit finishes making its melee attacks, if it placed 6 or more Pain Tokens on its Obsession with those attacks, it becomes Enraptured.\n\nAt the end of the phase, while a friendly Flawless Blades unit is Enraptured, do not destroy a model in that unit as a result of its Daemonic Patrons ability.",
+                    "description": "\n\nWhen a friendly Emperor's Children unit is selected to fight, you can give its melee weapons [DEVASTATING WOUNDS] until it finishes making its attacks.\n\nEach time an attack made by a friendly Emperor's Children unit would inflict damage on an enemy unit through Devastating Wounds, prevent that damage and place one Pain Token on that enemy unit for each point of damage prevented. Pain Tokens remain until spent or the unit is destroyed.\n\n**Thresholds of Agony**\n\n- **3+ — Exposed Nerves:** Worsen armour saving throws made for that enemy unit by 1 against attacks made by friendly Emperor's Children units.\n- **6+ — Unbearable Agony:** Subtract 1 from Hit rolls for attacks made by that enemy unit. The first time it reaches 6 Pain Tokens each battle round, it must take a Battle-shock test.\n- **9+ — Agony Beyond Endurance:** Add 1 to Wound rolls for attacks made by friendly Emperor's Children units against that enemy unit. After a friendly Emperor's Children unit finishes resolving its attacks against an enemy unit with 9 or more Pain Tokens, the attacking unit can make a Normal or Fall Back move, as applicable. Each friendly unit can make this move only once per phase.\n\n**Pain Payments**\n\n- **Nerves Unstrung:** When an enemy unit is selected to fight, you can remove 3 Pain Tokens from it. Until the end of the phase, subtract 1 from the Damage characteristic of its melee weapons, to a minimum of 1.\n- **The Perfect Scream:** At the start of the Fight phase, you can remove 6 Pain Tokens from one enemy unit. Until the end of the phase, it cannot benefit from Fights First or be selected to fight until all eligible friendly Emperor's Children units have fought.\n- **Savour the Suffering:** When a friendly unit must take a Leadership test for Fading Euphoria or Pain Brings Clarity, you can remove 2 Pain Tokens from an enemy unit within 6\" of it. If you do, the friendly unit automatically fails that test.\n\n**Perfection Through Agony**\n\nAfter a friendly Flawless Blades unit finishes making its melee attacks, if it placed 6 or more Pain Tokens on its Obsession with those attacks, it ceases to be Obsessed and becomes Enraptured.\n\nAt the end of the phase, while a friendly Flawless Blades unit is Enraptured, do not destroy a model in that unit as a result of its Daemonic Patrons ability.",
                     "hidden": false
                   }
                 ],
@@ -3304,7 +3304,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model is Stupefied, it cannot be Battle-shocked."
+                "$text": "Once per battle round, when this model would become Enraptured or Stupefied, you can choose for it to enter the other state or neither state instead."
               }
             ]
           },
@@ -3332,7 +3332,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle, at the start of the Fight phase, this model can score Critical Hits with its daemonic blades on unmodified Hit rolls of 5+ until the end of the phase. While Stupefied, it can use both blade profiles when it fights. Resolve its Serpentine tail attacks once."
+                "$text": "**Obsessed — Perfect Precision**\n\nEach time this model makes an attack with its Daemonic Blades against its Obsession, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n**Enraptured — Ecstatic Slaughter**\n\nOnce per Fight phase, after this model fights, it can make an additional Pile-in move of up to 3\", even if it is in base-to-base contact with an enemy model. When doing so, it can move towards any enemy unit instead of the closest enemy model. After this move, this model can make attacks with the Daemonic Blades profile it did not use during its first fight this phase.\n\n**Stupefied — Unrestrained Savagery**\n\nEach time this model fights, it can make attacks with both profiles of its Daemonic Blades (Strike and Sweep).\n\n**Attack restrictions**\n\nWhile Enraptured or Stupefied, this model can attack with each Daemonic Blades profile and its Serpentine Tail only once per Fight phase, even if another rule allows it to fight again. Ecstatic Slaughter's additional attacks are made only by this model and do not count as fighting again."
               }
             ]
           },
@@ -4545,7 +4545,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle round, when another friendly Stupefied Emperor's Children Infantry unit within 6\" of this model declares a charge, that unit can ignore the closest-target restriction from Stupefied and re-roll its Charge roll."
+                "$text": "Once per battle round, when another friendly Emperor's Children Infantry unit within 6\" of this model declares a charge, that unit can re-roll its Charge roll. If that unit is Stupefied, it can also ignore the closest-target restriction of that state for that charge."
               }
             ]
           },
@@ -5708,7 +5708,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the end of your Command phase, select one other friendly Emperor's Children unit within 6\" of this model. That unit can become Stupefied or cease to be Stupefied without taking a Leadership test."
+                "$text": "At the end of your Command phase, select one other friendly Emperor's Children unit within 6\" of this model. That unit can either become Enraptured or cease to be Stupefied without taking a Leadership test."
               }
             ]
           },
@@ -17815,7 +17815,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Add 1 to Leadership tests taken for this model's unit to cease being Stupefied."
+                "$text": "Add 1 to Leadership tests taken for this model's unit to cease being Enraptured or Stupefied."
               }
             ]
           },
@@ -19431,7 +19431,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the end of either player's turn, if one or more friendly units within 6\" of this model ceased to be Stupefied through Pain Brings Clarity that turn, this model heals D3 wounds."
+                "$text": "At the end of either player's turn, if one or more friendly units within 6\" of this model ceased to be Enraptured or Stupefied through Pain Brings Clarity that turn, this model heals D3 wounds."
               }
             ]
           },
@@ -20404,7 +20404,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle round, you can re-roll a Leadership test taken for this model's unit to cease being Stupefied."
+                "$text": "Once per battle round, you can re-roll a Leadership test taken for this model's unit to cease being Enraptured or Stupefied."
               }
             ]
           },
@@ -24114,7 +24114,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per phase, when Pain Brings Clarity ends Stupefied for a friendly non-Daemon Emperor's Children Infantry unit within 6\" of this model, if that unit is unengaged, it can make a Normal move of up to 6\"."
+                "$text": "Once per phase, when Pain Brings Clarity ends Enraptured or Stupefied for a friendly non-Daemon Emperor's Children Infantry unit within 6\" of this model, if that unit is unengaged, it can make a Normal move of up to 6\"."
               }
             ]
           },
@@ -63298,7 +63298,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "When this model is set up during deployment, select one objective marker on the battlefield. While this model is within range of that marker, it cannot be Stupefied and its Objective Control characteristic is 10. While it is outside range of that marker, it is Stupefied."
+                "$text": "When this model is set up during deployment, select one objective marker on the battlefield. While this model is within range of that marker, it is Enraptured. Otherwise, it is Stupefied. This model cannot become Obsessed or cease to be Enraptured or Stupefied except as specified by this ability."
               }
             ]
           },
@@ -71283,7 +71283,7 @@
             "name": "Glassed Veins",
             "id": "76f2-c151-1636-efea",
             "hidden": false,
-            "description": "Non-DAEMON Emperor's Children CHARACTER. Once per battle round, when the bearer's unit takes a Leadership test to cease being Stupefied, you can re-roll that test."
+            "description": "Non-DAEMON Emperor's Children CHARACTER. Once per battle round, when the bearer's unit takes a Leadership test to cease being Enraptured or Stupefied, you can re-roll that test."
           }
         ]
       },
@@ -72780,7 +72780,7 @@
       {
         "name": "The Pursuit of Perfection",
         "id": "ba01-c487-2242-7c4d",
-        "description": "\n\n**Perfect Execution**\n\nWhen a friendly Emperor's Children unit is selected to shoot or fight, if it is neither Obsessed, Enraptured nor Stupefied, you can select one eligible enemy unit as its Obsession. Your unit becomes Obsessed.\n\n**Obsessed**\n\nRe-roll Hit rolls of 1 and Wound rolls of 1 for attacks against this unit's Obsession. Each attack must target its Obsession if eligible, and each charge it declares must include its Obsession if eligible. A unit can have only one Obsession.\n\n**Surrender to Excess**\n\n- Immediately after this unit destroys its Obsession with its attacks, it ceases to be Obsessed and becomes Enraptured.\n- At the end of the turn, if its Obsession survives, this unit ceases to be Obsessed and becomes Stupefied.\n- If its Obsession is destroyed by another source or otherwise removed before this resolves, this unit ceases to be Obsessed.\n\nA unit can be in only one of these states at a time.\n\n**Enraptured**\n\n- Re-roll Hit rolls of 1 for this unit's attacks. If the target is within 12\" of the attacking model, you can re-roll the Hit roll instead.\n- This unit is eligible to shoot and declare a charge after Advancing or Falling Back.\n- Models in this unit have Feel No Pain 6+.\n- Worsen this unit's Leadership characteristic by 1.\n\n**Stupefied**\n\n- Re-roll Wound rolls of 1 for this unit's attacks. If the target is within 12\" of the attacking model, you can re-roll the Wound roll instead.\n- Models in this unit have Feel No Pain 5+ and Objective Control 0.\n- Worsen this unit's Leadership characteristic by 1.\n- This unit cannot be targeted by friendly Stratagems unless the Stratagem explicitly permits it.\n- Each attack must target the closest eligible enemy unit to this unit whenever possible. Measure between the closest models in the two units. Each charge it declares must include the closest eligible enemy unit.\n\n**Fading Euphoria**\n\nDuring the Battle-shock step of your Command phase, each friendly Enraptured or Stupefied unit must take a Leadership test. On a pass, it ceases to be Enraptured or Stupefied. On a failure, it remains in its current state.\n\n**Pain Brings Clarity**\n\nWhen any unit within 6\" of a friendly Enraptured or Stupefied unit is destroyed, or an enemy unit within 6\" of it fails a Battle-shock test, that friendly unit must take a Leadership test. Measure to a destroyed unit before removing its last model. On a pass, the testing unit ceases to be Enraptured or Stupefied. On a failure, it remains in its current state. Each unit can take this test only once per phase.",
+        "description": "\n\n**Perfect Execution**\n\nWhen a friendly Emperor's Children unit is selected to shoot or fight, if it is neither Obsessed, Enraptured nor Stupefied, you can select one eligible enemy unit as its Obsession. Your unit becomes Obsessed.\n\n**Obsessed**\n\nRe-roll Hit rolls of 1 and Wound rolls of 1 for attacks against this unit's Obsession. Each attack must target its Obsession if eligible, and each charge it declares must include its Obsession if eligible. A unit can have only one Obsession.\n\n**Surrender to Excess**\n\n- Immediately after this unit destroys its Obsession with its attacks, it ceases to be Obsessed and becomes Enraptured.\n- At the end of the turn, if its Obsession survives, this unit ceases to be Obsessed and becomes Stupefied.\n- If its Obsession is destroyed by another source or otherwise removed before this resolves, this unit ceases to be Obsessed.\n\nWhen a unit enters one of these states, it ceases to be in any other of these states.\n\n**Enraptured**\n\n- Re-roll Hit rolls of 1 for this unit's attacks. If the target is within 12\" of the attacking model, you can re-roll the Hit roll instead.\n- This unit is eligible to shoot and declare a charge after Advancing or Falling Back.\n- Models in this unit have Feel No Pain 6+.\n- Worsen this unit's Leadership characteristic by 1.\n\n**Stupefied**\n\n- Re-roll Wound rolls of 1 for this unit's attacks. If the target is within 12\" of the attacking model, you can re-roll the Wound roll instead.\n- Models in this unit have Feel No Pain 5+ and Objective Control 0.\n- Worsen this unit's Leadership characteristic by 1.\n- This unit cannot be targeted by friendly Stratagems unless the Stratagem explicitly permits it.\n- Each attack must target the closest eligible enemy unit to this unit whenever possible. Measure between the closest models in the two units. Each charge it declares must include the closest eligible enemy unit.\n\n**Fading Euphoria**\n\nDuring the Battle-shock step of your Command phase, each friendly Enraptured or Stupefied unit must take a Leadership test. On a pass, it ceases to be Enraptured or Stupefied. On a failure, it remains in its current state.\n\n**Pain Brings Clarity**\n\nWhen any unit within 6\" of a friendly Enraptured or Stupefied unit is destroyed, or an enemy unit within 6\" of it fails a Battle-shock test, that friendly unit must take a Leadership test. Measure to a destroyed unit before removing its last model. On a pass, the testing unit ceases to be Enraptured or Stupefied. On a failure, it remains in its current state. Each unit can take this test only once per phase. Pain Brings Clarity cannot cause a unit to cease being Enraptured or Stupefied during the turn in which it entered that state.",
         "hidden": false,
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "5, 6"
@@ -72825,13 +72825,13 @@
         "id": "f037-2620-412a-b8cd",
         "hidden": false,
         "name": "The Theatre of Excess — Steal the Spotlight / 1 CP",
-        "description": "\n\n### When\n\nAt the start of the Fight phase.\n\n### Target\n\nOne surviving Performer from your army.\n\n### Effect\n\nThat Performer's role takes the Spotlight. It does not earn an Ovation."
+        "description": "\n\n### When\n\nAt the start of the Fight phase.\n\n### Target\n\nOne surviving Performer from your army. You can target that friendly unit with this Stratagem even if it is Stupefied.\n\n### Effect\n\nThat Performer's role takes the Spotlight. It does not earn an Ovation."
       },
       {
         "id": "f571-451f-aceb-5e13",
         "hidden": false,
         "name": "The Theatre of Excess — Stolen Ovation / 1 CP",
-        "description": "\n\n### When\n\nAfter an enemy unit within Engagement Range of one of your Performers fails a Battle-shock test.\n\n### Target\n\nThat Performer, provided its role has not earned an Ovation this battle round.\n\n### Effect\n\nThat role earns one Ovation."
+        "description": "\n\n### When\n\nAfter an enemy unit within Engagement Range of one of your Performers fails a Battle-shock test.\n\n### Target\n\nThat Performer, provided its role has not earned an Ovation this battle round. You can target that friendly unit with this Stratagem even if it is Stupefied.\n\n### Effect\n\nThat role earns one Ovation."
       },
       {
         "id": "e4c2-19ce-2754-86d2",
@@ -72849,7 +72849,7 @@
         "id": "1ada-5d86-2b1f-223f",
         "hidden": false,
         "name": "The Theatre of Excess — The Final Bow / 2 CP",
-        "description": "\n\n### When\n\nFight phase, immediately after an enemy unit finishes its melee attacks and destroys the Performer holding the Spotlight, before removing its last model.\n\n### Target\n\nThat destroyed Performer, **only if it has not fought this phase**.\n\n### Effect\n\nThe Performer can fight before being removed. It cannot use The Grand Finale's additional fight."
+        "description": "\n\n### When\n\nFight phase, immediately after an enemy unit finishes its melee attacks and destroys the Performer holding the Spotlight, before removing its last model.\n\n### Target\n\nThat destroyed Performer, **only if it has not fought this phase**. You can target that friendly unit with this Stratagem even if it is Stupefied.\n\n### Effect\n\nThe Performer can fight before being removed. It cannot use The Grand Finale's additional fight."
       },
       {
         "id": "76cb-8c6c-a8d5-ddca",
@@ -72891,7 +72891,7 @@
         "id": "a495-d166-4942-7ef6",
         "hidden": false,
         "name": "The Exalted Court — By Royal Command / 1 CP",
-        "description": "\n\n### When\n\nAt the start of any phase, immediately after one of your SUBLIME STRATEGIST CHARACTERS issues a Doctrine.\n\n### Target\n\nThe unit that received that Doctrine.\n\n### Effect\n\nThe unit suffers 1 additional mortal wound, or 3 if Stupefied. If it survives, it gains a second, different Doctrine until the first expires. A unit can benefit from this Stratagem only once per battle round."
+        "description": "\n\n### When\n\nAt the start of any phase, immediately after one of your SUBLIME STRATEGIST CHARACTERS issues a Doctrine.\n\n### Target\n\nThe unit that received that Doctrine. You can target that friendly unit with this Stratagem even if it is Stupefied.\n\n### Effect\n\nThe unit suffers 1 additional mortal wound, or 3 if Stupefied. If it survives, it gains a second, different Doctrine until the first expires. A unit can benefit from this Stratagem only once per battle round."
       },
       {
         "id": "ae19-db75-f82e-89b6",
@@ -72915,7 +72915,7 @@
         "id": "d2ed-a1f8-40e7-5b22",
         "hidden": false,
         "name": "The Exalted Court — Reassignment of Honour / 1 CP",
-        "description": "\n\n### When\n\nImmediately after a friendly Emperor's Children unit with a Doctrine is destroyed.\n\n### Target\n\nOne other eligible friendly Emperor's Children unit within 6\" of the destroyed unit immediately before its last model was removed.\n\n### Effect\n\nThe new unit suffers **1 mortal wound (3 if Stupefied)**. If it survives, it gains the destroyed unit's Doctrine until its original expiry. It replaces an existing Doctrine if present."
+        "description": "\n\n### When\n\nImmediately after a friendly Emperor's Children unit with a Doctrine is destroyed.\n\n### Target\n\nOne other eligible friendly Emperor's Children unit within 6\" of the destroyed unit immediately before its last model was removed. You can target that friendly unit with this Stratagem even if it is Stupefied.\n\n### Effect\n\nThe new unit suffers **1 mortal wound (3 if Stupefied)**. If it survives, it gains the destroyed unit's Doctrine until its original expiry. It replaces an existing Doctrine if present."
       },
       {
         "id": "6ede-63aa-5ae5-5178",
