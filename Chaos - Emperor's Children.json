@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 67,
+    "revision": 68,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -58280,50 +58280,6 @@
         ],
         "profiles": [
           {
-            "name": "Howling Cavaliers",
-            "id": "f83a-f10b-cf93-129f",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "12\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "6"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "3+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "4"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "2"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "-"
-              }
-            ]
-          },
-          {
             "name": "Howling Pass",
             "id": "39c6-8978-970f-ba66",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -59202,7 +59158,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Cavalier with combi-weapon",
+                            "name": "Cavalier",
                             "id": "d46c-a26d-ae32-1b72",
                             "typeId": "c547-1836-d8a-ff4f",
                             "typeName": "Unit",
@@ -60312,7 +60268,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Cavalier with combi-weapon",
+                            "name": "Cavalier",
                             "id": "94cc-2259-6db6-8ebe",
                             "typeId": "c547-1836-d8a-ff4f",
                             "typeName": "Unit",
@@ -61050,7 +61006,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Cavalier with combi-weapon",
+                    "name": "Cavalier",
                     "id": "fa22-a628-6a14-93ea",
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -62540,50 +62496,6 @@
         ],
         "profiles": [
           {
-            "name": "Chaos Spawn",
-            "id": "da0f-036f-569a-5e83",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "10\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "6"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "4+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "5"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "7+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "1"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "-"
-              }
-            ]
-          },
-          {
             "name": "Regenerating Flesh",
             "id": "9766-0882-f8d8-a0fc",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -63351,50 +63263,6 @@
           }
         ],
         "profiles": [
-          {
-            "name": "Fiends",
-            "id": "25ef-917a-790e-cb16",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "12\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "5"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "7+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "4"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "7+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "2"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+"
-              }
-            ]
-          },
           {
             "name": "Soporific Musk",
             "id": "8307-0be6-abe4-e620",
