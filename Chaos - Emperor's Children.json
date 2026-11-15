@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 69,
+    "revision": 70,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -31699,67 +31699,19 @@
                             "id": "71ce-7b5e-c835-3b70",
                             "targetId": "1231-f70f-ef73-cb06",
                             "type": "selectionEntry",
-                            "hidden": false,
+                            "hidden": true,
                             "modifiers": [
                               {
                                 "field": "hidden",
                                 "type": "set",
-                                "value": true,
-                                "conditionGroups": [
-                                  {
-                                    "type": "or",
-                                    "conditions": [
-                                      {
-                                        "childId": "4280-b57a-c815-26ac",
-                                        "field": "selections",
-                                        "scope": "f75b-de8c-df19-ed03",
-                                        "type": "atLeast",
-                                        "value": 1,
-                                        "shared": true,
-                                        "includeChildSelections": true
-                                      },
-                                      {
-                                        "childId": "2578-48fe-d3e0-6eae",
-                                        "field": "selections",
-                                        "scope": "f75b-de8c-df19-ed03",
-                                        "type": "atLeast",
-                                        "value": 1,
-                                        "shared": true,
-                                        "includeChildSelections": true
-                                      },
-                                      {
-                                        "childId": "0112-cb7c-d485-1085",
-                                        "field": "selections",
-                                        "scope": "f75b-de8c-df19-ed03",
-                                        "type": "atLeast",
-                                        "value": 1,
-                                        "shared": true,
-                                        "includeChildSelections": true
-                                      }
-                                    ]
-                                  }
-                                ]
-                              },
-                              {
-                                "field": "hidden",
-                                "type": "set",
-                                "value": true,
+                                "value": false,
                                 "conditions": [
                                   {
-                                    "childId": "1231-f70f-ef73-cb06",
+                                    "childId": "71ce-7b5e-c835-3b70",
                                     "field": "selections",
                                     "scope": "f75b-de8c-df19-ed03",
                                     "type": "atLeast",
                                     "value": 1,
-                                    "shared": true,
-                                    "includeChildSelections": true
-                                  },
-                                  {
-                                    "childId": "71ce-7b5e-c835-3b70",
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "type": "equalTo",
-                                    "value": 0,
                                     "shared": true,
                                     "includeChildSelections": true
                                   }
@@ -32653,67 +32605,19 @@
                             "id": "90c4-3fcd-d29c-5e17",
                             "targetId": "1231-f70f-ef73-cb06",
                             "type": "selectionEntry",
-                            "hidden": false,
+                            "hidden": true,
                             "modifiers": [
                               {
                                 "field": "hidden",
                                 "type": "set",
-                                "value": true,
-                                "conditionGroups": [
-                                  {
-                                    "type": "or",
-                                    "conditions": [
-                                      {
-                                        "childId": "4280-b57a-c815-26ac",
-                                        "field": "selections",
-                                        "scope": "f75b-de8c-df19-ed03",
-                                        "type": "atLeast",
-                                        "value": 1,
-                                        "shared": true,
-                                        "includeChildSelections": true
-                                      },
-                                      {
-                                        "childId": "2578-48fe-d3e0-6eae",
-                                        "field": "selections",
-                                        "scope": "f75b-de8c-df19-ed03",
-                                        "type": "atLeast",
-                                        "value": 1,
-                                        "shared": true,
-                                        "includeChildSelections": true
-                                      },
-                                      {
-                                        "childId": "0112-cb7c-d485-1085",
-                                        "field": "selections",
-                                        "scope": "f75b-de8c-df19-ed03",
-                                        "type": "atLeast",
-                                        "value": 1,
-                                        "shared": true,
-                                        "includeChildSelections": true
-                                      }
-                                    ]
-                                  }
-                                ]
-                              },
-                              {
-                                "field": "hidden",
-                                "type": "set",
-                                "value": true,
+                                "value": false,
                                 "conditions": [
                                   {
-                                    "childId": "1231-f70f-ef73-cb06",
+                                    "childId": "90c4-3fcd-d29c-5e17",
                                     "field": "selections",
                                     "scope": "f75b-de8c-df19-ed03",
                                     "type": "atLeast",
                                     "value": 1,
-                                    "shared": true,
-                                    "includeChildSelections": true
-                                  },
-                                  {
-                                    "childId": "90c4-3fcd-d29c-5e17",
-                                    "field": "selections",
-                                    "scope": "parent",
-                                    "type": "equalTo",
-                                    "value": 0,
                                     "shared": true,
                                     "includeChildSelections": true
                                   }
@@ -33743,67 +33647,19 @@
                 "id": "4fa2-fdf7-c6e5-6868",
                 "targetId": "1231-f70f-ef73-cb06",
                 "type": "selectionEntry",
-                "hidden": false,
+                "hidden": true,
                 "modifiers": [
                   {
                     "field": "hidden",
                     "type": "set",
-                    "value": true,
-                    "conditionGroups": [
-                      {
-                        "type": "or",
-                        "conditions": [
-                          {
-                            "childId": "4280-b57a-c815-26ac",
-                            "field": "selections",
-                            "scope": "f75b-de8c-df19-ed03",
-                            "type": "atLeast",
-                            "value": 1,
-                            "shared": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "childId": "2578-48fe-d3e0-6eae",
-                            "field": "selections",
-                            "scope": "f75b-de8c-df19-ed03",
-                            "type": "atLeast",
-                            "value": 1,
-                            "shared": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "childId": "0112-cb7c-d485-1085",
-                            "field": "selections",
-                            "scope": "f75b-de8c-df19-ed03",
-                            "type": "atLeast",
-                            "value": 1,
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
+                    "value": false,
                     "conditions": [
                       {
-                        "childId": "1231-f70f-ef73-cb06",
+                        "childId": "4fa2-fdf7-c6e5-6868",
                         "field": "selections",
                         "scope": "f75b-de8c-df19-ed03",
                         "type": "atLeast",
                         "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "4fa2-fdf7-c6e5-6868",
-                        "field": "selections",
-                        "scope": "parent",
-                        "type": "equalTo",
-                        "value": 0,
                         "shared": true,
                         "includeChildSelections": true
                       }
@@ -33818,7 +33674,7 @@
             "name": "Icon of Excess",
             "id": "0112-cb7c-d485-1085",
             "type": "upgrade",
-            "hidden": true,
+            "hidden": false,
             "import": true,
             "constraints": [
               {
@@ -33852,16 +33708,57 @@
               {
                 "field": "hidden",
                 "type": "set",
-                "value": false,
-                "conditions": [
+                "value": true,
+                "conditionGroups": [
                   {
-                    "childId": "0112-cb7c-d485-1085",
-                    "field": "selections",
-                    "scope": "f75b-de8c-df19-ed03",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "71ce-7b5e-c835-3b70",
+                        "field": "selections",
+                        "scope": "f75b-de8c-df19-ed03",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "4280-b57a-c815-26ac",
+                        "field": "selections",
+                        "scope": "f75b-de8c-df19-ed03",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "90c4-3fcd-d29c-5e17",
+                        "field": "selections",
+                        "scope": "f75b-de8c-df19-ed03",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "2578-48fe-d3e0-6eae",
+                        "field": "selections",
+                        "scope": "f75b-de8c-df19-ed03",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "4fa2-fdf7-c6e5-6868",
+                        "field": "selections",
+                        "scope": "f75b-de8c-df19-ed03",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
