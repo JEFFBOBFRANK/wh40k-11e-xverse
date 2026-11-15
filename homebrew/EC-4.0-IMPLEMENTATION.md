@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 63 includes 58 datasheets and 14 detachments.
+Catalogue revision 64 includes 58 datasheets and 14 detachments.
 The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -46,6 +46,11 @@ that selection path. Single-weapon choices show their profile on the choice.
 Revision 63 puts ability subheadings below their titles and gives Infractors,
 Tormentors, and Daemonettes selectable wargear bearers. A saved unit-level
 icon or instrument can be unchecked and reassigned under a model.
+
+Revision 64 aligns shared weapons with the November Space Marines codex
+profiles. Doomrider's melta modes use D3+2 and retain Melta 3. Newly added
+Daemonettes use the standard Alluress and nine Daemonettes composition,
+with the icon and instrument on separate eligible models.
 
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry

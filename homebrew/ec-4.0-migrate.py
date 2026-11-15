@@ -1121,6 +1121,111 @@ def apply_revision_63(catalogue):
     catalogue["revision"] = 63
 
 
+def format_daemonette_bearers(entries):
+    unit = named(entries, "Daemonettes")
+    models = named(unit["selectionEntryGroups"], "Models")
+    daemonette = named(models["selectionEntries"], "Daemonette")
+    gear = named(daemonette["selectionEntryGroups"], "Bearer wargear")
+    gear["flatten"] = True
+    gear["name"] = "Wargear"
+    for link, suffix in zip(gear["entryLinks"], ("with Daemonic Icon", "with Instrument of Chaos")):
+        target = next(entry for entry in entries if entry["id"] == link["targetId"])
+        link["name"] = target["name"] = target["profiles"][0]["name"]
+        daemonette.setdefault("modifiers", []).append(dict(
+            type="append", field="name", value=suffix,
+            conditions=[dict(childId=link["id"], field="selections", scope="self",
+                             type="atLeast", value=1, shared=True, includeChildSelections=True)],
+        ))
+    named(unit["selectionEntries"], "Daemonic icon")["name"] = "Daemonic Icon"
+
+    # The standard Chaos Daemons squad field one Alluress and nine Daemonettes.
+    # Saved rosters with ten Daemonettes retain their selections and model count.
+    alluress = copy.deepcopy(daemonette)
+    alluress["name"] = "Alluress"
+    alluress.pop("selectionEntryGroups")
+    alluress.pop("modifiers")
+    alluress["defaultAmount"] = 1
+    alluress["sortIndex"] = 0
+    for node in walk(alluress):
+        if "id" in node:
+            node["id"] = identifier(node["id"] + ":alluress")
+    alluress["profiles"][0]["name"] = "Alluress"
+    for limit in alluress["constraints"]:
+        limit.update(value=1, scope="parent", includeChildSelections=False)
+
+    legacy = [
+        selection_count(unit, daemonette["id"], "atLeast", 10),
+        selection_count(unit, alluress["id"], "equalTo", 0),
+    ]
+    minimum = next(c for c in alluress["constraints"] if c["type"] == "min")
+    alluress["modifiers"] = [
+        dict(type="set", field=minimum["id"], value=0, conditions=legacy),
+        dict(type="set", field="hidden", value=True, conditions=legacy),
+    ]
+    daemonette["defaultAmount"] = 9
+    daemonette["sortIndex"] = 1
+    for limit in daemonette["constraints"]:
+        limit["value"] = 9
+    maximum = next(c for c in daemonette["constraints"] if c["type"] == "max")
+    daemonette["modifiers"].append(dict(type="set", field=maximum["id"],
+                                      value=10, conditions=legacy))
+    models["selectionEntries"].insert(0, alluress)
+
+
+def apply_revision_64(catalogue, system):
+    entries = catalogue["sharedSelectionEntries"]
+    # Use the November Space Marines codex profiles for shared weapons and
+    # the equivalent Chaos chassis for stock Chaos-only weapons.
+    standard = {
+        "Meltagun": dict(D="D3+2"),
+        "Multi-melta": dict(S="10", AP="-3", D="D3+2", Keywords="Melta 3"),
+        "Multi-melta - Hunter": dict(AP="-3", D="D3+2", Keywords="Melta 3, Hunter: Monster/Vehicle"),
+        "Heavy bolter": dict(S="5"),
+        "Twin heavy bolter": dict(A="3", S="5", Keywords="Rapid Fire 2, Sustained Hits 1, Twin-linked"),
+        "Twin lascannon": dict(A="1"),
+        "Heavy flamer": dict(A="3", S="5", Keywords="Blast 2, Torrent"),
+        "Predator autocannon": dict(A="4", Keywords="Rapid Fire 2"),
+        "Havoc launcher": dict(A="D6"),
+    }
+    renamed = {
+        "Combi-weapon - plasma": "Combi-weapon - Purgatus",
+        "Combi-weapon - melta": "Combi-weapon - Damnatus",
+    }
+    for unit in entries:
+        if unit.get("type") not in {"unit", "model"}:
+            continue
+        for node in list(walk(unit)):
+            updated_keywords = False
+            for profile in node.get("profiles", []):
+                if profile["typeName"] != "Ranged Weapons":
+                    continue
+                name = profile["name"]
+                changes = standard.get(name, {})
+                if unit["name"] == "Doomrider" and name.startswith("Daemonic twin meltagun - "):
+                    changes = dict(D="D3+2")
+                elif unit["name"] == "Lord Exultant in Terminator Armour" and name == "Combi-bolter":
+                    changes = dict(A="2", Keywords="Rapid Fire 2")
+                elif unit["name"] == "Threnody Dreadnought" and name == "Heavy bolter":
+                    changes = dict(S="5", Keywords="Rapid Fire 2, Sustained Hits 1")
+                elif unit["name"] == "Heldrake" and name == "Hades autocannon":
+                    changes = dict(A="6", S="8", D="2")
+                elif unit["name"] == "Agoniser" and name == "Missile launcher - frag":
+                    changes = dict(A="4", S="4")
+                for characteristic, value in changes.items():
+                    named(profile["characteristics"], characteristic)["$text"] = value
+                updated_keywords |= "Keywords" in changes
+                profile["name"] = renamed.get(name, name)
+            if updated_keywords:
+                # Only the heavy flamer loses a linked keyword in this pass.
+                if any(p["name"] == "Heavy flamer" for p in node["profiles"]):
+                    node["infoLinks"] = [link for link in node.get("infoLinks", [])
+                                         if link["name"].casefold() != "ignores cover"]
+                weapon_rules(node, system)
+
+    format_daemonette_bearers(entries)
+    catalogue["revision"] = 64
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -1158,6 +1263,7 @@ def migrate(catalogue, system):
     apply_revision_60(catalogue)
     apply_revision_62(catalogue)
     apply_revision_63(catalogue)
+    apply_revision_64(catalogue, system)
     system["revision"] += 2
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
