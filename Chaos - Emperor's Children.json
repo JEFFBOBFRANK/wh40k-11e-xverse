@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 62,
+    "revision": 63,
     "gameSystemRevision": 25,
     "library": false,
     "type": "catalogue",
@@ -3332,7 +3332,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "**Obsessed — Perfect Precision**\n\nEach time this model makes an attack with its Daemonic Blades against its Obsession, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n**Enraptured — Ecstatic Slaughter**\n\nAfter this model fights, it can make an additional Pile-in move of up to 3\", even if it is in base-to-base contact with an enemy model. When doing so, it can move towards any enemy unit instead of the closest enemy model. After this move, this model can make attacks with the Daemonic Blades profile it did not use during its first fight this phase.\n\n**Stupefied — Unrestrained Savagery**\n\nEach time this model fights, it can make attacks with both profiles of its Daemonic Blades (Strike and Sweep).\n\n**Attack restrictions**\n\nWhile Enraptured or Stupefied, this model can attack with each Daemonic Blades profile and its Serpentine Tail only once per Fight phase, even if another rule allows it to fight again. Ecstatic Slaughter's additional attacks are made only by this model and do not count as fighting again."
+                "$text": "​  \n**Obsessed**  \nEach time this model makes an attack with its Daemonic Blades against its Obsession, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n**Enraptured**  \nAfter this model fights, it can make an additional Pile-in move of up to 3\", even if it is in base-to-base contact with an enemy model. When doing so, it can move towards any enemy unit instead of the closest enemy model. After this move, this model can make attacks with the Daemonic Blades profile it did not use during its first fight this phase.\n\n**Stupefied**  \nEach time this model fights, it can make attacks with both profiles of its Daemonic Blades (Strike and Sweep).\n\n**Attack restrictions**\n\nWhile Enraptured or Stupefied, this model can attack with each Daemonic Blades profile and its Serpentine Tail only once per Fight phase, even if another rule allows it to fight again. The additional attacks while Enraptured are made only by this model and do not count as fighting again."
               }
             ]
           },
@@ -4019,7 +4019,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "**Mark a host**\n\nOnce per turn, during the Shooting or Fight phase, when Lucius is destroyed by an attack made by an enemy unit, the controller of that attacking unit must select one non-Epic Hero Infantry model from that attacking unit, if one exists. Place an ETERNAL marker on that model.\n\n**Possession**\n\nAt the start of each Fight phase, roll one D6 for the marked model. On a 3+, remove the marker, destroy that model and return Lucius to the battlefield in its former position with D6 wounds remaining.\n\n- If his base cannot fit exactly, place him as close as possible.\n- He can be set up within Engagement Range of the host's former unit or other enemy units.\n- Lucius returns as a separate single-model unit and is Stupefied and Battle-shocked.\n\n**Host destroyed**\n\nRemove the marker if the host dies before possession."
+                "$text": "​  \n**Mark a host**\n\nOnce per turn, during the Shooting or Fight phase, when Lucius is destroyed by an attack made by an enemy unit, the controller of that attacking unit must select one non-Epic Hero Infantry model from that attacking unit, if one exists. Place an ETERNAL marker on that model.\n\n**Possession**\n\nAt the start of each Fight phase, roll one D6 for the marked model. On a 3+, remove the marker, destroy that model and return Lucius to the battlefield in its former position with D6 wounds remaining.\n\n- If his base cannot fit exactly, place him as close as possible.\n- He can be set up within Engagement Range of the host's former unit or other enemy units.\n- Lucius returns as a separate single-model unit and is Stupefied and Battle-shocked.\n\n**Host destroyed**\n\nRemove the marker if the host dies before possession."
               }
             ]
           },
@@ -31778,6 +31778,57 @@
                               }
                             ]
                           }
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Icon of Excess",
+                            "id": "71ce-7b5e-c835-3b70",
+                            "targetId": "1231-f70f-ef73-cb06",
+                            "type": "selectionEntry",
+                            "hidden": false,
+                            "modifiers": [
+                              {
+                                "field": "hidden",
+                                "type": "set",
+                                "value": true,
+                                "conditionGroups": [
+                                  {
+                                    "type": "or",
+                                    "conditions": [
+                                      {
+                                        "childId": "4280-b57a-c815-26ac",
+                                        "field": "selections",
+                                        "scope": "f75b-de8c-df19-ed03",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "2578-48fe-d3e0-6eae",
+                                        "field": "selections",
+                                        "scope": "f75b-de8c-df19-ed03",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "0112-cb7c-d485-1085",
+                                        "field": "selections",
+                                        "scope": "f75b-de8c-df19-ed03",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "import": true
+                          }
                         ]
                       }
                     ]
@@ -31788,7 +31839,7 @@
                     "name": "Icon of Excess",
                     "id": "4280-b57a-c815-26ac",
                     "type": "upgrade",
-                    "hidden": false,
+                    "hidden": true,
                     "import": true,
                     "constraints": [
                       {
@@ -31821,7 +31872,25 @@
                           {
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573",
-                            "$text": "Each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
+                            "$text": "While this unit contains the bearer, each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
+                          }
+                        ]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditions": [
+                          {
+                            "childId": "4280-b57a-c815-26ac",
+                            "field": "selections",
+                            "scope": "f75b-de8c-df19-ed03",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
                           }
                         ]
                       }
@@ -32592,6 +32661,57 @@
                               }
                             ]
                           }
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Icon of Excess",
+                            "id": "90c4-3fcd-d29c-5e17",
+                            "targetId": "1231-f70f-ef73-cb06",
+                            "type": "selectionEntry",
+                            "hidden": false,
+                            "modifiers": [
+                              {
+                                "field": "hidden",
+                                "type": "set",
+                                "value": true,
+                                "conditionGroups": [
+                                  {
+                                    "type": "or",
+                                    "conditions": [
+                                      {
+                                        "childId": "4280-b57a-c815-26ac",
+                                        "field": "selections",
+                                        "scope": "f75b-de8c-df19-ed03",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "2578-48fe-d3e0-6eae",
+                                        "field": "selections",
+                                        "scope": "f75b-de8c-df19-ed03",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "0112-cb7c-d485-1085",
+                                        "field": "selections",
+                                        "scope": "f75b-de8c-df19-ed03",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "import": true
+                          }
                         ]
                       }
                     ]
@@ -32602,7 +32722,7 @@
                     "name": "Icon of Excess",
                     "id": "2578-48fe-d3e0-6eae",
                     "type": "upgrade",
-                    "hidden": false,
+                    "hidden": true,
                     "import": true,
                     "constraints": [
                       {
@@ -32635,7 +32755,25 @@
                           {
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573",
-                            "$text": "Each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
+                            "$text": "While this unit contains the bearer, each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
+                          }
+                        ]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditions": [
+                          {
+                            "childId": "2578-48fe-d3e0-6eae",
+                            "field": "selections",
+                            "scope": "f75b-de8c-df19-ed03",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
                           }
                         ]
                       }
@@ -33542,13 +33680,64 @@
                   }
                 ]
               }
+            ],
+            "entryLinks": [
+              {
+                "name": "Icon of Excess",
+                "id": "4fa2-fdf7-c6e5-6868",
+                "targetId": "1231-f70f-ef73-cb06",
+                "type": "selectionEntry",
+                "hidden": false,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "4280-b57a-c815-26ac",
+                            "field": "selections",
+                            "scope": "f75b-de8c-df19-ed03",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "childId": "2578-48fe-d3e0-6eae",
+                            "field": "selections",
+                            "scope": "f75b-de8c-df19-ed03",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "childId": "0112-cb7c-d485-1085",
+                            "field": "selections",
+                            "scope": "f75b-de8c-df19-ed03",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              }
             ]
           },
           {
             "name": "Icon of Excess",
             "id": "0112-cb7c-d485-1085",
             "type": "upgrade",
-            "hidden": false,
+            "hidden": true,
             "import": true,
             "constraints": [
               {
@@ -33572,7 +33761,7 @@
                   {
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573",
-                    "$text": "Each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
+                    "$text": "While this unit contains the bearer, each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
                   }
                 ]
               }
@@ -33582,30 +33771,16 @@
               {
                 "field": "hidden",
                 "type": "set",
-                "value": true,
-                "conditionGroups": [
+                "value": false,
+                "conditions": [
                   {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "childId": "269c-aa07-ffcf-855b",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "8247-d416-5ed9-1ba8",
-                        "field": "selections",
-                        "scope": "f75b-de8c-df19-ed03",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
+                    "childId": "0112-cb7c-d485-1085",
+                    "field": "selections",
+                    "scope": "f75b-de8c-df19-ed03",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
                   }
                 ]
               }
@@ -34444,6 +34619,57 @@
                               }
                             ]
                           }
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Icon of Excess",
+                            "id": "44d7-f352-6d61-deb2",
+                            "targetId": "6930-4151-4970-3e54",
+                            "type": "selectionEntry",
+                            "hidden": false,
+                            "modifiers": [
+                              {
+                                "field": "hidden",
+                                "type": "set",
+                                "value": true,
+                                "conditionGroups": [
+                                  {
+                                    "type": "or",
+                                    "conditions": [
+                                      {
+                                        "childId": "bef4-034a-0028-c3db",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "1c6e-5bf4-1c7d-4ff9",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "2886-49d7-a634-ba49",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "import": true
+                          }
                         ]
                       },
                       {
@@ -34712,6 +34938,57 @@
                                 "roundUp": false
                               }
                             ]
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Icon of Excess",
+                            "id": "00b6-9db8-d731-f4cb",
+                            "targetId": "6930-4151-4970-3e54",
+                            "type": "selectionEntry",
+                            "hidden": false,
+                            "modifiers": [
+                              {
+                                "field": "hidden",
+                                "type": "set",
+                                "value": true,
+                                "conditionGroups": [
+                                  {
+                                    "type": "or",
+                                    "conditions": [
+                                      {
+                                        "childId": "bef4-034a-0028-c3db",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "1c6e-5bf4-1c7d-4ff9",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "2886-49d7-a634-ba49",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "import": true
                           }
                         ]
                       },
@@ -35013,6 +35290,57 @@
                               }
                             ]
                           }
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Icon of Excess",
+                            "id": "72e6-e302-6cab-9b66",
+                            "targetId": "6930-4151-4970-3e54",
+                            "type": "selectionEntry",
+                            "hidden": false,
+                            "modifiers": [
+                              {
+                                "field": "hidden",
+                                "type": "set",
+                                "value": true,
+                                "conditionGroups": [
+                                  {
+                                    "type": "or",
+                                    "conditions": [
+                                      {
+                                        "childId": "bef4-034a-0028-c3db",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "1c6e-5bf4-1c7d-4ff9",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "2886-49d7-a634-ba49",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "import": true
+                          }
                         ]
                       },
                       {
@@ -35262,6 +35590,57 @@
                               }
                             ]
                           }
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Icon of Excess",
+                            "id": "e8d4-f692-4c4d-71e4",
+                            "targetId": "6930-4151-4970-3e54",
+                            "type": "selectionEntry",
+                            "hidden": false,
+                            "modifiers": [
+                              {
+                                "field": "hidden",
+                                "type": "set",
+                                "value": true,
+                                "conditionGroups": [
+                                  {
+                                    "type": "or",
+                                    "conditions": [
+                                      {
+                                        "childId": "bef4-034a-0028-c3db",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "1c6e-5bf4-1c7d-4ff9",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "2886-49d7-a634-ba49",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "import": true
+                          }
                         ]
                       }
                     ]
@@ -35272,7 +35651,7 @@
                     "name": "Icon of Excess",
                     "id": "bef4-034a-0028-c3db",
                     "type": "upgrade",
-                    "hidden": false,
+                    "hidden": true,
                     "import": true,
                     "constraints": [
                       {
@@ -35305,7 +35684,25 @@
                           {
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573",
-                            "$text": "Each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
+                            "$text": "While this unit contains the bearer, each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
+                          }
+                        ]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditions": [
+                          {
+                            "childId": "bef4-034a-0028-c3db",
+                            "field": "selections",
+                            "scope": "dd01-50f2-b820-8d70",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
                           }
                         ]
                       }
@@ -35832,6 +36229,57 @@
                               }
                             ]
                           }
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Icon of Excess",
+                            "id": "52f5-279a-fe49-73ef",
+                            "targetId": "6930-4151-4970-3e54",
+                            "type": "selectionEntry",
+                            "hidden": false,
+                            "modifiers": [
+                              {
+                                "field": "hidden",
+                                "type": "set",
+                                "value": true,
+                                "conditionGroups": [
+                                  {
+                                    "type": "or",
+                                    "conditions": [
+                                      {
+                                        "childId": "bef4-034a-0028-c3db",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "1c6e-5bf4-1c7d-4ff9",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "2886-49d7-a634-ba49",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "import": true
+                          }
                         ]
                       },
                       {
@@ -36100,6 +36548,57 @@
                                 "roundUp": false
                               }
                             ]
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Icon of Excess",
+                            "id": "df48-73bb-d8b3-343f",
+                            "targetId": "6930-4151-4970-3e54",
+                            "type": "selectionEntry",
+                            "hidden": false,
+                            "modifiers": [
+                              {
+                                "field": "hidden",
+                                "type": "set",
+                                "value": true,
+                                "conditionGroups": [
+                                  {
+                                    "type": "or",
+                                    "conditions": [
+                                      {
+                                        "childId": "bef4-034a-0028-c3db",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "1c6e-5bf4-1c7d-4ff9",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "2886-49d7-a634-ba49",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "import": true
                           }
                         ]
                       },
@@ -36401,6 +36900,57 @@
                               }
                             ]
                           }
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Icon of Excess",
+                            "id": "8818-a61e-be0a-c4bf",
+                            "targetId": "6930-4151-4970-3e54",
+                            "type": "selectionEntry",
+                            "hidden": false,
+                            "modifiers": [
+                              {
+                                "field": "hidden",
+                                "type": "set",
+                                "value": true,
+                                "conditionGroups": [
+                                  {
+                                    "type": "or",
+                                    "conditions": [
+                                      {
+                                        "childId": "bef4-034a-0028-c3db",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "1c6e-5bf4-1c7d-4ff9",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "2886-49d7-a634-ba49",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "import": true
+                          }
                         ]
                       },
                       {
@@ -36650,6 +37200,57 @@
                               }
                             ]
                           }
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Icon of Excess",
+                            "id": "4540-0676-65a2-1fff",
+                            "targetId": "6930-4151-4970-3e54",
+                            "type": "selectionEntry",
+                            "hidden": false,
+                            "modifiers": [
+                              {
+                                "field": "hidden",
+                                "type": "set",
+                                "value": true,
+                                "conditionGroups": [
+                                  {
+                                    "type": "or",
+                                    "conditions": [
+                                      {
+                                        "childId": "bef4-034a-0028-c3db",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "1c6e-5bf4-1c7d-4ff9",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      },
+                                      {
+                                        "childId": "2886-49d7-a634-ba49",
+                                        "field": "selections",
+                                        "scope": "dd01-50f2-b820-8d70",
+                                        "type": "atLeast",
+                                        "value": 1,
+                                        "shared": true,
+                                        "includeChildSelections": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "import": true
+                          }
                         ]
                       }
                     ]
@@ -36660,7 +37261,7 @@
                     "name": "Icon of Excess",
                     "id": "1c6e-5bf4-1c7d-4ff9",
                     "type": "upgrade",
-                    "hidden": false,
+                    "hidden": true,
                     "import": true,
                     "constraints": [
                       {
@@ -36693,7 +37294,25 @@
                           {
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573",
-                            "$text": "Each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
+                            "$text": "While this unit contains the bearer, each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
+                          }
+                        ]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditions": [
+                          {
+                            "childId": "1c6e-5bf4-1c7d-4ff9",
+                            "field": "selections",
+                            "scope": "dd01-50f2-b820-8d70",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
                           }
                         ]
                       }
@@ -37089,6 +37708,57 @@
                       }
                     ]
                   }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Icon of Excess",
+                    "id": "369b-f6e9-f18d-032b",
+                    "targetId": "6930-4151-4970-3e54",
+                    "type": "selectionEntry",
+                    "hidden": false,
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "bef4-034a-0028-c3db",
+                                "field": "selections",
+                                "scope": "dd01-50f2-b820-8d70",
+                                "type": "atLeast",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "1c6e-5bf4-1c7d-4ff9",
+                                "field": "selections",
+                                "scope": "dd01-50f2-b820-8d70",
+                                "type": "atLeast",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "2886-49d7-a634-ba49",
+                                "field": "selections",
+                                "scope": "dd01-50f2-b820-8d70",
+                                "type": "atLeast",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "import": true
+                  }
                 ]
               },
               {
@@ -37389,6 +38059,57 @@
                       }
                     ]
                   }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Icon of Excess",
+                    "id": "cdfb-b834-32fd-cf6a",
+                    "targetId": "6930-4151-4970-3e54",
+                    "type": "selectionEntry",
+                    "hidden": false,
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "bef4-034a-0028-c3db",
+                                "field": "selections",
+                                "scope": "dd01-50f2-b820-8d70",
+                                "type": "atLeast",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "1c6e-5bf4-1c7d-4ff9",
+                                "field": "selections",
+                                "scope": "dd01-50f2-b820-8d70",
+                                "type": "atLeast",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "2886-49d7-a634-ba49",
+                                "field": "selections",
+                                "scope": "dd01-50f2-b820-8d70",
+                                "type": "atLeast",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "import": true
+                  }
                 ]
               },
               {
@@ -37637,6 +38358,57 @@
                         "includeChildSelections": true
                       }
                     ]
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Icon of Excess",
+                    "id": "1e08-3476-08c8-02f5",
+                    "targetId": "6930-4151-4970-3e54",
+                    "type": "selectionEntry",
+                    "hidden": false,
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "bef4-034a-0028-c3db",
+                                "field": "selections",
+                                "scope": "dd01-50f2-b820-8d70",
+                                "type": "atLeast",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "1c6e-5bf4-1c7d-4ff9",
+                                "field": "selections",
+                                "scope": "dd01-50f2-b820-8d70",
+                                "type": "atLeast",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "2886-49d7-a634-ba49",
+                                "field": "selections",
+                                "scope": "dd01-50f2-b820-8d70",
+                                "type": "atLeast",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "import": true
                   }
                 ]
               }
@@ -38209,13 +38981,64 @@
                   }
                 ]
               }
+            ],
+            "entryLinks": [
+              {
+                "name": "Icon of Excess",
+                "id": "63c3-de71-043e-5d76",
+                "targetId": "6930-4151-4970-3e54",
+                "type": "selectionEntry",
+                "hidden": false,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "bef4-034a-0028-c3db",
+                            "field": "selections",
+                            "scope": "dd01-50f2-b820-8d70",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "childId": "1c6e-5bf4-1c7d-4ff9",
+                            "field": "selections",
+                            "scope": "dd01-50f2-b820-8d70",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "childId": "2886-49d7-a634-ba49",
+                            "field": "selections",
+                            "scope": "dd01-50f2-b820-8d70",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              }
             ]
           },
           {
             "name": "Icon of Excess",
             "id": "2886-49d7-a634-ba49",
             "type": "upgrade",
-            "hidden": false,
+            "hidden": true,
             "import": true,
             "constraints": [
               {
@@ -38239,7 +39062,7 @@
                   {
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573",
-                    "$text": "Each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
+                    "$text": "While this unit contains the bearer, each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
                   }
                 ]
               }
@@ -38249,30 +39072,16 @@
               {
                 "field": "hidden",
                 "type": "set",
-                "value": true,
-                "conditionGroups": [
+                "value": false,
+                "conditions": [
                   {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "childId": "34ae-2de4-e891-eb4d",
-                        "field": "selections",
-                        "scope": "dd01-50f2-b820-8d70",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "8c5e-7ead-5895-1518",
-                        "field": "selections",
-                        "scope": "dd01-50f2-b820-8d70",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
+                    "childId": "2886-49d7-a634-ba49",
+                    "field": "selections",
+                    "scope": "dd01-50f2-b820-8d70",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
                   }
                 ]
               }
@@ -42513,34 +43322,6 @@
             ]
           },
           {
-            "name": "Daemonic Icon",
-            "id": "7fa9-aaab-6cd5-ab95",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this unit is summoned, you can re-roll its initial Manifestation roll."
-              }
-            ]
-          },
-          {
-            "name": "Instrument of Chaos",
-            "id": "38a8-106e-13b6-3443",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Add 1 to this unit's Charge rolls."
-              }
-            ]
-          },
-          {
             "name": "Manifestation",
             "id": "3af3-0159-9e67-488a",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -42813,6 +43594,88 @@
                       }
                     ]
                   }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Bearer wargear",
+                    "id": "4781-0a20-4fe7-c49e",
+                    "hidden": false,
+                    "entryLinks": [
+                      {
+                        "name": "Daemonic icon",
+                        "id": "81a5-ccb6-d9c5-c0f6",
+                        "targetId": "99d2-e528-333f-6940",
+                        "type": "selectionEntry",
+                        "hidden": false,
+                        "modifiers": [
+                          {
+                            "field": "hidden",
+                            "type": "set",
+                            "value": true,
+                            "conditionGroups": [
+                              {
+                                "type": "or",
+                                "conditions": [
+                                  {
+                                    "childId": "6cf5-7913-ddf6-77fa",
+                                    "field": "selections",
+                                    "scope": "33f6-f78f-ace5-e1c5",
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "shared": true,
+                                    "includeChildSelections": true
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "import": true
+                      },
+                      {
+                        "name": "Instrument of Chaos",
+                        "id": "31ae-1334-4fee-5389",
+                        "targetId": "d3c4-7b93-9eed-81c9",
+                        "type": "selectionEntry",
+                        "hidden": false,
+                        "modifiers": [
+                          {
+                            "field": "hidden",
+                            "type": "set",
+                            "value": true,
+                            "conditionGroups": [
+                              {
+                                "type": "or",
+                                "conditions": [
+                                  {
+                                    "childId": "a094-0d9f-7a66-6b82",
+                                    "field": "selections",
+                                    "scope": "33f6-f78f-ace5-e1c5",
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "shared": true,
+                                    "includeChildSelections": true
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "import": true
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "7348-01a6-7b26-18f8",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
                 ]
               }
             ]
@@ -42823,7 +43686,7 @@
             "name": "Daemonic icon",
             "id": "6cf5-7913-ddf6-77fa",
             "type": "upgrade",
-            "hidden": false,
+            "hidden": true,
             "import": true,
             "constraints": [
               {
@@ -42844,13 +43707,47 @@
                 "shared": true,
                 "includeChildSelections": true
               }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "6cf5-7913-ddf6-77fa",
+                    "field": "selections",
+                    "scope": "33f6-f78f-ace5-e1c5",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Daemonic Icon",
+                "id": "e5f2-9746-73d3-166b",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "While this unit contains the bearer, you can re-roll its initial Manifestation roll each time it is summoned."
+                  }
+                ]
+              }
             ]
           },
           {
             "name": "Instrument of Chaos",
             "id": "a094-0d9f-7a66-6b82",
             "type": "upgrade",
-            "hidden": false,
+            "hidden": true,
             "import": true,
             "constraints": [
               {
@@ -42870,6 +43767,40 @@
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "a094-0d9f-7a66-6b82",
+                    "field": "selections",
+                    "scope": "33f6-f78f-ace5-e1c5",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Instrument of Chaos",
+                "id": "8956-a992-0c9d-121b",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "While this unit contains the bearer, add 1 to its Charge rolls."
+                  }
+                ]
               }
             ]
           }
@@ -77482,6 +78413,138 @@
             "id": "7973-7775-5878-c04b",
             "hidden": false,
             "description": "Chirurgeon. Once per battle, at the end of the Fight phase, one friendly non-Daemon EC Infantry unit within 6\" heals D3+3 wounds."
+          }
+        ]
+      },
+      {
+        "name": "Icon of Excess",
+        "id": "1231-f70f-ef73-cb06",
+        "type": "upgrade",
+        "hidden": false,
+        "profiles": [
+          {
+            "name": "Icon of Excess",
+            "id": "1aa8-dff3-288a-008e",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this unit contains the bearer, each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "id": "9174-4e8f-ae71-7cfa",
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "f75b-de8c-df19-ed03",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ]
+      },
+      {
+        "name": "Icon of Excess",
+        "id": "6930-4151-4970-3e54",
+        "type": "upgrade",
+        "hidden": false,
+        "profiles": [
+          {
+            "name": "Icon of Excess",
+            "id": "5ea5-688a-f5cc-1f13",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this unit contains the bearer, each time this unit destroys an enemy unit with its attacks, every enemy unit within 6\" of this unit must take a Battle-shock test."
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "id": "b72a-e082-c916-f5aa",
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "dd01-50f2-b820-8d70",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ]
+      },
+      {
+        "name": "Daemonic icon",
+        "id": "99d2-e528-333f-6940",
+        "type": "upgrade",
+        "hidden": false,
+        "profiles": [
+          {
+            "name": "Daemonic Icon",
+            "id": "7fa9-aaab-6cd5-ab95",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this unit contains the bearer, you can re-roll its initial Manifestation roll each time it is summoned."
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "id": "0427-c8dc-73f1-8e3e",
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "33f6-f78f-ace5-e1c5",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ]
+      },
+      {
+        "name": "Instrument of Chaos",
+        "id": "d3c4-7b93-9eed-81c9",
+        "type": "upgrade",
+        "hidden": false,
+        "profiles": [
+          {
+            "name": "Instrument of Chaos",
+            "id": "38a8-106e-13b6-3443",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this unit contains the bearer, add 1 to its Charge rolls."
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "id": "4b14-b73f-7623-628f",
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "33f6-f78f-ace5-e1c5",
+            "shared": true,
+            "includeChildSelections": true
           }
         ]
       }
