@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 77,
+    "revision": 78,
     "gameSystemRevision": 26,
     "library": false,
     "type": "catalogue",
@@ -6854,7 +6854,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While a friendly or enemy unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1. Worsen the Leadership of non-Daemon units in range by 1."
+                "$text": "While a unit is within 12\" of one or more Greater Daemons with this ability, improve the Armour Penetration characteristic of its melee weapons by 1 if it is a Daemon unit. If it is an enemy non-Daemon unit, worsen its Leadership characteristic by 1."
               }
             ]
           },
@@ -27831,7 +27831,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While a friendly or enemy unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1. Worsen the Leadership of non-Daemon units in range by 1."
+                "$text": "While a unit is within 12\" of one or more Greater Daemons with this ability, improve the Armour Penetration characteristic of its melee weapons by 1 if it is a Daemon unit. If it is an enemy non-Daemon unit, worsen its Leadership characteristic by 1."
               }
             ]
           },
@@ -29446,7 +29446,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Start of your Command phase: select one friendly Legions of Excess unit within 6\". Restore D3 wounds to it. First heal any wounded model; remaining restoration can return destroyed non-Character models at full wounds, spending restoration equal to each returned model's Wounds characteristic. Insufficient remaining restoration is lost. Do not exceed Starting Strength or return an entirely destroyed unit."
+                "$text": "At the start of your Command phase, select one friendly Legions of Excess unit within 6\" of this model. That unit heals D3 wounds."
               }
             ]
           },
@@ -68219,7 +68219,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "1"
+                        "$text": "2"
                       },
                       {
                         "name": "BS",
@@ -70144,7 +70144,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "1"
+                        "$text": "2"
                       },
                       {
                         "name": "BS",
@@ -72363,7 +72363,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "1"
+                        "$text": "2"
                       },
                       {
                         "name": "BS",
@@ -76154,7 +76154,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While a friendly or enemy unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1. Worsen the Leadership of non-Daemon units in range by 1."
+                "$text": "While a unit is within 12\" of one or more Greater Daemons with this ability, improve the Armour Penetration characteristic of its melee weapons by 1 if it is a Daemon unit. If it is an enemy non-Daemon unit, worsen its Leadership characteristic by 1."
               }
             ]
           },
