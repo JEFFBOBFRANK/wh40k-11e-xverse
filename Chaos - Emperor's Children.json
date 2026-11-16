@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 80,
+    "revision": 81,
     "gameSystemRevision": 26,
     "library": false,
     "type": "catalogue",
@@ -75419,7 +75419,7 @@
             "name": "Profane Conductor",
             "id": "ce0b-2c1f-37c1-cebe",
             "hidden": false,
-            "description": "Non-Daemon Emperor's Children Character. When a unit summoned by the bearer would roll D3+1 for its initial Manifestation, roll D3+3 instead."
+            "description": "Non-Daemon Emperor's Children Character. When the bearer summons a unit, if that unit is set up wholly within 8\" of the bearer, roll D3+3 for its initial Manifestation."
           }
         ]
       },
