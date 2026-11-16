@@ -105,6 +105,8 @@ Revision 78 limits the Leadership penalty from Reality Unravels to enemy
 non-Daemons, uses standard healing wording for Harmonic Alignment, and sets
 Twin lascannons to two attacks.
 
+Revision 79 makes Profane Conductor upgrade D3+1 initial Manifestation to D3+3.
+
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
 bolt pistols. The champion carries a screamer pistol with a plasma pistol

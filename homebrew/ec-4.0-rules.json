@@ -415,6 +415,10 @@
     ],
     "enhancements": [
       {
+        "name": "Profane Conductor",
+        "text": "Non-Daemon Emperor's Children Character. When a unit summoned by the bearer would roll D3+1 for its initial Manifestation, roll D3+3 instead."
+      },
+      {
         "name": "Consecrated Sacrificial Knife",
         "text": "Non-Daemon Emperor's Children Psyker Character. Once per battle, when determining a Greater Daemon's initial Manifestation after the bearer summons it, roll the D3 component twice and choose one result, then add the summoning-distance modifier. This cannot combine with Summoning Circle on the same roll."
       }
