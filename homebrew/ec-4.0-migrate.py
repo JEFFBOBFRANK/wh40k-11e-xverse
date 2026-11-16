@@ -1482,6 +1482,33 @@ def format_subrules(catalogue):
                     field["$text"] = format_text(field["$text"])
 
 
+def remove_psychic_ignores_cover(catalogue, system):
+    cover = named(system["sharedRules"], "Ignores Cover")
+    for entry in walk(catalogue):
+        keywords = [named(profile["characteristics"], "Keywords")
+                    for profile in entry.get("profiles", [])
+                    if profile["typeName"] in {"Ranged Weapons", "Melee Weapons"}]
+        removed = False
+        for characteristic in keywords:
+            values = characteristic["$text"].split(", ")
+            if "Psychic" in values and cover["name"] in values:
+                values.remove(cover["name"])
+                characteristic["$text"] = ", ".join(values)
+                removed = True
+        if removed and not any(cover["name"] in column["$text"].split(", ") for column in keywords):
+            entry["infoLinks"] = [link for link in entry.get("infoLinks", [])
+                                  if link["targetId"] != cover["id"]]
+
+    for unit, before, after in (
+        ("Raptureweaver", "[Blast 1], [Ignores Cover]. Focused", "[Blast 1]. Focused"),
+        ("Torment Oracle", " Soulspike gains [Ignores Cover].", ""),
+    ):
+        for node in walk(named(catalogue["sharedSelectionEntries"], unit)):
+            for field in ("description", "$text"):
+                if isinstance(node.get(field), str):
+                    node[field] = node[field].replace(before, after)
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -1529,7 +1556,8 @@ def migrate(catalogue, system):
     apply_revision_71(catalogue, system)
     apply_revision_72(catalogue, system)
     format_subrules(catalogue)
-    catalogue["revision"] = 76
+    remove_psychic_ignores_cover(catalogue, system)
+    catalogue["revision"] = 77
     system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."

@@ -99,6 +99,8 @@ titles in New Recruit. Standalone subrule headings sit directly above their text
 Revision 76 applies the same layout to subrule paragraphs after introductory
 text, preserving list labels and ordinary inline rule descriptions.
 
+Revision 77 removes Ignores Cover from Psychic weapon profiles.
+
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
 bolt pistols. The champion carries a screamer pistol with a plasma pistol
