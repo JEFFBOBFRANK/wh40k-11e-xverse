@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 76,
+    "revision": 77,
     "gameSystemRevision": 26,
     "library": false,
     "type": "catalogue",
@@ -8176,7 +8176,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Torrent, Blast 1, Ignores Cover, Psychic, Devastating Wounds"
+                    "$text": "Torrent, Blast 1, Psychic, Devastating Wounds"
                   }
                 ]
               },
@@ -8220,7 +8220,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Torrent, Blast 1, Ignores Cover, Psychic, Devastating Wounds, Hazardous"
+                    "$text": "Torrent, Blast 1, Psychic, Devastating Wounds, Hazardous"
                   }
                 ]
               }
@@ -8245,13 +8245,6 @@
                 "name": "Blast",
                 "type": "rule",
                 "targetId": "6c1f-1cf7-ff25-c99e",
-                "hidden": false
-              },
-              {
-                "id": "2fbd-07b3-19c0-8494",
-                "name": "Ignores Cover",
-                "type": "rule",
-                "targetId": "4640-43e7-30b-215a",
                 "hidden": false
               },
               {
@@ -12319,7 +12312,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Both Blissfire profiles: [Psychic], [Torrent], [Blast 1], [Ignores Cover]. Focused also has [Hazardous]. Mirrorstave: [Psychic]."
+                "$text": "Both Blissfire profiles: [Psychic], [Torrent], [Blast 1]. Focused also has [Hazardous]. Mirrorstave: [Psychic]."
               }
             ]
           }
@@ -12329,7 +12322,7 @@
             "name": "Datasheet rules and equipment",
             "id": "c1f7-323c-eaaf-e63c",
             "hidden": true,
-            "description": "Composition: 1 Raptureweaver.\n\nArmy rules: Combat Drugs.\n\nCore: Leader. Psyker Level: 1. Leader: Tormentors, Infractors, Noise Marines.\n\nKeywords: Infantry, Character, Psyker, Chaos, Slaanesh, Raptureweaver, Emperor's Children.\n\nBoth Blissfire profiles: [Psychic], [Torrent], [Blast 1], [Ignores Cover]. Focused also has [Hazardous]. Mirrorstave: [Psychic].\n\n**Veil of Ecstasy (Psychic Level 1)**\n\nWhen an enemy unit selects this unit as a target of its attacks, if this unit is not Battle-shocked, you can make a psychic roll by rolling one D6. On a 1, this unit becomes Battle-shocked. Regardless of the roll, until the end of the phase, subtract 1 from Hit rolls for attacks that target this unit.\n\n**Through the Looking Glass (Psychic Level 1)**\n\nOnce per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not Battle-shocked and is unengaged, you can make a psychic roll by rolling one D6. On a 1, this unit becomes Battle-shocked. Regardless of the roll, this unit can make a Normal move of up to 6\".\n\n**Signature Elixir: Prismatic Nectar**\n\nActivate at the start of your Movement phase; lasts until the end of the turn. When this unit Advances, do not make an Advance roll; instead, add 6\" to models' Move characteristic for that Advance. If Stupefied, models in this unit can also move through other models when making Normal, Advance or Fall Back moves. They cannot end overlapping another model or within Engagement Range of enemy models.\n\n**Leader**\n\nTormentors, Infractors, Noise Marines.",
+            "description": "Composition: 1 Raptureweaver.\n\nArmy rules: Combat Drugs.\n\nCore: Leader. Psyker Level: 1. Leader: Tormentors, Infractors, Noise Marines.\n\nKeywords: Infantry, Character, Psyker, Chaos, Slaanesh, Raptureweaver, Emperor's Children.\n\nBoth Blissfire profiles: [Psychic], [Torrent], [Blast 1]. Focused also has [Hazardous]. Mirrorstave: [Psychic].\n\n**Veil of Ecstasy (Psychic Level 1)**\n\nWhen an enemy unit selects this unit as a target of its attacks, if this unit is not Battle-shocked, you can make a psychic roll by rolling one D6. On a 1, this unit becomes Battle-shocked. Regardless of the roll, until the end of the phase, subtract 1 from Hit rolls for attacks that target this unit.\n\n**Through the Looking Glass (Psychic Level 1)**\n\nOnce per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not Battle-shocked and is unengaged, you can make a psychic roll by rolling one D6. On a 1, this unit becomes Battle-shocked. Regardless of the roll, this unit can make a Normal move of up to 6\".\n\n**Signature Elixir: Prismatic Nectar**\n\nActivate at the start of your Movement phase; lasts until the end of the turn. When this unit Advances, do not make an Advance roll; instead, add 6\" to models' Move characteristic for that Advance. If Stupefied, models in this unit can also move through other models when making Normal, Advance or Fall Back moves. They cannot end overlapping another model or within Engagement Range of enemy models.\n\n**Leader**\n\nTormentors, Infractors, Noise Marines.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "65"
           }
@@ -12447,7 +12440,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Psychic, Torrent, Blast 1, Ignores Cover"
+                    "$text": "Psychic, Torrent, Blast 1"
                   }
                 ]
               },
@@ -12491,7 +12484,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Psychic, Torrent, Blast 1, Ignores Cover, Hazardous"
+                    "$text": "Psychic, Torrent, Blast 1, Hazardous"
                   }
                 ]
               }
@@ -12509,13 +12502,6 @@
                 "name": "Blast",
                 "type": "rule",
                 "targetId": "6c1f-1cf7-ff25-c99e",
-                "hidden": false
-              },
-              {
-                "id": "e362-df13-ce33-9298",
-                "name": "Ignores Cover",
-                "type": "rule",
-                "targetId": "4640-43e7-30b-215a",
                 "hidden": false
               },
               {
@@ -13804,7 +13790,7 @@
             "name": "Datasheet rules and equipment",
             "id": "6f59-a241-cacd-4bcc",
             "hidden": true,
-            "description": "Composition: 1 Torment Oracle.\n\nArmy rules: Combat Drugs.\n\nCore: Leader. Psyker Level: 2. Leader: Tormentors, Noise Marines, Flawless Blades.\n\nKeywords: Infantry, Character, Psyker, Chaos, Slaanesh, Torment Oracle, Emperor's Children.\n\nBoth Soulspike profiles: [Psychic], [Precision]. Focused also has [Hazardous]. Agonist's blade: [Psychic], [Precision].\n\n**An Audience of Suffering**\n\nWhile this model is leading a unit, that unit's attacks have [Lethal Hits: non-Monster/Vehicle]. While targeting a Battle-shocked unit, those attacks also have [Sustained Hits 1: non-Monster/Vehicle].\n\n**Signature Elixir: Tyrant's Tears**\n\nActivate at the start of your Shooting phase; lasts until the end of the phase. Soulspike gains [Ignores Cover]. If Stupefied, its attacks also have [Devastating Wounds].\n\n**Leader**\n\nTormentors, Noise Marines, Flawless Blades.\n\nCharacter / ABILITIES\n\nTorment Oracle / Continued\n\n**Visions of Abasement (Psychic Level 1)**\n\nIn your Shooting phase, if this unit is not Battle-shocked, select one enemy unit within 18\" of and visible to this model, then make a psychic roll by rolling one D6. On a 1, this unit becomes Battle-shocked. Regardless of the roll, that enemy unit must take a Battle-shock test, subtracting 1 from the result.\n\n**Nerves Unstrung (Psychic Level 1)**\n\nAt the start of your opponent's Movement phase, if this unit is not Battle-shocked, select one enemy unit within 18\" of and visible to this model, then make a psychic roll by rolling one D6. On a 1, this unit becomes Battle-shocked. Regardless of the roll, until the end of that turn, subtract 2\" from that enemy unit's Move characteristic and subtract 2 from its Charge rolls.\n\n**Pavane of Submission (Psychic Level 2)**\n\nIn your Shooting phase, if this unit is not Battle-shocked, select one enemy Infantry unit within 12\" of and visible to this model that is not within Engagement Range of any units from your army. Make a psychic roll by rolling one D6. On a 1, this unit becomes Battle-shocked. Regardless of the roll, your opponent must make a Normal move of up to 6\" with the selected enemy unit towards this model, ending as close to this model as possible. Models must maintain coherency and cannot move within Engagement Range of units from your army.",
+            "description": "Composition: 1 Torment Oracle.\n\nArmy rules: Combat Drugs.\n\nCore: Leader. Psyker Level: 2. Leader: Tormentors, Noise Marines, Flawless Blades.\n\nKeywords: Infantry, Character, Psyker, Chaos, Slaanesh, Torment Oracle, Emperor's Children.\n\nBoth Soulspike profiles: [Psychic], [Precision]. Focused also has [Hazardous]. Agonist's blade: [Psychic], [Precision].\n\n**An Audience of Suffering**\n\nWhile this model is leading a unit, that unit's attacks have [Lethal Hits: non-Monster/Vehicle]. While targeting a Battle-shocked unit, those attacks also have [Sustained Hits 1: non-Monster/Vehicle].\n\n**Signature Elixir: Tyrant's Tears**\n\nActivate at the start of your Shooting phase; lasts until the end of the phase. If Stupefied, its attacks also have [Devastating Wounds].\n\n**Leader**\n\nTormentors, Noise Marines, Flawless Blades.\n\nCharacter / ABILITIES\n\nTorment Oracle / Continued\n\n**Visions of Abasement (Psychic Level 1)**\n\nIn your Shooting phase, if this unit is not Battle-shocked, select one enemy unit within 18\" of and visible to this model, then make a psychic roll by rolling one D6. On a 1, this unit becomes Battle-shocked. Regardless of the roll, that enemy unit must take a Battle-shock test, subtracting 1 from the result.\n\n**Nerves Unstrung (Psychic Level 1)**\n\nAt the start of your opponent's Movement phase, if this unit is not Battle-shocked, select one enemy unit within 18\" of and visible to this model, then make a psychic roll by rolling one D6. On a 1, this unit becomes Battle-shocked. Regardless of the roll, until the end of that turn, subtract 2\" from that enemy unit's Move characteristic and subtract 2 from its Charge rolls.\n\n**Pavane of Submission (Psychic Level 2)**\n\nIn your Shooting phase, if this unit is not Battle-shocked, select one enemy Infantry unit within 12\" of and visible to this model that is not within Engagement Range of any units from your army. Make a psychic roll by rolling one D6. On a 1, this unit becomes Battle-shocked. Regardless of the roll, your opponent must make a Normal move of up to 6\" with the selected enemy unit towards this model, ending as close to this model as possible. Models must maintain coherency and cannot move within Engagement Range of units from your army.",
             "publicationId": "fe49-c7c8-5b8c-a4c5",
             "page": "66"
           }
@@ -57947,7 +57933,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Blast 1, Ignores Cover, Psychic"
+                            "$text": "Blast 1, Psychic"
                           }
                         ]
                       },
@@ -57991,7 +57977,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Blast 1, Ignores Cover, Psychic, Hazardous"
+                            "$text": "Blast 1, Psychic, Hazardous"
                           }
                         ]
                       }
@@ -58009,13 +57995,6 @@
                         "name": "Blast",
                         "type": "rule",
                         "targetId": "6c1f-1cf7-ff25-c99e",
-                        "hidden": false
-                      },
-                      {
-                        "id": "b8af-3351-00f1-9b6b",
-                        "name": "Ignores Cover",
-                        "type": "rule",
-                        "targetId": "4640-43e7-30b-215a",
                         "hidden": false
                       },
                       {
@@ -76464,7 +76443,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Ignores Cover, Psychic"
+                    "$text": "Psychic"
                   }
                 ]
               },
@@ -76508,19 +76487,12 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Ignores Cover, Psychic"
+                    "$text": "Psychic"
                   }
                 ]
               }
             ],
             "infoLinks": [
-              {
-                "name": "Ignores Cover",
-                "id": "7f2b-105c-ea89-63a7",
-                "targetId": "4640-43e7-30b-215a",
-                "type": "rule",
-                "hidden": false
-              },
               {
                 "name": "Psychic",
                 "id": "ef49-a705-b3db-c6f4",
