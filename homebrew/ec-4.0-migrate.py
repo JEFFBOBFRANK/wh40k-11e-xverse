@@ -1152,14 +1152,15 @@ def format_daemonette_bearers(entries):
 def apply_revision_64(catalogue, system):
     entries = catalogue["sharedSelectionEntries"]
     # Use the November Space Marines codex profiles for shared weapons and
-    # the equivalent Chaos chassis for stock Chaos-only weapons.
+    # the equivalent Chaos chassis for stock Chaos-only weapons, with the
+    # homebrew Twin lascannon set to two attacks.
     standard = {
         "Meltagun": dict(D="D3+2"),
         "Multi-melta": dict(S="10", AP="-3", D="D3+2", Keywords="Melta 3"),
         "Multi-melta - Hunter": dict(AP="-3", D="D3+2", Keywords="Melta 3, Hunter: Monster/Vehicle"),
         "Heavy bolter": dict(S="5"),
         "Twin heavy bolter": dict(A="3", S="5", Keywords="Rapid Fire 2, Sustained Hits 1, Twin-linked"),
-        "Twin lascannon": dict(A="1"),
+        "Twin lascannon": dict(A="2"),
         "Heavy flamer": dict(A="3", S="5", Keywords="Blast 2, Torrent"),
         "Predator autocannon": dict(A="4", Keywords="Rapid Fire 2"),
         "Havoc launcher": dict(A="D6"),
@@ -1509,6 +1510,21 @@ def remove_psychic_ignores_cover(catalogue, system):
                     node[field] = node[field].replace(before, after)
 
 
+def update_daemon_abilities(units):
+    aura = 'Reality Unravels (12" Aura)'
+    aura_text = (
+        'While a unit is within 12" of one or more Greater Daemons with this ability, improve the '
+        'Armour Penetration characteristic of its melee weapons by 1 if it is a Daemon unit. '
+        'If it is an enemy non-Daemon unit, worsen its Leadership characteristic by 1.'
+    )
+    for name in GREATER_DAEMONS:
+        ability(units[name], aura, aura_text, previous=aura)
+
+    ability(units["Infernal Enrapturess"], "Harmonic Alignment",
+            'At the start of your Command phase, select one friendly Legions of Excess unit within '
+            '6" of this model. That unit heals D3 wounds.', previous="Harmonic Alignment")
+
+
 def migrate(catalogue, system):
     assert catalogue["revision"] == 43
     units = {entry["name"]: entry for entry in catalogue["sharedSelectionEntries"]
@@ -1557,7 +1573,8 @@ def migrate(catalogue, system):
     apply_revision_72(catalogue, system)
     format_subrules(catalogue)
     remove_psychic_ignores_cover(catalogue, system)
-    catalogue["revision"] = 77
+    update_daemon_abilities(units)
+    catalogue["revision"] = 78
     system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
