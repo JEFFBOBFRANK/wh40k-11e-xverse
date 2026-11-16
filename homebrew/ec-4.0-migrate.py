@@ -1576,7 +1576,7 @@ def migrate(catalogue, system):
     format_subrules(catalogue)
     remove_psychic_ignores_cover(catalogue, system)
     update_daemon_abilities(units)
-    catalogue["revision"] = 80
+    catalogue["revision"] = 81
     system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."

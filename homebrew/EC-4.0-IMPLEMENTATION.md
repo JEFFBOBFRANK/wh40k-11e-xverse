@@ -109,6 +109,9 @@ Revision 79 makes Profane Conductor upgrade D3+1 initial Manifestation to D3+3.
 
 Revision 80 requires players to choose which unit each Support attaches to.
 
+Revision 81 grants D3+3 initial Manifestation to units the bearer of
+Profane Conductor summons wholly within 8" of the bearer.
+
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
 bolt pistols. The champion carries a screamer pistol with a plasma pistol

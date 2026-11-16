@@ -416,7 +416,7 @@
     "enhancements": [
       {
         "name": "Profane Conductor",
-        "text": "Non-Daemon Emperor's Children Character. When a unit summoned by the bearer would roll D3+1 for its initial Manifestation, roll D3+3 instead."
+        "text": "Non-Daemon Emperor's Children Character. When the bearer summons a unit, if that unit is set up wholly within 8\" of the bearer, roll D3+3 for its initial Manifestation."
       },
       {
         "name": "Consecrated Sacrificial Knife",
