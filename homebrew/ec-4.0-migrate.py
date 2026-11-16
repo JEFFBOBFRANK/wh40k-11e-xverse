@@ -710,6 +710,8 @@ def format_leader_and_support(units, system):
             label = association.get("label")
             if label not in core:
                 continue
+            if label == "Support":
+                association["defaultSelectionEntryId"] = "none"
             targets = dict.fromkeys(
                 names_by_id[condition["childId"]]
                 for group in association["conditionGroups"]
@@ -1574,7 +1576,7 @@ def migrate(catalogue, system):
     format_subrules(catalogue)
     remove_psychic_ignores_cover(catalogue, system)
     update_daemon_abilities(units)
-    catalogue["revision"] = 79
+    catalogue["revision"] = 80
     system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
