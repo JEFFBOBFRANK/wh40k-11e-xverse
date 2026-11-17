@@ -41,7 +41,7 @@ Legions of Excess appear only with Carnival of Excess, Perfumed Procession or Ri
 
 Emperor’s Children and Agents of the Imperium use their standard faction names so New Recruit displays the built-in emblems. Their homebrew versions remain EC v3.1 and Agents v0.9.2, recorded in the catalogue notes. Catalogue identifiers and all rules/selections are preserved.
 
-Skaven uses a rat marker in its name: **🐀 Skaven**. This works with the normal GitHub installation without requiring custom icon settings. It is a text/emoji fallback, not the official Skaven emblem. Optional `settings/icons.json` contains native icon mappings for local folder imports; New Recruit’s current GitHub importer skips that settings directory.
+Skaven uses a rat marker in its name: **🐀 Skaven**. This works with the normal GitHub installation without requiring custom icon settings. It is a text/emoji fallback, not the official Skaven emblem. The repository has no `settings/icons.json`: a custom icon map pointing to images missing from the repository removed New Recruit's built-in icons for every faction.
 
 ## EC datasheets and references
 
