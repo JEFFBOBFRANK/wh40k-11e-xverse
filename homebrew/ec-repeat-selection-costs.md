@@ -13,7 +13,7 @@ Each listed cost is added to each copy from the indicated selection onwards. Ear
 | Noise Marines | 3rd | +15 |
 | Excruciator Terminators | 3rd | +30 |
 | Phoenix Guard Terminators | 3rd | +30 |
-| Dissonant Colossi | 2nd | +20 |
+| Dissonant Colossi | 3rd | +20 |
 | Rapture Talons | 3rd | +10 |
 | Stage of Excess | 2nd | +20 |
 | Chaos Rhino | 4th | +10 |
@@ -28,7 +28,7 @@ Each listed cost is added to each copy from the indicated selection onwards. Ear
 
 The five existing surcharges are retained: Lord Exultant, Noise Marines, Chaos Rhino, Maulerfiend and Defiler. The Prince variants, Keeper of Secrets and Land Raider receive the maintained EC thresholds and increments. Excruciator Terminators follow CSM Terminators; Rapture Talons follow Raptors/Warp Talons; Cacophant follows Forgefiend; Palatine Ravager follows Predator pricing.
 
-Custom adjustments: the jump Lord follows the ordinary Lord's third-copy cost because it grants its unit a free elixir; Phoenix Guard use the Terminator increment for their durable Fights First role; Colossi receive +20 from the second copy (EC 4.0 revision 82) for concentrated firepower and additional target coverage from Resonance Fracture. The Idol and Stage pay from their second selections for expanding their healing/free-elixir support across the army. The Titanic Threnody uses the +25 second-copy increment of the CSM Lord of Skulls. These are initial homebrew balance choices, rather than published costs for those custom units.
+Custom adjustments: the jump Lord follows the ordinary Lord's third-copy cost because it grants its unit a free elixir; Phoenix Guard use the Terminator increment for their durable Fights First role; Colossi receive +20 on the third copy for concentrated firepower and additional target coverage from Resonance Fracture. The Idol and Stage pay from their second selections for expanding their healing/free-elixir support across the army. The Titanic Threnody uses the +25 second-copy increment of the CSM Lord of Skulls. These are initial homebrew balance choices, rather than published costs for those custom units.
 
 All 39 remaining datasheets retain their prices without repeat-selection surcharges. No abilities, weapon profiles, model counts, equipment prices or attachment rules are changed.
 

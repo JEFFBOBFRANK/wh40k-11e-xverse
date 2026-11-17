@@ -1576,45 +1576,10 @@ def migrate(catalogue, system):
     format_subrules(catalogue)
     remove_psychic_ignores_cover(catalogue, system)
     update_daemon_abilities(units)
-    apply_revision_82(catalogue)
-    catalogue["revision"] = 82
+    catalogue["revision"] = 81
     system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
-
-
-ENHANCEMENT_SLOTS = "f759-1bc4-cb3a-f0d2"
-UPGRADE_LIMIT = 3
-
-
-def apply_revision_82(catalogue):
-    """Colossi pay +20 from the second copy; every Upgrade allows three copies.
-
-    Repeated copies of an Upgrade use one Enhancement slot in total, matching
-    the Upgrades carried over from earlier revisions.
-    """
-    entries = catalogue["sharedSelectionEntries"]
-    colossi = named(entries, "Dissonant Colossi")
-    surcharges = [m for m in colossi["modifiers"] if m["field"] == POINTS and m["type"] == "increment"]
-    assert len(surcharges) == 1 and surcharges[0]["value"] == 20
-    surcharges[0]["conditionGroups"][0]["localConditionGroups"][0]["value"] = 1
-
-    upgrades = [entry for entry in entries if entry["name"].endswith("[Upgrade]")]
-    template = next(
-        m for entry in upgrades for m in entry.get("modifiers", [])
-        if m["field"] == ENHANCEMENT_SLOTS and m["type"] == "set" and m["value"] == 0
-    )
-    for entry in upgrades:
-        maxima = [c for c in entry["constraints"] if c["type"] == "max" and c["scope"] == "roster"]
-        assert len(maxima) == 1, entry["name"]
-        maxima[0]["value"] = UPGRADE_LIMIT
-        if any(m["field"] == ENHANCEMENT_SLOTS for m in entry.get("modifiers", [])):
-            continue
-        modifier = copy.deepcopy(template)
-        group = modifier["conditionGroups"][0]["localConditionGroups"][0]
-        selector = next(c for c in group["conditions"] if c["type"] == "instanceOf")
-        selector["childId"] = entry["id"]
-        entry.setdefault("modifiers", []).append(modifier)
 
 
 def main():

@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 82,
+    "revision": 81,
     "gameSystemRevision": 26,
     "library": false,
     "type": "catalogue",
@@ -48650,7 +48650,7 @@
                     "repeats": 1,
                     "scope": "parent",
                     "type": "atLeast",
-                    "value": 1,
+                    "value": 2,
                     "conditions": [
                       {
                         "childId": "any",
@@ -77174,7 +77174,7 @@
           {
             "id": "12cb-970a-b232-dabc",
             "type": "max",
-            "value": 3,
+            "value": 1,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -77187,48 +77187,6 @@
             "id": "80d3-a0b5-8a48-2cf7",
             "hidden": false,
             "description": "Flawless Blades, Dissonant Colossi or Noise Marines only. This unit benefits from Unbroken Perfection as if it were a Terminator unit."
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "f759-1bc4-cb3a-f0d2",
-            "type": "set",
-            "value": 0,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "roster",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "before",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "749c-902b-7c67-5a06",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "instanceOf",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -77330,7 +77288,7 @@
           {
             "id": "852d-635b-1b15-f5a1",
             "type": "max",
-            "value": 3,
+            "value": 1,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -77343,48 +77301,6 @@
             "id": "e566-fb17-548f-88e0",
             "hidden": false,
             "description": "Emperor's Children Vehicle only. Re-roll Hit rolls of 1 for the bearer's attacks."
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "f759-1bc4-cb3a-f0d2",
-            "type": "set",
-            "value": 0,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "roster",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "before",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "22ea-151e-964d-2eaf",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "instanceOf",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -77410,7 +77326,7 @@
           {
             "id": "a0ee-a6fb-9be5-7bc4",
             "type": "max",
-            "value": 3,
+            "value": 1,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -77423,48 +77339,6 @@
             "id": "0b1f-392f-7495-886b",
             "hidden": false,
             "description": "Emperor's Children Vehicle only. Once per battle round, after an enemy unit fails a Battle-shock test caused by the bearer's Cacophony of Steel, the bearer can make a Normal move of up to 6\"."
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "f759-1bc4-cb3a-f0d2",
-            "type": "set",
-            "value": 0,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "roster",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "before",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "4501-551e-85ab-dc88",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "instanceOf",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
