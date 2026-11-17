@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 66 includes 58 datasheets and 14 detachments.
+Catalogue revision 82 includes 58 datasheets and 14 detachments.
 The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -111,6 +111,11 @@ Revision 80 requires players to choose which unit each Support attaches to.
 
 Revision 81 grants D3+3 initial Manifestation to units the bearer of
 Profane Conductor summons wholly within 8" of the bearer.
+
+Revision 82 charges Dissonant Colossi +20 points from the second copy,
+instead of the third. Immaculate Panoply, Perfected Targeting Array and
+Predatory Overdrive allow three copies, like the other Upgrades. Repeated
+copies of an Upgrade use one Enhancement slot in total.
 
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry
