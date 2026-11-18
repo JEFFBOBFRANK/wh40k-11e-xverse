@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 83 includes 58 datasheets and 14 detachments.
+Catalogue revision 84 includes 58 datasheets and 14 detachments.
 The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -120,6 +120,11 @@ copies of an Upgrade use one Enhancement slot in total.
 Revision 83 removes the Sonic Weapons rule and every reference to it.
 Vhalyss's The First Symphony now re-rolls one Wound roll of 1 for a unit's
 ranged attacks. Weapon names such as sonic blaster are unchanged.
+
+Revision 84 leaves The Gilded Host's Gilded Defiance as the only -1 Damage
+stratagem. Peerless Bladesmen's Faultless Parry now subtracts 1 from Hit
+rolls for melee attacks against the unit, and The Exalted Court's Iron
+Mandate subtracts 1 from Wound rolls for attacks against the unit.
 
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry

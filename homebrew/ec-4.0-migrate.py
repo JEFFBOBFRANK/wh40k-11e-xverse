@@ -1578,7 +1578,8 @@ def migrate(catalogue, system):
     update_daemon_abilities(units)
     apply_revision_82(catalogue)
     apply_revision_83(catalogue)
-    catalogue["revision"] = 83
+    apply_revision_84(catalogue)
+    catalogue["revision"] = 84
     system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
@@ -1639,6 +1640,24 @@ def apply_revision_83(catalogue):
                 replaced += 1
     assert replaced, "First Symphony text not found"
     assert "Sonic Weapons" not in json.dumps(catalogue)
+
+
+DAMAGE_STRATAGEM_EFFECTS = {
+    "Peerless Bladesmen — Faultless Parry / 1 CP": (
+        "subtract 1 from the Damage characteristic of melee attacks that target your unit, to a minimum of 1.",
+        "subtract 1 from the Hit roll for melee attacks that target your unit."),
+    "The Exalted Court — Iron Mandate / 1 CP": (
+        "subtract 1 from the Damage characteristic of attacks targeting your unit (minimum 1).",
+        "subtract 1 from the Wound roll for attacks that target your unit."),
+}
+
+
+def apply_revision_84(catalogue):
+    """Only The Gilded Host keeps a -1 Damage stratagem."""
+    for name, (old, new) in DAMAGE_STRATAGEM_EFFECTS.items():
+        rule = named(catalogue["sharedRules"], name)
+        assert rule["description"].count(old) == 1, name
+        rule["description"] = rule["description"].replace(old, new)
 
 
 def main():

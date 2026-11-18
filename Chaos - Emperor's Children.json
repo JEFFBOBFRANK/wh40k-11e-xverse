@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 83,
+    "revision": 84,
     "gameSystemRevision": 26,
     "library": false,
     "type": "catalogue",
@@ -78749,7 +78749,7 @@
       {
         "name": "Peerless Bladesmen — Faultless Parry / 1 CP",
         "id": "315a-9afd-069e-bba6",
-        "description": "\n\n### When\n\nThe Fight phase, after an enemy unit selects its targets.\n\n### Target\n\nOne friendly Emperor's Children unit selected as a target.\n\n### Effect\n\nUntil that enemy unit finishes attacking, subtract 1 from the Damage characteristic of melee attacks that target your unit, to a minimum of 1.",
+        "description": "\n\n### When\n\nThe Fight phase, after an enemy unit selects its targets.\n\n### Target\n\nOne friendly Emperor's Children unit selected as a target.\n\n### Effect\n\nUntil that enemy unit finishes attacking, subtract 1 from the Hit roll for melee attacks that target your unit.",
         "hidden": false
       },
       {
@@ -78968,7 +78968,7 @@
         "id": "3901-70e7-19a2-e9dc",
         "hidden": false,
         "name": "The Exalted Court — Iron Mandate / 1 CP",
-        "description": "\n\n### When\n\nYour opponent's Shooting phase or the Fight phase, after an enemy unit selects targets for its attacks.\n\n### Target\n\nOne friendly Emperor's Children unit with a Doctrine selected as a target.\n\n### Effect\n\nUntil that enemy unit finishes attacking, subtract 1 from the Damage characteristic of attacks targeting your unit (minimum 1)."
+        "description": "\n\n### When\n\nYour opponent's Shooting phase or the Fight phase, after an enemy unit selects targets for its attacks.\n\n### Target\n\nOne friendly Emperor's Children unit with a Doctrine selected as a target.\n\n### Effect\n\nUntil that enemy unit finishes attacking, subtract 1 from the Wound roll for attacks that target your unit."
       },
       {
         "id": "277e-f4dc-55a5-217e",
