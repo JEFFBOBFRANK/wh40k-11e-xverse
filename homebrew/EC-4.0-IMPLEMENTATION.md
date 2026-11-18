@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 82 includes 58 datasheets and 14 detachments.
+Catalogue revision 83 includes 58 datasheets and 14 detachments.
 The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -116,6 +116,10 @@ Revision 82 charges Dissonant Colossi +20 points from the second copy,
 instead of the third. Immaculate Panoply, Perfected Targeting Array and
 Predatory Overdrive allow three copies, like the other Upgrades. Repeated
 copies of an Upgrade use one Enhancement slot in total.
+
+Revision 83 removes the Sonic Weapons rule and every reference to it.
+Vhalyss's The First Symphony now re-rolls one Wound roll of 1 for a unit's
+ranged attacks. Weapon names such as sonic blaster are unchanged.
 
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry

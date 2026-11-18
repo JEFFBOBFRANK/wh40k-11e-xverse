@@ -1577,7 +1577,8 @@ def migrate(catalogue, system):
     remove_psychic_ignores_cover(catalogue, system)
     update_daemon_abilities(units)
     apply_revision_82(catalogue)
-    catalogue["revision"] = 82
+    apply_revision_83(catalogue)
+    catalogue["revision"] = 83
     system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
@@ -1615,6 +1616,29 @@ def apply_revision_82(catalogue):
         selector = next(c for c in group["conditions"] if c["type"] == "instanceOf")
         selector["childId"] = entry["id"]
         entry.setdefault("modifiers", []).append(modifier)
+
+
+SONIC_SYMPHONY = "for its attacks made with Sonic Weapons."
+RANGED_SYMPHONY = "for its ranged attacks."
+
+
+def apply_revision_83(catalogue):
+    """Remove the Sonic Weapons rule; Vhalyss's First Symphony covers all ranged attacks."""
+    rule = named(catalogue["sharedRules"], "Sonic Weapons")
+    catalogue["sharedRules"].remove(rule)
+    for node in walk(catalogue):
+        links = node.get("infoLinks")
+        if links:
+            node["infoLinks"] = [link for link in links if link["targetId"] != rule["id"]]
+    vhalyss = named(catalogue["sharedSelectionEntries"], "Vhalyss, the First Scream")
+    replaced = 0
+    for node in walk(vhalyss):
+        for key in ("$text", "description"):
+            if isinstance(node.get(key), str) and SONIC_SYMPHONY in node[key]:
+                node[key] = node[key].replace(SONIC_SYMPHONY, RANGED_SYMPHONY)
+                replaced += 1
+    assert replaced, "First Symphony text not found"
+    assert "Sonic Weapons" not in json.dumps(catalogue)
 
 
 def main():

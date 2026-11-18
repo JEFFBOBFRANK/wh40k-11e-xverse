@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 82,
+    "revision": 83,
     "gameSystemRevision": 26,
     "library": false,
     "type": "catalogue",
@@ -1475,13 +1475,6 @@
             "id": "a3a8-d3d3-1c13-4da0",
             "name": "Summoning Rituals",
             "targetId": "c9a6-4ceb-5170-5afc",
-            "type": "rule",
-            "hidden": false
-          },
-          {
-            "id": "2c59-e8b4-53a3-2cd1",
-            "name": "Sonic Weapons",
-            "targetId": "221a-d76e-5760-c47b",
             "type": "rule",
             "hidden": false
           }
@@ -76170,7 +76163,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time a friendly Emperor's Children unit within 6\" of this model is selected to shoot, you can re-roll one Wound roll of 1 for its attacks made with Sonic Weapons."
+                "$text": "Each time a friendly Emperor's Children unit within 6\" of this model is selected to shoot, you can re-roll one Wound roll of 1 for its ranged attacks."
               }
             ]
           },
@@ -76249,7 +76242,7 @@
           {
             "name": "Datasheet rules and equipment",
             "id": "4e91-4132-fa37-24bf",
-            "description": "Core: Deadly Demise D6, Damaged 6. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Vhalyss, the First Scream. Equipment: First Scream, Talons of Discord.\n\n**Reality Unravels (12\" Aura)**\n\nWhile a unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1; otherwise, worsen its Leadership characteristic by 1. This affects friendly and enemy units alike. Multiple instances of Reality Unravels do not stack.\n\n**The First Symphony (6\" Aura)**\n\nEach time a friendly Emperor's Children unit within 6\" of this model is selected to shoot, you can re-roll one Wound roll of 1 for its attacks made with Sonic Weapons.\n\n**The Perfect Discord**\n\nAfter this model has shot, select one enemy unit hit by one or more of its attacks. That unit must take a Battle-shock test, subtracting 1 from the result.\n\n**A Symphony Without End**\n\nOnce per battle round, after an enemy unit within 12\" of this model fails a Battle-shock test, select one other friendly Legions of Excess unit within 9\". It gains 1 Manifestation point, subject to its maximum and the normal per-phase gain limit.\n\n**Ruinous Counterpoint (Psychic Level 1)**\n\nAt the start of your Shooting phase, if this model is not Battle-shocked, make a psychic roll. On a 1, this model becomes Battle-shocked. Regardless of the result, select one visible enemy unit within 18\". Until the end of the phase, subtract 1 from Battle-shock tests taken for that unit.\n\n**Summoning and Manifestation**\n\nGreater Daemonic Ritual. Maximum Manifestation: 6.\n\n**Psyker**\n\nLevel 2.\n\nKeywords: Monster, Character, Epic Hero, Daemon, Greater Daemon, Psyker, Slaanesh, Summoned, Vhalyss. Faction: Legions of Excess.",
+            "description": "Core: Deadly Demise D6, Damaged 6. Army rules: Manifestation. Psyker Level: 2.\n\nComposition: 1 Vhalyss, the First Scream. Equipment: First Scream, Talons of Discord.\n\n**Reality Unravels (12\" Aura)**\n\nWhile a unit is within 12\" of one or more Greater Daemons with this ability, if it is a Daemon unit, improve the AP of its melee weapons by 1; otherwise, worsen its Leadership characteristic by 1. This affects friendly and enemy units alike. Multiple instances of Reality Unravels do not stack.\n\n**The First Symphony (6\" Aura)**\n\nEach time a friendly Emperor's Children unit within 6\" of this model is selected to shoot, you can re-roll one Wound roll of 1 for its ranged attacks.\n\n**The Perfect Discord**\n\nAfter this model has shot, select one enemy unit hit by one or more of its attacks. That unit must take a Battle-shock test, subtracting 1 from the result.\n\n**A Symphony Without End**\n\nOnce per battle round, after an enemy unit within 12\" of this model fails a Battle-shock test, select one other friendly Legions of Excess unit within 9\". It gains 1 Manifestation point, subject to its maximum and the normal per-phase gain limit.\n\n**Ruinous Counterpoint (Psychic Level 1)**\n\nAt the start of your Shooting phase, if this model is not Battle-shocked, make a psychic roll. On a 1, this model becomes Battle-shocked. Regardless of the result, select one visible enemy unit within 18\". Until the end of the phase, subtract 1 from Battle-shock tests taken for that unit.\n\n**Summoning and Manifestation**\n\nGreater Daemonic Ritual. Maximum Manifestation: 6.\n\n**Psyker**\n\nLevel 2.\n\nKeywords: Monster, Character, Epic Hero, Daemon, Greater Daemon, Psyker, Slaanesh, Summoned, Vhalyss. Faction: Legions of Excess.",
             "hidden": true
           }
         ],
@@ -76367,13 +76360,6 @@
                 "value": "Damaged 6"
               }
             ]
-          },
-          {
-            "name": "Sonic Weapons",
-            "id": "cd81-205d-fac8-2cbd",
-            "targetId": "221a-d76e-5760-c47b",
-            "type": "rule",
-            "hidden": false
           }
         ],
         "selectionEntries": [
@@ -78893,12 +78879,6 @@
         "hidden": false,
         "publicationId": "fe49-c7c8-5b8c-a4c5",
         "page": "15, 16"
-      },
-      {
-        "name": "Sonic Weapons",
-        "id": "221a-d76e-5760-c47b",
-        "hidden": false,
-        "description": "Screamer pistol, sonic blaster, twin sonic blaster, combi-weapon (sonic profile), whisper carbine, blastmaster, shriek cannon, Discord cannon, Requiem cannon, dreadblaster, resonance cannon, sonic destructor, sonic balespewer, cathedral sonic immolator, grand vox array, Death Scream, The Eighth's Refrain, and First Scream. All profiles of the listed weapons qualify unless specified."
       },
       {
         "id": "f974-0500-9fd0-fa60",
