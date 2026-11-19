@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 15 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 16 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 12
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -8,6 +8,8 @@ detachments). The layout follows the Emperor's Children catalogue.
 
 - 58 datasheets. Squads use real model counters with per-model wargear and an
   error unless the unit is one of its legal sizes; larger sizes add their points.
+- Sub-headings in rules and abilities are bold lines, as in the Emperor's
+  Children catalogue, not large Markdown headings.
 - Abilities are separate named profiles. Core abilities and weapon keywords link
   to the standard rules; Scurry Away! and [WARPSTONE] link to the Skaven rules.
 - Mounts (Screaming Bell, Gnaw-beast, Plague Furnace) are options on the character.

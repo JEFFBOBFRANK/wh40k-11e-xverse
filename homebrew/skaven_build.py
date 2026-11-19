@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 15
+REVISION = 16
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -951,6 +951,35 @@ def build_stratagems(b, stratagems):
     return links
 
 
+# ---------------------------------------------------------------- display
+def format_subrules(catalogue):
+    """Emperor's Children layout: sub-headings are bold lines, not large Markdown headings.
+
+    Same rules as format_subrules in ec-4.0-migrate.py, after turning '### Heading' into '**Heading**'.
+    """
+    paragraph_label = re.compile(r"(^|\n\n)(\*\*[^*\n]+[.:]\*\*) +")
+    opening_heading = re.compile(r"^\*\*[^*\n]+\*\*[ \t]*\n")
+    heading_before_text = re.compile(r"^(\*\*[^*\n]+\*\*)[ \t]*\n{1,2}(?=[\w'\"“‘*|■-])", re.M)
+
+    def format_text(text):
+        text = re.sub(r"^#{1,6}\s+(.+?)\s*$", r"**\1**", text, flags=re.M)
+        start = text.lstrip()
+        start = paragraph_label.sub(r"\1\2  \n", start)
+        body = heading_before_text.sub(r"\1<br>", start)
+        if not opening_heading.match(start):
+            return text[:len(text) - len(text.lstrip())] + body
+        return "\u200b<br><br>" + body
+
+    for node in walk(catalogue):
+        for key in ("rules", "sharedRules"):
+            for rule in node.get(key, []):
+                if not rule.get("hidden") and isinstance(rule.get("description"), str):
+                    rule["description"] = format_text(rule["description"])
+        if node.get("typeName") == "Abilities" and not node.get("hidden"):
+            for field in node["characteristics"]:
+                field["$text"] = format_text(field["$text"])
+
+
 # ---------------------------------------------------------------- assembly
 def reference_entry(eid, name, links=None, rules_links=None):
     node = entry(eid, name, categoryLinks=[dict(name="Reference", id=nid(eid + ":cat"),
@@ -1044,6 +1073,7 @@ def build(source, catalogue_path, system_path):
     new["entryLinks"] = root_links + keep_links
     new["sharedRules"] = list(b.rules.values())
     detachment_point_counter(new)
+    format_subrules(new)
     for msg in b.log:
         print("NOTE:", msg)
     return dict(catalogue=new), b
