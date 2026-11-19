@@ -37,6 +37,10 @@ The custom EC catalogue now includes all 58 datasheets (45 EC and 13 Legions of 
 Legions of Excess appear only with Carnival of Excess, Perfumed Procession or Ritual Host, with a validated points allowance. See [EC validation and source gaps](homebrew/ec-VALIDATION.md): ten new packages lack printed dispositions, so their standard disposition choices are provisional. The source transcription, deterministic builder and checks are in `homebrew/ec-*`.
 
 
+## Skaven 11th edition
+
+The **Chaos - 🐀 Skaven** catalogue is rebuilt from the Skaven 11th-edition homebrew codex: 58 datasheets (including the four Verminlord datasheets), 12 detachments, enhancements, Workshop Projects and stratagems, laid out like the Emperor's Children catalogue. Refresh to Latest Commit (Head) and update your list data. Lists that used the old single Verminlord need that unit added again. See [Skaven notes](homebrew/SKAVEN-11E.md).
+
 ## Faction icons
 
 Emperor’s Children and Agents of the Imperium use their standard faction names so New Recruit displays the built-in emblems. Their homebrew versions remain EC v3.1 and Agents v0.9.2, recorded in the catalogue notes. Catalogue identifiers and all rules/selections are preserved.

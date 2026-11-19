@@ -1,0 +1,5746 @@
+[
+ {
+  "name": "Thanquol and Boneripper",
+  "role": "EPIC HERO / BEAST",
+  "keywords": [
+   "BEAST",
+   "CHARACTER",
+   "EPIC HERO",
+   "PSYKER",
+   "MASTERCLAN",
+   "GREY SEER",
+   "THANQUOL"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "10\"",
+   "T": "10",
+   "SV": "3+",
+   "W": "16",
+   "LD": "6+",
+   "OC": "5",
+   "INV": "5+"
+  },
+  "extra_profiles": [
+   {
+    "name": "THANQUOL",
+    "profile": {
+     "M": "6\"",
+     "T": "4",
+     "SV": "5+",
+     "W": "5",
+     "LD": "5+",
+     "OC": "1",
+     "INV": "5+"
+    },
+    "text": [
+     "Thanquol Always Survives!:The first time this model is destroyed, after resolving any other rules triggered by its destruction, set it back up within 3\" of where it was destroyed and not within Engagement Range of any enemy models. Set its remaining wounds to 5. For the rest of the battle, use the Thanquol profile shown above. It keeps its Psyker Level, the spells it knows, Supreme Grey Seer, Warpstone Snuff, Failures! Fools!, Warp bolts and Staff of the Horned Rat, and loses Warpfire projectors and Crushing fists. This ability cannot be used again."
+    ]
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Warp bolts",
+    "range": "24\"",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "PSYCHIC"
+    ]
+   },
+   {
+    "name": "Warpfire projectors",
+    "range": "12\"",
+    "A": "12",
+    "BS_WS": "Torrent",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "BLAST 4",
+     "IGNORES COVER",
+     "TORRENT"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Crushing fists - strike",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "4",
+    "keywords": []
+   },
+   {
+    "name": "Crushing fists - sweep",
+    "range": "Melee",
+    "A": "12",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   },
+   {
+    "name": "Staff of the Horned Rat",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "EXTRA ATTACKS",
+     "PSYCHIC"
+    ]
+   }
+  ],
+  "weapon_notes": [
+   "Before selecting targets for Crushing fists, select one of its profiles to make attacks with."
+  ],
+  "abilities": [
+   {
+    "name": "PSYKER",
+    "text": "Level 5"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Supreme Grey Seer",
+    "text": "This model knows the Lore of Ruin, the Lore of Plague and The Dreaded Thirteenth. It can Overcast up to twice per turn instead of once."
+   },
+   {
+    "name": "Warpstone Snuff",
+    "text": "Once per battle round, when this model Overcasts, after making the psychic roll, you can re-roll any dice showing an unmodified 1 in that roll. After that spell has resolved, roll one D6: on a 1, this model suffers D3 mortal wounds."
+   },
+   {
+    "name": "Failures! Fools!",
+    "text": "Each time a friendly SKAVEN unit within 13\" of this model fails a battle-shock roll, you gain D3 Vermin."
+   },
+   {
+    "name": "Better Them-Than Me! - Boneripper, Hold Still-Still!",
+    "text": "Each time this model Overcasts and an unmodified die is a 1, after rolling the D6 mortal wounds this unit would suffer, you can Sacrifice up to 3 other friendly SKAVEN INFANTRY models within 6\" of this model. Reduce those mortal wounds by 1 for each model Sacrificed, to a minimum of 0. This does not stop this unit becoming battle-shocked or resolving Cornered Rats."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Thanquol and Boneripper.This model is equipped with Warp bolts, Warpfire projectors, Crushing fists and Staff of the Horned Rat."
+  ],
+  "points": "420pts",
+  "repeat_cost": "–"
+ },
+ {
+  "name": "Queek Headtaker",
+  "role": "EPIC HERO",
+  "keywords": [
+   "INFANTRY",
+   "CHARACTER",
+   "EPIC HERO",
+   "VERMINUS",
+   "QUEEK"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "7\"",
+   "T": "5",
+   "SV": "3+",
+   "W": "7",
+   "LD": "6+",
+   "OC": "3",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Dwarf Gouger",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "PRECISION"
+    ]
+   },
+   {
+    "name": "Barbed tail",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Leader"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Headtaker",
+    "text": "Each time this model makes an attack that targets a CHARACTER unit, add 1 to the Wound roll and add 1 to the Damage characteristic of that attack."
+   },
+   {
+    "name": "Red Guard",
+    "text": "While this model is leading a Stormvermin unit, models in that unit have a 5+ invulnerable save."
+   },
+   {
+    "name": "No Cowardice!",
+    "text": "Once per battle round, just after this unit fails a battle-shock roll, you can Sacrifice 1 Bodyguard model. If you do, that battle-shock roll is treated as having been passed instead."
+   },
+   {
+    "name": "Trophy Rack",
+    "text": "Each time an enemy CHARACTER model is destroyed by an attack made by this model, you gain 1CP."
+   },
+   {
+    "name": "Better Them-Than Me! - Lead by Example!",
+    "text": "Once per phase, when this model is selected to fight, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, until the end of the phase, add 1 to the Attacks characteristic of this model's melee weapons."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Queek Headtaker.Can lead Clanrats or Stormvermin."
+  ],
+  "points": "150pts",
+  "repeat_cost": "–"
+ },
+ {
+  "name": "Ikit Claw",
+  "role": "EPIC HERO",
+  "keywords": [
+   "INFANTRY",
+   "CHARACTER",
+   "EPIC HERO",
+   "PSYKER",
+   "SKRYRE",
+   "IKIT CLAW"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "5",
+   "SV": "2+",
+   "W": "6",
+   "LD": "6+",
+   "OC": "2",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warp bolts",
+    "range": "24\"",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "PSYCHIC"
+    ]
+   },
+   {
+    "name": "Doomrocket",
+    "range": "48\"",
+    "A": "D6+3",
+    "BS_WS": "2+",
+    "S": "12",
+    "AP": "-3",
+    "D": "4",
+    "keywords": [
+     "BLAST 3",
+     "HAZARDOUS",
+     "ONE SHOT",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Warpfire gauntlet",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "Torrent",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "BLAST 1",
+     "HAZARDOUS",
+     "TORRENT",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Storm Daemon",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Leader"
+   },
+   {
+    "name": "PSYKER",
+    "text": "Level 3"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Master Warlock",
+    "text": "This model knows the Lore of Ruin and Storm Daemon."
+   },
+   {
+    "name": "Skryre Bodyguard",
+    "text": "While this model is within 3\" of one or more friendly SKRYRE VEHICLE units, it is hidden, even if it has shot."
+   },
+   {
+    "name": "Greatest-Best Engineer",
+    "text": "In your Command phase, select one other friendly SKAVEN VEHICLE unit within 3\" of this model. One model in that unit regains up to D3 lost wounds. Until your next Command phase, once in each phase, you can re-roll one Hit roll made for that VEHICLE unit."
+   },
+   {
+    "name": "Better Them-Than Me! - More-More Repairs!",
+    "text": "When this model uses its Greatest-Best Engineer ability, you can Sacrifice 1 other friendly SKAVEN model (excluding CHARACTER models) within 6\" of this model. If you do, the selected VEHICLE regains D6 lost wounds instead of D3."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Ikit Claw.Can lead Warp-Zap Stormvermin or a Skryre weapon team."
+  ],
+  "points": "210pts",
+  "repeat_cost": "–"
+ },
+ {
+  "name": "Deathmaster Snikch",
+  "role": "EPIC HERO",
+  "keywords": [
+   "INFANTRY",
+   "CHARACTER",
+   "EPIC HERO",
+   "ESHIN",
+   "SNIKCH"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "6",
+   "LD": "6+",
+   "OC": "2",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warpstar volley",
+    "range": "18\"",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ASSAULT",
+     "PRECISION",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Whirl of weeping blades",
+    "range": "Melee",
+    "A": "8",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "keywords": [
+     "DEVASTATING WOUNDS",
+     "PRECISION"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Infiltrators, Lone Operative, Stealth"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Verminjutsu 6\"",
+    "text": "If this unit is hidden, subtract 6\" from its models' detection range. If it is not hidden (for example because it is outside a terrain area or has shot), it is still hidden, but with the normal 15\" detection range."
+   },
+   {
+    "name": "Disappear into Shadow",
+    "text": "Just after this unit has fought, if it is not engaged, it can make a normal move of up to D6\"."
+   },
+   {
+    "name": "The Deathmaster Strikes",
+    "text": "Once per battle, just after this model ends a normal move, select one visible enemy CHARACTER model within 3\" of it and roll one D6. On a 2+, that enemy model's unit suffers D3+3 mortal wounds."
+   },
+   {
+    "name": "Better Them-Than Me! - The Perfect Distraction",
+    "text": "When resolving this model's The Deathmaster Strikes ability, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, do not roll: the selected CHARACTER suffers 6 mortal wounds. This unit can then make a normal move of up to D6\"."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Deathmaster Snikch."
+  ],
+  "points": "145pts",
+  "repeat_cost": "–"
+ },
+ {
+  "name": "Lord Skrolk",
+  "role": "EPIC HERO",
+  "keywords": [
+   "INFANTRY",
+   "CHARACTER",
+   "PSYKER",
+   "EPIC HERO",
+   "PESTILENS",
+   "LORD SKROLK"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "7",
+   "LD": "6+",
+   "OC": "2",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Pox blast",
+    "range": "18\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ANTI-INFANTRY 4+",
+     "PSYCHIC"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Rod of Corruption",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "LETHAL HITS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Leader, Feel No Pain 5+"
+   },
+   {
+    "name": "PSYKER",
+    "text": "Level 2"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Pestilence (Aura)",
+    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+   },
+   {
+    "name": "Plague Lord",
+    "text": "This model knows the Lore of Plague."
+   },
+   {
+    "name": "Liber Bubonicus",
+    "text": "Add 3\" to the range of this model's Pestilence ability."
+   },
+   {
+    "name": "Plaguelord's Congregation",
+    "text": "While this model is leading a PESTILENS INFANTRY unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+   },
+   {
+    "name": "Better Them-Than Me! - Bearer of the Final Pox",
+    "text": "In your Command phase, you can Sacrifice 1 other friendly PESTILENS INFANTRY model within 6\" of this model. If you do, select one enemy unit within 8\". Until your next Command phase, that enemy unit is treated as within range of this model's Pestilence ability and cannot regain lost wounds or return destroyed models."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Lord Skrolk.This model is equipped with Pox blast and Rod of Corruption. Can lead Plague Monks or Plague Censer Bearers."
+  ],
+  "points": "165pts",
+  "repeat_cost": "–"
+ },
+ {
+  "name": "Throt the Unclean",
+  "role": "EPIC HERO",
+  "keywords": [
+   "INFANTRY",
+   "CHARACTER",
+   "EPIC HERO",
+   "MOULDER",
+   "THROT"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "7\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "7",
+   "LD": "6+",
+   "OC": "2",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Creature-killer",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "9",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "ANTI-MONSTER 3+"
+    ]
+   },
+   {
+    "name": "Whip",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Leader"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Ravening Hunger",
+    "text": "Just after this model has fought, if one or more enemy models were destroyed by its melee attacks, this model regains D3 lost wounds."
+   },
+   {
+    "name": "Master Controller",
+    "text": "While this model is attached to a unit, add 1 to charge rolls made for that unit and add 1 to the Hit roll each time a model in that unit makes a melee attack."
+   },
+   {
+    "name": "Better Them-Than Me! - Fresh Specimen!",
+    "text": "When this model uses Flesh Laboratory, you can Sacrifice 1 other friendly SKAVEN model (excluding CHARACTER models) within 6\" of this model. If you do, select two mutations for the target unit instead of one. In addition, either that model regains up to D6 lost wounds instead of D3, or you can return one destroyed non-CHARACTER model to that unit with D3 wounds remaining. If you do, the Flesh Laboratory backlash is triggered on a 1-2 instead of a 1."
+   }
+  ],
+  "other_rules": [
+   {
+    "name": "FLESH LABORATORY",
+    "text": [
+     "In your Command phase, select one friendly MOULDER BEAST or MONSTER unit within 6\" of this model. One model in that unit regains up to D3 lost wounds, then select one mutation below. That unit has the selected mutation until your next Command phase.",
+     "CHITINOUS GROWTHS:Each time an attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1.",
+     "OVERDEVELOPED MUSCULATURE:Add 1 to the Strength and Armour Penetration characteristics of melee weapons equipped by models in that unit.",
+     "WARP-ADRENAL GLANDS:Add 2\" to that unit's Move characteristic, and that unit is eligible to declare a charge in a turn in which it made an advance move.",
+     "After selecting a mutation, roll one D6. On a 1, that unit suffers D3 mortal wounds."
+    ]
+   }
+  ],
+  "unit_composition": [
+   "1 Throt the Unclean.Can lead Rat Ogors, Stormfiends or Rat Packs."
+  ],
+  "points": "155pts",
+  "repeat_cost": "–"
+ },
+ {
+  "name": "Lord Skreech Verminking",
+  "role": "EPIC HERO / MONSTER",
+  "keywords": [
+   "MONSTER",
+   "CHARACTER",
+   "EPIC HERO",
+   "DAEMON",
+   "PSYKER",
+   "LORD SKREECH"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "12\"",
+   "T": "11",
+   "SV": "3+",
+   "W": "18",
+   "LD": "6+",
+   "OC": "6",
+   "INV": "4+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warp bolts",
+    "range": "24\"",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "PSYCHIC"
+    ]
+   },
+   {
+    "name": "Pox blast",
+    "range": "18\"",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ANTI-INFANTRY 4+",
+     "PSYCHIC"
+    ]
+   },
+   {
+    "name": "Shadow darts",
+    "range": "18\"",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "PRECISION",
+     "PSYCHIC"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Doom Glaive / Plaguereaper",
+    "range": "Melee",
+    "A": "8",
+    "BS_WS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deep Strike, Deadly Demise D6"
+   },
+   {
+    "name": "PSYKER",
+    "text": "Level 4"
+   },
+   {
+    "name": "FACTION",
+    "text": "BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Master of Every Clan",
+    "text": "This model knows the Lore of Ruin, the Lore of Plague, the Lore of the Hidden Fang and The Dreaded Thirteenth."
+   },
+   {
+    "name": "The Horned Rat's Favour",
+    "text": "Once per battle round, after making a psychic roll for this model, you can re-roll one of its dice."
+   },
+   {
+    "name": "Better Them-Than Me! - The Thirteen-Headed Council",
+    "text": "At the start of a battle round, you can Sacrifice exactly 13 other friendly SKAVEN INFANTRY models within 13\" of this model. If you do, until the end of that battle round, this model's Psyker Level is 6 and it can Overcast up to twice per turn instead of once."
+   },
+   {
+    "name": "Damaged: 1-5 Wounds Remaining",
+    "text": "While this model has 1-5 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Lord Skreech Verminking."
+  ],
+  "points": "430pts",
+  "repeat_cost": "–"
+ },
+ {
+  "name": "Grey Seer",
+  "role": "CHARACTER",
+  "keywords": [
+   "INFANTRY",
+   "CHARACTER",
+   "PSYKER",
+   "MASTERCLAN",
+   "GREY SEER"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "5",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "extra_profiles": [
+   {
+    "name": "SCREAMING BELL",
+    "profile": {
+     "M": "8\"",
+     "T": "9",
+     "SV": "4+",
+     "W": "14",
+     "LD": "6+",
+     "OC": "5"
+    },
+    "text": [
+     "Mounted Profile:Replace this model's INFANTRY keyword with VEHICLE. This model loses the Leader ability, cannot join a Bodyguard unit, and gains Crushing Bell, Rat Ogor claws and Attendant weapons. While mounted, it also knows Peal of Doom.",
+     "This model loses the Scurry Away! ability.",
+     "Screaming Bell Peals:In your Command phase, select one effect until your next Command phase: March-March! adds 2\" to this model's Move; Ring-Ring! adds 2 to its charge rolls.",
+     "Verminous Command (Aura):Friendly SKAVEN units within 13\" improve their Leadership by 1 and add 1 to their Objective Control.",
+     "Hide Behind Them-Things!:While within 3\" of a friendly SKAVEN unit with a Starting Strength of 10 or more, this model has Lone Operative and attacks that target it subtract 1 from the Hit roll."
+    ]
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Warp bolts",
+    "range": "24\"",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "PSYCHIC"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Grey Seer staff",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "PSYCHIC"
+    ]
+   },
+   {
+    "name": "Crushing Bell",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "keywords": []
+   },
+   {
+    "name": "Rat Ogor claws",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   },
+   {
+    "name": "Attendant weapons",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Leader"
+   },
+   {
+    "name": "PSYKER",
+    "text": "Level 3"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Master of Ruin",
+    "text": "This model knows the Lore of Ruin, the Lore of Plague and The Dreaded Thirteenth."
+   },
+   {
+    "name": "Masterclan Authority",
+    "text": "While this model is leading a unit, you can re-roll battle-shock rolls made for that unit."
+   },
+   {
+    "name": "Screaming Bell",
+    "text": "This model can be mounted on a Screaming Bell. If it is, use the Screaming Bell profile and abilities shown below."
+   },
+   {
+    "name": "Better Them-Than Me! - Cast With Their Lives-Lives!",
+    "text": "Once per battle round, before this model uses a spell, you can Sacrifice 2 Bodyguard models from the unit it is leading. If you do, add 1 to this model's Psyker Level until the end of the battle round."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Grey Seer.This model can lead Skavenslaves, Clanrats or Stormvermin only while it is not mounted on a Screaming Bell."
+  ],
+  "points": "90pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Warlord",
+  "role": "CHARACTER",
+  "keywords": [
+   "INFANTRY",
+   "CHARACTER",
+   "VERMINUS",
+   "WARLORD"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "6",
+   "LD": "6+",
+   "OC": "2",
+   "INV": "5+"
+  },
+  "extra_profiles": [
+   {
+    "name": "GNAW-BEAST",
+    "profile": {
+     "M": "10\"",
+     "T": "6",
+     "SV": "4+",
+     "W": "9",
+     "LD": "6+",
+     "OC": "3",
+     "INV": "5+"
+    },
+    "text": [
+     "Mounted Profile:Replace this model's INFANTRY keyword with MOUNTED. This model gains Gnaw-beast claws.",
+     "Gnaw-beast:This model is eligible to declare a charge in a turn in which it made an advance move."
+    ]
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Warplock pistol",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "CLOSE-QUARTERS",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Warpstone blade",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   },
+   {
+    "name": "Shock halberd",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "3",
+    "keywords": []
+   },
+   {
+    "name": "Gnaw-beast claws",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Leader"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Lead from Behind",
+    "text": "While this model is leading a unit, add 1 to the Hit roll each time a model in that unit makes a melee attack, and melee weapons equipped by models in that unit have [LETHAL HITS: non-MONSTER/VEHICLE]."
+   },
+   {
+    "name": "Expendable Underlings",
+    "text": "Each time a Bodyguard model from the unit this model is leading is Sacrificed, you gain 1 Vermin."
+   },
+   {
+    "name": "Better Them-Than Me! - Take the Blow-Blow!",
+    "text": "Once per phase, when this model fails a saving throw, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, change the Damage characteristic of that attack to 0."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Warlord.This model is equipped with 1 Warplock pistol and either 1 Warpstone blade or 1 Shock halberd. It can lead Clanrats or Stormvermin."
+  ],
+  "points": "85pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Deathmaster",
+  "role": "CHARACTER",
+  "keywords": [
+   "INFANTRY",
+   "CHARACTER",
+   "ESHIN",
+   "DEATHMASTER"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "4",
+   "SV": "5+",
+   "W": "5",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Poisoned shuriken",
+    "range": "12\"",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "2",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ASSAULT",
+     "ANTI-INFANTRY 2+",
+     "PRECISION"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Twin weeping blades",
+    "range": "Melee",
+    "A": "7",
+    "BS_WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "PRECISION",
+     "TWIN-LINKED"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deep Strike, Infiltrators, Lone Operative, Stealth"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Verminjutsu 6\"",
+    "text": "If this unit is hidden, subtract 6\" from its models' detection range. If it is not hidden (for example because it is outside a terrain area or has shot), it is still hidden, but with the normal 15\" detection range."
+   },
+   {
+    "name": "Marked for Death",
+    "text": "At the start of the first battle round, select one enemy CHARACTER unit. Each time this model makes an attack that targets that unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+   },
+   {
+    "name": "Better Them-Than Me! - Bait-Bait the Foe!",
+    "text": "Just after an enemy unit selects this model as the target of one or more attacks, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, before those attacks are resolved, this model can make a normal move of up to D6\"."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Deathmaster."
+  ],
+  "points": "85pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Plague Priest",
+  "role": "CHARACTER",
+  "keywords": [
+   "INFANTRY",
+   "CHARACTER",
+   "PSYKER",
+   "PESTILENS",
+   "PLAGUE PRIEST"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "4",
+   "SV": "5+",
+   "W": "5",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "extra_profiles": [
+   {
+    "name": "PLAGUE FURNACE",
+    "profile": {
+     "M": "6\"",
+     "T": "9",
+     "SV": "4+",
+     "W": "14",
+     "LD": "6+",
+     "OC": "5"
+    },
+    "text": [
+     "Mounted Profile:Replace this model's INFANTRY keyword with VEHICLE. This model loses the Support ability, cannot join a Bodyguard unit, and gains Great Censer, Rat Ogor claws and Attendant weapons. Its Pestilence ability has a range of 8\".",
+     "This model loses the Scurry Away! ability.",
+     "Plague Furnace Charge:After this model ends a charge move, select one enemy unit it charged and roll one D6. On a 2-4, that unit suffers D3 mortal wounds; on a 5+, it suffers D3+3 mortal wounds.",
+     "Hide Behind Them-Things!:While within 3\" of a friendly SKAVEN unit with a Starting Strength of 10 or more, this model has Lone Operative and attacks that target it subtract 1 from the Hit roll."
+    ]
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Pox blast",
+    "range": "18\"",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ANTI-INFANTRY 4+",
+     "PSYCHIC"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Plague staff",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "ANTI-INFANTRY 3+"
+    ]
+   },
+   {
+    "name": "Great Censer",
+    "range": "Melee",
+    "A": "8",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "ANTI-INFANTRY 2+"
+    ]
+   },
+   {
+    "name": "Rat Ogor claws",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   },
+   {
+    "name": "Attendant weapons",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Support, Feel No Pain 5+"
+   },
+   {
+    "name": "PSYKER",
+    "text": "Level 1"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Pestilence (Aura)",
+    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+   },
+   {
+    "name": "Pestilent Psyker",
+    "text": "This model knows the Lore of Plague."
+   },
+   {
+    "name": "Plague Furnace",
+    "text": "This model can be mounted on a Plague Furnace. If it is, use the Plague Furnace profile and abilities shown below."
+   },
+   {
+    "name": "Better Them-Than Me! - Feed-Feed the Plague!",
+    "text": "In your Command phase, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, select one enemy unit within range of this model's Pestilence ability. Until your next Command phase, that enemy unit is treated as Below Half-strength for the purposes of this model's Pestilence ability, regardless of its remaining models or wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Plague Priest.This model can be attached as a Support to Plague Monks or Plague Censer Bearers only while it is not mounted on a Plague Furnace."
+  ],
+  "points": "75pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Warlock Engineer",
+  "role": "CHARACTER",
+  "keywords": [
+   "INFANTRY",
+   "CHARACTER",
+   "PSYKER",
+   "SKRYRE",
+   "WARLOCK ENGINEER"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "5",
+   "LD": "6+",
+   "OC": "1",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warp bolts",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "PSYCHIC"
+    ]
+   },
+   {
+    "name": "Warplock pistol",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "CLOSE-QUARTERS",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Warp-claw",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Support"
+   },
+   {
+    "name": "PSYKER",
+    "text": "Level 1"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Warlock",
+    "text": "This model knows Warp Lightning and Howling Warpgale (Lore of Ruin)."
+   },
+   {
+    "name": "Master Gunner",
+    "text": "While this model is attached to a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+   },
+   {
+    "name": "Repair-Restore",
+    "text": "In your Command phase, select one other friendly SKAVEN VEHICLE unit within 3\" of this model. One model in that unit regains up to D3 lost wounds."
+   },
+   {
+    "name": "Better Them-Than Me! - Ground-Ground the Surge!",
+    "text": "Each time this unit would roll for Warpstone Backlash, you can Sacrifice 1 Bodyguard model from this unit first. If you do, do not roll: this unit suffers no Warpstone Backlash for those attacks."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Warlock Engineer.This model can be attached as a Support to Warp-Zap Stormvermin, Skryre Acolytes, Ratling Gun Teams, Warpfire Thrower Teams, Warpvolt Scourger Teams or Warplock Jezzails."
+  ],
+  "points": "80pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Master Moulder",
+  "role": "CHARACTER",
+  "keywords": [
+   "INFANTRY",
+   "CHARACTER",
+   "MOULDER",
+   "MASTER MOULDER"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "6",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Things-catcher",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "ANTI-BEAST 3+",
+     "ANTI-MONSTER 4+"
+    ]
+   },
+   {
+    "name": "Shock whip",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Support"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Master Controller",
+    "text": "While this model is attached to a unit, add 1 to charge rolls made for that unit and add 1 to the Hit roll each time a model in that unit makes a melee attack."
+   },
+   {
+    "name": "Fleshcraft",
+    "text": "At the start of the first battle round, select one mutation below for this model's Bodyguard unit. That unit has the selected mutation until the end of the battle."
+   },
+   {
+    "name": "CHITINOUS GROWTHS",
+    "text": "Improve the Save characteristic of models in that unit by 1."
+   },
+   {
+    "name": "OVERDEVELOPED MUSCULATURE",
+    "text": "Add 1 to the Strength characteristic of melee weapons equipped by models in that unit."
+   },
+   {
+    "name": "REGENERATIVE FLESH",
+    "text": "Models in that unit have the Feel No Pain 6+ ability."
+   },
+   {
+    "name": "Better Them-Than Me! - Spare Parts-Parts!",
+    "text": "In your Command phase, you can Sacrifice 1 other friendly SKAVEN model (excluding CHARACTER models) within 6\" of this model. If you do, select one friendly MOULDER BEAST or MONSTER unit within 6\" of this model; one model in that unit regains D3+1 lost wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Master Moulder.This model can be attached as a Support to Rat Packs, Wolf Rats, Rat Ogors or Stormfiends."
+  ],
+  "points": "85pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Verminlord Warbringer",
+  "role": "CHARACTER / MONSTER",
+  "keywords": [
+   "MONSTER",
+   "CHARACTER",
+   "DAEMON",
+   "PSYKER",
+   "VERMINLORD WARBRINGER"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "10\"",
+   "T": "10",
+   "SV": "4+",
+   "W": "16",
+   "LD": "6+",
+   "OC": "5",
+   "INV": "4+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Doom-bolt",
+    "range": "24\"",
+    "A": "6",
+    "BS_WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "PSYCHIC",
+     "SUSTAINED HITS 1"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Doomglaive",
+    "range": "Melee",
+    "A": "9",
+    "BS_WS": "2+",
+    "S": "12",
+    "AP": "-3",
+    "D": "4",
+    "keywords": []
+   },
+   {
+    "name": "Prehensile tail",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise D6"
+   },
+   {
+    "name": "PSYKER",
+    "text": "Level 2"
+   },
+   {
+    "name": "FACTION",
+    "text": "BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Lore of the Warbringer",
+    "text": "This model knows the Lore of Ruin."
+   },
+   {
+    "name": "Herald of War",
+    "text": "Friendly VERMINUS units within 6\" of this model add 1 to charge rolls and to melee Hit rolls."
+   },
+   {
+    "name": "Better Them-Than Me! - Spur the Horde!",
+    "text": "In your Command phase, you can Sacrifice 3 other friendly SKAVEN INFANTRY models within 6\" of this model. If you do, select one friendly VERMINUS unit within 12\" of this model. Until your next Command phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit."
+   },
+   {
+    "name": "Damaged: 1-5 Wounds Remaining",
+    "text": "While this model has 1-5 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Verminlord Warbringer.This model is equipped with Doom-bolt, Doomglaive and Prehensile tail."
+  ],
+  "points": "260pts",
+  "repeat_cost": "+20pts from the 3rd copy"
+ },
+ {
+  "name": "Verminlord Warpseer",
+  "role": "CHARACTER / MONSTER",
+  "keywords": [
+   "MONSTER",
+   "CHARACTER",
+   "DAEMON",
+   "PSYKER",
+   "VERMINLORD WARPSEER"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "10\"",
+   "T": "10",
+   "SV": "4+",
+   "W": "16",
+   "LD": "6+",
+   "OC": "5",
+   "INV": "4+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Scry-orb",
+    "range": "18\"",
+    "A": "3",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "BLAST 2",
+     "PSYCHIC",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Warpstaff",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "2+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "PSYCHIC"
+    ]
+   },
+   {
+    "name": "Prehensile tail",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise D6"
+   },
+   {
+    "name": "PSYKER",
+    "text": "Level 3"
+   },
+   {
+    "name": "FACTION",
+    "text": "BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Lore of the Warpseer",
+    "text": "This model knows the Lore of Ruin and Master of Lightning."
+   },
+   {
+    "name": "Foreseen Doom",
+    "text": "Once per battle, when this model fails a saving throw, change the Damage characteristic of that attack to 0."
+   },
+   {
+    "name": "Better Them-Than Me! - Feed the Orb!",
+    "text": "When this model uses a spell, before making the psychic roll, you can Sacrifice 2 other friendly SKAVEN models (excluding CHARACTER models) within 6\" of this model. If you do, unmodified 1s in that psychic roll do not cause this unit to become battle-shocked or suffer mortal wounds."
+   },
+   {
+    "name": "Damaged: 1-5 Wounds Remaining",
+    "text": "While this model has 1-5 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Verminlord Warpseer.This model is equipped with Scry-orb, Warpstaff and Prehensile tail."
+  ],
+  "points": "275pts",
+  "repeat_cost": "+20pts from the 3rd copy"
+ },
+ {
+  "name": "Verminlord Deceiver",
+  "role": "CHARACTER / MONSTER",
+  "keywords": [
+   "MONSTER",
+   "CHARACTER",
+   "DAEMON",
+   "PSYKER",
+   "VERMINLORD DECEIVER"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "10\"",
+   "T": "10",
+   "SV": "4+",
+   "W": "16",
+   "LD": "6+",
+   "OC": "5",
+   "INV": "4+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Shadow fang",
+    "range": "18\"",
+    "A": "6",
+    "BS_WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "IGNORES COVER",
+     "PRECISION",
+     "PSYCHIC"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Warpstiletto",
+    "range": "Melee",
+    "A": "10",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "ANTI-CHARACTER 3+",
+     "PRECISION"
+    ]
+   },
+   {
+    "name": "Prehensile tail",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deep Strike, Lone Operative, Stealth, Deadly Demise D6"
+   },
+   {
+    "name": "PSYKER",
+    "text": "Level 2"
+   },
+   {
+    "name": "FACTION",
+    "text": "BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Lore of the Deceiver",
+    "text": "This model knows the Lore of the Hidden Fang."
+   },
+   {
+    "name": "Verminjutsu",
+    "text": "This model is hidden, with the normal 15\" detection range."
+   },
+   {
+    "name": "Better Them-Than Me! - Shroud of Lies!",
+    "text": "Once per phase, when an enemy unit selects this model as the target of one or more attacks, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, until those attacks have been resolved, subtract 1 from the Hit roll for attacks that target this model."
+   },
+   {
+    "name": "Damaged: 1-5 Wounds Remaining",
+    "text": "While this model has 1-5 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Verminlord Deceiver.This model is equipped with Shadow fang, Warpstiletto and Prehensile tail."
+  ],
+  "points": "255pts",
+  "repeat_cost": "+20pts from the 3rd copy"
+ },
+ {
+  "name": "Verminlord Corruptor",
+  "role": "CHARACTER / MONSTER",
+  "keywords": [
+   "MONSTER",
+   "CHARACTER",
+   "DAEMON",
+   "PSYKER",
+   "VERMINLORD CORRUPTOR"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "10\"",
+   "T": "10",
+   "SV": "4+",
+   "W": "16",
+   "LD": "6+",
+   "OC": "5",
+   "INV": "4+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Plague-wind",
+    "range": "12\"",
+    "A": "6",
+    "BS_WS": "Torrent",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ANTI-INFANTRY 3+",
+     "BLAST 2",
+     "PSYCHIC",
+     "TORRENT"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Plaguereapers",
+    "range": "Melee",
+    "A": "14",
+    "BS_WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "ANTI-INFANTRY 2+",
+     "SUSTAINED HITS 1"
+    ]
+   },
+   {
+    "name": "Prehensile tail",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Feel No Pain 5+, Deadly Demise D6"
+   },
+   {
+    "name": "PSYKER",
+    "text": "Level 3"
+   },
+   {
+    "name": "FACTION",
+    "text": "BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Pestilence (Aura)",
+    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+   },
+   {
+    "name": "Lore of the Corruptor",
+    "text": "This model knows the Lore of Plague and Plaguemaster."
+   },
+   {
+    "name": "Better Them-Than Me! - Rot-Offering!",
+    "text": "In your Command phase, you can Sacrifice D3 other friendly SKAVEN models (excluding CHARACTER models) within 6\" of this model. If every selected model is Sacrificed, this model regains D3+1 lost wounds."
+   },
+   {
+    "name": "Damaged: 1-5 Wounds Remaining",
+    "text": "While this model has 1-5 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Verminlord Corruptor.This model is equipped with Plague-wind, Plaguereapers and Prehensile tail."
+  ],
+  "points": "270pts",
+  "repeat_cost": "+20pts from the 3rd copy"
+ },
+ {
+  "name": "Skavenslaves",
+  "role": "BATTLELINE",
+  "keywords": [
+   "INFANTRY",
+   "BATTLELINE",
+   "SKAVENSLAVES"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Skavenslave blades",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Endless Cowards",
+    "text": "In your Command phase, return up to D3 destroyed models to this unit."
+   },
+   {
+    "name": "Endless Chattel",
+    "text": "Each time this unit is selected as the target of the More-More Bodies! Vermin Ability, after resolving that ability, return an additional D3 destroyed models to this unit. Returned models must be set up in Unit Coherency and cannot cause this unit to exceed its Starting Strength."
+   },
+   {
+    "name": "Numerous Backstabbing Eyes",
+    "text": "Each time an attack is allocated to this unit, if a model is destroyed by that attack, any excess damage is not lost. Continue allocating that damage to other models in this unit, one at a time, until no damage remains or this unit is destroyed. While this unit contains 15 or more models, change the Objective Control characteristic of its models to 0."
+   },
+   {
+    "name": "Explosive Collars",
+    "text": "If this unit is fitted with Explosive Collars: when this unit's last model is destroyed by a melee attack, before removing it, roll one D6 for each other unit within 3\" of that model, friendly or enemy. On a 4+, that unit suffers D3 mortal wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "20-40 Skavenslaves. Every model is equipped with Skavenslave blades. This unit has no ranged weapons. This unit can be fitted with Explosive Collars."
+  ],
+  "points": "40pts / 60pts / 80pts",
+  "repeat_cost": "+5pts from the 4th copy"
+ },
+ {
+  "name": "Clanrats",
+  "role": "BATTLELINE",
+  "keywords": [
+   "INFANTRY",
+   "BATTLELINE",
+   "VERMINUS",
+   "CLANRATS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "2"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warplock carbine",
+    "range": "18\"",
+    "A": "2",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "RAPID FIRE 1",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Stubber pistol",
+    "range": "9\"",
+    "A": "1",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "CLOSE-QUARTERS"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Clanrat blade",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Clanrat mace",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Clanrat spear",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Clawleader blade",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Strength in Numbers",
+    "text": "While this unit contains 10 or more Clanrat and Clawleader models, add 1 to the Hit roll each time a model in this unit makes an attack."
+   },
+   {
+    "name": "Endless Vermintide",
+    "text": "In your Command phase, return D3 destroyed Clanrat models to this unit (+D3 more when selected for More-More Bodies!), in Unit Coherency and up to its Starting Strength. Clawleader and Weapon Team models cannot be returned."
+   },
+   {
+    "name": "Clanrat Shields",
+    "text": "While this unit has the Sword and Board loadout, improve its models' Save characteristic by 1 against melee attacks (to a best of 4+)."
+   },
+   {
+    "name": "Weapon Teams",
+    "text": "A Weapon Team model uses the profile, weapons and abilities from its own datasheet, excluding Hide Behind Them-Things!. Those abilities apply only to that model and the attacks it makes. A Poison Wind Globadier is equipped with Poison-wind globes and Acolyte blades."
+   },
+   {
+    "name": "Clan Standard",
+    "text": "Once per battle, you can re-roll this unit's battle-shock roll."
+   },
+   {
+    "name": "Scavenger Bell",
+    "text": "You can re-roll advance rolls made for this unit."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Clawleader and 9 Clanrats, or 2 Clawleaders and 18 Clanrats. For each Clawleader, this unit can also include 1 Weapon Team model: one Ratling Gun Team model, one Warpfire Thrower Team model, or one Poison Wind Globadier (a SKRYRE ACOLYTES model).",
+   "Loadout:Select one for the whole unit. The Clawleader takes it with a Clawleader blade as its melee weapon.",
+   "- Sword and Board:Clanrat blade, mace or spear; shield; Stubber pistol.",
+   "- Warplock:Warplock carbine; Clanrat blade; Stubber pistol.",
+   "One Clanrat model can carry a Clan Standard or a Scavenger Bell; this does not replace its weapons."
+  ],
+  "points": "55pts / 105pts",
+  "repeat_cost": "+5pts from the 4th copy"
+ },
+ {
+  "name": "Stormvermin",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "VERMINUS",
+   "STORMVERMIN"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "4+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "2"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warplock pistol",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "CLOSE-QUARTERS",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Storm-glaive",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "LANCE"
+    ]
+   },
+   {
+    "name": "Stormblade",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "LETHAL HITS"
+    ]
+   },
+   {
+    "name": "Heavy shock weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "4",
+    "keywords": [
+     "DEVASTATING WOUNDS"
+    ]
+   },
+   {
+    "name": "Master-forged storm-glaive",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "LANCE"
+    ]
+   },
+   {
+    "name": "Master-forged stormblade",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "LETHAL HITS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Blackfur Bodyguards",
+    "text": "While this unit contains one or more Bodyguard models, attacks with the Precision ability cannot be allocated to a CHARACTER model attached to this unit."
+   },
+   {
+    "name": "Hold-Hold Ground",
+    "text": "While this unit is within range of an objective, change the Objective Control characteristic of models in this unit to 3."
+   },
+   {
+    "name": "Verminous Counter-charge",
+    "text": "Enemy units do not gain the Fights First ability as a result of making a charge move that ended with them engaged with this unit."
+   },
+   {
+    "name": "Warhorn",
+    "text": "Once per battle, add 1 to this unit's charge roll."
+   },
+   {
+    "name": "Regimental Banner",
+    "text": "While this unit is within range of an objective, you can re-roll this unit's battle-shock rolls."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Fangleader and 9 Stormvermin. Every Stormvermin is equipped with one of: 1 Storm-glaive; or 1 Stormblade and 1 Heavy shield. One Stormvermin can replace its Storm-glaive with 1 Heavy shock weapon.",
+   "Fangleader:W2. Equipped with 1 Master-forged storm-glaive, or 1 Master-forged stormblade and 1 Heavy shield. It can also be equipped with 1 Warplock pistol.",
+   "A model equipped with a Heavy shield has a Save characteristic of 3+ and a 5+ invulnerable save. One model can carry a Warhorn or a Regimental Banner; this does not replace its weapons."
+  ],
+  "points": "125pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Warp-Zap Stormvermin",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "VERMINUS",
+   "STORMVERMIN"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "4+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Heavy Warp-Zapper",
+    "range": "24\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "keywords": [
+     "HEAVY",
+     "RAPID FIRE 2",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Long-barrel Warp-Zapper",
+    "range": "36\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "keywords": [
+     "ANTI-VEHICLE 4+",
+     "HEAVY",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Warp-zap pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "CLOSE-QUARTERS",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Stormvermin sidearm blades",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Fangleader blade",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Shock halberd",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Fire Through Them-Things!",
+    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed Hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
+   },
+   {
+    "name": "Grounding Rod",
+    "text": "You can re-roll the Warpstone Backlash roll made for this unit."
+   },
+   {
+    "name": "Spare Capacitor",
+    "text": "Once per battle, when this unit is selected to shoot, add 1 to the Attacks characteristic of its Heavy Warp-Zappers until the end of the phase. After this unit has shot, it suffers D3 mortal wounds in addition to any Warpstone Backlash."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Fangleader and 4 or 9 Warp-Zap Stormvermin. Every Warp-Zap Stormvermin is equipped with 1 Heavy Warp-Zapper and Stormvermin sidearm blades. For every 5 models in this unit, 1 Warp-Zap Stormvermin can replace its Heavy Warp-Zapper with 1 Long-barrel Warp-Zapper.",
+   "Fangleader:W2. Equipped with 1 Heavy Warp-Zapper, 1 Long-barrel Warp-Zapper or 1 Warp-zap pistol, and 1 Fangleader blade or 1 Shock halberd.",
+   "This unit can take either a Grounding Rod or a Spare Capacitor."
+  ],
+  "points": "85pts / 170pts",
+  "repeat_cost": "+15pts from the 3rd copy"
+ },
+ {
+  "name": "Warpclad Warpack",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "VERMINUS",
+   "SKRYRE",
+   "STORMVERMIN",
+   "WARPCLAD"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "7\"",
+   "T": "5",
+   "SV": "3+",
+   "W": "2",
+   "LD": "7+",
+   "OC": "1",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warp-disintegrator",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "Torrent",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "BLAST 1",
+     "IGNORES COVER",
+     "TORRENT"
+    ]
+   },
+   {
+    "name": "Warp-blaster",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Warp-glaive",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   },
+   {
+    "name": "Master-forged warp-glaive",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   },
+   {
+    "name": "Shock gauntlet",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "9",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Warp-Bulwark",
+    "text": "At the start of your Charge phase, if this unit is not engaged, it can form a Warp-Bulwark. If it does, until the start of your next Movement phase, while this unit contains 5 or more models, worsen the Armour Penetration characteristic of attacks that target this unit by 1. A unit that forms a Warp-Bulwark is not eligible to declare a charge that turn."
+   },
+   {
+    "name": "Shock Assault",
+    "text": "Each time a model in this unit makes an attack with a Warp-glaive in a turn in which this unit made a charge move, that weapon has [LANCE]."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Fangleader and 9 Warpclads. Every Warpclad is equipped with 1 Warp-disintegrator and 1 Warp-glaive.",
+   "Fangleader:W3. Equipped with 1 Warp-disintegrator or 1 Warp-blaster, and 1 Warp-glaive, 1 Master-forged warp-glaive or 1 Shock gauntlet."
+  ],
+  "points": "230pts",
+  "repeat_cost": "+20pts from the 3rd copy"
+ },
+ {
+  "name": "Plague Monks",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "PESTILENS",
+   "PLAGUE MONKS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "2"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Twin foetid blades",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "TWIN-LINKED"
+    ]
+   },
+   {
+    "name": "Deacon blade",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "ANTI-INFANTRY 3+"
+    ]
+   },
+   {
+    "name": "Plague staff",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "ANTI-INFANTRY 3+"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Feel No Pain 6+"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Pestilence (Aura)",
+    "text": "While an enemy unit is within 6\" of this unit, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+   },
+   {
+    "name": "Fever Pitch",
+    "text": "While this unit is Below its Starting Strength, add 1 to the Attacks characteristic of its melee weapons. While this unit is also Below Half-strength, add 1 to the Hit roll each time a model in this unit makes a melee attack."
+   },
+   {
+    "name": "Diseased Congregation",
+    "text": "While an enemy unit is engaged with this unit, subtract 1 from the Leadership and Objective Control characteristics of models in that enemy unit."
+   },
+   {
+    "name": "Plague Banner",
+    "text": "Once per battle, at the start of the Fight phase, this unit can raise its Plague Banner. If it does, until the end of the phase, melee weapons equipped by models in this unit have [SUSTAINED HITS 1]."
+   },
+   {
+    "name": "Doom Gong",
+    "text": "Each time a charge roll is made for this unit, you can re-roll that roll."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "10 or 20 Plague Monks. One model is a Plague Deacon equipped with 1 Deacon blade. Every other model is equipped with Twin foetid blades. Up to 2 models can replace their Twin foetid blades with 1 Plague staff. For every 10 models in this unit, one model can carry a Plague Banner and one model can carry a Doom Gong; these do not replace that model's weapons."
+  ],
+  "points": "80pts / 160pts",
+  "repeat_cost": "+5pts from the 3rd copy"
+ },
+ {
+  "name": "Plague Censer Bearers",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "PESTILENS",
+   "PLAGUE CENSER BEARERS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "4",
+   "SV": "6+",
+   "W": "2",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Great plague censer",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "ANTI-INFANTRY 3+",
+     "SUSTAINED HITS 1"
+    ]
+   },
+   {
+    "name": "Censer-bearer leader weapon",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Feel No Pain 5+"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Pestilence (Aura)",
+    "text": "While an enemy unit is within 6\" of this unit, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+   },
+   {
+    "name": "Choking Fumes",
+    "text": "At the start of the Fight phase, roll one D6 for every other unit within 3\" of this unit, friendly or enemy. On a 4+, the unit being rolled for suffers D3 mortal wounds."
+   },
+   {
+    "name": "Frenzied Charge",
+    "text": "Until the end of the Fight phase, add 1 to the Attacks characteristic of melee weapons equipped by models in this unit if this unit made a charge move this turn."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "5 or 10 Plague Censer Bearers. One model is the Censer-bearer Leader."
+  ],
+  "points": "100pts / 200pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Pusbags",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "PESTILENS",
+   "PUSBAGS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "5\"",
+   "T": "4",
+   "SV": "6+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "2"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Diseased bites",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "LETHAL HITS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Feel No Pain 5+"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Walking Infection",
+    "text": "While an enemy unit is engaged with this unit, subtract 1 from the Leadership characteristic of models in that enemy unit."
+   },
+   {
+    "name": "Bursting Carriers",
+    "text": "Each time a model in this unit is destroyed while this unit is engaged, roll one D6. On a 4+, one of those enemy units suffers 1 mortal wound."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "10 or 20 Pusbags. Every model has Diseased bites."
+  ],
+  "points": "80pts / 160pts",
+  "repeat_cost": "+5pts from the 3rd copy"
+ },
+ {
+  "name": "Night Runners",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "ESHIN",
+   "NIGHT RUNNERS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "7\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Eshin shuriken",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "ASSAULT",
+     "LETHAL HITS"
+    ]
+   },
+   {
+    "name": "Eshin sling",
+    "range": "18\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "ASSAULT",
+     "SUSTAINED HITS 1"
+    ]
+   },
+   {
+    "name": "Poisoned shuriken",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "2",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ASSAULT",
+     "ANTI-INFANTRY 2+"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Eshin blade",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "LETHAL HITS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Infiltrators, Scouts 8\", Stealth"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Verminjutsu 3\"",
+    "text": "If this unit is hidden, subtract 3\" from its models' detection range. If it is not hidden (for example because it is outside a terrain area or has shot), it is still hidden, but with the normal 15\" detection range."
+   },
+   {
+    "name": "Always Moving",
+    "text": "This unit is eligible to perform an action in a turn in which it made an advance or fall-back move."
+   },
+   {
+    "name": "Reactive Scurry",
+    "text": "Just after an enemy unit ends a normal, advance or fall-back move within 8\" of this unit, this unit can make a normal move of up to D6\"."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "10 or 20 Night Runners. Every model is equipped with 1 Eshin blade and either 1 Eshin shuriken or 1 Eshin sling. For every 10 models in this unit, one model can replace its Eshin shuriken or Eshin sling with 1 Poisoned shuriken."
+  ],
+  "points": "60pts / 120pts",
+  "repeat_cost": "+5pts from the 3rd copy"
+ },
+ {
+  "name": "Gutter Runners",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "ESHIN",
+   "GUTTER RUNNERS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warpstar repeater",
+    "range": "18\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ASSAULT",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Poisoned shuriken",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "2",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ASSAULT",
+     "ANTI-INFANTRY 2+"
+    ]
+   },
+   {
+    "name": "Eshin sling",
+    "range": "18\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "ASSAULT",
+     "SUSTAINED HITS 1"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Twin Eshin blades",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "LETHAL HITS",
+     "TWIN-LINKED"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deep Strike, Infiltrators, Stealth"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Verminjutsu 6\"",
+    "text": "If this unit is hidden, subtract 6\" from its models' detection range. If it is not hidden (for example because it is outside a terrain area or has shot), it is still hidden, but with the normal 15\" detection range."
+   },
+   {
+    "name": "Marked Prey",
+    "text": "At the start of the first battle round, select one enemy CHARACTER unit. Each time a model in this unit makes an attack that targets that unit, that attack has the Precision ability and add 1 to the Wound roll."
+   },
+   {
+    "name": "Vanish",
+    "text": "Once per battle, at the end of your Shooting phase or the Fight phase, if this unit was selected to shoot or fight that phase and is not engaged, you can remove it from the battlefield and place it into Strategic Reserves (or the Under-Empire)."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "5 or 10 Gutter Runners. Every model is equipped with 1 Twin Eshin blades and one of the following ranged weapons: 1 Warpstar repeater; 1 Poisoned shuriken; or 1 Eshin sling."
+  ],
+  "points": "65pts / 130pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Eshin Shadowriggers",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "ESHIN",
+   "SHADOWRIGGERS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "10\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warp-needle pistol",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "CLOSE-QUARTERS",
+     "PRECISION"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Servo-assisted Eshin blades",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "TWIN-LINKED"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Infiltrators, Stealth"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Verminjutsu 3\"",
+    "text": "If this unit is hidden, subtract 3\" from its models' detection range. If it is not hidden (for example because it is outside a terrain area or has shot), it is still hidden, but with the normal 15\" detection range."
+   },
+   {
+    "name": "Exoskeleton Harness",
+    "text": "Each time a model in this unit makes a normal, advance, fall-back or charge move, it can move horizontally through models as though they were not there. It cannot end that move on top of another model, and cannot end within Engagement Range unless it made a charge move. Ignore all vertical distance when determining how far that model has moved."
+   },
+   {
+    "name": "Killing Momentum",
+    "text": "This unit is eligible to declare a charge in a turn in which it made an advance or fall-back move."
+   },
+   {
+    "name": "Warpstone Venom",
+    "text": "Once per battle, at the start of your Shooting phase or the Fight phase, this unit can use this ability. Until the end of the phase, weapons equipped by models in this unit have [ANTI-INFANTRY 3+] and [DEVASTATING WOUNDS]. After this unit has resolved its attacks that phase, roll one D6; on a 1, this unit suffers D3 mortal wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "Exactly 5 Eshin Shadowriggers. Every model is equipped with one Warp-needle pistol and Servo-assisted Eshin blades."
+  ],
+  "points": "105pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Ratling Gun Teams",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "SKRYRE",
+   "WEAPON TEAM",
+   "RATLING GUN TEAMS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "2",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Ratling gun",
+    "range": "24\"",
+    "A": "D6+3",
+    "BS_WS": "5+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "RAPID FIRE D6+3",
+     "SUSTAINED HITS 1",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Crew blades",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Hide Behind Them-Things!",
+    "text": "While this unit is within 3\" of a friendly non-CHARACTER SKAVEN INFANTRY unit with a Starting Strength of 10 or more, this unit is hidden, even if it has shot."
+   },
+   {
+    "name": "Fire Through Them-Things!",
+    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed Hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
+   },
+   {
+    "name": "More-More Bullets",
+    "text": "Each time a model in this unit is selected to shoot, when determining the Attacks characteristic of its Ratling gun, you can re-roll that roll. If you do, after that model has resolved those attacks, it suffers 1 mortal wound."
+   },
+   {
+    "name": "More-More Warpstone!",
+    "text": "Once per battle, when this unit is selected to shoot, until the end of the phase, its Ratling guns score critical hits on unmodified Hit rolls of 4+. After this unit has shot, do not roll for Warpstone Backlash: this unit suffers 3 mortal wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1-3 Ratling Gun Teams."
+  ],
+  "points": "35pts per model",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Warpfire Thrower Teams",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "SKRYRE",
+   "WEAPON TEAM",
+   "WARPFIRE THROWER TEAMS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "2",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warpfire thrower",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "Torrent",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "BLAST 2",
+     "IGNORES COVER",
+     "TORRENT"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Crew blades",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Hide Behind Them-Things!",
+    "text": "While this unit is within 3\" of a friendly non-CHARACTER SKAVEN INFANTRY unit with a Starting Strength of 10 or more, this unit is hidden, even if it has shot."
+   },
+   {
+    "name": "Fire Through Them-Things!",
+    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed Hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
+   },
+   {
+    "name": "Burn Them-All!",
+    "text": "Each time this unit selects a friendly SKAVEN unit for its Fire Through Them-Things! ability, after this unit has resolved its ranged attacks, resolve D3 hits against that friendly unit for each model in this unit, using the Warpfire thrower profile."
+   },
+   {
+    "name": "Unstable Fuel Tanks",
+    "text": "Each time a model in this unit is destroyed, roll one D6. On a 4+, every unit within 3\" of that model suffers D3 mortal wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1-3 Warpfire Thrower Teams."
+  ],
+  "points": "40pts per model",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Warpvolt Scourger Teams",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "SKRYRE",
+   "WEAPON TEAM",
+   "WARPVOLT SCOURGER TEAMS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "2",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warpvolt scourger",
+    "range": "24\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "ANTI-VEHICLE 4+",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Crew blades",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Hide Behind Them-Things!",
+    "text": "While this unit is within 3\" of a friendly non-CHARACTER SKAVEN INFANTRY unit with a Starting Strength of 10 or more, this unit is hidden, even if it has shot."
+   },
+   {
+    "name": "Fire Through Them-Things!",
+    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed Hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
+   },
+   {
+    "name": "System Shock",
+    "text": "Each time an enemy VEHICLE unit is hit by an attack made with this unit's Warpvolt scourger, until the start of your next turn, subtract 1 from the Hit roll each time a model in that enemy unit makes an attack."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1-3 Warpvolt Scourger Teams."
+  ],
+  "points": "50pts per model",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Skryre Acolytes",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "WEAPON TEAM",
+   "SKRYRE",
+   "SKRYRE ACOLYTES"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Poison-wind globes",
+    "range": "12\"",
+    "A": "D3+1",
+    "BS_WS": "4+",
+    "S": "2",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ASSAULT",
+     "BLAST 1",
+     "ANTI-INFANTRY 2+",
+     "IGNORES COVER"
+    ]
+   },
+   {
+    "name": "Death globe",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "2",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "ANTI-INFANTRY 2+",
+     "DEVASTATING WOUNDS",
+     "HAZARDOUS"
+    ]
+   },
+   {
+    "name": "Poison-wind mortar",
+    "range": "30\"",
+    "A": "D6",
+    "BS_WS": "4+",
+    "S": "2",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "BLAST 1",
+     "INDIRECT FIRE",
+     "ANTI-INFANTRY 2+",
+     "IGNORES COVER"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Acolyte blades",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Choking Poisoned Wind",
+    "text": "After this unit has shot, select one unit that was hit by one or more of those attacks. That unit and every other unit within 3\" of it, friendly or enemy, suffer D3 mortal wounds. Until the start of your next turn, subtract 1 from the Hit roll each time a model in any of those units makes an attack."
+   },
+   {
+    "name": "Fire Through Them-Things!",
+    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed Hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
+   },
+   {
+    "name": "Gas Them-All!",
+    "text": "When this unit uses Fire Through Them-Things!, its [BLAST] weapons can target an enemy unit that is engaged with the selected friendly unit. When determining the extra attacks from [BLAST], count the models in the selected friendly unit as well as the models in the target."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "5 or 10 Skryre Acolytes. Per 5 models, up to 1 Death globe and 1 poison-wind mortar."
+  ],
+  "points": "70pts / 140pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Warplock Jezzails",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "SKRYRE",
+   "WEAPON TEAM",
+   "WARPLOCK JEZZAILS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "2",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warplock jezzail",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "4",
+    "keywords": [
+     "HEAVY",
+     "PRECISION",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Crew blades",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Pavise Teams",
+    "text": "If this unit Remained Stationary during your previous Movement phase, improve the Save characteristic of models in this unit by 1 against ranged attacks."
+   },
+   {
+    "name": "Sniper's Mark",
+    "text": "Each time this unit is selected to shoot, if one or more of those attacks target a CHARACTER unit, you can re-roll one Hit roll and one Wound roll when resolving those attacks."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "3 or 6 Warplock Jezzail teams."
+  ],
+  "points": "135pts / 270pts",
+  "repeat_cost": "+15pts from the 3rd copy"
+ },
+ {
+  "name": "Warp-Grinder Team",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "SKRYRE",
+   "WEAPON TEAM",
+   "WARP-GRINDER TEAM"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "4",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Warp-grinder",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "ANTI-VEHICLE 4+",
+     "DEVASTATING WOUNDS"
+    ]
+   },
+   {
+    "name": "Crew blades",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Tunnelling Escort",
+    "text": "When this unit is placed into the Under-Empire, its paired unit can be placed into the Under-Empire with it. When this unit emerges, its paired unit emerges at the same time through the same exit (using that Gnawhole once): set it up wholly within 6\" of this unit and more than 8\" horizontally from every enemy model. Until the end of the turn, add 1 to charge rolls made for that paired unit."
+   },
+   {
+    "name": "Breach",
+    "text": "This unit can move through terrain features as if they were not there."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Warp-Grinder Team.Before battle, pair it with one SKAVEN INFANTRY unit."
+  ],
+  "points": "75pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Doom-Flayers",
+  "role": "MOUNTED",
+  "keywords": [
+   "MOUNTED",
+   "SKRYRE",
+   "DOOM-FLAYERS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "12\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "4",
+   "LD": "8+",
+   "OC": "2"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Doom-Flayer blades",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "LANCE",
+     "SUSTAINED HITS 1",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Crew blades",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Whirling Advance",
+    "text": "This unit is eligible to declare a charge in a turn in which it made an advance move."
+   },
+   {
+    "name": "Careening Charge",
+    "text": "Just after this unit ends a charge move, select one enemy unit it is engaged with and roll one D6. On a 1, this unit suffers D3 mortal wounds. On a 2-4, that enemy unit suffers 1 mortal wound. On a 5+, that enemy unit suffers D3 mortal wounds."
+   },
+   {
+    "name": "Explosive End",
+    "text": "Each time a model in this unit is destroyed while it is engaged, roll one D6. On a 5+, one of those enemy units suffers D3 mortal wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "2-6 Doom-Flayers. Every model is equipped with Doom-Flayer blades and Crew blades."
+  ],
+  "points": "35pts per model",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Rat Ogors",
+  "role": "BEAST",
+  "keywords": [
+   "BEAST",
+   "MOULDER",
+   "RAT OGORS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "6",
+   "SV": "5+",
+   "W": "4",
+   "LD": "8+",
+   "OC": "2"
+  },
+  "extra_profiles": [
+   {
+    "name": "PACKMASTER",
+    "profile": {
+     "M": "6\"",
+     "T": "3",
+     "SV": "5+",
+     "W": "2",
+     "LD": "6+",
+     "OC": "1"
+    },
+    "text": [
+     "Packmaster models use this profile. Each Packmaster is equipped with a Pack whip."
+    ]
+   }
+  ],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Rat Ogor claws",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": []
+   },
+   {
+    "name": "Pack whip",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Packmaster",
+    "text": "While this unit contains one or more Packmaster models, add 1 to charge rolls made for this unit and add 1 to the Hit roll each time a Rat Ogor model in this unit makes a melee attack."
+   },
+   {
+    "name": "Frenzied Brutes",
+    "text": "Until the end of the Fight phase, add 1 to the Attacks characteristic of Rat Ogor claws equipped by models in this unit if this unit made a charge move this turn."
+   },
+   {
+    "name": "Stitched Back Together",
+    "text": "In your Command phase, one model in this unit regains up to D3 lost wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "3 Rat Ogors and 1 Packmaster, or 6 Rat Ogors and 2 Packmasters."
+  ],
+  "points": "130pts / 260pts",
+  "repeat_cost": "+15pts from the 3rd copy"
+ },
+ {
+  "name": "Vermadillos",
+  "role": "BEAST",
+  "keywords": [
+   "BEAST",
+   "MOULDER",
+   "VERMADILLOS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "7\"",
+   "T": "6",
+   "SV": "3+",
+   "W": "4",
+   "LD": "8+",
+   "OC": "2"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Warp-hardened Claws",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   },
+   {
+    "name": "Crushing Roll",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Burrowing Borrowers",
+    "text": "This unit has the Deep Strike ability. When it arrives using Deep Strike, it can be set up more than 6\" horizontally from every enemy model instead of more than 8\"."
+   },
+   {
+    "name": "",
+    "text": "This unit cannot declare a charge in a turn in which it arrived using this ability."
+   },
+   {
+    "name": "Tremors",
+    "text": "While this unit is Dug In, enemy units within 12\" of it are affected by Tremors."
+   },
+   {
+    "name": "",
+    "text": "While an enemy unit is affected by Tremors:"
+   },
+   {
+    "name": "",
+    "text": "- Subtract 2\" from its Move characteristic. - Subtract 2 from advance rolls made for it."
+   },
+   {
+    "name": "",
+    "text": "- Subtract 2 from charge rolls made for it."
+   }
+  ],
+  "other_rules": [
+   {
+    "name": "CURL-CURL!",
+    "text": [
+     "At the end of your Movement phase, this unit can Dig In. While it is Dug In, improve its Save characteristic to 2+, models in it have a 5+ invulnerable save, it has the Benefit of Cover and the Tremors ability, and it is hidden and you subtract 3\" from its models' detection range. In addition, change its Move characteristic to 2\" and its Objective Control characteristic to 0. At the end of your opponent's Fight phase, if this unit is Dug In, select one of the following: this unit is no longer Dug In; or remove this unit from the battlefield and place it into Strategic Reserves. It can arrive later by making an ingress move using Burrowing Borrowers."
+    ]
+   }
+  ],
+  "unit_composition": [
+   "3 or 6 Vermadillos. Every model is equipped with Warp-hardened Claws and a Crushing Roll."
+  ],
+  "points": "100pts / 200pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Stormfiends",
+  "role": "BEAST",
+  "keywords": [
+   "BEAST",
+   "MOULDER",
+   "SKRYRE",
+   "STORMFIENDS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "7",
+   "SV": "4+",
+   "W": "5",
+   "LD": "8+",
+   "OC": "2",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Ratling cannons",
+    "range": "24\"",
+    "A": "12",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "SUSTAINED HITS 1",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Windlaunchers",
+    "range": "30\"",
+    "A": "D6+3",
+    "BS_WS": "4+",
+    "S": "3",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "ANTI-INFANTRY 3+",
+     "BLAST 1",
+     "INDIRECT FIRE",
+     "IGNORES COVER"
+    ]
+   },
+   {
+    "name": "Warpfire projectors",
+    "range": "12\"",
+    "A": "6",
+    "BS_WS": "Torrent",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "BLAST 2",
+     "TORRENT"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Crushing fists",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   },
+   {
+    "name": "Grinderfists",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "ANTI-VEHICLE 4+",
+     "DEVASTATING WOUNDS"
+    ]
+   },
+   {
+    "name": "Doom-Flayer gauntlets",
+    "range": "Melee",
+    "A": "10",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "SUSTAINED HITS 1"
+    ]
+   },
+   {
+    "name": "Shock gauntlets",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "LETHAL HITS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Firing in the Crush",
+    "text": "This unit is eligible to shoot while it is engaged."
+   },
+   {
+    "name": "Grinderfists",
+    "text": "While this unit contains one or more models equipped with Grinderfists, it has the Deep Strike ability. When this unit is set up on the battlefield using Deep Strike, create one friendly Gnawhole within 3\" of it."
+   },
+   {
+    "name": "Regenerative Flesh",
+    "text": "In your Command phase, one model in this unit regains D3 lost wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "3 or 6 Stormfiends. For every 3 models in this unit: - 1 Stormfiend is equipped with either Doom-Flayer gauntlets or Shock gauntlets.",
+   "- 1 Stormfiend is equipped with either Grinderfists or Ratling cannons.",
+   "- 1 Stormfiend is equipped with either Warpfire projectors or Windlaunchers.",
+   "Every model is also equipped with Crushing fists."
+  ],
+  "points": "225pts / 450pts",
+  "repeat_cost": "+25pts from the 3rd copy"
+ },
+ {
+  "name": "Mutant Rat Ogor",
+  "role": "BEAST",
+  "keywords": [
+   "BEAST",
+   "MOULDER",
+   "MUTANT RAT OGOR"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "7",
+   "SV": "4+",
+   "W": "10",
+   "LD": "8+",
+   "OC": "3"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Mutant claws - strike",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "4",
+    "keywords": []
+   },
+   {
+    "name": "Mutant claws - sweep",
+    "range": "Melee",
+    "A": "12",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [
+   "Before selecting targets for Mutant claws, select either the strike or sweep profile."
+  ],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Feel No Pain 5+"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Unstable Mutation",
+    "text": "In your Command phase, roll one D3. Until your next Command phase, this model gains the corresponding mutation."
+   },
+   {
+    "name": "",
+    "text": "1 -"
+   },
+   {
+    "name": "CHITINOUS GROWTHS",
+    "text": "Improve this model's Save characteristic by 1."
+   },
+   {
+    "name": "",
+    "text": "2 -"
+   },
+   {
+    "name": "OVERDEVELOPED MUSCULATURE",
+    "text": "Add 1 to the Strength characteristic of this model's melee weapons."
+   },
+   {
+    "name": "",
+    "text": "3 -"
+   },
+   {
+    "name": "WARP-ADRENAL GLANDS",
+    "text": "Add 2\" to this model's Move characteristic and add 1 to charge rolls made for it."
+   },
+   {
+    "name": "Regenerative Flesh",
+    "text": "In your Command phase, this model regains up to D3 lost wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Mutant Rat Ogor."
+  ],
+  "points": "155pts",
+  "repeat_cost": "+15pts from the 3rd copy"
+ },
+ {
+  "name": "Wolf Rats",
+  "role": "BEAST",
+  "keywords": [
+   "BEAST",
+   "MOULDER",
+   "WOLF RATS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "10\"",
+   "T": "4",
+   "SV": "6+",
+   "W": "2",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "extra_profiles": [
+   {
+    "name": "PACKMASTER",
+    "profile": {
+     "M": "6\"",
+     "T": "3",
+     "SV": "5+",
+     "W": "2",
+     "LD": "6+",
+     "OC": "1"
+    },
+    "text": [
+     "Packmaster models use this profile. The Packmaster is equipped with a Pack whip."
+    ]
+   }
+  ],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Warp-fanged bites",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "LETHAL HITS"
+    ]
+   },
+   {
+    "name": "Pack whip",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Packmaster",
+    "text": "While this unit contains a Packmaster model, add 1 to charge rolls made for this unit and add 1 to the Hit roll each time a Wolf Rat model in this unit makes a melee attack."
+   },
+   {
+    "name": "Fleet Predators",
+    "text": "This unit is eligible to declare a charge in a turn in which it made an advance move."
+   },
+   {
+    "name": "Hunt the Weak",
+    "text": "Each time a model in this unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll and add 1 to the Wound roll."
+   },
+   {
+    "name": "Outflank",
+    "text": "When this unit makes an ingress move from Strategic Reserves, it can be set up wholly within 6\" of any battlefield edge and more than 8\" horizontally from every enemy model."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "5 or 10 Wolf Rats and 1 Packmaster. Every Wolf Rat is equipped with Warp-fanged bites."
+  ],
+  "points": "80pts / 150pts",
+  "repeat_cost": "+5pts from the 3rd copy"
+ },
+ {
+  "name": "Brood Horror",
+  "role": "BEAST",
+  "keywords": [
+   "BEAST",
+   "MOULDER",
+   "BROOD HORROR"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "10\"",
+   "T": "8",
+   "SV": "4+",
+   "W": "14",
+   "LD": "8+",
+   "OC": "5",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Brood jaws",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "4",
+    "keywords": [
+     "LETHAL HITS"
+    ]
+   },
+   {
+    "name": "Brood limbs",
+    "range": "Melee",
+    "A": "12",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "SUSTAINED HITS 1"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Regenerative Flesh",
+    "text": "In your Command phase, this model regains up to D3 lost wounds."
+   },
+   {
+    "name": "Burrowing Bulk",
+    "text": "This model can move through terrain features as if they were not there, but cannot end any move within one."
+   },
+   {
+    "name": "Verminous Brood",
+    "text": "In your Command phase, select one friendly Rat Packs unit within 6\". One model in that unit regains D3+1 lost wounds, or you can return one destroyed Rat Pack base to that unit with 1 wound remaining."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Brood Horror."
+  ],
+  "points": "230pts",
+  "repeat_cost": "+20pts from the 3rd copy"
+ },
+ {
+  "name": "Rat Packs",
+  "role": "BEAST",
+  "keywords": [
+   "BEAST",
+   "SWARM",
+   "MOULDER",
+   "RAT PACKS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "7+",
+   "W": "10",
+   "LD": "8+",
+   "OC": "4"
+  },
+  "extra_profiles": [
+   {
+    "name": "PACKMASTER",
+    "profile": {
+     "M": "6\"",
+     "T": "3",
+     "SV": "5+",
+     "W": "2",
+     "LD": "6+",
+     "OC": "1"
+    },
+    "text": [
+     "Packmaster models use this profile. The Packmaster is equipped with a Pack whip."
+    ]
+   }
+  ],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Seething tide",
+    "range": "Melee",
+    "A": "20",
+    "BS_WS": "5+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "LETHAL HITS",
+     "SUSTAINED HITS 1"
+    ]
+   },
+   {
+    "name": "Pack whip",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Packmaster",
+    "text": "While this unit contains a Packmaster model, add 1 to advance and charge rolls made for this unit and add 1 to the Hit roll each time a Rat Pack base in this unit makes an attack."
+   },
+   {
+    "name": "Hundreds of Rats",
+    "text": "Each time an attack is allocated to a Rat Pack base in this unit, subtract 1 from the Damage characteristic of that attack, to a minimum of 1. For the purposes of the Blast ability, each Rat Pack base in this unit counts as 5 models."
+   },
+   {
+    "name": "Living Carpet",
+    "text": "While an enemy unit is engaged with this unit, subtract 1 from the Objective Control characteristic of models in that enemy unit. Rat Pack bases in this unit can move through friendly SKAVEN INFANTRY and BEAST models as if they were not there."
+   },
+   {
+    "name": "Endless Swarm",
+    "text": "In your Command phase, one Rat Pack base in this unit regains up to D3 lost wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1-3 Rat Pack swarm bases and 1 Packmaster."
+  ],
+  "points": "55pts / 95pts / 135pts",
+  "repeat_cost": "+5pts from the 3rd copy"
+ },
+ {
+  "name": "Hell Pit Abomination",
+  "role": "MONSTER",
+  "keywords": [
+   "MONSTER",
+   "MOULDER",
+   "HELL PIT ABOMINATION"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "11",
+   "SV": "4+",
+   "W": "22",
+   "LD": "8+",
+   "OC": "7"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Monstrous claws - strike",
+    "range": "Melee",
+    "A": "7",
+    "BS_WS": "3+",
+    "S": "14",
+    "AP": "-3",
+    "D": "4",
+    "keywords": [
+     "LETHAL HITS"
+    ]
+   },
+   {
+    "name": "Monstrous claws - sweep",
+    "range": "Melee",
+    "A": "16",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "SUSTAINED HITS 1"
+    ]
+   },
+   {
+    "name": "Ravenous jaws",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [
+   "Before selecting targets for Monstrous claws, select either the strike or sweep profile. Ravenous jaws has Extra Attacks."
+  ],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Feel No Pain 5+"
+   },
+   {
+    "name": "Regenerating Horror",
+    "text": "At the end of every turn, this model regains up to D3+3 lost wounds."
+   },
+   {
+    "name": "Crushing Charge",
+    "text": "Just after this model ends a charge move, select one enemy unit it is engaged with and roll one D6. On a 2+, that enemy unit suffers D3 mortal wounds."
+   },
+   {
+    "name": "Formless Horror",
+    "text": "Once per battle, this model can be selected as the target of the More-More Bodies! Vermin Ability. If it is, that ability must be paid for using Thirteen for the Horned Rat, and this model regains exactly 13 lost wounds instead of the normal amount."
+   },
+   {
+    "name": "Too Horrible to Die",
+    "text": "The first time this model would be destroyed, roll one D6. On a 1-2, this model is destroyed. On a 3-4, this model is destroyed, every unit within 6\" of it suffers D6 mortal wounds, then, using Summoned Vermin, add one permanent unit of 20 Skavenslaves to your army, wholly within 6\" of where this model was destroyed and outside Engagement Range of every enemy unit. On a 5+, this model is not destroyed and remains in play with D6 wounds remaining. If this model is destroyed later in the battle, it has the Deadly Demise D6 ability."
+   },
+   {
+    "name": "Damaged: 1-7 Wounds Remaining",
+    "text": "While this model has 1-7 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Hell Pit Abomination."
+  ],
+  "points": "375pts",
+  "repeat_cost": "+25pts from the 2nd copy"
+ },
+ {
+  "name": "Verminwyrm",
+  "role": "MONSTER",
+  "keywords": [
+   "MONSTER",
+   "DAEMON",
+   "FLY",
+   "TRANSPORT",
+   "MOULDER",
+   "VERMINWYRM"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "14\"",
+   "T": "12",
+   "SV": "3+",
+   "W": "18",
+   "LD": "7+",
+   "OC": "5"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warpfire Breath",
+    "range": "18\"",
+    "A": "9",
+    "BS_WS": "Torrent",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "BLAST 3",
+     "TORRENT"
+    ]
+   },
+   {
+    "name": "Warp Bile",
+    "range": "18\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "16",
+    "AP": "-4",
+    "D": "D6+2",
+    "keywords": [
+     "HAZARDOUS",
+     "MELTA 4",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Monstrous Claws",
+    "range": "Melee",
+    "A": "8",
+    "BS_WS": "3+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   },
+   {
+    "name": "Fanged Maw",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "16",
+    "AP": "-3",
+    "D": "D6+2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise D6"
+   },
+   {
+    "name": "Unstable Mutation",
+    "text": "At the start of the battle, select one of the following mutations. This model has that mutation until the end of the battle."
+   },
+   {
+    "name": "IRONBOUND SKELETON",
+    "text": "Improve this model's Toughness characteristic by 1."
+   },
+   {
+    "name": "REGENERATIVE FLESH",
+    "text": "In your Command phase, this model regains up to D3 lost wounds."
+   },
+   {
+    "name": "WARP-SWOLLEN MUSCULATURE",
+    "text": "Add 2 to the Strength characteristic of this model's melee weapons."
+   },
+   {
+    "name": "EXTRA-EXTRA WINGS",
+    "text": "Add 2\" to this model's Move characteristic and add 1 to advance and charge rolls made for it."
+   },
+   {
+    "name": "MANY-MANY HEADS",
+    "text": "Add 2 to the Attacks characteristic of this model's Fanged Maw, and that weapon gains [SUSTAINED HITS 1]."
+   },
+   {
+    "name": "Damaged: 1-6 Wounds Remaining",
+    "text": "While this model has 1-6 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+   }
+  ],
+  "other_rules": [
+   {
+    "name": "WARPED WINGS",
+    "text": [
+     "This model can move over models and terrain features as if they were not there.",
+     "Each time this model ends a normal, advance or charge move, it can declare a Dive. If it does: - This model suffers 2D6 mortal wounds.",
+     "- Then, every other unit within 6\" of this model, friendly or enemy, suffers D3+3 mortal wounds."
+    ]
+   },
+   {
+    "name": "TRANSPORT",
+    "text": [
+     "This model has a transport capacity of 6 Rat Ogor models and their Packmaster models."
+    ]
+   }
+  ],
+  "unit_composition": [
+   "1 Verminwyrm."
+  ],
+  "points": "390pts",
+  "repeat_cost": "+30pts from the 2nd copy"
+ },
+ {
+  "name": "Brood Terror",
+  "role": "MONSTER",
+  "keywords": [
+   "MONSTER",
+   "MOULDER",
+   "BROOD TERROR"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "10",
+   "SV": "3+",
+   "W": "18",
+   "LD": "8+",
+   "OC": "6",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warpflame",
+    "range": "18\"",
+    "A": "6",
+    "BS_WS": "Torrent",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "BLAST 2",
+     "IGNORES COVER",
+     "TORRENT"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Claws - strike",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "13",
+    "AP": "-3",
+    "D": "4",
+    "keywords": []
+   },
+   {
+    "name": "Claws - sweep",
+    "range": "Melee",
+    "A": "12",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   },
+   {
+    "name": "Loose blades",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "EXTRA ATTACKS"
+    ]
+   }
+  ],
+  "weapon_notes": [
+   "Before selecting targets for Claws, select either the strike or sweep profile. Loose blades has Extra Attacks."
+  ],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise D3"
+   },
+   {
+    "name": "Regeneration",
+    "text": "At the end of each turn, this model regains up to D3 lost wounds."
+   },
+   {
+    "name": "Terror Aura",
+    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the Hit roll each time a model in that unit makes a melee attack."
+   },
+   {
+    "name": "Living Breach",
+    "text": "Once per battle, in your Movement phase, when you select a friendly SKAVEN INFANTRY or BEAST unit in Strategic Reserves (including the Under-Empire) to make an ingress move, you can set it up wholly within 6\" of this model and more than 8\" horizontally from every enemy model instead. This counts as that unit emerging but uses no Gnawhole."
+   },
+   {
+    "name": "Damaged: 1-6 Wounds Remaining",
+    "text": "While this model has 1-6 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+   }
+  ],
+  "other_rules": [
+   {
+    "name": "DETACHABLE LIMBS",
+    "text": [
+     "Once per battle, in your Command phase, this model can tear free its Loose Blades. If it does: - For the remainder of the battle, this model cannot make attacks with its Loose Blades. - Select one friendly SKAVEN INFANTRY or BEAST unit within 6\" of this model.",
+     "- Until your next Command phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.",
+     "Tearing free the Loose Blades is not a Sacrifice and does not trigger any rule that is triggered when a model is Sacrificed."
+    ]
+   }
+  ],
+  "unit_composition": [
+   "1 Brood Terror."
+  ],
+  "points": "300pts",
+  "repeat_cost": "+25pts from the 3rd copy"
+ },
+ {
+  "name": "Doomwheel",
+  "role": "VEHICLE",
+  "keywords": [
+   "VEHICLE",
+   "SKRYRE",
+   "RATTLETRAP",
+   "DOOMWHEEL"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "10\"",
+   "T": "10",
+   "SV": "3+",
+   "W": "12",
+   "LD": "8+",
+   "OC": "4",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warp-Rift Cracker",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "16",
+    "AP": "-3",
+    "D": "D6+3",
+    "keywords": [
+     "HEAVY",
+     "ANTI-MONSTER 3+",
+     "ANTI-VEHICLE 3+",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Warp sparks",
+    "range": "18\"",
+    "A": "D6+3",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "BLAST 1",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Grinding wheel",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise D3"
+   },
+   {
+    "name": "Careening Destroyer",
+    "text": "Each time this model makes an advance move, it can move through enemy INFANTRY models as if they were not there. After that move ends, roll one D6 for each enemy INFANTRY unit it moved through. On a 3+, the unit being rolled for suffers D3 mortal wounds."
+   },
+   {
+    "name": "Low-slung Hunter",
+    "text": "Each time this model targets a VEHICLE or MONSTER, ignore modifiers to its Ballistic Skill and Hit rolls."
+   },
+   {
+    "name": "Unstable Momentum",
+    "text": "Each time an advance roll is made for this model, if the unmodified result is 1, this model suffers D3 mortal wounds."
+   },
+   {
+    "name": "",
+    "text": "Each time a charge roll made for this model fails, this model suffers D3 mortal wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Doomwheel."
+  ],
+  "points": "200pts",
+  "repeat_cost": "+20pts from the 3rd copy"
+ },
+ {
+  "name": "Eshin Nightstrider",
+  "role": "VEHICLE",
+  "keywords": [
+   "VEHICLE",
+   "WALKER",
+   "ESHIN",
+   "SKRYRE",
+   "RATTLETRAP",
+   "NIGHTSTRIDER"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "10\"",
+   "T": "8",
+   "SV": "3+",
+   "W": "8",
+   "LD": "8+",
+   "OC": "3"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warp-needle accelerator",
+    "range": "30\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "ANTI-INFANTRY 3+",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Warpfire tail projector",
+    "range": "12\"",
+    "A": "4",
+    "BS_WS": "Torrent",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "BLAST 1",
+     "IGNORES COVER",
+     "TORRENT"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Murder-claws - strike",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "PRECISION"
+    ]
+   },
+   {
+    "name": "Murder-claws - sweep",
+    "range": "Melee",
+    "A": "10",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "PRECISION"
+    ]
+   }
+  ],
+  "weapon_notes": [
+   "Before selecting targets for Murder-claws, select either the strike or sweep profile."
+  ],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Infiltrators, Stealth"
+   },
+   {
+    "name": "Verminjutsu",
+    "text": "This model is hidden, with the normal 15\" detection range."
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Marked for Death-Death",
+    "text": "At the start of the first battle round, select one enemy unit. Each time this model makes an attack that targets that unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+   },
+   {
+    "name": "Mechanical Pounce",
+    "text": "Once per battle, at the end of your opponent's Movement phase, if this model is not engaged, it can make a normal move of up to 6\". In addition, this model can enter and emerge from the Under-Empire, using Gnawholes as normal."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Eshin Nightstrider.This model is equipped with one Warp-needle accelerator, one Warpfire tail projector and Murder-claws."
+  ],
+  "points": "100pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Warp Lightning Cannon",
+  "role": "VEHICLE",
+  "keywords": [
+   "VEHICLE",
+   "SKRYRE",
+   "RATTLETRAP",
+   "WARP LIGHTNING CANNON"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "5\"",
+   "T": "8",
+   "SV": "3+",
+   "W": "11",
+   "LD": "8+",
+   "OC": "3"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Focused lightning",
+    "range": "72\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "16",
+    "AP": "-3",
+    "D": "D6+3",
+    "keywords": [
+     "HEAVY",
+     "ANTI-VEHICLE 4+",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Forked lightning",
+    "range": "72\"",
+    "A": "D6+3",
+    "BS_WS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "HEAVY",
+     "BLAST 1",
+     "INDIRECT FIRE",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Crew blades",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [
+   "Select either the Focused lightning or Forked lightning profile each time this model shoots."
+  ],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise D3"
+   },
+   {
+    "name": "Crackling Arc",
+    "text": "After this model has shot, if one or more critical hits were scored with one of its lightning weapon profiles, select one enemy unit hit by that profile. That enemy unit suffers D3 mortal wounds in addition to the normal effects of Warpstone."
+   },
+   {
+    "name": "Overcharge Capacitors",
+    "text": "Once per battle, when this model is selected to shoot, it can overcharge its capacitors. If it does, after selecting either the Focused lightning or Forked lightning profile, double that profile's Attacks characteristic until those attacks have been resolved. This model then suffers D3+3 mortal wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Warp Lightning Cannon."
+  ],
+  "points": "150pts",
+  "repeat_cost": "+15pts from the 3rd copy"
+ },
+ {
+  "name": "Plagueclaw Catapult",
+  "role": "VEHICLE",
+  "keywords": [
+   "VEHICLE",
+   "PESTILENS",
+   "RATTLETRAP",
+   "PLAGUECLAW CATAPULT"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "9",
+   "SV": "4+",
+   "W": "12",
+   "LD": "8+",
+   "OC": "3"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Plagueclaw bombard",
+    "range": "60\"",
+    "A": "D6+3",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "ANTI-INFANTRY 2+",
+     "BLAST 1",
+     "INDIRECT FIRE",
+     "IGNORES COVER"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Crew blades",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise 1"
+   },
+   {
+    "name": "Rotted Ammunition",
+    "text": "After this model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, subtract 1 from the Hit roll each time a model in that unit makes an attack. If that unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons, to a minimum of 1."
+   },
+   {
+    "name": "Pestilent Payload",
+    "text": "Each time this model scores a critical wound against an INFANTRY unit, that unit suffers 1 mortal wound in addition to any normal damage. That enemy unit can suffer a maximum of 3 mortal wounds per phase as a result of this ability."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Plagueclaw Catapult."
+  ],
+  "points": "150pts",
+  "repeat_cost": "+15pts from the 3rd copy"
+ },
+ {
+  "name": "Ratling Warpblaster",
+  "role": "VEHICLE",
+  "keywords": [
+   "VEHICLE",
+   "SKRYRE",
+   "RATTLETRAP",
+   "RATLING WARPBLASTER"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "5\"",
+   "T": "9",
+   "SV": "3+",
+   "W": "12",
+   "LD": "8+",
+   "OC": "3",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Ratling warpblaster",
+    "range": "36\"",
+    "A": "4D6+8",
+    "BS_WS": "5+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "HEAVY",
+     "SUSTAINED HITS 1",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Grinding chassis",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise D3"
+   },
+   {
+    "name": "Anchored Gun Platform",
+    "text": "If this model Remained Stationary during your previous Movement phase, you can ignore any or all modifiers to its Ballistic Skill characteristic and to Hit rolls made for its ranged attacks."
+   },
+   {
+    "name": "Drown Them in Warp-Lead!",
+    "text": "After this model has resolved its attacks with its Ratling warpblaster, select one enemy unit that was hit by that weapon. If 13 or more successful hits were scored against that enemy unit by the Ratling warpblaster during that activation, until the start of your next turn:"
+   },
+   {
+    "name": "",
+    "text": "- Subtract 2\" from that unit's Move characteristic. - That unit cannot make advance moves."
+   },
+   {
+    "name": "",
+    "text": "- That unit cannot make normal moves outside its own Movement phase."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Ratling Warpblaster."
+  ],
+  "points": "210pts",
+  "repeat_cost": "+20pts from the 3rd copy"
+ },
+ {
+  "name": "Warp-Doom Magma Cannon",
+  "role": "VEHICLE",
+  "keywords": [
+   "VEHICLE",
+   "SKRYRE",
+   "WARP-DOOM MAGMA CANNON"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "10",
+   "SV": "3+",
+   "W": "14",
+   "LD": "8+",
+   "OC": "4",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warp-Doom magma cannon",
+    "range": "36\"",
+    "A": "D3+1",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-4",
+    "D": "4",
+    "keywords": [
+     "HEAVY",
+     "BLAST 1",
+     "MELTA 4",
+     "ANTI-VEHICLE 4+",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Magma vents",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "Torrent",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "BLAST 1",
+     "TORRENT"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Armoured treads",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise D6"
+   },
+   {
+    "name": "Molten Breach",
+    "text": "Each time an enemy VEHICLE or MONSTER unit loses one or more wounds as a result of an attack made with this model's Warp-Doom magma cannon, that unit cannot regain lost wounds until your next Command phase."
+   },
+   {
+    "name": "Pressure Rupture",
+    "text": "After this model has shot, roll one D6. On a 1, this model suffers D3 mortal wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Warp-Doom Magma Cannon."
+  ],
+  "points": "200pts",
+  "repeat_cost": "+20pts from the 3rd copy"
+ },
+ {
+  "name": "Cauldron of a Thousand Poxes",
+  "role": "VEHICLE",
+  "keywords": [
+   "VEHICLE",
+   "PESTILENS",
+   "CAULDRON OF A THOUSAND POXES"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "6\"",
+   "T": "9",
+   "SV": "3+",
+   "W": "14",
+   "LD": "8+",
+   "OC": "5",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Pox bombard",
+    "range": "24\"",
+    "A": "2D6",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "BLAST 1",
+     "IGNORES COVER"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Cauldron ram",
+    "range": "Melee",
+    "A": "8",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "Pestilence (Aura)",
+    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+   },
+   {
+    "name": "Thousand Poxes",
+    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the Toughness and Objective Control characteristics of models in that unit, to a minimum of 1."
+   },
+   {
+    "name": "Foul Restoration",
+    "text": "In your Command phase, select one friendly Plague Monks, Plague Censer Bearers or PESTILENS CHARACTER unit within 6\" of this model. One model in that unit regains up to D3+1 lost wounds. If that unit contains no wounded models but is Below its Starting Strength, return destroyed models to it with a combined Wounds characteristic no greater than D3+1."
+   },
+   {
+    "name": "Boil the Faithful",
+    "text": "In your Command phase, you can Sacrifice D3 friendly PESTILENS INFANTRY models within 8\" of this model. If every selected model is Sacrificed, select one friendly PESTILENS unit within 8\" of this model. Until your next Command phase, attacks made by models in that unit score critical hits and critical wounds on unmodified rolls of 5+."
+   },
+   {
+    "name": "Bound Spells",
+    "text": "This model is not a PSYKER, but it can use the bound spells below as if they were spells. It makes no psychic roll, spends no Psychic Level and cannot Overcast. Each bound spell can be used once per battle round, and this model can use only one DAMAGE bound spell per turn."
+   },
+   {
+    "name": "Bound Plaguemaster (DAMAGE)",
+    "text": "Your Shooting phase. Select one point on the battlefield within 18\" of and visible to this model. Each unit (friendly or enemy) within 3\" of that point suffers D3+3 mortal wounds."
+   },
+   {
+    "name": "Bound Wither",
+    "text": "Your Shooting phase. Select one enemy unit within 18\" of and visible to this model. Until the start of your next turn, subtract 1 from the Toughness characteristic of models in that unit (to a minimum of 1)."
+   },
+   {
+    "name": "Bound Bless with Filth",
+    "text": "Start of the Fight phase. Select one friendly SKAVEN unit within 18\" of this model. Until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS]."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Cauldron of a Thousand Poxes."
+  ],
+  "points": "250pts",
+  "repeat_cost": "+25pts from the 3rd copy"
+ },
+ {
+  "name": "Warpclaw Battle Tank",
+  "role": "VEHICLE",
+  "keywords": [
+   "VEHICLE",
+   "SKRYRE",
+   "WARPCLAW BATTLE TANK"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "10\"",
+   "T": "10",
+   "SV": "2+",
+   "W": "12",
+   "LD": "7+",
+   "OC": "5",
+   "INV": "4+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warpclaw cannon - rupture beam",
+    "range": "60\"",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "18",
+    "AP": "-4",
+    "D": "D6+3",
+    "keywords": [
+     "BLAST 1",
+     "HAZARDOUS",
+     "HEAVY",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Warpclaw cannon - annihilation barrage",
+    "range": "48\"",
+    "A": "2D6+4",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "BLAST 1",
+     "HAZARDOUS",
+     "HEAVY",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Ratling storm-battery",
+    "range": "36\"",
+    "A": "24",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "SUSTAINED HITS 1",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Warpfire sponson",
+    "range": "18\"",
+    "A": "6",
+    "BS_WS": "Torrent",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "BLAST 2",
+     "IGNORES COVER",
+     "TORRENT"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Armoured tracks",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [
+   "Select one Warpclaw cannon profile each time this model shoots."
+  ],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise D6"
+   },
+   {
+    "name": "Catastrophic Warp-Core",
+    "text": "When this model is destroyed, do not roll to determine whether its Deadly Demise D6 ability triggers; it triggers automatically."
+   },
+   {
+    "name": "More-More Power!",
+    "text": "Once per battle, at the start of your Shooting phase, this model can use this ability. If it does, after this model has shot that phase, select one Warpclaw cannon profile equipped by this model and eligible targets for it. This model can make attacks with that profile one additional time. After resolving those attacks, every other unit within 6\" of this model suffers D3+3 mortal wounds, then this model suffers D6+3 mortal wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Warpclaw Battle Tank with 1 Warpclaw cannon, 1 Ratling storm-battery, 2 separately fired Warpfire sponsons and Armoured tracks.Select one cannon profile each time it shoots."
+  ],
+  "points": "200pts",
+  "repeat_cost": "+20pts from the 3rd copy"
+ },
+ {
+  "name": "Doomgrinder Siege Tank",
+  "role": "VEHICLE",
+  "keywords": [
+   "VEHICLE",
+   "SKRYRE",
+   "DOOMGRINDER"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "14",
+   "SV": "2+",
+   "W": "20",
+   "LD": "7+",
+   "OC": "6",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warp-melta cannon",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "16",
+    "AP": "-4",
+    "D": "D6+2",
+    "keywords": [
+     "HAZARDOUS",
+     "MELTA 4",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Doomgrinder drill - bore",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "20",
+    "AP": "-5",
+    "D": "D6+4",
+    "keywords": [
+     "ANTI-FORTIFICATION 2+",
+     "ANTI-VEHICLE 3+",
+     "DEVASTATING WOUNDS"
+    ]
+   },
+   {
+    "name": "Doomgrinder drill - pulverise",
+    "range": "Melee",
+    "A": "18",
+    "BS_WS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "SUSTAINED HITS 1"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deep Strike, Deadly Demise D6"
+   },
+   {
+    "name": "Breach From Below",
+    "text": "This model can be placed into the Under-Empire. When it emerges, do not make a Passage roll or use a Gnawhole: set it up anywhere more than 8\" horizontally from every enemy model, then create one friendly Gnawhole within 3\" of it. This model cannot declare a charge in the turn it emerged and cannot enter the Under-Empire again."
+   },
+   {
+    "name": "Catastrophic Warp-Core",
+    "text": "When this model is destroyed, do not roll to determine whether its Deadly Demise D6 ability triggers; it triggers automatically."
+   }
+  ],
+  "other_rules": [
+   {
+    "name": "GRINDING RUIN",
+    "text": [
+     "This model can move through terrain features as if they were not there, but cannot end a move within one. Each time it ends a normal, advance or fall-back move, every other INFANTRY unit within 6\" of it, friendly or enemy, suffers D6 mortal wounds. This model then suffers D3 mortal wounds, even if no INFANTRY units were within 6\" of it."
+    ]
+   }
+  ],
+  "unit_composition": [
+   "1 Doomgrinder Siege Tank with 2 separately fired Warp-melta cannons and 1 Doomgrinder drill.Select one drill profile each time it fights."
+  ],
+  "points": "300pts",
+  "repeat_cost": "+30pts from the 2nd copy"
+ },
+ {
+  "name": "Warpstone Harvester",
+  "role": "VEHICLE",
+  "keywords": [
+   "VEHICLE",
+   "SKRYRE",
+   "WARPSTONE HARVESTER"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "10",
+   "SV": "3+",
+   "W": "14",
+   "LD": "8+",
+   "OC": "5",
+   "INV": "5+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Extraction beam",
+    "range": "30\"",
+    "A": "D6",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "4",
+    "keywords": [
+     "ANTI-VEHICLE 4+",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Ratling guards",
+    "range": "24\"",
+    "A": "12",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "SUSTAINED HITS 1"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Harvester jaws",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise D6"
+   },
+   {
+    "name": "Warpstone Stabilizer",
+    "text": "Once per battle round, when a friendly SKRYRE unit within 6\" of this model suffers mortal wounds from Warpstone Backlash, reduce those mortal wounds by 1, to a minimum of 0."
+   },
+   {
+    "name": "Repair-Restore",
+    "text": "In your Command phase, select one other friendly SKAVEN VEHICLE unit within 3\" of this model. One model in that unit regains up to D3 lost wounds."
+   }
+  ],
+  "other_rules": [
+   {
+    "name": "STRIP THE SURFACE",
+    "text": [
+     "In your Command phase, if this model is within range of an objective you control, roll one D6. On a 2+, gain 1 Vermin. On a 1, this model suffers D3 mortal wounds."
+    ]
+   }
+  ],
+  "unit_composition": [
+   "1 Warpstone Harvester."
+  ],
+  "points": "190pts",
+  "repeat_cost": "+20pts from the 3rd copy"
+ },
+ {
+  "name": "Vermindoom Land-Fortress",
+  "role": "VEHICLE / TITANIC",
+  "keywords": [
+   "VEHICLE",
+   "TITANIC",
+   "TOWERING",
+   "TRANSPORT",
+   "VERMINDOOM"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "13",
+   "SV": "2+",
+   "W": "30",
+   "LD": "6+",
+   "OC": "10"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warp-zap annihilator",
+    "range": "72\"",
+    "A": "D6",
+    "BS_WS": "4+",
+    "S": "18",
+    "AP": "-4",
+    "D": "6",
+    "keywords": [
+     "BLAST 1",
+     "HAZARDOUS",
+     "HEAVY",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Ratling battery",
+    "range": "36\"",
+    "A": "12",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "HAZARDOUS",
+     "SUSTAINED HITS 1",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Warpfire projector",
+    "range": "18\"",
+    "A": "6",
+    "BS_WS": "Torrent",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "BLAST 2",
+     "HAZARDOUS",
+     "IGNORES COVER",
+     "TORRENT"
+    ]
+   },
+   {
+    "name": "Warp-melta cannon",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "16",
+    "AP": "-4",
+    "D": "D6+2",
+    "keywords": [
+     "HAZARDOUS",
+     "MELTA 4",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Warp-lightning coil",
+    "range": "36\"",
+    "A": "D6+3",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "BLAST 1",
+     "HAZARDOUS",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Grinding ram",
+    "range": "Melee",
+    "A": "8",
+    "BS_WS": "4+",
+    "S": "14",
+    "AP": "-3",
+    "D": "5",
+    "keywords": [
+     "HAZARDOUS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Firing Deck 20, Deadly Demise 2D6"
+   },
+   {
+    "name": "Jury-Rigged Arsenal",
+    "text": "Each weapon selected for this model's Firing Deck ability has [HAZARDOUS] while this model makes attacks with it. Every hazard roll for a weapon used by this model, including weapons fired through Firing Deck, is resolved against this model."
+   },
+   {
+    "name": "Catastrophic Warp-Core",
+    "text": "When this model is destroyed, do not roll to determine whether its Deadly Demise 2D6 ability triggers; it triggers automatically."
+   }
+  ],
+  "other_rules": [
+   {
+    "name": "RATS FOR THE REACTOR!",
+    "text": [
+     "In your Command phase, select any number of reactor modes this model has. Each mode can be selected only once per phase. For each selected mode, Sacrifice exactly 3 embarked SKAVENSLAVES and/or CLANRATS models (this rule allows embarked models to be Sacrificed), then resolve that mode.",
+     "OVERDRIVE:Until your next Command phase, add 6\" to this model's Move characteristic. This model is eligible to shoot and declare a charge in a turn in which it made an advance move, and you can ignore any or all modifiers to its Move characteristic and advance and charge rolls.",
+     "WEAPONS SURGE:Until your next Command phase, improve the Ballistic Skill and Armour Penetration characteristics of this model's ranged weapons by 1, and re-roll each roll made to determine their Attacks characteristic.",
+     "MEAT-FUEL:This model regains up to D3+3 lost wounds.",
+     "Clan Flagship configurations continue on the following page."
+    ]
+   }
+  ],
+  "unit_composition": [
+   "1 Vermindoom Land-Fortress with 1 Warp-zap annihilator, 1 Grinding ram and 6 jury-rigged hardpoints.Each hardpoint selects one ranged profile above other than the annihilator; maximum 2 of each. Transport Capacity 30 SKAVEN INFANTRY models."
+  ],
+  "flagship_configurations": [
+   {
+    "name": "CLAN FLAGSHIP - SELECT EXACTLY ONE",
+    "text": [
+     "During Declare Battle Formations, select exactly one configuration below. This model gains that configuration's Clan keyword, passive rule and additional reactor mode. Additional modes are activated through Rats For The Reactor! ESHIN cannot be selected."
+    ]
+   },
+   {
+    "name": "UNCLAIMED",
+    "text": [
+     "This model gains no Great Clan keyword, passive rule or additional reactor mode. It can use only Overdrive, Weapons Surge and Meat-Fuel."
+    ]
+   },
+   {
+    "name": "VERMINUS WAR-FLAGSHIP",
+    "text": [
+     "This model gains the VERMINUS keyword, its Transport Capacity becomes 60 and its Firing Deck 20 ability is replaced with Firing Deck 30. When a non-CHARACTER VERMINUS INFANTRY unit is returned by They Just Keep Coming!, it can embark within this model instead of entering the Under-Empire, if its full unit can embark without exceeding this model's capacity. OPEN EVERY HATCH! (REACTOR MODE): Until your next Command phase, just after this model ends a normal move, up to three embarked SKAVEN INFANTRY units can disembark. Those units remain eligible to shoot and declare a charge that turn."
+    ]
+   },
+   {
+    "name": "MOULDER FLESH-FLAGSHIP",
+    "text": [
+     "This model gains the MOULDER keyword and can transport MOULDER BEAST units and non-TITANIC MOULDER MONSTER units. Each BEAST model occupies the space of 3 models and each MONSTER model occupies the space of 20 models. MUTAGENIC SLURRY (REACTOR MODE): When this mode is activated, select one MOULDER BEAST or MONSTER unit embarked within this model or within 6\" of it. One model in that unit regains up to D6+3 lost wounds and, until your next Command phase, add 1 to the Attacks characteristic of that unit's melee weapons."
+    ]
+   },
+   {
+    "name": "MASTERCLAN BELL-FLAGSHIP",
+    "text": [
+     "This model gains the MASTERCLAN keyword. One embarked MASTERCLAN PSYKER can use spells, including Overcasting, as if it were on the battlefield, measuring range and visibility from this model. RING THE BLACK BELL (REACTOR MODE): When this mode is activated, select one embarked MASTERCLAN PSYKER. Until your next Command phase, add 1 to its Psyker Level and it can Overcast one additional time per turn."
+    ]
+   },
+   {
+    "name": "PESTILENS PLAGUE-FLAGSHIP",
+    "text": [
+     "This model gains the PESTILENS keyword and Pestilence (Aura): while an enemy unit is within 12\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack; if it is Below Half-strength (enemy units within 6\" of this model always count as Below Half-strength for this), also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). OPEN THE POX VATS (REACTOR MODE): Until your next Command phase, subtract 1 from the Toughness characteristic of models in enemy units within 12\" of this model, and those units cannot regain lost wounds or return destroyed models."
+    ]
+   },
+   {
+    "name": "SKRYRE ARSENAL-FLAGSHIP",
+    "text": [
+     "This model gains the SKRYRE keyword and has eight jury-rigged hardpoints instead of six; the maximum of two copies of each hardpoint weapon still applies. BURN THE REGULATORS (REACTOR MODE): Until your next Command phase, this model's ranged weapons score critical hits on unmodified Hit rolls of 5+. Warpstone Backlash still applies."
+    ]
+   }
+  ],
+  "points": "500pts + Clan Flagship",
+  "repeat_cost": "+50pts from the 2nd copy"
+ },
+ {
+  "name": "Clattertank",
+  "role": "VEHICLE / BATTLELINE",
+  "keywords": [
+   "VEHICLE",
+   "BATTLELINE",
+   "SKRYRE",
+   "RATTLETRAP",
+   "CLATTERTANK"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "10\"",
+   "T": "8",
+   "SV": "3+",
+   "W": "11",
+   "LD": "8+",
+   "OC": "3"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Clattercannon",
+    "range": "48\"",
+    "A": "D6+3",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "BLAST 1",
+     "HEAVY",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Hull Ratling battery",
+    "range": "24\"",
+    "A": "8",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "SUSTAINED HITS 1",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Grinding tracks",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise D6"
+   },
+   {
+    "name": "It Was Making That Noise Before",
+    "text": "At the end of each of your turns, roll one D6. On a 1, this model is destroyed."
+   },
+   {
+    "name": "Catastrophic Warp-Core",
+    "text": "When this model is destroyed, do not roll to determine whether its Deadly Demise D6 ability triggers; it triggers automatically."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Clattertank.Battleline permits up to six units."
+  ],
+  "points": "95pts",
+  "repeat_cost": "+10pts from the 4th copy"
+ },
+ {
+  "name": "Gnawdrill Excavator",
+  "role": "DEDICATED TRANSPORT",
+  "keywords": [
+   "VEHICLE",
+   "TRANSPORT",
+   "DEDICATED TRANSPORT",
+   "SKRYRE",
+   "GNAWHOLE",
+   "GNAWDRILL"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "-",
+   "T": "9",
+   "SV": "3+",
+   "W": "10",
+   "LD": "8+",
+   "OC": "4"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warp-zap drills",
+    "range": "12\"",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "keywords": [
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Bore head",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6+2",
+    "keywords": [
+     "ANTI-VEHICLE 4+",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deep Strike"
+   },
+   {
+    "name": "Breach and Disgorge",
+    "text": "When this model is set up on the battlefield, every embarked unit must immediately disembark: set it up wholly within 3\" of this model and outside Engagement Range of every enemy model."
+   },
+   {
+    "name": "Under-Empire Exit",
+    "text": "After this model has been set up on the battlefield, a unit that emerges through it is set up wholly within 8\" of this model and more than 8\" horizontally from every enemy model."
+   },
+   {
+    "name": "Subterranean Engine",
+    "text": "This model cannot make normal, advance or fall-back moves. When this model is destroyed, it also counts as a friendly Gnawhole being destroyed; resolve Disturb the Nest normally."
+   }
+  ],
+  "other_rules": [
+   {
+    "name": "MOBILE GNAWHOLE",
+    "text": [
+     "While this model is on the battlefield, it is treated as a friendly Gnawhole for rules that select a Gnawhole or use one to enter or emerge from the Under-Empire, and it follows the once-per-turn Gnawhole limit. It does not use the Gnawhole token profile or its targeting restriction. While this model and an eligible friendly SKAVEN INFANTRY unit are in the Under-Empire, that unit can embark within this model."
+    ]
+   }
+  ],
+  "unit_composition": [
+   "1 Gnawdrill Excavator.Transport Capacity 13 eligible SKAVEN INFANTRY models."
+  ],
+  "points": "125pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ }
+]

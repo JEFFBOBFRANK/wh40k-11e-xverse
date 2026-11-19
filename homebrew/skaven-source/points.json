@@ -1,0 +1,396 @@
+{
+ "points": [
+  {
+   "group": "Epic Heroes",
+   "entries": [
+    {
+     "name": "Thanquol and Boneripper",
+     "points": "420pts",
+     "repeat_cost": "–"
+    },
+    {
+     "name": "Queek Headtaker",
+     "points": "150pts",
+     "repeat_cost": "–"
+    },
+    {
+     "name": "Ikit Claw",
+     "points": "210pts",
+     "repeat_cost": "–"
+    },
+    {
+     "name": "Deathmaster Snikch",
+     "points": "145pts",
+     "repeat_cost": "–"
+    },
+    {
+     "name": "Lord Skrolk",
+     "points": "165pts",
+     "repeat_cost": "–"
+    },
+    {
+     "name": "Throt the Unclean",
+     "points": "155pts",
+     "repeat_cost": "–"
+    },
+    {
+     "name": "Lord Skreech Verminking",
+     "points": "430pts",
+     "repeat_cost": "–"
+    }
+   ]
+  },
+  {
+   "group": "Characters",
+   "entries": [
+    {
+     "name": "Grey Seer",
+     "points": "90pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Grey Seer on Screaming Bell",
+     "points": "210pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Warlord",
+     "points": "85pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Warlord on Gnaw-beast",
+     "points": "150pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Deathmaster",
+     "points": "85pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Plague Priest",
+     "points": "75pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Plague Priest on Plague Furnace",
+     "points": "195pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Warlock Engineer",
+     "points": "80pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Master Moulder",
+     "points": "85pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Verminlord Warbringer",
+     "points": "260pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Verminlord Warpseer",
+     "points": "275pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Verminlord Deceiver",
+     "points": "255pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Verminlord Corruptor",
+     "points": "270pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    }
+   ]
+  },
+  {
+   "group": "Battleline",
+   "entries": [
+    {
+     "name": "Skavenslaves",
+     "points": "40pts / 60pts / 80pts",
+     "repeat_cost": "+5pts from the 4th copy"
+    },
+    {
+     "name": "Clanrats",
+     "points": "55pts / 105pts",
+     "repeat_cost": "+5pts from the 4th copy"
+    },
+    {
+     "name": "Clanrats - Weapon Team models",
+     "points": "Per model, from its own datasheet",
+     "repeat_cost": "–"
+    },
+    {
+     "name": "Clattertank",
+     "points": "95pts",
+     "repeat_cost": "+10pts from the 4th copy"
+    }
+   ]
+  },
+  {
+   "group": "Infantry",
+   "entries": [
+    {
+     "name": "Stormvermin",
+     "points": "125pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Warp-Zap Stormvermin",
+     "points": "85pts / 170pts",
+     "repeat_cost": "+15pts from the 3rd copy"
+    },
+    {
+     "name": "Warpclad Warpack",
+     "points": "230pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Plague Monks",
+     "points": "80pts / 160pts",
+     "repeat_cost": "+5pts from the 3rd copy"
+    },
+    {
+     "name": "Plague Censer Bearers",
+     "points": "100pts / 200pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Pusbags",
+     "points": "80pts / 160pts",
+     "repeat_cost": "+5pts from the 3rd copy"
+    },
+    {
+     "name": "Night Runners",
+     "points": "60pts / 120pts",
+     "repeat_cost": "+5pts from the 3rd copy"
+    },
+    {
+     "name": "Gutter Runners",
+     "points": "65pts / 130pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Eshin Shadowriggers",
+     "points": "105pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Ratling Gun Teams",
+     "points": "35pts per model",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Warpfire Thrower Teams",
+     "points": "40pts per model",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Warpvolt Scourger Teams",
+     "points": "50pts per model",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Skryre Acolytes",
+     "points": "70pts / 140pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Warplock Jezzails",
+     "points": "135pts / 270pts",
+     "repeat_cost": "+15pts from the 3rd copy"
+    },
+    {
+     "name": "Warp-Grinder Team",
+     "points": "75pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    }
+   ]
+  },
+  {
+   "group": "Mounted",
+   "entries": [
+    {
+     "name": "Doom-Flayers",
+     "points": "35pts per model",
+     "repeat_cost": "+10pts from the 3rd copy"
+    }
+   ]
+  },
+  {
+   "group": "Beast",
+   "entries": [
+    {
+     "name": "Rat Ogors",
+     "points": "130pts / 260pts",
+     "repeat_cost": "+15pts from the 3rd copy"
+    },
+    {
+     "name": "Vermadillos",
+     "points": "100pts / 200pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Stormfiends",
+     "points": "225pts / 450pts",
+     "repeat_cost": "+25pts from the 3rd copy"
+    },
+    {
+     "name": "Mutant Rat Ogor",
+     "points": "155pts",
+     "repeat_cost": "+15pts from the 3rd copy"
+    },
+    {
+     "name": "Wolf Rats",
+     "points": "80pts / 150pts",
+     "repeat_cost": "+5pts from the 3rd copy"
+    },
+    {
+     "name": "Brood Horror",
+     "points": "230pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Rat Packs",
+     "points": "55pts / 95pts / 135pts",
+     "repeat_cost": "+5pts from the 3rd copy"
+    }
+   ]
+  },
+  {
+   "group": "Monsters",
+   "entries": [
+    {
+     "name": "Hell Pit Abomination",
+     "points": "375pts",
+     "repeat_cost": "+25pts from the 2nd copy"
+    },
+    {
+     "name": "Verminwyrm",
+     "points": "390pts",
+     "repeat_cost": "+30pts from the 2nd copy"
+    },
+    {
+     "name": "Brood Terror",
+     "points": "300pts",
+     "repeat_cost": "+25pts from the 3rd copy"
+    }
+   ]
+  },
+  {
+   "group": "Vehicles",
+   "entries": [
+    {
+     "name": "Doomwheel",
+     "points": "200pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Eshin Nightstrider",
+     "points": "100pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Warp Lightning Cannon",
+     "points": "150pts",
+     "repeat_cost": "+15pts from the 3rd copy"
+    },
+    {
+     "name": "Plagueclaw Catapult",
+     "points": "150pts",
+     "repeat_cost": "+15pts from the 3rd copy"
+    },
+    {
+     "name": "Ratling Warpblaster",
+     "points": "210pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Warp-Doom Magma Cannon",
+     "points": "200pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Cauldron of a Thousand Poxes",
+     "points": "250pts",
+     "repeat_cost": "+25pts from the 3rd copy"
+    },
+    {
+     "name": "Warpclaw Battle Tank",
+     "points": "200pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Doomgrinder Siege Tank",
+     "points": "300pts",
+     "repeat_cost": "+30pts from the 2nd copy"
+    },
+    {
+     "name": "Warpstone Harvester",
+     "points": "190pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Vermindoom Land-Fortress",
+     "points": "500pts + Clan Flagship",
+     "repeat_cost": "+50pts from the 2nd copy"
+    }
+   ]
+  },
+  {
+   "group": "Dedicated Transport",
+   "entries": [
+    {
+     "name": "Gnawdrill Excavator",
+     "points": "125pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    }
+   ]
+  },
+  {
+   "group": "Options",
+   "entries": [
+    {
+     "name": "Vermindoom Clan Flagship: Unclaimed",
+     "points": "+0pts",
+     "repeat_cost": "–"
+    },
+    {
+     "name": "Vermindoom Clan Flagship: Verminus War-Flagship",
+     "points": "+60pts",
+     "repeat_cost": "–"
+    },
+    {
+     "name": "Vermindoom Clan Flagship: Moulder Flesh-Flagship",
+     "points": "+40pts",
+     "repeat_cost": "–"
+    },
+    {
+     "name": "Vermindoom Clan Flagship: Masterclan Bell-Flagship",
+     "points": "+40pts",
+     "repeat_cost": "–"
+    },
+    {
+     "name": "Vermindoom Clan Flagship: Pestilens Plague-Flagship",
+     "points": "+50pts",
+     "repeat_cost": "–"
+    },
+    {
+     "name": "Vermindoom Clan Flagship: Skryre Arsenal-Flagship",
+     "points": "+60pts",
+     "repeat_cost": "–"
+    }
+   ]
+  }
+ ],
+ "notes": "Skavenslaves: 20 / 30 / 40 models. Clanrats: 1 Clawleader + 9 Clanrats / 2 Clawleaders + 18 Clanrats; each Weapon Team model costs its datasheet's per-model price (Poison Wind Globadier: 12pts). Two values = smaller / larger unit; three values = 1 / 2 / 3 Rat Pack bases.",
+ "copy_limits": "Non-Battleline datasheets: max 3 copies. Battleline: max 6 copies. Epic Heroes: max 1."
+}
