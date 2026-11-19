@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 14,
+    "revision": 15,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -527,6 +527,29 @@
                     "hidden": false
                   }
                 ],
+                "infoLinks": [
+                  {
+                    "id": "121c-50db-8d9d-6e54",
+                    "name": "The Under-Empire",
+                    "targetId": "37e5-8e7a-0c43-a435",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "ce30-c2a5-0d6e-5308",
+                    "name": "Warpstone Backlash",
+                    "targetId": "770e-a39d-7aa8-8f21",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "b5b9-6050-5398-ea2e",
+                    "name": "Sacrifice",
+                    "targetId": "66e9-9fe6-1bed-ba90",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ],
                 "modifiers": [
                   {
                     "type": "set",
@@ -654,22 +677,40 @@
                 ],
                 "rules": [
                   {
-                    "name": "The Flesh Laboratory",
-                    "id": "f1d2-75b7-5c82-6f1e",
+                    "name": "Make-Make New Ones!",
+                    "id": "a52b-482f-1de1-9286",
                     "hidden": false,
-                    "description": "\n\n### Make-Make New Ones!\n\nYour They Just Keep Coming! Vermin Ability can also target destroyed non-CHARACTER MOULDER BEAST units. When a new MOULDER BEAST unit is created this way, you can Flesh-Sculpt it before placing it in the Under-Empire. That new unit gains the MUTATED keyword.\n\n### Monstrous Creations\n\nYour They Just Keep Coming! Vermin Ability can also target destroyed non-CHARACTER MOULDER MONSTER units. When it does, roll the Vermin cost normally (adding any surcharge first), then double the final rolled cost. If Thirteen for the Horned Rat is used instead, Sacrifice exactly 26 eligible friendly SKAVEN models instead of 13. Flesh-Sculpting costs must still be paid using Vermin. The created MONSTER can be placed in and emerge from the Under-Empire despite being a MONSTER. This exception applies only to the unit created by They Just Keep Coming! and does not otherwise allow that MONSTER to enter the Under-Empire.\n\n### Remade Clanrats\n\nWhen They Just Keep Coming! creates a new CLANRATS unit, you can Flesh-Sculpt that unit before placing it in the Under-Empire. That unit gains the MOULDER and MUTATED keywords, can receive a maximum of one Flesh-Sculpting alteration, and cannot select Bloated Mass or Withered Frame.\n\n### Flesh-Sculpting\n\nWhen Make-Make New Ones! creates an eligible unit, select Flesh-Sculpting alterations for it. MOULDER BEAST or MOULDER MONSTER units can receive a maximum of 3 alterations; CLANRATS can receive a maximum of 1. Each characteristic can only be altered once.\n\n### Moulder Character Ability\n\n*Every MOULDER CHARACTER model from your army has this ability.*\n\n**Fresh Meat-Meat!:** At the end of your Command phase, select one friendly MOULDER BEAST, MOULDER MONSTER or CLANRATS unit within 6\" of this model, then select one other friendly SKAVEN INFANTRY unit within 3\" of this model. You can Sacrifice up to 3 models from that SKAVEN INFANTRY unit. If the first selected unit is a CLANRATS unit, for each model Sacrificed, return one destroyed Clanrat model to that unit, not exceeding its Starting Strength. Otherwise, for each model Sacrificed, one model in the first selected unit regains 1 lost wound. Each eligible unit can only be selected as the first selected unit for this ability once per phase."
+                    "description": "\n\nYour They Just Keep Coming! Vermin Ability can also target destroyed non-CHARACTER MOULDER BEAST units. When a new MOULDER BEAST unit is created this way, you can Flesh-Sculpt it before placing it in the Under-Empire. That new unit gains the MUTATED keyword."
+                  },
+                  {
+                    "name": "Monstrous Creations",
+                    "id": "f862-ffce-ae60-639d",
+                    "hidden": false,
+                    "description": "\n\nYour They Just Keep Coming! Vermin Ability can also target destroyed non-CHARACTER MOULDER MONSTER units. When it does, roll the Vermin cost normally (adding any surcharge first), then double the final rolled cost. If Thirteen for the Horned Rat is used instead, Sacrifice exactly 26 eligible friendly SKAVEN models instead of 13. Flesh-Sculpting costs must still be paid using Vermin. The created MONSTER can be placed in and emerge from the Under-Empire despite being a MONSTER. This exception applies only to the unit created by They Just Keep Coming! and does not otherwise allow that MONSTER to enter the Under-Empire."
+                  },
+                  {
+                    "name": "Remade Clanrats",
+                    "id": "1fa9-2472-3dc0-cfd6",
+                    "hidden": false,
+                    "description": "\n\nWhen They Just Keep Coming! creates a new CLANRATS unit, you can Flesh-Sculpt that unit before placing it in the Under-Empire. That unit gains the MOULDER and MUTATED keywords, can receive a maximum of one Flesh-Sculpting alteration, and cannot select Bloated Mass or Withered Frame."
+                  },
+                  {
+                    "name": "Flesh-Sculpting",
+                    "id": "27e8-0786-2588-4af0",
+                    "hidden": false,
+                    "description": "\n\nWhen Make-Make New Ones! creates an eligible unit, select Flesh-Sculpting alterations for it. MOULDER BEAST or MOULDER MONSTER units can receive a maximum of 3 alterations; CLANRATS can receive a maximum of 1. Each characteristic can only be altered once."
+                  },
+                  {
+                    "name": "Moulder Character Ability",
+                    "id": "9992-76be-900f-99c1",
+                    "hidden": false,
+                    "description": "\n\n*Every MOULDER CHARACTER model from your army has this ability.*\n\n**Fresh Meat-Meat!:** At the end of your Command phase, select one friendly MOULDER BEAST, MOULDER MONSTER or CLANRATS unit within 6\" of this model, then select one other friendly SKAVEN INFANTRY unit within 3\" of this model. You can Sacrifice up to 3 models from that SKAVEN INFANTRY unit. If the first selected unit is a CLANRATS unit, for each model Sacrificed, return one destroyed Clanrat model to that unit, not exceeding its Starting Strength. Otherwise, for each model Sacrificed, one model in the first selected unit regains 1 lost wound. Each eligible unit can only be selected as the first selected unit for this ability once per phase."
                   },
                   {
                     "name": "The Master Moulder's Ledger",
                     "id": "17e4-189b-1503-957e",
                     "hidden": false,
-                    "description": "\n\n*Each alteration changes one characteristic of the Flesh-Sculpted unit. Positive costs must be paid in Vermin; negative costs reduce the total.*\n\n| DESIRED GROWTH | EFFECT | VERMIN |\n|---|---|---|\n| Lengthened Legs | Add 2\" to Move. | +1 |\n| Thickened Hide | Add 1 to Toughness. | +2 |\n| Chitinous Plates | Improve Save by 1. | +2 |\n| Bloated Mass | Add 1 to Wounds. | +1 |\n| Grasping Limbs | Add 1 to Objective Control. | +1 |\n\n| RUINOUS DEFECT | EFFECT | VERMIN |\n|---|---|---|\n| Stunted Legs | Subtract 2\" from Move. | -1 |\n| Soft Flesh | Subtract 1 from Toughness. | -2 |\n| Exposed Organs | Worsen Save by 1. | -2 |\n| Withered Frame | Subtract 1 from Wounds. | -1 |\n| Uncontrollable | Subtract 1 from Objective Control. | -1 |"
-                  },
-                  {
-                    "name": "The Master Moulder's Ledger - Continued",
-                    "id": "9393-351e-7041-2c39",
-                    "hidden": false,
-                    "description": "\n\n| DESIRED GROWTH | EFFECT | VERMIN |\n|---|---|---|\n| Predatory Reflexes | Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1. | +2 |\n| Overgrown Musculature | Add 1 to the Strength characteristic of melee weapons equipped by models in this unit. | +1 |\n| Too Many Limbs | Add 1 to the Attacks characteristic of melee weapons equipped by models in this unit. Weapons with [EXTRA ATTACKS] are not affected. | +2 |\n\n| RUINOUS DEFECT | EFFECT | VERMIN |\n|---|---|---|\n| Sluggish Reflexes | Worsen the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1. | -2 |\n| Atrophied Musculature | Subtract 1 from the Strength characteristic of melee weapons equipped by models in this unit. | -1 |\n| Missing Limbs | Subtract 1 from the Attacks characteristic of melee weapons equipped by models in this unit, to a minimum of 1. Weapons with [EXTRA ATTACKS] are not affected. | -2 |\n\n### Cost & Limits\n\nAfter selecting alterations, total their Vermin modifiers. If the total is positive, spend that many additional Vermin. If the total is 0 or less, no additional Vermin are spent. Flesh-Sculpting can never generate Vermin. Flesh-Sculpting costs cannot be paid using Thirteen for the Horned Rat. Move, Toughness, Wounds and Objective Control cannot be reduced below 1. Save cannot be improved beyond 3+. Melee Weapon Skill cannot be improved beyond 3+. Melee Attacks cannot be reduced below 1.\n\n### Mutated - Unstable Mutation\n\nA unit created using Make-Make New Ones! gains the MUTATED keyword and this ability. This unit has Deadly Demise D6. If it already had a Deadly Demise ability, replace it with Deadly Demise D6. Each time this unit's Deadly Demise ability activates, after resolving that ability, gain D6 Vermin."
+                    "description": "\n\n*Each alteration changes one characteristic of the Flesh-Sculpted unit. Positive costs must be paid in Vermin; negative costs reduce the total.*\n\n| DESIRED GROWTH | EFFECT | VERMIN |\n|---|---|---|\n| Lengthened Legs | Add 2\" to Move. | +1 |\n| Thickened Hide | Add 1 to Toughness. | +2 |\n| Chitinous Plates | Improve Save by 1. | +2 |\n| Bloated Mass | Add 1 to Wounds. | +1 |\n| Grasping Limbs | Add 1 to Objective Control. | +1 |\n\n| RUINOUS DEFECT | EFFECT | VERMIN |\n|---|---|---|\n| Stunted Legs | Subtract 2\" from Move. | -1 |\n| Soft Flesh | Subtract 1 from Toughness. | -2 |\n| Exposed Organs | Worsen Save by 1. | -2 |\n| Withered Frame | Subtract 1 from Wounds. | -1 |\n| Uncontrollable | Subtract 1 from Objective Control. | -1 |\n\n| DESIRED GROWTH | EFFECT | VERMIN |\n|---|---|---|\n| Predatory Reflexes | Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1. | +2 |\n| Overgrown Musculature | Add 1 to the Strength characteristic of melee weapons equipped by models in this unit. | +1 |\n| Too Many Limbs | Add 1 to the Attacks characteristic of melee weapons equipped by models in this unit. Weapons with [EXTRA ATTACKS] are not affected. | +2 |\n\n| RUINOUS DEFECT | EFFECT | VERMIN |\n|---|---|---|\n| Sluggish Reflexes | Worsen the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1. | -2 |\n| Atrophied Musculature | Subtract 1 from the Strength characteristic of melee weapons equipped by models in this unit. | -1 |\n| Missing Limbs | Subtract 1 from the Attacks characteristic of melee weapons equipped by models in this unit, to a minimum of 1. Weapons with [EXTRA ATTACKS] are not affected. | -2 |\n\n### Cost & Limits\n\nAfter selecting alterations, total their Vermin modifiers. If the total is positive, spend that many additional Vermin. If the total is 0 or less, no additional Vermin are spent. Flesh-Sculpting can never generate Vermin. Flesh-Sculpting costs cannot be paid using Thirteen for the Horned Rat. Move, Toughness, Wounds and Objective Control cannot be reduced below 1. Save cannot be improved beyond 3+. Melee Weapon Skill cannot be improved beyond 3+. Melee Attacks cannot be reduced below 1.\n\n### Mutated - Unstable Mutation\n\nA unit created using Make-Make New Ones! gains the MUTATED keyword and this ability. This unit has Deadly Demise D6. If it already had a Deadly Demise ability, replace it with Deadly Demise D6. Each time this unit's Deadly Demise ability activates, after resolving that ability, gain D6 Vermin."
                   }
                 ],
                 "categoryLinks": [
@@ -699,6 +740,29 @@
                     "id": "f410-fd3c-f305-a4ae",
                     "targetId": "ba57-8a86-675f-7040",
                     "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "b581-ee42-66f9-1b61",
+                    "name": "The Vermintide",
+                    "targetId": "7967-91d5-e37a-4fb4",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "6982-78ef-dc3d-9621",
+                    "name": "The Under-Empire",
+                    "targetId": "37e5-8e7a-0c43-a435",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "0f7b-e0fe-e59d-2355",
+                    "name": "Sacrifice",
+                    "targetId": "66e9-9fe6-1bed-ba90",
+                    "type": "rule",
                     "hidden": false
                   }
                 ],
@@ -825,6 +889,22 @@
                     "hidden": false
                   }
                 ],
+                "infoLinks": [
+                  {
+                    "id": "4515-4e7a-62e8-9987",
+                    "name": "The Vermintide",
+                    "targetId": "7967-91d5-e37a-4fb4",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "3e6f-abe9-8b7a-2e53",
+                    "name": "The Under-Empire",
+                    "targetId": "37e5-8e7a-0c43-a435",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ],
                 "modifiers": [
                   {
                     "type": "set",
@@ -920,10 +1000,34 @@
                 ],
                 "rules": [
                   {
-                    "name": "The Great Plague Cauldron",
-                    "id": "0d58-9871-f9eb-9729",
+                    "name": "Brewing the Plague",
+                    "id": "75ad-bd0a-6921-f50c",
                     "hidden": false,
-                    "description": "\n\n### Brewing the Plague\n\nAt the start of your Command phase, you can brew one Plague. Select one Plague from the Plague Catalogue and pay its listed Vermin cost. Until the start of your next Command phase, that Plague is active and modifies the Pestilence auras of friendly PESTILENS units. You cannot brew the same Plague in consecutive battle rounds.\n\n### Spread-Spread the Plague!\n\nEach time an enemy unit is selected as the target of one or more attacks made by a PESTILENS unit, after the attacking unit has finished making those attacks, if that enemy unit lost one or more wounds as a result, roll one D6. On a 4+, that enemy unit becomes INFECTED until the start of your next Command phase. Each enemy unit can only be tested for Infection once per phase.\n\n### Infected\n\nAn INFECTED unit is treated as though it were within range of a friendly Pestilence aura for the purposes of the currently brewed Plague, regardless of its actual distance from friendly PESTILENS units. Being INFECTED does not by itself apply the normal Pestilence ability unless another rule states otherwise.\n\n### Virulent Proximity\n\nAt the start of each Fight phase, roll one D6 for each enemy unit within range of one or more friendly Pestilence auras. On a 4+, that enemy unit suffers D3 mortal wounds. A unit can only be affected by Virulent Proximity once per Fight phase.\n\n### Filth-Filth Carriers\n\nAt the start of the first battle round, before any Scout moves are made, select up to 3 CLANRATS units from your army. Those units gain the PESTILENS keyword and the following ability until the end of the battle.\n\n**Plague Carrier:** This unit has a 3\" Pestilence aura. That aura carries the currently brewed Plague, but this unit does not gain the normal Pestilence ability. For the purposes of the currently brewed Plague and Virulent Proximity, this unit is also treated as though it were an enemy unit within range of a friendly Pestilence aura."
+                    "description": "\n\nAt the start of your Command phase, you can brew one Plague. Select one Plague from the Plague Catalogue and pay its listed Vermin cost. Until the start of your next Command phase, that Plague is active and modifies the Pestilence auras of friendly PESTILENS units. You cannot brew the same Plague in consecutive battle rounds."
+                  },
+                  {
+                    "name": "Spread-Spread the Plague!",
+                    "id": "2893-60a7-1c07-5c10",
+                    "hidden": false,
+                    "description": "\n\nEach time an enemy unit is selected as the target of one or more attacks made by a PESTILENS unit, after the attacking unit has finished making those attacks, if that enemy unit lost one or more wounds as a result, roll one D6. On a 4+, that enemy unit becomes INFECTED until the start of your next Command phase. Each enemy unit can only be tested for Infection once per phase."
+                  },
+                  {
+                    "name": "Infected",
+                    "id": "aa84-4047-9dcb-dfd5",
+                    "hidden": false,
+                    "description": "\n\nAn INFECTED unit is treated as though it were within range of a friendly Pestilence aura for the purposes of the currently brewed Plague, regardless of its actual distance from friendly PESTILENS units. Being INFECTED does not by itself apply the normal Pestilence ability unless another rule states otherwise."
+                  },
+                  {
+                    "name": "Virulent Proximity",
+                    "id": "52ea-6a9a-4e57-f01f",
+                    "hidden": false,
+                    "description": "\n\nAt the start of each Fight phase, roll one D6 for each enemy unit within range of one or more friendly Pestilence auras. On a 4+, that enemy unit suffers D3 mortal wounds. A unit can only be affected by Virulent Proximity once per Fight phase."
+                  },
+                  {
+                    "name": "Filth-Filth Carriers",
+                    "id": "b89e-f55d-9609-93e9",
+                    "hidden": false,
+                    "description": "\n\nAt the start of the first battle round, before any Scout moves are made, select up to 3 CLANRATS units from your army. Those units gain the PESTILENS keyword and the following ability until the end of the battle.\n\n**Plague Carrier:** This unit has a 3\" Pestilence aura. That aura carries the currently brewed Plague, but this unit does not gain the normal Pestilence ability. For the purposes of the currently brewed Plague and Virulent Proximity, this unit is also treated as though it were an enemy unit within range of a friendly Pestilence aura."
                   },
                   {
                     "name": "The Plague Catalogue",
@@ -959,6 +1063,22 @@
                     "id": "afa9-b7bb-1336-8c64",
                     "targetId": "ba57-8a86-675f-7040",
                     "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "6f73-3f44-7f60-154b",
+                    "name": "The Vermintide",
+                    "targetId": "7967-91d5-e37a-4fb4",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "758c-d4a4-ed0f-a6d0",
+                    "name": "Sacrifice",
+                    "targetId": "66e9-9fe6-1bed-ba90",
+                    "type": "rule",
                     "hidden": false
                   }
                 ],
@@ -1057,10 +1177,22 @@
                 ],
                 "rules": [
                   {
-                    "name": "The Clawpack",
-                    "id": "4979-6e94-3cad-e6a0",
+                    "name": "Clawpacks",
+                    "id": "9434-62f3-34e5-64f7",
                     "hidden": false,
-                    "description": "\n\n### Clawpacks\n\nDuring the Declare Battle Formations step, you can organize eligible units into Clawpacks. Each Clawpack consists of one VERMINUS CHARACTER unit and up to 3 CLANRATS and/or STORMVERMIN units. Each unit can belong to only one Clawpack. A CHARACTER does not need to Lead a unit in its Clawpack.\n\n### Under Command\n\nWhile a CLANRATS or STORMVERMIN unit is within 8\" of its Clawpack's CHARACTER unit, that unit is UNDER COMMAND.\n\n### Yes-Yes, Warlord!\n\nAt the start of your Command phase, each VERMINUS CHARACTER commanding a Clawpack can issue one Warlord Command to one UNDER COMMAND unit from its Clawpack. That Command lasts until the start of your next Command phase. A unit can normally only be affected by one Warlord Command at a time."
+                    "description": "\n\nDuring the Declare Battle Formations step, you can organize eligible units into Clawpacks. Each Clawpack consists of one VERMINUS CHARACTER unit and up to 3 CLANRATS and/or STORMVERMIN units. Each unit can belong to only one Clawpack. A CHARACTER does not need to Lead a unit in its Clawpack."
+                  },
+                  {
+                    "name": "Under Command",
+                    "id": "533a-e2b9-b0e7-c2ee",
+                    "hidden": false,
+                    "description": "\n\nWhile a CLANRATS or STORMVERMIN unit is within 8\" of its Clawpack's CHARACTER unit, that unit is UNDER COMMAND."
+                  },
+                  {
+                    "name": "Yes-Yes, Warlord!",
+                    "id": "7497-8adf-c1ba-3f95",
+                    "hidden": false,
+                    "description": "\n\nAt the start of your Command phase, each VERMINUS CHARACTER commanding a Clawpack can issue one Warlord Command to one UNDER COMMAND unit from its Clawpack. That Command lasts until the start of your next Command phase. A unit can normally only be affected by one Warlord Command at a time."
                   },
                   {
                     "name": "Warlord Commands",
@@ -1088,6 +1220,22 @@
                     "id": "7db9-ad48-c074-c0a2",
                     "targetId": "ba57-8a86-675f-7040",
                     "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "f9f3-65c9-14d4-4bc2",
+                    "name": "The Vermintide",
+                    "targetId": "7967-91d5-e37a-4fb4",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "6adc-1c5b-32a8-c7d5",
+                    "name": "Sacrifice",
+                    "targetId": "66e9-9fe6-1bed-ba90",
+                    "type": "rule",
                     "hidden": false
                   }
                 ],
@@ -1186,10 +1334,28 @@
                 ],
                 "rules": [
                   {
-                    "name": "Invasion from Below",
-                    "id": "0b4c-110d-1b69-16c9",
+                    "name": "The First Breach",
+                    "id": "875b-c853-7469-92e9",
                     "hidden": false,
-                    "description": "\n\n### The First Breach\n\nUnits from your army in the Under-Empire can emerge during the first battle round, even if the mission does not allow Strategic Reserves to arrive then. Each must still make its Passage roll and follow the normal rules for emerging.\n\n### Endless Passages\n\nOnce per turn, you can re-roll one Passage roll.\n\n### Surging from Below\n\nEach time a unit from your army emerges, until the end of the turn: add 1 to the Hit roll for ranged attacks made by models in that unit; melee weapons equipped by models in that unit have [LANCE]; and that unit counts as having Remained Stationary.\n\n### Masters of the Under-Empire\n\n**Muster Below:** When you declare battle formations, any number of SKAVEN units from your army that could be placed into Strategic Reserves can be placed into the Under-Empire, ignoring the normal limits on the number of units and points that can start the battle in Strategic Reserves.\n\n**No Reserve Deadline:** Units in the Under-Empire are not destroyed for failing to arrive by the end of the third battle round. They can remain below until the battle ends."
+                    "description": "\n\nUnits from your army in the Under-Empire can emerge during the first battle round, even if the mission does not allow Strategic Reserves to arrive then. Each must still make its Passage roll and follow the normal rules for emerging."
+                  },
+                  {
+                    "name": "Endless Passages",
+                    "id": "b198-e01d-9e2f-737e",
+                    "hidden": false,
+                    "description": "\n\nOnce per turn, you can re-roll one Passage roll."
+                  },
+                  {
+                    "name": "Surging from Below",
+                    "id": "05bb-cf20-21e0-734a",
+                    "hidden": false,
+                    "description": "\n\nEach time a unit from your army emerges, until the end of the turn: add 1 to the Hit roll for ranged attacks made by models in that unit; melee weapons equipped by models in that unit have [LANCE]; and that unit counts as having Remained Stationary."
+                  },
+                  {
+                    "name": "Masters of the Under-Empire",
+                    "id": "29aa-79d4-7478-4de7",
+                    "hidden": false,
+                    "description": "\n\n**Muster Below:** When you declare battle formations, any number of SKAVEN units from your army that could be placed into Strategic Reserves can be placed into the Under-Empire, ignoring the normal limits on the number of units and points that can start the battle in Strategic Reserves.\n\n**No Reserve Deadline:** Units in the Under-Empire are not destroyed for failing to arrive by the end of the third battle round. They can remain below until the battle ends."
                   }
                 ],
                 "categoryLinks": [
@@ -1212,6 +1378,29 @@
                     "id": "086d-f320-1c73-64e2",
                     "targetId": "ecf8-cf72-7d5b-1b5b",
                     "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "3f4b-d93f-b0ec-c38d",
+                    "name": "The Vermintide",
+                    "targetId": "7967-91d5-e37a-4fb4",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "c4e5-5fab-080c-d016",
+                    "name": "The Under-Empire",
+                    "targetId": "37e5-8e7a-0c43-a435",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "80e8-74f1-f57f-8062",
+                    "name": "Warpstone Backlash",
+                    "targetId": "770e-a39d-7aa8-8f21",
+                    "type": "rule",
                     "hidden": false
                   }
                 ]
@@ -1242,16 +1431,16 @@
                 ],
                 "rules": [
                   {
-                    "name": "The Thirteenth Peal",
-                    "id": "357f-b581-1e7b-d78b",
+                    "name": "Daemonic Conduits",
+                    "id": "b7ff-a942-cb23-fdb7",
                     "hidden": false,
-                    "description": "\n\n### Daemonic Conduits\n\nEach time a friendly SKAVEN non-DAEMON PSYKER uses a spell, before making the psychic roll, it can select one visible friendly SKAVEN DAEMON unit within 13\" as its conduit. If it does:\n\n- Measure that spell's range and visibility from either the PSYKER or the conduit.\n- If that psychic roll has an unmodified 1, the PSYKER's unit does not become battle-shocked, does not resolve Cornered Rats and does not suffer mortal wounds. Instead, the conduit suffers D3 mortal wounds, or D6 mortal wounds if the spell was Overcast.\n\nEach SKAVEN DAEMON unit can be selected as a conduit once per turn.\n\n| CASTER | CONDUIT | BENEFIT |\n|---|---|---|\n| SKAVEN non-DAEMON PSYKER | SKAVEN DAEMON within 13\" | Range and visibility from either point; the conduit takes the backlash |"
+                    "description": "\n\nEach time a friendly SKAVEN non-DAEMON PSYKER uses a spell, before making the psychic roll, it can select one visible friendly SKAVEN DAEMON unit within 13\" as its conduit. If it does:\n\n- Measure that spell's range and visibility from either the PSYKER or the conduit.\n- If that psychic roll has an unmodified 1, the PSYKER's unit does not become battle-shocked, does not resolve Cornered Rats and does not suffer mortal wounds. Instead, the conduit suffers D3 mortal wounds, or D6 mortal wounds if the spell was Overcast.\n\nEach SKAVEN DAEMON unit can be selected as a conduit once per turn.\n\n| CASTER | CONDUIT | BENEFIT |\n|---|---|---|\n| SKAVEN non-DAEMON PSYKER | SKAVEN DAEMON within 13\" | Range and visibility from either point; the conduit takes the backlash |"
                   },
                   {
                     "name": "The Thirteenth Toll",
                     "id": "1995-2de9-71b5-7162",
                     "hidden": false,
-                    "description": "\n\n### The Thirteenth Toll\n\nEach time a spell used through a Daemonic Conduit is Overcast and both dice show the same result (other than a double 1), until your next Command phase, add 1 to Hit rolls made for that conduit."
+                    "description": "\n\nEach time a spell used through a Daemonic Conduit is Overcast and both dice show the same result (other than a double 1), until your next Command phase, add 1 to Hit rolls made for that conduit."
                   }
                 ],
                 "categoryLinks": [
@@ -1260,6 +1449,29 @@
                     "id": "eca8-cf97-e051-c759",
                     "targetId": "0936-9767-1cc7-52ae",
                     "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "7d5c-39de-c269-ef86",
+                    "name": "Scurry Away!",
+                    "targetId": "044a-be72-a29a-fefb",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "8ce1-69c3-5878-3b9b",
+                    "name": "Sacrifice",
+                    "targetId": "66e9-9fe6-1bed-ba90",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "5e29-c7ba-2612-bf0c",
+                    "name": "Verminous Psychic Power",
+                    "targetId": "23f2-243b-eb88-3e2c",
+                    "type": "rule",
                     "hidden": false
                   }
                 ]
@@ -1290,10 +1502,40 @@
                 ],
                 "rules": [
                   {
-                    "name": "Plunder and Profit",
-                    "id": "73a1-3a35-a612-d24c",
+                    "name": "Keeping Plunder",
+                    "id": "ab6b-4957-bfc9-acbe",
                     "hidden": false,
-                    "description": "\n\n### Keeping Plunder\n\nEach SKURVY unit begins the battle with 0 Plunder. Record each unit's Plunder separately. When a unit is destroyed, its Plunder is lost.\n\n### Spoils of Battle\n\nEach time a SKURVY unit from your army destroys an enemy unit, it gains 1 Plunder.\n\n### Plundering Objectives\n\nIn your Movement phase, just after a SKURVY unit from your army ends a normal move, if it is not battle-shocked, it can Plunder one objective within range that has not been Plundered by your army this turn. If it does, that unit gains 3 Plunder and cannot declare a charge this turn.\n\n### Spending Plunder\n\nAt the end of your Command phase, each SKURVY unit from your army that is on the battlefield and is not battle-shocked can purchase one option from the Plunder Ledger. Spend the listed amount of that unit's Plunder. Unless otherwise stated, that option lasts until the start of your next Command phase. A unit can have no more than two different Plunder options active at the same time.\n\n### Black-Flag Clanrats\n\nCLANRATS units from your army gain the SKURVY keyword and the following ability.\n\n**Claim-Claim the Prize!:** At the end of your Movement phase, if this unit is within range of an objective you control, that objective remains under your control until your opponent's Level of Control over it is greater than yours at the end of a phase.\n\n### Black-Flag Mercenaries\n\nWhen mustering your army, you can include units from Index: Black-Flag. Their combined points value cannot exceed half of your army's points limit. Each unit included this way gains the SKURVY keyword."
+                    "description": "\n\nEach SKURVY unit begins the battle with 0 Plunder. Record each unit's Plunder separately. When a unit is destroyed, its Plunder is lost."
+                  },
+                  {
+                    "name": "Spoils of Battle",
+                    "id": "bc11-f066-6a6e-a1ab",
+                    "hidden": false,
+                    "description": "\n\nEach time a SKURVY unit from your army destroys an enemy unit, it gains 1 Plunder."
+                  },
+                  {
+                    "name": "Plundering Objectives",
+                    "id": "b7e6-1e4f-e71a-98e6",
+                    "hidden": false,
+                    "description": "\n\nIn your Movement phase, just after a SKURVY unit from your army ends a normal move, if it is not battle-shocked, it can Plunder one objective within range that has not been Plundered by your army this turn. If it does, that unit gains 3 Plunder and cannot declare a charge this turn."
+                  },
+                  {
+                    "name": "Spending Plunder",
+                    "id": "1f3f-317a-5838-f6b6",
+                    "hidden": false,
+                    "description": "\n\nAt the end of your Command phase, each SKURVY unit from your army that is on the battlefield and is not battle-shocked can purchase one option from the Plunder Ledger. Spend the listed amount of that unit's Plunder. Unless otherwise stated, that option lasts until the start of your next Command phase. A unit can have no more than two different Plunder options active at the same time."
+                  },
+                  {
+                    "name": "Black-Flag Clanrats",
+                    "id": "c530-92bb-2610-a488",
+                    "hidden": false,
+                    "description": "\n\nCLANRATS units from your army gain the SKURVY keyword and the following ability.\n\n**Claim-Claim the Prize!:** At the end of your Movement phase, if this unit is within range of an objective you control, that objective remains under your control until your opponent's Level of Control over it is greater than yours at the end of a phase."
+                  },
+                  {
+                    "name": "Black-Flag Mercenaries",
+                    "id": "4ea0-4ae7-a1d8-b840",
+                    "hidden": false,
+                    "description": "\n\nWhen mustering your army, you can include units from Index: Black-Flag. Their combined points value cannot exceed half of your army's points limit. Each unit included this way gains the SKURVY keyword."
                   },
                   {
                     "name": "The Plunder Ledger",
@@ -1315,6 +1557,15 @@
                     "id": "4cf5-e3e8-882a-9749",
                     "targetId": "ba57-8a86-675f-7040",
                     "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "65ad-aa80-7db1-fb93",
+                    "name": "Warpstone",
+                    "targetId": "7a1a-acc6-a2c5-a984",
+                    "type": "rule",
                     "hidden": false
                   }
                 ],
@@ -1435,6 +1686,15 @@
                     "hidden": false
                   }
                 ],
+                "infoLinks": [
+                  {
+                    "id": "6e4f-29aa-449f-5069",
+                    "name": "Sacrifice",
+                    "targetId": "66e9-9fe6-1bed-ba90",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ],
                 "modifiers": [
                   {
                     "type": "set",
@@ -1533,7 +1793,31 @@
                     "name": "The Horned Rat Whispers",
                     "id": "6dba-a189-ca2d-70f3",
                     "hidden": false,
-                    "description": "\n\n| GENERATE | USE | COST |\n|---|---|---|\n| 6D6 per battle round | Replace 1 die of an eligible roll | D3 mortal wounds to the Grey Seer's unit |\n\n### Prophecy Dice\n\nAt the start of each battle round, roll 6D6 and set them aside. These are your Prophecy dice for that battle round. At the end of the battle round, discard all unused Prophecy dice.\n\n### Foretell\n\nEach time one of the following rolls is made, after rolling but before resolving it, you can replace one of its dice with one unused Prophecy die. That Prophecy die is expended, and its value is treated as unmodified for all rules purposes.\n\n- A psychic roll made for a friendly GREY SEER model.\n- A battle-shock roll, charge roll or Passage roll made for a friendly SKAVEN unit within 13\" of a friendly GREY SEER model.\n\nAfter that roll has been resolved, that GREY SEER model's unit suffers D3 mortal wounds. For a roll made for another unit, the closest friendly GREY SEER model's unit suffers them.\n\n### Foreseen Glory\n\nIf a Prophecy die showing a 6 replaces the die of a GREY SEER model's psychic roll, and that spell is not being Overcast, also resolve that spell's OVERCAST effect. This is not Overcasting.\n\n### Twist-Twist Fate!\n\nBefore using a Prophecy die, you can spend 1 Vermin. If you do, increase or decrease that Prophecy die by 1, to a minimum of 1 and a maximum of 6. Each Prophecy die can only be modified in this way once."
+                    "description": "\n\n| GENERATE | USE | COST |\n|---|---|---|\n| 6D6 per battle round | Replace 1 die of an eligible roll | D3 mortal wounds to the Grey Seer's unit |"
+                  },
+                  {
+                    "name": "Prophecy Dice",
+                    "id": "5df8-6eeb-93f3-569f",
+                    "hidden": false,
+                    "description": "\n\nAt the start of each battle round, roll 6D6 and set them aside. These are your Prophecy dice for that battle round. At the end of the battle round, discard all unused Prophecy dice."
+                  },
+                  {
+                    "name": "Foretell",
+                    "id": "5752-852a-4231-772c",
+                    "hidden": false,
+                    "description": "\n\nEach time one of the following rolls is made, after rolling but before resolving it, you can replace one of its dice with one unused Prophecy die. That Prophecy die is expended, and its value is treated as unmodified for all rules purposes.\n\n- A psychic roll made for a friendly GREY SEER model.\n- A battle-shock roll, charge roll or Passage roll made for a friendly SKAVEN unit within 13\" of a friendly GREY SEER model.\n\nAfter that roll has been resolved, that GREY SEER model's unit suffers D3 mortal wounds. For a roll made for another unit, the closest friendly GREY SEER model's unit suffers them."
+                  },
+                  {
+                    "name": "Foreseen Glory",
+                    "id": "129e-d6e5-d2a4-e957",
+                    "hidden": false,
+                    "description": "\n\nIf a Prophecy die showing a 6 replaces the die of a GREY SEER model's psychic roll, and that spell is not being Overcast, also resolve that spell's OVERCAST effect. This is not Overcasting."
+                  },
+                  {
+                    "name": "Twist-Twist Fate!",
+                    "id": "ae9f-d372-6a42-b610",
+                    "hidden": false,
+                    "description": "\n\nBefore using a Prophecy die, you can spend 1 Vermin. If you do, increase or decrease that Prophecy die by 1, to a minimum of 1 and a maximum of 6. Each Prophecy die can only be modified in this way once."
                   }
                 ],
                 "categoryLinks": [
@@ -1542,6 +1826,29 @@
                     "id": "7cc8-0cdf-8f55-8ddd",
                     "targetId": "0936-9767-1cc7-52ae",
                     "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "f425-4de1-1385-f494",
+                    "name": "The Vermintide",
+                    "targetId": "7967-91d5-e37a-4fb4",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "40d9-138f-2329-234a",
+                    "name": "Sacrifice",
+                    "targetId": "66e9-9fe6-1bed-ba90",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "b938-881a-e82c-cedc",
+                    "name": "Verminous Psychic Power",
+                    "targetId": "23f2-243b-eb88-3e2c",
+                    "type": "rule",
                     "hidden": false
                   }
                 ]
@@ -1575,7 +1882,13 @@
                     "name": "Drive the Engines Hard",
                     "id": "965c-700f-cba9-3934",
                     "hidden": false,
-                    "description": "\n\nAdd 2 to advance rolls made for friendly SKAVEN VEHICLE units. Friendly SKAVEN VEHICLE units are eligible to shoot in a turn in which they made an advance move.\n\n### Engine Strain\n\nAt the end of your Shooting phase, for each friendly SKAVEN VEHICLE unit that made an advance move this turn and was selected to shoot this phase, roll one D6. On a 1-2, that unit suffers D3 mortal wounds."
+                    "description": "\n\nAdd 2 to advance rolls made for friendly SKAVEN VEHICLE units. Friendly SKAVEN VEHICLE units are eligible to shoot in a turn in which they made an advance move."
+                  },
+                  {
+                    "name": "Engine Strain",
+                    "id": "9a20-ede0-7d9b-dd42",
+                    "hidden": false,
+                    "description": "\n\nAt the end of your Shooting phase, for each friendly SKAVEN VEHICLE unit that made an advance move this turn and was selected to shoot this phase, roll one D6. On a 1-2, that unit suffers D3 mortal wounds."
                   }
                 ],
                 "categoryLinks": [
@@ -1617,7 +1930,19 @@
                     "name": "Clan Allegiance",
                     "id": "7203-e90f-e2c2-a583",
                     "hidden": false,
-                    "description": "\n\nFor the purposes of this Detachment, the following are Clan keywords: VERMINUS, SKRYRE, MOULDER, ESHIN, PESTILENS and SKURVY. If a unit has more than one Clan keyword, when mustering your army select one of those keywords to be that unit's Clan Allegiance for the battle. Otherwise, a unit's Clan Allegiance is its Clan keyword.\n\n### Work-Work Together! for Now...\n\nEach time a friendly unit with a Clan Allegiance is selected to shoot or fight, select one enemy unit as the target of its attacks. If that enemy unit has already lost one or more wounds during that phase as a result of attacks made by a friendly unit with a different Clan Allegiance, add 1 to Hit rolls made by the attacking unit against that enemy unit until the end of the phase. A Clan Allegiance cannot enable this benefit for another unit with the same Clan Allegiance.\n\n### Mine-Mine Was the Plan!\n\nOnce per phase, when a friendly unit destroys an enemy unit while benefiting from Work-Work Together! For Now..., gain 1 Vermin."
+                    "description": "\n\nFor the purposes of this Detachment, the following are Clan keywords: VERMINUS, SKRYRE, MOULDER, ESHIN, PESTILENS and SKURVY. If a unit has more than one Clan keyword, when mustering your army select one of those keywords to be that unit's Clan Allegiance for the battle. Otherwise, a unit's Clan Allegiance is its Clan keyword."
+                  },
+                  {
+                    "name": "Work-Work Together! For Now...",
+                    "id": "afab-df8a-c158-852b",
+                    "hidden": false,
+                    "description": "\n\nEach time a friendly unit with a Clan Allegiance is selected to shoot or fight, select one enemy unit as the target of its attacks. If that enemy unit has already lost one or more wounds during that phase as a result of attacks made by a friendly unit with a different Clan Allegiance, add 1 to Hit rolls made by the attacking unit against that enemy unit until the end of the phase. A Clan Allegiance cannot enable this benefit for another unit with the same Clan Allegiance."
+                  },
+                  {
+                    "name": "Mine-Mine Was the Plan!",
+                    "id": "4e49-f989-996f-39bb",
+                    "hidden": false,
+                    "description": "\n\nOnce per phase, when a friendly unit destroys an enemy unit while benefiting from Work-Work Together! For Now..., gain 1 Vermin."
                   }
                 ],
                 "categoryLinks": [
@@ -1626,6 +1951,22 @@
                     "id": "c3cf-8418-1fb3-cc40",
                     "targetId": "1cc1-f11a-4e8f-1bcc",
                     "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "8781-c14d-04cb-0b90",
+                    "name": "The Vermintide",
+                    "targetId": "7967-91d5-e37a-4fb4",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "8674-cc33-28cd-a6db",
+                    "name": "Sacrifice",
+                    "targetId": "66e9-9fe6-1bed-ba90",
+                    "type": "rule",
                     "hidden": false
                   }
                 ]

@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 14
+REVISION = 15
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -73,7 +73,7 @@ def title(text):
     words = text.split(" ")
     out = []
     for i, word in enumerate(words):
-        if i and word.lower() in SMALL:
+        if i and word.lower() in SMALL and not re.search(r"[!?:.]$", words[i - 1]):
             out.append(word.lower())
             continue
         parts = []
@@ -736,7 +736,7 @@ def build_detachments(b, units):
                    costs=[dict(name="Detachment Points", typeId=DP, value=dp)], rules=[], categoryLinks=[])
         tags = (["3DP Detachment"] if dp == 3 else []) + dispositions + (["Unique: CLAN"] if name in CLAN_UNIQUE else [])
         det["categoryLinks"] = [b.category_link(det["id"], t) for t in tags]
-        for heading, lines in sections(text):
+        for heading, lines in merge_continued(sections(text)):
             if heading is None:
                 continue
             cost_tokens = re.search(r"\[(\d+) TOKENS?\]", heading)
@@ -751,8 +751,8 @@ def build_detachments(b, units):
                     card["cost"] = int(cost_tokens.group(1))
                     projects.append((det, card))
             else:
-                det["rules"].append(dict(name=title(heading), id=nid(det["id"] + ":rule:" + heading),
-                                         hidden=False, description="\n\n" + clean_markdown(lines)))
+                add_detachment_rules(det, heading, lines)
+        link_army_rules(b, det, text)
         group["selectionEntries"].append(det)
 
     # Only one Unique: CLAN detachment per army.
@@ -763,6 +763,62 @@ def build_detachments(b, units):
                                  conditionGroups=[dict(type="or", conditions=others)])]
     skryre = next(d for d in group["selectionEntries"] if d["name"] == "Skryre Worship")
     return detachment_entry, enhancements, stratagems, projects, skryre
+
+
+# Sections whose sub-headings are menu options or procedure steps stay as one rule.
+WHOLE_SECTIONS = {"Secret Schemes", "The Great Workshops", "The Master Moulder's Ledger", "The Hidden Ledger", "The Plague Catalogue",
+                  "Warlord Commands", "Clawpack Benefits", "The Plunder Ledger"}
+ARMY_RULE_PATTERNS = OrderedDict([
+    ("The Vermintide", r"\bVermin\b(?! Abilit)|Vermin Abilit|They Just Keep Coming|More-More Bodies"),
+    ("The Under-Empire", r"Under-Empire|Gnawhole"),
+    ("Scurry Away!", r"Scurry Away|Cornered Rats"),
+    ("Warpstone", r"\[WARPSTONE\]"),
+    ("Warpstone Backlash", r"Warpstone Backlash"),
+    ("Sacrifice", r"\bSacrific"),
+    ("Summoned Vermin", r"Summoned Vermin"),
+    ("Verminous Psychic Power", r"\bspells?\b|Psyker Level|psychic roll|Overcast"),
+])
+
+
+def merge_continued(parts):
+    """Join '<Section> - Continued' back onto its section."""
+    merged = []
+    for heading, lines in parts:
+        base = re.sub(r"\s*[-—]\s*Continued$", "", heading or "")
+        if heading and base != heading and merged and merged[-1][0] == base:
+            merged[-1] = (base, merged[-1][1] + [""] + lines)
+        else:
+            merged.append((heading, lines))
+    return merged
+
+
+def add_detachment_rules(det, heading, lines):
+    """One rule per named ability, as in the Emperor's Children catalogue."""
+    name = title(heading)
+    parts = sections("\n".join(lines), "### ")
+    if name in WHOLE_SECTIONS or len(parts) == 1:
+        det["rules"].append(dict(name=name, id=nid(det["id"] + ":rule:" + name), hidden=False,
+                                 description="\n\n" + clean_markdown(lines)))
+        return
+    for sub, body in parts:
+        text = clean_markdown(body)
+        if not text:
+            continue
+        rule_name = name if sub is None else title(sub)
+        det["rules"].append(dict(name=rule_name, id=nid(det["id"] + ":rule:" + rule_name), hidden=False,
+                                 description="\n\n" + text))
+
+
+def link_army_rules(b, det, text):
+    """Link the army rules a detachment relies on, like Ritual Host -> Summoning Rituals."""
+    links = []
+    for name, pattern in ARMY_RULE_PATTERNS.items():
+        if re.search(pattern, text):
+            rule = b.rules[name]
+            links.append(dict(id=nid(det["id"] + ":link:" + name), name=name, targetId=rule["id"], type="rule",
+                              hidden=False))
+    if links:
+        det["infoLinks"] = links
 
 
 def gated(owner_id, target_id, name, det_id, link_type="selectionEntry"):

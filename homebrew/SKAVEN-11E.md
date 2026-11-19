@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 14 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 15 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 12
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -19,6 +19,10 @@ detachments). The layout follows the Emperor's Children catalogue.
 - Army Rules and References: The Vermintide, The Under-Empire, Scurry Away!,
   Warpstone, Warpstone Backlash, Sacrifice, Summoned Vermin, Verminous Psychic
   Power and the four spell lores.
+- Detachment rules are one rule per named ability, as in the Emperor's Children
+  catalogue; menus and procedures (ledgers, catalogues, Warlord Commands, Clawpack
+  Benefits, Secret Schemes, The Great Workshops) stay whole. Each detachment links
+  the army rules it uses.
 - Detachments carry their DP and Force Dispositions. Only one Unique: CLAN
   detachment can be taken. Stratagem References follows the chosen detachments.
 - Enhancements appear only on eligible units of the chosen detachment. Unit
