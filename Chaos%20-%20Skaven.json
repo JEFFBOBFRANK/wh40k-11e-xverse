@@ -1,13 +1,13 @@
 {
   "catalogue": {
-    "name": "Chaos - 🐀 Skaven",
+    "name": "Chaos - Skaven",
     "id": "9439-bdfb-124d-fa29",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 13,
+    "revision": 14,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",

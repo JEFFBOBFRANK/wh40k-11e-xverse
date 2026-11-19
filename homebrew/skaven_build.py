@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 13
+REVISION = 14
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -975,6 +975,7 @@ def build(source, catalogue_path, system_path):
     new = OrderedDict()
     for key in ("name", "id", "battleScribeVersion", "gameSystemId", "xmlns", "library", "type"):
         new[key] = old[key]
+    new["name"] = "Chaos - Skaven"
     new["revision"] = REVISION
     new["gameSystemRevision"] = b.system["revision"]
     new["authorName"] = "Xverse homebrew"

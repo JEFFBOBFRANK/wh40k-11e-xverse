@@ -39,13 +39,13 @@ Legions of Excess appear only with Carnival of Excess, Perfumed Procession or Ri
 
 ## Skaven 11th edition
 
-The **Chaos - 🐀 Skaven** catalogue is rebuilt from the Skaven 11th-edition homebrew codex: 58 datasheets (including the four Verminlord datasheets), 12 detachments, enhancements, Workshop Projects and stratagems, laid out like the Emperor's Children catalogue. Refresh to Latest Commit (Head) and update your list data. Lists that used the old single Verminlord need that unit added again. See [Skaven notes](homebrew/SKAVEN-11E.md).
+The **Chaos - Skaven** catalogue is rebuilt from the Skaven 11th-edition homebrew codex: 58 datasheets (including the four Verminlord datasheets), 12 detachments, enhancements, Workshop Projects and stratagems, laid out like the Emperor's Children catalogue. Refresh to Latest Commit (Head) and update your list data. Lists that used the old single Verminlord need that unit added again. See [Skaven notes](homebrew/SKAVEN-11E.md).
 
 ## Faction icons
 
 Emperor’s Children and Agents of the Imperium use their standard faction names so New Recruit displays the built-in emblems. Their homebrew versions remain EC v3.1 and Agents v0.9.2, recorded in the catalogue notes. Catalogue identifiers and all rules/selections are preserved.
 
-Skaven uses a rat marker in its name: **🐀 Skaven**. This works with the normal GitHub installation without requiring custom icon settings. It is a text/emoji fallback, not the official Skaven emblem. The repository has no `settings/icons.json`: a custom icon map pointing to images missing from the repository removed New Recruit's built-in icons for every faction.
+The repository has no `settings/icons.json`: a custom icon map pointing to images missing from the repository removed New Recruit's built-in icons for every faction.
 
 ## EC datasheets and references
 
