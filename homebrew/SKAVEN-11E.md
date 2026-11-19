@@ -31,6 +31,10 @@ detachments). The layout follows the Emperor's Children catalogue.
   CHARACTER enhancements are in "Skurvy Officers"; record which Black-Flag
   character carries each one.
 - Shadowy Dealings: Black Contract marks up to three Clanrats units.
+- Weapon teams start with their lead crew (Lead Gunner, Lead Burner or Lead
+  Scourger: W3, Crew-leader blades, optional Warplock pistol). Skryre Acolytes are
+  1 Bombardier and 4 or 9 Poison Wind Globadiers. Weapon Team models added to
+  Clanrats are always normal team models.
 
 ## Removed
 

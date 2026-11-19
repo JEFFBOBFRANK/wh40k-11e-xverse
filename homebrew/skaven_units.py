@@ -153,16 +153,22 @@ UNITS = {
     "Eshin Shadowriggers": dict(
         models=[M("Eshin Shadowrigger", (5, 5), ["Warp-needle pistol", "Servo-assisted Eshin blades"])],
         sizes=[{"Eshin Shadowrigger": 5}]),
-    "Ratling Gun Teams": dict(models=[M("Ratling Gun Team", (1, 3), ["Ratling gun", "Crew blades"], cost=35)]),
-    "Warpfire Thrower Teams": dict(
-        models=[M("Warpfire Thrower Team", (1, 3), ["Warpfire thrower", "Crew blades"], cost=40)]),
-    "Warpvolt Scourger Teams": dict(
-        models=[M("Warpvolt Scourger Team", (1, 3), ["Warpvolt scourger", "Crew blades"], cost=50)]),
+    "Ratling Gun Teams": dict(models=[
+        M("Lead Gunner", (1, 1), ["Ratling gun", "Crew-leader blades"], choices=[C("Pistol", ["Warplock pistol"], minimum=0)], cost=35, wounds="3"),
+        M("Ratling Gun Team", (0, 2), ["Ratling gun", "Crew blades"], cost=35)]),
+    "Warpfire Thrower Teams": dict(models=[
+        M("Lead Burner", (1, 1), ["Warpfire thrower", "Crew-leader blades"], choices=[C("Pistol", ["Warplock pistol"], minimum=0)], cost=40, wounds="3"),
+        M("Warpfire Thrower Team", (0, 2), ["Warpfire thrower", "Crew blades"], cost=40)]),
+    "Warpvolt Scourger Teams": dict(models=[
+        M("Lead Scourger", (1, 1), ["Warpvolt scourger", "Crew-leader blades"], choices=[C("Pistol", ["Warplock pistol"], minimum=0)], cost=50, wounds="3"),
+        M("Warpvolt Scourger Team", (0, 2), ["Warpvolt scourger", "Crew blades"], cost=50)]),
     "Skryre Acolytes": dict(
-        models=[M("Skryre Acolyte", (5, 10), ["Acolyte blades"], choices=[
-            C("Ranged weapon", ["Poison-wind globes", "Death globe", "Poison-wind mortar"],
-              unit_max={"Death globe": (1, 2), "Poison-wind mortar": (1, 2)})])],
-        sizes=[{"Skryre Acolyte": 5}, {"Skryre Acolyte": 10}]),
+        models=[M("Bombardier", (1, 1), ["Poison-wind globes", "Bombardier blade"], wounds="2",
+                  choices=[C("Pistol", ["Warplock pistol"], minimum=0)]),
+                M("Poison Wind Globadier", (4, 9), ["Acolyte blades"], choices=[
+                    C("Ranged weapon", ["Poison-wind globes", "Death globe", "Poison-wind mortar"],
+                      unit_max={"Death globe": (1, 2), "Poison-wind mortar": (1, 2)})])],
+        sizes=[{"Bombardier": 1, "Poison Wind Globadier": 4}, {"Bombardier": 1, "Poison Wind Globadier": 9}]),
     "Warplock Jezzails": dict(
         models=[M("Warplock Jezzail Team", (3, 6), ["Warplock jezzail", "Crew blades"])],
         sizes=[{"Warplock Jezzail Team": 3}, {"Warplock Jezzail Team": 6}]),

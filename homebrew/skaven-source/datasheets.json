@@ -1995,7 +1995,7 @@
    },
    {
     "name": "Weapon Teams",
-    "text": "A Weapon Team model uses the profile, weapons and abilities from its own datasheet, excluding Hide Behind Them-Things!. Those abilities apply only to that model and the attacks it makes. A Poison Wind Globadier is equipped with Poison-wind globes and Acolyte blades."
+    "text": "A Weapon Team model uses the profile, weapons and abilities from its own datasheet, excluding Hide Behind Them-Things!. Those abilities apply only to that model and the attacks it makes. A Weapon Team model in this unit is never a Bombardier, Lead Gunner, Lead Burner or Lead Scourger. A Poison Wind Globadier is equipped with Poison-wind globes and Acolyte blades."
    },
    {
     "name": "Clan Standard",
@@ -2942,6 +2942,19 @@
      "SUSTAINED HITS 1",
      "WARPSTONE"
     ]
+   },
+   {
+    "name": "Warplock pistol",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "CLOSE-QUARTERS",
+     "WARPSTONE"
+    ]
    }
   ],
   "melee_weapons": [
@@ -2952,6 +2965,16 @@
     "BS_WS": "5+",
     "S": "3",
     "AP": "0",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Crew-leader blades",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "-1",
     "D": "1",
     "keywords": []
    }
@@ -2981,7 +3004,8 @@
   ],
   "other_rules": [],
   "unit_composition": [
-   "1-3 Ratling Gun Teams."
+   "1-3 Ratling Gun Teams. The first model in this unit is its Lead Gunner.",
+   "Lead Gunner:W3. Replaces its Crew blades with Crew-leader blades and can also be equipped with 1 Warplock pistol."
   ],
   "points": "35pts per model",
   "repeat_cost": "+10pts from the 3rd copy"
@@ -3021,6 +3045,19 @@
      "IGNORES COVER",
      "TORRENT"
     ]
+   },
+   {
+    "name": "Warplock pistol",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "CLOSE-QUARTERS",
+     "WARPSTONE"
+    ]
    }
   ],
   "melee_weapons": [
@@ -3031,6 +3068,16 @@
     "BS_WS": "5+",
     "S": "3",
     "AP": "0",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Crew-leader blades",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "-1",
     "D": "1",
     "keywords": []
    }
@@ -3060,7 +3107,8 @@
   ],
   "other_rules": [],
   "unit_composition": [
-   "1-3 Warpfire Thrower Teams."
+   "1-3 Warpfire Thrower Teams. The first model in this unit is its Lead Burner.",
+   "Lead Burner:W3. Replaces its Crew blades with Crew-leader blades and can also be equipped with 1 Warplock pistol."
   ],
   "points": "40pts per model",
   "repeat_cost": "+10pts from the 3rd copy"
@@ -3099,6 +3147,19 @@
      "ANTI-VEHICLE 4+",
      "WARPSTONE"
     ]
+   },
+   {
+    "name": "Warplock pistol",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "CLOSE-QUARTERS",
+     "WARPSTONE"
+    ]
    }
   ],
   "melee_weapons": [
@@ -3109,6 +3170,16 @@
     "BS_WS": "5+",
     "S": "3",
     "AP": "0",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Crew-leader blades",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "-1",
     "D": "1",
     "keywords": []
    }
@@ -3134,7 +3205,8 @@
   ],
   "other_rules": [],
   "unit_composition": [
-   "1-3 Warpvolt Scourger Teams."
+   "1-3 Warpvolt Scourger Teams. The first model in this unit is its Lead Scourger.",
+   "Lead Scourger:W3. Replaces its Crew blades with Crew-leader blades and can also be equipped with 1 Warplock pistol."
   ],
   "points": "50pts per model",
   "repeat_cost": "+10pts from the 3rd copy"
@@ -3204,6 +3276,19 @@
      "ANTI-INFANTRY 2+",
      "IGNORES COVER"
     ]
+   },
+   {
+    "name": "Warplock pistol",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "CLOSE-QUARTERS",
+     "WARPSTONE"
+    ]
    }
   ],
   "melee_weapons": [
@@ -3214,6 +3299,16 @@
     "BS_WS": "4+",
     "S": "3",
     "AP": "0",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Bombardier blade",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "-1",
     "D": "1",
     "keywords": []
    }
@@ -3239,7 +3334,8 @@
   ],
   "other_rules": [],
   "unit_composition": [
-   "5 or 10 Skryre Acolytes. Per 5 models, up to 1 Death globe and 1 poison-wind mortar."
+   "1 Bombardier and 4 or 9 Poison Wind Globadiers. Every model is equipped with Poison-wind globes and Acolyte blades. For every 5 models in this unit, up to 1 Poison Wind Globadier can replace its Poison-wind globes with 1 Death globe and up to 1 Poison Wind Globadier can replace its Poison-wind globes with 1 Poison-wind mortar.",
+   "Bombardier:W2. Replaces its Acolyte blades with 1 Bombardier blade and can also be equipped with 1 Warplock pistol."
   ],
   "points": "70pts / 140pts",
   "repeat_cost": "+10pts from the 3rd copy"

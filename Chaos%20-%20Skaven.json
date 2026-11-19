@@ -17461,7 +17461,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "A Weapon Team model uses the profile, weapons and abilities from its own datasheet, excluding Hide Behind Them-Things!. Those abilities apply only to that model and the attacks it makes. A Poison Wind Globadier is equipped with Poison-wind globes and Acolyte blades."
+                "$text": "A Weapon Team model uses the profile, weapons and abilities from its own datasheet, excluding Hide Behind Them-Things!. Those abilities apply only to that model and the attacks it makes. A Weapon Team model in this unit is never a Bombardier, Lead Gunner, Lead Burner or Lead Scourger. A Poison Wind Globadier is equipped with Poison-wind globes and Acolyte blades."
               }
             ]
           },
@@ -27141,7 +27141,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 1-3 Ratling Gun Teams."
+                "$text": "Composition: 1-3 Ratling Gun Teams. The first model in this unit is its Lead Gunner. Lead Gunner:W3. Replaces its Crew blades with Crew-leader blades and can also be equipped with 1 Warplock pistol."
               }
             ]
           },
@@ -27171,6 +27171,366 @@
         ],
         "selectionEntries": [
           {
+            "name": "Lead Gunner",
+            "id": "a53c-c95c-362f-2420",
+            "type": "model",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "f558-c9e0-efcb-760a",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "ce19-1c87-a621-68f1",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "id": "e433-cc74-5623-7eda",
+                "name": "Lead Gunner",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
+                  },
+                  {
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "5+"
+                  },
+                  {
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "8+"
+                  },
+                  {
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Ratling gun",
+                "id": "daf8-df92-91ed-5637",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "88c9-adab-cdb8-a083",
+                    "name": "Ratling gun",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "24\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "D6+3"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "5+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Rapid Fire D6+3, Sustained Hits 1, Warpstone"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "0b91-1321-787a-2ef0",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "7b4b-bc85-0cbb-9d5f",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "d8ed-c08a-f0bc-c73f",
+                    "name": "Sustained Hits",
+                    "targetId": "1897-c22c-9597-12b1",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "0812-3c20-9ba2-75f8",
+                    "name": "Rapid Fire",
+                    "targetId": "c5c8-8b58-b8b6-7786",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "5eb8-a42e-a978-dfa4",
+                    "name": "Warpstone",
+                    "targetId": "7a1a-acc6-a2c5-a984",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Crew-leader blades",
+                "id": "2714-6eac-e761-b0a0",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "b35b-7ad3-64dd-04c9",
+                    "name": "Crew-leader blades",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "-"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "12a1-cbf4-12c0-c9e3",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "1071-2d36-cf49-1af1",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Pistol",
+                "id": "e859-9093-fcfe-8b3f",
+                "hidden": false,
+                "selectionEntries": [
+                  {
+                    "name": "Warplock pistol",
+                    "id": "1349-2826-ee7a-2303",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "44a1-6996-45ab-7f8d",
+                        "name": "Warplock pistol",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "4+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "0"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Close-Quarters, Warpstone"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "585d-7c04-51fa-1add",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "2e4e-dc29-0a97-64b6",
+                        "name": "Close-quarters",
+                        "targetId": "5238-5ad4-52f7-6eb4",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "b65b-4e61-e42c-47df",
+                        "name": "Warpstone",
+                        "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "69eb-ae06-bcfc-c61e",
+                    "type": "min",
+                    "value": 0,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "9043-fb6c-0238-0055",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 35
+              }
+            ]
+          },
+          {
             "name": "Ratling Gun Team",
             "id": "d2bb-e0ac-3bba-69c3",
             "type": "model",
@@ -27180,7 +27540,7 @@
               {
                 "id": "0228-64aa-12d3-15b5",
                 "type": "min",
-                "value": 1,
+                "value": 0,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -27189,7 +27549,7 @@
               {
                 "id": "9496-c0ec-bc97-134f",
                 "type": "max",
-                "value": 3,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -27868,7 +28228,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 1-3 Warpfire Thrower Teams."
+                "$text": "Composition: 1-3 Warpfire Thrower Teams. The first model in this unit is its Lead Burner. Lead Burner:W3. Replaces its Crew blades with Crew-leader blades and can also be equipped with 1 Warplock pistol."
               }
             ]
           },
@@ -27898,6 +28258,366 @@
         ],
         "selectionEntries": [
           {
+            "name": "Lead Burner",
+            "id": "48d7-cb2d-0f32-0270",
+            "type": "model",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "1c9e-8790-d6c4-8550",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "c13c-2570-92ef-f945",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "id": "731f-3ecc-3a58-dee9",
+                "name": "Lead Burner",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
+                  },
+                  {
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "5+"
+                  },
+                  {
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "8+"
+                  },
+                  {
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Warpfire thrower",
+                "id": "8cda-aed0-1482-629a",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "b5c3-2545-605d-cde0",
+                    "name": "Warpfire thrower",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "12\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "Torrent"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Blast 2, Ignores Cover, Torrent"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "ce60-9196-da64-2fa2",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "a8df-5168-4f3f-0cc6",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "0815-8b78-8d91-d392",
+                    "name": "Blast",
+                    "targetId": "6c1f-1cf7-ff25-c99e",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "b13d-ec97-57bc-472a",
+                    "name": "Ignores Cover",
+                    "targetId": "4640-43e7-30b-215a",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "feef-3889-e27d-5540",
+                    "name": "Torrent",
+                    "targetId": "5edf-d619-23e0-9b56",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Crew-leader blades",
+                "id": "90e9-00a1-bce8-4cf7",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "2b53-ff4b-c209-3e03",
+                    "name": "Crew-leader blades",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "-"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "cabd-1b16-23f3-66a1",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "3865-89a3-f306-f2b0",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Pistol",
+                "id": "dc7b-06a7-19b6-8fb0",
+                "hidden": false,
+                "selectionEntries": [
+                  {
+                    "name": "Warplock pistol",
+                    "id": "abeb-c9c4-652c-055f",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "5145-3e63-0dd2-e86e",
+                        "name": "Warplock pistol",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "4+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "0"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Close-Quarters, Warpstone"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "8993-8040-3cfe-5df1",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "0db7-7ab3-68c9-e9ae",
+                        "name": "Close-quarters",
+                        "targetId": "5238-5ad4-52f7-6eb4",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "dcd5-3346-91d4-43f2",
+                        "name": "Warpstone",
+                        "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "9ede-19dc-25fe-dfd6",
+                    "type": "min",
+                    "value": 0,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "1ebf-572f-9fbc-1c8b",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 40
+              }
+            ]
+          },
+          {
             "name": "Warpfire Thrower Team",
             "id": "4882-70f7-edc8-434c",
             "type": "model",
@@ -27907,7 +28627,7 @@
               {
                 "id": "e4ca-8cc1-4ab8-b1c2",
                 "type": "min",
-                "value": 1,
+                "value": 0,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -27916,7 +28636,7 @@
               {
                 "id": "5397-6023-37da-bd83",
                 "type": "max",
-                "value": 3,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -28581,7 +29301,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 1-3 Warpvolt Scourger Teams."
+                "$text": "Composition: 1-3 Warpvolt Scourger Teams. The first model in this unit is its Lead Scourger. Lead Scourger:W3. Replaces its Crew blades with Crew-leader blades and can also be equipped with 1 Warplock pistol."
               }
             ]
           },
@@ -28611,6 +29331,359 @@
         ],
         "selectionEntries": [
           {
+            "name": "Lead Scourger",
+            "id": "985d-a3a0-eb65-6236",
+            "type": "model",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "69cf-f298-c843-7f48",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "0af7-a62d-2005-3a4e",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "id": "c88f-7534-2e08-f127",
+                "name": "Lead Scourger",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
+                  },
+                  {
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "5+"
+                  },
+                  {
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "8+"
+                  },
+                  {
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Warpvolt scourger",
+                "id": "6b27-c250-2dba-3d80",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "09c8-e568-2df1-7f51",
+                    "name": "Warpvolt scourger",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "24\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "10"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Anti-Vehicle 4+, Warpstone"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "ee8d-6b54-2f3c-16cf",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "21ae-699c-0a16-9b21",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "0b65-6c25-2dd3-9b82",
+                    "name": "Anti",
+                    "targetId": "4111-82e3-9444-e942",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "57a2-2d2f-c353-f57c",
+                    "name": "Warpstone",
+                    "targetId": "7a1a-acc6-a2c5-a984",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Crew-leader blades",
+                "id": "000b-3276-afe9-542d",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "d836-a03f-8540-2775",
+                    "name": "Crew-leader blades",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "-"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "96fa-f840-2827-0460",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "7a99-130e-3afa-8947",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Pistol",
+                "id": "b045-ce7a-30aa-2c8a",
+                "hidden": false,
+                "selectionEntries": [
+                  {
+                    "name": "Warplock pistol",
+                    "id": "062e-d194-4311-43b4",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "faa5-61d9-bc96-9271",
+                        "name": "Warplock pistol",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "4+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "0"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Close-Quarters, Warpstone"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "cc95-6347-57fa-596f",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "bce7-fb8e-11ca-0df9",
+                        "name": "Close-quarters",
+                        "targetId": "5238-5ad4-52f7-6eb4",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "2330-0c07-c531-ee61",
+                        "name": "Warpstone",
+                        "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "1b83-e364-bd20-e388",
+                    "type": "min",
+                    "value": 0,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "249b-4f2a-67a8-0642",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 50
+              }
+            ]
+          },
+          {
             "name": "Warpvolt Scourger Team",
             "id": "1bc3-693d-93fa-90ed",
             "type": "model",
@@ -28620,7 +29693,7 @@
               {
                 "id": "6c70-7b2b-1c53-ebf5",
                 "type": "min",
-                "value": 1,
+                "value": 0,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -28629,7 +29702,7 @@
               {
                 "id": "180a-7c4b-adfc-bf0d",
                 "type": "max",
-                "value": 3,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -29287,7 +30360,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 5 or 10 Skryre Acolytes. Per 5 models, up to 1 Death globe and 1 poison-wind mortar."
+                "$text": "Composition: 1 Bombardier and 4 or 9 Poison Wind Globadiers. Every model is equipped with Poison-wind globes and Acolyte blades. For every 5 models in this unit, up to 1 Poison Wind Globadier can replace its Poison-wind globes with 1 Death globe and up to 1 Poison Wind Globadier can replace its Poison-wind globes with 1 Poison-wind mortar. Bombardier:W2. Replaces its Acolyte blades with 1 Bombardier blade and can also be equipped with 1 Warplock pistol."
               }
             ]
           },
@@ -29317,25 +30390,25 @@
         ],
         "selectionEntries": [
           {
-            "name": "Skryre Acolyte",
-            "id": "27c8-f9e8-0893-6dc4",
+            "name": "Bombardier",
+            "id": "735e-cc5c-6dd5-a274",
             "type": "model",
             "hidden": false,
             "import": true,
             "constraints": [
               {
-                "id": "df57-7980-4d94-7606",
+                "id": "9199-00ee-4267-22e4",
                 "type": "min",
-                "value": 5,
+                "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
               },
               {
-                "id": "5aca-5a9d-8cc6-cce3",
+                "id": "f540-78bb-a92c-601e",
                 "type": "max",
-                "value": 10,
+                "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -29344,8 +30417,368 @@
             ],
             "profiles": [
               {
-                "id": "9caf-8df0-ce9c-67b3",
-                "name": "Skryre Acolyte",
+                "id": "f27e-4738-aece-a43c",
+                "name": "Bombardier",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
+                  },
+                  {
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "5+"
+                  },
+                  {
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "8+"
+                  },
+                  {
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Poison-wind globes",
+                "id": "7bc8-77ce-8f1a-4afa",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "387b-0d54-107a-9b16",
+                    "name": "Poison-wind globes",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "12\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "D3+1"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Assault, Blast 1, Anti-Infantry 2+, Ignores Cover"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "8078-64f3-92ea-89de",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "cf17-d3f8-da11-df52",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "1593-d16c-bc49-3175",
+                    "name": "Assault",
+                    "targetId": "fc8a-8c24-bae9-cc1c",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "e265-fd14-21f8-7a77",
+                    "name": "Anti",
+                    "targetId": "4111-82e3-9444-e942",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "2563-cac4-ae43-7a62",
+                    "name": "Blast",
+                    "targetId": "6c1f-1cf7-ff25-c99e",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "8dff-4f65-ec73-d642",
+                    "name": "Ignores Cover",
+                    "targetId": "4640-43e7-30b-215a",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Bombardier blade",
+                "id": "ca54-6c7e-0dbc-06ae",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "ca02-20ac-4a90-be27",
+                    "name": "Bombardier blade",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "-"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "4e7c-bc74-69b8-80b2",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "d106-6d52-fb86-1a45",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Pistol",
+                "id": "467c-64ef-e092-f3e3",
+                "hidden": false,
+                "selectionEntries": [
+                  {
+                    "name": "Warplock pistol",
+                    "id": "2f3e-b2ef-9074-a38c",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "0546-57ae-8c1a-27a1",
+                        "name": "Warplock pistol",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "4+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "0"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Close-Quarters, Warpstone"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "fc6e-3d90-bd16-875a",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "94ed-974b-e463-6cee",
+                        "name": "Close-quarters",
+                        "targetId": "5238-5ad4-52f7-6eb4",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "0bd3-bc11-1909-a904",
+                        "name": "Warpstone",
+                        "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "ad64-b1d2-c582-1748",
+                    "type": "min",
+                    "value": 0,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "e856-354a-ab1c-28aa",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Poison Wind Globadier",
+            "id": "cd64-83c0-aeb6-97e3",
+            "type": "model",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "7d15-4440-0c05-9a41",
+                "type": "min",
+                "value": 4,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "c18d-50b6-5667-23cf",
+                "type": "max",
+                "value": 9,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "id": "6dd1-bac8-7562-d31a",
+                "name": "Poison Wind Globadier",
                 "hidden": false,
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "Unit",
@@ -29391,13 +30824,13 @@
             "selectionEntries": [
               {
                 "name": "Acolyte blades",
-                "id": "2210-d88b-857c-7b5a",
+                "id": "1c05-cc7b-2b3f-79dd",
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
                 "profiles": [
                   {
-                    "id": "a4bf-163b-6f16-a0e6",
+                    "id": "a32b-90a5-7d14-5634",
                     "name": "Acolyte blades",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -29443,7 +30876,7 @@
                 ],
                 "constraints": [
                   {
-                    "id": "da36-ae88-231d-857a",
+                    "id": "ba0d-c476-f646-4d85",
                     "type": "min",
                     "value": 1,
                     "scope": "parent",
@@ -29452,7 +30885,7 @@
                     "includeChildSelections": false
                   },
                   {
-                    "id": "3006-8876-b124-e785",
+                    "id": "c1b1-499b-0717-8262",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -29466,18 +30899,18 @@
             "selectionEntryGroups": [
               {
                 "name": "Ranged weapon",
-                "id": "9c2e-78b0-4661-d1fa",
+                "id": "3ca4-15d8-7f7b-6571",
                 "hidden": false,
                 "selectionEntries": [
                   {
                     "name": "Poison-wind globes",
-                    "id": "ddf3-1cc1-e7c8-2e00",
+                    "id": "df86-0439-a46f-0e90",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "ba56-64a1-2156-161e",
+                        "id": "5917-77e5-8552-8c5a",
                         "name": "Poison-wind globes",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -29523,7 +30956,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "7934-06dd-cecc-bcdc",
+                        "id": "4f8f-9ce1-5c36-2399",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -29534,28 +30967,28 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "434f-f8d1-6a42-d841",
+                        "id": "b2af-e7e9-59b5-61a6",
                         "name": "Assault",
                         "targetId": "fc8a-8c24-bae9-cc1c",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "2100-5411-28d4-9d30",
+                        "id": "6c7b-afd6-ecc5-c83c",
                         "name": "Anti",
                         "targetId": "4111-82e3-9444-e942",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "073f-a2c6-68ed-ea11",
+                        "id": "2075-892a-84e6-e257",
                         "name": "Blast",
                         "targetId": "6c1f-1cf7-ff25-c99e",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "a01c-98a7-d6bc-b0f1",
+                        "id": "d53b-ddfb-c612-a8e6",
                         "name": "Ignores Cover",
                         "targetId": "4640-43e7-30b-215a",
                         "type": "rule",
@@ -29565,13 +30998,13 @@
                   },
                   {
                     "name": "Death globe",
-                    "id": "b194-b260-6853-40d0",
+                    "id": "5c6a-75e0-d163-7858",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "8d40-9b42-3395-5967",
+                        "id": "8aee-701f-b672-6b93",
                         "name": "Death globe",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -29617,7 +31050,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "44c0-51ea-e5ba-93e7",
+                        "id": "087e-1620-b32c-ea9b",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -29626,7 +31059,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "e4b1-9d49-02dc-c592",
+                        "id": "4950-1e40-d6ed-9063",
                         "type": "max",
                         "value": 1,
                         "scope": "1d54-aca8-ded0-47bc",
@@ -29638,15 +31071,15 @@
                     "modifiers": [
                       {
                         "type": "set",
-                        "field": "e4b1-9d49-02dc-c592",
+                        "field": "4950-1e40-d6ed-9063",
                         "value": 2,
                         "conditions": [
                           {
-                            "childId": "27c8-f9e8-0893-6dc4",
+                            "childId": "cd64-83c0-aeb6-97e3",
                             "field": "selections",
                             "scope": "1d54-aca8-ded0-47bc",
                             "type": "atLeast",
-                            "value": 10,
+                            "value": 9,
                             "shared": true,
                             "includeChildSelections": true
                           }
@@ -29655,21 +31088,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "904c-6706-8447-99ea",
+                        "id": "7359-9c2d-ad23-1505",
                         "name": "Hazardous",
                         "targetId": "8367-374c-f87-c627",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "1146-16bd-495f-b380",
+                        "id": "4033-0b9a-0220-ad6e",
                         "name": "Devastating Wounds",
                         "targetId": "be1e-ac8e-1e2c-3528",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "e29d-75c3-9271-ed37",
+                        "id": "3c89-bfdc-7280-6f52",
                         "name": "Anti",
                         "targetId": "4111-82e3-9444-e942",
                         "type": "rule",
@@ -29679,13 +31112,13 @@
                   },
                   {
                     "name": "Poison-wind mortar",
-                    "id": "8956-d290-fff6-e5ab",
+                    "id": "beb1-771a-4b61-190e",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "fe8f-3a57-8719-a2c0",
+                        "id": "2833-5f28-f16e-b2ec",
                         "name": "Poison-wind mortar",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -29731,7 +31164,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "8eed-61fa-fa75-9d3e",
+                        "id": "7f0f-6043-d2a4-da5c",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -29740,7 +31173,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "ab38-01df-808d-0706",
+                        "id": "943c-29cb-6ad9-6168",
                         "type": "max",
                         "value": 1,
                         "scope": "1d54-aca8-ded0-47bc",
@@ -29752,15 +31185,15 @@
                     "modifiers": [
                       {
                         "type": "set",
-                        "field": "ab38-01df-808d-0706",
+                        "field": "943c-29cb-6ad9-6168",
                         "value": 2,
                         "conditions": [
                           {
-                            "childId": "27c8-f9e8-0893-6dc4",
+                            "childId": "cd64-83c0-aeb6-97e3",
                             "field": "selections",
                             "scope": "1d54-aca8-ded0-47bc",
                             "type": "atLeast",
-                            "value": 10,
+                            "value": 9,
                             "shared": true,
                             "includeChildSelections": true
                           }
@@ -29769,28 +31202,28 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "5d1f-60d1-e0c3-3e47",
+                        "id": "3e55-1c4d-cb67-cf8b",
                         "name": "Anti",
                         "targetId": "4111-82e3-9444-e942",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "c8c6-1c7b-6255-176e",
+                        "id": "ae96-e018-ca31-1257",
                         "name": "Blast",
                         "targetId": "6c1f-1cf7-ff25-c99e",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "6d02-c69a-39ca-2138",
+                        "id": "b621-9633-858c-d7d8",
                         "name": "Indirect Fire",
                         "targetId": "4ddd-4e29-acdd-5e6d",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "d710-4130-78a8-8c60",
+                        "id": "5fb9-306c-8bb4-e1da",
                         "name": "Ignores Cover",
                         "targetId": "4640-43e7-30b-215a",
                         "type": "rule",
@@ -29801,7 +31234,7 @@
                 ],
                 "constraints": [
                   {
-                    "id": "e2c9-6eca-5644-5a7f",
+                    "id": "7fb5-d584-1ac8-6d0c",
                     "type": "min",
                     "value": 1,
                     "scope": "parent",
@@ -29810,7 +31243,7 @@
                     "includeChildSelections": false
                   },
                   {
-                    "id": "d784-73f6-18f7-0a69",
+                    "id": "28b7-4bec-eb62-880a",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -29819,7 +31252,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "defaultSelectionEntryId": "ddf3-1cc1-e7c8-2e00"
+                "defaultSelectionEntryId": "df86-0439-a46f-0e90"
               }
             ]
           }
@@ -29831,11 +31264,11 @@
             "value": 70,
             "conditions": [
               {
-                "childId": "27c8-f9e8-0893-6dc4",
+                "childId": "cd64-83c0-aeb6-97e3",
                 "field": "selections",
                 "scope": "1d54-aca8-ded0-47bc",
                 "type": "atLeast",
-                "value": 10,
+                "value": 9,
                 "shared": true,
                 "includeChildSelections": true
               }
@@ -29844,7 +31277,7 @@
           {
             "type": "add",
             "field": "error",
-            "value": "Select 5 Skryre Acolyte or 10 Skryre Acolyte.",
+            "value": "Select 1 Bombardier and 4 Poison Wind Globadier or 1 Bombardier and 9 Poison Wind Globadier.",
             "conditionGroups": [
               {
                 "type": "and",
@@ -29853,11 +31286,20 @@
                     "type": "or",
                     "conditions": [
                       {
-                        "childId": "27c8-f9e8-0893-6dc4",
+                        "childId": "735e-cc5c-6dd5-a274",
                         "field": "selections",
                         "scope": "1d54-aca8-ded0-47bc",
                         "type": "notEqualTo",
-                        "value": 5,
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "cd64-83c0-aeb6-97e3",
+                        "field": "selections",
+                        "scope": "1d54-aca8-ded0-47bc",
+                        "type": "notEqualTo",
+                        "value": 4,
                         "shared": true,
                         "includeChildSelections": true
                       }
@@ -29867,11 +31309,20 @@
                     "type": "or",
                     "conditions": [
                       {
-                        "childId": "27c8-f9e8-0893-6dc4",
+                        "childId": "735e-cc5c-6dd5-a274",
                         "field": "selections",
                         "scope": "1d54-aca8-ded0-47bc",
                         "type": "notEqualTo",
-                        "value": 10,
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "cd64-83c0-aeb6-97e3",
+                        "field": "selections",
+                        "scope": "1d54-aca8-ded0-47bc",
+                        "type": "notEqualTo",
+                        "value": 9,
                         "shared": true,
                         "includeChildSelections": true
                       }

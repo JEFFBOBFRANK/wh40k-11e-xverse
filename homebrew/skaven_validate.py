@@ -101,7 +101,7 @@ def main():
         if per_model:
             model_costs = [c["value"] for m in e.get("selectionEntries", []) if m["type"] == "model"
                            for c in m.get("costs", []) if c["typeId"] == POINTS]
-            check(model_costs == expected, f"{name}: per-model cost {model_costs}, expected {expected}")
+            check(set(model_costs) == set(expected), f"{name}: per-model cost {model_costs}, expected {expected}")
         else:
             tiers = [base]
             for inc in increments:
