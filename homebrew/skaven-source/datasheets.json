@@ -2056,25 +2056,27 @@
    {
     "name": "Storm-glaive",
     "range": "Melee",
-    "A": "4",
+    "A": "3",
     "BS_WS": "4+",
-    "S": "5",
+    "S": "4",
     "AP": "-1",
     "D": "2",
     "keywords": [
-     "LANCE"
+     "LANCE",
+     "WARPSTONE"
     ]
    },
    {
     "name": "Stormblade",
     "range": "Melee",
-    "A": "4",
+    "A": "3",
     "BS_WS": "4+",
     "S": "4",
     "AP": "-1",
     "D": "1",
     "keywords": [
-     "LETHAL HITS"
+     "LETHAL HITS",
+     "WARPSTONE"
     ]
    },
    {
@@ -2147,7 +2149,7 @@
    "Fangleader:W2. Equipped with 1 Master-forged storm-glaive, or 1 Master-forged stormblade and 1 Heavy shield. It can also be equipped with 1 Warplock pistol.",
    "A model equipped with a Heavy shield has a Save characteristic of 3+ and a 5+ invulnerable save. One model can carry a Warhorn or a Regimental Banner; this does not replace its weapons."
   ],
-  "points": "125pts",
+  "points": "100pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {

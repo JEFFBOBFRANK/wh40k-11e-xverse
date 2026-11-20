@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 17,
+    "revision": 18,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -21116,7 +21116,7 @@
                           {
                             "name": "A",
                             "typeId": "2337-daa1-6682-b110",
-                            "$text": "4"
+                            "$text": "3"
                           },
                           {
                             "name": "WS",
@@ -21126,7 +21126,7 @@
                           {
                             "name": "S",
                             "typeId": "ab33-d393-96ce-ccba",
-                            "$text": "5"
+                            "$text": "4"
                           },
                           {
                             "name": "AP",
@@ -21141,7 +21141,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Lance"
+                            "$text": "Lance, Warpstone"
                           }
                         ]
                       }
@@ -21162,6 +21162,13 @@
                         "id": "38bf-8c0d-1060-3cf7",
                         "name": "Lance",
                         "targetId": "2ebc-abdf-8129-6c57",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "2241-fc36-728b-5c34",
+                        "name": "Warpstone",
+                        "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
                       }
@@ -21189,7 +21196,7 @@
                           {
                             "name": "A",
                             "typeId": "2337-daa1-6682-b110",
-                            "$text": "4"
+                            "$text": "3"
                           },
                           {
                             "name": "WS",
@@ -21214,7 +21221,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Lethal Hits"
+                            "$text": "Lethal Hits, Warpstone"
                           }
                         ]
                       }
@@ -21235,6 +21242,13 @@
                         "id": "c137-3f55-a3e3-df44",
                         "name": "Lethal Hits",
                         "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "ff88-a7c2-e3eb-6afd",
+                        "name": "Warpstone",
+                        "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
                       }
@@ -21468,7 +21482,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 125
+            "value": 100
           }
         ],
         "selectionEntryGroups": [
