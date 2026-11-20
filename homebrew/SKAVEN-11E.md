@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 18 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 19 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 12
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -10,6 +10,10 @@ detachments). The layout follows the Emperor's Children catalogue.
   error unless the unit is one of its legal sizes; larger sizes add their points.
 - Sub-headings in rules and abilities are bold lines, as in the Emperor's
   Children catalogue, not large Markdown headings.
+- Special weapons are separate model types beside the plain models, as in the
+  Emperor's Children Tormentors (e.g. "Stormvermin with Heavy shock weapon").
+  Each one taken lowers the plain model count; New Recruit flags the plain count
+  until it is reduced. Limits such as one per five models apply to each type.
 - Abilities are separate named profiles. Core abilities and weapon keywords link
   to the standard rules; Scurry Away! and [WARPSTONE] link to the Skaven rules.
 - Leaders and Supports attach to their printed units with New Recruit's

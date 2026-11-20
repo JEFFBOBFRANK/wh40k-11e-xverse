@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 18
+REVISION = 19
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -443,7 +443,16 @@ class Builder:
         for model in spec["models"]:
             mid = nid(unit_id + ":model:" + model["name"])
             model_ids[model["name"]] = mid
-        large = selected(model_ids[key], scope=unit_id, value=sizes[1][key]) if key else None
+        # Units with special-weapon model types count every model, like the Tormentors.
+        by_total = any(m["variants"] for m in spec["models"])
+        totals = [sum(size.values()) for size in sizes]
+
+        def size_condition(i, kind="atLeast"):
+            if by_total:
+                return selected("model", scope=unit_id, kind=kind, value=totals[i])
+            return selected(model_ids[key], scope=unit_id, kind=kind, value=sizes[i][key])
+
+        large = size_condition(1) if key else None
         large_condition = large
         for model in spec["models"]:
             mid = model_ids[model["name"]]
@@ -467,14 +476,21 @@ class Builder:
                 del m["selectionEntryGroups"]
             if not m["selectionEntries"]:
                 del m["selectionEntries"]
-            node["selectionEntries"].append(m)
+            if not model["variants"]:
+                node["selectionEntries"].append(m)
+                continue
+            node["selectionEntryGroups"].append(self.model_family(unit_id, model, m, stats, weapons, large))
         if prices and sizes:
             node["costs"][0]["value"] = prices[0]
             for i in range(1, len(sizes)):
                 node["modifiers"].append(dict(field=POINTS, type="increment", value=prices[i] - prices[i - 1],
-                                              conditions=[selected(model_ids[key], scope=unit_id,
-                                                                   value=sizes[i][key])]))
-        if len(sizes) > 1:
+                                              conditions=[size_condition(i)]))
+        if len(sizes) > 1 and by_total:
+            legal = " or ".join(str(t) for t in totals)
+            node["modifiers"].append(dict(type="add", field="error", value=f"Select exactly {legal} models.",
+                                          conditionGroups=[dict(type="and", conditions=[
+                                              size_condition(i, "notEqualTo") for i in range(len(sizes))])]))
+        elif len(sizes) > 1:
             legal = " or ".join(" and ".join(f"{n} {m}" for m, n in s.items()) for s in sizes)
             node["modifiers"].append(dict(type="add", field="error", value=f"Select {legal}.", conditionGroups=[
                 dict(type="and", conditionGroups=[
@@ -504,6 +520,37 @@ class Builder:
             if large != small and large_condition:
                 item["modifiers"] = [dict(type="set", field=limit["id"], value=large, conditions=[large_condition])]
             node["selectionEntries"].append(item)
+
+    def model_family(self, unit_id, model, base, stats, weapons, large):
+        """Plain models plus special-weapon model types, as in the Emperor's Children Tormentors."""
+        low, high = model["count"]
+        name = model["name"]
+        if " with " in name:  # Stormfiend weapon pairs
+            plural = "Stormfiends with " + " or ".join(
+                n.split(" with ")[1] for n in [name] + [v[0] for v in model["variants"]])
+        else:
+            plural = name if name.endswith(("s", "min")) else name + "s"
+        gid = nid(unit_id + ":family:" + name)
+        span = f"{low}-{high}" if low != high else str(high)
+        mins, maxs = base["constraints"]
+        variants = []
+        for vname, vweapons, limit in model["variants"]:
+            vid = nid(unit_id + ":variant:" + vname)
+            small, big = limit or (high, high)
+            cap = constraint(nid(vid + ":max"), "max", small)
+            v = entry(vid, vname, "model", constraints=[cap],
+                      profiles=[self.unit_profile(nid(vid + ":profile"), name.split(" with ")[0], stats)],
+                      selectionEntries=[self.gear_entry(vid, w, weapons, fixed=True) for w in vweapons])
+            if big != small and large:
+                v["modifiers"] = [dict(type="set", field=cap["id"], value=big, conditions=[large])]
+            variants.append(v)
+            for limit_id in (mins["id"], maxs["id"]):  # each special model replaces a plain one
+                base.setdefault("modifiers", []).append(dict(field=limit_id, type="increment", value=-1, repeats=[
+                    dict(childId=vid, field="selections", scope=unit_id, shared=True, includeChildSelections=True,
+                         value=1, repeats=1, roundUp=False)]))
+        return dict(name=f"{span} {plural}", id=gid, hidden=False, defaultSelectionEntryId=base["id"],
+                    selectionEntries=[base] + variants,
+                    constraints=[constraint(nid(gid + ":min"), "min", low), constraint(nid(gid + ":max"), "max", high)])
 
     def weapon_teams(self, unit_id, spec, model_ids):
         gid = nid(unit_id + ":weapon-teams")

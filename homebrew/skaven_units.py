@@ -5,6 +5,8 @@ wargear options only as prose. This table turns that prose into New Recruit
 models and choices. Weapon names must match datasheets.json exactly.
 
 M(...)  a model type in the unit: name, (min, max), fixed weapons, choices.
+        variants=[V(...)] adds special-weapon model types beside it; each one taken
+        lowers the plain model count, like "Tormentor with Plasma gun".
 C(...)  a choice group. Options are weapon names; "A + B" takes both.
         unit_max limits an option across the whole unit as (small, large).
 Sizes   one dict per legal unit size (model name -> count), with matching points.
@@ -13,9 +15,17 @@ bearer_gear  wargear carried by a chosen model, as in the Emperor's Children Tor
 """
 
 
-def M(name, count, weapons=(), choices=(), profile="main", cost=0, wounds=None):
+def M(name, count, weapons=(), choices=(), profile="main", cost=0, wounds=None, variants=()):
     return dict(name=name, count=count, weapons=list(weapons), choices=list(choices), profile=profile,
-                cost=cost, wounds=wounds)
+                cost=cost, wounds=wounds, variants=list(variants))
+
+
+def V(name, weapons, limit=None):
+    """A special-weapon model type, as in the Emperor's Children Tormentors.
+
+    limit is (small, large) copies; None means any number up to the squad size.
+    """
+    return (name, list(weapons), limit)
 
 
 def C(label, options, minimum=1, maximum=1, unit_max=None, option_max=None, scale=None):
@@ -36,10 +46,10 @@ MOUNTS = {
                           weapons=["Great Censer", "Rat Ogor claws", "Attendant weapons"]),
 }
 
-STORMFIEND_ROLES = [
-    ("Stormfiend (gauntlets)", ["Doom-Flayer gauntlets", "Shock gauntlets"]),
-    ("Stormfiend (grinderfists or ratling cannons)", ["Grinderfists", "Ratling cannons"]),
-    ("Stormfiend (warpfire projectors or windlaunchers)", ["Warpfire projectors", "Windlaunchers"]),
+STORMFIEND_ROLES = [  # for every 3 models, one of each pair
+    ("Stormfiend with Doom-Flayer gauntlets", "Stormfiend with Shock gauntlets"),
+    ("Stormfiend with Grinderfists", "Stormfiend with Ratling cannons"),
+    ("Stormfiend with Warpfire projectors", "Stormfiend with Windlaunchers"),
 ]
 
 UNITS = {
@@ -110,18 +120,18 @@ UNITS = {
         models=[M("Fangleader", (1, 1), wounds="2", choices=[
                     C("Weapons", ["Master-forged storm-glaive", "Master-forged stormblade + Heavy shield"]),
                     C("Pistol", ["Warplock pistol"], minimum=0)]),
-                M("Stormvermin", (9, 9), choices=[
-                    C("Weapons", ["Storm-glaive", "Stormblade + Heavy shield", "Heavy shock weapon"],
-                      unit_max={"Heavy shock weapon": (1, 1)})])],
+                M("Stormvermin", (9, 9), ["Storm-glaive"], variants=[
+                    V("Stormvermin with Stormblade and Heavy shield", ["Stormblade", "Heavy shield"]),
+                    V("Stormvermin with Heavy shock weapon", ["Heavy shock weapon"], (1, 1))])],
         sizes=[{"Fangleader": 1, "Stormvermin": 9}],
         bearer_gear=[("Warhorn", None), ("Regimental Banner", None)]),
     "Warp-Zap Stormvermin": dict(
         models=[M("Fangleader", (1, 1), wounds="2", choices=[
                     C("Ranged weapon", ["Heavy Warp-Zapper", "Long-barrel Warp-Zapper", "Warp-zap pistol"]),
                     C("Melee weapon", ["Fangleader blade", "Shock halberd"])]),
-                M("Warp-Zap Stormvermin", (4, 9), ["Stormvermin sidearm blades"], choices=[
-                    C("Ranged weapon", ["Heavy Warp-Zapper", "Long-barrel Warp-Zapper"],
-                      unit_max={"Long-barrel Warp-Zapper": (1, 2)})])],
+                M("Warp-Zap Stormvermin", (4, 9), ["Heavy Warp-Zapper", "Stormvermin sidearm blades"], variants=[
+                    V("Warp-Zap Stormvermin with Long-barrel Warp-Zapper",
+                      ["Long-barrel Warp-Zapper", "Stormvermin sidearm blades"], (1, 2))])],
         sizes=[{"Fangleader": 1, "Warp-Zap Stormvermin": 4}, {"Fangleader": 1, "Warp-Zap Stormvermin": 9}],
         bearer_gear=[("Grounding Rod", None), ("Spare Capacitor", None)]),
     "Warpclad Warpack": dict(
@@ -132,8 +142,8 @@ UNITS = {
         sizes=[{"Fangleader": 1, "Warpclad": 9}]),
     "Plague Monks": dict(
         models=[M("Plague Deacon", (1, 1), ["Deacon blade"]),
-                M("Plague Monk", (9, 19), choices=[
-                    C("Weapon", ["Twin foetid blades", "Plague staff"], unit_max={"Plague staff": (2, 2)})])],
+                M("Plague Monk", (9, 19), ["Twin foetid blades"], variants=[
+                    V("Plague Monk with Plague staff", ["Plague staff"], (2, 2))])],
         sizes=[{"Plague Deacon": 1, "Plague Monk": 9}, {"Plague Deacon": 1, "Plague Monk": 19}],
         bearer_gear=[("Plague Banner", None, (1, 2)), ("Doom Gong", None, (1, 2))]),
     "Plague Censer Bearers": dict(
@@ -144,13 +154,14 @@ UNITS = {
     "Pusbags": dict(models=[M("Pusbag", (10, 20), ["Diseased bites"])],
                     sizes=[{"Pusbag": 10}, {"Pusbag": 20}]),
     "Night Runners": dict(
-        models=[M("Night Runner", (10, 20), ["Eshin blade"], choices=[
-            C("Ranged weapon", ["Eshin shuriken", "Eshin sling", "Poisoned shuriken"],
-              unit_max={"Poisoned shuriken": (1, 2)})])],
+        models=[M("Night Runner", (10, 20), ["Eshin shuriken", "Eshin blade"], variants=[
+            V("Night Runner with Eshin sling", ["Eshin sling", "Eshin blade"]),
+            V("Night Runner with Poisoned shuriken", ["Poisoned shuriken", "Eshin blade"], (1, 2))])],
         sizes=[{"Night Runner": 10}, {"Night Runner": 20}]),
     "Gutter Runners": dict(
-        models=[M("Gutter Runner", (5, 10), ["Twin Eshin blades"], choices=[
-            C("Ranged weapon", ["Warpstar repeater", "Poisoned shuriken", "Eshin sling"])])],
+        models=[M("Gutter Runner", (5, 10), ["Warpstar repeater", "Twin Eshin blades"], variants=[
+            V("Gutter Runner with Poisoned shuriken", ["Poisoned shuriken", "Twin Eshin blades"]),
+            V("Gutter Runner with Eshin sling", ["Eshin sling", "Twin Eshin blades"])])],
         sizes=[{"Gutter Runner": 5}, {"Gutter Runner": 10}]),
     "Eshin Shadowriggers": dict(
         models=[M("Eshin Shadowrigger", (5, 5), ["Warp-needle pistol", "Servo-assisted Eshin blades"])],
@@ -167,9 +178,10 @@ UNITS = {
     "Skryre Acolytes": dict(
         models=[M("Bombardier", (1, 1), ["Poison-wind globes", "Bombardier blade"], wounds="2",
                   choices=[C("Pistol", ["Warplock pistol"], minimum=0)]),
-                M("Poison Wind Globadier", (4, 9), ["Acolyte blades"], choices=[
-                    C("Ranged weapon", ["Poison-wind globes", "Death globe", "Poison-wind mortar"],
-                      unit_max={"Death globe": (1, 2), "Poison-wind mortar": (1, 2)})])],
+                M("Poison Wind Globadier", (4, 9), ["Poison-wind globes", "Acolyte blades"], variants=[
+                    V("Poison Wind Globadier with Death globe", ["Death globe", "Acolyte blades"], (1, 2)),
+                    V("Poison Wind Globadier with Poison-wind mortar", ["Poison-wind mortar", "Acolyte blades"],
+                      (1, 2))])],
         sizes=[{"Bombardier": 1, "Poison Wind Globadier": 4}, {"Bombardier": 1, "Poison Wind Globadier": 9}]),
     "Warplock Jezzails": dict(
         models=[M("Warplock Jezzail Team", (3, 6), ["Warplock jezzail", "Crew blades"])],
@@ -183,9 +195,10 @@ UNITS = {
         models=[M("Vermadillo", (3, 6), ["Warp-hardened Claws", "Crushing Roll"])],
         sizes=[{"Vermadillo": 3}, {"Vermadillo": 6}]),
     "Stormfiends": dict(
-        models=[M(name, (1, 2), ["Crushing fists"], choices=[C("Weapons", options)])
-                for name, options in STORMFIEND_ROLES],
-        sizes=[{name: 1 for name, _ in STORMFIEND_ROLES}, {name: 2 for name, _ in STORMFIEND_ROLES}]),
+        models=[M(first, (1, 2), [first.split(" with ")[1], "Crushing fists"],
+                  variants=[V(second, [second.split(" with ")[1], "Crushing fists"])])
+                for first, second in STORMFIEND_ROLES],
+        sizes=[{first: 1 for first, _ in STORMFIEND_ROLES}, {first: 2 for first, _ in STORMFIEND_ROLES}]),
     "Wolf Rats": dict(
         models=[M("Wolf Rat", (5, 10), ["Warp-fanged bites"]),
                 M("Packmaster", (1, 1), ["Pack whip"], profile="PACKMASTER")],
