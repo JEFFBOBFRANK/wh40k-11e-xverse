@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 16 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 17 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 12
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -12,6 +12,13 @@ detachments). The layout follows the Emperor's Children catalogue.
   Children catalogue, not large Markdown headings.
 - Abilities are separate named profiles. Core abilities and weapon keywords link
   to the standard rules; Scurry Away! and [WARPSTONE] link to the Skaven rules.
+- Leaders and Supports attach to their printed units with New Recruit's
+  Leading / Supporting links, as in the Emperor's Children catalogue. A Support
+  must be attached; a mounted Plague Priest need not be.
+- Unit wargear (Clan Standard, Scavenger Bell, Warhorn, Regimental Banner, Plague
+  Banner, Doom Gong, Grounding Rod, Spare Capacitor) is taken on the squad and
+  given to a chosen model, like the Emperor's Children Tormentors' Icon of Excess.
+  Each item is separate, so a unit can have both.
 - Mounts (Screaming Bell, Gnaw-beast, Plague Furnace) are options on the character.
   The mounted profile replaces the foot profile and the INFANTRY keyword changes.
 - Vermindoom Land-Fortress: exactly one Clan Flagship and six jury-rigged

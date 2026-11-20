@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 16
+REVISION = 17
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -444,6 +444,7 @@ class Builder:
             mid = nid(unit_id + ":model:" + model["name"])
             model_ids[model["name"]] = mid
         large = selected(model_ids[key], scope=unit_id, value=sizes[1][key]) if key else None
+        large_condition = large
         for model in spec["models"]:
             mid = model_ids[model["name"]]
             if model["profile"] == "main":
@@ -492,6 +493,17 @@ class Builder:
             node["selectionEntryGroups"].append(group)
         if spec.get("weapon_teams"):
             node["selectionEntryGroups"].append(self.weapon_teams(unit_id, spec, model_ids))
+        for gear in spec.get("bearer_gear", []):
+            name, bearer = gear[0], gear[1]
+            small, large = gear[2] if len(gear) > 2 else (1, 1)
+            eid = nid(unit_id + ":gear:" + name)
+            limit = constraint(nid(eid + ":max"), "max", small)
+            item = entry(eid, name, constraints=[limit], associations=[dict(
+                name="Bearer", id=nid(eid + ":bearer"), label="Carried by", childId=model_ids[bearer] if bearer else "model",
+                includeChildSelections=True, min=1, max=small, scope=unit_id)])
+            if large != small and large_condition:
+                item["modifiers"] = [dict(type="set", field=limit["id"], value=large, conditions=[large_condition])]
+            node["selectionEntries"].append(item)
 
     def weapon_teams(self, unit_id, spec, model_ids):
         gid = nid(unit_id + ":weapon-teams")
@@ -951,6 +963,39 @@ def build_stratagems(b, stratagems):
     return links
 
 
+# ---------------------------------------------------------------- attachments
+def add_associations(b, units):
+    """New Recruit Leader/Support links, as in the Emperor's Children catalogue."""
+    by_name = {u["name"]: u for u in units}
+    skryre_teams = [n for n, d in b.data.items() if {"SKRYRE", "WEAPON TEAM"} <= set(d["keywords"])]
+    for unit in units:
+        text = " ".join(b.data[unit["name"]]["unit_composition"])
+        for label, pattern in (("Leader", r"[Cc]an lead (.+?)(?: only while [^.]+)?\."),
+                               ("Support", r"attached as a Support to (.+?)(?: only while [^.]+)?\.")):
+            m = re.search(pattern, text)
+            if not m:
+                continue
+            targets = []
+            for part in re.split(r",\s*|\s+or\s+", m.group(1)):
+                part = part.strip()
+                if part.lower() == "a skryre weapon team":
+                    targets += skryre_teams
+                elif part:
+                    targets.append(part)
+            missing = [t for t in targets if t not in by_name]
+            assert not missing, (unit["name"], missing)
+            conditions = [dict(childId=by_name[t]["id"], field="selections", scope="self", type="instanceOf", value=1,
+                               shared=True, includeChildSelections=True) for t in dict.fromkeys(targets)]
+            mounted_only_free = "only while" in m.group(0)
+            unit["associations"] = [dict(
+                name="Leading" if label == "Leader" else "Supporting", id=nid(unit["id"] + ":" + label),
+                action="group", childId="unit", childName="unit", includeChildSelections=True, label=label, max=1,
+                min=0 if label == "Leader" or mounted_only_free else 1, scope="force",
+                conditionGroups=[dict(type="or", conditions=conditions)])]
+            if label == "Support":
+                unit["associations"][0]["defaultSelectionEntryId"] = "none"
+
+
 # ---------------------------------------------------------------- display
 def format_subrules(catalogue):
     """Emperor's Children layout: sub-headings are bold lines, not large Markdown headings.
@@ -996,6 +1041,7 @@ def build(source, catalogue_path, system_path):
     b = Builder(source, catalogue, system)
     build_army_rules(b)
     units = [b.datasheet(name) for name in b.data]
+    add_associations(b, units)
     detachment_entry, enhancements, stratagems, projects, skryre = build_detachments(b, units)
     shared_enh = build_enhancements(b, enhancements, units)
     shared_projects, army_projects = build_projects(b, projects, units, skryre)

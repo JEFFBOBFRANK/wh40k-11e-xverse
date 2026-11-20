@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 16,
+    "revision": 17,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -4972,6 +4972,45 @@
             "typeId": "51b2-306e-1021-d207",
             "value": 150
           }
+        ],
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "beb2-7a15-6b47-fe2d",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Leader",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "61e3-d49f-47bf-7f00",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "a6a8-7941-6388-580d",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -5594,6 +5633,90 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 210
+          }
+        ],
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "3ea1-e630-50db-253e",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Leader",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4912-b42a-2464-3fe4",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "1667-9a15-0807-3c12",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "bd23-c118-818e-fe13",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "752a-0b03-54d6-c703",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "1d54-aca8-ded0-47bc",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "c2c9-e885-d2d5-0b7e",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "afa5-b7d2-f672-50f5",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -6503,6 +6626,45 @@
             "typeId": "51b2-306e-1021-d207",
             "value": 165
           }
+        ],
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "f1b2-b4d7-db74-2380",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Leader",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "8c0d-ccd1-ed3d-7e0f",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "df99-df66-cf3c-6384",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -6898,6 +7060,54 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 155
+          }
+        ],
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "e4b6-77a6-1cb7-ddcf",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Leader",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4ee6-c275-05bc-27fb",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "2eb3-7be4-7069-4984",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "dfb4-d9dc-abb8-740d",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -8829,6 +9039,54 @@
             "typeId": "51b2-306e-1021-d207",
             "value": 90
           }
+        ],
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "c61e-53f0-54c6-b1c3",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Leader",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4ae3-8d5b-1971-fddb",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "61e3-d49f-47bf-7f00",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "a6a8-7941-6388-580d",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -10042,6 +10300,45 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 85
+          }
+        ],
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "bf9c-0c5b-e907-ef4f",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Leader",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "61e3-d49f-47bf-7f00",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "a6a8-7941-6388-580d",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -12130,6 +12427,46 @@
             "typeId": "51b2-306e-1021-d207",
             "value": 75
           }
+        ],
+        "associations": [
+          {
+            "name": "Supporting",
+            "id": "9ab6-ff0d-3119-f216",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Support",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "8c0d-ccd1-ed3d-7e0f",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "df99-df66-cf3c-6384",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ],
+            "defaultSelectionEntryId": "none"
+          }
         ]
       },
       {
@@ -12663,6 +13000,82 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 80
+          }
+        ],
+        "associations": [
+          {
+            "name": "Supporting",
+            "id": "7c33-be61-d18c-1d83",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Support",
+            "max": 1,
+            "min": 1,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "4912-b42a-2464-3fe4",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "1d54-aca8-ded0-47bc",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "1667-9a15-0807-3c12",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "bd23-c118-818e-fe13",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "752a-0b03-54d6-c703",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "c2c9-e885-d2d5-0b7e",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ],
+            "defaultSelectionEntryId": "none"
           }
         ],
         "selectionEntryGroups": [
@@ -13604,6 +14017,64 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 85
+          }
+        ],
+        "associations": [
+          {
+            "name": "Supporting",
+            "id": "00df-e678-64db-477d",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Support",
+            "max": 1,
+            "min": 1,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "dfb4-d9dc-abb8-740d",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "d046-33a5-2018-5f5f",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "4ee6-c275-05bc-27fb",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "2eb3-7be4-7069-4984",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ],
+            "defaultSelectionEntryId": "none"
           }
         ],
         "selectionEntryGroups": [
@@ -18093,6 +18564,66 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Clan Standard",
+            "id": "a2c4-b767-2fb5-8ce5",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "c2cf-b3af-cd98-5311",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "associations": [
+              {
+                "name": "Bearer",
+                "id": "ba3f-31e8-6545-13eb",
+                "label": "Carried by",
+                "childId": "a2b6-ed1d-ee8d-125d",
+                "includeChildSelections": true,
+                "min": 1,
+                "max": 1,
+                "scope": "61e3-d49f-47bf-7f00"
+              }
+            ]
+          },
+          {
+            "name": "Scavenger Bell",
+            "id": "7f4c-ef32-ee52-176f",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "57e0-38d6-916c-a614",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "associations": [
+              {
+                "name": "Bearer",
+                "id": "fa18-e76b-ecfd-0ec6",
+                "label": "Carried by",
+                "childId": "a2b6-ed1d-ee8d-125d",
+                "includeChildSelections": true,
+                "min": 1,
+                "max": 1,
+                "scope": "61e3-d49f-47bf-7f00"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -18738,69 +19269,6 @@
               }
             ],
             "defaultSelectionEntryId": "d6ae-1d25-9ea4-d952"
-          },
-          {
-            "name": "Clan Standard or Scavenger Bell",
-            "id": "2780-ffd6-5183-ac72",
-            "hidden": false,
-            "selectionEntries": [
-              {
-                "name": "Clan Standard",
-                "id": "c00f-c360-deee-7f9d",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "constraints": [
-                  {
-                    "id": "57db-0543-3d42-1a46",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ]
-              },
-              {
-                "name": "Scavenger Bell",
-                "id": "d19e-9394-46d1-d74d",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "constraints": [
-                  {
-                    "id": "029b-d5e2-faaf-dab1",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "bd03-9690-a296-5856",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "525b-b3eb-4dda-f6e4",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ]
           },
           {
             "name": "Weapon Team models",
@@ -20878,63 +21346,16 @@
                 "defaultSelectionEntryId": "b677-bee2-b844-b77f"
               }
             ]
-          }
-        ],
-        "selectionEntryGroups": [
+          },
           {
-            "name": "Warhorn or Regimental Banner",
-            "id": "f288-14bd-4cd0-daf8",
+            "name": "Warhorn",
+            "id": "0e40-9f10-70c1-fa4f",
+            "type": "upgrade",
             "hidden": false,
-            "selectionEntries": [
-              {
-                "name": "Warhorn",
-                "id": "266c-b11e-d29d-15ad",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "constraints": [
-                  {
-                    "id": "779b-fa7c-3494-6e70",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ]
-              },
-              {
-                "name": "Regimental Banner",
-                "id": "da64-9f1f-eb6b-7024",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "constraints": [
-                  {
-                    "id": "a8f5-655c-e3c5-9841",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ]
-              }
-            ],
+            "import": true,
             "constraints": [
               {
-                "id": "0fcb-f711-6996-3b59",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "87f3-7f70-2e90-0e88",
+                "id": "b96f-ba95-593f-b3b3",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -20942,8 +21363,115 @@
                 "shared": true,
                 "includeChildSelections": false
               }
+            ],
+            "associations": [
+              {
+                "name": "Bearer",
+                "id": "0b79-99d4-fa98-34d9",
+                "label": "Carried by",
+                "childId": "model",
+                "includeChildSelections": true,
+                "min": 1,
+                "max": 1,
+                "scope": "a6a8-7941-6388-580d"
+              }
             ]
           },
+          {
+            "name": "Regimental Banner",
+            "id": "d541-2c16-e2d4-d1f9",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "4c5b-4a90-80b1-c9b7",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "associations": [
+              {
+                "name": "Bearer",
+                "id": "d923-425b-08a1-5eaf",
+                "label": "Carried by",
+                "childId": "model",
+                "includeChildSelections": true,
+                "min": 1,
+                "max": 1,
+                "scope": "a6a8-7941-6388-580d"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "a6a8-7941-6388-580d",
+                        "childName": "Stormvermin",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "id": "ec75-bff8-6e84-26f3",
+            "type": "max",
+            "value": 3,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 125
+          }
+        ],
+        "selectionEntryGroups": [
           {
             "name": "Enhancements and Upgrades",
             "id": "3e36-f1ce-cd78-0e90",
@@ -21039,69 +21567,6 @@
                 "includeChildSelections": false
               }
             ]
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "before",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "a6a8-7941-6388-580d",
-                        "childName": "Stormvermin",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "instanceOf",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "constraints": [
-          {
-            "id": "ec75-bff8-6e84-26f3",
-            "type": "max",
-            "value": 3,
-            "scope": "roster",
-            "field": "selections",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": true
-          }
-        ],
-        "costs": [
-          {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 125
           }
         ]
       },
@@ -22114,165 +22579,64 @@
                 "defaultSelectionEntryId": "6e23-e40f-6119-690a"
               }
             ]
-          }
-        ],
-        "selectionEntryGroups": [
+          },
           {
-            "name": "Grounding Rod or Spare Capacitor",
-            "id": "484c-7cbb-6f7e-d788",
+            "name": "Grounding Rod",
+            "id": "677f-1f2c-c9f0-9df2",
+            "type": "upgrade",
             "hidden": false,
-            "selectionEntries": [
-              {
-                "name": "Grounding Rod",
-                "id": "733c-d7d3-6dda-6cad",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "constraints": [
-                  {
-                    "id": "776e-fec1-7678-bf04",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ]
-              },
-              {
-                "name": "Spare Capacitor",
-                "id": "f7e6-681e-ecbc-739a",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "constraints": [
-                  {
-                    "id": "39d9-e569-a9ba-595f",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ]
-              }
-            ],
+            "import": true,
             "constraints": [
               {
-                "id": "4feb-8065-7d38-44d7",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "89b3-23dc-5b28-33ac",
+                "id": "11de-feea-dc88-b57c",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
+              }
+            ],
+            "associations": [
+              {
+                "name": "Bearer",
+                "id": "4ea6-0673-16de-f724",
+                "label": "Carried by",
+                "childId": "model",
+                "includeChildSelections": true,
+                "min": 1,
+                "max": 1,
+                "scope": "4912-b42a-2464-3fe4"
               }
             ]
           },
           {
-            "name": "Enhancements and Upgrades",
-            "id": "a194-9a9f-37b9-7596",
+            "name": "Spare Capacitor",
+            "id": "3c1f-6e62-1abb-0438",
+            "type": "upgrade",
             "hidden": false,
-            "entryLinks": [
-              {
-                "name": "Red-Toothed Veterans [Upgrade]",
-                "id": "6216-918e-3699-6250",
-                "targetId": "5e76-8ae6-f992-73ce",
-                "type": "selectionEntry",
-                "hidden": true,
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "value": false,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "2ae9-dabd-2e01-fc2d",
-                        "field": "selections",
-                        "scope": "force",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ],
-                "import": true
-              },
-              {
-                "name": "Black-Fur Boarders Upgrade [Upgrade]",
-                "id": "5d59-b1da-0e03-3f59",
-                "targetId": "2095-c616-64b4-0e03",
-                "type": "selectionEntry",
-                "hidden": true,
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "value": false,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "5d67-100c-5b2b-c6e7",
-                        "field": "selections",
-                        "scope": "force",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ],
-                "import": true
-              },
-              {
-                "name": "Veterans of a Hundred Battles [Upgrade]",
-                "id": "8c91-0eea-9625-75b4",
-                "targetId": "a6d2-6891-a7a9-ef8a",
-                "type": "selectionEntry",
-                "hidden": true,
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "value": false,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "9ed6-15fb-961a-e76e",
-                        "field": "selections",
-                        "scope": "force",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ],
-                "import": true
-              }
-            ],
+            "import": true,
             "constraints": [
               {
-                "id": "51b4-32b8-1422-8212",
+                "id": "e504-6826-dcff-51c4",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
+              }
+            ],
+            "associations": [
+              {
+                "name": "Bearer",
+                "id": "6c06-0e84-6d7d-c533",
+                "label": "Carried by",
+                "childId": "model",
+                "includeChildSelections": true,
+                "min": 1,
+                "max": 1,
+                "scope": "4912-b42a-2464-3fe4"
               }
             ]
           }
@@ -22412,6 +22776,104 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 85
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Enhancements and Upgrades",
+            "id": "a194-9a9f-37b9-7596",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Red-Toothed Veterans [Upgrade]",
+                "id": "6216-918e-3699-6250",
+                "targetId": "5e76-8ae6-f992-73ce",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "2ae9-dabd-2e01-fc2d",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Black-Fur Boarders Upgrade [Upgrade]",
+                "id": "5d59-b1da-0e03-3f59",
+                "targetId": "2095-c616-64b4-0e03",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "5d67-100c-5b2b-c6e7",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Veterans of a Hundred Battles [Upgrade]",
+                "id": "8c91-0eea-9625-75b4",
+                "targetId": "a6d2-6891-a7a9-ef8a",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "9ed6-15fb-961a-e76e",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              }
+            ],
+            "constraints": [
+              {
+                "id": "51b4-32b8-1422-8212",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ]
           }
         ]
       },
@@ -24138,45 +24600,16 @@
                 "defaultSelectionEntryId": "29d5-62e6-0fd6-dc96"
               }
             ]
-          }
-        ],
-        "selectionEntryGroups": [
+          },
           {
             "name": "Plague Banner",
-            "id": "4763-2950-65c9-e263",
+            "id": "0dc3-0c58-31a6-2c21",
+            "type": "upgrade",
             "hidden": false,
-            "selectionEntries": [
-              {
-                "name": "Plague Banner",
-                "id": "1541-6c04-2215-7da6",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "constraints": [
-                  {
-                    "id": "0b94-5088-aa54-db21",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ]
-              }
-            ],
+            "import": true,
             "constraints": [
               {
-                "id": "279c-3b96-230f-2342",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "895e-f092-ae29-63eb",
+                "id": "8408-d6d4-e001-34d8",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -24185,10 +24618,22 @@
                 "includeChildSelections": false
               }
             ],
+            "associations": [
+              {
+                "name": "Bearer",
+                "id": "d2e8-6c0c-df5c-9992",
+                "label": "Carried by",
+                "childId": "model",
+                "includeChildSelections": true,
+                "min": 1,
+                "max": 1,
+                "scope": "8c0d-ccd1-ed3d-7e0f"
+              }
+            ],
             "modifiers": [
               {
                 "type": "set",
-                "field": "895e-f092-ae29-63eb",
+                "field": "8408-d6d4-e001-34d8",
                 "value": 2,
                 "conditions": [
                   {
@@ -24206,40 +24651,13 @@
           },
           {
             "name": "Doom Gong",
-            "id": "f5bd-de34-bb2b-b2e4",
+            "id": "7c69-5704-aea6-fe02",
+            "type": "upgrade",
             "hidden": false,
-            "selectionEntries": [
-              {
-                "name": "Doom Gong",
-                "id": "5654-abb1-70f6-3511",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "constraints": [
-                  {
-                    "id": "9fd3-7578-d983-1de3",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ]
-              }
-            ],
+            "import": true,
             "constraints": [
               {
-                "id": "c265-0490-fd08-b0fb",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "05cd-7f03-c0be-763b",
+                "id": "0702-c3da-db4d-3607",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -24248,10 +24666,22 @@
                 "includeChildSelections": false
               }
             ],
+            "associations": [
+              {
+                "name": "Bearer",
+                "id": "c2e4-6373-308d-8c0f",
+                "label": "Carried by",
+                "childId": "model",
+                "includeChildSelections": true,
+                "min": 1,
+                "max": 1,
+                "scope": "8c0d-ccd1-ed3d-7e0f"
+              }
+            ],
             "modifiers": [
               {
                 "type": "set",
-                "field": "05cd-7f03-c0be-763b",
+                "field": "0702-c3da-db4d-3607",
                 "value": 2,
                 "conditions": [
                   {
@@ -24264,50 +24694,6 @@
                     "includeChildSelections": true
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "Enhancements and Upgrades",
-            "id": "cb5d-2873-196e-f961",
-            "hidden": false,
-            "entryLinks": [
-              {
-                "name": "Filth-Slicked Weapons [Upgrade]",
-                "id": "190d-a6fc-96d0-6267",
-                "targetId": "e0b5-2462-a92c-7e19",
-                "type": "selectionEntry",
-                "hidden": true,
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "value": false,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "f90f-3417-1b67-42ab",
-                        "field": "selections",
-                        "scope": "force",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ],
-                "import": true
-              }
-            ],
-            "constraints": [
-              {
-                "id": "af12-77bf-73cd-1a10",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
               }
             ]
           }
@@ -24447,6 +24833,52 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 80
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Enhancements and Upgrades",
+            "id": "cb5d-2873-196e-f961",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Filth-Slicked Weapons [Upgrade]",
+                "id": "190d-a6fc-96d0-6267",
+                "targetId": "e0b5-2462-a92c-7e19",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "f90f-3417-1b67-42ab",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              }
+            ],
+            "constraints": [
+              {
+                "id": "af12-77bf-73cd-1a10",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ]
           }
         ]
       },

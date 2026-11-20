@@ -8,6 +8,8 @@ M(...)  a model type in the unit: name, (min, max), fixed weapons, choices.
 C(...)  a choice group. Options are weapon names; "A + B" takes both.
         unit_max limits an option across the whole unit as (small, large).
 Sizes   one dict per legal unit size (model name -> count), with matching points.
+bearer_gear  wargear carried by a chosen model, as in the Emperor's Children Tormentors:
+        (name, bearer model or None for any model[, (small, large) copies]).
 """
 
 
@@ -93,7 +95,8 @@ UNITS = {
         sizes=[{"Clawleader": 1, "Clanrat": 9}, {"Clawleader": 2, "Clanrat": 18}],
         unit_choices=[
             C("Loadout", ["Sword and Board", "Warplock"]),
-            C("Clan Standard or Scavenger Bell", ["Clan Standard", "Scavenger Bell"], minimum=0)],
+        ],
+        bearer_gear=[("Clan Standard", "Clanrat"), ("Scavenger Bell", "Clanrat")],
         loadouts={
             "Sword and Board": dict(weapons=["Stubber pistol"], gear=["Shield"],
                                     choices=[C("Clanrat weapon", ["Clanrat blade", "Clanrat mace",
@@ -111,7 +114,7 @@ UNITS = {
                     C("Weapons", ["Storm-glaive", "Stormblade + Heavy shield", "Heavy shock weapon"],
                       unit_max={"Heavy shock weapon": (1, 1)})])],
         sizes=[{"Fangleader": 1, "Stormvermin": 9}],
-        unit_choices=[C("Warhorn or Regimental Banner", ["Warhorn", "Regimental Banner"], minimum=0)]),
+        bearer_gear=[("Warhorn", None), ("Regimental Banner", None)]),
     "Warp-Zap Stormvermin": dict(
         models=[M("Fangleader", (1, 1), wounds="2", choices=[
                     C("Ranged weapon", ["Heavy Warp-Zapper", "Long-barrel Warp-Zapper", "Warp-zap pistol"]),
@@ -120,7 +123,7 @@ UNITS = {
                     C("Ranged weapon", ["Heavy Warp-Zapper", "Long-barrel Warp-Zapper"],
                       unit_max={"Long-barrel Warp-Zapper": (1, 2)})])],
         sizes=[{"Fangleader": 1, "Warp-Zap Stormvermin": 4}, {"Fangleader": 1, "Warp-Zap Stormvermin": 9}],
-        unit_choices=[C("Grounding Rod or Spare Capacitor", ["Grounding Rod", "Spare Capacitor"], minimum=0)]),
+        bearer_gear=[("Grounding Rod", None), ("Spare Capacitor", None)]),
     "Warpclad Warpack": dict(
         models=[M("Fangleader", (1, 1), wounds="3", choices=[
                     C("Ranged weapon", ["Warp-disintegrator", "Warp-blaster"]),
@@ -132,8 +135,7 @@ UNITS = {
                 M("Plague Monk", (9, 19), choices=[
                     C("Weapon", ["Twin foetid blades", "Plague staff"], unit_max={"Plague staff": (2, 2)})])],
         sizes=[{"Plague Deacon": 1, "Plague Monk": 9}, {"Plague Deacon": 1, "Plague Monk": 19}],
-        unit_choices=[C("Plague Banner", ["Plague Banner"], minimum=0, scale=(1, 2)),
-                      C("Doom Gong", ["Doom Gong"], minimum=0, scale=(1, 2))]),
+        bearer_gear=[("Plague Banner", None, (1, 2)), ("Doom Gong", None, (1, 2))]),
     "Plague Censer Bearers": dict(
         models=[M("Censer-bearer Leader", (1, 1), ["Censer-bearer leader weapon"]),
                 M("Plague Censer Bearer", (4, 9), ["Great plague censer"])],
