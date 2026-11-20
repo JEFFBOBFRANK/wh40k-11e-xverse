@@ -1,6 +1,6 @@
 # Emperor’s Children 4.0 playtest
 
-Catalogue revision 84 includes 58 datasheets and 14 detachments.
+Catalogue revision 85 includes 58 datasheets and 14 detachments.
 The Pursuit of Perfection, Manifestation
 and Summoning Rituals are in Army Rules and References. Stratagem References
 shows the stratagems for the selected detachments.
@@ -125,6 +125,9 @@ Revision 84 leaves The Gilded Host's Gilded Defiance as the only -1 Damage
 stratagem. Peerless Bladesmen's Faultless Parry now subtracts 1 from Hit
 rolls for melee attacks against the unit, and The Exalted Court's Iron
 Mandate subtracts 1 from Wound rolls for attacks against the unit.
+
+Revision 85 stops the Obsessionist carrying the Icon of Excess: the Infractors'
+and Tormentors' icon picker offers only their other models.
 
 Rapture Talons cost 105 points for five or 200 for ten, with a 10-point
 surcharge on the third and subsequent squads. Regular Talons carry

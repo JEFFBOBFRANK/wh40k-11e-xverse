@@ -5,7 +5,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "name": "Chaos - Emperor's Children",
-    "revision": 84,
+    "revision": 85,
     "gameSystemRevision": 26,
     "library": false,
     "type": "catalogue",
@@ -31775,7 +31775,7 @@
                                 "type": "instanceOf",
                                 "value": 1,
                                 "shared": true,
-                                "includeChildSelections": false
+                                "includeChildSelections": true
                               },
                               {
                                 "childId": "0365-1cad-3ca6-596a",
@@ -31784,7 +31784,7 @@
                                 "type": "instanceOf",
                                 "value": 1,
                                 "shared": true,
-                                "includeChildSelections": false
+                                "includeChildSelections": true
                               },
                               {
                                 "childId": "90fd-6840-2410-28e9",
@@ -31793,7 +31793,7 @@
                                 "type": "instanceOf",
                                 "value": 1,
                                 "shared": true,
-                                "includeChildSelections": false
+                                "includeChildSelections": true
                               }
                             ]
                           }
@@ -32681,7 +32681,7 @@
                                 "type": "instanceOf",
                                 "value": 1,
                                 "shared": true,
-                                "includeChildSelections": false
+                                "includeChildSelections": true
                               },
                               {
                                 "childId": "0365-1cad-3ca6-596a",
@@ -32690,7 +32690,7 @@
                                 "type": "instanceOf",
                                 "value": 1,
                                 "shared": true,
-                                "includeChildSelections": false
+                                "includeChildSelections": true
                               },
                               {
                                 "childId": "90fd-6840-2410-28e9",
@@ -32699,7 +32699,7 @@
                                 "type": "instanceOf",
                                 "value": 1,
                                 "shared": true,
-                                "includeChildSelections": false
+                                "includeChildSelections": true
                               }
                             ]
                           }
@@ -33752,7 +33752,7 @@
                         "type": "instanceOf",
                         "value": 1,
                         "shared": true,
-                        "includeChildSelections": false
+                        "includeChildSelections": true
                       },
                       {
                         "childId": "0365-1cad-3ca6-596a",
@@ -33761,7 +33761,7 @@
                         "type": "instanceOf",
                         "value": 1,
                         "shared": true,
-                        "includeChildSelections": false
+                        "includeChildSelections": true
                       },
                       {
                         "childId": "90fd-6840-2410-28e9",
@@ -33770,7 +33770,7 @@
                         "type": "instanceOf",
                         "value": 1,
                         "shared": true,
-                        "includeChildSelections": false
+                        "includeChildSelections": true
                       }
                     ]
                   }
@@ -35572,7 +35572,95 @@
                         "includeChildSelections": true,
                         "min": 1,
                         "max": 1,
-                        "scope": "dd01-50f2-b820-8d70"
+                        "scope": "dd01-50f2-b820-8d70",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "adac-f749-ccd3-1455",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "b021-d57d-3bfa-2096",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "5c16-9d2d-bf94-73c1",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "05c2-fa9f-07f3-09e4",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "1bad-a0bd-0a7f-6030",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "ae51-b349-82fb-6152",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "d89e-2e6e-4c07-e911",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "7cd9-1e97-669d-f93c",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "e6c0-b361-aebc-75ee",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
@@ -37101,7 +37189,95 @@
                         "includeChildSelections": true,
                         "min": 1,
                         "max": 1,
-                        "scope": "dd01-50f2-b820-8d70"
+                        "scope": "dd01-50f2-b820-8d70",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "adac-f749-ccd3-1455",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "b021-d57d-3bfa-2096",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "5c16-9d2d-bf94-73c1",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "05c2-fa9f-07f3-09e4",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "1bad-a0bd-0a7f-6030",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "ae51-b349-82fb-6152",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "d89e-2e6e-4c07-e911",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "7cd9-1e97-669d-f93c",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              },
+                              {
+                                "childId": "e6c0-b361-aebc-75ee",
+                                "field": "selections",
+                                "scope": "self",
+                                "type": "instanceOf",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
@@ -38911,7 +39087,95 @@
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
-                "scope": "dd01-50f2-b820-8d70"
+                "scope": "dd01-50f2-b820-8d70",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "adac-f749-ccd3-1455",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "b021-d57d-3bfa-2096",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "5c16-9d2d-bf94-73c1",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "05c2-fa9f-07f3-09e4",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "1bad-a0bd-0a7f-6030",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "ae51-b349-82fb-6152",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "d89e-2e6e-4c07-e911",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "7cd9-1e97-669d-f93c",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "e6c0-b361-aebc-75ee",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }

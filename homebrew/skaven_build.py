@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 20
+REVISION = 21
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -62,7 +62,10 @@ STAT_GEAR = {"Heavy shield": {"SV": "3+", "INV": "5+"}}
 STAT_KEYS = {"M": "M", "T": "T", "Sv": "SV", "W": "W", "LD": "LD", "OC": "OC", "InSv": "INV"}
 # Abilities that belong to an item other than the one they are named after.
 GEAR_ABILITY_HOME = {"Clanrat Shields": "Sword and Board"}
-WARGEAR_SORT = 50  # added wargear sits at the bottom of the unit editor, as on the Tormentors
+WARGEAR_SORT = 50
+# Squad leaders do not carry added wargear (standards, horns, banners...).
+SERGEANTS = {"Clawleader", "Fangleader", "Plague Deacon", "Bombardier", "Lead Gunner", "Lead Burner",
+             "Lead Scourger", "Censer-bearer Leader"}  # added wargear sits at the bottom of the unit editor, as on the Tormentors
 SMALL = {"of", "the", "a", "an", "and", "or", "to", "in", "on", "for", "with", "at", "by", "from"}
 
 
@@ -536,9 +539,14 @@ class Builder:
             small, large = gear[2] if len(gear) > 2 else (1, 1)
             eid = nid(unit_id + ":gear:" + name)
             limit = constraint(nid(eid + ":max"), "max", small)
+            bearers = [x["id"] for x in walk(node.get("selectionEntries", []) + node.get("selectionEntryGroups", []))
+                       if isinstance(x, dict) and x.get("type") == "model" and x["name"] not in SERGEANTS
+                       and (bearer is None or x["name"] == bearer)]
             item = entry(eid, name, constraints=[limit], sortIndex=WARGEAR_SORT, associations=[dict(
                 name=name, id=nid(eid + ":bearer"), childId="model", includeChildSelections=True, min=1, max=small,
-                scope=unit_id)])
+                scope=unit_id, conditionGroups=[dict(type="or", conditions=[
+                    dict(childId=b, field="selections", scope="self", type="instanceOf", value=1, shared=True,
+                         includeChildSelections=True) for b in bearers])])])
             if large != small and large_condition:
                 item["modifiers"] = [dict(type="set", field=limit["id"], value=large, conditions=[large_condition])]
             node["selectionEntries"].append(item)
@@ -571,6 +579,9 @@ class Builder:
                 base.setdefault("modifiers", []).append(dict(field=limit_id, type="increment", value=-1, repeats=[
                     dict(childId=vid, field="selections", scope=unit_id, shared=True, includeChildSelections=True,
                          value=1, repeats=1, roundUp=False)]))
+        base["defaultAmount"] = low  # as on the Tormentors: lets a picker take one model from the stack
+        if low == high:  # a fixed count stops New Recruit splitting a bearer off the stack;
+            mins["value"] = 0  # the group's own min/max still enforce the exact squad size
         return dict(name=f"{span} {plural}", id=gid, hidden=False, defaultSelectionEntryId=base["id"],
                     selectionEntries=[base] + variants,
                     constraints=[constraint(nid(gid + ":min"), "min", low), constraint(nid(gid + ":max"), "max", high)])

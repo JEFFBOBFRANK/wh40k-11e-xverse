@@ -1579,7 +1579,8 @@ def migrate(catalogue, system):
     apply_revision_82(catalogue)
     apply_revision_83(catalogue)
     apply_revision_84(catalogue)
-    catalogue["revision"] = 84
+    apply_revision_85(catalogue)
+    catalogue["revision"] = 85
     system["revision"] += 3
     catalogue["gameSystemRevision"] = system["revision"]
     catalogue["readme"] = "Emperor's Children 4.0 playtest."
@@ -1658,6 +1659,25 @@ def apply_revision_84(catalogue):
         rule = named(catalogue["sharedRules"], name)
         assert rule["description"].count(old) == 1, name
         rule["description"] = rule["description"].replace(old, new)
+
+
+SERGEANTS = {"Obsessionist"}
+
+
+def apply_revision_85(catalogue):
+    """Squad leaders do not carry the Icon of Excess: limit each bearer picker to the other models."""
+    changed = 0
+    for unit in catalogue["sharedSelectionEntries"]:
+        models = [m["id"] for m in walk(unit) if m.get("type") == "model" and m["name"] not in SERGEANTS]
+        for node in walk(unit):
+            for association in node.get("associations", []):
+                if association.get("childId") != "model":
+                    continue
+                association["conditionGroups"] = [{"type": "or", "conditions": [
+                    {"childId": m, "field": "selections", "scope": "self", "type": "instanceOf", "value": 1,
+                     "shared": True, "includeChildSelections": True} for m in models]}]
+                changed += 1
+    assert changed, "no bearer pickers found"
 
 
 def main():

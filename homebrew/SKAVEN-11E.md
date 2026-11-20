@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 20 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 21 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 12
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -22,7 +22,8 @@ detachments). The layout follows the Emperor's Children catalogue.
 - Unit wargear (Clan Standard, Scavenger Bell, Warhorn, Regimental Banner, Plague
   Banner, Doom Gong, Grounding Rod, Spare Capacitor, Explosive Collars) copies the
   Emperor's Children Tormentors' Icon of Excess: a tick box at the bottom of the
-  unit editor that opens a picker for the model carrying it. Each item is separate,
+  unit editor that opens a picker for the model carrying it. Squad leaders
+  (Clawleader, Fangleader, Plague Deacon and similar) cannot carry it. Each item is separate,
   so a unit can have both of a pair.
 - An item's ability (including Clanrat Shields on Sword and Board and the
   Grinderfists' Deep Strike) is shown only when the item is taken.

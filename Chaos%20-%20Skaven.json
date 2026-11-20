@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 20,
+    "revision": 21,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -18555,7 +18555,23 @@
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
-                "scope": "61e3-d49f-47bf-7f00"
+                "scope": "61e3-d49f-47bf-7f00",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a2b6-ed1d-ee8d-125d",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "profiles": [
@@ -18601,7 +18617,23 @@
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
-                "scope": "61e3-d49f-47bf-7f00"
+                "scope": "61e3-d49f-47bf-7f00",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a2b6-ed1d-ee8d-125d",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "profiles": [
@@ -21091,7 +21123,41 @@
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
-                "scope": "a6a8-7941-6388-580d"
+                "scope": "a6a8-7941-6388-580d",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "ad1c-4f41-f2b5-e176",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "419d-9098-879f-cbeb",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "35db-e07f-eb88-8baf",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "profiles": [
@@ -21137,7 +21203,41 @@
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
-                "scope": "a6a8-7941-6388-580d"
+                "scope": "a6a8-7941-6388-580d",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "ad1c-4f41-f2b5-e176",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "419d-9098-879f-cbeb",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "35db-e07f-eb88-8baf",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "profiles": [
@@ -21175,7 +21275,7 @@
                   {
                     "id": "e2ca-07e3-d82f-8ce5",
                     "type": "min",
-                    "value": 9,
+                    "value": 0,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -21397,7 +21497,8 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "defaultAmount": 9
               },
               {
                 "name": "Stormvermin with Stormblade and Heavy shield",
@@ -22543,7 +22644,32 @@
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
-                "scope": "4912-b42a-2464-3fe4"
+                "scope": "4912-b42a-2464-3fe4",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "20bc-4a7b-f940-963f",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "0d59-904c-1a12-b91b",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "profiles": [
@@ -22589,7 +22715,32 @@
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
-                "scope": "4912-b42a-2464-3fe4"
+                "scope": "4912-b42a-2464-3fe4",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "20bc-4a7b-f940-963f",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "0d59-904c-1a12-b91b",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "profiles": [
@@ -22895,7 +23046,8 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "defaultAmount": 4
               },
               {
                 "name": "Warp-Zap Stormvermin with Long-barrel Warp-Zapper",
@@ -24847,7 +24999,32 @@
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
-                "scope": "8c0d-ccd1-ed3d-7e0f"
+                "scope": "8c0d-ccd1-ed3d-7e0f",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "174b-1c6d-dce0-da70",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "7b73-a8bc-a067-05cc",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "modifiers": [
@@ -24911,7 +25088,32 @@
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
-                "scope": "8c0d-ccd1-ed3d-7e0f"
+                "scope": "8c0d-ccd1-ed3d-7e0f",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "174b-1c6d-dce0-da70",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "7b73-a8bc-a067-05cc",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "modifiers": [
@@ -25148,7 +25350,8 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "defaultAmount": 9
               },
               {
                 "name": "Plague Monk with Plague staff",
@@ -26995,7 +27198,8 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "defaultAmount": 10
               },
               {
                 "name": "Night Runner with Eshin sling",
@@ -28089,7 +28293,8 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "defaultAmount": 5
               },
               {
                 "name": "Gutter Runner with Poisoned shuriken",
@@ -33223,7 +33428,8 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "defaultAmount": 4
               },
               {
                 "name": "Poison Wind Globadier with Death globe",
@@ -37499,7 +37705,8 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "defaultAmount": 1
               },
               {
                 "name": "Stormfiend with Shock gauntlets",
@@ -38036,7 +38243,8 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "defaultAmount": 1
               },
               {
                 "name": "Stormfiend with Ratling cannons",
@@ -38566,7 +38774,8 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "defaultAmount": 1
               },
               {
                 "name": "Stormfiend with Windlaunchers",
