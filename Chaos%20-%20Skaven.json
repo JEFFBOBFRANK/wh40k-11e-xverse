@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 19,
+    "revision": 20,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -7846,20 +7846,6 @@
             ]
           },
           {
-            "id": "4cc5-b841-7d42-62bd",
-            "name": "Screaming Bell",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model can be mounted on a Screaming Bell. If it is, use the Screaming Bell profile and abilities shown below."
-              }
-            ]
-          },
-          {
             "id": "c8f3-4b36-af0b-9a66",
             "name": "Better Them-Than Me! - Cast With Their Lives-Lives!",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -8226,6 +8212,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "While within 3\" of a friendly SKAVEN unit with a Starting Strength of 10 or more, this model has Lone Operative and attacks that target it subtract 1 from the Hit roll."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "4cc5-b841-7d42-62bd",
+                    "name": "Screaming Bell",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This model can be mounted on a Screaming Bell. If it is, use the Screaming Bell profile and abilities shown below."
                       }
                     ]
                   }
@@ -11277,20 +11277,6 @@
             ]
           },
           {
-            "id": "3f61-ee61-626f-8d35",
-            "name": "Plague Furnace",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model can be mounted on a Plague Furnace. If it is, use the Plague Furnace profile and abilities shown below."
-              }
-            ]
-          },
-          {
             "id": "f864-5fb1-3cf7-c83b",
             "name": "Better Them-Than Me! - Feed-Feed the Plague!",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -11657,6 +11643,20 @@
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
                         "$text": "While within 3\" of a friendly SKAVEN unit with a Starting Strength of 10 or more, this model has Lone Operative and attacks that target it subtract 1 from the Hit roll."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "3f61-ee61-626f-8d35",
+                    "name": "Plague Furnace",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This model can be mounted on a Plague Furnace. If it is, use the Plague Furnace profile and abilities shown below."
                       }
                     ]
                   }
@@ -17709,20 +17709,6 @@
             ]
           },
           {
-            "id": "0ead-6e16-a0af-850c",
-            "name": "Explosive Collars",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "If this unit is fitted with Explosive Collars: when this unit's last model is destroyed by a melee attack, before removing it, roll one D6 for each other unit within 3\" of that model, friendly or enemy. On a 4+, that unit suffers D3 mortal wounds."
-              }
-            ]
-          },
-          {
             "id": "5287-d6ca-8d9b-3f55",
             "name": "Unit Composition and Equipment",
             "hidden": true,
@@ -17907,7 +17893,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           }
         ],
         "selectionEntryGroups": [
@@ -17932,6 +17919,22 @@
                     "shared": true,
                     "includeChildSelections": false
                   }
+                ],
+                "profiles": [
+                  {
+                    "id": "0ead-6e16-a0af-850c",
+                    "name": "Explosive Collars",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "If this unit is fitted with Explosive Collars: when this unit's last model is destroyed by a melee attack, before removing it, roll one D6 for each other unit within 3\" of that model, friendly or enemy. On a 4+, that unit suffers D3 mortal wounds."
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -17954,7 +17957,8 @@
                 "shared": true,
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "sortIndex": 50
           },
           {
             "name": "Workshop Projects",
@@ -18250,20 +18254,6 @@
             ]
           },
           {
-            "id": "4602-b922-98fc-5c61",
-            "name": "Clanrat Shields",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this unit has the Sword and Board loadout, improve its models' Save characteristic by 1 against melee attacks (to a best of 4+)."
-              }
-            ]
-          },
-          {
             "id": "01ce-38cc-8be0-df1f",
             "name": "Weapon Teams",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -18274,34 +18264,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "A Weapon Team model uses the profile, weapons and abilities from its own datasheet, excluding Hide Behind Them-Things!. Those abilities apply only to that model and the attacks it makes. A Weapon Team model in this unit is never a Bombardier, Lead Gunner, Lead Burner or Lead Scourger. A Poison Wind Globadier is equipped with Poison-wind globes and Acolyte blades."
-              }
-            ]
-          },
-          {
-            "id": "248b-7eaf-636d-8bc6",
-            "name": "Clan Standard",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle, you can re-roll this unit's battle-shock roll."
-              }
-            ]
-          },
-          {
-            "id": "9acc-fa3c-7e2f-0cf0",
-            "name": "Scavenger Bell",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "You can re-roll advance rolls made for this unit."
               }
             ]
           },
@@ -18490,7 +18452,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           },
           {
             "name": "Clanrat",
@@ -18563,7 +18526,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 1
           },
           {
             "name": "Clan Standard",
@@ -18582,16 +18546,32 @@
                 "includeChildSelections": false
               }
             ],
+            "sortIndex": 50,
             "associations": [
               {
-                "name": "Bearer",
+                "name": "Clan Standard",
                 "id": "ba3f-31e8-6545-13eb",
-                "label": "Carried by",
-                "childId": "a2b6-ed1d-ee8d-125d",
+                "childId": "model",
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
                 "scope": "61e3-d49f-47bf-7f00"
+              }
+            ],
+            "profiles": [
+              {
+                "id": "248b-7eaf-636d-8bc6",
+                "name": "Clan Standard",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Once per battle, you can re-roll this unit's battle-shock roll."
+                  }
+                ]
               }
             ]
           },
@@ -18612,16 +18592,32 @@
                 "includeChildSelections": false
               }
             ],
+            "sortIndex": 50,
             "associations": [
               {
-                "name": "Bearer",
+                "name": "Scavenger Bell",
                 "id": "fa18-e76b-ecfd-0ec6",
-                "label": "Carried by",
-                "childId": "a2b6-ed1d-ee8d-125d",
+                "childId": "model",
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
                 "scope": "61e3-d49f-47bf-7f00"
+              }
+            ],
+            "profiles": [
+              {
+                "id": "9acc-fa3c-7e2f-0cf0",
+                "name": "Scavenger Bell",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "You can re-roll advance rolls made for this unit."
+                  }
+                ]
               }
             ]
           }
@@ -18981,6 +18977,22 @@
                     ],
                     "defaultSelectionEntryId": "710f-9d8a-4efa-b719"
                   }
+                ],
+                "profiles": [
+                  {
+                    "id": "4602-b922-98fc-5c61",
+                    "name": "Clanrat Shields",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "While this unit has the Sword and Board loadout, improve its models' Save characteristic by 1 against melee attacks (to a best of 4+)."
+                      }
+                    ]
+                  }
                 ]
               },
               {
@@ -19268,7 +19280,8 @@
                 "includeChildSelections": false
               }
             ],
-            "defaultSelectionEntryId": "d6ae-1d25-9ea4-d952"
+            "defaultSelectionEntryId": "d6ae-1d25-9ea4-d952",
+            "sortIndex": 20
           },
           {
             "name": "Weapon Team models",
@@ -20163,7 +20176,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 21
           },
           {
             "name": "Enhancements and Upgrades",
@@ -20594,34 +20608,6 @@
             ]
           },
           {
-            "id": "ebef-67c4-63cb-99e0",
-            "name": "Warhorn",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle, add 1 to this unit's charge roll."
-              }
-            ]
-          },
-          {
-            "id": "921b-bc68-2bcf-4a65",
-            "name": "Regimental Banner",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this unit is within range of an objective, you can re-roll this unit's battle-shock rolls."
-              }
-            ]
-          },
-          {
             "id": "0850-e441-6ca4-2c5f",
             "name": "Unit Composition and Equipment",
             "hidden": true,
@@ -20729,6 +20715,24 @@
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "field": "hidden",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "7d04-2eca-5ec2-3c00",
+                        "field": "selections",
+                        "scope": "a6a8-7941-6388-580d",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -20818,6 +20822,50 @@
                     "hidden": false,
                     "import": true,
                     "profiles": [
+                      {
+                        "id": "01f3-1ada-5a9f-8a29",
+                        "name": "Fangleader (Heavy shield)",
+                        "hidden": false,
+                        "typeId": "c547-1836-d8a-ff4f",
+                        "typeName": "Unit",
+                        "characteristics": [
+                          {
+                            "name": "M",
+                            "typeId": "e703-ecb6-5ce7-aec1",
+                            "$text": "6\""
+                          },
+                          {
+                            "name": "T",
+                            "typeId": "d29d-cf75-fc2d-34a4",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "Sv",
+                            "typeId": "450-a17e-9d5e-29da",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "W",
+                            "typeId": "750a-a2ec-90d3-21fe",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "LD",
+                            "typeId": "58d2-b879-49c7-43bc",
+                            "$text": "7+"
+                          },
+                          {
+                            "name": "OC",
+                            "typeId": "bef7-942a-1a23-59f8",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "InSv",
+                            "typeId": "55a7-5b54-c60d-11dc",
+                            "$text": "5+"
+                          }
+                        ]
+                      },
                       {
                         "id": "71db-c01b-1b5f-7a8b",
                         "name": "Master-forged stormblade",
@@ -21014,7 +21062,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           },
           {
             "name": "Warhorn",
@@ -21033,16 +21082,32 @@
                 "includeChildSelections": false
               }
             ],
+            "sortIndex": 50,
             "associations": [
               {
-                "name": "Bearer",
+                "name": "Warhorn",
                 "id": "0b79-99d4-fa98-34d9",
-                "label": "Carried by",
                 "childId": "model",
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
                 "scope": "a6a8-7941-6388-580d"
+              }
+            ],
+            "profiles": [
+              {
+                "id": "ebef-67c4-63cb-99e0",
+                "name": "Warhorn",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Once per battle, add 1 to this unit's charge roll."
+                  }
+                ]
               }
             ]
           },
@@ -21063,16 +21128,32 @@
                 "includeChildSelections": false
               }
             ],
+            "sortIndex": 50,
             "associations": [
               {
-                "name": "Bearer",
+                "name": "Regimental Banner",
                 "id": "d923-425b-08a1-5eaf",
-                "label": "Carried by",
                 "childId": "model",
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
                 "scope": "a6a8-7941-6388-580d"
+              }
+            ],
+            "profiles": [
+              {
+                "id": "921b-bc68-2bcf-4a65",
+                "name": "Regimental Banner",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "While this unit is within range of an objective, you can re-roll this unit's battle-shock rolls."
+                  }
+                ]
               }
             ]
           }
@@ -21338,7 +21419,7 @@
                 "profiles": [
                   {
                     "id": "e8f5-581f-6e3b-4c34",
-                    "name": "Stormvermin",
+                    "name": "Stormvermin (Heavy shield)",
                     "hidden": false,
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -21356,7 +21437,7 @@
                       {
                         "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da",
-                        "$text": "4+"
+                        "$text": "3+"
                       },
                       {
                         "name": "W",
@@ -21376,7 +21457,7 @@
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": "-"
+                        "$text": "5+"
                       }
                     ]
                   }
@@ -21668,7 +21749,8 @@
                 "shared": true,
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "sortIndex": 1
           },
           {
             "name": "Enhancements and Upgrades",
@@ -21879,34 +21961,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed Hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
-              }
-            ]
-          },
-          {
-            "id": "e619-db27-976c-9098",
-            "name": "Grounding Rod",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "You can re-roll the Warpstone Backlash roll made for this unit."
-              }
-            ]
-          },
-          {
-            "id": "0559-0776-8dd0-00ce",
-            "name": "Spare Capacitor",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle, when this unit is selected to shoot, add 1 to the Attacks characteristic of its Heavy Warp-Zappers until the end of the phase. After this unit has shot, it suffers D3 mortal wounds in addition to any Warpstone Backlash."
               }
             ]
           },
@@ -22460,7 +22514,8 @@
                 ],
                 "defaultSelectionEntryId": "86bd-2ae3-dd9a-3d5b"
               }
-            ]
+            ],
+            "sortIndex": 0
           },
           {
             "name": "Grounding Rod",
@@ -22479,16 +22534,32 @@
                 "includeChildSelections": false
               }
             ],
+            "sortIndex": 50,
             "associations": [
               {
-                "name": "Bearer",
+                "name": "Grounding Rod",
                 "id": "4ea6-0673-16de-f724",
-                "label": "Carried by",
                 "childId": "model",
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
                 "scope": "4912-b42a-2464-3fe4"
+              }
+            ],
+            "profiles": [
+              {
+                "id": "e619-db27-976c-9098",
+                "name": "Grounding Rod",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "You can re-roll the Warpstone Backlash roll made for this unit."
+                  }
+                ]
               }
             ]
           },
@@ -22509,16 +22580,32 @@
                 "includeChildSelections": false
               }
             ],
+            "sortIndex": 50,
             "associations": [
               {
-                "name": "Bearer",
+                "name": "Spare Capacitor",
                 "id": "6c06-0e84-6d7d-c533",
-                "label": "Carried by",
                 "childId": "model",
                 "includeChildSelections": true,
                 "min": 1,
                 "max": 1,
                 "scope": "4912-b42a-2464-3fe4"
+              }
+            ],
+            "profiles": [
+              {
+                "id": "0559-0776-8dd0-00ce",
+                "name": "Spare Capacitor",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Once per battle, when this unit is selected to shoot, add 1 to the Attacks characteristic of its Heavy Warp-Zappers until the end of the phase. After this unit has shot, it suffers D3 mortal wounds in addition to any Warpstone Backlash."
+                  }
+                ]
               }
             ]
           }
@@ -23083,7 +23170,8 @@
                 "shared": true,
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "sortIndex": 1
           },
           {
             "name": "Enhancements and Upgrades",
@@ -23891,7 +23979,8 @@
                 ],
                 "defaultSelectionEntryId": "54fd-2377-c7b7-cae6"
               }
-            ]
+            ],
+            "sortIndex": 0
           },
           {
             "name": "Warpclad",
@@ -24135,7 +24224,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 1
           }
         ],
         "modifiers": [
@@ -24528,34 +24618,6 @@
             ]
           },
           {
-            "id": "4edd-c8ed-9484-d6d7",
-            "name": "Plague Banner",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle, at the start of the Fight phase, this unit can raise its Plague Banner. If it does, until the end of the phase, melee weapons equipped by models in this unit have [SUSTAINED HITS 1]."
-              }
-            ]
-          },
-          {
-            "id": "1cd4-ac66-5bf1-1646",
-            "name": "Doom Gong",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time a charge roll is made for this unit, you can re-roll that roll."
-              }
-            ]
-          },
-          {
             "id": "68c7-88af-b5a7-0c46",
             "name": "Unit Composition and Equipment",
             "hidden": true,
@@ -24756,7 +24818,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           },
           {
             "name": "Plague Banner",
@@ -24775,11 +24838,11 @@
                 "includeChildSelections": false
               }
             ],
+            "sortIndex": 50,
             "associations": [
               {
-                "name": "Bearer",
+                "name": "Plague Banner",
                 "id": "d2e8-6c0c-df5c-9992",
-                "label": "Carried by",
                 "childId": "model",
                 "includeChildSelections": true,
                 "min": 1,
@@ -24804,6 +24867,22 @@
                   }
                 ]
               }
+            ],
+            "profiles": [
+              {
+                "id": "4edd-c8ed-9484-d6d7",
+                "name": "Plague Banner",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Once per battle, at the start of the Fight phase, this unit can raise its Plague Banner. If it does, until the end of the phase, melee weapons equipped by models in this unit have [SUSTAINED HITS 1]."
+                  }
+                ]
+              }
             ]
           },
           {
@@ -24823,11 +24902,11 @@
                 "includeChildSelections": false
               }
             ],
+            "sortIndex": 50,
             "associations": [
               {
-                "name": "Bearer",
+                "name": "Doom Gong",
                 "id": "c2e4-6373-308d-8c0f",
-                "label": "Carried by",
                 "childId": "model",
                 "includeChildSelections": true,
                 "min": 1,
@@ -24849,6 +24928,22 @@
                     "value": 20,
                     "shared": true,
                     "includeChildSelections": true
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "id": "1cd4-ac66-5bf1-1646",
+                "name": "Doom Gong",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Each time a charge roll is made for this unit, you can re-roll that roll."
                   }
                 ]
               }
@@ -25223,7 +25318,8 @@
                 "shared": true,
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "sortIndex": 1
           },
           {
             "name": "Enhancements and Upgrades",
@@ -25651,7 +25747,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           },
           {
             "name": "Plague Censer Bearer",
@@ -25815,7 +25912,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 1
           }
         ],
         "modifiers": [
@@ -26268,7 +26366,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           }
         ],
         "modifiers": [
@@ -27410,7 +27509,8 @@
                 "shared": true,
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "sortIndex": 0
           }
         ],
         "modifiers": [
@@ -28499,7 +28599,8 @@
                 "shared": true,
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "sortIndex": 0
           }
         ],
         "modifiers": [
@@ -29002,7 +29103,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           }
         ],
         "modifiers": [
@@ -29560,6 +29662,7 @@
                 ]
               }
             ],
+            "sortIndex": 0,
             "costs": [
               {
                 "name": "pts",
@@ -29811,6 +29914,7 @@
                 ]
               }
             ],
+            "sortIndex": 1,
             "costs": [
               {
                 "name": "pts",
@@ -30647,6 +30751,7 @@
                 ]
               }
             ],
+            "sortIndex": 0,
             "costs": [
               {
                 "name": "pts",
@@ -30898,6 +31003,7 @@
                 ]
               }
             ],
+            "sortIndex": 1,
             "costs": [
               {
                 "name": "pts",
@@ -31713,6 +31819,7 @@
                 ]
               }
             ],
+            "sortIndex": 0,
             "costs": [
               {
                 "name": "pts",
@@ -31957,6 +32064,7 @@
                 ]
               }
             ],
+            "sortIndex": 1,
             "costs": [
               {
                 "name": "pts",
@@ -32785,7 +32893,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           }
         ],
         "selectionEntryGroups": [
@@ -33649,7 +33758,8 @@
                 "shared": true,
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "sortIndex": 1
           },
           {
             "name": "Enhancements and Upgrades",
@@ -34385,7 +34495,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           }
         ],
         "modifiers": [
@@ -35804,6 +35915,7 @@
                 ]
               }
             ],
+            "sortIndex": 0,
             "costs": [
               {
                 "name": "pts",
@@ -36004,20 +36116,6 @@
           }
         ],
         "profiles": [
-          {
-            "id": "eca4-68c0-ba4b-9498",
-            "name": "Packmaster",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this unit contains one or more Packmaster models, add 1 to charge rolls made for this unit and add 1 to the Hit roll each time a Rat Ogor model in this unit makes a melee attack."
-              }
-            ]
-          },
           {
             "id": "4a9e-f5ec-1da3-574f",
             "name": "Frenzied Brutes",
@@ -36231,7 +36329,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           },
           {
             "name": "Packmaster",
@@ -36301,6 +36400,20 @@
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
+                  }
+                ]
+              },
+              {
+                "id": "eca4-68c0-ba4b-9498",
+                "name": "Packmaster",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "While this unit contains one or more Packmaster models, add 1 to charge rolls made for this unit and add 1 to the Hit roll each time a Rat Ogor model in this unit makes a melee attack."
                   }
                 ]
               }
@@ -36379,7 +36492,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 1
           }
         ],
         "modifiers": [
@@ -36880,7 +36994,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           }
         ],
         "modifiers": [
@@ -37058,20 +37173,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "This unit is eligible to shoot while it is engaged."
-              }
-            ]
-          },
-          {
-            "id": "28dc-ce3e-88b5-c971",
-            "name": "Grinderfists",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this unit contains one or more models equipped with Grinderfists, it has the Deep Strike ability. When this unit is set up on the battlefield using Deep Strike, create one friendly Gnawhole within 3\" of it."
               }
             ]
           },
@@ -37641,7 +37742,8 @@
                 "shared": true,
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "sortIndex": 0
           },
           {
             "name": "1-2 Stormfiends with Grinderfists or Ratling cannons",
@@ -37770,6 +37872,20 @@
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
                             "$text": "Anti-Vehicle 4+, Devastating Wounds"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "28dc-ce3e-88b5-c971",
+                        "name": "Grinderfists",
+                        "typeId": "9cc3-6d83-4dd3-9b64",
+                        "typeName": "Abilities",
+                        "hidden": false,
+                        "characteristics": [
+                          {
+                            "name": "Description",
+                            "typeId": "9b8f-694b-e5e-b573",
+                            "$text": "While this unit contains one or more models equipped with Grinderfists, it has the Deep Strike ability. When this unit is set up on the battlefield using Deep Strike, create one friendly Gnawhole within 3\" of it."
                           }
                         ]
                       }
@@ -38170,7 +38286,8 @@
                 "shared": true,
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "sortIndex": 1
           },
           {
             "name": "1-2 Stormfiends with Warpfire projectors or Windlaunchers",
@@ -38713,7 +38830,8 @@
                 "shared": true,
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "sortIndex": 2
           },
           {
             "name": "Enhancements and Upgrades",
@@ -39624,20 +39742,6 @@
         ],
         "profiles": [
           {
-            "id": "8709-4124-3039-96bc",
-            "name": "Packmaster",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this unit contains a Packmaster model, add 1 to charge rolls made for this unit and add 1 to the Hit roll each time a Wolf Rat model in this unit makes a melee attack."
-              }
-            ]
-          },
-          {
             "id": "e127-b2ee-851c-cba7",
             "name": "Fleet Predators",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -39873,7 +39977,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           },
           {
             "name": "Packmaster",
@@ -39943,6 +40048,20 @@
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
+                  }
+                ]
+              },
+              {
+                "id": "8709-4124-3039-96bc",
+                "name": "Packmaster",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "While this unit contains a Packmaster model, add 1 to charge rolls made for this unit and add 1 to the Hit roll each time a Wolf Rat model in this unit makes a melee attack."
                   }
                 ]
               }
@@ -40021,7 +40140,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 1
           }
         ],
         "modifiers": [
@@ -40598,20 +40718,6 @@
         ],
         "profiles": [
           {
-            "id": "adad-faa6-2c77-2f12",
-            "name": "Packmaster",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this unit contains a Packmaster model, add 1 to advance and charge rolls made for this unit and add 1 to the Hit roll each time a Rat Pack base in this unit makes an attack."
-              }
-            ]
-          },
-          {
             "id": "c711-e877-295d-5b5f",
             "name": "Hundreds of Rats",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -40854,7 +40960,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 0
           },
           {
             "name": "Packmaster",
@@ -40924,6 +41031,20 @@
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
+                  }
+                ]
+              },
+              {
+                "id": "adad-faa6-2c77-2f12",
+                "name": "Packmaster",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "While this unit contains a Packmaster model, add 1 to advance and charge rolls made for this unit and add 1 to the Hit roll each time a Rat Pack base in this unit makes an attack."
                   }
                 ]
               }
@@ -41002,7 +41123,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 1
           }
         ],
         "modifiers": [

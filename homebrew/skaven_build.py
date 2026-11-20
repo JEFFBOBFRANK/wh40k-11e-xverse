@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 19
+REVISION = 20
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -57,6 +57,12 @@ DETACHMENTS = {  # DP and Force Dispositions from the handoff
 ROLE_CATEGORY = {"EPIC HERO": "Epic Hero", "CHARACTER": "Character", "BATTLELINE": "Battleline",
                  "INFANTRY": "Infantry", "MOUNTED": "Mounted", "BEAST": "Beast", "MONSTER": "Monster",
                  "VEHICLE": "Vehicle", "DEDICATED TRANSPORT": "Dedicated Transport"}
+# Wargear that changes a model's characteristics (Stormvermin heavy shields).
+STAT_GEAR = {"Heavy shield": {"SV": "3+", "INV": "5+"}}
+STAT_KEYS = {"M": "M", "T": "T", "Sv": "SV", "W": "W", "LD": "LD", "OC": "OC", "InSv": "INV"}
+# Abilities that belong to an item other than the one they are named after.
+GEAR_ABILITY_HOME = {"Clanrat Shields": "Sword and Board"}
+WARGEAR_SORT = 50  # added wargear sits at the bottom of the unit editor, as on the Tormentors
 SMALL = {"of", "the", "a", "an", "and", "or", "to", "in", "on", "for", "with", "at", "by", "from"}
 
 
@@ -235,11 +241,19 @@ class Builder:
             node["constraints"].insert(0, constraint(nid(eid + ":min"), "min", 1))
         return node
 
-    def choice_group(self, owner, unit_id, spec, weapons, size_large=None):
+    def choice_group(self, owner, unit_id, spec, weapons, size_large=None, model=None):
         gid = nid(owner + ":choice:" + spec["label"])
         options = []
         for option in spec["options"]:
             node = self.gear_entry(gid, option, weapons)
+            gear = [g.strip() for g in option.split(" + ")]
+            if model and any(g in STAT_GEAR for g in gear):
+                base_profile = next(p for p in model["profiles"] if p["typeName"] == "Unit")
+                stats = {STAT_KEYS[c["name"]]: c["$text"] for c in base_profile["characteristics"]}
+                node.setdefault("profiles", []).insert(0, self.unit_profile(
+                    nid(node["id"] + ":profile"), gear_label(base_profile["name"], gear), with_gear_stats(stats, gear)))
+                base_profile.setdefault("modifiers", []).append(dict(
+                    type="set", field="hidden", value=True, conditions=[selected(node["id"], scope=unit_id)]))
             if spec.get("option_max"):
                 node["constraints"][-1]["value"] = spec["option_max"]
             if option in spec["unit_max"]:
@@ -374,6 +388,7 @@ class Builder:
             self.squad(node, ds, spec, weapons, prices)
 
         self.add_abilities(node, ds)
+        move_gear_abilities(node)
         self.attachments(node, ds)
         if name == "Vermindoom Land-Fortress":
             self.flagships(node, ds)
@@ -468,8 +483,10 @@ class Builder:
                                    constraint(nid(mid + ":max"), "max", high)],
                       profiles=[self.unit_profile(nid(mid + ":profile"), model["name"], stats)],
                       selectionEntries=[self.gear_entry(mid, w, weapons, fixed=True) for w in model["weapons"]],
-                      selectionEntryGroups=[self.choice_group(mid, unit_id, c, weapons, large)
-                                            for c in model["choices"]])
+                      selectionEntryGroups=[])
+            m["selectionEntryGroups"] = [self.choice_group(mid, unit_id, c, weapons, large, model=m)
+                                         for c in model["choices"]]
+            m["sortIndex"] = len(node["selectionEntries"]) + len(node["selectionEntryGroups"])
             if model["cost"]:
                 m["costs"] = [dict(name="pts", typeId=POINTS, value=model["cost"])]
             if not m["selectionEntryGroups"]:
@@ -479,7 +496,9 @@ class Builder:
             if not model["variants"]:
                 node["selectionEntries"].append(m)
                 continue
-            node["selectionEntryGroups"].append(self.model_family(unit_id, model, m, stats, weapons, large))
+            family = self.model_family(unit_id, model, m, stats, weapons, large)
+            family["sortIndex"] = m.pop("sortIndex")
+            node["selectionEntryGroups"].append(family)
         if prices and sizes:
             node["costs"][0]["value"] = prices[0]
             for i in range(1, len(sizes)):
@@ -498,6 +517,7 @@ class Builder:
                                                 for m, n in s.items()]) for s in sizes])]))
         for choice in spec.get("unit_choices", []):
             group = self.choice_group(unit_id, unit_id, choice, weapons, large)
+            group["sortIndex"] = 20 if choice["label"] == "Loadout" else WARGEAR_SORT
             if choice["label"] == "Loadout":
                 for option in group["selectionEntries"]:
                     loadout = spec["loadouts"][option["name"]]
@@ -508,15 +528,17 @@ class Builder:
                                                           for c in loadout["choices"]]
             node["selectionEntryGroups"].append(group)
         if spec.get("weapon_teams"):
-            node["selectionEntryGroups"].append(self.weapon_teams(unit_id, spec, model_ids))
+            teams = self.weapon_teams(unit_id, spec, model_ids)
+            teams["sortIndex"] = 21
+            node["selectionEntryGroups"].append(teams)
         for gear in spec.get("bearer_gear", []):
             name, bearer = gear[0], gear[1]
             small, large = gear[2] if len(gear) > 2 else (1, 1)
             eid = nid(unit_id + ":gear:" + name)
             limit = constraint(nid(eid + ":max"), "max", small)
-            item = entry(eid, name, constraints=[limit], associations=[dict(
-                name="Bearer", id=nid(eid + ":bearer"), label="Carried by", childId=model_ids[bearer] if bearer else "model",
-                includeChildSelections=True, min=1, max=small, scope=unit_id)])
+            item = entry(eid, name, constraints=[limit], sortIndex=WARGEAR_SORT, associations=[dict(
+                name=name, id=nid(eid + ":bearer"), childId="model", includeChildSelections=True, min=1, max=small,
+                scope=unit_id)])
             if large != small and large_condition:
                 item["modifiers"] = [dict(type="set", field=limit["id"], value=large, conditions=[large_condition])]
             node["selectionEntries"].append(item)
@@ -539,7 +561,8 @@ class Builder:
             small, big = limit or (high, high)
             cap = constraint(nid(vid + ":max"), "max", small)
             v = entry(vid, vname, "model", constraints=[cap],
-                      profiles=[self.unit_profile(nid(vid + ":profile"), name.split(" with ")[0], stats)],
+                      profiles=[self.unit_profile(nid(vid + ":profile"), gear_label(name.split(" with ")[0], vweapons),
+                                                  with_gear_stats(stats, vweapons))],
                       selectionEntries=[self.gear_entry(vid, w, weapons, fixed=True) for w in vweapons])
             if big != small and large:
                 v["modifiers"] = [dict(type="set", field=cap["id"], value=big, conditions=[large])]
@@ -689,6 +712,35 @@ def cards(lines):
         if next_marker:
             marker = next_marker
     return result
+
+
+def with_gear_stats(stats, gear):
+    stats = dict(stats)
+    for item in gear:
+        stats.update(STAT_GEAR.get(item, {}))
+    return stats
+
+
+def gear_label(name, gear):
+    """'Stormvermin' -> 'Stormvermin (Heavy shield)' when wargear changes the stat line."""
+    changed = [g for g in gear if g in STAT_GEAR]
+    return f"{name} ({', '.join(changed)})" if changed else name
+
+
+def move_gear_abilities(node):
+    """Show an item's ability only when the item is taken."""
+    homes = {}
+    for sub in walk(node.get("selectionEntries", []) + node.get("selectionEntryGroups", [])):
+        if isinstance(sub, dict) and sub.get("type") in ("upgrade", "model") and "name" in sub:
+            homes.setdefault(sub["name"], sub)
+    kept = []
+    for profile in node.get("profiles", []):
+        home = homes.get(GEAR_ABILITY_HOME.get(profile["name"], profile["name"]))
+        if profile.get("typeName") == "Abilities" and not profile.get("hidden") and home is not None:
+            home.setdefault("profiles", []).append(profile)
+        else:
+            kept.append(profile)
+    node["profiles"] = kept
 
 
 def norm_key(name):
