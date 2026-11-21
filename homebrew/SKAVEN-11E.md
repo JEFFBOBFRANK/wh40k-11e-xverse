@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 32 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 33 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 12
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -64,6 +64,8 @@ detachments). The layout follows the Emperor's Children catalogue.
 - FRAME is on every vehicle except the Eshin Nightstrider; GRENADES is on
   Clanrats, Stormvermin, Warp-Zap Stormvermin, Warpclad Warpack, Skryre Acolytes,
   Night Runners, Gutter Runners and Eshin Shadowriggers.
+- Movement: foot models are M7" (weapon teams stay M6"); Rat Ogors and the Mutant
+  Rat Ogor are M9". Skavenslaves are 20 or 40 models.
 - A PSYKER can use any number of DAMAGE spells, limited by its Psyker Level.
 - Every CHARACTER has a Warlord option; the army needs exactly one Warlord. The
   Warlord datasheet's WARLORD keyword is its own keyword, not the Warlord role.

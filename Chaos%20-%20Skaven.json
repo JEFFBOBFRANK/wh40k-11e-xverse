@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 32,
+    "revision": 33,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -4102,7 +4102,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
+                "$text": "7\""
               },
               {
                 "name": "T",
@@ -5244,7 +5244,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
+                "$text": "7\""
               },
               {
                 "name": "T",
@@ -6434,7 +6434,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
+                "$text": "7\""
               },
               {
                 "name": "T",
@@ -7964,7 +7964,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
+                "$text": "7\""
               },
               {
                 "name": "T",
@@ -9366,7 +9366,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
+                "$text": "7\""
               },
               {
                 "name": "T",
@@ -11425,7 +11425,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
+                "$text": "7\""
               },
               {
                 "name": "T",
@@ -12783,7 +12783,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
+                "$text": "7\""
               },
               {
                 "name": "T",
@@ -13876,7 +13876,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
+                "$text": "7\""
               },
               {
                 "name": "T",
@@ -18097,7 +18097,7 @@
                   {
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "6\""
+                    "$text": "7\""
                   },
                   {
                     "name": "T",
@@ -18623,7 +18623,7 @@
                   {
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "6\""
+                    "$text": "7\""
                   },
                   {
                     "name": "T",
@@ -18780,7 +18780,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -18924,7 +18924,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -19019,7 +19019,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -21240,7 +21240,7 @@
                   {
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "6\""
+                    "$text": "7\""
                   },
                   {
                     "name": "T",
@@ -21389,7 +21389,7 @@
                           {
                             "name": "M",
                             "typeId": "e703-ecb6-5ce7-aec1",
-                            "$text": "6\""
+                            "$text": "7\""
                           },
                           {
                             "name": "T",
@@ -21667,7 +21667,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -21970,7 +21970,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -22161,7 +22161,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -22325,7 +22325,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -22510,7 +22510,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -22722,7 +22722,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -22907,7 +22907,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -23092,7 +23092,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -23304,7 +23304,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -23827,7 +23827,7 @@
                   {
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "6\""
+                    "$text": "7\""
                   },
                   {
                     "name": "T",
@@ -24349,7 +24349,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -24766,7 +24766,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -25035,7 +25035,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -25300,7 +25300,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -25572,7 +25572,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -25837,7 +25837,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -27744,7 +27744,7 @@
                   {
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "6\""
+                    "$text": "7\""
                   },
                   {
                     "name": "T",
@@ -27910,7 +27910,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -28240,7 +28240,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -28404,7 +28404,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -28600,7 +28600,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -28803,7 +28803,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -28999,7 +28999,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
+                        "$text": "7\""
                       },
                       {
                         "name": "T",
@@ -29650,7 +29650,7 @@
                   {
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "6\""
+                    "$text": "7\""
                   },
                   {
                     "name": "T",
@@ -29799,7 +29799,7 @@
                   {
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "6\""
+                    "$text": "7\""
                   },
                   {
                     "name": "T",
@@ -40565,7 +40565,7 @@
                   {
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "8\""
+                    "$text": "9\""
                   },
                   {
                     "name": "T",
@@ -40714,7 +40714,7 @@
                   {
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "6\""
+                    "$text": "7\""
                   },
                   {
                     "name": "T",
@@ -43763,7 +43763,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "8\""
+                "$text": "9\""
               },
               {
                 "name": "T",
@@ -44465,7 +44465,7 @@
                   {
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "6\""
+                    "$text": "7\""
                   },
                   {
                     "name": "T",
@@ -45448,7 +45448,7 @@
                   {
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "6\""
+                    "$text": "7\""
                   },
                   {
                     "name": "T",
