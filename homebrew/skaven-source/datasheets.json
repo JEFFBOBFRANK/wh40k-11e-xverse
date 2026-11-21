@@ -2272,7 +2272,7 @@
    "Fangleader:W2. Equipped with 1 Heavy Warp-Zapper, 1 Long-barrel Warp-Zapper or 1 Warp-zap pistol, and 1 Fangleader blade or 1 Shock halberd.",
    "This unit can take either a Grounding Rod or a Spare Capacitor."
   ],
-  "points": "85pts / 170pts",
+  "points": "70pts / 140pts",
   "repeat_cost": "+15pts from the 3rd copy"
  },
  {
@@ -2475,7 +2475,7 @@
   "unit_composition": [
    "10 or 20 Plague Monks. One model is a Plague Deacon equipped with 1 Deacon blade. Every other model is equipped with Twin foetid blades. Up to 2 models can replace their Twin foetid blades with 1 Plague staff. For every 10 models in this unit, one model can carry a Plague Banner and one model can carry a Doom Gong; these do not replace that model's weapons."
   ],
-  "points": "80pts / 160pts",
+  "points": "70pts / 140pts",
   "repeat_cost": "+5pts from the 3rd copy"
  },
  {
@@ -2551,7 +2551,7 @@
   "unit_composition": [
    "5 or 10 Plague Censer Bearers. One model is the Censer-bearer Leader."
   ],
-  "points": "100pts / 200pts",
+  "points": "85pts / 170pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -2612,7 +2612,7 @@
   "unit_composition": [
    "10 or 20 Pusbags. Every model has Diseased bites."
   ],
-  "points": "80pts / 160pts",
+  "points": "70pts / 140pts",
   "repeat_cost": "+5pts from the 3rd copy"
  },
  {
@@ -2717,7 +2717,7 @@
   "unit_composition": [
    "10 or 20 Night Runners. Every model is equipped with 1 Eshin blade and either 1 Eshin shuriken or 1 Eshin sling. For every 10 models in this unit, one model can replace its Eshin shuriken or Eshin sling with 1 Poisoned shuriken."
   ],
-  "points": "60pts / 120pts",
+  "points": "55pts / 110pts",
   "repeat_cost": "+5pts from the 3rd copy"
  },
  {
@@ -2823,7 +2823,7 @@
   "unit_composition": [
    "5 or 10 Gutter Runners. Every model is equipped with 1 Twin Eshin blades and one of the following ranged weapons: 1 Warpstar repeater; 1 Poisoned shuriken; or 1 Eshin sling."
   ],
-  "points": "65pts / 130pts",
+  "points": "55pts / 110pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -2906,7 +2906,7 @@
   "unit_composition": [
    "Exactly 5 Eshin Shadowriggers. Every model is equipped with one Warp-needle pistol and Servo-assisted Eshin blades."
   ],
-  "points": "105pts",
+  "points": "80pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -3009,7 +3009,7 @@
    "1-3 Ratling Gun Teams. The first model in this unit is its Lead Gunner.",
    "Lead Gunner:W3. Replaces its Crew blades with Crew-leader blades and can also be equipped with 1 Warplock pistol."
   ],
-  "points": "35pts per model",
+  "points": "25pts per model",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -3112,7 +3112,7 @@
    "1-3 Warpfire Thrower Teams. The first model in this unit is its Lead Burner.",
    "Lead Burner:W3. Replaces its Crew blades with Crew-leader blades and can also be equipped with 1 Warplock pistol."
   ],
-  "points": "40pts per model",
+  "points": "30pts per model",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -3210,7 +3210,7 @@
    "1-3 Warpvolt Scourger Teams. The first model in this unit is its Lead Scourger.",
    "Lead Scourger:W3. Replaces its Crew blades with Crew-leader blades and can also be equipped with 1 Warplock pistol."
   ],
-  "points": "50pts per model",
+  "points": "40pts per model",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -3339,7 +3339,7 @@
    "1 Bombardier and 4 or 9 Poison Wind Globadiers. Every model is equipped with Poison-wind globes and Acolyte blades. For every 5 models in this unit, up to 1 Poison Wind Globadier can replace its Poison-wind globes with 1 Death globe and up to 1 Poison Wind Globadier can replace its Poison-wind globes with 1 Poison-wind mortar.",
    "Bombardier:W2. Replaces its Acolyte blades with 1 Bombardier blade and can also be equipped with 1 Warplock pistol."
   ],
-  "points": "70pts / 140pts",
+  "points": "55pts / 110pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -3410,7 +3410,7 @@
   "unit_composition": [
    "3 or 6 Warplock Jezzail teams."
   ],
-  "points": "135pts / 270pts",
+  "points": "100pts / 200pts",
   "repeat_cost": "+15pts from the 3rd copy"
  },
  {

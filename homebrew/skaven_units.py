@@ -112,8 +112,8 @@ UNITS = {
                                                                   "Clanrat spear"])]),
             "Warplock": dict(weapons=["Warplock carbine", "Clanrat blade", "Stubber pistol"]),
         },
-        weapon_teams=[("Ratling Gun Team", "Ratling Gun Teams", ["Ratling gun", "Crew blades"], 35),
-                      ("Warpfire Thrower Team", "Warpfire Thrower Teams", ["Warpfire thrower", "Crew blades"], 40),
+        weapon_teams=[("Ratling Gun Team", "Ratling Gun Teams", ["Ratling gun", "Crew blades"], 25),
+                      ("Warpfire Thrower Team", "Warpfire Thrower Teams", ["Warpfire thrower", "Crew blades"], 30),
                       ("Poison Wind Globadier", "Skryre Acolytes", ["Poison-wind globes", "Acolyte blades"], 10)]),
     "Stormvermin": dict(
         models=[M("Fangleader", (1, 1), wounds="2", choices=[
@@ -166,14 +166,14 @@ UNITS = {
         models=[M("Eshin Shadowrigger", (5, 5), ["Warp-needle pistol", "Servo-assisted Eshin blades"])],
         sizes=[{"Eshin Shadowrigger": 5}]),
     "Ratling Gun Teams": dict(models=[
-        M("Lead Gunner", (1, 1), ["Ratling gun", "Crew-leader blades"], choices=[C("Pistol", ["Warplock pistol"], minimum=0)], cost=35, wounds="3"),
-        M("Ratling Gun Team", (0, 2), ["Ratling gun", "Crew blades"], cost=35)]),
+        M("Lead Gunner", (1, 1), ["Ratling gun", "Crew-leader blades"], choices=[C("Pistol", ["Warplock pistol"], minimum=0)], cost=25, wounds="3"),
+        M("Ratling Gun Team", (0, 2), ["Ratling gun", "Crew blades"], cost=25)]),
     "Warpfire Thrower Teams": dict(models=[
-        M("Lead Burner", (1, 1), ["Warpfire thrower", "Crew-leader blades"], choices=[C("Pistol", ["Warplock pistol"], minimum=0)], cost=40, wounds="3"),
-        M("Warpfire Thrower Team", (0, 2), ["Warpfire thrower", "Crew blades"], cost=40)]),
+        M("Lead Burner", (1, 1), ["Warpfire thrower", "Crew-leader blades"], choices=[C("Pistol", ["Warplock pistol"], minimum=0)], cost=30, wounds="3"),
+        M("Warpfire Thrower Team", (0, 2), ["Warpfire thrower", "Crew blades"], cost=30)]),
     "Warpvolt Scourger Teams": dict(models=[
-        M("Lead Scourger", (1, 1), ["Warpvolt scourger", "Crew-leader blades"], choices=[C("Pistol", ["Warplock pistol"], minimum=0)], cost=50, wounds="3"),
-        M("Warpvolt Scourger Team", (0, 2), ["Warpvolt scourger", "Crew blades"], cost=50)]),
+        M("Lead Scourger", (1, 1), ["Warpvolt scourger", "Crew-leader blades"], choices=[C("Pistol", ["Warplock pistol"], minimum=0)], cost=40, wounds="3"),
+        M("Warpvolt Scourger Team", (0, 2), ["Warpvolt scourger", "Crew blades"], cost=40)]),
     "Skryre Acolytes": dict(
         models=[M("Bombardier", (1, 1), ["Poison-wind globes", "Bombardier blade"], wounds="2",
                   choices=[C("Pistol", ["Warplock pistol"], minimum=0)]),
