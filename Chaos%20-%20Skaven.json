@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 26,
+    "revision": 27,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -513,11 +513,22 @@
       {
         "name": "Unique: CLAN",
         "id": "ba57-8a86-675f-7040",
-        "hidden": false
+        "hidden": false,
+        "constraints": [
+          {
+            "id": "0fa1-6ec4-4f18-e688",
+            "type": "max",
+            "value": 1,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
+          }
+        ]
       },
       {
         "name": "Skurvy",
-        "id": "9a65-8973-a578-12c3",
+        "id": "085b-ed18-2400-e7f2",
         "hidden": false
       }
     ],
@@ -692,7 +703,7 @@
                           {
                             "childId": "7625-43a9-167b-e8a9",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -701,7 +712,7 @@
                           {
                             "childId": "e011-bf81-2671-b296",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -710,7 +721,7 @@
                           {
                             "childId": "f90f-3417-1b67-42ab",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -719,7 +730,7 @@
                           {
                             "childId": "2ae9-dabd-2e01-fc2d",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -728,7 +739,7 @@
                           {
                             "childId": "5d67-100c-5b2b-c6e7",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -737,7 +748,7 @@
                           {
                             "childId": "9ed6-15fb-961a-e76e",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -875,13 +886,6 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "b581-ee42-66f9-1b61",
-                    "name": "The Vermintide",
-                    "targetId": "7967-91d5-e37a-4fb4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
                     "id": "6982-78ef-dc3d-9621",
                     "name": "The Under-Empire",
                     "targetId": "37e5-8e7a-0c43-a435",
@@ -908,7 +912,7 @@
                           {
                             "childId": "af60-b16e-a417-528a",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -917,7 +921,7 @@
                           {
                             "childId": "e011-bf81-2671-b296",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -926,7 +930,7 @@
                           {
                             "childId": "f90f-3417-1b67-42ab",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -935,7 +939,7 @@
                           {
                             "childId": "2ae9-dabd-2e01-fc2d",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -944,7 +948,7 @@
                           {
                             "childId": "5d67-100c-5b2b-c6e7",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -953,7 +957,7 @@
                           {
                             "childId": "9ed6-15fb-961a-e76e",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1021,13 +1025,6 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "4515-4e7a-62e8-9987",
-                    "name": "The Vermintide",
-                    "targetId": "7967-91d5-e37a-4fb4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
                     "id": "3e6f-abe9-8b7a-2e53",
                     "name": "The Under-Empire",
                     "targetId": "37e5-8e7a-0c43-a435",
@@ -1047,7 +1044,7 @@
                           {
                             "childId": "af60-b16e-a417-528a",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1056,7 +1053,7 @@
                           {
                             "childId": "7625-43a9-167b-e8a9",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1065,7 +1062,7 @@
                           {
                             "childId": "f90f-3417-1b67-42ab",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1074,7 +1071,7 @@
                           {
                             "childId": "2ae9-dabd-2e01-fc2d",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1083,7 +1080,7 @@
                           {
                             "childId": "5d67-100c-5b2b-c6e7",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1092,7 +1089,7 @@
                           {
                             "childId": "9ed6-15fb-961a-e76e",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1198,13 +1195,6 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "6f73-3f44-7f60-154b",
-                    "name": "The Vermintide",
-                    "targetId": "7967-91d5-e37a-4fb4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
                     "id": "758c-d4a4-ed0f-a6d0",
                     "name": "Sacrifice",
                     "targetId": "66e9-9fe6-1bed-ba90",
@@ -1224,7 +1214,7 @@
                           {
                             "childId": "af60-b16e-a417-528a",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1233,7 +1223,7 @@
                           {
                             "childId": "7625-43a9-167b-e8a9",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1242,7 +1232,7 @@
                           {
                             "childId": "e011-bf81-2671-b296",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1251,7 +1241,7 @@
                           {
                             "childId": "2ae9-dabd-2e01-fc2d",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1260,7 +1250,7 @@
                           {
                             "childId": "5d67-100c-5b2b-c6e7",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1269,7 +1259,7 @@
                           {
                             "childId": "9ed6-15fb-961a-e76e",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1355,13 +1345,6 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "f9f3-65c9-14d4-4bc2",
-                    "name": "The Vermintide",
-                    "targetId": "7967-91d5-e37a-4fb4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
                     "id": "6adc-1c5b-32a8-c7d5",
                     "name": "Sacrifice",
                     "targetId": "66e9-9fe6-1bed-ba90",
@@ -1381,7 +1364,7 @@
                           {
                             "childId": "af60-b16e-a417-528a",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1390,7 +1373,7 @@
                           {
                             "childId": "7625-43a9-167b-e8a9",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1399,7 +1382,7 @@
                           {
                             "childId": "e011-bf81-2671-b296",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1408,7 +1391,7 @@
                           {
                             "childId": "f90f-3417-1b67-42ab",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1417,7 +1400,7 @@
                           {
                             "childId": "5d67-100c-5b2b-c6e7",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1426,7 +1409,7 @@
                           {
                             "childId": "9ed6-15fb-961a-e76e",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1512,13 +1495,6 @@
                   }
                 ],
                 "infoLinks": [
-                  {
-                    "id": "3f4b-d93f-b0ec-c38d",
-                    "name": "The Vermintide",
-                    "targetId": "7967-91d5-e37a-4fb4",
-                    "type": "rule",
-                    "hidden": false
-                  },
                   {
                     "id": "c4e5-5fab-080c-d016",
                     "name": "The Under-Empire",
@@ -1688,6 +1664,13 @@
                     "targetId": "ba57-8a86-675f-7040",
                     "primary": false,
                     "hidden": false
+                  },
+                  {
+                    "name": "Clan Skurvy Detachment",
+                    "id": "7d79-8e8b-c614-9809",
+                    "targetId": "5134-9a2c-0dd0-0564",
+                    "primary": false,
+                    "hidden": false
                   }
                 ],
                 "infoLinks": [
@@ -1711,7 +1694,7 @@
                           {
                             "childId": "af60-b16e-a417-528a",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1720,7 +1703,7 @@
                           {
                             "childId": "7625-43a9-167b-e8a9",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1729,7 +1712,7 @@
                           {
                             "childId": "e011-bf81-2671-b296",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1738,7 +1721,7 @@
                           {
                             "childId": "f90f-3417-1b67-42ab",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1747,7 +1730,7 @@
                           {
                             "childId": "2ae9-dabd-2e01-fc2d",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1756,7 +1739,7 @@
                           {
                             "childId": "9ed6-15fb-961a-e76e",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1837,7 +1820,7 @@
                           {
                             "childId": "af60-b16e-a417-528a",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1846,7 +1829,7 @@
                           {
                             "childId": "7625-43a9-167b-e8a9",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1855,7 +1838,7 @@
                           {
                             "childId": "e011-bf81-2671-b296",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1864,7 +1847,7 @@
                           {
                             "childId": "f90f-3417-1b67-42ab",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1873,7 +1856,7 @@
                           {
                             "childId": "2ae9-dabd-2e01-fc2d",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1882,7 +1865,7 @@
                           {
                             "childId": "5d67-100c-5b2b-c6e7",
                             "field": "selections",
-                            "scope": "force",
+                            "scope": "roster",
                             "type": "atLeast",
                             "value": 1,
                             "shared": true,
@@ -1960,13 +1943,6 @@
                   }
                 ],
                 "infoLinks": [
-                  {
-                    "id": "f425-4de1-1385-f494",
-                    "name": "The Vermintide",
-                    "targetId": "7967-91d5-e37a-4fb4",
-                    "type": "rule",
-                    "hidden": false
-                  },
                   {
                     "id": "40d9-138f-2329-234a",
                     "name": "Sacrifice",
@@ -2085,13 +2061,6 @@
                   }
                 ],
                 "infoLinks": [
-                  {
-                    "id": "8781-c14d-04cb-0b90",
-                    "name": "The Vermintide",
-                    "targetId": "7967-91d5-e37a-4fb4",
-                    "type": "rule",
-                    "hidden": false
-                  },
                   {
                     "id": "8674-cc33-28cd-a6db",
                     "name": "Sacrifice",
@@ -21140,7 +21109,7 @@
           {
             "type": "add",
             "field": "category",
-            "value": "9a65-8973-a578-12c3",
+            "value": "085b-ed18-2400-e7f2",
             "conditions": [
               {
                 "childId": "5d67-100c-5b2b-c6e7",

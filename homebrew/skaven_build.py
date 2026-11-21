@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 26
+REVISION = 27
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -63,6 +63,8 @@ STAT_KEYS = {"M": "M", "T": "T", "Sv": "SV", "W": "W", "LD": "LD", "OC": "OC", "
 # Abilities that belong to an item other than the one they are named after.
 GEAR_ABILITY_HOME = {"Clanrat Shields": "Sword and Board"}
 WARGEAR_SORT = 50
+# Category IDs referenced from outside the rebuilt entries (the Black-Flag mercenary links add SKURVY).
+KEPT_CATEGORY_IDS = {"Skurvy": "085b-ed18-2400-e7f2"}
 # Squad leaders do not carry added wargear (standards, horns, banners...).
 SERGEANTS = {"Clawleader", "Fangleader", "Plague Deacon", "Bombardier", "Lead Gunner", "Lead Burner",
              "Lead Scourger", "Censer-bearer Leader"}  # added wargear sits at the bottom of the unit editor, as on the Tormentors
@@ -179,7 +181,7 @@ class Builder:
             return c["id"], c["name"]
         if key not in self.categories:
             old = self.old_categories.get(key)
-            cid = old["id"] if old else nid("category:" + name)
+            cid = KEPT_CATEGORY_IDS.get(name) or (old["id"] if old else nid("category:" + name))
             self.categories[key] = dict(name=name, id=cid, hidden=False)
         c = self.categories[key]
         c["name"] = name
@@ -922,6 +924,8 @@ def build_detachments(b, units):
                    constraints=[constraint(nid(det["id"] + ":max"), "max", 1)],
                    costs=[dict(name="Detachment Points", typeId=DP, value=dp)], rules=[], categoryLinks=[])
         tags = (["3DP Detachment"] if dp == 3 else []) + dispositions + (["Unique: CLAN"] if name in CLAN_UNIQUE else [])
+        if name == "Clan Skurvy":
+            tags.append("Clan Skurvy Detachment")  # the game system shows Black-Flag Allies only with this tag
         det["categoryLinks"] = [b.category_link(det["id"], t) for t in tags]
         for heading, lines in merge_continued(sections(text)):
             if heading is None:
@@ -944,8 +948,11 @@ def build_detachments(b, units):
 
     # Only one Unique: CLAN detachment per army.
     clan = [d for d in group["selectionEntries"] if d["name"] in CLAN_UNIQUE]
+    clan_category = b.categories["unique: clan"]
+    clan_category["constraints"] = [constraint(nid(clan_category["id"] + ":max"), "max", 1, scope="roster",
+                                               child=True)]  # as the game system's Unique: ORDO
     for det in clan:
-        others = [selected(o["id"]) for o in clan if o is not det]
+        others = [selected(o["id"], scope="roster") for o in clan if o is not det]
         det["modifiers"] = [dict(type="set", field=det["constraints"][0]["id"], value=0,
                                  conditionGroups=[dict(type="or", conditions=others)])]
     skryre = next(d for d in group["selectionEntries"] if d["name"] == "Skryre Worship")
@@ -956,7 +963,6 @@ def build_detachments(b, units):
 WHOLE_SECTIONS = {"Secret Schemes", "The Great Workshops", "The Master Moulder's Ledger", "The Hidden Ledger", "The Plague Catalogue",
                   "Warlord Commands", "Clawpack Benefits", "The Plunder Ledger"}
 ARMY_RULE_PATTERNS = OrderedDict([
-    ("The Vermintide", r"\bVermin\b(?! Abilit)|Vermin Abilit|They Just Keep Coming|More-More Bodies"),
     ("The Under-Empire", r"Under-Empire|Gnawhole"),
     ("Scurry Away!", r"Scurry Away|Cornered Rats"),
     ("Warpstone", r"\[WARPSTONE\]"),
@@ -1259,6 +1265,7 @@ def build(source, catalogue_path, system_path):
     skurvy_det = next(d for d in detachment_entry["selectionEntryGroups"][0]["selectionEntries"]
                       if d["name"] == "Clan Skurvy")
     skurvy_id, _ = b.category("Skurvy")
+    assert skurvy_id == KEPT_CATEGORY_IDS["Skurvy"], skurvy_id
     in_skurvy = selected(skurvy_det["id"])
     clanrats["modifiers"].append(dict(type="add", field="category", value=skurvy_id, conditions=[in_skurvy]))
     claim_text = next(re.search(r"\*\*Claim-Claim the Prize!:\*\*\s*(.+)", r["description"]).group(1)
@@ -1301,6 +1308,7 @@ def build(source, catalogue_path, system_path):
     old = b.old
     keep_links = [l for l in old["entryLinks"]
                   if l["targetId"] not in {e["id"] for e in old["sharedSelectionEntries"]}]  # Black-Flag units
+
     shared_entries = [detachment_entry, army_ref, strat_ref, workshop, officers, contract, warlord] + units + shared_enh + \
         shared_projects
     root_links = []

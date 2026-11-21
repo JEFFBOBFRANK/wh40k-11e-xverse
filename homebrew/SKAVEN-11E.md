@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 26 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 27 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 12
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -50,7 +50,8 @@ detachments). The layout follows the Emperor's Children catalogue.
 - Skryre Worship: Workshop Projects cost Workshop Tokens (6 / 12 / 18 by battle
   size), at most 2 per unit and each once per army. Hidden Workshop and other
   unassigned projects are in the army-level Workshop Projects entry.
-- Clan Skurvy: Black-Flag mercenary links are unchanged. The three SKURVY
+- Clan Skurvy: the detachment carries the game system's Clan Skurvy Detachment
+  tag, which shows the Black-Flag Allies (mercenary) units. The three SKURVY
   CHARACTER enhancements are in "Skurvy Officers"; record which Black-Flag
   character carries each one.
 - Shadowy Dealings: Black Contract marks up to three Clanrats units; each gains
