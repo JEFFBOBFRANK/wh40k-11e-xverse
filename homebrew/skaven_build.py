@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 24
+REVISION = 25
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -171,9 +171,9 @@ class Builder:
     def entry_id(self, name):
         return self.old_ids.get(norm(name)) or nid("entry:" + name)
 
-    def category(self, name):
+    def category(self, name, own=False):
         key = name.casefold()
-        if key in self.sys_categories:
+        if key in self.sys_categories and not own:
             c = self.sys_categories[key]
             return c["id"], c["name"]
         if key not in self.categories:
@@ -302,7 +302,10 @@ class Builder:
         links = [self.category_link(owner, primary, True)]
         for kw in ds["keywords"]:
             name = ROLE_CATEGORY.get(kw) or title(kw)
-            if name != primary:
+            if name == "Warlord":  # the datasheet keyword, not the army's Warlord role
+                cid, _ = self.category(name, own=True)
+                links.append(dict(name=name, id=nid(owner + ":cat:" + cid), targetId=cid, primary=False, hidden=False))
+            elif name != primary:
                 links.append(self.category_link(owner, name))
         links.append(self.category_link(owner, "Faction: Skaven"))
         return links
@@ -1218,12 +1221,27 @@ def build(source, catalogue_path, system_path):
     shared_projects, army_projects = build_projects(b, projects, units, skryre)
     strat_links = build_stratagems(b, stratagems)
 
+    # Warlord: any CHARACTER can be chosen, as in the Emperor's Children catalogue; the game system requires one.
+    warlord_role = next(c for c in b.system["categoryEntries"] if c["name"] == "Warlord")
+    warlord_id = nid("warlord-selection")
+    warlord = entry(warlord_id, "Warlord", categoryLinks=[dict(name="Warlord", id=nid(warlord_id + ":cat"),
+                                                               targetId=warlord_role["id"], primary=False,
+                                                               hidden=False)],
+                    constraints=[constraint(nid(warlord_id + ":max"), "max", 1, scope="roster", child=True)])
+    for unit in units:
+        if "CHARACTER" in b.data[unit["name"]]["keywords"]:
+            unit.setdefault("entryLinks", []).append(dict(name="Warlord", id=nid(unit["id"] + ":warlord"),
+                                                          targetId=warlord_id, type="selectionEntry", hidden=False,
+                                                          **{"import": True}))
+
     # Black Contracts (Shadowy Dealings): mark up to three Clanrats units.
     contract_id = b.old_ids.get(norm("Black Contract - Paid Informants")) or nid("black-contract")
     contract = entry(contract_id, "Black Contract - Paid Informants",
                      constraints=[constraint(nid(contract_id + ":max"), "max", 3, scope="roster", child=True)],
-                     rules=[dict(name="Paid Informants", id=nid(contract_id + ":rule"), hidden=False,
-                                 description="This unit gains the ESHIN keyword and has Scouts 6\".")])
+                     profiles=[b.ability_profile(nid(contract_id + ":ability"), "Paid Informants",
+                                                 "This unit has Scouts 6\".")])
+    scouts = next(r for r in b.sys_rules if r["name"] == 'Scouts 6"')
+    rule_link(contract, scouts)
     shadowy = next(d for d in detachment_entry["selectionEntryGroups"][0]["selectionEntries"]
                    if d["name"] == "Shadowy Dealings")
     clanrats = next(u for u in units if u["name"] == "Clanrats")
@@ -1232,6 +1250,21 @@ def build(source, catalogue_path, system_path):
         name="Black Contract", id=gid, hidden=False, entryLinks=[gated(gid, contract_id, contract["name"],
                                                                       shadowy["id"])],
         constraints=[constraint(nid(gid + ":max"), "max", 1)]))
+    eshin_id, _ = b.category("Eshin")
+    clanrats["modifiers"].append(dict(type="add", field="category", value=eshin_id,
+                                      conditions=[selected(contract_id, scope=clanrats["id"])]))
+
+    # Black-Flag Clanrats (Clan Skurvy): every Clanrats unit gains SKURVY and Claim-Claim the Prize!.
+    skurvy_det = next(d for d in detachment_entry["selectionEntryGroups"][0]["selectionEntries"]
+                      if d["name"] == "Clan Skurvy")
+    skurvy_id, _ = b.category("Skurvy")
+    in_skurvy = selected(skurvy_det["id"])
+    clanrats["modifiers"].append(dict(type="add", field="category", value=skurvy_id, conditions=[in_skurvy]))
+    claim_text = next(re.search(r"\*\*Claim-Claim the Prize!:\*\*\s*(.+)", r["description"]).group(1)
+                      for r in skurvy_det["rules"] if "Claim-Claim the Prize!" in r["description"])
+    claim = b.ability_profile(nid(clanrats["id"] + ":claim"), "Claim-Claim the Prize!", claim_text.strip(), hidden=True)
+    claim["modifiers"] = [dict(type="set", field="hidden", value=False, conditions=[in_skurvy])]
+    clanrats["profiles"].insert(len([p for p in clanrats["profiles"] if not p.get("hidden")]), claim)
 
     # SKURVY CHARACTER enhancements go on Black-Flag mercenary characters, which live in another catalogue.
     officers_id = nid("skurvy-officers")
@@ -1267,7 +1300,7 @@ def build(source, catalogue_path, system_path):
     old = b.old
     keep_links = [l for l in old["entryLinks"]
                   if l["targetId"] not in {e["id"] for e in old["sharedSelectionEntries"]}]  # Black-Flag units
-    shared_entries = [detachment_entry, army_ref, strat_ref, workshop, officers, contract] + units + shared_enh + \
+    shared_entries = [detachment_entry, army_ref, strat_ref, workshop, officers, contract, warlord] + units + shared_enh + \
         shared_projects
     root_links = []
     for e in [detachment_entry, army_ref, strat_ref, workshop, officers] + units:

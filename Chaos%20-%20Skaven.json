@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 24,
+    "revision": 25,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -128,6 +128,11 @@
       {
         "name": "Lord Skreech",
         "id": "c820-fd04-34d9-b498",
+        "hidden": false
+      },
+      {
+        "name": "Warlord",
+        "id": "47dc-8897-bcb5-763d",
         "hidden": false
       },
       {
@@ -508,6 +513,11 @@
       {
         "name": "Unique: CLAN",
         "id": "ba57-8a86-675f-7040",
+        "hidden": false
+      },
+      {
+        "name": "Skurvy",
+        "id": "9a65-8973-a578-12c3",
         "hidden": false
       }
     ],
@@ -3951,12 +3961,56 @@
             "includeChildSelections": true
           }
         ],
-        "rules": [
+        "profiles": [
           {
+            "id": "bebf-03ad-639f-06aa",
             "name": "Paid Informants",
-            "id": "4092-b1a7-f7e5-3810",
             "hidden": false,
-            "description": "This unit gains the ESHIN keyword and has Scouts 6\"."
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This unit has Scouts 6\"."
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "id": "c6f7-6f48-e85e-3659",
+            "name": "Scouts 6\"",
+            "targetId": "08fb-4cb5-36fb-d638",
+            "type": "rule",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Warlord",
+        "id": "b7bc-d9cf-0a40-effd",
+        "type": "upgrade",
+        "hidden": false,
+        "import": true,
+        "categoryLinks": [
+          {
+            "name": "Warlord",
+            "id": "59fd-9604-b42b-40d1",
+            "targetId": "5c0e-4c31-d51b-e470",
+            "primary": false,
+            "hidden": false
+          }
+        ],
+        "constraints": [
+          {
+            "id": "bf5f-713e-e5b6-0a58",
+            "type": "max",
+            "value": 1,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true
           }
         ]
       },
@@ -4682,6 +4736,16 @@
             "typeId": "51b2-306e-1021-d207",
             "value": 420
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "c0ed-7719-c080-d0af",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
+          }
         ]
       },
       {
@@ -5130,6 +5194,16 @@
                 ]
               }
             ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "3f7d-5125-b1ac-c0c4",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
           }
         ]
       },
@@ -5884,6 +5958,16 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "cba0-f9d8-4a6a-0ad3",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
+          }
         ]
       },
       {
@@ -6300,6 +6384,16 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 145
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "d973-1de0-b365-5207",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
           }
         ]
       },
@@ -6785,6 +6879,16 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "75a3-1136-4309-a252",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
+          }
         ]
       },
       {
@@ -7228,6 +7332,16 @@
                 ]
               }
             ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "1320-9c97-d586-a3a4",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
           }
         ]
       },
@@ -7807,6 +7921,16 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 430
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "8eb1-5a61-4719-95f5",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
           }
         ]
       },
@@ -9207,6 +9331,16 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "e8ef-fae4-14e9-fd0d",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
+          }
         ]
       },
       {
@@ -9239,8 +9373,8 @@
           },
           {
             "name": "Warlord",
-            "id": "1a5b-e698-429d-c4c7",
-            "targetId": "5c0e-4c31-d51b-e470",
+            "id": "6639-8148-d92c-ab70",
+            "targetId": "47dc-8897-bcb5-763d",
             "primary": false,
             "hidden": false
           },
@@ -10460,6 +10594,16 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "1963-8aac-de44-e741",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
+          }
         ]
       },
       {
@@ -11238,6 +11382,16 @@
                 "includeChildSelections": false
               }
             ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "12d7-8c15-ab0d-fb47",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
           }
         ]
       },
@@ -12587,6 +12741,16 @@
             ],
             "defaultSelectionEntryId": "none"
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "e7a1-d289-5052-5984",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
+          }
         ]
       },
       {
@@ -13677,6 +13841,16 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "a213-279c-17bd-abd2",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
+          }
         ]
       },
       {
@@ -14554,6 +14728,16 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "c907-a7f4-f4d0-95ac",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
+          }
         ]
       },
       {
@@ -15327,6 +15511,16 @@
                 "includeChildSelections": false
               }
             ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "b977-4420-396a-0156",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
           }
         ]
       },
@@ -16117,6 +16311,16 @@
                 "includeChildSelections": false
               }
             ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "e09e-7435-bdfd-0409",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
           }
         ]
       },
@@ -16936,6 +17140,16 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "ac56-abb6-61c6-db1d",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
+          }
         ]
       },
       {
@@ -17747,6 +17961,16 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "b292-020b-a615-9bc2",
+            "targetId": "b7bc-d9cf-0a40-effd",
+            "type": "selectionEntry",
+            "hidden": false,
+            "import": true
+          }
         ]
       },
       {
@@ -18384,6 +18608,38 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "A Weapon Team model uses the profile, weapons and abilities from its own datasheet, excluding Hide Behind Them-Things!. Those abilities apply only to that model and the attacks it makes. A Weapon Team model in this unit is never a Bombardier, Lead Gunner, Lead Burner or Lead Scourger. A Poison Wind Globadier is equipped with Poison-wind globes and Acolyte blades."
+              }
+            ]
+          },
+          {
+            "id": "2648-1210-886a-f211",
+            "name": "Claim-Claim the Prize!",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of your Movement phase, if this unit is within range of an objective you control, that objective remains under your control until your opponent's Level of Control over it is greater than yours at the end of a phase."
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "field": "hidden",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "5d67-100c-5b2b-c6e7",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
@@ -20192,7 +20448,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 12
+                    "value": 10
                   }
                 ],
                 "constraints": [
@@ -20862,6 +21118,38 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "a2aa-6195-2a91-a899",
+            "conditions": [
+              {
+                "childId": "f101-55f9-8b74-0215",
+                "field": "selections",
+                "scope": "61e3-d49f-47bf-7f00",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "9a65-8973-a578-12c3",
+            "conditions": [
+              {
+                "childId": "5d67-100c-5b2b-c6e7",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
               }
             ]
           }

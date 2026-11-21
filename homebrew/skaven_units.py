@@ -115,7 +115,7 @@ UNITS = {
         },
         weapon_teams=[("Ratling Gun Team", "Ratling Gun Teams", ["Ratling gun", "Crew blades"], 35),
                       ("Warpfire Thrower Team", "Warpfire Thrower Teams", ["Warpfire thrower", "Crew blades"], 40),
-                      ("Poison Wind Globadier", "Skryre Acolytes", ["Poison-wind globes", "Acolyte blades"], 12)]),
+                      ("Poison Wind Globadier", "Skryre Acolytes", ["Poison-wind globes", "Acolyte blades"], 10)]),
     "Stormvermin": dict(
         models=[M("Fangleader", (1, 1), wounds="2", choices=[
                     C("Weapons", ["Master-forged storm-glaive", "Master-forged stormblade + Heavy shield"]),

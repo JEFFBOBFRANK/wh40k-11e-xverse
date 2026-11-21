@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 24 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 25 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 12
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -53,7 +53,12 @@ detachments). The layout follows the Emperor's Children catalogue.
 - Clan Skurvy: Black-Flag mercenary links are unchanged. The three SKURVY
   CHARACTER enhancements are in "Skurvy Officers"; record which Black-Flag
   character carries each one.
-- Shadowy Dealings: Black Contract marks up to three Clanrats units.
+- Shadowy Dealings: Black Contract marks up to three Clanrats units; each gains
+  the ESHIN keyword, Paid Informants and Scouts 6".
+- Clan Skurvy: every Clanrats unit gains the SKURVY keyword and Claim-Claim the
+  Prize!.
+- Every CHARACTER has a Warlord option; the army needs exactly one Warlord. The
+  Warlord datasheet's WARLORD keyword is its own keyword, not the Warlord role.
 - Weapon teams start with their lead crew (Lead Gunner, Lead Burner or Lead
   Scourger: W3, Crew-leader blades, optional Warplock pistol). Skryre Acolytes are
   1 Bombardier and 4 or 9 Poison Wind Globadiers. Weapon Team models added to
