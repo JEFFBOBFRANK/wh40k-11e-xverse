@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 21
+REVISION = 22
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -575,7 +575,9 @@ class Builder:
             if big != small and large:
                 v["modifiers"] = [dict(type="set", field=cap["id"], value=big, conditions=[large])]
             variants.append(v)
-            for limit_id in (mins["id"], maxs["id"]):  # each special model replaces a plain one
+            # Each special model replaces a plain one. A fixed-size squad keeps the plain minimum at 0
+            # (see below), so only its maximum drops; lowering 0 would go negative in New Recruit.
+            for limit_id in ((mins["id"], maxs["id"]) if low != high else (maxs["id"],)):
                 base.setdefault("modifiers", []).append(dict(field=limit_id, type="increment", value=-1, repeats=[
                     dict(childId=vid, field="selections", scope=unit_id, shared=True, includeChildSelections=True,
                          value=1, repeats=1, roundUp=False)]))

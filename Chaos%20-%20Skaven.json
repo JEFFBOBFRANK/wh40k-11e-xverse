@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 21,
+    "revision": 22,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -21430,46 +21430,12 @@
                 ],
                 "modifiers": [
                   {
-                    "field": "e2ca-07e3-d82f-8ce5",
-                    "type": "increment",
-                    "value": -1,
-                    "repeats": [
-                      {
-                        "childId": "419d-9098-879f-cbeb",
-                        "field": "selections",
-                        "scope": "a6a8-7941-6388-580d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "value": 1,
-                        "repeats": 1,
-                        "roundUp": false
-                      }
-                    ]
-                  },
-                  {
                     "field": "50f1-4ab4-61f9-19d0",
                     "type": "increment",
                     "value": -1,
                     "repeats": [
                       {
                         "childId": "419d-9098-879f-cbeb",
-                        "field": "selections",
-                        "scope": "a6a8-7941-6388-580d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "value": 1,
-                        "repeats": 1,
-                        "roundUp": false
-                      }
-                    ]
-                  },
-                  {
-                    "field": "e2ca-07e3-d82f-8ce5",
-                    "type": "increment",
-                    "value": -1,
-                    "repeats": [
-                      {
-                        "childId": "35db-e07f-eb88-8baf",
                         "field": "selections",
                         "scope": "a6a8-7941-6388-580d",
                         "shared": true,
