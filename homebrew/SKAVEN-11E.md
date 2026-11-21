@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 23 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 24 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 12
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -19,12 +19,12 @@ detachments). The layout follows the Emperor's Children catalogue.
 - Leaders and Supports attach to their printed units with New Recruit's
   Leading / Supporting links, as in the Emperor's Children catalogue. A Support
   must be attached; a mounted Plague Priest need not be.
-- Unit wargear (Clan Standard, Scavenger Bell, Warhorn, Regimental Banner, Plague
-  Banner, Doom Gong, Grounding Rod, Spare Capacitor, Explosive Collars) copies the
-  Emperor's Children Tormentors' Icon of Excess: a tick box at the bottom of the
-  unit editor that opens a picker for the model carrying it. Squad leaders
-  (Clawleader, Fangleader, Plague Deacon and similar) cannot carry it. Each item is separate,
-  so a unit can have both of a pair.
+- Optional wargear (Clan Standard, Scavenger Bell, Warhorn, Regimental Banner,
+  Plague Banner, Doom Gong, Grounding Rod, Spare Capacitor) is a model type of
+  its own, e.g. "Stormvermin with Warhorn" or "Plague Monk with Plague staff and
+  Plague Banner", so it shows on the model carrying it. Each model carries at
+  most one item, squad leaders carry none, and the item's ability appears only
+  when it is taken.
 - An item's ability (including Clanrat Shields on Sword and Board and the
   Grinderfists' Deep Strike) is shown only when the item is taken.
 - Heavy shields give their models a 3+ save and 5+ invulnerable save with their

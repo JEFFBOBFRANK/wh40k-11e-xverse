@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 23
+REVISION = 24
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -461,14 +461,26 @@ class Builder:
         for model in spec["models"]:
             mid = nid(unit_id + ":model:" + model["name"])
             model_ids[model["name"]] = mid
-        # Units with special-weapon model types count every model, like the Tormentors.
-        by_total = any(m["variants"] for m in spec["models"])
-        totals = [sum(size.values()) for size in sizes]
+        gear_specs = spec.get("bearer_gear", [])
+
+        def gear_for(model):
+            if model["name"] in SERGEANTS:
+                return []
+            return [(g[0], *(g[2] if len(g) > 2 else (1, 1))) for g in gear_specs if g[1] in (None, model["name"])]
+
+        # A model type with special-weapon or wargear versions is counted through a hidden category
+        # that every version carries, so "9 Clanrats" includes the standard bearer.
+        families = {}
+        for model in spec["models"]:
+            if model["variants"] or gear_for(model):
+                families[model["name"]] = self.hidden_category(f"Count: {ds['name']} - {model['name']}")
+
+        def count_condition(model_name, kind, value):
+            child = families.get(model_name, model_ids[model_name])
+            return selected(child, scope=unit_id, kind=kind, value=value)
 
         def size_condition(i, kind="atLeast"):
-            if by_total:
-                return selected("model", scope=unit_id, kind=kind, value=totals[i])
-            return selected(model_ids[key], scope=unit_id, kind=kind, value=sizes[i][key])
+            return count_condition(key, kind, sizes[i][key])
 
         large = size_condition(1) if key else None
         large_condition = large
@@ -496,28 +508,25 @@ class Builder:
                 del m["selectionEntryGroups"]
             if not m["selectionEntries"]:
                 del m["selectionEntries"]
-            if not model["variants"]:
+            if model["name"] not in families:
                 node["selectionEntries"].append(m)
                 continue
-            family = self.model_family(unit_id, model, m, stats, weapons, large)
+            family, errors = self.model_family(unit_id, ds["name"], model, m, stats, weapons, large,
+                                               gear_for(model), families[model["name"]])
             family["sortIndex"] = m.pop("sortIndex")
             node["selectionEntryGroups"].append(family)
+            node["modifiers"] += errors
         if prices and sizes:
             node["costs"][0]["value"] = prices[0]
             for i in range(1, len(sizes)):
                 node["modifiers"].append(dict(field=POINTS, type="increment", value=prices[i] - prices[i - 1],
                                               conditions=[size_condition(i)]))
-        if len(sizes) > 1 and by_total:
-            legal = " or ".join(str(t) for t in totals)
-            node["modifiers"].append(dict(type="add", field="error", value=f"Select exactly {legal} models.",
-                                          conditionGroups=[dict(type="and", conditions=[
-                                              size_condition(i, "notEqualTo") for i in range(len(sizes))])]))
-        elif len(sizes) > 1:
+        if len(sizes) > 1:
             legal = " or ".join(" and ".join(f"{n} {m}" for m, n in s.items()) for s in sizes)
             node["modifiers"].append(dict(type="add", field="error", value=f"Select {legal}.", conditionGroups=[
                 dict(type="and", conditionGroups=[
-                    dict(type="or", conditions=[selected(model_ids[m], scope=unit_id, kind="notEqualTo", value=n)
-                                                for m, n in s.items()]) for s in sizes])]))
+                    dict(type="or", conditions=[count_condition(m, "notEqualTo", n) for m, n in s.items()])
+                    for s in sizes])]))
         for choice in spec.get("unit_choices", []):
             group = self.choice_group(unit_id, unit_id, choice, weapons, large)
             group["sortIndex"] = 20 if choice["label"] == "Loadout" else WARGEAR_SORT
@@ -534,25 +543,18 @@ class Builder:
             teams = self.weapon_teams(unit_id, spec, model_ids)
             teams["sortIndex"] = 21
             node["selectionEntryGroups"].append(teams)
-        for gear in spec.get("bearer_gear", []):
-            name, bearer = gear[0], gear[1]
-            small, large = gear[2] if len(gear) > 2 else (1, 1)
-            eid = nid(unit_id + ":gear:" + name)
-            limit = constraint(nid(eid + ":max"), "max", small)
-            bearers = [x["id"] for x in walk(node.get("selectionEntries", []) + node.get("selectionEntryGroups", []))
-                       if isinstance(x, dict) and x.get("type") == "model" and x["name"] not in SERGEANTS
-                       and (bearer is None or x["name"] == bearer)]
-            item = entry(eid, name, constraints=[limit], sortIndex=WARGEAR_SORT, associations=[dict(
-                name=name, id=nid(eid + ":bearer"), childId="model", includeChildSelections=True, min=1, max=small,
-                scope=unit_id, conditionGroups=[dict(type="or", conditions=[
-                    dict(childId=b, field="selections", scope="self", type="instanceOf", value=1, shared=True,
-                         includeChildSelections=True) for b in bearers])])])
-            if large != small and large_condition:
-                item["modifiers"] = [dict(type="set", field=limit["id"], value=large, conditions=[large_condition])]
-            node["selectionEntries"].append(item)
 
-    def model_family(self, unit_id, model, base, stats, weapons, large):
-        """Plain models plus special-weapon model types, as in the Emperor's Children Tormentors."""
+    def hidden_category(self, name):
+        cid, _ = self.category(name)
+        self.categories[name.casefold()]["hidden"] = True
+        return cid
+
+    def model_family(self, unit_id, unit_name, model, base, stats, weapons, large, gear, family_cat):
+        """Plain models plus model types with special weapons or wargear, as in the Emperor's Children Tormentors.
+
+        Each piece of optional wargear is its own model type ("Stormvermin with Warhorn"), so it is shown on
+        the model that carries it, a model carries at most one item, and its ability appears only when taken.
+        """
         low, high = model["count"]
         name = model["name"]
         if " with " in name:  # Stormfiend weapon pairs
@@ -563,30 +565,75 @@ class Builder:
         gid = nid(unit_id + ":family:" + name)
         span = f"{low}-{high}" if low != high else str(high)
         mins, maxs = base["constraints"]
-        variants = []
-        for vname, vweapons, limit in model["variants"]:
-            vid = nid(unit_id + ":variant:" + vname)
-            small, big = limit or (high, high)
-            cap = constraint(nid(vid + ":max"), "max", small)
-            v = entry(vid, vname, "model", constraints=[cap],
-                      profiles=[self.unit_profile(nid(vid + ":profile"), gear_label(name.split(" with ")[0], vweapons),
-                                                  with_gear_stats(stats, vweapons))],
-                      selectionEntries=[self.gear_entry(vid, w, weapons, fixed=True) for w in vweapons])
-            if big != small and large:
-                v["modifiers"] = [dict(type="set", field=cap["id"], value=big, conditions=[large])]
-            variants.append(v)
+        cat_link = lambda owner, cid: dict(name="count", id=nid(owner + ":cat:" + cid), targetId=cid, primary=False,
+                                           hidden=False)
+        base["categoryLinks"] = [cat_link(base["id"], family_cat)]
+        errors = []
+
+        def cap_error(cid, small, big, label):
+            over_small = selected(cid, scope=unit_id, value=small + 1)
+            if big == small or not large:
+                cond = dict(conditions=[over_small])
+            else:
+                not_large = dict(large, type="lessThan")
+                cond = dict(conditionGroups=[dict(type="or", conditions=[selected(cid, scope=unit_id, value=big + 1)],
+                                                  conditionGroups=[dict(type="and",
+                                                                        conditions=[over_small, not_large])])])
+            limit = f"{small}" if big == small else f"{small} ({big} in the larger unit)"
+            errors.append(dict(type="add", field="error", value=f"At most {limit} {label}.", **cond))
+
+        def replaces_plain(vid):
             # Each special model replaces a plain one. A fixed-size squad keeps the plain minimum at 0
             # (see below), so only its maximum drops; lowering 0 would go negative in New Recruit.
             for limit_id in ((mins["id"], maxs["id"]) if low != high else (maxs["id"],)):
                 base.setdefault("modifiers", []).append(dict(field=limit_id, type="increment", value=-1, repeats=[
                     dict(childId=vid, field="selections", scope=unit_id, shared=True, includeChildSelections=True,
                          value=1, repeats=1, roundUp=False)]))
-        base["defaultAmount"] = low  # as on the Tormentors: lets a picker take one model from the stack
-        if low == high:  # a fixed count stops New Recruit splitting a bearer off the stack;
+
+        def make(vname, vweapons, small, big, cats):
+            vid = nid(unit_id + ":variant:" + vname)
+            cap = constraint(nid(vid + ":max"), "max", small)
+            v = entry(vid, vname, "model", constraints=[cap],
+                      profiles=[self.unit_profile(nid(vid + ":profile"), gear_label(name.split(" with ")[0], vweapons),
+                                                  with_gear_stats(stats, vweapons))],
+                      selectionEntries=[self.gear_entry(vid, w, weapons, fixed=True) for w in vweapons],
+                      categoryLinks=[cat_link(vid, c) for c in cats])
+            if big != small and large:
+                v["modifiers"] = [dict(type="set", field=cap["id"], value=big, conditions=[large])]
+            replaces_plain(vid)
+            return v
+
+        bases = [(name, list(model["weapons"]), None, [])]
+        variants = []
+        for vname, vweapons, limit in model["variants"]:
+            small, big = limit or (high, high)
+            cats = [family_cat]
+            if limit:
+                cid = self.hidden_category(f"Count: {unit_name} - {vname}")
+                cats.append(cid)
+                cap_error(cid, small, big, vname)
+            variants.append(make(vname, vweapons, small, big, cats))
+            bases.append((vname, vweapons, limit, cats[1:]))
+        for item, small, big in gear:
+            gear_cat = self.hidden_category(f"Count: {unit_name} - {item}")
+            cap_error(gear_cat, small, big, item)
+            for bname, bweapons, limit, extra in bases:
+                if " with " in bname:
+                    head, tail = bname.split(" with ", 1)
+                    gname = f"{head} with {tail.replace(' and ', ', ')} and {item}"
+                else:
+                    gname = f"{bname} with {item}"
+                s1, b1 = (small, big) if not limit else (min(small, limit[0]), min(big, limit[1]))
+                v = make(gname, bweapons, s1, b1, [family_cat, gear_cat] + extra)
+                v["_gear"] = item
+                variants.append(v)
+        base["defaultAmount"] = low  # as on the Tormentors
+        if low == high:
             mins["value"] = 0  # the group's own min/max still enforce the exact squad size
-        return dict(name=f"{span} {plural}", id=gid, hidden=False, defaultSelectionEntryId=base["id"],
-                    selectionEntries=[base] + variants,
-                    constraints=[constraint(nid(gid + ":min"), "min", low), constraint(nid(gid + ":max"), "max", high)])
+        group = dict(name=f"{span} {plural}", id=gid, hidden=False, defaultSelectionEntryId=base["id"],
+                     selectionEntries=[base] + variants,
+                     constraints=[constraint(nid(gid + ":min"), "min", low), constraint(nid(gid + ":max"), "max", high)])
+        return group, errors
 
     def weapon_teams(self, unit_id, spec, model_ids):
         gid = nid(unit_id + ":weapon-teams")
@@ -742,6 +789,18 @@ def gear_label(name, gear):
 
 def move_gear_abilities(node):
     """Show an item's ability only when the item is taken."""
+    carriers = {}
+    for sub in walk(node.get("selectionEntries", []) + node.get("selectionEntryGroups", [])):
+        if isinstance(sub, dict) and sub.get("_gear"):
+            carriers.setdefault(sub.pop("_gear"), []).append(sub)
+    kept = []
+    for profile in node.get("profiles", []):
+        if profile.get("typeName") == "Abilities" and profile["name"] in carriers:
+            for carrier in carriers[profile["name"]]:
+                carrier["profiles"].append(dict(profile, id=nid(carrier["id"] + ":ability:" + profile["name"])))
+        else:
+            kept.append(profile)
+    node["profiles"] = kept
     homes = {}
     for sub in walk(node.get("selectionEntries", []) + node.get("selectionEntryGroups", [])):
         if isinstance(sub, dict) and sub.get("type") in ("upgrade", "model") and "name" in sub:
