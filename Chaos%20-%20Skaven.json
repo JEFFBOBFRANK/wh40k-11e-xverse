@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 31,
+    "revision": 32,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -18031,7 +18031,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 20-40 Skavenslaves. Every model is equipped with Skavenslave blades. This unit has no ranged weapons. This unit can be fitted with Explosive Collars."
+                "$text": "Composition: 20 or 40 Skavenslaves. Every model is equipped with Skavenslave blades. This unit has no ranged weapons. This unit can be fitted with Explosive Collars."
               }
             ]
           },
@@ -18207,14 +18207,7 @@
                 ]
               }
             ],
-            "sortIndex": 0,
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 1
-              }
-            ]
+            "sortIndex": 0
           }
         ],
         "selectionEntryGroups": [
@@ -18351,6 +18344,64 @@
             ]
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 20,
+            "conditions": [
+              {
+                "childId": "69d6-505d-6041-dc33",
+                "field": "selections",
+                "scope": "4ae3-8d5b-1971-fddb",
+                "type": "atLeast",
+                "value": 40,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "Select 20 Skavenslave or 40 Skavenslave.",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "69d6-505d-6041-dc33",
+                        "field": "selections",
+                        "scope": "4ae3-8d5b-1971-fddb",
+                        "type": "notEqualTo",
+                        "value": 20,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "69d6-505d-6041-dc33",
+                        "field": "selections",
+                        "scope": "4ae3-8d5b-1971-fddb",
+                        "type": "notEqualTo",
+                        "value": 40,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "constraints": [
           {
             "id": "d4ae-8afe-66d1-76d2",
@@ -18367,7 +18418,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 0
+            "value": 20
           }
         ]
       },

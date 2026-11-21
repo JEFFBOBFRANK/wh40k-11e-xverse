@@ -97,7 +97,8 @@ UNITS = {
 
     # Squads
     "Skavenslaves": dict(
-        models=[M("Skavenslave", (20, 40), ["Skavenslave blades"], cost=1)],
+        models=[M("Skavenslave", (20, 40), ["Skavenslave blades"])],
+        sizes=[{"Skavenslave": 20}, {"Skavenslave": 40}],
         unit_choices=[C("Explosive Collars", ["Explosive Collars"], minimum=0)]),
     "Clanrats": dict(
         models=[M("Clawleader", (1, 2), ["Clawleader blade"]), M("Clanrat", (9, 18))],
