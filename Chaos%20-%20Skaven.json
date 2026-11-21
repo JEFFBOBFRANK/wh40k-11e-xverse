@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 30,
+    "revision": 31,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -18347,50 +18347,6 @@
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
-              }
-            ]
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 3,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "before",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "childId": "4ae3-8d5b-1971-fddb",
-                        "childName": "Skavenslaves",
-                        "field": "selections",
-                        "scope": "self",
-                        "type": "instanceOf",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
