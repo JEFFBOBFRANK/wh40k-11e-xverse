@@ -1,10 +1,10 @@
-"""Build the Emperor's Children codex PDF from the published catalogue.
+"""Build a Covenant-style codex PDF from a published catalogue (Emperor's Children or Agents of the Imperium).
 
 The layout follows the Covenant codex house style: a header band on every
 page, one datasheet per page with stat boxes and two columns, detachment
 pages with rules, enhancements and stratagems, and a points reference.
 
-Usage: python3 homebrew/ec_codex_pdf.py [catalogue.json] [output.pdf]
+Usage: python3 homebrew/ec_codex_pdf.py [--faction ec|agents] [catalogue.json] [output.pdf]
 Requires reportlab. Reads the New Recruit catalogue only; nothing is changed.
 """
 import ast
@@ -31,8 +31,19 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 VERSION = "4.0"
-FACTION = "EMPEROR'S CHILDREN"
-ARMY_RULES = {"The Pursuit of Perfection", "Sublime Strategist", "Manifestation", "Summoning Rituals"}
+CONFIGS = {
+    "ec": dict(faction="EMPEROR'S CHILDREN", title="Emperor's Children", version="4.0",
+               tagline="THE PURSUIT OF PERFECTION", watermark="EXCESS",
+               catalogue="Chaos - Emperor's Children.json", output="Emperors-Children-Codex-4.0.pdf",
+               allies="Faction: Legions of Excess", allies_group="Legions of Excess"),
+    "agents": dict(faction="AGENTS OF THE IMPERIUM", title="Agents of the Imperium", version="0.9.2",
+                   tagline="BY THE EMPEROR'S WRIT", watermark="AUTHORITY",
+                   catalogue="Imperium - Agents of the Imperium.json", output="Agents-of-the-Imperium-Codex-0.9.2.pdf",
+                   allies=None, allies_group=None),
+}
+CONFIG = CONFIGS["ec"]
+FACTION = CONFIG["faction"]
+ARMY_RULES = set()  # army rule names, filled in from the catalogue
 
 # House style, taken from the Covenant codex
 PAGE_BG = colors.HexColor("#edf1f0")
@@ -87,7 +98,10 @@ S = {
 
 # ---------------------------------------------------------------- text helpers
 def clean(text):
-    return (text or "").replace("​", "").replace("\r", "").strip()
+    text = (text or "").replace("\u200b", "").replace("\r", "")
+    # Repair a heading split across lines in the source, e.g. "**Priority\n\n**Target:**\n\n**".
+    text = re.sub(r"\*\*([^*\n]+)\n\n\*\*([^*\n]+:)\*\*\n\n\*\*\n", r"**\1 \2**\n", text)
+    return text.strip()
 
 
 def inline(text):
@@ -202,13 +216,13 @@ def ordinal(n):
 
 
 GROUPS = ["Epic Heroes", "Characters", "Battleline", "Infantry", "Mounted", "Beasts", "Monsters",
-          "Dedicated Transports", "Vehicles", "Legions of Excess"]
+          "Dedicated Transports", "Vehicles", "Legions of Excess"]  # empty groups are dropped
 
 
 def group_of(entry, hidden_link):
     cats = {c["name"] for c in entry.get("categoryLinks", [])}
-    if "Faction: Legions of Excess" in cats or hidden_link:
-        return "Legions of Excess"
+    if CONFIG["allies"] and (CONFIG["allies"] in cats or hidden_link):
+        return CONFIG["allies_group"]
     for cat, group in (("Epic Hero", "Epic Heroes"), ("Character", "Characters"), ("Battleline", "Battleline"),
                        ("Dedicated Transport", "Dedicated Transports"), ("Vehicle", "Vehicles"),
                        ("Monster", "Monsters"), ("Mounted", "Mounted"), ("Beast", "Beasts")):
@@ -255,7 +269,7 @@ class Leader(Flowable):
 class Codex(BaseDocTemplate):
     def __init__(self, filename, revision):
         super().__init__(filename, pagesize=letter, leftMargin=MARGIN, rightMargin=MARGIN, topMargin=MARGIN,
-                         bottomMargin=MARGIN, title="Codex: Emperor's Children", author="Xverse homebrew")
+                         bottomMargin=MARGIN, title="Codex: " + CONFIG["title"], author="Xverse homebrew")
         self.revision = revision
         self.info = {}
         self.last_title = None
@@ -307,15 +321,15 @@ class Codex(BaseDocTemplate):
         c.drawCentredString(W / 2, H - 142, FACTION)
         c.setFillColor(colors.HexColor("#c9cdd8"))
         c.setFont("Body-Bold", 7.5)
-        c.drawCentredString(W / 2, H - 170, "THE PURSUIT OF PERFECTION")
+        c.drawCentredString(W / 2, H - 170, CONFIG["tagline"])
         c.setFillColor(colors.HexColor("#2b3452"))
         c.setFont("Body-Bold", 60)
-        c.drawCentredString(W / 2, 425, "EXCESS")
+        c.drawCentredString(W / 2, 425, CONFIG["watermark"])
         c.setFillColor(colors.white)
         c.setFont("Body-Bold", 12)
         c.drawCentredString(W / 2, 160, "DEVELOPMENT GAMEPLAY EDITION")
         c.setFont("Body-Bold", 13)
-        c.drawCentredString(W / 2, 128, f"VERSION {VERSION}")
+        c.drawCentredString(W / 2, 128, f"VERSION {CONFIG['version']}")
         c.setFillColor(ACCENT)
         c.setFont("Body-Bold", 7.5)
         c.drawCentredString(W / 2, 104, "PLAYTEST BUILD")
@@ -368,7 +382,7 @@ class Codex(BaseDocTemplate):
         c.line(MARGIN + 14, 46, W - MARGIN - 14, 46)
         c.setFillColor(MUTED)
         c.setFont("Body-Bold", 7)
-        c.drawString(MARGIN + 14, 33, f"UNOFFICIAL FAN-MADE GAMEPLAY RULES  •  VERSION {VERSION}")
+        c.drawString(MARGIN + 14, 33, f"UNOFFICIAL FAN-MADE GAMEPLAY RULES  •  VERSION {CONFIG['version']}")
         c.setFillColor(INK)
         c.drawRightString(W - MARGIN - 14, 30, str(self.page))
         c.restoreState()
@@ -448,13 +462,20 @@ def contents_story(entries, groups):
     return story
 
 
-def army_rules_story(army_links, rules):
+def army_rules_story(army_rules):
     story = [State("Army Rules", 0, kicker=f"{FACTION} CORE RULES", title="Army Rules"),
-             Paragraph("The army rules below apply to every <b>Emperor's Children</b> army.", S["body"])]
-    for name in army_links:
+             Paragraph(f"The army rules below apply to every <b>{CONFIG['title']}</b> army.", S["body"])]
+    for name, text in army_rules:
         story += [CondPageBreak(110), State(name, 1), section_bar(name, TEXT_W), Spacer(1, 5)]
-        story += markup(rules[name].get("description", ""), TEXT_W)
+        story += markup(text, TEXT_W)
     return story
+
+
+def entry_text(entry):
+    """Rule text of an enhancement or detachment rule, stored as rules or as ability profiles."""
+    parts = [clean(r.get("description")) for r in entry.get("rules", []) if not r.get("hidden")]
+    parts += [text_of(p) for p in entry.get("profiles", []) if p.get("typeName") == "Abilities" and not p.get("hidden")]
+    return "\n\n".join(p for p in parts if p)
 
 
 def detachment_story(det, enhancements, strats, first):
@@ -468,6 +489,10 @@ def detachment_story(det, enhancements, strats, first):
         if not rule.get("hidden"):
             story.append(Paragraph(inline(rule["name"]), S["sub"]))
             story += markup(rule.get("description", ""), TEXT_W)
+    for profile in det.get("profiles", []):
+        if profile.get("typeName") == "Abilities" and not profile.get("hidden"):
+            story.append(Paragraph(inline(profile["name"]), S["sub"]))
+            story += markup(text_of(profile), TEXT_W)
     if enhancements:
         story += [CondPageBreak(90), section_bar("Enhancements", TEXT_W), Spacer(1, 4)]
         for e in sorted(enhancements, key=lambda e: ("[Upgrade]" in e["name"], e["name"])):
@@ -479,8 +504,7 @@ def detachment_story(det, enhancements, strats, first):
                 block.append(Paragraph(f"Upgrade. Up to {limit} eligible units can purchase this Upgrade; each pays "
                                        "separately, but all copies collectively occupy one Enhancement selection.",
                                        S["body"]))
-            desc = " ".join(clean(r.get("description")) for r in e.get("rules", []) if not r.get("hidden"))
-            story.append(KeepTogether(block + markup(desc, TEXT_W)))
+            story.append(KeepTogether(block + markup(entry_text(e), TEXT_W)))
     if strats:
         story += [CondPageBreak(110), section_bar("Stratagems", TEXT_W), Spacer(1, 4)]
         for r in strats:
@@ -552,7 +576,8 @@ def datasheet_story(unit, group, prices, first_in_group):
                           "Printed Keywords and Notes", "Datasheet rules and equipment"} and t.strip()]
 
     left, right = [], []
-    cm = re.match(r"Composition:\s*(.+?)\s*(?:Equipment:\s*(.+))?$", hidden.get("Unit Composition and Equipment", ""))
+    comp_text = hidden.get("Unit Composition and Equipment", "") or clean(unit.get("readme"))
+    cm = re.match(r"(?:Composition:)?\s*(.+?)\s*(?:Equipment:\s*(.+))?$", comp_text) if comp_text else None
     if cm:
         comp = [p.strip() for p in re.split(r";\s*", cm.group(1).rstrip(".")) if p.strip()]
         if len(tiers) > 1:
@@ -606,7 +631,7 @@ def datasheet_story(unit, group, prices, first_in_group):
     head = [State(group, 0)] if first_in_group else []
     head.append(State(unit["name"], 1, kicker=group.upper(), title=unit["name"], subtitle=subtitle_of(unit),
                       points=" / ".join(str(t) for t in tiers) + "pts",
-                      faction=fm.group(1).strip() if fm else "Emperor's Children",
+                      faction=fm.group(1).strip() if fm else CONFIG["title"],
                       stats=stat_boxes, keywords=keywords))
     return head + left + [FrameBreak()] + right
 
@@ -632,25 +657,46 @@ def points_story(grouped, prices):
 
 
 # ---------------------------------------------------------------- assembly
+def derived_prices(entries):
+    """Points per unit size from the catalogue: base cost plus each size increment."""
+    prices = {}
+    for e in entries:
+        tiers = [cost(e, POINTS)]
+        for m in e.get("modifiers", []):
+            if m.get("field") == POINTS and m.get("type") == "increment" and m.get("conditions") \
+                    and not m.get("conditionGroups") and not m.get("repeats"):
+                tiers.append(tiers[-1] + m["value"])
+        prices[e["name"]] = tuple(tiers)
+    return prices
+
+
 def build(catalogue_path, out_path):
+    global ARMY_RULES
     cat = json.loads(Path(catalogue_path).read_text())["catalogue"]
+    system = json.loads((ROOT / "Warhammer 40,000.json").read_text())["gameSystem"]
     entries = cat["sharedSelectionEntries"]
     by_id = {e["id"]: e for e in entries}
     by_name = {e["name"]: e for e in entries}
     rules = {r["name"]: r for r in cat["sharedRules"]}
-    prices = unit_prices()
+    prices = unit_prices() if CONFIG is CONFIGS["ec"] else derived_prices(entries)
 
-    army_links = [l["name"] for l in by_name["Army Rules and References"].get("infoLinks", []) if l["name"] in rules]
+    army_entry = by_name["Army Rules and References"]
+    army_rules = [(l["name"], rules[l["name"]].get("description", "")) for l in army_entry.get("infoLinks", [])
+                  if l["name"] in rules]
+    army_rules += [(r["name"], r.get("description", "")) for r in army_entry.get("rules", []) if not r.get("hidden")]
+    army_links = [name for name, _ in army_rules]
+    ARMY_RULES = set(army_links)
     detachments = by_name["Detachment"]["selectionEntryGroups"][0]["selectionEntries"]
     det_ids = {d["id"]: d["name"] for d in detachments}
     enh_by_det = {d["name"]: [] for d in detachments}
-    for enh in (e for e in entries if cost(e, ENHANCEMENT_SLOT)):
-        for node in walk(entries):
-            if node.get("targetId") == enh["id"]:
-                blob = json.dumps(node)
-                for i, n in det_ids.items():
-                    if i in blob and enh not in enh_by_det[n]:
-                        enh_by_det[n].append(enh)
+    enhancements = [e for e in entries + system["sharedSelectionEntries"] if cost(e, ENHANCEMENT_SLOT)]
+    for enh in enhancements:
+        # Gated either on the link (Emperor's Children) or on the enhancement itself (Agents).
+        blobs = [json.dumps(enh.get("modifiers", []))] + [json.dumps(n) for n in walk(entries)
+                                                          if n.get("targetId") == enh["id"]]
+        for i, n in det_ids.items():
+            if any(i in blob for blob in blobs) and enh not in enh_by_det[n]:
+                enh_by_det[n].append(enh)
 
     grouped = OrderedDict((g, []) for g in GROUPS)
     for link in cat["entryLinks"]:
@@ -667,7 +713,7 @@ def build(catalogue_path, out_path):
         s = [NextPageTemplate("section"), PageBreak(),
              State(None, kicker=f"CODEX: {FACTION}", title="Contents")]
         s += contents_story(toc_entries, toc_groups)
-        s += [PageBreak()] + army_rules_story(army_links, rules)
+        s += [PageBreak()] + army_rules_story(army_rules)
         for i, det in enumerate(detachments):
             strats = [r for r in cat["sharedRules"] if r["name"].startswith(det["name"] + " — ")]
             s += [PageBreak()] + detachment_story(det, enh_by_det[det["name"]], strats, i == 0)
@@ -687,7 +733,12 @@ def build(catalogue_path, out_path):
 
 
 if __name__ == "__main__":
-    catalogue = sys.argv[1] if len(sys.argv) > 1 else ROOT / "Chaos - Emperor's Children.json"
-    output = sys.argv[2] if len(sys.argv) > 2 else ROOT / "homebrew" / "Emperors-Children-Codex-4.0.pdf"
+    args = sys.argv[1:]
+    if args[:1] == ["--faction"]:
+        CONFIG = CONFIGS[args[1]]
+        FACTION = CONFIG["faction"]
+        args = args[2:]
+    catalogue = args[0] if args else ROOT / CONFIG["catalogue"]
+    output = args[1] if len(args) > 1 else ROOT / CONFIG["output"]
     build(catalogue, output)
     print("Wrote", output)
