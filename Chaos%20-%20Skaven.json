@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 27,
+    "revision": 28,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -18207,7 +18207,14 @@
                 ]
               }
             ],
-            "sortIndex": 0
+            "sortIndex": 0,
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 1
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -18348,92 +18355,6 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 20,
-            "conditions": [
-              {
-                "childId": "69d6-505d-6041-dc33",
-                "field": "selections",
-                "scope": "4ae3-8d5b-1971-fddb",
-                "type": "atLeast",
-                "value": 30,
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 20,
-            "conditions": [
-              {
-                "childId": "69d6-505d-6041-dc33",
-                "field": "selections",
-                "scope": "4ae3-8d5b-1971-fddb",
-                "type": "atLeast",
-                "value": 40,
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "type": "add",
-            "field": "error",
-            "value": "Select 20 Skavenslave or 30 Skavenslave or 40 Skavenslave.",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditionGroups": [
-                  {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "childId": "69d6-505d-6041-dc33",
-                        "field": "selections",
-                        "scope": "4ae3-8d5b-1971-fddb",
-                        "type": "notEqualTo",
-                        "value": 20,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "childId": "69d6-505d-6041-dc33",
-                        "field": "selections",
-                        "scope": "4ae3-8d5b-1971-fddb",
-                        "type": "notEqualTo",
-                        "value": 30,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "childId": "69d6-505d-6041-dc33",
-                        "field": "selections",
-                        "scope": "4ae3-8d5b-1971-fddb",
-                        "type": "notEqualTo",
-                        "value": 40,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
             "value": 5,
             "conditionGroups": [
               {
@@ -18490,7 +18411,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 40
+            "value": 0
           }
         ]
       },

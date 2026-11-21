@@ -1882,7 +1882,7 @@
   "unit_composition": [
    "20-40 Skavenslaves. Every model is equipped with Skavenslave blades. This unit has no ranged weapons. This unit can be fitted with Explosive Collars."
   ],
-  "points": "40pts / 60pts / 80pts",
+  "points": "1pts per model",
   "repeat_cost": "+5pts from the 4th copy"
  },
  {
