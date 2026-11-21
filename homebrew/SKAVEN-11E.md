@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 29 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 30 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 12
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -61,6 +61,10 @@ detachments). The layout follows the Emperor's Children catalogue.
 - Random Move: Doomwheel 2D6+3", Clattertank D6+6", Hell Pit Abomination 2D6+1"
   and Doom-Flayers 2D6+5", with the Erratic Movement ability (roll once at the
   start of your Movement phase; modifiers apply after the roll).
+- FRAME is on every vehicle except the Eshin Nightstrider; GRENADES is on
+  Clanrats, Stormvermin, Warp-Zap Stormvermin, Warpclad Warpack, Skryre Acolytes,
+  Night Runners, Gutter Runners and Eshin Shadowriggers.
+- A PSYKER can use any number of DAMAGE spells, limited by its Psyker Level.
 - Every CHARACTER has a Warlord option; the army needs exactly one Warlord. The
   Warlord datasheet's WARLORD keyword is its own keyword, not the Warlord role.
 - Weapon teams start with their lead crew (Lead Gunner, Lead Burner or Lead

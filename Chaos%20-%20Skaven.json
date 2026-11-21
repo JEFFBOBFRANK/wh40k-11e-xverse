@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 29,
+    "revision": 30,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -18451,6 +18451,13 @@
             "hidden": false
           },
           {
+            "name": "Grenades",
+            "id": "eadc-4b05-c2f7-58ce",
+            "targetId": "5a61-81ac-eb7c-a87e",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "4f53-5046-0193-1935",
             "targetId": "c027-d20e-6161-521e",
@@ -18557,7 +18564,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Infantry, Battleline, Verminus, Clanrats. Faction: Skaven."
+                "$text": "Keywords: Infantry, Battleline, Verminus, Clanrats, Grenades. Faction: Skaven."
               }
             ]
           }
@@ -20898,7 +20905,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 50,
+            "value": 45,
             "conditions": [
               {
                 "childId": "0364-5457-b5d6-8000",
@@ -21060,7 +21067,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 55
+            "value": 50
           }
         ]
       },
@@ -21089,6 +21096,13 @@
             "name": "Stormvermin",
             "id": "d11b-0f46-4320-26b6",
             "targetId": "f5a8-4a67-4944-3fd2",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Grenades",
+            "id": "20ca-e3ab-c082-6b72",
+            "targetId": "5a61-81ac-eb7c-a87e",
             "primary": false,
             "hidden": false
           },
@@ -21167,7 +21181,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Infantry, Verminus, Stormvermin. Faction: Skaven."
+                "$text": "Keywords: Infantry, Verminus, Stormvermin, Grenades. Faction: Skaven."
               }
             ]
           }
@@ -23701,6 +23715,13 @@
             "hidden": false
           },
           {
+            "name": "Grenades",
+            "id": "6111-0ace-d1bf-7ab6",
+            "targetId": "5a61-81ac-eb7c-a87e",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "e667-69e8-b596-aafe",
             "targetId": "c027-d20e-6161-521e",
@@ -23747,7 +23768,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Infantry, Verminus, Stormvermin. Faction: Skaven."
+                "$text": "Keywords: Infantry, Verminus, Stormvermin, Grenades. Faction: Skaven."
               }
             ]
           }
@@ -26432,6 +26453,13 @@
             "hidden": false
           },
           {
+            "name": "Grenades",
+            "id": "6e16-cff8-b29a-d638",
+            "targetId": "5a61-81ac-eb7c-a87e",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "89bd-fbbd-d8d0-51a8",
             "targetId": "c027-d20e-6161-521e",
@@ -26492,7 +26520,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Infantry, Verminus, Skryre, Stormvermin, Warpclad. Faction: Skaven."
+                "$text": "Keywords: Infantry, Verminus, Skryre, Stormvermin, Warpclad, Grenades. Faction: Skaven."
               }
             ]
           }
@@ -27297,7 +27325,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 230
+            "value": 195
           }
         ],
         "selectionEntryGroups": [
@@ -30542,6 +30570,13 @@
             "hidden": false
           },
           {
+            "name": "Grenades",
+            "id": "7bc6-b764-fd57-a55c",
+            "targetId": "5a61-81ac-eb7c-a87e",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "950b-e78f-06d3-effc",
             "targetId": "c027-d20e-6161-521e",
@@ -30616,7 +30651,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Infantry, Eshin, Night Runners. Faction: Skaven."
+                "$text": "Keywords: Infantry, Eshin, Night Runners, Grenades. Faction: Skaven."
               }
             ]
           }
@@ -31720,6 +31755,13 @@
             "hidden": false
           },
           {
+            "name": "Grenades",
+            "id": "c091-f090-31c6-ac2b",
+            "targetId": "5a61-81ac-eb7c-a87e",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "1ebd-5fc1-f73f-fdd9",
             "targetId": "c027-d20e-6161-521e",
@@ -31794,7 +31836,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Infantry, Eshin, Gutter Runners. Faction: Skaven."
+                "$text": "Keywords: Infantry, Eshin, Gutter Runners, Grenades. Faction: Skaven."
               }
             ]
           }
@@ -32848,6 +32890,13 @@
             "hidden": false
           },
           {
+            "name": "Grenades",
+            "id": "1bb0-082a-3c05-7d25",
+            "targetId": "5a61-81ac-eb7c-a87e",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "6dc9-d340-12d8-8b42",
             "targetId": "c027-d20e-6161-521e",
@@ -32936,7 +32985,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Infantry, Eshin, Shadowriggers. Faction: Skaven."
+                "$text": "Keywords: Infantry, Eshin, Shadowriggers, Grenades. Faction: Skaven."
               }
             ]
           }
@@ -36552,6 +36601,13 @@
             "hidden": false
           },
           {
+            "name": "Grenades",
+            "id": "b98b-bb53-caf8-7f15",
+            "targetId": "5a61-81ac-eb7c-a87e",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "3a2a-5c2e-8554-5e48",
             "targetId": "c027-d20e-6161-521e",
@@ -36626,7 +36682,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Infantry, Weapon Team, Skryre, Skryre Acolytes. Faction: Skaven."
+                "$text": "Keywords: Infantry, Weapon Team, Skryre, Skryre Acolytes, Grenades. Faction: Skaven."
               }
             ]
           }
@@ -43501,7 +43557,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 225,
+            "value": 190,
             "conditions": [
               {
                 "childId": "066c-7f0a-897e-7a5f",
@@ -43649,7 +43705,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 225
+            "value": 190
           }
         ]
       },
@@ -46893,7 +46949,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 390
+            "value": 340
           }
         ],
         "selectionEntryGroups": [
@@ -47579,6 +47635,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "38d9-d96b-730d-3f47",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "0c8d-684a-4318-3648",
             "targetId": "c027-d20e-6161-521e",
@@ -47725,7 +47788,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Skryre, Rattletrap, Doomwheel. Faction: Skaven."
+                "$text": "Keywords: Vehicle, Skryre, Rattletrap, Doomwheel, Frame. Faction: Skaven."
               }
             ]
           }
@@ -48066,7 +48129,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 200
+            "value": 160
           }
         ],
         "selectionEntryGroups": [
@@ -49379,6 +49442,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "88f4-2731-689a-184c",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "ebc1-966b-5ec6-f07c",
             "targetId": "c027-d20e-6161-521e",
@@ -49497,7 +49567,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Skryre, Rattletrap, Warp Lightning Cannon. Faction: Skaven."
+                "$text": "Keywords: Vehicle, Skryre, Rattletrap, Warp Lightning Cannon, Frame. Faction: Skaven."
               }
             ]
           }
@@ -49852,7 +49922,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 120
           }
         ],
         "selectionEntryGroups": [
@@ -50216,6 +50286,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "22e4-a2df-1bcb-867a",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "927e-a912-c912-91b1",
             "targetId": "c027-d20e-6161-521e",
@@ -50320,7 +50397,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Pestilens, Rattletrap, Plagueclaw Catapult. Faction: Skaven."
+                "$text": "Keywords: Vehicle, Pestilens, Rattletrap, Plagueclaw Catapult, Frame. Faction: Skaven."
               }
             ]
           }
@@ -50917,6 +50994,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "8f9a-f21f-ccfd-3766",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "a6f3-39cd-d072-5fcb",
             "targetId": "c027-d20e-6161-521e",
@@ -51035,7 +51119,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Skryre, Rattletrap, Ratling Warpblaster. Faction: Skaven."
+                "$text": "Keywords: Vehicle, Skryre, Rattletrap, Ratling Warpblaster, Frame. Faction: Skaven."
               }
             ]
           }
@@ -51287,7 +51371,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 210
+            "value": 160
           }
         ],
         "selectionEntryGroups": [
@@ -51644,6 +51728,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "d12d-a858-f7c9-1bcf",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "d252-1376-fa63-2d2f",
             "targetId": "c027-d20e-6161-521e",
@@ -51748,7 +51839,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Skryre, Warp-Doom Magma Cannon. Faction: Skaven."
+                "$text": "Keywords: Vehicle, Skryre, Warp-Doom Magma Cannon, Frame. Faction: Skaven."
               }
             ]
           }
@@ -52103,7 +52194,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 200
+            "value": 155
           }
         ],
         "selectionEntryGroups": [
@@ -52460,6 +52551,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "1cfd-649d-4226-a402",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "252a-b331-46c1-4fa0",
             "targetId": "c027-d20e-6161-521e",
@@ -52648,7 +52746,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Pestilens, Cauldron of a Thousand Poxes. Faction: Skaven."
+                "$text": "Keywords: Vehicle, Pestilens, Cauldron of a Thousand Poxes, Frame. Faction: Skaven."
               }
             ]
           }
@@ -53208,6 +53306,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "cfc1-5159-d270-6daf",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "b30c-dbca-ac0b-e2fa",
             "targetId": "c027-d20e-6161-521e",
@@ -53326,7 +53431,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Skryre, Warpclaw Battle Tank. Faction: Skaven."
+                "$text": "Keywords: Vehicle, Skryre, Warpclaw Battle Tank, Frame. Faction: Skaven."
               }
             ]
           }
@@ -53873,7 +53978,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 200
+            "value": 150
           }
         ],
         "selectionEntryGroups": [
@@ -54230,6 +54335,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "25ee-e59d-8c6b-e889",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "d1d8-01e0-f362-ced9",
             "targetId": "c027-d20e-6161-521e",
@@ -54348,7 +54460,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Skryre, Doomgrinder. Faction: Skaven."
+                "$text": "Keywords: Vehicle, Skryre, Doomgrinder, Frame. Faction: Skaven."
               }
             ]
           }
@@ -54705,7 +54817,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 300
+            "value": 240
           }
         ],
         "selectionEntryGroups": [
@@ -55062,6 +55174,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "aba4-5187-e081-d1e5",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "cdaf-bbc8-a620-0123",
             "targetId": "c027-d20e-6161-521e",
@@ -55180,7 +55299,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Skryre, Warpstone Harvester. Faction: Skaven."
+                "$text": "Keywords: Vehicle, Skryre, Warpstone Harvester, Frame. Faction: Skaven."
               }
             ]
           }
@@ -55507,7 +55626,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 190
+            "value": 150
           }
         ],
         "selectionEntryGroups": [
@@ -55878,6 +55997,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "0269-bbb9-75c4-862e",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "1452-6806-8635-8a0e",
             "targetId": "c027-d20e-6161-521e",
@@ -56010,7 +56136,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Titanic, Towering, Transport, Vermindoom. Faction: Skaven."
+                "$text": "Keywords: Vehicle, Titanic, Towering, Transport, Vermindoom, Frame. Faction: Skaven."
               }
             ]
           }
@@ -57220,7 +57346,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 500
+            "value": 420
           }
         ]
       },
@@ -57263,6 +57389,13 @@
             "name": "Clattertank",
             "id": "b6f3-0644-d3b0-f004",
             "targetId": "7122-977f-4564-f6e8",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Frame",
+            "id": "b69f-0b57-eae3-4955",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false,
             "hidden": false
           },
@@ -57385,7 +57518,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Battleline, Skryre, Rattletrap, Clattertank. Faction: Skaven."
+                "$text": "Keywords: Vehicle, Battleline, Skryre, Rattletrap, Clattertank, Frame. Faction: Skaven."
               }
             ]
           }
@@ -57726,7 +57859,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 80
           }
         ],
         "selectionEntryGroups": [
@@ -58182,6 +58315,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "c702-2313-1e14-39f9",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Faction: Skaven",
             "id": "ef43-25db-3e99-6fc5",
             "targetId": "c027-d20e-6161-521e",
@@ -58314,7 +58454,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Transport, Dedicated Transport, Skryre, Gnawhole, Gnawdrill. Faction: Skaven."
+                "$text": "Keywords: Vehicle, Transport, Dedicated Transport, Skryre, Gnawhole, Gnawdrill, Frame. Faction: Skaven."
               }
             ]
           }
@@ -58561,7 +58701,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 125
+            "value": 105
           }
         ],
         "selectionEntryGroups": [
@@ -64201,7 +64341,7 @@
         "name": "Verminous Psychic Power",
         "id": "23f2-243b-eb88-3e2c",
         "hidden": false,
-        "description": "​<br><br>**Psyker Level:**<br>Each PSYKER model has a Psyker Level on its datasheet. Each spell has a Psychic Level. Each battle round, a PSYKER can use spells whose combined Psychic Level does not exceed its Psyker Level; spend a spell's Psychic Level when you use it. At the start of each battle round, reset the Psychic Level each PSYKER has spent to 0. A rule that increases a Psyker Level raises that limit; it does not refund Psychic Level already spent.\n\n**Using Spells:**<br>A PSYKER can use a spell it knows when that spell's WHEN condition is met, if it is on the battlefield (unless a rule says otherwise) and its unit is not battle-shocked. Each PSYKER can use each spell once per phase, and only one DAMAGE spell per turn, unless a rule says otherwise. Select the spell's targets, then make a psychic roll by rolling one D6. The spell resolves whatever the result. If the unmodified result is 1, after the spell resolves, that PSYKER's unit becomes battle-shocked and resolves Cornered Rats, even if it does not have Scurry Away!. This is not a failed battle-shock roll.\n\n**Overcasting:**<br>Once per turn, when a PSYKER uses a spell, before making the psychic roll, you can declare that it will Overcast. If you do, roll 2D6 instead of 1D6, reading each die separately, and resolve the spell's OVERCAST effect as well as its EFFECT. Overcasting does not increase the spell's Psychic Level. If either unmodified die is a 1, after the spell resolves, that PSYKER's unit suffers D6 mortal wounds, becomes battle-shocked and resolves Cornered Rats. Resolve this once per psychic roll, even if both dice are 1s.\n\n**Re-rolls:**<br>A rule that re-rolls a psychic roll re-rolls only the dice it states. No die can be re-rolled more than once. Check for unmodified 1s after all re-rolls.\n\n**Psychic Weapons:**<br>Weapons with [PSYCHIC] (for example Warp bolts, Pox blast and Shadow darts) are not spells. They use the normal attack rules, cost no Psychic Level, make no psychic roll and cannot be Overcast."
+        "description": "​<br><br>**Psyker Level:**<br>Each PSYKER model has a Psyker Level on its datasheet. Each spell has a Psychic Level. Each battle round, a PSYKER can use spells whose combined Psychic Level does not exceed its Psyker Level; spend a spell's Psychic Level when you use it. At the start of each battle round, reset the Psychic Level each PSYKER has spent to 0. A rule that increases a Psyker Level raises that limit; it does not refund Psychic Level already spent.\n\n**Using Spells:**<br>A PSYKER can use a spell it knows when that spell's WHEN condition is met, if it is on the battlefield (unless a rule says otherwise) and its unit is not battle-shocked. Each PSYKER can use each spell once per phase, unless a rule says otherwise. Select the spell's targets, then make a psychic roll by rolling one D6. The spell resolves whatever the result. If the unmodified result is 1, after the spell resolves, that PSYKER's unit becomes battle-shocked and resolves Cornered Rats, even if it does not have Scurry Away!. This is not a failed battle-shock roll.\n\n**Overcasting:**<br>Once per turn, when a PSYKER uses a spell, before making the psychic roll, you can declare that it will Overcast. If you do, roll 2D6 instead of 1D6, reading each die separately, and resolve the spell's OVERCAST effect as well as its EFFECT. Overcasting does not increase the spell's Psychic Level. If either unmodified die is a 1, after the spell resolves, that PSYKER's unit suffers D6 mortal wounds, becomes battle-shocked and resolves Cornered Rats. Resolve this once per psychic roll, even if both dice are 1s.\n\n**Re-rolls:**<br>A rule that re-rolls a psychic roll re-rolls only the dice it states. No die can be re-rolled more than once. Check for unmodified 1s after all re-rolls.\n\n**Psychic Weapons:**<br>Weapons with [PSYCHIC] (for example Warp bolts, Pox blast and Shadow darts) are not spells. They use the normal attack rules, cost no Psychic Level, make no psychic roll and cannot be Overcast."
       },
       {
         "name": "Lore of Ruin",

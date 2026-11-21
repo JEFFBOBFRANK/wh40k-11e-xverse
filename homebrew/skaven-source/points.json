@@ -120,7 +120,7 @@
     },
     {
      "name": "Clanrats",
-     "points": "55pts / 105pts",
+     "points": "50pts / 95pts",
      "repeat_cost": "+5pts from the 4th copy"
     },
     {
@@ -130,7 +130,7 @@
     },
     {
      "name": "Clattertank",
-     "points": "95pts",
+     "points": "80pts",
      "repeat_cost": "+10pts from the 4th copy"
     }
    ]
@@ -150,7 +150,7 @@
     },
     {
      "name": "Warpclad Warpack",
-     "points": "230pts",
+     "points": "195pts",
      "repeat_cost": "+20pts from the 3rd copy"
     },
     {
@@ -240,7 +240,7 @@
     },
     {
      "name": "Stormfiends",
-     "points": "225pts / 450pts",
+     "points": "190pts / 380pts",
      "repeat_cost": "+25pts from the 3rd copy"
     },
     {
@@ -275,7 +275,7 @@
     },
     {
      "name": "Verminwyrm",
-     "points": "390pts",
+     "points": "340pts",
      "repeat_cost": "+30pts from the 2nd copy"
     },
     {
@@ -290,7 +290,7 @@
    "entries": [
     {
      "name": "Doomwheel",
-     "points": "200pts",
+     "points": "160pts",
      "repeat_cost": "+20pts from the 3rd copy"
     },
     {
@@ -300,7 +300,7 @@
     },
     {
      "name": "Warp Lightning Cannon",
-     "points": "150pts",
+     "points": "120pts",
      "repeat_cost": "+15pts from the 3rd copy"
     },
     {
@@ -310,12 +310,12 @@
     },
     {
      "name": "Ratling Warpblaster",
-     "points": "210pts",
+     "points": "160pts",
      "repeat_cost": "+20pts from the 3rd copy"
     },
     {
      "name": "Warp-Doom Magma Cannon",
-     "points": "200pts",
+     "points": "155pts",
      "repeat_cost": "+20pts from the 3rd copy"
     },
     {
@@ -325,22 +325,22 @@
     },
     {
      "name": "Warpclaw Battle Tank",
-     "points": "200pts",
+     "points": "150pts",
      "repeat_cost": "+20pts from the 3rd copy"
     },
     {
      "name": "Doomgrinder Siege Tank",
-     "points": "300pts",
+     "points": "240pts",
      "repeat_cost": "+30pts from the 2nd copy"
     },
     {
      "name": "Warpstone Harvester",
-     "points": "190pts",
+     "points": "150pts",
      "repeat_cost": "+20pts from the 3rd copy"
     },
     {
      "name": "Vermindoom Land-Fortress",
-     "points": "500pts + Clan Flagship",
+     "points": "420pts + Clan Flagship",
      "repeat_cost": "+50pts from the 2nd copy"
     }
    ]
@@ -350,7 +350,7 @@
    "entries": [
     {
      "name": "Gnawdrill Excavator",
-     "points": "125pts",
+     "points": "105pts",
      "repeat_cost": "+10pts from the 3rd copy"
     }
    ]
