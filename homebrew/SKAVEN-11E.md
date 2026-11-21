@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 25 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 26 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 12
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -57,6 +57,9 @@ detachments). The layout follows the Emperor's Children catalogue.
   the ESHIN keyword, Paid Informants and Scouts 6".
 - Clan Skurvy: every Clanrats unit gains the SKURVY keyword and Claim-Claim the
   Prize!.
+- Random Move: Doomwheel 2D6+3", Clattertank D6+6", Hell Pit Abomination 2D6+1"
+  and Doom-Flayers 2D6+5", with the Erratic Movement ability (roll once at the
+  start of your Movement phase; modifiers apply after the roll).
 - Every CHARACTER has a Warlord option; the army needs exactly one Warlord. The
   Warlord datasheet's WARLORD keyword is its own keyword, not the Warlord role.
 - Weapon teams start with their lead crew (Lead Gunner, Lead Burner or Lead

@@ -3494,7 +3494,7 @@
    "SKAVEN"
   ],
   "profile": {
-   "M": "12\"",
+   "M": "2D6+5\"",
    "T": "5",
    "SV": "4+",
    "W": "4",
@@ -3548,6 +3548,10 @@
    {
     "name": "Explosive End",
     "text": "Each time a model in this unit is destroyed while it is engaged, roll one D6. On a 5+, one of those enemy units suffers D3 mortal wounds."
+   },
+   {
+    "name": "Erratic Movement",
+    "text": "Roll this model's Move characteristic once at the start of your Movement phase; the result applies until the end of the turn. Apply any modifiers to its Move characteristic after rolling."
    }
   ],
   "other_rules": [],
@@ -4237,7 +4241,7 @@
    "SKAVEN"
   ],
   "profile": {
-   "M": "8\"",
+   "M": "2D6+1\"",
    "T": "11",
    "SV": "4+",
    "W": "22",
@@ -4311,6 +4315,10 @@
    {
     "name": "Damaged: 1-7 Wounds Remaining",
     "text": "While this model has 1-7 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+   },
+   {
+    "name": "Erratic Movement",
+    "text": "Roll this model's Move characteristic once at the start of your Movement phase; the result applies until the end of the turn. Apply any modifiers to its Move characteristic after rolling."
    }
   ],
   "other_rules": [],
@@ -4578,7 +4586,7 @@
    "SKAVEN"
   ],
   "profile": {
-   "M": "10\"",
+   "M": "2D6+3\"",
    "T": "10",
    "SV": "3+",
    "W": "12",
@@ -4650,6 +4658,10 @@
    {
     "name": "",
     "text": "Each time a charge roll made for this model fails, this model suffers D3 mortal wounds."
+   },
+   {
+    "name": "Erratic Movement",
+    "text": "Roll this model's Move characteristic once at the start of your Movement phase; the result applies until the end of the turn. Apply any modifiers to its Move characteristic after rolling."
    }
   ],
   "other_rules": [],
@@ -5685,7 +5697,7 @@
    "SKAVEN"
   ],
   "profile": {
-   "M": "10\"",
+   "M": "D6+6\"",
    "T": "8",
    "SV": "3+",
    "W": "11",
@@ -5747,6 +5759,10 @@
    {
     "name": "Catastrophic Warp-Core",
     "text": "When this model is destroyed, do not roll to determine whether its Deadly Demise D6 ability triggers; it triggers automatically."
+   },
+   {
+    "name": "Erratic Movement",
+    "text": "Roll this model's Move characteristic once at the start of your Movement phase; the result applies until the end of the turn. Apply any modifiers to its Move characteristic after rolling."
    }
   ],
   "other_rules": [],

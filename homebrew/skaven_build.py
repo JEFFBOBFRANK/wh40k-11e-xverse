@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 25
+REVISION = 26
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -155,7 +155,8 @@ class Builder:
         self.sys_rules = self.system["sharedRules"]
         old_entries = self.old["sharedSelectionEntries"]
         self.old_ids = {}
-        for e in old_entries:
+        # Datasheets first, so a datasheet keeps its ID when an option shares its name (Warlord).
+        for e in sorted(old_entries, key=lambda e: e["type"] not in ("unit", "model")):
             self.old_ids.setdefault(norm(RENAMED.get(norm_key(e["name"]), e["name"])), e["id"])
         self.old_rules = {norm(RENAMED.get(r["name"], r["name"])): r["id"] for r in self.old["sharedRules"]}
         self.old_categories = {}

@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 25,
+    "revision": 26,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -40003,6 +40003,20 @@
             ]
           },
           {
+            "id": "6280-8624-19be-a599",
+            "name": "Erratic Movement",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Roll this model's Move characteristic once at the start of your Movement phase; the result applies until the end of the turn. Apply any modifiers to its Move characteristic after rolling."
+              }
+            ]
+          },
+          {
             "id": "12c7-ca1d-7bfc-78ea",
             "name": "Unit Composition and Equipment",
             "hidden": true,
@@ -40078,7 +40092,7 @@
                   {
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "12\""
+                    "$text": "2D6+5\""
                   },
                   {
                     "name": "T",
@@ -45832,7 +45846,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "8\""
+                "$text": "2D6+1\""
               },
               {
                 "name": "T",
@@ -45933,6 +45947,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "While this model has 1-7 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+              }
+            ]
+          },
+          {
+            "id": "6a70-d244-6559-df91",
+            "name": "Erratic Movement",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Roll this model's Move characteristic once at the start of your Movement phase; the result applies until the end of the turn. Apply any modifiers to its Move characteristic after rolling."
               }
             ]
           },
@@ -47679,7 +47707,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "10\""
+                "$text": "2D6+3\""
               },
               {
                 "name": "T",
@@ -47766,6 +47794,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Each time a charge roll made for this model fails, this model suffers D3 mortal wounds."
+              }
+            ]
+          },
+          {
+            "id": "0cd3-f57a-d70f-c60b",
+            "name": "Erratic Movement",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Roll this model's Move characteristic once at the start of your Movement phase; the result applies until the end of the turn. Apply any modifiers to its Move characteristic after rolling."
               }
             ]
           },
@@ -57353,7 +57395,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "10\""
+                "$text": "D6+6\""
               },
               {
                 "name": "T",
@@ -57412,6 +57454,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "When this model is destroyed, do not roll to determine whether its Deadly Demise D6 ability triggers; it triggers automatically."
+              }
+            ]
+          },
+          {
+            "id": "b21a-aedb-55b1-0344",
+            "name": "Erratic Movement",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Roll this model's Move characteristic once at the start of your Movement phase; the result applies until the end of the turn. Apply any modifiers to its Move characteristic after rolling."
               }
             ]
           },
