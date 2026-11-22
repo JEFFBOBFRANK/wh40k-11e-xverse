@@ -15,13 +15,13 @@ In your Command phase, select one friendly SKAVEN VEHICLE unit within 6" of the 
 
 ### WARP-FED GEARBOX  [20 pts]
 
-_UNIT ENHANCEMENT - SKAVEN VEHICLE unit only._
+_UNIT ENHANCEMENT - SKAVEN VEHICLE unit only; up to three units can have this Enhancement._
 
 Add 2" to this unit's Move characteristic. Each time an advance roll is made for this unit, you can re-roll it.
 
 ### JURY-RIGGED STABILIZERS  [15 pts]
 
-_UNIT ENHANCEMENT - SKAVEN VEHICLE unit only._
+_UNIT ENHANCEMENT - SKAVEN VEHICLE unit only; up to three units can have this Enhancement._
 
 Each time a model in this unit makes a ranged attack in a turn in which this unit made an advance move, you can ignore any or all modifiers to that attack's Hit roll.
 

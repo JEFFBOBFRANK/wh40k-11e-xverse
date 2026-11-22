@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 41 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 43 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -54,6 +54,8 @@ detachments). The layout follows the Emperor's Children catalogue.
 - Detachments that make a unit BATTLELINE (Black-Fur Supremacy, Warlock Battery,
   Beast Pens, Night Stalkers, Plague Congregation) move it into Battleline, add
   1 OC to its models and raise its copy limit to 6.
+- A unit, and an Attached Unit (Leader and Bodyguard together), can have only one
+  Enhancement or Upgrade.
 - Enhancements appear only on eligible units of the chosen detachment. Unit
   Enhancements that up to three units can take are Upgrades sharing one
   Enhancement selection.

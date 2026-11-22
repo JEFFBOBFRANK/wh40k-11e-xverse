@@ -92,19 +92,19 @@ _Upgrade Enhancements_
 
 ### BLACK-FUR BOARDERS UPGRADE  [10 pts]
 
-_STORMVERMIN unit only._
+_UNIT ENHANCEMENT - STORMVERMIN unit only; up to three units can have this Enhancement._
 
 This unit gains the SKURVY keyword. Add 1 to charge rolls made for this unit. Each time a model in this unit makes a melee attack that targets an enemy unit within range of an objective, re-roll a Hit roll of 1.
 
 ### PRIZE GUNNERY CREWS UPGRADE  [15 pts]
 
-_WEAPON TEAM unit only._
+_UNIT ENHANCEMENT - WEAPON TEAM unit only; up to three units can have this Enhancement._
 
 This unit gains the SKURVY keyword. While this unit has one or more Plunder Ledger options active, each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1.
 
 ### BLACK-FLAG RIGGING UPGRADE  [15 pts]
 
-_SKAVEN VEHICLE or SKAVEN TRANSPORT unit only._
+_UNIT ENHANCEMENT - SKAVEN VEHICLE or SKAVEN TRANSPORT unit only; up to three units can have this Enhancement._
 
 This unit gains the SKURVY keyword. Add 2" to this unit's Move characteristic. In your Movement phase, just after this unit ends an advance move, it can Plunder an objective within range as if it had ended a normal move. If it does, it cannot shoot or declare a charge this turn.
 

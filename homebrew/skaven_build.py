@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 41
+REVISION = 43
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -68,6 +68,7 @@ OPTION_SECTIONS = {"Workshop Projects": "project", "Mutations": "mutation", "Rui
                    "Council Seats": "seat"}
 COUNCIL_CLANS = ["VERMINUS", "SKRYRE", "MOULDER", "ESHIN", "PESTILENS", "MASTERCLAN"]
 FLESH_SCULPTING = "c1a7-5e0d-4b2f-9e11"
+ENH_COUNT = "e7c3-91a2-4d0b-b6f5"  # hidden cost: Enhancements and Upgrades per Attached Unit
 ROLE_CATEGORY = {"EPIC HERO": "Epic Hero", "CHARACTER": "Character", "BATTLELINE": "Battleline",
                  "INFANTRY": "Infantry", "MOUNTED": "Mounted", "BEAST": "Beast", "MONSTER": "Monster",
                  "VEHICLE": "Vehicle", "DEDICATED TRANSPORT": "Dedicated Transport"}
@@ -1174,6 +1175,19 @@ def stat_modifiers(unit, entry_id, effects):
                     continue
                 for c in profile["characteristics"]:
                     text = c.get("$text", "-")
+                    if char == "Keywords" and c["name"] == "Keywords":
+                        if change.upper() not in text.upper():  # appended, so several keywords add up
+                            kind_ = "set" if text in ("-", "") else "append"
+                            profile.setdefault("modifiers", []).append(dict(
+                                field=c["typeId"], type=kind_, value=change if kind_ == "set" else ", " + change,
+                                conditions=condition))
+                        continue
+                    if char == "AP" and c["name"] == "AP":
+                        value = int(text.replace("\u2212", "-")) if re.match(r"^[-\u2212]?\d+$", text) else None
+                        if value is not None:
+                            profile.setdefault("modifiers", []).append(dict(
+                                field=c["typeId"], type="set", value=str(value + change), conditions=condition))
+                        continue
                     if CHAR_KEYS.get(c["name"].upper(), c["name"].upper()) != char or text in ("-", "", "N/A"):
                         continue
                     if char == "A" and "EXTRA ATTACKS" in profile["characteristics"][-1].get("$text", "").upper():
@@ -1210,12 +1224,24 @@ STAT_EFFECTS = {
     "Black-Flag Rigging Upgrade": [("Unit", "M", 2)],
     "Warp-Fed Gearbox": [("Unit", "M", 2)],
     "Overgrown": [("Unit", "T", 1)],
+    "Shadow Blade": [("Melee Weapons", "AP", -1), ("Melee Weapons", "Keywords", "Precision")],
+    "Weeping Blades": [("Melee Weapons", "Keywords", "Lethal Hits")],
 }
+# Upgrades that give the unit a keyword.
+CATEGORY_EFFECTS = {"Black-Fur Boarders Upgrade": "Skurvy", "Prize Gunnery Crews Upgrade": "Skurvy",
+                    "Black-Flag Rigging Upgrade": "Skurvy"}
 
 
-def one_per_unit(units):
-    """Each option once per unit, shown as a checkbox; a unit has at most one Enhancement or Upgrade."""
+def one_per_unit(b, units, shared_enh):
+    """Each option once per unit, shown as a checkbox; a unit has at most one Enhancement or Upgrade, and so does
+    an Attached Unit (Leader and Bodyguard together), as the official catalogues check it."""
+    for e in shared_enh:  # a hidden cost that is never zeroed, unlike the shared Upgrade slot
+        e["costs"].append(dict(name="Enhancement or Upgrade", typeId=ENH_COUNT, value=1))
     for unit in units:
+        unit.setdefault("constraints", []).append(dict(
+            id=nid(unit["id"] + ":attached-enhancement"), childId="any", field=ENH_COUNT, type="max", value=1,
+            scope="root-entry", shared=True, includeChildSelections=True, includeChildForces=False,
+            traverseAssociationGroup=True, message="An Attached Unit can only take 1 Enhancement or Upgrade."))
         for g in unit.get("selectionEntryGroups", []):
             if g["name"] in ("Enhancements and Upgrades", "Black Contract", "Council Levy"):
                 for link in g["entryLinks"]:
@@ -1230,6 +1256,13 @@ def apply_stat_effects(b, units):
         for unit in units:
             if any(isinstance(n, dict) and n.get("targetId") == eid for n in walk(unit)):
                 stat_modifiers(unit, eid, effects)
+    for name, keyword in CATEGORY_EFFECTS.items():
+        eid = b.enh_ids[name]
+        cat_id = b.category(keyword)[0]
+        for unit in units:
+            if any(isinstance(n, dict) and n.get("targetId") == eid for n in walk(unit)):
+                unit.setdefault("modifiers", []).append(dict(type="add", field="category", value=cat_id,
+                                                             conditions=[selected(eid, scope=unit["id"])]))
 
 
 def option_group(unit, key, name, limit):
@@ -1453,7 +1486,7 @@ def build(source, catalogue_path, system_path):
     shared_enh = build_enhancements(b, enhancements, units)
     shared_projects = build_options(b, projects, units, dets)
     apply_stat_effects(b, units)
-    one_per_unit(units)
+    one_per_unit(b, units, shared_enh)
     strat_links = build_stratagems(b, stratagems)
 
     # Warlord: any CHARACTER can be chosen, as in the Emperor's Children catalogue; the game system requires one.
@@ -1567,6 +1600,8 @@ def build(source, catalogue_path, system_path):
             ct["name"] = "Workshop Projects"
             ct["modifiers"] = [dict(field="hidden", type="set", value=False,
                                     conditions=[selected(dets["Skryre Worship"]["id"], scope="roster")])]
+    if not any(ct["id"] == ENH_COUNT for ct in new["costTypes"]):
+        new["costTypes"].append(dict(name="Enhancement or Upgrade", id=ENH_COUNT, defaultCostLimit=-1, hidden=True))
     if not any(ct["id"] == FLESH_SCULPTING for ct in new["costTypes"]):
         new["costTypes"].append(dict(name="Flesh-Sculpting", id=FLESH_SCULPTING, defaultCostLimit=-1, hidden=True))
     for ct in new["costTypes"]:

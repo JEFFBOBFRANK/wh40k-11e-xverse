@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 41,
+    "revision": 43,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -60,6 +60,12 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Enhancement or Upgrade",
+        "id": "e7c3-91a2-4d0b-b6f5",
+        "defaultCostLimit": -1,
+        "hidden": true
       }
     ],
     "catalogueLinks": [
@@ -5695,6 +5701,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "9ef5-896f-1e29-ac03",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -6445,6 +6464,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "45dc-1ab8-54be-c8d8",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -7468,6 +7500,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "8d94-b92a-9a2d-a722",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -8265,6 +8310,24 @@
                     "typeId": "893f-9000-ccf7-648e",
                     "$text": "Devastating Wounds, Precision"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "field": "893f-9000-ccf7-648e",
+                    "type": "append",
+                    "value": ", Lethal Hits",
+                    "conditions": [
+                      {
+                        "childId": "2371-093d-b43f-c65e",
+                        "field": "selections",
+                        "scope": "c6fe-6e1f-eb72-1477",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -8316,6 +8379,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "b992-aec2-125c-8941",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -9156,6 +9232,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "671d-e4f1-a9f6-2e71",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -9931,6 +10020,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "41f6-61b7-58c4-800c",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -10898,6 +11000,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "4741-696c-d3f3-dd41",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -13133,6 +13248,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "70ad-319d-b433-c8b4",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -15015,6 +15143,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "a5c4-6f7c-57a2-8600",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -15416,6 +15557,40 @@
                     "typeId": "893f-9000-ccf7-648e",
                     "$text": "Precision, Twin-linked"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "field": "41a0-1301-112a-e2f2",
+                    "type": "set",
+                    "value": "-3",
+                    "conditions": [
+                      {
+                        "childId": "b23f-5735-14c2-4b76",
+                        "field": "selections",
+                        "scope": "044e-bcac-b731-d9f4",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "893f-9000-ccf7-648e",
+                    "type": "append",
+                    "value": ", Lethal Hits",
+                    "conditions": [
+                      {
+                        "childId": "2371-093d-b43f-c65e",
+                        "field": "selections",
+                        "scope": "044e-bcac-b731-d9f4",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -15511,6 +15686,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "8ec6-6907-305d-5c5c",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -18314,6 +18502,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "1bc5-ab52-d15f-36a3",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -18905,6 +19106,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "8f34-bfc7-8408-2599",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -20428,6 +20642,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "390a-f3bb-9ede-30eb",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -21919,6 +22146,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "be7b-8fa0-bc31-b8ac",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -23204,6 +23444,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "cfeb-0892-f8b6-1d9a",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -24510,6 +24763,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "586b-0078-0ef6-1c66",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -25809,6 +26075,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "b637-bfa4-88d2-1c14",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -27052,6 +27331,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "2eb7-1274-bff7-dc59",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -30080,6 +30372,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "669f-9a52-b349-2dc9",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -32972,6 +33277,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "2095-c616-64b4-0e03",
+                "field": "selections",
+                "scope": "a6a8-7941-6388-580d",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -32984,6 +33305,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "b1d2-d6db-b435-7797",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -35929,6 +36263,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "2095-c616-64b4-0e03",
+                "field": "selections",
+                "scope": "4912-b42a-2464-3fe4",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -35941,6 +36291,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "5167-bff5-d080-f37d",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -36971,6 +37334,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "2095-c616-64b4-0e03",
+                "field": "selections",
+                "scope": "64fa-8772-08d1-5c74",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -36983,6 +37362,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "299c-988d-130b-5df7",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -39241,6 +39633,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "dcb5-6721-b11c-63d5",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -39819,6 +40224,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "99a5-3527-d33a-d546",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -40209,6 +40627,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "36c4-94ef-5ece-2a2c",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -41551,6 +41982,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "03d8-0763-968b-867b",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -42748,6 +43192,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "4a5e-2cee-acb8-e898",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -43122,6 +43579,24 @@
                         "typeId": "893f-9000-ccf7-648e",
                         "$text": "Twin-linked"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "893f-9000-ccf7-648e",
+                        "type": "append",
+                        "value": ", Lethal Hits",
+                        "conditions": [
+                          {
+                            "childId": "2371-093d-b43f-c65e",
+                            "field": "selections",
+                            "scope": "2baf-6e25-2b0b-9c3d",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   }
                 ],
@@ -43213,6 +43688,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "467e-a88f-b2ec-04ca",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -44234,6 +44722,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "15b6-41a5-13ae-4af9",
+                "field": "selections",
+                "scope": "1667-9a15-0807-3c12",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -44246,6 +44750,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "4f88-fad2-be23-d275",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -45437,6 +45954,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "15b6-41a5-13ae-4af9",
+                "field": "selections",
+                "scope": "bd23-c118-818e-fe13",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -45449,6 +45982,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "4306-104c-1682-ab8e",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -46626,6 +47172,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "15b6-41a5-13ae-4af9",
+                "field": "selections",
+                "scope": "752a-0b03-54d6-c703",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -46638,6 +47200,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "6a52-2c4a-46a8-7092",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -48954,6 +49529,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "15b6-41a5-13ae-4af9",
+                "field": "selections",
+                "scope": "1d54-aca8-ded0-47bc",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -48966,6 +49557,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "b769-1245-f4ca-b7fc",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -49962,6 +50566,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "15b6-41a5-13ae-4af9",
+                "field": "selections",
+                "scope": "c2c9-e885-d2d5-0b7e",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -49974,6 +50594,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "879b-b336-482b-23ac",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -50651,6 +51284,22 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "15b6-41a5-13ae-4af9",
+                "field": "selections",
+                "scope": "afa5-b7d2-f672-50f5",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -50663,6 +51312,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "3182-3126-b418-0a11",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -51369,6 +52031,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "c2e4-eca2-38e6-d573",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -52412,6 +53087,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "bf59-4cfc-8bdb-5703",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -53711,6 +54399,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "134b-6e43-9e4d-3f9d",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -58470,6 +59171,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "a730-8158-6359-1ee0",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -59168,6 +59882,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "d13f-e200-bd31-7dc0",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -60787,6 +61514,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "8e92-6e57-8f43-0286",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -62009,6 +62749,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "fc06-cd07-8ff5-1b3f",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -63617,6 +64370,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "1e83-ccbc-ebd8-bde1",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -65027,6 +65793,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "19d7-6fea-fe5d-e9a5",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -66540,6 +67319,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "7bc2-aff9-cb3e-bb18",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -66552,6 +67347,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "f8c4-0b45-6428-2617",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -68096,6 +68904,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "c8b8-8916-467e-064b",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -69291,6 +70112,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "b376-d4a9-4714-f546",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -69303,6 +70140,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "2928-c7ef-52d9-4f78",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -70230,6 +71080,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "6fac-6a36-58fa-9b7d",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -70242,6 +71108,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "4268-f8c2-deb1-4d03",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -71071,6 +71950,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "8738-9b2e-89fc-8571",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -71083,6 +71978,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "f968-2ec1-cb3d-a151",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -71788,6 +72696,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "9a1a-13d9-7a5e-4342",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -71800,6 +72724,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "4ca8-33f7-2815-4478",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -72519,6 +73456,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "9002-baa5-922c-6330",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -72531,6 +73484,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "2983-36bd-bb8d-4afc",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -73332,6 +74298,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "03d7-7821-abef-a5fe",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -73344,6 +74326,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "59ad-a772-0177-e6bc",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -74096,6 +75091,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "7c80-c7d9-9af4-fcdc",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -74108,6 +75119,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "95d4-38b6-eec3-4b48",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -75129,6 +76153,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "ad24-c035-5256-cb45",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -75141,6 +76181,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "513e-5083-fa11-60f6",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -75958,6 +77011,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "1d9f-64de-b879-dc23",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -75970,6 +77039,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "959d-4524-59bd-0208",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -76757,6 +77839,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "428f-3f9d-c0b6-3082",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -76769,6 +77867,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "9c24-0e8f-d617-ac81",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -78457,6 +79568,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "b5cf-ef0d-dcae-3ef2",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -78469,6 +79596,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "486f-aea7-307f-c553",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -79066,6 +80206,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "9271-d48c-6844-185a",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -79078,6 +80234,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "98ea-4fd0-7ab3-964b",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -79816,6 +80985,22 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "62b4-33b8-cb9b-3653",
+                "field": "selections",
+                "scope": "bff0-39b3-327b-bcdd",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "constraints": [
@@ -79828,6 +81013,19 @@
             "shared": true,
             "includeChildSelections": true,
             "includeChildForces": true
+          },
+          {
+            "id": "fba7-d491-d28e-280c",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "costs": [
@@ -80095,6 +81293,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -80132,6 +81335,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -80171,6 +81379,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -80208,6 +81421,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -80247,6 +81465,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -80284,6 +81507,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -80323,6 +81551,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -80360,6 +81593,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -80399,6 +81637,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -80436,6 +81679,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -80475,6 +81723,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -80512,6 +81765,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -80551,6 +81809,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -80588,6 +81851,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -80627,6 +81895,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -80664,6 +81937,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -80703,6 +81981,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -80740,6 +82023,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -80779,6 +82067,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -80816,6 +82109,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -80855,6 +82153,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -80892,6 +82195,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -80931,6 +82239,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -80968,6 +82281,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -81007,6 +82325,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -81044,6 +82367,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -81083,6 +82411,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -81120,6 +82453,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -81159,6 +82497,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -81196,6 +82539,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -81235,6 +82583,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -81273,13 +82626,18 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
           {
             "id": "79dd-7f4f-a060-3698",
             "type": "max",
-            "value": 1,
+            "value": 3,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -81291,7 +82649,49 @@
             "name": "Black-Fur Boarders Upgrade",
             "id": "91eb-ec51-d9d7-1b28",
             "hidden": false,
-            "description": "STORMVERMIN unit only.\n\nThis unit gains the SKURVY keyword. Add 1 to charge rolls made for this unit. Each time a model in this unit makes a melee attack that targets an enemy unit within range of an objective, re-roll a Hit roll of 1."
+            "description": "UNIT ENHANCEMENT - STORMVERMIN unit only; up to three units can have this Enhancement.\n\nThis unit gains the SKURVY keyword. Add 1 to charge rolls made for this unit. Each time a model in this unit makes a melee attack that targets an enemy unit within range of an objective, re-roll a Hit roll of 1."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "set",
+            "value": 0,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "roster",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "2095-c616-64b4-0e03",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -81311,13 +82711,18 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
           {
             "id": "4001-faea-d77a-f9a4",
             "type": "max",
-            "value": 1,
+            "value": 3,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -81329,7 +82734,49 @@
             "name": "Prize Gunnery Crews Upgrade",
             "id": "c6f4-dac9-e1eb-52ab",
             "hidden": false,
-            "description": "WEAPON TEAM unit only.\n\nThis unit gains the SKURVY keyword. While this unit has one or more Plunder Ledger options active, each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1."
+            "description": "UNIT ENHANCEMENT - WEAPON TEAM unit only; up to three units can have this Enhancement.\n\nThis unit gains the SKURVY keyword. While this unit has one or more Plunder Ledger options active, each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "set",
+            "value": 0,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "roster",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "15b6-41a5-13ae-4af9",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -81349,13 +82796,18 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
           {
             "id": "160c-9699-82cb-fe98",
             "type": "max",
-            "value": 1,
+            "value": 3,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -81367,7 +82819,49 @@
             "name": "Black-Flag Rigging Upgrade",
             "id": "0be9-c477-62db-0bc2",
             "hidden": false,
-            "description": "SKAVEN VEHICLE or SKAVEN TRANSPORT unit only.\n\nThis unit gains the SKURVY keyword. Add 2\" to this unit's Move characteristic. In your Movement phase, just after this unit ends an advance move, it can Plunder an objective within range as if it had ended a normal move. If it does, it cannot shoot or declare a charge this turn."
+            "description": "UNIT ENHANCEMENT - SKAVEN VEHICLE or SKAVEN TRANSPORT unit only; up to three units can have this Enhancement.\n\nThis unit gains the SKURVY keyword. Add 2\" to this unit's Move characteristic. In your Movement phase, just after this unit ends an advance move, it can Plunder an objective within range as if it had ended a normal move. If it does, it cannot shoot or declare a charge this turn."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "set",
+            "value": 0,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "roster",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "62b4-33b8-cb9b-3653",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -81386,6 +82880,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -81425,6 +82924,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -81462,6 +82966,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -81543,6 +83052,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -81580,6 +83094,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -81619,6 +83138,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -81656,6 +83180,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -81695,13 +83224,18 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
           {
             "id": "c43a-5d03-d4d1-767d",
             "type": "max",
-            "value": 1,
+            "value": 3,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -81713,7 +83247,49 @@
             "name": "Warp-Fed Gearbox",
             "id": "c600-f51e-c7ed-03da",
             "hidden": false,
-            "description": "UNIT ENHANCEMENT - SKAVEN VEHICLE unit only.\n\nAdd 2\" to this unit's Move characteristic. Each time an advance roll is made for this unit, you can re-roll it."
+            "description": "UNIT ENHANCEMENT - SKAVEN VEHICLE unit only; up to three units can have this Enhancement.\n\nAdd 2\" to this unit's Move characteristic. Each time an advance roll is made for this unit, you can re-roll it."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "set",
+            "value": 0,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "roster",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "c99b-5637-407f-486c",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -81733,13 +83309,18 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
           {
             "id": "184c-05c4-2be1-fdba",
             "type": "max",
-            "value": 1,
+            "value": 3,
             "scope": "roster",
             "field": "selections",
             "shared": true,
@@ -81751,7 +83332,49 @@
             "name": "Jury-Rigged Stabilizers",
             "id": "c348-3131-bbea-235a",
             "hidden": false,
-            "description": "UNIT ENHANCEMENT - SKAVEN VEHICLE unit only.\n\nEach time a model in this unit makes a ranged attack in a turn in which this unit made an advance move, you can ignore any or all modifiers to that attack's Hit roll."
+            "description": "UNIT ENHANCEMENT - SKAVEN VEHICLE unit only; up to three units can have this Enhancement.\n\nEach time a model in this unit makes a ranged attack in a turn in which this unit made an advance move, you can ignore any or all modifiers to that attack's Hit roll."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "set",
+            "value": 0,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "roster",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "d452-d3fa-0a1a-b96c",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -81770,6 +83393,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -81809,6 +83437,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -81846,6 +83479,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -81885,6 +83523,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -81923,6 +83566,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -81960,6 +83608,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -82041,6 +83694,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -82078,6 +83736,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -82159,6 +83822,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -82196,6 +83864,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -82277,6 +83950,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -82314,6 +83992,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
@@ -82395,6 +84078,11 @@
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
+            "value": 1
           }
         ],
         "constraints": [
@@ -82432,6 +84120,11 @@
           {
             "name": "Enhancements",
             "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          },
+          {
+            "name": "Enhancement or Upgrade",
+            "typeId": "e7c3-91a2-4d0b-b6f5",
             "value": 1
           }
         ],
