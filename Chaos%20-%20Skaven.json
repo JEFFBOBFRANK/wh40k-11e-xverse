@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 36,
+    "revision": 37,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -2113,7 +2113,7 @@
                     "name": "Council Seats",
                     "id": "6423-253a-d9c0-7e4c",
                     "hidden": false,
-                    "description": "​<br><br>**Verminus Seat**<br>*Seat*\n\nAdd 1 to the Objective Control characteristic of models in this unit.\n\n**Skryre Seat**<br>*Seat*\n\nEach time this unit would resolve Warpstone Backlash, you can re-roll that roll.\n\n**Moulder Seat**<br>*Seat*\n\nModels in this unit have the Feel No Pain 6+ ability.\n\n**Eshin Seat**<br>*Seat*\n\nThis unit has the Stealth ability.\n\n**Pestilens Seat**<br>*Seat*\n\nEach time a model in this unit makes a melee attack, add 1 to the Wound roll.\n\n**Masterclan Seat**<br>*Seat*\n\nEach time a PSYKER in this unit makes a psychic roll, add 1 to the result."
+                    "description": "​<br><br>**Verminus Seat**<br>*Seat*\n\nAdd 1 to the Objective Control characteristic of models in this unit.\n\n**Skryre Seat**<br>*Seat*\n\nYou can re-roll Warpstone Backlash tests taken for this unit.\n\n**Moulder Seat**<br>*Seat*\n\nModels in this unit have the Feel No Pain 6+ ability.\n\n**Eshin Seat**<br>*Seat*\n\nThis unit has the Stealth ability.\n\n**Pestilens Seat**<br>*Seat*\n\nEach time a model in this unit makes a melee attack, add 1 to the Wound roll.\n\n**Masterclan Seat**<br>*Seat*\n\nEach time a PSYKER in this unit makes a psychic roll, add 1 to the result."
                   },
                   {
                     "name": "Council Levies",
@@ -32358,7 +32358,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "You can re-roll the Warpstone Backlash roll made for this unit."
+                        "$text": "You can re-roll Warpstone Backlash tests taken for this unit."
                       }
                     ]
                   }
@@ -32623,7 +32623,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "You can re-roll the Warpstone Backlash roll made for this unit."
+                        "$text": "You can re-roll Warpstone Backlash tests taken for this unit."
                       }
                     ]
                   }
@@ -77686,7 +77686,7 @@
             "name": "Skryre Seat",
             "id": "6a59-6b38-7491-4e27",
             "hidden": false,
-            "description": "Each time this unit would resolve Warpstone Backlash, you can re-roll that roll."
+            "description": "You can re-roll Warpstone Backlash tests taken for this unit."
           }
         ],
         "constraints": [
@@ -80287,7 +80287,7 @@
         "name": "Warpstone Backlash",
         "id": "770e-a39d-7aa8-8f21",
         "hidden": false,
-        "description": "\n\nJust after a unit has resolved its attacks, if any of those attacks were made with a [WARPSTONE] weapon and one or more of those [WARPSTONE] attacks had an unmodified Hit roll of 1, roll one D6. On a 4+, that unit suffers D3 mortal wounds. Roll once per unit each time it resolves its attacks."
+        "description": "\n\nEach time an attack made with a [WARPSTONE] weapon scores a critical hit, and each time one scores a critical wound, that attack's unit must take a Warpstone Backlash test. Just after the unit has resolved its attacks, roll one D6 for each test: on a 3+, that unit suffers 1 mortal wound. An attack that scores both a critical hit and a critical wound causes two tests."
       },
       {
         "name": "Sacrifice",

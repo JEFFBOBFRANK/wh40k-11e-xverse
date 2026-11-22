@@ -19,7 +19,7 @@ Add 1 to the Objective Control characteristic of models in this unit.
 
 _Seat_
 
-Each time this unit would resolve Warpstone Backlash, you can re-roll that roll.
+You can re-roll Warpstone Backlash tests taken for this unit.
 
 ### MOULDER SEAT
 
