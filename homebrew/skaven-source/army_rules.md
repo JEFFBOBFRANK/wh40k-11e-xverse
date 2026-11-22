@@ -164,11 +164,11 @@ Each time a Vermin Ability targets or selects a RATTLETRAP unit, roll one additi
 
 ## [WARPSTONE]
 
-Each time an attack made with this weapon scores a critical wound, improve the AP characteristic of that attack by 2, and the target cannot use its InSv characteristic against that attack. **Critical hits and critical wounds scored with this weapon cause Warpstone Backlash (on a 3+, the attacking unit suffers D3 mortal wounds).**
+Each time an attack made with this weapon scores a critical wound, improve the AP characteristic of that attack by 2, and the target cannot use its InSv characteristic against that attack. **Critical wounds scored with this weapon cause Warpstone Backlash (on a 3+, the attacking unit suffers D3 mortal wounds).**
 
 ## Warpstone Backlash
 
-Each time a unit shoots or fights, just after it has resolved its attacks, it must take one Warpstone Backlash test if one or more of its [WARPSTONE] attacks scored a critical hit, and one more Warpstone Backlash test if one or more of its [WARPSTONE] attacks scored a critical wound (at most two tests each time it shoots or fights). For each test, roll one D6: on a 3+, that unit suffers D3 mortal wounds.
+Each time a unit shoots or fights, just after it has resolved its attacks, if one or more of its [WARPSTONE] attacks scored a critical wound, it must take one Warpstone Backlash test: roll one D6. On a 3+, that unit suffers D3 mortal wounds.
 
 ## Sacrifice
 
