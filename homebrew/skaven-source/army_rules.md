@@ -168,7 +168,7 @@ Each time an attack is made with this weapon, if it scores a critical hit, add 1
 
 ## Warpstone Backlash
 
-Each time an attack made with a [WARPSTONE] weapon scores a critical hit, and each time one scores a critical wound, that attack's unit must take a Warpstone Backlash test. Just after the unit has resolved its attacks, roll one D6 for each test: on a 3+, that unit suffers 1 mortal wound. An attack that scores both a critical hit and a critical wound causes two tests.
+Each time an attack made with a [WARPSTONE] weapon scores a critical hit, and each time one scores a critical wound, that attack's unit must take a Warpstone Backlash test. Just after the unit has resolved its attacks, roll one D6 for each test: on a 3+, that unit suffers D3 mortal wounds. An attack that scores both a critical hit and a critical wound causes two tests.
 
 ## Sacrifice
 

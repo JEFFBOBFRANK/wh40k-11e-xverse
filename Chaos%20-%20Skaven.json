@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 37,
+    "revision": 38,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -80287,7 +80287,7 @@
         "name": "Warpstone Backlash",
         "id": "770e-a39d-7aa8-8f21",
         "hidden": false,
-        "description": "\n\nEach time an attack made with a [WARPSTONE] weapon scores a critical hit, and each time one scores a critical wound, that attack's unit must take a Warpstone Backlash test. Just after the unit has resolved its attacks, roll one D6 for each test: on a 3+, that unit suffers 1 mortal wound. An attack that scores both a critical hit and a critical wound causes two tests."
+        "description": "\n\nEach time an attack made with a [WARPSTONE] weapon scores a critical hit, and each time one scores a critical wound, that attack's unit must take a Warpstone Backlash test. Just after the unit has resolved its attacks, roll one D6 for each test: on a 3+, that unit suffers D3 mortal wounds. An attack that scores both a critical hit and a critical wound causes two tests."
       },
       {
         "name": "Sacrifice",
