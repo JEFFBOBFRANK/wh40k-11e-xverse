@@ -29,7 +29,7 @@ _Battle Tactic Stratagem_
 
 **TARGET:** One CLANRATS unit from your army that has not been selected to fight this phase.
 
-**EFFECT:** Until the end of the phase, each time a model in your unit makes a melee attack that targets an enemy unit engaged with two or more friendly SKAVEN units, add 1 to the Hit roll.
+**EFFECT:** Until the end of the phase, each time a model in your unit makes a melee attack that targets an enemy unit engaged with two or more friendly SKAVEN units, add 1 to the hit roll.
 
 ### TOO MANY TO COUNT  [1CP]
 
@@ -49,4 +49,4 @@ _Strategic Ploy Stratagem_
 
 **TARGET:** One CLANRATS unit from your army and one friendly SKAVENSLAVES unit within 6" of it.
 
-**EFFECT:** Sacrifice up to D3 models from that SKAVENSLAVES unit. For each model Sacrificed, return one destroyed Clanrat model to your CLANRATS unit, not exceeding its Starting Strength.
+**EFFECT:** Sacrifice up to D3 models from that SKAVENSLAVES unit. For each model Sacrificed, return one destroyed Clanrat model to your CLANRATS unit, not exceeding its starting strength.

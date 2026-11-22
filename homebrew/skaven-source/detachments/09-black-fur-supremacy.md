@@ -3,7 +3,7 @@
 ## Pride of the Black-Furs
 
 - Friendly STORMVERMIN units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.
-- Each time a friendly STORMVERMIN unit loses one or more models, until the end of your next turn, that unit is Prideful. Each time a model in a Prideful unit makes a melee attack, add 1 to the Wound roll.
+- Each time a friendly STORMVERMIN unit loses one or more models, until the end of your next turn, that unit is Prideful. Each time a model in a Prideful unit makes a melee attack, add 1 to the wound roll.
 
 ## Enhancements
 
@@ -35,7 +35,7 @@ _Battle Tactic Stratagem_
 
 **TARGET:** One STORMVERMIN unit from your army that has not been selected to shoot or fight this phase.
 
-**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If your unit is Prideful, you can re-roll the Wound roll instead.
+**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, re-roll a wound roll of 1. If your unit is Prideful, you can re-roll the wound roll instead.
 
 ### BLACK-IRON FORMATION!  [1CP]
 

@@ -15,7 +15,7 @@ CLANRATS units from your army gain the SKURVY keyword and the following ability.
 
 ## Vengeful Crew
 
-Each time a friendly SKURVY unit loses one or more models, until the end of your next turn, add 1 to Hit rolls for attacks made by models in that unit.
+Each time a friendly SKURVY unit loses one or more models, until the end of your next turn, add 1 to hit rolls for attacks made by models in that unit.
 
 ## Black-Flag Mercenaries
 
@@ -93,13 +93,13 @@ _Upgrade Enhancements_
 
 _UNIT ENHANCEMENT - STORMVERMIN unit only; up to three units can have this Enhancement._
 
-This unit gains the SKURVY keyword. Add 1 to charge rolls made for this unit. Each time a model in this unit makes a melee attack that targets an enemy unit within range of an objective, re-roll a Hit roll of 1.
+This unit gains the SKURVY keyword. Add 1 to charge rolls made for this unit. Each time a model in this unit makes a melee attack that targets an enemy unit within range of an objective, re-roll a hit roll of 1.
 
 ### PRIZE GUNNERY CREWS UPGRADE  [15 pts]
 
 _UNIT ENHANCEMENT - WEAPON TEAM unit only; up to three units can have this Enhancement._
 
-This unit gains the SKURVY keyword. While this unit has one or more Plunder Ledger options active, each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1.
+This unit gains the SKURVY keyword. While this unit has one or more Plunder Ledger options active, each time a model in this unit makes a ranged attack, re-roll a hit roll of 1.
 
 ### BLACK-FLAG RIGGING UPGRADE  [15 pts]
 
@@ -137,7 +137,7 @@ _Battle Tactic Stratagem_
 
 **TARGET:** One SKURVY unit from your army that was selected as the target of one or more of the attacking unit's attacks.
 
-**EFFECT:** Until the attacking unit has finished making its attacks, each time an attack targets your unit, subtract 1 from the Hit roll.
+**EFFECT:** Until the attacking unit has finished making its attacks, each time an attack targets your unit, subtract 1 from the hit roll.
 
 ### POINT-BLANK VOLLEY  [1CP]
 

@@ -36,7 +36,7 @@
      "INV": "5+"
     },
     "text": [
-     "Thanquol Always Survives!:The first time this model is destroyed, after resolving any other rules triggered by its destruction, set it back up within 3\" of where it was destroyed and not within Engagement Range of any enemy models. Set its remaining wounds to 5. For the rest of the battle, use the Thanquol profile shown above. It keeps its Psyker Level, the spells it knows, Supreme Grey Seer, Warpstone Snuff, Failures! Fools!, Warp bolts and Staff of the Horned Rat, and loses Warpfire projectors and Crushing fists. This ability cannot be used again."
+     "Thanquol Always Survives!:The first time this model is destroyed, after resolving any other rules triggered by its destruction, set it back up within 3\" of where it was destroyed and not within engagement range of any enemy models. Set its remaining wounds to 5. For the rest of the battle, use the Thanquol profile shown above. It keeps its Psyker Level, the spells it knows, Supreme Grey Seer, Warpstone Snuff, Failures! Fools!, Warp bolts and Staff of the Horned Rat, and loses Warpfire projectors and Crushing fists. This ability cannot be used again."
     ]
    }
   ],
@@ -201,7 +201,7 @@
    },
    {
     "name": "Headtaker",
-    "text": "Each time this model makes an attack that targets a CHARACTER unit, add 1 to the Wound roll and add 1 to the Damage characteristic of that attack."
+    "text": "Each time this model makes an attack that targets a CHARACTER unit, add 1 to the wound roll and add 1 to the Damage characteristic of that attack."
    },
    {
     "name": "Red Guard",
@@ -333,7 +333,7 @@
    },
    {
     "name": "Greatest-Best Engineer",
-    "text": "In your Command phase, select one other friendly SKAVEN VEHICLE unit within 3\" of this model. One model in that unit regains up to D3 lost wounds. Until your next Command phase, once in each phase, you can re-roll one Hit roll made for that VEHICLE unit."
+    "text": "In your Command phase, select one other friendly SKAVEN VEHICLE unit within 3\" of this model. One model in that unit regains up to D3 lost wounds. Until your next Command phase, once in each phase, you can re-roll one hit roll made for that VEHICLE unit."
    },
    {
     "name": "Better Them-Than Me! - More-More Repairs!",
@@ -504,7 +504,7 @@
    },
    {
     "name": "Pestilence (Aura)",
-    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
    },
    {
     "name": "Plague Lord",
@@ -516,7 +516,7 @@
    },
    {
     "name": "Plaguelord's Congregation",
-    "text": "While this model is leading a PESTILENS INFANTRY unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+    "text": "While this model is leading a PESTILENS INFANTRY unit, each time a model in that unit makes an attack, re-roll a hit roll of 1."
    },
    {
     "name": "Better Them-Than Me! - Bearer of the Final Pox",
@@ -596,7 +596,7 @@
    },
    {
     "name": "Master Controller",
-    "text": "While this model is attached to a unit, add 1 to charge rolls made for that unit and add 1 to the Hit roll each time a model in that unit makes a melee attack."
+    "text": "While this model is attached to a unit, add 1 to charge rolls made for that unit and add 1 to the hit roll each time a model in that unit makes a melee attack."
    },
    {
     "name": "Better Them-Than Me! - Fresh Specimen!",
@@ -725,7 +725,7 @@
    },
    {
     "name": "Damaged: 1-5 Wounds Remaining",
-    "text": "While this model has 1-5 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+    "text": "While this model has 1-5 wounds remaining, subtract 1 from hit rolls made for its attacks."
    }
   ],
   "other_rules": [],
@@ -772,7 +772,7 @@
      "This model loses the Scurry Away! ability.",
      "Screaming Bell Peals:In your Command phase, select one effect until your next Command phase: March-March! adds 2\" to this model's Move; Ring-Ring! adds 2 to its charge rolls.",
      "Verminous Command (Aura):Friendly SKAVEN units within 13\" improve their Leadership by 1 and add 1 to their Objective Control.",
-     "Hide Behind Them-Things!:While within 3\" of a friendly SKAVEN unit with a Starting Strength of 10 or more, this model has Lone Operative and attacks that target it subtract 1 from the Hit roll."
+     "Hide Behind Them-Things!:While within 3\" of a friendly SKAVEN unit with a starting strength of 10 or more, this model has Lone Operative and attacks that target it subtract 1 from the hit roll."
     ]
    }
   ],
@@ -976,7 +976,7 @@
    },
    {
     "name": "Lead from Behind",
-    "text": "While this model is leading a unit, add 1 to the Hit roll each time a model in that unit makes a melee attack, and melee weapons equipped by models in that unit have [LETHAL HITS: non-MONSTER/VEHICLE]."
+    "text": "While this model is leading a unit, add 1 to the hit roll each time a model in that unit makes a melee attack, and melee weapons equipped by models in that unit have [LETHAL HITS: non-MONSTER/VEHICLE]."
    },
    {
     "name": "Expendable Underlings",
@@ -1062,7 +1062,7 @@
    },
    {
     "name": "Marked for Death",
-    "text": "At the start of the first battle round, select one enemy CHARACTER unit. Each time this model makes an attack that targets that unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    "text": "At the start of the first battle round, select one enemy CHARACTER unit. Each time this model makes an attack that targets that unit, you can re-roll the hit roll and you can re-roll the wound roll."
    },
    {
     "name": "Better Them-Than Me! - Bait-Bait the Foe!",
@@ -1112,7 +1112,7 @@
      "Mounted Profile:Replace this model's INFANTRY keyword with VEHICLE. This model loses the Support ability, cannot join a Bodyguard unit, and gains Great Censer, Rat Ogor claws and Attendant weapons. Its Pestilence ability has a range of 8\".",
      "This model loses the Scurry Away! ability.",
      "Plague Furnace Charge:After this model ends a charge move, select one enemy unit it charged and roll one D6. On a 2-4, that unit suffers D3 mortal wounds; on a 5+, it suffers D3+3 mortal wounds.",
-     "Hide Behind Them-Things!:While within 3\" of a friendly SKAVEN unit with a Starting Strength of 10 or more, this model has Lone Operative and attacks that target it subtract 1 from the Hit roll."
+     "Hide Behind Them-Things!:While within 3\" of a friendly SKAVEN unit with a starting strength of 10 or more, this model has Lone Operative and attacks that target it subtract 1 from the hit roll."
     ]
    }
   ],
@@ -1197,7 +1197,7 @@
    },
    {
     "name": "Pestilence (Aura)",
-    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
    },
    {
     "name": "Pestilent Psyker",
@@ -1209,7 +1209,7 @@
    },
    {
     "name": "Better Them-Than Me! - Feed-Feed the Plague!",
-    "text": "In your Command phase, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, select one enemy unit within range of this model's Pestilence ability. Until your next Command phase, that enemy unit is treated as Below Half-strength for the purposes of this model's Pestilence ability, regardless of its remaining models or wounds."
+    "text": "In your Command phase, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, select one enemy unit within range of this model's Pestilence ability. Until your next Command phase, that enemy unit is treated as below half-strength for the purposes of this model's Pestilence ability, regardless of its remaining models or wounds."
    }
   ],
   "other_rules": [],
@@ -1301,7 +1301,7 @@
    },
    {
     "name": "Master Gunner",
-    "text": "While this model is attached to a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+    "text": "While this model is attached to a unit, each time a model in that unit makes a ranged attack, re-roll a hit roll of 1."
    },
    {
     "name": "Repair-Restore",
@@ -1380,7 +1380,7 @@
    },
    {
     "name": "Master Controller",
-    "text": "While this model is attached to a unit, add 1 to charge rolls made for that unit and add 1 to the Hit roll each time a model in that unit makes a melee attack."
+    "text": "While this model is attached to a unit, add 1 to charge rolls made for that unit and add 1 to the hit roll each time a model in that unit makes a melee attack."
    },
    {
     "name": "Fleshcraft",
@@ -1492,7 +1492,7 @@
    },
    {
     "name": "Herald of War",
-    "text": "Friendly VERMINUS units within 6\" of this model add 1 to charge rolls and to melee Hit rolls."
+    "text": "Friendly VERMINUS units within 6\" of this model add 1 to charge rolls and to melee hit rolls."
    },
    {
     "name": "Better Them-Than Me! - Spur the Horde!",
@@ -1500,7 +1500,7 @@
    },
    {
     "name": "Damaged: 1-5 Wounds Remaining",
-    "text": "While this model has 1-5 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+    "text": "While this model has 1-5 wounds remaining, subtract 1 from hit rolls made for its attacks."
    }
   ],
   "other_rules": [],
@@ -1603,7 +1603,7 @@
    },
    {
     "name": "Damaged: 1-5 Wounds Remaining",
-    "text": "While this model has 1-5 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+    "text": "While this model has 1-5 wounds remaining, subtract 1 from hit rolls made for its attacks."
    }
   ],
   "other_rules": [],
@@ -1703,11 +1703,11 @@
    },
    {
     "name": "Better Them-Than Me! - Shroud of Lies!",
-    "text": "Once per phase, when an enemy unit selects this model as the target of one or more attacks, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, until those attacks have been resolved, subtract 1 from the Hit roll for attacks that target this model."
+    "text": "Once per phase, when an enemy unit selects this model as the target of one or more attacks, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, until those attacks have been resolved, subtract 1 from the hit roll for attacks that target this model."
    },
    {
     "name": "Damaged: 1-5 Wounds Remaining",
-    "text": "While this model has 1-5 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+    "text": "While this model has 1-5 wounds remaining, subtract 1 from hit rolls made for its attacks."
    }
   ],
   "other_rules": [],
@@ -1800,7 +1800,7 @@
    },
    {
     "name": "Pestilence (Aura)",
-    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
    },
    {
     "name": "Lore of the Corruptor",
@@ -1812,7 +1812,7 @@
    },
    {
     "name": "Damaged: 1-5 Wounds Remaining",
-    "text": "While this model has 1-5 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+    "text": "While this model has 1-5 wounds remaining, subtract 1 from hit rolls made for its attacks."
    }
   ],
   "other_rules": [],
@@ -1867,7 +1867,7 @@
    },
    {
     "name": "Endless Chattel",
-    "text": "Each time this unit is selected as the target of the More-More Bodies! Vermin Ability, after resolving that ability, return an additional D3 destroyed models to this unit. Returned models must be set up in Unit Coherency and cannot cause this unit to exceed its Starting Strength."
+    "text": "Each time this unit is selected as the target of the More-More Bodies! Vermin Ability, after resolving that ability, return an additional D3 destroyed models to this unit. Returned models must be set up in Unit Coherency and cannot cause this unit to exceed its starting strength."
    },
    {
     "name": "Numerous Backstabbing Eyes",
@@ -1984,11 +1984,11 @@
    },
    {
     "name": "Strength in Numbers",
-    "text": "While this unit contains 10 or more Clanrat and Clawleader models, add 1 to the Hit roll each time a model in this unit makes an attack."
+    "text": "While this unit contains 10 or more Clanrat and Clawleader models, add 1 to the hit roll each time a model in this unit makes an attack."
    },
    {
     "name": "Endless Vermintide",
-    "text": "In your Command phase, return D3 destroyed Clanrat models to this unit (+D3 more when selected for More-More Bodies!), in Unit Coherency and up to its Starting Strength. Clawleader and Weapon Team models cannot be returned."
+    "text": "In your Command phase, return D3 destroyed Clanrat models to this unit (+D3 more when selected for More-More Bodies!), in Unit Coherency and up to its starting strength. Clawleader and Weapon Team models cannot be returned."
    },
    {
     "name": "Clanrat Shields",
@@ -2258,7 +2258,7 @@
    },
    {
     "name": "Fire Through Them-Things!",
-    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed Hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
+    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
    },
    {
     "name": "Grounding Rod",
@@ -2456,11 +2456,11 @@
    },
    {
     "name": "Pestilence (Aura)",
-    "text": "While an enemy unit is within 6\" of this unit, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+    "text": "While an enemy unit is within 6\" of this unit, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
    },
    {
     "name": "Fever Pitch",
-    "text": "While this unit is Below its Starting Strength, add 1 to the Attacks characteristic of its melee weapons. While this unit is also Below Half-strength, add 1 to the Hit roll each time a model in this unit makes a melee attack."
+    "text": "While this unit is below its starting strength, add 1 to the Attacks characteristic of its melee weapons. While this unit is also below half-strength, add 1 to the hit roll each time a model in this unit makes a melee attack."
    },
    {
     "name": "Diseased Congregation",
@@ -2540,7 +2540,7 @@
    },
    {
     "name": "Pestilence (Aura)",
-    "text": "While an enemy unit is within 6\" of this unit, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+    "text": "While an enemy unit is within 6\" of this unit, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
    },
    {
     "name": "Choking Fumes",
@@ -2818,7 +2818,7 @@
    },
    {
     "name": "Marked Prey",
-    "text": "At the start of the first battle round, select one enemy CHARACTER unit. Each time a model in this unit makes an attack that targets that unit, that attack has the Precision ability and add 1 to the Wound roll."
+    "text": "At the start of the first battle round, select one enemy CHARACTER unit. Each time a model in this unit makes an attack that targets that unit, that attack has the Precision ability and add 1 to the wound roll."
    },
    {
     "name": "Vanish",
@@ -2898,7 +2898,7 @@
    },
    {
     "name": "Exoskeleton Harness",
-    "text": "Each time a model in this unit makes a normal, advance, fall-back or charge move, it can move horizontally through models as though they were not there. It cannot end that move on top of another model, and cannot end within Engagement Range unless it made a charge move. Ignore all vertical distance when determining how far that model has moved."
+    "text": "Each time a model in this unit makes a normal, advance, fall-back or charge move, it can move horizontally through models as though they were not there. It cannot end that move on top of another model, and cannot end within engagement range unless it made a charge move. Ignore all vertical distance when determining how far that model has moved."
    },
    {
     "name": "Killing Momentum",
@@ -2996,11 +2996,11 @@
    },
    {
     "name": "Hide Behind Them-Things!",
-    "text": "While this unit is within 3\" of a friendly non-CHARACTER SKAVEN INFANTRY unit with a Starting Strength of 10 or more, this unit is hidden, even if it has shot."
+    "text": "While this unit is within 3\" of a friendly non-CHARACTER SKAVEN INFANTRY unit with a starting strength of 10 or more, this unit is hidden, even if it has shot."
    },
    {
     "name": "Fire Through Them-Things!",
-    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed Hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
+    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
    },
    {
     "name": "More-More Bullets",
@@ -3008,7 +3008,7 @@
    },
    {
     "name": "More-More Warpstone!",
-    "text": "Once per battle, when this unit is selected to shoot, until the end of the phase, its Ratling guns score critical hits on unmodified Hit rolls of 4+. After this unit has shot, do not roll for Warpstone Backlash: this unit suffers 3 mortal wounds."
+    "text": "Once per battle, when this unit is selected to shoot, until the end of the phase, its Ratling guns score critical hits on unmodified hit rolls of 4+. After this unit has shot, do not roll for Warpstone Backlash: this unit suffers 3 mortal wounds."
    }
   ],
   "other_rules": [],
@@ -3099,11 +3099,11 @@
    },
    {
     "name": "Hide Behind Them-Things!",
-    "text": "While this unit is within 3\" of a friendly non-CHARACTER SKAVEN INFANTRY unit with a Starting Strength of 10 or more, this unit is hidden, even if it has shot."
+    "text": "While this unit is within 3\" of a friendly non-CHARACTER SKAVEN INFANTRY unit with a starting strength of 10 or more, this unit is hidden, even if it has shot."
    },
    {
     "name": "Fire Through Them-Things!",
-    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed Hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
+    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
    },
    {
     "name": "Burn Them-All!",
@@ -3201,15 +3201,15 @@
    },
    {
     "name": "Hide Behind Them-Things!",
-    "text": "While this unit is within 3\" of a friendly non-CHARACTER SKAVEN INFANTRY unit with a Starting Strength of 10 or more, this unit is hidden, even if it has shot."
+    "text": "While this unit is within 3\" of a friendly non-CHARACTER SKAVEN INFANTRY unit with a starting strength of 10 or more, this unit is hidden, even if it has shot."
    },
    {
     "name": "Fire Through Them-Things!",
-    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed Hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
+    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
    },
    {
     "name": "System Shock",
-    "text": "Each time an enemy VEHICLE unit is hit by an attack made with this unit's Warpvolt scourger, until the start of your next turn, subtract 1 from the Hit roll each time a model in that enemy unit makes an attack."
+    "text": "Each time an enemy VEHICLE unit is hit by an attack made with this unit's Warpvolt scourger, until the start of your next turn, subtract 1 from the hit roll each time a model in that enemy unit makes an attack."
    }
   ],
   "other_rules": [],
@@ -3331,11 +3331,11 @@
    },
    {
     "name": "Choking Poisoned Wind",
-    "text": "After this unit has shot, select one unit that was hit by one or more of those attacks. That unit and every other unit within 3\" of it, friendly or enemy, suffer D3 mortal wounds. Until the start of your next turn, subtract 1 from the Hit roll each time a model in any of those units makes an attack."
+    "text": "After this unit has shot, select one unit that was hit by one or more of those attacks. That unit and every other unit within 3\" of it, friendly or enemy, suffer D3 mortal wounds. Until the start of your next turn, subtract 1 from the hit roll each time a model in any of those units makes an attack."
    },
    {
     "name": "Fire Through Them-Things!",
-    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed Hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
+    "text": "When selecting targets for this unit's ranged attacks, it can target an enemy unit that is engaged with one or more friendly SKAVEN units. If it does, select one such friendly unit before resolving those attacks. Each failed hit roll made for such an attack scores one hit against the selected friendly unit instead; resolve that hit using the same weapon profile. A hit scored this way can never be a critical hit."
    },
    {
     "name": "Gas Them-All!",
@@ -3430,11 +3430,11 @@
    },
    {
     "name": "Pavise Teams",
-    "text": "If this unit Remained Stationary during your previous Movement phase, improve the Save characteristic of models in this unit by 1 against ranged attacks."
+    "text": "If this unit remained stationary during your previous Movement phase, improve the Save characteristic of models in this unit by 1 against ranged attacks."
    },
    {
     "name": "Sniper's Mark",
-    "text": "Each time this unit is selected to shoot, if one or more of those attacks target a CHARACTER unit, you can re-roll one Hit roll and one Wound roll when resolving those attacks."
+    "text": "Each time this unit is selected to shoot, if one or more of those attacks target a CHARACTER unit, you can re-roll one hit roll and one wound roll when resolving those attacks."
    }
   ],
   "other_rules": [],
@@ -3659,7 +3659,7 @@
    },
    {
     "name": "Packmaster",
-    "text": "While this unit contains one or more Packmaster models, add 1 to charge rolls made for this unit and add 1 to the Hit roll each time a Rat Ogor model in this unit makes a melee attack."
+    "text": "While this unit contains one or more Packmaster models, add 1 to charge rolls made for this unit and add 1 to the hit roll each time a Rat Ogor model in this unit makes a melee attack."
    },
    {
     "name": "Frenzied Brutes",
@@ -3757,7 +3757,7 @@
    {
     "name": "CURL-CURL!",
     "text": [
-     "At the end of your Movement phase, this unit can Dig In. While it is Dug In, improve its Save characteristic to 2+, models in it have a 5+ invulnerable save, it has the Benefit of Cover and the Tremors ability, and it is hidden and you subtract 3\" from its models' detection range. In addition, change its Move characteristic to 2\" and its Objective Control characteristic to 0. At the end of your opponent's Fight phase, if this unit is Dug In, select one of the following: this unit is no longer Dug In; or remove this unit from the battlefield and place it into Strategic Reserves. It can arrive later by making an ingress move using Burrowing Borrowers."
+     "At the end of your Movement phase, this unit can Dig In. While it is Dug In, improve its Save characteristic to 2+, models in it have a 5+ invulnerable save, it has the benefit of cover and the Tremors ability, and it is hidden and you subtract 3\" from its models' detection range. In addition, change its Move characteristic to 2\" and its Objective Control characteristic to 0. At the end of your opponent's Fight phase, if this unit is Dug In, select one of the following: this unit is no longer Dug In; or remove this unit from the battlefield and place it into Strategic Reserves. It can arrive later by making an ingress move using Burrowing Borrowers."
     ]
    }
   ],
@@ -4073,7 +4073,7 @@
    },
    {
     "name": "Packmaster",
-    "text": "While this unit contains a Packmaster model, add 1 to charge rolls made for this unit and add 1 to the Hit roll each time a Wolf Rat model in this unit makes a melee attack."
+    "text": "While this unit contains a Packmaster model, add 1 to charge rolls made for this unit and add 1 to the hit roll each time a Wolf Rat model in this unit makes a melee attack."
    },
    {
     "name": "Fleet Predators",
@@ -4081,7 +4081,7 @@
    },
    {
     "name": "Hunt the Weak",
-    "text": "Each time a model in this unit makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll and add 1 to the Wound roll."
+    "text": "Each time a model in this unit makes an attack that targets a unit that is below half-strength, add 1 to the hit roll and add 1 to the wound roll."
    },
    {
     "name": "Outflank",
@@ -4239,7 +4239,7 @@
    },
    {
     "name": "Packmaster",
-    "text": "While this unit contains a Packmaster model, add 1 to advance and charge rolls made for this unit and add 1 to the Hit roll each time a Rat Pack base in this unit makes an attack."
+    "text": "While this unit contains a Packmaster model, add 1 to advance and charge rolls made for this unit and add 1 to the hit roll each time a Rat Pack base in this unit makes an attack."
    },
    {
     "name": "Hundreds of Rats",
@@ -4342,11 +4342,11 @@
    },
    {
     "name": "Too Horrible to Die",
-    "text": "The first time this model would be destroyed, roll one D6. On a 1-2, this model is destroyed. On a 3-4, this model is destroyed, every unit within 6\" of it suffers D6 mortal wounds, then, using Summoned Vermin, add one permanent unit of 20 Skavenslaves to your army, wholly within 6\" of where this model was destroyed and outside Engagement Range of every enemy unit. On a 5+, this model is not destroyed and remains in play with D6 wounds remaining. If this model is destroyed later in the battle, it has the Deadly Demise D6 ability."
+    "text": "The first time this model would be destroyed, roll one D6. On a 1-2, this model is destroyed. On a 3-4, this model is destroyed, every unit within 6\" of it suffers D6 mortal wounds, then, using Summoned Vermin, add one permanent unit of 20 Skavenslaves to your army, wholly within 6\" of where this model was destroyed and outside engagement range of every enemy unit. On a 5+, this model is not destroyed and remains in play with D6 wounds remaining. If this model is destroyed later in the battle, it has the Deadly Demise D6 ability."
    },
    {
     "name": "Damaged: 1-7 Wounds Remaining",
-    "text": "While this model has 1-7 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+    "text": "While this model has 1-7 wounds remaining, subtract 1 from hit rolls made for its attacks."
    },
    {
     "name": "Erratic Movement",
@@ -4468,7 +4468,7 @@
    },
    {
     "name": "Damaged: 1-6 Wounds Remaining",
-    "text": "While this model has 1-6 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+    "text": "While this model has 1-6 wounds remaining, subtract 1 from hit rolls made for its attacks."
    }
   ],
   "other_rules": [
@@ -4578,7 +4578,7 @@
    },
    {
     "name": "Terror Aura",
-    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the Hit roll each time a model in that unit makes a melee attack."
+    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes a melee attack."
    },
    {
     "name": "Living Breach",
@@ -4586,7 +4586,7 @@
    },
    {
     "name": "Damaged: 1-6 Wounds Remaining",
-    "text": "While this model has 1-6 wounds remaining, subtract 1 from Hit rolls made for its attacks."
+    "text": "While this model has 1-6 wounds remaining, subtract 1 from hit rolls made for its attacks."
    }
   ],
   "other_rules": [
@@ -4682,7 +4682,7 @@
    },
    {
     "name": "Low-slung Hunter",
-    "text": "Each time this model targets a VEHICLE or MONSTER, ignore modifiers to its Ballistic Skill and Hit rolls."
+    "text": "Each time this model targets a VEHICLE or MONSTER, ignore modifiers to its Ballistic Skill and hit rolls."
    },
    {
     "name": "Unstable Momentum",
@@ -4800,7 +4800,7 @@
    },
    {
     "name": "Marked for Death-Death",
-    "text": "At the start of the first battle round, select one enemy unit. Each time this model makes an attack that targets that unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+    "text": "At the start of the first battle round, select one enemy unit. Each time this model makes an attack that targets that unit, re-roll a hit roll of 1 and re-roll a wound roll of 1."
    },
    {
     "name": "Mechanical Pounce",
@@ -4962,7 +4962,7 @@
    },
    {
     "name": "Rotted Ammunition",
-    "text": "After this model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, subtract 1 from the Hit roll each time a model in that unit makes an attack. If that unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons, to a minimum of 1."
+    "text": "After this model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, subtract 1 from the hit roll each time a model in that unit makes an attack. If that unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons, to a minimum of 1."
    },
    {
     "name": "Pestilent Payload",
@@ -5035,7 +5035,7 @@
    },
    {
     "name": "Anchored Gun Platform",
-    "text": "If this model Remained Stationary during your previous Movement phase, you can ignore any or all modifiers to its Ballistic Skill characteristic and to Hit rolls made for its ranged attacks."
+    "text": "If this model remained stationary during your previous Movement phase, you can ignore any or all modifiers to its Ballistic Skill characteristic and to hit rolls made for its ranged attacks."
    },
    {
     "name": "Drown Them in Warp-Lead!",
@@ -5197,7 +5197,7 @@
   "abilities": [
    {
     "name": "Pestilence (Aura)",
-    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is Below Half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+    "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
    },
    {
     "name": "Thousand Poxes",
@@ -5205,7 +5205,7 @@
    },
    {
     "name": "Foul Restoration",
-    "text": "In your Command phase, select one friendly Plague Monks, Plague Censer Bearers or PESTILENS CHARACTER unit within 6\" of this model. One model in that unit regains up to D3+1 lost wounds. If that unit contains no wounded models but is Below its Starting Strength, return destroyed models to it with a combined Wounds characteristic no greater than D3+1."
+    "text": "In your Command phase, select one friendly Plague Monks, Plague Censer Bearers or PESTILENS CHARACTER unit within 6\" of this model. One model in that unit regains up to D3+1 lost wounds. If that unit contains no wounded models but is below its starting strength, return destroyed models to it with a combined Wounds characteristic no greater than D3+1."
    },
    {
     "name": "Boil the Faithful",
@@ -5712,13 +5712,13 @@
    {
     "name": "PESTILENS PLAGUE-FLAGSHIP",
     "text": [
-     "This model gains the PESTILENS keyword and Pestilence (Aura): while an enemy unit is within 12\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack; if it is Below Half-strength (enemy units within 6\" of this model always count as Below Half-strength for this), also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). OPEN THE POX VATS (REACTOR MODE): Until your next Command phase, subtract 1 from the Toughness characteristic of models in enemy units within 12\" of this model, and those units cannot regain lost wounds or return destroyed models."
+     "This model gains the PESTILENS keyword and Pestilence (Aura): while an enemy unit is within 12\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack; if it is below half-strength (enemy units within 6\" of this model always count as below half-strength for this), also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). OPEN THE POX VATS (REACTOR MODE): Until your next Command phase, subtract 1 from the Toughness characteristic of models in enemy units within 12\" of this model, and those units cannot regain lost wounds or return destroyed models."
     ]
    },
    {
     "name": "SKRYRE ARSENAL-FLAGSHIP",
     "text": [
-     "This model gains the SKRYRE keyword and has eight jury-rigged hardpoints instead of six; the maximum of two copies of each hardpoint weapon still applies. BURN THE REGULATORS (REACTOR MODE): Until your next Command phase, this model's ranged weapons score critical hits on unmodified Hit rolls of 5+. Warpstone Backlash still applies."
+     "This model gains the SKRYRE keyword and has eight jury-rigged hardpoints instead of six; the maximum of two copies of each hardpoint weapon still applies. BURN THE REGULATORS (REACTOR MODE): Until your next Command phase, this model's ranged weapons score critical hits on unmodified hit rolls of 5+. Warpstone Backlash still applies."
     ]
    }
   ],
@@ -5876,7 +5876,7 @@
    },
    {
     "name": "Breach and Disgorge",
-    "text": "When this model is set up on the battlefield, every embarked unit must immediately disembark: set it up wholly within 3\" of this model and outside Engagement Range of every enemy model."
+    "text": "When this model is set up on the battlefield, every embarked unit must immediately disembark: set it up wholly within 3\" of this model and outside engagement range of every enemy model."
    },
    {
     "name": "Under-Empire Exit",

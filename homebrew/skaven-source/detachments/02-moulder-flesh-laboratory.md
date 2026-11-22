@@ -16,15 +16,15 @@
 
 ## Fresh Meat-Meat!
 
-Each MOULDER CHARACTER model from your army has this ability: at the end of your Command phase, select one friendly MOULDER BEAST, MOULDER MONSTER or CLANRATS unit within 6" of this model, then select one other friendly SKAVEN INFANTRY unit within 3" of this model. You can Sacrifice up to 3 models from that SKAVEN INFANTRY unit. If the first selected unit is a CLANRATS unit, for each model Sacrificed, return one destroyed Clanrat model to that unit, not exceeding its Starting Strength. Otherwise, for each model Sacrificed, one model in the first selected unit regains 1 lost wound. Each unit can only be selected as the first unit for this ability once per phase.
+Each MOULDER CHARACTER model from your army has this ability: at the end of your Command phase, select one friendly MOULDER BEAST, MOULDER MONSTER or CLANRATS unit within 6" of this model, then select one other friendly SKAVEN INFANTRY unit within 3" of this model. You can Sacrifice up to 3 models from that SKAVEN INFANTRY unit. If the first selected unit is a CLANRATS unit, for each model Sacrificed, return one destroyed Clanrat model to that unit, not exceeding its starting strength. Otherwise, for each model Sacrificed, one model in the first selected unit regains 1 lost wound. Each unit can only be selected as the first unit for this ability once per phase.
 
 ## Pack-Driven
 
-Each time a model in a friendly CLANRATS unit makes a melee attack, if that unit is within 6" of one or more friendly MOULDER BEAST or MOULDER MONSTER units, add 1 to the Hit roll.
+Each time a model in a friendly CLANRATS unit makes a melee attack, if that unit is within 6" of one or more friendly MOULDER BEAST or MOULDER MONSTER units, add 1 to the hit roll.
 
 ## Feed the Beasts
 
-Each time a friendly SKAVEN INFANTRY model is destroyed or Sacrificed within 6" of a friendly MOULDER BEAST or MOULDER MONSTER unit, until the end of the turn, each time a model in that MOULDER unit makes a melee attack, add 1 to the Wound roll.
+Each time a friendly SKAVEN INFANTRY model is destroyed or Sacrificed within 6" of a friendly MOULDER BEAST or MOULDER MONSTER unit, until the end of the turn, each time a model in that MOULDER unit makes a melee attack, add 1 to the wound roll.
 
 ## Mutations
 
@@ -154,7 +154,7 @@ _Epic Deed Stratagem_
 
 **WHEN:** Your Command phase.
 
-**TARGET:** One MOULDER BEAST or MOULDER MONSTER unit from your army that is below its Starting Strength.
+**TARGET:** One MOULDER BEAST or MOULDER MONSTER unit from your army that is below its starting strength.
 
 **EFFECT:** One model in your unit regains D3+2 lost wounds. If your unit has the MUTATED keyword, it regains D3+3 lost wounds instead.
 

@@ -11,7 +11,7 @@
 
 _WARLOCK ENGINEER model only._
 
-While the bearer is on the battlefield, each time a model in a friendly WEAPON TEAM unit within 6" of the bearer makes a ranged attack, re-roll a Hit roll of 1.
+While the bearer is on the battlefield, each time a model in a friendly WEAPON TEAM unit within 6" of the bearer makes a ranged attack, re-roll a hit roll of 1.
 
 ### SPARE CAPACITORS  [10 pts]
 
@@ -49,4 +49,4 @@ _Battle Tactic Stratagem_
 
 **TARGET:** One WEAPON TEAM unit from your army that has not been selected to shoot this phase.
 
-**EFFECT:** Until the end of the phase, each time a model in your unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll and to the Ballistic Skill characteristic of that attack's weapon.
+**EFFECT:** Until the end of the phase, each time a model in your unit makes a ranged attack, you can ignore any or all modifiers to the hit roll and to the Ballistic Skill characteristic of that attack's weapon.

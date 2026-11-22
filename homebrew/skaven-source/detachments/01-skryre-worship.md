@@ -12,7 +12,7 @@ Warplock carbines equipped by models in friendly CLANRATS units have [RAPID FIRE
 
 ## Volatile Genius
 
-Each time a friendly SKRYRE unit suffers damage from its own shooting (a failed hazard roll, Warpstone Backlash or a Workshop Project), until the end of your next Shooting phase, add 1 to the Hit roll and the Wound roll for ranged attacks made by models in that unit.
+Each time a friendly SKRYRE unit suffers damage from its own shooting (a failed hazard roll, Warpstone Backlash or a Workshop Project), until the end of your next Shooting phase, add 1 to the hit roll and the wound roll for ranged attacks made by models in that unit.
 
 ## Workshop Projects
 
@@ -100,7 +100,7 @@ _Battle Tactic Stratagem_
 
 **TARGET:** One SKRYRE unit from your army that has not been selected to shoot this phase, and one friendly SKAVEN BATTLELINE unit within 3" of it.
 
-**EFFECT:** Sacrifice D3 models from that BATTLELINE unit. Until the end of the phase, add 1 to Hit rolls and Wound rolls for ranged attacks made by models in your SKRYRE unit.
+**EFFECT:** Sacrifice D3 models from that BATTLELINE unit. Until the end of the phase, add 1 to hit rolls and wound rolls for ranged attacks made by models in your SKRYRE unit.
 
 ### THROW MORE WARPSTONE IN!  [1CP]
 
@@ -140,7 +140,7 @@ _Strategic Ploy Stratagem_
 
 **TARGET:** That SKRYRE INFANTRY unit.
 
-**EFFECT:** Your unit can make a normal move of up to D6+2". It cannot embark within a TRANSPORT, end that move within Engagement Range, or declare a charge this turn.
+**EFFECT:** Your unit can make a normal move of up to D6+2". It cannot embark within a TRANSPORT, end that move within engagement range, or declare a charge this turn.
 
 ### BLOW IT! BLOW IT NOW-NOW!  [1CP]
 

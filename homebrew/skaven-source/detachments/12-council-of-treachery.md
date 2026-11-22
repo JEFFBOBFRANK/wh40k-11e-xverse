@@ -27,7 +27,7 @@ This unit has the Stealth ability.
 
 ### PESTILENS SEAT
 
-Each time a model in this unit makes a melee attack, add 1 to the Wound roll.
+Each time a model in this unit makes a melee attack, add 1 to the wound roll.
 
 ### MASTERCLAN SEAT
 
@@ -39,7 +39,7 @@ When mustering your army, each CLANRATS unit can swear to one Clan whose Seat is
 
 ## Ambition Unchecked
 
-Each time a friendly SKAVEN CHARACTER's unit loses one or more models, until the end of your next turn, add 1 to Hit rolls for attacks made by models in that unit.
+Each time a friendly SKAVEN CHARACTER's unit loses one or more models, until the end of your next turn, add 1 to hit rolls for attacks made by models in that unit.
 
 ## Council Enhancements
 
@@ -65,7 +65,7 @@ The bearer can use Knife in the Dark one additional time per battle. Each time t
 
 _SKAVEN CHARACTER model only._
 
-Once per battle round, when the bearer's unit is selected as the target of one or more attacks, you can Sacrifice D3 models from one friendly SKAVEN INFANTRY unit within 3" of the bearer. If you do, until the end of the phase, subtract 1 from Wound rolls made against the bearer's unit.
+Once per battle round, when the bearer's unit is selected as the target of one or more attacks, you can Sacrifice D3 models from one friendly SKAVEN INFANTRY unit within 3" of the bearer. If you do, until the end of the phase, subtract 1 from wound rolls made against the bearer's unit.
 
 ## Council Stratagems
 

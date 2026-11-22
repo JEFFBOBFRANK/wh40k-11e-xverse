@@ -14,7 +14,7 @@ Once per turn, you can re-roll one Passage roll.
 
 ### SURGING FROM BELOW
 
-Each time a unit from your army emerges, until the end of the turn: add 1 to the Hit roll for ranged attacks made by models in that unit; melee weapons equipped by models in that unit have [LANCE]; and that unit counts as having Remained Stationary.
+Each time a unit from your army emerges, until the end of the turn: add 1 to the hit roll for ranged attacks made by models in that unit; melee weapons equipped by models in that unit have [LANCE]; and that unit counts as having remained stationary.
 
 ### MASTERS OF THE UNDER-EMPIRE
 

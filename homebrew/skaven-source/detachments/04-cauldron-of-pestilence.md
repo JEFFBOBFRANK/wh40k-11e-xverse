@@ -26,7 +26,7 @@ While an enemy unit is within Pestilence range, worsen its Leadership characteri
 
 _Virulent Brew_
 
-Each time a model in a PESTILENS unit makes a melee attack that targets an enemy unit within Pestilence range, an unmodified Wound roll of 5+ scores a critical wound.
+Each time a model in a PESTILENS unit makes a melee attack that targets an enemy unit within Pestilence range, an unmodified wound roll of 5+ scores a critical wound.
 
 ### THE CRAWLING AGUE (3 VERMIN)
 
@@ -44,7 +44,7 @@ Each time an enemy unit ends a normal, advance, fall-back or charge move while w
 
 _Grand Plague_
 
-While an enemy unit is within Pestilence range, subtract 1 from the Strength characteristic of its melee weapons. If that enemy unit is Below Half-strength, also worsen the Armour Penetration characteristic of its melee weapons by 1.
+While an enemy unit is within Pestilence range, subtract 1 from the Strength characteristic of its melee weapons. If that enemy unit is below half-strength, also worsen the Armour Penetration characteristic of its melee weapons by 1.
 
 ### NURGLITCH'S GIFT (7 VERMIN)
 
@@ -108,7 +108,7 @@ _Battle Tactic Stratagem_
 
 **TARGET:** One PESTILENS unit from your army that has not been selected to fight this phase.
 
-**EFFECT:** Until the end of the phase, re-roll Wound rolls of 1 for melee attacks made by models in your unit. If the target of those attacks is INFECTED, you can re-roll the Wound roll instead.
+**EFFECT:** Until the end of the phase, re-roll wound rolls of 1 for melee attacks made by models in your unit. If the target of those attacks is INFECTED, you can re-roll the wound roll instead.
 
 ### SPREAD-SPREAD!  [1CP]
 

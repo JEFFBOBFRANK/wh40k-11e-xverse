@@ -49,4 +49,4 @@ _Battle Tactic Stratagem_
 
 **TARGET:** One ESHIN unit from your army that arrived from Reserves, emerged from the Under-Empire or made a Scout move this battle round, and has not been selected to shoot or fight this phase.
 
-**EFFECT:** Until the end of the phase, add 1 to the Hit roll and the Wound roll for attacks made by models in your unit.
+**EFFECT:** Until the end of the phase, add 1 to the hit roll and the wound roll for attacks made by models in your unit.

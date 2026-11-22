@@ -21,7 +21,7 @@ When mustering your army, select up to 3 CLANRATS units from your army. Those un
 
 ## Death From the Shadows
 
-Each time an ESHIN model from your army makes an attack that targets an enemy unit selected for one of your revealed Schemes, add 1 to the Hit roll.
+Each time an ESHIN model from your army makes an attack that targets an enemy unit selected for one of your revealed Schemes, add 1 to the hit roll.
 
 ## The Hidden Ledger
 
@@ -34,8 +34,8 @@ Each time an ESHIN model from your army makes an attack that targets an enemy un
 ### BURN-BURN THEIR TOYS
 
 **Reveal**: Select one enemy VEHICLE or MONSTER unit.  
-**Complete**: An ESHIN unit causes that unit to become Below Half-strength or destroys it.  
-**Payment**: Gain D3+1 Vermin. Until the end of the battle, each time an ESHIN model makes an attack that targets an enemy VEHICLE or MONSTER unit, add 1 to the Wound roll.
+**Complete**: An ESHIN unit causes that unit to become below half-strength or destroys it.  
+**Payment**: Gain D3+1 Vermin. Until the end of the battle, each time an ESHIN model makes an attack that targets an enemy VEHICLE or MONSTER unit, add 1 to the wound roll.
 
 ### STEAL-STEAL THE SECRETS
 
@@ -85,7 +85,7 @@ Once per battle, at the end of any phase, if the bearer's unit is not engaged, i
 
 _ESHIN CHARACTER model only._
 
-Each time a ranged attack targets the bearer, subtract 1 from the Wound roll. Once per battle, when the bearer is selected as the target of one or more attacks, until the end of the phase, enemy models cannot select the bearer as the target of an attack unless they are within 6" of it.
+Each time a ranged attack targets the bearer, subtract 1 from the wound roll. Once per battle, when the bearer is selected as the target of one or more attacks, until the end of the phase, enemy models cannot select the bearer as the target of an attack unless they are within 6" of it.
 
 ### WHISPER NETWORK  [15 pts]
 
@@ -113,7 +113,7 @@ _Battle Tactic Stratagem_
 
 **TARGET:** One ESHIN unit from your army that has not been selected to shoot or fight this phase, and one enemy unit that is the target of a currently revealed Scheme.
 
-**EFFECT:** Until the end of the phase, each time a model in your ESHIN unit makes an attack that targets that enemy unit, re-roll a Hit roll of 1 and a Wound roll of 1. If that enemy unit contains a CHARACTER model, those attacks also have [PRECISION].
+**EFFECT:** Until the end of the phase, each time a model in your ESHIN unit makes an attack that targets that enemy unit, re-roll a hit roll of 1 and a wound roll of 1. If that enemy unit contains a CHARACTER model, those attacks also have [PRECISION].
 
 ### SCURRY INTO THE SHADOWS  [1CP]
 
@@ -145,7 +145,7 @@ _Wargear Stratagem_
 
 **TARGET:** That ESHIN INFANTRY unit.
 
-**EFFECT:** Until the end of the phase, each time a ranged attack targets your unit, subtract 1 from the Hit roll, and models in your unit have the Benefit of Cover.
+**EFFECT:** Until the end of the phase, each time a ranged attack targets your unit, subtract 1 from the hit roll, and models in your unit have the benefit of cover.
 
 ### POISONED BLADES  [1CP]
 

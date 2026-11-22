@@ -49,4 +49,4 @@ _Strategic Ploy Stratagem_
 
 **TARGET:** One PESTILENS unit from your army.
 
-**EFFECT:** Until the end of the phase, each time an enemy model within 6" of your unit makes a melee attack, subtract 1 from the Hit roll.
+**EFFECT:** Until the end of the phase, each time an enemy model within 6" of your unit makes a melee attack, subtract 1 from the hit roll.

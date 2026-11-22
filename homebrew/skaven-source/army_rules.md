@@ -46,9 +46,9 @@ Each time a Vermin Ability targets or selects a RATTLETRAP unit, roll one additi
 
 - **WHEN:** End of your Command phase.
 
-- **TARGET:** One friendly SKAVEN INFANTRY unit that is below its Starting Strength.
+- **TARGET:** One friendly SKAVEN INFANTRY unit that is below its starting strength.
 
-- **EFFECT:** Roll 4D3+1. Return destroyed models to that unit whose combined Wounds characteristics do not exceed the result. You cannot return more than 13 wounds' worth of models, and the unit cannot be returned above its Starting Strength.
+- **EFFECT:** Roll 4D3+1. Return destroyed models to that unit whose combined Wounds characteristics do not exceed the result. You cannot return more than 13 wounds' worth of models, and the unit cannot be returned above its starting strength.
 
 #### From Below-Below! (1D3 Vermin)
 
@@ -76,7 +76,7 @@ Each time a Vermin Ability targets or selects a RATTLETRAP unit, roll one additi
 
 - **TARGET:** That destroyed unit.
 
-- **EFFECT:** Add an exact copy of the destroyed unit to your army at its Starting Strength, with all of its wounds remaining and the same wargear and Detachment upgrades, and place it in the Under-Empire. If the destroyed unit was an Attached unit, the copy is of its Bodyguard unit only; CHARACTER models are not added.
+- **EFFECT:** Add an exact copy of the destroyed unit to your army at its starting strength, with all of its wounds remaining and the same wargear and Detachment upgrades, and place it in the Under-Empire. If the destroyed unit was an Attached unit, the copy is of its Bodyguard unit only; CHARACTER models are not added.
 
 - **RESTRICTIONS:** This ability cannot target a unit containing only CHARACTER models, a Summoned Vermin unit or a unit created by this ability. If the destroyed unit had used a once-per-battle ability, the copy counts as having used it.
 
@@ -94,7 +94,7 @@ Each time a Vermin Ability targets or selects a RATTLETRAP unit, roll one additi
 
 - **TARGET:** One other friendly SKAVEN INFANTRY unit within 6" of where that unit was destroyed.
 
-- **EFFECT:** Your unit can make a surge move of up to 6". During this move it can move within Engagement Range of enemy models and can end the move engaged. If it has not fought this phase, it is eligible to fight this phase.
+- **EFFECT:** Your unit can make a surge move of up to 6". During this move it can move within engagement range of enemy models and can end the move engaged. If it has not fought this phase, it is eligible to fight this phase.
 
 #### They're in the Walls! (1D3 Vermin)
 
@@ -150,7 +150,7 @@ Each time a Vermin Ability targets or selects a RATTLETRAP unit, roll one additi
 
 **kh_hidden:** A Gnawhole cannot be selected as the target of a ranged attack unless the attacking model is within 12" of it.
 
-**kh_melee:** A Gnawhole can be selected as the target of melee attacks while one or more enemy models are within Engagement Range of it. An enemy unit within Engagement Range of a Gnawhole is eligible to fight, but can only target Gnawholes with its attacks. Units cannot declare a charge against a Gnawhole.
+**kh_melee:** A Gnawhole can be selected as the target of melee attacks while one or more enemy models are within engagement range of it. An enemy unit within engagement range of a Gnawhole is eligible to fight, but can only target Gnawholes with its attacks. Units cannot declare a charge against a Gnawhole.
 
 **kh_destroyed:** Resolve Disturb the Nest. Units in the Under-Empire are unaffected.
 
@@ -158,13 +158,13 @@ Each time a Vermin Ability targets or selects a RATTLETRAP unit, roll one additi
 
 ## Scurry Away!
 
-**Cornered Rats:** Each time this unit fails a battle-shock roll, roll one D6. This unit suffers that many mortal wounds. If it is not destroyed, each remaining model can then move up to that many inches. Models can move within Engagement Range of enemy models; no model can end the move closer to any enemy model than it started; each model must end as far as possible from the closest enemy model; the unit must end in Unit Coherency.
+**Cornered Rats:** Each time this unit fails a battle-shock roll, roll one D6. This unit suffers that many mortal wounds. If it is not destroyed, each remaining model can then move up to that many inches. Models can move within engagement range of enemy models; no model can end the move closer to any enemy model than it started; each model must end as far as possible from the closest enemy model; the unit must end in Unit Coherency.
 
-**Live to Fight-Flee Another Day:** When this unit is selected to make a fall-back move, instead of selecting a fall-back mode, you can use this ability. Roll one D6. This unit suffers that many mortal wounds. If it is not destroyed, each remaining model can move up to that many inches; models can move within Engagement Range and each model must end the move no longer engaged with any unit it was engaged with. After the move, this unit becomes battle-shocked (this does not trigger Cornered Rats). Until the end of the turn, this unit is treated as not having made a fall-back move: it can make a normal move, shoot and declare a charge if otherwise eligible.
+**Live to Fight-Flee Another Day:** When this unit is selected to make a fall-back move, instead of selecting a fall-back mode, you can use this ability. Roll one D6. This unit suffers that many mortal wounds. If it is not destroyed, each remaining model can move up to that many inches; models can move within engagement range and each model must end the move no longer engaged with any unit it was engaged with. After the move, this unit becomes battle-shocked (this does not trigger Cornered Rats). Until the end of the turn, this unit is treated as not having made a fall-back move: it can make a normal move, shoot and declare a charge if otherwise eligible.
 
 ## [WARPSTONE]
 
-Each time an attack is made with this weapon, if it scores a critical hit, add 1 to that attack's Strength characteristic; if it scores a critical wound, improve that attack's Armour Penetration characteristic by 1. TORRENT weapons make no Hit roll, so only the critical wound effect can apply to them. **Critical hits and critical wounds scored with this weapon cause Warpstone Backlash (on a 3+, the attacking unit suffers D3 mortal wounds).**
+Each time an attack is made with this weapon, if it scores a critical hit, add 1 to that attack's Strength characteristic; if it scores a critical wound, improve that attack's Armour Penetration characteristic by 1. TORRENT weapons make no hit roll, so only the critical wound effect can apply to them. **Critical hits and critical wounds scored with this weapon cause Warpstone Backlash (on a 3+, the attacking unit suffers D3 mortal wounds).**
 
 ## Warpstone Backlash
 
@@ -176,7 +176,7 @@ When a rule tells you to Sacrifice a model, select one model from your army on t
 
 ## Summoned Vermin
 
-When a rule tells you to add a unit using Summoned Vermin, add that unit to your army. Its Starting Strength is the number of models it is created with, and each model has only the default wargear from its datasheet (no Wargear Options or Enhancements). It is not a Reserves unit and cannot be placed into Strategic Reserves or the Under-Empire. Its models cannot be Sacrificed.
+When a rule tells you to add a unit using Summoned Vermin, add that unit to your army. Its starting strength is the number of models it is created with, and each model has only the default wargear from its datasheet (no Wargear Options or Enhancements). It is not a Reserves unit and cannot be placed into Strategic Reserves or the Under-Empire. Its models cannot be Sacrificed.
 
 **Temporary units:** If the rule removes the unit at a set time, remove it from play at that time. It is not destroyed.
 
@@ -272,7 +272,7 @@ _Known by: Thanquol and Boneripper, Lord Skrolk, Lord Skreech Verminking, Grey S
 
 - **EFFECT:** Until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS].
 
-- **OVERCAST:** Until the end of the phase, each time a model in that unit makes a melee attack, an unmodified Hit roll of 5+ scores a critical hit.
+- **OVERCAST:** Until the end of the phase, each time a model in that unit makes a melee attack, an unmodified hit roll of 5+ scores a critical hit.
 
 #### Pestilent Breath (Psychic Level 1, DAMAGE)
 
@@ -280,7 +280,7 @@ _Known by: Thanquol and Boneripper, Lord Skrolk, Lord Skreech Verminking, Grey S
 
 - **TARGET:** One enemy unit within 12" of and visible to this PSYKER.
 
-- **EFFECT:** That unit suffers D3 mortal wounds. Until the start of your next turn, subtract 1 from Hit rolls made for models in that unit.
+- **EFFECT:** That unit suffers D3 mortal wounds. Until the start of your next turn, subtract 1 from hit rolls made for models in that unit.
 
 - **OVERCAST:** That unit suffers an additional D3 mortal wounds.
 

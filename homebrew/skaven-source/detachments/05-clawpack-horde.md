@@ -10,7 +10,7 @@
 
 ### KILL-KILL THEM!
 
-Each time a model in this unit makes a melee attack, re-roll a Hit roll of 1. If this unit contains 10 or more models, also re-roll a Wound roll of 1.
+Each time a model in this unit makes a melee attack, re-roll a hit roll of 1. If this unit contains 10 or more models, also re-roll a wound roll of 1.
 
 ### MOVE-MOVE, COWARDS!
 
@@ -26,15 +26,15 @@ Each time a model in this unit makes a melee attack that targets an enemy unit t
 
 ### SHIELDS UP-UP!
 
-Each time a ranged attack is allocated to a model in this unit, that model has the Benefit of Cover. If this unit already has the Benefit of Cover, worsen the Armour Penetration characteristic of that attack by 1 instead.
+Each time a ranged attack is allocated to a model in this unit, that model has the benefit of cover. If this unit already has the benefit of cover, worsen the Armour Penetration characteristic of that attack by 1 instead.
 
 ## Ranks Upon Ranks
 
-While a friendly CLANRATS unit contains 10 or more models, improve its Leadership characteristic by 1 and add 1 to Hit rolls for melee attacks made by models in that unit. While it contains 20 or more models, also add 1 to the Objective Control characteristic of its models.
+While a friendly CLANRATS unit contains 10 or more models, improve its Leadership characteristic by 1 and add 1 to hit rolls for melee attacks made by models in that unit. While it contains 20 or more models, also add 1 to the Objective Control characteristic of its models.
 
 ## No Run-Run! Fight-Fight!
 
-Once per battle round, when a friendly VERMINUS unit within 8" of a friendly VERMINUS CHARACTER fails a battle-shock roll, you can Sacrifice D3 models from that unit. If you do, that battle-shock roll is treated as having been passed, and until the end of the turn, add 1 to Hit rolls for melee attacks made by models in that unit.
+Once per battle round, when a friendly VERMINUS unit within 8" of a friendly VERMINUS CHARACTER fails a battle-shock roll, you can Sacrifice D3 models from that unit. If you do, that battle-shock roll is treated as having been passed, and until the end of the turn, add 1 to hit rolls for melee attacks made by models in that unit.
 
 ## Verminus Enhancements
 
@@ -60,7 +60,7 @@ Each time the bearer's unit destroys an enemy unit, until the start of your next
 
 _VERMINUS CHARACTER model only._
 
-Improve the Weapon Skill characteristic of melee weapons equipped by the bearer by 1, to a maximum of 2+. Each time the bearer makes a melee attack against a CHARACTER unit, re-roll a Wound roll of 1 and improve the Armour Penetration characteristic of that attack by 1.
+Improve the Weapon Skill characteristic of melee weapons equipped by the bearer by 1, to a maximum of 2+. Each time the bearer makes a melee attack against a CHARACTER unit, re-roll a wound roll of 1 and improve the Armour Penetration characteristic of that attack by 1.
 
 ## Verminus Stratagems
 
@@ -82,7 +82,7 @@ _Battle Tactic Stratagem_
 
 **TARGET:** One CLANRATS or STORMVERMIN unit from your army that has not been selected to fight this phase.
 
-**EFFECT:** Until the end of the phase, each time a model in your unit makes a melee attack that targets an enemy unit that is engaged with two or more other friendly SKAVEN units, add 1 to the Wound roll and improve the Armour Penetration characteristic of that attack by 1.
+**EFFECT:** Until the end of the phase, each time a model in your unit makes a melee attack that targets an enemy unit that is engaged with two or more other friendly SKAVEN units, add 1 to the wound roll and improve the Armour Penetration characteristic of that attack by 1.
 
 ### HOLD-HOLD! MORE RATS COMING!  [1CP]
 
