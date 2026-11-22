@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 38,
+    "revision": 39,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -7248,6 +7248,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "a1af-5a09-cc6c-98df",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -7351,6 +7358,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "bd35-fce8-1ce3-dd13",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -7431,6 +7445,13 @@
                 "id": "c754-29b9-8374-1bfe",
                 "name": "Warpstone",
                 "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "fb6d-1c17-372b-1834",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
                 "type": "rule",
                 "hidden": false
               }
@@ -8183,6 +8204,13 @@
                 "id": "d177-4362-e61a-4e9d",
                 "name": "Warpstone",
                 "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "2c23-8c5e-3a59-aba1",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
                 "type": "rule",
                 "hidden": false
               }
@@ -13280,6 +13308,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "9d1a-5333-78f8-ef6d",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           }
@@ -17981,6 +18016,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "8cac-75b7-adc2-fdad",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -21740,6 +21782,13 @@
                 "id": "1e2f-f15b-a772-6067",
                 "name": "Warpstone",
                 "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "a4f5-fb0f-aa04-8156",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
                 "type": "rule",
                 "hidden": false
               }
@@ -26637,6 +26686,13 @@
                         "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
+                      },
+                      {
+                        "id": "c645-474a-c77b-c3e7",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   },
@@ -27030,6 +27086,13 @@
                         "id": "4c73-8e18-5990-760b",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "7efb-53da-327a-bb7c",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -28867,6 +28930,13 @@
                         "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
+                      },
+                      {
+                        "id": "e834-7b9d-9f9c-939b",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   }
@@ -29060,6 +29130,13 @@
                         "id": "ef5e-b235-9e1e-4fcf",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "efa6-f18d-222e-9fee",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -29363,6 +29440,13 @@
                         "id": "e2bc-2c7a-cc7b-615b",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "da59-141f-9466-156b",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -29734,6 +29818,13 @@
                         "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
+                      },
+                      {
+                        "id": "3c2a-244f-bcbb-c874",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   }
@@ -29917,6 +30008,13 @@
                         "id": "5302-3d05-aac8-5bcb",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "7ee1-5b9b-6026-e166",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -30316,6 +30414,13 @@
                         "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
+                      },
+                      {
+                        "id": "b256-1a72-0d0d-a9bb",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   }
@@ -30499,6 +30604,13 @@
                         "id": "9ad8-5a8c-3119-c17f",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "42d1-592e-b5b2-82a7",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -31231,6 +31343,13 @@
                         "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
+                      },
+                      {
+                        "id": "cc1c-2fb0-4d70-f4a5",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   },
@@ -31318,6 +31437,13 @@
                         "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
+                      },
+                      {
+                        "id": "643c-3f51-0ccd-f339",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   },
@@ -31396,6 +31522,13 @@
                         "id": "248d-5733-4ff0-6b6c",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "d87d-1d4e-5f90-0d02",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -31755,6 +31888,13 @@
                         "id": "5acb-038a-11dc-e3ba",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "99ba-0126-5ee2-c885",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -32174,6 +32314,13 @@
                         "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
+                      },
+                      {
+                        "id": "f3fb-b368-7d94-af6a",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   },
@@ -32457,6 +32604,13 @@
                         "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
+                      },
+                      {
+                        "id": "bfbd-1862-cdaf-44d6",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   },
@@ -32720,6 +32874,13 @@
                         "id": "4948-fab4-05f3-5c37",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "4cb7-8840-f2e4-291f",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -32994,6 +33155,13 @@
                         "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
+                      },
+                      {
+                        "id": "50b6-1683-ac49-afec",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   },
@@ -33257,6 +33425,13 @@
                         "id": "12bb-9058-bbb0-b487",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "7462-43ec-f3ec-db62",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -34060,6 +34235,13 @@
                         "id": "73f1-8571-8dc5-ac38",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "ba87-c903-ce07-3938",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -39276,6 +39458,13 @@
                         "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
+                      },
+                      {
+                        "id": "aeba-7a39-d0a7-2e60",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   },
@@ -40960,6 +41149,13 @@
                     "targetId": "7a1a-acc6-a2c5-a984",
                     "type": "rule",
                     "hidden": false
+                  },
+                  {
+                    "id": "a516-5662-5147-5fdf",
+                    "name": "Warpstone Backlash",
+                    "targetId": "770e-a39d-7aa8-8f21",
+                    "type": "rule",
+                    "hidden": false
                   }
                 ]
               },
@@ -41118,6 +41314,13 @@
                         "id": "b65b-4e61-e42c-47df",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "7f79-787c-8ad1-9908",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -41319,6 +41522,13 @@
                     "id": "d794-3a2c-b6ab-e144",
                     "name": "Warpstone",
                     "targetId": "7a1a-acc6-a2c5-a984",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "ed45-85cd-0536-78c4",
+                    "name": "Warpstone Backlash",
+                    "targetId": "770e-a39d-7aa8-8f21",
                     "type": "rule",
                     "hidden": false
                   }
@@ -42186,6 +42396,13 @@
                         "id": "dcd5-3346-91d4-43f2",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "64da-91d1-7ab8-5324",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -43075,6 +43292,13 @@
                     "targetId": "7a1a-acc6-a2c5-a984",
                     "type": "rule",
                     "hidden": false
+                  },
+                  {
+                    "id": "1f22-abf7-b4f9-a8f6",
+                    "name": "Warpstone Backlash",
+                    "targetId": "770e-a39d-7aa8-8f21",
+                    "type": "rule",
+                    "hidden": false
                   }
                 ]
               },
@@ -43233,6 +43457,13 @@
                         "id": "2330-0c07-c531-ee61",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "06ec-269d-2aa1-2d3d",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -43427,6 +43658,13 @@
                     "id": "559b-5aa9-59c9-1d54",
                     "name": "Warpstone",
                     "targetId": "7a1a-acc6-a2c5-a984",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "bf1b-532a-523d-adb8",
+                    "name": "Warpstone Backlash",
+                    "targetId": "770e-a39d-7aa8-8f21",
                     "type": "rule",
                     "hidden": false
                   }
@@ -44294,6 +44532,13 @@
                         "id": "0bd3-bc11-1909-a904",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "e01c-cd18-b5c6-0959",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -45988,6 +46233,13 @@
                     "targetId": "7a1a-acc6-a2c5-a984",
                     "type": "rule",
                     "hidden": false
+                  },
+                  {
+                    "id": "da5e-ea37-6828-dac7",
+                    "name": "Warpstone Backlash",
+                    "targetId": "770e-a39d-7aa8-8f21",
+                    "type": "rule",
+                    "hidden": false
                   }
                 ]
               },
@@ -46146,6 +46398,13 @@
                         "id": "9201-e7f9-7a52-317e",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "68b1-c437-d09f-7c4f",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -46340,6 +46599,13 @@
                     "id": "667f-805a-2daf-155b",
                     "name": "Warpstone",
                     "targetId": "7a1a-acc6-a2c5-a984",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "ccd2-f236-3356-0ccc",
+                    "name": "Warpstone Backlash",
+                    "targetId": "770e-a39d-7aa8-8f21",
                     "type": "rule",
                     "hidden": false
                   }
@@ -47740,6 +48006,13 @@
                     "id": "fd96-4cad-bab6-f8b8",
                     "name": "Warpstone",
                     "targetId": "7a1a-acc6-a2c5-a984",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "cd2c-46a3-cb16-2d54",
+                    "name": "Warpstone Backlash",
+                    "targetId": "770e-a39d-7aa8-8f21",
                     "type": "rule",
                     "hidden": false
                   }
@@ -52708,6 +52981,13 @@
                         "id": "da2d-6346-4cc0-79e8",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "57de-7f4d-c430-09e2",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
                         "hidden": false
                       }
@@ -62265,6 +62545,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "ae1d-ebfa-02cf-5974",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -65018,6 +65305,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "5b1a-da4a-9d4e-0974",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -65105,6 +65399,13 @@
                 "id": "809f-569d-4873-db0c",
                 "name": "Warpstone",
                 "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "2b15-9808-01a8-c791",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
                 "type": "rule",
                 "hidden": false
               }
@@ -65751,6 +66052,13 @@
                 "id": "47b9-743e-c742-cd54",
                 "name": "Warpstone",
                 "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "4283-963b-affe-0004",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
                 "type": "rule",
                 "hidden": false
               }
@@ -66565,6 +66873,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "7843-35b6-a6b2-3452",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -66666,6 +66981,13 @@
                 "id": "bad7-0ead-79f4-62d1",
                 "name": "Warpstone",
                 "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "52df-e8db-43b8-44c7",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
                 "type": "rule",
                 "hidden": false
               }
@@ -67911,6 +68233,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "a753-7b01-66f8-9aea",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -68527,6 +68856,13 @@
                 "id": "f299-c94f-8824-72e1",
                 "name": "Warpstone",
                 "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "b28b-0375-3165-2461",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
                 "type": "rule",
                 "hidden": false
               }
@@ -69908,6 +70244,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "04a8-c49d-72e4-5573",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -70011,6 +70354,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "15e1-377c-81e7-4b0b",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -70098,6 +70448,13 @@
                 "id": "17b9-3d56-8d7f-5dd6",
                 "name": "Warpstone",
                 "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "0015-8a3d-78b4-4ce1",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
                 "type": "rule",
                 "hidden": false
               }
@@ -70821,6 +71178,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "0d7f-22d4-fc1b-a34f",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -71528,6 +71892,13 @@
                 "id": "8974-0af8-b075-14a1",
                 "name": "Warpstone",
                 "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "cc0f-eb4d-a370-5a6c",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
                 "type": "rule",
                 "hidden": false
               }
@@ -72279,6 +72650,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "17fc-8d9e-9cfc-3e6c",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -72453,6 +72831,13 @@
                     "id": "a103-b1b5-a779-3c4c",
                     "name": "Warpstone",
                     "targetId": "7a1a-acc6-a2c5-a984",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "8822-2b55-c34f-d9a3",
+                    "name": "Warpstone Backlash",
+                    "targetId": "770e-a39d-7aa8-8f21",
                     "type": "rule",
                     "hidden": false
                   }
@@ -72636,6 +73021,13 @@
                     "targetId": "7a1a-acc6-a2c5-a984",
                     "type": "rule",
                     "hidden": false
+                  },
+                  {
+                    "id": "f082-9783-1959-9504",
+                    "name": "Warpstone Backlash",
+                    "targetId": "770e-a39d-7aa8-8f21",
+                    "type": "rule",
+                    "hidden": false
                   }
                 ]
               },
@@ -72721,6 +73113,13 @@
                     "id": "72d0-b17f-30db-c97a",
                     "name": "Warpstone",
                     "targetId": "7a1a-acc6-a2c5-a984",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "edf4-3104-4fe2-6a00",
+                    "name": "Warpstone Backlash",
+                    "targetId": "770e-a39d-7aa8-8f21",
                     "type": "rule",
                     "hidden": false
                   }
@@ -73576,6 +73975,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "06f7-a37f-6956-db9c",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -73663,6 +74069,13 @@
                 "id": "2994-e4ab-8770-4976",
                 "name": "Warpstone",
                 "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "f2d0-ddaf-121e-2da0",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
                 "type": "rule",
                 "hidden": false
               }
@@ -74334,6 +74747,13 @@
                 "targetId": "7a1a-acc6-a2c5-a984",
                 "type": "rule",
                 "hidden": false
+              },
+              {
+                "id": "de3e-188a-d43b-f5a6",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -74421,6 +74841,13 @@
                 "id": "4000-389b-acd0-adeb",
                 "name": "Warpstone",
                 "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "61e0-cf58-7be1-a81a",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
                 "type": "rule",
                 "hidden": false
               }
@@ -80281,7 +80708,7 @@
         "name": "Warpstone",
         "id": "7a1a-acc6-a2c5-a984",
         "hidden": false,
-        "description": "\n\nEach time an attack is made with this weapon, if it scores a critical hit, add 1 to that attack's Strength characteristic; if it scores a critical wound, improve that attack's Armour Penetration characteristic by 1. TORRENT weapons make no Hit roll, so only the critical wound effect can apply to them."
+        "description": "\n\nEach time an attack is made with this weapon, if it scores a critical hit, add 1 to that attack's Strength characteristic; if it scores a critical wound, improve that attack's Armour Penetration characteristic by 1. TORRENT weapons make no Hit roll, so only the critical wound effect can apply to them. **Every critical hit and every critical wound scored with this weapon causes a Warpstone Backlash test (on a 3+, the attacking unit suffers D3 mortal wounds).**"
       },
       {
         "name": "Warpstone Backlash",

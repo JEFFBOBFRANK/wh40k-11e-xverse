@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 38
+REVISION = 39
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -432,6 +432,7 @@ class Builder:
             if any(p.get("typeName", "").endswith("Weapons") and "Warpstone" in p["characteristics"][-1]["$text"]
                    for p in sub.get("profiles", [])):
                 rule_link(sub, warpstone)
+                rule_link(sub, self.rules["Warpstone Backlash"])  # every [WARPSTONE] weapon shows the Backlash rule
         for key in ("selectionEntries", "selectionEntryGroups", "modifiers", "infoLinks"):
             if not node[key]:
                 del node[key]

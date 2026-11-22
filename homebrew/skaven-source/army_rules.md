@@ -164,7 +164,7 @@ Each time a Vermin Ability targets or selects a RATTLETRAP unit, roll one additi
 
 ## [WARPSTONE]
 
-Each time an attack is made with this weapon, if it scores a critical hit, add 1 to that attack's Strength characteristic; if it scores a critical wound, improve that attack's Armour Penetration characteristic by 1. TORRENT weapons make no Hit roll, so only the critical wound effect can apply to them.
+Each time an attack is made with this weapon, if it scores a critical hit, add 1 to that attack's Strength characteristic; if it scores a critical wound, improve that attack's Armour Penetration characteristic by 1. TORRENT weapons make no Hit roll, so only the critical wound effect can apply to them. **Every critical hit and every critical wound scored with this weapon causes a Warpstone Backlash test (on a 3+, the attacking unit suffers D3 mortal wounds).**
 
 ## Warpstone Backlash
 
