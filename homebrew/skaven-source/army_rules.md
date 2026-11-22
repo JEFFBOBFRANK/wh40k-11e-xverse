@@ -164,7 +164,7 @@ Each time a Vermin Ability targets or selects a RATTLETRAP unit, roll one additi
 
 ## [WARPSTONE]
 
-Each time an attack made with this weapon scores a critical wound, improve the AP characteristic of that attack by 2, and the target cannot use its InSv characteristic against that attack. **Critical wounds scored with this weapon cause Warpstone Backlash (on a 3+, the attacking unit suffers D3 mortal wounds).**
+Each time an attack made with this weapon scores a critical wound, improve the AP characteristic of that attack by 2. **Critical wounds scored with this weapon cause Warpstone Backlash (on a 3+, the attacking unit suffers D3 mortal wounds).**
 
 ## Warpstone Backlash
 

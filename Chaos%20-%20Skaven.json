@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 52,
+    "revision": 53,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -91199,7 +91199,7 @@
         "name": "Warpstone",
         "id": "7a1a-acc6-a2c5-a984",
         "hidden": false,
-        "description": "\n\nEach time an attack made with this weapon scores a critical wound, improve the AP characteristic of that attack by 2, and the target cannot use its InSv characteristic against that attack. **Critical wounds scored with this weapon cause Warpstone Backlash (on a 3+, the attacking unit suffers D3 mortal wounds).**"
+        "description": "\n\nEach time an attack made with this weapon scores a critical wound, improve the AP characteristic of that attack by 2. **Critical wounds scored with this weapon cause Warpstone Backlash (on a 3+, the attacking unit suffers D3 mortal wounds).**"
       },
       {
         "name": "Warpstone Backlash",
