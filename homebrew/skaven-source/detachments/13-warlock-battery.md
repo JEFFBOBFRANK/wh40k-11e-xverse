@@ -2,7 +2,7 @@
 
 ## Overcharge the Guns
 
-- Friendly **WEAPON TEAM** units have the **BATTLELINE** keyword.
+- Friendly **WEAPON TEAM** units have the **BATTLELINE** keyword, and add 1 to the Objective Control characteristic of models in those units.
 - Add 1 to the Strength characteristic of ranged weapons equipped by models in friendly **WEAPON TEAM** units. Each time one of those units has shot, it must take a hazard roll.
 
 ## Enhancements

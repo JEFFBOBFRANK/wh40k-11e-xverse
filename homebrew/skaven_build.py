@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 39
+REVISION = 40
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -979,8 +979,16 @@ def build_detachments(b, units):
             if not set(keywords) & set(b.data[unit["name"]]["keywords"]):
                 continue
             copies = next(c for c in unit["constraints"] if c["id"] == nid(unit["id"] + ":copies"))
+            granted = [selected(dets[det_name]["id"], scope="roster")]
+            for sub in walk(unit):  # +1 OC on every model's stat line
+                for profile in sub.get("profiles", []) if isinstance(sub, dict) else []:
+                    if profile.get("typeName") == "Unit":
+                        oc = next(c for c in profile["characteristics"] if c["name"].upper() == "OC")
+                        profile.setdefault("modifiers", []).append(dict(
+                            field=oc["typeId"], type="increment", value=1, conditions=granted))
             unit.setdefault("modifiers", []).extend([
-                dict(type="add", field="category", value=battleline_id, conditions=[selected(dets[det_name]["id"])]),
+                dict(type="add", field="category", value=battleline_id, conditions=granted),
+                dict(type="set-primary", field="category", value=battleline_id, conditions=granted),
                 dict(type="set", field=copies["id"], value=max(copies["value"], 6),
                      conditions=[selected(dets[det_name]["id"], scope="roster")])])
     return detachment_entry, enhancements, stratagems, projects, dets
@@ -1164,6 +1172,12 @@ def mutation_modifiers(unit, mutation_id, name):
             for c in profile["characteristics"]:
                 if CHAR_KEYS.get(c["name"].upper()) == char and c.get("$text", "-") not in ("-", ""):
                     if char == "A" and "EXTRA ATTACKS" in profile["characteristics"][-1].get("$text", "").upper():
+                        continue
+                    if char == "OC":  # increments, so it adds up with detachment OC bonuses
+                        if c["$text"].isdigit() and int(c["$text"]) + change >= 1:
+                            profile.setdefault("modifiers", []).append(dict(
+                                field=c["typeId"], type="increment", value=change,
+                                conditions=[selected(mutation_id, scope=unit["id"])]))
                         continue
                     new = changed_value(char, c["$text"], change)
                     if new != c["$text"]:

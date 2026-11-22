@@ -2,7 +2,7 @@
 
 ## Unseen, Unheard
 
-- Friendly **NIGHT RUNNERS** units have the **BATTLELINE** keyword.
+- Friendly **NIGHT RUNNERS** units have the **BATTLELINE** keyword, and add 1 to the Objective Control characteristic of models in those units.
 - Friendly **ESHIN INFANTRY** units have the Stealth ability, and are eligible to shoot and declare a charge in a turn in which they made a fall-back move.
 
 ## Enhancements

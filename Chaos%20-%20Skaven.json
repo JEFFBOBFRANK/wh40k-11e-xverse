@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 39,
+    "revision": 40,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -1956,7 +1956,7 @@
                     "name": "Pride of the Black-Furs",
                     "id": "e35d-ea23-f3e4-381d",
                     "hidden": false,
-                    "description": "\n\n- Friendly **STORMVERMIN** units have the **BATTLELINE** keyword.\n- Each time a friendly **STORMVERMIN** unit loses one or more models, until the end of your next turn, that unit is **Prideful**. Each time a model in a Prideful unit makes a melee attack, add 1 to the Wound roll."
+                    "description": "\n\n- Friendly **STORMVERMIN** units have the **BATTLELINE** keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Each time a friendly **STORMVERMIN** unit loses one or more models, until the end of your next turn, that unit is **Prideful**. Each time a model in a Prideful unit makes a melee attack, add 1 to the Wound roll."
                   }
                 ],
                 "categoryLinks": [
@@ -2265,7 +2265,7 @@
                     "name": "Overcharge the Guns",
                     "id": "c670-43fa-0eda-72c6",
                     "hidden": false,
-                    "description": "\n\n- Friendly **WEAPON TEAM** units have the **BATTLELINE** keyword.\n- Add 1 to the Strength characteristic of ranged weapons equipped by models in friendly **WEAPON TEAM** units. Each time one of those units has shot, it must take a hazard roll."
+                    "description": "\n\n- Friendly **WEAPON TEAM** units have the **BATTLELINE** keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Add 1 to the Strength characteristic of ranged weapons equipped by models in friendly **WEAPON TEAM** units. Each time one of those units has shot, it must take a hazard roll."
                   }
                 ],
                 "categoryLinks": [
@@ -2307,7 +2307,7 @@
                     "name": "Let Them Loose!",
                     "id": "c9c0-5b9a-4445-d699",
                     "hidden": false,
-                    "description": "\n\n- Friendly **RAT OGORS** and **WOLF RATS** units have the **BATTLELINE** keyword.\n- In a turn in which a friendly **MOULDER BEAST** unit made a charge move, melee weapons equipped by models in that unit have **[LANCE]**."
+                    "description": "\n\n- Friendly **RAT OGORS** and **WOLF RATS** units have the **BATTLELINE** keyword, and add 1 to the Objective Control characteristic of models in those units.\n- In a turn in which a friendly **MOULDER BEAST** unit made a charge move, melee weapons equipped by models in that unit have **[LANCE]**."
                   }
                 ],
                 "categoryLinks": [
@@ -2349,7 +2349,7 @@
                     "name": "Unseen, Unheard",
                     "id": "f428-26ac-4df0-9e24",
                     "hidden": false,
-                    "description": "\n\n- Friendly **NIGHT RUNNERS** units have the **BATTLELINE** keyword.\n- Friendly **ESHIN INFANTRY** units have the Stealth ability, and are eligible to shoot and declare a charge in a turn in which they made a fall-back move."
+                    "description": "\n\n- Friendly **NIGHT RUNNERS** units have the **BATTLELINE** keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Friendly **ESHIN INFANTRY** units have the Stealth ability, and are eligible to shoot and declare a charge in a turn in which they made a fall-back move."
                   }
                 ],
                 "categoryLinks": [
@@ -2400,7 +2400,7 @@
                     "name": "Frenzied Devotion",
                     "id": "ece3-b0cc-15de-96c2",
                     "hidden": false,
-                    "description": "\n\n- Friendly **PLAGUE MONKS** units have the **BATTLELINE** keyword.\n- In a turn in which a friendly **PESTILENS INFANTRY** unit made a charge move, melee weapons equipped by models in that unit have **[LETHAL HITS]**."
+                    "description": "\n\n- Friendly **PLAGUE MONKS** units have the **BATTLELINE** keyword, and add 1 to the Objective Control characteristic of models in those units.\n- In a turn in which a friendly **PESTILENS INFANTRY** unit made a charge move, melee weapons equipped by models in that unit have **[LETHAL HITS]**."
                   }
                 ],
                 "categoryLinks": [
@@ -28625,6 +28625,22 @@
                         "includeChildSelections": true
                       }
                     ]
+                  },
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "9ed6-15fb-961a-e76e",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -28756,6 +28772,24 @@
                             "name": "InSv",
                             "typeId": "55a7-5b54-c60d-11dc",
                             "$text": "5+"
+                          }
+                        ],
+                        "modifiers": [
+                          {
+                            "field": "bef7-942a-1a23-59f8",
+                            "type": "increment",
+                            "value": 1,
+                            "conditions": [
+                              {
+                                "childId": "9ed6-15fb-961a-e76e",
+                                "field": "selections",
+                                "scope": "roster",
+                                "type": "atLeast",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              }
+                            ]
                           }
                         ]
                       },
@@ -29041,6 +29075,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   }
@@ -29352,6 +29404,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "5+"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   }
                 ],
@@ -29550,6 +29620,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   }
                 ],
@@ -29713,6 +29801,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   },
@@ -29905,6 +30011,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "5+"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   },
@@ -30125,6 +30249,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   },
                   {
@@ -30309,6 +30451,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   },
@@ -30501,6 +30661,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "5+"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   },
@@ -30720,6 +30898,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   },
@@ -31039,7 +31235,23 @@
               {
                 "childId": "9ed6-15fb-961a-e76e",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "9ed6-15fb-961a-e76e",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -31249,6 +31461,24 @@
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "9ed6-15fb-961a-e76e",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -31793,6 +32023,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   }
                 ],
@@ -32217,6 +32465,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   }
                 ],
@@ -32493,6 +32759,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   },
                   {
@@ -32764,6 +33048,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   },
@@ -33044,6 +33346,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   },
                   {
@@ -33315,6 +33635,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   },
@@ -33832,7 +34170,23 @@
               {
                 "childId": "9ed6-15fb-961a-e76e",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "9ed6-15fb-961a-e76e",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -34070,6 +34424,24 @@
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "5+"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "9ed6-15fb-961a-e76e",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -34562,6 +34934,24 @@
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "5+"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "9ed6-15fb-961a-e76e",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -34790,7 +35180,23 @@
               {
                 "childId": "9ed6-15fb-961a-e76e",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "9ed6-15fb-961a-e76e",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -35174,6 +35580,24 @@
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "49c8-fc38-5727-2013",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -35339,6 +35763,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "49c8-fc38-5727-2013",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   }
@@ -35670,6 +36112,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "49c8-fc38-5727-2013",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   }
                 ],
@@ -35833,6 +36293,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "49c8-fc38-5727-2013",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   },
@@ -36029,6 +36507,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "49c8-fc38-5727-2013",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   },
@@ -36233,6 +36729,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "49c8-fc38-5727-2013",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   },
                   {
@@ -36428,6 +36942,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "49c8-fc38-5727-2013",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   },
@@ -36873,7 +37405,23 @@
               {
                 "childId": "49c8-fc38-5727-2013",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "49c8-fc38-5727-2013",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -38107,6 +38655,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "699d-49b7-ae7b-8097",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   }
                 ],
@@ -38424,6 +38990,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "699d-49b7-ae7b-8097",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   }
                 ],
@@ -38669,6 +39253,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "699d-49b7-ae7b-8097",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   }
@@ -39102,7 +39704,23 @@
               {
                 "childId": "699d-49b7-ae7b-8097",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "699d-49b7-ae7b-8097",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -41052,6 +41670,24 @@
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "1520-080a-b916-fa48",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -41427,6 +42063,24 @@
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "1520-080a-b916-fa48",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -41669,7 +42323,23 @@
               {
                 "childId": "1520-080a-b916-fa48",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "1520-080a-b916-fa48",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -42141,6 +42811,24 @@
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "1520-080a-b916-fa48",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -42509,6 +43197,24 @@
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "1520-080a-b916-fa48",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -42744,7 +43450,23 @@
               {
                 "childId": "1520-080a-b916-fa48",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "1520-080a-b916-fa48",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -43202,6 +43924,24 @@
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "1520-080a-b916-fa48",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -43570,6 +44310,24 @@
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "1520-080a-b916-fa48",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -43805,7 +44563,23 @@
               {
                 "childId": "1520-080a-b916-fa48",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "1520-080a-b916-fa48",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -44270,6 +45044,24 @@
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "1520-080a-b916-fa48",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -44646,6 +45438,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "1520-080a-b916-fa48",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   }
                 ],
@@ -44968,6 +45778,24 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "1520-080a-b916-fa48",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
                     ]
                   }
                 ],
@@ -45236,6 +46064,24 @@
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "1520-080a-b916-fa48",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
                       }
                     ]
                   }
@@ -45911,7 +46757,23 @@
               {
                 "childId": "1520-080a-b916-fa48",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "1520-080a-b916-fa48",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -46135,6 +46997,24 @@
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "1520-080a-b916-fa48",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -46504,6 +47384,24 @@
                     "typeId": "55a7-5b54-c60d-11dc",
                     "$text": "-"
                   }
+                ],
+                "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "1520-080a-b916-fa48",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -46813,7 +47711,23 @@
               {
                 "childId": "1520-080a-b916-fa48",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "1520-080a-b916-fa48",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -47163,6 +48077,24 @@
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "-"
               }
+            ],
+            "modifiers": [
+              {
+                "field": "bef7-942a-1a23-59f8",
+                "type": "increment",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "1520-080a-b916-fa48",
+                    "field": "selections",
+                    "scope": "roster",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
             ]
           },
           {
@@ -47446,7 +48378,23 @@
               {
                 "childId": "1520-080a-b916-fa48",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "1520-080a-b916-fa48",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -48351,6 +49299,22 @@
                 ],
                 "modifiers": [
                   {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "2820-f41e-c77f-bc89",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
                     "field": "d29d-cf75-fc2d-34a4",
                     "type": "set",
                     "value": "7",
@@ -48448,8 +49412,8 @@
                   },
                   {
                     "field": "bef7-942a-1a23-59f8",
-                    "type": "set",
-                    "value": "1",
+                    "type": "increment",
+                    "value": -1,
                     "conditions": [
                       {
                         "childId": "68f8-645d-fa55-7d33",
@@ -48695,6 +49659,22 @@
                   }
                 ],
                 "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "2820-f41e-c77f-bc89",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
                   {
                     "field": "d29d-cf75-fc2d-34a4",
                     "type": "set",
@@ -49093,7 +50073,23 @@
               {
                 "childId": "2820-f41e-c77f-bc89",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "2820-f41e-c77f-bc89",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -49981,8 +50977,8 @@
                   },
                   {
                     "field": "bef7-942a-1a23-59f8",
-                    "type": "set",
-                    "value": "1",
+                    "type": "increment",
+                    "value": -1,
                     "conditions": [
                       {
                         "childId": "68f8-645d-fa55-7d33",
@@ -51254,8 +52250,8 @@
                       },
                       {
                         "field": "bef7-942a-1a23-59f8",
-                        "type": "set",
-                        "value": "1",
+                        "type": "increment",
+                        "value": -1,
                         "conditions": [
                           {
                             "childId": "68f8-645d-fa55-7d33",
@@ -51783,8 +52779,8 @@
                       },
                       {
                         "field": "bef7-942a-1a23-59f8",
-                        "type": "set",
-                        "value": "1",
+                        "type": "increment",
+                        "value": -1,
                         "conditions": [
                           {
                             "childId": "68f8-645d-fa55-7d33",
@@ -52313,8 +53309,8 @@
                       },
                       {
                         "field": "bef7-942a-1a23-59f8",
-                        "type": "set",
-                        "value": "1",
+                        "type": "increment",
+                        "value": -1,
                         "conditions": [
                           {
                             "childId": "68f8-645d-fa55-7d33",
@@ -52879,8 +53875,8 @@
                       },
                       {
                         "field": "bef7-942a-1a23-59f8",
-                        "type": "set",
-                        "value": "1",
+                        "type": "increment",
+                        "value": -1,
                         "conditions": [
                           {
                             "childId": "68f8-645d-fa55-7d33",
@@ -53357,8 +54353,8 @@
                       },
                       {
                         "field": "bef7-942a-1a23-59f8",
-                        "type": "set",
-                        "value": "1",
+                        "type": "increment",
+                        "value": -1,
                         "conditions": [
                           {
                             "childId": "68f8-645d-fa55-7d33",
@@ -53827,8 +54823,8 @@
                       },
                       {
                         "field": "bef7-942a-1a23-59f8",
-                        "type": "set",
-                        "value": "1",
+                        "type": "increment",
+                        "value": -1,
                         "conditions": [
                           {
                             "childId": "68f8-645d-fa55-7d33",
@@ -55176,8 +56172,8 @@
               },
               {
                 "field": "bef7-942a-1a23-59f8",
-                "type": "set",
-                "value": "2",
+                "type": "increment",
+                "value": -1,
                 "conditions": [
                   {
                     "childId": "68f8-645d-fa55-7d33",
@@ -56427,6 +57423,22 @@
                 ],
                 "modifiers": [
                   {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "2820-f41e-c77f-bc89",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
                     "field": "d29d-cf75-fc2d-34a4",
                     "type": "set",
                     "value": "5",
@@ -56764,6 +57776,22 @@
                   }
                 ],
                 "modifiers": [
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "2820-f41e-c77f-bc89",
+                        "field": "selections",
+                        "scope": "roster",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
                   {
                     "field": "d29d-cf75-fc2d-34a4",
                     "type": "set",
@@ -57162,7 +58190,23 @@
               {
                 "childId": "2820-f41e-c77f-bc89",
                 "field": "selections",
-                "scope": "force",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "2820-f41e-c77f-bc89",
+                "field": "selections",
+                "scope": "roster",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -57944,8 +58988,8 @@
               },
               {
                 "field": "bef7-942a-1a23-59f8",
-                "type": "set",
-                "value": "4",
+                "type": "increment",
+                "value": -1,
                 "conditions": [
                   {
                     "childId": "68f8-645d-fa55-7d33",
@@ -59254,8 +60298,8 @@
                   },
                   {
                     "field": "bef7-942a-1a23-59f8",
-                    "type": "set",
-                    "value": "3",
+                    "type": "increment",
+                    "value": -1,
                     "conditions": [
                       {
                         "childId": "68f8-645d-fa55-7d33",
@@ -60720,8 +61764,8 @@
               },
               {
                 "field": "bef7-942a-1a23-59f8",
-                "type": "set",
-                "value": "6",
+                "type": "increment",
+                "value": -1,
                 "conditions": [
                   {
                     "childId": "68f8-645d-fa55-7d33",
@@ -62159,8 +63203,8 @@
               },
               {
                 "field": "bef7-942a-1a23-59f8",
-                "type": "set",
-                "value": "4",
+                "type": "increment",
+                "value": -1,
                 "conditions": [
                   {
                     "childId": "68f8-645d-fa55-7d33",
@@ -63691,8 +64735,8 @@
               },
               {
                 "field": "bef7-942a-1a23-59f8",
-                "type": "set",
-                "value": "5",
+                "type": "increment",
+                "value": -1,
                 "conditions": [
                   {
                     "childId": "68f8-645d-fa55-7d33",

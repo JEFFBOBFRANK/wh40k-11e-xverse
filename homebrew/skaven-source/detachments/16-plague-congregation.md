@@ -2,7 +2,7 @@
 
 ## Frenzied Devotion
 
-- Friendly **PLAGUE MONKS** units have the **BATTLELINE** keyword.
+- Friendly **PLAGUE MONKS** units have the **BATTLELINE** keyword, and add 1 to the Objective Control characteristic of models in those units.
 - In a turn in which a friendly **PESTILENS INFANTRY** unit made a charge move, melee weapons equipped by models in that unit have **[LETHAL HITS]**.
 
 ## Enhancements
