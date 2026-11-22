@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 40
+REVISION = 41
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -170,6 +170,7 @@ class Builder:
         self.sys_categories = {c["name"].casefold(): c for c in self.system["categoryEntries"]}
         self.sys_rules = self.system["sharedRules"]
         self.enh_ids = {}
+        self.option_ids = {}
         old_entries = self.old["sharedSelectionEntries"]
         self.old_ids = {}
         # Datasheets first, so a datasheet keeps its ID when an option shares its name (Warlord).
@@ -1109,7 +1110,7 @@ def build_enhancements(b, enhancements, units):
 
 
 PROJECT_TOKENS = "95a1-fc42-7bd0-9091"  # the "Workshop Projects" cost type (formerly Workshop Tokens)
-CHAR_KEYS = {"M": "M", "T": "T", "SV": "SV", "W": "W", "OC": "OC", "A": "A", "WS": "WS", "S": "S"}
+CHAR_KEYS = {"M": "M", "T": "T", "SV": "SV", "W": "W", "OC": "OC", "A": "A", "WS": "WS", "S": "S", "INSV": "INV", "INV": "INV"}
 
 
 def add_number(text, n, floor=None):
@@ -1162,28 +1163,73 @@ def changed_value(char, value, change):
     return add_number(value, change, floor)
 
 
-def mutation_modifiers(unit, mutation_id, name):
-    """Show a Mutation on the unit's stat lines, as Keeper of Secrets in the Emperor's Children catalogue."""
-    kind, char, change = MUTATION_EFFECTS[name]
-    for sub in walk(unit):
-        for profile in sub.get("profiles", []) if isinstance(sub, dict) else []:
-            if profile.get("typeName") != kind:
-                continue
-            for c in profile["characteristics"]:
-                if CHAR_KEYS.get(c["name"].upper()) == char and c.get("$text", "-") not in ("-", ""):
+def stat_modifiers(unit, entry_id, effects):
+    """Show an option's stat changes on the unit's stat lines, as Keeper of Secrets in the Emperor's Children
+    catalogue. Numbers are incremented so several bonuses add up; Move, saves and skills are set."""
+    condition = [selected(entry_id, scope=unit["id"])]
+    for kind, char, change, *best in effects:
+        for sub in walk(unit):
+            for profile in sub.get("profiles", []) if isinstance(sub, dict) else []:
+                if profile.get("typeName") != kind:
+                    continue
+                for c in profile["characteristics"]:
+                    text = c.get("$text", "-")
+                    if CHAR_KEYS.get(c["name"].upper(), c["name"].upper()) != char or text in ("-", "", "N/A"):
+                        continue
                     if char == "A" and "EXTRA ATTACKS" in profile["characteristics"][-1].get("$text", "").upper():
                         continue
-                    if char == "OC":  # increments, so it adds up with detachment OC bonuses
-                        if c["$text"].isdigit() and int(c["$text"]) + change >= 1:
+                    if text.isdigit():
+                        if int(text) + change >= 1:
                             profile.setdefault("modifiers", []).append(dict(
-                                field=c["typeId"], type="increment", value=change,
-                                conditions=[selected(mutation_id, scope=unit["id"])]))
+                                field=c["typeId"], type="increment", value=change, conditions=condition))
                         continue
-                    new = changed_value(char, c["$text"], change)
-                    if new != c["$text"]:
+                    if profile["name"].startswith(("Gnaw-beast", "Screaming Bell", "Plague Furnace")):
+                        continue  # a mount's weapons are not the bearer's
+                    if char == "INV":
+                        new = add_roll(text, change, best=4)
+                    elif best:
+                        new = add_roll(text, change, best=best[0])
+                    else:
+                        new = changed_value(char, text, change)
+                    if new != text:
                         profile.setdefault("modifiers", []).append(dict(
-                            field=c["typeId"], type="set", value=new,
-                            conditions=[selected(mutation_id, scope=unit["id"])]))
+                            field=c["typeId"], type="set", value=new, conditions=condition))
+
+
+def mutation_modifiers(unit, mutation_id, name):
+    stat_modifiers(unit, mutation_id, [MUTATION_EFFECTS[name]])
+
+
+# Enhancements, Upgrades and Workshop Projects whose effect is a plain stat change.
+STAT_EFFECTS = {
+    "Scrap-Welded Armour": [("Unit", "M", -1)],
+    "Warpstone Supercharger": [("Ranged Weapons", "S", 2)],
+    "Voltaic Shield Amplifiers": [("Unit", "INV", 1)],
+    "Reinforced-Ramshackle Hull": [("Unit", "T", 1), ("Unit", "M", -1)],
+    "Best-Best Killer": [("Melee Weapons", "WS", 1, 2)],
+    "Black-Flag Rigging Upgrade": [("Unit", "M", 2)],
+    "Warp-Fed Gearbox": [("Unit", "M", 2)],
+    "Overgrown": [("Unit", "T", 1)],
+}
+
+
+def one_per_unit(units):
+    """Each option once per unit, shown as a checkbox; a unit has at most one Enhancement or Upgrade."""
+    for unit in units:
+        for g in unit.get("selectionEntryGroups", []):
+            if g["name"] in ("Enhancements and Upgrades", "Black Contract", "Council Levy"):
+                for link in g["entryLinks"]:
+                    link["constraints"] = [constraint(nid(link["id"] + ":once"), "max", 1)]
+
+
+def apply_stat_effects(b, units):
+    ids = dict(b.enh_ids, **b.option_ids)
+    for name, effects in STAT_EFFECTS.items():
+        eid = ids.get(name)
+        assert eid, name
+        for unit in units:
+            if any(isinstance(n, dict) and n.get("targetId") == eid for n in walk(unit)):
+                stat_modifiers(unit, eid, effects)
 
 
 def option_group(unit, key, name, limit):
@@ -1203,6 +1249,7 @@ def build_options(b, options, units, dets):
         restriction = card["italics"][0] if card["italics"] else ""
         eid = b.old_ids.get(norm(card["name"])) or nid(card["kind"] + ":" + card["name"])
         ids[card["name"]] = eid
+        b.option_ids[card["name"]] = eid
         body = clean_markdown(card["body"])
         costs, roster_max = [], None
         if card["kind"] == "project":
@@ -1405,6 +1452,8 @@ def build(source, catalogue_path, system_path):
     detachment_entry, enhancements, stratagems, projects, dets = build_detachments(b, units)
     shared_enh = build_enhancements(b, enhancements, units)
     shared_projects = build_options(b, projects, units, dets)
+    apply_stat_effects(b, units)
+    one_per_unit(units)
     strat_links = build_stratagems(b, stratagems)
 
     # Warlord: any CHARACTER can be chosen, as in the Emperor's Children catalogue; the game system requires one.
