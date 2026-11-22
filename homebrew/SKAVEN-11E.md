@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 45 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 46 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -90,6 +90,8 @@ detachments). The layout follows the Emperor's Children catalogue.
   Night Runners, Gutter Runners and Eshin Shadowriggers.
 - Movement: foot models are M7" (weapon teams stay M6"); Rat Ogors and the Mutant
   Rat Ogor are M9". Skavenslaves are 20 or 40 models.
+- Ranged weapons that hit on 4+ or 5+ and are not TORRENT or IGNORES COVER have
+  about 1.5x (4+) or 2x (5+) the shots, to make up for cover's -1 to hit.
 - A PSYKER can use any number of DAMAGE spells, limited by its Psyker Level.
 - Every CHARACTER has a Warlord option; the army needs exactly one Warlord. The
   Warlord datasheet's WARLORD keyword is its own keyword, not the Warlord role.

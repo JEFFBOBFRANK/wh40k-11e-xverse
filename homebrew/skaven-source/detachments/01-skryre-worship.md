@@ -62,7 +62,7 @@ After this unit ends a normal, advance or charge move, select one enemy unit wit
 
 _Non-EPIC HERO WARLOCK ENGINEER model_
 
-This model is equipped with a Doomrocket: Range 48"; Attacks D6+6; BS 4+; S 10; AP -2; D 2; [BLAST 1, HAZARDOUS, INDIRECT FIRE, ONE SHOT, WARPSTONE].
+This model is equipped with a Doomrocket: Range 48"; Attacks 2D6+7; BS 4+; S 10; AP -2; D 2; [BLAST 1, HAZARDOUS, INDIRECT FIRE, ONE SHOT, WARPSTONE].
 
 ## Skryre Enhancements
 

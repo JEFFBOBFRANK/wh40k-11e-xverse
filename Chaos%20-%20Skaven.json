@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 45,
+    "revision": 46,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -713,7 +713,7 @@
                     "name": "Workshop Projects",
                     "id": "7583-801a-1d19-be26",
                     "hidden": false,
-                    "description": "​<br><br>**Scrap-Welded Armour**<br>*BATTLELINE unit*\n\nEach time a ranged attack is allocated to a model in this unit, improve that model's Save characteristic by 1 against that attack. Subtract 1\" from this unit's Move characteristic.\n\n**More-More Barrels!**<br>*WEAPON TEAM unit*\n\nEach time this unit is selected to shoot, you can re-roll any or all dice used to determine the Attacks characteristic of ranged weapons equipped by models in this unit.\n\n**Warpstone Supercharger**<br>*WEAPON TEAM unit*\n\nAdd 2 to the Strength characteristic of ranged weapons equipped by models in this unit. Those weapons have [HAZARDOUS].\n\n**Meltdown Protocol**<br>*WEAPON TEAM unit*\n\nOnce per battle, immediately after this unit has shot, it can shoot again. After it has shot for the second time, roll one D6: on a 1-2, this unit is destroyed; on a 3-5, this unit suffers D6 mortal wounds; on a 6, nothing happens.\n\n**Voltaic Shield Amplifiers**<br>*WARPCLAD unit*\n\nImprove this unit's invulnerable save by 1, to a maximum of 4+. At the end of any phase in which this unit made one or more invulnerable saving throws, roll one D6. On a 1, this unit suffers D3 mortal wounds.\n\n**Reinforced-Ramshackle Hull**<br>*SKAVEN VEHICLE unit*\n\nAdd 1 to this unit's Toughness characteristic and subtract 1\" from its Move characteristic.\n\n**Warp-Lightning Capacitors**<br>*SKAVEN VEHICLE unit*\n\nAfter this unit ends a normal, advance or charge move, select one enemy unit within 6\" and roll one D6. On a 1, this unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.\n\n**Doomrocket**<br>*Non-EPIC HERO WARLOCK ENGINEER model*\n\nThis model is equipped with a Doomrocket: Range 48\"; Attacks D6+6; BS 4+; S 10; AP -2; D 2; [BLAST 1, HAZARDOUS, INDIRECT FIRE, ONE SHOT, WARPSTONE]."
+                    "description": "​<br><br>**Scrap-Welded Armour**<br>*BATTLELINE unit*\n\nEach time a ranged attack is allocated to a model in this unit, improve that model's Save characteristic by 1 against that attack. Subtract 1\" from this unit's Move characteristic.\n\n**More-More Barrels!**<br>*WEAPON TEAM unit*\n\nEach time this unit is selected to shoot, you can re-roll any or all dice used to determine the Attacks characteristic of ranged weapons equipped by models in this unit.\n\n**Warpstone Supercharger**<br>*WEAPON TEAM unit*\n\nAdd 2 to the Strength characteristic of ranged weapons equipped by models in this unit. Those weapons have [HAZARDOUS].\n\n**Meltdown Protocol**<br>*WEAPON TEAM unit*\n\nOnce per battle, immediately after this unit has shot, it can shoot again. After it has shot for the second time, roll one D6: on a 1-2, this unit is destroyed; on a 3-5, this unit suffers D6 mortal wounds; on a 6, nothing happens.\n\n**Voltaic Shield Amplifiers**<br>*WARPCLAD unit*\n\nImprove this unit's invulnerable save by 1, to a maximum of 4+. At the end of any phase in which this unit made one or more invulnerable saving throws, roll one D6. On a 1, this unit suffers D3 mortal wounds.\n\n**Reinforced-Ramshackle Hull**<br>*SKAVEN VEHICLE unit*\n\nAdd 1 to this unit's Toughness characteristic and subtract 1\" from its Move characteristic.\n\n**Warp-Lightning Capacitors**<br>*SKAVEN VEHICLE unit*\n\nAfter this unit ends a normal, advance or charge move, select one enemy unit within 6\" and roll one D6. On a 1, this unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.\n\n**Doomrocket**<br>*Non-EPIC HERO WARLOCK ENGINEER model*\n\nThis model is equipped with a Doomrocket: Range 48\"; Attacks 2D6+7; BS 4+; S 10; AP -2; D 2; [BLAST 1, HAZARDOUS, INDIRECT FIRE, ONE SHOT, WARPSTONE]."
                   }
                 ],
                 "categoryLinks": [
@@ -13605,7 +13605,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "3"
+                    "$text": "5"
                   },
                   {
                     "name": "BS",
@@ -27726,7 +27726,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -27808,7 +27808,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "2"
+                            "$text": "4"
                           },
                           {
                             "name": "BS",
@@ -27896,7 +27896,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -28240,7 +28240,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -28915,7 +28915,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -29213,7 +29213,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -29395,7 +29395,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "2"
+                            "$text": "4"
                           },
                           {
                             "name": "BS",
@@ -29564,7 +29564,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -29876,7 +29876,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -30195,7 +30195,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -30514,7 +30514,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -30717,7 +30717,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "2"
+                            "$text": "4"
                           },
                           {
                             "name": "BS",
@@ -30886,7 +30886,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -31205,7 +31205,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -31524,7 +31524,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -31843,7 +31843,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -32046,7 +32046,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "2"
+                            "$text": "4"
                           },
                           {
                             "name": "BS",
@@ -32215,7 +32215,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -32481,7 +32481,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "D6+3"
+                            "$text": "2D6+6"
                           },
                           {
                             "name": "BS",
@@ -34735,7 +34735,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "3"
+                            "$text": "5"
                           },
                           {
                             "name": "BS",
@@ -37388,7 +37388,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -37482,7 +37482,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -37576,7 +37576,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -37944,7 +37944,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -38386,7 +38386,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -38694,7 +38694,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -38984,7 +38984,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -39281,7 +39281,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -39571,7 +39571,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -44760,7 +44760,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "3"
+                            "$text": "5"
                           },
                           {
                             "name": "BS",
@@ -45095,7 +45095,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "2"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -45359,7 +45359,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "3"
+                            "$text": "5"
                           },
                           {
                             "name": "BS",
@@ -46097,7 +46097,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "3"
+                            "$text": "5"
                           },
                           {
                             "name": "BS",
@@ -46428,7 +46428,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "3"
+                            "$text": "5"
                           },
                           {
                             "name": "BS",
@@ -46681,7 +46681,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "2"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -47865,7 +47865,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "D6+3"
+                        "$text": "2D6+6"
                       },
                       {
                         "name": "BS",
@@ -48066,7 +48066,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "3"
+                            "$text": "5"
                           },
                           {
                             "name": "BS",
@@ -48294,7 +48294,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "D6+3"
+                        "$text": "2D6+6"
                       },
                       {
                         "name": "BS",
@@ -49305,7 +49305,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "3"
+                            "$text": "5"
                           },
                           {
                             "name": "BS",
@@ -50329,7 +50329,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "3"
+                        "$text": "5"
                       },
                       {
                         "name": "BS",
@@ -50523,7 +50523,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "3"
+                            "$text": "5"
                           },
                           {
                             "name": "BS",
@@ -50751,7 +50751,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "3"
+                        "$text": "5"
                       },
                       {
                         "name": "BS",
@@ -51755,7 +51755,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "3"
+                            "$text": "5"
                           },
                           {
                             "name": "BS",
@@ -52342,7 +52342,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "1"
+                            "$text": "2"
                           },
                           {
                             "name": "BS",
@@ -53649,7 +53649,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "2"
+                        "$text": "3"
                       },
                       {
                         "name": "BS",
@@ -53850,7 +53850,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "3"
+                            "$text": "5"
                           },
                           {
                             "name": "BS",
@@ -54071,7 +54071,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "2"
+                        "$text": "3"
                       },
                       {
                         "name": "BS",
@@ -60851,7 +60851,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "12"
+                            "$text": "18"
                           },
                           {
                             "name": "BS",
@@ -73664,7 +73664,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "2"
+                    "$text": "3"
                   },
                   {
                     "name": "BS",
@@ -73767,7 +73767,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D6+3"
+                    "$text": "2D6+3"
                   },
                   {
                     "name": "BS",
@@ -75488,7 +75488,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "2"
+                    "$text": "3"
                   },
                   {
                     "name": "BS",
@@ -75591,7 +75591,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D6+3"
+                    "$text": "2D6+3"
                   },
                   {
                     "name": "BS",
@@ -77104,7 +77104,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "4D6+8"
+                    "$text": "8D6+16"
                   },
                   {
                     "name": "BS",
@@ -77843,7 +77843,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D3+1"
+                    "$text": "D6+1"
                   },
                   {
                     "name": "BS",
@@ -79492,7 +79492,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "4"
+                    "$text": "6"
                   },
                   {
                     "name": "BS",
@@ -79602,7 +79602,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "2D6+4"
+                    "$text": "3D6+6"
                   },
                   {
                     "name": "BS",
@@ -79712,7 +79712,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "24"
+                    "$text": "36"
                   },
                   {
                     "name": "BS",
@@ -80561,7 +80561,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "2"
+                    "$text": "3"
                   },
                   {
                     "name": "BS",
@@ -81412,7 +81412,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D6"
+                    "$text": "D6+2"
                   },
                   {
                     "name": "BS",
@@ -81508,7 +81508,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "12"
+                    "$text": "18"
                   },
                   {
                     "name": "BS",
@@ -82282,7 +82282,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D6"
+                    "$text": "D6+2"
                   },
                   {
                     "name": "BS",
@@ -82481,7 +82481,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "12"
+                        "$text": "18"
                       },
                       {
                         "name": "BS",
@@ -82669,7 +82669,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "2"
+                        "$text": "3"
                       },
                       {
                         "name": "BS",
@@ -82763,7 +82763,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "D6+3"
+                        "$text": "2D6+3"
                       },
                       {
                         "name": "BS",
@@ -83758,7 +83758,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D6+3"
+                    "$text": "2D6+3"
                   },
                   {
                     "name": "BS",
@@ -83861,7 +83861,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "8"
+                    "$text": "12"
                   },
                   {
                     "name": "BS",
@@ -84624,7 +84624,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "4"
+                    "$text": "6"
                   },
                   {
                     "name": "BS",
@@ -88284,7 +88284,7 @@
             "name": "Doomrocket",
             "id": "9b68-b1e4-41b2-3f48",
             "hidden": false,
-            "description": "*Non-EPIC HERO WARLOCK ENGINEER model*\n\nThis model is equipped with a Doomrocket: Range 48\"; Attacks D6+6; BS 4+; S 10; AP -2; D 2; [BLAST 1, HAZARDOUS, INDIRECT FIRE, ONE SHOT, WARPSTONE]."
+            "description": "*Non-EPIC HERO WARLOCK ENGINEER model*\n\nThis model is equipped with a Doomrocket: Range 48\"; Attacks 2D6+7; BS 4+; S 10; AP -2; D 2; [BLAST 1, HAZARDOUS, INDIRECT FIRE, ONE SHOT, WARPSTONE]."
           }
         ],
         "constraints": [
