@@ -49,4 +49,4 @@ _Battle Tactic Stratagem_
 
 **TARGET:** One WEAPON TEAM unit from your army that has not been selected to shoot this phase.
 
-**EFFECT:** Until the end of the phase, each time a model in your unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll.
+**EFFECT:** Until the end of the phase, each time a model in your unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll and to the Ballistic Skill characteristic of that attack's weapon.

@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 46,
+    "revision": 47,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -87177,7 +87177,7 @@
             "name": "Jury-Rigged Stabilizers",
             "id": "c348-3131-bbea-235a",
             "hidden": false,
-            "description": "UNIT ENHANCEMENT - SKAVEN VEHICLE unit only; up to three units can have this Enhancement.\n\nEach time a model in this unit makes a ranged attack in a turn in which this unit made an advance move, you can ignore any or all modifiers to that attack's Hit roll."
+            "description": "UNIT ENHANCEMENT - SKAVEN VEHICLE unit only; up to three units can have this Enhancement.\n\nEach time a model in this unit makes a ranged attack in a turn in which this unit made an advance move, you can ignore any or all modifiers to that attack's Hit roll and to the Ballistic Skill characteristic of that attack's weapon."
           }
         ],
         "modifiers": [
@@ -91625,7 +91625,7 @@
         "name": "Warlock Battery — Lean Into It! / 1 CP",
         "id": "720f-f3d6-b680-7e60",
         "hidden": false,
-        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase.\n\n**Target**<br>One WEAPON TEAM unit from your army that has not been selected to shoot this phase.\n\n**Effect**<br>Until the end of the phase, each time a model in your unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase.\n\n**Target**<br>One WEAPON TEAM unit from your army that has not been selected to shoot this phase.\n\n**Effect**<br>Until the end of the phase, each time a model in your unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll and to the Ballistic Skill characteristic of that attack's weapon."
       },
       {
         "name": "Beast Pens — Prod-Prod Them! / 1 CP",

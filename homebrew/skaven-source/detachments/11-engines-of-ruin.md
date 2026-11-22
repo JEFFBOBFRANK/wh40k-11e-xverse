@@ -23,7 +23,7 @@ Add 2" to this unit's Move characteristic. Each time an advance roll is made for
 
 _UNIT ENHANCEMENT - SKAVEN VEHICLE unit only; up to three units can have this Enhancement._
 
-Each time a model in this unit makes a ranged attack in a turn in which this unit made an advance move, you can ignore any or all modifiers to that attack's Hit roll.
+Each time a model in this unit makes a ranged attack in a turn in which this unit made an advance move, you can ignore any or all modifiers to that attack's Hit roll and to the Ballistic Skill characteristic of that attack's weapon.
 
 ## Engines Stratagems
 
