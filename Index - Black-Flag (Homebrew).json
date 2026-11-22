@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 15,
     "library": true,
-    "revision": 8,
+    "revision": 9,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "categoryEntries": [
@@ -897,7 +897,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -1328,7 +1328,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 85
           },
           {
             "name": "Crusade Points",
@@ -2026,12 +2026,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -2212,7 +2212,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 65
           },
           {
             "name": "Crusade Points",
@@ -2600,12 +2600,12 @@
                       },
                       {
                         "name": "S",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "2229-f494-25db-c5d3"
                       },
                       {
                         "name": "AP",
-                        "$text": "0",
+                        "$text": "-1",
                         "typeId": "9ead-8a10-520-de15"
                       },
                       {
@@ -4976,7 +4976,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -5128,12 +5128,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -5423,7 +5423,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -5556,12 +5556,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -5780,7 +5780,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -5976,12 +5976,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -6070,12 +6070,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -6156,7 +6156,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -6318,7 +6318,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -6412,12 +6412,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -6498,7 +6498,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -6753,12 +6753,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -6839,7 +6839,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -7113,12 +7113,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -7199,7 +7199,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -8161,7 +8161,7 @@
                                   },
                                   {
                                     "name": "S",
-                                    "$text": "4",
+                                    "$text": "5",
                                     "typeId": "ab33-d393-96ce-ccba"
                                   },
                                   {
@@ -8504,12 +8504,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -8590,7 +8590,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -10847,7 +10847,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 125
+            "value": 135
           },
           {
             "name": "Crusade Points",
@@ -11010,7 +11010,7 @@
                   },
                   {
                     "name": "W",
-                    "$text": "2",
+                    "$text": "3",
                     "typeId": "750a-a2ec-90d3-21fe"
                   },
                   {
@@ -11282,7 +11282,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -11892,12 +11892,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -12086,7 +12086,7 @@
                       },
                       {
                         "name": "W",
-                        "$text": "2",
+                        "$text": "3",
                         "typeId": "750a-a2ec-90d3-21fe"
                       },
                       {
@@ -12254,7 +12254,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -12330,7 +12330,7 @@
                       },
                       {
                         "name": "W",
-                        "$text": "2",
+                        "$text": "3",
                         "typeId": "750a-a2ec-90d3-21fe"
                       },
                       {
@@ -12498,7 +12498,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -12573,7 +12573,7 @@
                       },
                       {
                         "name": "W",
-                        "$text": "2",
+                        "$text": "3",
                         "typeId": "750a-a2ec-90d3-21fe"
                       },
                       {
@@ -12810,7 +12810,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -12885,7 +12885,7 @@
                       },
                       {
                         "name": "W",
-                        "$text": "2",
+                        "$text": "3",
                         "typeId": "750a-a2ec-90d3-21fe"
                       },
                       {
@@ -13053,7 +13053,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -13128,7 +13128,7 @@
                       },
                       {
                         "name": "W",
-                        "$text": "2",
+                        "$text": "3",
                         "typeId": "750a-a2ec-90d3-21fe"
                       },
                       {
@@ -13306,7 +13306,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -13455,7 +13455,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 115
           },
           {
             "name": "Crusade Points",
@@ -13496,7 +13496,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 210,
+            "value": 225,
             "conditions": [
               {
                 "childId": "model",
@@ -13819,7 +13819,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -14072,12 +14072,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -14426,12 +14426,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -14512,7 +14512,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -14662,7 +14662,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -15041,12 +15041,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -15273,12 +15273,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -15476,7 +15476,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -15570,12 +15570,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -15962,7 +15962,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -16056,12 +16056,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -16314,7 +16314,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -16408,12 +16408,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -16557,7 +16557,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 120
           },
           {
             "name": "Crusade Points",
@@ -16598,7 +16598,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 210,
+            "value": 220,
             "conditions": [
               {
                 "childId": "model",
@@ -16742,7 +16742,7 @@
                   },
                   {
                     "name": "T",
-                    "$text": "4",
+                    "$text": "5",
                     "typeId": "d29d-cf75-fc2d-34a4"
                   },
                   {
@@ -16947,12 +16947,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -17043,12 +17043,12 @@
                       },
                       {
                         "name": "S",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "2229-f494-25db-c5d3"
                       },
                       {
                         "name": "AP",
-                        "$text": "0",
+                        "$text": "-1",
                         "typeId": "9ead-8a10-520-de15"
                       },
                       {
@@ -17229,7 +17229,7 @@
                       },
                       {
                         "name": "T",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "d29d-cf75-fc2d-34a4"
                       },
                       {
@@ -17332,12 +17332,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -17433,12 +17433,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -17598,7 +17598,7 @@
                           },
                           {
                             "name": "T",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "d29d-cf75-fc2d-34a4"
                           },
                           {
@@ -17809,12 +17809,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -17970,7 +17970,7 @@
                           },
                           {
                             "name": "T",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "d29d-cf75-fc2d-34a4"
                           },
                           {
@@ -18073,12 +18073,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -18174,12 +18174,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -18322,7 +18322,7 @@
                           },
                           {
                             "name": "T",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "d29d-cf75-fc2d-34a4"
                           },
                           {
@@ -18533,12 +18533,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -23231,14 +23231,14 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 80
           }
         ],
         "modifiers": [
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 130,
+            "value": 150,
             "conditions": [
               {
                 "childId": "model",
@@ -23286,7 +23286,7 @@
               },
               {
                 "name": "T",
-                "$text": "5",
+                "$text": "6",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -23395,7 +23395,7 @@
                   },
                   {
                     "name": "T",
-                    "$text": "5",
+                    "$text": "6",
                     "typeId": "d29d-cf75-fc2d-34a4"
                   },
                   {
@@ -23563,7 +23563,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -23655,12 +23655,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -23962,12 +23962,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -24048,7 +24048,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -24253,12 +24253,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -24348,12 +24348,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -24434,7 +24434,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -24558,12 +24558,12 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
                             "name": "AP",
-                            "$text": "0",
+                            "$text": "-1",
                             "typeId": "9ead-8a10-520-de15"
                           },
                           {
@@ -24655,7 +24655,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -24740,7 +24740,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "4",
+                            "$text": "5",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
                           {
@@ -24987,7 +24987,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -25077,12 +25077,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -25172,7 +25172,7 @@
                                   },
                                   {
                                     "name": "S",
-                                    "$text": "4",
+                                    "$text": "5",
                                     "typeId": "ab33-d393-96ce-ccba"
                                   },
                                   {
@@ -25264,12 +25264,12 @@
                                   },
                                   {
                                     "name": "S",
-                                    "$text": "4",
+                                    "$text": "5",
                                     "typeId": "2229-f494-25db-c5d3"
                                   },
                                   {
                                     "name": "AP",
-                                    "$text": "0",
+                                    "$text": "-1",
                                     "typeId": "9ead-8a10-520-de15"
                                   },
                                   {
@@ -25389,7 +25389,7 @@
                                   },
                                   {
                                     "name": "S",
-                                    "$text": "4",
+                                    "$text": "5",
                                     "typeId": "ab33-d393-96ce-ccba"
                                   },
                                   {
@@ -25481,12 +25481,12 @@
                                   },
                                   {
                                     "name": "S",
-                                    "$text": "4",
+                                    "$text": "5",
                                     "typeId": "2229-f494-25db-c5d3"
                                   },
                                   {
                                     "name": "AP",
-                                    "$text": "0",
+                                    "$text": "-1",
                                     "typeId": "9ead-8a10-520-de15"
                                   },
                                   {
@@ -25571,7 +25571,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -25661,12 +25661,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -26021,7 +26021,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -26111,12 +26111,12 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "0",
+                                "$text": "-1",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
@@ -26206,7 +26206,7 @@
                                   },
                                   {
                                     "name": "S",
-                                    "$text": "4",
+                                    "$text": "5",
                                     "typeId": "ab33-d393-96ce-ccba"
                                   },
                                   {
@@ -26298,12 +26298,12 @@
                                   },
                                   {
                                     "name": "S",
-                                    "$text": "4",
+                                    "$text": "5",
                                     "typeId": "2229-f494-25db-c5d3"
                                   },
                                   {
                                     "name": "AP",
-                                    "$text": "0",
+                                    "$text": "-1",
                                     "typeId": "9ead-8a10-520-de15"
                                   },
                                   {
@@ -26423,7 +26423,7 @@
                                   },
                                   {
                                     "name": "S",
-                                    "$text": "4",
+                                    "$text": "5",
                                     "typeId": "ab33-d393-96ce-ccba"
                                   },
                                   {
@@ -26515,12 +26515,12 @@
                                   },
                                   {
                                     "name": "S",
-                                    "$text": "4",
+                                    "$text": "5",
                                     "typeId": "2229-f494-25db-c5d3"
                                   },
                                   {
                                     "name": "AP",
-                                    "$text": "0",
+                                    "$text": "-1",
                                     "typeId": "9ead-8a10-520-de15"
                                   },
                                   {
@@ -26605,7 +26605,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "4",
+                                "$text": "5",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {

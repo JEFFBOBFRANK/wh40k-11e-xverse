@@ -32,11 +32,16 @@ DROP = re.compile(r"^(Mark of Chaos|Enhancements|Warlord|Chaos Boons|Weapon Modi
                   r"Dark Destiny|Khorne|Nurgle|Slaanesh|Tzeentch|Chaos Undivided|Dark Pacts)$")
 SCOPES = {"self", "parent", "roster", "force", "unit", "model", "model-or-unit", "ancestor", "root-entry",
           "primary-catalogue", "primary-category", "any", "upgrade"}
-# 11th-edition changes not yet in the repo's CSM catalogue (balance dataslate v1.3: power-armoured
-# Chaos Space Marines are T5; Legionaries 95 / 180 pts, Chaos Lord 95 pts).
-TOUGHNESS = {"Chaos Lord": "5", "Chaos Lord with Jump Pack": "5", "Red Corsairs Reave-Captain": "5",
-             "Legionaries": "5", "Raptors": "5"}
-POINTS = {"Chaos Lord": (95, None), "Legionaries": (95, 180)}
+# 11th-edition values from the IRONBUILT dataset (wh40k-11e, 2026-11-21) that the repo's CSM catalogue lacks.
+STATS = {"Chaos Lord": {"T": "5"}, "Chaos Lord with Jump Pack": {"T": "5"}, "Red Corsairs Reave-Captain": {"T": "5"},
+         "Legionaries": {"T": "5"}, "Raptors": {"T": "5"}, "Red Corsairs Raiders": {"T": "5"},
+         "Havocs": {"W": "3"}, "Chaos Bikers": {"T": "6"}}
+POINTS = {"Chaos Lord": (95, None), "Chaos Lord with Jump Pack": (85, None), "Red Corsairs Reave-Captain": (65, None),
+          "Legionaries": (95, 180), "Havocs": (135, None), "Raptors": (115, 225), "Red Corsairs Raiders": (120, 220),
+          "Chaos Bikers": (80, 150)}
+WEAPONS = {"Bolt pistol": {"S": "5", "AP": "-1"}, "Boltgun": {"S": "5", "AP": "-1"},
+           "Combi-bolter": {"S": "5", "AP": "-1"}, "Close combat weapon": {"S": "5"},
+           "Astartes chainsword": {"S": "5"}, "Astartes chainblade": {"S": "5"}}
 POINTS_TYPE = "51b2-306e-1021-d207"
 # Black-Flag wording kept where the CSM text depends on CSM-only rules.
 BLACK_FLAG_TEXT = {
@@ -214,12 +219,18 @@ class Port:
                 n.get("characteristics", ""))]
             for name in leftovers:
                 print(f"NOTE: {old['name']}: '{name}' mentions Dark Pacts")
-            if old["name"] in TOUGHNESS:
-                for n in walk(unit):
-                    if isinstance(n, dict) and n.get("typeName") == "Unit":
-                        for c in n["characteristics"]:
-                            if c["name"] == "T":
-                                c["$text"] = TOUGHNESS[old["name"]]
+            for n in walk(unit):
+                if not isinstance(n, dict) or "characteristics" not in n:
+                    continue
+                if n.get("typeName") == "Unit":
+                    changes = STATS.get(old["name"], {})
+                elif n.get("typeName", "").endswith("Weapons"):
+                    changes = WEAPONS.get(re.sub(r"^\W+", "", n["name"]).strip(), {})
+                else:
+                    continue
+                for c in n["characteristics"]:
+                    if c["name"] in changes:
+                        c["$text"] = changes[c["name"]]
             if old["name"] in POINTS:
                 base, large = POINTS[old["name"]]
                 for c in unit.get("costs", []):
