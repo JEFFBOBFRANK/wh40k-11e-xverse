@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 53,
+    "revision": 54,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -91199,13 +91199,13 @@
         "name": "Warpstone",
         "id": "7a1a-acc6-a2c5-a984",
         "hidden": false,
-        "description": "\n\nEach time an attack made with this weapon scores a critical wound, improve the AP characteristic of that attack by 2. **Critical wounds scored with this weapon cause Warpstone Backlash (on a 3+, the attacking unit suffers D3 mortal wounds).**"
+        "description": "\n\n- Each time an attack made with this weapon scores a critical hit, add 2 to the S characteristic of that attack.\n- Each time an attack made with this weapon scores a critical wound, improve the AP characteristic of that attack by 2.\n- **Critical hits and critical wounds scored with this weapon cause Warpstone Backlash (on a 3+, the attacking unit suffers D3 mortal wounds).**"
       },
       {
         "name": "Warpstone Backlash",
         "id": "770e-a39d-7aa8-8f21",
         "hidden": false,
-        "description": "\n\nEach time a unit shoots or fights, just after it has resolved its attacks, if one or more of its [WARPSTONE] attacks scored a critical wound, it must take one Warpstone Backlash test: roll one D6. On a 3+, that unit suffers D3 mortal wounds."
+        "description": "\n\nEach time a unit shoots or fights, just after it has resolved its attacks, it must take one Warpstone Backlash test if one or more of its [WARPSTONE] attacks scored a critical hit, and one more Warpstone Backlash test if one or more of its [WARPSTONE] attacks scored a critical wound (at most two tests each time it shoots or fights). For each test, roll one D6: on a 3+, that unit suffers D3 mortal wounds."
       },
       {
         "name": "Sacrifice",
