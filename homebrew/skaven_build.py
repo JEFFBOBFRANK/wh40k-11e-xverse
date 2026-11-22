@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 34
+REVISION = 35
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -41,10 +41,10 @@ ARMY_RULE_ORDER = ["The Vermintide", "The Under-Empire", "Scurry Away!", "Warpst
 CLAN_UNIQUE = {"Skryre Worship", "Moulder Flesh Laboratory", "Shadowy Dealings", "Cauldron of Pestilence",
                "Clawpack Horde", "Clan Skurvy", "Council of Treachery"}
 DETACHMENTS = {  # DP and Force Dispositions from the handoff
-    "Skryre Worship": (2, ["Priority Assets", "Purge the Foe"]),
-    "Moulder Flesh Laboratory": (2, ["Purge the Foe", "Take and Hold"]),
+    "Skryre Worship": (2, ["Purge the Foe"]),
+    "Moulder Flesh Laboratory": (2, ["Purge the Foe"]),
     "Shadowy Dealings": (2, ["Disruption"]),
-    "Cauldron of Pestilence": (2, ["Take and Hold", "Disruption"]),
+    "Cauldron of Pestilence": (2, ["Disruption"]),
     "Clawpack Horde": (2, ["Take and Hold"]),
     "Invasion of the Under-Empire": (3, ["Reconnaissance", "Disruption"]),
     "The Dreaded 13th Bell": (1, ["Priority Assets"]),

@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 34,
+    "revision": 35,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -682,13 +682,6 @@
                 ],
                 "categoryLinks": [
                   {
-                    "name": "Priority Assets",
-                    "id": "0ac2-b2e2-f2e9-4bf2",
-                    "targetId": "0936-9767-1cc7-52ae",
-                    "primary": false,
-                    "hidden": false
-                  },
-                  {
                     "name": "Purge the Foe",
                     "id": "5ff1-0a42-f7a3-61c6",
                     "targetId": "6fe0-3dbe-f7e0-10bb",
@@ -919,13 +912,6 @@
                     "name": "Purge the Foe",
                     "id": "ef30-0567-e5ea-5288",
                     "targetId": "6fe0-3dbe-f7e0-10bb",
-                    "primary": false,
-                    "hidden": false
-                  },
-                  {
-                    "name": "Take and Hold",
-                    "id": "a880-5b2e-c6be-a674",
-                    "targetId": "1cc1-f11a-4e8f-1bcc",
                     "primary": false,
                     "hidden": false
                   },
@@ -1368,13 +1354,6 @@
                   }
                 ],
                 "categoryLinks": [
-                  {
-                    "name": "Take and Hold",
-                    "id": "c829-0a48-b965-196a",
-                    "targetId": "1cc1-f11a-4e8f-1bcc",
-                    "primary": false,
-                    "hidden": false
-                  },
                   {
                     "name": "Disruption",
                     "id": "d09b-4388-e7aa-4e67",
