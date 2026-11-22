@@ -32,6 +32,12 @@ DROP = re.compile(r"^(Mark of Chaos|Enhancements|Warlord|Chaos Boons|Weapon Modi
                   r"Dark Destiny|Khorne|Nurgle|Slaanesh|Tzeentch|Chaos Undivided|Dark Pacts)$")
 SCOPES = {"self", "parent", "roster", "force", "unit", "model", "model-or-unit", "ancestor", "root-entry",
           "primary-catalogue", "primary-category", "any", "upgrade"}
+# 11th-edition changes not yet in the repo's CSM catalogue (balance dataslate v1.3: power-armoured
+# Chaos Space Marines are T5; Legionaries 95 / 180 pts, Chaos Lord 95 pts).
+TOUGHNESS = {"Chaos Lord": "5", "Chaos Lord with Jump Pack": "5", "Red Corsairs Reave-Captain": "5",
+             "Legionaries": "5", "Raptors": "5"}
+POINTS = {"Chaos Lord": (95, None), "Legionaries": (95, 180)}
+POINTS_TYPE = "51b2-306e-1021-d207"
 # Black-Flag wording kept where the CSM text depends on CSM-only rules.
 BLACK_FLAG_TEXT = {
     "Chaos icon": "Each time the bearer's unit takes a Battle-shock test, you can re-roll that test.",
@@ -208,6 +214,20 @@ class Port:
                 n.get("characteristics", ""))]
             for name in leftovers:
                 print(f"NOTE: {old['name']}: '{name}' mentions Dark Pacts")
+            if old["name"] in TOUGHNESS:
+                for n in walk(unit):
+                    if isinstance(n, dict) and n.get("typeName") == "Unit":
+                        for c in n["characteristics"]:
+                            if c["name"] == "T":
+                                c["$text"] = TOUGHNESS[old["name"]]
+            if old["name"] in POINTS:
+                base, large = POINTS[old["name"]]
+                for c in unit.get("costs", []):
+                    if c["typeId"] == POINTS_TYPE:
+                        c["value"] = base
+                for m in unit.get("modifiers", []):
+                    if large and m.get("field") == POINTS_TYPE and m["type"] == "set":
+                        m["value"] = large
             shared[i] = unit
         return self.index
 

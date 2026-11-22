@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 15,
     "library": true,
-    "revision": 7,
+    "revision": 8,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "categoryEntries": [
@@ -527,7 +527,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 95
           }
         ],
         "infoLinks": [
@@ -587,7 +587,7 @@
               },
               {
                 "name": "T",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -1416,7 +1416,7 @@
               },
               {
                 "name": "T",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -2300,7 +2300,7 @@
               },
               {
                 "name": "T",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -4701,14 +4701,14 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 95
           }
         ],
         "modifiers": [
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 170,
+            "value": 180,
             "conditions": [
               {
                 "childId": "model",
@@ -4812,7 +4812,7 @@
                   },
                   {
                     "name": "T",
-                    "$text": "4",
+                    "$text": "5",
                     "typeId": "d29d-cf75-fc2d-34a4"
                   },
                   {
@@ -6194,7 +6194,7 @@
                       },
                       {
                         "name": "T",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "d29d-cf75-fc2d-34a4"
                       },
                       {
@@ -6536,7 +6536,7 @@
                       },
                       {
                         "name": "T",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "d29d-cf75-fc2d-34a4"
                       },
                       {
@@ -6877,7 +6877,7 @@
                       },
                       {
                         "name": "T",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "d29d-cf75-fc2d-34a4"
                       },
                       {
@@ -7237,7 +7237,7 @@
                       },
                       {
                         "name": "T",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "d29d-cf75-fc2d-34a4"
                       },
                       {
@@ -8628,7 +8628,7 @@
                       },
                       {
                         "name": "T",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "d29d-cf75-fc2d-34a4"
                       },
                       {
@@ -13584,7 +13584,7 @@
               },
               {
                 "name": "T",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -13698,7 +13698,7 @@
                   },
                   {
                     "name": "T",
-                    "$text": "4",
+                    "$text": "5",
                     "typeId": "d29d-cf75-fc2d-34a4"
                   },
                   {
