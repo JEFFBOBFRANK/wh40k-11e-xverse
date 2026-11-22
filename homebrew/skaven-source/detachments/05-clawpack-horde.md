@@ -2,8 +2,8 @@
 
 ## Yes-Yes, Warlord!
 
-- Each friendly **VERMINUS CHARACTER** can issue 1 Warlord Command per battle round. **EPIC HERO** models and a Warlord on a Gnaw-beast can issue 2 instead, to different units.
-- Issue a Warlord Command at the start of any phase, to one friendly **CLANRATS** or **STORMVERMIN** unit within 8" of that **CHARACTER** that is not battle-shocked.
+- Each friendly VERMINUS CHARACTER can issue 1 Warlord Command per battle round. EPIC HERO models and a Warlord on a Gnaw-beast can issue 2 instead, to different units.
+- Issue a Warlord Command at the start of any phase, to one friendly CLANRATS or STORMVERMIN unit within 8" of that CHARACTER that is not battle-shocked.
 - That Warlord Command lasts until the end of the turn. A unit can only be affected by one Warlord Command at a time.
 
 ## Warlord Commands
@@ -30,11 +30,11 @@ Each time a ranged attack is allocated to a model in this unit, that model has t
 
 ## Ranks Upon Ranks
 
-While a friendly **CLANRATS** unit contains 10 or more models, improve its Leadership characteristic by 1 and add 1 to Hit rolls for melee attacks made by models in that unit. While it contains 20 or more models, also add 1 to the Objective Control characteristic of its models.
+While a friendly CLANRATS unit contains 10 or more models, improve its Leadership characteristic by 1 and add 1 to Hit rolls for melee attacks made by models in that unit. While it contains 20 or more models, also add 1 to the Objective Control characteristic of its models.
 
 ## No Run-Run! Fight-Fight!
 
-Once per battle round, when a friendly **VERMINUS** unit within 8" of a friendly **VERMINUS CHARACTER** fails a battle-shock roll, you can Sacrifice D3 models from that unit. If you do, that battle-shock roll is treated as having been passed, and until the end of the turn, add 1 to Hit rolls for melee attacks made by models in that unit.
+Once per battle round, when a friendly VERMINUS unit within 8" of a friendly VERMINUS CHARACTER fails a battle-shock roll, you can Sacrifice D3 models from that unit. If you do, that battle-shock roll is treated as having been passed, and until the end of the turn, add 1 to Hit rolls for melee attacks made by models in that unit.
 
 ## Verminus Enhancements
 

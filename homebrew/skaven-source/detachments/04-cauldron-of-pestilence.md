@@ -2,51 +2,51 @@
 
 ## Brewing the Plague
 
-At the start of your Command phase, you can brew one Plague. Select one Plague from the Plague Catalogue and pay its listed Vermin cost. Until the start of your next Command phase, that Plague is active and modifies the Pestilence auras of friendly **PESTILENS** units. You cannot brew the same Plague in consecutive battle rounds.
+At the start of your Command phase, you can brew one Plague. Select one Plague from the Plague Catalogue and pay its listed Vermin cost. Until the start of your next Command phase, that Plague is active and modifies the Pestilence auras of friendly PESTILENS units. You cannot brew the same Plague in consecutive battle rounds.
 
 ## Filth-Filth Carriers
 
-At the start of the first battle round, before any Scout moves are made, select up to 3 **CLANRATS** units from your army. Those units gain the **PESTILENS** keyword and the following ability until the end of the battle. **Plague Carrier:** This unit has a 3" Pestilence aura that carries the currently brewed Plague, but this unit does not gain the normal Pestilence ability. The brewed Plague also affects this unit as though it were an enemy unit within range of a friendly Pestilence aura.
+When mustering your army, select up to 3 CLANRATS units from your army. Those units gain the PESTILENS keyword and the following ability. **Plague Carrier:** This unit has a 3" Pestilence aura that carries the currently brewed Plague, but this unit does not gain the normal Pestilence ability. The brewed Plague also affects this unit as though it were an enemy unit within range of a friendly Pestilence aura.
 
 ## Infection
 
-Each time an enemy unit is selected as the target of one or more attacks made by a friendly **PESTILENS** unit, after the attacking unit has finished making those attacks, if that enemy unit lost one or more wounds, roll one D6. On a 4+, that enemy unit suffers D3 mortal wounds and becomes **INFECTED** until the start of your next Command phase. While a unit is INFECTED, the brewed Plague affects it as though it were within range of a friendly Pestilence aura. Each enemy unit can only be rolled for once per phase.
+Each time an enemy unit is selected as the target of one or more attacks made by a friendly PESTILENS unit, after the attacking unit has finished making those attacks, if that enemy unit lost one or more wounds, roll one D6. On a 4+, that enemy unit suffers D3 mortal wounds and becomes INFECTED until the start of your next Command phase. While a unit is INFECTED, the brewed Plague affects it as though it were within range of a friendly Pestilence aura. Each enemy unit can only be rolled for once per phase.
 
 ## The Plague Catalogue
 
 _Brew one Plague at the start of your Command phase by paying its Vermin cost. "Pestilence range" means within range of a friendly Pestilence aura._
 
-### THE WEEPING POX  [2 VERMIN]
+### THE WEEPING POX (2 VERMIN)
 
 _Lesser Contagion_
 
 While an enemy unit is within Pestilence range, worsen its Leadership characteristic by 1, and battle-shock rolls taken for that unit cannot be re-rolled.
 
-### THE RED DEATH  [3 VERMIN]
+### THE RED DEATH (3 VERMIN)
 
 _Virulent Brew_
 
 Each time a model in a PESTILENS unit makes a melee attack that targets an enemy unit within Pestilence range, an unmodified Wound roll of 5+ scores a critical wound.
 
-### THE CRAWLING AGUE  [3 VERMIN]
+### THE CRAWLING AGUE (3 VERMIN)
 
 _Virulent Brew_
 
 Enemy units within Pestilence range subtract 2" from their Move characteristic, subtract 2 from advance rolls and subtract 2 from charge rolls. Multiple instances do not stack.
 
-### THE BLACK ROT  [4 VERMIN]
+### THE BLACK ROT (4 VERMIN)
 
 _Grand Plague_
 
 Each time an enemy unit ends a normal, advance, fall-back or charge move while within Pestilence range, roll one D6. On a 4+, it suffers D3 mortal wounds. A unit can only suffer these mortal wounds once per phase.
 
-### THE WITHERING SICKNESS  [4 VERMIN]
+### THE WITHERING SICKNESS (4 VERMIN)
 
 _Grand Plague_
 
 While an enemy unit is within Pestilence range, subtract 1 from the Strength characteristic of its melee weapons. If that enemy unit is Below Half-strength, also worsen the Armour Penetration characteristic of its melee weapons by 1.
 
-### NURGLITCH'S GIFT  [7 VERMIN]
+### NURGLITCH'S GIFT (7 VERMIN)
 
 _Master's Concoction_
 

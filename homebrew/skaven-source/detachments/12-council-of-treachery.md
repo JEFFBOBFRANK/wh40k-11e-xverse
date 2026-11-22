@@ -2,56 +2,44 @@
 
 ## The Council of Thirteen
 
-- **Seats:** when mustering your army, each friendly **SKAVEN CHARACTER** with a Clan keyword can hold that Clan's Seat: **VERMINUS**, **SKRYRE**, **MOULDER**, **ESHIN**, **PESTILENS** or **MASTERCLAN**. Each Seat can have one holder, and each **CHARACTER** can hold one Seat.
-- **Power of the Seat:** while a Seat-holder is on the battlefield, friendly units with that Seat's Clan keyword have that Seat's benefit.
-- **Seize the Seat:** when a Seat-holder is destroyed, its Seat becomes Vacant. At the start of your Command phase, one friendly **SKAVEN CHARACTER** can claim one Vacant Seat. While it holds that Seat, its unit and friendly units with that Seat's Clan keyword within 6" of it have that Seat's benefit.
-- **Knife in the Dark:** once per battle, at the start of your Command phase, one friendly **SKAVEN CHARACTER** within 3" of another friendly Seat-holder can betray it. That Seat-holder suffers D3+1 mortal wounds. If it is destroyed, the betrayer claims its Seat immediately, even if it already holds a Seat, and you gain D3 Vermin.
+- **Seats:** when mustering your army, each friendly SKAVEN CHARACTER with a Clan keyword can hold that Clan's Seat: VERMINUS, SKRYRE, MOULDER, ESHIN, PESTILENS or MASTERCLAN. Each Seat has one holder, and each CHARACTER holds at most one Seat unless a rule says otherwise.
+- **Power of the Seat:** while a Seat's holder is on the battlefield, friendly units with that Seat's Clan keyword, and the holder's own unit, have that Seat's benefit.
+- **Seize the Seat:** when a Seat's holder is destroyed, that Seat becomes Vacant. At the start of your Command phase, one friendly SKAVEN CHARACTER can claim one Vacant Seat and becomes its holder.
+- **Knife in the Dark:** once per battle, at the start of your Command phase, one friendly SKAVEN CHARACTER within 3" of another friendly Seat-holder can betray it. That Seat-holder suffers D3+1 mortal wounds. If it is destroyed, the betrayer becomes the holder of its Seat immediately, even if it already holds a Seat, and you gain D3 Vermin.
 
 ## Council Seats
 
 ### VERMINUS SEAT
 
-_Seat_
-
 Add 1 to the Objective Control characteristic of models in this unit.
 
 ### SKRYRE SEAT
-
-_Seat_
 
 You can re-roll Warpstone Backlash tests taken for this unit.
 
 ### MOULDER SEAT
 
-_Seat_
-
 Models in this unit have the Feel No Pain 6+ ability.
 
 ### ESHIN SEAT
-
-_Seat_
 
 This unit has the Stealth ability.
 
 ### PESTILENS SEAT
 
-_Seat_
-
 Each time a model in this unit makes a melee attack, add 1 to the Wound roll.
 
 ### MASTERCLAN SEAT
-
-_Seat_
 
 Each time a PSYKER in this unit makes a psychic roll, add 1 to the result.
 
 ## Council Levies
 
-When mustering your army, each **CLANRATS** unit can swear to one Clan that has a Seat-holder in your army. That unit gains that Clan's keyword, and has that Seat's benefit while that Seat is held, even by a betrayer.
+When mustering your army, each CLANRATS unit can swear to one Clan whose Seat is held in your army. That unit gains that Clan's keyword, so it has that Seat's benefit while that Seat has a holder.
 
 ## Ambition Unchecked
 
-Each time a friendly **SKAVEN CHARACTER**'s unit loses one or more models, until the end of your next turn, add 1 to Hit rolls for attacks made by models in that unit.
+Each time a friendly SKAVEN CHARACTER's unit loses one or more models, until the end of your next turn, add 1 to Hit rolls for attacks made by models in that unit.
 
 ## Council Enhancements
 

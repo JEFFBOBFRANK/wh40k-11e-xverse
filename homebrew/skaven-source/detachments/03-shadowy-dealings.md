@@ -14,74 +14,58 @@ At the start of your Command phase, you can reveal one unrevealed Scheme. Once r
 
 Each Scheme can only be completed once. You can complete a maximum of 4 Schemes during the battle. When a Scheme is completed, resolve its Payment immediately.
 
-| SELECT | REVEAL | COMPLETE |
-| 4 Schemes | 1 per Command phase | Maximum 4 |
 
 ## Black Contracts
 
-At the start of the first battle round, before any Scout moves are made, select up to 3 **CLANRATS** units from your army. Those units gain the **ESHIN** keyword and the following ability until the end of the battle. **Paid Informants:** This unit has the Scouts 6" and Stealth abilities.
+When mustering your army, select up to 3 CLANRATS units from your army. Those units gain the ESHIN keyword and the following ability. **Paid Informants:** This unit has the Scouts 6" and Stealth abilities.
 
 ## Death From the Shadows
 
-Each time an **ESHIN** model from your army makes an attack that targets an enemy unit selected for one of your revealed Schemes, add 1 to the Hit roll.
+Each time an ESHIN model from your army makes an attack that targets an enemy unit selected for one of your revealed Schemes, add 1 to the Hit roll.
 
 ## The Hidden Ledger
 
 ### KILL-KILL THE HEAD
 
-**REVEAL:** Select one enemy CHARACTER model.
-
-**COMPLETION:** That model is destroyed by an ESHIN unit.
-
-**PAYMENT:** Gain D3+1 Vermin and 1CP.
+**Reveal**: Select one enemy CHARACTER model.  
+**Complete**: That model is destroyed by an ESHIN unit.  
+**Payment**: Gain D3+1 Vermin and 1CP.
 
 ### BURN-BURN THEIR TOYS
 
-**REVEAL:** Select one enemy VEHICLE or MONSTER unit.
-
-**COMPLETION:** An ESHIN unit causes that unit to become Below Half-strength or destroys it.
-
-**PAYMENT:** Gain D3+1 Vermin. Until the end of the battle, each time an ESHIN model makes an attack that targets an enemy VEHICLE or MONSTER unit, add 1 to the Wound roll.
+**Reveal**: Select one enemy VEHICLE or MONSTER unit.  
+**Complete**: An ESHIN unit causes that unit to become Below Half-strength or destroys it.  
+**Payment**: Gain D3+1 Vermin. Until the end of the battle, each time an ESHIN model makes an attack that targets an enemy VEHICLE or MONSTER unit, add 1 to the Wound roll.
 
 ### STEAL-STEAL THE SECRETS
 
-**REVEAL:** Select one objective in No Man's Land or your opponent's deployment zone.
-
-**COMPLETION:** At the end of your turn, you control that objective and one or more ESHIN INFANTRY units are within range of it.
-
-**PAYMENT:** Gain D3+1 Vermin. One ESHIN unit within range of that objective can immediately enter the Under-Empire without requiring a Gnawhole.
+**Reveal**: Select one objective in No Man's Land or your opponent's deployment zone.  
+**Complete**: At the end of your turn, you control that objective and one or more ESHIN INFANTRY units are within range of it.  
+**Payment**: Gain D3+1 Vermin. One ESHIN unit within range of that objective can immediately enter the Under-Empire without requiring a Gnawhole.
 
 ### CUT-CUT THE SUPPLY
 
-**REVEAL:** Select one enemy non-CHARACTER unit.
-
-**COMPLETION:** An ESHIN unit causes that enemy unit to lose one or more wounds during your Shooting phase or the Fight phase.
-
-**PAYMENT:** Gain D3 Vermin. Until the start of your next Command phase, subtract 2" from that enemy unit's Move characteristic, it cannot make advance moves, and it cannot be removed from the battlefield and set up again by an ability.
+**Reveal**: Select one enemy non-CHARACTER unit.  
+**Complete**: An ESHIN unit causes that enemy unit to lose one or more wounds during your Shooting phase or the Fight phase.  
+**Payment**: Gain D3 Vermin. Until the start of your next Command phase, subtract 2" from that enemy unit's Move characteristic, it cannot make advance moves, and it cannot be removed from the battlefield and set up again by an ability.
 
 ### NOTHING-NOTHING WAS HERE
 
-**REVEAL:** Select one ESHIN unit.
-
-**COMPLETION:** That unit ends your turn wholly within your opponent's deployment zone and is not engaged.
-
-**PAYMENT:** That unit can immediately enter the Under-Empire without requiring a Gnawhole. Gain D3 Vermin.
+**Reveal**: Select one ESHIN unit.  
+**Complete**: That unit ends your turn wholly within your opponent's deployment zone and is not engaged.  
+**Payment**: That unit can immediately enter the Under-Empire without requiring a Gnawhole. Gain D3 Vermin.
 
 ### SILENCE THE WITNESSES
 
-**REVEAL:** Select one enemy INFANTRY unit.
-
-**COMPLETION:** That unit is destroyed by one or more ESHIN units.
-
-**PAYMENT:** Gain D3 Vermin. Select one ESHIN INFANTRY unit from your army that made one or more attacks against that enemy unit during the phase in which it was destroyed. That unit can immediately make a normal move of up to 6". Until the start of your next Command phase, that unit cannot be selected as the target of a ranged attack unless the attacking model is within 6".
+**Reveal**: Select one enemy INFANTRY unit.  
+**Complete**: That unit is destroyed by one or more ESHIN units.  
+**Payment**: Gain D3 Vermin. Select one ESHIN INFANTRY unit from your army that made one or more attacks against that enemy unit during the phase in which it was destroyed. That unit can immediately make a normal move of up to 6". Until the start of your next Command phase, that unit cannot be selected as the target of a ranged attack unless the attacking model is within 6".
 
 ### SABOTAGE-SABOTAGE!
 
-**REVEAL:** Select one objective in No Man's Land or your opponent's deployment zone.
-
-**COMPLETION:** At the end of your turn, you control that objective, one or more ESHIN INFANTRY units are within range of it, and at least one such unit is not engaged.
-
-**PAYMENT:** Gain D3 Vermin. That objective becomes Sabotaged until the start of your next Command phase. While Sabotaged, enemy models within range of it have an Objective Control characteristic of 0, and each time an enemy unit ends a normal, advance, fall-back or charge move within range of it, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds.
+**Reveal**: Select one objective in No Man's Land or your opponent's deployment zone.  
+**Complete**: At the end of your turn, you control that objective, one or more ESHIN INFANTRY units are within range of it, and at least one such unit is not engaged.  
+**Payment**: Gain D3 Vermin. That objective becomes Sabotaged until the start of your next Command phase. While Sabotaged, enemy models within range of it have an Objective Control characteristic of 0, and each time an enemy unit ends a normal, advance, fall-back or charge move within range of it, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds.
 
 ## Eshin Enhancements
 

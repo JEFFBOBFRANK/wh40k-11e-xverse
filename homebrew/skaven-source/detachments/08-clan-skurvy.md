@@ -2,63 +2,62 @@
 
 ## Plunder and Profit
 
-### PIRATE'S HOARD
+- **Pirate's Hoard:** while your army includes this Detachment, your Vermin pool can contain up to 20 Vermin instead of 13.
+- **Spoils of Battle:** each time a SKURVY unit from your army destroys an enemy unit, gain 2 Vermin, in addition to Feed the Swarm.
+- **Plundering Objectives:** in your Movement phase, just after a SKURVY unit from your army ends a normal move, if it is not battle-shocked, it can Plunder one objective within range that your army has not Plundered this turn. If it does, gain 3 Vermin, and that unit cannot declare a charge this turn.
+- **Spending Plunder:** at the end of your Command phase, each SKURVY unit from your army that is on the battlefield and is not battle-shocked can buy one option from the Plunder Ledger by spending its cost in Vermin. It lasts until the start of your next Command phase, and a unit can have at most two different options active. Plunder Ledger purchases are not Vermin Abilities: no RATTLETRAP surcharge applies, and Thirteen for the Horned Rat cannot pay for them.
 
-While your army includes this Detachment, your Vermin pool can contain up to 20 Vermin instead of 13.
-
-### SPOILS OF BATTLE
-
-Each time a SKURVY unit from your army destroys an enemy unit, gain 2 Vermin. This is in addition to Feed the Swarm.
-
-### PLUNDERING OBJECTIVES
-
-In your Movement phase, just after a SKURVY unit from your army ends a normal move, if it is not battle-shocked, it can Plunder one objective within range that has not been Plundered by your army this turn. If it does, gain 3 Vermin, and that unit cannot declare a charge this turn.
-
-### SPENDING PLUNDER
-
-At the end of your Command phase, each SKURVY unit from your army that is on the battlefield and is not battle-shocked can purchase one option from the Plunder Ledger by spending its listed cost in Vermin. Plunder Ledger purchases are not Vermin Abilities: no RATTLETRAP surcharge applies, and Thirteen for the Horned Rat cannot pay for them. Unless otherwise stated, that option lasts until the start of your next Command phase. A unit can have no more than two different Plunder options active at the same time.
-
-### BLACK-FLAG CLANRATS
+## Black-Flag Clanrats
 
 CLANRATS units from your army gain the SKURVY keyword and the following ability.
 
 **Claim-Claim the Prize!:** At the end of your Movement phase, if this unit is within range of an objective you control, that objective remains under your control until your opponent's Level of Control over it is greater than yours at the end of a phase.
 
-### BLACK-FLAG MERCENARIES
+## Vengeful Crew
+
+Each time a friendly SKURVY unit loses one or more models, until the end of your next turn, add 1 to Hit rolls for attacks made by models in that unit.
+
+## Black-Flag Mercenaries
 
 When mustering your army, you can include units from Index: Black-Flag. Their combined points value cannot exceed half of your army's points limit. Each unit included this way gains the SKURVY keyword.
 
-## Vengeful Crew
-
-Each time a friendly **SKURVY** unit loses one or more models, until the end of your next turn, add 1 to Hit rolls for attacks made by models in that unit.
-
 ## The Plunder Ledger
 
-### QUICK-QUICK LOOT  [1 VERMIN]
+### STOLEN AMMO (1 VERMIN)
 
-**Stolen Ammo:** Ranged weapons equipped by models in this unit have [IGNORES COVER].
+Ranged weapons equipped by models in this unit have [IGNORES COVER].
 
-**Extra-Extra Dakka!:** Ranged weapons equipped by models in this unit have [SUSTAINED HITS 1].
+### EXTRA-EXTRA DAKKA! (1 VERMIN)
 
-**Grav-Hooks and Boosters:** Add 2" to this unit's Move characteristic. This unit is eligible to shoot in a turn in which it made an advance move.
+Ranged weapons equipped by models in this unit have [SUSTAINED HITS 1].
 
-### PRIZED SPOILS  [2 VERMIN]
+### GRAV-HOOKS AND BOOSTERS (1 VERMIN)
 
-**Shiny-Shiny Shields!:** Models in this unit have a 5+ invulnerable save. If they already have an invulnerable save, improve it by 1, to a maximum of 4+.
+Add 2" to this unit's Move characteristic. This unit is eligible to shoot in a turn in which it made an advance move.
 
-**Targeting Gubbins:** Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1, to a maximum of 2+.
+### SHINY-SHINY SHIELDS! (2 VERMIN)
 
-**Stolen Combat Drugs:** Add 1 to the Attacks characteristic of melee weapons equipped by models in this unit, excluding weapons with [EXTRA ATTACKS]. Add 1 to advance and charge rolls made for this unit.
+Models in this unit have a 5+ invulnerable save. If they already have an invulnerable save, improve it by 1, to a maximum of 4+.
 
-### THE GOOD-GOOD STUFF  [3 VERMIN]
+### TARGETING GUBBINS (2 VERMIN)
 
-**Warp-Charged Munitions:** Improve the Armour Penetration characteristic of ranged weapons equipped by models in this unit by 1. Those weapons have [WARPSTONE].
+Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1, to a maximum of 2+.
 
-**The Really Good Stuff:** Select two different 1-Vermin options. This unit gains both.
+### STOLEN COMBAT DRUGS (2 VERMIN)
 
-### THE CAPTAIN'S SHARE  [4 VERMIN]
+Add 1 to the Attacks characteristic of melee weapons equipped by models in this unit, excluding weapons with [EXTRA ATTACKS]. Add 1 to advance and charge rolls made for this unit.
 
-**Aeldari Grav-Drives:** Add 3" to this unit's Move characteristic. This unit is eligible to shoot and declare a charge in a turn in which it made an advance or fall-back move.
+### WARP-CHARGED MUNITIONS (3 VERMIN)
+
+Improve the Armour Penetration characteristic of ranged weapons equipped by models in this unit by 1. Those weapons have [WARPSTONE].
+
+### THE REALLY GOOD STUFF (3 VERMIN)
+
+This unit gains two different 1-Vermin options.
+
+### AELDARI GRAV-DRIVES (4 VERMIN)
+
+Add 3" to this unit's Move characteristic. This unit is eligible to shoot and declare a charge in a turn in which it made an advance or fall-back move.
 
 ## Skurvy Enhancements
 
@@ -74,19 +73,19 @@ Once per Command phase, when the bearer's unit or a friendly SKURVY unit within 
 
 _SKURVY CHARACTER model only._
 
-Add the following option to the Plunder Ledger for the bearer's unit: 3 Vermin - Bloody Boarding: Until the start of your next Command phase, improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1 and those weapons have [SUSTAINED HITS 1].
+The bearer's unit can also buy this Plunder Ledger option. **Bloody Boarding (3 Vermin):** Improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1 and those weapons have [SUSTAINED HITS 1].
 
 ### MASTER GUNNER  [15 pts]
 
 _SKURVY CHARACTER model only._
 
-Add the following option to the Plunder Ledger for the bearer's unit: 2 Vermin - Loaded for Bear: Until the start of your next Command phase, ranged weapons equipped by models in this unit have [LETHAL HITS].
+The bearer's unit can also buy this Plunder Ledger option. **Loaded for Bear (2 Vermin):** Ranged weapons equipped by models in this unit have [LETHAL HITS].
 
 ### MASTER HELMSMAN  [20 pts]
 
 _SKURVY CHARACTER model only._
 
-Add the following option to the Plunder Ledger for the bearer's unit: 3 Vermin - Hit-and-Run Rigging: Until the start of your next Command phase, after this unit has shot, if it is not engaged, it can make a normal move of up to 6". If it does, it cannot declare a charge this turn.
+The bearer's unit can also buy this Plunder Ledger option. **Hit-and-Run Rigging (3 Vermin):** After this unit has shot, if it is not engaged, it can make a normal move of up to 6". If it does, it cannot declare a charge this turn.
 
 _Upgrade Enhancements_
 

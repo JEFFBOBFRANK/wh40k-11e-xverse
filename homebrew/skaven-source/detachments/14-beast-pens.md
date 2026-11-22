@@ -2,8 +2,8 @@
 
 ## Let Them Loose!
 
-- Friendly **RAT OGORS** and **WOLF RATS** units have the **BATTLELINE** keyword, and add 1 to the Objective Control characteristic of models in those units.
-- In a turn in which a friendly **MOULDER BEAST** unit made a charge move, melee weapons equipped by models in that unit have **[LANCE]**.
+- Friendly RAT OGORS and WOLF RATS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.
+- In a turn in which a friendly MOULDER BEAST unit made a charge move, melee weapons equipped by models in that unit have [LANCE].
 
 ## Enhancements
 

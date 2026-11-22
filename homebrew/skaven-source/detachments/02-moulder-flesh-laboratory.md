@@ -2,71 +2,59 @@
 
 ## Flesh-Sculpting
 
-- When mustering your army, give 1 Mutation to each of up to 3 units (Incursion), 6 units (Strike Force) or 9 units (Onslaught). Each must be a **MOULDER BEAST** or **MOULDER MONSTER** unit.
+- When mustering your army, give 1 Mutation to each of up to 3 units (Incursion), 6 units (Strike Force) or 9 units (Onslaught). Each must be a MOULDER BEAST or MOULDER MONSTER unit.
 - A unit with a Mutation can also take 1 Ruinous Defect. If it does, it takes a second, different Mutation.
-- A unit cannot take a Mutation and the Ruinous Defect that changes the same characteristic. Bloated Mass and Withered Frame are for **MONSTER** units only.
+- A unit cannot take a Mutation and the Ruinous Defect that changes the same characteristic. Bloated Mass and Withered Frame are for MONSTER units only. A Defect is taken only to gain a second Mutation.
 - Mutations and Ruinous Defects are not Enhancements.
 
 ## Make-Make New Ones!
 
-- Your **They Just Keep Coming!** Vermin Ability can also target a destroyed non-**CHARACTER** **MOULDER BEAST** or **MOULDER MONSTER** unit. For a **MONSTER** unit, double the Vermin cost; if you use Thirteen for the Horned Rat instead, Sacrifice 26 models.
-- The new unit keeps the Mutations and Ruinous Defects of the destroyed unit and takes 1 more Mutation. It can be placed in and emerge from the Under-Empire, even if it is a **MONSTER**.
-- The new unit gains the **MUTATED** keyword and this ability. **Unstable Mutation:** This unit has Deadly Demise D6. Each time this ability is triggered, after resolving it, gain D3 Vermin.
-- When They Just Keep Coming! creates a new **CLANRATS** unit, that unit can take 1 Mutation (not Bloated Mass) and gains the **MOULDER** and **MUTATED** keywords.
+- Your They Just Keep Coming! Vermin Ability can also target a destroyed non-CHARACTER MOULDER BEAST or MOULDER MONSTER unit. For a MONSTER unit, double the Vermin cost; if you use Thirteen for the Horned Rat instead, Sacrifice 26 models.
+- The new unit keeps the Mutations and Ruinous Defects of the destroyed unit and takes 1 more Mutation. It can be placed in and emerge from the Under-Empire, even if it is a MONSTER.
+- The new unit gains the MUTATED keyword and this ability. **Unstable Mutation:** This unit has Deadly Demise D6. Each time this ability is triggered, after resolving it, gain D3 Vermin.
+- When They Just Keep Coming! creates a new CLANRATS unit, that unit can take 1 Mutation (not Bloated Mass) and gains the MOULDER and MUTATED keywords.
 
 ## Fresh Meat-Meat!
 
-Every **MOULDER CHARACTER** model from your army has this ability. **Fresh Meat-Meat!:** At the end of your Command phase, select one friendly **MOULDER BEAST**, **MOULDER MONSTER** or **CLANRATS** unit within 6" of this model, then select one other friendly **SKAVEN INFANTRY** unit within 3" of this model. You can Sacrifice up to 3 models from that **SKAVEN INFANTRY** unit. If the first selected unit is a **CLANRATS** unit, for each model Sacrificed, return one destroyed Clanrat model to that unit, not exceeding its Starting Strength. Otherwise, for each model Sacrificed, one model in the first selected unit regains 1 lost wound. Each unit can only be selected as the first unit for this ability once per phase.
+Each MOULDER CHARACTER model from your army has this ability: at the end of your Command phase, select one friendly MOULDER BEAST, MOULDER MONSTER or CLANRATS unit within 6" of this model, then select one other friendly SKAVEN INFANTRY unit within 3" of this model. You can Sacrifice up to 3 models from that SKAVEN INFANTRY unit. If the first selected unit is a CLANRATS unit, for each model Sacrificed, return one destroyed Clanrat model to that unit, not exceeding its Starting Strength. Otherwise, for each model Sacrificed, one model in the first selected unit regains 1 lost wound. Each unit can only be selected as the first unit for this ability once per phase.
 
 ## Pack-Driven
 
-Each time a model in a friendly **CLANRATS** unit makes a melee attack, if that unit is within 6" of one or more friendly **MOULDER BEAST** or **MOULDER MONSTER** units, add 1 to the Hit roll.
+Each time a model in a friendly CLANRATS unit makes a melee attack, if that unit is within 6" of one or more friendly MOULDER BEAST or MOULDER MONSTER units, add 1 to the Hit roll.
 
 ## Feed the Beasts
 
-Each time a friendly **SKAVEN INFANTRY** model is destroyed or Sacrificed within 6" of a friendly **MOULDER BEAST** or **MOULDER MONSTER** unit, until the end of the turn, each time a model in that **MOULDER** unit makes a melee attack, add 1 to the Wound roll.
+Each time a friendly SKAVEN INFANTRY model is destroyed or Sacrificed within 6" of a friendly MOULDER BEAST or MOULDER MONSTER unit, until the end of the turn, each time a model in that MOULDER unit makes a melee attack, add 1 to the Wound roll.
 
 ## Mutations
 
 ### THICKENED HIDE
 
-_Mutation_
-
 Add 1 to the Toughness characteristic of models in this unit.
 
 ### CHITINOUS PLATES
-
-_Mutation_
 
 Improve the Save characteristic of models in this unit by 1, to a maximum of 3+.
 
 ### TOO MANY LIMBS
 
-_Mutation_
-
 Add 1 to the Attacks characteristic of melee weapons equipped by models in this unit, excluding weapons with [EXTRA ATTACKS].
 
 ### OVERGROWN MUSCULATURE
-
-_Mutation_
 
 Add 1 to the Strength characteristic of melee weapons equipped by models in this unit.
 
 ### LENGTHENED LEGS
 
-_Mutation_
-
 Add 2" to the Move characteristic of models in this unit and add 1 to charge rolls made for this unit.
 
 ### PREDATORY REFLEXES
-
-_Mutation_
 
 Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1, to a maximum of 3+.
 
 ### BLOATED MASS
 
-_Mutation - MONSTER unit only_
+_MONSTER unit only_
 
 Add 2 to the Wounds characteristic of models in this unit.
 
@@ -74,43 +62,31 @@ Add 2 to the Wounds characteristic of models in this unit.
 
 ### SOFT FLESH
 
-_Ruinous Defect_
-
 Subtract 1 from the Toughness characteristic of models in this unit.
 
 ### EXPOSED ORGANS
-
-_Ruinous Defect_
 
 Worsen the Save characteristic of models in this unit by 1.
 
 ### MISSING LIMBS
 
-_Ruinous Defect_
-
 Subtract 1 from the Attacks characteristic of melee weapons equipped by models in this unit, to a minimum of 1, excluding weapons with [EXTRA ATTACKS].
 
 ### ATROPHIED MUSCULATURE
-
-_Ruinous Defect_
 
 Subtract 1 from the Strength characteristic of melee weapons equipped by models in this unit.
 
 ### STUNTED LEGS
 
-_Ruinous Defect_
-
 Subtract 2" from the Move characteristic of models in this unit.
 
 ### UNCONTROLLABLE
-
-_Ruinous Defect_
 
 Subtract 1 from the Objective Control characteristic of models in this unit, to a minimum of 1.
 
 ### WITHERED FRAME
 
-_Ruinous Defect - MONSTER unit only_
+_MONSTER unit only_
 
 Subtract 2 from the Wounds characteristic of models in this unit.
 

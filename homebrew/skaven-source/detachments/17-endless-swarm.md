@@ -2,8 +2,8 @@
 
 ## There Are Always More
 
-- Melee weapons equipped by models in friendly **CLANRATS** units have **[SUSTAINED HITS 1]**.
-- While a friendly **CLANRATS** unit contains 20 or more models, add 1 to the Objective Control characteristic of models in that unit.
+- Melee weapons equipped by models in friendly CLANRATS units have [SUSTAINED HITS 1].
+- While a friendly CLANRATS unit contains 20 or more models, add 1 to the Objective Control characteristic of models in that unit.
 
 ## Enhancements
 

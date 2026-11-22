@@ -2,8 +2,8 @@
 
 ## Drive the Engines Hard
 
-- Add 2 to advance rolls made for friendly **SKAVEN VEHICLE** units. Friendly **SKAVEN VEHICLE** units are eligible to shoot in a turn in which they made an advance move.
-- **Engine Strain:** at the end of your Shooting phase, each friendly **SKAVEN VEHICLE** unit that made an advance move this turn and was selected to shoot this phase must take a hazard roll.
+- Add 2 to advance rolls made for friendly SKAVEN VEHICLE units. Friendly SKAVEN VEHICLE units are eligible to shoot in a turn in which they made an advance move.
+- **Engine Strain:** at the end of your Shooting phase, each friendly SKAVEN VEHICLE unit that made an advance move this turn and was selected to shoot this phase must take a hazard roll.
 
 ## Enhancements
 

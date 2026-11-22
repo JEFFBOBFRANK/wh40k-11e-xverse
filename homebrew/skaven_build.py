@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 43
+REVISION = 44
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -76,7 +76,7 @@ ROLE_CATEGORY = {"EPIC HERO": "Epic Hero", "CHARACTER": "Character", "BATTLELINE
 STAT_GEAR = {"Heavy shield": {"SV": "3+", "INV": "5+"}}
 STAT_KEYS = {"M": "M", "T": "T", "Sv": "SV", "W": "W", "LD": "LD", "OC": "OC", "InSv": "INV"}
 # Abilities that belong to an item other than the one they are named after.
-GEAR_ABILITY_HOME = {"Clanrat Shields": "Sword and Board"}
+GEAR_ABILITY_HOME = {"Clanrat Shields": "Shield"}
 WARGEAR_SORT = 50
 # Category IDs referenced from outside the rebuilt entries (the Black-Flag mercenary links add SKURVY).
 KEPT_CATEGORY_IDS = {"Skurvy": "085b-ed18-2400-e7f2"}
@@ -828,12 +828,14 @@ def move_gear_abilities(node):
     homes = {}
     for sub in walk(node.get("selectionEntries", []) + node.get("selectionEntryGroups", [])):
         if isinstance(sub, dict) and sub.get("type") in ("upgrade", "model") and "name" in sub:
-            homes.setdefault(sub["name"], sub)
+            homes.setdefault(sub["name"], []).append(sub)
     kept = []
     for profile in node.get("profiles", []):
-        home = homes.get(GEAR_ABILITY_HOME.get(profile["name"], profile["name"]))
-        if profile.get("typeName") == "Abilities" and not profile.get("hidden") and home is not None:
-            home.setdefault("profiles", []).append(profile)
+        found = homes.get(GEAR_ABILITY_HOME.get(profile["name"], profile["name"]))
+        if profile.get("typeName") == "Abilities" and not profile.get("hidden") and found:
+            for i, home in enumerate(found):  # every copy of the item (e.g. each Clanrat's shield) shows it
+                home.setdefault("profiles", []).append(
+                    profile if i == 0 else dict(profile, id=nid(home["id"] + ":ability:" + profile["name"])))
         else:
             kept.append(profile)
     node["profiles"] = kept
@@ -1243,7 +1245,7 @@ def one_per_unit(b, units, shared_enh):
             scope="root-entry", shared=True, includeChildSelections=True, includeChildForces=False,
             traverseAssociationGroup=True, message="An Attached Unit can only take 1 Enhancement or Upgrade."))
         for g in unit.get("selectionEntryGroups", []):
-            if g["name"] in ("Enhancements and Upgrades", "Black Contract", "Council Levy"):
+            if g["name"] in ("Enhancements and Upgrades", "Black Contract", "Council Levy", "Filth-Filth Carrier"):
                 for link in g["entryLinks"]:
                     link["constraints"] = [constraint(nid(link["id"] + ":once"), "max", 1)]
 
@@ -1522,6 +1524,23 @@ def build(source, catalogue_path, system_path):
     clanrats["modifiers"].append(dict(type="add", field="category", value=eshin_id,
                                       conditions=[selected(contract_id, scope=clanrats["id"])]))
 
+    # Filth-Filth Carriers (Cauldron of Pestilence): mark up to three Clanrats units, as Black Contracts.
+    carrier_id = nid("filth-filth-carrier")
+    cauldron = dets["Cauldron of Pestilence"]
+    carrier_text = re.search(r"\*\*Plague Carrier:\*\*\s*(.+)", next(
+        r["description"] for r in cauldron["rules"] if "Plague Carrier" in r["description"])).group(1).strip()
+    carrier = entry(carrier_id, "Filth-Filth Carrier - Plague Carrier",
+                    constraints=[constraint(nid(carrier_id + ":max"), "max", 3, scope="roster", child=True)],
+                    profiles=[b.ability_profile(nid(carrier_id + ":ability"), "Plague Carrier", carrier_text)])
+    gid = nid(clanrats["id"] + ":carrier")
+    clanrats["selectionEntryGroups"].append(dict(
+        name="Filth-Filth Carrier", id=gid, hidden=False,
+        entryLinks=[gated(gid, carrier_id, carrier["name"], cauldron["id"])],
+        constraints=[constraint(nid(gid + ":max"), "max", 1)]))
+    pestilens_id, _ = b.category("Pestilens")
+    clanrats["modifiers"].append(dict(type="add", field="category", value=pestilens_id,
+                                      conditions=[selected(carrier_id, scope=clanrats["id"])]))
+
     # Black-Flag Clanrats (Clan Skurvy): every Clanrats unit gains SKURVY and Claim-Claim the Prize!.
     skurvy_det = next(d for d in detachment_entry["selectionEntryGroups"][0]["selectionEntries"]
                       if d["name"] == "Clan Skurvy")
@@ -1534,6 +1553,37 @@ def build(source, catalogue_path, system_path):
     claim = b.ability_profile(nid(clanrats["id"] + ":claim"), "Claim-Claim the Prize!", claim_text.strip(), hidden=True)
     claim["modifiers"] = [dict(type="set", field="hidden", value=False, conditions=[in_skurvy])]
     clanrats["profiles"].insert(len([p for p in clanrats["profiles"] if not p.get("hidden")]), claim)
+
+    # Clanrats loadout: every model uses the same one (Sword and Board with one weapon, or Warplock).
+    tags = {}
+    for n in walk(clanrats):
+        if not isinstance(n, dict) or n.get("type") not in ("model", "upgrade") or not n.get("name"):
+            continue
+        gear = " ".join(x["name"] for x in n.get("selectionEntries", []) if isinstance(x, dict)) + " " + n["name"]
+        if n.get("type") == "upgrade" and n["name"].startswith(("Clawleader blade and", "Warplock carbine and Clawleader")):
+            tag = "Clawleader: Warplock" if "Warplock" in n["name"] else "Clawleader: Sword and Board"
+        elif n.get("type") == "model" and n["name"].startswith("Clanrat"):
+            tag = ("Warplock" if "Warplock carbine" in gear else "mace" if "Clanrat mace" in gear
+                   else "spear" if "Clanrat spear" in gear else "blade")
+        else:
+            continue
+        cid = tags.setdefault(tag, b.hidden_category(f"Count: Clanrats loadout - {tag}"))
+        n.setdefault("categoryLinks", []).append(dict(name="count", id=nid(n["id"] + ":loadout"), targetId=cid,
+                                                      primary=False, hidden=False))
+    for n in walk(clanrats):
+        if isinstance(n, dict) and n.get("type") == "upgrade" and n.get("name", "").startswith(
+                ("Clawleader blade and", "Warplock carbine and Clawleader")):
+            n["name"] = ("Warplock: " if n["name"].startswith("Warplock") else "Sword and Board: ") + \
+                n["name"].replace(" and ", ", ")
+    clash = [("blade", "mace"), ("blade", "spear"), ("mace", "spear"), ("blade", "Warplock"), ("mace", "Warplock"),
+             ("spear", "Warplock"), ("Clawleader: Sword and Board", "Warplock"), ("Clawleader: Warplock", "blade"),
+             ("Clawleader: Warplock", "mace"), ("Clawleader: Warplock", "spear")]
+    clanrats["modifiers"].append(dict(type="add", field="error", value="Every model in this unit must use the same "
+                                      "loadout: Sword and Board with the same weapon, or Warplock.",
+                                      conditionGroups=[dict(type="or", conditionGroups=[
+                                          dict(type="and", conditions=[selected(tags[x], scope=clanrats["id"]),
+                                                                       selected(tags[y], scope=clanrats["id"])])
+                                          for x, y in clash])]))
 
     # Council Levies (Council of Treachery): each Clanrats unit can swear to one Clan.
     council = dets["Council of Treachery"]
@@ -1578,7 +1628,7 @@ def build(source, catalogue_path, system_path):
     keep_links = [l for l in old["entryLinks"]
                   if l["targetId"] not in {e["id"] for e in old["sharedSelectionEntries"]}]  # Black-Flag units
 
-    shared_entries = [detachment_entry, army_ref, strat_ref, officers, contract, warlord] + levies + units + shared_enh + \
+    shared_entries = [detachment_entry, army_ref, strat_ref, officers, contract, carrier, warlord] + levies + units + shared_enh + \
         shared_projects
     root_links = []
     for e in [detachment_entry, army_ref, strat_ref, officers] + units:

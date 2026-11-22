@@ -2,8 +2,8 @@
 
 ## Pride of the Black-Furs
 
-- Friendly **STORMVERMIN** units have the **BATTLELINE** keyword, and add 1 to the Objective Control characteristic of models in those units.
-- Each time a friendly **STORMVERMIN** unit loses one or more models, until the end of your next turn, that unit is **Prideful**. Each time a model in a Prideful unit makes a melee attack, add 1 to the Wound roll.
+- Friendly STORMVERMIN units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.
+- Each time a friendly STORMVERMIN unit loses one or more models, until the end of your next turn, that unit is Prideful. Each time a model in a Prideful unit makes a melee attack, add 1 to the Wound roll.
 
 ## Enhancements
 

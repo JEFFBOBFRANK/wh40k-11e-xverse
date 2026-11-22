@@ -2,17 +2,17 @@
 
 ## The Great Workshops
 
-- **Workshop Projects:** when mustering your army, give Workshop Projects to up to 3 units (Incursion), 6 units (Strike Force) or 9 units (Onslaught). Each unit can have 1 Workshop Project, and each Workshop Project can be given to up to 3 units. A unit with a Workshop Project gains the **SKRYRE** keyword.
-- **STORMFIENDS** units can be given **WEAPON TEAM** Workshop Projects.
+- **Workshop Projects:** when mustering your army, give Workshop Projects to up to 3 units (Incursion), 6 units (Strike Force) or 9 units (Onslaught). Each unit can have 1 Workshop Project, and each Workshop Project can be given to up to 3 units. A unit with a Workshop Project gains the SKRYRE keyword.
+- STORMFIENDS units can be given WEAPON TEAM Workshop Projects.
 - Workshop Projects are not Enhancements.
 
 ## Overstuffed Power Cells
 
-Warplock carbines equipped by models in friendly **CLANRATS** units have **[RAPID FIRE 2]** instead of [RAPID FIRE 1].
+Warplock carbines equipped by models in friendly CLANRATS units have [RAPID FIRE 2] instead of [RAPID FIRE 1].
 
 ## Volatile Genius
 
-Each time a friendly **SKRYRE** unit suffers damage from its own shooting (a failed hazard roll, Warpstone Backlash or a Workshop Project), until the end of your next Shooting phase, add 1 to the Hit roll and the Wound roll for ranged attacks made by models in that unit.
+Each time a friendly SKRYRE unit suffers damage from its own shooting (a failed hazard roll, Warpstone Backlash or a Workshop Project), until the end of your next Shooting phase, add 1 to the Hit roll and the Wound roll for ranged attacks made by models in that unit.
 
 ## Workshop Projects
 
@@ -60,9 +60,9 @@ After this unit ends a normal, advance or charge move, select one enemy unit wit
 
 ### DOOMROCKET
 
-_Non-EPIC HERO WARLOCK CHARACTER_
+_Non-EPIC HERO WARLOCK ENGINEER model_
 
-That model is equipped with a Doomrocket: Range 48"; Attacks D6+6; BS 4+; S 10; AP -2; D 2; [BLAST 1, HAZARDOUS, INDIRECT FIRE, ONE SHOT, WARPSTONE].
+This model is equipped with a Doomrocket: Range 48"; Attacks D6+6; BS 4+; S 10; AP -2; D 2; [BLAST 1, HAZARDOUS, INDIRECT FIRE, ONE SHOT, WARPSTONE].
 
 ## Skryre Enhancements
 

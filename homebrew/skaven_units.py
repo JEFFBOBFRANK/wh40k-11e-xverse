@@ -101,18 +101,15 @@ UNITS = {
         sizes=[{"Skavenslave": 20}, {"Skavenslave": 40}],
         unit_choices=[C("Explosive Collars", ["Explosive Collars"], minimum=0)]),
     "Clanrats": dict(
-        models=[M("Clawleader", (1, 2), ["Clawleader blade"]), M("Clanrat", (9, 18))],
+        models=[M("Clawleader", (1, 2), [], choices=[C("Loadout", [
+                    "Clawleader blade + Shield + Stubber pistol",
+                    "Warplock carbine + Clawleader blade + Stubber pistol"])]),
+                M("Clanrat", (9, 18), ["Clanrat blade", "Shield", "Stubber pistol"], variants=[
+                    V("Clanrat with mace", ["Clanrat mace", "Shield", "Stubber pistol"]),
+                    V("Clanrat with spear", ["Clanrat spear", "Shield", "Stubber pistol"]),
+                    V("Clanrat with Warplock carbine", ["Warplock carbine", "Clanrat blade", "Stubber pistol"])])],
         sizes=[{"Clawleader": 1, "Clanrat": 9}, {"Clawleader": 2, "Clanrat": 18}],
-        unit_choices=[
-            C("Loadout", ["Sword and Board", "Warplock"]),
-        ],
         bearer_gear=[("Clan Standard", "Clanrat"), ("Scavenger Bell", "Clanrat")],
-        loadouts={
-            "Sword and Board": dict(weapons=["Stubber pistol"], gear=["Shield"],
-                                    choices=[C("Clanrat weapon", ["Clanrat blade", "Clanrat mace",
-                                                                  "Clanrat spear"])]),
-            "Warplock": dict(weapons=["Warplock carbine", "Clanrat blade", "Stubber pistol"]),
-        },
         weapon_teams=[("Ratling Gun Team", "Ratling Gun Teams", ["Ratling gun", "Crew blades"], 25),
                       ("Warpfire Thrower Team", "Warpfire Thrower Teams", ["Warpfire thrower", "Crew blades"], 30),
                       ("Poison Wind Globadier", "Skryre Acolytes", ["Poison-wind globes", "Acolyte blades"], 10)]),

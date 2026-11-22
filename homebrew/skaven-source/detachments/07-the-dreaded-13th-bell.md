@@ -2,16 +2,16 @@
 
 ## Daemonic Conduits
 
-Each time a friendly **SKAVEN** non-**DAEMON** **PSYKER** uses a spell, before making the psychic roll, it can select one visible friendly **SKAVEN DAEMON** unit within 13" as its conduit. If it does:
+Each time a friendly SKAVEN non-DAEMON PSYKER uses a spell, before making the psychic roll, it can select one visible friendly SKAVEN DAEMON unit within 13" as its conduit. If it does:
 
-- Measure that spell's range and visibility from either the **PSYKER** or the conduit.
-- If that psychic roll has an unmodified 1, the **PSYKER**'s unit does not become battle-shocked, does not resolve Cornered Rats and does not suffer mortal wounds. Instead, the conduit suffers D3 mortal wounds, or D6 mortal wounds if the spell was Overcast.
+- Measure that spell's range and visibility from either the PSYKER or the conduit.
+- If that psychic roll has an unmodified 1, the PSYKER's unit does not become battle-shocked, does not resolve Cornered Rats and does not suffer mortal wounds. Instead, the conduit suffers D3 mortal wounds, or D6 mortal wounds if the spell was Overcast.
 
-Each **SKAVEN DAEMON** unit can be selected as a conduit once per turn.
+Each SKAVEN DAEMON unit can be selected as a conduit once per turn.
 
 ## The Thirteenth Toll
 
-Each time a spell used through a Daemonic Conduit is Overcast, gain D3+1 Vermin, then each enemy unit within 13" of the conduit must take a battle-shock roll. Each enemy unit that fails that test suffers D3 mortal wounds.
+Each time a spell used through a Daemonic Conduit is Overcast, gain D3+1 Vermin, then each enemy unit within 13" of the conduit must take a battle-shock roll. Each enemy unit that fails that roll suffers D3 mortal wounds.
 
 ## Grey Seer Enhancements
 

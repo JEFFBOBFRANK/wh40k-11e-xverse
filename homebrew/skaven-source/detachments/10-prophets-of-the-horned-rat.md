@@ -3,11 +3,8 @@
 ## The Horned Rat Whispers
 
 - **Prophecy Dice:** at the start of each battle round, roll 3D6 (Incursion), 6D6 (Strike Force) or 9D6 (Onslaught) and set them aside. These are your Prophecy dice for that battle round. At the end of the battle round, discard all unused Prophecy dice.
-- **Foretell:** each time one of the following rolls is made, after rolling but before resolving it, you can replace one of its dice with one unused Prophecy die. That Prophecy die is expended, and its value is treated as unmodified.
-  - A psychic roll made for a friendly **GREY SEER** model.
-  - A battle-shock roll, charge roll or Passage roll made for a friendly **SKAVEN** unit within 13" of a friendly **GREY SEER** model.
-- After that roll has been resolved, that **GREY SEER** model's unit suffers D3 mortal wounds. For a roll made for another unit, the closest friendly **GREY SEER** model's unit suffers them.
-- **Foreseen Glory:** if a Prophecy die showing a 6 replaces a die of a **GREY SEER** model's psychic roll, and that spell is not being Overcast, also resolve that spell's Overcast effect. This is not Overcasting.
+- **Foretell:** each time a psychic roll is made for a friendly GREY SEER model, or a battle-shock, charge or Passage roll is made for a friendly SKAVEN unit within 13" of one, you can replace one of its dice with an unused Prophecy die after rolling but before resolving it. That Prophecy die is expended, and its value is treated as unmodified. After that roll is resolved, the GREY SEER model's unit (for another unit's roll, the closest friendly GREY SEER model's unit) suffers D3 mortal wounds.
+- **Foreseen Glory:** if a Prophecy die showing a 6 replaces a die of a GREY SEER model's psychic roll, and that spell is not being Overcast, also resolve that spell's Overcast effect. This is not Overcasting.
 - **Twist-Twist Fate!:** before using a Prophecy die, you can spend 1 Vermin. If you do, increase or decrease that Prophecy die by 1, to a minimum of 1 and a maximum of 6. Each Prophecy die can only be modified in this way once.
 
 ## Enhancements
