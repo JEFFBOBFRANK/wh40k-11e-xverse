@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 35 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 36 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -86,8 +86,8 @@ detachments). The layout follows the Emperor's Children catalogue.
 - A PSYKER can use any number of DAMAGE spells, limited by its Psyker Level.
 - Every CHARACTER has a Warlord option; the army needs exactly one Warlord. The
   Warlord datasheet's WARLORD keyword is its own keyword, not the Warlord role.
-- Weapon teams start with their lead crew (Lead Gunner, Lead Burner or Lead
-  Scourger: W3, Crew-leader blades, optional Warplock pistol). Skryre Acolytes are
+- Weapon teams start with their lead crew (Lead Gunner, Lead Burner, Lead
+  Scourger or Lead Marksman: W3, Crew-leader blades, optional Warplock pistol). Skryre Acolytes are
   1 Bombardier and 4 or 9 Poison Wind Globadiers. Weapon Team models added to
   Clanrats are always normal team models.
 

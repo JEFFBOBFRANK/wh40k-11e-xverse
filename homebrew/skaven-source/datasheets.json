@@ -3385,6 +3385,19 @@
      "PRECISION",
      "WARPSTONE"
     ]
+   },
+   {
+    "name": "Warplock pistol",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "CLOSE-QUARTERS",
+     "WARPSTONE"
+    ]
    }
   ],
   "melee_weapons": [
@@ -3395,6 +3408,16 @@
     "BS_WS": "5+",
     "S": "3",
     "AP": "0",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Crew-leader blades",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "4",
+    "AP": "-1",
     "D": "1",
     "keywords": []
    }
@@ -3416,7 +3439,8 @@
   ],
   "other_rules": [],
   "unit_composition": [
-   "3 or 6 Warplock Jezzail teams."
+   "3 or 6 Warplock Jezzail teams. The first model in this unit is its Lead Marksman.",
+   "Lead Marksman:W3. Replaces its Crew blades with Crew-leader blades and can also be equipped with 1 Warplock pistol."
   ],
   "points": "100pts / 200pts",
   "repeat_cost": "+15pts from the 3rd copy"

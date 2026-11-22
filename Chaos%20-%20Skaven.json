@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 35,
+    "revision": 36,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -45793,7 +45793,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 3 or 6 Warplock Jezzail teams."
+                "$text": "Composition: 3 or 6 Warplock Jezzail teams. The first model in this unit is its Lead Marksman. Lead Marksman:W3. Replaces its Crew blades with Crew-leader blades and can also be equipped with 1 Warplock pistol."
               }
             ]
           },
@@ -45823,6 +45823,360 @@
         ],
         "selectionEntries": [
           {
+            "name": "Lead Marksman",
+            "id": "1c47-5ebb-db86-b7bb",
+            "type": "model",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "95cc-50d1-3cf6-4329",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "1e72-62ac-c9d8-66e1",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "id": "18fb-a5a4-df4a-846d",
+                "name": "Lead Marksman",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
+                  },
+                  {
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "5+"
+                  },
+                  {
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "7+"
+                  },
+                  {
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Warplock jezzail",
+                "id": "cec3-8fb4-23a8-43cd",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "7c8d-c12b-ee2a-2d2f",
+                    "name": "Warplock jezzail",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "48\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "12"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-3"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Heavy, Precision, Warpstone"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "d27b-752c-a35c-7947",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "546f-5b61-5dde-cbb2",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "65b1-50f0-ae78-2bc3",
+                    "name": "Heavy",
+                    "targetId": "1202-10a8-78e9-4c67",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "62c0-5710-7ae0-5891",
+                    "name": "Precision",
+                    "targetId": "9143-31ae-e0a6-6007",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "6355-0f55-594f-c162",
+                    "name": "Warpstone",
+                    "targetId": "7a1a-acc6-a2c5-a984",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Crew-leader blades",
+                "id": "2e98-b579-0394-4c57",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "29eb-8467-b414-cf7c",
+                    "name": "Crew-leader blades",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "-"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "8189-240d-a850-a2da",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "c807-6c5e-4179-7b98",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Pistol",
+                "id": "d1ab-a94d-a517-81cd",
+                "hidden": false,
+                "selectionEntries": [
+                  {
+                    "name": "Warplock pistol",
+                    "id": "d4b3-9662-a23c-e4b3",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "dc7e-8ce2-904d-31d7",
+                        "name": "Warplock pistol",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "4+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "0"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Close-Quarters, Warpstone"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "2b7e-d234-7a68-98e7",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "477f-6043-de58-56b9",
+                        "name": "Close-quarters",
+                        "targetId": "5238-5ad4-52f7-6eb4",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "9201-e7f9-7a52-317e",
+                        "name": "Warpstone",
+                        "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "8723-da1b-b35b-f4e3",
+                    "type": "min",
+                    "value": 0,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "c4da-2d7c-fca3-4cfd",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 0
+          },
+          {
             "name": "Warplock Jezzail Team",
             "id": "9f0d-47a8-b404-5010",
             "type": "model",
@@ -45832,7 +46186,7 @@
               {
                 "id": "38d3-3753-7f55-d0cc",
                 "type": "min",
-                "value": 3,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -45841,7 +46195,7 @@
               {
                 "id": "559a-7fd5-ddf7-7117",
                 "type": "max",
-                "value": 6,
+                "value": 5,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -46065,7 +46419,7 @@
                 ]
               }
             ],
-            "sortIndex": 0
+            "sortIndex": 1
           }
         ],
         "modifiers": [
@@ -46079,7 +46433,7 @@
                 "field": "selections",
                 "scope": "c2c9-e885-d2d5-0b7e",
                 "type": "atLeast",
-                "value": 6,
+                "value": 5,
                 "shared": true,
                 "includeChildSelections": true
               }
@@ -46088,7 +46442,7 @@
           {
             "type": "add",
             "field": "error",
-            "value": "Select 3 Warplock Jezzail Team or 6 Warplock Jezzail Team.",
+            "value": "Select 1 Lead Marksman and 2 Warplock Jezzail Team or 1 Lead Marksman and 5 Warplock Jezzail Team.",
             "conditionGroups": [
               {
                 "type": "and",
@@ -46097,11 +46451,20 @@
                     "type": "or",
                     "conditions": [
                       {
+                        "childId": "1c47-5ebb-db86-b7bb",
+                        "field": "selections",
+                        "scope": "c2c9-e885-d2d5-0b7e",
+                        "type": "notEqualTo",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
                         "childId": "9f0d-47a8-b404-5010",
                         "field": "selections",
                         "scope": "c2c9-e885-d2d5-0b7e",
                         "type": "notEqualTo",
-                        "value": 3,
+                        "value": 2,
                         "shared": true,
                         "includeChildSelections": true
                       }
@@ -46111,11 +46474,20 @@
                     "type": "or",
                     "conditions": [
                       {
+                        "childId": "1c47-5ebb-db86-b7bb",
+                        "field": "selections",
+                        "scope": "c2c9-e885-d2d5-0b7e",
+                        "type": "notEqualTo",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
                         "childId": "9f0d-47a8-b404-5010",
                         "field": "selections",
                         "scope": "c2c9-e885-d2d5-0b7e",
                         "type": "notEqualTo",
-                        "value": 6,
+                        "value": 5,
                         "shared": true,
                         "includeChildSelections": true
                       }

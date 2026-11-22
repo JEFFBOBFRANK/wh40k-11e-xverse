@@ -184,8 +184,10 @@ UNITS = {
                       (1, 2))])],
         sizes=[{"Bombardier": 1, "Poison Wind Globadier": 4}, {"Bombardier": 1, "Poison Wind Globadier": 9}]),
     "Warplock Jezzails": dict(
-        models=[M("Warplock Jezzail Team", (3, 6), ["Warplock jezzail", "Crew blades"])],
-        sizes=[{"Warplock Jezzail Team": 3}, {"Warplock Jezzail Team": 6}]),
+        models=[M("Lead Marksman", (1, 1), ["Warplock jezzail", "Crew-leader blades"], wounds="3",
+                  choices=[C("Pistol", ["Warplock pistol"], minimum=0)]),
+                M("Warplock Jezzail Team", (2, 5), ["Warplock jezzail", "Crew blades"])],
+        sizes=[{"Lead Marksman": 1, "Warplock Jezzail Team": 2}, {"Lead Marksman": 1, "Warplock Jezzail Team": 5}]),
     "Doom-Flayers": dict(models=[M("Doom-Flayer", (2, 6), ["Doom-Flayer blades", "Crew blades"], cost=35)]),
     "Rat Ogors": dict(
         models=[M("Rat Ogor", (3, 6), ["Rat Ogor claws"]),
