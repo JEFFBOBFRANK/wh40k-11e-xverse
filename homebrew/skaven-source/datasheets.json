@@ -2193,7 +2193,7 @@
    {
     "name": "Long-barrel Warp-Zapper",
     "range": "36\"",
-    "A": "2",
+    "A": "1",
     "BS_WS": "4+",
     "S": "12",
     "AP": "-3",
@@ -3147,7 +3147,7 @@
    {
     "name": "Warpvolt scourger",
     "range": "24\"",
-    "A": "5",
+    "A": "3",
     "BS_WS": "4+",
     "S": "10",
     "AP": "-2",
@@ -3375,7 +3375,7 @@
    {
     "name": "Warplock jezzail",
     "range": "48\"",
-    "A": "3",
+    "A": "2",
     "BS_WS": "4+",
     "S": "12",
     "AP": "-3",
@@ -4632,7 +4632,7 @@
    {
     "name": "Warp-Rift Cracker",
     "range": "48\"",
-    "A": "3",
+    "A": "2",
     "BS_WS": "4+",
     "S": "16",
     "AP": "-3",
@@ -4840,7 +4840,7 @@
    {
     "name": "Focused lightning",
     "range": "72\"",
-    "A": "3",
+    "A": "2",
     "BS_WS": "4+",
     "S": "16",
     "AP": "-3",
@@ -5083,7 +5083,7 @@
    {
     "name": "Warp-Doom magma cannon",
     "range": "36\"",
-    "A": "D6+1",
+    "A": "D3+1",
     "BS_WS": "4+",
     "S": "12",
     "AP": "-4",
@@ -5261,7 +5261,7 @@
    {
     "name": "Warpclaw cannon - rupture beam",
     "range": "60\"",
-    "A": "6",
+    "A": "4",
     "BS_WS": "4+",
     "S": "18",
     "AP": "-4",
@@ -5378,7 +5378,7 @@
    {
     "name": "Warp-melta cannon",
     "range": "12\"",
-    "A": "3",
+    "A": "2",
     "BS_WS": "4+",
     "S": "16",
     "AP": "-4",
@@ -5473,7 +5473,7 @@
    {
     "name": "Extraction beam",
     "range": "30\"",
-    "A": "D6+2",
+    "A": "D6",
     "BS_WS": "4+",
     "S": "12",
     "AP": "-3",
@@ -5564,7 +5564,7 @@
    {
     "name": "Warp-zap annihilator",
     "range": "72\"",
-    "A": "D6+2",
+    "A": "D6",
     "BS_WS": "4+",
     "S": "18",
     "AP": "-4",
@@ -5608,7 +5608,7 @@
    {
     "name": "Warp-melta cannon",
     "range": "12\"",
-    "A": "3",
+    "A": "2",
     "BS_WS": "4+",
     "S": "16",
     "AP": "-4",
