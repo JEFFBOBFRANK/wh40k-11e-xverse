@@ -1,15 +1,9 @@
 # Black-Fur Supremacy
 
-<!-- old p51 -->
+## Pride of the Black-Furs
 
-## Rise-Rise Above Them!
-
-Every friendly STORMVERMIN unit has a Supremacy Rank and begins the battle at Rank 1. Each time a friendly STORMVERMIN unit destroys one or more enemy units in your Shooting phase or the Fight phase, after that unit has finished making its attacks, increase its Supremacy Rank by 1, to a maximum of 3. Each time a friendly STORMVERMIN unit fails a battle-shock roll, reduce its Supremacy Rank by 1, to a minimum of 0. Supremacy Rank benefits are cumulative.
-
-| RANK | NAME | BENEFIT |
-| 1 | Black-Furred Elite | Add 1 to the Objective Control characteristic of models in this unit. |
-| 2 | Best-Best Warriors | Add 1 to Hit rolls for attacks made by models in this unit. |
-| 3 | Lords of the Lesser Rats | Improve the Armour Penetration characteristic of weapons equipped by models in this unit by 1. This unit can re-roll battle-shock rolls. |
+- Friendly **STORMVERMIN** units have the **BATTLELINE** keyword.
+- Each time a friendly **STORMVERMIN** unit loses one or more models, until the end of your next turn, that unit is **Prideful**. Each time a model in a Prideful unit makes a melee attack, add 1 to the Wound roll.
 
 ## Enhancements
 
@@ -17,21 +11,19 @@ Every friendly STORMVERMIN unit has a Supremacy Rank and begins the battle at Ra
 
 _VERMINUS CHARACTER model only._
 
-After you declare battle formations, if the bearer is leading a STORMVERMIN unit, that unit begins the battle at Supremacy Rank 2 instead of Rank 1.
+While the bearer is leading a STORMVERMIN unit, that unit is always Prideful.
 
 ### BLACK-IRON PANOPLY  [25 pts]
 
 _VERMINUS CHARACTER model only._
 
-While the bearer is leading a STORMVERMIN unit that is at Supremacy Rank 2 or higher, each time an attack is allocated to a model in that unit, worsen the Armour Penetration characteristic of that attack by 1.
+While the bearer is leading a STORMVERMIN unit, each time an attack is allocated to a model in that unit, worsen the Armour Penetration characteristic of that attack by 1.
 
 ### VETERANS OF A HUNDRED BATTLES  [15 pts]
 
-_UNIT ENHANCEMENT - STORMVERMIN unit only._
+_UNIT ENHANCEMENT - STORMVERMIN unit only; up to three units can have this Enhancement._
 
-Once per battle round, when this unit fails a battle-shock roll, before reducing its Supremacy Rank, you can Sacrifice 1 model from this unit. If you do, do not reduce this unit's Supremacy Rank as a result of that failed roll. The battle-shock roll is still failed and all other consequences apply normally.
-
-<!-- old p52 -->
+Once per battle round, when this unit fails a battle-shock roll, you can Sacrifice 1 model from this unit. If you do, that test is passed instead, and this unit becomes Prideful.
 
 ## Black-Fur Stratagems
 
@@ -43,7 +35,7 @@ _Battle Tactic Stratagem_
 
 **TARGET:** One STORMVERMIN unit from your army that has not been selected to shoot or fight this phase.
 
-**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If your unit is at Supremacy Rank 3, you can re-roll the Wound roll instead.
+**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If your unit is Prideful, you can re-roll the Wound roll instead.
 
 ### BLACK-IRON FORMATION!  [1CP]
 
@@ -53,16 +45,16 @@ _Wargear Stratagem_
 
 **TARGET:** That STORMVERMIN unit.
 
-**EFFECT:** Until the end of the phase, models in your unit have Feel No Pain 6+. If your unit is at Supremacy Rank 3, models in your unit have Feel No Pain 5+ instead.
+**EFFECT:** Until the end of the phase, models in your unit have Feel No Pain 6+. If your unit is Prideful, models in your unit have Feel No Pain 5+ instead.
 
 ### THAT WAS OUR KILL-KILL!  [1CP]
 
 _Epic Deed Stratagem_
 
-**WHEN:** Just after another friendly SKAVEN unit destroys an enemy unit in your Shooting phase or the Fight phase.
+**WHEN:** Just after another friendly SKAVEN unit within 6" of a STORMVERMIN unit from your army is destroyed.
 
-**TARGET:** One STORMVERMIN unit from your army within 6" of that friendly SKAVEN unit.
+**TARGET:** That STORMVERMIN unit.
 
-**EFFECT:** Increase your unit's Supremacy Rank by 1, to a maximum of 3.
+**EFFECT:** Your unit becomes Prideful.
 
 **RESTRICTION:** Once per battle round.

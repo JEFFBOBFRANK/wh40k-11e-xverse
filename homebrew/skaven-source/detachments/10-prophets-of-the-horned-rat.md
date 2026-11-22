@@ -1,32 +1,14 @@
 # Prophets of the Horned Rat
 
-<!-- old p53 -->
-
 ## The Horned Rat Whispers
 
-| GENERATE | USE | COST |
-| 6D6 per battle round | Replace 1 die of an eligible roll | D3 mortal wounds to the Grey Seer's unit |
-
-### PROPHECY DICE
-
-At the start of each battle round, roll 6D6 and set them aside. These are your Prophecy dice for that battle round. At the end of the battle round, discard all unused Prophecy dice.
-
-### FORETELL
-
-Each time one of the following rolls is made, after rolling but before resolving it, you can replace one of its dice with one unused Prophecy die. That Prophecy die is expended, and its value is treated as unmodified for all rules purposes.
-
-- A psychic roll made for a friendly GREY SEER model.
-- A battle-shock roll, charge roll or Passage roll made for a friendly SKAVEN unit within 13" of a friendly GREY SEER model.
-
-After that roll has been resolved, that GREY SEER model's unit suffers D3 mortal wounds. For a roll made for another unit, the closest friendly GREY SEER model's unit suffers them.
-
-### FORESEEN GLORY
-
-If a Prophecy die showing a 6 replaces the die of a GREY SEER model's psychic roll, and that spell is not being Overcast, also resolve that spell's OVERCAST effect. This is not Overcasting.
-
-### TWIST-TWIST FATE!
-
-Before using a Prophecy die, you can spend 1 Vermin. If you do, increase or decrease that Prophecy die by 1, to a minimum of 1 and a maximum of 6. Each Prophecy die can only be modified in this way once.
+- **Prophecy Dice:** at the start of each battle round, roll 3D6 (Incursion), 6D6 (Strike Force) or 9D6 (Onslaught) and set them aside. These are your Prophecy dice for that battle round. At the end of the battle round, discard all unused Prophecy dice.
+- **Foretell:** each time one of the following rolls is made, after rolling but before resolving it, you can replace one of its dice with one unused Prophecy die. That Prophecy die is expended, and its value is treated as unmodified.
+  - A psychic roll made for a friendly **GREY SEER** model.
+  - A battle-shock roll, charge roll or Passage roll made for a friendly **SKAVEN** unit within 13" of a friendly **GREY SEER** model.
+- After that roll has been resolved, that **GREY SEER** model's unit suffers D3 mortal wounds. For a roll made for another unit, the closest friendly **GREY SEER** model's unit suffers them.
+- **Foreseen Glory:** if a Prophecy die showing a 6 replaces a die of a **GREY SEER** model's psychic roll, and that spell is not being Overcast, also resolve that spell's Overcast effect. This is not Overcasting.
+- **Twist-Twist Fate!:** before using a Prophecy die, you can spend 1 Vermin. If you do, increase or decrease that Prophecy die by 1, to a minimum of 1 and a maximum of 6. Each Prophecy die can only be modified in this way once.
 
 ## Enhancements
 
@@ -47,8 +29,6 @@ Once per battle round, when the bearer uses a Prophecy die, you can increase or 
 _GREY SEER model only._
 
 Once per battle round, when the bearer's unit would suffer mortal wounds as a result of using one or more Prophecy dice, you can Sacrifice one other friendly SKAVEN INFANTRY model within 6" of the bearer. If you do, the bearer's unit does not suffer those mortal wounds.
-
-<!-- old p54 -->
 
 ## Prophets Stratagems
 

@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 33
+REVISION = 34
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -39,12 +39,12 @@ ARMY_RULE_ORDER = ["The Vermintide", "The Under-Empire", "Scurry Away!", "Warpst
                    "Sacrifice", "Summoned Vermin", "Verminous Psychic Power", "Lore of Ruin", "Lore of Plague",
                    "Lore of the Hidden Fang", "Special Spells"]
 CLAN_UNIQUE = {"Skryre Worship", "Moulder Flesh Laboratory", "Shadowy Dealings", "Cauldron of Pestilence",
-               "Clawpack Horde", "Clan Skurvy", "Black-Fur Supremacy"}
+               "Clawpack Horde", "Clan Skurvy", "Council of Treachery"}
 DETACHMENTS = {  # DP and Force Dispositions from the handoff
-    "Skryre Worship": (3, ["Priority Assets", "Purge the Foe"]),
-    "Moulder Flesh Laboratory": (3, ["Purge the Foe", "Take and Hold"]),
-    "Shadowy Dealings": (1, ["Disruption"]),
-    "Cauldron of Pestilence": (3, ["Take and Hold", "Disruption"]),
+    "Skryre Worship": (2, ["Priority Assets", "Purge the Foe"]),
+    "Moulder Flesh Laboratory": (2, ["Purge the Foe", "Take and Hold"]),
+    "Shadowy Dealings": (2, ["Disruption"]),
+    "Cauldron of Pestilence": (2, ["Take and Hold", "Disruption"]),
     "Clawpack Horde": (2, ["Take and Hold"]),
     "Invasion of the Under-Empire": (3, ["Reconnaissance", "Disruption"]),
     "The Dreaded 13th Bell": (1, ["Priority Assets"]),
@@ -52,8 +52,22 @@ DETACHMENTS = {  # DP and Force Dispositions from the handoff
     "Black-Fur Supremacy": (1, ["Purge the Foe"]),
     "Prophets of the Horned Rat": (1, ["Priority Assets"]),
     "Engines of Ruin": (1, ["Reconnaissance"]),
-    "Council of Treachery": (1, ["Take and Hold"]),
+    "Council of Treachery": (2, ["Take and Hold"]),
+    "Warlock Battery": (1, ["Purge the Foe"]),
+    "Beast Pens": (1, ["Purge the Foe"]),
+    "Night Stalkers": (1, ["Reconnaissance"]),
+    "Plague Congregation": (1, ["Take and Hold"]),
+    "Endless Swarm": (1, ["Take and Hold"]),
 }
+# Detachments whose rule gives units the BATTLELINE keyword (and so 6 copies).
+BATTLELINE_GRANTS = {"Black-Fur Supremacy": ["STORMVERMIN"], "Warlock Battery": ["WEAPON TEAM"],
+                     "Beast Pens": ["RAT OGORS", "WOLF RATS"], "Night Stalkers": ["NIGHT RUNNERS"],
+                     "Plague Congregation": ["PLAGUE MONKS"]}
+# Sections of detachment rules that are also New Recruit options (as Workshop Projects).
+OPTION_SECTIONS = {"Workshop Projects": "project", "Mutations": "mutation", "Ruinous Defects": "defect",
+                   "Council Seats": "seat"}
+COUNCIL_CLANS = ["VERMINUS", "SKRYRE", "MOULDER", "ESHIN", "PESTILENS", "MASTERCLAN"]
+FLESH_SCULPTING = "c1a7-5e0d-4b2f-9e11"
 ROLE_CATEGORY = {"EPIC HERO": "Epic Hero", "CHARACTER": "Character", "BATTLELINE": "Battleline",
                  "INFANTRY": "Infantry", "MOUNTED": "Mounted", "BEAST": "Beast", "MONSTER": "Monster",
                  "VEHICLE": "Vehicle", "DEDICATED TRANSPORT": "Dedicated Transport"}
@@ -155,6 +169,7 @@ class Builder:
         self.sys_types = {t["name"]: t for t in self.system["profileTypes"]}
         self.sys_categories = {c["name"].casefold(): c for c in self.system["categoryEntries"]}
         self.sys_rules = self.system["sharedRules"]
+        self.enh_ids = {}
         old_entries = self.old["sharedSelectionEntries"]
         self.old_ids = {}
         # Datasheets first, so a datasheet keeps its ID when an option shares its name (Warlord).
@@ -930,17 +945,18 @@ def build_detachments(b, units):
         for heading, lines in merge_continued(sections(text)):
             if heading is None:
                 continue
-            cost_tokens = re.search(r"\[(\d+) TOKENS?\]", heading)
+            option = OPTION_SECTIONS.get(heading)
             if "Stratagems" in heading:
                 for card in cards(lines):
                     stratagems.append((det, card))
             elif "Enhancements" in heading:
                 for card in cards(lines):
                     enhancements.append((det, card))
-            elif cost_tokens:
+            elif option:
                 for card in cards(lines):
-                    card["cost"] = int(cost_tokens.group(1))
+                    card["cost"], card["kind"] = 1, option
                     projects.append((det, card))
+                add_detachment_rules(det, heading, lines)
             else:
                 add_detachment_rules(det, heading, lines)
         link_army_rules(b, det, text)
@@ -955,13 +971,23 @@ def build_detachments(b, units):
         others = [selected(o["id"], scope="roster") for o in clan if o is not det]
         det["modifiers"] = [dict(type="set", field=det["constraints"][0]["id"], value=0,
                                  conditionGroups=[dict(type="or", conditions=others)])]
-    skryre = next(d for d in group["selectionEntries"] if d["name"] == "Skryre Worship")
-    return detachment_entry, enhancements, stratagems, projects, skryre
+    dets = {d["name"]: d for d in group["selectionEntries"]}
+    battleline_id = b.category("Battleline")[0]
+    for det_name, keywords in BATTLELINE_GRANTS.items():
+        for unit in units:
+            if not set(keywords) & set(b.data[unit["name"]]["keywords"]):
+                continue
+            copies = next(c for c in unit["constraints"] if c["id"] == nid(unit["id"] + ":copies"))
+            unit.setdefault("modifiers", []).extend([
+                dict(type="add", field="category", value=battleline_id, conditions=[selected(dets[det_name]["id"])]),
+                dict(type="set", field=copies["id"], value=max(copies["value"], 6),
+                     conditions=[selected(dets[det_name]["id"], scope="roster")])])
+    return detachment_entry, enhancements, stratagems, projects, dets
 
 
 # Sections whose sub-headings are menu options or procedure steps stay as one rule.
-WHOLE_SECTIONS = {"Secret Schemes", "The Great Workshops", "The Master Moulder's Ledger", "The Hidden Ledger", "The Plague Catalogue",
-                  "Warlord Commands", "Clawpack Benefits", "The Plunder Ledger"}
+WHOLE_SECTIONS = {"Secret Schemes", "The Hidden Ledger", "The Plague Catalogue", "Warlord Commands", "The Plunder Ledger",
+                  "Workshop Projects", "Mutations", "Ruinous Defects", "Council Seats"}
 ARMY_RULE_PATTERNS = OrderedDict([
     ("The Under-Empire", r"Under-Empire|Gnawhole"),
     ("Scurry Away!", r"Scurry Away|Cornered Rats"),
@@ -1031,6 +1057,7 @@ def build_enhancements(b, enhancements, units):
             unit_level = False
         name = card["name"] + (" [Upgrade]" if unit_level else "")
         eid = b.old_ids.get(norm(card["name"])) or nid("enhancement:" + card["name"])
+        b.enh_ids[card["name"]] = eid
         points = int(re.search(r"(\d+)", card["cost"]).group(1))
         body = clean_markdown(card["body"])
         description = (restriction + "\n\n" + body).strip() if restriction else body
@@ -1072,56 +1099,193 @@ def build_enhancements(b, enhancements, units):
     return shared
 
 
-PROJECT_TOKENS = "95a1-fc42-7bd0-9091"
+PROJECT_TOKENS = "95a1-fc42-7bd0-9091"  # the "Workshop Projects" cost type (formerly Workshop Tokens)
+CHAR_KEYS = {"M": "M", "T": "T", "SV": "SV", "W": "W", "OC": "OC", "A": "A", "WS": "WS", "S": "S"}
 
 
-def build_projects(b, projects, units, skryre):
-    shared, army_level = [], []
-    for det, card in projects:
+def add_number(text, n, floor=None):
+    """'7"' + 2 -> '9"'; '2D6+1"' + 2 -> '2D6+3"'; 'D6' + 1 -> 'D6+1'."""
+    m = re.match(r'^(.*?)(\d+)?(")?$', text)
+    head, num, inch = m.group(1), m.group(2), m.group(3) or ""
+    if num is None:
+        return text if n < 0 else f"{text}+{n}"
+    if head.endswith("+") or head.endswith("-"):
+        value = int(num) * (1 if head.endswith("+") else -1) + n
+        head = head[:-1]
+        return f"{head}{'+' if value >= 0 else '-'}{abs(value)}{inch}" if value else f"{head}{inch}"
+    value = int(num) + n
+    if floor is not None:
+        value = max(floor, value)
+    return f"{head}{value}{inch}"
+
+
+def add_roll(text, n, best=3):
+    """'4+' improved by 1 -> '3+' (never better than best); worsened -> '5+'."""
+    m = re.match(r"^(\d)\+$", text.strip())
+    if not m:
+        return text
+    value = int(m.group(1)) - n
+    if n > 0:
+        value = max(best, value) if int(m.group(1)) > best else int(m.group(1))
+    return f"{value}+"
+
+
+# Mutation / Ruinous Defect -> (profile kind, characteristic, change)
+MUTATION_EFFECTS = {
+    "Thickened Hide": ("Unit", "T", 1), "Soft Flesh": ("Unit", "T", -1),
+    "Chitinous Plates": ("Unit", "SV", 1), "Exposed Organs": ("Unit", "SV", -1),
+    "Too Many Limbs": ("Melee Weapons", "A", 1), "Missing Limbs": ("Melee Weapons", "A", -1),
+    "Overgrown Musculature": ("Melee Weapons", "S", 1), "Atrophied Musculature": ("Melee Weapons", "S", -1),
+    "Lengthened Legs": ("Unit", "M", 2), "Stunted Legs": ("Unit", "M", -2),
+    "Predatory Reflexes": ("Melee Weapons", "WS", 1),
+    "Uncontrollable": ("Unit", "OC", -1),
+    "Bloated Mass": ("Unit", "W", 2), "Withered Frame": ("Unit", "W", -2),
+}
+DEFECT_PAIRS = {"Soft Flesh": "Thickened Hide", "Exposed Organs": "Chitinous Plates", "Missing Limbs": "Too Many Limbs",
+                "Atrophied Musculature": "Overgrown Musculature", "Stunted Legs": "Lengthened Legs",
+                "Withered Frame": "Bloated Mass"}
+
+
+def changed_value(char, value, change):
+    if char in ("SV", "WS"):
+        return add_roll(value, change, best=3)
+    floor = 1 if char in ("A", "OC", "T", "W") else None
+    return add_number(value, change, floor)
+
+
+def mutation_modifiers(unit, mutation_id, name):
+    """Show a Mutation on the unit's stat lines, as Keeper of Secrets in the Emperor's Children catalogue."""
+    kind, char, change = MUTATION_EFFECTS[name]
+    for sub in walk(unit):
+        for profile in sub.get("profiles", []) if isinstance(sub, dict) else []:
+            if profile.get("typeName") != kind:
+                continue
+            for c in profile["characteristics"]:
+                if CHAR_KEYS.get(c["name"].upper()) == char and c.get("$text", "-") not in ("-", ""):
+                    if char == "A" and "EXTRA ATTACKS" in profile["characteristics"][-1].get("$text", "").upper():
+                        continue
+                    new = changed_value(char, c["$text"], change)
+                    if new != c["$text"]:
+                        profile.setdefault("modifiers", []).append(dict(
+                            field=c["typeId"], type="set", value=new,
+                            conditions=[selected(mutation_id, scope=unit["id"])]))
+
+
+def option_group(unit, key, name, limit):
+    groups = unit.setdefault("selectionEntryGroups", [])
+    g = next((x for x in groups if x["name"] == name), None)
+    if not g:
+        gid = nid(unit["id"] + ":" + key)
+        g = dict(name=name, id=gid, hidden=False, entryLinks=[], constraints=[constraint(nid(gid + ":max"), "max", limit)])
+        groups.append(g)
+    return g
+
+
+def build_options(b, options, units, dets):
+    """Workshop Projects, Mutations, Ruinous Defects and Council Seats as capped options on eligible units."""
+    shared, ids = [], {}
+    for det, card in options:
         restriction = card["italics"][0] if card["italics"] else ""
-        eid = b.old_ids.get(norm(card["name"])) or nid("project:" + card["name"])
+        eid = b.old_ids.get(norm(card["name"])) or nid(card["kind"] + ":" + card["name"])
+        ids[card["name"]] = eid
         body = clean_markdown(card["body"])
-        e = entry(eid, card["name"], costs=[dict(name="Workshop Tokens", typeId=PROJECT_TOKENS, value=card["cost"])],
-                  constraints=[constraint(nid(eid + ":max"), "max", 1, scope="roster", child=True)],
+        costs, roster_max = [], None
+        if card["kind"] == "project":
+            costs, roster_max = [dict(name="Workshop Projects", typeId=PROJECT_TOKENS, value=1)], 3
+        elif card["kind"] == "mutation":
+            costs = [dict(name="Flesh-Sculpting", typeId=FLESH_SCULPTING, value=1)]
+        elif card["kind"] == "defect":
+            costs = []  # each Defect taken raises the Mutation cap by 1 (see below)
+        elif card["kind"] == "seat":
+            roster_max = 1
+        label = {"project": "", "mutation": "Mutation: ", "defect": "Ruinous Defect: ", "seat": ""}[card["kind"]]
+        e = entry(eid, label + card["name"], costs=costs,
                   rules=[dict(name=card["name"], id=nid(eid + ":rule"), hidden=False,
-                              description=(f"*{restriction}*\n\n" if restriction else "") + body)])
+                              description=(f"*{restriction}*\n\n" if restriction and card["kind"] == "project" else "")
+                              + body)])
+        if roster_max:
+            e["constraints"] = [constraint(nid(eid + ":max"), "max", roster_max, scope="roster", child=True)]
         shared.append(e)
-        if not restriction or restriction.startswith("Unassigned") or card["name"] == "Doomsphere":
-            army_level.append(e)
-            continue
         hits = 0
         for unit in units:
             ds = b.data[unit["name"]]
-            character = "CHARACTER" in restriction
-            if character and "CHARACTER" not in ds["keywords"]:
-                continue
-            ok = eligible(ds, restriction, character)
-            big_guns = (not ok and "WEAPON TEAM" in restriction and "STORMFIENDS" in ds["keywords"])
-            if not ok and not big_guns:
-                continue
-            groups = unit.setdefault("selectionEntryGroups", [])
-            g = next((x for x in groups if x["name"] == "Workshop Projects"), None)
-            if not g:
-                gid = nid(unit["id"] + ":projects")
-                g = dict(name="Workshop Projects", id=gid, hidden=False, entryLinks=[],
-                         constraints=[constraint(nid(gid + ":max"), "max", 2)])
-                groups.append(g)
-            link = gated(g["id"], eid, card["name"], skryre["id"])
-            if big_guns:  # Big-Big Guns For Big-Big Rats! opens Weapon Team projects to Stormfiends
-                bbg = next(x for d, x in projects if x["name"].startswith("Big-Big Guns"))
-                bbg_id = b.old_ids.get(norm(bbg["name"])) or nid("project:" + bbg["name"])
-                link["modifiers"][0]["conditions"].append(selected(bbg_id, scope=unit["id"]))
-            g["entryLinks"].append(link)
+            kws = set(ds["keywords"])
+            if card["kind"] == "project":
+                character = "CHARACTER" in restriction
+                if character and "CHARACTER" not in kws:
+                    continue
+                ok = eligible(ds, restriction, character) or (
+                    "WEAPON TEAM" in restriction and "STORMFIENDS" in kws)  # Stormfiends take Weapon Team Projects
+                if not ok:
+                    continue
+                g = option_group(unit, "projects", "Workshop Projects", 1)
+                g["entryLinks"].append(gated(g["id"], eid, card["name"], det["id"]))
+            elif card["kind"] in ("mutation", "defect"):
+                if "MOULDER" not in kws or not kws & {"BEAST", "MONSTER"} or "CHARACTER" in kws:
+                    continue
+                if "MONSTER unit only" in restriction and "MONSTER" not in kws:
+                    continue
+                title_ = "Mutations" if card["kind"] == "mutation" else "Ruinous Defect"
+                g = option_group(unit, card["kind"] + "s", "Flesh-Sculpting: " + title_, 1)
+                link = gated(g["id"], eid, e["name"], det["id"])
+                pair = DEFECT_PAIRS.get(card["name"])
+                if pair:  # a Defect cannot undo its own Mutation
+                    link["modifiers"].append(dict(field="hidden", value=True, type="set",
+                                                  conditions=[selected(ids[pair], scope=unit["id"])]))
+                g["entryLinks"].append(link)
+                mutation_modifiers(unit, eid, card["name"])
+            elif card["kind"] == "seat":
+                if "CHARACTER" not in kws:
+                    continue
+                clan = card["name"].replace(" Seat", "").upper()
+                g = option_group(unit, "seat", "Council Seat", 1)
+                link = gated(g["id"], eid, card["name"], det["id"])
+                if clan not in kws:  # Lord of Decay: any Seat
+                    link["modifiers"][0]["conditions"].append(selected(b.enh_ids["Lord of Decay"], scope=unit["id"]))
+                    link["modifiers"][0] = dict(link["modifiers"][0], conditionGroups=[dict(
+                        type="and", conditions=link["modifiers"][0].pop("conditions"))])
+                g["entryLinks"].append(link)
             hits += 1
         if not hits:
-            b.log.append(f"No eligible unit for project {card['name']} ({restriction})")
-    budget = constraint(nid(skryre["id"] + ":tokens"), "max", 12, scope="roster", field=PROJECT_TOKENS, child=True,
-                        forces=True)
-    skryre["constraints"].append(budget)
-    skryre.setdefault("modifiers", []).extend([
-        dict(type="set", field=budget["id"], value=6, conditions=[selected(INCURSION, scope="roster")]),
-        dict(type="set", field=budget["id"], value=18, conditions=[selected(ONSLAUGHT, scope="roster")])])
-    return shared, army_level
+            b.log.append(f"No eligible unit for {card['kind']} {card['name']} ({restriction})")
+
+    # Caps: Workshop Projects and Mutations on 3 / 6 / 9 units; a Defect buys a second Mutation.
+    for det_name, cost_id, limits in (("Skryre Worship", PROJECT_TOKENS, (3, 6, 9)),
+                                       ("Moulder Flesh Laboratory", FLESH_SCULPTING, (3, 6, 9))):
+        det = dets[det_name]
+        cap = constraint(nid(det["id"] + ":cap"), "max", limits[1], scope="roster", field=cost_id, child=True,
+                         forces=True)
+        det["constraints"].append(cap)
+        det.setdefault("modifiers", []).extend([
+            dict(type="set", field=cap["id"], value=limits[0], conditions=[selected(INCURSION, scope="roster")]),
+            dict(type="set", field=cap["id"], value=limits[2], conditions=[selected(ONSLAUGHT, scope="roster")])])
+        if det_name == "Moulder Flesh Laboratory":
+            for e in shared:
+                if e["name"].startswith("Ruinous Defect: "):
+                    det["modifiers"].append(dict(type="increment", field=cap["id"], value=1, repeats=[dict(
+                        childId=e["id"], field="selections", scope="roster", value=1, repeats=1, shared=True,
+                        includeChildSelections=True, roundUp=False)]))
+        if det_name == "Skryre Worship" and "Chief-Chief Engineer" in b.enh_ids:
+            det["modifiers"].append(dict(type="increment", field=cap["id"], value=2, conditions=[
+                selected(b.enh_ids["Chief-Chief Engineer"], scope="roster")]))
+    for unit in units:
+        for g in unit.get("selectionEntryGroups", []):
+            if g["name"] in ("Flesh-Sculpting: Mutations", "Workshop Projects", "Council Seat"):
+                for link in g["entryLinks"]:  # each option once per unit, shown as a checkbox
+                    link["constraints"] = [constraint(nid(link["id"] + ":once"), "max", 1)]
+            if g["name"] == "Flesh-Sculpting: Mutations":
+                defects = next((x for x in unit["selectionEntryGroups"] if x["name"] == "Flesh-Sculpting: Ruinous Defect"), None)
+                if defects:
+                    g["modifiers"] = [dict(type="increment", field=g["constraints"][0]["id"], value=1, conditions=[
+                        dict(childId=defects["id"], field="selections", scope=unit["id"], type="atLeast", value=1,
+                             shared=True, includeChildSelections=True)])]
+            elif g["name"] == "Workshop Projects" and "Chief-Chief Engineer" in b.enh_ids:
+                g["modifiers"] = [dict(type="set", field=g["constraints"][0]["id"], value=2, conditions=[
+                    selected(b.enh_ids["Chief-Chief Engineer"], scope="roster")])]
+            elif g["name"] == "Council Seat" and "Lord of Decay" in b.enh_ids:
+                g["modifiers"] = [dict(type="set", field=g["constraints"][0]["id"], value=2, conditions=[
+                    selected(b.enh_ids["Lord of Decay"], scope=unit["id"])])]
+    return shared
 
 
 def build_stratagems(b, stratagems):
@@ -1223,9 +1387,9 @@ def build(source, catalogue_path, system_path):
     build_army_rules(b)
     units = [b.datasheet(name) for name in b.data]
     add_associations(b, units)
-    detachment_entry, enhancements, stratagems, projects, skryre = build_detachments(b, units)
+    detachment_entry, enhancements, stratagems, projects, dets = build_detachments(b, units)
     shared_enh = build_enhancements(b, enhancements, units)
-    shared_projects, army_projects = build_projects(b, projects, units, skryre)
+    shared_projects = build_options(b, projects, units, dets)
     strat_links = build_stratagems(b, stratagems)
 
     # Warlord: any CHARACTER can be chosen, as in the Emperor's Children catalogue; the game system requires one.
@@ -1246,9 +1410,9 @@ def build(source, catalogue_path, system_path):
     contract = entry(contract_id, "Black Contract - Paid Informants",
                      constraints=[constraint(nid(contract_id + ":max"), "max", 3, scope="roster", child=True)],
                      profiles=[b.ability_profile(nid(contract_id + ":ability"), "Paid Informants",
-                                                 "This unit has Scouts 6\".")])
-    scouts = next(r for r in b.sys_rules if r["name"] == 'Scouts 6"')
-    rule_link(contract, scouts)
+                                                 "This unit has the Scouts 6\" and Stealth abilities.")])
+    for core in ('Scouts 6"', "Stealth"):
+        rule_link(contract, next(r for r in b.sys_rules if r["name"] == core))
     shadowy = next(d for d in detachment_entry["selectionEntryGroups"][0]["selectionEntries"]
                    if d["name"] == "Shadowy Dealings")
     clanrats = next(u for u in units if u["name"] == "Clanrats")
@@ -1274,6 +1438,24 @@ def build(source, catalogue_path, system_path):
     claim["modifiers"] = [dict(type="set", field="hidden", value=False, conditions=[in_skurvy])]
     clanrats["profiles"].insert(len([p for p in clanrats["profiles"] if not p.get("hidden")]), claim)
 
+    # Council Levies (Council of Treachery): each Clanrats unit can swear to one Clan.
+    council = dets["Council of Treachery"]
+    levies = []
+    gid = nid(clanrats["id"] + ":levy")
+    levy_group = dict(name="Council Levy", id=gid, hidden=False, entryLinks=[],
+                      constraints=[constraint(nid(gid + ":max"), "max", 1)])
+    for clan in COUNCIL_CLANS:
+        lid = nid("council-levy:" + clan)
+        clan_id, clan_name = b.category(title(clan))
+        levies.append(entry(lid, f"Council Levy: {title(clan)}", rules=[dict(
+            name="Council Levies", id=nid(lid + ":rule"), hidden=False,
+            description=f"This unit is sworn to the {clan} Seat. It gains the {clan} keyword, and has that Seat's "
+                        "benefit while that Seat is held.")]))
+        levy_group["entryLinks"].append(gated(gid, lid, levies[-1]["name"], council["id"]))
+        clanrats["modifiers"].append(dict(type="add", field="category", value=clan_id,
+                                          conditions=[selected(lid, scope=clanrats["id"])]))
+    clanrats["selectionEntryGroups"].append(levy_group)
+
     # SKURVY CHARACTER enhancements go on Black-Flag mercenary characters, which live in another catalogue.
     officers_id = nid("skurvy-officers")
     skurvy_det = b.skurvy_officers[0][0] if b.skurvy_officers else None
@@ -1295,24 +1477,14 @@ def build(source, catalogue_path, system_path):
                                [dict(id=nid(army_ref_id + ":" + n), name=n, targetId=b.rules[n]["id"], type="rule",
                                      hidden=False) for n in ARMY_RULE_ORDER])
     strat_ref = reference_entry(nid("stratagem-references"), "Stratagem References", strat_links)
-    workshop_id = nid("army-workshop-projects")
-    workshop = entry(workshop_id, "Workshop Projects (Army)", hidden=True,
-                     categoryLinks=[dict(name="Configuration", id=nid(workshop_id + ":cat"),
-                                         targetId="4ac9-fd30-1e3d-b249", primary=True, hidden=False)],
-                     modifiers=[dict(field="hidden", type="set", value=False, conditions=[selected(skryre["id"])])],
-                     constraints=[constraint(nid(workshop_id + ":max"), "max", 1)],
-                     entryLinks=[dict(name=p["name"], id=nid(workshop_id + ":" + p["id"]), targetId=p["id"],
-                                      type="selectionEntry", hidden=False, **{"import": True})
-                                 for p in army_projects])
-
     old = b.old
     keep_links = [l for l in old["entryLinks"]
                   if l["targetId"] not in {e["id"] for e in old["sharedSelectionEntries"]}]  # Black-Flag units
 
-    shared_entries = [detachment_entry, army_ref, strat_ref, workshop, officers, contract, warlord] + units + shared_enh + \
+    shared_entries = [detachment_entry, army_ref, strat_ref, officers, contract, warlord] + levies + units + shared_enh + \
         shared_projects
     root_links = []
-    for e in [detachment_entry, army_ref, strat_ref, workshop, officers] + units:
+    for e in [detachment_entry, army_ref, strat_ref, officers] + units:
         link_id = next((l["id"] for l in old["entryLinks"] if l["targetId"] == e["id"]), nid("root:" + e["id"]))
         root_links.append(dict(name=e["name"], id=link_id, hidden=False, targetId=e["id"], type="selectionEntry",
                                **{"import": True}))
@@ -1325,7 +1497,18 @@ def build(source, catalogue_path, system_path):
     new["authorName"] = "Xverse homebrew"
     new["authorContact"] = ""
     new["readme"] = "Skaven 11th-edition homebrew codex."
-    new["costTypes"] = old.get("costTypes", [])
+    new["costTypes"] = copy.deepcopy(old.get("costTypes", []))
+    for ct in new["costTypes"]:
+        if ct["id"] == PROJECT_TOKENS:
+            ct["name"] = "Workshop Projects"
+            ct["modifiers"] = [dict(field="hidden", type="set", value=False,
+                                    conditions=[selected(dets["Skryre Worship"]["id"], scope="roster")])]
+    if not any(ct["id"] == FLESH_SCULPTING for ct in new["costTypes"]):
+        new["costTypes"].append(dict(name="Flesh-Sculpting", id=FLESH_SCULPTING, defaultCostLimit=-1, hidden=True))
+    for ct in new["costTypes"]:
+        if ct["id"] == FLESH_SCULPTING:
+            ct["modifiers"] = [dict(field="hidden", type="set", value=False,
+                                    conditions=[selected(dets["Moulder Flesh Laboratory"]["id"], scope="roster")])]
     new["catalogueLinks"] = old.get("catalogueLinks", [])
     new["categoryEntries"] = list(b.categories.values())
     new["sharedSelectionEntries"] = shared_entries

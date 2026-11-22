@@ -136,7 +136,7 @@ def main():
 
     # -- detachments, enhancements, stratagems
     group = entries["Detachment"]["selectionEntryGroups"][0]["selectionEntries"]
-    check(len(group) == 12, f"{len(group)} detachments, expected 12")
+    check(len(group) == 17, f"{len(group)} detachments, expected 17")
     strat_rules = [r["name"] for r in cat["sharedRules"] if " — " in r["name"]]
     for d in group:
         dp, dispositions = DETACHMENTS[d["name"]]

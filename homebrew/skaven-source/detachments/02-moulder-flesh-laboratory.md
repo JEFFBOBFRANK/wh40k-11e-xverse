@@ -1,74 +1,118 @@
 # Moulder Flesh Laboratory
 
-<!-- old p26 -->
+## Flesh-Sculpting
 
-## The Flesh Laboratory
+- When mustering your army, give 1 Mutation to each of up to 3 units (Incursion), 6 units (Strike Force) or 9 units (Onslaught). Each must be a **MOULDER BEAST** or **MOULDER MONSTER** unit.
+- A unit with a Mutation can also take 1 Ruinous Defect. If it does, it takes a second, different Mutation.
+- A unit cannot take a Mutation and the Ruinous Defect that changes the same characteristic. Bloated Mass and Withered Frame are for **MONSTER** units only.
+- Mutations and Ruinous Defects are not Enhancements.
 
-### MAKE-MAKE NEW ONES!
+## Make-Make New Ones!
 
-Your They Just Keep Coming! Vermin Ability can also target destroyed non-CHARACTER MOULDER BEAST units. When a new MOULDER BEAST unit is created this way, you can Flesh-Sculpt it before placing it in the Under-Empire. That new unit gains the MUTATED keyword.
+- Your **They Just Keep Coming!** Vermin Ability can also target a destroyed non-**CHARACTER** **MOULDER BEAST** or **MOULDER MONSTER** unit. For a **MONSTER** unit, double the Vermin cost; if you use Thirteen for the Horned Rat instead, Sacrifice 26 models.
+- The new unit keeps the Mutations and Ruinous Defects of the destroyed unit and takes 1 more Mutation. It can be placed in and emerge from the Under-Empire, even if it is a **MONSTER**.
+- The new unit gains the **MUTATED** keyword and this ability. **Unstable Mutation:** This unit has Deadly Demise D6. Each time this ability is triggered, after resolving it, gain D3 Vermin.
+- When They Just Keep Coming! creates a new **CLANRATS** unit, that unit can take 1 Mutation (not Bloated Mass) and gains the **MOULDER** and **MUTATED** keywords.
 
-### MONSTROUS CREATIONS
+## Fresh Meat-Meat!
 
-Your They Just Keep Coming! Vermin Ability can also target destroyed non-CHARACTER MOULDER MONSTER units. When it does, roll the Vermin cost normally (adding any surcharge first), then double the final rolled cost. If Thirteen for the Horned Rat is used instead, Sacrifice exactly 26 eligible friendly SKAVEN models instead of 13. Flesh-Sculpting costs must still be paid using Vermin. The created MONSTER can be placed in and emerge from the Under-Empire despite being a MONSTER. This exception applies only to the unit created by They Just Keep Coming! and does not otherwise allow that MONSTER to enter the Under-Empire.
+Every **MOULDER CHARACTER** model from your army has this ability. **Fresh Meat-Meat!:** At the end of your Command phase, select one friendly **MOULDER BEAST**, **MOULDER MONSTER** or **CLANRATS** unit within 6" of this model, then select one other friendly **SKAVEN INFANTRY** unit within 3" of this model. You can Sacrifice up to 3 models from that **SKAVEN INFANTRY** unit. If the first selected unit is a **CLANRATS** unit, for each model Sacrificed, return one destroyed Clanrat model to that unit, not exceeding its Starting Strength. Otherwise, for each model Sacrificed, one model in the first selected unit regains 1 lost wound. Each unit can only be selected as the first unit for this ability once per phase.
 
-### REMADE CLANRATS
+## Pack-Driven
 
-When They Just Keep Coming! creates a new CLANRATS unit, you can Flesh-Sculpt that unit before placing it in the Under-Empire. That unit gains the MOULDER and MUTATED keywords, can receive a maximum of one Flesh-Sculpting alteration, and cannot select Bloated Mass or Withered Frame.
+Each time a model in a friendly **CLANRATS** unit makes a melee attack, if that unit is within 6" of one or more friendly **MOULDER BEAST** or **MOULDER MONSTER** units, add 1 to the Hit roll.
 
-### FLESH-SCULPTING
+## Feed the Beasts
 
-When Make-Make New Ones! creates an eligible unit, select Flesh-Sculpting alterations for it. MOULDER BEAST or MOULDER MONSTER units can receive a maximum of 3 alterations; CLANRATS can receive a maximum of 1. Each characteristic can only be altered once.
+Each time a friendly **SKAVEN INFANTRY** model is destroyed or Sacrificed within 6" of a friendly **MOULDER BEAST** or **MOULDER MONSTER** unit, until the end of the turn, each time a model in that **MOULDER** unit makes a melee attack, add 1 to the Wound roll.
 
-### MOULDER CHARACTER ABILITY
+## Mutations
 
-_Every MOULDER CHARACTER model from your army has this ability._
+### THICKENED HIDE
 
-**Fresh Meat-Meat!:** At the end of your Command phase, select one friendly MOULDER BEAST, MOULDER MONSTER or CLANRATS unit within 6" of this model, then select one other friendly SKAVEN INFANTRY unit within 3" of this model. You can Sacrifice up to 3 models from that SKAVEN INFANTRY unit. If the first selected unit is a CLANRATS unit, for each model Sacrificed, return one destroyed Clanrat model to that unit, not exceeding its Starting Strength. Otherwise, for each model Sacrificed, one model in the first selected unit regains 1 lost wound. Each eligible unit can only be selected as the first selected unit for this ability once per phase.
+_Mutation_
 
-<!-- old p27 -->
+Add 1 to the Toughness characteristic of models in this unit.
 
-## The Master Moulder's Ledger
+### CHITINOUS PLATES
 
-_Each alteration changes one characteristic of the Flesh-Sculpted unit. Positive costs must be paid in Vermin; negative costs reduce the total._
+_Mutation_
 
-| DESIRED GROWTH | EFFECT | VERMIN |
-| Lengthened Legs | Add 2" to Move. | +1 |
-| Thickened Hide | Add 1 to Toughness. | +2 |
-| Chitinous Plates | Improve Save by 1. | +2 |
-| Bloated Mass | Add 1 to Wounds. | +1 |
-| Grasping Limbs | Add 1 to Objective Control. | +1 |
+Improve the Save characteristic of models in this unit by 1, to a maximum of 3+.
 
-| RUINOUS DEFECT | EFFECT | VERMIN |
-| Stunted Legs | Subtract 2" from Move. | -1 |
-| Soft Flesh | Subtract 1 from Toughness. | -2 |
-| Exposed Organs | Worsen Save by 1. | -2 |
-| Withered Frame | Subtract 1 from Wounds. | -1 |
-| Uncontrollable | Subtract 1 from Objective Control. | -1 |
+### TOO MANY LIMBS
 
-<!-- old p28 -->
+_Mutation_
 
-## The Master Moulder's Ledger - Continued
+Add 1 to the Attacks characteristic of melee weapons equipped by models in this unit, excluding weapons with [EXTRA ATTACKS].
 
-| DESIRED GROWTH | EFFECT | VERMIN |
-| Predatory Reflexes | Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1. | +2 |
-| Overgrown Musculature | Add 1 to the Strength characteristic of melee weapons equipped by models in this unit. | +1 |
-| Too Many Limbs | Add 1 to the Attacks characteristic of melee weapons equipped by models in this unit. Weapons with [EXTRA ATTACKS] are not affected. | +2 |
+### OVERGROWN MUSCULATURE
 
-| RUINOUS DEFECT | EFFECT | VERMIN |
-| Sluggish Reflexes | Worsen the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1. | -2 |
-| Atrophied Musculature | Subtract 1 from the Strength characteristic of melee weapons equipped by models in this unit. | -1 |
-| Missing Limbs | Subtract 1 from the Attacks characteristic of melee weapons equipped by models in this unit, to a minimum of 1. Weapons with [EXTRA ATTACKS] are not affected. | -2 |
+_Mutation_
 
-### COST & LIMITS
+Add 1 to the Strength characteristic of melee weapons equipped by models in this unit.
 
-After selecting alterations, total their Vermin modifiers. If the total is positive, spend that many additional Vermin. If the total is 0 or less, no additional Vermin are spent. Flesh-Sculpting can never generate Vermin. Flesh-Sculpting costs cannot be paid using Thirteen for the Horned Rat. Move, Toughness, Wounds and Objective Control cannot be reduced below 1. Save cannot be improved beyond 3+. Melee Weapon Skill cannot be improved beyond 3+. Melee Attacks cannot be reduced below 1.
+### LENGTHENED LEGS
 
-### MUTATED - UNSTABLE MUTATION
+_Mutation_
 
-A unit created using Make-Make New Ones! gains the MUTATED keyword and this ability. This unit has Deadly Demise D6. If it already had a Deadly Demise ability, replace it with Deadly Demise D6. Each time this unit's Deadly Demise ability activates, after resolving that ability, gain D6 Vermin.
+Add 2" to the Move characteristic of models in this unit and add 1 to charge rolls made for this unit.
 
-<!-- old p29 -->
+### PREDATORY REFLEXES
+
+_Mutation_
+
+Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1, to a maximum of 3+.
+
+### BLOATED MASS
+
+_Mutation - MONSTER unit only_
+
+Add 2 to the Wounds characteristic of models in this unit.
+
+## Ruinous Defects
+
+### SOFT FLESH
+
+_Ruinous Defect_
+
+Subtract 1 from the Toughness characteristic of models in this unit.
+
+### EXPOSED ORGANS
+
+_Ruinous Defect_
+
+Worsen the Save characteristic of models in this unit by 1.
+
+### MISSING LIMBS
+
+_Ruinous Defect_
+
+Subtract 1 from the Attacks characteristic of melee weapons equipped by models in this unit, to a minimum of 1, excluding weapons with [EXTRA ATTACKS].
+
+### ATROPHIED MUSCULATURE
+
+_Ruinous Defect_
+
+Subtract 1 from the Strength characteristic of melee weapons equipped by models in this unit.
+
+### STUNTED LEGS
+
+_Ruinous Defect_
+
+Subtract 2" from the Move characteristic of models in this unit.
+
+### UNCONTROLLABLE
+
+_Ruinous Defect_
+
+Subtract 1 from the Objective Control characteristic of models in this unit, to a minimum of 1.
+
+### WITHERED FRAME
+
+_Ruinous Defect - MONSTER unit only_
+
+Subtract 2 from the Wounds characteristic of models in this unit.
 
 ## Moulder Enhancements
 
@@ -76,7 +120,7 @@ A unit created using Make-Make New Ones! gains the MUTATED keyword and this abil
 
 _MOULDER CHARACTER model only._
 
-Once per battle, when you Flesh-Sculpt a MOULDER BEAST or MOULDER MONSTER using Make-Make New Ones!, if the bearer is on the battlefield, you can declare that unit the bearer's masterpiece. It can receive up to 4 alterations instead of 3, and reduce its final additional Vermin cost by 2, to a minimum of 0. Only one masterpiece can be created per battle.
+Each time They Just Keep Coming! creates a new unit using Make-Make New Ones! while the bearer is on the battlefield, that unit takes 2 more Mutations instead of 1.
 
 ### NEEDLE OF THE GREAT STITCHER  [25 pts]
 
@@ -95,8 +139,6 @@ Once per battle round, when an enemy CHARACTER, BEAST or MONSTER model is destro
 _MOULDER CHARACTER model only._
 
 Once per battle round, at the start of your Charge phase, select one friendly MOULDER BEAST or MOULDER MONSTER unit within 6" of the bearer. Until the end of the phase, add 2 to charge rolls made for that unit and it is eligible to declare a charge in a turn in which it made an advance move. After it completes a charge move, it suffers D3 mortal wounds.
-
-<!-- old p30 -->
 
 ## Moulder Stratagems
 
@@ -144,13 +186,13 @@ _Epic Deed Stratagem_
 
 _Epic Deed Stratagem_
 
-**WHEN:** When you Flesh-Sculpt a MOULDER BEAST or MOULDER MONSTER using Make-Make New Ones!.
+**WHEN:** When They Just Keep Coming! creates a new unit using Make-Make New Ones!.
 
 **TARGET:** That unit.
 
-**EFFECT:** Select one additional Flesh-Sculpting alteration for your unit. Its Vermin modifier applies normally. This can increase a normal creation to 4 alterations, or a masterpiece to 5.
+**EFFECT:** Your unit takes 1 more Mutation.
 
-### NOT DEAD-DEAD YET!  [1CP/2CP]
+### NOT DEAD-DEAD YET!  [1CP]
 
 _Epic Deed Stratagem_
 
@@ -158,6 +200,4 @@ _Epic Deed Stratagem_
 
 **TARGET:** That unit.
 
-**EFFECT:** Until the end of the phase, each time a model in your unit is destroyed by a melee attack before it has fought, roll one D6, adding 1 if your unit has the MUTATED keyword. On a 4+, do not remove that model. After the attacking unit has finished making its attacks, that destroyed model can fight and is then removed from the battlefield.
-
-**RESTRICTION:** Costs 1CP for a BEAST; 2CP for a MONSTER.
+**EFFECT:** Until the end of the phase, each time a model in your unit is destroyed by a melee attack before it has fought, roll one D6, adding 1 if your unit has the MUTATED keyword. On a 4+ (5+ for a MONSTER), do not remove that model. After the attacking unit has finished making its attacks, that destroyed model can fight and is then removed from the battlefield.

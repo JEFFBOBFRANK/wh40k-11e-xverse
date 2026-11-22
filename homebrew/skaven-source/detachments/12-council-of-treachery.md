@@ -1,72 +1,142 @@
 # Council of Treachery
 
-<!-- old p57 -->
+## The Council of Thirteen
 
-## Clan Allegiance
+- **Seats:** when mustering your army, each friendly **SKAVEN CHARACTER** with a Clan keyword can hold that Clan's Seat: **VERMINUS**, **SKRYRE**, **MOULDER**, **ESHIN**, **PESTILENS** or **MASTERCLAN**. Each Seat can have one holder, and each **CHARACTER** can hold one Seat.
+- **Power of the Seat:** while a Seat-holder is on the battlefield, friendly units with that Seat's Clan keyword have that Seat's benefit.
+- **Seize the Seat:** when a Seat-holder is destroyed, its Seat becomes Vacant. At the start of your Command phase, one friendly **SKAVEN CHARACTER** can claim one Vacant Seat. While it holds that Seat, its unit and friendly units with that Seat's Clan keyword within 6" of it have that Seat's benefit.
+- **Knife in the Dark:** once per battle, at the start of your Command phase, one friendly **SKAVEN CHARACTER** within 3" of another friendly Seat-holder can betray it. That Seat-holder suffers D3+1 mortal wounds. If it is destroyed, the betrayer claims its Seat immediately, even if it already holds a Seat, and you gain D3 Vermin.
 
-For the purposes of this Detachment, the following are Clan keywords: VERMINUS, SKRYRE, MOULDER, ESHIN, PESTILENS and SKURVY. If a unit has more than one Clan keyword, when mustering your army select one of those keywords to be that unit's Clan Allegiance for the battle. Otherwise, a unit's Clan Allegiance is its Clan keyword.
+## Council Seats
 
-### WORK-WORK TOGETHER! FOR NOW...
+### VERMINUS SEAT
 
-Each time a friendly unit with a Clan Allegiance is selected to shoot or fight, select one enemy unit as the target of its attacks. If that enemy unit has already lost one or more wounds during that phase as a result of attacks made by a friendly unit with a different Clan Allegiance, add 1 to Hit rolls made by the attacking unit against that enemy unit until the end of the phase. A Clan Allegiance cannot enable this benefit for another unit with the same Clan Allegiance.
+_Seat_
 
-### MINE-MINE WAS THE PLAN!
+Add 1 to the Objective Control characteristic of models in this unit.
 
-Once per phase, when a friendly unit destroys an enemy unit while benefiting from Work-Work Together! For Now..., gain 1 Vermin.
+### SKRYRE SEAT
 
-## Enhancements
+_Seat_
 
-### GREAT-GREAT DIPLOMAT  [25 pts]
+Each time this unit would resolve Warpstone Backlash, you can re-roll that roll.
 
-_SKAVEN CHARACTER model whose unit has a Clan Allegiance only._
+### MOULDER SEAT
 
-Once per phase, when a friendly unit with a different Clan Allegiance from the bearer's unit and within 6" of the bearer is selected to shoot or fight, select one enemy unit. For the purposes of Work-Work Together! For Now..., that enemy unit is treated as having already lost one or more wounds this phase as a result of attacks made by a friendly unit with the bearer's Clan Allegiance.
+_Seat_
 
-### KEEPER OF EVERYONE'S SECRETS  [20 pts]
+Models in this unit have the Feel No Pain 6+ ability.
 
-_SKAVEN CHARACTER model whose unit has a Clan Allegiance only._
+### ESHIN SEAT
 
-Once per battle round, when a friendly unit with a different Clan Allegiance from the bearer's unit and within 8" of the bearer destroys an enemy unit, gain 1 Vermin.
+_Seat_
+
+This unit has the Stealth ability.
+
+### PESTILENS SEAT
+
+_Seat_
+
+Each time a model in this unit makes a melee attack, add 1 to the Wound roll.
+
+### MASTERCLAN SEAT
+
+_Seat_
+
+Each time a PSYKER in this unit makes a psychic roll, add 1 to the result.
+
+## Council Levies
+
+When mustering your army, each **CLANRATS** unit can swear to one Clan that has a Seat-holder in your army. That unit gains that Clan's keyword, and has that Seat's benefit while that Seat is held, even by a betrayer.
+
+## Ambition Unchecked
+
+Each time a friendly **SKAVEN CHARACTER**'s unit loses one or more models, until the end of your next turn, add 1 to Hit rolls for attacks made by models in that unit.
+
+## Council Enhancements
+
+### LORD OF DECAY  [30 pts]
+
+_SKAVEN CHARACTER model only._
+
+The bearer can hold two Seats when mustering your army, even if it does not have those Clans' keywords.
+
+### SEAL OF THE COUNCIL  [25 pts]
+
+_SKAVEN CHARACTER model only._
+
+While the bearer holds a Seat, friendly SKAVEN units within 6" of the bearer have that Seat's benefit, whatever their Clan.
+
+### USURPER'S AMBITION  [20 pts]
+
+_SKAVEN CHARACTER model only._
+
+The bearer can use Knife in the Dark one additional time per battle. Each time the bearer claims a Seat, gain 1CP.
 
 ### CONTINGENCY BODYGUARDS  [15 pts]
 
-_SKAVEN CHARACTER model whose unit has a Clan Allegiance only._
+_SKAVEN CHARACTER model only._
 
-Once per battle round, when the bearer's unit is selected as the target of one or more attacks, select one friendly SKAVEN INFANTRY unit with a different Clan Allegiance within 3" of the bearer. You can Sacrifice D3 models from that unit. If you do, until the end of the phase subtract 1 from Wound rolls made against the bearer's unit.
-
-<!-- old p58 -->
+Once per battle round, when the bearer's unit is selected as the target of one or more attacks, you can Sacrifice D3 models from one friendly SKAVEN INFANTRY unit within 3" of the bearer. If you do, until the end of the phase, subtract 1 from Wound rolls made against the bearer's unit.
 
 ## Council Stratagems
-
-### YOU FIRST-FIRST!  [1CP]
-
-_Battle Tactic Stratagem_
-
-**WHEN:** Your Shooting phase or the Fight phase.
-
-**TARGET:** One friendly unit with a Clan Allegiance that has not been selected to shoot or fight this phase.
-
-**EFFECT:** Select one enemy unit and one other friendly unit with a different Clan Allegiance that has already made one or more attacks against that enemy unit this phase. Until the end of the phase, when resolving attacks made by your unit against that enemy unit, treat that enemy unit as though it had already lost one or more wounds this phase as a result of attacks made by that other friendly unit.
 
 ### BETTER THEM-THAN US!  [1CP]
 
 _Strategic Ploy Stratagem_
 
-**WHEN:** Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects a friendly unit with a Clan Allegiance as the target of one or more attacks.
+**WHEN:** Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects a friendly Seat-holder's unit as the target of one or more attacks.
 
-**TARGET:** That friendly unit.
+**TARGET:** That unit.
 
-**EFFECT:** Select one friendly SKAVEN INFANTRY unit with a different Clan Allegiance within 3" of your unit and Sacrifice up to D3 models from that unit. Until the end of the phase, each time an attack is allocated to your unit, worsen the Armour Penetration characteristic of that attack by 1. If 3 models were Sacrificed, models in your unit also have Feel No Pain 6+ until the end of the phase.
+**EFFECT:** Select one other friendly SKAVEN INFANTRY unit within 3" of your unit and Sacrifice up to D3 models from it. Until the end of the phase, each time an attack is allocated to your unit, worsen the Armour Penetration characteristic of that attack by 1. If 3 models were Sacrificed, models in your unit also have Feel No Pain 6+ until the end of the phase.
 
-### TAKE-TAKE THEIR SHARE!  [1CP]
+### THE COUNCIL VOTES!  [1CP]
+
+_Strategic Ploy Stratagem_
+
+**WHEN:** Start of your Command phase.
+
+**TARGET:** One Seat that is held.
+
+**EFFECT:** Until the start of your next Command phase, every friendly SKAVEN unit has that Seat's benefit, whatever its Clan.
+
+### A SEAT IS EMPTY-EMPTY!  [1CP]
 
 _Epic Deed Stratagem_
 
-**WHEN:** Just after a friendly unit destroys an enemy unit while benefiting from Work-Work Together! For Now... as a result of attacks made by another friendly unit with a different Clan Allegiance.
+**WHEN:** Just after a friendly Seat-holder is destroyed.
 
-**TARGET:** The unit that destroyed that enemy unit.
+**TARGET:** One friendly SKAVEN CHARACTER within 6" of it.
 
-**EFFECT:** Select the friendly unit with a different Clan Allegiance whose attacks enabled Work-Work Together! For Now.... Gain D3 Vermin, then that selected friendly unit suffers D3 mortal wounds.
+**EFFECT:** Your CHARACTER claims that Vacant Seat immediately.
 
-**RESTRICTION:** Once per battle round.
+### NOT MY FAULT!  [1CP]
 
+_Epic Deed Stratagem_
+
+**WHEN:** Just after a friendly SKAVEN unit fails a battle-shock roll.
+
+**TARGET:** That unit.
+
+**EFFECT:** Sacrifice D3 models from one friendly SKAVEN unit with a different Clan keyword within 6" of your unit. Your unit's battle-shock roll is passed instead.
+
+### FIGHT FOR FAVOUR!  [1CP]
+
+_Battle Tactic Stratagem_
+
+**WHEN:** The Fight phase.
+
+**TARGET:** Two friendly SKAVEN units with different Clan keywords that are engaged with the same enemy unit and have not been selected to fight this phase.
+
+**EFFECT:** Until the end of the phase, each time a model in either unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.
+
+### NO WITNESSES-WITNESSES!  [1CP]
+
+_Epic Deed Stratagem_
+
+**WHEN:** Just after Knife in the Dark destroys a friendly Seat-holder.
+
+**TARGET:** The CHARACTER that betrayed it.
+
+**EFFECT:** Gain 1CP. Until the end of the turn, add 1 to the Objective Control characteristic of models in friendly SKAVEN units within 6" of your CHARACTER.

@@ -1,7 +1,5 @@
 # Shadowy Dealings
 
-<!-- old p31 -->
-
 ## Secret Schemes
 
 ### CHOOSE
@@ -19,13 +17,13 @@ Each Scheme can only be completed once. You can complete a maximum of 4 Schemes 
 | SELECT | REVEAL | COMPLETE |
 | 4 Schemes | 1 per Command phase | Maximum 4 |
 
-### BLACK CONTRACTS
+## Black Contracts
 
-At the start of the first battle round, before any Scout moves are made, select up to 3 CLANRATS units from your army. Those units gain the ESHIN keyword and the following ability until the end of the battle.
+At the start of the first battle round, before any Scout moves are made, select up to 3 **CLANRATS** units from your army. Those units gain the **ESHIN** keyword and the following ability until the end of the battle. **Paid Informants:** This unit has the Scouts 6" and Stealth abilities.
 
-**Paid Informants:** This unit has Scouts 6".
+## Death From the Shadows
 
-<!-- old p32 -->
+Each time an **ESHIN** model from your army makes an attack that targets an enemy unit selected for one of your revealed Schemes, add 1 to the Hit roll.
 
 ## The Hidden Ledger
 
@@ -85,8 +83,6 @@ At the start of the first battle round, before any Scout moves are made, select 
 
 **PAYMENT:** Gain D3 Vermin. That objective becomes Sabotaged until the start of your next Command phase. While Sabotaged, enemy models within range of it have an Objective Control characteristic of 0, and each time an enemy unit ends a normal, advance, fall-back or charge move within range of it, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds.
 
-<!-- old p33 -->
-
 ## Eshin Enhancements
 
 ### MASTER OF A THOUSAND SCHEMES  [30 pts]
@@ -107,7 +103,11 @@ _ESHIN CHARACTER model only._
 
 Each time a ranged attack targets the bearer, subtract 1 from the Wound roll. Once per battle, when the bearer is selected as the target of one or more attacks, until the end of the phase, enemy models cannot select the bearer as the target of an attack unless they are within 6" of it.
 
-<!-- old p34 -->
+### WHISPER NETWORK  [15 pts]
+
+_ESHIN CHARACTER model only._
+
+Once per battle, if the bearer is on the battlefield, you can reveal one of your Schemes at the start of any phase instead of at the start of your Command phase.
 
 ## Eshin Stratagems
 
@@ -140,3 +140,35 @@ _Strategic Ploy Stratagem_
 **TARGET:** That ESHIN INFANTRY unit.
 
 **EFFECT:** If your unit is not engaged, it can make a normal move of up to 6". Alternatively, if it is wholly within 6" of an unused friendly Gnawhole, it can immediately enter the Under-Empire; that Gnawhole is used. A unit that makes the normal move cannot declare a charge this turn.
+
+### CHANGE-CHANGE THE PLAN!  [1CP]
+
+_Strategic Ploy Stratagem_
+
+**WHEN:** Your Command phase.
+
+**TARGET:** One of your unrevealed Schemes.
+
+**EFFECT:** Discard that Scheme and secretly select one different Scheme from the Hidden Ledger that you have not selected. Record it in place of the discarded Scheme.
+
+**RESTRICTION:** Once per battle.
+
+### SMOKE-SMOKE BOMBS!  [1CP]
+
+_Wargear Stratagem_
+
+**WHEN:** Your opponent's Shooting phase, just after an enemy unit selects an ESHIN INFANTRY unit from your army as the target of one or more ranged attacks.
+
+**TARGET:** That ESHIN INFANTRY unit.
+
+**EFFECT:** Until the end of the phase, each time a ranged attack targets your unit, subtract 1 from the Hit roll, and models in your unit have the Benefit of Cover.
+
+### POISONED BLADES  [1CP]
+
+_Battle Tactic Stratagem_
+
+**WHEN:** The Fight phase.
+
+**TARGET:** One ESHIN unit from your army that has not been selected to fight this phase.
+
+**EFFECT:** Until the end of the phase, melee weapons equipped by models in your unit have [LETHAL HITS]. Against an enemy unit selected for one of your revealed Schemes, those weapons have [DEVASTATING WOUNDS] instead.

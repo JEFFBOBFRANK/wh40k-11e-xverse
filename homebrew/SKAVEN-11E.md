@@ -1,7 +1,7 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 33 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
-handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 12
+Catalogue revision 34 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
 ## What New Recruit shows
@@ -44,18 +44,35 @@ detachments). The layout follows the Emperor's Children catalogue.
   the army rules it uses.
 - Detachments carry their DP and Force Dispositions. Only one Unique: CLAN
   detachment can be taken. Stratagem References follows the chosen detachments.
+- Clan detachments (2 DP, Unique: CLAN): Skryre Worship, Moulder Flesh
+  Laboratory, Shadowy Dealings, Cauldron of Pestilence, Clawpack Horde, Clan
+  Skurvy and Council of Treachery. Each has a signature rule, a Clanrats rule and
+  a broad rule, 4 enhancements and 6 stratagems.
+- Other detachments: Invasion of the Under-Empire (3 DP); The Dreaded 13th Bell,
+  Black-Fur Supremacy, Prophets of the Horned Rat, Engines of Ruin, Warlock
+  Battery, Beast Pens, Night Stalkers, Plague Congregation and Endless Swarm (1 DP).
+- Detachments that make a unit BATTLELINE (Black-Fur Supremacy, Warlock Battery,
+  Beast Pens, Night Stalkers, Plague Congregation) add the Battleline category and
+  raise its copy limit to 6.
 - Enhancements appear only on eligible units of the chosen detachment. Unit
   Enhancements that up to three units can take are Upgrades sharing one
   Enhancement selection.
-- Skryre Worship: Workshop Projects cost Workshop Tokens (6 / 12 / 18 by battle
-  size), at most 2 per unit and each once per army. Hidden Workshop and other
-  unassigned projects are in the army-level Workshop Projects entry.
+- Skryre Worship: Workshop Projects are options on eligible units, 1 per unit
+  (2 with Chief-Chief Engineer), each up to 3 per army, on at most 3 / 6 / 9 units
+  by battle size (+2 with Chief-Chief Engineer).
+- Moulder Flesh Laboratory: Mutations and Ruinous Defects are options on MOULDER
+  BEAST and MONSTER units, at most 3 / 6 / 9 Mutations by battle size plus one per
+  Defect taken; a Defect allows a second Mutation and cannot undo its own
+  Mutation. Mutations change the unit's stat lines.
+- Council of Treachery: each CHARACTER can take its Clan's Council Seat (any Seat,
+  and two, with Lord of Decay); each Seat once per army. Clanrats can take a
+  Council Levy, which adds that Clan's keyword.
 - Clan Skurvy: the detachment carries the game system's Clan Skurvy Detachment
   tag, which shows the Black-Flag Allies (mercenary) units. The three SKURVY
   CHARACTER enhancements are in "Skurvy Officers"; record which Black-Flag
   character carries each one.
 - Shadowy Dealings: Black Contract marks up to three Clanrats units; each gains
-  the ESHIN keyword, Paid Informants and Scouts 6".
+  the ESHIN keyword and Paid Informants (Scouts 6" and Stealth).
 - Clan Skurvy: every Clanrats unit gains the SKURVY keyword and Claim-Claim the
   Prize!.
 - Random Move: Doomwheel 2D6+3", Clattertank D6+6", Hell Pit Abomination 2D6+1"
@@ -97,3 +114,18 @@ The builder reuses the IDs of the current catalogue, so rebuilding is stable.
 Wargear options are written out in `homebrew/skaven_units.py`, because the
 handoff gives them only as prose. The validator compares every datasheet with
 `datasheets.json` and `points.json` and searches for retired terms.
+
+## Black-Flag Chaos Space Marines
+
+`homebrew/blackflag_csm_port.py` rebuilds the eight CSM units of Index: Black-Flag
+(Chaos Lord, Chaos Lord with Jump Pack, Red Corsairs Reave-Captain, Legionaries,
+Havocs, Raptors, Red Corsairs Raiders, Chaos Bikers) from the current Chaos Space
+Marines catalogue: real model entries, weapon choices, unit sizes and repeat costs.
+Marks of Chaos, Dark Pacts, CSM Enhancements and Crusade content are left out. The
+units keep their Black-Flag IDs and Faction: Skurvy, and Leader links follow the
+LEADER lists on the Black-Flag datasheets.
+
+```sh
+python3 homebrew/blackflag_csm_port.py --index 'Index - Black-Flag (Homebrew).json' \
+  --csm 'Chaos - Chaos Space Marines.json' --system 'Warhammer 40,000.json' --output out.json
+```

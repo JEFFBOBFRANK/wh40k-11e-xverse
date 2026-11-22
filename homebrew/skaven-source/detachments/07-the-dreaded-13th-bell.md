@@ -1,26 +1,17 @@
 # The Dreaded 13th Bell
 
-<!-- old p45 -->
+## Daemonic Conduits
 
-## The Thirteenth Peal
+Each time a friendly **SKAVEN** non-**DAEMON** **PSYKER** uses a spell, before making the psychic roll, it can select one visible friendly **SKAVEN DAEMON** unit within 13" as its conduit. If it does:
 
-### DAEMONIC CONDUITS
+- Measure that spell's range and visibility from either the **PSYKER** or the conduit.
+- If that psychic roll has an unmodified 1, the **PSYKER**'s unit does not become battle-shocked, does not resolve Cornered Rats and does not suffer mortal wounds. Instead, the conduit suffers D3 mortal wounds, or D6 mortal wounds if the spell was Overcast.
 
-Each time a friendly SKAVEN non-DAEMON PSYKER uses a spell, before making the psychic roll, it can select one visible friendly SKAVEN DAEMON unit within 13" as its conduit. If it does:
-
-- Measure that spell's range and visibility from either the PSYKER or the conduit.
-- If that psychic roll has an unmodified 1, the PSYKER's unit does not become battle-shocked, does not resolve Cornered Rats and does not suffer mortal wounds. Instead, the conduit suffers D3 mortal wounds, or D6 mortal wounds if the spell was Overcast.
-
-Each SKAVEN DAEMON unit can be selected as a conduit once per turn.
-
-| CASTER | CONDUIT | BENEFIT |
-| SKAVEN non-DAEMON PSYKER | SKAVEN DAEMON within 13" | Range and visibility from either point; the conduit takes the backlash |
+Each **SKAVEN DAEMON** unit can be selected as a conduit once per turn.
 
 ## The Thirteenth Toll
 
-### THE THIRTEENTH TOLL
-
-Each time a spell used through a Daemonic Conduit is Overcast and both dice show the same result (other than a double 1), until your next Command phase, add 1 to Hit rolls made for that conduit.
+Each time a spell used through a Daemonic Conduit is Overcast, gain D3+1 Vermin, then each enemy unit within 13" of the conduit must take a battle-shock roll. Each enemy unit that fails that test suffers D3 mortal wounds.
 
 ## Grey Seer Enhancements
 
@@ -42,8 +33,6 @@ _Non-EPIC HERO GREY SEER model only._
 
 Once per battle round, after the bearer makes a psychic roll, you can re-roll one of its dice.
 
-<!-- old p46 -->
-
 ## Dreaded 13th Bell Stratagems
 
 ### RING-RING THE BELL!  [1CP]
@@ -54,7 +43,7 @@ _Epic Deed Stratagem_
 
 **TARGET:** That SKAVEN PSYKER.
 
-**EFFECT:** Sacrifice one other friendly SKAVEN INFANTRY model within 6" of your PSYKER. Your PSYKER can Overcast that spell even if it has already Overcast this turn. If it does, The Thirteenth Toll also triggers if the two dice total 11 or more.
+**EFFECT:** Sacrifice one other friendly SKAVEN INFANTRY model within 6" of your PSYKER. Your PSYKER can Overcast that spell even if it has already Overcast this turn.
 
 ### DEVOUR THE BACKLASH  [1CP]
 

@@ -1,32 +1,16 @@
 # Cauldron of Pestilence
 
-<!-- old p35 -->
+## Brewing the Plague
 
-## The Great Plague Cauldron
+At the start of your Command phase, you can brew one Plague. Select one Plague from the Plague Catalogue and pay its listed Vermin cost. Until the start of your next Command phase, that Plague is active and modifies the Pestilence auras of friendly **PESTILENS** units. You cannot brew the same Plague in consecutive battle rounds.
 
-### BREWING THE PLAGUE
+## Filth-Filth Carriers
 
-At the start of your Command phase, you can brew one Plague. Select one Plague from the Plague Catalogue and pay its listed Vermin cost. Until the start of your next Command phase, that Plague is active and modifies the Pestilence auras of friendly PESTILENS units. You cannot brew the same Plague in consecutive battle rounds.
+At the start of the first battle round, before any Scout moves are made, select up to 3 **CLANRATS** units from your army. Those units gain the **PESTILENS** keyword and the following ability until the end of the battle. **Plague Carrier:** This unit has a 3" Pestilence aura that carries the currently brewed Plague, but this unit does not gain the normal Pestilence ability. The brewed Plague also affects this unit as though it were an enemy unit within range of a friendly Pestilence aura.
 
-### SPREAD-SPREAD THE PLAGUE!
+## Infection
 
-Each time an enemy unit is selected as the target of one or more attacks made by a PESTILENS unit, after the attacking unit has finished making those attacks, if that enemy unit lost one or more wounds as a result, roll one D6. On a 4+, that enemy unit becomes INFECTED until the start of your next Command phase. Each enemy unit can only be tested for Infection once per phase.
-
-### INFECTED
-
-An INFECTED unit is treated as though it were within range of a friendly Pestilence aura for the purposes of the currently brewed Plague, regardless of its actual distance from friendly PESTILENS units. Being INFECTED does not by itself apply the normal Pestilence ability unless another rule states otherwise.
-
-### VIRULENT PROXIMITY
-
-At the start of each Fight phase, roll one D6 for each enemy unit within range of one or more friendly Pestilence auras. On a 4+, that enemy unit suffers D3 mortal wounds. A unit can only be affected by Virulent Proximity once per Fight phase.
-
-### FILTH-FILTH CARRIERS
-
-At the start of the first battle round, before any Scout moves are made, select up to 3 CLANRATS units from your army. Those units gain the PESTILENS keyword and the following ability until the end of the battle.
-
-**Plague Carrier:** This unit has a 3" Pestilence aura. That aura carries the currently brewed Plague, but this unit does not gain the normal Pestilence ability. For the purposes of the currently brewed Plague and Virulent Proximity, this unit is also treated as though it were an enemy unit within range of a friendly Pestilence aura.
-
-<!-- old p36 -->
+Each time an enemy unit is selected as the target of one or more attacks made by a friendly **PESTILENS** unit, after the attacking unit has finished making those attacks, if that enemy unit lost one or more wounds, roll one D6. On a 4+, that enemy unit suffers D3 mortal wounds and becomes **INFECTED** until the start of your next Command phase. While a unit is INFECTED, the brewed Plague affects it as though it were within range of a friendly Pestilence aura. Each enemy unit can only be rolled for once per phase.
 
 ## The Plague Catalogue
 
@@ -62,13 +46,11 @@ _Grand Plague_
 
 While an enemy unit is within Pestilence range, subtract 1 from the Strength characteristic of its melee weapons. If that enemy unit is Below Half-strength, also worsen the Armour Penetration characteristic of its melee weapons by 1.
 
-### NURGLITCH'S GIFT  [5 VERMIN]
+### NURGLITCH'S GIFT  [7 VERMIN]
 
 _Master's Concoction_
 
 When this Plague is brewed, roll one D6 for each enemy unit within Pestilence range. On a 2+, that unit suffers D3+3 mortal wounds. Until the start of your next Command phase, while an enemy unit is within Pestilence range, subtract 1 from its Toughness characteristic, it cannot regain lost wounds, and destroyed models cannot be returned to that unit.
-
-<!-- old p37 -->
 
 ## Pestilens Enhancements
 
@@ -95,14 +77,6 @@ Once per battle round, the first time an enemy unit within 8" of the bearer beco
 _PESTILENS CHARACTER model only._
 
 Once per battle, at the start of any phase, select one enemy unit within 12" of the bearer. That unit suffers D3 mortal wounds and becomes INFECTED; no Infection roll is required. If it was already INFECTED, it instead suffers D3+2 mortal wounds and remains INFECTED.
-
-### FILTH-SLICKED WEAPONS  [10 pts]
-
-_UNIT ENHANCEMENT - non-CHARACTER PESTILENS unit only; up to three units can have this Enhancement._
-
-Each time an enemy unit loses one or more wounds as a result of attacks made by this unit, add 1 to the roll to determine whether that enemy unit becomes INFECTED.
-
-<!-- old p38 -->
 
 ## Pestilens Stratagems
 
@@ -167,4 +141,3 @@ _Strategic Ploy Stratagem_
 **TARGET:** That destroyed unit.
 
 **EFFECT:** Before removing its last model, place one Plague Corpse marker as close as possible to that model. Until the start of your next Command phase, enemy units within 3" of that marker are treated as though they were within Pestilence range for the purposes of the currently brewed Plague. A unit can only be affected by one Plague Corpse marker at a time.
-
