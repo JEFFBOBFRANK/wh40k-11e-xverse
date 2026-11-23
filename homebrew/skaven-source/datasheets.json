@@ -2460,7 +2460,7 @@
    },
    {
     "name": "Fever Pitch",
-    "text": "While this unit is below its starting strength, add 1 to the Attacks characteristic of its melee weapons. While this unit is also below half-strength, add 1 to the hit roll each time a model in this unit makes a melee attack."
+    "text": "Each time this unit is selected to fight, you can Sacrifice up to D3 models from this unit. If you do, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in this unit, and you can re-roll hit rolls of 1 for those attacks."
    },
    {
     "name": "Diseased Congregation",

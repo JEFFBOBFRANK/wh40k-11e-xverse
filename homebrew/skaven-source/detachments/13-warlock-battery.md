@@ -3,7 +3,7 @@
 ## Overcharge the Guns
 
 - Friendly WEAPON TEAM units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.
-- Add 1 to the Strength characteristic of ranged weapons equipped by models in friendly WEAPON TEAM units. Each time one of those units has shot, it must take a hazard roll.
+- Each time a friendly WEAPON TEAM unit is selected to shoot, it can suffer D3 mortal wounds. If it does, until the end of the phase, add 1 to the wound roll for ranged attacks made by models in that unit, and you can re-roll hit rolls of 1 for those attacks.
 
 ## Enhancements
 

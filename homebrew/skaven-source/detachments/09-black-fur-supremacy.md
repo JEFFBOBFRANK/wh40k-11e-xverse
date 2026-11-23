@@ -3,7 +3,7 @@
 ## Pride of the Black-Furs
 
 - Friendly STORMVERMIN units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.
-- Each time a friendly STORMVERMIN unit loses one or more models, until the end of your next turn, that unit is Prideful. Each time a model in a Prideful unit makes a melee attack, add 1 to the wound roll.
+- Each time a friendly STORMVERMIN unit is selected to fight, you can Sacrifice 1 model from one friendly CLANRATS or SKAVENSLAVES unit within 6" of it. If you do, that unit is Prideful until the end of the phase. Each time a model in a Prideful unit makes a melee attack, add 1 to the wound roll, and you can re-roll a hit roll of 1.
 
 ## Enhancements
 
@@ -23,7 +23,7 @@ While the bearer is leading a STORMVERMIN unit, each time an attack is allocated
 
 _UNIT ENHANCEMENT - STORMVERMIN unit only; up to three units can have this Enhancement._
 
-Once per battle round, when this unit fails a battle-shock roll, you can Sacrifice 1 model from this unit. If you do, that test is passed instead, and this unit becomes Prideful.
+Once per battle round, when this unit fails a battle-shock roll, you can Sacrifice 1 model from this unit. If you do, that test is passed instead, and this unit is Prideful until the end of the turn.
 
 ## Black-Fur Stratagems
 
@@ -55,6 +55,6 @@ _Epic Deed Stratagem_
 
 **TARGET:** That STORMVERMIN unit.
 
-**EFFECT:** Your unit becomes Prideful.
+**EFFECT:** Your unit is Prideful until the end of the turn.
 
 **RESTRICTION:** Once per battle round.

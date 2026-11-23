@@ -13,9 +13,9 @@ CLANRATS units from your army gain the SKURVY keyword and the following ability.
 
 **Claim-Claim the Prize!:** At the end of your Movement phase, if this unit is within range of an objective you control, that objective remains under your control until your opponent's Level of Control over it is greater than yours at the end of a phase.
 
-## Vengeful Crew
+## Pay the Crew
 
-Each time a friendly SKURVY unit loses one or more models, until the end of your next turn, add 1 to hit rolls for attacks made by models in that unit.
+Each time a friendly SKURVY unit is selected to shoot or fight, you can spend 1 Vermin. If you do, until the end of the phase, add 1 to the hit roll for attacks made by models in that unit, and you can re-roll wound rolls of 1 for those attacks.
 
 ## Black-Flag Mercenaries
 

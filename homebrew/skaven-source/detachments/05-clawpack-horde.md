@@ -34,7 +34,7 @@ While a friendly CLANRATS unit contains 10 or more models, improve its Leadershi
 
 ## No Run-Run! Fight-Fight!
 
-Once per battle round, when a friendly VERMINUS unit within 8" of a friendly VERMINUS CHARACTER fails a battle-shock roll, you can Sacrifice D3 models from that unit. If you do, that battle-shock roll is treated as having been passed, and until the end of the turn, add 1 to hit rolls for melee attacks made by models in that unit.
+Once per battle round, when a friendly VERMINUS unit within 8" of a friendly VERMINUS CHARACTER fails a battle-shock roll, you can Sacrifice D3 models from that unit. If you do, that battle-shock roll is treated as having been passed, and until the end of the turn, add 1 to the hit roll for melee attacks made by models in that unit, and you can re-roll wound rolls of 1 for those attacks.
 
 ## Verminus Enhancements
 
