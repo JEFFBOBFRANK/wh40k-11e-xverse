@@ -15,7 +15,7 @@ CLANRATS units from your army gain the SKURVY keyword and the following ability.
 
 ## Pay the Crew
 
-Each time a friendly SKURVY unit is selected to shoot or fight, you can spend 1 Vermin. If you do, until the end of the phase, add 1 to the hit roll for attacks made by models in that unit, and you can re-roll wound rolls of 1 for those attacks.
+Each time a friendly SKURVY unit is selected to shoot or fight, you can spend 1 Vermin. If you do, until the end of the phase, add 1 to the hit roll for attacks made by models in that unit.
 
 ## Black-Flag Mercenaries
 

@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 64,
+    "revision": 65,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -912,7 +912,7 @@
                     "name": "Feed the Beasts",
                     "id": "8adb-c083-f449-88a6",
                     "hidden": false,
-                    "description": "\n\nEach time a friendly MOULDER BEAST or MOULDER MONSTER unit is selected to fight, you can Sacrifice up to 3 models from one friendly SKAVEN INFANTRY unit within 6\" of it. If you do, until the end of the phase, add 1 to the wound roll for melee attacks made by models in that unit, and you can re-roll hit rolls of 1 for those attacks. If 3 models were Sacrificed, you can re-roll the hit roll instead."
+                    "description": "\n\nEach time a friendly MOULDER BEAST or MOULDER MONSTER unit is selected to fight, you can Sacrifice 2 models from one friendly SKAVEN INFANTRY unit within 6\" of it. If you do, until the end of the phase, you can re-roll the hit roll for melee attacks made by models in that unit."
                   },
                   {
                     "name": "Mutations",
@@ -1480,7 +1480,7 @@
                     "name": "No Run-Run! Fight-Fight!",
                     "id": "526a-cf0a-700a-318e",
                     "hidden": false,
-                    "description": "\n\nOnce per battle round, when a friendly VERMINUS unit within 8\" of a friendly VERMINUS CHARACTER fails a battle-shock roll, you can Sacrifice D3 models from that unit. If you do, that battle-shock roll is treated as having been passed, and until the end of the turn, add 1 to the hit roll for melee attacks made by models in that unit, and you can re-roll wound rolls of 1 for those attacks."
+                    "description": "\n\nOnce per battle round, when a friendly VERMINUS unit within 8\" of a friendly VERMINUS CHARACTER fails a battle-shock roll, you can Sacrifice D3 models from that unit. If you do, that battle-shock roll is treated as having been passed, and until the end of the turn, add 1 to the hit roll for melee attacks made by models in that unit."
                   }
                 ],
                 "categoryLinks": [
@@ -1731,7 +1731,7 @@
                     "name": "Pay the Crew",
                     "id": "3d51-0b4d-fd60-6dd4",
                     "hidden": false,
-                    "description": "\n\nEach time a friendly SKURVY unit is selected to shoot or fight, you can spend 1 Vermin. If you do, until the end of the phase, add 1 to the hit roll for attacks made by models in that unit, and you can re-roll wound rolls of 1 for those attacks."
+                    "description": "\n\nEach time a friendly SKURVY unit is selected to shoot or fight, you can spend 1 Vermin. If you do, until the end of the phase, add 1 to the hit roll for attacks made by models in that unit."
                   },
                   {
                     "name": "Black-Flag Mercenaries",
@@ -1867,7 +1867,7 @@
                     "name": "Pride of the Black-Furs",
                     "id": "e35d-ea23-f3e4-381d",
                     "hidden": false,
-                    "description": "\n\n- Friendly STORMVERMIN units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Each time a friendly STORMVERMIN unit is selected to fight, you can Sacrifice 1 model from one friendly CLANRATS or SKAVENSLAVES unit within 6\" of it. If you do, that unit is Prideful until the end of the phase. Each time a model in a Prideful unit makes a melee attack, add 1 to the wound roll, and you can re-roll a hit roll of 1."
+                    "description": "\n\n- Friendly STORMVERMIN units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Each time a friendly STORMVERMIN unit is selected to fight, you can Sacrifice 1 model from one friendly CLANRATS or SKAVENSLAVES unit within 6\" of it. If you do, that unit is Prideful until the end of the phase. Each time a model in a Prideful unit makes a melee attack, add 1 to the wound roll."
                   }
                 ],
                 "categoryLinks": [
@@ -2011,7 +2011,7 @@
                     "name": "Ambition Unchecked",
                     "id": "ea24-17aa-9629-1f56",
                     "hidden": false,
-                    "description": "\n\nEach time a friendly unit containing a SKAVEN CHARACTER is selected to shoot or fight, you can Sacrifice 1 Bodyguard model from that unit. If you do, until the end of the phase, add 1 to the hit roll for attacks made by models in that unit, and you can re-roll wound rolls of 1 for those attacks."
+                    "description": "\n\nEach time a friendly unit containing a SKAVEN CHARACTER is selected to shoot or fight, you can Sacrifice 1 Bodyguard model from that unit. If you do, until the end of the phase, you can re-roll the wound roll for attacks made by models in that unit."
                   }
                 ],
                 "categoryLinks": [
@@ -2128,7 +2128,7 @@
                     "name": "Overcharge the Guns",
                     "id": "c670-43fa-0eda-72c6",
                     "hidden": false,
-                    "description": "\n\n- Friendly WEAPON TEAM units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Each time a friendly WEAPON TEAM unit is selected to shoot, it can suffer D3 mortal wounds. If it does, until the end of the phase, add 1 to the wound roll for ranged attacks made by models in that unit, and you can re-roll hit rolls of 1 for those attacks."
+                    "description": "\n\n- Friendly WEAPON TEAM units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Each time a friendly WEAPON TEAM unit is selected to shoot, it can suffer D3 mortal wounds. If it does, until the end of the phase, add 1 to the wound roll for ranged attacks made by models in that unit."
                   }
                 ],
                 "categoryLinks": [
@@ -36071,7 +36071,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this unit is selected to fight, you can Sacrifice up to D3 models from this unit. If you do, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in this unit, and you can re-roll hit rolls of 1 for those attacks."
+                "$text": "Each time this unit is selected to fight, you can Sacrifice up to D3 models from this unit. If you do, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in this unit."
               }
             ]
           },

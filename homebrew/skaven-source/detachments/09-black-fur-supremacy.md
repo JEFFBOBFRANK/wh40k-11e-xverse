@@ -3,7 +3,7 @@
 ## Pride of the Black-Furs
 
 - Friendly STORMVERMIN units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.
-- Each time a friendly STORMVERMIN unit is selected to fight, you can Sacrifice 1 model from one friendly CLANRATS or SKAVENSLAVES unit within 6" of it. If you do, that unit is Prideful until the end of the phase. Each time a model in a Prideful unit makes a melee attack, add 1 to the wound roll, and you can re-roll a hit roll of 1.
+- Each time a friendly STORMVERMIN unit is selected to fight, you can Sacrifice 1 model from one friendly CLANRATS or SKAVENSLAVES unit within 6" of it. If you do, that unit is Prideful until the end of the phase. Each time a model in a Prideful unit makes a melee attack, add 1 to the wound roll.
 
 ## Enhancements
 
