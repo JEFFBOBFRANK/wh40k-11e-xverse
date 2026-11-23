@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 67,
+    "revision": 68,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -161,7 +161,7 @@
         "hidden": false
       },
       {
-        "name": "Warlord",
+        "name": "Clawlord",
         "id": "47dc-8897-bcb5-763d",
         "hidden": false
       },
@@ -1482,7 +1482,7 @@
                     "name": "Yes-Yes, Warlord!",
                     "id": "7497-8adf-c1ba-3f95",
                     "hidden": false,
-                    "description": "\n\n- Each friendly VERMINUS CHARACTER can issue 1 Warlord Command per battle round. EPIC HERO models and a Warlord on a Gnaw-beast can issue 2 instead, to different units.\n- Issue a Warlord Command at the start of any phase, to one friendly CLANRATS or STORMVERMIN unit within 8\" of that CHARACTER that is not battle-shocked.\n- That Warlord Command lasts until the end of the turn. A unit can only be affected by one Warlord Command at a time."
+                    "description": "\n\n- Each friendly VERMINUS CHARACTER can issue 1 Warlord Command per battle round. EPIC HERO models and a Clawlord on a Gnaw-beast can issue 2 instead, to different units.\n- Issue a Warlord Command at the start of any phase, to one friendly CLANRATS or STORMVERMIN unit within 8\" of that CHARACTER that is not battle-shocked.\n- That Warlord Command lasts until the end of the turn. A unit can only be affected by one Warlord Command at a time."
                   },
                   {
                     "name": "Warlord Commands",
@@ -13258,7 +13258,7 @@
         ]
       },
       {
-        "name": "Warlord",
+        "name": "Clawlord",
         "id": "8e75-b1b0-132e-2cc9",
         "type": "model",
         "hidden": false,
@@ -13286,7 +13286,7 @@
             "hidden": false
           },
           {
-            "name": "Warlord",
+            "name": "Clawlord",
             "id": "6639-8148-d92c-ab70",
             "targetId": "47dc-8897-bcb5-763d",
             "primary": false,
@@ -13303,7 +13303,7 @@
         "profiles": [
           {
             "id": "8ea3-f06e-b96b-5517",
-            "name": "Warlord",
+            "name": "Clawlord",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
@@ -13429,7 +13429,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 1 Warlord.This model is equipped with 1 Warplock pistol and either 1 Warpstone blade or 1 Shock halberd. It can lead Clanrats or Stormvermin."
+                "$text": "Composition: 1 Clawlord.This model is equipped with 1 Warplock pistol and either 1 Warpstone blade or 1 Shock halberd. It can lead Clanrats or Stormvermin."
               }
             ]
           },
@@ -13443,7 +13443,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Infantry, Character, Verminus, Warlord. Faction: Skaven."
+                "$text": "Keywords: Infantry, Character, Verminus, Clawlord. Faction: Skaven."
               }
             ]
           }
@@ -13787,7 +13787,7 @@
                 "profiles": [
                   {
                     "id": "be24-1944-c53c-6fbc",
-                    "name": "Warlord on Gnaw-beast",
+                    "name": "Clawlord on Gnaw-beast",
                     "hidden": false,
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -14993,7 +14993,7 @@
                       },
                       {
                         "childId": "8e75-b1b0-132e-2cc9",
-                        "childName": "Warlord",
+                        "childName": "Clawlord",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -15046,7 +15046,7 @@
                       },
                       {
                         "childId": "8e75-b1b0-132e-2cc9",
-                        "childName": "Warlord",
+                        "childName": "Clawlord",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -95305,7 +95305,7 @@
         "import": true
       },
       {
-        "name": "Warlord",
+        "name": "Clawlord",
         "id": "0ef8-e666-0f02-3a16",
         "hidden": false,
         "targetId": "8e75-b1b0-132e-2cc9",

@@ -910,13 +910,13 @@
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
-  "name": "Warlord",
+  "name": "Clawlord",
   "role": "CHARACTER",
   "keywords": [
    "INFANTRY",
    "CHARACTER",
    "VERMINUS",
-   "WARLORD"
+   "CLAWLORD"
   ],
   "faction_keywords": [
    "SKAVEN"
@@ -1022,7 +1022,7 @@
   ],
   "other_rules": [],
   "unit_composition": [
-   "1 Warlord.This model is equipped with 1 Warplock pistol and either 1 Warpstone blade or 1 Shock halberd. It can lead Clanrats or Stormvermin."
+   "1 Clawlord.This model is equipped with 1 Warplock pistol and either 1 Warpstone blade or 1 Shock halberd. It can lead Clanrats or Stormvermin."
   ],
   "points": "85pts",
   "repeat_cost": "+10pts from the 3rd copy"

@@ -25,9 +25,10 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 67
+REVISION = 68
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
+    "Warlord": "Clawlord",  # the datasheet (and its keyword); the army's Warlord role is separate
     "Mutant Rat Ogre": "Mutant Rat Ogor",
     "Skryre Workshop": "Skryre Worship",
     "Knawhole Architect": "Gnawhole Architect",
@@ -176,7 +177,7 @@ class Builder:
         self.option_ids = {}
         old_entries = self.old["sharedSelectionEntries"]
         self.old_ids = {}
-        # Datasheets first, so a datasheet keeps its ID when an option shares its name (Warlord).
+        # Datasheets first, so a datasheet keeps its ID when an option shares its old name (Warlord -> Clawlord).
         for e in sorted(old_entries, key=lambda e: e["type"] not in ("unit", "model")):
             self.old_ids.setdefault(norm(RENAMED.get(norm_key(e["name"]), e["name"])), e["id"])
         self.old_rules = {norm(RENAMED.get(r["name"], r["name"])): r["id"] for r in self.old["sharedRules"]}
@@ -324,10 +325,7 @@ class Builder:
         links = [self.category_link(owner, primary, True)]
         for kw in ds["keywords"]:
             name = ROLE_CATEGORY.get(kw) or title(kw)
-            if name == "Warlord":  # the datasheet keyword, not the army's Warlord role
-                cid, _ = self.category(name, own=True)
-                links.append(dict(name=name, id=nid(owner + ":cat:" + cid), targetId=cid, primary=False, hidden=False))
-            elif name != primary:
+            if name != primary:
                 links.append(self.category_link(owner, name))
         links.append(self.category_link(owner, "Faction: Skaven"))
         return links

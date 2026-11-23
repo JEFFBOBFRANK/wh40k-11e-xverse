@@ -124,7 +124,7 @@ def main():
             check(any(c.casefold() == kw.casefold() for c in cats), f"{name}: keyword {kw} missing")
 
     # mounts carry the full mounted price
-    for unit, mount, total in (("Grey Seer", "Screaming Bell", 210), ("Warlord", "Gnaw-beast", 150),
+    for unit, mount, total in (("Grey Seer", "Screaming Bell", 210), ("Clawlord", "Gnaw-beast", 150),
                                ("Plague Priest", "Plague Furnace", 195)):
         e = entries[unit]
         m = next(n for n in walk(e) if isinstance(n, dict) and n.get("name") == mount and "costs" in n)

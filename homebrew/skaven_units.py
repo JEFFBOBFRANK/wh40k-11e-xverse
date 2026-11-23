@@ -41,7 +41,7 @@ def single(**extra):
 MOUNTS = {
     "Grey Seer": dict(profile="SCREAMING BELL", label="Screaming Bell", cost=120, repeat=10,
                       weapons=["Crushing Bell", "Rat Ogor claws", "Attendant weapons"]),
-    "Warlord": dict(profile="GNAW-BEAST", label="Gnaw-beast", cost=65, repeat=10, weapons=["Gnaw-beast claws"]),
+    "Clawlord": dict(profile="GNAW-BEAST", label="Gnaw-beast", cost=65, repeat=10, weapons=["Gnaw-beast claws"]),
     "Plague Priest": dict(profile="PLAGUE FURNACE", label="Plague Furnace", cost=120, repeat=10,
                           weapons=["Great Censer", "Rat Ogor claws", "Attendant weapons"]),
 }
@@ -62,7 +62,7 @@ UNITS = {
     "Throt the Unclean": single(),
     "Lord Skreech Verminking": single(),
     "Grey Seer": single(weapons=["Warp bolts", "Grey Seer staff"]),
-    "Warlord": single(weapons=["Warplock pistol"],
+    "Clawlord": single(weapons=["Warplock pistol"],
                       choices=[C("Melee weapon", ["Warpstone blade", "Shock halberd"])]),
     "Deathmaster": single(),
     "Plague Priest": single(weapons=["Pox blast", "Plague staff"]),

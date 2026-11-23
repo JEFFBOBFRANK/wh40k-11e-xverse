@@ -2,7 +2,7 @@
 
 ## Yes-Yes, Warlord!
 
-- Each friendly VERMINUS CHARACTER can issue 1 Warlord Command per battle round. EPIC HERO models and a Warlord on a Gnaw-beast can issue 2 instead, to different units.
+- Each friendly VERMINUS CHARACTER can issue 1 Warlord Command per battle round. EPIC HERO models and a Clawlord on a Gnaw-beast can issue 2 instead, to different units.
 - Issue a Warlord Command at the start of any phase, to one friendly CLANRATS or STORMVERMIN unit within 8" of that CHARACTER that is not battle-shocked.
 - That Warlord Command lasts until the end of the turn. A unit can only be affected by one Warlord Command at a time.
 
