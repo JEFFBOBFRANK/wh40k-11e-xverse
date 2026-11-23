@@ -17,7 +17,7 @@ Each Scheme can only be completed once. You can complete a maximum of 4 Schemes 
 
 ## Black Contracts
 
-When mustering your army, select up to 3 CLANRATS units from your army. Those units gain the ESHIN keyword and the following ability. **Paid Informants:** This unit has the Scouts 6" and Stealth abilities.
+CLANRATS units from your army gain the ESHIN keyword and the following ability. **Paid Informants:** This unit has the Scouts 6" and Stealth abilities.
 
 ## Death From the Shadows
 

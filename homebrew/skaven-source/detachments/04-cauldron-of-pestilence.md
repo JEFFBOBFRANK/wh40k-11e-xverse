@@ -6,7 +6,7 @@ At the start of your Command phase, you can brew one Plague. Select one Plague f
 
 ## Filth-Filth Carriers
 
-When mustering your army, select up to 3 CLANRATS units from your army. Those units gain the PESTILENS keyword and the following ability. **Plague Carrier:** This unit has a 3" Pestilence aura that carries the currently brewed Plague, but this unit does not gain the normal Pestilence ability. The brewed Plague also affects this unit as though it were an enemy unit within range of a friendly Pestilence aura.
+CLANRATS units from your army gain the PESTILENS keyword and the following ability. **Plague Carrier:** This unit has a 3" Pestilence aura that carries the currently brewed Plague, but this unit does not gain the normal Pestilence ability. The brewed Plague also affects this unit as though it were an enemy unit within range of a friendly Pestilence aura.
 
 ## Infection
 

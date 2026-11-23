@@ -12,7 +12,7 @@ Warplock carbines equipped by models in friendly CLANRATS units have [RAPID FIRE
 
 ## Volatile Genius
 
-Each time a friendly SKRYRE unit suffers damage from its own shooting (a failed hazard roll, Warpstone Backlash or a Workshop Project), until the end of your next Shooting phase, add 1 to the hit roll and the wound roll for ranged attacks made by models in that unit.
+Each time a friendly SKRYRE unit is selected to shoot, it can suffer D3 mortal wounds. If it does, until the end of the phase, ranged weapons equipped by models in that unit have [DEVASTATING WOUNDS].
 
 ## Workshop Projects
 

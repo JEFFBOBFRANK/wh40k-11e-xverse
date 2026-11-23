@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 59
+REVISION = 60
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -1245,7 +1245,7 @@ def one_per_unit(b, units, shared_enh):
             scope="root-entry", shared=True, includeChildSelections=True, includeChildForces=False,
             traverseAssociationGroup=True, message="An Attached Unit can only take 1 Enhancement or Upgrade."))
         for g in unit.get("selectionEntryGroups", []):
-            if g["name"] in ("Enhancements and Upgrades", "Black Contract", "Council Levy", "Filth-Filth Carrier"):
+            if g["name"] in ("Enhancements and Upgrades", "Council Levy"):
                 for link in g["entryLinks"]:
                     link["constraints"] = [constraint(nid(link["id"] + ":once"), "max", 1)]
 
@@ -1504,42 +1504,28 @@ def build(source, catalogue_path, system_path):
                                                           targetId=warlord_id, type="selectionEntry", hidden=False,
                                                           **{"import": True}))
 
-    # Black Contracts (Shadowy Dealings): mark up to three Clanrats units.
-    contract_id = b.old_ids.get(norm("Black Contract - Paid Informants")) or nid("black-contract")
-    contract = entry(contract_id, "Black Contract - Paid Informants",
-                     constraints=[constraint(nid(contract_id + ":max"), "max", 3, scope="roster", child=True)],
-                     profiles=[b.ability_profile(nid(contract_id + ":ability"), "Paid Informants",
-                                                 "This unit has the Scouts 6\" and Stealth abilities.")])
-    for core in ('Scouts 6"', "Stealth"):
-        rule_link(contract, next(r for r in b.sys_rules if r["name"] == core))
-    shadowy = next(d for d in detachment_entry["selectionEntryGroups"][0]["selectionEntries"]
-                   if d["name"] == "Shadowy Dealings")
+    # Detachment rules that give every Clanrats unit a keyword and an ability (as Clan Skurvy's Black-Flag
+    # Clanrats): shown on the Clanrats card while the detachment is taken.
     clanrats = next(u for u in units if u["name"] == "Clanrats")
-    gid = nid(clanrats["id"] + ":contract")
-    clanrats["selectionEntryGroups"].append(dict(
-        name="Black Contract", id=gid, hidden=False, entryLinks=[gated(gid, contract_id, contract["name"],
-                                                                      shadowy["id"])],
-        constraints=[constraint(nid(gid + ":max"), "max", 1)]))
-    eshin_id, _ = b.category("Eshin")
-    clanrats["modifiers"].append(dict(type="add", field="category", value=eshin_id,
-                                      conditions=[selected(contract_id, scope=clanrats["id"])]))
 
-    # Filth-Filth Carriers (Cauldron of Pestilence): mark up to three Clanrats units, as Black Contracts.
-    carrier_id = nid("filth-filth-carrier")
-    cauldron = dets["Cauldron of Pestilence"]
-    carrier_text = re.search(r"\*\*Plague Carrier:\*\*\s*(.+)", next(
-        r["description"] for r in cauldron["rules"] if "Plague Carrier" in r["description"])).group(1).strip()
-    carrier = entry(carrier_id, "Filth-Filth Carrier - Plague Carrier",
-                    constraints=[constraint(nid(carrier_id + ":max"), "max", 3, scope="roster", child=True)],
-                    profiles=[b.ability_profile(nid(carrier_id + ":ability"), "Plague Carrier", carrier_text)])
-    gid = nid(clanrats["id"] + ":carrier")
-    clanrats["selectionEntryGroups"].append(dict(
-        name="Filth-Filth Carrier", id=gid, hidden=False,
-        entryLinks=[gated(gid, carrier_id, carrier["name"], cauldron["id"])],
-        constraints=[constraint(nid(gid + ":max"), "max", 1)]))
-    pestilens_id, _ = b.category("Pestilens")
-    clanrats["modifiers"].append(dict(type="add", field="category", value=pestilens_id,
-                                      conditions=[selected(carrier_id, scope=clanrats["id"])]))
+    def clanrats_gain(det_name, keyword, label, core=()):
+        det = dets[det_name]
+        in_det = selected(det["id"])
+        clanrats["modifiers"].append(dict(type="add", field="category", value=b.category(keyword)[0],
+                                          conditions=[in_det]))
+        text = next(re.search(r"\*\*" + re.escape(label) + r":\*\*\s*(.+)", r["description"]).group(1)
+                    for r in det["rules"] if label + ":" in r["description"])
+        ability = b.ability_profile(nid(clanrats["id"] + ":" + label), label, text.strip(), hidden=True)
+        ability["modifiers"] = [dict(type="set", field="hidden", value=False, conditions=[in_det])]
+        clanrats["profiles"].insert(len([x for x in clanrats["profiles"] if not x.get("hidden")]), ability)
+        for name in core:
+            rule = next(r for r in b.sys_rules if r["name"] == name)
+            clanrats.setdefault("infoLinks", []).append(dict(
+                id=nid(clanrats["id"] + ":" + label + ":" + name), name=name, targetId=rule["id"], type="rule",
+                hidden=True, modifiers=[dict(type="set", field="hidden", value=False, conditions=[in_det])]))
+
+    clanrats_gain("Shadowy Dealings", "Eshin", "Paid Informants", ('Scouts 6"', "Stealth"))
+    clanrats_gain("Cauldron of Pestilence", "Pestilens", "Plague Carrier")
 
     # Black-Flag Clanrats (Clan Skurvy): every Clanrats unit gains SKURVY and Claim-Claim the Prize!.
     skurvy_det = next(d for d in detachment_entry["selectionEntryGroups"][0]["selectionEntries"]
@@ -1628,7 +1614,7 @@ def build(source, catalogue_path, system_path):
     keep_links = [l for l in old["entryLinks"]
                   if l["targetId"] not in {e["id"] for e in old["sharedSelectionEntries"]}]  # Black-Flag units
 
-    shared_entries = [detachment_entry, army_ref, strat_ref, officers, contract, carrier, warlord] + levies + units + shared_enh + \
+    shared_entries = [detachment_entry, army_ref, strat_ref, officers, warlord] + levies + units + shared_enh + \
         shared_projects
     root_links = []
     for e in [detachment_entry, army_ref, strat_ref, officers] + units:

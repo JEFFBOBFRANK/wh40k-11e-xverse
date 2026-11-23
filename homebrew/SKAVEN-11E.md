@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 59 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 60 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -75,13 +75,12 @@ detachments). The layout follows the Emperor's Children catalogue.
   tag, which shows the Black-Flag Allies (mercenary) units. The three SKURVY
   CHARACTER enhancements are in "Skurvy Officers"; record which Black-Flag
   character carries each one.
-- Cauldron of Pestilence: Filth-Filth Carrier marks up to three Clanrats units; each
-  gains the PESTILENS keyword and Plague Carrier.
+- Cauldron of Pestilence: every Clanrats unit gains PESTILENS and Plague Carrier.
 - Clanrats: each model type carries its weapons (Clanrat, Clanrat with mace, with
   spear or with Warplock carbine; the Clawleader picks Sword and Board or Warplock).
   New Recruit shows an error unless the whole unit uses one loadout.
-- Shadowy Dealings: Black Contract marks up to three Clanrats units; each gains
-  the ESHIN keyword and Paid Informants (Scouts 6" and Stealth).
+- Shadowy Dealings: every Clanrats unit gains ESHIN and Paid Informants (Scouts 6"
+  and Stealth).
 - Clan Skurvy: every Clanrats unit gains the SKURVY keyword and Claim-Claim the
   Prize!.
 - Random Move: Doomwheel 2D6+3", Clattertank D6+6", Hell Pit Abomination 2D6+1"

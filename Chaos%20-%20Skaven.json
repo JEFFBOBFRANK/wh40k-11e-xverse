@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 59,
+    "revision": 60,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -747,7 +747,7 @@
                     "name": "Volatile Genius",
                     "id": "96fa-6cf4-e5ef-25c0",
                     "hidden": false,
-                    "description": "\n\nEach time a friendly SKRYRE unit suffers damage from its own shooting (a failed hazard roll, Warpstone Backlash or a Workshop Project), until the end of your next Shooting phase, add 1 to the hit roll and the wound roll for ranged attacks made by models in that unit."
+                    "description": "\n\nEach time a friendly SKRYRE unit is selected to shoot, it can suffer D3 mortal wounds. If it does, until the end of the phase, ranged weapons equipped by models in that unit have [DEVASTATING WOUNDS]."
                   },
                   {
                     "name": "Workshop Projects",
@@ -773,13 +773,6 @@
                   }
                 ],
                 "infoLinks": [
-                  {
-                    "id": "ce30-c2a5-0d6e-5308",
-                    "name": "Warpstone Backlash",
-                    "targetId": "770e-a39d-7aa8-8f21",
-                    "type": "rule",
-                    "hidden": false
-                  },
                   {
                     "id": "b5b9-6050-5398-ea2e",
                     "name": "Sacrifice",
@@ -1270,7 +1263,7 @@
                     "name": "Black Contracts",
                     "id": "d3e7-2cf7-5b2b-650a",
                     "hidden": false,
-                    "description": "\n\nWhen mustering your army, select up to 3 CLANRATS units from your army. Those units gain the ESHIN keyword and the following ability. **Paid Informants:** This unit has the Scouts 6\" and Stealth abilities."
+                    "description": "\n\nCLANRATS units from your army gain the ESHIN keyword and the following ability. **Paid Informants:** This unit has the Scouts 6\" and Stealth abilities."
                   },
                   {
                     "name": "Death From the Shadows",
@@ -1414,7 +1407,7 @@
                     "name": "Filth-Filth Carriers",
                     "id": "b89e-f55d-9609-93e9",
                     "hidden": false,
-                    "description": "\n\nWhen mustering your army, select up to 3 CLANRATS units from your army. Those units gain the PESTILENS keyword and the following ability. **Plague Carrier:** This unit has a 3\" Pestilence aura that carries the currently brewed Plague, but this unit does not gain the normal Pestilence ability. The brewed Plague also affects this unit as though it were an enemy unit within range of a friendly Pestilence aura."
+                    "description": "\n\nCLANRATS units from your army gain the PESTILENS keyword and the following ability. **Plague Carrier:** This unit has a 3\" Pestilence aura that carries the currently brewed Plague, but this unit does not gain the normal Pestilence ability. The brewed Plague also affects this unit as though it were an enemy unit within range of a friendly Pestilence aura."
                   },
                   {
                     "name": "Infection",
@@ -4867,90 +4860,6 @@
                 "value": 1,
                 "shared": true,
                 "includeChildSelections": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Black Contract - Paid Informants",
-        "id": "f101-55f9-8b74-0215",
-        "type": "upgrade",
-        "hidden": false,
-        "import": true,
-        "constraints": [
-          {
-            "id": "d636-3869-2dd4-89bb",
-            "type": "max",
-            "value": 3,
-            "scope": "roster",
-            "field": "selections",
-            "shared": true,
-            "includeChildSelections": true
-          }
-        ],
-        "profiles": [
-          {
-            "id": "bebf-03ad-639f-06aa",
-            "name": "Paid Informants",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This unit has the Scouts 6\" and Stealth abilities."
-              }
-            ]
-          }
-        ],
-        "infoLinks": [
-          {
-            "id": "c6f7-6f48-e85e-3659",
-            "name": "Scouts 6\"",
-            "targetId": "08fb-4cb5-36fb-d638",
-            "type": "rule",
-            "hidden": false
-          },
-          {
-            "id": "8c7d-7d87-9f7a-532a",
-            "name": "Stealth",
-            "targetId": "bec5-4288-34a6-ccfa",
-            "type": "rule",
-            "hidden": false
-          }
-        ]
-      },
-      {
-        "name": "Filth-Filth Carrier - Plague Carrier",
-        "id": "ae62-3e0c-c466-9904",
-        "type": "upgrade",
-        "hidden": false,
-        "import": true,
-        "constraints": [
-          {
-            "id": "4ad6-63ed-be3e-9761",
-            "type": "max",
-            "value": 3,
-            "scope": "roster",
-            "field": "selections",
-            "shared": true,
-            "includeChildSelections": true
-          }
-        ],
-        "profiles": [
-          {
-            "id": "76d0-5efb-de82-2807",
-            "name": "Plague Carrier",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This unit has a 3\" Pestilence aura that carries the currently brewed Plague, but this unit does not gain the normal Pestilence ability. The brewed Plague also affects this unit as though it were an enemy unit within range of a friendly Pestilence aura."
               }
             ]
           }
@@ -27566,6 +27475,70 @@
             ]
           },
           {
+            "id": "c1ae-2031-fa6c-1970",
+            "name": "Plague Carrier",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This unit has a 3\" Pestilence aura that carries the currently brewed Plague, but this unit does not gain the normal Pestilence ability. The brewed Plague also affects this unit as though it were an enemy unit within range of a friendly Pestilence aura."
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "field": "hidden",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "f90f-3417-1b67-42ab",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "98b2-9231-7a13-2eaf",
+            "name": "Paid Informants",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This unit has the Scouts 6\" and Stealth abilities."
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "field": "hidden",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "e011-bf81-2671-b296",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": "bdda-4550-bf03-f794",
             "name": "Unit Composition and Equipment",
             "hidden": true,
@@ -27601,6 +27574,56 @@
             "targetId": "044a-be72-a29a-fefb",
             "type": "rule",
             "hidden": false
+          },
+          {
+            "id": "798e-f5cc-9970-fd4f",
+            "name": "Scouts 6\"",
+            "targetId": "08fb-4cb5-36fb-d638",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "type": "set",
+                "field": "hidden",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "e011-bf81-2671-b296",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2ddd-5703-c86c-27a3",
+            "name": "Stealth",
+            "targetId": "bec5-4288-34a6-ccfa",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "type": "set",
+                "field": "hidden",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "e011-bf81-2671-b296",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -33449,94 +33472,6 @@
             ]
           },
           {
-            "name": "Black Contract",
-            "id": "a33d-8248-3c5f-cf6b",
-            "hidden": false,
-            "entryLinks": [
-              {
-                "name": "Black Contract - Paid Informants",
-                "id": "631f-a44c-61ef-a80f",
-                "targetId": "f101-55f9-8b74-0215",
-                "type": "selectionEntry",
-                "hidden": true,
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "value": false,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "e011-bf81-2671-b296",
-                        "field": "selections",
-                        "scope": "force",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ],
-                "import": true
-              }
-            ],
-            "constraints": [
-              {
-                "id": "df3c-694a-8e50-8bb8",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ]
-          },
-          {
-            "name": "Filth-Filth Carrier",
-            "id": "657a-e060-d4d3-20d4",
-            "hidden": false,
-            "entryLinks": [
-              {
-                "name": "Filth-Filth Carrier - Plague Carrier",
-                "id": "ffb9-2c87-5ec2-664a",
-                "targetId": "ae62-3e0c-c466-9904",
-                "type": "selectionEntry",
-                "hidden": true,
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "value": false,
-                    "type": "set",
-                    "conditions": [
-                      {
-                        "childId": "f90f-3417-1b67-42ab",
-                        "field": "selections",
-                        "scope": "force",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  }
-                ],
-                "import": true
-              }
-            ],
-            "constraints": [
-              {
-                "id": "4cca-0d66-d5ee-50c6",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ]
-          },
-          {
             "name": "Council Levy",
             "id": "12bd-ed69-980b-170f",
             "hidden": false,
@@ -33866,9 +33801,9 @@
             "value": "a2aa-6195-2a91-a899",
             "conditions": [
               {
-                "childId": "f101-55f9-8b74-0215",
+                "childId": "e011-bf81-2671-b296",
                 "field": "selections",
-                "scope": "61e3-d49f-47bf-7f00",
+                "scope": "force",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
@@ -33882,9 +33817,9 @@
             "value": "2e3a-7b07-9293-8ff2",
             "conditions": [
               {
-                "childId": "ae62-3e0c-c466-9904",
+                "childId": "f90f-3417-1b67-42ab",
                 "field": "selections",
-                "scope": "61e3-d49f-47bf-7f00",
+                "scope": "force",
                 "type": "atLeast",
                 "value": 1,
                 "shared": true,
