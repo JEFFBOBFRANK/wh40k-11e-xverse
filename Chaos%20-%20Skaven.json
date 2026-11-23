@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 60,
+    "revision": 62,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -741,7 +741,7 @@
                     "name": "Overstuffed Power Cells",
                     "id": "9fb3-6090-1ece-8e4c",
                     "hidden": false,
-                    "description": "\n\nWarplock carbines equipped by models in friendly CLANRATS units have [RAPID FIRE 2] instead of [RAPID FIRE 1]."
+                    "description": "\n\nCLANRATS units from your army gain the SKRYRE keyword and the following ability.\n\n**Overstuffed Power Cells:**<br>Warplock carbines equipped by models in this unit have [RAPID FIRE 2] instead of [RAPID FIRE 1]."
                   },
                   {
                     "name": "Volatile Genius",
@@ -753,7 +753,7 @@
                     "name": "Workshop Projects",
                     "id": "7583-801a-1d19-be26",
                     "hidden": false,
-                    "description": "​<br><br>**Scrap-Welded Armour**<br>*BATTLELINE unit*\n\nEach time a ranged attack is allocated to a model in this unit, improve that model's Save characteristic by 1 against that attack. Subtract 1\" from this unit's Move characteristic.\n\n**More-More Barrels!**<br>*WEAPON TEAM unit*\n\nEach time this unit is selected to shoot, you can re-roll any or all dice used to determine the Attacks characteristic of ranged weapons equipped by models in this unit.\n\n**Warpstone Supercharger**<br>*WEAPON TEAM unit*\n\nAdd 2 to the Strength characteristic of ranged weapons equipped by models in this unit. Those weapons have [HAZARDOUS].\n\n**Meltdown Protocol**<br>*WEAPON TEAM unit*\n\nOnce per battle, immediately after this unit has shot, it can shoot again. After it has shot for the second time, roll one D6: on a 1-2, this unit is destroyed; on a 3-5, this unit suffers D6 mortal wounds; on a 6, nothing happens.\n\n**Voltaic Shield Amplifiers**<br>*WARPCLAD unit*\n\nImprove this unit's invulnerable save by 1, to a maximum of 4+. At the end of any phase in which this unit made one or more invulnerable saving throws, roll one D6. On a 1, this unit suffers D3 mortal wounds.\n\n**Reinforced-Ramshackle Hull**<br>*SKAVEN VEHICLE unit*\n\nAdd 1 to this unit's Toughness characteristic and subtract 1\" from its Move characteristic.\n\n**Warp-Lightning Capacitors**<br>*SKAVEN VEHICLE unit*\n\nAfter this unit ends a normal, advance or charge move, select one enemy unit within 6\" and roll one D6. On a 1, this unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.\n\n**Doomrocket**<br>*Non-EPIC HERO WARLOCK ENGINEER model*\n\nThis model is equipped with a Doomrocket: Range 48\"; Attacks 2D6+7; BS 4+; S 10; AP -2; D 2; [BLAST 1, HAZARDOUS, INDIRECT FIRE, ONE SHOT, WARPSTONE]."
+                    "description": "​<br><br>**Scrap-Welded Armour**<br>*BATTLELINE unit*\n\nEach time a ranged attack is allocated to a model in this unit, improve that model's Save characteristic by 1 against that attack. Subtract 1\" from this unit's Move characteristic.\n\n<br>\n\n**More-More Barrels!**<br>*WEAPON TEAM unit*\n\nEach time this unit is selected to shoot, you can re-roll any or all dice used to determine the Attacks characteristic of ranged weapons equipped by models in this unit.\n\n<br>\n\n**Warpstone Supercharger**<br>*WEAPON TEAM unit*\n\nAdd 2 to the Strength characteristic of ranged weapons equipped by models in this unit. Those weapons have [HAZARDOUS].\n\n<br>\n\n**Meltdown Protocol**<br>*WEAPON TEAM unit*\n\nOnce per battle, immediately after this unit has shot, it can shoot again. After it has shot for the second time, roll one D6: on a 1-2, this unit is destroyed; on a 3-5, this unit suffers D6 mortal wounds; on a 6, nothing happens.\n\n<br>\n\n**Voltaic Shield Amplifiers**<br>*WARPCLAD unit*\n\nImprove this unit's invulnerable save by 1, to a maximum of 4+. At the end of any phase in which this unit made one or more invulnerable saving throws, roll one D6. On a 1, this unit suffers D3 mortal wounds.\n\n<br>\n\n**Reinforced-Ramshackle Hull**<br>*SKAVEN VEHICLE unit*\n\nAdd 1 to this unit's Toughness characteristic and subtract 1\" from its Move characteristic.\n\n<br>\n\n**Warp-Lightning Capacitors**<br>*SKAVEN VEHICLE unit*\n\nAfter this unit ends a normal, advance or charge move, select one enemy unit within 6\" and roll one D6. On a 1, this unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.\n\n<br>\n\n**Doomrocket**<br>*Non-EPIC HERO WARLOCK ENGINEER model*\n\nThis model is equipped with a Doomrocket: Range 48\"; Attacks 2D6+7; BS 4+; S 10; AP -2; D 2; [BLAST 1, HAZARDOUS, INDIRECT FIRE, ONE SHOT, WARPSTONE]."
                   }
                 ],
                 "categoryLinks": [
@@ -769,15 +769,6 @@
                     "id": "ac77-a783-c5eb-5425",
                     "targetId": "ba57-8a86-675f-7040",
                     "primary": false,
-                    "hidden": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "b5b9-6050-5398-ea2e",
-                    "name": "Sacrifice",
-                    "targetId": "66e9-9fe6-1bed-ba90",
-                    "type": "rule",
                     "hidden": false
                   }
                 ],
@@ -955,7 +946,7 @@
                     "name": "Pack-Driven",
                     "id": "27d2-8e02-1c5d-ea40",
                     "hidden": false,
-                    "description": "\n\nEach time a model in a friendly CLANRATS unit makes a melee attack, if that unit is within 6\" of one or more friendly MOULDER BEAST or MOULDER MONSTER units, add 1 to the hit roll."
+                    "description": "\n\nCLANRATS units from your army gain the MOULDER keyword and the following ability.\n\n**Pack-Driven:**<br>Each time a model in this unit makes a melee attack, if this unit is within 6\" of one or more friendly MOULDER BEAST or MOULDER MONSTER units, add 1 to the hit roll."
                   },
                   {
                     "name": "Feed the Beasts",
@@ -967,13 +958,13 @@
                     "name": "Mutations",
                     "id": "8604-6e9e-ce3a-e789",
                     "hidden": false,
-                    "description": "​<br><br>**Thickened Hide**<br>Add 1 to the Toughness characteristic of models in this unit.\n\n**Chitinous Plates**<br>Improve the Save characteristic of models in this unit by 1, to a maximum of 3+.\n\n**Too Many Limbs**<br>Add 1 to the Attacks characteristic of melee weapons equipped by models in this unit, excluding weapons with [EXTRA ATTACKS].\n\n**Overgrown Musculature**<br>Add 1 to the Strength characteristic of melee weapons equipped by models in this unit.\n\n**Lengthened Legs**<br>Add 2\" to the Move characteristic of models in this unit and add 1 to charge rolls made for this unit.\n\n**Predatory Reflexes**<br>Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1, to a maximum of 3+.\n\n**Bloated Mass**<br>*MONSTER unit only*\n\nAdd 2 to the Wounds characteristic of models in this unit."
+                    "description": "​<br><br>**Thickened Hide**<br>Add 1 to the Toughness characteristic of models in this unit.\n\n<br>\n\n**Chitinous Plates**<br>Improve the Save characteristic of models in this unit by 1, to a maximum of 3+.\n\n<br>\n\n**Too Many Limbs**<br>Add 1 to the Attacks characteristic of melee weapons equipped by models in this unit, excluding weapons with [EXTRA ATTACKS].\n\n<br>\n\n**Overgrown Musculature**<br>Add 1 to the Strength characteristic of melee weapons equipped by models in this unit.\n\n<br>\n\n**Lengthened Legs**<br>Add 2\" to the Move characteristic of models in this unit and add 1 to charge rolls made for this unit.\n\n<br>\n\n**Predatory Reflexes**<br>Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1, to a maximum of 3+.\n\n<br>\n\n**Bloated Mass**<br>*MONSTER unit only*\n\nAdd 2 to the Wounds characteristic of models in this unit."
                   },
                   {
                     "name": "Ruinous Defects",
                     "id": "3758-9c0e-f4a2-c9f3",
                     "hidden": false,
-                    "description": "​<br><br>**Soft Flesh**<br>Subtract 1 from the Toughness characteristic of models in this unit.\n\n**Exposed Organs**<br>Worsen the Save characteristic of models in this unit by 1.\n\n**Missing Limbs**<br>Subtract 1 from the Attacks characteristic of melee weapons equipped by models in this unit, to a minimum of 1, excluding weapons with [EXTRA ATTACKS].\n\n**Atrophied Musculature**<br>Subtract 1 from the Strength characteristic of melee weapons equipped by models in this unit.\n\n**Stunted Legs**<br>Subtract 2\" from the Move characteristic of models in this unit.\n\n**Uncontrollable**<br>Subtract 1 from the Objective Control characteristic of models in this unit, to a minimum of 1.\n\n**Withered Frame**<br>*MONSTER unit only*\n\nSubtract 2 from the Wounds characteristic of models in this unit."
+                    "description": "​<br><br>**Soft Flesh**<br>Subtract 1 from the Toughness characteristic of models in this unit.\n\n<br>\n\n**Exposed Organs**<br>Worsen the Save characteristic of models in this unit by 1.\n\n<br>\n\n**Missing Limbs**<br>Subtract 1 from the Attacks characteristic of melee weapons equipped by models in this unit, to a minimum of 1, excluding weapons with [EXTRA ATTACKS].\n\n<br>\n\n**Atrophied Musculature**<br>Subtract 1 from the Strength characteristic of melee weapons equipped by models in this unit.\n\n<br>\n\n**Stunted Legs**<br>Subtract 2\" from the Move characteristic of models in this unit.\n\n<br>\n\n**Uncontrollable**<br>Subtract 1 from the Objective Control characteristic of models in this unit, to a minimum of 1.\n\n<br>\n\n**Withered Frame**<br>*MONSTER unit only*\n\nSubtract 2 from the Wounds characteristic of models in this unit."
                   }
                 ],
                 "categoryLinks": [
@@ -989,22 +980,6 @@
                     "id": "f410-fd3c-f305-a4ae",
                     "targetId": "ba57-8a86-675f-7040",
                     "primary": false,
-                    "hidden": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "6982-78ef-dc3d-9621",
-                    "name": "The Under-Empire",
-                    "targetId": "37e5-8e7a-0c43-a435",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "0f7b-e0fe-e59d-2355",
-                    "name": "Sacrifice",
-                    "targetId": "66e9-9fe6-1bed-ba90",
-                    "type": "rule",
                     "hidden": false
                   }
                 ],
@@ -1257,7 +1232,7 @@
                     "name": "Secret Schemes",
                     "id": "c0a7-031b-19e7-1c15",
                     "hidden": false,
-                    "description": "​<br><br>**Choose**<br>After both players have deployed their armies, secretly select 4 different Schemes from the Hidden Ledger and record them.\n\n**Reveal**<br>At the start of your Command phase, you can reveal one unrevealed Scheme. Once revealed, it remains active until it is completed or until the battle ends. Multiple Schemes can be active at the same time.\n\n**Complete**<br>Each Scheme can only be completed once. You can complete a maximum of 4 Schemes during the battle. When a Scheme is completed, resolve its Payment immediately."
+                    "description": "​<br><br>**Choose**<br>After both players have deployed their armies, secretly select 4 different Schemes from the Hidden Ledger and record them.\n\n<br>\n\n**Reveal**<br>At the start of your Command phase, you can reveal one unrevealed Scheme. Once revealed, it remains active until it is completed or until the battle ends. Multiple Schemes can be active at the same time.\n\n<br>\n\n**Complete**<br>Each Scheme can only be completed once. You can complete a maximum of 4 Schemes during the battle. When a Scheme is completed, resolve its Payment immediately."
                   },
                   {
                     "name": "Black Contracts",
@@ -1275,7 +1250,7 @@
                     "name": "The Hidden Ledger",
                     "id": "330b-d461-2779-6ba4",
                     "hidden": false,
-                    "description": "​<br><br>**Kill-Kill the Head**<br>**Reveal**: Select one enemy CHARACTER model.\n**Complete**: That model is destroyed by an ESHIN unit.\n**Payment**: Gain D3+1 Vermin and 1CP.\n\n**Burn-Burn Their Toys**<br>**Reveal**: Select one enemy VEHICLE or MONSTER unit.\n**Complete**: An ESHIN unit causes that unit to become below half-strength or destroys it.\n**Payment**: Gain D3+1 Vermin. Until the end of the battle, each time an ESHIN model makes an attack that targets an enemy VEHICLE or MONSTER unit, add 1 to the wound roll.\n\n**Steal-Steal the Secrets**<br>**Reveal**: Select one objective in No Man's Land or your opponent's deployment zone.\n**Complete**: At the end of your turn, you control that objective and one or more ESHIN INFANTRY units are within range of it.\n**Payment**: Gain D3+1 Vermin. One ESHIN unit within range of that objective can immediately enter the Under-Empire without requiring a Gnawhole.\n\n**Cut-Cut the Supply**<br>**Reveal**: Select one enemy non-CHARACTER unit.\n**Complete**: An ESHIN unit causes that enemy unit to lose one or more wounds during your Shooting phase or the Fight phase.\n**Payment**: Gain D3 Vermin. Until the start of your next Command phase, subtract 2\" from that enemy unit's Move characteristic, it cannot make advance moves, and it cannot be removed from the battlefield and set up again by an ability.\n\n**Nothing-Nothing Was Here**<br>**Reveal**: Select one ESHIN unit.\n**Complete**: That unit ends your turn wholly within your opponent's deployment zone and is not engaged.\n**Payment**: That unit can immediately enter the Under-Empire without requiring a Gnawhole. Gain D3 Vermin.\n\n**Silence the Witnesses**<br>**Reveal**: Select one enemy INFANTRY unit.\n**Complete**: That unit is destroyed by one or more ESHIN units.\n**Payment**: Gain D3 Vermin. Select one ESHIN INFANTRY unit from your army that made one or more attacks against that enemy unit during the phase in which it was destroyed. That unit can immediately make a normal move of up to 6\". Until the start of your next Command phase, that unit cannot be selected as the target of a ranged attack unless the attacking model is within 6\".\n\n**Sabotage-Sabotage!**<br>**Reveal**: Select one objective in No Man's Land or your opponent's deployment zone.\n**Complete**: At the end of your turn, you control that objective, one or more ESHIN INFANTRY units are within range of it, and at least one such unit is not engaged.\n**Payment**: Gain D3 Vermin. That objective becomes Sabotaged until the start of your next Command phase. While Sabotaged, enemy models within range of it have an Objective Control characteristic of 0, and each time an enemy unit ends a normal, advance, fall-back or charge move within range of it, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds."
+                    "description": "​<br><br>**Kill-Kill the Head**<br>**Reveal**: Select one enemy CHARACTER model.\n**Complete**: That model is destroyed by an ESHIN unit.\n**Payment**: Gain D3+1 Vermin and 1CP.\n\n<br>\n\n**Burn-Burn Their Toys**<br>**Reveal**: Select one enemy VEHICLE or MONSTER unit.\n**Complete**: An ESHIN unit causes that unit to become below half-strength or destroys it.\n**Payment**: Gain D3+1 Vermin. Until the end of the battle, each time an ESHIN model makes an attack that targets an enemy VEHICLE or MONSTER unit, add 1 to the wound roll.\n\n<br>\n\n**Steal-Steal the Secrets**<br>**Reveal**: Select one objective in No Man's Land or your opponent's deployment zone.\n**Complete**: At the end of your turn, you control that objective and one or more ESHIN INFANTRY units are within range of it.\n**Payment**: Gain D3+1 Vermin. One ESHIN unit within range of that objective can immediately enter the Under-Empire without requiring a Gnawhole.\n\n<br>\n\n**Cut-Cut the Supply**<br>**Reveal**: Select one enemy non-CHARACTER unit.\n**Complete**: An ESHIN unit causes that enemy unit to lose one or more wounds during your Shooting phase or the Fight phase.\n**Payment**: Gain D3 Vermin. Until the start of your next Command phase, subtract 2\" from that enemy unit's Move characteristic, it cannot make advance moves, and it cannot be removed from the battlefield and set up again by an ability.\n\n<br>\n\n**Nothing-Nothing Was Here**<br>**Reveal**: Select one ESHIN unit.\n**Complete**: That unit ends your turn wholly within your opponent's deployment zone and is not engaged.\n**Payment**: That unit can immediately enter the Under-Empire without requiring a Gnawhole. Gain D3 Vermin.\n\n<br>\n\n**Silence the Witnesses**<br>**Reveal**: Select one enemy INFANTRY unit.\n**Complete**: That unit is destroyed by one or more ESHIN units.\n**Payment**: Gain D3 Vermin. Select one ESHIN INFANTRY unit from your army that made one or more attacks against that enemy unit during the phase in which it was destroyed. That unit can immediately make a normal move of up to 6\". Until the start of your next Command phase, that unit cannot be selected as the target of a ranged attack unless the attacking model is within 6\".\n\n<br>\n\n**Sabotage-Sabotage!**<br>**Reveal**: Select one objective in No Man's Land or your opponent's deployment zone.\n**Complete**: At the end of your turn, you control that objective, one or more ESHIN INFANTRY units are within range of it, and at least one such unit is not engaged.\n**Payment**: Gain D3 Vermin. That objective becomes Sabotaged until the start of your next Command phase. While Sabotaged, enemy models within range of it have an Objective Control characteristic of 0, and each time an enemy unit ends a normal, advance, fall-back or charge move within range of it, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds."
                   }
                 ],
                 "categoryLinks": [
@@ -1291,15 +1266,6 @@
                     "id": "7e5b-4042-4ec6-f5f6",
                     "targetId": "ba57-8a86-675f-7040",
                     "primary": false,
-                    "hidden": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "3e6f-abe9-8b7a-2e53",
-                    "name": "The Under-Empire",
-                    "targetId": "37e5-8e7a-0c43-a435",
-                    "type": "rule",
                     "hidden": false
                   }
                 ],
@@ -1419,7 +1385,7 @@
                     "name": "The Plague Catalogue",
                     "id": "5852-8777-b7f9-e820",
                     "hidden": false,
-                    "description": "\n\n*Brew one Plague at the start of your Command phase by paying its Vermin cost. \"Pestilence range\" means within range of a friendly Pestilence aura.*\n\n**The Weeping Pox (2 Vermin)**<br>*Lesser Contagion*\n\nWhile an enemy unit is within Pestilence range, worsen its Leadership characteristic by 1, and battle-shock rolls taken for that unit cannot be re-rolled.\n\n**The Red Death (3 Vermin)**<br>*Virulent Brew*\n\nEach time a model in a PESTILENS unit makes a melee attack that targets an enemy unit within Pestilence range, an unmodified wound roll of 5+ scores a critical wound.\n\n**The Crawling Ague (3 Vermin)**<br>*Virulent Brew*\n\nEnemy units within Pestilence range subtract 2\" from their Move characteristic, subtract 2 from advance rolls and subtract 2 from charge rolls. Multiple instances do not stack.\n\n**The Black Rot (4 Vermin)**<br>*Grand Plague*\n\nEach time an enemy unit ends a normal, advance, fall-back or charge move while within Pestilence range, roll one D6. On a 4+, it suffers D3 mortal wounds. A unit can only suffer these mortal wounds once per phase.\n\n**The Withering Sickness (4 Vermin)**<br>*Grand Plague*\n\nWhile an enemy unit is within Pestilence range, subtract 1 from the Strength characteristic of its melee weapons. If that enemy unit is below half-strength, also worsen the Armour Penetration characteristic of its melee weapons by 1.\n\n**Nurglitch's Gift (7 Vermin)**<br>*Master's Concoction*\n\nWhen this Plague is brewed, roll one D6 for each enemy unit within Pestilence range. On a 2+, that unit suffers D3+3 mortal wounds. Until the start of your next Command phase, while an enemy unit is within Pestilence range, subtract 1 from its Toughness characteristic, it cannot regain lost wounds, and destroyed models cannot be returned to that unit."
+                    "description": "\n\n*Brew one Plague at the start of your Command phase by paying its Vermin cost. \"Pestilence range\" means within range of a friendly Pestilence aura.*\n\n**The Weeping Pox (2 Vermin)**<br>*Lesser Contagion*\n\nWhile an enemy unit is within Pestilence range, worsen its Leadership characteristic by 1, and battle-shock rolls taken for that unit cannot be re-rolled.\n\n<br>\n\n**The Red Death (3 Vermin)**<br>*Virulent Brew*\n\nEach time a model in a PESTILENS unit makes a melee attack that targets an enemy unit within Pestilence range, an unmodified wound roll of 5+ scores a critical wound.\n\n<br>\n\n**The Crawling Ague (3 Vermin)**<br>*Virulent Brew*\n\nEnemy units within Pestilence range subtract 2\" from their Move characteristic, subtract 2 from advance rolls and subtract 2 from charge rolls. Multiple instances do not stack.\n\n<br>\n\n**The Black Rot (4 Vermin)**<br>*Grand Plague*\n\nEach time an enemy unit ends a normal, advance, fall-back or charge move while within Pestilence range, roll one D6. On a 4+, it suffers D3 mortal wounds. A unit can only suffer these mortal wounds once per phase.\n\n<br>\n\n**The Withering Sickness (4 Vermin)**<br>*Grand Plague*\n\nWhile an enemy unit is within Pestilence range, subtract 1 from the Strength characteristic of its melee weapons. If that enemy unit is below half-strength, also worsen the Armour Penetration characteristic of its melee weapons by 1.\n\n<br>\n\n**Nurglitch's Gift (7 Vermin)**<br>*Master's Concoction*\n\nWhen this Plague is brewed, roll one D6 for each enemy unit within Pestilence range. On a 2+, that unit suffers D3+3 mortal wounds. Until the start of your next Command phase, while an enemy unit is within Pestilence range, subtract 1 from its Toughness characteristic, it cannot regain lost wounds, and destroyed models cannot be returned to that unit."
                   }
                 ],
                 "categoryLinks": [
@@ -1435,15 +1401,6 @@
                     "id": "afa9-b7bb-1336-8c64",
                     "targetId": "ba57-8a86-675f-7040",
                     "primary": false,
-                    "hidden": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "758c-d4a4-ed0f-a6d0",
-                    "name": "Sacrifice",
-                    "targetId": "66e9-9fe6-1bed-ba90",
-                    "type": "rule",
                     "hidden": false
                   }
                 ],
@@ -1551,7 +1508,7 @@
                     "name": "Warlord Commands",
                     "id": "ddfd-dd8d-a568-4ae1",
                     "hidden": false,
-                    "description": "​<br><br>**Kill-Kill Them!**<br>Each time a model in this unit makes a melee attack, re-roll a hit roll of 1. If this unit contains 10 or more models, also re-roll a wound roll of 1.\n\n**Move-Move, Cowards!**<br>Add 2\" to this unit's Move characteristic and add 2 to advance rolls made for it.\n\n**Hold-Hold or Die!**<br>Add 1 to the Objective Control characteristic of models in this unit. While this unit contains 10 or more models, it can re-roll battle-shock rolls.\n\n**Stab-Stab from Behind!**<br>Each time a model in this unit makes a melee attack that targets an enemy unit that is also engaged with another friendly SKAVEN unit, improve the Armour Penetration characteristic of that attack by 1.\n\n**Shields Up-Up!**<br>Each time a ranged attack is allocated to a model in this unit, that model has the benefit of cover. If this unit already has the benefit of cover, worsen the Armour Penetration characteristic of that attack by 1 instead."
+                    "description": "​<br><br>**Kill-Kill Them!**<br>Each time a model in this unit makes a melee attack, re-roll a hit roll of 1. If this unit contains 10 or more models, also re-roll a wound roll of 1.\n\n<br>\n\n**Move-Move, Cowards!**<br>Add 2\" to this unit's Move characteristic and add 2 to advance rolls made for it.\n\n<br>\n\n**Hold-Hold or Die!**<br>Add 1 to the Objective Control characteristic of models in this unit. While this unit contains 10 or more models, it can re-roll battle-shock rolls.\n\n<br>\n\n**Stab-Stab from Behind!**<br>Each time a model in this unit makes a melee attack that targets an enemy unit that is also engaged with another friendly SKAVEN unit, improve the Armour Penetration characteristic of that attack by 1.\n\n<br>\n\n**Shields Up-Up!**<br>Each time a ranged attack is allocated to a model in this unit, that model has the benefit of cover. If this unit already has the benefit of cover, worsen the Armour Penetration characteristic of that attack by 1 instead."
                   },
                   {
                     "name": "Ranks Upon Ranks",
@@ -1579,15 +1536,6 @@
                     "id": "7db9-ad48-c074-c0a2",
                     "targetId": "ba57-8a86-675f-7040",
                     "primary": false,
-                    "hidden": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "6adc-1c5b-32a8-c7d5",
-                    "name": "Sacrifice",
-                    "targetId": "66e9-9fe6-1bed-ba90",
-                    "type": "rule",
                     "hidden": false
                   }
                 ],
@@ -1732,22 +1680,6 @@
                     "primary": false,
                     "hidden": false
                   }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "c4e5-5fab-080c-d016",
-                    "name": "The Under-Empire",
-                    "targetId": "37e5-8e7a-0c43-a435",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "80e8-74f1-f57f-8062",
-                    "name": "Warpstone Backlash",
-                    "targetId": "770e-a39d-7aa8-8f21",
-                    "type": "rule",
-                    "hidden": false
-                  }
                 ]
               },
               {
@@ -1794,29 +1726,6 @@
                     "id": "eca8-cf97-e051-c759",
                     "targetId": "0936-9767-1cc7-52ae",
                     "primary": false,
-                    "hidden": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "7d5c-39de-c269-ef86",
-                    "name": "Scurry Away!",
-                    "targetId": "044a-be72-a29a-fefb",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "8ce1-69c3-5878-3b9b",
-                    "name": "Sacrifice",
-                    "targetId": "66e9-9fe6-1bed-ba90",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "5e29-c7ba-2612-bf0c",
-                    "name": "Verminous Psychic Power",
-                    "targetId": "23f2-243b-eb88-3e2c",
-                    "type": "rule",
                     "hidden": false
                   }
                 ]
@@ -1874,7 +1783,7 @@
                     "name": "The Plunder Ledger",
                     "id": "2a84-187e-08ac-e7de",
                     "hidden": false,
-                    "description": "​<br><br>**Stolen Ammo (1 Vermin)**<br>Ranged weapons equipped by models in this unit have [IGNORES COVER].\n\n**Extra-Extra Dakka! (1 Vermin)**<br>Ranged weapons equipped by models in this unit have [SUSTAINED HITS 1].\n\n**Grav-Hooks and Boosters (1 Vermin)**<br>Add 2\" to this unit's Move characteristic. This unit is eligible to shoot in a turn in which it made an advance move.\n\n**Shiny-Shiny Shields! (2 Vermin)**<br>Models in this unit have a 5+ invulnerable save. If they already have an invulnerable save, improve it by 1, to a maximum of 4+.\n\n**Targeting Gubbins (2 Vermin)**<br>Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1, to a maximum of 2+.\n\n**Stolen Combat Drugs (2 Vermin)**<br>Add 1 to the Attacks characteristic of melee weapons equipped by models in this unit, excluding weapons with [EXTRA ATTACKS]. Add 1 to advance and charge rolls made for this unit.\n\n**Warp-Charged Munitions (3 Vermin)**<br>Improve the Armour Penetration characteristic of ranged weapons equipped by models in this unit by 1. Those weapons have [WARPSTONE].\n\n**The Really Good Stuff (3 Vermin)**<br>This unit gains two different 1-Vermin options.\n\n**Aeldari Grav-Drives (4 Vermin)**<br>Add 3\" to this unit's Move characteristic. This unit is eligible to shoot and declare a charge in a turn in which it made an advance or fall-back move."
+                    "description": "​<br><br>**Stolen Ammo (1 Vermin)**<br>Ranged weapons equipped by models in this unit have [IGNORES COVER].\n\n<br>\n\n**Extra-Extra Dakka! (1 Vermin)**<br>Ranged weapons equipped by models in this unit have [SUSTAINED HITS 1].\n\n<br>\n\n**Grav-Hooks and Boosters (1 Vermin)**<br>Add 2\" to this unit's Move characteristic. This unit is eligible to shoot in a turn in which it made an advance move.\n\n<br>\n\n**Shiny-Shiny Shields! (2 Vermin)**<br>Models in this unit have a 5+ invulnerable save. If they already have an invulnerable save, improve it by 1, to a maximum of 4+.\n\n<br>\n\n**Targeting Gubbins (2 Vermin)**<br>Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1, to a maximum of 2+.\n\n<br>\n\n**Stolen Combat Drugs (2 Vermin)**<br>Add 1 to the Attacks characteristic of melee weapons equipped by models in this unit, excluding weapons with [EXTRA ATTACKS]. Add 1 to advance and charge rolls made for this unit.\n\n<br>\n\n**Warp-Charged Munitions (3 Vermin)**<br>Improve the Armour Penetration characteristic of ranged weapons equipped by models in this unit by 1. Those weapons have [WARPSTONE].\n\n<br>\n\n**The Really Good Stuff (3 Vermin)**<br>This unit gains two different 1-Vermin options.\n\n<br>\n\n**Aeldari Grav-Drives (4 Vermin)**<br>Add 3\" to this unit's Move characteristic. This unit is eligible to shoot and declare a charge in a turn in which it made an advance or fall-back move."
                   }
                 ],
                 "categoryLinks": [
@@ -1897,15 +1806,6 @@
                     "id": "7d79-8e8b-c614-9809",
                     "targetId": "5134-9a2c-0dd0-0564",
                     "primary": false,
-                    "hidden": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "65ad-aa80-7db1-fb93",
-                    "name": "Warpstone",
-                    "targetId": "7a1a-acc6-a2c5-a984",
-                    "type": "rule",
                     "hidden": false
                   }
                 ],
@@ -2018,15 +1918,6 @@
                     "primary": false,
                     "hidden": false
                   }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "6e4f-29aa-449f-5069",
-                    "name": "Sacrifice",
-                    "targetId": "66e9-9fe6-1bed-ba90",
-                    "type": "rule",
-                    "hidden": false
-                  }
                 ]
               },
               {
@@ -2067,22 +1958,6 @@
                     "id": "7cc8-0cdf-8f55-8ddd",
                     "targetId": "0936-9767-1cc7-52ae",
                     "primary": false,
-                    "hidden": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "40d9-138f-2329-234a",
-                    "name": "Sacrifice",
-                    "targetId": "66e9-9fe6-1bed-ba90",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "b938-881a-e82c-cedc",
-                    "name": "Verminous Psychic Power",
-                    "targetId": "23f2-243b-eb88-3e2c",
-                    "type": "rule",
                     "hidden": false
                   }
                 ]
@@ -2164,7 +2039,7 @@
                     "name": "Council Seats",
                     "id": "6423-253a-d9c0-7e4c",
                     "hidden": false,
-                    "description": "​<br><br>**Verminus Seat**<br>Add 1 to the Objective Control characteristic of models in this unit.\n\n**Skryre Seat**<br>You can re-roll Warpstone Backlash tests taken for this unit.\n\n**Moulder Seat**<br>Models in this unit have the Feel No Pain 6+ ability.\n\n**Eshin Seat**<br>This unit has the Stealth ability.\n\n**Pestilens Seat**<br>Each time a model in this unit makes a melee attack, add 1 to the wound roll.\n\n**Masterclan Seat**<br>Each time a PSYKER in this unit makes a psychic roll, add 1 to the result."
+                    "description": "​<br><br>**Verminus Seat**<br>Add 1 to the Objective Control characteristic of models in this unit.\n\n<br>\n\n**Skryre Seat**<br>You can re-roll Warpstone Backlash tests taken for this unit.\n\n<br>\n\n**Moulder Seat**<br>Models in this unit have the Feel No Pain 6+ ability.\n\n<br>\n\n**Eshin Seat**<br>This unit has the Stealth ability.\n\n<br>\n\n**Pestilens Seat**<br>Each time a model in this unit makes a melee attack, add 1 to the wound roll.\n\n<br>\n\n**Masterclan Seat**<br>Each time a PSYKER in this unit makes a psychic roll, add 1 to the result."
                   },
                   {
                     "name": "Council Levies",
@@ -2192,29 +2067,6 @@
                     "id": "deae-8d82-f2a5-e555",
                     "targetId": "ba57-8a86-675f-7040",
                     "primary": false,
-                    "hidden": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "1a34-f0cb-c984-6cd0",
-                    "name": "Warpstone Backlash",
-                    "targetId": "770e-a39d-7aa8-8f21",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "8674-cc33-28cd-a6db",
-                    "name": "Sacrifice",
-                    "targetId": "66e9-9fe6-1bed-ba90",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "95c8-3f5f-9789-ed2e",
-                    "name": "Verminous Psychic Power",
-                    "targetId": "23f2-243b-eb88-3e2c",
-                    "type": "rule",
                     "hidden": false
                   }
                 ],
@@ -2411,15 +2263,6 @@
                     "primary": false,
                     "hidden": false
                   }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "66fc-d2b6-e903-eb30",
-                    "name": "The Under-Empire",
-                    "targetId": "37e5-8e7a-0c43-a435",
-                    "type": "rule",
-                    "hidden": false
-                  }
                 ]
               },
               {
@@ -2502,15 +2345,6 @@
                     "id": "7886-f83d-ef76-d693",
                     "targetId": "1cc1-f11a-4e8f-1bcc",
                     "primary": false,
-                    "hidden": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "d24f-9c0d-b368-0877",
-                    "name": "Sacrifice",
-                    "targetId": "66e9-9fe6-1bed-ba90",
-                    "type": "rule",
                     "hidden": false
                   }
                 ]
@@ -27475,6 +27309,70 @@
             ]
           },
           {
+            "id": "0860-12d7-1d77-9294",
+            "name": "Pack-Driven",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time a model in this unit makes a melee attack, if this unit is within 6\" of one or more friendly MOULDER BEAST or MOULDER MONSTER units, add 1 to the hit roll."
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "field": "hidden",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "7625-43a9-167b-e8a9",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "54fa-92e9-dbdd-269f",
+            "name": "Overstuffed Power Cells",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Warplock carbines equipped by models in this unit have [RAPID FIRE 2] instead of [RAPID FIRE 1]."
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "field": "hidden",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "af60-b16e-a417-528a",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": "c1ae-2031-fa6c-1970",
             "name": "Plague Carrier",
             "hidden": true,
@@ -33818,6 +33716,38 @@
             "conditions": [
               {
                 "childId": "f90f-3417-1b67-42ab",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "88a3-f70f-c213-f62e",
+            "conditions": [
+              {
+                "childId": "af60-b16e-a417-528a",
+                "field": "selections",
+                "scope": "force",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "5aef-7621-9c8d-1b60",
+            "conditions": [
+              {
+                "childId": "7625-43a9-167b-e8a9",
                 "field": "selections",
                 "scope": "force",
                 "type": "atLeast",

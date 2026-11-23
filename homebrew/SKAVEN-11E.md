@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 60 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 62 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -42,8 +42,8 @@ detachments). The layout follows the Emperor's Children catalogue.
   Power and the four spell lores.
 - Detachment rules are one rule per named ability, as in the Emperor's Children
   catalogue; menus and procedures (ledgers, catalogues, Warlord Commands, Clawpack
-  Benefits, Secret Schemes, The Great Workshops) stay whole. Each detachment links
-  the army rules it uses.
+  Benefits, Secret Schemes, The Great Workshops) stay whole. Army rules are not
+  linked from detachments; they are in Army Rules and References.
 - Detachments carry their DP and Force Dispositions. Only one Unique: CLAN
   detachment can be taken. Stratagem References follows the chosen detachments.
 - Clan detachments (2 DP, Unique: CLAN): Skryre Worship, Moulder Flesh
@@ -76,6 +76,8 @@ detachments). The layout follows the Emperor's Children catalogue.
   CHARACTER enhancements are in "Skurvy Officers"; record which Black-Flag
   character carries each one.
 - Cauldron of Pestilence: every Clanrats unit gains PESTILENS and Plague Carrier.
+- Skryre Worship: every Clanrats unit gains SKRYRE and Overstuffed Power Cells.
+- Moulder Flesh Laboratory: every Clanrats unit gains MOULDER and Pack-Driven.
 - Clanrats: each model type carries its weapons (Clanrat, Clanrat with mace, with
   spear or with Warplock carbine; the Clawleader picks Sword and Board or Warplock).
   New Recruit shows an error unless the whole unit uses one loadout.

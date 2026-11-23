@@ -8,7 +8,9 @@
 
 ## Overstuffed Power Cells
 
-Warplock carbines equipped by models in friendly CLANRATS units have [RAPID FIRE 2] instead of [RAPID FIRE 1].
+CLANRATS units from your army gain the SKRYRE keyword and the following ability.
+
+**Overstuffed Power Cells:** Warplock carbines equipped by models in this unit have [RAPID FIRE 2] instead of [RAPID FIRE 1].
 
 ## Volatile Genius
 

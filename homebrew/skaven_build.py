@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 60
+REVISION = 62
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -964,7 +964,7 @@ def build_detachments(b, units):
                 add_detachment_rules(det, heading, lines)
             else:
                 add_detachment_rules(det, heading, lines)
-        link_army_rules(b, det, text)
+        # Detachments do not link the army rules; those live in Army Rules and References.
         group["selectionEntries"].append(det)
 
     # Only one Unique: CLAN detachment per army.
@@ -1029,8 +1029,15 @@ def add_detachment_rules(det, heading, lines):
     name = title(heading)
     parts = sections("\n".join(lines), "### ")
     if name in WHOLE_SECTIONS or len(parts) == 1:
+        spaced, seen = [], False  # a blank line between ledger entries, so they do not run together
+        for line in lines:
+            if line.startswith("### "):
+                if seen:
+                    spaced += ["<br>", ""]
+                seen = True
+            spaced.append(line)
         det["rules"].append(dict(name=name, id=nid(det["id"] + ":rule:" + name), hidden=False,
-                                 description="\n\n" + clean_markdown(lines)))
+                                 description="\n\n" + clean_markdown(spaced)))
         return
     for sub, body in parts:
         text = clean_markdown(body)
@@ -1526,6 +1533,8 @@ def build(source, catalogue_path, system_path):
 
     clanrats_gain("Shadowy Dealings", "Eshin", "Paid Informants", ('Scouts 6"', "Stealth"))
     clanrats_gain("Cauldron of Pestilence", "Pestilens", "Plague Carrier")
+    clanrats_gain("Skryre Worship", "Skryre", "Overstuffed Power Cells")
+    clanrats_gain("Moulder Flesh Laboratory", "Moulder", "Pack-Driven")
 
     # Black-Flag Clanrats (Clan Skurvy): every Clanrats unit gains SKURVY and Claim-Claim the Prize!.
     skurvy_det = next(d for d in detachment_entry["selectionEntryGroups"][0]["selectionEntries"]

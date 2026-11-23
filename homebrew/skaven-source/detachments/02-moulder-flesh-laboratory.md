@@ -20,7 +20,9 @@ Each MOULDER CHARACTER model from your army has this ability: at the end of your
 
 ## Pack-Driven
 
-Each time a model in a friendly CLANRATS unit makes a melee attack, if that unit is within 6" of one or more friendly MOULDER BEAST or MOULDER MONSTER units, add 1 to the hit roll.
+CLANRATS units from your army gain the MOULDER keyword and the following ability.
+
+**Pack-Driven:** Each time a model in this unit makes a melee attack, if this unit is within 6" of one or more friendly MOULDER BEAST or MOULDER MONSTER units, add 1 to the hit roll.
 
 ## Feed the Beasts
 
