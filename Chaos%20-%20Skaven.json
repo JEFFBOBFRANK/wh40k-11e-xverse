@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 55,
+    "revision": 56,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -73698,7 +73698,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D3+5"
+                    "$text": "D3+6"
                   },
                   {
                     "name": "Keywords",
