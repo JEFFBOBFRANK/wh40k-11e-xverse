@@ -200,7 +200,7 @@ You cannot gain Vermin from a Summoned Vermin unit being destroyed, being remove
 
 ## Lore of Ruin
 
-_Known by: Thanquol and Boneripper, Ikit Claw, Lord Skreech Verminking, Grey Seer, Verminlord Warbringer, Verminlord Warpseer. Warlock Engineers know Warp Lightning and Howling Warpgale only._
+_Known by: Thanquol and Boneripper, Ikit Claw, Lord Skreech Verminking, Grey Seer, Verminlord Warbringer, Verminlord Warpseer. Warlock Engineers and Arch-Warlocks know Warp Lightning and Howling Warpgale only._
 
 #### Warp Lightning (Psychic Level 1, DAMAGE)
 
@@ -328,7 +328,7 @@ _Known by: Thanquol and Boneripper, Lord Skrolk, Lord Skreech Verminking, Grey S
 
 ## Lore of the Hidden Fang
 
-_Known by: Lord Skreech Verminking, Verminlord Deceiver._
+_Known by: Lord Skreech Verminking, Verminlord Deceiver, Eshin Sorcerer._
 
 #### Skitterleap (Psychic Level 1)
 

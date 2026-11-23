@@ -1,12 +1,13 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 57 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 58 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
 ## What New Recruit shows
 
-- 61 datasheets (including the Warpfang Colossus, Gnawhull Brutes and Blightfang
+- 66 datasheets (including the Clan Chieftain, Arch-Warlock, Beast-Lord, Pox-Abbot,
+  Eshin Sorcerer, the Warpfang Colossus, Gnawhull Brutes and Blightfang
   Ogors). Squads use real model counters with per-model wargear and an
   error unless the unit is one of its legal sizes; larger sizes add their points.
 - Sub-headings in rules and abilities are bold lines, as in the Emperor's

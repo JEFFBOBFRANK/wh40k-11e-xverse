@@ -107,6 +107,31 @@
      "name": "Verminlord Corruptor",
      "points": "270pts",
      "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Clan Chieftain",
+     "points": "70pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Arch-Warlock",
+     "points": "90pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Beast-Lord",
+     "points": "80pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Pox-Abbot",
+     "points": "75pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Eshin Sorcerer",
+     "points": "85pts",
+     "repeat_cost": "+10pts from the 3rd copy"
     }
    ]
   },
