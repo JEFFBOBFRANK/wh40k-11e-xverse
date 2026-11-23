@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 66,
+    "revision": 67,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -249,6 +249,26 @@
         "name": "Warpclad",
         "id": "220b-eac5-3bb0-7487",
         "hidden": false
+      },
+      {
+        "name": "Count: Warpclad Warpack - Warpclad",
+        "id": "e77b-f4d3-c369-5b36",
+        "hidden": true
+      },
+      {
+        "name": "Count: Warpclad Warpack - Warpclad with Warp-blaster",
+        "id": "bc73-15cb-9299-8f4c",
+        "hidden": true
+      },
+      {
+        "name": "Count: Warpclad Warpack - Warpclad with Shock gauntlet",
+        "id": "01cc-8154-d796-f4a6",
+        "hidden": true
+      },
+      {
+        "name": "Count: Warpclad Warpack - Warpclad with Warp-lance",
+        "id": "7f8c-dd1d-5be1-d7dc",
+        "hidden": true
       },
       {
         "name": "Plague Monks",
@@ -2657,13 +2677,6 @@
             "targetId": "81eb-ac71-fdcc-9764",
             "type": "rule",
             "hidden": false
-          },
-          {
-            "id": "14c0-c413-414d-2170",
-            "name": "Special Spells",
-            "targetId": "03b6-5756-8b79-796c",
-            "type": "rule",
-            "hidden": false
           }
         ]
       },
@@ -4967,7 +4980,21 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model knows the Lore of Ruin, the Lore of Plague and The Dreaded Thirteenth. It can Overcast up to twice per turn instead of once."
+                "$text": "This model knows the Lore of Ruin and the Lore of Plague. It can Overcast up to twice per turn instead of once."
+              }
+            ]
+          },
+          {
+            "id": "0c17-f71d-2ad9-c431",
+            "name": "The Dreaded Thirteenth (Psychic Level 3)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, roll 13D6: for each 4+, that enemy unit suffers 1 mortal wound. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: each 3+ causes 1 mortal wound instead. This spell can be used only once per battle round by your army."
               }
             ]
           },
@@ -6781,7 +6808,35 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model knows the Lore of Ruin, Storm Daemon and Flensing Ruin."
+                "$text": "This model knows the Lore of Ruin."
+              }
+            ]
+          },
+          {
+            "id": "4ce7-94c5-25ec-0534",
+            "name": "Storm Daemon (Psychic Level 0)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, and at the start of the Fight phase, if this unit is not battle-shocked, you can make a psychic roll; this spell spends no Psychic Level. On a 1, this unit becomes battle-shocked. Regardless of the result: in your Shooting phase, select one enemy unit within 18\" of and visible to this model, and it suffers D3+3 mortal wounds (2D3+3 if Overcast); at the start of the Fight phase, until the end of the phase, this model's Storm Daemon weapon has +2 Strength and [DEVASTATING WOUNDS] (and +1 Attacks if Overcast). If the psychic roll includes an unmodified 1, this spell cannot be used again this battle; the Storm Daemon weapon can still be used."
+              }
+            ]
+          },
+          {
+            "id": "8198-dbd5-7def-a427",
+            "name": "Flensing Ruin (Psychic Level 2)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit suffers D3 mortal wounds and, until the end of the turn, worsen the Save characteristic of its models by 1 (this does not affect invulnerable saves). Overcast: worsen it by 2 instead."
               }
             ]
           },
@@ -8726,7 +8781,21 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model knows the Lore of Plague and Pestilent Birth."
+                "$text": "This model knows the Lore of Plague."
+              }
+            ]
+          },
+          {
+            "id": "48f0-4d94-54ac-1ca8",
+            "name": "Pestilent Birth (Psychic Level 2)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of your Movement phase, if this unit is not battle-shocked, you can make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, using Summoned Vermin, add a temporary unit of 10 Plague Monks (including 1 Plague Deacon) to your army. Set it up wholly within 12\" of this model and more than 8\" horizontally from all enemy models. Remove it at the start of your next Command phase. Overcast: the unit has 20 Plague Monks (still including 1 Plague Deacon) instead."
               }
             ]
           },
@@ -10346,7 +10415,35 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model knows the Lore of Ruin, the Lore of Plague, the Lore of the Hidden Fang, The Dreaded Thirteenth and Armour of Darkness."
+                "$text": "This model knows the Lore of Ruin, the Lore of Plague and the Lore of the Hidden Fang."
+              }
+            ]
+          },
+          {
+            "id": "5856-480a-ba62-34d9",
+            "name": "The Dreaded Thirteenth (Psychic Level 3)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, roll 13D6: for each 4+, that enemy unit suffers 1 mortal wound. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: each 3+ causes 1 mortal wound instead. This spell can be used only once per battle round by your army."
+              }
+            ]
+          },
+          {
+            "id": "3674-e19d-3c2e-d69f",
+            "name": "Armour of Darkness (Psychic Level 1)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Movement phase, if this unit is not battle-shocked, you can select one friendly SKAVEN INFANTRY unit within 18\" of this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, until the start of your next turn, improve the Save characteristic of models in that unit by 1 (not better than 4+). Overcast: improve it by 2 instead (still not better than 4+)."
               }
             ]
           },
@@ -11303,7 +11400,35 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model knows the Lore of Ruin, the Lore of Plague, The Dreaded Thirteenth and Vermintide."
+                "$text": "This model knows the Lore of Ruin and the Lore of Plague."
+              }
+            ]
+          },
+          {
+            "id": "6520-01ea-3b93-14e4",
+            "name": "The Dreaded Thirteenth (Psychic Level 3)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, roll 13D6: for each 4+, that enemy unit suffers 1 mortal wound. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: each 3+ causes 1 mortal wound instead. This spell can be used only once per battle round by your army."
+              }
+            ]
+          },
+          {
+            "id": "1cc3-d09f-0c95-1d3d",
+            "name": "Vermintide (Psychic Level 1)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of your Movement phase, if this unit is not battle-shocked, you can make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, using Summoned Vermin, add a temporary unit of 10 Clanrats to your army. Set it up wholly within 12\" of this model and more than 8\" horizontally from all enemy models. Remove it at the start of your next Command phase. Overcast: the unit has 20 Clanrats instead."
               }
             ]
           },
@@ -11645,7 +11770,21 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Replace this model's INFANTRY keyword with VEHICLE. This model loses the Leader ability, cannot join a Bodyguard unit, and gains Crushing Bell, Rat Ogor claws and Attendant weapons. While mounted, it also knows Peal of Doom. This model loses the Scurry Away! ability."
+                        "$text": "Replace this model's INFANTRY keyword with VEHICLE. This model loses the Leader ability, cannot join a Bodyguard unit, and gains Crushing Bell, Rat Ogor claws and Attendant weapons. This model loses the Scurry Away! ability."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "3886-8acd-c77c-8c1d",
+                    "name": "Peal of Doom (Psychic Level 1)",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit suffers D3 mortal wounds and must take a battle-shock roll. Overcast: it suffers D3+1 mortal wounds instead, and subtract 1 from that battle-shock roll."
                       }
                     ]
                   },
@@ -21544,7 +21683,21 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model knows the Lore of Ruin and Death Frenzy."
+                "$text": "This model knows the Lore of Ruin."
+              }
+            ]
+          },
+          {
+            "id": "e5a8-82e6-5eeb-e3aa",
+            "name": "Death Frenzy (Psychic Level 2)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of the Fight phase, if this unit is not battle-shocked, you can select one friendly SKAVEN INFANTRY or SKAVEN BEAST unit within 18\" of this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, until the end of the phase, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it yet; it can fight after the attacking unit has finished making its attacks, and is then removed. Overcast: until the end of the phase, also add 1 to the Attacks characteristic of melee weapons equipped by models in that unit."
               }
             ]
           },
@@ -22819,7 +22972,21 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model knows the Lore of Ruin and Master of Lightning."
+                "$text": "This model knows the Lore of Ruin."
+              }
+            ]
+          },
+          {
+            "id": "b042-bfba-8a12-4664",
+            "name": "Master of Lightning (Psychic Level 2)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 24\" of and visible to this model, and up to two other enemy units within 6\" of that unit and within 24\" of and visible to this model, and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, each selected unit suffers D3+1 mortal wounds. Overcast: each suffers 2D3+1 mortal wounds instead."
               }
             ]
           },
@@ -24117,7 +24284,21 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model knows the Lore of the Hidden Fang and Black Whirlwind."
+                "$text": "This model knows the Lore of the Hidden Fang."
+              }
+            ]
+          },
+          {
+            "id": "4404-2e1e-9e23-a88c",
+            "name": "Black Whirlwind (Psychic Level 2)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one point on the battlefield within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, place a Black Whirlwind marker on that point until the start of your next Command phase. Each unit (friendly or enemy) within 3\" of the marker suffers D3 mortal wounds. Until it is removed, each time a unit ends a normal, advance, fall-back or charge move within 3\" of the marker, that unit suffers D3 mortal wounds. Each unit can suffer mortal wounds from this marker only once per turn. Overcast: use 6\" instead of 3\"."
               }
             ]
           },
@@ -25450,7 +25631,35 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model knows the Lore of Plague, Plaguemaster and Wither."
+                "$text": "This model knows the Lore of Plague."
+              }
+            ]
+          },
+          {
+            "id": "77ef-eaa5-72c5-b30d",
+            "name": "Plaguemaster (Psychic Level 2)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one point on the battlefield within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, each unit (friendly or enemy) within 3\" of that point suffers D3+3 mortal wounds. Overcast: use 6\" instead of 3\"."
+              }
+            ]
+          },
+          {
+            "id": "69ac-d470-257f-5c58",
+            "name": "Wither (Psychic Level 1)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, until the start of your next turn, subtract 1 from the Toughness characteristic of models in that enemy unit (to a minimum of 1). Overcast: subtract 2 instead (to a minimum of 1)."
               }
             ]
           },
@@ -34868,7 +35077,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 1 Fangleader and 9 Warpclads. Every Warpclad is equipped with 1 Warp-disintegrator and 1 Warp-glaive. Fangleader:W3. Equipped with 1 Warp-disintegrator or 1 Warp-blaster, and 1 Warp-glaive, 1 Master-forged warp-glaive or 1 Shock gauntlet."
+                "$text": "Composition: 1 Fangleader and 9 Warpclads. Every Warpclad is equipped with one of: 1 Warp-disintegrator and 1 Warp-glaive; or 1 Warp-blade and 1 Voltaic shield. Up to 3 Warpclads can replace their Warp-disintegrator with 1 Warp-blaster. Up to 2 Warpclads can replace their Warp-glaive with 1 Shock gauntlet. 1 Warpclad can replace its Warp-disintegrator with 1 Warp-lance. Fangleader:W3. Equipped with 1 Warp-disintegrator, 1 Warp-blaster or 1 Warp-lance, and 1 Master-forged warp-glaive or 1 Shock gauntlet. A model equipped with a Voltaic shield has a 4+ invulnerable save. One Warpclad can carry a Voltaic Pennant; this does not replace its weapons."
               }
             ]
           },
@@ -34999,6 +35208,22 @@
                         "includeChildSelections": true
                       }
                     ]
+                  },
+                  {
+                    "field": "58d2-b879-49c7-43bc",
+                    "type": "set",
+                    "value": "6+",
+                    "conditions": [
+                      {
+                        "childId": "6a60-ebfc-deff-7258",
+                        "field": "selections",
+                        "scope": "64fa-8772-08d1-5c74",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -35031,7 +35256,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "3"
+                            "$text": "4"
                           },
                           {
                             "name": "BS",
@@ -35041,7 +35266,7 @@
                           {
                             "name": "S",
                             "typeId": "2229-f494-25db-c5d3",
-                            "$text": "4"
+                            "$text": "6"
                           },
                           {
                             "name": "AP",
@@ -35056,7 +35281,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Blast 1, Ignores Cover, Torrent"
+                            "$text": "Blast 2, Ignores Cover, Torrent"
                           }
                         ]
                       }
@@ -35113,12 +35338,12 @@
                           {
                             "name": "Range",
                             "typeId": "9896-9419-16a1-92fc",
-                            "$text": "12\""
+                            "$text": "18\""
                           },
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "2"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -35128,7 +35353,7 @@
                           {
                             "name": "S",
                             "typeId": "2229-f494-25db-c5d3",
-                            "$text": "6"
+                            "$text": "8"
                           },
                           {
                             "name": "AP",
@@ -35175,6 +35400,93 @@
                         "hidden": false
                       }
                     ]
+                  },
+                  {
+                    "name": "Warp-lance",
+                    "id": "c960-20df-1182-1c85",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "10ee-0631-50b8-e1d5",
+                        "name": "Warp-lance",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "24\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "12"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-3"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "D3+3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Melta 3, Warpstone"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "ff7b-e4e0-3ca8-8095",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "ed20-1395-91b5-1cbe",
+                        "name": "Melta",
+                        "targetId": "7cdb-fb99-44a9-8849",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "2df7-e0e5-ba9c-7590",
+                        "name": "Warpstone",
+                        "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "3506-78c4-8d35-035f",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
                   }
                 ],
                 "constraints": [
@@ -35204,70 +35516,6 @@
                 "id": "432e-eb40-0623-545d",
                 "hidden": false,
                 "selectionEntries": [
-                  {
-                    "name": "Warp-glaive",
-                    "id": "54fd-2377-c7b7-cae6",
-                    "type": "upgrade",
-                    "hidden": false,
-                    "import": true,
-                    "profiles": [
-                      {
-                        "id": "0056-3c18-27eb-1c41",
-                        "name": "Warp-glaive",
-                        "hidden": false,
-                        "typeId": "8a40-4aaa-c780-9046",
-                        "typeName": "Melee Weapons",
-                        "characteristics": [
-                          {
-                            "name": "Range",
-                            "typeId": "914c-b413-91e3-a132",
-                            "$text": "Melee"
-                          },
-                          {
-                            "name": "A",
-                            "typeId": "2337-daa1-6682-b110",
-                            "$text": "4"
-                          },
-                          {
-                            "name": "WS",
-                            "typeId": "95d1-95f-45b4-11d6",
-                            "$text": "3+"
-                          },
-                          {
-                            "name": "S",
-                            "typeId": "ab33-d393-96ce-ccba",
-                            "$text": "7"
-                          },
-                          {
-                            "name": "AP",
-                            "typeId": "41a0-1301-112a-e2f2",
-                            "$text": "-2"
-                          },
-                          {
-                            "name": "D",
-                            "typeId": "3254-9fe6-d824-513e",
-                            "$text": "2"
-                          },
-                          {
-                            "name": "Keywords",
-                            "typeId": "893f-9000-ccf7-648e",
-                            "$text": "-"
-                          }
-                        ]
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "id": "dc27-c8bb-799f-4809",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ]
-                  },
                   {
                     "name": "Master-forged warp-glaive",
                     "id": "430b-57e6-3687-c953",
@@ -35354,7 +35602,7 @@
                           {
                             "name": "A",
                             "typeId": "2337-daa1-6682-b110",
-                            "$text": "3"
+                            "$text": "4"
                           },
                           {
                             "name": "WS",
@@ -35364,7 +35612,7 @@
                           {
                             "name": "S",
                             "typeId": "ab33-d393-96ce-ccba",
-                            "$text": "9"
+                            "$text": "10"
                           },
                           {
                             "name": "AP",
@@ -35379,7 +35627,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "-"
+                            "$text": "Anti-Vehicle 4+"
                           }
                         ]
                       }
@@ -35393,6 +35641,15 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "2ab0-978e-1d3f-6b12",
+                        "name": "Anti",
+                        "targetId": "4111-82e3-9444-e942",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   }
@@ -35417,31 +35674,22 @@
                     "includeChildSelections": false
                   }
                 ],
-                "defaultSelectionEntryId": "54fd-2377-c7b7-cae6"
+                "defaultSelectionEntryId": "430b-57e6-3687-c953"
               }
             ],
             "sortIndex": 0
           },
           {
-            "name": "Warpclad",
-            "id": "05b5-c348-d571-a2d4",
-            "type": "model",
+            "name": "Voltaic Pennant",
+            "id": "6a60-ebfc-deff-7258",
+            "type": "upgrade",
             "hidden": false,
             "import": true,
             "constraints": [
               {
-                "id": "4cbb-c326-54e9-5e00",
-                "type": "min",
-                "value": 9,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "7887-93f4-a2fc-5210",
+                "id": "03b6-8326-8fd6-c14e",
                 "type": "max",
-                "value": 9,
+                "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -35450,288 +35698,72 @@
             ],
             "profiles": [
               {
-                "id": "5b0a-02a7-7934-75cd",
-                "name": "Warpclad",
+                "id": "8e2d-8521-1c50-da3f",
+                "name": "Voltaic Pennant",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
                 "hidden": false,
-                "typeId": "c547-1836-d8a-ff4f",
-                "typeName": "Unit",
                 "characteristics": [
                   {
-                    "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1",
-                    "$text": "7\""
-                  },
-                  {
-                    "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4",
-                    "$text": "5"
-                  },
-                  {
-                    "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da",
-                    "$text": "3+"
-                  },
-                  {
-                    "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc",
-                    "$text": "7+"
-                  },
-                  {
-                    "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8",
-                    "$text": "1"
-                  },
-                  {
-                    "name": "InSv",
-                    "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": "5+"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "bef7-942a-1a23-59f8",
-                    "type": "increment",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "9ed6-15fb-961a-e76e",
-                        "field": "selections",
-                        "scope": "roster",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
-                  },
-                  {
-                    "field": "55a7-5b54-c60d-11dc",
-                    "type": "set",
-                    "value": "4+",
-                    "conditions": [
-                      {
-                        "childId": "ad9e-2942-b535-36ee",
-                        "field": "selections",
-                        "scope": "64fa-8772-08d1-5c74",
-                        "type": "atLeast",
-                        "value": 1,
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ]
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Improve the Leadership characteristic of models in the bearer's unit by 1, and you can re-roll battle-shock rolls taken for that unit."
                   }
                 ]
               }
             ],
-            "selectionEntries": [
+            "associations": [
               {
-                "name": "Warp-disintegrator",
-                "id": "8f9e-bcc5-7bff-e1eb",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "profiles": [
+                "name": "Voltaic Pennant",
+                "id": "de2a-35c3-ee1e-1509",
+                "childId": "model",
+                "includeChildSelections": true,
+                "min": 1,
+                "max": 1,
+                "scope": "64fa-8772-08d1-5c74",
+                "defaultSelectionEntryId": "none",
+                "conditionGroups": [
                   {
-                    "id": "bdcb-9e7e-06c8-842a",
-                    "name": "Warp-disintegrator",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "12\""
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "3"
-                      },
-                      {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "Torrent"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "4"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-1"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Blast 1, Ignores Cover, Torrent"
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "id": "1101-667d-ccd1-3208",
-                    "type": "min",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  },
-                  {
-                    "id": "07a5-ab82-31be-b3c6",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "3b3b-7a27-8bcf-89f3",
-                    "name": "Blast",
-                    "targetId": "6c1f-1cf7-ff25-c99e",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "8325-f4c1-cc4e-9611",
-                    "name": "Ignores Cover",
-                    "targetId": "4640-43e7-30b-215a",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "a01f-bcdc-9236-1896",
-                    "name": "Torrent",
-                    "targetId": "5edf-d619-23e0-9b56",
-                    "type": "rule",
-                    "hidden": false
-                  }
-                ]
-              },
-              {
-                "name": "Warp-glaive",
-                "id": "b934-24c2-6462-fd9b",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "profiles": [
-                  {
-                    "id": "7638-c6a1-7338-c946",
-                    "name": "Warp-glaive",
-                    "hidden": false,
-                    "typeId": "8a40-4aaa-c780-9046",
-                    "typeName": "Melee Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "914c-b413-91e3-a132",
-                        "$text": "Melee"
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "2337-daa1-6682-b110",
-                        "$text": "4"
-                      },
-                      {
-                        "name": "WS",
-                        "typeId": "95d1-95f-45b4-11d6",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "ab33-d393-96ce-ccba",
-                        "$text": "7"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "41a0-1301-112a-e2f2",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "3254-9fe6-d824-513e",
-                        "$text": "2"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "893f-9000-ccf7-648e",
-                        "$text": "-"
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "id": "ad70-a3da-606a-4db4",
-                    "type": "min",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  },
-                  {
-                    "id": "d298-0cd4-f258-0a01",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ]
-              }
-            ],
-            "sortIndex": 1
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 20,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
+                    "type": "or",
                     "conditions": [
                       {
-                        "childId": "any",
+                        "childId": "05b5-c348-d571-a2d4",
                         "field": "selections",
                         "scope": "self",
-                        "type": "before",
+                        "type": "instanceOf",
                         "value": 1,
                         "shared": true,
                         "includeChildSelections": true
                       },
                       {
-                        "childId": "64fa-8772-08d1-5c74",
-                        "childName": "Warpclad Warpack",
+                        "childId": "2b51-fff1-128f-bbcf",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "f9e6-7270-48f1-f714",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "098f-c587-6227-aa87",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "26f0-b677-91fc-3b3e",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -35743,106 +35775,1537 @@
                   }
                 ]
               }
-            ]
-          },
-          {
-            "type": "add",
-            "field": "category",
-            "value": "e338-111e-d0c6-b687",
-            "conditions": [
-              {
-                "childId": "9ed6-15fb-961a-e76e",
-                "field": "selections",
-                "scope": "roster",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "type": "set-primary",
-            "field": "category",
-            "value": "e338-111e-d0c6-b687",
-            "conditions": [
-              {
-                "childId": "9ed6-15fb-961a-e76e",
-                "field": "selections",
-                "scope": "roster",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "field": "ad9f-6595-ba51-9fc7",
-            "value": 6,
-            "conditions": [
-              {
-                "childId": "9ed6-15fb-961a-e76e",
-                "field": "selections",
-                "scope": "roster",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          },
-          {
-            "type": "add",
-            "field": "category",
-            "value": "085b-ed18-2400-e7f2",
-            "conditions": [
-              {
-                "childId": "2095-c616-64b4-0e03",
-                "field": "selections",
-                "scope": "64fa-8772-08d1-5c74",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          }
-        ],
-        "constraints": [
-          {
-            "id": "ad9f-6595-ba51-9fc7",
-            "type": "max",
-            "value": 3,
-            "scope": "roster",
-            "field": "selections",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": true
-          },
-          {
-            "id": "299c-988d-130b-5df7",
-            "childId": "any",
-            "field": "e7c3-91a2-4d0b-b6f5",
-            "type": "max",
-            "value": 1,
-            "scope": "root-entry",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
-          }
-        ],
-        "costs": [
-          {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 195
+            ],
+            "sortIndex": 50
           }
         ],
         "selectionEntryGroups": [
+          {
+            "name": "9 Warpclads",
+            "id": "8eea-a5e7-b9fd-65b1",
+            "hidden": false,
+            "defaultSelectionEntryId": "05b5-c348-d571-a2d4",
+            "selectionEntries": [
+              {
+                "name": "Warpclad",
+                "id": "05b5-c348-d571-a2d4",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "4cbb-c326-54e9-5e00",
+                    "type": "min",
+                    "value": 0,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "7887-93f4-a2fc-5210",
+                    "type": "max",
+                    "value": 9,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "id": "5b0a-02a7-7934-75cd",
+                    "name": "Warpclad",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "7\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "7+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "5+"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "55a7-5b54-c60d-11dc",
+                        "type": "set",
+                        "value": "4+",
+                        "conditions": [
+                          {
+                            "childId": "ad9e-2942-b535-36ee",
+                            "field": "selections",
+                            "scope": "64fa-8772-08d1-5c74",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "58d2-b879-49c7-43bc",
+                        "type": "set",
+                        "value": "6+",
+                        "conditions": [
+                          {
+                            "childId": "6a60-ebfc-deff-7258",
+                            "field": "selections",
+                            "scope": "64fa-8772-08d1-5c74",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Warp-disintegrator",
+                    "id": "8f9e-bcc5-7bff-e1eb",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "bdcb-9e7e-06c8-842a",
+                        "name": "Warp-disintegrator",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "Torrent"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-1"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Blast 2, Ignores Cover, Torrent"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "1101-667d-ccd1-3208",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "07a5-ab82-31be-b3c6",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "3b3b-7a27-8bcf-89f3",
+                        "name": "Blast",
+                        "targetId": "6c1f-1cf7-ff25-c99e",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "8325-f4c1-cc4e-9611",
+                        "name": "Ignores Cover",
+                        "targetId": "4640-43e7-30b-215a",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "a01f-bcdc-9236-1896",
+                        "name": "Torrent",
+                        "targetId": "5edf-d619-23e0-9b56",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Warp-glaive",
+                    "id": "b934-24c2-6462-fd9b",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "7638-c6a1-7338-c946",
+                        "name": "Warp-glaive",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "7"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "-"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "ad70-a3da-606a-4db4",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "d298-0cd4-f258-0a01",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "count",
+                    "id": "b3a4-7a88-3ffc-acad",
+                    "targetId": "e77b-f4d3-c369-5b36",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "7887-93f4-a2fc-5210",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "2b51-fff1-128f-bbcf",
+                        "field": "selections",
+                        "scope": "64fa-8772-08d1-5c74",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "7887-93f4-a2fc-5210",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "f9e6-7270-48f1-f714",
+                        "field": "selections",
+                        "scope": "64fa-8772-08d1-5c74",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "7887-93f4-a2fc-5210",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "098f-c587-6227-aa87",
+                        "field": "selections",
+                        "scope": "64fa-8772-08d1-5c74",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "7887-93f4-a2fc-5210",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "26f0-b677-91fc-3b3e",
+                        "field": "selections",
+                        "scope": "64fa-8772-08d1-5c74",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  }
+                ],
+                "defaultAmount": 9
+              },
+              {
+                "name": "Warpclad with Warp-blade and Voltaic shield",
+                "id": "2b51-fff1-128f-bbcf",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "cb32-67fe-1a44-7114",
+                    "type": "max",
+                    "value": 9,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "id": "6e8e-b224-61eb-8043",
+                    "name": "Warpclad (Voltaic shield)",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "7\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "7+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "4+"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "58d2-b879-49c7-43bc",
+                        "type": "set",
+                        "value": "6+",
+                        "conditions": [
+                          {
+                            "childId": "6a60-ebfc-deff-7258",
+                            "field": "selections",
+                            "scope": "64fa-8772-08d1-5c74",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Warp-blade",
+                    "id": "0bf8-2944-79ab-8b13",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "1715-1619-cff8-8669",
+                        "name": "Warp-blade",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Lethal Hits"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "4342-397f-760e-6f7a",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "b1b2-5d50-93d2-bb41",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "b4cb-3641-43ad-4aff",
+                        "name": "Lethal Hits",
+                        "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Voltaic shield",
+                    "id": "973b-2773-0844-607e",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "constraints": [
+                      {
+                        "id": "b5e0-d7ae-dd0e-20fc",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "c36c-a5be-8cae-bb79",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "count",
+                    "id": "ef2f-2559-996c-1f0f",
+                    "targetId": "e77b-f4d3-c369-5b36",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Warpclad with Warp-blaster",
+                "id": "f9e6-7270-48f1-f714",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "9574-894e-6e4a-76b9",
+                    "type": "max",
+                    "value": 3,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "id": "5fb1-eb85-f4c3-02f5",
+                    "name": "Warpclad",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "7\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "7+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "5+"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "55a7-5b54-c60d-11dc",
+                        "type": "set",
+                        "value": "4+",
+                        "conditions": [
+                          {
+                            "childId": "ad9e-2942-b535-36ee",
+                            "field": "selections",
+                            "scope": "64fa-8772-08d1-5c74",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "58d2-b879-49c7-43bc",
+                        "type": "set",
+                        "value": "6+",
+                        "conditions": [
+                          {
+                            "childId": "6a60-ebfc-deff-7258",
+                            "field": "selections",
+                            "scope": "64fa-8772-08d1-5c74",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Warp-blaster",
+                    "id": "3d07-c584-c432-fa22",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "0c37-5149-bcce-b984",
+                        "name": "Warp-blaster",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "18\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "8"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Warpstone"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "d417-6f67-9985-e1f5",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "844e-bcc8-49de-c2ea",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "3a99-26df-6d58-10f4",
+                        "name": "Warpstone",
+                        "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "d339-6aac-340a-3d92",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Warp-glaive",
+                    "id": "087c-3cb2-79c7-daba",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "49d9-0893-903d-381d",
+                        "name": "Warp-glaive",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "7"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "-"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "87a6-4a62-b235-568b",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "ff98-f6da-f682-9853",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "count",
+                    "id": "8553-afda-ff31-91fa",
+                    "targetId": "e77b-f4d3-c369-5b36",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "count",
+                    "id": "76b5-48d4-53ea-7aa2",
+                    "targetId": "bc73-15cb-9299-8f4c",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Warpclad with Shock gauntlet",
+                "id": "098f-c587-6227-aa87",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "9396-77ad-4978-8e8f",
+                    "type": "max",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "id": "ea1f-0518-0de1-92c2",
+                    "name": "Warpclad",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "7\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "7+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "5+"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "55a7-5b54-c60d-11dc",
+                        "type": "set",
+                        "value": "4+",
+                        "conditions": [
+                          {
+                            "childId": "ad9e-2942-b535-36ee",
+                            "field": "selections",
+                            "scope": "64fa-8772-08d1-5c74",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "58d2-b879-49c7-43bc",
+                        "type": "set",
+                        "value": "6+",
+                        "conditions": [
+                          {
+                            "childId": "6a60-ebfc-deff-7258",
+                            "field": "selections",
+                            "scope": "64fa-8772-08d1-5c74",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Warp-disintegrator",
+                    "id": "50c5-3bfc-7706-f9eb",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "56f4-3f4d-2d5f-e232",
+                        "name": "Warp-disintegrator",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "Torrent"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-1"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Blast 2, Ignores Cover, Torrent"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "02c6-f2e6-0718-ab45",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "3675-67db-7455-fe4e",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "5720-c291-ff51-309e",
+                        "name": "Blast",
+                        "targetId": "6c1f-1cf7-ff25-c99e",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "6f0c-41c8-d849-477e",
+                        "name": "Ignores Cover",
+                        "targetId": "4640-43e7-30b-215a",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "3956-bd68-2520-1dc9",
+                        "name": "Torrent",
+                        "targetId": "5edf-d619-23e0-9b56",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Shock gauntlet",
+                    "id": "7db5-caca-fd21-8fee",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "db96-07a7-b23b-2d57",
+                        "name": "Shock gauntlet",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "10"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-3"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Anti-Vehicle 4+"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "dbac-a6d1-27b3-dc52",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "8281-21d6-62c4-e92a",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "44a6-0bf6-3fbc-9d93",
+                        "name": "Anti",
+                        "targetId": "4111-82e3-9444-e942",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "count",
+                    "id": "34e9-c123-7eaa-5620",
+                    "targetId": "e77b-f4d3-c369-5b36",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "count",
+                    "id": "80f4-734f-fb03-ddaf",
+                    "targetId": "01cc-8154-d796-f4a6",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Warpclad with Warp-lance",
+                "id": "26f0-b677-91fc-3b3e",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "b532-8c17-9e5c-42d8",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "id": "06bf-9966-8265-be51",
+                    "name": "Warpclad",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "7\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "7+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "5+"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "bef7-942a-1a23-59f8",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "9ed6-15fb-961a-e76e",
+                            "field": "selections",
+                            "scope": "roster",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "55a7-5b54-c60d-11dc",
+                        "type": "set",
+                        "value": "4+",
+                        "conditions": [
+                          {
+                            "childId": "ad9e-2942-b535-36ee",
+                            "field": "selections",
+                            "scope": "64fa-8772-08d1-5c74",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "58d2-b879-49c7-43bc",
+                        "type": "set",
+                        "value": "6+",
+                        "conditions": [
+                          {
+                            "childId": "6a60-ebfc-deff-7258",
+                            "field": "selections",
+                            "scope": "64fa-8772-08d1-5c74",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Warp-lance",
+                    "id": "de9d-6951-4e42-9dd1",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "2087-c5bb-411b-8486",
+                        "name": "Warp-lance",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "24\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "12"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-3"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "D3+3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Melta 3, Warpstone"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "e6fb-12b9-7cf4-21a1",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "a2f0-cac1-ed92-393c",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "df16-1d19-d0c3-e629",
+                        "name": "Melta",
+                        "targetId": "7cdb-fb99-44a9-8849",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "106e-892c-5880-090c",
+                        "name": "Warpstone",
+                        "targetId": "7a1a-acc6-a2c5-a984",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "d849-c9fb-6b79-d191",
+                        "name": "Warpstone Backlash",
+                        "targetId": "770e-a39d-7aa8-8f21",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Warp-glaive",
+                    "id": "3ae1-1de7-cc4b-58bd",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "7996-12d9-5bbf-7051",
+                        "name": "Warp-glaive",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "7"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "-"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "88e8-093f-199c-0efe",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "2678-0fed-cd30-68f6",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "count",
+                    "id": "11a6-5d7d-d822-fdb8",
+                    "targetId": "e77b-f4d3-c369-5b36",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "count",
+                    "id": "a5c7-2286-2b01-0756",
+                    "targetId": "7f8c-dd1d-5be1-d7dc",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "d41b-e8b1-cfb7-80ad",
+                "type": "min",
+                "value": 9,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "8482-c64b-335e-b552",
+                "type": "max",
+                "value": 9,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "sortIndex": 1
+          },
           {
             "name": "Enhancements and Upgrades",
             "id": "3600-a3cc-06d8-c03e",
@@ -36007,6 +37470,194 @@
                 ]
               }
             ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "add",
+            "field": "error",
+            "value": "At most 3 Warpclad with Warp-blaster.",
+            "conditions": [
+              {
+                "childId": "bc73-15cb-9299-8f4c",
+                "field": "selections",
+                "scope": "64fa-8772-08d1-5c74",
+                "type": "atLeast",
+                "value": 4,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "At most 2 Warpclad with Shock gauntlet.",
+            "conditions": [
+              {
+                "childId": "01cc-8154-d796-f4a6",
+                "field": "selections",
+                "scope": "64fa-8772-08d1-5c74",
+                "type": "atLeast",
+                "value": 3,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "At most 1 Warpclad with Warp-lance.",
+            "conditions": [
+              {
+                "childId": "7f8c-dd1d-5be1-d7dc",
+                "field": "selections",
+                "scope": "64fa-8772-08d1-5c74",
+                "type": "atLeast",
+                "value": 2,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 20,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "64fa-8772-08d1-5c74",
+                        "childName": "Warpclad Warpack",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "9ed6-15fb-961a-e76e",
+                "field": "selections",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set-primary",
+            "field": "category",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "9ed6-15fb-961a-e76e",
+                "field": "selections",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "field": "ad9f-6595-ba51-9fc7",
+            "value": 6,
+            "conditions": [
+              {
+                "childId": "9ed6-15fb-961a-e76e",
+                "field": "selections",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "085b-ed18-2400-e7f2",
+            "conditions": [
+              {
+                "childId": "2095-c616-64b4-0e03",
+                "field": "selections",
+                "scope": "64fa-8772-08d1-5c74",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "id": "ad9f-6595-ba51-9fc7",
+            "type": "max",
+            "value": 3,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": true
+          },
+          {
+            "id": "299c-988d-130b-5df7",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 195
           }
         ]
       },
@@ -84555,7 +86206,21 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model knows Warp Lightning and Howling Warpgale (Lore of Ruin) and Scorch."
+                "$text": "This model knows Warp Lightning and Howling Warpgale (Lore of Ruin)."
+              }
+            ]
+          },
+          {
+            "id": "6791-9311-3488-ab10",
+            "name": "Scorch (Psychic Level 1)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, roll one D6 for each model in that enemy unit (maximum 13 dice): for each 4+, it suffers 1 mortal wound. Overcast: each 3+ causes 1 mortal wound instead."
               }
             ]
           },
@@ -87344,7 +89009,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model can be attached to the following units:\n\n■ PLAGUE MONKS\n■ PUSBAGS\n■ BLIGHTFANG OGORS"
+                "$text": "This model can be attached to the following units:\n\n■ PLAGUE MONKS\n■ PLAGUE CENSER BEARERS\n■ PUSBAGS\n■ BLIGHTFANG OGORS"
               }
             ]
           },
@@ -87358,7 +89023,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 1 Pox-Abbot.This model is equipped with 1 Rot-flail. It can lead Plague Monks, Pusbags or Blightfang Ogors."
+                "$text": "Composition: 1 Pox-Abbot.This model is equipped with 1 Rot-flail. It can lead Plague Monks, Plague Censer Bearers, Pusbags or Blightfang Ogors."
               }
             ]
           },
@@ -87578,6 +89243,15 @@
                 "conditions": [
                   {
                     "childId": "8c0d-ccd1-ed3d-7e0f",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "df99-df66-cf3c-6384",
                     "field": "selections",
                     "scope": "self",
                     "type": "instanceOf",
@@ -88604,7 +90278,21 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model knows the Lore of the Hidden Fang and Brittle Bone."
+                "$text": "This model knows the Lore of the Hidden Fang."
+              }
+            ]
+          },
+          {
+            "id": "721b-b6c9-8f11-53da",
+            "name": "Brittle Bone (Psychic Level 1)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of the Fight phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, until the end of the phase, subtract 1 from the Damage characteristic of melee weapons equipped by models in that enemy unit (to a minimum of 1). Overcast: also subtract 1 from the Attacks characteristic of those weapons (to a minimum of 1)."
               }
             ]
           },
@@ -96078,7 +97766,7 @@
         "name": "Verminous Psychic Power",
         "id": "23f2-243b-eb88-3e2c",
         "hidden": false,
-        "description": "​<br><br>**Psyker Level:**<br>Each PSYKER model has a Psyker Level on its datasheet. Each spell has a Psychic Level. Each battle round, a PSYKER can use spells whose combined Psychic Level does not exceed its Psyker Level; spend a spell's Psychic Level when you use it. At the start of each battle round, reset the Psychic Level each PSYKER has spent to 0. A rule that increases a Psyker Level raises that limit; it does not refund Psychic Level already spent.\n\n**Using Spells:**<br>A PSYKER can use a spell it knows when that spell's WHEN condition is met, if it is on the battlefield (unless a rule says otherwise) and its unit is not battle-shocked. Each PSYKER can use each spell once per phase, unless a rule says otherwise. Select the spell's targets, then make a psychic roll by rolling one D6. The spell resolves whatever the result. If the unmodified result is 1, after the spell resolves, that PSYKER's unit becomes battle-shocked and resolves Cornered Rats, even if it does not have Scurry Away!. This is not a failed battle-shock roll.\n\n**Overcasting:**<br>Once per turn, when a PSYKER uses a spell, before making the psychic roll, you can declare that it will Overcast. If you do, roll 2D6 instead of 1D6, reading each die separately, and resolve the spell's OVERCAST effect as well as its EFFECT. Overcasting does not increase the spell's Psychic Level. If either unmodified die is a 1, after the spell resolves, that PSYKER's unit suffers D6 mortal wounds, becomes battle-shocked and resolves Cornered Rats. Resolve this once per psychic roll, even if both dice are 1s.\n\n**Re-rolls:**<br>A rule that re-rolls a psychic roll re-rolls only the dice it states. No die can be re-rolled more than once. Check for unmodified 1s after all re-rolls.\n\n**Psychic Weapons:**<br>Weapons with [PSYCHIC] (for example Warp bolts, Pox blast and Shadow darts) are not spells. They use the normal attack rules, cost no Psychic Level, make no psychic roll and cannot be Overcast."
+        "description": "​<br><br>**Psyker Level:**<br>Each PSYKER model has a Psyker Level on its datasheet. Each spell has a Psychic Level. Each battle round, a PSYKER can use spells whose combined Psychic Level does not exceed its Psyker Level; spend a spell's Psychic Level when you use it. At the start of each battle round, reset the Psychic Level each PSYKER has spent to 0. A rule that increases a Psyker Level raises that limit; it does not refund Psychic Level already spent.\n\n**Using Spells:**<br>A PSYKER can use a spell it knows when that spell's WHEN condition is met (for a spell on its datasheet, shown as \"(Psychic Level N)\", when its text says), if it is on the battlefield (unless a rule says otherwise) and its unit is not battle-shocked. Each PSYKER can use each spell once per phase, unless a rule says otherwise. Select the spell's targets, then make a psychic roll by rolling one D6. The spell resolves whatever the result. If the unmodified result is 1, after the spell resolves, that PSYKER's unit becomes battle-shocked and resolves Cornered Rats, even if it does not have Scurry Away!. This is not a failed battle-shock roll.\n\n**Overcasting:**<br>Once per turn, when a PSYKER uses a spell, before making the psychic roll, you can declare that it will Overcast. If you do, roll 2D6 instead of 1D6, reading each die separately, and resolve the spell's OVERCAST effect as well as its EFFECT. Overcasting does not increase the spell's Psychic Level. If either unmodified die is a 1, after the spell resolves, that PSYKER's unit suffers D6 mortal wounds, becomes battle-shocked and resolves Cornered Rats. Resolve this once per psychic roll, even if both dice are 1s.\n\n**Re-rolls:**<br>A rule that re-rolls a psychic roll re-rolls only the dice it states. No die can be re-rolled more than once. Check for unmodified 1s after all re-rolls.\n\n**Psychic Weapons:**<br>Weapons with [PSYCHIC] (for example Warp bolts, Pox blast and Shadow darts) are not spells. They use the normal attack rules, cost no Psychic Level, make no psychic roll and cannot be Overcast."
       },
       {
         "name": "Lore of Ruin",
@@ -96097,12 +97785,6 @@
         "id": "81eb-ac71-fdcc-9764",
         "hidden": false,
         "description": "\n\n*Known by: Lord Skreech Verminking, Verminlord Deceiver, Eshin Sorcerer.*\n\n**Skitterleap (Psychic Level 1)**<br>- **WHEN:** End of your Movement phase.\n\n- **TARGET:** One friendly SKAVEN INFANTRY unit within 12\" of this PSYKER.\n\n- **EFFECT:** Remove that unit from the battlefield and set it up again anywhere on the battlefield, more than 8\" horizontally from all enemy models. That unit counts as having made an ingress move.\n\n- **OVERCAST:** Set it up more than 6\" horizontally from all enemy models instead.\n\n**Warp Stars (Psychic Level 1, DAMAGE)**<br>- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy model within 18\" of and visible to this PSYKER. It can be a CHARACTER model in an Attached unit.\n\n- **EFFECT:** That model suffers D3 mortal wounds. Allocate them only to that model; excess damage is lost.\n\n- **OVERCAST:** That model suffers 2D3 mortal wounds instead.\n\n**Veil of Shadows (Psychic Level 1)**<br>- **WHEN:** Your Movement phase.\n\n- **TARGET:** One friendly SKAVEN INFANTRY unit within 18\" of this PSYKER.\n\n- **EFFECT:** Until the start of your next turn, that unit cannot be selected as the target of a ranged attack unless the attacking model is within 12\" of it.\n\n- **OVERCAST:** 6\" instead of 12\"."
-      },
-      {
-        "name": "Special Spells",
-        "id": "03b6-5756-8b79-796c",
-        "hidden": false,
-        "description": "\n\n*Known only by the psykers named in each spell's Access line.*\n\n**The Dreaded Thirteenth (Psychic Level 3, DAMAGE)**<br>*Access: Thanquol and Boneripper, Lord Skreech Verminking, Grey Seer.*\n\n- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy INFANTRY unit within 13\" of and visible to this PSYKER.\n\n- **EFFECT:** Roll 13D6. For each 4+, that unit suffers 1 mortal wound. If that unit is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where that unit's last model was and more than 8\" horizontally from all enemy models. If it cannot be set up, it is not added.\n\n- **OVERCAST:** Each 3+ causes 1 mortal wound instead.\n\n- **RESTRICTIONS:** Once per battle round, per army.\n\n**Master of Lightning (Psychic Level 2, DAMAGE)**<br>*Access: Verminlord Warpseer.*\n\n- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy unit within 24\" of and visible to this PSYKER, then up to two other enemy units within 6\" of that unit and within 24\" of and visible to this PSYKER.\n\n- **EFFECT:** Each of those units suffers D3+1 mortal wounds.\n\n- **OVERCAST:** Each suffers 2D3+1 mortal wounds instead.\n\n**Plaguemaster (Psychic Level 2, DAMAGE)**<br>*Access: Verminlord Corruptor. The Cauldron of a Thousand Poxes uses it as a bound ability (see its datasheet).*\n\n- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One point on the battlefield within 18\" of and visible to this PSYKER.\n\n- **EFFECT:** Each unit (friendly or enemy) within 3\" of that point suffers D3+3 mortal wounds.\n\n- **OVERCAST:** Use 6\" instead of 3\".\n\n**Storm Daemon (Psychic Level 0)**<br>*Access: Ikit Claw.*\n\n- **MODE:** When you use this spell, select Bolt or Charge. It spends no Psychic Level.\n\n- **BOLT:** DAMAGE. Your Shooting phase. One enemy unit within 18\" of and visible to this PSYKER suffers D3+3 mortal wounds. Overcast: 2D3+3 mortal wounds instead.\n\n- **CHARGE:** Start of the Fight phase. Until the end of the phase, this PSYKER's Storm Daemon melee weapon has +2 Strength and [DEVASTATING WOUNDS]. Overcast: it also has +1 Attacks.\n\n- **BURNOUT:** If the psychic roll includes an unmodified 1, after resolving it, this spell cannot be used again this battle. The Storm Daemon weapon can still be used.\n\n**Peal of Doom (Psychic Level 1, DAMAGE)**<br>*Access: Grey Seer mounted on a Screaming Bell.*\n\n- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy unit within 13\" of and visible to this PSYKER.\n\n- **EFFECT:** That unit suffers D3 mortal wounds and must take a battle-shock roll.\n\n- **OVERCAST:** That unit suffers D3+1 mortal wounds instead, and subtract 1 from that battle-shock roll.\n\n**Death Frenzy (Psychic Level 2)**<br>*Access: Verminlord Warbringer.*\n\n- **WHEN:** Start of the Fight phase.\n\n- **TARGET:** One friendly SKAVEN INFANTRY or SKAVEN BEAST unit within 18\" of this PSYKER.\n\n- **EFFECT:** Until the end of the phase, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6. On a 4+, do not remove it yet: it can fight after the attacking unit has finished making its attacks, and is then removed.\n\n- **OVERCAST:** Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.\n\n**Flensing Ruin (Psychic Level 2, DAMAGE)**<br>*Access: Ikit Claw.*\n\n- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy unit within 18\" of and visible to this PSYKER.\n\n- **EFFECT:** That unit suffers D3 mortal wounds. Until the end of the turn, worsen the Save characteristic of models in that unit by 1. This does not affect invulnerable saves.\n\n- **OVERCAST:** Worsen it by 2 instead.\n\n**Scorch (Psychic Level 1, DAMAGE)**<br>*Access: Arch-Warlock.*\n\n- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy unit within 18\" of and visible to this PSYKER.\n\n- **EFFECT:** Roll one D6 for each model in that unit (maximum 13 dice). For each 4+, that unit suffers 1 mortal wound.\n\n- **OVERCAST:** Each 3+ causes 1 mortal wound instead.\n\n**Pestilent Birth (Psychic Level 2)**<br>*Access: Lord Skrolk.*\n\n- **WHEN:** End of your Movement phase.\n\n- **TARGET:** None.\n\n- **EFFECT:** Using Summoned Vermin, add a temporary unit of 10 Plague Monks (including 1 Plague Deacon) to your army. Set it up wholly within 12\" of this PSYKER and more than 8\" horizontally from all enemy models. Remove it at the start of your next Command phase.\n\n- **OVERCAST:** The unit has 20 Plague Monks (still including 1 Plague Deacon) instead.\n\n**Vermintide (Psychic Level 1)**<br>*Access: Grey Seer.*\n\n- **WHEN:** End of your Movement phase.\n\n- **TARGET:** None.\n\n- **EFFECT:** Using Summoned Vermin, add a temporary unit of 10 Clanrats to your army. Set it up wholly within 12\" of this PSYKER and more than 8\" horizontally from all enemy models. Remove it at the start of your next Command phase.\n\n- **OVERCAST:** The unit has 20 Clanrats instead.\n\n**Wither (Psychic Level 1)**<br>*Access: Verminlord Corruptor. The Cauldron of a Thousand Poxes uses it as a bound ability (see its datasheet).*\n\n- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy unit within 18\" of and visible to this PSYKER.\n\n- **EFFECT:** Until the start of your next turn, subtract 1 from the Toughness characteristic of models in that unit (to a minimum of 1).\n\n- **OVERCAST:** Subtract 2 instead (to a minimum of 1).\n\n**Black Whirlwind (Psychic Level 2, DAMAGE)**<br>*Access: Verminlord Deceiver.*\n\n- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One point on the battlefield within 18\" of and visible to this PSYKER.\n\n- **EFFECT:** Place a Black Whirlwind marker on that point; it remains until the start of your next Command phase. Each unit (friendly or enemy) within 3\" of the marker suffers D3 mortal wounds. Until the marker is removed, each time a unit ends a normal, advance, fall-back or charge move within 3\" of it, that unit suffers D3 mortal wounds. Each unit can suffer mortal wounds from this marker only once per turn.\n\n- **OVERCAST:** Use 6\" instead of 3\".\n\n**Brittle Bone (Psychic Level 1)**<br>*Access: Eshin Sorcerer.*\n\n- **WHEN:** Start of the Fight phase.\n\n- **TARGET:** One enemy unit within 18\" of and visible to this PSYKER.\n\n- **EFFECT:** Until the end of the phase, subtract 1 from the Damage characteristic of melee weapons equipped by models in that unit (to a minimum of 1).\n\n- **OVERCAST:** Until the end of the phase, also subtract 1 from the Attacks characteristic of those weapons (to a minimum of 1).\n\n**Armour of Darkness (Psychic Level 1)**<br>*Access: Lord Skreech Verminking.*\n\n- **WHEN:** Your Movement phase.\n\n- **TARGET:** One friendly SKAVEN INFANTRY unit within 18\" of this PSYKER.\n\n- **EFFECT:** Until the start of your next turn, improve the Save characteristic of models in that unit by 1. This cannot improve a Save better than 4+.\n\n- **OVERCAST:** Improve it by 2 instead (still not better than 4+)."
       },
       {
         "name": "Skryre Worship — Test It on Them-Them! / 1 CP",

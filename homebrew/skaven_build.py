@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 66
+REVISION = 67
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -37,7 +37,7 @@ RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
 }
 ARMY_RULE_ORDER = ["The Vermintide", "The Under-Empire", "Scurry Away!", "Warpstone", "Warpstone Backlash",
                    "Sacrifice", "Summoned Vermin", "Verminous Psychic Power", "Lore of Ruin", "Lore of Plague",
-                   "Lore of the Hidden Fang", "Special Spells"]
+                   "Lore of the Hidden Fang"]
 CLAN_UNIQUE = {"Skryre Worship", "Moulder Flesh Laboratory", "Shadowy Dealings", "Cauldron of Pestilence",
                "Clawpack Horde", "Clan Skurvy", "Council of Treachery"}
 DETACHMENTS = {  # DP and Force Dispositions from the handoff
@@ -73,7 +73,9 @@ ROLE_CATEGORY = {"EPIC HERO": "Epic Hero", "CHARACTER": "Character", "BATTLELINE
                  "INFANTRY": "Infantry", "MOUNTED": "Mounted", "BEAST": "Beast", "MONSTER": "Monster",
                  "VEHICLE": "Vehicle", "DEDICATED TRANSPORT": "Dedicated Transport"}
 # Wargear that changes a model's characteristics (Stormvermin heavy shields).
-STAT_GEAR = {"Heavy shield": {"SV": "3+", "INV": "5+"}}
+STAT_GEAR = {"Heavy shield": {"SV": "3+", "INV": "5+"}, "Voltaic shield": {"INV": "4+"}}
+# Optional wargear (ticked on the unit) that changes the unit's stat lines while it is taken.
+GEAR_STAT_EFFECTS = {"Voltaic Pennant": [("Unit", "LD", 1)]}
 STAT_KEYS = {"M": "M", "T": "T", "Sv": "SV", "W": "W", "LD": "LD", "OC": "OC", "InSv": "INV"}
 # Abilities that belong to an item other than the one they are named after.
 GEAR_ABILITY_HOME = {"Clanrat Shields": "Shield"}
@@ -257,7 +259,7 @@ class Builder:
                     self.weapon_profile(nid(eid + ":" + name), weapon, ranged))
             elif name not in {"Heavy shield", "Shield", "Explosive Collars", "Clan Standard", "Scavenger Bell",
                               "Warhorn", "Regimental Banner", "Grounding Rod", "Spare Capacitor", "Plague Banner",
-                              "Doom Gong", "Sword and Board", "Warplock"}:
+                              "Doom Gong", "Sword and Board", "Warplock", "Voltaic shield", "Voltaic Pennant"}:
                 raise ValueError(f"{owner}: unknown weapon {name}")
         node["constraints"] = [constraint(nid(eid + ":max"), "max", 1)]
         if fixed:
@@ -568,6 +570,9 @@ class Builder:
         for w in wargear:  # straight on the unit, at the bottom, as the Tormentors' Icon of Excess
             w["sortIndex"] = WARGEAR_SORT
             node["selectionEntries"].append(w)
+        self.gear_stats = getattr(self, "gear_stats", [])
+        self.gear_stats += [(node, w["id"], GEAR_STAT_EFFECTS[w["name"]]) for w in wargear
+                            if w["name"] in GEAR_STAT_EFFECTS]
         if prices and sizes:
             node["costs"][0]["value"] = prices[0]
             for i in range(1, len(sizes)):
@@ -1195,6 +1200,8 @@ DEFECT_PAIRS = {"Soft Flesh": "Thickened Hide", "Exposed Organs": "Chitinous Pla
 def changed_value(char, value, change):
     if char in ("SV", "WS"):
         return add_roll(value, change, best=3)
+    if char == "LD":
+        return add_roll(value, change, best=4)
     floor = 1 if char in ("A", "OC", "T", "W") else None
     return add_number(value, change, floor)
 
@@ -1521,6 +1528,8 @@ def build(source, catalogue_path, system_path):
     shared_enh = build_enhancements(b, enhancements, units)
     shared_projects = build_options(b, projects, units, dets)
     apply_stat_effects(b, units)
+    for unit, item_id, effects in getattr(b, "gear_stats", []):
+        stat_modifiers(unit, item_id, effects)
     one_per_unit(b, units, shared_enh)
     strat_links = build_stratagems(b, stratagems)
 

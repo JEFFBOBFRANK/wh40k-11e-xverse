@@ -139,10 +139,15 @@ UNITS = {
         bearer_gear=[("Grounding Rod", None), ("Spare Capacitor", None)]),
     "Warpclad Warpack": dict(
         models=[M("Fangleader", (1, 1), wounds="3", choices=[
-                    C("Ranged weapon", ["Warp-disintegrator", "Warp-blaster"]),
-                    C("Melee weapon", ["Warp-glaive", "Master-forged warp-glaive", "Shock gauntlet"])]),
-                M("Warpclad", (9, 9), ["Warp-disintegrator", "Warp-glaive"])],
-        sizes=[{"Fangleader": 1, "Warpclad": 9}]),
+                    C("Ranged weapon", ["Warp-disintegrator", "Warp-blaster", "Warp-lance"]),
+                    C("Melee weapon", ["Master-forged warp-glaive", "Shock gauntlet"])]),
+                M("Warpclad", (9, 9), ["Warp-disintegrator", "Warp-glaive"], variants=[
+                    V("Warpclad with Warp-blade and Voltaic shield", ["Warp-blade", "Voltaic shield"]),
+                    V("Warpclad with Warp-blaster", ["Warp-blaster", "Warp-glaive"], (3, 3)),
+                    V("Warpclad with Shock gauntlet", ["Warp-disintegrator", "Shock gauntlet"], (2, 2)),
+                    V("Warpclad with Warp-lance", ["Warp-lance", "Warp-glaive"], (1, 1))])],
+        sizes=[{"Fangleader": 1, "Warpclad": 9}],
+        bearer_gear=[("Voltaic Pennant", None)]),
     "Plague Monks": dict(
         models=[M("Plague Deacon", (1, 1), ["Deacon blade"]),
                 M("Plague Monk", (9, 19), ["Twin foetid blades"], variants=[

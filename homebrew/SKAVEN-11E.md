@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 66 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 67 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -22,7 +22,7 @@ detachments). The layout follows the Emperor's Children catalogue.
   Leading / Supporting links, as in the Emperor's Children catalogue. A Support
   must be attached; a mounted Plague Priest need not be.
 - Optional wargear (Clan Standard, Scavenger Bell, Warhorn, Regimental Banner,
-  Plague Banner, Doom Gong, Grounding Rod, Spare Capacitor) works like the Emperor's
+  Plague Banner, Doom Gong, Grounding Rod, Spare Capacitor, Voltaic Pennant) works like the Emperor's
   Children Tormentors' Icon of Excess: tick it on the unit, then pick the model that
   carries it. Squad leaders cannot carry it, and the item's ability appears only
   when it is taken. Special weapons stay separate model types (e.g. "Stormvermin
@@ -31,6 +31,10 @@ detachments). The layout follows the Emperor's Children catalogue.
   Grinderfists' Deep Strike) is shown only when the item is taken.
 - Heavy shields give their models a 3+ save and 5+ invulnerable save with their
   own stat line, e.g. "Stormvermin (Heavy shield)".
+- Warpclad Warpack: plain Warpclads (Warp-disintegrator and Warp-glaive) plus model
+  types with Warp-blade and Voltaic shield (4+ invulnerable save, own stat line),
+  Warp-blaster (up to 3), Shock gauntlet (up to 2) and Warp-lance (1). The Voltaic
+  Pennant is optional wargear and improves the unit's Leadership on its stat lines.
 - Mounts (Screaming Bell, Gnaw-beast, Plague Furnace) are options on the character.
   The mounted profile replaces the foot profile and the INFANTRY keyword changes.
 - Vermindoom Land-Fortress: exactly one Clan Flagship and six jury-rigged
@@ -39,7 +43,10 @@ detachments). The layout follows the Emperor's Children catalogue.
   `points.json`; a mounted character pays the higher mounted repeat cost.
 - Army Rules and References: The Vermintide, The Under-Empire, Scurry Away!,
   Warpstone, Warpstone Backlash, Sacrifice, Summoned Vermin, Verminous Psychic
-  Power and the four spell lores.
+  Power and the three spell lores.
+- Spells unique to a datasheet are abilities on that datasheet named "Spell (Psychic
+  Level N)", written as the Emperor's Children homebrew writes its psychic abilities.
+  Peal of Doom is on the Grey Seer's Screaming Bell.
 - Detachment rules are one rule per named ability, as in the Emperor's Children
   catalogue; menus and procedures (ledgers, catalogues, Warlord Commands, Clawpack
   Benefits, Secret Schemes, The Great Workshops) stay whole. Army rules are not
