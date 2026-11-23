@@ -2195,9 +2195,9 @@
     "range": "36\"",
     "A": "1",
     "BS_WS": "4+",
-    "S": "12",
+    "S": "14",
     "AP": "-3",
-    "D": "D6+1",
+    "D": "D3+4",
     "keywords": [
      "ANTI-VEHICLE 4+",
      "HEAVY",
@@ -3149,12 +3149,13 @@
     "range": "24\"",
     "A": "3",
     "BS_WS": "4+",
-    "S": "10",
-    "AP": "-2",
-    "D": "3",
+    "S": "12",
+    "AP": "-3",
+    "D": "D3+3",
     "keywords": [
      "ANTI-VEHICLE 4+",
-     "WARPSTONE"
+     "WARPSTONE",
+     "MELTA 3"
     ]
    },
    {
@@ -3377,7 +3378,7 @@
     "range": "48\"",
     "A": "2",
     "BS_WS": "4+",
-    "S": "12",
+    "S": "14",
     "AP": "-3",
     "D": "4",
     "keywords": [
@@ -4404,7 +4405,7 @@
     "BS_WS": "3+",
     "S": "16",
     "AP": "-4",
-    "D": "D6+2",
+    "D": "D3+4",
     "keywords": [
      "HAZARDOUS",
      "MELTA 4",
@@ -4432,7 +4433,7 @@
     "BS_WS": "3+",
     "S": "16",
     "AP": "-3",
-    "D": "D6+2",
+    "D": "D3+4",
     "keywords": []
    }
   ],
@@ -4636,7 +4637,7 @@
     "BS_WS": "4+",
     "S": "16",
     "AP": "-3",
-    "D": "D6+3",
+    "D": "D3+5",
     "keywords": [
      "HEAVY",
      "ANTI-MONSTER 3+",
@@ -4844,7 +4845,7 @@
     "BS_WS": "4+",
     "S": "16",
     "AP": "-3",
-    "D": "D6+3",
+    "D": "D3+5",
     "keywords": [
      "HEAVY",
      "ANTI-VEHICLE 4+",
@@ -5265,7 +5266,7 @@
     "BS_WS": "4+",
     "S": "18",
     "AP": "-4",
-    "D": "D6+3",
+    "D": "D3+5",
     "keywords": [
      "BLAST 1",
      "HAZARDOUS",
@@ -5382,7 +5383,7 @@
     "BS_WS": "4+",
     "S": "16",
     "AP": "-4",
-    "D": "D6+2",
+    "D": "D3+4",
     "keywords": [
      "HAZARDOUS",
      "MELTA 4",
@@ -5398,7 +5399,7 @@
     "BS_WS": "4+",
     "S": "20",
     "AP": "-5",
-    "D": "D6+4",
+    "D": "D3+6",
     "keywords": [
      "ANTI-FORTIFICATION 2+",
      "ANTI-VEHICLE 3+",
@@ -5475,9 +5476,9 @@
     "range": "30\"",
     "A": "D6",
     "BS_WS": "4+",
-    "S": "12",
+    "S": "14",
     "AP": "-3",
-    "D": "4",
+    "D": "D3+4",
     "keywords": [
      "ANTI-VEHICLE 4+",
      "WARPSTONE"
@@ -5568,7 +5569,7 @@
     "BS_WS": "4+",
     "S": "18",
     "AP": "-4",
-    "D": "6",
+    "D": "D3+2",
     "keywords": [
      "BLAST 1",
      "HAZARDOUS",
@@ -5612,7 +5613,7 @@
     "BS_WS": "4+",
     "S": "16",
     "AP": "-4",
-    "D": "D6+2",
+    "D": "D3+4",
     "keywords": [
      "HAZARDOUS",
      "MELTA 4",

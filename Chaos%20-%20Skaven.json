@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 54,
+    "revision": 55,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -37492,7 +37492,7 @@
                           {
                             "name": "S",
                             "typeId": "2229-f494-25db-c5d3",
-                            "$text": "12"
+                            "$text": "14"
                           },
                           {
                             "name": "AP",
@@ -37502,7 +37502,7 @@
                           {
                             "name": "D",
                             "typeId": "a354-c1c8-a745-f9e3",
-                            "$text": "D6+1"
+                            "$text": "D3+4"
                           },
                           {
                             "name": "Keywords",
@@ -38396,7 +38396,7 @@
                           {
                             "name": "S",
                             "typeId": "2229-f494-25db-c5d3",
-                            "$text": "12"
+                            "$text": "14"
                           },
                           {
                             "name": "AP",
@@ -38406,7 +38406,7 @@
                           {
                             "name": "D",
                             "typeId": "a354-c1c8-a745-f9e3",
-                            "$text": "D6+1"
+                            "$text": "D3+4"
                           },
                           {
                             "name": "Keywords",
@@ -38994,7 +38994,7 @@
                           {
                             "name": "S",
                             "typeId": "2229-f494-25db-c5d3",
-                            "$text": "12"
+                            "$text": "14"
                           },
                           {
                             "name": "AP",
@@ -39004,7 +39004,7 @@
                           {
                             "name": "D",
                             "typeId": "a354-c1c8-a745-f9e3",
-                            "$text": "D6+1"
+                            "$text": "D3+4"
                           },
                           {
                             "name": "Keywords",
@@ -39581,7 +39581,7 @@
                           {
                             "name": "S",
                             "typeId": "2229-f494-25db-c5d3",
-                            "$text": "12"
+                            "$text": "14"
                           },
                           {
                             "name": "AP",
@@ -39591,7 +39591,7 @@
                           {
                             "name": "D",
                             "typeId": "a354-c1c8-a745-f9e3",
-                            "$text": "D6+1"
+                            "$text": "D3+4"
                           },
                           {
                             "name": "Keywords",
@@ -50339,22 +50339,22 @@
                       {
                         "name": "S",
                         "typeId": "2229-f494-25db-c5d3",
-                        "$text": "10"
+                        "$text": "12"
                       },
                       {
                         "name": "AP",
                         "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
+                        "$text": "-3"
                       },
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "3"
+                        "$text": "D3+3"
                       },
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Anti-Vehicle 4+, Warpstone"
+                        "$text": "Anti-Vehicle 4+, Warpstone, Melta 3"
                       }
                     ],
                     "modifiers": [
@@ -50402,6 +50402,13 @@
                     "id": "0b65-6c25-2dd3-9b82",
                     "name": "Anti",
                     "targetId": "4111-82e3-9444-e942",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "3442-cb5d-07c8-970d",
+                    "name": "Melta",
+                    "targetId": "7cdb-fb99-44a9-8849",
                     "type": "rule",
                     "hidden": false
                   },
@@ -50761,22 +50768,22 @@
                       {
                         "name": "S",
                         "typeId": "2229-f494-25db-c5d3",
-                        "$text": "10"
+                        "$text": "12"
                       },
                       {
                         "name": "AP",
                         "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
+                        "$text": "-3"
                       },
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "3"
+                        "$text": "D3+3"
                       },
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Anti-Vehicle 4+, Warpstone"
+                        "$text": "Anti-Vehicle 4+, Warpstone, Melta 3"
                       }
                     ],
                     "modifiers": [
@@ -50824,6 +50831,13 @@
                     "id": "5f8b-6f6b-f898-fc2a",
                     "name": "Anti",
                     "targetId": "4111-82e3-9444-e942",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "c615-1412-6f8c-a127",
+                    "name": "Melta",
+                    "targetId": "7cdb-fb99-44a9-8849",
                     "type": "rule",
                     "hidden": false
                   },
@@ -53659,7 +53673,7 @@
                       {
                         "name": "S",
                         "typeId": "2229-f494-25db-c5d3",
-                        "$text": "12"
+                        "$text": "14"
                       },
                       {
                         "name": "AP",
@@ -54081,7 +54095,7 @@
                       {
                         "name": "S",
                         "typeId": "2229-f494-25db-c5d3",
-                        "$text": "12"
+                        "$text": "14"
                       },
                       {
                         "name": "AP",
@@ -70805,7 +70819,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D6+2"
+                    "$text": "D3+4"
                   },
                   {
                     "name": "Keywords",
@@ -71024,7 +71038,7 @@
                   {
                     "name": "D",
                     "typeId": "3254-9fe6-d824-513e",
-                    "$text": "D6+2"
+                    "$text": "D3+4"
                   },
                   {
                     "name": "Keywords",
@@ -73684,7 +73698,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D6+3"
+                    "$text": "D3+5"
                   },
                   {
                     "name": "Keywords",
@@ -75508,7 +75522,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D6+3"
+                    "$text": "D3+5"
                   },
                   {
                     "name": "Keywords",
@@ -79512,7 +79526,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D6+3"
+                    "$text": "D3+5"
                   },
                   {
                     "name": "Keywords",
@@ -80581,7 +80595,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D6+2"
+                    "$text": "D3+4"
                   },
                   {
                     "name": "Keywords",
@@ -80684,7 +80698,7 @@
                   {
                     "name": "D",
                     "typeId": "3254-9fe6-d824-513e",
-                    "$text": "D6+4"
+                    "$text": "D3+6"
                   },
                   {
                     "name": "Keywords",
@@ -81422,7 +81436,7 @@
                   {
                     "name": "S",
                     "typeId": "2229-f494-25db-c5d3",
-                    "$text": "12"
+                    "$text": "14"
                   },
                   {
                     "name": "AP",
@@ -81432,7 +81446,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "4"
+                    "$text": "D3+4"
                   },
                   {
                     "name": "Keywords",
@@ -82302,7 +82316,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "6"
+                    "$text": "D3+2"
                   },
                   {
                     "name": "Keywords",
@@ -82689,7 +82703,7 @@
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "D6+2"
+                        "$text": "D3+4"
                       },
                       {
                         "name": "Keywords",
