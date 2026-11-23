@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 62 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 63 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -22,11 +22,11 @@ detachments). The layout follows the Emperor's Children catalogue.
   Leading / Supporting links, as in the Emperor's Children catalogue. A Support
   must be attached; a mounted Plague Priest need not be.
 - Optional wargear (Clan Standard, Scavenger Bell, Warhorn, Regimental Banner,
-  Plague Banner, Doom Gong, Grounding Rod, Spare Capacitor) is a model type of
-  its own, e.g. "Stormvermin with Warhorn" or "Plague Monk with Plague staff and
-  Plague Banner", so it shows on the model carrying it. Each model carries at
-  most one item, squad leaders carry none, and the item's ability appears only
-  when it is taken.
+  Plague Banner, Doom Gong, Grounding Rod, Spare Capacitor) works like the Emperor's
+  Children Tormentors' Icon of Excess: tick it on the unit, then pick the model that
+  carries it. Squad leaders cannot carry it, and the item's ability appears only
+  when it is taken. Special weapons stay separate model types (e.g. "Stormvermin
+  with Heavy shock weapon"), as the Tormentors' plasma gun and meltagun.
 - An item's ability (including Clanrat Shields on Sword and Board and the
   Grinderfists' Deep Strike) is shown only when the item is taken.
 - Heavy shields give their models a 3+ save and 5+ invulnerable save with their
@@ -92,7 +92,7 @@ detachments). The layout follows the Emperor's Children catalogue.
   Clanrats, Stormvermin, Warp-Zap Stormvermin, Warpclad Warpack, Skryre Acolytes,
   Night Runners, Gutter Runners and Eshin Shadowriggers.
 - Movement: foot models are M7" (weapon teams stay M6"); Rat Ogors and the Mutant
-  Rat Ogor are M9". Skavenslaves are 20 or 40 models.
+  Rat Ogor are M9". Skavenslaves are 20 or 40 models at 2 pts each.
 - Ranged weapons that hit on 4+ or 5+ and are not TORRENT or IGNORES COVER have
   about 1.5x (4+) or 2x (5+) the shots, to make up for cover worsening Ballistic Skill by 1.
   Anti-tank guns keep their shots: vehicles and monsters only get cover when not

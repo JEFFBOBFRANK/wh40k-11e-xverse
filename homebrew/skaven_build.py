@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 62
+REVISION = 63
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Mutant Rat Ogre": "Mutant Rat Ogor",
@@ -540,6 +540,34 @@ class Builder:
             family["sortIndex"] = m.pop("sortIndex")
             node["selectionEntryGroups"].append(family)
             node["modifiers"] += errors
+        # Optional wargear: tick it on the unit, then pick the model that carries it (as the Emperor's
+        # Children Icon of Excess). Squad leaders cannot carry it.
+        wargear = []
+        for model in spec["models"]:
+            items = gear_for(model)
+            if not items:
+                continue
+            bearers = [model_ids[model["name"]]]
+            for g in node["selectionEntryGroups"]:
+                if g.get("id") == nid(unit_id + ":family:" + model["name"]):
+                    bearers = [e["id"] for e in g["selectionEntries"]]
+            for item, small, big in items:
+                wid = nid(unit_id + ":wargear:" + item)
+                cap = constraint(nid(wid + ":max"), "max", small)
+                w = entry(wid, item, constraints=[cap], profiles=[])
+                if big != small and large:
+                    w["modifiers"] = [dict(type="set", field=cap["id"], value=big, conditions=[large])]
+                w["associations"] = [dict(
+                    name=item, id=nid(wid + ":bearer"), childId="model", includeChildSelections=True,
+                    min=1, max=1, scope=unit_id, defaultSelectionEntryId="none",
+                    conditionGroups=[dict(type="or", conditions=[
+                        dict(childId=b_, field="selections", scope="self", type="instanceOf", value=1, shared=True,
+                             includeChildSelections=True) for b_ in bearers])])]
+                w["_gear"] = item
+                wargear.append(w)
+        for w in wargear:  # straight on the unit, at the bottom, as the Tormentors' Icon of Excess
+            w["sortIndex"] = WARGEAR_SORT
+            node["selectionEntries"].append(w)
         if prices and sizes:
             node["costs"][0]["value"] = prices[0]
             for i in range(1, len(sizes)):
@@ -638,9 +666,7 @@ class Builder:
                 cap_error(cid, small, big, vname)
             variants.append(make(vname, vweapons, small, big, cats))
             bases.append((vname, vweapons, limit, cats[1:]))
-        for item, small, big in gear:
-            gear_cat = self.hidden_category(f"Count: {unit_name} - {item}")
-            cap_error(gear_cat, small, big, item)
+        for item, small, big in []:  # optional wargear is a unit option with a model picker (see squad)
             for bname, bweapons, limit, extra in bases:
                 if " with " in bname:
                     head, tail = bname.split(" with ", 1)

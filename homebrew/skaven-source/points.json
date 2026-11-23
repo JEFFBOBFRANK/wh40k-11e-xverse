@@ -140,7 +140,7 @@
    "entries": [
     {
      "name": "Skavenslaves",
-     "points": "20pts / 40pts",
+     "points": "40pts / 80pts",
      "repeat_cost": "–"
     },
     {
@@ -431,6 +431,6 @@
    ]
   }
  ],
- "notes": "Skavenslaves: 20 or 40 models (1pt per model). Clanrats: 1 Clawleader + 9 Clanrats / 2 Clawleaders + 18 Clanrats; each Weapon Team model costs its datasheet's per-model price (Poison Wind Globadier: 10pts). Two values = smaller / larger unit; three values = 1 / 2 / 3 Rat Pack bases.",
+ "notes": "Skavenslaves: 20 or 40 models (2pts per model). Clanrats: 1 Clawleader + 9 Clanrats / 2 Clawleaders + 18 Clanrats; each Weapon Team model costs its datasheet's per-model price (Poison Wind Globadier: 10pts). Two values = smaller / larger unit; three values = 1 / 2 / 3 Rat Pack bases.",
  "copy_limits": "Non-Battleline datasheets: max 3 copies. Battleline: max 6 copies. Epic Heroes: max 1."
 }
