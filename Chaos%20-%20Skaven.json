@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 68,
+    "revision": 69,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -29886,7 +29886,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Rapid Fire D6+3, Sustained Hits 1, Warpstone"
+                            "$text": "Rapid Fire 3, Sustained Hits 1, Warpstone"
                           }
                         ]
                       }
@@ -43236,7 +43236,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Rapid Fire D6+3, Sustained Hits 1, Warpstone"
+                        "$text": "Rapid Fire 3, Sustained Hits 1, Warpstone"
                       }
                     ],
                     "modifiers": [
@@ -43665,7 +43665,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Rapid Fire D6+3, Sustained Hits 1, Warpstone"
+                        "$text": "Rapid Fire 3, Sustained Hits 1, Warpstone"
                       }
                     ],
                     "modifiers": [
