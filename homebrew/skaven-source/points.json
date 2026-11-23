@@ -262,6 +262,16 @@
      "name": "Rat Packs",
      "points": "55pts / 95pts / 135pts",
      "repeat_cost": "+5pts from the 3rd copy"
+    },
+    {
+     "name": "Gnawhull Brutes",
+     "points": "95pts / 190pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Blightfang Ogors",
+     "points": "150pts / 300pts",
+     "repeat_cost": "+15pts from the 3rd copy"
     }
    ]
   },
@@ -282,6 +292,11 @@
      "name": "Brood Terror",
      "points": "300pts",
      "repeat_cost": "+25pts from the 3rd copy"
+    },
+    {
+     "name": "Warpfang Colossus",
+     "points": "190pts",
+     "repeat_cost": "+15pts from the 2nd copy"
     }
    ]
   },

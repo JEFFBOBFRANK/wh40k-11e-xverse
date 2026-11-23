@@ -75,6 +75,7 @@ UNITS = {
     "Clattertank": single(),
     "Warp-Grinder Team": single(),
     "Mutant Rat Ogor": single(),
+    "Warpfang Colossus": single(),
     "Brood Horror": single(),
     "Hell Pit Abomination": single(),
     "Verminwyrm": single(),
@@ -186,6 +187,10 @@ UNITS = {
                 M("Warplock Jezzail Team", (2, 5), ["Warplock jezzail", "Crew blades"])],
         sizes=[{"Lead Marksman": 1, "Warplock Jezzail Team": 2}, {"Lead Marksman": 1, "Warplock Jezzail Team": 5}]),
     "Doom-Flayers": dict(models=[M("Doom-Flayer", (2, 6), ["Doom-Flayer blades", "Crew blades"], cost=35)]),
+    "Gnawhull Brutes": dict(models=[M("Gnawhull Brute", (1, 2), ["Warp-iron jaws", "Raking claws"])],
+                            sizes=[{"Gnawhull Brute": 1}, {"Gnawhull Brute": 2}]),
+    "Blightfang Ogors": dict(models=[M("Blightfang Ogor", (3, 6), ["Plague-spew", "Pox-cleavers"])],
+                             sizes=[{"Blightfang Ogor": 3}, {"Blightfang Ogor": 6}]),
     "Rat Ogors": dict(
         models=[M("Rat Ogor", (3, 6), ["Rat Ogor claws"]),
                 M("Packmaster", (1, 2), ["Pack whip"], profile="PACKMASTER")],

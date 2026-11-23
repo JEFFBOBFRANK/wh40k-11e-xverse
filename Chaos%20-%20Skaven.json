@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 56,
+    "revision": 57,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -538,6 +538,21 @@
       {
         "name": "Gnawdrill",
         "id": "460b-811e-96d2-0d28",
+        "hidden": false
+      },
+      {
+        "name": "Warpfang Colossus",
+        "id": "1761-edee-db1b-dce2",
+        "hidden": false
+      },
+      {
+        "name": "Gnawhull Brutes",
+        "id": "4b8d-21ab-c4f8-fbf6",
+        "hidden": false
+      },
+      {
+        "name": "Blightfang Ogors",
+        "id": "4e20-4607-c5c8-6aba",
         "hidden": false
       },
       {
@@ -85137,6 +85152,4120 @@
         ]
       },
       {
+        "name": "Warpfang Colossus",
+        "id": "1ac7-214e-f35f-f4ba",
+        "type": "model",
+        "hidden": false,
+        "import": true,
+        "categoryLinks": [
+          {
+            "name": "Monster",
+            "id": "dd4c-47fe-79ca-1a92",
+            "targetId": "9693-cf84-fe69-37a9",
+            "primary": true,
+            "hidden": false
+          },
+          {
+            "name": "Moulder",
+            "id": "8d9e-904c-802e-d19e",
+            "targetId": "5aef-7621-9c8d-1b60",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Skryre",
+            "id": "8562-70a0-2945-8568",
+            "targetId": "88a3-f70f-c213-f62e",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Warpfang Colossus",
+            "id": "3e01-01e1-c9ca-a9f5",
+            "targetId": "1761-edee-db1b-dce2",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Faction: Skaven",
+            "id": "f093-2486-9195-5b41",
+            "targetId": "c027-d20e-6161-521e",
+            "primary": false,
+            "hidden": false
+          }
+        ],
+        "profiles": [
+          {
+            "id": "93af-bc71-e030-8bfb",
+            "name": "Warpfang Colossus",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
+              },
+              {
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "16"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "8+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "5"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": "-"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "d29d-cf75-fc2d-34a4",
+                "type": "increment",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "0bb5-e9c7-ef7f-858d",
+                    "field": "selections",
+                    "scope": "1ac7-214e-f35f-f4ba",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "field": "e703-ecb6-5ce7-aec1",
+                "type": "set",
+                "value": "10\"",
+                "conditions": [
+                  {
+                    "childId": "fca6-baac-adfd-882d",
+                    "field": "selections",
+                    "scope": "1ac7-214e-f35f-f4ba",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "field": "750a-a2ec-90d3-21fe",
+                "type": "increment",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "e84b-d657-f17a-29af",
+                    "field": "selections",
+                    "scope": "1ac7-214e-f35f-f4ba",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "field": "d29d-cf75-fc2d-34a4",
+                "type": "increment",
+                "value": -1,
+                "conditions": [
+                  {
+                    "childId": "6375-3426-5ba3-91bb",
+                    "field": "selections",
+                    "scope": "1ac7-214e-f35f-f4ba",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "field": "450-a17e-9d5e-29da",
+                "type": "set",
+                "value": "4+",
+                "conditions": [
+                  {
+                    "childId": "cb32-e5a2-fc68-2552",
+                    "field": "selections",
+                    "scope": "1ac7-214e-f35f-f4ba",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "field": "e703-ecb6-5ce7-aec1",
+                "type": "set",
+                "value": "6\"",
+                "conditions": [
+                  {
+                    "childId": "373d-829d-a5f3-aa8f",
+                    "field": "selections",
+                    "scope": "1ac7-214e-f35f-f4ba",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "field": "bef7-942a-1a23-59f8",
+                "type": "increment",
+                "value": -1,
+                "conditions": [
+                  {
+                    "childId": "68f8-645d-fa55-7d33",
+                    "field": "selections",
+                    "scope": "1ac7-214e-f35f-f4ba",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "field": "750a-a2ec-90d3-21fe",
+                "type": "increment",
+                "value": -2,
+                "conditions": [
+                  {
+                    "childId": "5a72-fc45-3494-51d4",
+                    "field": "selections",
+                    "scope": "1ac7-214e-f35f-f4ba",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2eda-1054-e4e3-4207",
+            "name": "Hunter-Engine",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, re-roll a hit roll of 1."
+              }
+            ]
+          },
+          {
+            "id": "b222-7c71-de7c-042f",
+            "name": "Overcharge the Grafts",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle, when this model is selected to shoot, until the end of the phase its Spinal warp-lance has an A characteristic of 4. After this model has shot, it suffers D6 mortal wounds."
+              }
+            ]
+          },
+          {
+            "id": "186e-f115-b616-dc29",
+            "name": "Weapon Profiles",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Before selecting targets for Grafted crushers, select either the strike or sweep profile."
+              }
+            ]
+          },
+          {
+            "id": "5996-6ff5-baaf-f1fe",
+            "name": "Unit Composition and Equipment",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Composition: 1 Warpfang Colossus. This model is equipped with: spinal warp-lance; melta-maw; grafted crushers."
+              }
+            ]
+          },
+          {
+            "id": "73a1-4ef2-2529-8f85",
+            "name": "Printed Keywords and Notes",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Keywords: Monster, Moulder, Skryre, Warpfang Colossus. Faction: Skaven."
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "id": "4a2a-1dcd-46b6-86a2",
+            "name": "Deadly Demise",
+            "targetId": "b68a-5ded-65ac-98c",
+            "type": "rule",
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Deadly Demise D6"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Spinal warp-lance",
+            "id": "ec95-dd67-4088-0a85",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "profiles": [
+              {
+                "id": "e5cc-42bb-9d1e-26a6",
+                "name": "Spinal warp-lance",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "48\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "16"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-4"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "D3+5"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "Heavy, Anti-Monster 4+, Anti-Vehicle 4+, Warpstone"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "7482-aed3-24e8-57b5",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "c562-c701-89f7-92d7",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "id": "6ae7-1e70-8844-dd54",
+                "name": "Anti",
+                "targetId": "4111-82e3-9444-e942",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "933e-a100-c5e5-b8f8",
+                "name": "Heavy",
+                "targetId": "1202-10a8-78e9-4c67",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "9179-6b75-9968-6d84",
+                "name": "Warpstone",
+                "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "3f54-4088-84df-aaf9",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Melta-maw",
+            "id": "73ed-901f-5d24-0a1c",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "profiles": [
+              {
+                "id": "5e31-02ba-84f0-b49d",
+                "name": "Melta-maw",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "12\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "12"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-3"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "D3+3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "Melta 3, Warpstone"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "1a25-e579-b409-81b7",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "9890-7f23-91c2-6391",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "id": "7932-f135-68f3-709a",
+                "name": "Melta",
+                "targetId": "7cdb-fb99-44a9-8849",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "8308-befb-b7db-e6a3",
+                "name": "Warpstone",
+                "targetId": "7a1a-acc6-a2c5-a984",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "d7b4-75a6-6b11-6639",
+                "name": "Warpstone Backlash",
+                "targetId": "770e-a39d-7aa8-8f21",
+                "type": "rule",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Grafted crushers - strike",
+            "id": "c30c-540c-b44c-b3dc",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "profiles": [
+              {
+                "id": "18cc-e785-5370-0d8e",
+                "name": "Grafted crushers - strike",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "14"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-3"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "D3+3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "Anti-Vehicle 4+"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "2337-daa1-6682-b110",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "4a2b-b186-81be-f69d",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "ab33-d393-96ce-ccba",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "a165-ca4a-8828-29b7",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "95d1-95f-45b4-11d6",
+                    "type": "set",
+                    "value": "3+",
+                    "conditions": [
+                      {
+                        "childId": "c9f8-6e70-1ad6-bd2a",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "2337-daa1-6682-b110",
+                    "type": "increment",
+                    "value": -1,
+                    "conditions": [
+                      {
+                        "childId": "ba3f-c8fe-d26e-deef",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "ab33-d393-96ce-ccba",
+                    "type": "increment",
+                    "value": -1,
+                    "conditions": [
+                      {
+                        "childId": "0998-5c3c-896d-b279",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "65bc-9ee2-341f-5834",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "0020-b9d8-eaf1-5ef8",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "id": "142e-6b1a-f4bf-a5bf",
+                "name": "Anti",
+                "targetId": "4111-82e3-9444-e942",
+                "type": "rule",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Grafted crushers - sweep",
+            "id": "cd71-dac7-8f66-894f",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "profiles": [
+              {
+                "id": "b52b-2504-33e3-a2da",
+                "name": "Grafted crushers - sweep",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "10"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "7"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "2337-daa1-6682-b110",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "4a2b-b186-81be-f69d",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "ab33-d393-96ce-ccba",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "a165-ca4a-8828-29b7",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "95d1-95f-45b4-11d6",
+                    "type": "set",
+                    "value": "3+",
+                    "conditions": [
+                      {
+                        "childId": "c9f8-6e70-1ad6-bd2a",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "2337-daa1-6682-b110",
+                    "type": "increment",
+                    "value": -1,
+                    "conditions": [
+                      {
+                        "childId": "ba3f-c8fe-d26e-deef",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "ab33-d393-96ce-ccba",
+                    "type": "increment",
+                    "value": -1,
+                    "conditions": [
+                      {
+                        "childId": "0998-5c3c-896d-b279",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "eba1-221f-c83f-3e2b",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "40ea-6210-0b97-fc6a",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "1ac7-214e-f35f-f4ba",
+                        "childName": "Warpfang Colossus",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "id": "f7c5-286c-05a6-bdd4",
+            "type": "max",
+            "value": 3,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": true
+          },
+          {
+            "id": "995b-cbca-365b-d5b8",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 190
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Flesh-Sculpting: Mutations",
+            "id": "a896-ff09-9e1a-0ec0",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Mutation: Thickened Hide",
+                "id": "9698-18cf-30a8-2c87",
+                "targetId": "0bb5-e9c7-ef7f-858d",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "b4f7-ee91-927e-c6c4",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Chitinous Plates",
+                "id": "2cda-b1ee-a306-f898",
+                "targetId": "88f5-3b87-d112-6bc6",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "cfe0-72c1-b02d-91db",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Too Many Limbs",
+                "id": "0b7d-22dc-7ec8-db66",
+                "targetId": "4a2b-b186-81be-f69d",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "b400-74c3-7dce-e636",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Overgrown Musculature",
+                "id": "4b8e-2814-ffa3-224d",
+                "targetId": "a165-ca4a-8828-29b7",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "5193-27b5-42d3-524a",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Lengthened Legs",
+                "id": "ca19-02d3-538d-e574",
+                "targetId": "fca6-baac-adfd-882d",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "2b93-7879-08f6-8689",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Predatory Reflexes",
+                "id": "f10b-8e1d-c34c-ef3c",
+                "targetId": "c9f8-6e70-1ad6-bd2a",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "2721-1712-943e-5d10",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Bloated Mass",
+                "id": "7434-ccdd-d236-ba59",
+                "targetId": "e84b-d657-f17a-29af",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "657e-59c1-cabc-c9e5",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "e9af-25f4-5f5b-6213",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "increment",
+                "field": "e9af-25f4-5f5b-6213",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "0ab6-bdb9-1f2a-8d92",
+                    "field": "selections",
+                    "scope": "1ac7-214e-f35f-f4ba",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Flesh-Sculpting: Ruinous Defect",
+            "id": "0ab6-bdb9-1f2a-8d92",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Ruinous Defect: Soft Flesh",
+                "id": "4b1c-424b-c8e8-c5b9",
+                "targetId": "6375-3426-5ba3-91bb",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0bb5-e9c7-ef7f-858d",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Exposed Organs",
+                "id": "1de4-5625-93d0-f218",
+                "targetId": "cb32-e5a2-fc68-2552",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "88f5-3b87-d112-6bc6",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Missing Limbs",
+                "id": "0fb6-369e-1106-da31",
+                "targetId": "ba3f-c8fe-d26e-deef",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "4a2b-b186-81be-f69d",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Atrophied Musculature",
+                "id": "c330-119c-4bbe-6745",
+                "targetId": "0998-5c3c-896d-b279",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "a165-ca4a-8828-29b7",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Stunted Legs",
+                "id": "1753-bcc9-19fa-8dd7",
+                "targetId": "373d-829d-a5f3-aa8f",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "fca6-baac-adfd-882d",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Uncontrollable",
+                "id": "bb49-5cb0-2844-a1dc",
+                "targetId": "68f8-645d-fa55-7d33",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Withered Frame",
+                "id": "b4e5-c758-e2f5-b561",
+                "targetId": "5a72-fc45-3494-51d4",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "e84b-d657-f17a-29af",
+                        "field": "selections",
+                        "scope": "1ac7-214e-f35f-f4ba",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              }
+            ],
+            "constraints": [
+              {
+                "id": "6181-a957-0de8-7a35",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gnawhull Brutes",
+        "id": "c73f-da58-d2bf-7afc",
+        "type": "unit",
+        "hidden": false,
+        "import": true,
+        "categoryLinks": [
+          {
+            "name": "Beast",
+            "id": "21f5-da57-bca4-bbfe",
+            "targetId": "4c3e-9310-a516-3590",
+            "primary": true,
+            "hidden": false
+          },
+          {
+            "name": "Moulder",
+            "id": "f7a8-3dab-8057-ffdd",
+            "targetId": "5aef-7621-9c8d-1b60",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Gnawhull Brutes",
+            "id": "70d2-e660-b308-1e04",
+            "targetId": "4b8d-21ab-c4f8-fbf6",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Faction: Skaven",
+            "id": "957f-d842-7b80-368c",
+            "targetId": "c027-d20e-6161-521e",
+            "primary": false,
+            "hidden": false
+          }
+        ],
+        "profiles": [
+          {
+            "id": "476c-64d1-9988-babe",
+            "name": "Tunnelling Jaws",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This unit has the Deep Strike ability. When this unit is set up on the battlefield using Deep Strike, create one friendly Gnawhole within 3\" of it."
+              }
+            ]
+          },
+          {
+            "id": "c733-57b0-6919-05a7",
+            "name": "Lockjaw",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time an enemy MONSTER or VEHICLE unit that is engaged with this unit is selected to make a fall-back move, it must take a desperate escape test first."
+              }
+            ]
+          },
+          {
+            "id": "1572-bb9a-489b-f964",
+            "name": "Unit Composition and Equipment",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Composition: 1-2 Gnawhull Brutes. Every model is equipped with: warp-iron jaws; raking claws."
+              }
+            ]
+          },
+          {
+            "id": "10e5-d891-12e6-9c76",
+            "name": "Printed Keywords and Notes",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Keywords: Beast, Moulder, Gnawhull Brutes. Faction: Skaven."
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "id": "0b0e-5206-6120-3c68",
+            "name": "Scurry Away!",
+            "targetId": "044a-be72-a29a-fefb",
+            "type": "rule",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Gnawhull Brute",
+            "id": "3f64-725f-5773-a57d",
+            "type": "model",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "ca73-d979-30a9-be8e",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "669f-d3e9-0a00-80af",
+                "type": "max",
+                "value": 2,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "id": "c86b-bc3e-7189-9f3f",
+                "name": "Gnawhull Brute",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "8\""
+                  },
+                  {
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "7"
+                  },
+                  {
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "8+"
+                  },
+                  {
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": "-"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "d29d-cf75-fc2d-34a4",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "0bb5-e9c7-ef7f-858d",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "450-a17e-9d5e-29da",
+                    "type": "set",
+                    "value": "3+",
+                    "conditions": [
+                      {
+                        "childId": "88f5-3b87-d112-6bc6",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "e703-ecb6-5ce7-aec1",
+                    "type": "set",
+                    "value": "10\"",
+                    "conditions": [
+                      {
+                        "childId": "fca6-baac-adfd-882d",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "d29d-cf75-fc2d-34a4",
+                    "type": "increment",
+                    "value": -1,
+                    "conditions": [
+                      {
+                        "childId": "6375-3426-5ba3-91bb",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "450-a17e-9d5e-29da",
+                    "type": "set",
+                    "value": "5+",
+                    "conditions": [
+                      {
+                        "childId": "cb32-e5a2-fc68-2552",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "e703-ecb6-5ce7-aec1",
+                    "type": "set",
+                    "value": "6\"",
+                    "conditions": [
+                      {
+                        "childId": "373d-829d-a5f3-aa8f",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": -1,
+                    "conditions": [
+                      {
+                        "childId": "68f8-645d-fa55-7d33",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "d29d-cf75-fc2d-34a4",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "6cfd-6566-457e-4aed",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Warp-iron jaws",
+                "id": "ac68-0ea7-c4dd-ec04",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "439d-9726-7941-9bf5",
+                    "name": "Warp-iron jaws",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "14"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-3"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "D3+3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Anti-Monster 3+, Anti-Vehicle 3+"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "2337-daa1-6682-b110",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "4a2b-b186-81be-f69d",
+                            "field": "selections",
+                            "scope": "c73f-da58-d2bf-7afc",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "ab33-d393-96ce-ccba",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "a165-ca4a-8828-29b7",
+                            "field": "selections",
+                            "scope": "c73f-da58-d2bf-7afc",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "95d1-95f-45b4-11d6",
+                        "type": "set",
+                        "value": "3+",
+                        "conditions": [
+                          {
+                            "childId": "c9f8-6e70-1ad6-bd2a",
+                            "field": "selections",
+                            "scope": "c73f-da58-d2bf-7afc",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "2337-daa1-6682-b110",
+                        "type": "increment",
+                        "value": -1,
+                        "conditions": [
+                          {
+                            "childId": "ba3f-c8fe-d26e-deef",
+                            "field": "selections",
+                            "scope": "c73f-da58-d2bf-7afc",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "ab33-d393-96ce-ccba",
+                        "type": "increment",
+                        "value": -1,
+                        "conditions": [
+                          {
+                            "childId": "0998-5c3c-896d-b279",
+                            "field": "selections",
+                            "scope": "c73f-da58-d2bf-7afc",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "901b-998d-9593-0db5",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "99a1-cf0b-5ac1-32f6",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "6f62-ae5b-7099-3700",
+                    "name": "Anti",
+                    "targetId": "4111-82e3-9444-e942",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Raking claws",
+                "id": "b67a-1ef7-8b1e-4a83",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "a53b-bd54-cc95-9de3",
+                    "name": "Raking claws",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "7"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "-"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "2337-daa1-6682-b110",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "4a2b-b186-81be-f69d",
+                            "field": "selections",
+                            "scope": "c73f-da58-d2bf-7afc",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "ab33-d393-96ce-ccba",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "a165-ca4a-8828-29b7",
+                            "field": "selections",
+                            "scope": "c73f-da58-d2bf-7afc",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "95d1-95f-45b4-11d6",
+                        "type": "set",
+                        "value": "3+",
+                        "conditions": [
+                          {
+                            "childId": "c9f8-6e70-1ad6-bd2a",
+                            "field": "selections",
+                            "scope": "c73f-da58-d2bf-7afc",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "2337-daa1-6682-b110",
+                        "type": "increment",
+                        "value": -1,
+                        "conditions": [
+                          {
+                            "childId": "ba3f-c8fe-d26e-deef",
+                            "field": "selections",
+                            "scope": "c73f-da58-d2bf-7afc",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "ab33-d393-96ce-ccba",
+                        "type": "increment",
+                        "value": -1,
+                        "conditions": [
+                          {
+                            "childId": "0998-5c3c-896d-b279",
+                            "field": "selections",
+                            "scope": "c73f-da58-d2bf-7afc",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "cf4c-e89b-c15d-8c00",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "bde3-df5b-dc9b-5876",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 95,
+            "conditions": [
+              {
+                "childId": "3f64-725f-5773-a57d",
+                "field": "selections",
+                "scope": "c73f-da58-d2bf-7afc",
+                "type": "atLeast",
+                "value": 2,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "Select 1 Gnawhull Brute or 2 Gnawhull Brute.",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "3f64-725f-5773-a57d",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "notEqualTo",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "3f64-725f-5773-a57d",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "notEqualTo",
+                        "value": 2,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "c73f-da58-d2bf-7afc",
+                        "childName": "Gnawhull Brutes",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "id": "f67d-1ae2-1395-b051",
+            "type": "max",
+            "value": 3,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": true
+          },
+          {
+            "id": "d09d-ce34-b3ee-f952",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 95
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Enhancements and Upgrades",
+            "id": "d266-9d39-9e96-cb8c",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Overgrown [Upgrade]",
+                "id": "ce22-f4a6-7ae2-3fbb",
+                "targetId": "6cfd-6566-457e-4aed",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "2820-f41e-c77f-bc89",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "1015-bc18-bdfd-7eab",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "70b2-6014-7c32-b773",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ]
+          },
+          {
+            "name": "Flesh-Sculpting: Mutations",
+            "id": "146e-3998-9d7a-7606",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Mutation: Thickened Hide",
+                "id": "2d5d-ebdc-0a9d-23c1",
+                "targetId": "0bb5-e9c7-ef7f-858d",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "54ec-a324-e94c-1f11",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Chitinous Plates",
+                "id": "7689-7abb-b48d-1df9",
+                "targetId": "88f5-3b87-d112-6bc6",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "7ee9-e719-ecd4-4ff9",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Too Many Limbs",
+                "id": "51cd-79ff-dd91-bfce",
+                "targetId": "4a2b-b186-81be-f69d",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "aad7-8a6f-360f-8b6f",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Overgrown Musculature",
+                "id": "cf2c-2d4e-6300-3152",
+                "targetId": "a165-ca4a-8828-29b7",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "ab86-6a84-d996-c52b",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Lengthened Legs",
+                "id": "d786-87c3-0a0a-a155",
+                "targetId": "fca6-baac-adfd-882d",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "0e17-0c1d-b9eb-f499",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Predatory Reflexes",
+                "id": "dabb-4c37-75b2-58f2",
+                "targetId": "c9f8-6e70-1ad6-bd2a",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "aefb-a0ff-d877-501c",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "28f0-fb95-35d2-0ce1",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "increment",
+                "field": "28f0-fb95-35d2-0ce1",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "b8d6-79cb-ccff-b0ab",
+                    "field": "selections",
+                    "scope": "c73f-da58-d2bf-7afc",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Flesh-Sculpting: Ruinous Defect",
+            "id": "b8d6-79cb-ccff-b0ab",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Ruinous Defect: Soft Flesh",
+                "id": "f241-8d45-b57a-f634",
+                "targetId": "6375-3426-5ba3-91bb",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0bb5-e9c7-ef7f-858d",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Exposed Organs",
+                "id": "6831-2676-b2db-1b8b",
+                "targetId": "cb32-e5a2-fc68-2552",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "88f5-3b87-d112-6bc6",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Missing Limbs",
+                "id": "983a-86d3-5d07-7db9",
+                "targetId": "ba3f-c8fe-d26e-deef",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "4a2b-b186-81be-f69d",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Atrophied Musculature",
+                "id": "97d7-d987-6ee2-2878",
+                "targetId": "0998-5c3c-896d-b279",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "a165-ca4a-8828-29b7",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Stunted Legs",
+                "id": "a473-9cbb-41e8-c7a1",
+                "targetId": "373d-829d-a5f3-aa8f",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "fca6-baac-adfd-882d",
+                        "field": "selections",
+                        "scope": "c73f-da58-d2bf-7afc",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Uncontrollable",
+                "id": "ad5c-de3b-427c-8da2",
+                "targetId": "68f8-645d-fa55-7d33",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              }
+            ],
+            "constraints": [
+              {
+                "id": "e57a-fca3-371a-423c",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blightfang Ogors",
+        "id": "201b-7cbf-a6ac-4f53",
+        "type": "unit",
+        "hidden": false,
+        "import": true,
+        "categoryLinks": [
+          {
+            "name": "Beast",
+            "id": "d5da-2a5f-64d1-33fa",
+            "targetId": "4c3e-9310-a516-3590",
+            "primary": true,
+            "hidden": false
+          },
+          {
+            "name": "Moulder",
+            "id": "5ca7-2e98-d39c-c6cc",
+            "targetId": "5aef-7621-9c8d-1b60",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Pestilens",
+            "id": "95e7-a451-478d-1d41",
+            "targetId": "2e3a-7b07-9293-8ff2",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Blightfang Ogors",
+            "id": "ad15-ee08-879b-7663",
+            "targetId": "4e20-4607-c5c8-6aba",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Faction: Skaven",
+            "id": "4864-4116-c3c4-3ee1",
+            "targetId": "c027-d20e-6161-521e",
+            "primary": false,
+            "hidden": false
+          }
+        ],
+        "profiles": [
+          {
+            "id": "1dcb-16a8-d70b-fee1",
+            "name": "Pestilence (Aura)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While an enemy unit is within 6\" of this unit, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+              }
+            ]
+          },
+          {
+            "id": "b0eb-bde7-af31-1d76",
+            "name": "Spreading Rot",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of the Fight phase, roll one D6 for each enemy INFANTRY unit engaged with this unit. On a 4+, that unit suffers D3 mortal wounds."
+              }
+            ]
+          },
+          {
+            "id": "83e5-7ff5-7257-470f",
+            "name": "Unit Composition and Equipment",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Composition: 3 or 6 Blightfang Ogors. Every model is equipped with: plague-spew; pox-cleavers."
+              }
+            ]
+          },
+          {
+            "id": "b1ac-5a28-7f54-b32e",
+            "name": "Printed Keywords and Notes",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Keywords: Beast, Moulder, Pestilens, Blightfang Ogors. Faction: Skaven."
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "id": "d623-1632-fc10-ba1a",
+            "name": "Feel No Pain 6+",
+            "targetId": "676c-ecb5-d24d-3540",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "23ee-ae8d-9771-cd34",
+            "name": "Scurry Away!",
+            "targetId": "044a-be72-a29a-fefb",
+            "type": "rule",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Blightfang Ogor",
+            "id": "8f4c-0181-0ab5-66e1",
+            "type": "model",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "0d4d-9373-a3d9-fc85",
+                "type": "min",
+                "value": 3,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "d1da-1975-db41-cad2",
+                "type": "max",
+                "value": 6,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "id": "59a8-55c5-b726-a720",
+                "name": "Blightfang Ogor",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "8\""
+                  },
+                  {
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "5+"
+                  },
+                  {
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "8+"
+                  },
+                  {
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": "-"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "d29d-cf75-fc2d-34a4",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "0bb5-e9c7-ef7f-858d",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "450-a17e-9d5e-29da",
+                    "type": "set",
+                    "value": "4+",
+                    "conditions": [
+                      {
+                        "childId": "88f5-3b87-d112-6bc6",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "e703-ecb6-5ce7-aec1",
+                    "type": "set",
+                    "value": "10\"",
+                    "conditions": [
+                      {
+                        "childId": "fca6-baac-adfd-882d",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "d29d-cf75-fc2d-34a4",
+                    "type": "increment",
+                    "value": -1,
+                    "conditions": [
+                      {
+                        "childId": "6375-3426-5ba3-91bb",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "450-a17e-9d5e-29da",
+                    "type": "set",
+                    "value": "6+",
+                    "conditions": [
+                      {
+                        "childId": "cb32-e5a2-fc68-2552",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "e703-ecb6-5ce7-aec1",
+                    "type": "set",
+                    "value": "6\"",
+                    "conditions": [
+                      {
+                        "childId": "373d-829d-a5f3-aa8f",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "increment",
+                    "value": -1,
+                    "conditions": [
+                      {
+                        "childId": "68f8-645d-fa55-7d33",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "d29d-cf75-fc2d-34a4",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "6cfd-6566-457e-4aed",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Plague-spew",
+                "id": "c424-2ac2-e904-0157",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "6a6f-fdd4-d293-baaf",
+                    "name": "Plague-spew",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "12\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "N/A"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Blast 2, Torrent"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "8d6c-0b9d-2130-f2b2",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "bd50-2bd7-ec48-5e80",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "10b8-8bc7-9681-9578",
+                    "name": "Blast",
+                    "targetId": "6c1f-1cf7-ff25-c99e",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "18e7-7715-9669-f290",
+                    "name": "Torrent",
+                    "targetId": "5edf-d619-23e0-9b56",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Pox-cleavers",
+                "id": "d70c-004d-fbc8-8d62",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "a48f-c1e7-8851-0075",
+                    "name": "Pox-cleavers",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "7"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Anti-Infantry 4+, Devastating Wounds"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "2337-daa1-6682-b110",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "4a2b-b186-81be-f69d",
+                            "field": "selections",
+                            "scope": "201b-7cbf-a6ac-4f53",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "ab33-d393-96ce-ccba",
+                        "type": "increment",
+                        "value": 1,
+                        "conditions": [
+                          {
+                            "childId": "a165-ca4a-8828-29b7",
+                            "field": "selections",
+                            "scope": "201b-7cbf-a6ac-4f53",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "95d1-95f-45b4-11d6",
+                        "type": "set",
+                        "value": "3+",
+                        "conditions": [
+                          {
+                            "childId": "c9f8-6e70-1ad6-bd2a",
+                            "field": "selections",
+                            "scope": "201b-7cbf-a6ac-4f53",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "2337-daa1-6682-b110",
+                        "type": "increment",
+                        "value": -1,
+                        "conditions": [
+                          {
+                            "childId": "ba3f-c8fe-d26e-deef",
+                            "field": "selections",
+                            "scope": "201b-7cbf-a6ac-4f53",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      },
+                      {
+                        "field": "ab33-d393-96ce-ccba",
+                        "type": "increment",
+                        "value": -1,
+                        "conditions": [
+                          {
+                            "childId": "0998-5c3c-896d-b279",
+                            "field": "selections",
+                            "scope": "201b-7cbf-a6ac-4f53",
+                            "type": "atLeast",
+                            "value": 1,
+                            "shared": true,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "63ea-d612-be53-cc80",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "17a8-4f82-5b29-9974",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "1dfd-c532-863a-3a30",
+                    "name": "Devastating Wounds",
+                    "targetId": "be1e-ac8e-1e2c-3528",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "b006-dda0-d312-f8fc",
+                    "name": "Anti",
+                    "targetId": "4111-82e3-9444-e942",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 150,
+            "conditions": [
+              {
+                "childId": "8f4c-0181-0ab5-66e1",
+                "field": "selections",
+                "scope": "201b-7cbf-a6ac-4f53",
+                "type": "atLeast",
+                "value": 6,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "Select 3 Blightfang Ogor or 6 Blightfang Ogor.",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "8f4c-0181-0ab5-66e1",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "notEqualTo",
+                        "value": 3,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "8f4c-0181-0ab5-66e1",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "notEqualTo",
+                        "value": 6,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "201b-7cbf-a6ac-4f53",
+                        "childName": "Blightfang Ogors",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "id": "5e5e-3393-b8e1-25ad",
+            "type": "max",
+            "value": 3,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": true
+          },
+          {
+            "id": "dc9c-25b8-361e-f538",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 150
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Enhancements and Upgrades",
+            "id": "a5b5-1eb5-3313-1e3c",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Overgrown [Upgrade]",
+                "id": "0ab3-2375-4bf6-11cc",
+                "targetId": "6cfd-6566-457e-4aed",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "2820-f41e-c77f-bc89",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "8222-f05b-3256-3e6b",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "0e8e-4f46-ea92-388f",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ]
+          },
+          {
+            "name": "Flesh-Sculpting: Mutations",
+            "id": "428c-277d-e6b4-109f",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Mutation: Thickened Hide",
+                "id": "20bd-ceee-2d9c-110a",
+                "targetId": "0bb5-e9c7-ef7f-858d",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "b563-770e-b618-dcd3",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Chitinous Plates",
+                "id": "2007-e41f-3569-ad92",
+                "targetId": "88f5-3b87-d112-6bc6",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "4386-247b-b8f2-4fc3",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Too Many Limbs",
+                "id": "8549-39d1-0c9c-8c68",
+                "targetId": "4a2b-b186-81be-f69d",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "8a6d-e245-642b-cb06",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Overgrown Musculature",
+                "id": "7cc2-5fb7-583c-0a57",
+                "targetId": "a165-ca4a-8828-29b7",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "6e0b-d8a2-35c7-15c7",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Lengthened Legs",
+                "id": "3747-a3cc-f861-78f7",
+                "targetId": "fca6-baac-adfd-882d",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "03d6-5ae6-76f7-7735",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutation: Predatory Reflexes",
+                "id": "1b1b-5e89-8144-1c6f",
+                "targetId": "c9f8-6e70-1ad6-bd2a",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "6665-2740-9528-7a24",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "817e-a208-cb97-8c08",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "increment",
+                "field": "817e-a208-cb97-8c08",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "d8ff-cc71-f588-6a08",
+                    "field": "selections",
+                    "scope": "201b-7cbf-a6ac-4f53",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Flesh-Sculpting: Ruinous Defect",
+            "id": "d8ff-cc71-f588-6a08",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Ruinous Defect: Soft Flesh",
+                "id": "4cf5-b879-1740-2160",
+                "targetId": "6375-3426-5ba3-91bb",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "0bb5-e9c7-ef7f-858d",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Exposed Organs",
+                "id": "2117-a4b0-0296-51bd",
+                "targetId": "cb32-e5a2-fc68-2552",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "88f5-3b87-d112-6bc6",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Missing Limbs",
+                "id": "adf4-c320-124d-367d",
+                "targetId": "ba3f-c8fe-d26e-deef",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "4a2b-b186-81be-f69d",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Atrophied Musculature",
+                "id": "8f7d-7706-ebfe-ff4c",
+                "targetId": "0998-5c3c-896d-b279",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "a165-ca4a-8828-29b7",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Stunted Legs",
+                "id": "4411-d349-e61f-424b",
+                "targetId": "373d-829d-a5f3-aa8f",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "value": true,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "fca6-baac-adfd-882d",
+                        "field": "selections",
+                        "scope": "201b-7cbf-a6ac-4f53",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              },
+              {
+                "name": "Ruinous Defect: Uncontrollable",
+                "id": "7380-a1a5-ee4f-6595",
+                "targetId": "68f8-645d-fa55-7d33",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "7625-43a9-167b-e8a9",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true
+              }
+            ],
+            "constraints": [
+              {
+                "id": "0337-e8f9-febc-f60f",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Chief-Chief Engineer",
         "id": "8edf-26a2-6980-3985",
         "type": "upgrade",
@@ -89236,6 +93365,30 @@
         "id": "eb45-1b81-4400-9b81",
         "hidden": false,
         "targetId": "bff0-39b3-327b-bcdd",
+        "type": "selectionEntry",
+        "import": true
+      },
+      {
+        "name": "Warpfang Colossus",
+        "id": "64c8-a898-6abc-18e1",
+        "hidden": false,
+        "targetId": "1ac7-214e-f35f-f4ba",
+        "type": "selectionEntry",
+        "import": true
+      },
+      {
+        "name": "Gnawhull Brutes",
+        "id": "14aa-b002-7b88-4f63",
+        "hidden": false,
+        "targetId": "c73f-da58-d2bf-7afc",
+        "type": "selectionEntry",
+        "import": true
+      },
+      {
+        "name": "Blightfang Ogors",
+        "id": "092d-ae17-fa92-67bd",
+        "hidden": false,
+        "targetId": "201b-7cbf-a6ac-4f53",
         "type": "selectionEntry",
         "import": true
       },

@@ -5901,5 +5901,249 @@
   ],
   "points": "105pts",
   "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Warpfang Colossus",
+  "role": "MONSTER",
+  "keywords": [
+   "MONSTER",
+   "MOULDER",
+   "SKRYRE",
+   "WARPFANG COLOSSUS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "11",
+   "SV": "3+",
+   "W": "16",
+   "LD": "8+",
+   "OC": "5"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Spinal warp-lance",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "16",
+    "AP": "-4",
+    "D": "D3+5",
+    "keywords": [
+     "HEAVY",
+     "ANTI-MONSTER 4+",
+     "ANTI-VEHICLE 4+",
+     "WARPSTONE"
+    ]
+   },
+   {
+    "name": "Melta-maw",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D3+3",
+    "keywords": [
+     "MELTA 3",
+     "WARPSTONE"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Grafted crushers - strike",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D3+3",
+    "keywords": [
+     "ANTI-VEHICLE 4+"
+    ]
+   },
+   {
+    "name": "Grafted crushers - sweep",
+    "range": "Melee",
+    "A": "10",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [
+   "Before selecting targets for Grafted crushers, select either the strike or sweep profile."
+  ],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Deadly Demise D6"
+   },
+   {
+    "name": "Hunter-Engine",
+    "text": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, re-roll a hit roll of 1."
+   },
+   {
+    "name": "Overcharge the Grafts",
+    "text": "Once per battle, when this model is selected to shoot, until the end of the phase its Spinal warp-lance has an A characteristic of 4. After this model has shot, it suffers D6 mortal wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Warpfang Colossus. This model is equipped with: spinal warp-lance; melta-maw; grafted crushers."
+  ],
+  "points": "190pts",
+  "repeat_cost": "+15pts from the 2nd copy"
+ },
+ {
+  "name": "Gnawhull Brutes",
+  "role": "BEAST",
+  "keywords": [
+   "BEAST",
+   "MOULDER",
+   "GNAWHULL BRUTES"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "7",
+   "SV": "4+",
+   "W": "8",
+   "LD": "8+",
+   "OC": "3"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Warp-iron jaws",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D3+3",
+    "keywords": [
+     "ANTI-MONSTER 3+",
+     "ANTI-VEHICLE 3+"
+    ]
+   },
+   {
+    "name": "Raking claws",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Tunnelling Jaws",
+    "text": "This unit has the Deep Strike ability. When this unit is set up on the battlefield using Deep Strike, create one friendly Gnawhole within 3\" of it."
+   },
+   {
+    "name": "Lockjaw",
+    "text": "Each time an enemy MONSTER or VEHICLE unit that is engaged with this unit is selected to make a fall-back move, it must take a desperate escape test first."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1-2 Gnawhull Brutes. Every model is equipped with: warp-iron jaws; raking claws."
+  ],
+  "points": "95pts / 190pts",
+  "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Blightfang Ogors",
+  "role": "BEAST",
+  "keywords": [
+   "BEAST",
+   "MOULDER",
+   "PESTILENS",
+   "BLIGHTFANG OGORS"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "6",
+   "SV": "5+",
+   "W": "5",
+   "LD": "8+",
+   "OC": "2"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Plague-spew",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "BLAST 2",
+     "TORRENT"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Pox-cleavers",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "ANTI-INFANTRY 4+",
+     "DEVASTATING WOUNDS"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Feel No Pain 6+"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Pestilence (Aura)",
+    "text": "While an enemy unit is within 6\" of this unit, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
+   },
+   {
+    "name": "Spreading Rot",
+    "text": "At the end of the Fight phase, roll one D6 for each enemy INFANTRY unit engaged with this unit. On a 4+, that unit suffers D3 mortal wounds."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "3 or 6 Blightfang Ogors. Every model is equipped with: plague-spew; pox-cleavers."
+  ],
+  "points": "150pts / 300pts",
+  "repeat_cost": "+15pts from the 3rd copy"
  }
 ]
