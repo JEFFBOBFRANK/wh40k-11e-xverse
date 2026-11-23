@@ -26,7 +26,7 @@ CLANRATS units from your army gain the MOULDER keyword and the following ability
 
 ## Feed the Beasts
 
-Each time a friendly MOULDER BEAST or MOULDER MONSTER unit is selected to fight, you can Sacrifice 2 models from one friendly SKAVEN INFANTRY unit within 6" of it. If you do, until the end of the phase, you can re-roll the hit roll for melee attacks made by models in that unit.
+Each time a friendly SKAVEN INFANTRY model is destroyed or Sacrificed within 6" of a friendly MOULDER BEAST or MOULDER MONSTER unit, until the end of the turn, each time a model in that MOULDER unit makes a melee attack, add 1 to the wound roll.
 
 ## Mutations
 

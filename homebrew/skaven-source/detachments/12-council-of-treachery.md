@@ -39,7 +39,7 @@ When mustering your army, each CLANRATS unit can swear to one Clan whose Seat is
 
 ## Ambition Unchecked
 
-Each time a friendly unit containing a SKAVEN CHARACTER is selected to shoot or fight, you can Sacrifice 1 Bodyguard model from that unit. If you do, until the end of the phase, you can re-roll the wound roll for attacks made by models in that unit.
+Each time a friendly SKAVEN CHARACTER's unit loses one or more models, until the end of your next turn, add 1 to hit rolls for attacks made by models in that unit.
 
 ## Council Enhancements
 

@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 65,
+    "revision": 66,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -912,7 +912,7 @@
                     "name": "Feed the Beasts",
                     "id": "8adb-c083-f449-88a6",
                     "hidden": false,
-                    "description": "\n\nEach time a friendly MOULDER BEAST or MOULDER MONSTER unit is selected to fight, you can Sacrifice 2 models from one friendly SKAVEN INFANTRY unit within 6\" of it. If you do, until the end of the phase, you can re-roll the hit roll for melee attacks made by models in that unit."
+                    "description": "\n\nEach time a friendly SKAVEN INFANTRY model is destroyed or Sacrificed within 6\" of a friendly MOULDER BEAST or MOULDER MONSTER unit, until the end of the turn, each time a model in that MOULDER unit makes a melee attack, add 1 to the wound roll."
                   },
                   {
                     "name": "Mutations",
@@ -1480,7 +1480,7 @@
                     "name": "No Run-Run! Fight-Fight!",
                     "id": "526a-cf0a-700a-318e",
                     "hidden": false,
-                    "description": "\n\nOnce per battle round, when a friendly VERMINUS unit within 8\" of a friendly VERMINUS CHARACTER fails a battle-shock roll, you can Sacrifice D3 models from that unit. If you do, that battle-shock roll is treated as having been passed, and until the end of the turn, add 1 to the hit roll for melee attacks made by models in that unit."
+                    "description": "\n\nOnce per battle round, when a friendly VERMINUS unit within 8\" of a friendly VERMINUS CHARACTER fails a battle-shock roll, you can Sacrifice D3 models from that unit. If you do, that battle-shock roll is treated as having been passed, and until the end of the turn, add 1 to hit rolls for melee attacks made by models in that unit."
                   }
                 ],
                 "categoryLinks": [
@@ -1728,10 +1728,10 @@
                     "description": "\n\nCLANRATS units from your army gain the SKURVY keyword and the following ability.\n\n**Claim-Claim the Prize!:**<br>At the end of your Movement phase, if this unit is within range of an objective you control, that objective remains under your control until your opponent's Level of Control over it is greater than yours at the end of a phase."
                   },
                   {
-                    "name": "Pay the Crew",
-                    "id": "3d51-0b4d-fd60-6dd4",
+                    "name": "Vengeful Crew",
+                    "id": "ccb1-b8ae-d392-1426",
                     "hidden": false,
-                    "description": "\n\nEach time a friendly SKURVY unit is selected to shoot or fight, you can spend 1 Vermin. If you do, until the end of the phase, add 1 to the hit roll for attacks made by models in that unit."
+                    "description": "\n\nEach time a friendly SKURVY unit loses one or more models, until the end of your next turn, add 1 to hit rolls for attacks made by models in that unit."
                   },
                   {
                     "name": "Black-Flag Mercenaries",
@@ -2011,7 +2011,7 @@
                     "name": "Ambition Unchecked",
                     "id": "ea24-17aa-9629-1f56",
                     "hidden": false,
-                    "description": "\n\nEach time a friendly unit containing a SKAVEN CHARACTER is selected to shoot or fight, you can Sacrifice 1 Bodyguard model from that unit. If you do, until the end of the phase, you can re-roll the wound roll for attacks made by models in that unit."
+                    "description": "\n\nEach time a friendly SKAVEN CHARACTER's unit loses one or more models, until the end of your next turn, add 1 to hit rolls for attacks made by models in that unit."
                   }
                 ],
                 "categoryLinks": [
@@ -36071,7 +36071,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this unit is selected to fight, you can Sacrifice up to D3 models from this unit. If you do, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in this unit."
+                "$text": "While this unit is below its starting strength, add 1 to the Attacks characteristic of its melee weapons. While this unit is also below half-strength, add 1 to the hit roll each time a model in this unit makes a melee attack."
               }
             ]
           },
