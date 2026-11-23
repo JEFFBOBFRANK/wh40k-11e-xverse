@@ -325,7 +325,7 @@
    },
    {
     "name": "Master Warlock",
-    "text": "This model knows the Lore of Ruin and Storm Daemon."
+    "text": "This model knows the Lore of Ruin, Storm Daemon and Flensing Ruin."
    },
    {
     "name": "Skryre Bodyguard",
@@ -508,7 +508,7 @@
    },
    {
     "name": "Plague Lord",
-    "text": "This model knows the Lore of Plague."
+    "text": "This model knows the Lore of Plague and Pestilent Birth."
    },
    {
     "name": "Liber Bubonicus",
@@ -713,7 +713,7 @@
    },
    {
     "name": "Master of Every Clan",
-    "text": "This model knows the Lore of Ruin, the Lore of Plague, the Lore of the Hidden Fang and The Dreaded Thirteenth."
+    "text": "This model knows the Lore of Ruin, the Lore of Plague, the Lore of the Hidden Fang, The Dreaded Thirteenth and Armour of Darkness."
    },
    {
     "name": "The Horned Rat's Favour",
@@ -854,7 +854,7 @@
    },
    {
     "name": "Master of Ruin",
-    "text": "This model knows the Lore of Ruin, the Lore of Plague and The Dreaded Thirteenth."
+    "text": "This model knows the Lore of Ruin, the Lore of Plague, The Dreaded Thirteenth and Vermintide."
    },
    {
     "name": "Masterclan Authority",
@@ -1488,7 +1488,7 @@
    },
    {
     "name": "Lore of the Warbringer",
-    "text": "This model knows the Lore of Ruin."
+    "text": "This model knows the Lore of Ruin and Death Frenzy."
    },
    {
     "name": "Herald of War",
@@ -1695,7 +1695,7 @@
    },
    {
     "name": "Lore of the Deceiver",
-    "text": "This model knows the Lore of the Hidden Fang."
+    "text": "This model knows the Lore of the Hidden Fang and Black Whirlwind."
    },
    {
     "name": "Verminjutsu",
@@ -1804,7 +1804,7 @@
    },
    {
     "name": "Lore of the Corruptor",
-    "text": "This model knows the Lore of Plague and Plaguemaster."
+    "text": "This model knows the Lore of Plague, Plaguemaster and Wither."
    },
    {
     "name": "Better Them-Than Me! - Rot-Offering!",
@@ -6289,7 +6289,7 @@
    },
    {
     "name": "Warlock",
-    "text": "This model knows Warp Lightning and Howling Warpgale (Lore of Ruin)."
+    "text": "This model knows Warp Lightning and Howling Warpgale (Lore of Ruin) and Scorch."
    },
    {
     "name": "Overcharge Everything!",
@@ -6517,7 +6517,7 @@
    },
    {
     "name": "Sorcerer of the Hidden Fang",
-    "text": "This model knows the Lore of the Hidden Fang."
+    "text": "This model knows the Lore of the Hidden Fang and Brittle Bone."
    },
    {
     "name": "Cloak of Night",

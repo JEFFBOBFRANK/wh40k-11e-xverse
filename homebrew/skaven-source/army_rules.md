@@ -222,26 +222,6 @@ _Known by: Thanquol and Boneripper, Ikit Claw, Lord Skreech Verminking, Grey See
 
 - **OVERCAST:** Until the start of your next turn, also subtract 2 from Charge rolls made for that unit.
 
-#### Death Frenzy (Psychic Level 2)
-
-- **WHEN:** Start of the Fight phase.
-
-- **TARGET:** One friendly SKAVEN INFANTRY or SKAVEN BEAST unit within 18" of this PSYKER.
-
-- **EFFECT:** Until the end of the phase, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6. On a 4+, do not remove it yet: it can fight after the attacking unit has finished making its attacks, and is then removed.
-
-- **OVERCAST:** Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.
-
-#### Scorch (Psychic Level 1, DAMAGE)
-
-- **WHEN:** Your Shooting phase.
-
-- **TARGET:** One enemy unit within 18" of and visible to this PSYKER.
-
-- **EFFECT:** Roll one D6 for each model in that unit (maximum 13 dice). For each 4+, that unit suffers 1 mortal wound.
-
-- **OVERCAST:** Each 3+ causes 1 mortal wound instead.
-
 #### Crack's Call (Psychic Level 2, DAMAGE)
 
 - **WHEN:** Your Shooting phase.
@@ -251,16 +231,6 @@ _Known by: Thanquol and Boneripper, Ikit Claw, Lord Skreech Verminking, Grey See
 - **EFFECT:** Draw a straight line from this PSYKER to that point. Roll one D6 for each enemy unit (excluding units with FLY) that has one or more models whose base or hull is crossed by that line. On a 3+, that unit suffers D3 mortal wounds (D3+3 if it is a VEHICLE). Each unit can be affected only once each time this spell is used.
 
 - **OVERCAST:** The point is exactly 24" away instead, and units are affected on a 2+ instead.
-
-#### Flensing Ruin (Psychic Level 2, DAMAGE)
-
-- **WHEN:** Your Shooting phase.
-
-- **TARGET:** One enemy unit within 18" of and visible to this PSYKER.
-
-- **EFFECT:** That unit suffers D3 mortal wounds. Until the end of the turn, worsen the Save characteristic of models in that unit by 1. This does not affect invulnerable saves.
-
-- **OVERCAST:** Worsen it by 2 instead.
 
 ## Lore of Plague
 
@@ -286,26 +256,6 @@ _Known by: Thanquol and Boneripper, Lord Skrolk, Lord Skreech Verminking, Grey S
 
 - **OVERCAST:** That unit suffers an additional D3 mortal wounds.
 
-#### Vermintide (Psychic Level 1)
-
-- **WHEN:** End of your Movement phase.
-
-- **TARGET:** None.
-
-- **EFFECT:** Using Summoned Vermin, add a temporary unit of 10 Clanrats to your army. Set it up wholly within 12" of this PSYKER and more than 8" horizontally from all enemy models. Remove it at the start of your next Command phase.
-
-- **OVERCAST:** The unit has 20 Clanrats instead.
-
-#### Wither (Psychic Level 1)
-
-- **WHEN:** Your Shooting phase.
-
-- **TARGET:** One enemy unit within 18" of and visible to this PSYKER.
-
-- **EFFECT:** Until the start of your next turn, subtract 1 from the Toughness characteristic of models in that unit (to a minimum of 1).
-
-- **OVERCAST:** Subtract 2 instead (to a minimum of 1).
-
 #### Plague (Psychic Level 2, DAMAGE)
 
 - **WHEN:** Your Shooting phase.
@@ -315,16 +265,6 @@ _Known by: Thanquol and Boneripper, Lord Skrolk, Lord Skreech Verminking, Grey S
 - **EFFECT:** That unit suffers D3+3 mortal wounds. Then roll one D6 for each other unit (friendly or enemy) within 3" of it. On a 4+, that unit suffers D3 mortal wounds. The plague does not spread further.
 
 - **OVERCAST:** Roll for each other unit within 6" instead.
-
-#### Pestilent Birth (Psychic Level 2)
-
-- **WHEN:** End of your Movement phase.
-
-- **TARGET:** None.
-
-- **EFFECT:** Using Summoned Vermin, add a temporary unit of 10 Plague Monks (including 1 Plague Deacon) to your army. Set it up wholly within 12" of this PSYKER and more than 8" horizontally from all enemy models. Remove it at the start of your next Command phase.
-
-- **OVERCAST:** The unit has 20 Plague Monks (still including 1 Plague Deacon) instead.
 
 ## Lore of the Hidden Fang
 
@@ -350,16 +290,6 @@ _Known by: Lord Skreech Verminking, Verminlord Deceiver, Eshin Sorcerer._
 
 - **OVERCAST:** That model suffers 2D3 mortal wounds instead.
 
-#### Armour of Darkness (Psychic Level 1)
-
-- **WHEN:** Your Movement phase.
-
-- **TARGET:** One friendly SKAVEN INFANTRY unit within 18" of this PSYKER.
-
-- **EFFECT:** Until the start of your next turn, improve the Save characteristic of models in that unit by 1. This cannot improve a Save better than 4+.
-
-- **OVERCAST:** Improve it by 2 instead (still not better than 4+).
-
 #### Veil of Shadows (Psychic Level 1)
 
 - **WHEN:** Your Movement phase.
@@ -369,26 +299,6 @@ _Known by: Lord Skreech Verminking, Verminlord Deceiver, Eshin Sorcerer._
 - **EFFECT:** Until the start of your next turn, that unit cannot be selected as the target of a ranged attack unless the attacking model is within 12" of it.
 
 - **OVERCAST:** 6" instead of 12".
-
-#### Brittle Bone (Psychic Level 1)
-
-- **WHEN:** Start of the Fight phase.
-
-- **TARGET:** One enemy unit within 18" of and visible to this PSYKER.
-
-- **EFFECT:** Until the end of the phase, subtract 1 from the Damage characteristic of melee weapons equipped by models in that unit (to a minimum of 1).
-
-- **OVERCAST:** Until the end of the phase, also subtract 1 from the Attacks characteristic of those weapons (to a minimum of 1).
-
-#### Black Whirlwind (Psychic Level 2, DAMAGE)
-
-- **WHEN:** Your Shooting phase.
-
-- **TARGET:** One point on the battlefield within 18" of and visible to this PSYKER.
-
-- **EFFECT:** Place a Black Whirlwind marker on that point; it remains until the start of your next Command phase. Each unit (friendly or enemy) within 3" of the marker suffers D3 mortal wounds. Until the marker is removed, each time a unit ends a normal, advance, fall-back or charge move within 3" of it, that unit suffers D3 mortal wounds. Each unit can suffer mortal wounds from this marker only once per turn.
-
-- **OVERCAST:** Use 6" instead of 3".
 
 ## Special Spells
 
@@ -455,3 +365,111 @@ _Access: Grey Seer mounted on a Screaming Bell._
 - **EFFECT:** That unit suffers D3 mortal wounds and must take a battle-shock roll.
 
 - **OVERCAST:** That unit suffers D3+1 mortal wounds instead, and subtract 1 from that battle-shock roll.
+
+#### Death Frenzy (Psychic Level 2)
+
+_Access: Verminlord Warbringer._
+
+- **WHEN:** Start of the Fight phase.
+
+- **TARGET:** One friendly SKAVEN INFANTRY or SKAVEN BEAST unit within 18" of this PSYKER.
+
+- **EFFECT:** Until the end of the phase, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6. On a 4+, do not remove it yet: it can fight after the attacking unit has finished making its attacks, and is then removed.
+
+- **OVERCAST:** Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.
+
+#### Flensing Ruin (Psychic Level 2, DAMAGE)
+
+_Access: Ikit Claw._
+
+- **WHEN:** Your Shooting phase.
+
+- **TARGET:** One enemy unit within 18" of and visible to this PSYKER.
+
+- **EFFECT:** That unit suffers D3 mortal wounds. Until the end of the turn, worsen the Save characteristic of models in that unit by 1. This does not affect invulnerable saves.
+
+- **OVERCAST:** Worsen it by 2 instead.
+
+#### Scorch (Psychic Level 1, DAMAGE)
+
+_Access: Arch-Warlock._
+
+- **WHEN:** Your Shooting phase.
+
+- **TARGET:** One enemy unit within 18" of and visible to this PSYKER.
+
+- **EFFECT:** Roll one D6 for each model in that unit (maximum 13 dice). For each 4+, that unit suffers 1 mortal wound.
+
+- **OVERCAST:** Each 3+ causes 1 mortal wound instead.
+
+#### Pestilent Birth (Psychic Level 2)
+
+_Access: Lord Skrolk._
+
+- **WHEN:** End of your Movement phase.
+
+- **TARGET:** None.
+
+- **EFFECT:** Using Summoned Vermin, add a temporary unit of 10 Plague Monks (including 1 Plague Deacon) to your army. Set it up wholly within 12" of this PSYKER and more than 8" horizontally from all enemy models. Remove it at the start of your next Command phase.
+
+- **OVERCAST:** The unit has 20 Plague Monks (still including 1 Plague Deacon) instead.
+
+#### Vermintide (Psychic Level 1)
+
+_Access: Grey Seer._
+
+- **WHEN:** End of your Movement phase.
+
+- **TARGET:** None.
+
+- **EFFECT:** Using Summoned Vermin, add a temporary unit of 10 Clanrats to your army. Set it up wholly within 12" of this PSYKER and more than 8" horizontally from all enemy models. Remove it at the start of your next Command phase.
+
+- **OVERCAST:** The unit has 20 Clanrats instead.
+
+#### Wither (Psychic Level 1)
+
+_Access: Verminlord Corruptor. The Cauldron of a Thousand Poxes uses it as a bound ability (see its datasheet)._
+
+- **WHEN:** Your Shooting phase.
+
+- **TARGET:** One enemy unit within 18" of and visible to this PSYKER.
+
+- **EFFECT:** Until the start of your next turn, subtract 1 from the Toughness characteristic of models in that unit (to a minimum of 1).
+
+- **OVERCAST:** Subtract 2 instead (to a minimum of 1).
+
+#### Black Whirlwind (Psychic Level 2, DAMAGE)
+
+_Access: Verminlord Deceiver._
+
+- **WHEN:** Your Shooting phase.
+
+- **TARGET:** One point on the battlefield within 18" of and visible to this PSYKER.
+
+- **EFFECT:** Place a Black Whirlwind marker on that point; it remains until the start of your next Command phase. Each unit (friendly or enemy) within 3" of the marker suffers D3 mortal wounds. Until the marker is removed, each time a unit ends a normal, advance, fall-back or charge move within 3" of it, that unit suffers D3 mortal wounds. Each unit can suffer mortal wounds from this marker only once per turn.
+
+- **OVERCAST:** Use 6" instead of 3".
+
+#### Brittle Bone (Psychic Level 1)
+
+_Access: Eshin Sorcerer._
+
+- **WHEN:** Start of the Fight phase.
+
+- **TARGET:** One enemy unit within 18" of and visible to this PSYKER.
+
+- **EFFECT:** Until the end of the phase, subtract 1 from the Damage characteristic of melee weapons equipped by models in that unit (to a minimum of 1).
+
+- **OVERCAST:** Until the end of the phase, also subtract 1 from the Attacks characteristic of those weapons (to a minimum of 1).
+
+#### Armour of Darkness (Psychic Level 1)
+
+_Access: Lord Skreech Verminking._
+
+- **WHEN:** Your Movement phase.
+
+- **TARGET:** One friendly SKAVEN INFANTRY unit within 18" of this PSYKER.
+
+- **EFFECT:** Until the start of your next turn, improve the Save characteristic of models in that unit by 1. This cannot improve a Save better than 4+.
+
+- **OVERCAST:** Improve it by 2 instead (still not better than 4+).
