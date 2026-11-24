@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 74 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 75 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
