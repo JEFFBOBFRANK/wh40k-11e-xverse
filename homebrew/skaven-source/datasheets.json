@@ -2592,7 +2592,7 @@
    {
     "name": "Great plague censer",
     "range": "Melee",
-    "A": "4",
+    "A": "3",
     "BS_WS": "3+",
     "S": "6",
     "AP": "-1",
@@ -2605,7 +2605,7 @@
    {
     "name": "Censer-bearer leader weapon",
     "range": "Melee",
-    "A": "5",
+    "A": "4",
     "BS_WS": "3+",
     "S": "7",
     "AP": "-2",
@@ -2640,7 +2640,7 @@
   "unit_composition": [
    "5 or 10 Plague Censer Bearers. One model is the Censer-bearer Leader."
   ],
-  "points": "85pts / 170pts",
+  "points": "95pts / 190pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -3528,7 +3528,7 @@
    "3 or 6 Warplock Jezzail teams. The first model in this unit is its Lead Marksman.",
    "Lead Marksman:W3. Replaces its Crew blades with Crew-leader blades and can also be equipped with 1 Warplock pistol."
   ],
-  "points": "100pts / 200pts",
+  "points": "120pts / 240pts",
   "repeat_cost": "+15pts from the 3rd copy"
  },
  {

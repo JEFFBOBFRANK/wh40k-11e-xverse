@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 69,
+    "revision": 70,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -39067,7 +39067,7 @@
                       {
                         "name": "A",
                         "typeId": "2337-daa1-6682-b110",
-                        "$text": "5"
+                        "$text": "4"
                       },
                       {
                         "name": "WS",
@@ -39216,7 +39216,7 @@
                       {
                         "name": "A",
                         "typeId": "2337-daa1-6682-b110",
-                        "$text": "4"
+                        "$text": "3"
                       },
                       {
                         "name": "WS",
@@ -39291,7 +39291,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 85,
+            "value": 95,
             "conditions": [
               {
                 "childId": "143f-e02a-e726-69aa",
@@ -39434,7 +39434,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 95
           }
         ]
       },
@@ -49611,7 +49611,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 100,
+            "value": 120,
             "conditions": [
               {
                 "childId": "9f0d-47a8-b404-5010",
@@ -49818,7 +49818,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 120
           }
         ],
         "selectionEntryGroups": [
