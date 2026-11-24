@@ -154,3 +154,28 @@ LEADER lists on the Black-Flag datasheets.
 python3 homebrew/blackflag_csm_port.py --index 'Index - Black-Flag (Homebrew).json' \
   --csm 'Chaos - Chaos Space Marines.json' --system 'Warhammer 40,000.json' --output out.json
 ```
+
+## Black-Flag Ork, Drukhari and Corsair units
+
+`homebrew/blackflag_port.py` does the same for the other 22 Black-Flag units, which the index printed as flat
+entries (one stat line, no models or wargear choices): Big Mek, Big Mek with Shokk Attack Gun, Mek, Warboss,
+Boyz, Flash Gitz, Kommandos, Breaka Boyz, Tankbustas and Trukk from `Orks.json`; Archon, Kabalite Warriors, both
+Scourges units, Reavers, Ravager, Raider, Venom and the four Corsair units from `Aeldari - Aeldari Library.json`.
+
+- Each unit has its real models, weapon choices, unit sizes and repeat costs. Faction-only content is left out:
+  Waaagh!, Power from Pain, Battle Focus, enhancements and enhancement upgrades, Warlord and Crusade.
+- Stats, weapons and points are checked against the IRONBUILT 11th-edition dataset. The repo's `Orks.json` is
+  older, so its points were updated: Big Mek 100, Big Mek with Shokk Attack Gun 110, Mek 55, Boyz 85/170,
+  Flash Gitz 110/220, Breaka Boyz 120, Tankbustas 160. Scourges with Shardcarbines are Ld 6+ and Corsair
+  Voidscarred Ld 6+. The eight CSM units already matched.
+- Abilities use the Black-Flag wording (SKURVY instead of Orks/Drukhari, Plunder instead of Pain). The Raider's
+  Speed of the Kill (Wyches) and Visions of Butchery (Wracks) are left out, as no Skurvy unit can use them.
+- The units keep their Black-Flag IDs and Faction: Skurvy, so Clan Skurvy's links still work. Leader and Support
+  links follow the LEADER / SUPPORT lists on the Black-Flag datasheets (the Archon leads Kabalite Warriors).
+- The script also gives every copied weapon its own IDs (copies of one shared weapon used to repeat them) and
+  points category links inside models at Black-Flag categories. Both also apply to the CSM units.
+
+```sh
+python3 homebrew/blackflag_port.py --index 'Index - Black-Flag (Homebrew).json' --system 'Warhammer 40,000.json' \
+  --ironbuilt wh40k-11e.json --output 'Index - Black-Flag (Homebrew).json'
+```
