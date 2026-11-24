@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 6
+REVISION = 7
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -38,6 +38,9 @@ INVASION_VESSELS = {"Spirit", "Phantom", "Lich", "Kraken"}
 # Commanders with Chosen of the Hierarchs (+1CP each battle round while your Warlord), as EC's Sublime Strategist.
 WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel 'Vadam", "Rtas 'Vadum", "Tartarus",
               "Sangheili Shipmaster", "Sangheili Fieldmaster", "Jiralhanae Chieftain", "Yig-Yar Corsair-Talon"}
+# Units laid out like the Emperor's Children Tormentors: Sergeant on top (as the Obsessionist), then the model counters,
+# then Auxiliary models as counters too, in that order (sortIndex).
+TORMENTOR_STYLE = {"Jiralhanae Assault Pack"}
 SHADOW_CELL_KEYWORDS = {"Special Operations", "Ranger", "Assassin", "Blademaster"}
 
 
@@ -545,6 +548,7 @@ class Builder:
         span = f"{low}-{high}" if low != high else str(high)
         gid = nid(unit_id + ":family:" + name)
         group = dict(name=f"{span} {plural}", id=gid, hidden=False, defaultSelectionEntryId=base["id"],
+                     **({"sortIndex": 1} if node["name"] in TORMENTOR_STYLE else {}),
                      selectionEntries=[base] + variants,
                      constraints=[constraint(nid(gid + ":min"), "min", low), constraint(nid(gid + ":max"), "max", high)])
         node["selectionEntryGroups"].append(group)
@@ -592,6 +596,22 @@ class Builder:
         if not spec["sergeants"]:
             return
         gid = nid(node["id"] + ":sergeant")
+        if node["name"] in TORMENTOR_STYLE:  # on top of the unit, like the Tormentors' Obsessionist
+            count, _ = self.category("Count: Sergeant", hidden=True)
+            for name in spec["sergeants"]:
+                target = self.shared_model(name, auxiliary=False)
+                if not any(l["targetId"] == count for l in target.setdefault("categoryLinks", [])):
+                    target["categoryLinks"].append(dict(name="count", id=nid(target["id"] + ":cat:sergeant"),
+                                                        targetId=count, primary=False, hidden=False))
+                lid = nid(gid + ":" + name)
+                node.setdefault("entryLinks", []).append(dict(
+                    name=name, id=lid, targetId=target["id"], type="selectionEntry", hidden=False, sortIndex=0,
+                    constraints=[constraint(nid(lid + ":max"), "max", 1)], **{"import": True}))
+            if len(spec["sergeants"]) > 1:
+                node.setdefault("modifiers", []).append(dict(
+                    type="add", field="error", value="Take at most one Sergeant: " + " or ".join(spec["sergeants"]) + ".",
+                    conditions=[selected(count, scope=node["id"], value=2)]))
+            return
         links = []
         for name in spec["sergeants"]:
             target = self.shared_model(name, auxiliary=False)
@@ -599,6 +619,88 @@ class Builder:
                               hidden=False, **{"import": True}))
         node["selectionEntryGroups"].append(dict(name="Sergeant", id=gid, hidden=False, entryLinks=links,
                                                  constraints=[constraint(nid(gid + ":max"), "max", 1)]))
+
+    def aux_types(self, unit, pool, family, gid):
+        """Tormentor layout: every Auxiliary loadout is its own model type with a counter (as "Tormentor with
+        Meltagun"), and Specialist abilities and optional wargear are unit options with a model picker (as the
+        Icon of Excess). An ability that replaces the model's weapons (Proximity Detonation) is a model type."""
+        types, items, seen_items = [], [], set()
+        for name in self.aux_members(pool):
+            ds, spec = self.data[name], MODELS[name]
+            weight = next((w for lst, w in pool["weights"].items() if lst in ds["keywords"]), 1)
+            base_max = (pool["fixed"] or 0) // weight
+            step = pool["slots"] // weight if pool["per"] and family else 0
+            if not base_max and not step:
+                continue
+
+            def cap(eid, node):
+                c = constraint(nid(eid + ":max"), "max", base_max)
+                node.setdefault("constraints", []).append(c)
+                if step:
+                    node.setdefault("modifiers", []).append(dict(field=c["id"], type="increment", value=step, repeats=[
+                        dict(childId=family["cat"], field="selections", scope=unit["id"], shared=True,
+                             includeChildSelections=True, value=pool["per"], repeats=1, roundUp=False)]))
+
+            weapon_choice = next((c for c in spec["choices"]
+                                  if c["label"] in ("Weapons", "Ranged weapon", "Loadout package")), None)
+            fixed = self.default_items(ds, spec)
+            loadouts = [(o, weapon_choice["costs"].get(o, 0)) for o in weapon_choice["options"]] \
+                if weapon_choice else [(None, 0)]
+            default_parts = set(split_option(loadouts[0][0])) if weapon_choice else set()
+            variants = []
+            for option, cost in loadouts:
+                parts = split_option(option) if option else []
+                label = " and ".join(p for p in parts if p not in default_parts) if option != loadouts[0][0] else ""
+                variants.append((label, fixed + parts, cost, False, parts))
+            for a in ds.get("specialist_abilities", []):
+                if a.get("replaces_weapons"):
+                    variants.append((a["name"], split_option(self.specialist_option(a)), a["points"], True, []))
+            bearers = {}
+            for label, gear_items, cost, replaces, parts in variants:
+                tname = name + (f" with {label}" if label else "")
+                tid = nid(gid + ":type:" + tname)
+                gear = [self.gear_entry(tid, item, ds, fixed=True) for item in gear_items]
+                e = entry(tid, tname, "model", selectionEntries=gear, profiles=[], costs=[
+                    dict(name="pts", typeId=POINTS, value=ds["points"] + cost),
+                    dict(name="Auxiliary Slots", typeId=self.aux_slot, value=weight)])
+                e["profiles"].append(self.unit_profile(nid(tid + ":profile"), tname, ds["profile"],
+                                                       inv=self.model_stats(ds, gear)))
+                self.add_model_shields(e, tname, ds, gear)
+                self.add_abilities(e, ds)
+                e["profiles"].append(self.ability_profile(nid(tid + ":keywords"), "Model Keywords",
+                                                          ", ".join(ds["keywords"]) + ". These keywords belong to "
+                                                          "this model only, not to its unit (Caste Hierarchy)."))
+                cap(tid, e)
+                self.link_weapon_rules(e)
+                for key in ("selectionEntries", "infoLinks"):
+                    if key in e and not e[key]:
+                        del e[key]
+                types.append(e)
+                if not replaces:
+                    bearers[tid] = set(parts)
+            options = [(o, c["costs"].get(o, 0)) for c in spec["choices"] if c is not weapon_choice
+                       for o in c["options"]]
+            options += [(self.specialist_option(a), a["points"]) for a in ds.get("specialist_abilities", [])
+                        if not a.get("replaces_weapons")]
+            excluded = {o: set(others) for o, others in spec.get("exclude", [])}
+            for option, cost in options:
+                head = split_option(option)[0]
+                iname = head if head not in seen_items else f"{head} ({name})"
+                seen_items.add(head)
+                wid = nid(gid + ":item:" + name + ":" + option)
+                item = self.gear_entry(gid + ":item:" + name, option, ds, cost=cost)
+                item["id"], item["name"], item["constraints"] = wid, iname, []
+                cap(wid, item)
+                allowed = [t for t, parts in bearers.items() if not parts & excluded.get(option, set())]
+                item["associations"] = [dict(
+                    name=iname, id=nid(wid + ":bearer"), childId="model", includeChildSelections=True, min=1, max=1,
+                    scope=unit["id"], defaultSelectionEntryId="none", conditionGroups=[dict(type="or", conditions=[
+                        dict(childId=t, field="selections", scope="self", type="instanceOf", value=1, shared=True,
+                             includeChildSelections=True) for t in allowed])])]
+                item["sortIndex"] = 3
+                self.link_weapon_rules(item)
+                items.append(item)
+        return types, items
 
     def aux_members(self, pool):
         names = list(pool["entries"])
@@ -622,9 +724,25 @@ class Builder:
                 weight = next((w for lst, w in pool["weights"].items() if lst in ds["keywords"]), 1)
                 if weight != 1:
                     link["modifiers"] = [dict(field=self.aux_slot, type="set", value=weight)]
+                if node["name"] in TORMENTOR_STYLE:  # a counter, like a Tormentor special-weapon model
+                    cap_id = nid(link["id"] + ":max")
+                    link["constraints"] = [constraint(cap_id, "max", (pool["fixed"] or 0) // weight)]
+                    if pool["per"] and family and pool["slots"] // weight:
+                        link.setdefault("modifiers", []).append(dict(
+                            field=cap_id, type="increment", value=pool["slots"] // weight, repeats=[dict(
+                                childId=family["cat"], field="selections", scope=node["id"], shared=True,
+                                includeChildSelections=True, value=pool["per"], repeats=1, roundUp=False)]))
                 links.append(link)
             cap = constraint(nid(gid + ":slots"), "max", pool["fixed"] or 0, field=self.aux_slot, child=True)
-            group = dict(name=label, id=gid, hidden=False, entryLinks=links, constraints=[cap])
+            if node["name"] in TORMENTOR_STYLE:
+                links = []
+                types, items = self.aux_types(node, pool, family, gid)
+                for item in items:
+                    node["selectionEntries"].append(item)
+            else:
+                types = []
+            group = dict(name=label, id=gid, hidden=False, entryLinks=links, constraints=[cap], selectionEntries=types,
+                         **({"sortIndex": 2} if node["name"] in TORMENTOR_STYLE else {}))
             if pool["per"] and family:
                 group["modifiers"] = [dict(field=cap["id"], type="increment", value=pool["slots"], repeats=[
                     dict(childId=family["cat"], field="selections", scope=node["id"], shared=True,

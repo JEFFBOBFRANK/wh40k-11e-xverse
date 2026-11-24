@@ -82,6 +82,23 @@ repeated another rule (12,812 -> 11,916 words in datasheets and detachments, plu
 - Every Upgrade can now be taken by up to three units, as 11e allows. Thirteen Upgrades that did not say "up to three"
   were limited to one before.
 
+## Tormentor layout (revision 7, Jiralhanae Assault Pack)
+
+The Jiralhanae Assault Pack is laid out like the Emperor's Children Tormentors (`TORMENTOR_STYLE` in
+`covenant_build.py`):
+
+1. The Sergeant sits at the top, as the Obsessionist: tick Jiralhanae Pack Alpha or Sangheili Ultra and its weapon
+   choices open underneath. Taking both shows an error.
+2. The Jiralhanae Warrior counters, with the Bolt Spiker, Brute Shot and Skewer model types, as before.
+3. Auxiliary models are counters too, one model type per loadout, as "Tormentor with Meltagun": Unggoy Auxiliary
+   (Plasma Pistol), with Plasma Rifle, Needler, Storm Rifle, Fuel Rod (+10) or Proximity Detonation (+5, replaces
+   its weapons). Each goes up to 1 per 4 Warriors, and the Auxiliary Slots total still applies.
+4. Specialist abilities that do not replace weapons (Ammunition Runner, Forward Infiltration +10) are at the bottom,
+   as the Icon of Excess: set how many, then pick which Auxiliary model carries each one.
+
+New Recruit shows a model with choices as a "+" button (each one configured separately) and a fixed-loadout model as
+a counter, so the counters need one model type per loadout.
+
 ## House weapon standard (revision 6)
 
 Weapons follow `homebrew/house_dice.py`, the 11e codex style also used for Skaven and Black-Flag: D6 damage becomes
