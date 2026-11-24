@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 70 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 71 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -31,7 +31,7 @@ detachments). The layout follows the Emperor's Children catalogue.
   Grinderfists' Deep Strike) is shown only when the item is taken.
 - Heavy shields give their models a 3+ save and 5+ invulnerable save with their
   own stat line, e.g. "Stormvermin (Heavy shield)".
-- Warpclad Warpack: plain Warpclads (Warp-disintegrator and Warp-glaive) plus model
+- Stormclad Stormvermin (formerly Warpclad Warpack): plain Stormclads (Warp-disintegrator and Warp-glaive) plus model
   types with Warp-blade and Voltaic shield (4+ invulnerable save, own stat line),
   Warp-blaster (up to 3), Shock gauntlet (up to 2) and Warp-lance (1). The Voltaic
   Pennant is optional wargear and improves the unit's Leadership on its stat lines.
@@ -47,6 +47,8 @@ detachments). The layout follows the Emperor's Children catalogue.
 - Spells unique to a datasheet are abilities on that datasheet named "Spell (Psychic
   Level N)", written as the Emperor's Children homebrew writes its psychic abilities.
   Peal of Doom is on the Grey Seer's Screaming Bell.
+- Damaging spells deal spell hits (no hit roll; wound rolls and saves as normal), not
+  mortal wounds; see Spell Hits in Verminous Psychic Power.
 - Detachment rules are one rule per named ability, as in the Emperor's Children
   catalogue; menus and procedures (ledgers, catalogues, Warlord Commands, Clawpack
   Benefits, Secret Schemes, The Great Workshops) stay whole. Army rules are not
@@ -96,7 +98,7 @@ detachments). The layout follows the Emperor's Children catalogue.
   and Doom-Flayers 2D6+5", with the Erratic Movement ability (roll once at the
   start of your Movement phase; modifiers apply after the roll).
 - FRAME is on every vehicle except the Eshin Nightstrider; GRENADES is on
-  Clanrats, Stormvermin, Warp-Zap Stormvermin, Warpclad Warpack, Skryre Acolytes,
+  Clanrats, Stormvermin, Warp-Zap Stormvermin, Stormclad Stormvermin, Skryre Acolytes,
   Night Runners, Gutter Runners and Eshin Shadowriggers.
 - Movement: foot models are M7" (weapon teams stay M6"); Rat Ogors and the Mutant
   Rat Ogor are M9". Skavenslaves are 20 or 40 models at 2 pts each.

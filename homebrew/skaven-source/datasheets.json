@@ -121,7 +121,7 @@
    },
    {
     "name": "The Dreaded Thirteenth (Psychic Level 3)",
-    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, roll 13D6: for each 4+, that enemy unit suffers 1 mortal wound. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: each 3+ causes 1 mortal wound instead. This spell can be used only once per battle round by your army."
+    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes 13 spell hits: S6, AP-1, D2. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: the spell hits are S8, AP-2 instead. This spell can be used only once per battle round by your army."
    },
    {
     "name": "Warpstone Snuff",
@@ -333,11 +333,11 @@
    },
    {
     "name": "Storm Daemon (Psychic Level 0)",
-    "text": "In your Shooting phase, and at the start of the Fight phase, if this unit is not battle-shocked, you can make a psychic roll; this spell spends no Psychic Level. On a 1, this unit becomes battle-shocked. Regardless of the result: in your Shooting phase, select one enemy unit within 18\" of and visible to this model, and it suffers D3+3 mortal wounds (2D3+3 if Overcast); at the start of the Fight phase, until the end of the phase, this model's Storm Daemon weapon has +2 Strength and [DEVASTATING WOUNDS] (and +1 Attacks if Overcast). If the psychic roll includes an unmodified 1, this spell cannot be used again this battle; the Storm Daemon weapon can still be used."
+    "text": "In your Shooting phase, and at the start of the Fight phase, if this unit is not battle-shocked, you can make a psychic roll; this spell spends no Psychic Level. On a 1, this unit becomes battle-shocked. Regardless of the result: in your Shooting phase, select one enemy unit within 18\" of and visible to this model, and it takes 2D6 spell hits: S9, AP-3, D2 (3D6 if Overcast); at the start of the Fight phase, until the end of the phase, this model's Storm Daemon weapon has +2 Strength and [DEVASTATING WOUNDS] (and +1 Attacks if Overcast). If the psychic roll includes an unmodified 1, this spell cannot be used again this battle; the Storm Daemon weapon can still be used."
    },
    {
     "name": "Flensing Ruin (Psychic Level 2)",
-    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit suffers D3 mortal wounds and, until the end of the turn, worsen the Save characteristic of its models by 1 (this does not affect invulnerable saves). Overcast: worsen it by 2 instead."
+    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes D6+3 spell hits: S6, AP-2, D1. Then, until the end of the turn, worsen the Save characteristic of its models by 1 (this does not affect invulnerable saves). Overcast: worsen it by 2 instead."
    },
    {
     "name": "Skryre Bodyguard",
@@ -733,7 +733,7 @@
    },
    {
     "name": "The Dreaded Thirteenth (Psychic Level 3)",
-    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, roll 13D6: for each 4+, that enemy unit suffers 1 mortal wound. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: each 3+ causes 1 mortal wound instead. This spell can be used only once per battle round by your army."
+    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes 13 spell hits: S6, AP-1, D2. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: the spell hits are S8, AP-2 instead. This spell can be used only once per battle round by your army."
    },
    {
     "name": "Armour of Darkness (Psychic Level 1)",
@@ -793,7 +793,7 @@
     },
     "text": [
      "Mounted Profile:Replace this model's INFANTRY keyword with VEHICLE. This model loses the Leader ability, cannot join a Bodyguard unit, and gains Crushing Bell, Rat Ogor claws and Attendant weapons.",
-     "Peal of Doom (Psychic Level 1):In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit suffers D3 mortal wounds and must take a battle-shock roll. Overcast: it suffers D3+1 mortal wounds instead, and subtract 1 from that battle-shock roll.",
+     "Peal of Doom (Psychic Level 1):In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes D6+3 spell hits: S6, AP-1, D1, and must take a battle-shock roll. Overcast: it takes 2D6+3 spell hits instead, and subtract 1 from that battle-shock roll.",
      "This model loses the Scurry Away! ability.",
      "Screaming Bell Peals:In your Command phase, select one effect until your next Command phase: March-March! adds 2\" to this model's Move; Ring-Ring! adds 2 to its charge rolls.",
      "Verminous Command (Aura):Friendly SKAVEN units within 13\" improve their Leadership by 1 and add 1 to their Objective Control.",
@@ -883,7 +883,7 @@
    },
    {
     "name": "The Dreaded Thirteenth (Psychic Level 3)",
-    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, roll 13D6: for each 4+, that enemy unit suffers 1 mortal wound. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: each 3+ causes 1 mortal wound instead. This spell can be used only once per battle round by your army."
+    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes 13 spell hits: S6, AP-1, D2. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: the spell hits are S8, AP-2 instead. This spell can be used only once per battle round by your army."
    },
    {
     "name": "Vermintide (Psychic Level 1)",
@@ -1632,7 +1632,7 @@
    },
    {
     "name": "Master of Lightning (Psychic Level 2)",
-    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 24\" of and visible to this model, and up to two other enemy units within 6\" of that unit and within 24\" of and visible to this model, and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, each selected unit suffers D3+1 mortal wounds. Overcast: each suffers 2D3+1 mortal wounds instead."
+    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 24\" of and visible to this model, and up to two other enemy units within 6\" of that unit and within 24\" of and visible to this model, and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, each selected unit takes D6 spell hits: S8, AP-2, D2. Overcast: each takes 2D6 spell hits instead."
    },
    {
     "name": "Foreseen Doom",
@@ -1740,7 +1740,7 @@
    },
    {
     "name": "Black Whirlwind (Psychic Level 2)",
-    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one point on the battlefield within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, place a Black Whirlwind marker on that point until the start of your next Command phase. Each unit (friendly or enemy) within 3\" of the marker suffers D3 mortal wounds. Until it is removed, each time a unit ends a normal, advance, fall-back or charge move within 3\" of the marker, that unit suffers D3 mortal wounds. Each unit can suffer mortal wounds from this marker only once per turn. Overcast: use 6\" instead of 3\"."
+    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one point on the battlefield within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, place a Black Whirlwind marker on that point until the start of your next Command phase. Each unit (friendly or enemy) within 3\" of the marker takes D6 spell hits: S6, AP-1, D2. Until it is removed, each time a unit ends a normal, advance, fall-back or charge move within 3\" of the marker, that unit takes D6 spell hits with the same profile. Each unit can take spell hits from this marker only once per turn. Overcast: use 6\" instead of 3\"."
    },
    {
     "name": "Verminjutsu",
@@ -1853,7 +1853,7 @@
    },
    {
     "name": "Plaguemaster (Psychic Level 2)",
-    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one point on the battlefield within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, each unit (friendly or enemy) within 3\" of that point suffers D3+3 mortal wounds. Overcast: use 6\" instead of 3\"."
+    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one point on the battlefield within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, each unit (friendly or enemy) within 3\" of that point takes 2D6 spell hits: S6, AP-1, D2. Overcast: use 6\" instead of 3\"."
    },
    {
     "name": "Wither (Psychic Level 1)",
@@ -2332,14 +2332,14 @@
   "repeat_cost": "+15pts from the 3rd copy"
  },
  {
-  "name": "Warpclad Warpack",
+  "name": "Stormclad Stormvermin",
   "role": "INFANTRY",
   "keywords": [
    "INFANTRY",
    "VERMINUS",
    "SKRYRE",
    "STORMVERMIN",
-   "WARPCLAD",
+   "STORMCLAD",
    "GRENADES"
   ],
   "faction_keywords": [
@@ -2463,9 +2463,9 @@
   ],
   "other_rules": [],
   "unit_composition": [
-   "1 Fangleader and 9 Warpclads. Every Warpclad is equipped with one of: 1 Warp-disintegrator and 1 Warp-glaive; or 1 Warp-blade and 1 Voltaic shield. Up to 3 Warpclads can replace their Warp-disintegrator with 1 Warp-blaster. Up to 2 Warpclads can replace their Warp-glaive with 1 Shock gauntlet. 1 Warpclad can replace its Warp-disintegrator with 1 Warp-lance.",
+   "1 Fangleader and 9 Stormclads. Every Stormclad is equipped with one of: 1 Warp-disintegrator and 1 Warp-glaive; or 1 Warp-blade and 1 Voltaic shield. Up to 3 Stormclads can replace their Warp-disintegrator with 1 Warp-blaster. Up to 2 Stormclads can replace their Warp-glaive with 1 Shock gauntlet. 1 Stormclad can replace its Warp-disintegrator with 1 Warp-lance.",
    "Fangleader:W3. Equipped with 1 Warp-disintegrator, 1 Warp-blaster or 1 Warp-lance, and 1 Master-forged warp-glaive or 1 Shock gauntlet.",
-   "A model equipped with a Voltaic shield has a 4+ invulnerable save. One Warpclad can carry a Voltaic Pennant; this does not replace its weapons."
+   "A model equipped with a Voltaic shield has a 4+ invulnerable save. One Stormclad can carry a Voltaic Pennant; this does not replace its weapons."
   ],
   "points": "195pts",
   "repeat_cost": "+20pts from the 3rd copy"
@@ -5303,7 +5303,7 @@
    },
    {
     "name": "Bound Plaguemaster (DAMAGE)",
-    "text": "Your Shooting phase. Select one point on the battlefield within 18\" of and visible to this model. Each unit (friendly or enemy) within 3\" of that point suffers D3+3 mortal wounds."
+    "text": "Your Shooting phase. Select one point on the battlefield within 18\" of and visible to this model. Each unit (friendly or enemy) within 3\" of that point takes 2D6 spell hits: S6, AP-1, D2."
    },
    {
     "name": "Bound Wither",
@@ -6304,7 +6304,7 @@
   ],
   "other_rules": [],
   "unit_composition": [
-   "1 Clan Chieftain with War-Banner.This model is equipped with 1 Warplock pistol and 1 Chieftain's blade. It can be attached as a Support to Clanrats, Stormvermin or Warpclad Warpack."
+   "1 Clan Chieftain with War-Banner.This model is equipped with 1 Warplock pistol and 1 Chieftain's blade. It can be attached as a Support to Clanrats, Stormvermin or Stormclad Stormvermin."
   ],
   "points": "70pts",
   "repeat_cost": "+10pts from the 3rd copy"
@@ -6378,7 +6378,7 @@
    },
    {
     "name": "Scorch (Psychic Level 1)",
-    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, roll one D6 for each model in that enemy unit (maximum 13 dice): for each 4+, it suffers 1 mortal wound. Overcast: each 3+ causes 1 mortal wound instead."
+    "text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes 1 spell hit for each model in it (maximum 13): S6, AP-1, D1. Overcast: it takes 2 spell hits for each model in it instead (maximum 26)."
    },
    {
     "name": "Overcharge Everything!",
@@ -6391,7 +6391,7 @@
   ],
   "other_rules": [],
   "unit_composition": [
-   "1 Arch-Warlock.This model is equipped with 1 Warp-blast gauntlet and 1 Warp-claw. It can lead Warpclad Warpack, Warp-Zap Stormvermin or Skryre Acolytes."
+   "1 Arch-Warlock.This model is equipped with 1 Warp-blast gauntlet and 1 Warp-claw. It can lead Stormclad Stormvermin, Warp-Zap Stormvermin or Skryre Acolytes."
   ],
   "points": "90pts",
   "repeat_cost": "+10pts from the 3rd copy"

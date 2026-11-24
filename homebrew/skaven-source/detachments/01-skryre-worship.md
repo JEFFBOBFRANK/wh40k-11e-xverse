@@ -44,7 +44,7 @@ Once per battle, immediately after this unit has shot, it can shoot again. After
 
 ### VOLTAIC SHIELD AMPLIFIERS
 
-_WARPCLAD unit_
+_STORMCLAD unit_
 
 Improve this unit's invulnerable save by 1, to a maximum of 4+. At the end of any phase in which this unit made one or more invulnerable saving throws, roll one D6. On a 1, this unit suffers D3 mortal wounds.
 

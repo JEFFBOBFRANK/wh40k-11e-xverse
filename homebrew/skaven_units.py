@@ -137,16 +137,16 @@ UNITS = {
                       ["Long-barrel Warp-Zapper", "Stormvermin sidearm blades"], (1, 2))])],
         sizes=[{"Fangleader": 1, "Warp-Zap Stormvermin": 4}, {"Fangleader": 1, "Warp-Zap Stormvermin": 9}],
         bearer_gear=[("Grounding Rod", None), ("Spare Capacitor", None)]),
-    "Warpclad Warpack": dict(
+    "Stormclad Stormvermin": dict(
         models=[M("Fangleader", (1, 1), wounds="3", choices=[
                     C("Ranged weapon", ["Warp-disintegrator", "Warp-blaster", "Warp-lance"]),
                     C("Melee weapon", ["Master-forged warp-glaive", "Shock gauntlet"])]),
-                M("Warpclad", (9, 9), ["Warp-disintegrator", "Warp-glaive"], variants=[
-                    V("Warpclad with Warp-blade and Voltaic shield", ["Warp-blade", "Voltaic shield"]),
-                    V("Warpclad with Warp-blaster", ["Warp-blaster", "Warp-glaive"], (3, 3)),
-                    V("Warpclad with Shock gauntlet", ["Warp-disintegrator", "Shock gauntlet"], (2, 2)),
-                    V("Warpclad with Warp-lance", ["Warp-lance", "Warp-glaive"], (1, 1))])],
-        sizes=[{"Fangleader": 1, "Warpclad": 9}],
+                M("Stormclad", (9, 9), ["Warp-disintegrator", "Warp-glaive"], variants=[
+                    V("Stormclad with Warp-blade and Voltaic shield", ["Warp-blade", "Voltaic shield"]),
+                    V("Stormclad with Warp-blaster", ["Warp-blaster", "Warp-glaive"], (3, 3)),
+                    V("Stormclad with Shock gauntlet", ["Warp-disintegrator", "Shock gauntlet"], (2, 2)),
+                    V("Stormclad with Warp-lance", ["Warp-lance", "Warp-glaive"], (1, 1))])],
+        sizes=[{"Fangleader": 1, "Stormclad": 9}],
         bearer_gear=[("Voltaic Pennant", None)]),
     "Plague Monks": dict(
         models=[M("Plague Deacon", (1, 1), ["Deacon blade"]),

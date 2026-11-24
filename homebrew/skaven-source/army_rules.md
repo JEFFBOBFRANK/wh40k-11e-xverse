@@ -196,6 +196,8 @@ You cannot gain Vermin from a Summoned Vermin unit being destroyed, being remove
 
 **Re-rolls:** A rule that re-rolls a psychic roll re-rolls only the dice it states. No die can be re-rolled more than once. Check for unmodified 1s after all re-rolls.
 
+**Spell Hits:** When a spell says a unit takes a number of spell hits with a profile (Strength, AP, Damage and any abilities), no hit roll is made: each one is a hit. Make a wound roll for each, then allocate them and make saving throws (including invulnerable saves) and Feel No Pain rolls as for ranged attacks. They are [PSYCHIC] attacks made by the model using the spell, but they are not made with a weapon, and modifiers to hit rolls (including the Benefit of Cover) do not affect them.
+
 **Psychic Weapons:** Weapons with [PSYCHIC] (for example Warp bolts, Pox blast and Shadow darts) are not spells. They use the normal attack rules, cost no Psychic Level, make no psychic roll and cannot be Overcast.
 
 ## Lore of Ruin
@@ -208,9 +210,9 @@ _Known by: Thanquol and Boneripper, Ikit Claw, Lord Skreech Verminking, Grey See
 
 - **TARGET:** One enemy unit within 24" of and visible to this PSYKER.
 
-- **EFFECT:** That unit suffers D3+3 mortal wounds.
+- **EFFECT:** That unit takes 2D6 spell hits: S8, AP-2, D2.
 
-- **OVERCAST:** That unit suffers 2D3+3 mortal wounds instead.
+- **OVERCAST:** That unit takes 3D6 spell hits instead.
 
 #### Howling Warpgale (Psychic Level 1)
 
@@ -228,7 +230,7 @@ _Known by: Thanquol and Boneripper, Ikit Claw, Lord Skreech Verminking, Grey See
 
 - **TARGET:** One point on the battlefield exactly 18" from and visible to this PSYKER.
 
-- **EFFECT:** Draw a straight line from this PSYKER to that point. Roll one D6 for each enemy unit (excluding units with FLY) that has one or more models whose base or hull is crossed by that line. On a 3+, that unit suffers D3 mortal wounds (D3+3 if it is a VEHICLE). Each unit can be affected only once each time this spell is used.
+- **EFFECT:** Draw a straight line from this PSYKER to that point. Roll one D6 for each enemy unit (excluding units with FLY) that has one or more models whose base or hull is crossed by that line. On a 3+, that unit takes D6 spell hits: S8, AP-2, D2 (S12, AP-3, D3 if it is a VEHICLE). Each unit can be affected only once each time this spell is used.
 
 - **OVERCAST:** The point is exactly 24" away instead, and units are affected on a 2+ instead.
 
@@ -252,9 +254,9 @@ _Known by: Thanquol and Boneripper, Lord Skrolk, Lord Skreech Verminking, Grey S
 
 - **TARGET:** One enemy unit within 12" of and visible to this PSYKER.
 
-- **EFFECT:** That unit suffers D3 mortal wounds. Until the start of your next turn, subtract 1 from hit rolls made for models in that unit.
+- **EFFECT:** That unit takes D6+3 spell hits: S5, AP-1, D1, [ANTI-INFANTRY 3+]. Until the start of your next turn, subtract 1 from hit rolls made for models in that unit.
 
-- **OVERCAST:** That unit suffers an additional D3 mortal wounds.
+- **OVERCAST:** That unit takes 2D6+3 spell hits instead.
 
 #### Plague (Psychic Level 2, DAMAGE)
 
@@ -262,7 +264,7 @@ _Known by: Thanquol and Boneripper, Lord Skrolk, Lord Skreech Verminking, Grey S
 
 - **TARGET:** One enemy unit within 18" of and visible to this PSYKER.
 
-- **EFFECT:** That unit suffers D3+3 mortal wounds. Then roll one D6 for each other unit (friendly or enemy) within 3" of it. On a 4+, that unit suffers D3 mortal wounds. The plague does not spread further.
+- **EFFECT:** That unit takes 3D6 spell hits: S6, AP-1, D1, [ANTI-INFANTRY 3+]. Then roll one D6 for each other unit (friendly or enemy) within 3" of it. On a 4+, that unit takes D6 spell hits with the same profile. The plague does not spread further.
 
 - **OVERCAST:** Roll for each other unit within 6" instead.
 
@@ -284,11 +286,11 @@ _Known by: Lord Skreech Verminking, Verminlord Deceiver, Eshin Sorcerer._
 
 - **WHEN:** Your Shooting phase.
 
-- **TARGET:** One enemy model within 18" of and visible to this PSYKER. It can be a CHARACTER model in an Attached unit.
+- **TARGET:** One enemy unit within 18" of and visible to this PSYKER.
 
-- **EFFECT:** That model suffers D3 mortal wounds. Allocate them only to that model; excess damage is lost.
+- **EFFECT:** That unit takes 4 spell hits: S7, AP-3, D2, [PRECISION].
 
-- **OVERCAST:** That model suffers 2D3 mortal wounds instead.
+- **OVERCAST:** That unit takes 6 spell hits instead.
 
 #### Veil of Shadows (Psychic Level 1)
 

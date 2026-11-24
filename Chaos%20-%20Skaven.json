@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 70,
+    "revision": 71,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -246,28 +246,28 @@
         "hidden": true
       },
       {
-        "name": "Warpclad",
+        "name": "Stormclad",
         "id": "220b-eac5-3bb0-7487",
         "hidden": false
       },
       {
-        "name": "Count: Warpclad Warpack - Warpclad",
-        "id": "e77b-f4d3-c369-5b36",
+        "name": "Count: Stormclad Stormvermin - Stormclad",
+        "id": "c9da-4404-42a6-8179",
         "hidden": true
       },
       {
-        "name": "Count: Warpclad Warpack - Warpclad with Warp-blaster",
-        "id": "bc73-15cb-9299-8f4c",
+        "name": "Count: Stormclad Stormvermin - Stormclad with Warp-blaster",
+        "id": "d65b-3d14-1d63-0aff",
         "hidden": true
       },
       {
-        "name": "Count: Warpclad Warpack - Warpclad with Shock gauntlet",
-        "id": "01cc-8154-d796-f4a6",
+        "name": "Count: Stormclad Stormvermin - Stormclad with Shock gauntlet",
+        "id": "950a-d2d1-1c6a-11cb",
         "hidden": true
       },
       {
-        "name": "Count: Warpclad Warpack - Warpclad with Warp-lance",
-        "id": "7f8c-dd1d-5be1-d7dc",
+        "name": "Count: Stormclad Stormvermin - Stormclad with Warp-lance",
+        "id": "6b0a-8a67-7e93-2124",
         "hidden": true
       },
       {
@@ -733,7 +733,7 @@
                     "name": "Workshop Projects",
                     "id": "7583-801a-1d19-be26",
                     "hidden": false,
-                    "description": "​<br><br>**Scrap-Welded Armour**<br>*BATTLELINE unit*\n\nEach time a ranged attack is allocated to a model in this unit, improve that model's Save characteristic by 1 against that attack. Subtract 1\" from this unit's Move characteristic.\n\n<br>\n\n**More-More Barrels!**<br>*WEAPON TEAM unit*\n\nEach time this unit is selected to shoot, you can re-roll any or all dice used to determine the Attacks characteristic of ranged weapons equipped by models in this unit.\n\n<br>\n\n**Warpstone Supercharger**<br>*WEAPON TEAM unit*\n\nAdd 2 to the Strength characteristic of ranged weapons equipped by models in this unit. Those weapons have [HAZARDOUS].\n\n<br>\n\n**Meltdown Protocol**<br>*WEAPON TEAM unit*\n\nOnce per battle, immediately after this unit has shot, it can shoot again. After it has shot for the second time, roll one D6: on a 1-2, this unit is destroyed; on a 3-5, this unit suffers D6 mortal wounds; on a 6, nothing happens.\n\n<br>\n\n**Voltaic Shield Amplifiers**<br>*WARPCLAD unit*\n\nImprove this unit's invulnerable save by 1, to a maximum of 4+. At the end of any phase in which this unit made one or more invulnerable saving throws, roll one D6. On a 1, this unit suffers D3 mortal wounds.\n\n<br>\n\n**Reinforced-Ramshackle Hull**<br>*SKAVEN VEHICLE unit*\n\nAdd 1 to this unit's Toughness characteristic and subtract 1\" from its Move characteristic.\n\n<br>\n\n**Warp-Lightning Capacitors**<br>*SKAVEN VEHICLE unit*\n\nAfter this unit ends a normal, advance or charge move, select one enemy unit within 6\" and roll one D6. On a 1, this unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.\n\n<br>\n\n**Doomrocket**<br>*Non-EPIC HERO WARLOCK ENGINEER model*\n\nThis model is equipped with a Doomrocket: Range 48\"; Attacks 2D6+7; BS 4+; S 10; AP -2; D 2; [BLAST 1, HAZARDOUS, INDIRECT FIRE, ONE SHOT, WARPSTONE]."
+                    "description": "​<br><br>**Scrap-Welded Armour**<br>*BATTLELINE unit*\n\nEach time a ranged attack is allocated to a model in this unit, improve that model's Save characteristic by 1 against that attack. Subtract 1\" from this unit's Move characteristic.\n\n<br>\n\n**More-More Barrels!**<br>*WEAPON TEAM unit*\n\nEach time this unit is selected to shoot, you can re-roll any or all dice used to determine the Attacks characteristic of ranged weapons equipped by models in this unit.\n\n<br>\n\n**Warpstone Supercharger**<br>*WEAPON TEAM unit*\n\nAdd 2 to the Strength characteristic of ranged weapons equipped by models in this unit. Those weapons have [HAZARDOUS].\n\n<br>\n\n**Meltdown Protocol**<br>*WEAPON TEAM unit*\n\nOnce per battle, immediately after this unit has shot, it can shoot again. After it has shot for the second time, roll one D6: on a 1-2, this unit is destroyed; on a 3-5, this unit suffers D6 mortal wounds; on a 6, nothing happens.\n\n<br>\n\n**Voltaic Shield Amplifiers**<br>*STORMCLAD unit*\n\nImprove this unit's invulnerable save by 1, to a maximum of 4+. At the end of any phase in which this unit made one or more invulnerable saving throws, roll one D6. On a 1, this unit suffers D3 mortal wounds.\n\n<br>\n\n**Reinforced-Ramshackle Hull**<br>*SKAVEN VEHICLE unit*\n\nAdd 1 to this unit's Toughness characteristic and subtract 1\" from its Move characteristic.\n\n<br>\n\n**Warp-Lightning Capacitors**<br>*SKAVEN VEHICLE unit*\n\nAfter this unit ends a normal, advance or charge move, select one enemy unit within 6\" and roll one D6. On a 1, this unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.\n\n<br>\n\n**Doomrocket**<br>*Non-EPIC HERO WARLOCK ENGINEER model*\n\nThis model is equipped with a Doomrocket: Range 48\"; Attacks 2D6+7; BS 4+; S 10; AP -2; D 2; [BLAST 1, HAZARDOUS, INDIRECT FIRE, ONE SHOT, WARPSTONE]."
                   }
                 ],
                 "categoryLinks": [
@@ -4994,7 +4994,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, roll 13D6: for each 4+, that enemy unit suffers 1 mortal wound. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: each 3+ causes 1 mortal wound instead. This spell can be used only once per battle round by your army."
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes 13 spell hits: S6, AP-1, D2. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: the spell hits are S8, AP-2 instead. This spell can be used only once per battle round by your army."
               }
             ]
           },
@@ -6822,7 +6822,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your Shooting phase, and at the start of the Fight phase, if this unit is not battle-shocked, you can make a psychic roll; this spell spends no Psychic Level. On a 1, this unit becomes battle-shocked. Regardless of the result: in your Shooting phase, select one enemy unit within 18\" of and visible to this model, and it suffers D3+3 mortal wounds (2D3+3 if Overcast); at the start of the Fight phase, until the end of the phase, this model's Storm Daemon weapon has +2 Strength and [DEVASTATING WOUNDS] (and +1 Attacks if Overcast). If the psychic roll includes an unmodified 1, this spell cannot be used again this battle; the Storm Daemon weapon can still be used."
+                "$text": "In your Shooting phase, and at the start of the Fight phase, if this unit is not battle-shocked, you can make a psychic roll; this spell spends no Psychic Level. On a 1, this unit becomes battle-shocked. Regardless of the result: in your Shooting phase, select one enemy unit within 18\" of and visible to this model, and it takes 2D6 spell hits: S9, AP-3, D2 (3D6 if Overcast); at the start of the Fight phase, until the end of the phase, this model's Storm Daemon weapon has +2 Strength and [DEVASTATING WOUNDS] (and +1 Attacks if Overcast). If the psychic roll includes an unmodified 1, this spell cannot be used again this battle; the Storm Daemon weapon can still be used."
               }
             ]
           },
@@ -6836,7 +6836,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit suffers D3 mortal wounds and, until the end of the turn, worsen the Save characteristic of its models by 1 (this does not affect invulnerable saves). Overcast: worsen it by 2 instead."
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes D6+3 spell hits: S6, AP-2, D1. Then, until the end of the turn, worsen the Save characteristic of its models by 1 (this does not affect invulnerable saves). Overcast: worsen it by 2 instead."
               }
             ]
           },
@@ -10429,7 +10429,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, roll 13D6: for each 4+, that enemy unit suffers 1 mortal wound. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: each 3+ causes 1 mortal wound instead. This spell can be used only once per battle round by your army."
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes 13 spell hits: S6, AP-1, D2. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: the spell hits are S8, AP-2 instead. This spell can be used only once per battle round by your army."
               }
             ]
           },
@@ -11414,7 +11414,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, roll 13D6: for each 4+, that enemy unit suffers 1 mortal wound. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: each 3+ causes 1 mortal wound instead. This spell can be used only once per battle round by your army."
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes 13 spell hits: S6, AP-1, D2. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: the spell hits are S8, AP-2 instead. This spell can be used only once per battle round by your army."
               }
             ]
           },
@@ -11784,7 +11784,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit suffers D3 mortal wounds and must take a battle-shock roll. Overcast: it suffers D3+1 mortal wounds instead, and subtract 1 from that battle-shock roll."
+                        "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes D6+3 spell hits: S6, AP-1, D1, and must take a battle-shock roll. Overcast: it takes 2D6+3 spell hits instead, and subtract 1 from that battle-shock roll."
                       }
                     ]
                   },
@@ -22986,7 +22986,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 24\" of and visible to this model, and up to two other enemy units within 6\" of that unit and within 24\" of and visible to this model, and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, each selected unit suffers D3+1 mortal wounds. Overcast: each suffers 2D3+1 mortal wounds instead."
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 24\" of and visible to this model, and up to two other enemy units within 6\" of that unit and within 24\" of and visible to this model, and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, each selected unit takes D6 spell hits: S8, AP-2, D2. Overcast: each takes 2D6 spell hits instead."
               }
             ]
           },
@@ -24298,7 +24298,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one point on the battlefield within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, place a Black Whirlwind marker on that point until the start of your next Command phase. Each unit (friendly or enemy) within 3\" of the marker suffers D3 mortal wounds. Until it is removed, each time a unit ends a normal, advance, fall-back or charge move within 3\" of the marker, that unit suffers D3 mortal wounds. Each unit can suffer mortal wounds from this marker only once per turn. Overcast: use 6\" instead of 3\"."
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one point on the battlefield within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, place a Black Whirlwind marker on that point until the start of your next Command phase. Each unit (friendly or enemy) within 3\" of the marker takes D6 spell hits: S6, AP-1, D2. Until it is removed, each time a unit ends a normal, advance, fall-back or charge move within 3\" of the marker, that unit takes D6 spell hits with the same profile. Each unit can take spell hits from this marker only once per turn. Overcast: use 6\" instead of 3\"."
               }
             ]
           },
@@ -25645,7 +25645,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one point on the battlefield within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, each unit (friendly or enemy) within 3\" of that point suffers D3+3 mortal wounds. Overcast: use 6\" instead of 3\"."
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one point on the battlefield within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, each unit (friendly or enemy) within 3\" of that point takes 2D6 spell hits: S6, AP-1, D2. Overcast: use 6\" instead of 3\"."
               }
             ]
           },
@@ -34982,7 +34982,7 @@
         ]
       },
       {
-        "name": "Warpclad Warpack",
+        "name": "Stormclad Stormvermin",
         "id": "64fa-8772-08d1-5c74",
         "type": "unit",
         "hidden": false,
@@ -35017,7 +35017,7 @@
             "hidden": false
           },
           {
-            "name": "Warpclad",
+            "name": "Stormclad",
             "id": "1c39-624e-41c6-20a3",
             "targetId": "220b-eac5-3bb0-7487",
             "primary": false,
@@ -35077,7 +35077,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 1 Fangleader and 9 Warpclads. Every Warpclad is equipped with one of: 1 Warp-disintegrator and 1 Warp-glaive; or 1 Warp-blade and 1 Voltaic shield. Up to 3 Warpclads can replace their Warp-disintegrator with 1 Warp-blaster. Up to 2 Warpclads can replace their Warp-glaive with 1 Shock gauntlet. 1 Warpclad can replace its Warp-disintegrator with 1 Warp-lance. Fangleader:W3. Equipped with 1 Warp-disintegrator, 1 Warp-blaster or 1 Warp-lance, and 1 Master-forged warp-glaive or 1 Shock gauntlet. A model equipped with a Voltaic shield has a 4+ invulnerable save. One Warpclad can carry a Voltaic Pennant; this does not replace its weapons."
+                "$text": "Composition: 1 Fangleader and 9 Stormclads. Every Stormclad is equipped with one of: 1 Warp-disintegrator and 1 Warp-glaive; or 1 Warp-blade and 1 Voltaic shield. Up to 3 Stormclads can replace their Warp-disintegrator with 1 Warp-blaster. Up to 2 Stormclads can replace their Warp-glaive with 1 Shock gauntlet. 1 Stormclad can replace its Warp-disintegrator with 1 Warp-lance. Fangleader:W3. Equipped with 1 Warp-disintegrator, 1 Warp-blaster or 1 Warp-lance, and 1 Master-forged warp-glaive or 1 Shock gauntlet. A model equipped with a Voltaic shield has a 4+ invulnerable save. One Stormclad can carry a Voltaic Pennant; this does not replace its weapons."
               }
             ]
           },
@@ -35091,7 +35091,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Infantry, Verminus, Skryre, Stormvermin, Warpclad, Grenades. Faction: Skaven."
+                "$text": "Keywords: Infantry, Verminus, Skryre, Stormvermin, Stormclad, Grenades. Faction: Skaven."
               }
             ]
           }
@@ -35727,7 +35727,7 @@
                     "type": "or",
                     "conditions": [
                       {
-                        "childId": "05b5-c348-d571-a2d4",
+                        "childId": "b7de-e08a-d6b0-db4a",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -35736,7 +35736,7 @@
                         "includeChildSelections": true
                       },
                       {
-                        "childId": "2b51-fff1-128f-bbcf",
+                        "childId": "ffb8-b542-57c9-3660",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -35745,7 +35745,7 @@
                         "includeChildSelections": true
                       },
                       {
-                        "childId": "f9e6-7270-48f1-f714",
+                        "childId": "a8fb-c906-d118-8b12",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -35754,7 +35754,7 @@
                         "includeChildSelections": true
                       },
                       {
-                        "childId": "098f-c587-6227-aa87",
+                        "childId": "734c-4046-d125-1d72",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -35763,7 +35763,7 @@
                         "includeChildSelections": true
                       },
                       {
-                        "childId": "26f0-b677-91fc-3b3e",
+                        "childId": "3d70-4566-7d20-f9da",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -35781,20 +35781,20 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "9 Warpclads",
-            "id": "8eea-a5e7-b9fd-65b1",
+            "name": "9 Stormclads",
+            "id": "334f-d586-1b06-17a7",
             "hidden": false,
-            "defaultSelectionEntryId": "05b5-c348-d571-a2d4",
+            "defaultSelectionEntryId": "b7de-e08a-d6b0-db4a",
             "selectionEntries": [
               {
-                "name": "Warpclad",
-                "id": "05b5-c348-d571-a2d4",
+                "name": "Stormclad",
+                "id": "b7de-e08a-d6b0-db4a",
                 "type": "model",
                 "hidden": false,
                 "import": true,
                 "constraints": [
                   {
-                    "id": "4cbb-c326-54e9-5e00",
+                    "id": "be0b-9267-4878-74e9",
                     "type": "min",
                     "value": 0,
                     "scope": "parent",
@@ -35803,7 +35803,7 @@
                     "includeChildSelections": false
                   },
                   {
-                    "id": "7887-93f4-a2fc-5210",
+                    "id": "1cfd-74d2-de49-e958",
                     "type": "max",
                     "value": 9,
                     "scope": "parent",
@@ -35814,8 +35814,8 @@
                 ],
                 "profiles": [
                   {
-                    "id": "5b0a-02a7-7934-75cd",
-                    "name": "Warpclad",
+                    "id": "13bc-a355-5b31-19dd",
+                    "name": "Stormclad",
                     "hidden": false,
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -35911,13 +35911,13 @@
                 "selectionEntries": [
                   {
                     "name": "Warp-disintegrator",
-                    "id": "8f9e-bcc5-7bff-e1eb",
+                    "id": "2e6b-4606-3ff5-8108",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "bdcb-9e7e-06c8-842a",
+                        "id": "f9b5-8ef7-76ed-a8f9",
                         "name": "Warp-disintegrator",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -35963,7 +35963,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "1101-667d-ccd1-3208",
+                        "id": "5733-f0cf-289a-cfe4",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -35972,7 +35972,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "07a5-ab82-31be-b3c6",
+                        "id": "87e1-6162-3431-4106",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -35983,21 +35983,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "3b3b-7a27-8bcf-89f3",
+                        "id": "571e-7cec-728f-6a0a",
                         "name": "Blast",
                         "targetId": "6c1f-1cf7-ff25-c99e",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "8325-f4c1-cc4e-9611",
+                        "id": "aac9-9696-0688-c75d",
                         "name": "Ignores Cover",
                         "targetId": "4640-43e7-30b-215a",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "a01f-bcdc-9236-1896",
+                        "id": "6c0c-b44f-9be0-c981",
                         "name": "Torrent",
                         "targetId": "5edf-d619-23e0-9b56",
                         "type": "rule",
@@ -36007,13 +36007,13 @@
                   },
                   {
                     "name": "Warp-glaive",
-                    "id": "b934-24c2-6462-fd9b",
+                    "id": "44a8-b6e4-17f6-beed",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "7638-c6a1-7338-c946",
+                        "id": "bd45-b204-92ab-4267",
                         "name": "Warp-glaive",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -36059,7 +36059,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "ad70-a3da-606a-4db4",
+                        "id": "87b4-6f54-a748-99dd",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -36068,7 +36068,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "d298-0cd4-f258-0a01",
+                        "id": "5137-01fa-c9ee-ed38",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -36082,20 +36082,20 @@
                 "categoryLinks": [
                   {
                     "name": "count",
-                    "id": "b3a4-7a88-3ffc-acad",
-                    "targetId": "e77b-f4d3-c369-5b36",
+                    "id": "50e6-329c-440f-b056",
+                    "targetId": "c9da-4404-42a6-8179",
                     "primary": false,
                     "hidden": false
                   }
                 ],
                 "modifiers": [
                   {
-                    "field": "7887-93f4-a2fc-5210",
+                    "field": "1cfd-74d2-de49-e958",
                     "type": "increment",
                     "value": -1,
                     "repeats": [
                       {
-                        "childId": "2b51-fff1-128f-bbcf",
+                        "childId": "ffb8-b542-57c9-3660",
                         "field": "selections",
                         "scope": "64fa-8772-08d1-5c74",
                         "shared": true,
@@ -36107,12 +36107,12 @@
                     ]
                   },
                   {
-                    "field": "7887-93f4-a2fc-5210",
+                    "field": "1cfd-74d2-de49-e958",
                     "type": "increment",
                     "value": -1,
                     "repeats": [
                       {
-                        "childId": "f9e6-7270-48f1-f714",
+                        "childId": "a8fb-c906-d118-8b12",
                         "field": "selections",
                         "scope": "64fa-8772-08d1-5c74",
                         "shared": true,
@@ -36124,12 +36124,12 @@
                     ]
                   },
                   {
-                    "field": "7887-93f4-a2fc-5210",
+                    "field": "1cfd-74d2-de49-e958",
                     "type": "increment",
                     "value": -1,
                     "repeats": [
                       {
-                        "childId": "098f-c587-6227-aa87",
+                        "childId": "734c-4046-d125-1d72",
                         "field": "selections",
                         "scope": "64fa-8772-08d1-5c74",
                         "shared": true,
@@ -36141,12 +36141,12 @@
                     ]
                   },
                   {
-                    "field": "7887-93f4-a2fc-5210",
+                    "field": "1cfd-74d2-de49-e958",
                     "type": "increment",
                     "value": -1,
                     "repeats": [
                       {
-                        "childId": "26f0-b677-91fc-3b3e",
+                        "childId": "3d70-4566-7d20-f9da",
                         "field": "selections",
                         "scope": "64fa-8772-08d1-5c74",
                         "shared": true,
@@ -36161,14 +36161,14 @@
                 "defaultAmount": 9
               },
               {
-                "name": "Warpclad with Warp-blade and Voltaic shield",
-                "id": "2b51-fff1-128f-bbcf",
+                "name": "Stormclad with Warp-blade and Voltaic shield",
+                "id": "ffb8-b542-57c9-3660",
                 "type": "model",
                 "hidden": false,
                 "import": true,
                 "constraints": [
                   {
-                    "id": "cb32-67fe-1a44-7114",
+                    "id": "5e19-9f26-5f72-aba5",
                     "type": "max",
                     "value": 9,
                     "scope": "parent",
@@ -36179,8 +36179,8 @@
                 ],
                 "profiles": [
                   {
-                    "id": "6e8e-b224-61eb-8043",
-                    "name": "Warpclad (Voltaic shield)",
+                    "id": "6e63-6076-1d3d-8531",
+                    "name": "Stormclad (Voltaic shield)",
                     "hidden": false,
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -36260,13 +36260,13 @@
                 "selectionEntries": [
                   {
                     "name": "Warp-blade",
-                    "id": "0bf8-2944-79ab-8b13",
+                    "id": "88bc-a584-01ce-58b7",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "1715-1619-cff8-8669",
+                        "id": "52b1-55b1-9aa7-3e0f",
                         "name": "Warp-blade",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -36312,7 +36312,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "4342-397f-760e-6f7a",
+                        "id": "a8b5-4341-1edd-220d",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -36321,7 +36321,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "b1b2-5d50-93d2-bb41",
+                        "id": "116d-7368-a17f-3aa7",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -36332,7 +36332,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "b4cb-3641-43ad-4aff",
+                        "id": "449b-854b-6433-ab1b",
                         "name": "Lethal Hits",
                         "targetId": "d1d1-611e-5191-1095",
                         "type": "rule",
@@ -36342,13 +36342,13 @@
                   },
                   {
                     "name": "Voltaic shield",
-                    "id": "973b-2773-0844-607e",
+                    "id": "9f07-ec84-b291-146f",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "constraints": [
                       {
-                        "id": "b5e0-d7ae-dd0e-20fc",
+                        "id": "929f-97a0-3716-d2a8",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -36357,7 +36357,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "c36c-a5be-8cae-bb79",
+                        "id": "62ff-75b3-5f45-dfa0",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -36371,22 +36371,22 @@
                 "categoryLinks": [
                   {
                     "name": "count",
-                    "id": "ef2f-2559-996c-1f0f",
-                    "targetId": "e77b-f4d3-c369-5b36",
+                    "id": "f722-8151-4b45-7ec4",
+                    "targetId": "c9da-4404-42a6-8179",
                     "primary": false,
                     "hidden": false
                   }
                 ]
               },
               {
-                "name": "Warpclad with Warp-blaster",
-                "id": "f9e6-7270-48f1-f714",
+                "name": "Stormclad with Warp-blaster",
+                "id": "a8fb-c906-d118-8b12",
                 "type": "model",
                 "hidden": false,
                 "import": true,
                 "constraints": [
                   {
-                    "id": "9574-894e-6e4a-76b9",
+                    "id": "c492-2b7a-dfe9-a978",
                     "type": "max",
                     "value": 3,
                     "scope": "parent",
@@ -36397,8 +36397,8 @@
                 ],
                 "profiles": [
                   {
-                    "id": "5fb1-eb85-f4c3-02f5",
-                    "name": "Warpclad",
+                    "id": "8289-4065-d071-1a4e",
+                    "name": "Stormclad",
                     "hidden": false,
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -36494,13 +36494,13 @@
                 "selectionEntries": [
                   {
                     "name": "Warp-blaster",
-                    "id": "3d07-c584-c432-fa22",
+                    "id": "b046-ac2c-3653-1b4b",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "0c37-5149-bcce-b984",
+                        "id": "ea14-cf71-67f0-e826",
                         "name": "Warp-blaster",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -36546,7 +36546,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "d417-6f67-9985-e1f5",
+                        "id": "7641-2f27-a385-a978",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -36555,7 +36555,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "844e-bcc8-49de-c2ea",
+                        "id": "cb46-4584-caa3-99a3",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -36566,14 +36566,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "3a99-26df-6d58-10f4",
+                        "id": "beb7-9ca5-11f1-1f79",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "d339-6aac-340a-3d92",
+                        "id": "955f-8eb2-491b-daf1",
                         "name": "Warpstone Backlash",
                         "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
@@ -36583,13 +36583,13 @@
                   },
                   {
                     "name": "Warp-glaive",
-                    "id": "087c-3cb2-79c7-daba",
+                    "id": "0772-62e6-a7b9-52b7",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "49d9-0893-903d-381d",
+                        "id": "be9e-a6d8-1ee8-3658",
                         "name": "Warp-glaive",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -36635,7 +36635,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "87a6-4a62-b235-568b",
+                        "id": "70a6-e7fb-850f-9e1b",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -36644,7 +36644,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "ff98-f6da-f682-9853",
+                        "id": "e99c-7701-a7c1-32ce",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -36658,29 +36658,29 @@
                 "categoryLinks": [
                   {
                     "name": "count",
-                    "id": "8553-afda-ff31-91fa",
-                    "targetId": "e77b-f4d3-c369-5b36",
+                    "id": "22f8-dc73-8c9a-705a",
+                    "targetId": "c9da-4404-42a6-8179",
                     "primary": false,
                     "hidden": false
                   },
                   {
                     "name": "count",
-                    "id": "76b5-48d4-53ea-7aa2",
-                    "targetId": "bc73-15cb-9299-8f4c",
+                    "id": "7668-04e5-3d27-6d31",
+                    "targetId": "d65b-3d14-1d63-0aff",
                     "primary": false,
                     "hidden": false
                   }
                 ]
               },
               {
-                "name": "Warpclad with Shock gauntlet",
-                "id": "098f-c587-6227-aa87",
+                "name": "Stormclad with Shock gauntlet",
+                "id": "734c-4046-d125-1d72",
                 "type": "model",
                 "hidden": false,
                 "import": true,
                 "constraints": [
                   {
-                    "id": "9396-77ad-4978-8e8f",
+                    "id": "9edc-58f8-a578-ddda",
                     "type": "max",
                     "value": 2,
                     "scope": "parent",
@@ -36691,8 +36691,8 @@
                 ],
                 "profiles": [
                   {
-                    "id": "ea1f-0518-0de1-92c2",
-                    "name": "Warpclad",
+                    "id": "a151-7b43-a7c7-d103",
+                    "name": "Stormclad",
                     "hidden": false,
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -36788,13 +36788,13 @@
                 "selectionEntries": [
                   {
                     "name": "Warp-disintegrator",
-                    "id": "50c5-3bfc-7706-f9eb",
+                    "id": "ccad-71f4-b55d-72bb",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "56f4-3f4d-2d5f-e232",
+                        "id": "5e2c-b472-5796-6660",
                         "name": "Warp-disintegrator",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -36840,7 +36840,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "02c6-f2e6-0718-ab45",
+                        "id": "9932-3d8c-8c55-55d9",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -36849,7 +36849,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "3675-67db-7455-fe4e",
+                        "id": "d2c9-ab7a-4710-306e",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -36860,21 +36860,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "5720-c291-ff51-309e",
+                        "id": "354b-d2b7-eb64-dc56",
                         "name": "Blast",
                         "targetId": "6c1f-1cf7-ff25-c99e",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "6f0c-41c8-d849-477e",
+                        "id": "8722-bc16-a1c0-74ab",
                         "name": "Ignores Cover",
                         "targetId": "4640-43e7-30b-215a",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "3956-bd68-2520-1dc9",
+                        "id": "4f02-7bfd-1751-2f6b",
                         "name": "Torrent",
                         "targetId": "5edf-d619-23e0-9b56",
                         "type": "rule",
@@ -36884,13 +36884,13 @@
                   },
                   {
                     "name": "Shock gauntlet",
-                    "id": "7db5-caca-fd21-8fee",
+                    "id": "82b0-7c2a-c9d6-8dea",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "db96-07a7-b23b-2d57",
+                        "id": "83e0-a64c-bc87-a68b",
                         "name": "Shock gauntlet",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -36936,7 +36936,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "dbac-a6d1-27b3-dc52",
+                        "id": "368a-18f4-1088-ae42",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -36945,7 +36945,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "8281-21d6-62c4-e92a",
+                        "id": "b92d-41b5-7f99-547b",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -36956,7 +36956,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "44a6-0bf6-3fbc-9d93",
+                        "id": "9b08-dfd7-a41d-e396",
                         "name": "Anti",
                         "targetId": "4111-82e3-9444-e942",
                         "type": "rule",
@@ -36968,29 +36968,29 @@
                 "categoryLinks": [
                   {
                     "name": "count",
-                    "id": "34e9-c123-7eaa-5620",
-                    "targetId": "e77b-f4d3-c369-5b36",
+                    "id": "0674-eced-7db8-a333",
+                    "targetId": "c9da-4404-42a6-8179",
                     "primary": false,
                     "hidden": false
                   },
                   {
                     "name": "count",
-                    "id": "80f4-734f-fb03-ddaf",
-                    "targetId": "01cc-8154-d796-f4a6",
+                    "id": "8c14-07a1-0ab9-a0fb",
+                    "targetId": "950a-d2d1-1c6a-11cb",
                     "primary": false,
                     "hidden": false
                   }
                 ]
               },
               {
-                "name": "Warpclad with Warp-lance",
-                "id": "26f0-b677-91fc-3b3e",
+                "name": "Stormclad with Warp-lance",
+                "id": "3d70-4566-7d20-f9da",
                 "type": "model",
                 "hidden": false,
                 "import": true,
                 "constraints": [
                   {
-                    "id": "b532-8c17-9e5c-42d8",
+                    "id": "0343-4ea2-dcdd-b36d",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -37001,8 +37001,8 @@
                 ],
                 "profiles": [
                   {
-                    "id": "06bf-9966-8265-be51",
-                    "name": "Warpclad",
+                    "id": "ec29-2c65-7436-4525",
+                    "name": "Stormclad",
                     "hidden": false,
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -37098,13 +37098,13 @@
                 "selectionEntries": [
                   {
                     "name": "Warp-lance",
-                    "id": "de9d-6951-4e42-9dd1",
+                    "id": "daad-6a44-51ec-2058",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "2087-c5bb-411b-8486",
+                        "id": "88b5-272e-0d76-2ec9",
                         "name": "Warp-lance",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -37150,7 +37150,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "e6fb-12b9-7cf4-21a1",
+                        "id": "91df-c1e7-df53-0ac1",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -37159,7 +37159,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "a2f0-cac1-ed92-393c",
+                        "id": "e307-6c10-4d90-38f6",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -37170,21 +37170,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "df16-1d19-d0c3-e629",
+                        "id": "d55f-7b2e-9290-ed7f",
                         "name": "Melta",
                         "targetId": "7cdb-fb99-44a9-8849",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "106e-892c-5880-090c",
+                        "id": "c37c-f3b3-da54-828d",
                         "name": "Warpstone",
                         "targetId": "7a1a-acc6-a2c5-a984",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "d849-c9fb-6b79-d191",
+                        "id": "dd42-ceb1-560f-e544",
                         "name": "Warpstone Backlash",
                         "targetId": "770e-a39d-7aa8-8f21",
                         "type": "rule",
@@ -37194,13 +37194,13 @@
                   },
                   {
                     "name": "Warp-glaive",
-                    "id": "3ae1-1de7-cc4b-58bd",
+                    "id": "58b6-0800-2aa8-2006",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "7996-12d9-5bbf-7051",
+                        "id": "a17a-4feb-a1dc-edc8",
                         "name": "Warp-glaive",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -37246,7 +37246,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "88e8-093f-199c-0efe",
+                        "id": "8026-3bfa-d8b7-6989",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -37255,7 +37255,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "2678-0fed-cd30-68f6",
+                        "id": "0464-7ab2-8e83-1e7e",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -37269,15 +37269,15 @@
                 "categoryLinks": [
                   {
                     "name": "count",
-                    "id": "11a6-5d7d-d822-fdb8",
-                    "targetId": "e77b-f4d3-c369-5b36",
+                    "id": "3494-ae9a-6822-ce55",
+                    "targetId": "c9da-4404-42a6-8179",
                     "primary": false,
                     "hidden": false
                   },
                   {
                     "name": "count",
-                    "id": "a5c7-2286-2b01-0756",
-                    "targetId": "7f8c-dd1d-5be1-d7dc",
+                    "id": "c6cb-cffd-8e75-c2ff",
+                    "targetId": "6b0a-8a67-7e93-2124",
                     "primary": false,
                     "hidden": false
                   }
@@ -37286,7 +37286,7 @@
             ],
             "constraints": [
               {
-                "id": "d41b-e8b1-cfb7-80ad",
+                "id": "8d80-5a47-4be4-d6aa",
                 "type": "min",
                 "value": 9,
                 "scope": "parent",
@@ -37295,7 +37295,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "8482-c64b-335e-b552",
+                "id": "272a-d11c-77ba-6543",
                 "type": "max",
                 "value": 9,
                 "scope": "parent",
@@ -37476,10 +37476,10 @@
           {
             "type": "add",
             "field": "error",
-            "value": "At most 3 Warpclad with Warp-blaster.",
+            "value": "At most 3 Stormclad with Warp-blaster.",
             "conditions": [
               {
-                "childId": "bc73-15cb-9299-8f4c",
+                "childId": "d65b-3d14-1d63-0aff",
                 "field": "selections",
                 "scope": "64fa-8772-08d1-5c74",
                 "type": "atLeast",
@@ -37492,10 +37492,10 @@
           {
             "type": "add",
             "field": "error",
-            "value": "At most 2 Warpclad with Shock gauntlet.",
+            "value": "At most 2 Stormclad with Shock gauntlet.",
             "conditions": [
               {
-                "childId": "01cc-8154-d796-f4a6",
+                "childId": "950a-d2d1-1c6a-11cb",
                 "field": "selections",
                 "scope": "64fa-8772-08d1-5c74",
                 "type": "atLeast",
@@ -37508,10 +37508,10 @@
           {
             "type": "add",
             "field": "error",
-            "value": "At most 1 Warpclad with Warp-lance.",
+            "value": "At most 1 Stormclad with Warp-lance.",
             "conditions": [
               {
-                "childId": "7f8c-dd1d-5be1-d7dc",
+                "childId": "6b0a-8a67-7e93-2124",
                 "field": "selections",
                 "scope": "64fa-8772-08d1-5c74",
                 "type": "atLeast",
@@ -37549,7 +37549,7 @@
                       },
                       {
                         "childId": "64fa-8772-08d1-5c74",
-                        "childName": "Warpclad Warpack",
+                        "childName": "Stormclad Stormvermin",
                         "field": "selections",
                         "scope": "self",
                         "type": "instanceOf",
@@ -74029,7 +74029,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Your Shooting phase. Select one point on the battlefield within 18\" of and visible to this model. Each unit (friendly or enemy) within 3\" of that point suffers D3+3 mortal wounds."
+                "$text": "Your Shooting phase. Select one point on the battlefield within 18\" of and visible to this model. Each unit (friendly or enemy) within 3\" of that point takes 2D6 spell hits: S6, AP-1, D2."
               }
             ]
           },
@@ -84736,7 +84736,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model can be attached to the following units:\n\n■ CLANRATS\n■ STORMVERMIN\n■ WARPCLAD WARPACK"
+                "$text": "This model can be attached to the following units:\n\n■ CLANRATS\n■ STORMVERMIN\n■ STORMCLAD STORMVERMIN"
               }
             ]
           },
@@ -84750,7 +84750,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 1 Clan Chieftain with War-Banner.This model is equipped with 1 Warplock pistol and 1 Chieftain's blade. It can be attached as a Support to Clanrats, Stormvermin or Warpclad Warpack."
+                "$text": "Composition: 1 Clan Chieftain with War-Banner.This model is equipped with 1 Warplock pistol and 1 Chieftain's blade. It can be attached as a Support to Clanrats, Stormvermin or Stormclad Stormvermin."
               }
             ]
           },
@@ -86220,7 +86220,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, roll one D6 for each model in that enemy unit (maximum 13 dice): for each 4+, it suffers 1 mortal wound. Overcast: each 3+ causes 1 mortal wound instead."
+                "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes 1 spell hit for each model in it (maximum 13): S6, AP-1, D1. Overcast: it takes 2 spell hits for each model in it instead (maximum 26)."
               }
             ]
           },
@@ -86262,7 +86262,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model can be attached to the following units:\n\n■ WARPCLAD WARPACK\n■ WARP-ZAP STORMVERMIN\n■ SKRYRE ACOLYTES"
+                "$text": "This model can be attached to the following units:\n\n■ STORMCLAD STORMVERMIN\n■ WARP-ZAP STORMVERMIN\n■ SKRYRE ACOLYTES"
               }
             ]
           },
@@ -86276,7 +86276,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 1 Arch-Warlock.This model is equipped with 1 Warp-blast gauntlet and 1 Warp-claw. It can lead Warpclad Warpack, Warp-Zap Stormvermin or Skryre Acolytes."
+                "$text": "Composition: 1 Arch-Warlock.This model is equipped with 1 Warp-blast gauntlet and 1 Warp-claw. It can lead Stormclad Stormvermin, Warp-Zap Stormvermin or Skryre Acolytes."
               }
             ]
           },
@@ -94664,7 +94664,7 @@
             "name": "Voltaic Shield Amplifiers",
             "id": "e251-dbf3-586b-fbdc",
             "hidden": false,
-            "description": "*WARPCLAD unit*\n\nImprove this unit's invulnerable save by 1, to a maximum of 4+. At the end of any phase in which this unit made one or more invulnerable saving throws, roll one D6. On a 1, this unit suffers D3 mortal wounds."
+            "description": "*STORMCLAD unit*\n\nImprove this unit's invulnerable save by 1, to a maximum of 4+. At the end of any phase in which this unit made one or more invulnerable saving throws, roll one D6. On a 1, this unit suffers D3 mortal wounds."
           }
         ],
         "constraints": [
@@ -95409,7 +95409,7 @@
         "import": true
       },
       {
-        "name": "Warpclad Warpack",
+        "name": "Stormclad Stormvermin",
         "id": "7609-a0fc-fbc0-5a3d",
         "hidden": false,
         "targetId": "64fa-8772-08d1-5c74",
@@ -97766,25 +97766,25 @@
         "name": "Verminous Psychic Power",
         "id": "23f2-243b-eb88-3e2c",
         "hidden": false,
-        "description": "​<br><br>**Psyker Level:**<br>Each PSYKER model has a Psyker Level on its datasheet. Each spell has a Psychic Level. Each battle round, a PSYKER can use spells whose combined Psychic Level does not exceed its Psyker Level; spend a spell's Psychic Level when you use it. At the start of each battle round, reset the Psychic Level each PSYKER has spent to 0. A rule that increases a Psyker Level raises that limit; it does not refund Psychic Level already spent.\n\n**Using Spells:**<br>A PSYKER can use a spell it knows when that spell's WHEN condition is met (for a spell on its datasheet, shown as \"(Psychic Level N)\", when its text says), if it is on the battlefield (unless a rule says otherwise) and its unit is not battle-shocked. Each PSYKER can use each spell once per phase, unless a rule says otherwise. Select the spell's targets, then make a psychic roll by rolling one D6. The spell resolves whatever the result. If the unmodified result is 1, after the spell resolves, that PSYKER's unit becomes battle-shocked and resolves Cornered Rats, even if it does not have Scurry Away!. This is not a failed battle-shock roll.\n\n**Overcasting:**<br>Once per turn, when a PSYKER uses a spell, before making the psychic roll, you can declare that it will Overcast. If you do, roll 2D6 instead of 1D6, reading each die separately, and resolve the spell's OVERCAST effect as well as its EFFECT. Overcasting does not increase the spell's Psychic Level. If either unmodified die is a 1, after the spell resolves, that PSYKER's unit suffers D6 mortal wounds, becomes battle-shocked and resolves Cornered Rats. Resolve this once per psychic roll, even if both dice are 1s.\n\n**Re-rolls:**<br>A rule that re-rolls a psychic roll re-rolls only the dice it states. No die can be re-rolled more than once. Check for unmodified 1s after all re-rolls.\n\n**Psychic Weapons:**<br>Weapons with [PSYCHIC] (for example Warp bolts, Pox blast and Shadow darts) are not spells. They use the normal attack rules, cost no Psychic Level, make no psychic roll and cannot be Overcast."
+        "description": "​<br><br>**Psyker Level:**<br>Each PSYKER model has a Psyker Level on its datasheet. Each spell has a Psychic Level. Each battle round, a PSYKER can use spells whose combined Psychic Level does not exceed its Psyker Level; spend a spell's Psychic Level when you use it. At the start of each battle round, reset the Psychic Level each PSYKER has spent to 0. A rule that increases a Psyker Level raises that limit; it does not refund Psychic Level already spent.\n\n**Using Spells:**<br>A PSYKER can use a spell it knows when that spell's WHEN condition is met (for a spell on its datasheet, shown as \"(Psychic Level N)\", when its text says), if it is on the battlefield (unless a rule says otherwise) and its unit is not battle-shocked. Each PSYKER can use each spell once per phase, unless a rule says otherwise. Select the spell's targets, then make a psychic roll by rolling one D6. The spell resolves whatever the result. If the unmodified result is 1, after the spell resolves, that PSYKER's unit becomes battle-shocked and resolves Cornered Rats, even if it does not have Scurry Away!. This is not a failed battle-shock roll.\n\n**Overcasting:**<br>Once per turn, when a PSYKER uses a spell, before making the psychic roll, you can declare that it will Overcast. If you do, roll 2D6 instead of 1D6, reading each die separately, and resolve the spell's OVERCAST effect as well as its EFFECT. Overcasting does not increase the spell's Psychic Level. If either unmodified die is a 1, after the spell resolves, that PSYKER's unit suffers D6 mortal wounds, becomes battle-shocked and resolves Cornered Rats. Resolve this once per psychic roll, even if both dice are 1s.\n\n**Re-rolls:**<br>A rule that re-rolls a psychic roll re-rolls only the dice it states. No die can be re-rolled more than once. Check for unmodified 1s after all re-rolls.\n\n**Spell Hits:**<br>When a spell says a unit takes a number of spell hits with a profile (Strength, AP, Damage and any abilities), no hit roll is made: each one is a hit. Make a wound roll for each, then allocate them and make saving throws (including invulnerable saves) and Feel No Pain rolls as for ranged attacks. They are [PSYCHIC] attacks made by the model using the spell, but they are not made with a weapon, and modifiers to hit rolls (including the Benefit of Cover) do not affect them.\n\n**Psychic Weapons:**<br>Weapons with [PSYCHIC] (for example Warp bolts, Pox blast and Shadow darts) are not spells. They use the normal attack rules, cost no Psychic Level, make no psychic roll and cannot be Overcast."
       },
       {
         "name": "Lore of Ruin",
         "id": "ce44-f487-1dd3-5cb5",
         "hidden": false,
-        "description": "\n\n*Known by: Thanquol and Boneripper, Ikit Claw, Lord Skreech Verminking, Grey Seer, Verminlord Warbringer, Verminlord Warpseer. Warlock Engineers and Arch-Warlocks know Warp Lightning and Howling Warpgale only.*\n\n**Warp Lightning (Psychic Level 1, DAMAGE)**<br>- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy unit within 24\" of and visible to this PSYKER.\n\n- **EFFECT:** That unit suffers D3+3 mortal wounds.\n\n- **OVERCAST:** That unit suffers 2D3+3 mortal wounds instead.\n\n**Howling Warpgale (Psychic Level 1)**<br>- **WHEN:** Your Movement phase.\n\n- **TARGET:** One enemy unit within 24\" of and visible to this PSYKER.\n\n- **EFFECT:** Until the start of your next turn, subtract 2\" from the Move characteristic of models in that unit (4\" if it has FLY), and that unit cannot Advance.\n\n- **OVERCAST:** Until the start of your next turn, also subtract 2 from Charge rolls made for that unit.\n\n**Crack's Call (Psychic Level 2, DAMAGE)**<br>- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One point on the battlefield exactly 18\" from and visible to this PSYKER.\n\n- **EFFECT:** Draw a straight line from this PSYKER to that point. Roll one D6 for each enemy unit (excluding units with FLY) that has one or more models whose base or hull is crossed by that line. On a 3+, that unit suffers D3 mortal wounds (D3+3 if it is a VEHICLE). Each unit can be affected only once each time this spell is used.\n\n- **OVERCAST:** The point is exactly 24\" away instead, and units are affected on a 2+ instead."
+        "description": "\n\n*Known by: Thanquol and Boneripper, Ikit Claw, Lord Skreech Verminking, Grey Seer, Verminlord Warbringer, Verminlord Warpseer. Warlock Engineers and Arch-Warlocks know Warp Lightning and Howling Warpgale only.*\n\n**Warp Lightning (Psychic Level 1, DAMAGE)**<br>- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy unit within 24\" of and visible to this PSYKER.\n\n- **EFFECT:** That unit takes 2D6 spell hits: S8, AP-2, D2.\n\n- **OVERCAST:** That unit takes 3D6 spell hits instead.\n\n**Howling Warpgale (Psychic Level 1)**<br>- **WHEN:** Your Movement phase.\n\n- **TARGET:** One enemy unit within 24\" of and visible to this PSYKER.\n\n- **EFFECT:** Until the start of your next turn, subtract 2\" from the Move characteristic of models in that unit (4\" if it has FLY), and that unit cannot Advance.\n\n- **OVERCAST:** Until the start of your next turn, also subtract 2 from Charge rolls made for that unit.\n\n**Crack's Call (Psychic Level 2, DAMAGE)**<br>- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One point on the battlefield exactly 18\" from and visible to this PSYKER.\n\n- **EFFECT:** Draw a straight line from this PSYKER to that point. Roll one D6 for each enemy unit (excluding units with FLY) that has one or more models whose base or hull is crossed by that line. On a 3+, that unit takes D6 spell hits: S8, AP-2, D2 (S12, AP-3, D3 if it is a VEHICLE). Each unit can be affected only once each time this spell is used.\n\n- **OVERCAST:** The point is exactly 24\" away instead, and units are affected on a 2+ instead."
       },
       {
         "name": "Lore of Plague",
         "id": "9f87-ba39-48c7-11a7",
         "hidden": false,
-        "description": "\n\n*Known by: Thanquol and Boneripper, Lord Skrolk, Lord Skreech Verminking, Grey Seer, Plague Priest, Verminlord Corruptor.*\n\n**Bless with Filth (Psychic Level 1)**<br>- **WHEN:** Start of the Fight phase.\n\n- **TARGET:** One friendly SKAVEN unit within 18\" of this PSYKER.\n\n- **EFFECT:** Until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS].\n\n- **OVERCAST:** Until the end of the phase, each time a model in that unit makes a melee attack, an unmodified hit roll of 5+ scores a critical hit.\n\n**Pestilent Breath (Psychic Level 1, DAMAGE)**<br>- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy unit within 12\" of and visible to this PSYKER.\n\n- **EFFECT:** That unit suffers D3 mortal wounds. Until the start of your next turn, subtract 1 from hit rolls made for models in that unit.\n\n- **OVERCAST:** That unit suffers an additional D3 mortal wounds.\n\n**Plague (Psychic Level 2, DAMAGE)**<br>- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy unit within 18\" of and visible to this PSYKER.\n\n- **EFFECT:** That unit suffers D3+3 mortal wounds. Then roll one D6 for each other unit (friendly or enemy) within 3\" of it. On a 4+, that unit suffers D3 mortal wounds. The plague does not spread further.\n\n- **OVERCAST:** Roll for each other unit within 6\" instead."
+        "description": "\n\n*Known by: Thanquol and Boneripper, Lord Skrolk, Lord Skreech Verminking, Grey Seer, Plague Priest, Verminlord Corruptor.*\n\n**Bless with Filth (Psychic Level 1)**<br>- **WHEN:** Start of the Fight phase.\n\n- **TARGET:** One friendly SKAVEN unit within 18\" of this PSYKER.\n\n- **EFFECT:** Until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS].\n\n- **OVERCAST:** Until the end of the phase, each time a model in that unit makes a melee attack, an unmodified hit roll of 5+ scores a critical hit.\n\n**Pestilent Breath (Psychic Level 1, DAMAGE)**<br>- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy unit within 12\" of and visible to this PSYKER.\n\n- **EFFECT:** That unit takes D6+3 spell hits: S5, AP-1, D1, [ANTI-INFANTRY 3+]. Until the start of your next turn, subtract 1 from hit rolls made for models in that unit.\n\n- **OVERCAST:** That unit takes 2D6+3 spell hits instead.\n\n**Plague (Psychic Level 2, DAMAGE)**<br>- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy unit within 18\" of and visible to this PSYKER.\n\n- **EFFECT:** That unit takes 3D6 spell hits: S6, AP-1, D1, [ANTI-INFANTRY 3+]. Then roll one D6 for each other unit (friendly or enemy) within 3\" of it. On a 4+, that unit takes D6 spell hits with the same profile. The plague does not spread further.\n\n- **OVERCAST:** Roll for each other unit within 6\" instead."
       },
       {
         "name": "Lore of the Hidden Fang",
         "id": "81eb-ac71-fdcc-9764",
         "hidden": false,
-        "description": "\n\n*Known by: Lord Skreech Verminking, Verminlord Deceiver, Eshin Sorcerer.*\n\n**Skitterleap (Psychic Level 1)**<br>- **WHEN:** End of your Movement phase.\n\n- **TARGET:** One friendly SKAVEN INFANTRY unit within 12\" of this PSYKER.\n\n- **EFFECT:** Remove that unit from the battlefield and set it up again anywhere on the battlefield, more than 8\" horizontally from all enemy models. That unit counts as having made an ingress move.\n\n- **OVERCAST:** Set it up more than 6\" horizontally from all enemy models instead.\n\n**Warp Stars (Psychic Level 1, DAMAGE)**<br>- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy model within 18\" of and visible to this PSYKER. It can be a CHARACTER model in an Attached unit.\n\n- **EFFECT:** That model suffers D3 mortal wounds. Allocate them only to that model; excess damage is lost.\n\n- **OVERCAST:** That model suffers 2D3 mortal wounds instead.\n\n**Veil of Shadows (Psychic Level 1)**<br>- **WHEN:** Your Movement phase.\n\n- **TARGET:** One friendly SKAVEN INFANTRY unit within 18\" of this PSYKER.\n\n- **EFFECT:** Until the start of your next turn, that unit cannot be selected as the target of a ranged attack unless the attacking model is within 12\" of it.\n\n- **OVERCAST:** 6\" instead of 12\"."
+        "description": "\n\n*Known by: Lord Skreech Verminking, Verminlord Deceiver, Eshin Sorcerer.*\n\n**Skitterleap (Psychic Level 1)**<br>- **WHEN:** End of your Movement phase.\n\n- **TARGET:** One friendly SKAVEN INFANTRY unit within 12\" of this PSYKER.\n\n- **EFFECT:** Remove that unit from the battlefield and set it up again anywhere on the battlefield, more than 8\" horizontally from all enemy models. That unit counts as having made an ingress move.\n\n- **OVERCAST:** Set it up more than 6\" horizontally from all enemy models instead.\n\n**Warp Stars (Psychic Level 1, DAMAGE)**<br>- **WHEN:** Your Shooting phase.\n\n- **TARGET:** One enemy unit within 18\" of and visible to this PSYKER.\n\n- **EFFECT:** That unit takes 4 spell hits: S7, AP-3, D2, [PRECISION].\n\n- **OVERCAST:** That unit takes 6 spell hits instead.\n\n**Veil of Shadows (Psychic Level 1)**<br>- **WHEN:** Your Movement phase.\n\n- **TARGET:** One friendly SKAVEN INFANTRY unit within 18\" of this PSYKER.\n\n- **EFFECT:** Until the start of your next turn, that unit cannot be selected as the target of a ranged attack unless the attacking model is within 12\" of it.\n\n- **OVERCAST:** 6\" instead of 12\"."
       },
       {
         "name": "Skryre Worship — Test It on Them-Them! / 1 CP",
