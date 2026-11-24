@@ -1,0 +1,9629 @@
+[
+ {
+  "name": "Prophet of Truth",
+  "category": "EPIC HERO",
+  "subtitle": "Supreme Hierarch - Epic Hero",
+  "points": 160,
+  "profile": {
+   "M": "8\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "6",
+   "LD": "4+",
+   "OC": "3",
+   "SP": "4"
+  },
+  "page": 41,
+  "unit_composition": [
+   "1 Prophet of Truth - Epic Hero"
+  ],
+  "equipped": [
+   "Gravity Throne Assault Cannons",
+   "Gravity Throne",
+   "Hierarch Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Hierarch Shield",
+    "text": "The bearer has a starting SP value of 4."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Gravity Throne Assault Cannons",
+    "range": "24\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Twin-linked"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Gravity Throne",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Voice of the Covenant",
+    "text": "At the start of any phase, select one friendly Covenant Infantry unit within 12 inches of this model, then select one Caste Doctrine available to any Sergeant model in your army that can be used in that phase. Until the end of the phase, the selected unit is affected by that Doctrine as though it contained the appropriate Sergeant. This use does not prevent another unit from using the same Doctrine in that battle round."
+   },
+   {
+    "name": "Instruments of My Will",
+    "text": "Once per battle round, you can target this model's unit with a Stratagem for 0CP."
+   },
+   {
+    "name": "Sacred Authority",
+    "text": "While this model is not part of an Attached unit, it has the Lone Operative ability."
+   }
+  ],
+  "keywords": [
+   "San'Shyuum",
+   "Character",
+   "Epic Hero",
+   "Fly",
+   "Prophet of Truth"
+  ]
+ },
+ {
+  "name": "Prophet of Regret",
+  "category": "EPIC HERO",
+  "subtitle": "Militant Hierarch - Epic Hero",
+  "points": 135,
+  "profile": {
+   "M": "10\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "6",
+   "LD": "5+",
+   "OC": "2",
+   "SP": "4"
+  },
+  "page": 42,
+  "unit_composition": [
+   "1 Prophet of Regret - Epic Hero"
+  ],
+  "equipped": [
+   "Gravity Throne Assault Cannons",
+   "Gravity Throne",
+   "Hierarch Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Hierarch Shield",
+    "text": "The bearer has a starting SP value of 4."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Gravity Throne Assault Cannons",
+    "range": "24\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Twin-linked"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Gravity Throne",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Reckless Crusade",
+    "text": "While this model is within 6 inches of one or more friendly Covenant Infantry units, add 2 inches to those units' Move characteristics and re-roll Advance and Charge rolls made for them."
+   },
+   {
+    "name": "Short-range Teleporter",
+    "text": "Once per battle, at the end of your opponent's Movement phase, remove this model's unit from the battlefield and set it back up wholly within 6 inches of its previous position and more than 3 inches horizontally from every enemy model."
+   },
+   {
+    "name": "Sacred Authority",
+    "text": "While this model is not part of an Attached unit, it has the Lone Operative ability."
+   }
+  ],
+  "keywords": [
+   "San'Shyuum",
+   "Character",
+   "Epic Hero",
+   "Fly",
+   "Prophet of Regret"
+  ]
+ },
+ {
+  "name": "Prophet of Mercy",
+  "category": "EPIC HERO",
+  "subtitle": "Keeper of the Faith - Epic Hero",
+  "points": 110,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "5",
+   "LD": "4+",
+   "OC": "3",
+   "SP": "4"
+  },
+  "page": 43,
+  "unit_composition": [
+   "1 Prophet of Mercy - Epic Hero"
+  ],
+  "equipped": [
+   "Gravity Throne Assault Cannons",
+   "Gravity Throne",
+   "Hierarch Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Hierarch Shield",
+    "text": "The bearer has a starting SP value of 4."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Gravity Throne Assault Cannons",
+    "range": "24\"",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Twin-linked"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Gravity Throne",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "6+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Voice of the Faithful",
+    "text": "While a friendly Covenant Infantry unit is within 6 inches of this model, improve that unit's Leadership characteristic by 1 and add 1 to the Objective Control characteristic of models in it."
+   },
+   {
+    "name": "Ancient Counsel",
+    "text": "Once per phase, when a friendly Covenant Infantry unit within 6 inches of this model becomes affected by a Caste or Fanatical Doctrine, until the end of the phase models in that unit can re-roll Hit rolls of 1 and Wound rolls of 1."
+   },
+   {
+    "name": "Sacred Authority",
+    "text": "While this model is not part of an Attached unit, it has the Lone Operative ability."
+   }
+  ],
+  "keywords": [
+   "San'Shyuum",
+   "Character",
+   "Epic Hero",
+   "Fly",
+   "Prophet of Mercy"
+  ]
+ },
+ {
+  "name": "Thel 'Vadam",
+  "category": "EPIC HERO",
+  "subtitle": "The Arbiter - Epic Hero",
+  "points": 200,
+  "profile": {
+   "M": "8\"",
+   "T": "4",
+   "SV": "2+",
+   "W": "6",
+   "LD": "5+",
+   "OC": "2",
+   "SP": "4"
+  },
+  "page": 44,
+  "unit_composition": [
+   "1 Thel 'Vadam - Epic Hero"
+  ],
+  "equipped": [
+   "Prophet's Bane",
+   "Plasma Rifle",
+   "Plasma Pistol",
+   "Arbiter Personal Shield",
+   "Stealth Projector"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [
+   "This model can be attached to: Sangheili Warrior Cadre, Sangheili Swordmasters."
+  ],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Arbiter Personal Shield",
+    "text": "The bearer has a starting SP value of 4."
+   },
+   {
+    "name": "Stealth Projector",
+    "text": "The bearer has Stealth. In addition, an enemy model more than 12 inches from the bearer cannot select it as the target of a Precision ranged attack."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifle",
+    "range": "15\"",
+    "A": "3",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Prophet's Bane",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "2+",
+    "S": "9",
+    "AP": "-4",
+    "D": "3",
+    "keywords": [
+     "Devastating Wounds",
+     "Precision"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Leader"
+   },
+   {
+    "name": "The Arbiter",
+    "text": "While this model is leading a unit, that unit is considered to contain a Sangheili Sergeant for the purpose of using Sangheili Caste Doctrines."
+   },
+   {
+    "name": "Master of the Sangheili Doctrines",
+    "text": "Once per battle round, when this model's unit uses Sangheili Ambush, select two of that Doctrine's effects instead of one."
+   },
+   {
+    "name": "Blade of the Arbiter",
+    "text": "Each time this model makes a melee attack that targets a Character unit, re-roll the Hit roll and Wound roll."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Character",
+   "Epic Hero",
+   "Thel 'Vadam"
+  ]
+ },
+ {
+  "name": "Rtas 'Vadum",
+  "category": "EPIC HERO",
+  "subtitle": "Special Operations Commander - Epic Hero",
+  "points": 90,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "2+",
+   "W": "5",
+   "LD": "5+",
+   "OC": "2",
+   "SP": "3"
+  },
+  "page": 45,
+  "unit_composition": [
+   "1 Rtas 'Vadum - Epic Hero"
+  ],
+  "equipped": [
+   "Covenant Carbine",
+   "Plasma Pistol",
+   "Energy Sword",
+   "Commander Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [
+   "This model can be attached to: Sangheili Warrior Cadre, Sangheili Swordmasters, Sangheili Special Operations Team, Sangheili Zealots."
+  ],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Commander Personal Shield",
+    "text": "The bearer has a starting SP value of 3."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Energy Sword",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Leader"
+   },
+   {
+    "name": "Special Operations Commander",
+    "text": "While this model is leading a unit, add 1 to Hit rolls for attacks made by models in that unit."
+   },
+   {
+    "name": "Fleetmaster",
+    "text": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Character",
+   "Epic Hero",
+   "Rtas 'Vadum"
+  ]
+ },
+ {
+  "name": "Champions of the Arbiter",
+  "category": "EPIC HERO",
+  "subtitle": "N'tho and Usze - Epic Heroes",
+  "points": 210,
+  "profile": {
+   "M": "8\"",
+   "T": "4",
+   "SV": "2+",
+   "W": "4",
+   "LD": "5+",
+   "OC": "1",
+   "SP": "3"
+  },
+  "page": 46,
+  "unit_composition": [
+   "1 N'tho 'Sraom",
+   "1 Usze 'Taham",
+   "The profile above and SP value apply to each model."
+  ],
+  "equipped": [
+   "N'tho: Covenant Carbine, Plasma Pistol, Energy Sword, Hero Personal Shield",
+   "Usze: 2 Plasma Rifles, Energy Sword, Hero Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [
+   "This model can be attached to: Sangheili Rangers, Sangheili Special Operations Team. When this unit becomes attached, both N'tho and Usze are Leader models."
+  ],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Hero Personal Shield",
+    "text": "The bearer has a starting SP value of 3."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Covenant Carbine - N'tho",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Plasma Pistol - N'tho",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Rifles - Usze",
+    "range": "15\"",
+    "A": "6",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Energy Sword",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deep Strike, Leader"
+   },
+   {
+    "name": "Independent Operators",
+    "text": "While this unit is not leading another unit, it has Lone Operative."
+   },
+   {
+    "name": "Command Interception",
+    "text": "Once per battle round, after your opponent uses a Stratagem, increase the CP cost of that use by 1CP."
+   },
+   {
+    "name": "Tactical Coordination",
+    "text": "Once per battle round, when a friendly Covenant unit within 12 inches of this unit is selected as the target of a Stratagem, reduce the CP cost of that use by 1CP."
+   },
+   {
+    "name": "Return to the Shadows",
+    "text": "At the end of your opponent's Fight phase, if this unit is not leading another unit, remove it from the battlefield and place it into Strategic Reserves."
+   },
+   {
+    "name": "Coordinated Assault",
+    "text": "While both N'tho and Usze are on the battlefield, re-roll Hit rolls of 1 and Wound rolls of 1 for attacks made by models in this unit. While this unit is leading another unit, models in that Bodyguard unit also receive this benefit."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Character",
+   "Epic Hero",
+   "Special Operations",
+   "N'tho 'Sraom",
+   "Usze 'Taham"
+  ]
+ },
+ {
+  "name": "Tartarus",
+  "category": "EPIC HERO",
+  "subtitle": "Chieftain of the Rukt Clan - Epic Hero",
+  "points": 180,
+  "profile": {
+   "M": "6\"",
+   "T": "6",
+   "SV": "2+",
+   "W": "8",
+   "LD": "6+",
+   "OC": "2",
+   "SP": "4"
+  },
+  "page": 47,
+  "unit_composition": [
+   "1 Tartarus - Epic Hero"
+  ],
+  "equipped": [
+   "Fist of Rukt",
+   "Chieftain Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [
+   "This model can be attached to: Jiralhanae Assault Pack, Jiralhanae Linebreakers."
+  ],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Chieftain Shield",
+    "text": "The bearer has a starting SP value of 4."
+   }
+  ],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Fist of Rukt",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "12",
+    "AP": "-4",
+    "D": "6",
+    "keywords": [
+     "Devastating Wounds",
+     "Gravity Slam"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 5+, Leader"
+   },
+   {
+    "name": "Chieftain of the Rukt Clan",
+    "text": "While this model is leading a unit, models in that unit have a Save characteristic of 3+ and Feel No Pain 5+."
+   },
+   {
+    "name": "Chieftain's Wrath",
+    "text": "Each time this model makes a melee attack after charging: that attack has Lethal Hits if the target contains a model with 6 or more Wounds; Precision if the target contains a Leader model; and Sustained Hits 2 if the target contains 10 or more models. These effects are cumulative."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Grenades",
+   "Character",
+   "Epic Hero",
+   "Chieftain",
+   "Tartarus"
+  ]
+ },
+ {
+  "name": "San'Shyuum Advisor",
+  "category": "CHARACTER",
+  "subtitle": "Political and Religious Advisor",
+  "points": 50,
+  "profile": {
+   "M": "8\"",
+   "T": "4",
+   "SV": "5+",
+   "W": "4",
+   "LD": "5+",
+   "OC": "2"
+  },
+  "page": 48,
+  "unit_composition": [
+   "1 San'Shyuum Advisor"
+  ],
+  "equipped": [
+   "Ceremonial Staff"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [
+   "This model can be attached to: Yig-Yar Marauders, Grunt Cadre."
+  ],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Ceremonial Staff",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Leader"
+   },
+   {
+    "name": "Divine Mandate",
+    "text": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+   },
+   {
+    "name": "Ministerial Edict",
+    "text": "Once per battle round, when this model's unit is targeted with a Stratagem, reduce the CP cost of that use by 1CP."
+   },
+   {
+    "name": "Sacred Authority",
+    "text": "While this model is not part of an Attached unit, it has the Lone Operative ability."
+   }
+  ],
+  "keywords": [
+   "San'Shyuum",
+   "Infantry",
+   "Character",
+   "Fly",
+   "Advisor"
+  ]
+ },
+ {
+  "name": "Sangheili Shipmaster",
+  "category": "CHARACTER",
+  "subtitle": "Fleet Command Unit",
+  "points": 155,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "2+",
+   "W": "5",
+   "LD": "5+",
+   "OC": "2",
+   "SP": "4"
+  },
+  "page": 49,
+  "unit_composition": [
+   "1 Sangheili Shipmaster",
+   "This unit can also include 0-1 Sangheili Ultra, 0-3 Sangheili Warrior Auxiliaries and 0-2 Unggoy Auxiliaries. Pay the points shown on each added model's entry."
+  ],
+  "equipped": [
+   "Plasma Repeater",
+   "Plasma Pistol",
+   "Energy Sword",
+   "Shipmaster Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [
+   "This model can be attached to: Sangheili Warrior Cadre, Sangheili Swordmasters, Yig-Yar Corsairs, Grunt Cadre."
+  ],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Shipmaster Personal Shield",
+    "text": "The bearer has a starting SP value of 4."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Repeater",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Lethal Hits",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Energy Sword",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Leader"
+   },
+   {
+    "name": "Shipmaster's Command",
+    "text": "Once per turn, at the start of any phase, select one friendly Covenant unit within 6 inches of this model and one Sangheili Caste Doctrine that can be used in that phase. Until the end of the phase, that unit is affected by the Doctrine. It need not contain a Sangheili Sergeant. This use does not count as the unit using a Caste Doctrine and does not stop another unit from using the same Doctrine in that battle round."
+   },
+   {
+    "name": "Glassing Beam",
+    "text": "Once per battle, in your Shooting phase, select one enemy unit within 48 inches of and visible to this model, then roll one D6. On a 3+, that enemy unit suffers 3D6 mortal wounds."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Character",
+   "Shipmaster"
+  ]
+ },
+ {
+  "name": "Sangheili Fieldmaster",
+  "category": "CHARACTER",
+  "subtitle": "Field Command Unit",
+  "points": 180,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "2+",
+   "W": "5",
+   "LD": "5+",
+   "OC": "2",
+   "SP": "4"
+  },
+  "page": 50,
+  "unit_composition": [
+   "1 Sangheili Fieldmaster",
+   "This unit can also include 0-1 Sangheili Ultra, 0-3 Sangheili Warrior Auxiliaries and 0-2 Unggoy Auxiliaries. Pay the points shown on each added model's entry."
+  ],
+  "equipped": [
+   "Plasma Rifle",
+   "Plasma Pistol",
+   "Energy Sword",
+   "Fieldmaster Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [
+   "This model can be attached to: Sangheili Warrior Cadre, Sangheili Rangers, Jiralhanae Assault Pack, Yig-Yar Marauders, Grunt Cadre."
+  ],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Fieldmaster Personal Shield",
+    "text": "The bearer has a starting SP value of 4."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifle",
+    "range": "15\"",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Energy Sword",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Leader"
+   },
+   {
+    "name": "Call in Reinforcements",
+    "text": "Once per battle round, when a friendly Covenant Infantry unit is destroyed within 24 inches of this model, you can spend 1CP. Add a new unit identical to the destroyed unit to your army and place it into Strategic Reserves at Starting Strength. It includes the destroyed unit's Sergeants and non-Auxiliary wargear, but no Auxiliary models. A replacement unit created by this ability cannot itself be replaced by this ability."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Character",
+   "Fieldmaster"
+  ]
+ },
+ {
+  "name": "Sangheili Blademaster",
+  "category": "CHARACTER",
+  "subtitle": "Master Assassin",
+  "points": 90,
+  "profile": {
+   "M": "8\"",
+   "T": "4",
+   "SV": "3+",
+   "W": "5",
+   "LD": "5+",
+   "OC": "1",
+   "SP": "3"
+  },
+  "page": 51,
+  "unit_composition": [
+   "1 Sangheili Blademaster"
+  ],
+  "equipped": [
+   "Twin-linked Energy Swords",
+   "Blademaster Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Blademaster Personal Shield",
+    "text": "The bearer has a starting SP value of 3."
+   }
+  ],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Twin-linked Energy Swords",
+    "range": "Melee",
+    "A": "7",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Precision",
+     "Twin-linked"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deep Strike, Lone Operative"
+   },
+   {
+    "name": "Master Assassin",
+    "text": "At the start of the first battle round, select one enemy Character model. This model can re-roll Charge rolls against that Character's unit. Each time this model attacks that Character, an unmodified Wound roll of 5+ is a Critical Wound, and Critical Wounds inflicted on that Character have Devastating Wounds."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Character",
+   "Blademaster"
+  ]
+ },
+ {
+  "name": "Jiralhanae Chieftain",
+  "category": "CHARACTER",
+  "subtitle": "Pack Commander",
+  "points": 125,
+  "profile": {
+   "M": "6\"",
+   "T": "5",
+   "SV": "2+",
+   "W": "5",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "3"
+  },
+  "page": 52,
+  "unit_composition": [
+   "1 Jiralhanae Chieftain"
+  ],
+  "equipped": [
+   "Spiker",
+   "Brute Heavy Melee Weapon",
+   "Chieftain Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Replace the Spiker and Brute Heavy Melee Weapon with a Mangler and Gravity Hammer - 10pts.",
+   "Alternatively, replace the Spiker with one Covenant or Jiralhanae ranged weapon available to a Jiralhanae Heavy Gunner."
+  ],
+  "leader": [
+   "This model can be attached to: Jiralhanae Assault Pack, Jiralhanae Linebreakers, Yig-Yar Marauders, Grunt Cadre."
+  ],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Chieftain Shield",
+    "text": "The bearer has a starting SP value of 3."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Spiker",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Mangler",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds",
+     "Pistol"
+    ]
+   },
+   {
+    "name": "Bolt Spiker",
+    "range": "24\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Devastating Wounds",
+     "Rapid Fire 3"
+    ]
+   },
+   {
+    "name": "Skewer",
+    "range": "48\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-4",
+    "D": "4",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Brute Shot",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Blast",
+     "Ignores Cover"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Brute Heavy Melee Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   },
+   {
+    "name": "Gravity Hammer",
+    "range": "Melee",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-4",
+    "D": "5",
+    "keywords": [
+     "Devastating Wounds",
+     "Gravity Slam"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 6+, Leader"
+   },
+   {
+    "name": "Caste Doctrine Master",
+    "text": "This model is treated as a Jiralhanae Sergeant for the purpose of issuing Jiralhanae Caste Doctrines to its own unit."
+   },
+   {
+    "name": "Pack Commander",
+    "text": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Grenades",
+   "Character",
+   "Chieftain"
+  ]
+ },
+ {
+  "name": "Yig-Yar Corsair-Talon",
+  "category": "CHARACTER",
+  "subtitle": "Raiding Commander",
+  "points": 60,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "3+",
+   "W": "4",
+   "LD": "6+",
+   "OC": "2",
+   "SP": "6"
+  },
+  "page": 53,
+  "unit_composition": [
+   "1 Yig-Yar Corsair-Talon"
+  ],
+  "equipped": [
+   "Needler",
+   "Wrist Shield",
+   "Yig-Yar Plasma Sabre"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [
+   "This model can be attached to: Yig-Yar Marauders, Yig-Yar Corsairs, Yig-Yar Marksmen, T'vaoan Butchers."
+  ],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Wrist Shield",
+    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12 inches, its Shield Save is 4+ instead."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Needler",
+    "range": "14\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Yig-Yar Plasma Sabre",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Leader"
+   },
+   {
+    "name": "Master of the Raid",
+    "text": "While this model is leading a unit, add 2 inches to the Move characteristic of models in that unit and add 1 to the Attacks characteristic of their weapons, excluding Extra Attacks and One Shot weapons."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "Infantry",
+   "Grenades",
+   "Character",
+   "Corsair-Talon"
+  ]
+ },
+ {
+  "name": "Yig-Yar Headtaker",
+  "category": "CHARACTER",
+  "subtitle": "Infiltration Sniper",
+  "points": 65,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "4",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "page": 54,
+  "unit_composition": [
+   "1 Yig-Yar Headtaker"
+  ],
+  "equipped": [
+   "Covenant Carbine",
+   "Plasma Pistol",
+   "Yig-Yar Close Combat Weapon",
+   "Stealth Projector"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Replace the Covenant Carbine with a Needle Rifle, Particle Beam Rifle or Stalker Rifle."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Stealth Projector",
+    "text": "The bearer has Stealth. In addition, unless it is within 12 inches of an enemy model, it cannot be selected as the target of ranged attacks."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Needle Rifle",
+    "range": "60\"",
+    "A": "3",
+    "BS_WS": "2+",
+    "S": "1",
+    "AP": "0",
+    "D": "2",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Precision",
+     "Supercombine",
+     "Sustained Hits 3"
+    ]
+   },
+   {
+    "name": "Particle Beam Rifle",
+    "range": "60\"",
+    "A": "1",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Conversion Beam 30 inches",
+     "Precision",
+     "Sustained Hits 1"
+    ]
+   },
+   {
+    "name": "Stalker Rifle",
+    "range": "60\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "keywords": [
+     "Precision"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Yig-Yar Close Combat Weapon",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Infiltrators"
+   },
+   {
+    "name": "Headtaker",
+    "text": "Each time this model makes a ranged attack that targets a Character unit, re-roll the Hit roll and Wound roll."
+   },
+   {
+    "name": "Patient Ambush",
+    "text": "In your Shooting phase, if this model Remained Stationary, its Precision ranged weapons have Ignores Cover and improve their Damage characteristic by 1 until the end of the phase."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "Infantry",
+   "Grenades",
+   "Character",
+   "Headtaker"
+  ]
+ },
+ {
+  "name": "T'vaoan Raider",
+  "category": "CHARACTER",
+  "subtitle": "Independent Aerial Raider",
+  "points": 50,
+  "profile": {
+   "M": "12\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "5",
+   "LD": "6+",
+   "OC": "2"
+  },
+  "page": 55,
+  "unit_composition": [
+   "1 T'vaoan Raider"
+  ],
+  "equipped": [
+   "2 Plasma Rifles",
+   "T'vaoan Plasma Sabres"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifles",
+    "range": "15\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "T'vaoan Plasma Sabres",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deep Strike, Scouts 8 inches"
+   },
+   {
+    "name": "Relentless Raider",
+    "text": "This model is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+   },
+   {
+    "name": "Strafing Attack",
+    "text": "After this model has shot, it can make a Normal move of up to 6 inches. If it does, it cannot declare a charge this turn."
+   },
+   {
+    "name": "Break Contact",
+    "text": "At the end of the Fight phase, if this model is within Engagement Range of one or more enemy units, it can make a Fall Back move of up to 6 inches."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "T'vaoan",
+   "Infantry",
+   "Grenades",
+   "Fly",
+   "Character",
+   "Raider"
+  ]
+ },
+ {
+  "name": "Unggoy Deacon",
+  "category": "CHARACTER",
+  "subtitle": "Support Character",
+  "points": 20,
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "page": 56,
+  "unit_composition": [
+   "1 Unggoy Deacon"
+  ],
+  "equipped": [
+   "Plasma Pistol",
+   "Unggoy Close Combat Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [
+   "This model can be attached to: Grunt Cadre. If this model is attached to a Grunt Cadre, it cannot be your Warlord."
+  ],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Unggoy Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Leader"
+   },
+   {
+    "name": "Voice of the Deacon",
+    "text": "While a friendly Unggoy unit is within 6 inches of this model, it is considered to contain an Unggoy Sergeant for the purpose of accessing Unggoy Doctrines."
+   },
+   {
+    "name": "Religious Authority",
+    "text": "While a friendly Unggoy unit is within 6 inches of this model, improve that unit's Leadership characteristic by 1."
+   }
+  ],
+  "keywords": [
+   "Unggoy",
+   "Infantry",
+   "Grenades",
+   "Character",
+   "Deacon"
+  ]
+ },
+ {
+  "name": "Huragok Engineer",
+  "category": "CHARACTER",
+  "subtitle": "Covenant Repair Character",
+  "points": 50,
+  "profile": {
+   "M": "10\"",
+   "T": "4",
+   "SV": "5+",
+   "W": "4",
+   "LD": "6+",
+   "OC": "0",
+   "SP": "4"
+  },
+  "page": 57,
+  "unit_composition": [
+   "1 Huragok Engineer"
+  ],
+  "equipped": [
+   "Repair Tentacles",
+   "Huragok Defence Field"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Huragok Defence Field",
+    "text": "The bearer has a starting SP value of 4."
+   }
+  ],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Repair Tentacles",
+    "range": "Melee",
+    "A": "1",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Lone Operative"
+   },
+   {
+    "name": "Repair and Refit",
+    "text": "At the end of your Movement phase, select one friendly Covenant Vehicle or Fortification model within 3 inches. That model regains D3+1 lost Wounds or D3+1 lost SP. A model can be selected by this ability only once per turn."
+   }
+  ],
+  "keywords": [
+   "Huragok",
+   "Infantry",
+   "Character",
+   "Fly",
+   "Engineer"
+  ]
+ },
+ {
+  "name": "Jiralhanae Assault Pack",
+  "category": "BATTLELINE",
+  "subtitle": "Battleline Infantry Squad",
+  "points": 75,
+  "profile": {
+   "M": "6\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "3",
+   "LD": "6+",
+   "OC": "2"
+  },
+  "page": 58,
+  "unit_composition": [
+   "4 Jiralhanae Warriors",
+   "Add up to 4 additional Jiralhanae Warriors - 75pts."
+  ],
+  "equipped": [
+   "Spiker",
+   "Mangler",
+   "Brute Close Combat Weapon"
+  ],
+  "sergeant": [
+   "Add 1 Jiralhanae Pack Alpha or 1 Sangheili Ultra."
+  ],
+  "auxiliary": [
+   "For every 4 Jiralhanae Warriors in this unit, add up to 1 model from the Unggoy Auxiliary list."
+  ],
+  "wargear_options": [
+   "For every 4 Jiralhanae Warriors, 1 can replace its Spiker and Brute Close Combat Weapon with a Brute Shot or Bolt Spiker and a Brute Heavy Melee Weapon for free, or with a Skewer and a Brute Heavy Melee Weapon for +10pts."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Spiker",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Mangler",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds",
+     "Pistol"
+    ]
+   },
+   {
+    "name": "Brute Shot",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Blast",
+     "Ignores Cover"
+    ]
+   },
+   {
+    "name": "Skewer",
+    "range": "48\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-4",
+    "D": "4",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Bolt Spiker",
+    "range": "24\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Devastating Wounds",
+     "Rapid Fire 3"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Brute Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   },
+   {
+    "name": "Brute Heavy Melee Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 6+"
+   },
+   {
+    "name": "Dominating Presence",
+    "text": "At the end of the Charge phase, select one enemy unit within Engagement Range of this unit. It must take a Battle-shock test, subtracting 1 from that test."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Grenades",
+   "Battleline",
+   "Assault Pack"
+  ]
+ },
+ {
+  "name": "Yig-Yar Marauders",
+  "category": "BATTLELINE",
+  "subtitle": "Battleline Infantry Squad",
+  "points": 70,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "2"
+  },
+  "page": 59,
+  "unit_composition": [
+   "8 Yig-Yar Marauders"
+  ],
+  "equipped": [
+   "Plasma Pistol",
+   "Yig-Yar Close Combat Weapon"
+  ],
+  "sergeant": [
+   "Add 1 Jiralhanae Pack Alpha, 1 Sangheili Ultra or 1 Yig-Yar Talon."
+  ],
+  "auxiliary": [
+   "For every 4 Yig-Yar Marauders in this unit, add up to 2 models from the Unggoy Auxiliary list."
+  ],
+  "wargear_options": [
+   "Any number of models can take a Wrist Shield — +5pts/model.",
+   "For every 4 Marauders, 1 can replace its Plasma Pistol with a Needler; 1 can replace it with a Covenant Carbine; and 1 can replace it with a Plasma Rifle. These weapon exchanges are free.",
+   "A model with a Covenant Carbine cannot take a Wrist Shield."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Wrist Shield",
+    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12 inches, its Shield Save is 4+ instead."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Needler",
+    "range": "14\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   },
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Plasma Rifle",
+    "range": "15\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Yig-Yar Close Combat Weapon",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Scouts 6 inches"
+   },
+   {
+    "name": "Pack Hunters",
+    "text": "Re-roll Hit rolls of 1 for attacks made by models in this unit. If the target is within range of an objective marker, re-roll the Hit roll instead."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "Infantry",
+   "Grenades",
+   "Battleline",
+   "Marauders"
+  ]
+ },
+ {
+  "name": "Grunt Cadre",
+  "category": "BATTLELINE",
+  "subtitle": "Battleline Infantry Squad",
+  "points": 25,
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "2"
+  },
+  "page": 60,
+  "unit_composition": [
+   "5 Unggoy Warriors - 25pts",
+   "10 Unggoy Warriors - 45pts",
+   "20 Unggoy Warriors - 85pts"
+  ],
+  "equipped": [
+   "Plasma Pistol",
+   "Unggoy Close Combat Weapon"
+  ],
+  "sergeant": [
+   "Add 1 Sangheili Ultra, 1 Unggoy Ultra or 1 Jiralhanae Pack Alpha."
+  ],
+  "auxiliary": [
+   "For every 5 Unggoy Warriors in this unit, add either 1 Sangheili Auxiliary; 1 Jiralhanae Auxiliary; or up to 2 Yig-Yar Auxiliaries."
+  ],
+  "wargear_options": [
+   "For every 5 Unggoy Warriors, 1 can replace its Plasma Pistol with a Plasma Rifle or a Needler. These weapon exchanges are free."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Rifle",
+    "range": "15\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Needler",
+    "range": "14\"",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Unggoy Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Claimed in the Covenant's Name",
+    "text": "If you control an objective marker at the end of your Command phase and this unit is within range of it, that marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+   }
+  ],
+  "keywords": [
+   "Unggoy",
+   "Infantry",
+   "Grenades",
+   "Battleline",
+   "Cadre"
+  ]
+ },
+ {
+  "name": "Yanme'e Drone Swarm",
+  "category": "BATTLELINE",
+  "subtitle": "Battleline Flying Infantry Swarm",
+  "points": 50,
+  "profile": {
+   "M": "12\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "page": 61,
+  "unit_composition": [
+   "5 Yanme'e Drones",
+   "Add up to 5 additional Yanme'e Drones - 10pts/model."
+  ],
+  "equipped": [
+   "2 Plasma Pistols",
+   "Drone Claws"
+  ],
+  "sergeant": [
+   "Add 1 Yanme'e Major."
+  ],
+  "auxiliary": [
+   "This unit cannot include Auxiliary models."
+  ],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Pistols",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Drone Claws",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Scouts 8 inches"
+   },
+   {
+    "name": "Synaptic Host",
+    "text": "While this unit contains a Yanme'e Major, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by Yanme'e Drone models in this unit by 1."
+   },
+   {
+    "name": "Swarming Flight",
+    "text": "While this unit contains 6 or more models, it can move through friendly Infantry models as though they were not there, but cannot end a move on top of another model."
+   }
+  ],
+  "keywords": [
+   "Yanme'e",
+   "Infantry",
+   "Fly",
+   "Battleline",
+   "Drone Swarm"
+  ]
+ },
+ {
+  "name": "Sangheili Warrior Cadre",
+  "category": "INFANTRY",
+  "subtitle": "Elite Infantry Squad",
+  "points": 60,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "2"
+  },
+  "page": 62,
+  "unit_composition": [
+   "3 Sangheili Warriors",
+   "Add up to 3 additional Sangheili Warriors — 60pts."
+  ],
+  "equipped": [
+   "Plasma Pistol",
+   "Storm Rifle",
+   "Sangheili Close Combat Weapon",
+   "Sangheili Personal Shield"
+  ],
+  "sergeant": [
+   "Add 1 Sangheili Ultra."
+  ],
+  "auxiliary": [
+   "For every 3 Sangheili Warriors, add either up to 3 models from the Unggoy and/or Yig-Yar Auxiliary lists; or 1 model from the Jiralhanae Auxiliary list."
+  ],
+  "wargear_options": [
+   "For every 3 Sangheili Warriors, 1 can replace its Plasma Pistol and Storm Rifle with 2 Plasma Rifles.",
+   "For every 3 Sangheili Warriors, 1 can replace its Storm Rifle with a Covenant Carbine or Needler.",
+   "For every 3 Sangheili Warriors, 1 can replace its Storm Rifle with a Plasma Repeater, or with a Fuel Rod for +10pts. All other exchanges above are free."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Sangheili Personal Shield",
+    "text": "The bearer has a starting SP value of 2."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Storm Rifle",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Rifles",
+    "range": "15\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Needler",
+    "range": "14\"",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   },
+   {
+    "name": "Plasma Repeater",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Lethal Hits",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Fuel Rod",
+    "range": "24\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "keywords": [
+     "Blast"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Sangheili Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Coordinated Assault",
+    "text": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, re-roll the Wound roll instead."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Warrior Cadre"
+  ]
+ },
+ {
+  "name": "Sangheili Rangers",
+  "category": "INFANTRY",
+  "subtitle": "Elite Infiltration Infantry",
+  "points": 65,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "2"
+  },
+  "page": 63,
+  "unit_composition": [
+   "2 Sangheili Rangers"
+  ],
+  "equipped": [
+   "Covenant Carbine",
+   "Plasma Pistol",
+   "Sangheili Close Combat Weapon",
+   "Sangheili Personal Shield",
+   "Stealth Projector"
+  ],
+  "sergeant": [
+   "Add 1 Sangheili Ultra or 1 Sangheili Shadowmaster."
+  ],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Sangheili Personal Shield",
+    "text": "The bearer has a starting SP value of 2."
+   },
+   {
+    "name": "Stealth Projector",
+    "text": "The bearer has Stealth. Unless every visible model in this unit is equipped with a Stealth Projector, this wargear does not confer Stealth to models without it."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Sangheili Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Infiltrators"
+   },
+   {
+    "name": "Forward Operatives",
+    "text": "This unit is eligible to shoot and perform an Action in a turn in which it Advanced. Performing an Action does not prevent it from shooting, and shooting does not cause an Action it is performing to fail."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Ranger",
+   "Infantry",
+   "Grenades"
+  ]
+ },
+ {
+  "name": "Sangheili Swordmasters",
+  "category": "INFANTRY",
+  "subtitle": "Elite Melee Infantry",
+  "points": 90,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "3+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "2"
+  },
+  "page": 64,
+  "unit_composition": [
+   "2 Sangheili Swordmasters",
+   "Add 2 additional Sangheili Swordmasters - 110pts."
+  ],
+  "equipped": [
+   "Energy Sword",
+   "Plasma Pistol",
+   "Sangheili Personal Shield",
+   "Stealth Projector"
+  ],
+  "sergeant": [
+   "Add 1 Sangheili Ultra."
+  ],
+  "auxiliary": [
+   "For every 2 Sangheili Swordmasters, add up to 1 model from the Special Operations Auxiliary list."
+  ],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Sangheili Personal Shield",
+    "text": "The bearer has a starting SP value of 2."
+   },
+   {
+    "name": "Stealth Projector",
+    "text": "The bearer has Stealth. Unless every visible model in this unit is equipped with a Stealth Projector, this wargear does not confer Stealth to models without it."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Energy Sword",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Swordmaster's Onslaught",
+    "text": "Each time a model in this unit fights, if this unit charged, was charged or performed a Heroic Intervention this turn, add 2 to the Attacks characteristic of that model's Energy Sword."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Swordmaster",
+   "Infantry",
+   "Grenades"
+  ]
+ },
+ {
+  "name": "Sangheili Special Operations Team",
+  "category": "INFANTRY",
+  "subtitle": "Elite Infiltration Infantry",
+  "points": 135,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "2"
+  },
+  "page": 65,
+  "unit_composition": [
+   "3 Sangheili Special Operations Warriors"
+  ],
+  "equipped": [
+   "2 Plasma Rifles",
+   "Sangheili Close Combat Weapon",
+   "Sangheili Personal Shield",
+   "Stealth Projector"
+  ],
+  "sergeant": [
+   "Add 1 Sangheili Ultra or 1 Sangheili Shadowmaster."
+  ],
+  "auxiliary": [
+   "Add up to 5 models from the Special Operations Auxiliary list."
+  ],
+  "wargear_options": [
+   "1 model can replace both Plasma Rifles with a Particle Beam Rifle or Stalker Rifle.",
+   "1 model can replace 1 Plasma Rifle and its Close Combat Weapon with an Energy Sword.",
+   "1 model can replace 1 Plasma Rifle with a Satchel Charge.",
+   "These weapon exchanges are free."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Sangheili Personal Shield",
+    "text": "The bearer has a starting SP value of 2."
+   },
+   {
+    "name": "Stealth Projector",
+    "text": "The bearer has Stealth. Unless every visible model in this unit is equipped with a Stealth Projector, this wargear does not confer Stealth to models without it."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifles",
+    "range": "15\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Particle Beam Rifle",
+    "range": "60\"",
+    "A": "1",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Conversion Beam 30 inches",
+     "Precision",
+     "Sustained Hits 1"
+    ]
+   },
+   {
+    "name": "Stalker Rifle",
+    "range": "60\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "keywords": [
+     "Precision"
+    ]
+   },
+   {
+    "name": "Satchel Charge",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "D3",
+    "keywords": [
+     "Blast",
+     "One Shot"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Sangheili Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Energy Sword",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Infiltrators"
+   },
+   {
+    "name": "Remote Destructive Device",
+    "text": "Once per battle, when an enemy unit ends a Normal, Advance, Fall Back or Charge move within 6 inches of this unit, roll one D6. On a 2+, that enemy unit suffers D3+3 mortal wounds."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Special Operations",
+   "Infantry",
+   "Grenades"
+  ]
+ },
+ {
+  "name": "Sangheili Assassins",
+  "category": "INFANTRY",
+  "subtitle": "Elite Character Hunters",
+  "points": 100,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "2"
+  },
+  "page": 66,
+  "unit_composition": [
+   "3 Sangheili Assassins",
+   "Add up to 3 additional Sangheili Assassins - 100pts."
+  ],
+  "equipped": [
+   "Covenant Carbine",
+   "Plasma Pistol",
+   "Sangheili Close Combat Weapon",
+   "Sangheili Personal Shield"
+  ],
+  "sergeant": [
+   "Add 1 Sangheili Ultra or 1 Sangheili Shadowmaster."
+  ],
+  "auxiliary": [
+   "For every 3 Sangheili Assassins, add up to 2 models from the Yig-Yar Auxiliary list."
+  ],
+  "wargear_options": [
+   "Any number of models can replace their Covenant Carbine with an Energy Sword for free."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Sangheili Personal Shield",
+    "text": "The bearer has a starting SP value of 2."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Sangheili Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Energy Sword",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Priority Elimination",
+    "text": "Add 1 to Wound rolls for attacks made by models in this unit that target a Character unit."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Assassin",
+   "Infantry",
+   "Grenades"
+  ]
+ },
+ {
+  "name": "Sangheili Zealots",
+  "category": "INFANTRY",
+  "subtitle": "Fanatical Elite Infantry",
+  "points": 150,
+  "profile": {
+   "M": "8\"",
+   "T": "4",
+   "SV": "3+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "page": 67,
+  "unit_composition": [
+   "5 Sangheili Zealots",
+   "Add up to 5 additional Sangheili Zealots - 150pts."
+  ],
+  "equipped": [
+   "Storm Rifle",
+   "Plasma Pistol",
+   "Sangheili Close Combat Weapon"
+  ],
+  "sergeant": [
+   "Add 1 Sangheili Ultra."
+  ],
+  "auxiliary": [],
+  "wargear_options": [
+   "For every 5 models, 1 can replace its Storm Rifle with a Fuel Rod — +10pts.",
+   "For every 5 models, 1 can replace its Storm Rifle and Close Combat Weapon with an Energy Sword for free.",
+   "Any number of models can replace their Storm Rifle and Plasma Pistol with 2 Plasma Rifles for free."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Storm Rifle",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Fuel Rod",
+    "range": "24\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "keywords": [
+     "Blast"
+    ]
+   },
+   {
+    "name": "Plasma Rifles",
+    "range": "15\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Sangheili Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Energy Sword",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Vengeful Pursuit",
+    "text": "Once per battle round, after an enemy unit finishes making ranged attacks, if one or more models in this unit were destroyed, choose one: Surge - move D6+2 inches towards the closest enemy unit and this move can end within Engagement Range; or Return Fire - this unit shoots, but can target only the enemy unit that triggered this ability."
+   },
+   {
+    "name": "Sacrificial Advance",
+    "text": "At the start of the Fight phase, if this unit is not within Engagement Range, destroy one model in it. If you do, this unit can move D6 inches towards the closest enemy and can end within Engagement Range. If it cannot, it can instead move that distance towards the closest objective marker."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Zealot",
+   "Infantry",
+   "Grenades"
+  ]
+ },
+ {
+  "name": "Sangheili Honor Guard",
+  "category": "INFANTRY",
+  "subtitle": "Elite Character Retinue",
+  "points": 150,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "2+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "4"
+  },
+  "page": 68,
+  "unit_composition": [
+   "3 Sangheili Honor Guards"
+  ],
+  "equipped": [
+   "Honor Guard Pike",
+   "Honor Guard Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Honor Guard Personal Shield",
+    "text": "The bearer has a starting SP value of 4."
+   }
+  ],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Honor Guard Pike",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Living Bulwark",
+    "text": "While a Character model is part of this unit, improve that model's Save characteristic by 1 and worsen the Armour Penetration characteristic of attacks allocated to it by 1."
+   },
+   {
+    "name": "Honor Guard Retinue",
+    "text": "Before the battle, this unit can be attached to one Covenant Character model. That model becomes part of this unit. This does not count as that Character having joined a unit; it can still be attached to an eligible Bodyguard unit, in which case this Honor Guard also joins that unit."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Honor Guard",
+   "Infantry",
+   "Grenades"
+  ]
+ },
+ {
+  "name": "Jiralhanae Shock Pack",
+  "category": "INFANTRY",
+  "subtitle": "Jump Assault Infantry Squad",
+  "points": 100,
+  "profile": {
+   "M": "10\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "3",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "page": 69,
+  "unit_composition": [
+   "4 Jiralhanae Shock Troopers",
+   "Add up to 4 additional Jiralhanae Shock Troopers - 100pts."
+  ],
+  "equipped": [
+   "Mangler",
+   "Brute Heavy Melee Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [
+   "For every 4 Shock Troopers, add up to 1 Yanme'e Drone Specialist."
+  ],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Mangler",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds",
+     "Pistol"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Brute Heavy Melee Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 6+"
+   },
+   {
+    "name": "Brutal Descent",
+    "text": "Add 1 to Hit rolls for attacks made by models in this unit if it made a Charge move this turn."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Fly",
+   "Grenades",
+   "Jump Pack",
+   "Shock Pack"
+  ]
+ },
+ {
+  "name": "Jiralhanae Heavy Weapons Pack",
+  "category": "INFANTRY",
+  "subtitle": "Heavy Infantry Squad",
+  "points": 80,
+  "profile": {
+   "M": "6\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "3",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "page": 70,
+  "unit_composition": [
+   "3 Jiralhanae Gunners"
+  ],
+  "equipped": [
+   "Bolt Spiker",
+   "Brute Heavy Melee Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [
+   "Add 1 model from the Unggoy, Yig-Yar, Yanme'e or Huragok Auxiliary lists."
+  ],
+  "wargear_options": [
+   "Any number of models can replace their Bolt Spiker with a Skewer - 10pts/model."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Bolt Spiker",
+    "range": "24\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Devastating Wounds",
+     "Rapid Fire 3"
+    ]
+   },
+   {
+    "name": "Skewer",
+    "range": "48\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-4",
+    "D": "4",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Brute Heavy Melee Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 6+"
+   },
+   {
+    "name": "Heavy Weapons Specialists",
+    "text": "Attacks made by models in this unit have Sustained Hits 2 against Infantry. Against Monsters and Vehicles, they have Lethal Hits and score Critical Hits on unmodified Hit rolls of 5+."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Grenades",
+   "Heavy Weapons Pack"
+  ]
+ },
+ {
+  "name": "Jiralhanae Linebreakers",
+  "category": "INFANTRY",
+  "subtitle": "Elite Siege Infantry",
+  "points": 140,
+  "profile": {
+   "M": "5\"",
+   "T": "7",
+   "SV": "3+",
+   "W": "4",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "page": 71,
+  "unit_composition": [
+   "4 Jiralhanae Linebreakers"
+  ],
+  "equipped": [
+   "Gravity Hammer"
+  ],
+  "sergeant": [
+   "Add 1 Jiralhanae Pack Alpha."
+  ],
+  "auxiliary": [
+   "Add 1 model from the Yig-Yar or Yanme'e Auxiliary lists."
+  ],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Gravity Hammer",
+    "range": "Melee",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-4",
+    "D": "5",
+    "keywords": [
+     "Devastating Wounds",
+     "Gravity Slam"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 6+"
+   },
+   {
+    "name": "Shock Assault",
+    "text": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range. Roll one D6 for each Jiralhanae Linebreaker in this unit; for each 3+, that enemy unit suffers D3 mortal wounds."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Grenades",
+   "Linebreakers"
+  ]
+ },
+ {
+  "name": "Jiralhanae Entourage",
+  "category": "INFANTRY",
+  "subtitle": "Elite Bodyguard Infantry",
+  "points": 90,
+  "profile": {
+   "M": "6\"",
+   "T": "5",
+   "SV": "2+",
+   "W": "3",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "3"
+  },
+  "page": 72,
+  "unit_composition": [
+   "2 Jiralhanae Honor Guards"
+  ],
+  "equipped": [
+   "Gravity Hammer",
+   "Mangler",
+   "Honor Guard Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Honor Guard Shield",
+    "text": "The bearer has a starting SP value of 3."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Mangler",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds",
+     "Pistol"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Gravity Hammer",
+    "range": "Melee",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-4",
+    "D": "5",
+    "keywords": [
+     "Devastating Wounds",
+     "Gravity Slam"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 6+"
+   },
+   {
+    "name": "Bodyguard",
+    "text": "Before the battle, this unit can be attached to one friendly Covenant Character unit. While that unit contains a Character model, subtract 1 from Wound rolls for attacks that target it. These models are not Leaders and do not prevent the Character from joining another eligible unit."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Grenades",
+   "Bodyguard",
+   "Entourage"
+  ]
+ },
+ {
+  "name": "Yig-Yar Corsairs",
+  "category": "INFANTRY",
+  "subtitle": "Raiding Infantry Squad",
+  "points": 75,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 73,
+  "unit_composition": [
+   "5 Yig-Yar Corsairs",
+   "Add 5 additional Yig-Yar Corsairs - 75pts."
+  ],
+  "equipped": [
+   "Plasma Rifle",
+   "Yig-Yar Plasma Sabre"
+  ],
+  "sergeant": [
+   "Add 1 Sangheili Ultra or 1 Yig-Yar Talon."
+  ],
+  "auxiliary": [
+   "For every 5 Yig-Yar Corsairs, add up to 1 Yanme'e Drone Specialist."
+  ],
+  "wargear_options": [
+   "For every 5 Corsairs, up to 2 can replace their Plasma Rifle with a Needler for free."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifle",
+    "range": "15\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Needler",
+    "range": "14\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Yig-Yar Plasma Sabre",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Weapons Free",
+    "text": "Ranged weapons equipped by models in this unit have Assault."
+   },
+   {
+    "name": "Predatory Terror",
+    "text": "At the start of the Fight phase, each enemy unit within 6 inches of this unit must take a Battle-shock test, subtracting 1 from that test."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "Infantry",
+   "Grenades",
+   "Corsairs"
+  ]
+ },
+ {
+  "name": "Yig-Yar Marksmen",
+  "category": "INFANTRY",
+  "subtitle": "Precision Infantry Squad",
+  "points": 120,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 74,
+  "unit_composition": [
+   "3 Yig-Yar Marksmen",
+   "Add up to 3 additional Yig-Yar Marksmen - 80pts."
+  ],
+  "equipped": [
+   "Covenant Carbine",
+   "Plasma Pistol",
+   "Yig-Yar Close Combat Weapon",
+   "Stealth Projector"
+  ],
+  "sergeant": [
+   "Add 1 Yig-Yar Talon or 1 Sangheili Shadowmaster."
+  ],
+  "auxiliary": [],
+  "wargear_options": [
+   "Any number of models can replace their Covenant Carbine with a Needle Rifle, Particle Beam Rifle or Stalker Rifle."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Stealth Projector",
+    "text": "The bearer has Stealth. Unless every visible model in this unit is equipped with a Stealth Projector, this wargear does not confer Stealth to models without it."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Needle Rifle",
+    "range": "60\"",
+    "A": "3",
+    "BS_WS": "2+",
+    "S": "1",
+    "AP": "0",
+    "D": "2",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Precision",
+     "Supercombine",
+     "Sustained Hits 3"
+    ]
+   },
+   {
+    "name": "Particle Beam Rifle",
+    "range": "60\"",
+    "A": "1",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Conversion Beam 30 inches",
+     "Precision",
+     "Sustained Hits 1"
+    ]
+   },
+   {
+    "name": "Stalker Rifle",
+    "range": "60\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "keywords": [
+     "Precision"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Yig-Yar Close Combat Weapon",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Infiltrators"
+   },
+   {
+    "name": "Headtakers",
+    "text": "Each time a model in this unit makes an attack that targets a Character unit, re-roll the Hit roll and Wound roll."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "Infantry",
+   "Grenades",
+   "Marksmen"
+  ]
+ },
+ {
+  "name": "T'vaoan Butchers",
+  "category": "INFANTRY",
+  "subtitle": "Fast Assault Infantry",
+  "points": 80,
+  "profile": {
+   "M": "10\"",
+   "T": "4",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 75,
+  "unit_composition": [
+   "5 T'vaoan Butchers",
+   "Add 5 additional T'vaoan Butchers - 70pts."
+  ],
+  "equipped": [
+   "Plasma Pistol",
+   "T'vaoan Plasma Sabres"
+  ],
+  "sergeant": [
+   "Add 1 Yig-Yar Talon or 1 Jiralhanae Pack Alpha."
+  ],
+  "auxiliary": [],
+  "wargear_options": [
+   "Up to 2 models can replace their T'vaoan Plasma Sabres with a Heavy Plasma Melee Weapon."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "T'vaoan Plasma Sabres",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Heavy Plasma Melee Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Predatory Charge",
+    "text": "Add 1 to Hit rolls and Wound rolls for melee attacks made by models in this unit if it made a Charge move this turn."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "T'vaoan",
+   "Infantry",
+   "Grenades",
+   "Butchers"
+  ]
+ },
+ {
+  "name": "T'vaoan Skirmishers",
+  "category": "INFANTRY",
+  "subtitle": "Elite Hunter Team",
+  "points": 200,
+  "profile": {
+   "M": "10\"",
+   "T": "4",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 76,
+  "unit_composition": [
+   "6 T'vaoan Skirmishers"
+  ],
+  "equipped": [
+   "2 Plasma Rifles",
+   "T'vaoan Plasma Sabres"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Each model selects one loadout package; packages cannot be combined on the same model.",
+   "Free — Rifleman: 2 Plasma Rifles and Plasma Sabres; Carbine: Covenant Carbine, Plasma Rifle and Plasma Sabres; Storm: Storm Rifle, Bolt Spiker and Plasma Sabres; Repeater: Plasma Repeater, Spiker and Plasma Sabres; Demolitionist: Brute Shot, Plasma Pistol, Satchel Charge and Plasma Sabres; Heavy Gunner: 2 Plasma Rifles and either Heavy Plasma or Brute Heavy Melee Weapon; Melee Specialist: 2 Plasma Rifles and Energy Sword.",
+   "+5pts — Shield Raider: Plasma Rifle, Wrist Shield and Plasma Sabres. A Covenant Carbine cannot be combined with a Wrist Shield.",
+   "+10pts — Needler: 2 Needlers and Plasma Sabres; Anti-armour: Fuel Rod and Plasma Pistol, or Skewer and Plasma Pistol, plus Plasma Sabres; Twin-Blade: 2 Plasma Rifles and Twin-linked Energy Swords."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Wrist Shield",
+    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12 inches, its Shield Save is 4+ instead."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifles",
+    "range": "15\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Needlers",
+    "range": "14\"",
+    "A": "8",
+    "BS_WS": "3+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   },
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Storm Rifle",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Bolt Spiker",
+    "range": "24\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Devastating Wounds",
+     "Rapid Fire 3"
+    ]
+   },
+   {
+    "name": "Plasma Repeater",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Lethal Hits",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Spiker",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Brute Shot",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Blast",
+     "Ignores Cover"
+    ]
+   },
+   {
+    "name": "Fuel Rod",
+    "range": "24\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "keywords": [
+     "Blast"
+    ]
+   },
+   {
+    "name": "Skewer",
+    "range": "48\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-4",
+    "D": "4",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Satchel Charge",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "D3",
+    "keywords": [
+     "Blast",
+     "One Shot"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "T'vaoan Plasma Sabres",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Heavy Plasma Melee Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Brute Heavy Melee Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   },
+   {
+    "name": "Energy Sword",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   },
+   {
+    "name": "Twin-linked Energy Swords",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Twin-linked"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deep Strike, Infiltrators, Scouts 8 inches"
+   },
+   {
+    "name": "Relentless Hunters",
+    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+   },
+   {
+    "name": "Hunting Formation",
+    "text": "While this unit contains 2 or more models, each model must be within 5 inches horizontally and 2 inches vertically of at least one other model from this unit, and every model must be within 12 inches horizontally of every other model from this unit."
+   },
+   {
+    "name": "Vanish Into the Rocks",
+    "text": "At the end of your opponent's Fight phase, remove this unit from the battlefield and place it into Strategic Reserves."
+   },
+   {
+    "name": "Divide the Hunt",
+    "text": "Once per battle, at the start of any turn, select this unit in Strategic Reserves. It splits into separate one-model units. Each has Starting Strength 1 and retains its wargear."
+   },
+   {
+    "name": "Reform the Talon",
+    "text": "At the end of your Movement phase, select two or more friendly T'vaoan Skirmisher units that can satisfy Hunting Formation. Combine them into one unit of no more than 6 models with Starting Strength 6; each model retains its wargear."
+   },
+   {
+    "name": "Training of the Janissaries",
+    "text": "This unit can issue one Yig-Yar Caste Doctrine to itself per battle round as though it contained a Yig-Yar Sergeant."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "T'vaoan",
+   "Infantry",
+   "Grenades",
+   "Skirmishers"
+  ]
+ },
+ {
+  "name": "Suicide Grunts",
+  "category": "INFANTRY",
+  "subtitle": "Disposable Infantry Squad",
+  "points": 45,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "7+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "0"
+  },
+  "page": 78,
+  "unit_composition": [
+   "5 Suicide Grunts",
+   "Add up to 5 additional Suicide Grunts - 40pts."
+  ],
+  "equipped": [
+   "Unstable Plasma Charges"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Unstable Plasma Charges",
+    "range": "Melee",
+    "A": "1",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Plasma (D1)"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Proximity Detonation",
+    "text": "Each time a model in this unit ends a move within 3 inches of an enemy unit, or an enemy model ends a move within 3 inches of it, that model detonates. Roll one D6; on a 3+, select one such enemy unit to suffer D3 mortal wounds. The detonating model is then destroyed."
+   },
+   {
+    "name": "Fevered Explosives",
+    "text": "Each time a model in this unit is destroyed, roll one D3. The remaining models can each move up to that many inches and must end closer to the closest enemy unit, excluding Aircraft. Resolve this once for each destroyed model."
+   }
+  ],
+  "keywords": [
+   "Unggoy",
+   "Infantry",
+   "Grenades",
+   "Suicide Grunts"
+  ]
+ },
+ {
+  "name": "Unggoy Heavy Weapons Team",
+  "category": "INFANTRY",
+  "subtitle": "Heavy Infantry Squad",
+  "points": 90,
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "3+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "page": 79,
+  "unit_composition": [
+   "3 Unggoy Heavy Weapon Gunners",
+   "Add up to 3 additional Gunners - 90pts."
+  ],
+  "equipped": [
+   "Fuel Rod",
+   "Plasma Pistol",
+   "Unggoy Close Combat Weapon"
+  ],
+  "sergeant": [
+   "Add 1 Unggoy Ultra, 1 Sangheili Ultra or 1 Yig-Yar Talon."
+  ],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Fuel Rod",
+    "range": "24\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "keywords": [
+     "Blast"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Unggoy Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Heavy Weapon Specialists",
+    "text": "Fuel Rod attacks made by models in this unit have Ignores Cover against Infantry, and Anti-Monster 3+ and Anti-Vehicle 3+ against Monsters and Vehicles."
+   }
+  ],
+  "keywords": [
+   "Unggoy",
+   "Infantry",
+   "Grenades",
+   "Heavy Weapons Team"
+  ]
+ },
+ {
+  "name": "Unggoy Zealots",
+  "category": "INFANTRY",
+  "subtitle": "Assault Infantry Squad",
+  "points": 60,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 80,
+  "unit_composition": [
+   "10 Unggoy Zealots",
+   "Add up to 10 additional Unggoy Zealots - 55pts."
+  ],
+  "equipped": [
+   "Plasma Pistol",
+   "Unggoy Close Combat Weapon"
+  ],
+  "sergeant": [
+   "Add 1 Jiralhanae Pack Alpha or 1 Sangheili Ultra."
+  ],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Unggoy Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Fanatical Onslaught",
+    "text": "Melee attacks made by models in this unit have Sustained Hits 2 if this unit charged this turn. If the target contests an objective marker, add 2 to the Strength and improve the Armour Penetration of those attacks by 1."
+   }
+  ],
+  "keywords": [
+   "Unggoy",
+   "Infantry",
+   "Grenades",
+   "Zealots"
+  ]
+ },
+ {
+  "name": "Mgalekgolo Bond-Brother Pair",
+  "category": "INFANTRY",
+  "subtitle": "Heavy Infantry Squad",
+  "points": 260,
+  "profile": {
+   "M": "6\"",
+   "T": "8",
+   "SV": "2+",
+   "W": "7",
+   "LD": "6+",
+   "OC": "2"
+  },
+  "page": 81,
+  "unit_composition": [
+   "2 Mgalekgolo Hunters"
+  ],
+  "equipped": [
+   "Mgalekgolo Assault Cannon",
+   "Shield Bash",
+   "Combat Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Combat Shield",
+    "text": "The bearer has a 4+ invulnerable save."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Mgalekgolo Assault Cannon",
+    "range": "36\"",
+    "A": "D3+2",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Assault",
+     "Blast"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Shield Bash",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Bond-Brother Formation",
+    "text": "Models in this unit must remain within 4 inches horizontally and 2 inches vertically of each other while both remain on the battlefield."
+   },
+   {
+    "name": "Coordinated Barrage",
+    "text": "If both models in this unit target the same enemy unit with their Mgalekgolo Assault Cannons, re-roll Hit rolls of 1 and Wound rolls of 1 for those attacks."
+   },
+   {
+    "name": "Bonded Fury",
+    "text": "When one model in this unit is destroyed, until the end of the battle add 1 to the Attacks characteristic of the remaining model's weapons."
+   }
+  ],
+  "keywords": [
+   "Mgalekgolo",
+   "Lekgolo",
+   "Infantry",
+   "Hunter",
+   "Bond-Brother Pair"
+  ]
+ },
+ {
+  "name": "Mgalekgolo Assault Pair",
+  "category": "INFANTRY",
+  "subtitle": "Siege Assault Infantry",
+  "points": 230,
+  "profile": {
+   "M": "7\"",
+   "T": "8",
+   "SV": "2+",
+   "W": "7",
+   "LD": "6+",
+   "OC": "2"
+  },
+  "page": 82,
+  "unit_composition": [
+   "2 Mgalekgolo Assault Hunters"
+  ],
+  "equipped": [
+   "Assault Beam",
+   "Crushing Shield",
+   "Combat Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Combat Shield",
+    "text": "The bearer has a 4+ invulnerable save."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Assault Beam",
+    "range": "24\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Assault"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Crushing Shield",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Bond-Brother Formation",
+    "text": "Models in this unit must remain within 4 inches horizontally and 2 inches vertically of each other while both remain on the battlefield."
+   },
+   {
+    "name": "Siege Breakers",
+    "text": "Each time a model in this unit makes an attack against a Vehicle, Monster or Fortification, add 1 to the Wound roll."
+   },
+   {
+    "name": "Bonded Fury",
+    "text": "When one model in this unit is destroyed, until the end of the battle add 1 to the Attacks characteristic of the remaining model's weapons."
+   }
+  ],
+  "keywords": [
+   "Mgalekgolo",
+   "Lekgolo",
+   "Infantry",
+   "Hunter",
+   "Assault Pair"
+  ]
+ },
+ {
+  "name": "Mgalekgolo Artillery Pair",
+  "category": "INFANTRY",
+  "subtitle": "Long-range Heavy Infantry",
+  "points": 250,
+  "profile": {
+   "M": "5\"",
+   "T": "8",
+   "SV": "2+",
+   "W": "7",
+   "LD": "6+",
+   "OC": "2"
+  },
+  "page": 83,
+  "unit_composition": [
+   "2 Mgalekgolo Artillery Hunters"
+  ],
+  "equipped": [
+   "Heavy Plasma Mortar",
+   "Shield Bash",
+   "Combat Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Combat Shield",
+    "text": "The bearer has a 4+ invulnerable save."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Heavy Plasma Mortar",
+    "range": "60\"",
+    "A": "D6+2",
+    "BS_WS": "3+",
+    "S": "11",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Blast",
+     "Heavy",
+     "Indirect Fire",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Shield Bash",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Bond-Brother Formation",
+    "text": "Models in this unit must remain within 4 inches horizontally and 2 inches vertically of each other while both remain on the battlefield."
+   },
+   {
+    "name": "Fire Correction",
+    "text": "If both models in this unit target the same enemy unit with their Heavy Plasma Mortars, those attacks have Ignores Cover."
+   },
+   {
+    "name": "Bonded Fury",
+    "text": "When one model in this unit is destroyed, until the end of the battle add 1 to the Attacks characteristic of the remaining model's weapons."
+   }
+  ],
+  "keywords": [
+   "Mgalekgolo",
+   "Lekgolo",
+   "Infantry",
+   "Artillery",
+   "Hunter",
+   "Artillery Pair"
+  ]
+ },
+ {
+  "name": "Brute Chopper",
+  "category": "MOUNTED",
+  "subtitle": "Jiralhanae Assault Mount",
+  "points": 80,
+  "profile": {
+   "M": "10\"",
+   "T": "8",
+   "SV": "3+",
+   "W": "4",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "page": 84,
+  "unit_composition": [
+   "1 Brute Chopper - 80pts",
+   "This unit can include up to 3 Brute Choppers - 80pts/model."
+  ],
+  "equipped": [
+   "2 Bolt Spikers",
+   "Chainwheel"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Bolt Spikers",
+    "range": "24\"",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Devastating Wounds",
+     "Rapid Fire 6"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Chainwheel",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Sustained Hits 4"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Relentless Pursuit",
+    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+   },
+   {
+    "name": "Grinding Charge",
+    "text": "Each time a model in this unit makes a Chainwheel attack, if this unit made a Charge move this turn, add 1 to the Wound roll."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Mounted",
+   "Frame",
+   "Grenades",
+   "Chopper"
+  ]
+ },
+ {
+  "name": "Ghost",
+  "category": "MOUNTED",
+  "subtitle": "Covenant Scout Bike",
+  "points": 50,
+  "profile": {
+   "M": "16\"",
+   "T": "6",
+   "SV": "4+",
+   "W": "5",
+   "LD": "7+",
+   "OC": "1",
+   "SP": "4"
+  },
+  "page": 85,
+  "unit_composition": [
+   "1 Ghost"
+  ],
+  "equipped": [
+   "Twin Plasma Cannons",
+   "Grav-assisted Ram"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Twin Plasma Cannons",
+    "range": "24\"",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Grav-assisted Ram",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Scouts 9 inches"
+   },
+   {
+    "name": "Evasive Boost",
+    "text": "Each time this model Advances, do not make an Advance roll. Instead, add 6 inches to its Move characteristic until the end of the phase. Until the start of its owner's next Command phase, subtract 1 from ranged Hit rolls that target it."
+   },
+   {
+    "name": "Ghost Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Mounted",
+   "Fly",
+   "Frame",
+   "Ghost"
+  ]
+ },
+ {
+  "name": "Revenant",
+  "category": "MOUNTED",
+  "subtitle": "Covenant Swift Tank",
+  "points": 85,
+  "profile": {
+   "M": "14\"",
+   "T": "7",
+   "SV": "3+",
+   "W": "7",
+   "LD": "7+",
+   "OC": "2",
+   "SP": "4"
+  },
+  "page": 86,
+  "unit_composition": [
+   "1 Revenant"
+  ],
+  "equipped": [
+   "Light Plasma Mortar",
+   "Grav-assisted Ram"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [
+   "Transport capacity: 1 Covenant Infantry model, excluding Mgalekgolo models."
+  ],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Light Plasma Mortar",
+    "range": "36\"",
+    "A": "D6+1",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Assault",
+     "Blast",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Grav-assisted Ram",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Firing Deck 1"
+   },
+   {
+    "name": "Boosted Gravity Drive",
+    "text": "Each time this model Advances, do not roll. Add 6 inches to its Move characteristic until the end of the phase."
+   },
+   {
+    "name": "Passenger Spotter",
+    "text": "While one or more Covenant Infantry models are embarked within this model, improve the BS characteristic of its Light Plasma Mortar by 1."
+   },
+   {
+    "name": "Revenant Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Mounted",
+   "Fly",
+   "Frame",
+   "Transport",
+   "Revenant"
+  ]
+ },
+ {
+  "name": "Spectre",
+  "category": "MOUNTED",
+  "subtitle": "Covenant Infantry Support Skimmer",
+  "points": 80,
+  "profile": {
+   "M": "14\"",
+   "T": "7",
+   "SV": "3+",
+   "W": "8",
+   "LD": "7+",
+   "OC": "2",
+   "SP": "4"
+  },
+  "page": 87,
+  "unit_composition": [
+   "1 Spectre"
+  ],
+  "equipped": [
+   "Rapid-fire Plasma Cannon",
+   "Grav-assisted Ram"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [
+   "Transport capacity: 2 Covenant Infantry models, excluding Mgalekgolo models."
+  ],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Rapid-fire Plasma Cannon",
+    "range": "24\"",
+    "A": "8",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Sustained Hits 1",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Grav-assisted Ram",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Firing Deck 2"
+   },
+   {
+    "name": "Lateral Thrusters",
+    "text": "This model is eligible to shoot in a turn in which it Fell Back."
+   },
+   {
+    "name": "Running-board Fire",
+    "text": "Each time this model makes a ranged attack with a weapon selected using Firing Deck, that attack has Sustained Hits 1."
+   },
+   {
+    "name": "Spectre Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Mounted",
+   "Fly",
+   "Frame",
+   "Transport",
+   "Spectre"
+  ]
+ },
+ {
+  "name": "Mgalekgolo Goliath",
+  "category": "MONSTER",
+  "subtitle": "Titanic Lekgolo Colony",
+  "points": 315,
+  "profile": {
+   "M": "8\"",
+   "T": "13",
+   "SV": "2+",
+   "W": "20",
+   "LD": "5+",
+   "OC": "6"
+  },
+  "page": 88,
+  "unit_composition": [
+   "1 Mgalekgolo Goliath"
+  ],
+  "equipped": [
+   "Goliath Crushing Claws",
+   "Layered Colony Armour"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [
+   "Before selecting targets for Goliath Crushing Claws, select one profile."
+  ],
+  "wargear": [
+   {
+    "name": "Layered Colony Armour",
+    "text": "The bearer has a 5+ invulnerable save."
+   }
+  ],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Goliath Crushing Claws - strike",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "16",
+    "AP": "-3",
+    "D": "5",
+    "keywords": []
+   },
+   {
+    "name": "Goliath Crushing Claws - sweep",
+    "range": "Melee",
+    "A": "12",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise D6"
+   },
+   {
+    "name": "Living Battering Ram",
+    "text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range and roll one D6. On a 2+, that unit suffers D3+3 mortal wounds."
+   },
+   {
+    "name": "Unstoppable Colony",
+    "text": "This model can declare a charge in a turn in which it Advanced. When it makes a Normal, Advance, Fall Back or Charge move, it can move over models and terrain features 4 inches or less in height as though they were not there."
+   },
+   {
+    "name": "Colony Frenzy",
+    "text": "While this model has 10 or fewer Wounds remaining, add 2 inches to its Move characteristic and add 2 to the Attacks characteristic of both Goliath Crushing Claws profiles."
+   }
+  ],
+  "keywords": [
+   "Mgalekgolo",
+   "Lekgolo",
+   "Monster",
+   "Titanic",
+   "Towering",
+   "Goliath"
+  ]
+ },
+ {
+  "name": "Marauder",
+  "category": "VEHICLE",
+  "subtitle": "Jiralhanae Heavy Assault Vehicle",
+  "points": 150,
+  "profile": {
+   "M": "8\"",
+   "T": "10",
+   "SV": "3+",
+   "W": "8",
+   "LD": "6+",
+   "OC": "3",
+   "SP": "4"
+  },
+  "page": 89,
+  "unit_composition": [
+   "1 Marauder"
+  ],
+  "equipped": [
+   "2 Bolt Spikers",
+   "2 Plasma Repeaters",
+   "Spiked Ram"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Bolt Spikers",
+    "range": "24\"",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Devastating Wounds",
+     "Rapid Fire 6"
+    ]
+   },
+   {
+    "name": "Plasma Repeaters",
+    "range": "24\"",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Lethal Hits",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Spiked Ram",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "3",
+    "keywords": [
+     "Lance"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Assault Formation",
+    "text": "Friendly Covenant units within 6 inches of this model can re-roll Charge rolls."
+   },
+   {
+    "name": "Marauder Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Vehicle",
+   "Frame",
+   "Marauder"
+  ]
+ },
+ {
+  "name": "Prowler Command Barge",
+  "category": "VEHICLE",
+  "subtitle": "Jiralhanae Command Transport",
+  "points": 175,
+  "profile": {
+   "M": "8\"",
+   "T": "10",
+   "SV": "3+",
+   "W": "14",
+   "LD": "6+",
+   "OC": "5",
+   "SP": "6"
+  },
+  "page": 90,
+  "unit_composition": [
+   "1 Prowler Command Barge"
+  ],
+  "equipped": [
+   "2 Plasma Repeaters",
+   "Spiked Ram"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [
+   "Transport capacity: 8 Jiralhanae Infantry models. This model cannot transport Jiralhanae Linebreakers."
+  ],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Repeaters",
+    "range": "24\"",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Lethal Hits",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Spiked Ram",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "3",
+    "keywords": [
+     "Lance"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Command Presence",
+    "text": "Add 1 to the Objective Control characteristic of models in friendly Covenant units within 6 inches of this model."
+   },
+   {
+    "name": "Jiralhanae Command Network",
+    "text": "At the start of each phase, this model can issue one Jiralhanae Caste Doctrine to one friendly Covenant Infantry unit within 6 inches. That unit is treated as though it contained a Jiralhanae Sergeant. It can be affected by this Doctrine even if it is already affected by one other Caste Doctrine."
+   },
+   {
+    "name": "Command Barge Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+2 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Vehicle",
+   "Frame",
+   "Transport",
+   "Command",
+   "Prowler"
+  ]
+ },
+ {
+  "name": "Goblin Battlesuit",
+  "category": "VEHICLE",
+  "subtitle": "Unggoy Heavy Combat Walker",
+  "points": 180,
+  "profile": {
+   "M": "10\"",
+   "T": "9",
+   "SV": "2+",
+   "W": "12",
+   "LD": "7+",
+   "OC": "4",
+   "SP": "4"
+  },
+  "page": 91,
+  "unit_composition": [
+   "1 Goblin Battlesuit"
+  ],
+  "equipped": [
+   "Heavy Needle Cannon",
+   "Shardstorm Launcher",
+   "Goblin Grenade Launcher",
+   "Power Wrist",
+   "Furious Feet",
+   "Goblin Shield Generator"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Replace the Heavy Needle Cannon with a Focus Cannon for free."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Goblin Shield Generator",
+    "text": "The bearer has a starting SP value of 4."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Heavy Needle Cannon",
+    "range": "28\"",
+    "A": "8",
+    "BS_WS": "2+",
+    "S": "1",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   },
+   {
+    "name": "Focus Cannon",
+    "range": "36\"",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6+2",
+    "keywords": [
+     "Heavy",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Shardstorm Launcher",
+    "range": "24\"",
+    "A": "D6+6",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Blast",
+     "Ignores Cover"
+    ]
+   },
+   {
+    "name": "Goblin Grenade Launcher",
+    "range": "18\"",
+    "A": "D6+2",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Blast"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Power Wrist",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "keywords": []
+   },
+   {
+    "name": "Furious Feet",
+    "range": "Melee",
+    "A": "10",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "EMP Stomp",
+    "text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range and roll one D6. On a 2+, it suffers D3 mortal wounds. If it is a Vehicle, it must also take a Battle-shock test and subtract 1 from Hit rolls until the start of your next Command phase."
+   },
+   {
+    "name": "Stabilizer Thrusters",
+    "text": "When this model makes a Normal, Advance, Fall Back or Charge move, it can move over models and terrain features 4 inches or less in height as though they were not there."
+   },
+   {
+    "name": "Goblin Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Unggoy",
+   "Vehicle",
+   "Walker",
+   "Goblin"
+  ]
+ },
+ {
+  "name": "Blisterback Siege Crawler",
+  "category": "VEHICLE",
+  "subtitle": "Heavy Aerial Artillery",
+  "points": 250,
+  "profile": {
+   "M": "14\"",
+   "T": "11",
+   "SV": "3+",
+   "W": "16",
+   "LD": "7+",
+   "OC": "4",
+   "SP": "6"
+  },
+  "page": 92,
+  "unit_composition": [
+   "1 Blisterback Siege Crawler"
+  ],
+  "equipped": [
+   "2 Heavy Plasma Cannons",
+   "Annihilator Siege Missile Battery",
+   "Crushing Legs"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Heavy Plasma Cannons",
+    "range": "36\"",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Annihilator Siege Missile Battery",
+    "range": "72\"",
+    "A": "D6+6",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-2",
+    "D": "D3+1",
+    "keywords": [
+     "Blast",
+     "Heavy",
+     "Indirect Fire"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Crushing Legs",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "9",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise D6"
+   },
+   {
+    "name": "Siege Crawler",
+    "text": "At the start of your Movement phase, select one configuration. Aerial Configuration: this model has M 14 inches and Fly; its Annihilator Siege Missile Battery cannot shoot. Siege Configuration: this model has M 0 inches and loses Fly; its Heavy Plasma Cannons cannot shoot, and its Annihilator Siege Missile Battery has Ignores Cover."
+   },
+   {
+    "name": "Blisterback Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+2 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Vehicle",
+   "Artillery",
+   "Fly",
+   "Frame",
+   "Blisterback"
+  ]
+ },
+ {
+  "name": "Wraith",
+  "category": "VEHICLE",
+  "subtitle": "Covenant Grav-tank",
+  "points": 210,
+  "profile": {
+   "M": "10\"",
+   "T": "11",
+   "SV": "2+",
+   "W": "14",
+   "LD": "7+",
+   "OC": "4",
+   "SP": "4"
+  },
+  "page": 93,
+  "unit_composition": [
+   "1 Wraith"
+  ],
+  "equipped": [
+   "Heavy Plasma Mortar",
+   "Light Plasma Cannon",
+   "Grav-assisted Ram"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Replace the Heavy Plasma Mortar with Rapid-fire Fuel Rod Flak Cannons or a Heavy Anti-tank Plasma Cannon."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Heavy Plasma Mortar",
+    "range": "48\"",
+    "A": "D6+3",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Blast",
+     "Heavy",
+     "Indirect Fire",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Rapid-fire Fuel Rod Flak Cannons",
+    "range": "48\"",
+    "A": "8",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Anti-Fly 2+"
+    ]
+   },
+   {
+    "name": "Heavy Anti-tank Plasma Cannon",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "16",
+    "AP": "-4",
+    "D": "D6+2",
+    "keywords": [
+     "Anti-Vehicle 3+",
+     "Heavy",
+     "Plasma (D4)",
+     "Siegebreaker"
+    ]
+   },
+   {
+    "name": "Light Plasma Cannon",
+    "range": "24\"",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Sustained Hits 1",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Grav-assisted Ram",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise D3"
+   },
+   {
+    "name": "Boosted Gravity Drive",
+    "text": "Each time this model Advances, do not roll. Add 6 inches to its Move characteristic until the end of the phase."
+   },
+   {
+    "name": "Shared Targeting Data",
+    "text": "Each time this model makes a ranged attack, if the target is visible to one or more other friendly Covenant units, you can re-roll the Hit roll."
+   },
+   {
+    "name": "Wraith Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Vehicle",
+   "Artillery",
+   "Fly",
+   "Frame",
+   "Wraith"
+  ]
+ },
+ {
+  "name": "Locust",
+  "category": "VEHICLE",
+  "subtitle": "Covenant Siege Walker",
+  "points": 155,
+  "profile": {
+   "M": "9\"",
+   "T": "9",
+   "SV": "3+",
+   "W": "10",
+   "LD": "7+",
+   "OC": "3",
+   "SP": "4"
+  },
+  "page": 94,
+  "unit_composition": [
+   "1 Locust"
+  ],
+  "equipped": [
+   "Focus Cannon",
+   "Walker Legs",
+   "Locust Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Locust Shield",
+    "text": "The bearer has a starting SP value of 4."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Focus Cannon",
+    "range": "48\"",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "4",
+    "keywords": [
+     "Anti-Fortification 2+",
+     "Anti-Vehicle 4+",
+     "Heavy",
+     "Plasma (AP1)",
+     "Siegebreaker"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Walker Legs",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise D3"
+   },
+   {
+    "name": "Power Transfer",
+    "text": "At the start of your Shooting phase, if this model has at least 2 SP, it can lose 2 SP. If it does, add 1 to the Attacks and Damage characteristics of its Focus Cannon until the end of the phase."
+   },
+   {
+    "name": "Locust Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Vehicle",
+   "Walker",
+   "Locust"
+  ]
+ },
+ {
+  "name": "Banshee",
+  "category": "VEHICLE",
+  "subtitle": "Covenant Ground-support Flyer",
+  "points": 125,
+  "profile": {
+   "M": "20\"",
+   "T": "7",
+   "SV": "3+",
+   "W": "8",
+   "LD": "7+",
+   "OC": "1",
+   "SP": "4"
+  },
+  "page": 95,
+  "unit_composition": [
+   "1 Banshee"
+  ],
+  "equipped": [
+   "Twin Plasma Cannons",
+   "Heavy Fuel Rod Cannon",
+   "Armoured Hull"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Twin Plasma Cannons",
+    "range": "30\"",
+    "A": "8",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Heavy Fuel Rod Cannon",
+    "range": "36\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D3+1",
+    "keywords": [
+     "Anti-Vehicle 4+",
+     "Blast"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Armoured Hull",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "5+",
+    "S": "7",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise D3"
+   },
+   {
+    "name": "Aerial Manoeuvres",
+    "text": "Subtract 1 from Hit rolls for ranged attacks that target this model."
+   },
+   {
+    "name": "Attack Run",
+    "text": "This model is eligible to shoot in a turn in which it Advanced or Fell Back. Each time it makes a ranged attack against a unit without Fly in a turn in which it Advanced, add 1 to the Hit roll."
+   },
+   {
+    "name": "Banshee Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Vehicle",
+   "Fly",
+   "Frame",
+   "Banshee"
+  ]
+ },
+ {
+  "name": "Spirit",
+  "category": "VEHICLE",
+  "subtitle": "Covenant Heavy Dropship",
+  "points": 200,
+  "profile": {
+   "M": "14\"",
+   "T": "11",
+   "SV": "3+",
+   "W": "16",
+   "LD": "7+",
+   "OC": "5",
+   "SP": "6"
+  },
+  "page": 96,
+  "unit_composition": [
+   "1 Spirit"
+  ],
+  "equipped": [
+   "Heavy Plasma Cannon",
+   "Armoured Hull"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [
+   "Transport capacity: 30 Covenant Infantry models; or 2 Ghost, Revenant and/or Spectre models; or 1 Wraith. Each Mgalekgolo model takes the space of 5 models."
+  ],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Heavy Plasma Cannon",
+    "range": "36\"",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Blast",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Armoured Hull",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "5+",
+    "S": "10",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise D6"
+   },
+   {
+    "name": "Rapid Aerial Insertion",
+    "text": "After this model is set up on the battlefield from Reserves, it can make a Normal move of up to 8 inches, but cannot end that move within 6 inches of any enemy model."
+   },
+   {
+    "name": "Gravity-Lift Screen",
+    "text": "At the end of your Movement phase, select one Covenant Infantry unit that disembarked from this model during that phase. Until the start of your next Command phase, that unit has Stealth and the Benefit of Cover."
+   },
+   {
+    "name": "Spirit Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+2 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Vehicle",
+   "Fly",
+   "Frame",
+   "Transport",
+   "Spirit"
+  ]
+ },
+ {
+  "name": "Vampire",
+  "category": "VEHICLE",
+  "subtitle": "Covenant Anti-air Support Fighter",
+  "points": 170,
+  "profile": {
+   "M": "20\"",
+   "T": "9",
+   "SV": "3+",
+   "W": "12",
+   "LD": "7+",
+   "OC": "0",
+   "SP": "4"
+  },
+  "page": 97,
+  "unit_composition": [
+   "1 Vampire"
+  ],
+  "equipped": [
+   "Heavy Needle Cannon",
+   "2 Medium Plasma Cannons",
+   "Stasis Cannon",
+   "Armoured Hull",
+   "Vampire Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Vampire Shield",
+    "text": "The bearer has a starting SP value of 4."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Heavy Needle Cannon",
+    "range": "36\"",
+    "A": "8",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Anti-Fly 2+",
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Medium Plasma Cannons",
+    "range": "30\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Anti-Fly 3+",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Stasis Cannon",
+    "range": "24\"",
+    "A": "-",
+    "BS_WS": "-",
+    "S": "-",
+    "AP": "-",
+    "D": "-",
+    "keywords": [
+     "Stasis; see Abilities"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Armoured Hull",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "5+",
+    "S": "8",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise D3, Stealth"
+   },
+   {
+    "name": "Stasis Interdiction",
+    "text": "In your Shooting phase, select one enemy Fly Vehicle unit within 24 inches and roll one D6. On a 3+, until the start of your next turn, halve that unit's Move characteristic and subtract 1 from its Hit rolls; this model also regains D3 lost SP."
+   },
+   {
+    "name": "Vampire Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Vehicle",
+   "Aircraft",
+   "Fly",
+   "Frame",
+   "Vampire"
+  ]
+ },
+ {
+  "name": "Seraph",
+  "category": "VEHICLE",
+  "subtitle": "Covenant Heavy Strike Fighter",
+  "points": 275,
+  "profile": {
+   "M": "24\"",
+   "T": "10",
+   "SV": "3+",
+   "W": "14",
+   "LD": "7+",
+   "OC": "0",
+   "SP": "6"
+  },
+  "page": 98,
+  "unit_composition": [
+   "1 Seraph"
+  ],
+  "equipped": [
+   "Heavy Plasma Cannon Array",
+   "Fuel Rod Cannon Array",
+   "Plasma Charge",
+   "Armoured Hull",
+   "Seraph Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Seraph Shield",
+    "text": "The bearer has a starting SP value of 6."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Heavy Plasma Cannon Array",
+    "range": "36\"",
+    "A": "12",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Anti-Fly 3+",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Fuel Rod Cannon Array",
+    "range": "48\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6",
+    "keywords": [
+     "Anti-Fly 3+"
+    ]
+   },
+   {
+    "name": "Plasma Charge",
+    "range": "18\"",
+    "A": "D6+3",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Blast",
+     "One Shot",
+     "Plasma (D3)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Armoured Hull",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "5+",
+    "S": "9",
+    "AP": "0",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise D3, Stealth"
+   },
+   {
+    "name": "Space Superiority Fighter",
+    "text": "Each time this model attacks a Fly unit, re-roll Hit rolls of 1 and Wound rolls of 1. When it makes a ranged attack against an Aircraft unit, an unmodified Hit roll of 5+ is a Critical Hit."
+   },
+   {
+    "name": "Seraph Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+2 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Vehicle",
+   "Aircraft",
+   "Fly",
+   "Frame",
+   "Seraph"
+  ]
+ },
+ {
+  "name": "Yig-Yar Raider-Skiff",
+  "category": "VEHICLE",
+  "subtitle": "Dedicated Aerial Transport",
+  "points": 90,
+  "profile": {
+   "M": "16\"",
+   "T": "7",
+   "SV": "4+",
+   "W": "9",
+   "LD": "7+",
+   "OC": "2",
+   "SP": "5"
+  },
+  "page": 99,
+  "unit_composition": [
+   "1 Yig-Yar Raider-Skiff"
+  ],
+  "equipped": [
+   "Heavy Needler",
+   "Raider-Skiff Blades",
+   "Deflection Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Replace the Heavy Needler with Twin Plasma Repeaters, a Particle Beam Cannon or a Fuel Rod Bombard for free."
+  ],
+  "leader": [],
+  "transport": [
+   "Transport capacity: 8 Covenant Infantry models. Each Sangheili or Jiralhanae model takes the space of 2 models. This model cannot transport Mgalekgolo models."
+  ],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Deflection Shield",
+    "text": "The bearer has a starting SP value of 5. At the start of its owner's Command phase, it regains D3+1 lost SP instead of D3."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Heavy Needler",
+    "range": "28\"",
+    "A": "8",
+    "BS_WS": "4+",
+    "S": "1",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   },
+   {
+    "name": "Twin Plasma Repeaters",
+    "range": "24\"",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Lethal Hits",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Particle Beam Cannon",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-3",
+    "D": "4",
+    "keywords": [
+     "Heavy"
+    ]
+   },
+   {
+    "name": "Fuel Rod Bombard",
+    "range": "36\"",
+    "A": "D6+2",
+    "BS_WS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Blast",
+     "Indirect Fire"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Raider-Skiff Blades",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise 1, Firing Deck 4, Scouts 6 inches"
+   },
+   {
+    "name": "Rapid Aerial Insertion",
+    "text": "After this model is set up on the battlefield from Reserves, it can make a Normal move of up to 8 inches, but cannot end that move within 6 inches of any enemy model."
+   },
+   {
+    "name": "Rapid Deployment",
+    "text": "After this model makes a Normal or Advance move, one embarked unit can disembark. If this model Advanced, that unit counts as having Advanced. It cannot declare a charge or embark within a Transport this turn."
+   },
+   {
+    "name": "Raider Extraction",
+    "text": "At the end of your opponent's Fight phase, select one friendly Yig-Yar Infantry unit wholly within 6 inches. If neither unit is within Engagement Range and it fits within this model, that unit can embark."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "Vehicle",
+   "Fly",
+   "Frame",
+   "Transport",
+   "Dedicated Transport",
+   "Raider-Skiff"
+  ]
+ },
+ {
+  "name": "Shadow",
+  "category": "VEHICLE",
+  "subtitle": "Covenant Ground Transport",
+  "points": 100,
+  "profile": {
+   "M": "12\"",
+   "T": "9",
+   "SV": "3+",
+   "W": "12",
+   "LD": "7+",
+   "OC": "3",
+   "SP": "4"
+  },
+  "page": 100,
+  "unit_composition": [
+   "1 Shadow"
+  ],
+  "equipped": [
+   "Medium Plasma Cannon",
+   "Armoured Hull"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [
+   "Transport capacity: 8 Covenant Infantry models, excluding Mgalekgolo; or 1 Ghost."
+  ],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Medium Plasma Cannon",
+    "range": "24\"",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Armoured Hull",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "5+",
+    "S": "8",
+    "AP": "0",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise D3, Firing Deck 4"
+   },
+   {
+    "name": "Mobile Bulwark",
+    "text": "While a friendly Covenant Infantry unit is wholly within 6 inches of this model, models in that unit have the Benefit of Cover against ranged attacks."
+   },
+   {
+    "name": "Shadow Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Vehicle",
+   "Frame",
+   "Transport",
+   "Dedicated Transport",
+   "Shadow"
+  ]
+ },
+ {
+  "name": "Phantom",
+  "category": "VEHICLE",
+  "subtitle": "Covenant Dedicated Dropship",
+  "points": 120,
+  "profile": {
+   "M": "16\"",
+   "T": "9",
+   "SV": "3+",
+   "W": "10",
+   "LD": "7+",
+   "OC": "4",
+   "SP": "4"
+  },
+  "page": 101,
+  "unit_composition": [
+   "1 Phantom"
+  ],
+  "equipped": [
+   "3 Medium Plasma Cannons",
+   "Armoured Hull"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [
+   "Transport capacity: 24 Covenant Infantry models; or 2 Ghosts; or 1 Revenant, Spectre or Wraith. Each Mgalekgolo model takes the space of 5 models."
+  ],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Medium Plasma Cannons",
+    "range": "30\"",
+    "A": "12",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Sustained Hits 1",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Armoured Hull",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "5+",
+    "S": "10",
+    "AP": "-1",
+    "D": "2",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise D6"
+   },
+   {
+    "name": "Rapid Aerial Insertion",
+    "text": "After this model is set up on the battlefield from Reserves, it can make a Normal move of up to 8 inches, but cannot end that move within 6 inches of any enemy model."
+   },
+   {
+    "name": "Suppressive Barrage",
+    "text": "After this model has shot, select one enemy Infantry unit hit by its Medium Plasma Cannons. That unit must take a Battle-shock test."
+   },
+   {
+    "name": "Phantom Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+   }
+  ],
+  "keywords": [
+   "Vehicle",
+   "Fly",
+   "Frame",
+   "Transport",
+   "Dedicated Transport",
+   "Phantom"
+  ]
+ },
+ {
+  "name": "Scarab",
+  "category": "VEHICLE",
+  "subtitle": "Covenant Fortress Breaker",
+  "points": 850,
+  "profile": {
+   "M": "10\"",
+   "T": "14",
+   "SV": "2+",
+   "W": "36",
+   "LD": "6+",
+   "OC": "12",
+   "SP": "20"
+  },
+  "page": 102,
+  "unit_composition": [
+   "1 Scarab"
+  ],
+  "equipped": [
+   "Plasma Beam",
+   "Ultra-heavy Plasma Cannon",
+   "3 Pek-pattern Plasma Cannons",
+   "Crushing Legs"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [
+   "Transport capacity: 20 Covenant Infantry models. Each Mgalekgolo model takes the space of 5 models."
+  ],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Beam",
+    "range": "48\"",
+    "A": "D3+1",
+    "BS_WS": "2+",
+    "S": "30",
+    "AP": "-6",
+    "D": "10",
+    "keywords": [
+     "Heavy",
+     "Plasma (D10)",
+     "Siegebreaker"
+    ]
+   },
+   {
+    "name": "Ultra-heavy Plasma Cannon",
+    "range": "48\"",
+    "A": "D6+3",
+    "BS_WS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Anti-Fly 3+",
+     "Blast",
+     "Plasma (AP2)"
+    ]
+   },
+   {
+    "name": "Pek-pattern Plasma Cannons",
+    "range": "30\"",
+    "A": "12",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Sustained Hits 1",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Crushing Legs",
+    "range": "Melee",
+    "A": "8",
+    "BS_WS": "4+",
+    "S": "14",
+    "AP": "-2",
+    "D": "4",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise D6+3, Firing Deck 20"
+   },
+   {
+    "name": "Scarab Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D6+6 lost SP, up to its starting SP."
+   },
+   {
+    "name": "Siege Platform",
+    "text": "Each time this model makes a ranged attack with a weapon selected using Firing Deck, add 1 to the Wound roll."
+   },
+   {
+    "name": "Siege Cracker",
+    "text": "Each time this model's Plasma Beam targets a Vehicle unit, add 1 to Hit rolls made for that weapon. If that target is Titanic, an unmodified Hit roll of 3+ is a Critical Hit."
+   },
+   {
+    "name": "All-terrain Excavator",
+    "text": "When this model makes a Normal, Advance or Fall Back move, it can move over models and terrain features 4 inches or less in height as though they were not there."
+   },
+   {
+    "name": "Board the Scarab",
+    "text": "Each time an enemy Infantry model makes a melee attack that targets this model, an unmodified Wound roll of 5+ is a Critical Wound."
+   },
+   {
+    "name": "Damaged",
+    "text": "10 Wounds Remaining. While this model has 10 or fewer Wounds remaining, subtract 1 from its Hit rolls."
+   }
+  ],
+  "keywords": [
+   "Vehicle",
+   "Walker",
+   "Frame",
+   "Titanic",
+   "Towering",
+   "Transport",
+   "Scarab"
+  ]
+ },
+ {
+  "name": "Lich",
+  "category": "VEHICLE",
+  "subtitle": "Covenant Ultra-heavy Deployment Vessel",
+  "points": 800,
+  "profile": {
+   "M": "14\"",
+   "T": "14",
+   "SV": "2+",
+   "W": "40",
+   "LD": "6+",
+   "OC": "12",
+   "SP": "12"
+  },
+  "page": 103,
+  "unit_composition": [
+   "1 Lich"
+  ],
+  "equipped": [
+   "Emim-pattern Focus Beam",
+   "Starboard Plasma Turret I",
+   "Port Plasma Turret I",
+   "Starboard Plasma Turret II",
+   "Port Plasma Turret II",
+   "Lich Shield",
+   "Armoured Hull"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [
+   "Transport capacity: 40 Covenant Infantry models and 1 empty Phantom. Each Mgalekgolo model takes the space of 5 models."
+  ],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Emim-pattern Focus Beam",
+    "range": "60\"",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "18",
+    "AP": "-4",
+    "D": "D6+4",
+    "keywords": [
+     "Devastating Wounds",
+     "Plasma (D6)"
+    ]
+   },
+   {
+    "name": "Port Plasma Turret I",
+    "range": "36\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Sustained Hits 1",
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Port Plasma Turret II",
+    "range": "36\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Sustained Hits 1",
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Starboard Plasma Turret I",
+    "range": "36\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Sustained Hits 1",
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Starboard Plasma Turret II",
+    "range": "36\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Sustained Hits 1",
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Armoured Hull",
+    "range": "Melee",
+    "A": "8",
+    "BS_WS": "5+",
+    "S": "14",
+    "AP": "-2",
+    "D": "4",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise 2D6"
+   },
+   {
+    "name": "Rapid Aerial Insertion",
+    "text": "After this model is set up on the battlefield from Reserves, it can make a Normal move of up to 8 inches, but cannot end that move within 6 inches of any enemy model."
+   },
+   {
+    "name": "Invasion Fire-Control Nexus",
+    "text": "At the start of your Shooting phase, select one enemy unit visible to this model. Until the end of the phase, each time a friendly Covenant model makes a ranged attack against that enemy unit, re-roll a Hit roll of 1."
+   },
+   {
+    "name": "Lich Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D6+3 lost SP, up to its starting SP."
+   },
+   {
+    "name": "Damaged",
+    "text": "12 Wounds Remaining. While this model has 12 or fewer Wounds remaining, subtract 1 from its Hit rolls."
+   }
+  ],
+  "keywords": [
+   "Vehicle",
+   "Titanic",
+   "Fly",
+   "Frame",
+   "Transport",
+   "Lich"
+  ]
+ },
+ {
+  "name": "Kraken",
+  "category": "VEHICLE",
+  "subtitle": "Covenant Ultra-heavy Siege Tower",
+  "points": 2000,
+  "profile": {
+   "M": "8\"",
+   "T": "16",
+   "SV": "2+",
+   "W": "80",
+   "LD": "5+",
+   "OC": "30",
+   "SP": "24"
+  },
+  "page": 104,
+  "unit_composition": [
+   "1 Kraken"
+  ],
+  "equipped": [
+   "Port Shade Turret I",
+   "Starboard Shade Turret I",
+   "Port Shade Turret II",
+   "Starboard Shade Turret II",
+   "Port Shade Turret III",
+   "Starboard Shade Turret III",
+   "Grappler Arms",
+   "Titanic Stomp"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [
+   "Transport capacity: 200 Covenant Infantry models and either: up to 8 Covenant Mounted models and up to 4 non-Titanic Covenant Vehicle models; or 1 empty Phantom. Each Mgalekgolo model takes the space of 5 models."
+  ],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Port Shade Turret I",
+    "range": "36\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Anti-Fly 3+",
+     "Sustained Hits 1",
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Port Shade Turret II",
+    "range": "36\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Anti-Fly 3+",
+     "Sustained Hits 1",
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Port Shade Turret III",
+    "range": "36\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Anti-Fly 3+",
+     "Sustained Hits 1",
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Starboard Shade Turret I",
+    "range": "36\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Anti-Fly 3+",
+     "Sustained Hits 1",
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Starboard Shade Turret II",
+    "range": "36\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Anti-Fly 3+",
+     "Sustained Hits 1",
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Starboard Shade Turret III",
+    "range": "36\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Anti-Fly 3+",
+     "Sustained Hits 1",
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Grappler Arms",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "24",
+    "AP": "-4",
+    "D": "12",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Titanic Stomp",
+    "range": "Melee",
+    "A": "24",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Deadly Demise 3D6, Firing Deck 60"
+   },
+   {
+    "name": "Siege Tower",
+    "text": "When this model makes a Normal, Advance or Fall Back move, it can move over models and terrain features 8 inches or less in height as though they were not there."
+   },
+   {
+    "name": "Siege Platform",
+    "text": "Each time this model makes a ranged attack with a weapon selected using Firing Deck, add 1 to the Wound roll."
+   },
+   {
+    "name": "Kraken Shield",
+    "text": "At the start of this model's owner's Command phase, it regains D6+8 lost SP, up to its starting SP."
+   },
+   {
+    "name": "Exposed Pulse Generator",
+    "text": "Each time an enemy Infantry model makes a melee attack that targets this model, an unmodified Wound roll of 5+ is a Critical Wound."
+   },
+   {
+    "name": "Damaged",
+    "text": "25 Wounds Remaining. While this model has 25 or fewer Wounds remaining, subtract 1 from its Hit rolls."
+   }
+  ],
+  "keywords": [
+   "Vehicle",
+   "Walker",
+   "Frame",
+   "Titanic",
+   "Towering",
+   "Transport",
+   "Kraken"
+  ]
+ },
+ {
+  "name": "Covenant Deployable Turret",
+  "category": "FORTIFICATION",
+  "subtitle": "Automated Fortification",
+  "points": 40,
+  "profile": {
+   "M": "-",
+   "T": "6",
+   "SV": "3+",
+   "W": "5",
+   "LD": "7+",
+   "OC": "0"
+  },
+  "page": 105,
+  "unit_composition": [
+   "1 Covenant Deployable Turret"
+  ],
+  "equipped": [
+   "Deployable Plasma Turret",
+   "Fortified Base"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Deployable Plasma Turret",
+    "range": "36\"",
+    "A": "6",
+    "BS_WS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Heavy",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Fortified Base",
+    "range": "Melee",
+    "A": "1",
+    "BS_WS": "6+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Automated Reactive Fire",
+    "text": "Once per battle round, you can target this model with the Fire Overwatch Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+   }
+  ],
+  "keywords": [
+   "Fortification",
+   "Frame",
+   "Deployable Turret"
+  ]
+ },
+ {
+  "name": "Covenant Barricade",
+  "category": "FORTIFICATION",
+  "subtitle": "Defensive Fortification",
+  "points": 35,
+  "profile": {
+   "M": "-",
+   "T": "7",
+   "SV": "3+",
+   "W": "4",
+   "LD": "7+",
+   "OC": "0"
+  },
+  "page": 106,
+  "unit_composition": [
+   "2 Metal Barricades, each 2.5 inches long",
+   "1 Shield Wall, 1.5 inches long",
+   "When deployed, each section must be set up within 0.5 inches of another section from this unit. After setup, each is treated as a separate terrain section."
+  ],
+  "equipped": [
+   "Fortified Structure"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Fortified Structure",
+    "range": "Melee",
+    "A": "1",
+    "BS_WS": "6+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Defensive Position",
+    "text": "A Covenant Infantry model wholly within 1 inch of a Metal Barricade receives the Benefit of Cover against ranged attacks."
+   },
+   {
+    "name": "Shield Wall",
+    "text": "A Covenant Infantry model wholly within 1 inch of the Shield Wall has 2 additional SP. These SP are lost first and are removed when that model is no longer wholly within 1 inch of the Shield Wall."
+   }
+  ],
+  "keywords": [
+   "Fortification",
+   "Frame",
+   "Barricade"
+  ]
+ },
+ {
+  "name": "Sangheili Ultra",
+  "category": "SERGEANT",
+  "subtitle": "Sergeant Model",
+  "points": 45,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "2+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "3"
+  },
+  "page": 107,
+  "unit_composition": [
+   "1 Sangheili Ultra"
+  ],
+  "equipped": [
+   "Storm Rifle",
+   "Plasma Pistol",
+   "Sangheili Close Combat Weapon",
+   "Ultra Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Replace the Storm Rifle with a Plasma Repeater, Covenant Carbine, Needle Rifle, Particle Beam Rifle, Stalker Rifle, or a Fuel Rod for +10pts. All other single-weapon exchanges are free.",
+   "Replace the Storm Rifle and Plasma Pistol with 2 Plasma Pistols or 2 Plasma Rifles for free, or 2 Needlers for +10pts.",
+   "Replace the Storm Rifle, Plasma Pistol and Close Combat Weapon with Twin-linked Energy Swords for +10pts."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Ultra Personal Shield",
+    "text": "The bearer has a starting SP value of 3."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Storm Rifle",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Pistols",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Rifles",
+    "range": "15\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Needlers",
+    "range": "14\"",
+    "A": "8",
+    "BS_WS": "2+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   },
+   {
+    "name": "Plasma Repeater",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Lethal Hits",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Needle Rifle",
+    "range": "60\"",
+    "A": "3",
+    "BS_WS": "2+",
+    "S": "1",
+    "AP": "0",
+    "D": "2",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Precision",
+     "Supercombine",
+     "Sustained Hits 3"
+    ]
+   },
+   {
+    "name": "Particle Beam Rifle",
+    "range": "60\"",
+    "A": "1",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Conversion Beam 30 inches",
+     "Precision",
+     "Sustained Hits 1"
+    ]
+   },
+   {
+    "name": "Stalker Rifle",
+    "range": "60\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "keywords": [
+     "Precision"
+    ]
+   },
+   {
+    "name": "Fuel Rod",
+    "range": "24\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "keywords": [
+     "Blast"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Sangheili Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Twin-linked Energy Swords",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Twin-linked"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Caste Doctrines",
+    "text": "This model can issue Focused Assault, Sangheili Ambush or Tactical Withdrawal."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Sergeant",
+   "Ultra"
+  ]
+ },
+ {
+  "name": "Sangheili Shadowmaster",
+  "category": "SERGEANT",
+  "subtitle": "Special Operations Sergeant",
+  "points": 50,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "2+",
+   "W": "3",
+   "LD": "5+",
+   "OC": "2",
+   "SP": "3"
+  },
+  "page": 108,
+  "unit_composition": [
+   "1 Sangheili Shadowmaster"
+  ],
+  "equipped": [
+   "Plasma Repeater",
+   "Plasma Pistol",
+   "Energy Sword",
+   "Shadowmaster Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Replace the Plasma Repeater and Plasma Pistol with 2 Plasma Rifles for free; or replace all ranged weapons and the Energy Sword with Twin-linked Energy Swords for +10pts."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Shadowmaster Personal Shield",
+    "text": "The bearer has a starting SP value of 3."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Repeater",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Lethal Hits",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Rifles",
+    "range": "15\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Energy Sword",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   },
+   {
+    "name": "Twin-linked Energy Swords",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Twin-linked"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Joint Operations Commander",
+    "text": "This model can issue any Sangheili Caste Doctrine or Sangheili Special Operations Doctrine."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Sergeant",
+   "Special Operations",
+   "Shadowmaster"
+  ]
+ },
+ {
+  "name": "Jiralhanae Pack Alpha",
+  "category": "SERGEANT",
+  "subtitle": "Sergeant Model",
+  "points": 25,
+  "profile": {
+   "M": "6\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "3",
+   "LD": "6+",
+   "OC": "2"
+  },
+  "page": 109,
+  "unit_composition": [
+   "1 Jiralhanae Pack Alpha"
+  ],
+  "equipped": [
+   "Spiker",
+   "Mangler",
+   "Brute Close Combat Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "This model can take a Brute Shot or Brute Heavy Melee Weapon for free; a Gravity Hammer for +10pts; or an Officer Shield Generator for +20pts. A model with a Gravity Hammer can retain only its Mangler in addition to that weapon."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Officer Shield Generator",
+    "text": "The bearer has a starting SP value of 3."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Spiker",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Mangler",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds",
+     "Pistol"
+    ]
+   },
+   {
+    "name": "Brute Shot",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Blast",
+     "Ignores Cover"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Brute Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   },
+   {
+    "name": "Brute Heavy Melee Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   },
+   {
+    "name": "Gravity Hammer",
+    "range": "Melee",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-4",
+    "D": "5",
+    "keywords": [
+     "Devastating Wounds",
+     "Gravity Slam"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 6+"
+   },
+   {
+    "name": "Caste Doctrines",
+    "text": "This model can issue Relentless Charge, Savage Momentum or Unyielding Fury."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Grenades",
+   "Sergeant",
+   "Pack Alpha"
+  ]
+ },
+ {
+  "name": "Yig-Yar Talon",
+  "category": "SERGEANT",
+  "subtitle": "Sergeant Model",
+  "points": 35,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "3+",
+   "W": "3",
+   "LD": "7+",
+   "OC": "2",
+   "SP": "6"
+  },
+  "page": 110,
+  "unit_composition": [
+   "1 Yig-Yar Talon"
+  ],
+  "equipped": [
+   "Needler",
+   "Wrist Shield",
+   "Yig-Yar Plasma Sabre"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Replace the Needler, Wrist Shield and Plasma Sabre with one Precision Weapon, a Plasma Pistol and a Yig-Yar Close Combat Weapon. Choose Covenant Carbine, Needle Rifle, Particle Beam Rifle or Stalker Rifle as the Precision Weapon."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Wrist Shield",
+    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12 inches, its Shield Save is 4+ instead."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Needler",
+    "range": "14\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   },
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Needle Rifle",
+    "range": "60\"",
+    "A": "3",
+    "BS_WS": "2+",
+    "S": "1",
+    "AP": "0",
+    "D": "2",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Precision",
+     "Supercombine",
+     "Sustained Hits 3"
+    ]
+   },
+   {
+    "name": "Particle Beam Rifle",
+    "range": "60\"",
+    "A": "1",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Conversion Beam 30 inches",
+     "Precision",
+     "Sustained Hits 1"
+    ]
+   },
+   {
+    "name": "Stalker Rifle",
+    "range": "60\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "keywords": [
+     "Precision"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Yig-Yar Plasma Sabre",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Yig-Yar Close Combat Weapon",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Caste Doctrines",
+    "text": "This model can issue Pick Apart the Weak, Fire and Scuttle or Survival Above Honour."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "Infantry",
+   "Grenades",
+   "Sergeant",
+   "Talon"
+  ]
+ },
+ {
+  "name": "Unggoy Ultra",
+  "category": "SERGEANT",
+  "subtitle": "Sergeant Model",
+  "points": 20,
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "3+",
+   "W": "2",
+   "LD": "7+",
+   "OC": "2"
+  },
+  "page": 111,
+  "unit_composition": [
+   "1 Unggoy Ultra"
+  ],
+  "equipped": [
+   "Plasma Rifle",
+   "Unggoy Close Combat Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Replace the Plasma Rifle with a Needler, Storm Rifle or Plasma Repeater for free, or with a Fuel Rod for +10pts."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifle",
+    "range": "15\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Needler",
+    "range": "14\"",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   },
+   {
+    "name": "Storm Rifle",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Repeater",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Lethal Hits",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Fuel Rod",
+    "range": "24\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "keywords": [
+     "Blast"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Unggoy Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Caste Doctrines",
+    "text": "This model can issue Desperate Survival, Vengeful Retaliation or Courage Through Fear."
+   }
+  ],
+  "keywords": [
+   "Unggoy",
+   "Infantry",
+   "Grenades",
+   "Sergeant",
+   "Ultra"
+  ]
+ },
+ {
+  "name": "Yanme'e Major",
+  "category": "SERGEANT",
+  "subtitle": "Sergeant Model",
+  "points": 20,
+  "profile": {
+   "M": "12\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "2",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 112,
+  "unit_composition": [
+   "1 Yanme'e Major"
+  ],
+  "equipped": [
+   "Needler",
+   "Drone Claws"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Needler",
+    "range": "14\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Drone Claws",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Scouts 8 inches"
+   },
+   {
+    "name": "Control Node",
+    "text": "While this model is in a Yanme'e unit, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by other Yanme'e Drone models in that unit by 1."
+   },
+   {
+    "name": "Caste Doctrines",
+    "text": "This model can issue Swarm Convergence, Predatory Descent or Fade Into Shadow."
+   }
+  ],
+  "keywords": [
+   "Yanme'e",
+   "Infantry",
+   "Fly",
+   "Sergeant",
+   "Major"
+  ]
+ },
+ {
+  "name": "Sangheili Warrior",
+  "category": "AUXILIARY",
+  "subtitle": "Auxiliary Model",
+  "points": 20,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "2"
+  },
+  "page": 113,
+  "unit_composition": [
+   "1 Sangheili Warrior"
+  ],
+  "equipped": [
+   "Storm Rifle",
+   "Plasma Pistol",
+   "Sangheili Close Combat Weapon",
+   "Sangheili Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Sangheili Personal Shield",
+    "text": "The bearer has a starting SP value of 2."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Storm Rifle",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Sangheili Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Warrior"
+  ]
+ },
+ {
+  "name": "Sangheili Special Operations Warrior",
+  "category": "AUXILIARY",
+  "subtitle": "Special Operations Auxiliary",
+  "points": 30,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "2"
+  },
+  "page": 114,
+  "unit_composition": [
+   "1 Sangheili Special Operations Warrior"
+  ],
+  "equipped": [
+   "2 Plasma Rifles",
+   "Sangheili Close Combat Weapon",
+   "Sangheili Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Sangheili Personal Shield",
+    "text": "The bearer has a starting SP value of 2."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifles",
+    "range": "15\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Sangheili Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Remote Destructive Device",
+    "text": "Once per battle, when an enemy unit ends a Normal, Advance, Fall Back or Charge move within 6 inches of this model's unit, roll one D6. On a 2+, that unit suffers D3 mortal wounds."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Special Operations"
+  ]
+ },
+ {
+  "name": "Sangheili Blade",
+  "category": "AUXILIARY",
+  "subtitle": "Melee Auxiliary",
+  "points": 40,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "3+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "2"
+  },
+  "page": 115,
+  "unit_composition": [
+   "1 Sangheili Blade"
+  ],
+  "equipped": [
+   "Twin-linked Energy Swords",
+   "Sangheili Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Sangheili Personal Shield",
+    "text": "The bearer has a starting SP value of 2."
+   }
+  ],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Twin-linked Energy Swords",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Twin-linked"
+    ]
+   }
+  ],
+  "abilities": [],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Blade"
+  ]
+ },
+ {
+  "name": "Sangheili Zealot",
+  "category": "AUXILIARY",
+  "subtitle": "Fanatical Auxiliary",
+  "points": 30,
+  "profile": {
+   "M": "8\"",
+   "T": "4",
+   "SV": "3+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "page": 116,
+  "unit_composition": [
+   "1 Sangheili Zealot"
+  ],
+  "equipped": [
+   "Storm Rifle",
+   "Plasma Pistol",
+   "Sangheili Close Combat Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Storm Rifle",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Sangheili Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Vengeful Pursuit",
+    "text": "Once per battle round, after an enemy unit destroys one or more models in this model's unit with ranged attacks, that unit can make a Surge move of D6+2 inches towards the closest enemy and can end within Engagement Range."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Zealot"
+  ]
+ },
+ {
+  "name": "Sangheili Stealth Operative",
+  "category": "AUXILIARY",
+  "subtitle": "Covert Auxiliary",
+  "points": 35,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "2"
+  },
+  "page": 117,
+  "unit_composition": [
+   "1 Sangheili Stealth Operative"
+  ],
+  "equipped": [
+   "Plasma Rifle",
+   "Plasma Pistol",
+   "Energy Sword",
+   "Sangheili Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Sangheili Personal Shield",
+    "text": "The bearer has a starting SP value of 2."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifle",
+    "range": "15\"",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Energy Sword",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Cloaking Training",
+    "text": "When this model's unit is affected by Fade Into Shadow, it also cannot be selected as the target of Fire Overwatch until the end of the phase."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Special Operations",
+   "Stealth Operative"
+  ]
+ },
+ {
+  "name": "Sangheili Ranger",
+  "category": "AUXILIARY",
+  "subtitle": "Reconnaissance Auxiliary",
+  "points": 35,
+  "profile": {
+   "M": "7\"",
+   "T": "4",
+   "SV": "4+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "1",
+   "SP": "2"
+  },
+  "page": 118,
+  "unit_composition": [
+   "1 Sangheili Ranger"
+  ],
+  "equipped": [
+   "Covenant Carbine",
+   "Plasma Pistol",
+   "Sangheili Close Combat Weapon",
+   "Sangheili Personal Shield"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Sangheili Personal Shield",
+    "text": "The bearer has a starting SP value of 2."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Sangheili Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Forward Operative",
+    "text": "This model's unit is eligible to shoot in a turn in which it Advanced."
+   }
+  ],
+  "keywords": [
+   "Sangheili",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Ranger"
+  ]
+ },
+ {
+  "name": "Jiralhanae Warrior",
+  "category": "AUXILIARY",
+  "subtitle": "Auxiliary Model",
+  "points": 20,
+  "profile": {
+   "M": "6\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "3",
+   "LD": "6+",
+   "OC": "2"
+  },
+  "page": 119,
+  "unit_composition": [
+   "1 Jiralhanae Warrior"
+  ],
+  "equipped": [
+   "Spiker",
+   "Mangler",
+   "Brute Close Combat Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Spiker",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Mangler",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds",
+     "Pistol"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Brute Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 6+"
+   },
+   {
+    "name": "Pack Enforcer",
+    "text": "Re-roll Hit rolls of 1 for melee attacks made by Unggoy or Yig-Yar models in this model's unit."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Warrior"
+  ]
+ },
+ {
+  "name": "Jiralhanae Heavy Gunner",
+  "category": "AUXILIARY",
+  "subtitle": "Heavy Auxiliary",
+  "points": 25,
+  "profile": {
+   "M": "6\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "3",
+   "LD": "6+",
+   "OC": "2"
+  },
+  "page": 120,
+  "unit_composition": [
+   "1 Jiralhanae Heavy Gunner"
+  ],
+  "equipped": [
+   "Bolt Spiker",
+   "Brute Heavy Melee Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Replace the Bolt Spiker with a Brute Shot for free, or with a Skewer for +10pts."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Bolt Spiker",
+    "range": "24\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Devastating Wounds",
+     "Rapid Fire 3"
+    ]
+   },
+   {
+    "name": "Skewer",
+    "range": "48\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-4",
+    "D": "4",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Brute Shot",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Blast",
+     "Ignores Cover"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Brute Heavy Melee Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 6+"
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Heavy Gunner"
+  ]
+ },
+ {
+  "name": "Jiralhanae Bodyguard",
+  "category": "AUXILIARY",
+  "subtitle": "Protective Auxiliary",
+  "points": 35,
+  "profile": {
+   "M": "6\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "3",
+   "LD": "6+",
+   "OC": "2",
+   "SP": "3"
+  },
+  "page": 121,
+  "unit_composition": [
+   "1 Jiralhanae Bodyguard"
+  ],
+  "equipped": [
+   "Spiker",
+   "Mangler",
+   "Brute Close Combat Weapon",
+   "Personal Shield Generator"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Personal Shield Generator",
+    "text": "The bearer has a starting SP value of 3."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Spiker",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Mangler",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds",
+     "Pistol"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Brute Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 6+"
+   },
+   {
+    "name": "Sworn Protector",
+    "text": "While a Character model is part of this model's unit, each time an attack with Precision is allocated to that Character, allocate that attack to this model instead. Each time that Character would suffer one or more mortal wounds, this model suffers those mortal wounds instead. These effects cease when this model is destroyed. A unit cannot contain more than one Jiralhanae Bodyguard."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Bodyguard"
+  ]
+ },
+ {
+  "name": "Jiralhanae Berserker",
+  "category": "AUXILIARY",
+  "subtitle": "Melee Auxiliary",
+  "points": 25,
+  "profile": {
+   "M": "6\"",
+   "T": "5",
+   "SV": "2+",
+   "W": "3",
+   "LD": "6+",
+   "OC": "2"
+  },
+  "page": 122,
+  "unit_composition": [
+   "1 Jiralhanae Berserker"
+  ],
+  "equipped": [
+   "Gravity Hammer"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Gravity Hammer",
+    "range": "Melee",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-4",
+    "D": "5",
+    "keywords": [
+     "Devastating Wounds",
+     "Gravity Slam"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 6+"
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Berserker"
+  ]
+ },
+ {
+  "name": "Jiralhanae Stalker",
+  "category": "AUXILIARY",
+  "subtitle": "Covert Auxiliary",
+  "points": 35,
+  "profile": {
+   "M": "7\"",
+   "T": "5",
+   "SV": "4+",
+   "W": "3",
+   "LD": "6+",
+   "OC": "1"
+  },
+  "page": 123,
+  "unit_composition": [
+   "1 Jiralhanae Stalker"
+  ],
+  "equipped": [
+   "Spiker",
+   "Mangler",
+   "Brute Heavy Melee Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Spiker",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Mangler",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds",
+     "Pistol"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Brute Heavy Melee Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Feel No Pain 6+"
+   },
+   {
+    "name": "Stalking Predator",
+    "text": "Models in this model's unit have Scouts 6 inches."
+   }
+  ],
+  "keywords": [
+   "Jiralhanae",
+   "Brute",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Stalker"
+  ]
+ },
+ {
+  "name": "Yig-Yar Marauder",
+  "category": "AUXILIARY",
+  "subtitle": "Auxiliary Model",
+  "points": 10,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 124,
+  "unit_composition": [
+   "1 Yig-Yar Marauder"
+  ],
+  "equipped": [
+   "Plasma Rifle",
+   "Yig-Yar Close Combat Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "This model can take a Wrist Shield for +5pts. It can replace its Plasma Rifle with a Needler for free."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Wrist Shield",
+    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12 inches, its Shield Save is 4+ instead."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifle",
+    "range": "15\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Needler",
+    "range": "14\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Yig-Yar Close Combat Weapon",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [],
+  "keywords": [
+   "Yig-Yar",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Marauder"
+  ]
+ },
+ {
+  "name": "Yig-Yar Marksman",
+  "category": "AUXILIARY",
+  "subtitle": "Precision Auxiliary",
+  "points": 30,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 125,
+  "unit_composition": [
+   "1 Yig-Yar Marksman"
+  ],
+  "equipped": [
+   "Covenant Carbine",
+   "Plasma Pistol",
+   "Yig-Yar Close Combat Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Yig-Yar Close Combat Weapon",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Mark the Target",
+    "text": "Once per battle, at the start of your Shooting phase, ranged weapons equipped by models in this model's unit have Precision until the end of the phase."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Marksman"
+  ]
+ },
+ {
+  "name": "T'vaoan Skirmisher",
+  "category": "AUXILIARY",
+  "subtitle": "Elite Auxiliary",
+  "points": 30,
+  "profile": {
+   "M": "10\"",
+   "T": "4",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 126,
+  "unit_composition": [
+   "1 T'vaoan Skirmisher"
+  ],
+  "equipped": [
+   "2 Plasma Rifles",
+   "T'vaoan Plasma Sabres"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Select one loadout package; packages cannot be combined.",
+   "30pts — Rifleman (2 Plasma Rifles); Carbine (Carbine + Plasma Rifle); Storm (Storm Rifle + Bolt Spiker); Repeater (Repeater + Spiker); Demolitionist (Brute Shot + Plasma Pistol + Satchel Charge); Heavy Gunner (Heavy Plasma or Brute Heavy Melee); Melee Specialist (Energy Sword). All retain Plasma Sabres unless replaced.",
+   "35pts total — Shield Raider: Plasma Rifle, Wrist Shield and Plasma Sabres. A Covenant Carbine cannot be combined with a Wrist Shield.",
+   "40pts total — Needler: 2 Needlers; Anti-armour: Fuel Rod + Plasma Pistol, or Skewer + Plasma Pistol; Twin-Blade: Twin-linked Energy Swords."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [
+   {
+    "name": "Wrist Shield",
+    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12 inches, its Shield Save is 4+ instead."
+   }
+  ],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifles",
+    "range": "15\"",
+    "A": "6",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Needlers",
+    "range": "14\"",
+    "A": "8",
+    "BS_WS": "3+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   },
+   {
+    "name": "Covenant Carbine",
+    "range": "48\"",
+    "A": "2",
+    "BS_WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits",
+     "Precision"
+    ]
+   },
+   {
+    "name": "Storm Rifle",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Bolt Spiker",
+    "range": "24\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "keywords": [
+     "Devastating Wounds",
+     "Rapid Fire 3"
+    ]
+   },
+   {
+    "name": "Plasma Repeater",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "Lethal Hits",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Spiker",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Brute Shot",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Blast",
+     "Ignores Cover"
+    ]
+   },
+   {
+    "name": "Fuel Rod",
+    "range": "24\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "keywords": [
+     "Blast"
+    ]
+   },
+   {
+    "name": "Skewer",
+    "range": "48\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "12",
+    "AP": "-4",
+    "D": "4",
+    "keywords": [
+     "Devastating Wounds"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Satchel Charge",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "D3",
+    "keywords": [
+     "Blast",
+     "One Shot"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "T'vaoan Plasma Sabres",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Twin-linked",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Heavy Plasma Melee Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Brute Heavy Melee Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   },
+   {
+    "name": "Energy Sword",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": []
+   },
+   {
+    "name": "Twin-linked Energy Swords",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Twin-linked"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Break from the Pack",
+    "text": "At the start of your Movement phase, if this model's unit is not within Engagement Range, this model can split off as a separate unit with Starting Strength 1. It cannot rejoin another unit during the battle."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "T'vaoan",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Skirmisher"
+  ]
+ },
+ {
+  "name": "T'vaoan Tracker",
+  "category": "AUXILIARY",
+  "subtitle": "Reconnaissance Auxiliary",
+  "points": 30,
+  "profile": {
+   "M": "10\"",
+   "T": "4",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 127,
+  "unit_composition": [
+   "1 T'vaoan Tracker"
+  ],
+  "equipped": [
+   "Storm Rifle",
+   "Plasma Pistol",
+   "Yig-Yar Plasma Sabre"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Storm Rifle",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Yig-Yar Plasma Sabre",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Trailblazer",
+    "text": "Models in this model's unit have Scouts 6 inches."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "T'vaoan",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Tracker"
+  ]
+ },
+ {
+  "name": "Yig-Yar Sniper",
+  "category": "AUXILIARY",
+  "subtitle": "Sniper Auxiliary",
+  "points": 35,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 128,
+  "unit_composition": [
+   "1 Yig-Yar Sniper"
+  ],
+  "equipped": [
+   "Particle Beam Rifle",
+   "Plasma Pistol",
+   "Yig-Yar Close Combat Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Particle Beam Rifle",
+    "range": "60\"",
+    "A": "1",
+    "BS_WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "Conversion Beam 30 inches",
+     "Precision",
+     "Sustained Hits 1"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Yig-Yar Close Combat Weapon",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Spotter's Nest",
+    "text": "While this model's unit Remained Stationary this turn, its ranged weapons have Ignores Cover."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Sniper"
+  ]
+ },
+ {
+  "name": "Yig-Yar Pathfinder",
+  "category": "AUXILIARY",
+  "subtitle": "Pathfinding Auxiliary",
+  "points": 20,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 129,
+  "unit_composition": [
+   "1 Yig-Yar Pathfinder"
+  ],
+  "equipped": [
+   "Plasma Rifle",
+   "Plasma Pistol",
+   "Yig-Yar Close Combat Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifle",
+    "range": "15\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Yig-Yar Close Combat Weapon",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Pathfinder",
+    "text": "Models in this model's unit ignore modifiers to their Move characteristic and Advance rolls, and can move through Ruins as though they had the Infantry keyword."
+   }
+  ],
+  "keywords": [
+   "Yig-Yar",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Pathfinder"
+  ]
+ },
+ {
+  "name": "Unggoy Warrior",
+  "category": "AUXILIARY",
+  "subtitle": "Auxiliary Model",
+  "points": 15,
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 130,
+  "unit_composition": [
+   "1 Unggoy Warrior"
+  ],
+  "equipped": [
+   "Plasma Pistol",
+   "Unggoy Close Combat Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [
+   "Replace the Plasma Pistol with a Plasma Rifle, Needler or Storm Rifle for free, or with a Fuel Rod for +10pts."
+  ],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Plasma Rifle",
+    "range": "15\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Needler",
+    "range": "14\"",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   },
+   {
+    "name": "Storm Rifle",
+    "range": "24\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Assault",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Fuel Rod",
+    "range": "24\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "keywords": [
+     "Blast"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Unggoy Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [],
+  "keywords": [
+   "Unggoy",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Warrior"
+  ]
+ },
+ {
+  "name": "Unggoy Suicide Bomber",
+  "category": "AUXILIARY",
+  "subtitle": "Disposable Auxiliary",
+  "points": 20,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "7+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "0"
+  },
+  "page": 131,
+  "unit_composition": [
+   "1 Unggoy Suicide Bomber"
+  ],
+  "equipped": [
+   "Unstable Plasma Charges"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Unstable Plasma Charges",
+    "range": "Melee",
+    "A": "1",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Plasma (D1)"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Proximity Detonation",
+    "text": "Each time this model ends a move within 3 inches of an enemy unit, or an enemy model ends a move within 3 inches of it, this model detonates. Roll one D6; on a 3+, select one such enemy unit to suffer D3+3 mortal wounds. This model is then destroyed."
+   }
+  ],
+  "keywords": [
+   "Unggoy",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Suicide Bomber"
+  ]
+ },
+ {
+  "name": "Unggoy Zealot",
+  "category": "AUXILIARY",
+  "subtitle": "Fanatical Auxiliary",
+  "points": 10,
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "1",
+   "LD": "7+",
+   "OC": "1"
+  },
+  "page": 131,
+  "unit_composition": [
+   "1 Unggoy Zealot"
+  ],
+  "equipped": [
+   "Plasma Pistol",
+   "Zealot Blade"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Zealot Blade",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits",
+     "Sustained Hits 2"
+    ]
+   }
+  ],
+  "abilities": [],
+  "keywords": [
+   "Unggoy",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Zealot"
+  ]
+ },
+ {
+  "name": "Unggoy Ammo-Runner",
+  "category": "AUXILIARY",
+  "subtitle": "Logistics Auxiliary",
+  "points": 15,
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "page": 132,
+  "unit_composition": [
+   "1 Unggoy Ammo-Runner"
+  ],
+  "equipped": [
+   "Plasma Pistol",
+   "Satchel Charge",
+   "Unggoy Close Combat Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Pistol",
+    "range": "12\"",
+    "A": "1",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   },
+   {
+    "name": "Satchel Charge",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "D3",
+    "keywords": [
+     "Blast",
+     "One Shot"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Unggoy Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Ammunition Runner",
+    "text": "Once per Shooting phase for each model in this unit with this ability, re-roll one dice used to determine a weapon's number of attacks, one Hit roll and one Wound roll made by this unit."
+   }
+  ],
+  "keywords": [
+   "Unggoy",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Ammo-Runner"
+  ]
+ },
+ {
+  "name": "Unggoy Infiltrator",
+  "category": "AUXILIARY",
+  "subtitle": "Covert Auxiliary",
+  "points": 25,
+  "profile": {
+   "M": "6\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "page": 133,
+  "unit_composition": [
+   "1 Unggoy Infiltrator"
+  ],
+  "equipped": [
+   "Needler",
+   "Unggoy Close Combat Weapon"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Needler",
+    "range": "14\"",
+    "A": "4",
+    "BS_WS": "4+",
+    "S": "1",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Anti-Infantry 2+",
+     "Supercombine",
+     "Sustained Hits 4"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Unggoy Close Combat Weapon",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": [
+     "Lethal Hits"
+    ]
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Forward Infiltration",
+    "text": "This model's unit has Infiltrators."
+   }
+  ],
+  "keywords": [
+   "Unggoy",
+   "Infantry",
+   "Grenades",
+   "Auxiliary",
+   "Infiltrator"
+  ]
+ },
+ {
+  "name": "Huragok Lifeworker",
+  "category": "AUXILIARY",
+  "subtitle": "Medical Auxiliary",
+  "points": 25,
+  "profile": {
+   "M": "10\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "0"
+  },
+  "page": 134,
+  "unit_composition": [
+   "1 Huragok Lifeworker"
+  ],
+  "equipped": [
+   "Delicate Manipulators"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Delicate Manipulators",
+    "range": "Melee",
+    "A": "1",
+    "BS_WS": "6+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Biological Restoration",
+    "text": "At the end of your Movement phase, select one other Covenant Infantry model in this model's unit. It regains D3 lost Wounds. Once per battle, instead return one destroyed non-Character, non-Auxiliary model to that unit with 1 Wound remaining. That model cannot be Mgalekgolo and cannot have a starting Wounds characteristic greater than 3."
+   }
+  ],
+  "keywords": [
+   "Huragok",
+   "Infantry",
+   "Fly",
+   "Auxiliary",
+   "Lifeworker"
+  ]
+ },
+ {
+  "name": "Huragok Shield Tender",
+  "category": "AUXILIARY",
+  "subtitle": "Shield Auxiliary",
+  "points": 30,
+  "profile": {
+   "M": "10\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "2",
+   "LD": "6+",
+   "OC": "0"
+  },
+  "page": 135,
+  "unit_composition": [
+   "1 Huragok Shield Tender"
+  ],
+  "equipped": [
+   "Shield Tuning Implements"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [],
+  "melee_weapons": [
+   {
+    "name": "Shield Tuning Implements",
+    "range": "Melee",
+    "A": "1",
+    "BS_WS": "6+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Shield Maintenance",
+    "text": "At the start of your Command phase, select up to three other models in this model's unit. Each regains 2 lost SP, up to its starting SP value."
+   }
+  ],
+  "keywords": [
+   "Huragok",
+   "Infantry",
+   "Fly",
+   "Auxiliary",
+   "Shield Tender"
+  ]
+ },
+ {
+  "name": "Yanme'e Drone Specialist",
+  "category": "AUXILIARY",
+  "subtitle": "Specialist Auxiliary",
+  "points": 20,
+  "profile": {
+   "M": "12\"",
+   "T": "3",
+   "SV": "6+",
+   "W": "1",
+   "LD": "8+",
+   "OC": "1"
+  },
+  "page": 136,
+  "unit_composition": [
+   "1 Yanme'e Drone Specialist"
+  ],
+  "equipped": [
+   "Plasma Rifle",
+   "Drone Claws"
+  ],
+  "sergeant": [],
+  "auxiliary": [],
+  "wargear_options": [],
+  "leader": [],
+  "transport": [],
+  "rules_notes": [],
+  "wargear": [],
+  "ranged_weapons": [
+   {
+    "name": "Plasma Rifle",
+    "range": "15\"",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "Assault",
+     "Pistol",
+     "Plasma (AP1)"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Drone Claws",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   }
+  ],
+  "abilities": [
+   {
+    "name": "Core",
+    "text": "Scouts 8 inches"
+   },
+   {
+    "name": "Targeting Relay",
+    "text": "Once per battle round, when this model's unit is selected to shoot, select one enemy unit visible to this model. Until the end of the phase, ranged attacks made by this model's unit against that enemy have Ignores Cover."
+   }
+  ],
+  "keywords": [
+   "Yanme'e",
+   "Infantry",
+   "Fly",
+   "Auxiliary",
+   "Drone Specialist"
+  ]
+ }
+]

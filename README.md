@@ -1,6 +1,6 @@
 # Xverse — Warhammer 40,000 11e homebrew
 
-This fork includes Skaven, Black-Flag and a playtest Agents of the Imperium v0.9.2 catalogue.
+This fork includes Skaven, Black-Flag, Covenant and a playtest Agents of the Imperium v0.9.2 catalogue.
 
 ## Install in New Recruit
 
@@ -40,6 +40,10 @@ Legions of Excess appear only with Carnival of Excess, Perfumed Procession or Ri
 ## Skaven 11th edition
 
 The **Chaos - Skaven** catalogue is rebuilt from the Skaven 11th-edition homebrew codex: 58 datasheets (including the four Verminlord datasheets), 12 detachments, enhancements, Workshop Projects and stratagems, laid out like the Emperor's Children catalogue. Refresh to Latest Commit (Head) and update your list data. Lists that used the old single Verminlord need that unit added again. See [Skaven notes](homebrew/SKAVEN-11E.md).
+
+## Covenant 11th edition
+
+The **Xenos - Covenant (Homebrew)** catalogue is built from Codex: Covenant v5.5.0 with the revised Caste Hierarchy and Energy Shields: 65 datasheets, Sergeant and Auxiliary models added inside units, 12 detachments, enhancements, upgrades and stratagems, laid out like the Emperor's Children catalogue. Unofficial fan content; Halo is the property of Microsoft and Halo Studios. See [Covenant notes](homebrew/COVENANT-11E.md).
 
 ## Faction icons
 
