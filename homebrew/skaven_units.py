@@ -147,7 +147,7 @@ UNITS = {
                     V("Stormclad with Shock gauntlet", ["Warp-disintegrator", "Shock gauntlet"], (2, 2)),
                     V("Stormclad with Warp-lance", ["Warp-lance", "Warp-glaive"], (1, 1))])],
         sizes=[{"Fangleader": 1, "Stormclad": 9}],
-        bearer_gear=[("Voltaic Pennant", None)]),
+        bearer_gear=[("Voltaic Pennant", None), ("Warp-Grenade Satchel", None)]),
     "Plague Monks": dict(
         models=[M("Plague Deacon", (1, 1), ["Deacon blade"]),
                 M("Plague Monk", (9, 19), ["Twin foetid blades"], variants=[

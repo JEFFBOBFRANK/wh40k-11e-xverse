@@ -2459,13 +2459,17 @@
    {
     "name": "Voltaic Pennant",
     "text": "Improve the Leadership characteristic of models in the bearer's unit by 1, and you can re-roll battle-shock rolls taken for that unit."
+   },
+   {
+    "name": "Warp-Grenade Satchel",
+    "text": "Once per battle, in your Shooting phase, instead of the bearer shooting, select one enemy unit within 8\" of and visible to the bearer and roll six D6. For each 4+, that enemy unit suffers 1 mortal wound. For each 1, the bearer's unit suffers 1 mortal wound."
    }
   ],
   "other_rules": [],
   "unit_composition": [
    "1 Fangleader and 9 Stormclads. Every Stormclad is equipped with one of: 1 Warp-disintegrator and 1 Warp-glaive; or 1 Warp-blade and 1 Voltaic shield. Up to 3 Stormclads can replace their Warp-disintegrator with 1 Warp-blaster. Up to 2 Stormclads can replace their Warp-glaive with 1 Shock gauntlet. 1 Stormclad can replace its Warp-disintegrator with 1 Warp-lance.",
    "Fangleader:W3. Equipped with 1 Warp-disintegrator, 1 Warp-blaster or 1 Warp-lance, and 1 Master-forged warp-glaive or 1 Shock gauntlet.",
-   "A model equipped with a Voltaic shield has a 4+ invulnerable save. One Stormclad can carry a Voltaic Pennant; this does not replace its weapons."
+   "A model equipped with a Voltaic shield has a 4+ invulnerable save. One Stormclad can carry a Voltaic Pennant and one Stormclad can carry a Warp-Grenade Satchel; these do not replace its weapons."
   ],
   "points": "195pts",
   "repeat_cost": "+20pts from the 3rd copy"
@@ -4490,7 +4494,7 @@
     "BS_WS": "3+",
     "S": "16",
     "AP": "-4",
-    "D": "D3+4",
+    "D": "D3+6",
     "keywords": [
      "HAZARDOUS",
      "MELTA 4",
@@ -4518,7 +4522,7 @@
     "BS_WS": "3+",
     "S": "16",
     "AP": "-3",
-    "D": "D3+4",
+    "D": "D3+6",
     "keywords": []
    }
   ],
@@ -4722,7 +4726,7 @@
     "BS_WS": "4+",
     "S": "16",
     "AP": "-3",
-    "D": "D3+6",
+    "D": "D3+8",
     "keywords": [
      "HEAVY",
      "ANTI-MONSTER 3+",
@@ -4930,7 +4934,7 @@
     "BS_WS": "4+",
     "S": "16",
     "AP": "-3",
-    "D": "D3+5",
+    "D": "D3+8",
     "keywords": [
      "HEAVY",
      "ANTI-VEHICLE 4+",
@@ -5351,7 +5355,7 @@
     "BS_WS": "4+",
     "S": "18",
     "AP": "-4",
-    "D": "D3+5",
+    "D": "D3+8",
     "keywords": [
      "BLAST 1",
      "HAZARDOUS",
@@ -5468,7 +5472,7 @@
     "BS_WS": "4+",
     "S": "16",
     "AP": "-4",
-    "D": "D3+4",
+    "D": "D3+6",
     "keywords": [
      "HAZARDOUS",
      "MELTA 4",
@@ -5654,7 +5658,7 @@
     "BS_WS": "4+",
     "S": "18",
     "AP": "-4",
-    "D": "D3+2",
+    "D": "D3+6",
     "keywords": [
      "BLAST 1",
      "HAZARDOUS",
@@ -5698,7 +5702,7 @@
     "BS_WS": "4+",
     "S": "16",
     "AP": "-4",
-    "D": "D3+4",
+    "D": "D3+6",
     "keywords": [
      "HAZARDOUS",
      "MELTA 4",
@@ -6016,7 +6020,7 @@
     "BS_WS": "4+",
     "S": "16",
     "AP": "-4",
-    "D": "D3+5",
+    "D": "D3+8",
     "keywords": [
      "HEAVY",
      "ANTI-MONSTER 4+",

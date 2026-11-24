@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 71
+REVISION = 72
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Warlord": "Clawlord",
@@ -262,7 +262,7 @@ class Builder:
                     self.weapon_profile(nid(eid + ":" + name), weapon, ranged))
             elif name not in {"Heavy shield", "Shield", "Explosive Collars", "Clan Standard", "Scavenger Bell",
                               "Warhorn", "Regimental Banner", "Grounding Rod", "Spare Capacitor", "Plague Banner",
-                              "Doom Gong", "Sword and Board", "Warplock", "Voltaic shield", "Voltaic Pennant"}:
+                              "Doom Gong", "Sword and Board", "Warplock", "Voltaic shield", "Voltaic Pennant", "Warp-Grenade Satchel"}:
                 raise ValueError(f"{owner}: unknown weapon {name}")
         node["constraints"] = [constraint(nid(eid + ":max"), "max", 1)]
         if fixed:

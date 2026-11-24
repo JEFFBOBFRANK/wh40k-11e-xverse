@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 71 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 72 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -22,7 +22,7 @@ detachments). The layout follows the Emperor's Children catalogue.
   Leading / Supporting links, as in the Emperor's Children catalogue. A Support
   must be attached; a mounted Plague Priest need not be.
 - Optional wargear (Clan Standard, Scavenger Bell, Warhorn, Regimental Banner,
-  Plague Banner, Doom Gong, Grounding Rod, Spare Capacitor, Voltaic Pennant) works like the Emperor's
+  Plague Banner, Doom Gong, Grounding Rod, Spare Capacitor, Voltaic Pennant, Warp-Grenade Satchel) works like the Emperor's
   Children Tormentors' Icon of Excess: tick it on the unit, then pick the model that
   carries it. Squad leaders cannot carry it, and the item's ability appears only
   when it is taken. Special weapons stay separate model types (e.g. "Stormvermin

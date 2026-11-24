@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 71,
+    "revision": 72,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -35077,7 +35077,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 1 Fangleader and 9 Stormclads. Every Stormclad is equipped with one of: 1 Warp-disintegrator and 1 Warp-glaive; or 1 Warp-blade and 1 Voltaic shield. Up to 3 Stormclads can replace their Warp-disintegrator with 1 Warp-blaster. Up to 2 Stormclads can replace their Warp-glaive with 1 Shock gauntlet. 1 Stormclad can replace its Warp-disintegrator with 1 Warp-lance. Fangleader:W3. Equipped with 1 Warp-disintegrator, 1 Warp-blaster or 1 Warp-lance, and 1 Master-forged warp-glaive or 1 Shock gauntlet. A model equipped with a Voltaic shield has a 4+ invulnerable save. One Stormclad can carry a Voltaic Pennant; this does not replace its weapons."
+                "$text": "Composition: 1 Fangleader and 9 Stormclads. Every Stormclad is equipped with one of: 1 Warp-disintegrator and 1 Warp-glaive; or 1 Warp-blade and 1 Voltaic shield. Up to 3 Stormclads can replace their Warp-disintegrator with 1 Warp-blaster. Up to 2 Stormclads can replace their Warp-glaive with 1 Shock gauntlet. 1 Stormclad can replace its Warp-disintegrator with 1 Warp-lance. Fangleader:W3. Equipped with 1 Warp-disintegrator, 1 Warp-blaster or 1 Warp-lance, and 1 Master-forged warp-glaive or 1 Shock gauntlet. A model equipped with a Voltaic shield has a 4+ invulnerable save. One Stormclad can carry a Voltaic Pennant and one Stormclad can carry a Warp-Grenade Satchel; these do not replace its weapons."
               }
             ]
           },
@@ -35716,6 +35716,105 @@
               {
                 "name": "Voltaic Pennant",
                 "id": "de2a-35c3-ee1e-1509",
+                "childId": "model",
+                "includeChildSelections": true,
+                "min": 1,
+                "max": 1,
+                "scope": "64fa-8772-08d1-5c74",
+                "defaultSelectionEntryId": "none",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "b7de-e08a-d6b0-db4a",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "ffb8-b542-57c9-3660",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "a8fb-c906-d118-8b12",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "734c-4046-d125-1d72",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "3d70-4566-7d20-f9da",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 50
+          },
+          {
+            "name": "Warp-Grenade Satchel",
+            "id": "d003-ac26-3f38-ec24",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "9920-c02d-26e9-5fea",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "id": "2ae2-3b26-5c21-5e8c",
+                "name": "Warp-Grenade Satchel",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Once per battle, in your Shooting phase, instead of the bearer shooting, select one enemy unit within 8\" of and visible to the bearer and roll six D6. For each 4+, that enemy unit suffers 1 mortal wound. For each 1, the bearer's unit suffers 1 mortal wound."
+                  }
+                ]
+              }
+            ],
+            "associations": [
+              {
+                "name": "Warp-Grenade Satchel",
+                "id": "4abb-1709-66b4-7e4f",
                 "childId": "model",
                 "includeChildSelections": true,
                 "min": 1,
@@ -66165,7 +66264,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D3+4"
+                    "$text": "D3+6"
                   },
                   {
                     "name": "Keywords",
@@ -66384,7 +66483,7 @@
                   {
                     "name": "D",
                     "typeId": "3254-9fe6-d824-513e",
-                    "$text": "D3+4"
+                    "$text": "D3+6"
                   },
                   {
                     "name": "Keywords",
@@ -69044,7 +69143,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D3+6"
+                    "$text": "D3+8"
                   },
                   {
                     "name": "Keywords",
@@ -70868,7 +70967,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D3+5"
+                    "$text": "D3+8"
                   },
                   {
                     "name": "Keywords",
@@ -74872,7 +74971,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D3+5"
+                    "$text": "D3+8"
                   },
                   {
                     "name": "Keywords",
@@ -75941,7 +76040,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D3+4"
+                    "$text": "D3+6"
                   },
                   {
                     "name": "Keywords",
@@ -77662,7 +77761,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D3+2"
+                    "$text": "D3+6"
                   },
                   {
                     "name": "Keywords",
@@ -78049,7 +78148,7 @@
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "D3+4"
+                        "$text": "D3+6"
                       },
                       {
                         "name": "Keywords",
@@ -80830,7 +80929,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D3+5"
+                    "$text": "D3+8"
                   },
                   {
                     "name": "Keywords",
