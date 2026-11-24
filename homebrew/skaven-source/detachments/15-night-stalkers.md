@@ -3,7 +3,7 @@
 ## Unseen, Unheard
 
 - Friendly NIGHT RUNNERS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.
-- Friendly ESHIN INFANTRY units have the Stealth ability, and are eligible to shoot and declare a charge in a turn in which they made a fall-back move.
+- Each time a friendly ESHIN INFANTRY unit is selected to shoot or fight, you can spend 1 Vermin. If you do, until the end of the phase, you can re-roll the hit roll for attacks made by models in that unit.
 
 ## Enhancements
 

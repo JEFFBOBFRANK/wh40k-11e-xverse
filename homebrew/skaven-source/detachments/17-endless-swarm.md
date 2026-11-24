@@ -2,7 +2,7 @@
 
 ## There Are Always More
 
-- Melee weapons equipped by models in friendly CLANRATS units have [SUSTAINED HITS 1].
+- Each time a friendly CLANRATS unit is selected to fight, you can roll one D3 and Sacrifice that many models from one friendly SKAVENSLAVES unit within 6" of it. If you do, until the end of the phase, melee weapons equipped by models in that CLANRATS unit have [SUSTAINED HITS 1].
 - While a friendly CLANRATS unit contains 20 or more models, add 1 to the Objective Control characteristic of models in that unit.
 
 ## Enhancements

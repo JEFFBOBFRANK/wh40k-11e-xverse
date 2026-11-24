@@ -3,7 +3,7 @@
 ## Frenzied Devotion
 
 - Friendly PLAGUE MONKS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.
-- In a turn in which a friendly PESTILENS INFANTRY unit made a charge move, melee weapons equipped by models in that unit have [LETHAL HITS].
+- Each time a friendly PESTILENS INFANTRY unit is selected to fight, you can roll one D3 and Sacrifice that many models from that unit. If you do, until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS].
 
 ## Enhancements
 

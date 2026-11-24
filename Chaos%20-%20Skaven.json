@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 75,
+    "revision": 76,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -2190,7 +2190,7 @@
                     "name": "Let Them Loose!",
                     "id": "c9c0-5b9a-4445-d699",
                     "hidden": false,
-                    "description": "\n\n- Friendly RAT OGORS and WOLF RATS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- In a turn in which a friendly MOULDER BEAST unit made a charge move, melee weapons equipped by models in that unit have [LANCE]."
+                    "description": "\n\n- Friendly RAT OGORS and WOLF RATS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Each time a friendly MOULDER BEAST unit is selected to fight, it can suffer D3 mortal wounds. If it does, until the end of the phase, add 1 to the wound roll for melee attacks made by models in that unit."
                   }
                 ],
                 "categoryLinks": [
@@ -2232,7 +2232,7 @@
                     "name": "Unseen, Unheard",
                     "id": "f428-26ac-4df0-9e24",
                     "hidden": false,
-                    "description": "\n\n- Friendly NIGHT RUNNERS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Friendly ESHIN INFANTRY units have the Stealth ability, and are eligible to shoot and declare a charge in a turn in which they made a fall-back move."
+                    "description": "\n\n- Friendly NIGHT RUNNERS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Each time a friendly ESHIN INFANTRY unit is selected to shoot or fight, you can spend 1 Vermin. If you do, until the end of the phase, you can re-roll the hit roll for attacks made by models in that unit."
                   }
                 ],
                 "categoryLinks": [
@@ -2274,7 +2274,7 @@
                     "name": "Frenzied Devotion",
                     "id": "ece3-b0cc-15de-96c2",
                     "hidden": false,
-                    "description": "\n\n- Friendly PLAGUE MONKS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- In a turn in which a friendly PESTILENS INFANTRY unit made a charge move, melee weapons equipped by models in that unit have [LETHAL HITS]."
+                    "description": "\n\n- Friendly PLAGUE MONKS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Each time a friendly PESTILENS INFANTRY unit is selected to fight, you can roll one D3 and Sacrifice that many models from that unit. If you do, until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS]."
                   }
                 ],
                 "categoryLinks": [
@@ -2316,7 +2316,7 @@
                     "name": "There Are Always More",
                     "id": "4a58-c18d-aedf-b002",
                     "hidden": false,
-                    "description": "\n\n- Melee weapons equipped by models in friendly CLANRATS units have [SUSTAINED HITS 1].\n- While a friendly CLANRATS unit contains 20 or more models, add 1 to the Objective Control characteristic of models in that unit."
+                    "description": "\n\n- Each time a friendly CLANRATS unit is selected to fight, you can roll one D3 and Sacrifice that many models from one friendly SKAVENSLAVES unit within 6\" of it. If you do, until the end of the phase, melee weapons equipped by models in that CLANRATS unit have [SUSTAINED HITS 1].\n- While a friendly CLANRATS unit contains 20 or more models, add 1 to the Objective Control characteristic of models in that unit."
                   }
                 ],
                 "categoryLinks": [
