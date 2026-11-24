@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 4
+REVISION = 5
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -662,11 +662,20 @@ class Builder:
                          shared=True, includeChildSelections=True) for t in targets])])]
 
     # ------------------------------------------------------------ detachments
+    def plain_keywords(self, text):
+        """Restrictions print keywords in capitals (MGALEKGOLO unit only); match them by their datasheet spelling."""
+        if not hasattr(self, "_keyword_case"):
+            names = {k for d in self.data.values() for k in d["keywords"]} | {"Covenant", "Drone Swarm"}
+            self._keyword_case = sorted(((k.upper(), k) for k in names), key=lambda t: -len(t[0]))
+        for upper, plain in self._keyword_case:
+            text = re.sub(rf"(?<![\w']){re.escape(upper)}(?![\w'])", plain, text)
+        return text
+
     def eligible(self, det, enh, ds):
         """Which datasheets an Enhancement or Upgrade can go on."""
         kws = set(ds["keywords"])
         cat = ds["category"]
-        restriction = enh["restriction"] or ""
+        restriction = self.plain_keywords(enh["restriction"] or "")
         character = "Character" in kws and "Epic Hero" not in kws
         if not enh["upgrade"]:
             if "Shipmaster model only" in restriction:
@@ -770,7 +779,7 @@ class Builder:
         name = e["name"] + (" [Upgrade]" if e["upgrade"] else "")
         body = "\n\n".join(e["text"])
         description = ((e["restriction"] + "\n\n") if e["restriction"] else "") + body
-        shared = e["upgrade"] and re.search(r"up to three", body, flags=re.I)
+        shared = e["upgrade"]  # 11e: up to three of the same Upgrade, sharing one Enhancement selection
         limit = 3 if shared else 1
         node = entry(eid, name, costs=[dict(name="pts", typeId=POINTS, value=e["points"]),
                                        dict(name="Enhancements", typeId=ENHANCEMENT_SLOT, value=1),

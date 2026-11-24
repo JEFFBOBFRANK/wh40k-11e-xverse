@@ -63,7 +63,7 @@
   "abilities": [
    {
     "name": "Voice of the Covenant",
-    "text": "At the start of any phase, select one friendly Covenant Infantry unit within 12 inches of this model, then select one Caste Doctrine available to any Sergeant model in your army that can be used in that phase. Until the end of the phase, the selected unit is affected by that Doctrine as though it contained the appropriate Sergeant. This use does not prevent another unit from using the same Doctrine in that battle round."
+    "text": "At the start of any phase, select one friendly COVENANT INFANTRY unit within 12\" of this model, then select one Caste Doctrine available to any Sergeant model in your army that can be used in that phase. Until the end of the phase, the selected unit is affected by that Doctrine as though it contained the appropriate Sergeant."
    },
    {
     "name": "Instruments of My Will",
@@ -146,11 +146,11 @@
   "abilities": [
    {
     "name": "Reckless Crusade",
-    "text": "While this model is within 6 inches of one or more friendly Covenant Infantry units, add 2 inches to those units' Move characteristics and re-roll Advance and Charge rolls made for them."
+    "text": "While this model is within 6\" of one or more friendly COVENANT INFANTRY units, add 2\" to those units' M characteristics and re-roll advance and charge rolls made for them."
    },
    {
     "name": "Short-range Teleporter",
-    "text": "Once per battle, at the end of your opponent's Movement phase, remove this model's unit from the battlefield and set it back up wholly within 6 inches of its previous position and more than 3 inches horizontally from every enemy model."
+    "text": "Once per battle, at the end of your opponent's Movement phase, remove this model's unit from the battlefield and set it back up wholly within 6\" of its previous position and more than 3\" horizontally from every enemy model."
    },
    {
     "name": "Sacred Authority",
@@ -229,11 +229,11 @@
   "abilities": [
    {
     "name": "Voice of the Faithful",
-    "text": "While a friendly Covenant Infantry unit is within 6 inches of this model, improve that unit's Leadership characteristic by 1 and add 1 to the Objective Control characteristic of models in it."
+    "text": "While a friendly COVENANT INFANTRY unit is within 6\" of this model, improve that unit's Ld characteristic by 1 and add 1 to the OC characteristic of models in it."
    },
    {
     "name": "Ancient Counsel",
-    "text": "Once per phase, when a friendly Covenant Infantry unit within 6 inches of this model becomes affected by a Caste or Fanatical Doctrine, until the end of the phase models in that unit can re-roll Hit rolls of 1 and Wound rolls of 1."
+    "text": "Once per phase, when a friendly COVENANT INFANTRY unit within 6\" of this model becomes affected by a Caste or Fanatical Doctrine, until the end of the phase models in that unit can re-roll hit rolls of 1 and wound rolls of 1."
    },
    {
     "name": "Sacred Authority",
@@ -288,7 +288,7 @@
    },
    {
     "name": "Stealth Projector",
-    "text": "The bearer has Stealth. In addition, an enemy model more than 12 inches from the bearer cannot select it as the target of a Precision ranged attack."
+    "text": "The bearer has Stealth. In addition, an enemy model more than 12\" from the bearer cannot select it as the target of a [PRECISION] ranged attack."
    }
   ],
   "ranged_weapons": [
@@ -350,7 +350,7 @@
    },
    {
     "name": "Blade of the Arbiter",
-    "text": "Each time this model makes a melee attack that targets a Character unit, re-roll the Hit roll and Wound roll."
+    "text": "Each time this model makes a melee attack that targets a CHARACTER unit, re-roll the hit roll and wound roll."
    }
   ],
   "keywords": [
@@ -447,11 +447,11 @@
    },
    {
     "name": "Special Operations Commander",
-    "text": "While this model is leading a unit, add 1 to Hit rolls for attacks made by models in that unit."
+    "text": "While this model is leading a unit, add 1 to hit rolls for attacks made by models in that unit."
    },
    {
     "name": "Fleetmaster",
-    "text": "After both players have deployed, select up to two friendly Covenant units, excluding Fortifications. Redeploy those units. Any can instead be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+    "text": "After both players have deployed, select up to two friendly COVENANT units, excluding Fortifications. Redeploy those units. Any can instead be placed into strategic reserves, regardless of how many units are already in strategic reserves."
    }
   ],
   "keywords": [
@@ -570,15 +570,15 @@
    },
    {
     "name": "Tactical Coordination",
-    "text": "Once per battle round, when a friendly Covenant unit within 12 inches of this unit is selected as the target of a Stratagem, reduce the CP cost of that use by 1CP."
+    "text": "Once per battle round, when a friendly COVENANT unit within 12\" of this unit is selected as the target of a Stratagem, reduce the CP cost of that use by 1CP."
    },
    {
     "name": "Return to the Shadows",
-    "text": "At the end of your opponent's Fight phase, if this unit is not leading another unit, remove it from the battlefield and place it into Strategic Reserves."
+    "text": "At the end of your opponent's Fight phase, if this unit is not leading another unit, remove it from the battlefield and place it into strategic reserves."
    },
    {
     "name": "Coordinated Assault",
-    "text": "While both N'tho and Usze are on the battlefield, re-roll Hit rolls of 1 and Wound rolls of 1 for attacks made by models in this unit. While this unit is leading another unit, models in that Bodyguard unit also receive this benefit."
+    "text": "While both N'tho and Usze are on the battlefield, re-roll hit rolls of 1 and wound rolls of 1 for attacks made by models in this unit. While this unit is leading another unit, models in that Bodyguard unit also receive this benefit."
    }
   ],
   "keywords": [
@@ -651,11 +651,11 @@
    },
    {
     "name": "Chieftain of the Rukt Clan",
-    "text": "While this model is leading a unit, models in that unit have a Save characteristic of 3+ and Feel No Pain 5+."
+    "text": "While this model is leading a unit, models in that unit have a Sv characteristic of 3+ and Feel No Pain 5+."
    },
    {
     "name": "Chieftain's Wrath",
-    "text": "Each time this model makes a melee attack after charging: that attack has Lethal Hits if the target contains a model with 6 or more Wounds; Precision if the target contains a Leader model; and Sustained Hits 2 if the target contains 10 or more models. These effects are cumulative."
+    "text": "Each time this model makes a melee attack after charging: that attack has [LETHAL HITS] if the target contains a model with 6 or more Wounds; [PRECISION] if the target contains a Leader model; and [SUSTAINED HITS 2] if the target contains 10 or more models."
    }
   ],
   "keywords": [
@@ -718,7 +718,7 @@
    },
    {
     "name": "Divine Mandate",
-    "text": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+    "text": "While this model is leading a unit, add 1 to the OC characteristic of models in that unit."
    },
    {
     "name": "Ministerial Edict",
@@ -754,7 +754,7 @@
   "page": 49,
   "unit_composition": [
    "1 Sangheili Shipmaster",
-   "This unit can also include 0-1 Sangheili Ultra, 0-3 Sangheili Auxiliaries and 0-2 Unggoy Auxiliaries. Pay the points shown on each added model's entry."
+   "This unit can also include 0-1 Sangheili Ultra, 0-3 Sangheili Auxiliaries and 0-2 Unggoy Auxiliaries."
   ],
   "equipped": [
    "Plasma Repeater",
@@ -823,11 +823,11 @@
    },
    {
     "name": "Shipmaster's Command",
-    "text": "Once per turn, at the start of any phase, select one friendly Covenant unit within 6 inches of this model and one Sangheili Caste Doctrine that can be used in that phase. Until the end of the phase, that unit is affected by the Doctrine. It need not contain a Sangheili Sergeant. This use does not count as the unit using a Caste Doctrine and does not stop another unit from using the same Doctrine in that battle round."
+    "text": "Once per turn, at the start of any phase, select one friendly COVENANT unit within 6\" of this model and one Sangheili Caste Doctrine that can be used in that phase. Until the end of the phase, that unit is affected by the Doctrine. It need not contain a Sangheili Sergeant. This use does not count as the unit using a Caste Doctrine."
    },
    {
     "name": "Glassing Beam",
-    "text": "Once per battle, in your Shooting phase, select one enemy unit within 48 inches of and visible to this model, then roll one D6. On a 3+, that enemy unit suffers 3D6 mortal wounds."
+    "text": "Once per battle, in your Shooting phase, select one enemy unit within 48\" of and visible to this model, then roll one D6. On a 3+, that enemy unit suffers 3D6 mortal wounds."
    }
   ],
   "keywords": [
@@ -855,7 +855,7 @@
   "page": 50,
   "unit_composition": [
    "1 Sangheili Fieldmaster",
-   "This unit can also include 0-1 Sangheili Ultra, 0-3 Sangheili Auxiliaries and 0-2 Unggoy Auxiliaries. Pay the points shown on each added model's entry."
+   "This unit can also include 0-1 Sangheili Ultra, 0-3 Sangheili Auxiliaries and 0-2 Unggoy Auxiliaries."
   ],
   "equipped": [
    "Plasma Rifle",
@@ -925,7 +925,7 @@
    },
    {
     "name": "Call in Reinforcements",
-    "text": "Once per battle round, when a friendly Covenant Infantry unit is destroyed within 24 inches of this model, you can spend 1CP. Add a new unit identical to the destroyed unit to your army and place it into Strategic Reserves at Starting Strength. It includes the destroyed unit's Sergeants and non-Auxiliary wargear, but no Auxiliary models. A replacement unit created by this ability cannot itself be replaced by this ability."
+    "text": "Once per battle round, when a friendly COVENANT INFANTRY unit is destroyed within 24\" of this model, you can spend 1CP. Add a new unit identical to the destroyed unit to your army and place it into strategic reserves at starting strength. It includes the destroyed unit's Sergeants and non-Auxiliary wargear, but no Auxiliary models. A replacement unit created by this ability cannot itself be replaced by this ability."
    }
   ],
   "keywords": [
@@ -993,7 +993,7 @@
    },
    {
     "name": "Master Assassin",
-    "text": "At the start of the first battle round, select one enemy Character model. This model can re-roll Charge rolls against that Character's unit. Each time this model attacks that Character, an unmodified Wound roll of 5+ is a Critical Wound, and Critical Wounds inflicted on that Character have Devastating Wounds."
+    "text": "At the start of the first battle round, select one enemy CHARACTER model. This model can re-roll charge rolls against that Character's unit. Each time this model attacks that Character, an unmodified wound roll of 5+ is a critical wound, and critical wounds inflicted on that Character have [DEVASTATING WOUNDS]."
    }
   ],
   "keywords": [
@@ -1147,7 +1147,7 @@
    },
    {
     "name": "Pack Commander",
-    "text": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced."
+    "text": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it made an advance move."
    }
   ],
   "keywords": [
@@ -1193,7 +1193,7 @@
   "wargear": [
    {
     "name": "Wrist Shield",
-    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12 inches, its Shield Save is 4+ instead."
+    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12\", its Shield Save is 4+ instead."
    }
   ],
   "ranged_weapons": [
@@ -1233,7 +1233,7 @@
    },
    {
     "name": "Master of the Raid",
-    "text": "While this model is leading a unit, add 2 inches to the Move characteristic of models in that unit and add 1 to the Attacks characteristic of their weapons, excluding Extra Attacks and One Shot weapons."
+    "text": "While this model is leading a unit, add 2\" to the M characteristic of models in that unit and add 1 to the A characteristic of their weapons, excluding [EXTRA ATTACKS] and [ONE SHOT] weapons."
    }
   ],
   "keywords": [
@@ -1278,7 +1278,7 @@
   "wargear": [
    {
     "name": "Stealth Projector",
-    "text": "The bearer has Stealth. In addition, unless it is within 12 inches of an enemy model, it cannot be selected as the target of ranged attacks."
+    "text": "The bearer has Stealth. In addition, unless it is within 12\" of an enemy model, it cannot be selected as the target of ranged attacks."
    }
   ],
   "ranged_weapons": [
@@ -1369,11 +1369,11 @@
    },
    {
     "name": "Headtaker",
-    "text": "Each time this model makes a ranged attack that targets a Character unit, re-roll the Hit roll and Wound roll."
+    "text": "Each time this model makes a ranged attack that targets a CHARACTER unit, re-roll the hit roll and wound roll."
    },
    {
     "name": "Patient Ambush",
-    "text": "In your Shooting phase, if this model Remained Stationary, its Precision ranged weapons have Ignores Cover and improve their Damage characteristic by 1 until the end of the phase."
+    "text": "In your Shooting phase, if this model remained stationary, its [PRECISION] ranged weapons have [IGNORES COVER] and improve their D characteristic by 1 until the end of the phase."
    }
   ],
   "keywords": [
@@ -1450,15 +1450,15 @@
    },
    {
     "name": "Relentless Raider",
-    "text": "This model is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+    "text": "This model is eligible to shoot and declare a charge in a turn in which it made an advance or fall-back move."
    },
    {
     "name": "Strafing Attack",
-    "text": "After this model has shot, it can make a Normal move of up to 6 inches. If it does, it cannot declare a charge this turn."
+    "text": "After this model has shot, it can make a normal move of up to 6\". If it does, it cannot declare a charge this turn."
    },
    {
     "name": "Break Contact",
-    "text": "At the end of the Fight phase, if this model is within Engagement Range of one or more enemy units, it can make a Fall Back move of up to 6 inches."
+    "text": "At the end of the Fight phase, if this model is engaged, it can make a fall-back move of up to 6\"."
    }
   ],
   "keywords": [
@@ -1537,11 +1537,11 @@
    },
    {
     "name": "Voice of the Deacon",
-    "text": "While a friendly Unggoy unit is within 6 inches of this model, it is considered to contain an Unggoy Sergeant for the purpose of accessing Unggoy Doctrines."
+    "text": "While a friendly UNGGOY unit is within 6\" of this model, it is considered to contain an Unggoy Sergeant for the purpose of accessing Unggoy Doctrines."
    },
    {
     "name": "Religious Authority",
-    "text": "While a friendly Unggoy unit is within 6 inches of this model, improve that unit's Leadership characteristic by 1."
+    "text": "While a friendly UNGGOY unit is within 6\" of this model, improve that unit's Ld characteristic by 1."
    }
   ],
   "keywords": [
@@ -1606,7 +1606,7 @@
    },
    {
     "name": "Repair and Refit",
-    "text": "At the end of your Movement phase, select one friendly Covenant Vehicle or Fortification model within 3 inches. That model regains D3+1 lost Wounds or D3+1 lost SP. A model can be selected by this ability only once per turn."
+    "text": "At the end of your Movement phase, select one friendly COVENANT VEHICLE or FORTIFICATION model within 3\". That model regains D3+1 lost Wounds or D3+1 lost SP. A model can be selected by this ability only once per turn."
    }
   ],
   "keywords": [
@@ -1751,7 +1751,7 @@
    },
    {
     "name": "Dominating Presence",
-    "text": "At the end of the Charge phase, select one enemy unit within Engagement Range of this unit. It must take a Battle-shock test, subtracting 1 from that test."
+    "text": "At the end of the Charge phase, select one enemy unit within engagement range of this unit. It must make a battle-shock roll, subtracting 1 from that test."
    }
   ],
   "keywords": [
@@ -1792,7 +1792,7 @@
   ],
   "wargear_options": [
    "Any number of models can take a Wrist Shield — +5pts/model.",
-   "For every 4 Marauders, 1 can replace its Plasma Pistol with a Needler; 1 can replace it with a Covenant Carbine; and 1 can replace it with a Plasma Rifle. These weapon exchanges are free.",
+   "For every 4 Marauders, 1 can replace its Plasma Pistol with a Needler; 1 can replace it with a Covenant Carbine; and 1 can replace it with a Plasma Rifle.",
    "A model with a Covenant Carbine cannot take a Wrist Shield."
   ],
   "leader": [],
@@ -1801,7 +1801,7 @@
   "wargear": [
    {
     "name": "Wrist Shield",
-    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12 inches, its Shield Save is 4+ instead."
+    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12\", its Shield Save is 4+ instead."
    }
   ],
   "ranged_weapons": [
@@ -1879,7 +1879,7 @@
    },
    {
     "name": "Pack Hunters",
-    "text": "Re-roll Hit rolls of 1 for attacks made by models in this unit. If the target is within range of an objective marker, re-roll the Hit roll instead."
+    "text": "Re-roll hit rolls of 1 for attacks made by models in this unit. If the target is within range of an objective marker, re-roll the hit roll instead."
    }
   ],
   "keywords": [
@@ -1920,7 +1920,7 @@
    "For every 5 Unggoy Warriors in this unit, add either 1 Sangheili Auxiliary; 1 Jiralhanae Auxiliary; or up to 2 Yig-Yar Auxiliaries."
   ],
   "wargear_options": [
-   "For every 5 Unggoy Warriors, 1 can replace its Plasma Pistol with a Plasma Rifle or a Needler. These weapon exchanges are free."
+   "For every 5 Unggoy Warriors, 1 can replace its Plasma Pistol with a Plasma Rifle or a Needler."
   ],
   "leader": [],
   "transport": [],
@@ -2068,7 +2068,7 @@
    },
    {
     "name": "Swarming Flight",
-    "text": "While this unit contains 6 or more models, it can move through friendly Infantry models as though they were not there, but cannot end a move on top of another model."
+    "text": "While this unit contains 6 or more models, it can move through friendly INFANTRY models as though they were not there, but cannot end a move on top of another model."
    }
   ],
   "keywords": [
@@ -2233,7 +2233,7 @@
   "abilities": [
    {
     "name": "Coordinated Assault",
-    "text": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, re-roll the Wound roll instead."
+    "text": "Each time a model in this unit makes an attack, re-roll a wound roll of 1. If the target is within range of an objective marker, re-roll the wound roll instead."
    }
   ],
   "keywords": [
@@ -2283,7 +2283,7 @@
    },
    {
     "name": "Stealth Projector",
-    "text": "The bearer has Stealth. Unless every visible model in this unit is equipped with a Stealth Projector, this wargear does not confer Stealth to models without it."
+    "text": "The bearer has Stealth."
    }
   ],
   "ranged_weapons": [
@@ -2333,7 +2333,7 @@
    },
    {
     "name": "Forward Operatives",
-    "text": "This unit is eligible to shoot and perform an Action in a turn in which it Advanced. Performing an Action does not prevent it from shooting, and shooting does not cause an Action it is performing to fail."
+    "text": "This unit is eligible to shoot and perform an Action in a turn in which it made an advance move. Performing an Action does not prevent it from shooting, and shooting does not cause an Action it is performing to fail."
    }
   ],
   "keywords": [
@@ -2385,7 +2385,7 @@
    },
    {
     "name": "Stealth Projector",
-    "text": "The bearer has Stealth. Unless every visible model in this unit is equipped with a Stealth Projector, this wargear does not confer Stealth to models without it."
+    "text": "The bearer has Stealth."
    }
   ],
   "ranged_weapons": [
@@ -2418,7 +2418,7 @@
   "abilities": [
    {
     "name": "Swordmaster's Onslaught",
-    "text": "Each time a model in this unit fights, if this unit charged, was charged or performed a Heroic Intervention this turn, add 2 to the Attacks characteristic of that model's Energy Sword."
+    "text": "Each time a model in this unit fights, if this unit charged, was charged or performed a Heroic Intervention this turn, add 2 to the A characteristic of that model's Energy Sword."
    }
   ],
   "keywords": [
@@ -2461,8 +2461,7 @@
   "wargear_options": [
    "1 model can replace both Plasma Rifles with a Particle Beam Rifle or Stalker Rifle.",
    "1 model can replace 1 Plasma Rifle and its Close Combat Weapon with an Energy Sword.",
-   "1 model can replace 1 Plasma Rifle with a Satchel Charge.",
-   "These weapon exchanges are free."
+   "1 model can replace 1 Plasma Rifle with a Satchel Charge."
   ],
   "leader": [],
   "transport": [],
@@ -2474,7 +2473,7 @@
    },
    {
     "name": "Stealth Projector",
-    "text": "The bearer has Stealth. Unless every visible model in this unit is equipped with a Stealth Projector, this wargear does not confer Stealth to models without it."
+    "text": "The bearer has Stealth."
    }
   ],
   "ranged_weapons": [
@@ -2561,7 +2560,7 @@
    },
    {
     "name": "Remote Destructive Device",
-    "text": "Once per battle, when an enemy unit ends a Normal, Advance, Fall Back or Charge move within 6 inches of this unit, roll one D6. On a 2+, that enemy unit suffers D3+3 mortal wounds."
+    "text": "Once per battle, when an enemy unit ends a normal, advance, fall-back or charge move within 6\" of this unit, roll one D6. On a 2+, that enemy unit suffers D3+3 mortal wounds."
    }
   ],
   "keywords": [
@@ -2667,7 +2666,7 @@
   "abilities": [
    {
     "name": "Priority Elimination",
-    "text": "Add 1 to Wound rolls for attacks made by models in this unit that target a Character unit."
+    "text": "Add 1 to wound rolls for attacks made by models in this unit that target a CHARACTER unit."
    }
   ],
   "keywords": [
@@ -2792,11 +2791,11 @@
   "abilities": [
    {
     "name": "Vengeful Pursuit",
-    "text": "Once per battle round, after an enemy unit finishes making ranged attacks, if one or more models in this unit were destroyed, choose one: Surge - move D6+2 inches towards the closest enemy unit and this move can end within Engagement Range; or Return Fire - this unit shoots, but can target only the enemy unit that triggered this ability."
+    "text": "Once per battle round, after an enemy unit finishes making ranged attacks, if one or more models in this unit were destroyed, choose one: Surge - move D6+2\" towards the closest enemy unit and this move can end within engagement range; or Return Fire - this unit shoots, but can target only the enemy unit that triggered this ability."
    },
    {
     "name": "Sacrificial Advance",
-    "text": "At the start of the Fight phase, if this unit is not within Engagement Range, destroy one model in it. If you do, this unit can move D6 inches towards the closest enemy and can end within Engagement Range. If it cannot, it can instead move that distance towards the closest objective marker."
+    "text": "At the start of the Fight phase, if this unit is unengaged, destroy one model in it. If you do, this unit can move D6\" towards the closest enemy and can end within engagement range. If it cannot, it can instead move that distance towards the closest objective marker."
    }
   ],
   "keywords": [
@@ -2856,11 +2855,11 @@
   "abilities": [
    {
     "name": "Living Bulwark",
-    "text": "While a Character model is part of this unit, improve that model's Save characteristic by 1 and worsen the Armour Penetration characteristic of attacks allocated to it by 1."
+    "text": "While a CHARACTER model is part of this unit, improve that model's Sv characteristic by 1 and worsen the AP characteristic of attacks allocated to it by 1."
    },
    {
     "name": "Honor Guard Retinue",
-    "text": "Before the battle, this unit can be attached to one Covenant Character model. That model becomes part of this unit. This does not count as that Character having joined a unit; it can still be attached to an eligible Bodyguard unit, in which case this Honor Guard also joins that unit."
+    "text": "Before the battle, this unit can be attached to one COVENANT CHARACTER model. That model becomes part of this unit. This does not count as that Character having joined a unit; it can still be attached to an eligible Bodyguard unit, in which case this Honor Guard also joins that unit."
    }
   ],
   "keywords": [
@@ -2937,7 +2936,7 @@
    },
    {
     "name": "Brutal Descent",
-    "text": "Add 1 to Hit rolls for attacks made by models in this unit if it made a Charge move this turn."
+    "text": "Add 1 to hit rolls for attacks made by models in this unit if it made a charge move this turn."
    }
   ],
   "keywords": [
@@ -3030,7 +3029,7 @@
    },
    {
     "name": "Heavy Weapons Specialists",
-    "text": "Attacks made by models in this unit have Sustained Hits 2 against Infantry. Against Monsters and Vehicles, they have Lethal Hits and score Critical Hits on unmodified Hit rolls of 5+."
+    "text": "Attacks made by models in this unit have [SUSTAINED HITS 2] against INFANTRY. Against Monsters and Vehicles, they have [LETHAL HITS] and score critical hits on unmodified hit rolls of 5+."
    }
   ],
   "keywords": [
@@ -3095,7 +3094,7 @@
    },
    {
     "name": "Shock Assault",
-    "text": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range. Roll one D6 for each Jiralhanae Linebreaker in this unit; for each 3+, that enemy unit suffers D3 mortal wounds."
+    "text": "Each time this unit ends a charge move, select one enemy unit within engagement range. Roll one D6 for each Jiralhanae Linebreaker in this unit; for each 3+, that enemy unit suffers D3 mortal wounds."
    }
   ],
   "keywords": [
@@ -3178,7 +3177,7 @@
    },
    {
     "name": "Bodyguard",
-    "text": "Before the battle, this unit can be attached to one friendly Covenant Character unit. While that unit contains a Character model, subtract 1 from Wound rolls for attacks that target it. These models are not Leaders and do not prevent the Character from joining another eligible unit."
+    "text": "Before the battle, this unit can be attached to one friendly COVENANT CHARACTER unit. While that unit contains a CHARACTER model, subtract 1 from wound rolls for attacks that target it. These models are not Leaders and do not prevent the Character from joining another eligible unit."
    }
   ],
   "keywords": [
@@ -3276,7 +3275,7 @@
    },
    {
     "name": "Predatory Terror",
-    "text": "At the start of the Fight phase, each enemy unit within 6 inches of this unit must take a Battle-shock test, subtracting 1 from that test."
+    "text": "At the start of the Fight phase, each enemy unit within 6\" of this unit must make a battle-shock roll, subtracting 1 from that test."
    }
   ],
   "keywords": [
@@ -3323,7 +3322,7 @@
   "wargear": [
    {
     "name": "Stealth Projector",
-    "text": "The bearer has Stealth. Unless every visible model in this unit is equipped with a Stealth Projector, this wargear does not confer Stealth to models without it."
+    "text": "The bearer has Stealth."
    }
   ],
   "ranged_weapons": [
@@ -3414,7 +3413,7 @@
    },
    {
     "name": "Headtakers",
-    "text": "Each time a model in this unit makes an attack that targets a Character unit, re-roll the Hit roll and Wound roll."
+    "text": "Each time a model in this unit makes an attack that targets a CHARACTER unit, re-roll the hit roll and wound roll."
    }
   ],
   "keywords": [
@@ -3502,7 +3501,7 @@
   "abilities": [
    {
     "name": "Predatory Charge",
-    "text": "Add 1 to Hit rolls and Wound rolls for melee attacks made by models in this unit if it made a Charge move this turn."
+    "text": "Add 1 to hit rolls and wound rolls for melee attacks made by models in this unit if it made a charge move this turn."
    }
   ],
   "keywords": [
@@ -3548,7 +3547,7 @@
   "wargear": [
    {
     "name": "Wrist Shield",
-    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12 inches, its Shield Save is 4+ instead."
+    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12\", its Shield Save is 4+ instead."
    }
   ],
   "ranged_weapons": [
@@ -3776,23 +3775,23 @@
    },
    {
     "name": "Relentless Hunters",
-    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+    "text": "This unit is eligible to shoot and declare a charge in a turn in which it made an advance move."
    },
    {
     "name": "Hunting Formation",
-    "text": "While this unit contains 2 or more models, each model must be within 5 inches horizontally and 2 inches vertically of at least one other model from this unit, and every model must be within 12 inches horizontally of every other model from this unit."
+    "text": "While this unit contains 2 or more models, each model must be within 5\" horizontally and 2\" vertically of at least one other model from this unit, and every model must be within 12\" horizontally of every other model from this unit."
    },
    {
     "name": "Vanish Into the Rocks",
-    "text": "At the end of your opponent's Fight phase, remove this unit from the battlefield and place it into Strategic Reserves."
+    "text": "At the end of your opponent's Fight phase, remove this unit from the battlefield and place it into strategic reserves."
    },
    {
     "name": "Divide the Hunt",
-    "text": "Once per battle, at the start of any turn, select this unit in Strategic Reserves. It splits into separate one-model units. Each has Starting Strength 1 and retains its wargear."
+    "text": "Once per battle, at the start of any turn, select this unit in strategic reserves. It splits into separate one-model units. Each has starting strength 1 and retains its wargear."
    },
    {
     "name": "Reform the Talon",
-    "text": "At the end of your Movement phase, select two or more friendly T'vaoan Skirmisher units that can satisfy Hunting Formation. Combine them into one unit of no more than 6 models with Starting Strength 6; each model retains its wargear."
+    "text": "At the end of your Movement phase, select two or more friendly T'vaoan Skirmisher units that can satisfy Hunting Formation. Combine them into one unit of no more than 6 models with starting strength 6; each model retains its wargear."
    },
    {
     "name": "Training of the Janissaries",
@@ -3853,7 +3852,7 @@
   "abilities": [
    {
     "name": "Proximity Detonation",
-    "text": "Each time a model in this unit ends a move within 3 inches of an enemy unit, or an enemy model ends a move within 3 inches of it, that model detonates. Roll one D6; on a 3+, select one such enemy unit to suffer D3 mortal wounds. The detonating model is then destroyed."
+    "text": "Each time a model in this unit ends a move within 3\" of an enemy unit, or an enemy model ends a move within 3\" of it, that model detonates. Roll one D6; on a 3+, select one such enemy unit to suffer D3 mortal wounds. The detonating model is then destroyed."
    },
    {
     "name": "Fevered Explosives",
@@ -3943,7 +3942,7 @@
   "abilities": [
    {
     "name": "Heavy Weapon Specialists",
-    "text": "Fuel Rod attacks made by models in this unit have Ignores Cover against Infantry, and Anti-Monster 3+ and Anti-Vehicle 3+ against Monsters and Vehicles."
+    "text": "Fuel Rod attacks made by models in this unit have [IGNORES COVER] against INFANTRY, and [ANTI-MONSTER 3+] and [ANTI-VEHICLE 3+] against MONSTERS and VEHICLES."
    }
   ],
   "keywords": [
@@ -4016,7 +4015,7 @@
   "abilities": [
    {
     "name": "Fanatical Onslaught",
-    "text": "Melee attacks made by models in this unit have Sustained Hits 2 if this unit charged this turn. If the target contests an objective marker, add 2 to the Strength and improve the Armour Penetration of those attacks by 1."
+    "text": "Melee attacks made by models in this unit have [SUSTAINED HITS 2] if this unit charged this turn. If the target contests an objective marker, add 2 to the Strength and improve the Armour Penetration of those attacks by 1."
    }
   ],
   "keywords": [
@@ -4090,15 +4089,15 @@
   "abilities": [
    {
     "name": "Bond-Brother Formation",
-    "text": "Models in this unit must remain within 4 inches horizontally and 2 inches vertically of each other while both remain on the battlefield."
+    "text": "Models in this unit must remain within 4\" horizontally and 2\" vertically of each other while both remain on the battlefield."
    },
    {
     "name": "Coordinated Barrage",
-    "text": "If both models in this unit target the same enemy unit with their Mgalekgolo Assault Cannons, re-roll Hit rolls of 1 and Wound rolls of 1 for those attacks."
+    "text": "If both models in this unit target the same enemy unit with their Mgalekgolo Assault Cannons, re-roll hit rolls of 1 and wound rolls of 1 for those attacks."
    },
    {
     "name": "Bonded Fury",
-    "text": "When one model in this unit is destroyed, until the end of the battle add 1 to the Attacks characteristic of the remaining model's weapons."
+    "text": "When one model in this unit is destroyed, until the end of the battle add 1 to the A characteristic of the remaining model's weapons."
    }
   ],
   "keywords": [
@@ -4172,15 +4171,15 @@
   "abilities": [
    {
     "name": "Bond-Brother Formation",
-    "text": "Models in this unit must remain within 4 inches horizontally and 2 inches vertically of each other while both remain on the battlefield."
+    "text": "Models in this unit must remain within 4\" horizontally and 2\" vertically of each other while both remain on the battlefield."
    },
    {
     "name": "Siege Breakers",
-    "text": "Each time a model in this unit makes an attack against a Vehicle, Monster or Fortification, add 1 to the Wound roll."
+    "text": "Each time a model in this unit makes an attack against a Vehicle, Monster or Fortification, add 1 to the wound roll."
    },
    {
     "name": "Bonded Fury",
-    "text": "When one model in this unit is destroyed, until the end of the battle add 1 to the Attacks characteristic of the remaining model's weapons."
+    "text": "When one model in this unit is destroyed, until the end of the battle add 1 to the A characteristic of the remaining model's weapons."
    }
   ],
   "keywords": [
@@ -4257,15 +4256,15 @@
   "abilities": [
    {
     "name": "Bond-Brother Formation",
-    "text": "Models in this unit must remain within 4 inches horizontally and 2 inches vertically of each other while both remain on the battlefield."
+    "text": "Models in this unit must remain within 4\" horizontally and 2\" vertically of each other while both remain on the battlefield."
    },
    {
     "name": "Fire Correction",
-    "text": "If both models in this unit target the same enemy unit with their Heavy Plasma Mortars, those attacks have Ignores Cover."
+    "text": "If both models in this unit target the same enemy unit with their Heavy Plasma Mortars, those attacks have [IGNORES COVER]."
    },
    {
     "name": "Bonded Fury",
-    "text": "When one model in this unit is destroyed, until the end of the battle add 1 to the Attacks characteristic of the remaining model's weapons."
+    "text": "When one model in this unit is destroyed, until the end of the battle add 1 to the A characteristic of the remaining model's weapons."
    }
   ],
   "keywords": [
@@ -4338,11 +4337,11 @@
   "abilities": [
    {
     "name": "Relentless Pursuit",
-    "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+    "text": "This unit is eligible to shoot and declare a charge in a turn in which it made an advance move."
    },
    {
     "name": "Grinding Charge",
-    "text": "Each time a model in this unit makes a Chainwheel attack, if this unit made a Charge move this turn, add 1 to the Wound roll."
+    "text": "Each time a model in this unit makes a Chainwheel attack, if this unit made a charge move this turn, add 1 to the wound roll."
    }
   ],
   "keywords": [
@@ -4417,11 +4416,7 @@
    },
    {
     "name": "Evasive Boost",
-    "text": "Each time this model Advances, do not make an Advance roll. Instead, add 6 inches to its Move characteristic until the end of the phase. Until the start of its owner's next Command phase, subtract 1 from ranged Hit rolls that target it."
-   },
-   {
-    "name": "Ghost Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+    "text": "Each time this model makes an advance move, do not make an advance roll. Instead, add 6\" to its M characteristic until the end of the phase. Until the start of its owner's next Command phase, subtract 1 from ranged hit rolls that target it."
    }
   ],
   "keywords": [
@@ -4497,15 +4492,11 @@
    },
    {
     "name": "Boosted Gravity Drive",
-    "text": "Each time this model Advances, do not roll. Add 6 inches to its Move characteristic until the end of the phase."
+    "text": "Each time this model makes an advance move, do not make an advance roll. Add 6\" to its M characteristic until the end of the phase."
    },
    {
     "name": "Passenger Spotter",
-    "text": "While one or more Covenant Infantry models are embarked within this model, improve the BS characteristic of its Light Plasma Mortar by 1."
-   },
-   {
-    "name": "Revenant Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+    "text": "While one or more COVENANT INFANTRY models are embarked within this model, improve the BS characteristic of its Light Plasma Mortar by 1."
    }
   ],
   "keywords": [
@@ -4581,15 +4572,11 @@
    },
    {
     "name": "Lateral Thrusters",
-    "text": "This model is eligible to shoot in a turn in which it Fell Back."
+    "text": "This model is eligible to shoot in a turn in which it made a fall-back move."
    },
    {
     "name": "Running-board Fire",
-    "text": "Each time this model makes a ranged attack with a weapon selected using Firing Deck, that attack has Sustained Hits 1."
-   },
-   {
-    "name": "Spectre Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+    "text": "Each time this model makes a ranged attack with a weapon selected using Firing Deck, that attack has [SUSTAINED HITS 1]."
    }
   ],
   "keywords": [
@@ -4665,15 +4652,15 @@
    },
    {
     "name": "Living Battering Ram",
-    "text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range and roll one D6. On a 2+, that unit suffers D3+3 mortal wounds."
+    "text": "Each time this model ends a charge move, select one enemy unit within engagement range and roll one D6. On a 2+, that unit suffers D3+3 mortal wounds."
    },
    {
     "name": "Unstoppable Colony",
-    "text": "This model can declare a charge in a turn in which it Advanced. When it makes a Normal, Advance, Fall Back or Charge move, it can move over models and terrain features 4 inches or less in height as though they were not there."
+    "text": "This model can declare a charge in a turn in which it made an advance move. When it makes a normal, advance, fall-back or charge move, it can move over models and terrain features 4\" or less in height as though they were not there."
    },
    {
     "name": "Colony Frenzy",
-    "text": "While this model has 10 or fewer Wounds remaining, add 2 inches to its Move characteristic and add 2 to the Attacks characteristic of both Goliath Crushing Claws profiles."
+    "text": "While this model has 10 or fewer Wounds remaining, add 2\" to its M characteristic and add 2 to the A characteristic of both Goliath Crushing Claws profiles."
    }
   ],
   "keywords": [
@@ -4760,11 +4747,7 @@
   "abilities": [
    {
     "name": "Assault Formation",
-    "text": "Friendly Covenant units within 6 inches of this model can re-roll Charge rolls."
-   },
-   {
-    "name": "Marauder Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+    "text": "Friendly COVENANT units within 6\" of this model can re-roll charge rolls."
    }
   ],
   "keywords": [
@@ -4838,15 +4821,15 @@
   "abilities": [
    {
     "name": "Command Presence",
-    "text": "Add 1 to the Objective Control characteristic of models in friendly Covenant units within 6 inches of this model."
+    "text": "Add 1 to the OC characteristic of models in friendly COVENANT units within 6\" of this model."
    },
    {
     "name": "Jiralhanae Command Network",
-    "text": "At the start of each phase, this model can issue one Jiralhanae Caste Doctrine to one friendly Covenant Infantry unit within 6 inches. That unit is treated as though it contained a Jiralhanae Sergeant. It can be affected by this Doctrine even if it is already affected by one other Caste Doctrine."
+    "text": "At the start of each phase, this model can issue one Jiralhanae Caste Doctrine to one friendly COVENANT INFANTRY unit within 6\". That unit is treated as though it contained a Jiralhanae Sergeant. It can be affected by this Doctrine even if it is already affected by one other Caste Doctrine."
    },
    {
     "name": "Command Barge Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+2 lost SP, up to its starting SP."
+    "text": "Regenerating Shields gives this unit D3+2 lost SP instead of D3+1."
    }
   ],
   "keywords": [
@@ -4978,15 +4961,11 @@
   "abilities": [
    {
     "name": "EMP Stomp",
-    "text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range and roll one D6. On a 2+, it suffers D3 mortal wounds. If it is a Vehicle, it must also take a Battle-shock test and subtract 1 from Hit rolls until the start of your next Command phase."
+    "text": "Each time this model ends a charge move, select one enemy unit within engagement range and roll one D6. On a 2+, it suffers D3 mortal wounds. If it is a Vehicle, it must also make a battle-shock roll and subtract 1 from hit rolls until the start of your next Command phase."
    },
    {
     "name": "Stabilizer Thrusters",
-    "text": "When this model makes a Normal, Advance, Fall Back or Charge move, it can move over models and terrain features 4 inches or less in height as though they were not there."
-   },
-   {
-    "name": "Goblin Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+    "text": "When this model makes a normal, advance, fall-back or charge move, it can move over models and terrain features 4\" or less in height as though they were not there."
    }
   ],
   "keywords": [
@@ -5074,11 +5053,11 @@
    },
    {
     "name": "Siege Crawler",
-    "text": "At the start of your Movement phase, select one configuration. Aerial Configuration: this model has M 14 inches and Fly; its Annihilator Siege Missile Battery cannot shoot. Siege Configuration: this model has M 0 inches and loses Fly; its Heavy Plasma Cannons cannot shoot, and its Annihilator Siege Missile Battery has Ignores Cover."
+    "text": "At the start of your Movement phase, select one configuration. Aerial Configuration: this model has M 14\" and FLY; its Annihilator Siege Missile Battery cannot shoot. Siege Configuration: this model has M 0\" and loses FLY; its Heavy Plasma Cannons cannot shoot, and its Annihilator Siege Missile Battery has [IGNORES COVER]."
    },
    {
     "name": "Blisterback Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+2 lost SP, up to its starting SP."
+    "text": "Regenerating Shields gives this unit D3+2 lost SP instead of D3+1."
    }
   ],
   "keywords": [
@@ -5197,15 +5176,11 @@
    },
    {
     "name": "Boosted Gravity Drive",
-    "text": "Each time this model Advances, do not roll. Add 6 inches to its Move characteristic until the end of the phase."
+    "text": "Each time this model makes an advance move, do not make an advance roll. Add 6\" to its M characteristic until the end of the phase."
    },
    {
     "name": "Shared Targeting Data",
-    "text": "Each time this model makes a ranged attack, if the target is visible to one or more other friendly Covenant units, you can re-roll the Hit roll."
-   },
-   {
-    "name": "Wraith Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+    "text": "Each time this model makes a ranged attack, if the target is visible to one or more other friendly COVENANT units, you can re-roll the hit roll."
    }
   ],
   "keywords": [
@@ -5289,10 +5264,6 @@
    {
     "name": "Power Transfer",
     "text": "At the start of your Shooting phase, if this model has at least 2 SP, it can lose 2 SP. If it does, add 1 to the Attacks and Damage characteristics of its Focus Cannon until the end of the phase."
-   },
-   {
-    "name": "Locust Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
    }
   ],
   "keywords": [
@@ -5378,15 +5349,11 @@
    },
    {
     "name": "Aerial Manoeuvres",
-    "text": "Subtract 1 from Hit rolls for ranged attacks that target this model."
+    "text": "Subtract 1 from hit rolls for ranged attacks that target this model."
    },
    {
     "name": "Attack Run",
-    "text": "This model is eligible to shoot in a turn in which it Advanced or Fell Back. Each time it makes a ranged attack against a unit without Fly in a turn in which it Advanced, add 1 to the Hit roll."
-   },
-   {
-    "name": "Banshee Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+    "text": "This model is eligible to shoot in a turn in which it made an advance or fall-back move. Each time it makes a ranged attack against a unit without FLY in a turn in which it made an advance move, add 1 to the hit roll."
    }
   ],
   "keywords": [
@@ -5461,15 +5428,15 @@
    },
    {
     "name": "Rapid Aerial Insertion",
-    "text": "After this model is set up on the battlefield from Reserves, it can make a Normal move of up to 8 inches, but cannot end that move within 6 inches of any enemy model."
+    "text": "After this model is set up on the battlefield from reserves, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
    },
    {
     "name": "Gravity-Lift Screen",
-    "text": "At the end of your Movement phase, select one Covenant Infantry unit that disembarked from this model during that phase. Until the start of your next Command phase, that unit has Stealth and the Benefit of Cover."
+    "text": "At the end of your Movement phase, select one COVENANT INFANTRY unit that disembarked from this model during that phase. Until the start of your next Command phase, that unit has Stealth and the Benefit of Cover."
    },
    {
     "name": "Spirit Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+2 lost SP, up to its starting SP."
+    "text": "Regenerating Shields gives this unit D3+2 lost SP instead of D3+1."
    }
   ],
   "keywords": [
@@ -5576,11 +5543,7 @@
    },
    {
     "name": "Stasis Interdiction",
-    "text": "In your Shooting phase, select one enemy Fly Vehicle unit within 24 inches and roll one D6. On a 3+, until the start of your next turn, halve that unit's Move characteristic and subtract 1 from its Hit rolls; this model also regains D3 lost SP."
-   },
-   {
-    "name": "Vampire Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+    "text": "In your Shooting phase, select one enemy FLY VEHICLE unit within 24\" and roll one D6. On a 3+, until the start of your next turn, halve that unit's M characteristic and subtract 1 from its hit rolls; this model also regains D3 lost SP."
    }
   ],
   "keywords": [
@@ -5688,11 +5651,11 @@
    },
    {
     "name": "Space Superiority Fighter",
-    "text": "Each time this model attacks a Fly unit, re-roll Hit rolls of 1 and Wound rolls of 1. When it makes a ranged attack against an Aircraft unit, an unmodified Hit roll of 5+ is a Critical Hit."
+    "text": "Each time this model attacks a FLY unit, re-roll hit rolls of 1 and wound rolls of 1. When it makes a ranged attack against an AIRCRAFT unit, an unmodified hit roll of 5+ is a critical hit."
    },
    {
     "name": "Seraph Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+2 lost SP, up to its starting SP."
+    "text": "Regenerating Shields gives this unit D3+2 lost SP instead of D3+1."
    }
   ],
   "keywords": [
@@ -5739,7 +5702,7 @@
   "wargear": [
    {
     "name": "Deflection Shield",
-    "text": "The bearer has a starting SP value of 5. At the start of its owner's Command phase, it regains D3+1 lost SP instead of D3."
+    "text": "The bearer has a starting SP value of 5."
    }
   ],
   "ranged_weapons": [
@@ -5815,15 +5778,15 @@
    },
    {
     "name": "Rapid Aerial Insertion",
-    "text": "After this model is set up on the battlefield from Reserves, it can make a Normal move of up to 8 inches, but cannot end that move within 6 inches of any enemy model."
+    "text": "After this model is set up on the battlefield from reserves, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
    },
    {
     "name": "Rapid Deployment",
-    "text": "After this model makes a Normal or Advance move, one embarked unit can disembark. If this model Advanced, that unit counts as having Advanced. It cannot declare a charge or embark within a Transport this turn."
+    "text": "After this model makes a normal or advance move, one embarked unit can disembark. If this model made an advance move, that unit counts as having made an advance move. It cannot declare a charge or embark within a Transport this turn."
    },
    {
     "name": "Raider Extraction",
-    "text": "At the end of your opponent's Fight phase, select one friendly Yig-Yar Infantry unit wholly within 6 inches. If neither unit is within Engagement Range and it fits within this model, that unit can embark."
+    "text": "At the end of your opponent's Fight phase, select one friendly YIG-YAR INFANTRY unit wholly within 6\". If neither unit is within engagement range and it fits within this model, that unit can embark."
    }
   ],
   "keywords": [
@@ -5900,11 +5863,7 @@
    },
    {
     "name": "Mobile Bulwark",
-    "text": "While a friendly Covenant Infantry unit is wholly within 6 inches of this model, models in that unit have the Benefit of Cover against ranged attacks."
-   },
-   {
-    "name": "Shadow Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+    "text": "While a friendly COVENANT INFANTRY unit is wholly within 6\" of this model, models in that unit have the Benefit of Cover against ranged attacks."
    }
   ],
   "keywords": [
@@ -5980,15 +5939,11 @@
    },
    {
     "name": "Rapid Aerial Insertion",
-    "text": "After this model is set up on the battlefield from Reserves, it can make a Normal move of up to 8 inches, but cannot end that move within 6 inches of any enemy model."
+    "text": "After this model is set up on the battlefield from reserves, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
    },
    {
     "name": "Suppressive Barrage",
-    "text": "After this model has shot, select one enemy Infantry unit hit by its Medium Plasma Cannons. That unit must take a Battle-shock test."
-   },
-   {
-    "name": "Phantom Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D3+1 lost SP, up to its starting SP."
+    "text": "After this model has shot, select one enemy INFANTRY unit hit by its Medium Plasma Cannons. That unit must make a battle-shock roll."
    }
   ],
   "keywords": [
@@ -6095,27 +6050,27 @@
    },
    {
     "name": "Scarab Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D6+6 lost SP, up to its starting SP."
+    "text": "Regenerating Shields gives this unit D6+6 lost SP instead of D3+1."
    },
    {
     "name": "Siege Platform",
-    "text": "Each time this model makes a ranged attack with a weapon selected using Firing Deck, add 1 to the Wound roll."
+    "text": "Each time this model makes a ranged attack with a weapon selected using Firing Deck, add 1 to the wound roll."
    },
    {
     "name": "Siege Cracker",
-    "text": "Each time this model's Plasma Beam targets a Vehicle unit, add 1 to Hit rolls made for that weapon. If that target is Titanic, an unmodified Hit roll of 3+ is a Critical Hit."
+    "text": "Each time this model's Plasma Beam targets a VEHICLE unit, add 1 to hit rolls made for that weapon. If that target is Titanic, an unmodified hit roll of 3+ is a critical hit."
    },
    {
     "name": "All-terrain Excavator",
-    "text": "When this model makes a Normal, Advance or Fall Back move, it can move over models and terrain features 4 inches or less in height as though they were not there."
+    "text": "When this model makes a normal, advance or fall-back move, it can move over models and terrain features 4\" or less in height as though they were not there."
    },
    {
     "name": "Board the Scarab",
-    "text": "Each time an enemy Infantry model makes a melee attack that targets this model, an unmodified Wound roll of 5+ is a Critical Wound."
+    "text": "Each time an enemy INFANTRY model makes a melee attack that targets this model, an unmodified wound roll of 5+ is a critical wound."
    },
    {
     "name": "Damaged",
-    "text": "10 Wounds Remaining. While this model has 10 or fewer Wounds remaining, subtract 1 from its Hit rolls."
+    "text": "10 Wounds Remaining. While this model has 10 or fewer Wounds remaining, subtract 1 from its hit rolls."
    }
   ],
   "keywords": [
@@ -6254,19 +6209,19 @@
    },
    {
     "name": "Rapid Aerial Insertion",
-    "text": "After this model is set up on the battlefield from Reserves, it can make a Normal move of up to 8 inches, but cannot end that move within 6 inches of any enemy model."
+    "text": "After this model is set up on the battlefield from reserves, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
    },
    {
     "name": "Invasion Fire-Control Nexus",
-    "text": "At the start of your Shooting phase, select one enemy unit visible to this model. Until the end of the phase, each time a friendly Covenant model makes a ranged attack against that enemy unit, re-roll a Hit roll of 1."
+    "text": "At the start of your Shooting phase, select one enemy unit visible to this model. Until the end of the phase, each time a friendly COVENANT model makes a ranged attack against that enemy unit, re-roll a hit roll of 1."
    },
    {
     "name": "Lich Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D6+3 lost SP, up to its starting SP."
+    "text": "Regenerating Shields gives this unit D6+3 lost SP instead of D3+1."
    },
    {
     "name": "Damaged",
-    "text": "12 Wounds Remaining. While this model has 12 or fewer Wounds remaining, subtract 1 from its Hit rolls."
+    "text": "12 Wounds Remaining. While this model has 12 or fewer Wounds remaining, subtract 1 from its hit rolls."
    }
   ],
   "keywords": [
@@ -6438,23 +6393,23 @@
    },
    {
     "name": "Siege Tower",
-    "text": "When this model makes a Normal, Advance or Fall Back move, it can move over models and terrain features 8 inches or less in height as though they were not there."
+    "text": "When this model makes a normal, advance or fall-back move, it can move over models and terrain features 8\" or less in height as though they were not there."
    },
    {
     "name": "Siege Platform",
-    "text": "Each time this model makes a ranged attack with a weapon selected using Firing Deck, add 1 to the Wound roll."
+    "text": "Each time this model makes a ranged attack with a weapon selected using Firing Deck, add 1 to the wound roll."
    },
    {
     "name": "Kraken Shield",
-    "text": "At the start of this model's owner's Command phase, it regains D6+8 lost SP, up to its starting SP."
+    "text": "Regenerating Shields gives this unit D6+8 lost SP instead of D3+1."
    },
    {
     "name": "Exposed Pulse Generator",
-    "text": "Each time an enemy Infantry model makes a melee attack that targets this model, an unmodified Wound roll of 5+ is a Critical Wound."
+    "text": "Each time an enemy INFANTRY model makes a melee attack that targets this model, an unmodified wound roll of 5+ is a critical wound."
    },
    {
     "name": "Damaged",
-    "text": "25 Wounds Remaining. While this model has 25 or fewer Wounds remaining, subtract 1 from its Hit rolls."
+    "text": "25 Wounds Remaining. While this model has 25 or fewer Wounds remaining, subtract 1 from its hit rolls."
    }
   ],
   "keywords": [
@@ -6549,9 +6504,9 @@
   },
   "page": 106,
   "unit_composition": [
-   "2 Metal Barricades, each 2.5 inches long",
-   "1 Shield Wall, 1.5 inches long",
-   "When deployed, each section must be set up within 0.5 inches of another section from this unit. After setup, each is treated as a separate terrain section."
+   "2 Metal Barricades, each 2.5\" long",
+   "1 Shield Wall, 1.5\" long",
+   "When deployed, each section must be set up within 0.5\" of another section from this unit. After setup, each is treated as a separate terrain section."
   ],
   "equipped": [
    "Fortified Structure"
@@ -6579,11 +6534,11 @@
   "abilities": [
    {
     "name": "Defensive Position",
-    "text": "A Covenant Infantry model wholly within 1 inch of a Metal Barricade receives the Benefit of Cover against ranged attacks."
+    "text": "A COVENANT INFANTRY model wholly within 1 inch of a Metal Barricade receives the Benefit of Cover against ranged attacks."
    },
    {
     "name": "Shield Wall",
-    "text": "A Covenant Infantry model wholly within 1 inch of the Shield Wall has 2 additional SP. These SP are lost first and are removed when that model is no longer wholly within 1 inch of the Shield Wall."
+    "text": "A COVENANT INFANTRY model wholly within 1 inch of the Shield Wall has 2 additional SP. These SP are lost first and are removed when that model is no longer wholly within 1 inch of the Shield Wall."
    }
   ],
   "keywords": [
@@ -7097,7 +7052,7 @@
   "sergeant": [],
   "auxiliary": [],
   "wargear_options": [
-   "Replace the Needler, Wrist Shield and Plasma Sabre with one Precision Weapon, a Plasma Pistol and a Yig-Yar Close Combat Weapon. Choose Covenant Carbine, Needle Rifle, Particle Beam Rifle or Stalker Rifle as the Precision Weapon."
+   "Replace the Needler, Wrist Shield and Plasma Sabre with one [PRECISION] Weapon, a Plasma Pistol and a Yig-Yar Close Combat Weapon. Choose Covenant Carbine, Needle Rifle, Particle Beam Rifle or Stalker Rifle as the [PRECISION] Weapon."
   ],
   "leader": [],
   "transport": [],
@@ -7105,7 +7060,7 @@
   "wargear": [
    {
     "name": "Wrist Shield",
-    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12 inches, its Shield Save is 4+ instead."
+    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12\", its Shield Save is 4+ instead."
    }
   ],
   "ranged_weapons": [
@@ -7418,7 +7373,7 @@
    },
    {
     "name": "Control Node",
-    "text": "While this model is in a Yanme'e unit, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by other Yanme'e Drone models in that unit by 1."
+    "text": "While this model is in a YANME'E unit, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by other Yanme'e Drone models in that unit by 1."
    },
    {
     "name": "Caste Doctrines",
@@ -7462,8 +7417,7 @@
   "wargear_options": [
    "Replace the Storm Rifle with a Covenant Carbine, Plasma Repeater or Needler for free, or with a Fuel Rod for +10pts.",
    "Alternatively, replace the Storm Rifle and Plasma Pistol with 2 Plasma Rifles for free; replace the Storm Rifle and Close Combat Weapon with an Energy Sword for free; or replace all of its weapons with Twin-linked Energy Swords for +10pts.",
-   "This model can take a Stealth Projector for +5pts.",
-   "This model can take one Specialist ability from this entry, paying the points shown."
+   "This model can take a Stealth Projector for +5pts."
   ],
   "leader": [],
   "transport": [],
@@ -7475,7 +7429,7 @@
    },
    {
     "name": "Stealth Projector",
-    "text": "The bearer has Stealth. Unless every visible model in this unit is equipped with a Stealth Projector, this wargear does not confer Stealth to models without it."
+    "text": "The bearer has Stealth."
    }
   ],
   "ranged_weapons": [
@@ -7611,19 +7565,19 @@
    {
     "name": "Forward Operative",
     "points": 10,
-    "text": "This model's unit is eligible to shoot in a turn in which it Advanced.",
+    "text": "This model's unit is eligible to shoot in a turn in which it made an advance move.",
     "source": "Sangheili Ranger"
    },
    {
     "name": "Vengeful Pursuit",
     "points": 10,
-    "text": "Once per battle round, after an enemy unit destroys one or more models in this model's unit with ranged attacks, that unit can make a Surge move of D6+2 inches towards the closest enemy and can end within Engagement Range.",
+    "text": "Once per battle round, after an enemy unit destroys one or more models in this model's unit with ranged attacks, that unit can make a surge move of D6+2\" towards the closest enemy and can end within engagement range.",
     "source": "Sangheili Zealot"
    },
    {
     "name": "Remote Destructive Device",
     "points": 10,
-    "text": "Once per battle, when an enemy unit ends a Normal, Advance, Fall Back or Charge move within 6 inches of this model's unit, roll one D6. On a 2+, that unit suffers D3 mortal wounds.",
+    "text": "Once per battle, when an enemy unit ends a normal, advance, fall-back or charge move within 6\" of this model's unit, roll one D6. On a 2+, that unit suffers D3 mortal wounds.",
     "source": "Sangheili Special Operations Warrior"
    }
   ],
@@ -7660,8 +7614,7 @@
   "auxiliary": [],
   "wargear_options": [
    "Replace the Spiker, Mangler and Brute Close Combat Weapon with a Bolt Spiker or Brute Shot and a Brute Heavy Melee Weapon for free, or with a Skewer and a Brute Heavy Melee Weapon for +10pts.",
-   "Alternatively, replace the Spiker and Brute Close Combat Weapon with a Gravity Hammer for +10pts.",
-   "This model can take one Specialist ability from this entry, paying the points shown."
+   "Alternatively, replace the Spiker and Brute Close Combat Weapon with a Gravity Hammer for +10pts."
   ],
   "leader": [],
   "transport": [],
@@ -7786,13 +7739,13 @@
    {
     "name": "Pack Enforcer",
     "points": 0,
-    "text": "Re-roll Hit rolls of 1 for melee attacks made by Unggoy or Yig-Yar models in this model's unit.",
+    "text": "Re-roll hit rolls of 1 for melee attacks made by UNGGOY or YIG-YAR models in this model's unit.",
     "source": "Jiralhanae Warrior"
    },
    {
     "name": "Sworn Protector",
     "points": 15,
-    "text": "While a Character model is part of this model's unit, each time an attack with Precision is allocated to that Character, allocate that attack to this model instead. Each time that Character would suffer one or more mortal wounds, this model suffers those mortal wounds instead. These effects cease when this model is destroyed. A unit cannot contain more than one model with this ability.",
+    "text": "While a CHARACTER model is part of this model's unit, each time an attack with [PRECISION] is allocated to that Character, allocate that attack to this model instead. Each time that Character would suffer one or more mortal wounds, this model suffers those mortal wounds instead. A unit cannot contain more than one model with this ability.",
     "source": "Jiralhanae Bodyguard",
     "with": [
      "Personal Shield Generator"
@@ -7801,7 +7754,7 @@
    {
     "name": "Stalking Predator",
     "points": 10,
-    "text": "Models in this model's unit have Scouts 6 inches.",
+    "text": "Models in this model's unit have Scouts 6\".",
     "source": "Jiralhanae Stalker"
    }
   ],
@@ -7838,8 +7791,7 @@
   "auxiliary": [],
   "wargear_options": [
    "Replace the Plasma Rifle with a Needler or Covenant Carbine for free, or with a Needle Rifle, Particle Beam Rifle or Stalker Rifle for +10pts.",
-   "This model can take a Wrist Shield for +5pts, unless it has a Covenant Carbine, Needle Rifle, Particle Beam Rifle or Stalker Rifle.",
-   "This model can take one Specialist ability from this entry, paying the points shown."
+   "This model can take a Wrist Shield for +5pts, unless it has a Covenant Carbine, Needle Rifle, Particle Beam Rifle or Stalker Rifle."
   ],
   "leader": [],
   "transport": [],
@@ -7847,7 +7799,7 @@
   "wargear": [
    {
     "name": "Wrist Shield",
-    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12 inches, its Shield Save is 4+ instead."
+    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12\", its Shield Save is 4+ instead."
    }
   ],
   "ranged_weapons": [
@@ -7951,19 +7903,19 @@
    {
     "name": "Mark the Target",
     "points": 10,
-    "text": "Once per battle, at the start of your Shooting phase, ranged weapons equipped by models in this model's unit have Precision until the end of the phase.",
+    "text": "Once per battle, at the start of your Shooting phase, ranged weapons equipped by models in this model's unit have [PRECISION] until the end of the phase.",
     "source": "Yig-Yar Marksman"
    },
    {
     "name": "Spotter's Nest",
     "points": 15,
-    "text": "While this model's unit Remained Stationary this turn, its ranged weapons have Ignores Cover.",
+    "text": "While this model's unit remained stationary this turn, its ranged weapons have [IGNORES COVER].",
     "source": "Yig-Yar Sniper"
    },
    {
     "name": "Trailblazer",
     "points": 10,
-    "text": "Models in this model's unit have Scouts 6 inches.",
+    "text": "Models in this model's unit have Scouts 6\".",
     "source": "T'vaoan Tracker"
    }
   ],
@@ -8000,8 +7952,7 @@
   "wargear_options": [
    "Select one loadout package; packages cannot be combined. Free: Rifleman (2 Plasma Rifles); Carbine (Covenant Carbine and Plasma Rifle); Storm (Storm Rifle and Bolt Spiker); Repeater (Plasma Repeater and Spiker); Demolitionist (Brute Shot, Plasma Pistol and Satchel Charge); Heavy Gunner (Heavy Plasma Melee Weapon or Brute Heavy Melee Weapon); Melee Specialist (Energy Sword); Tracker (Storm Rifle, Plasma Pistol and Yig-Yar Plasma Sabre). All keep their T'vaoan Plasma Sabres unless replaced.",
    "+5pts: Shield Raider (Plasma Rifle, Wrist Shield and T'vaoan Plasma Sabres).",
-   "+10pts: Needler (2 Needlers); Anti-armour (Fuel Rod or Skewer, and Plasma Pistol); Twin-Blade (Twin-linked Energy Swords).",
-   "This model can take one Specialist ability from this entry, paying the points shown."
+   "+10pts: Needler (2 Needlers); Anti-armour (Fuel Rod or Skewer, and Plasma Pistol); Twin-Blade (Twin-linked Energy Swords)."
   ],
   "leader": [],
   "transport": [],
@@ -8009,7 +7960,7 @@
   "wargear": [
    {
     "name": "Wrist Shield",
-    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12 inches, its Shield Save is 4+ instead."
+    "text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12\", its Shield Save is 4+ instead."
    }
   ],
   "ranged_weapons": [
@@ -8261,13 +8212,13 @@
    {
     "name": "Trailblazer",
     "points": 10,
-    "text": "Models in this model's unit have Scouts 6 inches.",
+    "text": "Models in this model's unit have Scouts 6\".",
     "source": "T'vaoan Tracker"
    },
    {
     "name": "Break from the Pack",
     "points": 10,
-    "text": "At the start of your Movement phase, if this model's unit is not within Engagement Range, this model can split off as a separate unit with Starting Strength 1. It cannot rejoin another unit during the battle.",
+    "text": "At the start of your Movement phase, if this model's unit is unengaged, this model can split off as a separate unit with starting strength 1. It cannot rejoin another unit during the battle.",
     "source": "T'vaoan Skirmisher"
    }
   ],
@@ -8304,7 +8255,7 @@
   "auxiliary": [],
   "wargear_options": [
    "Replace the Plasma Pistol with a Plasma Rifle, Needler or Storm Rifle for free, or with a Fuel Rod for +10pts.",
-   "This model can take one Specialist ability from this entry, paying the points shown. Proximity Detonation replaces all of this model's weapons with Unstable Plasma Charges."
+   "Proximity Detonation replaces all of this model's weapons with Unstable Plasma Charges."
   ],
   "leader": [],
   "transport": [],
@@ -8409,7 +8360,7 @@
    {
     "name": "Ammunition Runner",
     "points": 0,
-    "text": "Once per Shooting phase for each model in this unit with this ability, re-roll one dice used to determine a weapon's number of attacks, one Hit roll and one Wound roll made by this unit.",
+    "text": "Once per Shooting phase for each model in this unit with this ability, re-roll one dice used to determine a weapon's number of attacks, one hit roll and one wound roll made by this unit.",
     "source": "Unggoy Ammo-Runner"
    },
    {
@@ -8421,7 +8372,7 @@
    {
     "name": "Proximity Detonation",
     "points": 5,
-    "text": "Each time this model ends a move within 3 inches of an enemy unit, or an enemy model ends a move within 3 inches of it, this model detonates. Roll one D6; on a 3+, select one such enemy unit to suffer D3+3 mortal wounds. This model is then destroyed.",
+    "text": "Each time this model ends a move within 3\" of an enemy unit, or an enemy model ends a move within 3\" of it, this model detonates. Roll one D6; on a 3+, select one such enemy unit to suffer D3+3 mortal wounds. This model is then destroyed.",
     "source": "Unggoy Suicide Bomber",
     "with": [
      "Unstable Plasma Charges"
@@ -8458,9 +8409,7 @@
   ],
   "sergeant": [],
   "auxiliary": [],
-  "wargear_options": [
-   "This model can take one Specialist ability from this entry, paying the points shown."
-  ],
+  "wargear_options": [],
   "leader": [],
   "transport": [],
   "rules_notes": [],
@@ -8483,7 +8432,7 @@
    {
     "name": "Biological Restoration",
     "points": 0,
-    "text": "At the end of your Movement phase, select one other Covenant Infantry model in this model's unit. It regains D3 lost Wounds. Once per battle, instead return one destroyed non-Character, non-Auxiliary model to that unit with 1 Wound remaining. That model cannot be Mgalekgolo and cannot have a starting Wounds characteristic greater than 3.",
+    "text": "At the end of your Movement phase, select one other COVENANT INFANTRY model in this model's unit. It regains D3 lost Wounds. Once per battle, instead return one destroyed non-CHARACTER, non-Auxiliary model to that unit with 1 Wound remaining. That model cannot be Mgalekgolo and cannot have a starting W characteristic greater than 3.",
     "source": "Huragok Lifeworker"
    },
    {
@@ -8563,7 +8512,7 @@
    },
    {
     "name": "Targeting Relay",
-    "text": "Once per battle round, when this model's unit is selected to shoot, select one enemy unit visible to this model. Until the end of the phase, ranged attacks made by this model's unit against that enemy have Ignores Cover."
+    "text": "Once per battle round, when this model's unit is selected to shoot, select one enemy unit visible to this model. Until the end of the phase, ranged attacks made by this model's unit against that enemy have [IGNORES COVER]."
    }
   ],
   "specialist_abilities": [],

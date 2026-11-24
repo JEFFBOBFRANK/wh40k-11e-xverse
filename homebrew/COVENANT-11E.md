@@ -62,6 +62,26 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
   take share one Enhancement selection. An Attached Unit can have only one Enhancement or Upgrade.
   Stratagem References follows the chosen detachments.
 
+## 11th-edition wording (revision 5)
+
+`homebrew/covenant-tools/wording_11e.py` rewrote the rules text in 11th-edition terms and removed sentences that only
+repeated another rule (12,812 -> 11,916 words in datasheets and detachments, plus the army rules page):
+
+- 11e terms: hit/wound/charge/advance rolls, critical hits, normal/advance/fall-back/charge/surge moves, engaged and
+  unengaged, battle-shock rolls, save rolls, below starting strength, A/S/AP/D/OC/Ld/M/Sv characteristics, inches as ".
+  Weapon abilities in prose are in brackets ([PRECISION]) and keywords in capitals (COVENANT INFANTRY unit).
+- Removed as repeats: the Upgrade limit on every Upgrade (11e lets you take up to three of the same Upgrade); the
+  Stealth Projector note (11e Stealth already needs every model); the Shield regeneration line on 11 vehicles (the army
+  rule already gives VEHICLE and MOUNTED units D3+1); "these effects cease when this model is destroyed"; a
+  once-per-phase limit on a Stratagem; "automatically successful hit rolls cannot trigger this"; "does not prevent
+  another unit from using the same Doctrine".
+- Rewritten by hand: Fanatical Doctrines and Devoted Sergeants (The Great Journey), Integrated Battle Groups, Scuttle to
+  Cover (once per battle round for each YIG-YAR unit, as its last sentence said), Honour Duel, and the army rules page
+  (Caste Hierarchy, Shielding Trait without the repeated Shielding Sequence and Empty Shields, Plasma, Siegebreaker,
+  Supercombine as "1 mortal wound", Wargear Costs in one sentence).
+- Every Upgrade can now be taken by up to three units, as 11e allows. Thirteen Upgrades that did not say "up to three"
+  were limited to one before.
+
 ## Choices made where the codex is open
 
 - Sergeants are optional (0-1). "Add 1 model from the ... Auxiliary lists" is up to 1.
