@@ -204,7 +204,7 @@ You cannot gain Vermin from a Summoned Vermin unit being destroyed, being remove
 
 _Known by: Thanquol and Boneripper, Ikit Claw, Lord Skreech Verminking, Grey Seer, Verminlord Warbringer, Verminlord Warpseer. Warlock Engineers and Arch-Warlocks know Warp Lightning and Howling Warpgale only._
 
-#### Warp Lightning (Psychic Level 1, DAMAGE)
+#### Warp Lightning (Psychic Level 1)
 
 - **WHEN:** Your Shooting phase.
 
@@ -224,7 +224,7 @@ _Known by: Thanquol and Boneripper, Ikit Claw, Lord Skreech Verminking, Grey See
 
 - **OVERCAST:** Until the start of your next turn, also subtract 2 from Charge rolls made for that unit.
 
-#### Crack's Call (Psychic Level 2, DAMAGE)
+#### Crack's Call (Psychic Level 2)
 
 - **WHEN:** Your Shooting phase.
 
@@ -248,7 +248,7 @@ _Known by: Thanquol and Boneripper, Lord Skrolk, Lord Skreech Verminking, Grey S
 
 - **OVERCAST:** Until the end of the phase, each time a model in that unit makes a melee attack, an unmodified hit roll of 5+ scores a critical hit.
 
-#### Pestilent Breath (Psychic Level 1, DAMAGE)
+#### Pestilent Breath (Psychic Level 1)
 
 - **WHEN:** Your Shooting phase.
 
@@ -258,7 +258,7 @@ _Known by: Thanquol and Boneripper, Lord Skrolk, Lord Skreech Verminking, Grey S
 
 - **OVERCAST:** That unit takes 2D6+3 spell hits instead.
 
-#### Plague (Psychic Level 2, DAMAGE)
+#### Plague (Psychic Level 2)
 
 - **WHEN:** Your Shooting phase.
 
@@ -282,7 +282,7 @@ _Known by: Lord Skreech Verminking, Verminlord Deceiver, Eshin Sorcerer._
 
 - **OVERCAST:** Set it up more than 6" horizontally from all enemy models instead.
 
-#### Warp Stars (Psychic Level 1, DAMAGE)
+#### Warp Stars (Psychic Level 1)
 
 - **WHEN:** Your Shooting phase.
 

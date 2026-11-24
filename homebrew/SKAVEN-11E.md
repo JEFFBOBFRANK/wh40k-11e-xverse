@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 73 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 74 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -108,7 +108,7 @@ detachments). The layout follows the Emperor's Children catalogue.
   about 1.5x (4+) or 2x (5+) the shots, to make up for cover worsening Ballistic Skill by 1.
   Anti-tank guns keep their shots: vehicles and monsters only get cover when not
   fully visible.
-- A PSYKER can use any number of DAMAGE spells, limited by its Psyker Level.
+- A PSYKER can use any of its spells, limited only by its Psyker Level.
 - Every CHARACTER has a Warlord option; the army needs exactly one Warlord. The
   Verminus captain is the Clawlord (formerly Warlord), with the CLAWLORD keyword.
 - Weapon teams start with their lead crew (Lead Gunner, Lead Burner, Lead

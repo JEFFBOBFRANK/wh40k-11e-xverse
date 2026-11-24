@@ -5331,10 +5331,10 @@
    },
    {
     "name": "Bound Spells",
-    "text": "This model is not a PSYKER, but it can use the bound spells below as if they were spells. It makes no psychic roll, spends no Psychic Level and cannot Overcast. Each bound spell can be used once per battle round, and this model can use only one DAMAGE bound spell per turn."
+    "text": "This model is not a PSYKER, but it can use the bound spells below as if they were spells. It makes no psychic roll, spends no Psychic Level and cannot Overcast. Each bound spell can be used once per battle round."
    },
    {
-    "name": "Bound Plaguemaster (DAMAGE)",
+    "name": "Bound Plaguemaster",
     "text": "Your Shooting phase. Select one point on the battlefield within 18\" of and visible to this model. Each unit (friendly or enemy) within 3\" of that point takes 2D6 spell hits: S6, AP-1, D2."
    },
    {
