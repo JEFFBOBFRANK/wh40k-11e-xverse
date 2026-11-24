@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 2
+REVISION = 3
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -36,8 +36,7 @@ WEAPON_RULES = {"Supercombine": r"\bSupercombine\b", "Plasma": r"\bPlasma \((?:D
                 "Siegebreaker": r"\bSiegebreaker\b"}
 INVASION_VESSELS = {"Spirit", "Phantom", "Lich", "Kraken"}
 # Commanders with Chosen of the Hierarchs (+1CP each battle round while your Warlord), as EC's Sublime Strategist.
-# Rtas 'Vadum already gains 1CP a turn from Fleetmaster.
-WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel 'Vadam", "Tartarus",
+WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel 'Vadam", "Rtas 'Vadum", "Tartarus",
               "Sangheili Shipmaster", "Sangheili Fieldmaster", "Jiralhanae Chieftain", "Yig-Yar Corsair-Talon"}
 SHADOW_CELL_KEYWORDS = {"Special Operations", "Ranger", "Assassin", "Blademaster"}
 
@@ -181,7 +180,7 @@ class Builder:
         multi = [weapons[w] for w in weapons if w.startswith(name + " - ")]
         if multi:
             return "weapon", multi
-        gear = next((g for g in ds["wargear"] if g["name"] == name), None)
+        gear = next((g for g in ds["wargear"] + ds.get("specialist_abilities", []) if g["name"] == name), None)
         if gear:
             return "gear", gear
         donor = BORROW.get((ds["name"], name))
@@ -351,13 +350,63 @@ class Builder:
         node = entry(owner, name, kind, profiles=[], selectionEntries=[], selectionEntryGroups=[])
         gear_nodes = [self.gear_entry(owner, item, ds, fixed=True) for item in self.default_items(ds, spec)]
         node["selectionEntries"] = gear_nodes
-        node["selectionEntryGroups"] = [self.choice_group(owner, c, ds) for c in spec["choices"]]
+        choices = spec["choices"] + self.specialist_choice(ds)
+        node["selectionEntryGroups"] = [self.choice_group(owner, c, ds) for c in choices]
+        self.option_rules(node, ds, spec, choices)
         inv = self.model_stats(ds, gear_nodes)
         node["profiles"].append(self.unit_profile(nid(owner + ":profile"), name, ds["profile"], inv=inv))
         default_gear = gear_nodes + [g["selectionEntries"][0] for g in node["selectionEntryGroups"] if g.get(
             "defaultSelectionEntryId")]
         self.add_model_shields(node, name, ds, default_gear)
         return node
+
+    @staticmethod
+    def specialist_option(ability):
+        return " + ".join([ability["name"]] + ability.get("with", []))
+
+    def specialist_choice(self, ds):
+        """An Auxiliary's Specialist abilities: one per model, at the points shown."""
+        abilities = ds.get("specialist_abilities", [])
+        if not abilities:
+            return []
+        options = [self.specialist_option(a) for a in abilities]
+        costs = {self.specialist_option(a): a["points"] for a in abilities if a["points"]}
+        return [dict(label="Specialist ability", options=options, min=0, max=1, costs=costs)]
+
+    def option_rules(self, node, ds, spec, choices):
+        """Errors for options that cannot be combined, and abilities that replace all of a model's weapons."""
+        ids = {}
+        for c, g in zip(choices, node["selectionEntryGroups"]):
+            for option, e in zip(c["options"], g["selectionEntries"]):
+                ids[option] = e["id"]
+
+        def has(option, kind="atLeast", value=1):
+            return dict(childId=ids[option], field="selections", scope="self", shared=True,
+                        includeChildSelections=True, type=kind, value=value)
+
+        mods = []
+        for option, others in spec.get("exclude", []):
+            names = ", ".join(others[:-1]) + " or " + others[-1]
+            mods.append(dict(type="add", field="error", value=f"{option} cannot be taken with a {names}.",
+                             conditionGroups=[dict(type="and", conditions=[has(option)], conditionGroups=[
+                                 dict(type="or", conditions=[has(o) for o in others])])]))
+        weapon_options = [o for c in spec["choices"] for o in c["options"]]
+        for a in ds.get("specialist_abilities", []):
+            if not a.get("replaces_weapons"):
+                continue
+            assert not node["selectionEntries"], f"{ds['name']}: weapons outside the choice groups"
+            option = self.specialist_option(a)
+            for c, g in zip(choices, node["selectionEntryGroups"]):
+                if c in spec["choices"]:  # the weapon choice is emptied while the model has this ability
+                    picked = dict(has(option), scope="parent")
+                    g["modifiers"] = [dict(type="set", field=k["id"], value=0, conditions=[picked])
+                                      for k in g["constraints"]]
+            mods.append(dict(type="add", field="error",
+                             value=f"{a['name']} replaces all of this model's weapons: remove its other weapons.",
+                             conditionGroups=[dict(type="and", conditions=[has(option)], conditionGroups=[
+                                 dict(type="or", conditions=[has(o) for o in weapon_options])])]))
+        if mods:
+            node.setdefault("modifiers", []).extend(mods)
 
     def datasheet(self, name):
         ds, spec = self.data[name], UNITS[name]
@@ -562,7 +611,8 @@ class Builder:
     def auxiliaries(self, node, spec, family):
         for i, pool in enumerate(spec["aux"]):
             gid = nid(node["id"] + f":auxiliary:{i}")
-            label = "Auxiliary" if len(spec["aux"]) == 1 else "Auxiliary: " + ", ".join(pool["entries"] + pool["lists"])
+            label = "Auxiliary" if len(spec["aux"]) == 1 else "Auxiliary: " + ", ".join(
+                [e.replace(" Auxiliary", "") for e in pool["entries"]] + pool["lists"])
             links = []
             for name in self.aux_members(pool):
                 target = self.shared_model(name, auxiliary=True)

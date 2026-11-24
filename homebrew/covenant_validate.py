@@ -92,6 +92,12 @@ def main():
                 check(e.get("associations"), f"{name}: Leader links missing")
         else:
             check(cost == ds["points"], f"{name}: model points {cost} != {ds['points']}")
+            for a in ds.get("specialist_abilities", []):
+                option = next((n for n in walk(e) if n.get("type") == "upgrade" and
+                               any(p.get("name") == a["name"] for p in n.get("profiles", []))), None)
+                check(option is not None, f"{name}: Specialist ability {a['name']} missing")
+                pts = next((c["value"] for c in (option or {}).get("costs", []) if c["name"] == "pts"), 0)
+                check(pts == a["points"], f"{name}: {a['name']} costs {pts}, expected {a['points']}")
 
     det_entry = entries["Detachment"]
     options = det_entry["selectionEntryGroups"][0]["selectionEntries"]
@@ -120,6 +126,10 @@ def main():
             check(pts == en["points"], f"{ename}: points {pts} != {en['points']}")
         for s in d["stratagems"]:
             check(f"{d['name']} — {s['name']} / {s['cp']} CP" in strat_names, f"{d['name']}: stratagem {s['name']}")
+    chosen = next(r["id"] for r in rules.values() if r["name"] == "Chosen of the Hierarchs")
+    for n in ("Rtas 'Vadum", "Sangheili Shipmaster", "Prophet of Truth"):
+        check(any(l.get("targetId") == chosen for l in entries[n].get("infoLinks", [])),
+              f"{n}: Chosen of the Hierarchs missing")
     army = entries["Army Rules and References"]
     army_names = {rules[l["targetId"]]["name"] for l in army["infoLinks"]}
     for n in ("Caste Hierarchy", "Energy Shields", "Caste Doctrines", "Supercombine", "Plasma", "Siegebreaker"):

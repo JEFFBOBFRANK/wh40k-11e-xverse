@@ -6,7 +6,7 @@ _Source: Codex: Covenant v5.5.0. Caste Hierarchy and Energy Shields are the revi
 
 **Sergeants:** Some datasheets include a Sergeant model in their Unit Composition. A Sergeant model is part of its unit for all rules purposes, and its profile lists the Caste Doctrines it can issue.
 
-**Auxiliaries:** Some datasheets let a unit add Auxiliary models at a fixed rate printed on that datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries). Each Auxiliary model costs the points shown on its entry and uses its own characteristics, weapons and abilities.
+**Auxiliaries:** Some datasheets let a unit add Auxiliary models at a fixed rate printed on that datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries). Each species has one Auxiliary entry: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the Yig-Yar keyword, so they can be taken wherever Yig-Yar Auxiliaries can. Each Auxiliary model costs the points shown on its entry and uses its own characteristics, weapons and abilities. It can also take one Specialist ability from its entry, paying the points shown.
 
 **Keywords:** A unit's keywords are the keywords on its datasheet. Sergeant and Auxiliary models do not add their keywords to the unit; rules can still identify or affect an individual model by its own keywords.
 

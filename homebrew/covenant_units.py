@@ -10,15 +10,17 @@ V(...)     a model type with other weapons, beside the plain model (as the Emper
            per/count: up to `count` for every `per` plain models of the family; count alone: a flat limit;
            neither: any number. Model types with the same `key` share one limit. `cost` is extra points.
 C(...)     a choice group on a single model. Options are "A + B" strings; costs maps an option to extra points.
+           exclude=[(option, [options])] on S(): the first option cannot be taken with any of the others.
+           A model's Specialist abilities (datasheets.json "specialist_abilities") become one more choice group.
 Pool(...)  an Auxiliary allowance. Lists are the codex's Auxiliary lists (by keyword) or named entries.
            weights: slots one model of that list uses (default 1). per/slots: `slots` for every `per` plain
            models; fixed: a flat number of slots.
 """
 
 
-def S(weapons=None, gear=None, choices=(), sergeants=(), aux=(), extra_models=()):
+def S(weapons=None, gear=None, choices=(), sergeants=(), aux=(), extra_models=(), exclude=()):
     return dict(single=True, weapons=weapons, gear=gear, choices=list(choices), sergeants=list(sergeants),
-                aux=list(aux), extra_models=list(extra_models))
+                aux=list(aux), extra_models=list(extra_models), exclude=list(exclude))
 
 
 def U(models, sizes, prices=None, exact=True, per_model=None, sergeants=(), aux=(), counted=()):
@@ -52,7 +54,6 @@ def Counted(name, cost, exclude=()):
 BORROW = {
     ("Sangheili Special Operations Team", "Plasma Rifle"): "Sangheili Fieldmaster",
     ("T'vaoan Skirmishers", "Plasma Rifle"): "Sangheili Fieldmaster",
-    ("T'vaoan Skirmisher", "Plasma Rifle"): "Sangheili Fieldmaster",
 }
 
 SANG_CCW = "Sangheili Close Combat Weapon"
@@ -76,9 +77,9 @@ UNITS = {
     # Characters
     "San'Shyuum Advisor": S(),
     "Sangheili Shipmaster": S(sergeants=["Sangheili Ultra"],
-                              aux=[Pool(entries=["Sangheili Warrior"], fixed=3), Pool(lists=["Unggoy"], fixed=2)]),
+                              aux=[Pool(entries=["Sangheili Auxiliary"], fixed=3), Pool(lists=["Unggoy"], fixed=2)]),
     "Sangheili Fieldmaster": S(sergeants=["Sangheili Ultra"],
-                               aux=[Pool(entries=["Sangheili Warrior"], fixed=3), Pool(lists=["Unggoy"], fixed=2)]),
+                               aux=[Pool(entries=["Sangheili Auxiliary"], fixed=3), Pool(lists=["Unggoy"], fixed=2)]),
     "Sangheili Blademaster": S(),
     "Jiralhanae Chieftain": S(weapons=[], gear=["Chieftain Shield"], choices=[C("Weapons", [
         "Spiker + Brute Heavy Melee Weapon", "Bolt Spiker + Brute Heavy Melee Weapon",
@@ -145,7 +146,7 @@ UNITS = {
         [M("Sangheili Swordmaster", (2, 4), ["Energy Sword", "Plasma Pistol"],
            gear=["Sangheili Personal Shield", "Stealth Projector"])],
         sizes=[2, 4], prices=[90, 200], sergeants=["Sangheili Ultra"],
-        aux=[Pool(lists=["Special Operations"], per=2, slots=1)]),
+        aux=[Pool(entries=["Sangheili Auxiliary"], per=2, slots=1)]),
     "Sangheili Special Operations Team": U(
         [M("Sangheili Special Operations Warrior", (3, 3), ["Plasma Rifles", SANG_CCW],
            gear=["Sangheili Personal Shield", "Stealth Projector"], variants=[
@@ -156,7 +157,7 @@ UNITS = {
                V("Special Operations Warrior with Satchel Charge", ["Plasma Rifle", "Satchel Charge", SANG_CCW],
                  count=1)])],
         sizes=[3], prices=[135], sergeants=["Sangheili Ultra", "Sangheili Shadowmaster"],
-        aux=[Pool(lists=["Special Operations"], fixed=5)]),
+        aux=[Pool(entries=["Sangheili Auxiliary"], fixed=5)]),
     "Sangheili Assassins": U(
         [M("Sangheili Assassin", (3, 6), ["Covenant Carbine", "Plasma Pistol", SANG_CCW],
            gear=["Sangheili Personal Shield"], variants=[
@@ -175,7 +176,7 @@ UNITS = {
     "Jiralhanae Shock Pack": U(
         [M("Jiralhanae Shock Trooper", (4, 8), ["Mangler", "Brute Heavy Melee Weapon"])],
         sizes=[4, 8], prices=[100, 200], exact=False,
-        aux=[Pool(entries=["Yanme'e Drone Specialist"], per=4, slots=1)]),
+        aux=[Pool(entries=["Yanme'e Auxiliary"], per=4, slots=1)]),
     "Jiralhanae Heavy Weapons Pack": U(
         [M("Jiralhanae Gunner", (3, 3), ["Bolt Spiker", "Brute Heavy Melee Weapon"], variants=[
             V("Jiralhanae Gunner with Skewer", ["Skewer", "Brute Heavy Melee Weapon"], cost=10)])],
@@ -190,7 +191,7 @@ UNITS = {
         [M("Yig-Yar Corsair", (5, 10), ["Plasma Rifle", "Yig-Yar Plasma Sabre"], variants=[
             V("Yig-Yar Corsair with Needler", ["Needler", "Yig-Yar Plasma Sabre"], per=5, count=2)])],
         sizes=[5, 10], prices=[75, 150], sergeants=["Sangheili Ultra", "Yig-Yar Talon"],
-        aux=[Pool(entries=["Yanme'e Drone Specialist"], per=5, slots=1)]),
+        aux=[Pool(entries=["Yanme'e Auxiliary"], per=5, slots=1)]),
     "Yig-Yar Marksmen": U(
         [M("Yig-Yar Marksman", (3, 6), ["Covenant Carbine", "Plasma Pistol", YY_CCW], gear=["Stealth Projector"],
            variants=[V("Yig-Yar Marksman with Needle Rifle", ["Needle Rifle", "Plasma Pistol", YY_CCW]),
@@ -297,47 +298,43 @@ MODELS = {
     "Unggoy Ultra": S(weapons=[UNG_CCW], choices=[C("Ranged weapon", [
         "Plasma Rifle", "Needler", "Storm Rifle", "Plasma Repeater", "Fuel Rod"], costs={"Fuel Rod": 10})]),
     "Yanme'e Major": S(),
-    "Sangheili Warrior": S(),
-    "Sangheili Special Operations Warrior": S(),
-    "Sangheili Blade": S(),
-    "Sangheili Zealot": S(),
-    "Sangheili Stealth Operative": S(),
-    "Sangheili Ranger": S(),
-    "Jiralhanae Warrior": S(),
-    "Jiralhanae Heavy Gunner": S(weapons=["Brute Heavy Melee Weapon"], choices=[C("Ranged weapon", [
-        "Bolt Spiker", "Brute Shot", "Skewer"], costs={"Skewer": 10})]),
-    "Jiralhanae Bodyguard": S(),
-    "Jiralhanae Berserker": S(),
-    "Jiralhanae Stalker": S(),
-    "Yig-Yar Marauder": S(weapons=[YY_CCW], gear=[], choices=[
-        C("Ranged weapon", ["Plasma Rifle", "Needler"]),
-        C("Wargear", ["Wrist Shield"], minimum=0, costs={"Wrist Shield": 5})]),
-    "Yig-Yar Marksman": S(),
-    "T'vaoan Skirmisher": S(weapons=[], gear=[], choices=[C("Loadout package", [
+    # One Auxiliary entry per species. Each model can take one Specialist ability (datasheets.json).
+    "Sangheili Auxiliary": S(weapons=[], choices=[
+        C("Weapons", [f"Storm Rifle + Plasma Pistol + {SANG_CCW}", f"Covenant Carbine + Plasma Pistol + {SANG_CCW}",
+                      f"Plasma Repeater + Plasma Pistol + {SANG_CCW}", f"Needler + Plasma Pistol + {SANG_CCW}",
+                      f"Plasma Rifles + {SANG_CCW}", "Plasma Pistol + Energy Sword",
+                      f"Fuel Rod + Plasma Pistol + {SANG_CCW}", "Twin-linked Energy Swords"],
+          costs={f"Fuel Rod + Plasma Pistol + {SANG_CCW}": 10, "Twin-linked Energy Swords": 10}),
+        C("Wargear", ["Stealth Projector"], minimum=0, costs={"Stealth Projector": 5})]),
+    "Jiralhanae Auxiliary": S(weapons=[], choices=[C("Weapons", [
+        "Spiker + Mangler + Brute Close Combat Weapon", "Bolt Spiker + Brute Heavy Melee Weapon",
+        "Brute Shot + Brute Heavy Melee Weapon", "Skewer + Brute Heavy Melee Weapon", "Mangler + Gravity Hammer"],
+        costs={"Skewer + Brute Heavy Melee Weapon": 10, "Mangler + Gravity Hammer": 10})]),
+    "Yig-Yar Auxiliary": S(weapons=[YY_CCW], gear=[], choices=[
+        C("Ranged weapon", ["Plasma Rifle", "Needler", "Covenant Carbine", "Needle Rifle", "Particle Beam Rifle",
+                            "Stalker Rifle"],
+          costs={"Needle Rifle": 10, "Particle Beam Rifle": 10, "Stalker Rifle": 10}),
+        C("Wargear", ["Wrist Shield"], minimum=0, costs={"Wrist Shield": 5})],
+        exclude=[("Wrist Shield", ["Covenant Carbine", "Needle Rifle", "Particle Beam Rifle", "Stalker Rifle"])]),
+    "T'vaoan Auxiliary": S(weapons=[], gear=[], choices=[C("Loadout package", [
         "Plasma Rifles + T'vaoan Plasma Sabres", "Covenant Carbine + Plasma Rifle + T'vaoan Plasma Sabres",
         "Storm Rifle + Bolt Spiker + T'vaoan Plasma Sabres", "Plasma Repeater + Spiker + T'vaoan Plasma Sabres",
         "Brute Shot + Plasma Pistol + Satchel Charge + T'vaoan Plasma Sabres",
         "Plasma Rifles + Heavy Plasma Melee Weapon", "Plasma Rifles + Brute Heavy Melee Weapon",
-        "Plasma Rifles + Energy Sword", "Plasma Rifle + Wrist Shield + T'vaoan Plasma Sabres",
+        "Plasma Rifles + Energy Sword", "Storm Rifle + Plasma Pistol + Yig-Yar Plasma Sabre",
+        "Plasma Rifle + Wrist Shield + T'vaoan Plasma Sabres",
         "Needlers + T'vaoan Plasma Sabres", "Fuel Rod + Plasma Pistol + T'vaoan Plasma Sabres",
         "Skewer + Plasma Pistol + T'vaoan Plasma Sabres", "Plasma Rifles + Twin-linked Energy Swords"],
         costs={"Plasma Rifle + Wrist Shield + T'vaoan Plasma Sabres": 5, "Needlers + T'vaoan Plasma Sabres": 10,
                "Fuel Rod + Plasma Pistol + T'vaoan Plasma Sabres": 10,
                "Skewer + Plasma Pistol + T'vaoan Plasma Sabres": 10,
                "Plasma Rifles + Twin-linked Energy Swords": 10})]),
-    "T'vaoan Tracker": S(),
-    "Yig-Yar Sniper": S(),
-    "Yig-Yar Pathfinder": S(),
-    "Unggoy Warrior": S(weapons=[UNG_CCW], choices=[C("Ranged weapon", [
-        "Plasma Pistol", "Plasma Rifle", "Needler", "Storm Rifle", "Fuel Rod"], costs={"Fuel Rod": 10})]),
-    "Unggoy Suicide Bomber": S(),
-    "Unggoy Zealot": S(),
-    "Unggoy Ammo-Runner": S(),
-    "Unggoy Infiltrator": S(),
-    "Huragok Lifeworker": S(),
-    "Huragok Shield Tender": S(),
-    "Yanme'e Drone Specialist": S(),
+    "Unggoy Auxiliary": S(weapons=[], choices=[C("Weapons", [
+        f"Plasma Pistol + {UNG_CCW}", f"Plasma Rifle + {UNG_CCW}", f"Needler + {UNG_CCW}", f"Storm Rifle + {UNG_CCW}",
+        f"Fuel Rod + {UNG_CCW}"], costs={f"Fuel Rod + {UNG_CCW}": 10})]),
+    "Huragok Auxiliary": S(),
+    "Yanme'e Auxiliary": S(),
 }
 
 # The codex's Auxiliary lists, by the keyword on each Auxiliary entry.
-AUX_LISTS = ["Sangheili", "Jiralhanae", "Yig-Yar", "Unggoy", "Huragok", "Yanme'e", "Special Operations"]
+AUX_LISTS = ["Sangheili", "Jiralhanae", "Yig-Yar", "Unggoy", "Huragok", "Yanme'e"]  # T'vaoan are also Yig-Yar

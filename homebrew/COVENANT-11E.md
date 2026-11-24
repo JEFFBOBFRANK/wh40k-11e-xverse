@@ -7,7 +7,7 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
 ## What New Recruit shows
 
 - 65 datasheets: 7 Epic Heroes, 10 Characters, 4 Battleline, 21 Infantry, 4 Mounted, 1 Monster,
-  16 Vehicles and 2 Fortifications. The 6 Sergeant and 25 Auxiliary entries are models added inside units;
+  16 Vehicles and 2 Fortifications. The 6 Sergeant and 7 Auxiliary entries are models added inside units;
   they are not units of their own.
 - **Squads** use real model counters. Weapon swaps are their own model types beside the plain model, as on
   the Emperor's Children Tormentors (e.g. "Unggoy Warrior with Needler"). Limits such as "for every 5
@@ -15,10 +15,29 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
   count together. Paid swaps add their points. New Recruit shows an error for an illegal unit size.
 - **Sergeant**: an optional group listing the Sergeant entries the datasheet allows. Each Sergeant keeps
   its own loadout choices and Caste Doctrines.
-- **Auxiliary**: a group listing every model in the allowed Auxiliary lists (by keyword: Sangheili,
-  Jiralhanae, Yig-Yar, Unggoy, Huragok, Yanme'e, Special Operations). The allowance is shown in
-  "Auxiliary Slots": for example a Grunt Cadre gets 2 slots for every 5 Unggoy Warriors, a Sangheili or
-  Jiralhanae model uses 2 and a Yig-Yar model 1. Fixed allowances (Special Operations Team: 5) are flat.
+- **Auxiliary**: one entry per species (revision 3): Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok
+  and Yanme'e. The unit's group lists the species its datasheet allows (T'vaoan have the Yig-Yar keyword, so
+  they appear wherever Yig-Yar do). The allowance is shown in "Auxiliary Slots": for example a Grunt Cadre
+  gets 2 slots for every 5 Unggoy Warriors, a Sangheili or Jiralhanae model uses 2 and a Yig-Yar or T'vaoan
+  model 1. Fixed allowances (Special Operations Team: 5 Sangheili) are flat.
+- **Auxiliary options**: each Auxiliary has its weapon options (the old specialists' loadouts) and a
+  "Specialist ability" group: one ability per model, at the points shown.
+
+  | Auxiliary | Pts | Specialist abilities |
+  |---|---|---|
+  | Sangheili | 20 | Forward Operative +10, Vengeful Pursuit +10, Remote Destructive Device +10 |
+  | Jiralhanae | 20 | Pack Enforcer free, Sworn Protector (with Personal Shield Generator, SP 3) +15, Stalking Predator +10 |
+  | Yig-Yar | 10 | Mark the Target +10, Spotter's Nest +15, Trailblazer +10 |
+  | T'vaoan | 20 | Trailblazer +10, Break from the Pack +10 |
+  | Unggoy | 15 | Ammunition Runner free, Forward Infiltration +10, Proximity Detonation +5 |
+  | Huragok | 25 | Biological Restoration free, Shield Maintenance +5 |
+  | Yanme'e | 20 | none to choose: Targeting Relay and Scouts 8" are built in |
+
+  Proximity Detonation replaces all of the Unggoy's weapons with Unstable Plasma Charges: taking it empties the
+  Weapons group, and New Recruit shows an error until the other weapon is removed. A Yig-Yar with a Covenant
+  Carbine, Needle Rifle, Particle Beam Rifle or Stalker Rifle cannot take a Wrist Shield (New Recruit shows an
+  error). The T'vaoan's loadout packages are the Skirmisher's, plus the Tracker's Storm Rifle, Plasma Pistol and
+  Yig-Yar Plasma Sabre.
 - **Shields**: a "Shields" table shows SP on the wargear that gives it (e.g. "Sangheili Personal Shield: 2",
   "Wrist Shield: 6") or on the model when no wargear does (vehicles).
 - Wargear that gives an invulnerable save (Combat Shield, Layered Colony Armour) sets it on the stat line.
@@ -26,8 +45,10 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
   Fieldmaster can add their Ultra, up to 3 Sangheili Warriors and up to 2 Unggoy Auxiliaries.
 - Copy limits: Epic Heroes 1, Battleline 6, others 3. Every CHARACTER has a Warlord option.
 - Chosen of the Hierarchs (army rule, as EC's Sublime Strategist): +1CP at the start of each battle round if your
-  Warlord has it. On the three Prophets, Thel 'Vadam, Tartarus, the Shipmaster, Fieldmaster, Jiralhanae Chieftain
-  and Yig-Yar Corsair-Talon. Rtas 'Vadum is left out because Fleetmaster already gives him 1CP a turn.
+  Warlord has it. On the three Prophets, Thel 'Vadam, Rtas 'Vadum, Tartarus, the Shipmaster, Fieldmaster,
+  Jiralhanae Chieftain and Yig-Yar Corsair-Talon.
+- Rtas 'Vadum's Fleetmaster no longer gains CP: after both players have deployed, select up to two friendly
+  Covenant units, excluding Fortifications; redeploy them, or place any of them into Strategic Reserves.
 - Faction icon: `icons/armies/xenos-covenant-homebrew.png`, the Covenant symbol. Replace the file (same name,
   PNG or SVG) to use another image.
 - Army Rules and References: Caste Hierarchy, Energy Shields, Chosen of the Hierarchs, Caste Doctrines, Supercombine, Plasma,
@@ -45,7 +66,11 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
   models - X pts" (no "up to") allows only the two sizes.
 - Marauders' Wrist Shields are counted on the unit ("3x Wrist Shield", +5 pts each, not on Carbine models).
 - T'vaoan Skirmishers pick their loadout package as a model type for each model.
-- A Plasma Rifle swapped onto Special Operations and T'vaoan models uses the Sangheili BS 3+ profile.
+- A Plasma Rifle swapped onto Special Operations Team and T'vaoan models uses the Sangheili BS 3+ profile.
+- Huragok Shield Maintenance is reworded for the unit Shield pool: the unit regains up to 6 lost SP (2 for each of
+  up to three other shielded models), instead of 2 SP on each of three models.
+- Sworn Protector's "A unit cannot contain more than one Jiralhanae Bodyguard" now reads "more than one model with
+  this ability".
 
 ## Open points in the codex text
 
