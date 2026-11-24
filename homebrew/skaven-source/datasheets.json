@@ -2603,7 +2603,23 @@
    "OC": "1"
   },
   "extra_profiles": [],
-  "ranged_weapons": [],
+  "ranged_weapons": [
+   {
+    "name": "Fumigator censer",
+    "range": "9\"",
+    "A": "3",
+    "BS_WS": "N/A",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ANTI-INFANTRY 3+",
+     "BLAST 1",
+     "IGNORES COVER",
+     "TORRENT"
+    ]
+   }
+  ],
   "melee_weapons": [
    {
     "name": "Great plague censer",
@@ -2619,14 +2635,65 @@
     ]
    },
    {
-    "name": "Censer-bearer leader weapon",
+    "name": "Twin plague censers",
+    "range": "Melee",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ANTI-INFANTRY 2+",
+     "SUSTAINED HITS 1",
+     "TWIN-LINKED"
+    ]
+   },
+   {
+    "name": "Censer haft",
+    "range": "Melee",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "keywords": []
+   },
+   {
+    "name": "Plague-reliquary censer",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "DEVASTATING WOUNDS"
+    ]
+   },
+   {
+    "name": "Master plague censer",
     "range": "Melee",
     "A": "4",
     "BS_WS": "3+",
     "S": "7",
     "AP": "-2",
     "D": "2",
-    "keywords": []
+    "keywords": [
+     "ANTI-INFANTRY 3+",
+     "SUSTAINED HITS 1"
+    ]
+   },
+   {
+    "name": "Censer-hammer",
+    "range": "Melee",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "keywords": [
+     "ANTI-INFANTRY 3+"
+    ]
    }
   ],
   "weapon_notes": [],
@@ -2654,11 +2721,21 @@
    {
     "name": "Frenzied Charge",
     "text": "Until the end of the Fight phase, add 1 to the Attacks characteristic of melee weapons equipped by models in this unit if this unit made a charge move this turn."
+   },
+   {
+    "name": "Rot-bell",
+    "text": "Choking Fumes affects units within 6\" of this unit instead of 3\"."
+   },
+   {
+    "name": "Plague-gas Globes",
+    "text": "Once per battle, in your Shooting phase, instead of the bearer shooting, select one enemy unit within 8\" of and visible to the bearer and roll six D6. For each 4+, that enemy unit suffers 1 mortal wound. For each 1, the bearer's unit suffers 1 mortal wound."
    }
   ],
   "other_rules": [],
   "unit_composition": [
-   "5 or 10 Plague Censer Bearers. One model is the Censer-bearer Leader."
+   "1 Censer-bearer Leader and 4 or 9 Plague Censer Bearers. Every Plague Censer Bearer is equipped with one of: 1 Great plague censer; or 1 Twin plague censers. For every 5 models in the unit, 1 Plague Censer Bearer can replace its weapon with 1 Fumigator censer and 1 Censer haft. 1 Plague Censer Bearer can replace its weapon with 1 Plague-reliquary censer.",
+   "Censer-bearer Leader: W3. Equipped with 1 Master plague censer or 1 Censer-hammer.",
+   "One model can carry a Rot-bell and one model can carry Plague-gas Globes; these do not replace its weapons."
   ],
   "points": "95pts / 190pts",
   "repeat_cost": "+10pts from the 3rd copy"

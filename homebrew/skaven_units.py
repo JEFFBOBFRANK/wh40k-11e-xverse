@@ -155,10 +155,15 @@ UNITS = {
         sizes=[{"Plague Deacon": 1, "Plague Monk": 9}, {"Plague Deacon": 1, "Plague Monk": 19}],
         bearer_gear=[("Plague Banner", None, (1, 2)), ("Doom Gong", None, (1, 2))]),
     "Plague Censer Bearers": dict(
-        models=[M("Censer-bearer Leader", (1, 1), ["Censer-bearer leader weapon"]),
-                M("Plague Censer Bearer", (4, 9), ["Great plague censer"])],
+        models=[M("Censer-bearer Leader", (1, 1), wounds="3", choices=[
+                    C("Weapon", ["Master plague censer", "Censer-hammer"])]),
+                M("Plague Censer Bearer", (4, 9), ["Great plague censer"], variants=[
+                    V("Plague Censer Bearer with Twin plague censers", ["Twin plague censers"]),
+                    V("Plague Censer Bearer with Fumigator censer", ["Fumigator censer", "Censer haft"], (1, 2)),
+                    V("Plague Censer Bearer with Plague-reliquary censer", ["Plague-reliquary censer"], (1, 1))])],
         sizes=[{"Censer-bearer Leader": 1, "Plague Censer Bearer": 4},
-               {"Censer-bearer Leader": 1, "Plague Censer Bearer": 9}]),
+               {"Censer-bearer Leader": 1, "Plague Censer Bearer": 9}],
+        bearer_gear=[("Rot-bell", None), ("Plague-gas Globes", None)]),
     "Pusbags": dict(models=[M("Pusbag", (10, 20), ["Diseased bites"])],
                     sizes=[{"Pusbag": 10}, {"Pusbag": 20}]),
     "Night Runners": dict(

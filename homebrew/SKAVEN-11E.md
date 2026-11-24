@@ -22,7 +22,8 @@ detachments). The layout follows the Emperor's Children catalogue.
   Leading / Supporting links, as in the Emperor's Children catalogue. A Support
   must be attached; a mounted Plague Priest need not be.
 - Optional wargear (Clan Standard, Scavenger Bell, Warhorn, Regimental Banner,
-  Plague Banner, Doom Gong, Grounding Rod, Spare Capacitor, Voltaic Pennant, Warp-Grenade Satchel, Smoke Bombs, Shadow-step Talisman) works like the Emperor's
+  Plague Banner, Doom Gong, Grounding Rod, Spare Capacitor, Voltaic Pennant, Warp-Grenade Satchel, Smoke Bombs, Shadow-step Talisman,
+  Rot-bell, Plague-gas Globes) works like the Emperor's
   Children Tormentors' Icon of Excess: tick it on the unit, then pick the model that
   carries it. Squad leaders cannot carry it, and the item's ability appears only
   when it is taken. Special weapons stay separate model types (e.g. "Stormvermin
@@ -35,6 +36,10 @@ detachments). The layout follows the Emperor's Children catalogue.
   types with Warp-blade and Voltaic shield (4+ invulnerable save, own stat line),
   Warp-blaster (up to 3), Shock gauntlet (up to 2) and Warp-lance (1). The Voltaic
   Pennant is optional wargear and improves the unit's Leadership on its stat lines.
+- Plague Censer Bearers (revision 78, the Stormvermin standard): the Censer-bearer Leader (W3) takes a Master plague
+  censer or a Censer-hammer; plain Censer Bearers (Great plague censer) plus model types with Twin plague censers (any),
+  a Fumigator censer and Censer haft (1 per 5 models) and a Plague-reliquary censer (1). Rot-bell (Choking Fumes at 6")
+  and Plague-gas Globes are optional wargear. Points stay 95 / 190.
 - Mounts (Screaming Bell, Gnaw-beast, Plague Furnace) are options on the character.
   The mounted profile replaces the foot profile and the INFANTRY keyword changes.
 - Vermindoom Land-Fortress: exactly one Clan Flagship and six jury-rigged
