@@ -11,6 +11,10 @@ V(...)     a model type with other weapons, beside the plain model (as the Emper
            neither: any number. Model types with the same `key` share one limit. `cost` is extra points.
 C(...)     a choice group on a single model. Options are "A + B" strings; costs maps an option to extra points.
            exclude=[(option, [options])] on S(): the first option cannot be taken with any of the others.
+           empties=[(option, [group labels])] on S(): the option replaces those slots too (as "2 Plasma Rifles"
+           replacing the Plasma Pistol); the groups must be cleared when it is taken.
+           Sergeant and Auxiliary weapons use one group per slot, as the Emperor's Children Obsessionist
+           ("Ranged weapon", "Sidearm", "Melee weapon"). "Label = A + B" names a package by its label.
            A model's Specialist abilities (datasheets.json "specialist_abilities") become one more choice group.
 Pool(...)  an Auxiliary allowance. Lists are the codex's Auxiliary lists (by keyword) or named entries.
            weights: slots one model of that list uses (default 1). per/slots: `slots` for every `per` plain
@@ -18,9 +22,9 @@ Pool(...)  an Auxiliary allowance. Lists are the codex's Auxiliary lists (by key
 """
 
 
-def S(weapons=None, gear=None, choices=(), sergeants=(), aux=(), extra_models=(), exclude=()):
+def S(weapons=None, gear=None, choices=(), sergeants=(), aux=(), extra_models=(), exclude=(), empties=()):
     return dict(single=True, weapons=weapons, gear=gear, choices=list(choices), sergeants=list(sergeants),
-                aux=list(aux), extra_models=list(extra_models), exclude=list(exclude))
+                aux=list(aux), extra_models=list(extra_models), exclude=list(exclude), empties=list(empties))
 
 
 def U(models, sizes, prices=None, exact=True, per_model=None, sergeants=(), aux=(), counted=()):
@@ -275,23 +279,27 @@ UNITS = {
 
 # Sergeant and Auxiliary models: added to units, never taken on their own.
 MODELS = {
-    "Sangheili Ultra": S(weapons=[], choices=[C("Loadout", [
-        f"Storm Rifle + Plasma Pistol + {SANG_CCW}", f"Plasma Repeater + Plasma Pistol + {SANG_CCW}",
-        f"Covenant Carbine + Plasma Pistol + {SANG_CCW}", f"Needle Rifle + Plasma Pistol + {SANG_CCW}",
-        f"Particle Beam Rifle + Plasma Pistol + {SANG_CCW}", f"Stalker Rifle + Plasma Pistol + {SANG_CCW}",
-        f"Fuel Rod + Plasma Pistol + {SANG_CCW}", f"Plasma Pistols + {SANG_CCW}", f"Plasma Rifles + {SANG_CCW}",
-        f"Needlers + {SANG_CCW}", "Twin-linked Energy Swords"],
-        costs={f"Fuel Rod + Plasma Pistol + {SANG_CCW}": 10, f"Needlers + {SANG_CCW}": 10,
-               "Twin-linked Energy Swords": 10})]),
-    "Sangheili Shadowmaster": S(weapons=[], choices=[C("Loadout", [
-        "Plasma Repeater + Plasma Pistol + Energy Sword", "Plasma Rifles + Energy Sword", "Twin-linked Energy Swords"],
-        costs={"Twin-linked Energy Swords": 10})]),
-    "Jiralhanae Pack Alpha": S(weapons=[], choices=[
-        C("Weapons", ["Spiker + Mangler + Brute Close Combat Weapon", "Brute Shot + Mangler + Brute Close Combat Weapon",
-                      "Spiker + Mangler + Brute Heavy Melee Weapon", "Mangler + Gravity Hammer"],
-          costs={"Mangler + Gravity Hammer": 10}),
-        C("Wargear", ["Officer Shield Generator"], minimum=0, costs={"Officer Shield Generator": 20})]),
-    "Yig-Yar Talon": S(weapons=[], gear=[], choices=[C("Loadout", [
+    "Sangheili Ultra": S(weapons=[], choices=[
+        C("Ranged weapon", ["Storm Rifle", "Plasma Repeater", "Covenant Carbine", "Needle Rifle", "Particle Beam Rifle",
+                            "Stalker Rifle", "Fuel Rod", "2 Plasma Pistols", "2 Plasma Rifles", "2 Needlers"],
+          costs={"Fuel Rod": 10, "2 Needlers": 10}),
+        C("Sidearm", ["Plasma Pistol"]),
+        C("Melee weapon", [SANG_CCW, "Twin-linked Energy Swords"], costs={"Twin-linked Energy Swords": 10})],
+        empties=[("2 Plasma Pistols", ["Sidearm"]), ("2 Plasma Rifles", ["Sidearm"]), ("2 Needlers", ["Sidearm"]),
+                 ("Twin-linked Energy Swords", ["Ranged weapon", "Sidearm"])]),
+    "Sangheili Shadowmaster": S(weapons=[], choices=[
+        C("Ranged weapon", ["Plasma Repeater", "2 Plasma Rifles"]),
+        C("Sidearm", ["Plasma Pistol"]),
+        C("Melee weapon", ["Energy Sword", "Twin-linked Energy Swords"], costs={"Twin-linked Energy Swords": 10})],
+        empties=[("2 Plasma Rifles", ["Sidearm"]), ("Twin-linked Energy Swords", ["Ranged weapon", "Sidearm"])]),
+    "Jiralhanae Pack Alpha": S(weapons=["Mangler"], choices=[
+        C("Ranged weapon", ["Spiker", "Brute Shot"]),
+        C("Melee weapon", ["Brute Close Combat Weapon", "Brute Heavy Melee Weapon", "Gravity Hammer"],
+          costs={"Gravity Hammer": 10}),
+        C("Wargear", ["Officer Shield Generator"], minimum=0, costs={"Officer Shield Generator": 20})],
+        empties=[("Gravity Hammer", ["Ranged weapon"])],
+        exclude=[("Brute Shot", ["Brute Heavy Melee Weapon"])]),
+    "Yig-Yar Talon": S(weapons=[], gear=[], choices=[C("Weapons", [
         "Needler + Wrist Shield + Yig-Yar Plasma Sabre", f"Covenant Carbine + Plasma Pistol + {YY_CCW}",
         f"Needle Rifle + Plasma Pistol + {YY_CCW}", f"Particle Beam Rifle + Plasma Pistol + {YY_CCW}",
         f"Stalker Rifle + Plasma Pistol + {YY_CCW}"])]),
@@ -300,16 +308,25 @@ MODELS = {
     "Yanme'e Major": S(),
     # One Auxiliary entry per species. Each model can take one Specialist ability (datasheets.json).
     "Sangheili Auxiliary": S(weapons=[], choices=[
-        C("Weapons", [f"Storm Rifle + Plasma Pistol + {SANG_CCW}", f"Covenant Carbine + Plasma Pistol + {SANG_CCW}",
-                      f"Plasma Repeater + Plasma Pistol + {SANG_CCW}", f"Needler + Plasma Pistol + {SANG_CCW}",
-                      f"Plasma Rifles + {SANG_CCW}", "Plasma Pistol + Energy Sword",
-                      f"Fuel Rod + Plasma Pistol + {SANG_CCW}", "Twin-linked Energy Swords"],
-          costs={f"Fuel Rod + Plasma Pistol + {SANG_CCW}": 10, "Twin-linked Energy Swords": 10}),
-        C("Wargear", ["Stealth Projector"], minimum=0, costs={"Stealth Projector": 5})]),
-    "Jiralhanae Auxiliary": S(weapons=[], choices=[C("Weapons", [
-        "Spiker + Mangler + Brute Close Combat Weapon", "Bolt Spiker + Brute Heavy Melee Weapon",
-        "Brute Shot + Brute Heavy Melee Weapon", "Skewer + Brute Heavy Melee Weapon", "Mangler + Gravity Hammer"],
-        costs={"Skewer + Brute Heavy Melee Weapon": 10, "Mangler + Gravity Hammer": 10})]),
+        C("Ranged weapon", ["Storm Rifle", "Covenant Carbine", "Plasma Repeater", "Needler", "Fuel Rod",
+                            "2 Plasma Rifles"], costs={"Fuel Rod": 10}),
+        C("Sidearm", ["Plasma Pistol"]),
+        C("Melee weapon", [SANG_CCW, "Energy Sword", "Twin-linked Energy Swords"],
+          costs={"Twin-linked Energy Swords": 10}),
+        C("Wargear", ["Stealth Projector"], minimum=0, costs={"Stealth Projector": 5})],
+        empties=[("2 Plasma Rifles", ["Sidearm"]), ("Energy Sword", ["Ranged weapon"]),
+                 ("Twin-linked Energy Swords", ["Ranged weapon", "Sidearm"])]),
+    "Jiralhanae Auxiliary": S(weapons=[], choices=[
+        C("Ranged weapon", ["Spiker", "Bolt Spiker", "Brute Shot", "Skewer"], costs={"Skewer": 10}),
+        C("Sidearm", ["Mangler"]),
+        C("Melee weapon", ["Brute Close Combat Weapon", "Brute Heavy Melee Weapon", "Gravity Hammer"],
+          costs={"Gravity Hammer": 10})],
+        empties=[("Bolt Spiker", ["Sidearm"]), ("Brute Shot", ["Sidearm"]), ("Skewer", ["Sidearm"]),
+                 ("Gravity Hammer", ["Ranged weapon"])],
+        exclude=[("Brute Heavy Melee Weapon", ["Spiker"]),
+                 ("Bolt Spiker", ["Brute Close Combat Weapon", "Gravity Hammer"]),
+                 ("Brute Shot", ["Brute Close Combat Weapon", "Gravity Hammer"]),
+                 ("Skewer", ["Brute Close Combat Weapon", "Gravity Hammer"])]),
     "Yig-Yar Auxiliary": S(weapons=[YY_CCW], gear=[], choices=[
         C("Ranged weapon", ["Plasma Rifle", "Needler", "Covenant Carbine", "Needle Rifle", "Particle Beam Rifle",
                             "Stalker Rifle"],
@@ -317,21 +334,28 @@ MODELS = {
         C("Wargear", ["Wrist Shield"], minimum=0, costs={"Wrist Shield": 5})],
         exclude=[("Wrist Shield", ["Covenant Carbine", "Needle Rifle", "Particle Beam Rifle", "Stalker Rifle"])]),
     "T'vaoan Auxiliary": S(weapons=[], gear=[], choices=[C("Loadout package", [
-        "Plasma Rifles + T'vaoan Plasma Sabres", "Covenant Carbine + Plasma Rifle + T'vaoan Plasma Sabres",
-        "Storm Rifle + Bolt Spiker + T'vaoan Plasma Sabres", "Plasma Repeater + Spiker + T'vaoan Plasma Sabres",
-        "Brute Shot + Plasma Pistol + Satchel Charge + T'vaoan Plasma Sabres",
-        "Plasma Rifles + Heavy Plasma Melee Weapon", "Plasma Rifles + Brute Heavy Melee Weapon",
-        "Plasma Rifles + Energy Sword", "Storm Rifle + Plasma Pistol + Yig-Yar Plasma Sabre",
-        "Plasma Rifle + Wrist Shield + T'vaoan Plasma Sabres",
-        "Needlers + T'vaoan Plasma Sabres", "Fuel Rod + Plasma Pistol + T'vaoan Plasma Sabres",
-        "Skewer + Plasma Pistol + T'vaoan Plasma Sabres", "Plasma Rifles + Twin-linked Energy Swords"],
-        costs={"Plasma Rifle + Wrist Shield + T'vaoan Plasma Sabres": 5, "Needlers + T'vaoan Plasma Sabres": 10,
-               "Fuel Rod + Plasma Pistol + T'vaoan Plasma Sabres": 10,
-               "Skewer + Plasma Pistol + T'vaoan Plasma Sabres": 10,
-               "Plasma Rifles + Twin-linked Energy Swords": 10})]),
-    "Unggoy Auxiliary": S(weapons=[], choices=[C("Weapons", [
-        f"Plasma Pistol + {UNG_CCW}", f"Plasma Rifle + {UNG_CCW}", f"Needler + {UNG_CCW}", f"Storm Rifle + {UNG_CCW}",
-        f"Fuel Rod + {UNG_CCW}"], costs={f"Fuel Rod + {UNG_CCW}": 10})]),
+        "Rifleman = Plasma Rifles + T'vaoan Plasma Sabres",
+        "Carbine = Covenant Carbine + Plasma Rifle + T'vaoan Plasma Sabres",
+        "Storm = Storm Rifle + Bolt Spiker + T'vaoan Plasma Sabres",
+        "Repeater = Plasma Repeater + Spiker + T'vaoan Plasma Sabres",
+        "Demolitionist = Brute Shot + Plasma Pistol + Satchel Charge + T'vaoan Plasma Sabres",
+        "Heavy Gunner (Heavy Plasma) = Plasma Rifles + Heavy Plasma Melee Weapon",
+        "Heavy Gunner (Brute Heavy) = Plasma Rifles + Brute Heavy Melee Weapon",
+        "Melee Specialist = Plasma Rifles + Energy Sword",
+        "Tracker = Storm Rifle + Plasma Pistol + Yig-Yar Plasma Sabre",
+        "Shield Raider = Plasma Rifle + Wrist Shield + T'vaoan Plasma Sabres",
+        "Needler = Needlers + T'vaoan Plasma Sabres",
+        "Anti-armour (Fuel Rod) = Fuel Rod + Plasma Pistol + T'vaoan Plasma Sabres",
+        "Anti-armour (Skewer) = Skewer + Plasma Pistol + T'vaoan Plasma Sabres",
+        "Twin-Blade = Plasma Rifles + Twin-linked Energy Swords"],
+        costs={"Shield Raider = Plasma Rifle + Wrist Shield + T'vaoan Plasma Sabres": 5,
+               "Needler = Needlers + T'vaoan Plasma Sabres": 10,
+               "Anti-armour (Fuel Rod) = Fuel Rod + Plasma Pistol + T'vaoan Plasma Sabres": 10,
+               "Anti-armour (Skewer) = Skewer + Plasma Pistol + T'vaoan Plasma Sabres": 10,
+               "Twin-Blade = Plasma Rifles + Twin-linked Energy Swords": 10})]),
+    "Unggoy Auxiliary": S(weapons=[], choices=[
+        C("Ranged weapon", ["Plasma Pistol", "Plasma Rifle", "Needler", "Storm Rifle", "Fuel Rod"], costs={"Fuel Rod": 10}),
+        C("Melee weapon", [UNG_CCW])]),
     "Huragok Auxiliary": S(),
     "Yanme'e Auxiliary": S(),
 }

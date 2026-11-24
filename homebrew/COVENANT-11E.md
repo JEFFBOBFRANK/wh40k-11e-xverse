@@ -82,6 +82,24 @@ repeated another rule (12,812 -> 11,916 words in datasheets and detachments, plu
 - Every Upgrade can now be taken by up to three units, as 11e allows. Thirteen Upgrades that did not say "up to three"
   were limited to one before.
 
+## Sergeant and Auxiliary weapons (revision 8)
+
+Sergeants and Auxiliaries pick their weapons one slot at a time, as the Emperor's Children Obsessionist ("Melee weapon",
+"Sidearm"): "Ranged weapon", "Sidearm", "Melee weapon" and "Wargear", one weapon per option. Weapons that never change
+are fixed (the Pack Alpha's Mangler, the Unggoy Ultra's Close Combat Weapon).
+
+- Swaps that replace more than one weapon follow the codex: 2 Plasma Pistols, 2 Plasma Rifles or 2 Needlers replace the
+  Plasma Pistol too; Twin-linked Energy Swords replace every weapon; an Energy Sword (Sangheili Auxiliary) replaces the
+  Storm Rifle; a Gravity Hammer replaces the Spiker; a Bolt Spiker, Brute Shot or Skewer (Jiralhanae Auxiliary) replaces
+  the Mangler and needs a Brute Heavy Melee Weapon. Taking one empties the slot it replaces, and New Recruit shows an
+  error until that weapon is removed.
+- Pairings the codex does not allow show an error, e.g. a Pack Alpha's Brute Shot with a Brute Heavy Melee Weapon.
+- The Yig-Yar Talon's swap replaces all three items at once, so it stays one list ("Covenant Carbine, Plasma Pistol and
+  Yig-Yar Close Combat Weapon"). The T'vaoan Auxiliary's packages, which cannot be combined, use the codex names
+  (Rifleman, Carbine, Demolitionist, Shield Raider, Twin-Blade...).
+- Combined names read "A, B and C" everywhere.
+- In the Tormentor layout, each legal combination is one Auxiliary model type.
+
 ## Tormentor layout (revision 7, Jiralhanae Assault Pack)
 
 The Jiralhanae Assault Pack is laid out like the Emperor's Children Tormentors (`TORMENTOR_STYLE` in

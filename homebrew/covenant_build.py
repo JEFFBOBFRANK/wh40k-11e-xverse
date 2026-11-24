@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 7
+REVISION = 8
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -83,7 +83,18 @@ def inches(text):
 
 
 def split_option(option):
+    """'A + B' -> [A, B]; 'Label = A + B' names a package by its label."""
+    if " = " in option:
+        option = option.split(" = ", 1)[1]
     return [p.strip() for p in option.split(" + ")]
+
+
+def option_name(option):
+    """How an option is shown: its package label, or its items as 'A', 'A and B', 'A, B and C'."""
+    if " = " in option:
+        return option.split(" = ", 1)[0].strip()
+    parts = split_option(option)
+    return parts[0] if len(parts) == 1 else ", ".join(parts[:-1]) + " and " + parts[-1]
 
 
 def sections(text, level="## "):
@@ -201,7 +212,7 @@ class Builder:
         """An upgrade carrying one or more weapons and wargear items ('A + B' takes both)."""
         parts = split_option(option)
         eid = nid(owner + ":gear:" + option)
-        node = entry(eid, " and ".join(parts), profiles=[])
+        node = entry(eid, option_name(option), profiles=[])
         inv = None
         for part in parts:
             kind, value = self.resolve(ds, part)
@@ -389,10 +400,21 @@ class Builder:
 
         mods = []
         for option, others in spec.get("exclude", []):
-            names = ", ".join(others[:-1]) + " or " + others[-1]
+            names = others[0] if len(others) == 1 else ", ".join(others[:-1]) + " or " + others[-1]
             mods.append(dict(type="add", field="error", value=f"{option} cannot be taken with a {names}.",
                              conditionGroups=[dict(type="and", conditions=[has(option)], conditionGroups=[
                                  dict(type="or", conditions=[has(o) for o in others])])]))
+        groups = {c["label"]: (c, g) for c, g in zip(choices, node["selectionEntryGroups"])}
+        for option, labels in spec.get("empties", []):  # e.g. 2 Plasma Rifles also replace the Plasma Pistol
+            for label in labels:
+                c, g = groups[label]
+                picked = dict(has(option), scope="parent")
+                g.setdefault("modifiers", []).extend(dict(type="set", field=k["id"], value=0, conditions=[picked])
+                                                     for k in g["constraints"])
+                mods.append(dict(type="add", field="error",
+                                 value=f"{option_name(option)} replaces the {label.lower()}: remove it.",
+                                 conditionGroups=[dict(type="and", conditions=[has(option)], conditionGroups=[
+                                     dict(type="or", conditions=[has(o) for o in c["options"]])])]))
         weapon_options = [o for c in spec["choices"] for o in c["options"]]
         for a in ds.get("specialist_abilities", []):
             if not a.get("replaces_weapons"):
@@ -402,8 +424,8 @@ class Builder:
             for c, g in zip(choices, node["selectionEntryGroups"]):
                 if c in spec["choices"]:  # the weapon choice is emptied while the model has this ability
                     picked = dict(has(option), scope="parent")
-                    g["modifiers"] = [dict(type="set", field=k["id"], value=0, conditions=[picked])
-                                      for k in g["constraints"]]
+                    g.setdefault("modifiers", []).extend(dict(type="set", field=k["id"], value=0,
+                                                              conditions=[picked]) for k in g["constraints"])
             mods.append(dict(type="add", field="error",
                              value=f"{a['name']} replaces all of this model's weapons: remove its other weapons.",
                              conditionGroups=[dict(type="and", conditions=[has(option)], conditionGroups=[
@@ -641,17 +663,28 @@ class Builder:
                         dict(childId=family["cat"], field="selections", scope=unit["id"], shared=True,
                              includeChildSelections=True, value=pool["per"], repeats=1, roundUp=False)]))
 
-            weapon_choice = next((c for c in spec["choices"]
-                                  if c["label"] in ("Weapons", "Ranged weapon", "Loadout package")), None)
+            slots = [c for c in spec["choices"] if c["label"] != "Wargear"]
             fixed = self.default_items(ds, spec)
-            loadouts = [(o, weapon_choice["costs"].get(o, 0)) for o in weapon_choice["options"]] \
-                if weapon_choice else [(None, 0)]
-            default_parts = set(split_option(loadouts[0][0])) if weapon_choice else set()
+            empties = {o: set(labels) for o, labels in spec.get("empties", [])}
+            excluded = {o: set(others) for o, others in spec.get("exclude", [])}
+            combos = [([], 0)]
+            for c in slots:  # every legal loadout across the weapon slots is one model type
+                combos = [(picked + [(c["label"], o)], cost + (c["costs"].get(o, 0) if o else 0))
+                          for picked, cost in combos for o in c["options"] + [None]]
+            loadouts = []
+            for picked, cost in combos:
+                chosen = [o for _, o in picked if o]
+                emptied = set().union(*(empties.get(o, set()) for o in chosen))
+                if all((o is None) == (label in emptied) for label, o in picked) and \
+                        not any(excluded.get(o, set()) & set(chosen) for o in chosen):
+                    loadouts.append((chosen, cost))
+            default = set(loadouts[0][0]) if loadouts else set()
             variants = []
-            for option, cost in loadouts:
-                parts = split_option(option) if option else []
-                label = " and ".join(p for p in parts if p not in default_parts) if option != loadouts[0][0] else ""
-                variants.append((label, fixed + parts, cost, False, parts))
+            for chosen, cost in loadouts:
+                parts = [p for o in chosen for p in split_option(o)]
+                diff = [option_name(o) for o in chosen if o not in default]
+                label = (", ".join(diff[:-1]) + " and " + diff[-1]) if len(diff) > 1 else "".join(diff)
+                variants.append((label, fixed + parts, cost, False, set(parts) | set(chosen)))
             for a in ds.get("specialist_abilities", []):
                 if a.get("replaces_weapons"):
                     variants.append((a["name"], split_option(self.specialist_option(a)), a["points"], True, []))
@@ -677,14 +710,12 @@ class Builder:
                         del e[key]
                 types.append(e)
                 if not replaces:
-                    bearers[tid] = set(parts)
-            options = [(o, c["costs"].get(o, 0)) for c in spec["choices"] if c is not weapon_choice
-                       for o in c["options"]]
+                    bearers[tid] = parts
+            options = [(o, c["costs"].get(o, 0)) for c in spec["choices"] if c not in slots for o in c["options"]]
             options += [(self.specialist_option(a), a["points"]) for a in ds.get("specialist_abilities", [])
                         if not a.get("replaces_weapons")]
-            excluded = {o: set(others) for o, others in spec.get("exclude", [])}
             for option, cost in options:
-                head = split_option(option)[0]
+                head = option_name(split_option(option)[0])
                 iname = head if head not in seen_items else f"{head} ({name})"
                 seen_items.add(head)
                 wid = nid(gid + ":item:" + name + ":" + option)
