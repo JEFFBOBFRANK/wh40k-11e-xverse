@@ -82,6 +82,26 @@ repeated another rule (12,812 -> 11,916 words in datasheets and detachments, plu
 - Every Upgrade can now be taken by up to three units, as 11e allows. Thirteen Upgrades that did not say "up to three"
   were limited to one before.
 
+## House weapon standard (revision 6)
+
+Weapons follow `homebrew/house_dice.py`, the 11e codex style also used for Skaven and Black-Flag: D6 damage becomes
+D3+X and random attacks become fixed, with [BLAST 1] or [BLAST 2].
+
+| Weapon | Was | Now |
+|---|---|---|
+| Fuel Rod (S10) | D D6 | D D3+2 |
+| Fuel Rod Cannon Array (S12) | D D6 | D D3+3 |
+| Focus Cannon | D D6+2 | D D3+4 |
+| Heavy Anti-tank Plasma Cannon (S16) | D D6+2 | D D3+6 |
+| Emim-pattern Focus Beam (S18) | D D6+4, Plasma (D6) | D D3+8, Plasma (D3+2) |
+| Light Plasma Mortar | A D6+1, Blast | A4, Blast 1 |
+| Heavy Plasma Mortar (Mgalekgolo / Wraith) | A D6+2 / D6+3, Blast | A5 Blast 1 / A6 Blast 2 |
+| Fuel Rod Bombard, Goblin Grenade Launcher | A D6+2, Blast | A5, Blast 1 |
+| Mgalekgolo Assault Cannon | A D3+2, Blast | A4, Blast 1 |
+| Plasma Charge, Ultra-heavy Plasma Cannon | A D6+3, Blast | A6, Blast 2 |
+| Annihilator Siege Missile Battery, Shardstorm Launcher | A D6+6, Blast | A9, Blast 2 |
+| Plasma Beam (Scarab) | A D3+1 | A3 |
+
 ## Choices made where the codex is open
 
 - Sergeants are optional (0-1). "Add 1 model from the ... Auxiliary lists" is up to 1.

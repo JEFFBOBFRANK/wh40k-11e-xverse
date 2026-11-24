@@ -376,6 +376,38 @@ def unique_ids(index):
     return renamed
 
 
+def house_weapons(index, system):
+    """Apply the house weapon standard (house_dice.py: D3 damage, fixed attacks, [BLAST X]) to every unit."""
+    from house_dice import convert
+    blast = next(r for r in system["gameSystem"]["sharedRules"] if r["name"] == "Blast")
+    changed = []
+    for unit in index["sharedSelectionEntries"]:
+        for node in walk(unit):
+            if not isinstance(node, dict):
+                continue
+            for p in node.get("profiles", []):
+                if not p.get("typeName", "").endswith("Weapons"):
+                    continue
+                chars = {c["name"]: c for c in p["characteristics"]}
+                keywords = [k.strip() for k in chars.get("Keywords", {}).get("$text", "").split(",")
+                            if k.strip() and k.strip() != "-"]
+                profile = {k: chars[k]["$text"] for k in ("A", "S", "AP", "D") if k in chars}
+                new, new_keywords, changes = convert(p["name"], profile, keywords)
+                if not changes:
+                    continue
+                for k, v in new.items():
+                    chars[k]["$text"] = v
+                if "Keywords" in chars:
+                    upper = any(k.isupper() and len(k) > 3 for k in keywords)
+                    chars["Keywords"]["$text"] = ", ".join(k.upper() if upper else k for k in new_keywords) or "-"
+                if any(c.startswith("+Blast") for c in changes) and not any(
+                        i.get("targetId") == blast["id"] for i in node.get("infoLinks", [])):
+                    node.setdefault("infoLinks", []).append(dict(id=nid(node["id"] + ":blast"), name="Blast",
+                                                                 hidden=False, targetId=blast["id"], type="rule"))
+                changed.append(f"{unit['name']}: {p['name']}: {'; '.join(changes)}")
+    return changed
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--index", required=True)
@@ -399,6 +431,8 @@ def main():
             print("NOTE:", line)
     fix_nested_categories(index, system)
     print("Gave", unique_ids(index), "repeated inner IDs their own ID")
+    for line in sorted(set(house_weapons(index, system))):
+        print("WEAPON:", line)
     index["revision"] = index.get("revision", 0) + 1
     Path(a.output).write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
     print("Wrote", a.output, "revision", index["revision"])

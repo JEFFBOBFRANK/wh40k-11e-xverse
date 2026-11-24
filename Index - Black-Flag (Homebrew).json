@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 15,
     "library": true,
-    "revision": 10,
+    "revision": 11,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "categoryEntries": [
@@ -3196,7 +3196,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n■ BOYZ\n■ BREAKA BOYZ\n■ FLASH GITZ\n■ TANKBUSTAS\n■ HAVOCS",
+                "$text": "This model can be attached to the following units:\n■ KOMMANDOS\n■ BOYZ\n■ BREAKA BOYZ\n■ FLASH GITZ\n■ TANKBUSTAS",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -3211,6 +3211,20 @@
               {
                 "name": "Description",
                 "$text": "This unit's ranged attacks have [IGNORES COVER].",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "id": "3ec7-3b87-3f37-e251",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units:\n■ BOYZ\n■ BREAKA BOYZ\n■ FLASH GITZ\n■ TANKBUSTAS\n■ HAVOCS",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -3581,6 +3595,15 @@
                 "type": "or",
                 "conditions": [
                   {
+                    "childId": "d5ee-a461-6cff-4688",
+                    "childName": "Kommandos",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
                     "childId": "f1b0-6c88-dbc3-3044",
                     "childName": "Boyz",
                     "field": "selections",
@@ -3610,15 +3633,6 @@
                   {
                     "childId": "4d7d-b20c-585f-3821",
                     "childName": "Tankbustas",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "a8e4-9557-5df9-ee9d",
-                    "childName": "Havocs",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -3874,7 +3888,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n■ BOYZ\n■ TANKBUSTAS\n■ HAVOCS",
+                "$text": "This model can be attached to the following units:\n■ FLASH GITZ\n■ KOMMANDOS\n■ BOYZ\n■ TANKBUSTAS",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -3889,6 +3903,20 @@
               {
                 "name": "Description",
                 "$text": "This unit's ranged attacks have [IGNORES COVER].",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "id": "a464-643b-616b-5855",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units:\n■ BOYZ\n■ TANKBUSTAS\n■ HAVOCS",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -3956,7 +3984,7 @@
                       },
                       {
                         "name": "A",
-                        "$text": "D3+3",
+                        "$text": "5",
                         "typeId": "3bb-c35f-f54-fb08"
                       },
                       {
@@ -3976,7 +4004,7 @@
                       },
                       {
                         "name": "D",
-                        "$text": "D6+1",
+                        "$text": "D3+3",
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
@@ -4095,6 +4123,24 @@
                 "type": "or",
                 "conditions": [
                   {
+                    "childId": "81ba-01c0-9df6-7258",
+                    "childName": "Flash Gitz",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d5ee-a461-6cff-4688",
+                    "childName": "Kommandos",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
                     "childId": "f1b0-6c88-dbc3-3044",
                     "childName": "Boyz",
                     "field": "selections",
@@ -4106,15 +4152,6 @@
                   {
                     "childId": "4d7d-b20c-585f-3821",
                     "childName": "Tankbustas",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "a8e4-9557-5df9-ee9d",
-                    "childName": "Havocs",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -4331,6 +4368,20 @@
           {
             "name": "Support",
             "id": "cc86-00b0-d3f0-2004",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units:\n■ BOYZ\n■ FLASH GITZ\n■ TANKBUSTAS",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "id": "d49f-419c-2068-8159",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
@@ -4588,15 +4639,6 @@
                     "shared": true,
                     "type": "instanceOf",
                     "value": 1
-                  },
-                  {
-                    "childId": "a8e4-9557-5df9-ee9d",
-                    "childName": "Havocs",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
                   }
                 ]
               }
@@ -4819,7 +4861,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n■ BOYZ\n■ BREAKA BOYZ",
+                "$text": "This model can be attached to the following units:\n■ KOMMANDOS\n■ FLASH GITZ\n■ BOYZ\n■ BREAKA BOYZ",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -4834,6 +4876,20 @@
               {
                 "name": "Description",
                 "$text": "Once per battle round, in your Movement phase at the start or end of this unit's move, select one friendly SKURVY unit within 6\". That unit is no longer Battle-shocked.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "id": "5916-f85e-5c34-72e3",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units:\n■ BOYZ\n■ BREAKA BOYZ",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -5332,6 +5388,24 @@
                 "type": "or",
                 "conditions": [
                   {
+                    "childId": "d5ee-a461-6cff-4688",
+                    "childName": "Kommandos",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "81ba-01c0-9df6-7258",
+                    "childName": "Flash Gitz",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
                     "childId": "f1b0-6c88-dbc3-3044",
                     "childName": "Boyz",
                     "field": "selections",
@@ -5595,6 +5669,20 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "Leader",
+            "id": "4eae-37b6-10fd-0a7a",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units:\n■ KABALITE WARRIORS",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -5640,7 +5728,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "While this model has an InSv, this unit cannot re-roll save rolls. When this model loses a wound (excluding mortal wounds), this model has no InSv for the rest of the battle.",
+                        "$text": "While this model has an **InSv**, this unit cannot re‑roll **save rolls**. When this model loses a wound (excluding from **mortal wounds**), this model has no **InSv** until the end of the battle.",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -5861,7 +5949,7 @@
                         "characteristics": [
                           {
                             "name": "Description",
-                            "$text": "Add 1 to the Attacks and Strength of the bearer's melee weapons. The first time the bearer destroys an enemy model with a melee attack, add an additional 1 to those characteristics for the rest of the battle.",
+                            "$text": "Add 1 to the Attacks and Strength characteristics of the bearer's melee weapons. The first time the bearer makes a melee attack that destroys an enemy model, after all the bearer's attacks have been resolved, until the end of the battle, add an additional 1 to the Attacks and Strength characteristics of the bearer's melee weapons.",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
                         ]
@@ -9029,6 +9117,13 @@
                             "hidden": false,
                             "targetId": "5edf-d619-23e0-9b56",
                             "type": "rule"
+                          },
+                          {
+                            "id": "3a2e-cede-d6c9-47c9",
+                            "name": "Blast",
+                            "hidden": false,
+                            "targetId": "6c1f-1cf7-ff25-c99e",
+                            "type": "rule"
                           }
                         ],
                         "profiles": [
@@ -9046,7 +9141,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -9071,7 +9166,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Ignores Cover, Torrent",
+                                "$text": "Ignores Cover, Torrent, Blast 1",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -9312,7 +9407,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6+1",
+                                "$text": "D3+3",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -9398,7 +9493,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -9423,7 +9518,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Blast, Heavy",
+                                "$text": "Blast 1, Heavy",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -9452,7 +9547,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "9",
+                                "$text": "10",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
@@ -9462,7 +9557,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6",
+                                "$text": "D3+3",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -10021,17 +10116,17 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "9",
+                                "$text": "10",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "-4",
+                                "$text": "-3",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
                                 "name": "D",
-                                "$text": "D6",
+                                "$text": "D3+2",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -12828,6 +12923,13 @@
                         "hidden": false,
                         "targetId": "5edf-d619-23e0-9b56",
                         "type": "rule"
+                      },
+                      {
+                        "id": "143c-9d24-c7ee-0744",
+                        "name": "Blast",
+                        "hidden": false,
+                        "targetId": "6c1f-1cf7-ff25-c99e",
+                        "type": "rule"
                       }
                     ],
                     "profiles": [
@@ -12845,7 +12947,7 @@
                           },
                           {
                             "name": "A",
-                            "$text": "D6",
+                            "$text": "3",
                             "typeId": "3bb-c35f-f54-fb08"
                           },
                           {
@@ -12870,7 +12972,7 @@
                           },
                           {
                             "name": "Keywords",
-                            "$text": "Assault, Torrent",
+                            "$text": "Assault, Torrent, Blast 1",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -13328,7 +13430,7 @@
                           },
                           {
                             "name": "D",
-                            "$text": "D6+1",
+                            "$text": "D3+3",
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
@@ -13779,7 +13881,7 @@
                           },
                           {
                             "name": "D",
-                            "$text": "D6+2",
+                            "$text": "D3+4",
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
@@ -14423,7 +14525,7 @@
                             "characteristics": [
                               {
                                 "name": "Description",
-                                "$text": "The bearer's unit has the SMOKE and GRENADES keywords.",
+                                "$text": "The bearer’s unit has the ^^**Smoke**^^ and ^^**Grenades**^^ keywords.",
                                 "typeId": "9b8f-694b-e5e-b573"
                               }
                             ]
@@ -14457,7 +14559,7 @@
                             "characteristics": [
                               {
                                 "name": "Description",
-                                "$text": "While the bearer's unit is not Battle-shocked, add 1 to the bearer's Objective Control.",
+                                "$text": "While the bearer's unit is not Battle-shocked, add 1 to the bearer's Objective Control characteristic.",
                                 "typeId": "9b8f-694b-e5e-b573"
                               }
                             ]
@@ -15050,12 +15152,12 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6+1",
+                                "$text": "D3+3",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "",
+                                "$text": "-",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -15924,7 +16026,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6+1",
+                                "$text": "D3+3",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -16233,6 +16335,13 @@
                             "hidden": false,
                             "targetId": "5edf-d619-23e0-9b56",
                             "type": "rule"
+                          },
+                          {
+                            "id": "0eb4-626e-9f04-47aa",
+                            "name": "Blast",
+                            "hidden": false,
+                            "targetId": "6c1f-1cf7-ff25-c99e",
+                            "type": "rule"
                           }
                         ],
                         "profiles": [
@@ -16250,7 +16359,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -16275,7 +16384,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Assault, Torrent",
+                                "$text": "Assault, Torrent, Blast 1",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -17720,6 +17829,13 @@
                             "hidden": false,
                             "targetId": "5edf-d619-23e0-9b56",
                             "type": "rule"
+                          },
+                          {
+                            "id": "0911-ff58-3467-b6d5",
+                            "name": "Blast",
+                            "hidden": false,
+                            "targetId": "6c1f-1cf7-ff25-c99e",
+                            "type": "rule"
                           }
                         ],
                         "profiles": [
@@ -17737,7 +17853,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -17762,7 +17878,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Ignores Cover, Torrent",
+                                "$text": "Ignores Cover, Torrent, Blast 1",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -18317,17 +18433,17 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "9",
+                                "$text": "10",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "-4",
+                                "$text": "-3",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
                                 "name": "D",
-                                "$text": "D6",
+                                "$text": "D3+2",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -18771,12 +18887,13 @@
                           },
                           {
                             "name": "D",
-                            "$text": "D6+1",
+                            "$text": "D3+3",
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
                             "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "-"
                           }
                         ]
                       }
@@ -19019,7 +19136,7 @@
                           },
                           {
                             "name": "A",
-                            "$text": "D6",
+                            "$text": "3",
                             "typeId": "3bb-c35f-f54-fb08"
                           },
                           {
@@ -19044,7 +19161,7 @@
                           },
                           {
                             "name": "Keywords",
-                            "$text": "Blast",
+                            "$text": "Blast 1",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -19073,7 +19190,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "9",
+                            "$text": "10",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
@@ -19083,12 +19200,13 @@
                           },
                           {
                             "name": "D",
-                            "$text": "D6",
+                            "$text": "D3+3",
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
                             "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "-"
                           }
                         ]
                       }
@@ -22015,17 +22133,17 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "9",
+                                "$text": "10",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "-4",
+                                "$text": "-3",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
                                 "name": "D",
-                                "$text": "D6",
+                                "$text": "D3+2",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -22550,6 +22668,13 @@
                             "hidden": false,
                             "targetId": "5edf-d619-23e0-9b56",
                             "type": "rule"
+                          },
+                          {
+                            "id": "d7b6-b961-524d-f045",
+                            "name": "Blast",
+                            "hidden": false,
+                            "targetId": "6c1f-1cf7-ff25-c99e",
+                            "type": "rule"
                           }
                         ],
                         "profiles": [
@@ -22567,7 +22692,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -22592,7 +22717,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Ignores Cover, Torrent",
+                                "$text": "Ignores Cover, Torrent, Blast 1",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -23190,7 +23315,7 @@
                           },
                           {
                             "name": "A",
-                            "$text": "D6",
+                            "$text": "3",
                             "typeId": "3bb-c35f-f54-fb08"
                           },
                           {
@@ -24053,17 +24178,17 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "9",
+                                "$text": "10",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "-4",
+                                "$text": "-3",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
                                 "name": "D",
-                                "$text": "D6",
+                                "$text": "D3+2",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -24777,17 +24902,17 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "9",
+                                "$text": "10",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "-4",
+                                "$text": "-3",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
                                 "name": "D",
-                                "$text": "D6",
+                                "$text": "D3+2",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -30144,7 +30269,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "Pulsa Rokkit",
+                        "name": "Pulsa Rokkit (Once per battle, per unit)",
                         "id": "258a-1f15-0ae4-3e0c",
                         "hidden": false,
                         "typeId": "9cc3-6d83-4dd3-9b64",
@@ -30152,7 +30277,7 @@
                         "characteristics": [
                           {
                             "name": "Description",
-                            "$text": "In your Shooting phase, when this unit is selected to shoot, if equipped with a Pulsa Rokkit select one enemy MONSTER or VEHICLE within 24\". Until the end of the phase, this unit's attacks against that unit have +1 AP and [LETHAL HITS].",
+                            "$text": "In your Shooting phase, when this unit is **selected to shoot**, you can select one enemy **MONSTER/VEHICLE** unit within 24\" of this unit. If you do, this unit's attacks that target that unit have:\n- +1 **AP**.\n- **[LETHAL HITS]**.",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
                         ]
@@ -30869,7 +30994,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6+1",
+                                "$text": "D3+3",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -30910,6 +31035,13 @@
                             "hidden": false,
                             "targetId": "5edf-d619-23e0-9b56",
                             "type": "rule"
+                          },
+                          {
+                            "id": "982f-885a-4eb1-1853",
+                            "name": "Blast",
+                            "hidden": false,
+                            "targetId": "6c1f-1cf7-ff25-c99e",
+                            "type": "rule"
                           }
                         ],
                         "profiles": [
@@ -30927,7 +31059,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -30952,7 +31084,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Assault, Torrent",
+                                "$text": "Assault, Torrent, Blast 1",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -32385,7 +32517,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6+1",
+                                "$text": "D3+3",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -32471,7 +32603,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6",
+                                "$text": "D3+3",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -32588,6 +32720,13 @@
                             "hidden": false,
                             "targetId": "5edf-d619-23e0-9b56",
                             "type": "rule"
+                          },
+                          {
+                            "id": "088d-8af5-f075-46aa",
+                            "name": "Blast",
+                            "hidden": false,
+                            "targetId": "6c1f-1cf7-ff25-c99e",
+                            "type": "rule"
                           }
                         ],
                         "profiles": [
@@ -32605,7 +32744,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -32630,7 +32769,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Assault, Torrent",
+                                "$text": "Assault, Torrent, Blast 1",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -32729,7 +32868,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6+2",
+                                "$text": "D3+4",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -34592,7 +34731,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6+1",
+                                "$text": "D3+3",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -34838,6 +34977,13 @@
                             "hidden": false,
                             "targetId": "5edf-d619-23e0-9b56",
                             "type": "rule"
+                          },
+                          {
+                            "id": "bacc-b392-b38e-0c86",
+                            "name": "Blast",
+                            "hidden": false,
+                            "targetId": "6c1f-1cf7-ff25-c99e",
+                            "type": "rule"
                           }
                         ],
                         "profiles": [
@@ -34855,7 +35001,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -34880,7 +35026,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Assault, Ignores Cover, Torrent",
+                                "$text": "Assault, Ignores Cover, Torrent, Blast 1",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -35151,7 +35297,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6",
+                                "$text": "D3+2",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -35390,6 +35536,13 @@
                             "hidden": false,
                             "targetId": "5edf-d619-23e0-9b56",
                             "type": "rule"
+                          },
+                          {
+                            "id": "6bd0-caa8-bcd1-6ef8",
+                            "name": "Blast",
+                            "hidden": false,
+                            "targetId": "6c1f-1cf7-ff25-c99e",
+                            "type": "rule"
                           }
                         ],
                         "profiles": [
@@ -35407,7 +35560,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -35432,7 +35585,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Assault, Torrent",
+                                "$text": "Assault, Torrent, Blast 1",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -36378,7 +36531,7 @@
                     ],
                     "profiles": [
                       {
-                        "name": "Channeller Stones",
+                        "name": "Channeler stones",
                         "id": "ee2d-420c-3185-7956",
                         "hidden": false,
                         "typeId": "9cc3-6d83-4dd3-9b64",
@@ -36386,7 +36539,7 @@
                         "characteristics": [
                           {
                             "name": "Description",
-                            "$text": "Once per turn, the first time a saving throw is failed for the bearer's unit, change the Damage characteristic of that attack to 0.",
+                            "$text": "Once per turn, the first time a saving throw is failed for the bearer’s unit, change the Damage characteristic of that attack to 0.",
                             "typeId": "9b8f-694b-e5e-b573"
                           }
                         ]
@@ -37792,7 +37945,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Faolchu",
+                            "name": "Faolchú",
                             "id": "f715-2706-3b77-5f06",
                             "hidden": false,
                             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -37800,7 +37953,7 @@
                             "characteristics": [
                               {
                                 "name": "Description",
-                                "$text": "Ranged weapons equipped by models in the bearer's unit have [IGNORES COVER].",
+                                "$text": "Ranged weapons equipped by models in the bearer’s unit have the **[IGNORES COVER]** ability.",
                                 "typeId": "9b8f-694b-e5e-b573"
                               }
                             ]
@@ -38285,7 +38438,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6",
+                                "$text": "D3+2",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -38765,12 +38918,12 @@
                                   },
                                   {
                                     "name": "D",
-                                    "$text": "D6+1",
+                                    "$text": "D3+3",
                                     "typeId": "a354-c1c8-a745-f9e3"
                                   },
                                   {
                                     "name": "Keywords",
-                                    "$text": "",
+                                    "$text": "-",
                                     "typeId": "7f1b-8591-2fcf-d01c"
                                   }
                                 ]
@@ -39359,6 +39512,13 @@
                                 "hidden": false,
                                 "targetId": "5edf-d619-23e0-9b56",
                                 "type": "rule"
+                              },
+                              {
+                                "id": "55c0-8379-d713-3b99",
+                                "name": "Blast",
+                                "hidden": false,
+                                "targetId": "6c1f-1cf7-ff25-c99e",
+                                "type": "rule"
                               }
                             ],
                             "profiles": [
@@ -39376,7 +39536,7 @@
                                   },
                                   {
                                     "name": "A",
-                                    "$text": "D6",
+                                    "$text": "3",
                                     "typeId": "3bb-c35f-f54-fb08"
                                   },
                                   {
@@ -39401,7 +39561,7 @@
                                   },
                                   {
                                     "name": "Keywords",
-                                    "$text": "Assault, Torrent",
+                                    "$text": "Assault, Torrent, Blast 1",
                                     "typeId": "7f1b-8591-2fcf-d01c"
                                   }
                                 ]
@@ -39466,7 +39626,7 @@
                                   },
                                   {
                                     "name": "D",
-                                    "$text": "D6+1",
+                                    "$text": "D3+3",
                                     "typeId": "a354-c1c8-a745-f9e3"
                                   },
                                   {
@@ -41986,6 +42146,13 @@
                             "hidden": false,
                             "targetId": "5edf-d619-23e0-9b56",
                             "type": "rule"
+                          },
+                          {
+                            "id": "c935-5715-5684-a8ad",
+                            "name": "Blast",
+                            "hidden": false,
+                            "targetId": "6c1f-1cf7-ff25-c99e",
+                            "type": "rule"
                           }
                         ],
                         "profiles": [
@@ -42003,7 +42170,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "D6",
+                                "$text": "3",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -42028,7 +42195,7 @@
                               },
                               {
                                 "name": "Keywords",
-                                "$text": "Ignores Cover, Torrent",
+                                "$text": "Ignores Cover, Torrent, Blast 1",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
                             ]
@@ -42872,17 +43039,17 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "9",
+                                "$text": "10",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
                               {
                                 "name": "AP",
-                                "$text": "-4",
+                                "$text": "-3",
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
                                 "name": "D",
-                                "$text": "D6",
+                                "$text": "D3+2",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -44517,7 +44684,7 @@
                             "characteristics": [
                               {
                                 "name": "Description",
-                                "$text": "Each time you roll for Eviscerating Fly-by, you can re-roll one D6 for each model equipped with cluster caltrops.",
+                                "$text": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops.",
                                 "typeId": "9b8f-694b-e5e-b573"
                               }
                             ]
@@ -44551,7 +44718,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Grav-talon",
+                            "name": "Grav Talon",
                             "id": "e39a-cf64-147e-67ae",
                             "hidden": false,
                             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -44559,7 +44726,7 @@
                             "characteristics": [
                               {
                                 "name": "Description",
-                                "$text": "The bearer's melee weapons have AP -2 and [LETHAL HITS].",
+                                "$text": "The bearer’s melee weapons have an Armour Penetration characteristic of -2 and the ^^**[Lethal Hits]**^^ ability.",
                                 "typeId": "9b8f-694b-e5e-b573"
                               }
                             ]
@@ -44783,7 +44950,7 @@
                           },
                           {
                             "name": "D",
-                            "$text": "D6+1",
+                            "$text": "D3+3",
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
@@ -45023,7 +45190,7 @@
                             "characteristics": [
                               {
                                 "name": "Description",
-                                "$text": "Each time you roll for Eviscerating Fly-by, you can re-roll one D6 for each model equipped with cluster caltrops.",
+                                "$text": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops.",
                                 "typeId": "9b8f-694b-e5e-b573"
                               }
                             ]
@@ -45057,7 +45224,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Grav-talon",
+                            "name": "Grav Talon",
                             "id": "5635-7bb3-05bf-93da",
                             "hidden": false,
                             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -45065,7 +45232,7 @@
                             "characteristics": [
                               {
                                 "name": "Description",
-                                "$text": "The bearer's melee weapons have AP -2 and [LETHAL HITS].",
+                                "$text": "The bearer’s melee weapons have an Armour Penetration characteristic of -2 and the ^^**[Lethal Hits]**^^ ability.",
                                 "typeId": "9b8f-694b-e5e-b573"
                               }
                             ]
@@ -45401,7 +45568,7 @@
                           },
                           {
                             "name": "D",
-                            "$text": "D6",
+                            "$text": "D3+3",
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
@@ -45546,7 +45713,7 @@
                             "characteristics": [
                               {
                                 "name": "Description",
-                                "$text": "Each time you roll for Eviscerating Fly-by, you can re-roll one D6 for each model equipped with cluster caltrops.",
+                                "$text": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops.",
                                 "typeId": "9b8f-694b-e5e-b573"
                               }
                             ]
@@ -45580,7 +45747,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Grav-talon",
+                            "name": "Grav Talon",
                             "id": "7886-16e0-b732-e6fa",
                             "hidden": false,
                             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -45588,7 +45755,7 @@
                             "characteristics": [
                               {
                                 "name": "Description",
-                                "$text": "The bearer's melee weapons have AP -2 and [LETHAL HITS].",
+                                "$text": "The bearer’s melee weapons have an Armour Penetration characteristic of -2 and the ^^**[Lethal Hits]**^^ ability.",
                                 "typeId": "9b8f-694b-e5e-b573"
                               }
                             ]
@@ -45992,7 +46159,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6+1",
+                                "$text": "D3+3",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -46064,7 +46231,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "D6",
+                                "$text": "D3+3",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -46128,7 +46295,7 @@
                             "characteristics": [
                               {
                                 "name": "Description",
-                                "$text": "Each time you roll for Eviscerating Fly-by, you can re-roll one D6 for each model equipped with cluster caltrops.",
+                                "$text": "Each time you roll to inflict wounds using this unit’s Eviscerating Fly-by ability, you can re-roll one D6 for each model in this unit equipped with cluster caltrops.",
                                 "typeId": "9b8f-694b-e5e-b573"
                               }
                             ]
@@ -46162,7 +46329,7 @@
                         ],
                         "profiles": [
                           {
-                            "name": "Grav-talon",
+                            "name": "Grav Talon",
                             "id": "ef49-296d-9acd-dfff",
                             "hidden": false,
                             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -46170,7 +46337,7 @@
                             "characteristics": [
                               {
                                 "name": "Description",
-                                "$text": "The bearer's melee weapons have AP -2 and [LETHAL HITS].",
+                                "$text": "The bearer’s melee weapons have an Armour Penetration characteristic of -2 and the ^^**[Lethal Hits]**^^ ability.",
                                 "typeId": "9b8f-694b-e5e-b573"
                               }
                             ]
@@ -46739,12 +46906,12 @@
                           },
                           {
                             "name": "D",
-                            "$text": "D6+2",
+                            "$text": "D3+4",
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
                             "name": "Keywords",
-                            "$text": "",
+                            "$text": "-",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -47275,7 +47442,7 @@
                           },
                           {
                             "name": "A",
-                            "$text": "D3",
+                            "$text": "2",
                             "typeId": "3bb-c35f-f54-fb08"
                           },
                           {
@@ -47300,7 +47467,7 @@
                           },
                           {
                             "name": "Keywords",
-                            "$text": "Assault, Blast",
+                            "$text": "Assault, Blast 1",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -47574,7 +47741,7 @@
             "characteristics": [
               {
                 "name": "Capacity",
-                "$text": "12 SKURVY INFANTRY models, excluding JUMP PACK models. Each MEGA ARMOUR model takes 2 spaces.",
+                "$text": "This model has a **transport capacity** of 12 **SKURVY INFANTRY** models. It cannot transport **GHAZGHKULL THRAKA/JUMP PACK** models. Each **MEGA ARMOUR** model takes up the space of 2 models.",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ]
@@ -48370,7 +48537,7 @@
                       },
                       {
                         "name": "A",
-                        "$text": "D3+3",
+                        "$text": "5",
                         "typeId": "2337-daa1-6682-b110"
                       },
                       {
@@ -48395,7 +48562,7 @@
                       },
                       {
                         "name": "Keywords",
-                        "$text": "",
+                        "$text": "-",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ]
@@ -48522,12 +48689,12 @@
                           },
                           {
                             "name": "D",
-                            "$text": "D6+2",
+                            "$text": "D3+4",
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
                             "name": "Keywords",
-                            "$text": "",
+                            "$text": "-",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
@@ -48835,7 +49002,7 @@
             "characteristics": [
               {
                 "name": "Capacity",
-                "$text": "6 SKURVY INFANTRY models, excluding JUMP PACK models. Before battle, one Kabalite Warriors unit can be split into two equal units; one must start embarked in this model.",
+                "$text": "This model has a transport capacity of 6 **SKURVY INFANTRY** models (excluding **JUMP PACK** models).\n\nBefore the battle, at the start of the Declare Battle Formations step, you can select one **KABALITE WARRIORS**, **HAND OF THE ARCHON** or **WYCHES** unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this model; the other can start the battle embarked within another **TRANSPORT**, or it can be deployed as a separate unit.",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ]

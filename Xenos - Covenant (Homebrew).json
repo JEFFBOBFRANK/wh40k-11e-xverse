@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 5,
+    "revision": 6,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -27161,7 +27161,7 @@
                           {
                             "name": "D",
                             "typeId": "a354-c1c8-a745-f9e3",
-                            "$text": "D6"
+                            "$text": "D3+2"
                           },
                           {
                             "name": "Keywords",
@@ -33571,7 +33571,7 @@
                           {
                             "name": "D",
                             "typeId": "a354-c1c8-a745-f9e3",
-                            "$text": "D6"
+                            "$text": "D3+2"
                           },
                           {
                             "name": "Keywords",
@@ -45057,7 +45057,7 @@
                           {
                             "name": "D",
                             "typeId": "a354-c1c8-a745-f9e3",
-                            "$text": "D6"
+                            "$text": "D3+2"
                           },
                           {
                             "name": "Keywords",
@@ -46723,7 +46723,7 @@
                           {
                             "name": "D",
                             "typeId": "a354-c1c8-a745-f9e3",
-                            "$text": "D6"
+                            "$text": "D3+2"
                           },
                           {
                             "name": "Keywords",
@@ -47893,7 +47893,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "D3+2"
+                            "$text": "4"
                           },
                           {
                             "name": "BS",
@@ -47918,7 +47918,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Assault, Blast"
+                            "$text": "Assault, Blast 1"
                           }
                         ]
                       }
@@ -49066,7 +49066,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "D6+2"
+                            "$text": "5"
                           },
                           {
                             "name": "BS",
@@ -49091,7 +49091,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Blast, Heavy, Indirect Fire, Plasma (AP1)"
+                            "$text": "Blast 1, Heavy, Indirect Fire, Plasma (AP1)"
                           }
                         ]
                       }
@@ -50635,7 +50635,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D6+1"
+                    "$text": "4"
                   },
                   {
                     "name": "BS",
@@ -50660,7 +50660,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Assault, Blast, Plasma (AP1)"
+                    "$text": "Assault, Blast 1, Plasma (AP1)"
                   }
                 ]
               }
@@ -53059,7 +53059,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D6+6"
+                    "$text": "9"
                   },
                   {
                     "name": "BS",
@@ -53084,7 +53084,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Blast, Ignores Cover"
+                    "$text": "Blast 2, Ignores Cover"
                   }
                 ]
               }
@@ -53148,7 +53148,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D6+2"
+                    "$text": "5"
                   },
                   {
                     "name": "BS",
@@ -53173,7 +53173,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Blast"
+                    "$text": "Blast 1"
                   }
                 ]
               }
@@ -53547,7 +53547,7 @@
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "D6+2"
+                        "$text": "D3+4"
                       },
                       {
                         "name": "Keywords",
@@ -53991,7 +53991,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D6+6"
+                    "$text": "9"
                   },
                   {
                     "name": "BS",
@@ -54016,7 +54016,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Blast, Heavy, Indirect Fire"
+                    "$text": "Blast 2, Heavy, Indirect Fire"
                   }
                 ]
               }
@@ -54626,7 +54626,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "D6+3"
+                        "$text": "6"
                       },
                       {
                         "name": "BS",
@@ -54651,7 +54651,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Blast, Heavy, Indirect Fire, Plasma (AP1)"
+                        "$text": "Blast 2, Heavy, Indirect Fire, Plasma (AP1)"
                       }
                     ]
                   }
@@ -54813,7 +54813,7 @@
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "D6+2"
+                        "$text": "D3+6"
                       },
                       {
                         "name": "Keywords",
@@ -57467,7 +57467,7 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D6"
+                    "$text": "D3+3"
                   },
                   {
                     "name": "Keywords",
@@ -57529,7 +57529,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D6+3"
+                    "$text": "6"
                   },
                   {
                     "name": "BS",
@@ -57554,7 +57554,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Blast, One Shot, Plasma (D3)"
+                    "$text": "Blast 2, One Shot, Plasma (D3)"
                   }
                 ]
               }
@@ -58299,7 +58299,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "D6+2"
+                        "$text": "5"
                       },
                       {
                         "name": "BS",
@@ -58324,7 +58324,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Blast, Indirect Fire"
+                        "$text": "Blast 1, Indirect Fire"
                       }
                     ]
                   }
@@ -59822,7 +59822,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D3+1"
+                    "$text": "3"
                   },
                   {
                     "name": "BS",
@@ -59918,7 +59918,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "D6+3"
+                    "$text": "6"
                   },
                   {
                     "name": "BS",
@@ -59943,7 +59943,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Anti-Fly 3+, Blast, Plasma (AP2)"
+                    "$text": "Anti-Fly 3+, Blast 2, Plasma (AP2)"
                   }
                 ]
               }
@@ -60469,12 +60469,12 @@
                   {
                     "name": "D",
                     "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "D6+4"
+                    "$text": "D3+8"
                   },
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Devastating Wounds, Plasma (D6)"
+                    "$text": "Devastating Wounds, Plasma (D3+2)"
                   }
                 ]
               }
@@ -64133,7 +64133,7 @@
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "D6"
+                        "$text": "D3+2"
                       },
                       {
                         "name": "Keywords",
@@ -65927,7 +65927,7 @@
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "D6"
+                        "$text": "D3+2"
                       },
                       {
                         "name": "Keywords",
@@ -67055,7 +67055,7 @@
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "D6"
+                        "$text": "D3+2"
                       },
                       {
                         "name": "Keywords",
@@ -69932,7 +69932,7 @@
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "D6"
+                        "$text": "D3+2"
                       },
                       {
                         "name": "Keywords",
@@ -73955,7 +73955,7 @@
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "D6"
+                        "$text": "D3+2"
                       },
                       {
                         "name": "Keywords",

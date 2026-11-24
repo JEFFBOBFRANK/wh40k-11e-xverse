@@ -175,6 +175,11 @@ Scourges units, Reavers, Ravager, Raider, Venom and the four Corsair units from 
 - The script also gives every copied weapon its own IDs (copies of one shared weapon used to repeat them) and
   points category links inside models at Black-Flag categories. Both also apply to the CSM units.
 
+- Weapons follow the house standard in `homebrew/house_dice.py` (all 30 units): D6 damage becomes D3+X (blaster and
+  lascannon D3+3, dark lance D3+4, heat lance and wraithcannon D3+3, fusion and meltagun D3+2), meltaguns are S10 AP-3
+  and krak missiles S10 D3+3 as in the 11e codex, and flamers, shredders and frag missiles have 3 attacks with
+  [BLAST 1] instead of D6 (hand flamers 3, no Blast).
+
 ```sh
 python3 homebrew/blackflag_port.py --index 'Index - Black-Flag (Homebrew).json' --system 'Warhammer 40,000.json' \
   --ironbuilt wh40k-11e.json --output 'Index - Black-Flag (Homebrew).json'

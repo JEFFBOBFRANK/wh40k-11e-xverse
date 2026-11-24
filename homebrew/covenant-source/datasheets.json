@@ -2212,7 +2212,7 @@
     "BS_WS": "3+",
     "S": "10",
     "AP": "-4",
-    "D": "D6",
+    "D": "D3+2",
     "keywords": [
      "Blast"
     ]
@@ -2746,7 +2746,7 @@
     "BS_WS": "3+",
     "S": "10",
     "AP": "-4",
-    "D": "D6",
+    "D": "D3+2",
     "keywords": [
      "Blast"
     ]
@@ -3663,7 +3663,7 @@
     "BS_WS": "3+",
     "S": "10",
     "AP": "-4",
-    "D": "D6",
+    "D": "D3+2",
     "keywords": [
      "Blast"
     ]
@@ -3906,7 +3906,7 @@
     "BS_WS": "4+",
     "S": "10",
     "AP": "-4",
-    "D": "D6",
+    "D": "D3+2",
     "keywords": [
      "Blast"
     ]
@@ -4063,14 +4063,14 @@
    {
     "name": "Mgalekgolo Assault Cannon",
     "range": "36\"",
-    "A": "D3+2",
+    "A": "4",
     "BS_WS": "3+",
     "S": "10",
     "AP": "-2",
     "D": "3",
     "keywords": [
      "Assault",
-     "Blast"
+     "Blast 1"
     ]
    }
   ],
@@ -4228,13 +4228,13 @@
    {
     "name": "Heavy Plasma Mortar",
     "range": "60\"",
-    "A": "D6+2",
+    "A": "5",
     "BS_WS": "3+",
     "S": "11",
     "AP": "-2",
     "D": "3",
     "keywords": [
-     "Blast",
+     "Blast 1",
      "Heavy",
      "Indirect Fire",
      "Plasma (AP1)"
@@ -4461,14 +4461,14 @@
    {
     "name": "Light Plasma Mortar",
     "range": "36\"",
-    "A": "D6+1",
+    "A": "4",
     "BS_WS": "4+",
     "S": "8",
     "AP": "-2",
     "D": "2",
     "keywords": [
      "Assault",
-     "Blast",
+     "Blast 1",
      "Plasma (AP1)"
     ]
    }
@@ -4904,7 +4904,7 @@
     "BS_WS": "3+",
     "S": "14",
     "AP": "-3",
-    "D": "D6+2",
+    "D": "D3+4",
     "keywords": [
      "Heavy",
      "Plasma (AP1)"
@@ -4913,26 +4913,26 @@
    {
     "name": "Shardstorm Launcher",
     "range": "24\"",
-    "A": "D6+6",
+    "A": "9",
     "BS_WS": "4+",
     "S": "5",
     "AP": "-1",
     "D": "1",
     "keywords": [
-     "Blast",
+     "Blast 2",
      "Ignores Cover"
     ]
    },
    {
     "name": "Goblin Grenade Launcher",
     "range": "18\"",
-    "A": "D6+2",
+    "A": "5",
     "BS_WS": "4+",
     "S": "6",
     "AP": "-1",
     "D": "1",
     "keywords": [
-     "Blast"
+     "Blast 1"
     ]
    }
   ],
@@ -5022,13 +5022,13 @@
    {
     "name": "Annihilator Siege Missile Battery",
     "range": "72\"",
-    "A": "D6+6",
+    "A": "9",
     "BS_WS": "4+",
     "S": "12",
     "AP": "-2",
     "D": "D3+1",
     "keywords": [
-     "Blast",
+     "Blast 2",
      "Heavy",
      "Indirect Fire"
     ]
@@ -5104,13 +5104,13 @@
    {
     "name": "Heavy Plasma Mortar",
     "range": "48\"",
-    "A": "D6+3",
+    "A": "6",
     "BS_WS": "4+",
     "S": "12",
     "AP": "-2",
     "D": "3",
     "keywords": [
-     "Blast",
+     "Blast 2",
      "Heavy",
      "Indirect Fire",
      "Plasma (AP1)"
@@ -5135,7 +5135,7 @@
     "BS_WS": "3+",
     "S": "16",
     "AP": "-4",
-    "D": "D6+2",
+    "D": "D3+6",
     "keywords": [
      "Anti-Vehicle 3+",
      "Heavy",
@@ -5612,7 +5612,7 @@
     "BS_WS": "3+",
     "S": "12",
     "AP": "-3",
-    "D": "D6",
+    "D": "D3+3",
     "keywords": [
      "Anti-Fly 3+"
     ]
@@ -5620,13 +5620,13 @@
    {
     "name": "Plasma Charge",
     "range": "18\"",
-    "A": "D6+3",
+    "A": "6",
     "BS_WS": "3+",
     "S": "10",
     "AP": "-2",
     "D": "3",
     "keywords": [
-     "Blast",
+     "Blast 2",
      "One Shot",
      "Plasma (D3)"
     ]
@@ -5748,13 +5748,13 @@
    {
     "name": "Fuel Rod Bombard",
     "range": "36\"",
-    "A": "D6+2",
+    "A": "5",
     "BS_WS": "4+",
     "S": "9",
     "AP": "-2",
     "D": "2",
     "keywords": [
-     "Blast",
+     "Blast 1",
      "Indirect Fire"
     ]
    }
@@ -5992,7 +5992,7 @@
    {
     "name": "Plasma Beam",
     "range": "48\"",
-    "A": "D3+1",
+    "A": "3",
     "BS_WS": "2+",
     "S": "30",
     "AP": "-6",
@@ -6006,14 +6006,14 @@
    {
     "name": "Ultra-heavy Plasma Cannon",
     "range": "48\"",
-    "A": "D6+3",
+    "A": "6",
     "BS_WS": "3+",
     "S": "12",
     "AP": "-3",
     "D": "3",
     "keywords": [
      "Anti-Fly 3+",
-     "Blast",
+     "Blast 2",
      "Plasma (AP2)"
     ]
    },
@@ -6127,10 +6127,10 @@
     "BS_WS": "3+",
     "S": "18",
     "AP": "-4",
-    "D": "D6+4",
+    "D": "D3+8",
     "keywords": [
      "Devastating Wounds",
-     "Plasma (D6)"
+     "Plasma (D3+2)"
     ]
    },
    {
@@ -6729,7 +6729,7 @@
     "BS_WS": "3+",
     "S": "10",
     "AP": "-4",
-    "D": "D6",
+    "D": "D3+2",
     "keywords": [
      "Blast"
     ]
@@ -7276,7 +7276,7 @@
     "BS_WS": "4+",
     "S": "10",
     "AP": "-4",
-    "D": "D6",
+    "D": "D3+2",
     "keywords": [
      "Blast"
     ]
@@ -7520,7 +7520,7 @@
     "BS_WS": "3+",
     "S": "10",
     "AP": "-4",
-    "D": "D6",
+    "D": "D3+2",
     "keywords": [
      "Blast"
     ]
@@ -8090,7 +8090,7 @@
     "BS_WS": "3+",
     "S": "10",
     "AP": "-4",
-    "D": "D6",
+    "D": "D3+2",
     "keywords": [
      "Blast"
     ]
@@ -8323,7 +8323,7 @@
     "BS_WS": "4+",
     "S": "10",
     "AP": "-4",
-    "D": "D6",
+    "D": "D3+2",
     "keywords": [
      "Blast"
     ]
