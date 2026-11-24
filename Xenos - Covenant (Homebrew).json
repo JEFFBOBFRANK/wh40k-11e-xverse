@@ -7,11 +7,11 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 3,
+    "revision": 4,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
-    "readme": "Covenant 11th-edition homebrew codex (Codex: Covenant v5.5.0, revised Caste Hierarchy and Shields).",
+    "readme": "Covenant 11th-edition homebrew codex (Codex: Covenant v5.5.0, revised Caste Hierarchy).",
     "costTypes": [
       {
         "name": "Auxiliary Slots",
@@ -1726,9 +1726,9 @@
             "hidden": false
           },
           {
-            "id": "28a3-b031-efa8-b26e",
-            "name": "Energy Shields",
-            "targetId": "7a87-6690-9b90-fcb9",
+            "id": "349f-3875-84af-4a44",
+            "name": "Shielding Trait",
+            "targetId": "153e-b7c9-85fc-5c90",
             "type": "rule",
             "hidden": false
           },
@@ -75968,7 +75968,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "At the start of your Command phase, this model's unit regains up to 6 lost SP (2 for each of up to three other shielded models in it). Its Shield pool cannot exceed its maximum."
+                        "$text": "At the start of your Command phase, select up to three other models in this model's unit. Each regains 2 lost SP, up to its starting SP value."
                       }
                     ]
                   }
@@ -78642,10 +78642,10 @@
         "description": "​<br><br>**Sergeants:**<br>Some datasheets include a Sergeant model in their Unit Composition. A Sergeant model is part of its unit for all rules purposes, and its profile lists the Caste Doctrines it can issue.\n\n**Auxiliaries:**<br>Some datasheets let a unit add Auxiliary models at a fixed rate printed on that datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries). Each species has one Auxiliary entry: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the Yig-Yar keyword, so they can be taken wherever Yig-Yar Auxiliaries can. Each Auxiliary model costs the points shown on its entry and uses its own characteristics, weapons and abilities. It can also take one Specialist ability from its entry, paying the points shown.\n\n**Keywords:**<br>A unit's keywords are the keywords on its datasheet. Sergeant and Auxiliary models do not add their keywords to the unit; rules can still identify or affect an individual model by its own keywords.\n\n**Toughness:**<br>A unit's Toughness is the Toughness characteristic that the most models in it have. If two or more values are tied, use the lowest.\n\n**Issuing Caste Doctrines:**<br>At the start of any phase, each Sergeant model from your army can issue one Caste Doctrine to its own unit. Its entry lists the Doctrines it can issue. Each Sergeant can issue only one Caste Doctrine per battle round. Unless otherwise stated, a unit can be affected by only one Caste Doctrine at a time. A Doctrine lasts for the duration stated in its rules."
       },
       {
-        "name": "Energy Shields",
-        "id": "7a87-6690-9b90-fcb9",
+        "name": "Shielding Trait",
+        "id": "153e-b7c9-85fc-5c90",
         "hidden": false,
-        "description": "​<br><br>**Shield Pool:**<br>A model with an SP characteristic is shielded. A unit containing shielded models has one Shield pool, which starts the battle equal to the combined SP of those models.\n\n**Absorbing Damage:**<br>Each time a model in a shielded unit fails a saving throw, if that unit's Shield pool has 1 or more SP, subtract the attack's Damage from the pool instead of inflicting it on the model. Any Damage in excess of the SP remaining is inflicted on the model as normal.\n\n**Bypassing Shields:**<br>Mortal wounds (including those inflicted by Devastating Wounds) and psychic wounds ignore Shields and are never subtracted from a Shield pool.\n\n**Shield Regeneration:**<br>At the start of your Command phase, each shielded unit from your army regains D3 lost SP (D3+1 for VEHICLE and MOUNTED units). If no enemy unit made an attack that targeted it during your opponent's last turn, it regains all of its lost SP instead. A datasheet that states a different amount uses that amount instead of D3 or D3+1. A Shield pool can never exceed the combined SP of the models remaining in its unit."
+        "description": "\n\nA model with an SP characteristic has Shields and begins the battle with that many Shield Points. Record SP separately for each model.\n\n**Shield Save:**<br>After an attack is allocated to a model with 1 or more SP and that model fails its saving throw, determine the attack's Damage, then roll one D6.\n\n■ On a 3+: the shield absorbs the attack. Subtract that Damage from the model's SP instead of its Wounds. Excess damage carries over to its Wounds.\n■ On a 1–2: the shield is bypassed. Inflict all of that attack's Damage on the model's Wounds and do not reduce its SP.\n\n**Empty Shields:**<br>A model with 0 SP cannot make Shield Saves.\n\n**Regenerating Shields:**<br>At the start of its owner's Command phase, each unit with Shields regains D3 lost SP, split between its models as its owner chooses; no model can exceed its starting SP. A Vehicle or Mounted unit regains D3+1 lost SP instead, unless its datasheet states otherwise.\n\n**Damage That Ignores Shields:**<br>Damage inflicted by Devastating Wounds or Psychic Wounds ignores SP and cannot be prevented by Shield Saves.\n\n**Shielding Sequence:**<br>1. Allocate the attack and make the model's saving throw.\n2. If the save fails and the model has SP, determine Damage and roll its Shield Save.\n3. On a 3+, apply Damage to SP first; excess carries into Wounds. On a 1–2, apply all Damage to Wounds.\n4. At the start of its owner's Command phase, the unit regenerates SP, up to each model's starting SP."
       },
       {
         "name": "Chosen of the Hierarchs",

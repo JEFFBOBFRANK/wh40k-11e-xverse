@@ -8489,7 +8489,7 @@
    {
     "name": "Shield Maintenance",
     "points": 5,
-    "text": "At the start of your Command phase, this model's unit regains up to 6 lost SP (2 for each of up to three other shielded models in it). Its Shield pool cannot exceed its maximum.",
+    "text": "At the start of your Command phase, select up to three other models in this model's unit. Each regains 2 lost SP, up to its starting SP value.",
     "source": "Huragok Shield Tender"
    }
   ],

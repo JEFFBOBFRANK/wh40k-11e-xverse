@@ -1,7 +1,9 @@
 # Covenant 11th-edition homebrew
 
-`Xenos - Covenant (Homebrew).json` is built from Codex: Covenant v5.5.0. The army rules Caste Hierarchy and
-Energy Shields are the revised versions in `homebrew/covenant-source/army_rules.md`; everything else is as
+`Xenos - Covenant (Homebrew).json` is built from Codex: Covenant v5.5.0. Caste Hierarchy is the revised
+version in `homebrew/covenant-source/army_rules.md`. Shielding Trait is as printed (SP on each model, a 3+
+Shield Save after a failed saving throw), except that Regenerating Shields gives each unit D3 lost SP (D3+1 for
+Vehicle and Mounted units) to split between its models, instead of D3 for every model. Everything else is as
 printed in the codex. The layout follows the Emperor's Children and Skaven catalogues.
 
 ## What New Recruit shows
@@ -49,9 +51,10 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
   Jiralhanae Chieftain and Yig-Yar Corsair-Talon.
 - Rtas 'Vadum's Fleetmaster no longer gains CP: after both players have deployed, select up to two friendly
   Covenant units, excluding Fortifications; redeploy them, or place any of them into Strategic Reserves.
-- Faction icon: `icons/armies/xenos-covenant-homebrew.png`, the Covenant symbol. Replace the file (same name,
+- Faction icon: `icons/armies/xenos-covenant-homebrew.png`, the Covenant symbol as a black silhouette on a
+  transparent background, like New Recruit's own faction symbols. Replace the file (same name,
   PNG or SVG) to use another image.
-- Army Rules and References: Caste Hierarchy, Energy Shields, Chosen of the Hierarchs, Caste Doctrines, Supercombine, Plasma,
+- Army Rules and References: Caste Hierarchy, Shielding Trait, Chosen of the Hierarchs, Caste Doctrines, Supercombine, Plasma,
   Siegebreaker and Wargear Costs. Weapons link Supercombine, Plasma and Siegebreaker, and the core rules.
 - 12 detachments with their DP and Force Disposition. "KEYWORD: X" in the codex is Unique: only one
   detachment with the same keyword (e.g. The Great Journey and Grunt Levy, both Grunt) can be taken.
@@ -67,8 +70,6 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
 - Marauders' Wrist Shields are counted on the unit ("3x Wrist Shield", +5 pts each, not on Carbine models).
 - T'vaoan Skirmishers pick their loadout package as a model type for each model.
 - A Plasma Rifle swapped onto Special Operations Team and T'vaoan models uses the Sangheili BS 3+ profile.
-- Huragok Shield Maintenance is reworded for the unit Shield pool: the unit regains up to 6 lost SP (2 for each of
-  up to three other shielded models), instead of 2 SP on each of three models.
 - Sworn Protector's "A unit cannot contain more than one Jiralhanae Bodyguard" now reads "more than one model with
   this ability".
 
@@ -76,9 +77,6 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
 
 - **Gravity Slam** and **Conversion Beam** are weapon abilities with no definition in v5.5.0; they are shown
   on the weapons but not linked to a rule.
-- The revised Energy Shields have no Shield Save roll, but some text still refers to one: Wrist Shield
-  ("Shield Save of 2+ / 4+ within 12"), Survival Above Honour, Shields Unbroken (Sangheili Warhost) and
-  Power to Forward Shields (Armored Spearhead).
 
 ## Rebuild and check
 

@@ -1,6 +1,6 @@
 # Covenant Army Rules (11e homebrew)
 
-_Source: Codex: Covenant v5.5.0. Caste Hierarchy and Energy Shields are the revised versions; everything else is as printed._
+_Source: Codex: Covenant v5.5.0. Caste Hierarchy is the revised version, and Shielding Trait regenerates SP for each unit rather than each model; everything else is as printed._
 
 ## Caste Hierarchy
 
@@ -14,15 +14,27 @@ _Source: Codex: Covenant v5.5.0. Caste Hierarchy and Energy Shields are the revi
 
 **Issuing Caste Doctrines:** At the start of any phase, each Sergeant model from your army can issue one Caste Doctrine to its own unit. Its entry lists the Doctrines it can issue. Each Sergeant can issue only one Caste Doctrine per battle round. Unless otherwise stated, a unit can be affected by only one Caste Doctrine at a time. A Doctrine lasts for the duration stated in its rules.
 
-## Energy Shields
+## Shielding Trait
 
-**Shield Pool:** A model with an SP characteristic is shielded. A unit containing shielded models has one Shield pool, which starts the battle equal to the combined SP of those models.
+A model with an SP characteristic has Shields and begins the battle with that many Shield Points. Record SP separately for each model.
 
-**Absorbing Damage:** Each time a model in a shielded unit fails a saving throw, if that unit's Shield pool has 1 or more SP, subtract the attack's Damage from the pool instead of inflicting it on the model. Any Damage in excess of the SP remaining is inflicted on the model as normal.
+**Shield Save:** After an attack is allocated to a model with 1 or more SP and that model fails its saving throw, determine the attack's Damage, then roll one D6.
 
-**Bypassing Shields:** Mortal wounds (including those inflicted by Devastating Wounds) and psychic wounds ignore Shields and are never subtracted from a Shield pool.
+■ On a 3+: the shield absorbs the attack. Subtract that Damage from the model's SP instead of its Wounds. Excess damage carries over to its Wounds.
+■ On a 1–2: the shield is bypassed. Inflict all of that attack's Damage on the model's Wounds and do not reduce its SP.
 
-**Shield Regeneration:** At the start of your Command phase, each shielded unit from your army regains D3 lost SP (D3+1 for VEHICLE and MOUNTED units). If no enemy unit made an attack that targeted it during your opponent's last turn, it regains all of its lost SP instead. A datasheet that states a different amount uses that amount instead of D3 or D3+1. A Shield pool can never exceed the combined SP of the models remaining in its unit.
+**Empty Shields:** A model with 0 SP cannot make Shield Saves.
+
+**Regenerating Shields:** At the start of its owner's Command phase, each unit with Shields regains D3 lost SP, split between its models as its owner chooses; no model can exceed its starting SP. A Vehicle or Mounted unit regains D3+1 lost SP instead, unless its datasheet states otherwise.
+
+**Damage That Ignores Shields:** Damage inflicted by Devastating Wounds or Psychic Wounds ignores SP and cannot be prevented by Shield Saves.
+
+**Shielding Sequence:**
+
+1. Allocate the attack and make the model's saving throw.
+2. If the save fails and the model has SP, determine Damage and roll its Shield Save.
+3. On a 3+, apply Damage to SP first; excess carries into Wounds. On a 1–2, apply all Damage to Wounds.
+4. At the start of its owner's Command phase, the unit regenerates SP, up to each model's starting SP.
 
 ## Chosen of the Hierarchs
 

@@ -132,10 +132,10 @@ def main():
               f"{n}: Chosen of the Hierarchs missing")
     army = entries["Army Rules and References"]
     army_names = {rules[l["targetId"]]["name"] for l in army["infoLinks"]}
-    for n in ("Caste Hierarchy", "Energy Shields", "Caste Doctrines", "Supercombine", "Plasma", "Siegebreaker"):
+    for n in ("Caste Hierarchy", "Shielding Trait", "Caste Doctrines", "Supercombine", "Plasma", "Siegebreaker"):
         check(n in army_names, f"army rule {n} missing")
     text = json.dumps(cat)
-    for old in ("Shield Save of 2+ and", "400 points", "50% of its Non-Auxiliary"):
+    for old in ("400 points", "50% of its Non-Auxiliary"):
         if old in text:
             print("NOTE: still printed:", old)
     print(f"{checks} checks, {len(problems)} problems")

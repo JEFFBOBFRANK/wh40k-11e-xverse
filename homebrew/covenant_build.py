@@ -1,7 +1,7 @@
 """Build the Covenant 11th-edition homebrew catalogue for New Recruit.
 
 Sources: homebrew/covenant-source (datasheets.json and detachments.json extracted from Codex: Covenant v5.5.0,
-army_rules.md with the revised Caste Hierarchy and Energy Shields), the unit layouts in covenant_units.py and the
+army_rules.md with the revised Caste Hierarchy and per-unit shield regeneration), the unit layouts in covenant_units.py and the
 game system. The layout follows the Emperor's Children and Skaven catalogues.
 
 Usage:
@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 3
+REVISION = 4
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -30,7 +30,7 @@ CONFIGURATION = "4ac9-fd30-1e3d-b249"
 REFERENCE = "eef1-be80-500a-edfc"
 ROLE = {"EPIC HERO": "Epic Hero", "CHARACTER": "Character", "BATTLELINE": "Battleline", "INFANTRY": "Infantry",
         "MOUNTED": "Mounted", "MONSTER": "Monster", "VEHICLE": "Vehicle", "FORTIFICATION": "Fortification"}
-ARMY_RULES = ["Caste Hierarchy", "Energy Shields", "Chosen of the Hierarchs", "Caste Doctrines", "Supercombine", "Plasma", "Siegebreaker",
+ARMY_RULES = ["Caste Hierarchy", "Shielding Trait", "Chosen of the Hierarchs", "Caste Doctrines", "Supercombine", "Plasma", "Siegebreaker",
               "Wargear Costs"]
 WEAPON_RULES = {"Supercombine": r"\bSupercombine\b", "Plasma": r"\bPlasma \((?:D|AP)\d+\)",
                 "Siegebreaker": r"\bSiegebreaker\b"}
@@ -870,7 +870,7 @@ def build(source, system_path):
     cat["gameSystemRevision"] = b.system["revision"]
     cat["authorName"] = "Xverse homebrew"
     cat["authorContact"] = ""
-    cat["readme"] = "Covenant 11th-edition homebrew codex (Codex: Covenant v5.5.0, revised Caste Hierarchy and Shields)."
+    cat["readme"] = "Covenant 11th-edition homebrew codex (Codex: Covenant v5.5.0, revised Caste Hierarchy)."
     cat["costTypes"] = [dict(name="Auxiliary Slots", id=b.aux_slot, defaultCostLimit=-1, hidden=True),
                         dict(name="Enhancement or Upgrade", id=b.enh_count, defaultCostLimit=-1, hidden=True)]
     cat["profileTypes"] = [b.shields_type]

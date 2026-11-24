@@ -43,7 +43,7 @@ The **Chaos - Skaven** catalogue is rebuilt from the Skaven 11th-edition homebre
 
 ## Covenant 11th edition
 
-The **Xenos - Covenant (Homebrew)** catalogue is built from Codex: Covenant v5.5.0 with the revised Caste Hierarchy and Energy Shields: 65 datasheets, Sergeant and Auxiliary models added inside units, 12 detachments, enhancements, upgrades and stratagems, laid out like the Emperor's Children catalogue. Unofficial fan content; Halo is the property of Microsoft and Halo Studios. See [Covenant notes](homebrew/COVENANT-11E.md).
+The **Xenos - Covenant (Homebrew)** catalogue is built from Codex: Covenant v5.5.0 with the revised Caste Hierarchy and per-unit shield regeneration: 65 datasheets, Sergeant and Auxiliary models added inside units, 12 detachments, enhancements, upgrades and stratagems, laid out like the Emperor's Children catalogue. Unofficial fan content; Halo is the property of Microsoft and Halo Studios. See [Covenant notes](homebrew/COVENANT-11E.md).
 
 ## Faction icons
 
