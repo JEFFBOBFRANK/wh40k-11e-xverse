@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 1,
+    "revision": 2,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -1729,6 +1729,13 @@
             "id": "28a3-b031-efa8-b26e",
             "name": "Energy Shields",
             "targetId": "7a87-6690-9b90-fcb9",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "11d3-edc8-5ec4-3510",
+            "name": "Chosen of the Hierarchs",
+            "targetId": "93f2-0293-ead8-9ad1",
             "type": "rule",
             "hidden": false
           },
@@ -3582,6 +3589,15 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "infoLinks": [
+          {
+            "id": "99c5-9ced-847f-20f1",
+            "name": "Chosen of the Hierarchs",
+            "targetId": "93f2-0293-ead8-9ad1",
+            "type": "rule",
+            "hidden": false
+          }
+        ],
         "entryLinks": [
           {
             "name": "Warlord",
@@ -3991,6 +4007,15 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "infoLinks": [
+          {
+            "id": "7fc9-aae6-17b8-c4c7",
+            "name": "Chosen of the Hierarchs",
+            "targetId": "93f2-0293-ead8-9ad1",
+            "type": "rule",
+            "hidden": false
+          }
+        ],
         "entryLinks": [
           {
             "name": "Warlord",
@@ -4398,6 +4423,15 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "infoLinks": [
+          {
+            "id": "0ffe-eed9-de5c-5979",
+            "name": "Chosen of the Hierarchs",
+            "targetId": "93f2-0293-ead8-9ad1",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "entryLinks": [
@@ -4997,6 +5031,13 @@
             "id": "dcb4-bc3c-ce42-7977",
             "name": "Leader",
             "targetId": "b4dd-3e1f-41cb-218f",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "ad55-a936-30b2-5915",
+            "name": "Chosen of the Hierarchs",
+            "targetId": "93f2-0293-ead8-9ad1",
             "type": "rule",
             "hidden": false
           }
@@ -7018,6 +7059,13 @@
             "id": "a277-5a5d-fe1c-f70c",
             "name": "Leader",
             "targetId": "b4dd-3e1f-41cb-218f",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "2dd5-b820-e701-8496",
+            "name": "Chosen of the Hierarchs",
+            "targetId": "93f2-0293-ead8-9ad1",
             "type": "rule",
             "hidden": false
           }
@@ -9456,6 +9504,13 @@
             "targetId": "b4dd-3e1f-41cb-218f",
             "type": "rule",
             "hidden": false
+          },
+          {
+            "id": "08de-b58b-c988-4a68",
+            "name": "Chosen of the Hierarchs",
+            "targetId": "93f2-0293-ead8-9ad1",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "associations": [
@@ -10809,6 +10864,13 @@
             "id": "fa90-7d94-4ec0-17aa",
             "name": "Leader",
             "targetId": "b4dd-3e1f-41cb-218f",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "a0aa-ace4-a533-cb81",
+            "name": "Chosen of the Hierarchs",
+            "targetId": "93f2-0293-ead8-9ad1",
             "type": "rule",
             "hidden": false
           }
@@ -13385,6 +13447,13 @@
             "targetId": "b4dd-3e1f-41cb-218f",
             "type": "rule",
             "hidden": false
+          },
+          {
+            "id": "0350-0b31-45ff-9c87",
+            "name": "Chosen of the Hierarchs",
+            "targetId": "93f2-0293-ead8-9ad1",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "associations": [
@@ -13867,6 +13936,13 @@
             "id": "da75-81ee-3de0-973b",
             "name": "Leader",
             "targetId": "b4dd-3e1f-41cb-218f",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "8fce-8bc9-5d58-e05d",
+            "name": "Chosen of the Hierarchs",
+            "targetId": "93f2-0293-ead8-9ad1",
             "type": "rule",
             "hidden": false
           }
@@ -81603,6 +81679,12 @@
         "id": "7a87-6690-9b90-fcb9",
         "hidden": false,
         "description": "​<br><br>**Shield Pool:**<br>A model with an SP characteristic is shielded. A unit containing shielded models has one Shield pool, which starts the battle equal to the combined SP of those models.\n\n**Absorbing Damage:**<br>Each time a model in a shielded unit fails a saving throw, if that unit's Shield pool has 1 or more SP, subtract the attack's Damage from the pool instead of inflicting it on the model. Any Damage in excess of the SP remaining is inflicted on the model as normal.\n\n**Bypassing Shields:**<br>Mortal wounds (including those inflicted by Devastating Wounds) and psychic wounds ignore Shields and are never subtracted from a Shield pool.\n\n**Shield Regeneration:**<br>At the start of your Command phase, each shielded unit from your army regains D3 lost SP (D3+1 for VEHICLE and MOUNTED units). If no enemy unit made an attack that targeted it during your opponent's last turn, it regains all of its lost SP instead. A datasheet that states a different amount uses that amount instead of D3 or D3+1. A Shield pool can never exceed the combined SP of the models remaining in its unit."
+      },
+      {
+        "name": "Chosen of the Hierarchs",
+        "id": "93f2-0293-ead8-9ad1",
+        "hidden": false,
+        "description": "\n\nAt the start of each battle round, if your Warlord has this ability, gain 1CP."
       },
       {
         "name": "Caste Doctrines",

@@ -51,7 +51,7 @@ Emperor’s Children and Agents of the Imperium use their standard faction names
 
 The repository has no `settings/icons.json`: a custom icon map pointing to images missing from the repository removed New Recruit's built-in icons for every faction.
 
-The Covenant icon is `icons/armies/xenos-covenant-homebrew.svg`. New Recruit reads faction images from a data repository's `icons/armies/` folder and matches the file name to the catalogue name (lowercase, punctuation and spaces as dashes), so it adds that one icon without replacing the built-in ones. To use a different image, replace that file (PNG or SVG) with the same name.
+The Covenant icon is `icons/armies/xenos-covenant-homebrew.png`. New Recruit reads faction images from a data repository's `icons/armies/` folder and matches the file name to the catalogue name (lowercase, punctuation and spaces as dashes), so it adds that one icon without replacing the built-in ones. To use a different image, replace that file (PNG or SVG) with the same name.
 
 ## EC datasheets and references
 

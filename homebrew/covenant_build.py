@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 1
+REVISION = 2
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -30,11 +30,15 @@ CONFIGURATION = "4ac9-fd30-1e3d-b249"
 REFERENCE = "eef1-be80-500a-edfc"
 ROLE = {"EPIC HERO": "Epic Hero", "CHARACTER": "Character", "BATTLELINE": "Battleline", "INFANTRY": "Infantry",
         "MOUNTED": "Mounted", "MONSTER": "Monster", "VEHICLE": "Vehicle", "FORTIFICATION": "Fortification"}
-ARMY_RULES = ["Caste Hierarchy", "Energy Shields", "Caste Doctrines", "Supercombine", "Plasma", "Siegebreaker",
+ARMY_RULES = ["Caste Hierarchy", "Energy Shields", "Chosen of the Hierarchs", "Caste Doctrines", "Supercombine", "Plasma", "Siegebreaker",
               "Wargear Costs"]
 WEAPON_RULES = {"Supercombine": r"\bSupercombine\b", "Plasma": r"\bPlasma \((?:D|AP)\d+\)",
                 "Siegebreaker": r"\bSiegebreaker\b"}
 INVASION_VESSELS = {"Spirit", "Phantom", "Lich", "Kraken"}
+# Commanders with Chosen of the Hierarchs (+1CP each battle round while your Warlord), as EC's Sublime Strategist.
+# Rtas 'Vadum already gains 1CP a turn from Fleetmaster.
+WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel 'Vadam", "Tartarus",
+              "Sangheili Shipmaster", "Sangheili Fieldmaster", "Jiralhanae Chieftain", "Yig-Yar Corsair-Talon"}
 SHADOW_CELL_KEYWORDS = {"Special Operations", "Ranger", "Assassin", "Blademaster"}
 
 
@@ -382,6 +386,8 @@ class Builder:
         node.setdefault("constraints", []).append(constraint(nid(unit_id + ":copies"), "max", copies, scope="roster",
                                                              child=True, forces=True))
         self.add_abilities(node, ds)
+        if name in WARLORD_CP:
+            rule_link(node, self.rules["Chosen of the Hierarchs"])
         node["profiles"].append(self.ability_profile(nid(unit_id + ":keywords"), "Printed Keywords and Notes",
                                                      "Keywords: " + ", ".join(ds["keywords"]) +
                                                      ". Faction: Covenant.", hidden=True))

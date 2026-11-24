@@ -25,9 +25,12 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
 - Leaders attach with New Recruit's Leading links, from each datasheet's LEADER list. Shipmaster and
   Fieldmaster can add their Ultra, up to 3 Sangheili Warriors and up to 2 Unggoy Auxiliaries.
 - Copy limits: Epic Heroes 1, Battleline 6, others 3. Every CHARACTER has a Warlord option.
-- Faction icon: `icons/armies/xenos-covenant-homebrew.svg`, an original purple Covenant-style emblem. Replace the
-  file (same name, PNG or SVG) to use another image.
-- Army Rules and References: Caste Hierarchy, Energy Shields, Caste Doctrines, Supercombine, Plasma,
+- Chosen of the Hierarchs (army rule, as EC's Sublime Strategist): +1CP at the start of each battle round if your
+  Warlord has it. On the three Prophets, Thel 'Vadam, Tartarus, the Shipmaster, Fieldmaster, Jiralhanae Chieftain
+  and Yig-Yar Corsair-Talon. Rtas 'Vadum is left out because Fleetmaster already gives him 1CP a turn.
+- Faction icon: `icons/armies/xenos-covenant-homebrew.png`, the Covenant symbol. Replace the file (same name,
+  PNG or SVG) to use another image.
+- Army Rules and References: Caste Hierarchy, Energy Shields, Chosen of the Hierarchs, Caste Doctrines, Supercombine, Plasma,
   Siegebreaker and Wargear Costs. Weapons link Supercombine, Plasma and Siegebreaker, and the core rules.
 - 12 detachments with their DP and Force Disposition. "KEYWORD: X" in the codex is Unique: only one
   detachment with the same keyword (e.g. The Great Journey and Grunt Levy, both Grunt) can be taken.

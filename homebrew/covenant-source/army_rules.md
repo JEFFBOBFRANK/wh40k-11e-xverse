@@ -24,6 +24,10 @@ _Source: Codex: Covenant v5.5.0. Caste Hierarchy and Energy Shields are the revi
 
 **Shield Regeneration:** At the start of your Command phase, each shielded unit from your army regains D3 lost SP (D3+1 for VEHICLE and MOUNTED units). If no enemy unit made an attack that targeted it during your opponent's last turn, it regains all of its lost SP instead. A datasheet that states a different amount uses that amount instead of D3 or D3+1. A Shield pool can never exceed the combined SP of the models remaining in its unit.
 
+## Chosen of the Hierarchs
+
+At the start of each battle round, if your Warlord has this ability, gain 1CP.
+
 ## Caste Doctrines
 
 **Sangheili Doctrines**
