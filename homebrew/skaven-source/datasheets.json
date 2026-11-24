@@ -515,6 +515,10 @@
     "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
    },
    {
+    "name": "Pestilent Fervour",
+    "text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
+   },
+   {
     "name": "Pestilence (Aura)",
     "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
    },
@@ -1227,6 +1231,10 @@
    {
     "name": "FACTION",
     "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Pestilent Fervour",
+    "text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
    },
    {
     "name": "Pestilence (Aura)",
@@ -2544,6 +2552,10 @@
     "text": "SCURRY AWAY!"
    },
    {
+    "name": "Pestilent Fervour",
+    "text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
+   },
+   {
     "name": "Pestilence (Aura)",
     "text": "While an enemy unit is within 6\" of this unit, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
    },
@@ -2628,6 +2640,10 @@
     "text": "SCURRY AWAY!"
    },
    {
+    "name": "Pestilent Fervour",
+    "text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
+   },
+   {
     "name": "Pestilence (Aura)",
     "text": "While an enemy unit is within 6\" of this unit, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
    },
@@ -2691,6 +2707,10 @@
    {
     "name": "FACTION",
     "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Pestilent Fervour",
+    "text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
    },
    {
     "name": "Walking Infection",
@@ -4990,7 +5010,7 @@
   "unit_composition": [
    "1 Warp Lightning Cannon."
   ],
-  "points": "120pts",
+  "points": "150pts",
   "repeat_cost": "+15pts from the 3rd copy"
  },
  {
@@ -5049,6 +5069,10 @@
    {
     "name": "CORE",
     "text": "Deadly Demise 1"
+   },
+   {
+    "name": "Pestilent Fervour",
+    "text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
    },
    {
     "name": "Rotted Ammunition",
@@ -5286,6 +5310,10 @@
   "weapon_notes": [],
   "abilities": [
    {
+    "name": "Pestilent Fervour",
+    "text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
+   },
+   {
     "name": "Pestilence (Aura)",
     "text": "While an enemy unit is within 6\" of this model, subtract 1 from the hit roll each time a model in that unit makes an attack. If that enemy unit is below half-strength, also subtract 1 from the Attacks characteristic of its weapons (to a minimum of 1). This is not cumulative with other Pestilence abilities."
    },
@@ -5351,7 +5379,7 @@
    {
     "name": "Warpclaw cannon - rupture beam",
     "range": "60\"",
-    "A": "4",
+    "A": "2",
     "BS_WS": "4+",
     "S": "18",
     "AP": "-4",
@@ -5439,7 +5467,7 @@
   "unit_composition": [
    "1 Warpclaw Battle Tank with 1 Warpclaw cannon, 1 Ratling storm-battery, 2 separately fired Warpfire sponsons and Armoured tracks.Select one cannon profile each time it shoots."
   ],
-  "points": "150pts",
+  "points": "220pts",
   "repeat_cost": "+20pts from the 3rd copy"
  },
  {
@@ -6521,6 +6549,10 @@
    {
     "name": "FACTION",
     "text": "SCURRY AWAY! / BETTER THEM-THAN ME!"
+   },
+   {
+    "name": "Pestilent Fervour",
+    "text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
    },
    {
     "name": "Pestilence (Aura)",

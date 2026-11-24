@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 72,
+    "revision": 73,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -8758,6 +8758,20 @@
             ]
           },
           {
+            "id": "809f-4ea0-48cf-3d8b",
+            "name": "Pestilent Fervour",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
+              }
+            ]
+          },
+          {
             "id": "f58d-50aa-fcef-9b68",
             "name": "Pestilence (Aura)",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -16711,6 +16725,20 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Level 1"
+              }
+            ]
+          },
+          {
+            "id": "694f-a6ba-4b1b-22e9",
+            "name": "Pestilent Fervour",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
               }
             ]
           },
@@ -37798,6 +37826,20 @@
         ],
         "profiles": [
           {
+            "id": "6536-da7f-0042-d7b7",
+            "name": "Pestilent Fervour",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
+              }
+            ]
+          },
+          {
             "id": "c343-6234-d9cf-4743",
             "name": "Pestilence (Aura)",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -38984,6 +39026,20 @@
         ],
         "profiles": [
           {
+            "id": "a80e-b230-98e5-aaea",
+            "name": "Pestilent Fervour",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
+              }
+            ]
+          },
+          {
             "id": "b420-e1eb-0c1c-695f",
             "name": "Pestilence (Aura)",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -39574,6 +39630,20 @@
           }
         ],
         "profiles": [
+          {
+            "id": "6af3-8533-4cfb-4fea",
+            "name": "Pestilent Fervour",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
+              }
+            ]
+          },
           {
             "id": "e2c3-ad9b-ff8d-1857",
             "name": "Walking Infection",
@@ -71301,7 +71371,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 150
           }
         ],
         "selectionEntryGroups": [
@@ -71704,6 +71774,20 @@
                     "includeChildSelections": true
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "id": "1279-93ba-7430-a170",
+            "name": "Pestilent Fervour",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
               }
             ]
           },
@@ -74049,6 +74133,20 @@
             ]
           },
           {
+            "id": "fc8b-9f5f-9614-dcc3",
+            "name": "Pestilent Fervour",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
+              }
+            ]
+          },
+          {
             "id": "8645-57c0-4a98-39d1",
             "name": "Pestilence (Aura)",
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -74951,7 +75049,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "4"
+                    "$text": "2"
                   },
                   {
                     "name": "BS",
@@ -75504,7 +75602,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 220
           }
         ],
         "selectionEntryGroups": [
@@ -89053,6 +89151,20 @@
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "-"
+              }
+            ]
+          },
+          {
+            "id": "e5de-d774-67ce-c6ab",
+            "name": "Pestilent Fervour",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this unit takes a battle-shock roll, add 1 to the result. Cornered Rats does not apply to this unit: it does not suffer mortal wounds or move when it fails a battle-shock roll."
               }
             ]
           },

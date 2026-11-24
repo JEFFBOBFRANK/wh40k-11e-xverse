@@ -1,6 +1,6 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 72 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 73 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
@@ -84,6 +84,8 @@ detachments). The layout follows the Emperor's Children catalogue.
   tag, which shows the Black-Flag Allies (mercenary) units. The three SKURVY
   CHARACTER enhancements are in "Skurvy Officers"; record which Black-Flag
   character carries each one.
+- Pestilent Fervour: every PESTILENS datasheet except Blightfang Ogors (BEAST) adds 1 to its
+  battle-shock rolls and ignores Cornered Rats.
 - Cauldron of Pestilence: every Clanrats unit gains PESTILENS and Plague Carrier.
 - Skryre Worship: every Clanrats unit gains SKRYRE and Overstuffed Power Cells.
 - Moulder Flesh Laboratory: every Clanrats unit gains MOULDER and Pack-Driven.
