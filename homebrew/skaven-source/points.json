@@ -5,37 +5,37 @@
    "entries": [
     {
      "name": "Thanquol and Boneripper",
-     "points": "420pts",
+     "points": "340pts",
      "repeat_cost": "–"
     },
     {
      "name": "Queek Headtaker",
-     "points": "150pts",
+     "points": "120pts",
      "repeat_cost": "–"
     },
     {
      "name": "Ikit Claw",
-     "points": "210pts",
+     "points": "175pts",
      "repeat_cost": "–"
     },
     {
      "name": "Deathmaster Snikch",
-     "points": "145pts",
+     "points": "100pts",
      "repeat_cost": "–"
     },
     {
      "name": "Lord Skrolk",
-     "points": "165pts",
+     "points": "135pts",
      "repeat_cost": "–"
     },
     {
      "name": "Throt the Unclean",
-     "points": "155pts",
+     "points": "110pts",
      "repeat_cost": "–"
     },
     {
      "name": "Lord Skreech Verminking",
-     "points": "430pts",
+     "points": "370pts",
      "repeat_cost": "–"
     }
    ]
@@ -55,82 +55,82 @@
     },
     {
      "name": "Clawlord",
-     "points": "85pts",
+     "points": "65pts",
      "repeat_cost": "+10pts from the 3rd copy"
     },
     {
      "name": "Clawlord on Gnaw-beast",
-     "points": "150pts",
+     "points": "130pts",
      "repeat_cost": "+20pts from the 3rd copy"
     },
     {
      "name": "Deathmaster",
-     "points": "85pts",
-     "repeat_cost": "+10pts from the 3rd copy"
-    },
-    {
-     "name": "Plague Priest",
-     "points": "75pts",
-     "repeat_cost": "+10pts from the 3rd copy"
-    },
-    {
-     "name": "Plague Priest on Plague Furnace",
-     "points": "195pts",
-     "repeat_cost": "+20pts from the 3rd copy"
-    },
-    {
-     "name": "Warlock Engineer",
-     "points": "80pts",
-     "repeat_cost": "+10pts from the 3rd copy"
-    },
-    {
-     "name": "Master Moulder",
-     "points": "85pts",
-     "repeat_cost": "+10pts from the 3rd copy"
-    },
-    {
-     "name": "Verminlord Warbringer",
-     "points": "260pts",
-     "repeat_cost": "+20pts from the 3rd copy"
-    },
-    {
-     "name": "Verminlord Warpseer",
-     "points": "275pts",
-     "repeat_cost": "+20pts from the 3rd copy"
-    },
-    {
-     "name": "Verminlord Deceiver",
-     "points": "255pts",
-     "repeat_cost": "+20pts from the 3rd copy"
-    },
-    {
-     "name": "Verminlord Corruptor",
-     "points": "270pts",
-     "repeat_cost": "+20pts from the 3rd copy"
-    },
-    {
-     "name": "Clan Chieftain",
      "points": "70pts",
      "repeat_cost": "+10pts from the 3rd copy"
     },
     {
+     "name": "Plague Priest",
+     "points": "70pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Plague Priest on Plague Furnace",
+     "points": "190pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Warlock Engineer",
+     "points": "60pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Master Moulder",
+     "points": "60pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Verminlord Warbringer",
+     "points": "225pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Verminlord Warpseer",
+     "points": "235pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Verminlord Deceiver",
+     "points": "220pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Verminlord Corruptor",
+     "points": "230pts",
+     "repeat_cost": "+20pts from the 3rd copy"
+    },
+    {
+     "name": "Clan Chieftain",
+     "points": "50pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
      "name": "Arch-Warlock",
-     "points": "90pts",
-     "repeat_cost": "+10pts from the 3rd copy"
-    },
-    {
-     "name": "Beast-Lord",
-     "points": "80pts",
-     "repeat_cost": "+10pts from the 3rd copy"
-    },
-    {
-     "name": "Pox-Abbot",
      "points": "75pts",
      "repeat_cost": "+10pts from the 3rd copy"
     },
     {
+     "name": "Beast-Lord",
+     "points": "65pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
+     "name": "Pox-Abbot",
+     "points": "70pts",
+     "repeat_cost": "+10pts from the 3rd copy"
+    },
+    {
      "name": "Eshin Sorcerer",
-     "points": "85pts",
+     "points": "75pts",
      "repeat_cost": "+10pts from the 3rd copy"
     }
    ]
@@ -209,6 +209,11 @@
      "repeat_cost": "+10pts from the 3rd copy"
     },
     {
+     "name": "Eshin Shadowfangs",
+     "points": "65pts / 125pts",
+     "repeat_cost": "+5pts from the 3rd copy"
+    },
+    {
      "name": "Ratling Gun Teams",
      "points": "25pts per model",
      "repeat_cost": "+10pts from the 3rd copy"
@@ -275,7 +280,7 @@
     },
     {
      "name": "Wolf Rats",
-     "points": "80pts / 150pts",
+     "points": "70pts / 130pts",
      "repeat_cost": "+5pts from the 3rd copy"
     },
     {

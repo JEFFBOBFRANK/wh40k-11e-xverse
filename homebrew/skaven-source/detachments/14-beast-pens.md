@@ -3,7 +3,7 @@
 ## Let Them Loose!
 
 - Friendly RAT OGORS and WOLF RATS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.
-- Each time a friendly MOULDER BEAST unit is selected to fight, it can suffer D3 mortal wounds. If it does, until the end of the phase, add 1 to the wound roll for melee attacks made by models in that unit.
+- In a turn in which a friendly MOULDER BEAST unit made a charge move, melee weapons equipped by models in that unit have [LANCE].
 
 ## Enhancements
 

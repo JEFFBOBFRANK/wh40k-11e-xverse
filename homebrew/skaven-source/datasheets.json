@@ -140,7 +140,7 @@
   "unit_composition": [
    "1 Thanquol and Boneripper.This model is equipped with Warp bolts, Warpfire projectors, Crushing fists and Staff of the Horned Rat."
   ],
-  "points": "420pts",
+  "points": "340pts",
   "repeat_cost": "–"
  },
  {
@@ -228,7 +228,7 @@
   "unit_composition": [
    "1 Queek Headtaker.Can lead Clanrats or Stormvermin."
   ],
-  "points": "150pts",
+  "points": "120pts",
   "repeat_cost": "–"
  },
  {
@@ -356,7 +356,7 @@
   "unit_composition": [
    "1 Ikit Claw.Can lead Warp-Zap Stormvermin or a Skryre weapon team."
   ],
-  "points": "210pts",
+  "points": "175pts",
   "repeat_cost": "–"
  },
  {
@@ -444,7 +444,7 @@
   "unit_composition": [
    "1 Deathmaster Snikch."
   ],
-  "points": "145pts",
+  "points": "100pts",
   "repeat_cost": "–"
  },
  {
@@ -547,7 +547,7 @@
   "unit_composition": [
    "1 Lord Skrolk.This model is equipped with Pox blast and Rod of Corruption. Can lead Plague Monks or Plague Censer Bearers."
   ],
-  "points": "165pts",
+  "points": "135pts",
   "repeat_cost": "–"
  },
  {
@@ -638,7 +638,7 @@
   "unit_composition": [
    "1 Throt the Unclean.Can lead Rat Ogors, Stormfiends or Rat Packs."
   ],
-  "points": "155pts",
+  "points": "110pts",
   "repeat_cost": "–"
  },
  {
@@ -760,7 +760,7 @@
   "unit_composition": [
    "1 Lord Skreech Verminking."
   ],
-  "points": "430pts",
+  "points": "370pts",
   "repeat_cost": "–"
  },
  {
@@ -1028,7 +1028,7 @@
   "unit_composition": [
    "1 Clawlord.This model is equipped with 1 Warplock pistol and either 1 Warpstone blade or 1 Shock halberd. It can lead Clanrats or Stormvermin."
   ],
-  "points": "85pts",
+  "points": "65pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -1110,7 +1110,7 @@
   "unit_composition": [
    "1 Deathmaster."
   ],
-  "points": "85pts",
+  "points": "70pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -1257,7 +1257,7 @@
   "unit_composition": [
    "1 Plague Priest.This model can be attached as a Support to Plague Monks or Plague Censer Bearers only while it is not mounted on a Plague Furnace."
   ],
-  "points": "75pts",
+  "points": "70pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -1357,7 +1357,7 @@
   "unit_composition": [
    "1 Warlock Engineer.This model can be attached as a Support to Warp-Zap Stormvermin, Skryre Acolytes, Ratling Gun Teams, Warpfire Thrower Teams, Warpvolt Scourger Teams or Warplock Jezzails."
   ],
-  "points": "80pts",
+  "points": "60pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -1448,7 +1448,7 @@
   "unit_composition": [
    "1 Master Moulder.This model can be attached as a Support to Rat Packs, Wolf Rats, Rat Ogors or Stormfiends."
   ],
-  "points": "85pts",
+  "points": "60pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -1552,7 +1552,7 @@
   "unit_composition": [
    "1 Verminlord Warbringer.This model is equipped with Doom-bolt, Doomglaive and Prehensile tail."
   ],
-  "points": "260pts",
+  "points": "225pts",
   "repeat_cost": "+20pts from the 3rd copy"
  },
  {
@@ -1659,7 +1659,7 @@
   "unit_composition": [
    "1 Verminlord Warpseer.This model is equipped with Scry-orb, Warpstaff and Prehensile tail."
   ],
-  "points": "275pts",
+  "points": "235pts",
   "repeat_cost": "+20pts from the 3rd copy"
  },
  {
@@ -1767,7 +1767,7 @@
   "unit_composition": [
    "1 Verminlord Deceiver.This model is equipped with Shadow fang, Warpstiletto and Prehensile tail."
   ],
-  "points": "255pts",
+  "points": "220pts",
   "repeat_cost": "+20pts from the 3rd copy"
  },
  {
@@ -1880,7 +1880,7 @@
   "unit_composition": [
    "1 Verminlord Corruptor.This model is equipped with Plague-wind, Plaguereapers and Prehensile tail."
   ],
-  "points": "270pts",
+  "points": "230pts",
   "repeat_cost": "+20pts from the 3rd copy"
  },
  {
@@ -2149,7 +2149,7 @@
     "BS_WS": "4+",
     "S": "7",
     "AP": "-2",
-    "D": "4",
+    "D": "3",
     "keywords": [
      "DEVASTATING WOUNDS"
     ]
@@ -3024,6 +3024,158 @@
   ],
   "points": "80pts",
   "repeat_cost": "+10pts from the 3rd copy"
+ },
+ {
+  "name": "Eshin Shadowfangs",
+  "role": "INFANTRY",
+  "keywords": [
+   "INFANTRY",
+   "ESHIN",
+   "SHADOWFANGS",
+   "GRENADES"
+  ],
+  "faction_keywords": [
+   "SKAVEN"
+  ],
+  "profile": {
+   "M": "8\"",
+   "T": "3",
+   "SV": "5+",
+   "W": "1",
+   "LD": "6+",
+   "OC": "1",
+   "INV": "4+"
+  },
+  "extra_profiles": [],
+  "ranged_weapons": [
+   {
+    "name": "Warp-needle pistol",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "CLOSE-QUARTERS",
+     "PRECISION"
+    ]
+   },
+   {
+    "name": "Warpstar launcher",
+    "range": "18\"",
+    "A": "4",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ASSAULT",
+     "SUSTAINED HITS 1"
+    ]
+   },
+   {
+    "name": "Choke-globe sling",
+    "range": "12\"",
+    "A": "D6",
+    "BS_WS": "Torrent",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "ANTI-INFANTRY 2+",
+     "IGNORES COVER",
+     "TORRENT"
+    ]
+   },
+   {
+    "name": "Death-mark rifle",
+    "range": "36\"",
+    "A": "1",
+    "BS_WS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "keywords": [
+     "DEVASTATING WOUNDS",
+     "HEAVY",
+     "PRECISION"
+    ]
+   }
+  ],
+  "melee_weapons": [
+   {
+    "name": "Twin weeping blades",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "keywords": [
+     "LETHAL HITS",
+     "TWIN-LINKED"
+    ]
+   },
+   {
+    "name": "Fighting claws",
+    "range": "Melee",
+    "A": "5",
+    "BS_WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "keywords": []
+   },
+   {
+    "name": "Master-forged weeping blades",
+    "range": "Melee",
+    "A": "6",
+    "BS_WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "LETHAL HITS",
+     "PRECISION"
+    ]
+   }
+  ],
+  "weapon_notes": [],
+  "abilities": [
+   {
+    "name": "CORE",
+    "text": "Infiltrators, Stealth"
+   },
+   {
+    "name": "FACTION",
+    "text": "SCURRY AWAY!"
+   },
+   {
+    "name": "Verminjutsu 6\"",
+    "text": "If this unit is hidden, subtract 6\" from its models' detection range. If it is not hidden (for example because it is outside a terrain area or has shot), it is still hidden, but with the normal 15\" detection range."
+   },
+   {
+    "name": "Shadow Kill",
+    "text": "Each time a model in this unit makes an attack that targets a CHARACTER unit, add 1 to the wound roll."
+   },
+   {
+    "name": "Smoke Bombs",
+    "text": "Once per battle, just after the bearer's unit makes a fall-back move, it can use this ability. If it does, it is eligible to shoot and declare a charge this turn."
+   },
+   {
+    "name": "Shadow-step Talisman",
+    "text": "Once per battle, at the end of your opponent's turn, if the bearer's unit is not engaged, you can remove it from the battlefield and place it into Strategic Reserves (or the Under-Empire)."
+   }
+  ],
+  "other_rules": [],
+  "unit_composition": [
+   "1 Fang-Adept and 4 or 9 Shadowfangs. Every Shadowfang is equipped with 1 Warp-needle pistol and 1 Twin weeping blades. Any number of Shadowfangs can replace their Twin weeping blades with 1 Fighting claws. Up to 2 Shadowfangs (3 in a unit of 10) can replace their Warp-needle pistol with 1 Warpstar launcher. 1 Shadowfang (2 in a unit of 10) can replace its Warp-needle pistol with 1 Choke-globe sling. 1 Shadowfang can replace its Warp-needle pistol with 1 Death-mark rifle.",
+   "Fang-Adept: Equipped with 1 Warp-needle pistol or 1 Warpstar launcher, and 1 Master-forged weeping blades.",
+   "One Shadowfang can carry Smoke Bombs and one Shadowfang can carry a Shadow-step Talisman; these do not replace its weapons."
+  ],
+  "points": "65pts / 125pts",
+  "repeat_cost": "+5pts from the 3rd copy"
  },
  {
   "name": "Ratling Gun Teams",
@@ -4202,7 +4354,7 @@
   "unit_composition": [
    "5 or 10 Wolf Rats and 1 Packmaster. Every Wolf Rat is equipped with Warp-fanged bites."
   ],
-  "points": "80pts / 150pts",
+  "points": "70pts / 130pts",
   "repeat_cost": "+5pts from the 3rd copy"
  },
  {
@@ -6338,7 +6490,7 @@
   "unit_composition": [
    "1 Clan Chieftain with War-Banner.This model is equipped with 1 Warplock pistol and 1 Chieftain's blade. It can be attached as a Support to Clanrats, Stormvermin or Stormclad Stormvermin."
   ],
-  "points": "70pts",
+  "points": "50pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -6425,7 +6577,7 @@
   "unit_composition": [
    "1 Arch-Warlock.This model is equipped with 1 Warp-blast gauntlet and 1 Warp-claw. It can lead Stormclad Stormvermin, Warp-Zap Stormvermin or Skryre Acolytes."
   ],
-  "points": "90pts",
+  "points": "75pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -6501,7 +6653,7 @@
   "unit_composition": [
    "1 Beast-Lord.This model is equipped with 1 Goad-spear and 1 Barbed whip. It can lead Rat Ogors, Wolf Rats, Gnawhull Brutes or Blightfang Ogors."
   ],
-  "points": "80pts",
+  "points": "65pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -6571,7 +6723,7 @@
   "unit_composition": [
    "1 Pox-Abbot.This model is equipped with 1 Rot-flail. It can lead Plague Monks, Plague Censer Bearers, Pusbags or Blightfang Ogors."
   ],
-  "points": "75pts",
+  "points": "70pts",
   "repeat_cost": "+10pts from the 3rd copy"
  },
  {
@@ -6659,9 +6811,9 @@
   ],
   "other_rules": [],
   "unit_composition": [
-   "1 Eshin Sorcerer.This model is equipped with 1 Shadow-fire and 1 Sorcerous blade. It can lead Night Runners, Gutter Runners or Eshin Shadowriggers."
+   "1 Eshin Sorcerer.This model is equipped with 1 Shadow-fire and 1 Sorcerous blade. It can lead Night Runners, Gutter Runners, Eshin Shadowriggers or Eshin Shadowfangs."
   ],
-  "points": "85pts",
+  "points": "75pts",
   "repeat_cost": "+10pts from the 3rd copy"
  }
 ]

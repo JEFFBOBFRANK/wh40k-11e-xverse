@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 76,
+    "revision": 77,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -324,6 +324,31 @@
         "name": "Shadowriggers",
         "id": "3482-2cb2-5249-55ed",
         "hidden": false
+      },
+      {
+        "name": "Shadowfangs",
+        "id": "7ad9-201c-6e1b-18ec",
+        "hidden": false
+      },
+      {
+        "name": "Count: Eshin Shadowfangs - Shadowfang",
+        "id": "11dd-d878-f747-f590",
+        "hidden": true
+      },
+      {
+        "name": "Count: Eshin Shadowfangs - Shadowfang with Warpstar launcher",
+        "id": "0551-f304-bb5d-74cd",
+        "hidden": true
+      },
+      {
+        "name": "Count: Eshin Shadowfangs - Shadowfang with Choke-globe sling",
+        "id": "9fd0-fd2c-4fd1-f298",
+        "hidden": true
+      },
+      {
+        "name": "Count: Eshin Shadowfangs - Shadowfang with Death-mark rifle",
+        "id": "190a-da83-efd6-f637",
+        "hidden": true
       },
       {
         "name": "Weapon Team",
@@ -2190,7 +2215,7 @@
                     "name": "Let Them Loose!",
                     "id": "c9c0-5b9a-4445-d699",
                     "hidden": false,
-                    "description": "\n\n- Friendly RAT OGORS and WOLF RATS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Each time a friendly MOULDER BEAST unit is selected to fight, it can suffer D3 mortal wounds. If it does, until the end of the phase, add 1 to the wound roll for melee attacks made by models in that unit."
+                    "description": "\n\n- Friendly RAT OGORS and WOLF RATS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- In a turn in which a friendly MOULDER BEAST unit made a charge move, melee weapons equipped by models in that unit have [LANCE]."
                   }
                 ],
                 "categoryLinks": [
@@ -2232,7 +2257,7 @@
                     "name": "Unseen, Unheard",
                     "id": "f428-26ac-4df0-9e24",
                     "hidden": false,
-                    "description": "\n\n- Friendly NIGHT RUNNERS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Each time a friendly ESHIN INFANTRY unit is selected to shoot or fight, you can spend 1 Vermin. If you do, until the end of the phase, you can re-roll the hit roll for attacks made by models in that unit."
+                    "description": "\n\n- Friendly NIGHT RUNNERS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Friendly ESHIN INFANTRY units have the Stealth ability, and are eligible to shoot and declare a charge in a turn in which they made a fall-back move."
                   }
                 ],
                 "categoryLinks": [
@@ -2274,7 +2299,7 @@
                     "name": "Frenzied Devotion",
                     "id": "ece3-b0cc-15de-96c2",
                     "hidden": false,
-                    "description": "\n\n- Friendly PLAGUE MONKS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- Each time a friendly PESTILENS INFANTRY unit is selected to fight, you can roll one D3 and Sacrifice that many models from that unit. If you do, until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS]."
+                    "description": "\n\n- Friendly PLAGUE MONKS units have the BATTLELINE keyword, and add 1 to the Objective Control characteristic of models in those units.\n- In a turn in which a friendly PESTILENS INFANTRY unit made a charge move, melee weapons equipped by models in that unit have [LETHAL HITS]."
                   }
                 ],
                 "categoryLinks": [
@@ -2316,7 +2341,7 @@
                     "name": "There Are Always More",
                     "id": "4a58-c18d-aedf-b002",
                     "hidden": false,
-                    "description": "\n\n- Each time a friendly CLANRATS unit is selected to fight, you can roll one D3 and Sacrifice that many models from one friendly SKAVENSLAVES unit within 6\" of it. If you do, until the end of the phase, melee weapons equipped by models in that CLANRATS unit have [SUSTAINED HITS 1].\n- While a friendly CLANRATS unit contains 20 or more models, add 1 to the Objective Control characteristic of models in that unit."
+                    "description": "\n\n- Melee weapons equipped by models in friendly CLANRATS units have [SUSTAINED HITS 1].\n- While a friendly CLANRATS unit contains 20 or more models, add 1 to the Objective Control characteristic of models in that unit."
                   }
                 ],
                 "categoryLinks": [
@@ -5536,7 +5561,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 420
+            "value": 340
           }
         ],
         "selectionEntryGroups": [
@@ -6299,7 +6324,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 120
           }
         ],
         "associations": [
@@ -7363,7 +7388,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 210
+            "value": 175
           }
         ],
         "associations": [
@@ -8242,7 +8267,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 145
+            "value": 100
           }
         ],
         "selectionEntryGroups": [
@@ -9123,7 +9148,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 165
+            "value": 135
           }
         ],
         "associations": [
@@ -9911,7 +9936,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 155
+            "value": 110
           }
         ],
         "associations": [
@@ -10919,7 +10944,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 430
+            "value": 370
           }
         ],
         "selectionEntryGroups": [
@@ -15104,7 +15129,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 65
           }
         ],
         "associations": [
@@ -15647,7 +15672,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 70
           }
         ],
         "selectionEntryGroups": [
@@ -18477,7 +18502,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 70
           }
         ],
         "associations": [
@@ -19081,7 +19106,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 60
           }
         ],
         "associations": [
@@ -20617,7 +20642,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 60
           }
         ],
         "associations": [
@@ -22135,7 +22160,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 260
+            "value": 225
           }
         ],
         "selectionEntryGroups": [
@@ -23447,7 +23472,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 275
+            "value": 235
           }
         ],
         "selectionEntryGroups": [
@@ -24780,7 +24805,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 255
+            "value": 220
           }
         ],
         "selectionEntryGroups": [
@@ -26120,7 +26145,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 270
+            "value": 230
           }
         ],
         "selectionEntryGroups": [
@@ -32890,7 +32915,7 @@
                           {
                             "name": "D",
                             "typeId": "3254-9fe6-d824-513e",
-                            "$text": "4"
+                            "$text": "3"
                           },
                           {
                             "name": "Keywords",
@@ -43125,6 +43150,2516 @@
                 "includeChildSelections": false
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Eshin Shadowfangs",
+        "id": "6f76-dbdf-156e-c570",
+        "type": "unit",
+        "hidden": false,
+        "import": true,
+        "categoryLinks": [
+          {
+            "name": "Infantry",
+            "id": "2aea-278c-448d-dcb7",
+            "targetId": "cf47-a0d7-7207-29dc",
+            "primary": true,
+            "hidden": false
+          },
+          {
+            "name": "Eshin",
+            "id": "0213-ce49-796a-46ef",
+            "targetId": "a2aa-6195-2a91-a899",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Shadowfangs",
+            "id": "a0c0-d8e4-dbb0-3b12",
+            "targetId": "7ad9-201c-6e1b-18ec",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Grenades",
+            "id": "cdff-1fce-fae1-2d74",
+            "targetId": "5a61-81ac-eb7c-a87e",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Faction: Skaven",
+            "id": "be84-802d-e356-5bdd",
+            "targetId": "c027-d20e-6161-521e",
+            "primary": false,
+            "hidden": false
+          }
+        ],
+        "profiles": [
+          {
+            "id": "048e-fff5-ced2-0ad6",
+            "name": "Verminjutsu 6\"",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "If this unit is hidden, subtract 6\" from its models' detection range. If it is not hidden (for example because it is outside a terrain area or has shot), it is still hidden, but with the normal 15\" detection range."
+              }
+            ]
+          },
+          {
+            "id": "8ff8-8ad2-db25-99d6",
+            "name": "Shadow Kill",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time a model in this unit makes an attack that targets a CHARACTER unit, add 1 to the wound roll."
+              }
+            ]
+          },
+          {
+            "id": "c058-15e5-372c-90ff",
+            "name": "Unit Composition and Equipment",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Composition: 1 Fang-Adept and 4 or 9 Shadowfangs. Every Shadowfang is equipped with 1 Warp-needle pistol and 1 Twin weeping blades. Any number of Shadowfangs can replace their Twin weeping blades with 1 Fighting claws. Up to 2 Shadowfangs (3 in a unit of 10) can replace their Warp-needle pistol with 1 Warpstar launcher. 1 Shadowfang (2 in a unit of 10) can replace its Warp-needle pistol with 1 Choke-globe sling. 1 Shadowfang can replace its Warp-needle pistol with 1 Death-mark rifle. Fang-Adept: Equipped with 1 Warp-needle pistol or 1 Warpstar launcher, and 1 Master-forged weeping blades. One Shadowfang can carry Smoke Bombs and one Shadowfang can carry a Shadow-step Talisman; these do not replace its weapons."
+              }
+            ]
+          },
+          {
+            "id": "fa6e-80d4-37e2-d848",
+            "name": "Printed Keywords and Notes",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Keywords: Infantry, Eshin, Shadowfangs, Grenades. Faction: Skaven."
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "id": "fcf1-bd2e-2b58-779c",
+            "name": "Infiltrators",
+            "targetId": "c05d-f4c3-f091-4938",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "6f10-9eab-4b57-46c3",
+            "name": "Stealth",
+            "targetId": "bec5-4288-34a6-ccfa",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "618a-6e58-065f-af2d",
+            "name": "Scurry Away!",
+            "targetId": "044a-be72-a29a-fefb",
+            "type": "rule",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Fang-Adept",
+            "id": "7290-ec2a-1ed5-2659",
+            "type": "model",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "7398-60c8-512e-32a5",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "6f24-9fc1-84d4-759f",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "id": "e348-abee-da73-ff67",
+                "name": "Fang-Adept",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "8\""
+                  },
+                  {
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "5+"
+                  },
+                  {
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
+                  },
+                  {
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": "4+"
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Master-forged weeping blades",
+                "id": "4e3e-0b0c-8add-dcfa",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "68ef-d596-89c7-e938",
+                    "name": "Master-forged weeping blades",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "2+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Lethal Hits, Precision"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "2019-a999-faaf-1698",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "43a2-b44f-8f52-17e6",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "7712-a749-e181-d4e5",
+                    "name": "Precision",
+                    "targetId": "9143-31ae-e0a6-6007",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "4938-c284-5271-86e0",
+                    "name": "Lethal Hits",
+                    "targetId": "d1d1-611e-5191-1095",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Ranged weapon",
+                "id": "f9c5-eb53-658a-74b8",
+                "hidden": false,
+                "selectionEntries": [
+                  {
+                    "name": "Warp-needle pistol",
+                    "id": "bb92-4fe9-0eec-1d5c",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "b07f-ef79-add7-9102",
+                        "name": "Warp-needle pistol",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-1"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Close-Quarters, Precision"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "ba86-c7b2-cdd6-89c2",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "9a96-8d8c-6246-fc19",
+                        "name": "Precision",
+                        "targetId": "9143-31ae-e0a6-6007",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "33fd-f960-f315-fd1d",
+                        "name": "Close-quarters",
+                        "targetId": "5238-5ad4-52f7-6eb4",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Warpstar launcher",
+                    "id": "b572-21dc-2591-4fce",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "678b-f055-d473-8a1c",
+                        "name": "Warpstar launcher",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "18\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-1"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Assault, Sustained Hits 1"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "0cbe-8048-60c6-bfe0",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "e269-95c4-c6c7-936d",
+                        "name": "Assault",
+                        "targetId": "fc8a-8c24-bae9-cc1c",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "a858-0416-8ffb-88f8",
+                        "name": "Sustained Hits",
+                        "targetId": "1897-c22c-9597-12b1",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "d4c0-f204-f91f-7721",
+                    "type": "min",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "c157-58c6-5d23-1560",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "defaultSelectionEntryId": "bb92-4fe9-0eec-1d5c"
+              }
+            ],
+            "sortIndex": 0
+          },
+          {
+            "name": "Smoke Bombs",
+            "id": "2905-09fb-a7c5-888a",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "f849-bb27-6603-4ff5",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "id": "029e-9e81-2f87-efdf",
+                "name": "Smoke Bombs",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Once per battle, just after the bearer's unit makes a fall-back move, it can use this ability. If it does, it is eligible to shoot and declare a charge this turn."
+                  }
+                ]
+              }
+            ],
+            "associations": [
+              {
+                "name": "Smoke Bombs",
+                "id": "4db6-ca71-722a-2a4a",
+                "childId": "model",
+                "includeChildSelections": true,
+                "min": 1,
+                "max": 1,
+                "scope": "6f76-dbdf-156e-c570",
+                "defaultSelectionEntryId": "none",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "2c63-ddbd-0d32-16c5",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "10e6-562d-a10a-cf23",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "fc78-9ba4-9e27-5091",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "3195-61cc-d0c6-b9aa",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "f69b-5d78-b2ed-9bee",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 50
+          },
+          {
+            "name": "Shadow-step Talisman",
+            "id": "2bd9-7d98-ae31-14ff",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "ca6a-a38e-a1f9-a84c",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "profiles": [
+              {
+                "id": "a738-ca91-7330-674c",
+                "name": "Shadow-step Talisman",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Once per battle, at the end of your opponent's turn, if the bearer's unit is not engaged, you can remove it from the battlefield and place it into Strategic Reserves (or the Under-Empire)."
+                  }
+                ]
+              }
+            ],
+            "associations": [
+              {
+                "name": "Shadow-step Talisman",
+                "id": "bda9-7c55-5681-4e58",
+                "childId": "model",
+                "includeChildSelections": true,
+                "min": 1,
+                "max": 1,
+                "scope": "6f76-dbdf-156e-c570",
+                "defaultSelectionEntryId": "none",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "2c63-ddbd-0d32-16c5",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "10e6-562d-a10a-cf23",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "fc78-9ba4-9e27-5091",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "3195-61cc-d0c6-b9aa",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "f69b-5d78-b2ed-9bee",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 50
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "4-9 Shadowfangs",
+            "id": "b2f3-410e-a230-4f12",
+            "hidden": false,
+            "defaultSelectionEntryId": "2c63-ddbd-0d32-16c5",
+            "selectionEntries": [
+              {
+                "name": "Shadowfang",
+                "id": "2c63-ddbd-0d32-16c5",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "f7ec-fa1e-8e6c-c322",
+                    "type": "min",
+                    "value": 4,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  },
+                  {
+                    "id": "9e82-be3a-2381-ec32",
+                    "type": "max",
+                    "value": 9,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "id": "70d0-5dc5-f900-ee3a",
+                    "name": "Shadowfang",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "8\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "5+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "4+"
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Warp-needle pistol",
+                    "id": "3f98-ff1e-3cf8-10b2",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "6153-6c3d-81a1-f27c",
+                        "name": "Warp-needle pistol",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-1"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Close-Quarters, Precision"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "cf81-e1f0-d8d8-9b7f",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "c568-5e20-d340-e10a",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "092a-bdf1-6882-82b4",
+                        "name": "Precision",
+                        "targetId": "9143-31ae-e0a6-6007",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "4398-c86f-dfcd-b212",
+                        "name": "Close-quarters",
+                        "targetId": "5238-5ad4-52f7-6eb4",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Twin weeping blades",
+                    "id": "603e-ed5b-ad33-bfe3",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "b2f5-8bb9-3a9f-e1da",
+                        "name": "Twin weeping blades",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Lethal Hits, Twin-linked"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "4f9c-f692-7fec-ad40",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "acd6-e4af-db1f-dcd8",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "f9e6-1960-029a-3d8b",
+                        "name": "Twin-linked",
+                        "targetId": "cf93-ad4d-2f08-a79d",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "8983-b3fe-db1d-58d7",
+                        "name": "Lethal Hits",
+                        "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "count",
+                    "id": "5615-c727-72b6-cb84",
+                    "targetId": "11dd-d878-f747-f590",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "f7ec-fa1e-8e6c-c322",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "10e6-562d-a10a-cf23",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "9e82-be3a-2381-ec32",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "10e6-562d-a10a-cf23",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "f7ec-fa1e-8e6c-c322",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "fc78-9ba4-9e27-5091",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "9e82-be3a-2381-ec32",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "fc78-9ba4-9e27-5091",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "f7ec-fa1e-8e6c-c322",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "3195-61cc-d0c6-b9aa",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "9e82-be3a-2381-ec32",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "3195-61cc-d0c6-b9aa",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "f7ec-fa1e-8e6c-c322",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "f69b-5d78-b2ed-9bee",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "9e82-be3a-2381-ec32",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "f69b-5d78-b2ed-9bee",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  }
+                ],
+                "defaultAmount": 4
+              },
+              {
+                "name": "Shadowfang with Fighting claws",
+                "id": "10e6-562d-a10a-cf23",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "b4c1-8df0-ac76-ef94",
+                    "type": "max",
+                    "value": 9,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "id": "b74d-fd11-b64f-1ee0",
+                    "name": "Shadowfang",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "8\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "5+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "4+"
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Warp-needle pistol",
+                    "id": "7939-6f2e-499e-664a",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "7b24-4f4e-22b6-8e83",
+                        "name": "Warp-needle pistol",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-1"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Close-Quarters, Precision"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "7946-21d5-57f8-20e7",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "9d41-4985-d5c9-a8fc",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "3420-7680-1e7e-3087",
+                        "name": "Precision",
+                        "targetId": "9143-31ae-e0a6-6007",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "f84f-604d-f1ed-87d1",
+                        "name": "Close-quarters",
+                        "targetId": "5238-5ad4-52f7-6eb4",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Fighting claws",
+                    "id": "c96a-b6d9-c5a2-07b0",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "2852-cb89-3375-d3fb",
+                        "name": "Fighting claws",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "-"
+                          }
+                        ],
+                        "modifiers": [
+                          {
+                            "field": "893f-9000-ccf7-648e",
+                            "type": "set",
+                            "value": "Lethal Hits",
+                            "conditions": [
+                              {
+                                "childId": "2371-093d-b43f-c65e",
+                                "field": "selections",
+                                "scope": "6f76-dbdf-156e-c570",
+                                "type": "atLeast",
+                                "value": 1,
+                                "shared": true,
+                                "includeChildSelections": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "1d8d-56db-47d8-1fe2",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "397b-2ac1-6034-606c",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "count",
+                    "id": "c338-6278-245d-9b9f",
+                    "targetId": "11dd-d878-f747-f590",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Shadowfang with Warpstar launcher",
+                "id": "fc78-9ba4-9e27-5091",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "cda5-9815-a1e9-700d",
+                    "type": "max",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "id": "7190-a91e-646d-a8b2",
+                    "name": "Shadowfang",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "8\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "5+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "4+"
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Warpstar launcher",
+                    "id": "8f73-b4d9-7057-2621",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "f4b6-f1cb-7a84-f4c3",
+                        "name": "Warpstar launcher",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "18\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-1"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Assault, Sustained Hits 1"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "b42b-cd98-63eb-5483",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "fc5e-c5ac-d07a-cc30",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "12d8-b666-85f6-e741",
+                        "name": "Assault",
+                        "targetId": "fc8a-8c24-bae9-cc1c",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "4bd1-ae89-2f13-254c",
+                        "name": "Sustained Hits",
+                        "targetId": "1897-c22c-9597-12b1",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Twin weeping blades",
+                    "id": "94ad-d380-35b1-0db6",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "7158-e691-0ef5-7e30",
+                        "name": "Twin weeping blades",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Lethal Hits, Twin-linked"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "1317-429a-efb4-373b",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "63b5-72be-b4f3-eb9f",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "5c76-e6f3-dd23-dd9a",
+                        "name": "Twin-linked",
+                        "targetId": "cf93-ad4d-2f08-a79d",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "30b8-4ad3-6fef-16c7",
+                        "name": "Lethal Hits",
+                        "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "count",
+                    "id": "5c14-b701-8186-9a41",
+                    "targetId": "11dd-d878-f747-f590",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "count",
+                    "id": "7d6f-384d-0412-1c3c",
+                    "targetId": "0551-f304-bb5d-74cd",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "field": "cda5-9815-a1e9-700d",
+                    "value": 3,
+                    "conditions": [
+                      {
+                        "childId": "11dd-d878-f747-f590",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "type": "atLeast",
+                        "value": 9,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Shadowfang with Choke-globe sling",
+                "id": "3195-61cc-d0c6-b9aa",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "b908-a937-0332-3219",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "id": "cb2f-7064-3e23-010d",
+                    "name": "Shadowfang",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "8\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "5+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "4+"
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Choke-globe sling",
+                    "id": "5c2a-10a6-97d3-7c4b",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "fcf9-ed5c-1107-7f94",
+                        "name": "Choke-globe sling",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "D6"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "Torrent"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-1"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Anti-Infantry 2+, Ignores Cover, Torrent"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "066e-90c0-7dac-0893",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "4f2e-f130-1ff6-cd87",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "41a4-99e8-d160-775e",
+                        "name": "Anti",
+                        "targetId": "4111-82e3-9444-e942",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "3f7e-c8b3-5e34-b686",
+                        "name": "Ignores Cover",
+                        "targetId": "4640-43e7-30b-215a",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "c11f-e8e1-dcfe-8291",
+                        "name": "Torrent",
+                        "targetId": "5edf-d619-23e0-9b56",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Twin weeping blades",
+                    "id": "fcaa-7f38-60c9-3220",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "3100-3485-f406-c0c9",
+                        "name": "Twin weeping blades",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Lethal Hits, Twin-linked"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "562a-b503-f6d2-c9f2",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "9df3-1ff0-89c4-ce15",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "52ed-7479-2ecd-28d8",
+                        "name": "Twin-linked",
+                        "targetId": "cf93-ad4d-2f08-a79d",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "52a5-ed9e-f175-2864",
+                        "name": "Lethal Hits",
+                        "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "count",
+                    "id": "83da-58dd-4b7d-352b",
+                    "targetId": "11dd-d878-f747-f590",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "count",
+                    "id": "800e-a947-cdd6-b4df",
+                    "targetId": "9fd0-fd2c-4fd1-f298",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "field": "b908-a937-0332-3219",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "11dd-d878-f747-f590",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "type": "atLeast",
+                        "value": 9,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Shadowfang with Death-mark rifle",
+                "id": "f69b-5d78-b2ed-9bee",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "62d6-a3e2-0e6c-006b",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "id": "0912-47a3-c1a5-be14",
+                    "name": "Shadowfang",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "8\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "5+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "4+"
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Death-mark rifle",
+                    "id": "dd10-6d63-f987-3bdb",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "63a3-8835-4290-6154",
+                        "name": "Death-mark rifle",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "36\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "10"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-3"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Devastating Wounds, Heavy, Precision"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "5226-b99d-e900-1d32",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "98e3-48af-d0fb-59c6",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "5490-2d66-f2ef-04eb",
+                        "name": "Devastating Wounds",
+                        "targetId": "be1e-ac8e-1e2c-3528",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "063e-567b-d7bd-9ab4",
+                        "name": "Heavy",
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "b338-5d09-830d-818b",
+                        "name": "Precision",
+                        "targetId": "9143-31ae-e0a6-6007",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Twin weeping blades",
+                    "id": "bf0d-4574-4711-6b71",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "e18f-50ab-1296-85a2",
+                        "name": "Twin weeping blades",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "5"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Lethal Hits, Twin-linked"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "cc63-013d-cebe-e209",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "a0a2-d7cf-2dc5-14f9",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "17d7-9f23-228c-dbe3",
+                        "name": "Twin-linked",
+                        "targetId": "cf93-ad4d-2f08-a79d",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "bff1-485e-d796-411f",
+                        "name": "Lethal Hits",
+                        "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "count",
+                    "id": "5177-9130-054f-4da2",
+                    "targetId": "11dd-d878-f747-f590",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "count",
+                    "id": "8c1e-5d7e-fad5-36e6",
+                    "targetId": "190a-da83-efd6-f637",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "e8b6-4b19-575d-b979",
+                "type": "min",
+                "value": 4,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "3078-03e0-8162-5337",
+                "type": "max",
+                "value": 9,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "sortIndex": 1
+          },
+          {
+            "name": "Enhancements and Upgrades",
+            "id": "855d-0823-c529-9ba1",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Weeping Blades [Upgrade]",
+                "id": "edae-631e-5e54-4020",
+                "targetId": "2371-093d-b43f-c65e",
+                "type": "selectionEntry",
+                "hidden": true,
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "value": false,
+                    "type": "set",
+                    "conditions": [
+                      {
+                        "childId": "699d-49b7-ae7b-8097",
+                        "field": "selections",
+                        "scope": "force",
+                        "type": "atLeast",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ],
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "19e6-3c19-aeed-b1f2",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "fd4b-db2a-47a2-49f8",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "add",
+            "field": "error",
+            "value": "At most 2 (3 in the larger unit) Shadowfang with Warpstar launcher.",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "0551-f304-bb5d-74cd",
+                    "field": "selections",
+                    "scope": "6f76-dbdf-156e-c570",
+                    "type": "atLeast",
+                    "value": 4,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "0551-f304-bb5d-74cd",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "type": "atLeast",
+                        "value": 3,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "11dd-d878-f747-f590",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "type": "lessThan",
+                        "value": 9,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "At most 1 (2 in the larger unit) Shadowfang with Choke-globe sling.",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "9fd0-fd2c-4fd1-f298",
+                    "field": "selections",
+                    "scope": "6f76-dbdf-156e-c570",
+                    "type": "atLeast",
+                    "value": 3,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "9fd0-fd2c-4fd1-f298",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "type": "atLeast",
+                        "value": 2,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "11dd-d878-f747-f590",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "type": "lessThan",
+                        "value": 9,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "At most 1 Shadowfang with Death-mark rifle.",
+            "conditions": [
+              {
+                "childId": "190a-da83-efd6-f637",
+                "field": "selections",
+                "scope": "6f76-dbdf-156e-c570",
+                "type": "atLeast",
+                "value": 2,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 60,
+            "conditions": [
+              {
+                "childId": "11dd-d878-f747-f590",
+                "field": "selections",
+                "scope": "6f76-dbdf-156e-c570",
+                "type": "atLeast",
+                "value": 9,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "Select 1 Fang-Adept and 4 Shadowfang or 1 Fang-Adept and 9 Shadowfang.",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "7290-ec2a-1ed5-2659",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "type": "notEqualTo",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "11dd-d878-f747-f590",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "type": "notEqualTo",
+                        "value": 4,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "7290-ec2a-1ed5-2659",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "type": "notEqualTo",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "11dd-d878-f747-f590",
+                        "field": "selections",
+                        "scope": "6f76-dbdf-156e-c570",
+                        "type": "notEqualTo",
+                        "value": 9,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 5,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "6f76-dbdf-156e-c570",
+                        "childName": "Eshin Shadowfangs",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "id": "b7b0-f4ad-552f-f61c",
+            "type": "max",
+            "value": 3,
+            "scope": "roster",
+            "field": "selections",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": true
+          },
+          {
+            "id": "2d30-7df5-ea5a-0965",
+            "childId": "any",
+            "field": "e7c3-91a2-4d0b-b6f5",
+            "type": "max",
+            "value": 1,
+            "scope": "root-entry",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "traverseAssociationGroup": true,
+            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 65
           }
         ]
       },
@@ -60716,7 +63251,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 70,
+            "value": 60,
             "conditions": [
               {
                 "childId": "94a9-fe4f-b497-e0e5",
@@ -60907,7 +63442,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 70
           }
         ],
         "selectionEntryGroups": [
@@ -85244,7 +87779,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 50
           }
         ],
         "associations": [
@@ -86745,7 +89280,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 75
           }
         ],
         "associations": [
@@ -88092,7 +90627,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 65
           }
         ],
         "associations": [
@@ -89433,7 +91968,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 70
           }
         ],
         "associations": [
@@ -90545,7 +93080,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model can be attached to the following units:\n\n■ NIGHT RUNNERS\n■ GUTTER RUNNERS\n■ ESHIN SHADOWRIGGERS"
+                "$text": "This model can be attached to the following units:\n\n■ NIGHT RUNNERS\n■ GUTTER RUNNERS\n■ ESHIN SHADOWRIGGERS\n■ ESHIN SHADOWFANGS"
               }
             ]
           },
@@ -90559,7 +93094,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Composition: 1 Eshin Sorcerer.This model is equipped with 1 Shadow-fire and 1 Sorcerous blade. It can lead Night Runners, Gutter Runners or Eshin Shadowriggers."
+                "$text": "Composition: 1 Eshin Sorcerer.This model is equipped with 1 Shadow-fire and 1 Sorcerous blade. It can lead Night Runners, Gutter Runners, Eshin Shadowriggers or Eshin Shadowfangs."
               }
             ]
           },
@@ -90847,7 +93382,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 75
           }
         ],
         "associations": [
@@ -90886,6 +93421,15 @@
                   },
                   {
                     "childId": "2baf-6e25-2b0b-9c3d",
+                    "field": "selections",
+                    "scope": "self",
+                    "type": "instanceOf",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "6f76-dbdf-156e-c570",
                     "field": "selections",
                     "scope": "self",
                     "type": "instanceOf",
@@ -95672,6 +98216,14 @@
         "id": "0046-50d0-f2c4-97ed",
         "hidden": false,
         "targetId": "2baf-6e25-2b0b-9c3d",
+        "type": "selectionEntry",
+        "import": true
+      },
+      {
+        "name": "Eshin Shadowfangs",
+        "id": "14c7-a51e-ca04-2f19",
+        "hidden": false,
+        "targetId": "6f76-dbdf-156e-c570",
         "type": "selectionEntry",
         "import": true
       },

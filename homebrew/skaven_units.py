@@ -174,6 +174,16 @@ UNITS = {
     "Eshin Shadowriggers": dict(
         models=[M("Eshin Shadowrigger", (5, 5), ["Warp-needle pistol", "Servo-assisted Eshin blades"])],
         sizes=[{"Eshin Shadowrigger": 5}]),
+    "Eshin Shadowfangs": dict(
+        models=[M("Fang-Adept", (1, 1), ["Master-forged weeping blades"], choices=[
+                    C("Ranged weapon", ["Warp-needle pistol", "Warpstar launcher"])]),
+                M("Shadowfang", (4, 9), ["Warp-needle pistol", "Twin weeping blades"], variants=[
+                    V("Shadowfang with Fighting claws", ["Warp-needle pistol", "Fighting claws"]),
+                    V("Shadowfang with Warpstar launcher", ["Warpstar launcher", "Twin weeping blades"], (2, 3)),
+                    V("Shadowfang with Choke-globe sling", ["Choke-globe sling", "Twin weeping blades"], (1, 2)),
+                    V("Shadowfang with Death-mark rifle", ["Death-mark rifle", "Twin weeping blades"], (1, 1))])],
+        sizes=[{"Fang-Adept": 1, "Shadowfang": 4}, {"Fang-Adept": 1, "Shadowfang": 9}],
+        bearer_gear=[("Smoke Bombs", None), ("Shadow-step Talisman", None)]),
     "Ratling Gun Teams": dict(models=[
         M("Lead Gunner", (1, 1), ["Ratling gun", "Crew-leader blades"], choices=[C("Pistol", ["Warplock pistol"], minimum=0)], cost=25, wounds="3"),
         M("Ratling Gun Team", (0, 2), ["Ratling gun", "Crew blades"], cost=25)]),

@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 76
+REVISION = 77
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Warlord": "Clawlord",
@@ -87,7 +87,7 @@ WARGEAR_SORT = 50
 KEPT_CATEGORY_IDS = {"Skurvy": "085b-ed18-2400-e7f2"}
 # Squad leaders do not carry added wargear (standards, horns, banners...).
 SERGEANTS = {"Clawleader", "Fangleader", "Plague Deacon", "Bombardier", "Lead Gunner", "Lead Burner",
-             "Lead Scourger", "Lead Marksman", "Censer-bearer Leader"}  # added wargear sits at the bottom of the unit editor, as on the Tormentors
+             "Lead Scourger", "Lead Marksman", "Censer-bearer Leader", "Fang-Adept"}  # added wargear sits at the bottom of the unit editor, as on the Tormentors
 SMALL = {"of", "the", "a", "an", "and", "or", "to", "in", "on", "for", "with", "at", "by", "from"}
 
 
@@ -262,7 +262,8 @@ class Builder:
                     self.weapon_profile(nid(eid + ":" + name), weapon, ranged))
             elif name not in {"Heavy shield", "Shield", "Explosive Collars", "Clan Standard", "Scavenger Bell",
                               "Warhorn", "Regimental Banner", "Grounding Rod", "Spare Capacitor", "Plague Banner",
-                              "Doom Gong", "Sword and Board", "Warplock", "Voltaic shield", "Voltaic Pennant", "Warp-Grenade Satchel"}:
+                              "Doom Gong", "Sword and Board", "Warplock", "Voltaic shield", "Voltaic Pennant", "Warp-Grenade Satchel",
+                              "Smoke Bombs", "Shadow-step Talisman"}:
                 raise ValueError(f"{owner}: unknown weapon {name}")
         node["constraints"] = [constraint(nid(eid + ":max"), "max", 1)]
         if fixed:

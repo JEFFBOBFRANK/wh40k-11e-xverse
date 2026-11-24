@@ -1,12 +1,12 @@
 # Skaven 11th-edition homebrew
 
-Catalogue revision 76 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
+Catalogue revision 77 rebuilds `Chaos%20-%20Skaven.json` from the homebrew codex
 handoff in `homebrew/skaven-source/` (datasheets, points, army rules and the 17
 detachments). The layout follows the Emperor's Children catalogue.
 
 ## What New Recruit shows
 
-- 66 datasheets (including the Clan Chieftain, Arch-Warlock, Beast-Lord, Pox-Abbot,
+- 67 datasheets (including the Eshin Shadowfangs, the Clan Chieftain, Arch-Warlock, Beast-Lord, Pox-Abbot,
   Eshin Sorcerer, the Warpfang Colossus, Gnawhull Brutes and Blightfang
   Ogors). Squads use real model counters with per-model wargear and an
   error unless the unit is one of its legal sizes; larger sizes add their points.
@@ -22,7 +22,7 @@ detachments). The layout follows the Emperor's Children catalogue.
   Leading / Supporting links, as in the Emperor's Children catalogue. A Support
   must be attached; a mounted Plague Priest need not be.
 - Optional wargear (Clan Standard, Scavenger Bell, Warhorn, Regimental Banner,
-  Plague Banner, Doom Gong, Grounding Rod, Spare Capacitor, Voltaic Pennant, Warp-Grenade Satchel) works like the Emperor's
+  Plague Banner, Doom Gong, Grounding Rod, Spare Capacitor, Voltaic Pennant, Warp-Grenade Satchel, Smoke Bombs, Shadow-step Talisman) works like the Emperor's
   Children Tormentors' Icon of Excess: tick it on the unit, then pick the model that
   carries it. Squad leaders cannot carry it, and the item's ability appears only
   when it is taken. Special weapons stay separate model types (e.g. "Stormvermin
@@ -101,7 +101,7 @@ detachments). The layout follows the Emperor's Children catalogue.
   start of your Movement phase; modifiers apply after the roll).
 - FRAME is on every vehicle except the Eshin Nightstrider; GRENADES is on
   Clanrats, Stormvermin, Warp-Zap Stormvermin, Stormclad Stormvermin, Skryre Acolytes,
-  Night Runners, Gutter Runners and Eshin Shadowriggers.
+  Night Runners, Gutter Runners, Eshin Shadowriggers and Eshin Shadowfangs.
 - Movement: foot models are M7" (weapon teams stay M6"); Rat Ogors and the Mutant
   Rat Ogor are M9". Skavenslaves are 20 or 40 models at 2 pts each.
 - Ranged weapons that hit on 4+ or 5+ and are not TORRENT or IGNORES COVER have
