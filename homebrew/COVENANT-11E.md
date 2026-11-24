@@ -25,6 +25,8 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
 - Leaders attach with New Recruit's Leading links, from each datasheet's LEADER list. Shipmaster and
   Fieldmaster can add their Ultra, up to 3 Sangheili Warriors and up to 2 Unggoy Auxiliaries.
 - Copy limits: Epic Heroes 1, Battleline 6, others 3. Every CHARACTER has a Warlord option.
+- Faction icon: `icons/armies/xenos-covenant-homebrew.svg`, an original purple Covenant-style emblem. Replace the
+  file (same name, PNG or SVG) to use another image.
 - Army Rules and References: Caste Hierarchy, Energy Shields, Caste Doctrines, Supercombine, Plasma,
   Siegebreaker and Wargear Costs. Weapons link Supercombine, Plasma and Siegebreaker, and the core rules.
 - 12 detachments with their DP and Force Disposition. "KEYWORD: X" in the codex is Unique: only one
