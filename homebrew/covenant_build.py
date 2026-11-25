@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 11
+REVISION = 12
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -836,6 +836,16 @@ class Builder:
         cat = ds["category"]
         restriction = self.plain_keywords(enh["restriction"] or "")
         character = "Character" in kws and "Epic Hero" not in kws
+        spec = enh.get("eligible")  # {"all": [...], "any": [...], "names": [...], "sp": bool}
+        if spec:
+            if enh["upgrade"] and (cat in ("SERGEANT", "AUXILIARY") or "Character" in kws):
+                return False
+            if not enh["upgrade"] and not character:
+                return False
+            return ((not spec.get("names") or ds["name"] in spec["names"])
+                    and all(k in kws for k in spec.get("all", []))
+                    and (not spec.get("any") or bool(kws & set(spec["any"])))
+                    and (not spec.get("sp") or bool(ds["profile"].get("SP"))))
         if not enh["upgrade"]:
             m = re.match(r"(.+?) model only\.?$", restriction)  # SANGHEILI model only. / SAN'SHYUUM or UNGGOY model only.
             if not m:
@@ -891,6 +901,16 @@ class Builder:
                 node["rules"].append(dict(name=r["name"], id=nid(det_id + ":rule:" + r["name"]), hidden=False,
                                           description="\n\n" + inches(body)))
             group["selectionEntries"].append(node)
+            if det.get("forbid"):  # Swords of Sanghelios: no JIRALHANAE or SAN'SHYUUM models in the army
+                banned = set(det["forbid"])
+                message = f"{det['name']}: your army cannot include " + " or ".join(
+                    k.upper() for k in det["forbid"]) + " models."
+                targets = units + list(self.shared_models.values())
+                for t in targets:
+                    ds = self.data.get(t["name"])
+                    if ds and banned & set(ds["keywords"]):
+                        t.setdefault("modifiers", []).append(dict(type="add", field="error", value=message,
+                                                                  conditions=[selected(det_id, scope="roster")]))
             for e in det["enhancements"]:
                 enhancements.append(self.enhancement(det, det_id, e, units))
             for s in det["stratagems"]:

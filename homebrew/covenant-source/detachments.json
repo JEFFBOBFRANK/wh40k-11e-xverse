@@ -2,7 +2,7 @@
  {
   "name": "The Great Journey",
   "dp": 3,
-  "unique": "Grunt",
+  "unique": null,
   "disposition": "Take and Hold",
   "rules": [
    {
@@ -235,7 +235,7 @@
  {
   "name": "Sangheili Warhost",
   "dp": 2,
-  "unique": "Elite",
+  "unique": null,
   "disposition": "Priority Assets",
   "rules": [
    {
@@ -348,7 +348,7 @@
  {
   "name": "Jiralhanae Warpack",
   "dp": 2,
-  "unique": "Brute",
+  "unique": null,
   "disposition": "Purge the Foe",
   "rules": [
    {
@@ -451,6 +451,1127 @@
     "when": "Start of any phase.",
     "target": "One unit from your army whose JIRALHANAE Sergeant model has already issued a Caste Doctrine this turn.",
     "effect": "That Sergeant model can issue one more Caste Doctrine this turn. If your unit is already affected by a Caste Doctrine, the new Doctrine replaces it."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Covenant Expeditionary Force",
+  "dp": 2,
+  "unique": null,
+  "disposition": "Priority Assets",
+  "rules": [
+   {
+    "name": "Castes United",
+    "text": [
+     "A Sergeant model from your army can also issue the Caste Doctrines of the species of any model in its unit. For example, a Sangheili Ultra leading a Grunt Cadre can issue Unggoy Doctrines."
+    ]
+   },
+   {
+    "name": "Combined Arms",
+    "text": [
+     "While a COVENANT INFANTRY unit from your army is within 6\" of a COVENANT VEHICLE or MOUNTED unit from your army, each time a model in either unit makes an attack, re-roll a hit roll of 1."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Hierarch's Mandate",
+    "points": 25,
+    "upgrade": false,
+    "restriction": null,
+    "text": [
+     "While the bearer is leading a unit, that unit's Sergeant model can issue one additional Caste Doctrine each battle round."
+    ]
+   },
+   {
+    "name": "Target Designator",
+    "points": 20,
+    "upgrade": false,
+    "restriction": null,
+    "text": [
+     "At the start of your Shooting phase, select one enemy unit visible to the bearer. Until the end of the phase, ranged attacks made by COVENANT VEHICLE units from your army that target that unit have [LETHAL HITS]."
+    ]
+   },
+   {
+    "name": "Veteran of Many Worlds",
+    "points": 15,
+    "upgrade": false,
+    "restriction": null,
+    "text": [
+     "Once per battle, at the start of any phase, the bearer's unit can be affected by one Caste Doctrine of your choice that can be used in that phase, as though it contained the appropriate Sergeant model."
+    ]
+   },
+   {
+    "name": "Battle Group Marshal",
+    "points": 20,
+    "upgrade": false,
+    "restriction": null,
+    "text": [
+     "Once per battle round, while the bearer is on the battlefield, you can reduce the CP cost of one Stratagem from this detachment by 1CP."
+    ]
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Coordinated Strike",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase, just after a COVENANT VEHICLE unit from your army has shot.",
+    "target": "One enemy unit hit by one or more of those attacks, and one COVENANT INFANTRY unit from your army that has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, each time a model in your INFANTRY unit makes an attack that targets that enemy unit, add 1 to the wound roll."
+   },
+   {
+    "name": "Armoured Escort",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects a COVENANT INFANTRY unit from your army within 6\" of a COVENANT VEHICLE unit from your army as the target of one or more attacks.",
+    "target": "That COVENANT INFANTRY unit.",
+    "effect": "Until the attacking unit has finished making its attacks, your unit has the benefit of cover."
+   },
+   {
+    "name": "Change of Command",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Start of any phase.",
+    "target": "One unit from your army whose Sergeant model has already issued a Caste Doctrine this battle round.",
+    "effect": "That Sergeant model can issue a different Caste Doctrine. It replaces the Doctrine affecting your unit."
+   },
+   {
+    "name": "Focused Fire",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase, just after a COVENANT unit from your army is selected to shoot.",
+    "target": "That unit.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that was hit by an attack made by another unit from your army this phase, add 1 to the hit roll."
+   },
+   {
+    "name": "Shield Relay",
+    "cp": 1,
+    "type": "Wargear Stratagem",
+    "when": "Your Command phase.",
+    "target": "One COVENANT VEHICLE unit from your army with Shields and one COVENANT INFANTRY unit from your army within 6\" of it.",
+    "effect": "Your VEHICLE unit loses up to 3 SP. Your INFANTRY unit regains that many lost SP."
+   },
+   {
+    "name": "Combined Assault",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your Charge phase, just after a COVENANT VEHICLE or MOUNTED unit from your army ends a charge move.",
+    "target": "One COVENANT INFANTRY unit from your army that has not declared a charge this phase.",
+    "effect": "Until the end of the phase, if your INFANTRY unit declares a charge against an enemy unit engaged with that VEHICLE or MOUNTED unit, you can re-roll its charge roll."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Armored Spearhead",
+  "dp": 2,
+  "unique": null,
+  "disposition": "Purge the Foe",
+  "rules": [
+   {
+    "name": "Plasma Overcharge",
+    "text": [
+     "Each time a COVENANT VEHICLE model from your army makes a ranged attack with a Plasma weapon, an unmodified hit roll of 5+ scores a critical hit."
+    ]
+   },
+   {
+    "name": "Gravity Drives",
+    "text": [
+     "COVENANT VEHICLE units from your army are eligible to shoot in a turn in which they made an advance or fall-back move. Each time one of those units resolves Regenerating Shields, it regains 1 additional lost SP."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Armour Commander",
+    "points": 20,
+    "upgrade": false,
+    "restriction": null,
+    "text": [
+     "At the start of your Shooting phase, select one friendly COVENANT VEHICLE unit within 6\" of the bearer. Until the end of the phase, ranged weapons equipped by models in that unit have [SUSTAINED HITS 1]."
+    ]
+   },
+   {
+    "name": "Veteran Crew",
+    "points": 20,
+    "upgrade": true,
+    "restriction": "Upgrade - COVENANT VEHICLE unit only.",
+    "text": [
+     "Each time a model in this unit makes a ranged attack, you can re-roll the hit roll."
+    ],
+    "eligible": {
+     "all": [
+      "Vehicle"
+     ]
+    }
+   },
+   {
+    "name": "Overcharged Shield Emitters",
+    "points": 20,
+    "upgrade": true,
+    "restriction": "Upgrade - COVENANT VEHICLE unit with Shields only.",
+    "text": [
+     "Add 3 to the starting SP of models in this unit."
+    ],
+    "eligible": {
+     "all": [
+      "Vehicle"
+     ],
+     "sp": true
+    }
+   },
+   {
+    "name": "Elite Pilot",
+    "points": 15,
+    "upgrade": true,
+    "restriction": "Upgrade - COVENANT VEHICLE unit only.",
+    "text": [
+     "Each time a ranged attack targets this unit, subtract 1 from the hit roll."
+    ],
+    "eligible": {
+     "all": [
+      "Vehicle"
+     ]
+    }
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Overcharged Cannons",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase, just after a COVENANT VEHICLE unit from your army is selected to shoot.",
+    "target": "That VEHICLE unit.",
+    "effect": "Until the end of the phase, add 1 to the S and D characteristics of Plasma weapons equipped by models in your unit. After your unit has shot, each model in it loses D3 SP."
+   },
+   {
+    "name": "Target Lock",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase, just after a COVENANT VEHICLE unit from your army is selected to shoot.",
+    "target": "That VEHICLE unit.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a VEHICLE or MONSTER unit, add 1 to the wound roll."
+   },
+   {
+    "name": "Gravity Surge",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your Shooting phase, just after an unengaged COVENANT VEHICLE unit from your army has shot.",
+    "target": "That VEHICLE unit.",
+    "effect": "Your unit can make a normal move of up to 6\"."
+   },
+   {
+    "name": "Ramming Speed",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your Charge phase, just after a COVENANT VEHICLE unit from your army ends a charge move.",
+    "target": "That VEHICLE unit.",
+    "effect": "Select one enemy unit your unit is engaged with and roll one D6. On a 2+, that enemy unit suffers D3+1 mortal wounds."
+   },
+   {
+    "name": "Reinforced Armour",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects a COVENANT VEHICLE unit from your army as the target of one or more attacks.",
+    "target": "That VEHICLE unit.",
+    "effect": "Until the attacking unit has finished making its attacks, worsen the AP characteristic of those attacks by 1."
+   },
+   {
+    "name": "Emergency Shield Reroute",
+    "cp": 1,
+    "type": "Wargear Stratagem",
+    "when": "Your opponent's Shooting phase or the Fight phase, just after the SP of a COVENANT VEHICLE model from your army is reduced to 0.",
+    "target": "That model's unit.",
+    "effect": "That model regains D3+1 lost SP."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Swords of Sanghelios",
+  "dp": 2,
+  "unique": null,
+  "disposition": "Take and Hold",
+  "rules": [
+   {
+    "name": "Separatists",
+    "text": [
+     "Your army cannot include JIRALHANAE or SAN'SHYUUM models, including Sergeant and Auxiliary models."
+    ]
+   },
+   {
+    "name": "Freed from the Lie",
+    "text": [
+     "Each time a model in an ELITE unit from your army makes an attack, re-roll a hit roll of 1 and re-roll a wound roll of 1."
+    ]
+   },
+   {
+    "name": "Brothers in Arms",
+    "text": [
+     "While a GRUNT unit from your army is within 6\" of an ELITE unit from your army, each time a model in that GRUNT unit makes an attack, re-roll a hit roll of 1, and add 1 to the OC characteristic of models in that GRUNT unit."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Blade of Sanghelios",
+    "points": 25,
+    "upgrade": false,
+    "restriction": "SANGHEILI model only.",
+    "text": [
+     "Add 1 to the S and D characteristics of melee weapons equipped by the bearer."
+    ]
+   },
+   {
+    "name": "Ancestral Armour",
+    "points": 20,
+    "upgrade": false,
+    "restriction": "SANGHEILI model only.",
+    "text": [
+     "The bearer has a 4+ invulnerable save, and add 2 to its starting SP."
+    ]
+   },
+   {
+    "name": "Vow of Vengeance",
+    "points": 15,
+    "upgrade": false,
+    "restriction": "SANGHEILI model only.",
+    "text": [
+     "At the start of the battle, select one enemy CHARACTER model. Each time the bearer makes an attack that targets that model's unit, you can re-roll the hit roll and the wound roll."
+    ]
+   },
+   {
+    "name": "Huragok Companion",
+    "points": 15,
+    "upgrade": false,
+    "restriction": "SANGHEILI model only.",
+    "text": [
+     "While the bearer is leading a unit, each time that unit resolves Regenerating Shields, it regains 1 additional lost SP."
+    ]
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "For Sanghelios!",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Fight phase, just after an ELITE unit from your army is selected to fight.",
+    "target": "That ELITE unit.",
+    "effect": "Until the end of the phase, melee weapons equipped by models in your unit have [SUSTAINED HITS 1]."
+   },
+   {
+    "name": "Shoulder to Shoulder",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects a GRUNT unit from your army within 6\" of an ELITE unit from your army as the target of one or more attacks.",
+    "target": "That GRUNT unit.",
+    "effect": "Until the attacking unit has finished making its attacks, worsen the AP characteristic of those attacks by 1."
+   },
+   {
+    "name": "Active Camouflage",
+    "cp": 1,
+    "type": "Wargear Stratagem",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects an ELITE INFANTRY unit from your army as the target of one or more attacks.",
+    "target": "That ELITE unit.",
+    "effect": "Until the attacking unit has finished making its attacks, models in your unit have the Stealth ability."
+   },
+   {
+    "name": "Avenge the Fallen",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Just after an ELITE unit from your army is destroyed.",
+    "target": "The enemy unit that destroyed it.",
+    "effect": "Until the end of your next turn, each time a model in an ELITE unit from your army makes an attack that targets that enemy unit, you can re-roll the hit roll."
+   },
+   {
+    "name": "Rally the Swords",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your Command phase.",
+    "target": "One battle-shocked GRUNT or ELITE unit from your army within 6\" of a SANGHEILI CHARACTER model from your army.",
+    "effect": "Your unit is no longer battle-shocked."
+   },
+   {
+    "name": "Plasma Grenades",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase.",
+    "target": "One ELITE or GRUNT GRENADES unit from your army that has not been selected to shoot this phase.",
+    "effect": "Select one enemy unit within 8\" of and visible to your unit, and roll six D6. For each 4+, that enemy unit suffers 1 mortal wound. Your unit is not eligible to shoot this phase."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": [],
+  "forbid": [
+   "Jiralhanae",
+   "San'Shyuum"
+  ]
+ },
+ {
+  "name": "Yig-Yar Hunting Talon",
+  "dp": 1,
+  "unique": null,
+  "disposition": "Reconnaissance",
+  "rules": [
+   {
+    "name": "Pirates of the Void",
+    "text": [
+     "**JACKAL units:** Each time a model in a JACKAL unit from your army makes an attack that targets a unit below its starting strength, you can re-roll the hit roll.",
+     "**Opportunists:** Each time a YIG-YAR Sergeant model from your army issues a Caste Doctrine, select two of its Doctrines that can be used in that phase. Its unit is affected by both."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Raider's Instinct",
+    "points": 20,
+    "upgrade": false,
+    "restriction": "YIG-YAR model only.",
+    "text": [
+     "While the bearer is leading a unit, models in that unit have the Scouts 6\" ability."
+    ]
+   },
+   {
+    "name": "Hunter's Lenses",
+    "points": 10,
+    "upgrade": true,
+    "restriction": "Upgrade - JACKAL INFANTRY unit only.",
+    "text": [
+     "Ranged weapons equipped by models in this unit have [IGNORES COVER]."
+    ]
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Scuttle to Cover",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your opponent's Shooting phase, just after an enemy unit has finished making attacks against an unengaged JACKAL unit from your army.",
+    "target": "That JACKAL unit.",
+    "effect": "Your unit can make a normal move of up to D6\"."
+   },
+   {
+    "name": "Pick Them Off",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase, just after a JACKAL unit from your army is selected to shoot.",
+    "target": "That JACKAL unit.",
+    "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have [PRECISION], and each time a model in your unit makes an attack that targets a CHARACTER unit, add 1 to the wound roll."
+   },
+   {
+    "name": "Shield Wall",
+    "cp": 1,
+    "type": "Wargear Stratagem",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects a JACKAL INFANTRY unit from your army as the target of one or more attacks.",
+    "target": "That JACKAL unit.",
+    "effect": "Until the attacking unit has finished making its attacks, models in your unit have a 4+ invulnerable save."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Drone Hive Swarm",
+  "dp": 1,
+  "unique": null,
+  "disposition": "Reconnaissance",
+  "rules": [
+   {
+    "name": "The Hive Mind",
+    "text": [
+     "**DRONE units:** DRONE units from your army are eligible to shoot and declare a charge in a turn in which they made an advance or fall-back move.",
+     "**Hive Link:** Each time a YANME'E Sergeant model from your army issues a Caste Doctrine, select one other friendly DRONE unit within 12\" of it. That unit is also affected by that Doctrine."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Hive Beacon",
+    "points": 20,
+    "upgrade": false,
+    "restriction": null,
+    "text": [
+     "Once per battle, when a DRONE unit from your army makes an ingress move while the bearer is on the battlefield, it can be set up wholly within 6\" of the bearer instead of within 6\" of a battlefield edge. All other ingress rules still apply."
+    ]
+   },
+   {
+    "name": "Brood of the Queen",
+    "points": 15,
+    "upgrade": true,
+    "restriction": "Upgrade - DRONE unit only.",
+    "text": [
+     "Add 1 to the A characteristic of ranged weapons equipped by models in this unit."
+    ],
+    "eligible": {
+     "all": [
+      "Drone"
+     ]
+    }
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Endless Hive",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your Command phase.",
+    "target": "One DRONE unit from your army that is below its starting strength.",
+    "effect": "Up to D3+1 destroyed Yanme'e Drone models are returned to your unit."
+   },
+   {
+    "name": "Needler Storm",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase, just after a DRONE unit from your army is selected to shoot.",
+    "target": "That DRONE unit.",
+    "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have [SUSTAINED HITS 1]."
+   },
+   {
+    "name": "Take to the Skies",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "End of your opponent's Fight phase.",
+    "target": "One unengaged DRONE unit from your army.",
+    "effect": "Place your unit into strategic reserves."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Bonded Colony",
+  "dp": 1,
+  "unique": null,
+  "disposition": "Priority Assets",
+  "rules": [
+   {
+    "name": "Living Colony",
+    "text": [
+     "**Colony Regeneration:** At the start of your Command phase, each model in a HUNTER unit from your army regains up to D3 lost wounds.",
+     "**Hunters of Machines:** Each time a MGALEKGOLO model from your army makes an attack that targets a VEHICLE or MONSTER unit, re-roll a wound roll of 1."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Elder Colony",
+    "points": 20,
+    "upgrade": true,
+    "restriction": "Upgrade - HUNTER unit only.",
+    "text": [
+     "Add 1 to the A characteristic of weapons equipped by models in this unit."
+    ],
+    "eligible": {
+     "all": [
+      "Hunter"
+     ]
+    }
+   },
+   {
+    "name": "Dense Colony",
+    "points": 15,
+    "upgrade": true,
+    "restriction": "Upgrade - HUNTER INFANTRY unit only.",
+    "text": [
+     "Each time an attack targets this unit, if the S characteristic of that attack is greater than the T characteristic of this unit, subtract 1 from the wound roll."
+    ]
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Bond-Brother's Vengeance",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your opponent's Shooting phase or the Fight phase, just after a MGALEKGOLO model from your army is destroyed.",
+    "target": "That model's unit.",
+    "effect": "Before removing that model, it can shoot as if it were your Shooting phase if it was destroyed in the Shooting phase, or fight if it was destroyed in the Fight phase."
+   },
+   {
+    "name": "Unstoppable Advance",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your Movement phase, just after a HUNTER unit from your army makes an advance move.",
+    "target": "That HUNTER unit.",
+    "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it made an advance move."
+   },
+   {
+    "name": "Colony Guardians",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects a COVENANT CHARACTER unit from your army within 3\" of a HUNTER unit from your army as the target of one or more attacks.",
+    "target": "That CHARACTER unit and that HUNTER unit.",
+    "effect": "Each time one of those attacks targets your CHARACTER unit, if your HUNTER unit is an eligible target for that attack, it targets your HUNTER unit instead."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Engineer Reclamation Detail",
+  "dp": 1,
+  "unique": null,
+  "disposition": "Take and Hold",
+  "rules": [
+   {
+    "name": "Mending the Fleet",
+    "text": [
+     "**ENGINEER units:** Each time an ENGINEER model from your army uses Repair and Refit, it can select a friendly COVENANT unit with Shields within 3\" of it instead of a VEHICLE or FORTIFICATION model. That unit regains D3+1 lost SP.",
+     "**HURAGOK models:** While a friendly COVENANT unit is within 3\" of one or more HURAGOK models from your army, each time it resolves Regenerating Shields, it regains 1 additional lost SP."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Dual Repair Protocols",
+    "points": 20,
+    "upgrade": false,
+    "restriction": "HURAGOK model only.",
+    "text": [
+     "The bearer can use Repair and Refit twice per turn, selecting a different model or unit each time."
+    ]
+   },
+   {
+    "name": "Huragok-Tended Systems",
+    "points": 15,
+    "upgrade": true,
+    "restriction": "Upgrade - COVENANT VEHICLE unit only.",
+    "text": [
+     "Each time this unit resolves Regenerating Shields, it regains 1 additional lost SP."
+    ],
+    "eligible": {
+     "all": [
+      "Vehicle"
+     ]
+    }
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Emergency Restoration",
+    "cp": 1,
+    "type": "Wargear Stratagem",
+    "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has finished making attacks against a COVENANT unit from your army within 6\" of an ENGINEER model from your army.",
+    "target": "That COVENANT unit.",
+    "effect": "Your unit regains D3 lost SP."
+   },
+   {
+    "name": "Harmonised Shields",
+    "cp": 1,
+    "type": "Wargear Stratagem",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects a COVENANT unit from your army within 6\" of an ENGINEER model from your army as the target of one or more attacks.",
+    "target": "That COVENANT unit.",
+    "effect": "Until the attacking unit has finished making its attacks, Shield Saves made for models in your unit succeed on a 2+."
+   },
+   {
+    "name": "Overcharged Systems",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase, just after a COVENANT VEHICLE unit from your army within 6\" of an ENGINEER model from your army is selected to shoot.",
+    "target": "That VEHICLE unit.",
+    "effect": "Until the end of the phase, add 1 to hit rolls for ranged attacks made by models in your unit. After your unit has shot, each model in it loses D3 SP."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Grunt Levy",
+  "dp": 1,
+  "unique": null,
+  "disposition": "Take and Hold",
+  "rules": [
+   {
+    "name": "Strength in Numbers",
+    "text": [
+     "**GRUNT units:** While a GRUNT unit from your army contains 10 or more models, add 1 to the A characteristic of ranged weapons equipped by models in that unit.",
+     "**Mob Mentality:** Each time an UNGGOY Sergeant model from your army issues a Caste Doctrine, every other friendly GRUNT unit within 6\" of it is also affected by that Doctrine."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Rallying Sermon",
+    "points": 15,
+    "upgrade": false,
+    "restriction": "UNGGOY model only.",
+    "text": [
+     "While the bearer is leading a unit, add 1 to the OC characteristic of models in that unit, and you can re-roll battle-shock rolls made for it."
+    ]
+   },
+   {
+    "name": "Grenadier Cadre",
+    "points": 10,
+    "upgrade": true,
+    "restriction": "Upgrade - GRUNT INFANTRY unit only.",
+    "text": [
+     "Once per battle round, when this unit is selected to shoot, select one enemy unit within 8\" of and visible to it, and roll six D6. For each 5+, that enemy unit suffers 1 mortal wound."
+    ]
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Expendable Screen",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects a non-GRUNT COVENANT INFANTRY unit from your army within 3\" of a GRUNT unit from your army as the target of one or more attacks.",
+    "target": "That INFANTRY unit and that GRUNT unit.",
+    "effect": "Each time one of those attacks targets your INFANTRY unit, if your GRUNT unit is an eligible target for that attack, it targets your GRUNT unit instead."
+   },
+   {
+    "name": "Reinforce the Levy",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your Command phase.",
+    "target": "One Grunt Cadre unit from your army that is below its starting strength.",
+    "effect": "Up to D3+2 destroyed Unggoy Warrior models are returned to your unit."
+   },
+   {
+    "name": "Grenade Rush",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Charge phase, just after a GRUNT unit from your army ends a charge move.",
+    "target": "That GRUNT unit.",
+    "effect": "Select one enemy unit your unit is engaged with, and roll one D6 for each model in your unit, to a maximum of 10. For each 5+, that enemy unit suffers 1 mortal wound."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Siege Engines",
+  "dp": 1,
+  "unique": null,
+  "disposition": "Disruption",
+  "rules": [
+   {
+    "name": "Striding Siege",
+    "text": [
+     "**WALKER units:** COVENANT WALKER units from your army are eligible to shoot and declare a charge in a turn in which they made an advance move, and they can move over terrain features 4\" or less in height as though they were not there.",
+     "**Siege Weapons:** Ranged weapons equipped by COVENANT WALKER models from your army have [IGNORES COVER]."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Siege Coordinator",
+    "points": 15,
+    "upgrade": false,
+    "restriction": null,
+    "text": [
+     "At the start of your Shooting phase, select one friendly COVENANT WALKER unit within 6\" of the bearer. Until the end of the phase, add 1 to wound rolls for ranged attacks made by models in that unit."
+    ]
+   },
+   {
+    "name": "Stabilised Platform",
+    "points": 15,
+    "upgrade": true,
+    "restriction": "Upgrade - COVENANT WALKER unit only.",
+    "text": [
+     "If this unit remained stationary this turn, add 1 to the A characteristic of ranged weapons equipped by models in this unit."
+    ],
+    "eligible": {
+     "all": [
+      "Walker"
+     ]
+    }
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Crushing Stride",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your Movement phase, just after a COVENANT WALKER unit from your army makes a normal or advance move.",
+    "target": "That WALKER unit.",
+    "effect": "Select one enemy INFANTRY unit within 3\" of your unit, and roll six D6. For each 5+, that enemy unit suffers 1 mortal wound."
+   },
+   {
+    "name": "Siege Stance",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase, just after a COVENANT WALKER unit from your army that remained stationary this turn is selected to shoot.",
+    "target": "That WALKER unit.",
+    "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have [SUSTAINED HITS 1]."
+   },
+   {
+    "name": "Overshield Projectors",
+    "cp": 1,
+    "type": "Wargear Stratagem",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects a COVENANT WALKER unit from your army as the target of one or more attacks.",
+    "target": "That WALKER unit.",
+    "effect": "Until the attacking unit has finished making its attacks, each time one of those attacks targets your unit, if its S characteristic is greater than the T characteristic of your unit, subtract 1 from the wound roll."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Engines of Purification",
+  "dp": 1,
+  "unique": null,
+  "disposition": "Purge the Foe",
+  "rules": [
+   {
+    "name": "Wrath of the Hierarchs",
+    "text": [
+     "**TITANIC units:** COVENANT TITANIC models from your army ignore the hit-roll penalty of their Damaged ability, and each time one of them makes an attack, re-roll a hit roll of 1.",
+     "**Titan Shields:** Each time a COVENANT TITANIC unit from your army resolves Regenerating Shields, it regains D3 additional lost SP."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Holy Gunnery Crew",
+    "points": 25,
+    "upgrade": true,
+    "restriction": "Upgrade - COVENANT TITANIC unit only.",
+    "text": [
+     "Each time this unit is selected to shoot, select one ranged weapon equipped by a model in it. Until the end of the phase, you can re-roll hit rolls for attacks made with that weapon."
+    ],
+    "eligible": {
+     "all": [
+      "Titanic"
+     ]
+    }
+   },
+   {
+    "name": "Shield Amplifier Array",
+    "points": 30,
+    "upgrade": true,
+    "restriction": "Upgrade - COVENANT TITANIC unit with Shields only.",
+    "text": [
+     "Add 4 to the starting SP of models in this unit."
+    ],
+    "eligible": {
+     "all": [
+      "Titanic"
+     ],
+     "sp": true
+    }
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Glassing Strike",
+    "cp": 2,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase, just after a COVENANT TITANIC unit from your army is selected to shoot.",
+    "target": "That TITANIC unit.",
+    "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have [DEVASTATING WOUNDS]."
+   },
+   {
+    "name": "Unstoppable Behemoth",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your Movement phase, just after an engaged COVENANT TITANIC unit from your army is selected to make a fall-back move.",
+    "target": "That TITANIC unit.",
+    "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it made a fall-back move."
+   },
+   {
+    "name": "Emergency Shield Surge",
+    "cp": 1,
+    "type": "Wargear Stratagem",
+    "when": "Your opponent's Shooting phase or the Fight phase, just after the SP of a COVENANT TITANIC model from your army is reduced to 0.",
+    "target": "That model's unit.",
+    "effect": "That model regains D6 lost SP."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Special Operations",
+  "dp": 1,
+  "unique": null,
+  "disposition": "Disruption",
+  "rules": [
+   {
+    "name": "Shadow War",
+    "text": [
+     "SPECIAL OPERATIONS, RANGER, ASSASSIN and BLADEMASTER units from your army are Spec Ops units.",
+     "**Spec Ops units:** Models in Spec Ops units from your army have the Stealth ability.",
+     "**Every Blade a Shadowmaster:** Once per battle round, at the start of any phase, each Spec Ops INFANTRY unit from your army can issue one Sangheili Special Operations Doctrine to itself, as though it contained a Shadowmaster."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Silent Blade",
+    "points": 20,
+    "upgrade": false,
+    "restriction": "SANGHEILI model only.",
+    "text": [
+     "Melee weapons equipped by the bearer have [PRECISION] and [LETHAL HITS]."
+    ]
+   },
+   {
+    "name": "Advanced Active Camouflage",
+    "points": 15,
+    "upgrade": true,
+    "restriction": "Upgrade - SPECIAL OPERATIONS, RANGER or ASSASSIN INFANTRY unit only.",
+    "text": [
+     "Each time a ranged attack targets this unit, subtract 1 from the hit roll."
+    ],
+    "eligible": {
+     "any": [
+      "Special Operations",
+      "Ranger",
+      "Assassin"
+     ],
+     "all": [
+      "Infantry"
+     ]
+    }
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Booby Trap",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "End of your opponent's Movement phase.",
+    "target": "One enemy unit within 6\" of a Spec Ops unit from your army.",
+    "effect": "Roll one D6. On a 3+, that enemy unit suffers D3 mortal wounds."
+   },
+   {
+    "name": "Vanish",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "End of your opponent's Fight phase.",
+    "target": "One unengaged Spec Ops INFANTRY unit from your army.",
+    "effect": "Place your unit into strategic reserves."
+   },
+   {
+    "name": "Decapitate",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase or the Fight phase, just after a Spec Ops unit from your army is selected to shoot or fight.",
+    "target": "That Spec Ops unit.",
+    "effect": "Until the end of the phase, weapons equipped by models in your unit have [PRECISION], and each time a model in your unit makes an attack that targets a CHARACTER unit, add 1 to the wound roll."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Hierarchs' Court",
+  "dp": 1,
+  "unique": null,
+  "disposition": "Priority Assets",
+  "rules": [
+   {
+    "name": "The Hierarchs' Will",
+    "text": [
+     "**SAN'SHYUUM models:** Add 3\" to the range of abilities of SAN'SHYUUM models from your army.",
+     "**Sworn Protectors:** While an HONOR GUARD or ENTOURAGE unit from your army contains a CHARACTER model, add 1 to the A characteristic of melee weapons equipped by models in that unit, and its models have the Feel No Pain 5+ ability."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Gravity Throne Shield",
+    "points": 20,
+    "upgrade": false,
+    "restriction": "SAN'SHYUUM model only.",
+    "text": [
+     "The bearer has a 4+ invulnerable save and a starting SP of 3."
+    ]
+   },
+   {
+    "name": "Ceremonial Energy Staves",
+    "points": 15,
+    "upgrade": true,
+    "restriction": "Upgrade - HONOR GUARD unit only.",
+    "text": [
+     "Melee weapons equipped by models in this unit have [LETHAL HITS]."
+    ],
+    "eligible": {
+     "all": [
+      "Honor Guard"
+     ]
+    }
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Protect the Hierarch",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects an unattached SAN'SHYUUM CHARACTER unit from your army as the target of one or more attacks.",
+    "target": "That SAN'SHYUUM unit and one HONOR GUARD or ENTOURAGE unit from your army within 3\" of it.",
+    "effect": "Each time one of those attacks targets your SAN'SHYUUM unit, if your HONOR GUARD or ENTOURAGE unit is an eligible target for that attack, it targets that unit instead."
+   },
+   {
+    "name": "Holy Decree",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Start of any phase.",
+    "target": "One SAN'SHYUUM model from your army.",
+    "effect": "Select one friendly COVENANT unit within 12\" of that model and one Caste Doctrine that can be used in that phase. Until the end of the phase, that unit is affected by that Doctrine."
+   },
+   {
+    "name": "Divine Retribution",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Fight phase, just after an HONOR GUARD or ENTOURAGE unit from your army within 6\" of a SAN'SHYUUM CHARACTER model from your army is selected to fight.",
+    "target": "That unit.",
+    "effect": "Until the end of the phase, each time a model in your unit makes a melee attack, add 1 to the hit roll and add 1 to the wound roll."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Fleet Aviation",
+  "dp": 1,
+  "unique": null,
+  "disposition": "Purge the Foe",
+  "rules": [
+   {
+    "name": "Masters of the Sky",
+    "text": [
+     "Banshee, Vampire and Seraph units from your army are Fleet Aviation units.",
+     "**Air Superiority:** Each time a model in a Fleet Aviation unit from your army makes a ranged attack, re-roll a hit roll of 1. If the target has the FLY keyword, you can re-roll the hit roll instead.",
+     "**Strike and Withdraw:** After a Fleet Aviation unit from your army has shot, if it is unengaged, it can make a normal move of up to 6\"."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Ace Pilot",
+    "points": 20,
+    "upgrade": true,
+    "restriction": "Upgrade - Banshee, Vampire or Seraph unit only.",
+    "text": [
+     "Improve the BS characteristic of ranged weapons equipped by models in this unit by 1."
+    ],
+    "eligible": {
+     "names": [
+      "Banshee",
+      "Vampire",
+      "Seraph"
+     ]
+    }
+   },
+   {
+    "name": "Fuel Rod Payload",
+    "points": 15,
+    "upgrade": true,
+    "restriction": "Upgrade - Banshee, Vampire or Seraph unit only.",
+    "text": [
+     "Once per battle, after this unit makes a normal move, select one enemy unit it moved over during that move and roll one D6. On a 2+, that enemy unit suffers D3+3 mortal wounds."
+    ],
+    "eligible": {
+     "names": [
+      "Banshee",
+      "Vampire",
+      "Seraph"
+     ]
+    }
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Strafing Pass",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase, just after a Fleet Aviation unit from your army is selected to shoot.",
+    "target": "That Fleet Aviation unit.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit without the FLY keyword, that attack has [SUSTAINED HITS 1]."
+   },
+   {
+    "name": "Dogfight",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase, just after a Fleet Aviation unit from your army is selected to shoot.",
+    "target": "That Fleet Aviation unit.",
+    "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit with the FLY keyword, add 1 to the wound roll."
+   },
+   {
+    "name": "Return to the Carrier",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "End of your opponent's turn.",
+    "target": "One Fleet Aviation unit from your army.",
+    "effect": "Place your unit into strategic reserves. Each model in it regains all of its lost SP."
+   }
+  ],
+  "rules_intro": [],
+  "enhancements_intro": []
+ },
+ {
+  "name": "Ghost Lances",
+  "dp": 1,
+  "unique": null,
+  "disposition": "Reconnaissance",
+  "rules": [
+   {
+    "name": "Lances of the Covenant",
+    "text": [
+     "**MOUNTED units:** COVENANT MOUNTED units from your army are eligible to shoot and declare a charge in a turn in which they made an advance or fall-back move.",
+     "**Splatter:** Each time a COVENANT MOUNTED unit from your army ends a charge move, select one enemy unit it is engaged with and roll one D6. On a 4+, that enemy unit suffers D3 mortal wounds."
+    ]
+   }
+  ],
+  "enhancements": [
+   {
+    "name": "Veteran Riders",
+    "points": 15,
+    "upgrade": true,
+    "restriction": "Upgrade - COVENANT MOUNTED unit only.",
+    "text": [
+     "Each time a model in this unit makes an attack, re-roll a hit roll of 1. Add 1 to the OC characteristic of models in this unit."
+    ],
+    "eligible": {
+     "all": [
+      "Mounted"
+     ]
+    }
+   },
+   {
+    "name": "Boosted Thrusters",
+    "points": 10,
+    "upgrade": true,
+    "restriction": "Upgrade - COVENANT MOUNTED unit only.",
+    "text": [
+     "Add 2\" to the M characteristic of models in this unit. Each time this unit makes an advance move, do not make an advance roll; add 6\" instead."
+    ],
+    "eligible": {
+     "all": [
+      "Mounted"
+     ]
+    }
+   }
+  ],
+  "stratagems": [
+   {
+    "name": "Ride Them Down",
+    "cp": 1,
+    "type": "Battle Tactic Stratagem",
+    "when": "Fight phase, just after a COVENANT MOUNTED unit from your army that made a charge move this turn is selected to fight.",
+    "target": "That MOUNTED unit.",
+    "effect": "Until the end of the phase, each time a model in your unit makes a melee attack, add 1 to the wound roll."
+   },
+   {
+    "name": "Hit and Fade",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your Shooting phase, just after an unengaged COVENANT MOUNTED unit from your army has shot.",
+    "target": "That MOUNTED unit.",
+    "effect": "Your unit can make a normal move of up to 6\". It is not eligible to declare a charge this turn."
+   },
+   {
+    "name": "Evasive Boost",
+    "cp": 1,
+    "type": "Strategic Ploy Stratagem",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects a COVENANT MOUNTED unit from your army as the target of one or more attacks.",
+    "target": "That MOUNTED unit.",
+    "effect": "Until the attacking unit has finished making its attacks, subtract 1 from the hit rolls for those attacks."
    }
   ],
   "rules_intro": [],

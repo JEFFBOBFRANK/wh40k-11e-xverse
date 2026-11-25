@@ -101,7 +101,7 @@ def main():
 
     det_entry = entries["Detachment"]
     options = det_entry["selectionEntryGroups"][0]["selectionEntries"]
-    check(len(options) == len(dets) == 4, f"{len(options)} detachments, expected 4")
+    check(len(options) == len(dets) == 18, f"{len(options)} detachments, expected 18")
     by_name = {o["name"]: o for o in options}
     strat_ref = entries["Stratagem References"]
     strat_names = {rules[l["targetId"]]["name"] for l in strat_ref["infoLinks"]}

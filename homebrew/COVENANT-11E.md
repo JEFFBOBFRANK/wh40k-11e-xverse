@@ -56,8 +56,7 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
   PNG or SVG) to use another image.
 - Army Rules and References: Caste Hierarchy, Shielding Trait, Chosen of the Hierarchs, Caste Doctrines, Supercombine, Plasma,
   Siegebreaker and Wargear Costs. Weapons link Supercombine, Plasma and Siegebreaker, and the core rules.
-- 4 detachments with their DP and Force Disposition (see the detachment overhaul below). "KEYWORD: X" in the codex
-  is Unique: only one detachment with the same keyword can be taken.
+- 18 detachments with their DP and Force Disposition (see the detachments below). None is Unique.
   Enhancements appear only on eligible units of the chosen detachment; Upgrades that up to three units can
   take share one Enhancement selection. An Attached Unit can have only one Enhancement or Upgrade.
   Stratagem References follows the chosen detachments.
@@ -81,6 +80,39 @@ repeated another rule (12,812 -> 11,916 words in datasheets and detachments, plu
   Supercombine as "1 mortal wound", Wargear Costs in one sentence).
 - Every Upgrade can now be taken by up to three units, as 11e allows. Thirteen Upgrades that did not say "up to three"
   were limited to one before.
+
+## Detachments (revision 12)
+
+18 detachments, none Unique. Species detachments have a rule for the unit keyword (ELITE, BRUTE, GRUNT, JACKAL, DRONE,
+HUNTER, ENGINEER) and one for the species keyword, which also reaches that species' Sergeants and Auxiliaries in
+other units; where the species has Sergeants, that rule changes how they issue Doctrines.
+
+| DP | Detachment | Disposition | Core of the rules |
+|---|---|---|---|
+| 3 | The Great Journey | Take and Hold | Fanatical Doctrines from SAN'SHYUUM; GRUNT units shoot and charge after advancing |
+| 2 | Fleetborne Invasion | Take and Hold | Assault Disembark from Spirits, Phantoms and Liches; +1 OC near a vessel |
+| 2 | Sangheili Warhost | Priority Assets | Worthy Foe (+1 to wound); SANGHEILI Doctrines last the turn |
+| 2 | Jiralhanae Warpack | Purge the Foe | +1 A after a charge; JIRALHANAE Sergeants issue a Doctrine in each player's turn |
+| 2 | Covenant Expeditionary Force | Priority Assets | Sergeants issue the Doctrines of every species in their unit; infantry and vehicles within 6" re-roll hit rolls of 1 |
+| 2 | Armored Spearhead | Purge the Foe | VEHICLE Plasma weapons score critical hits on 5+; shoot after advancing or falling back; +1 SP regeneration |
+| 2 | Swords of Sanghelios | Take and Hold | No JIRALHANAE or SAN'SHYUUM models; ELITE re-roll hit and wound rolls of 1; GRUNT near ELITE re-roll hit rolls of 1, +1 OC |
+| 1 | Yig-Yar Hunting Talon | Reconnaissance | JACKAL re-roll hit rolls against units below starting strength; Talons issue two Doctrines at once |
+| 1 | Drone Hive Swarm | Reconnaissance | DRONE units shoot and charge after advancing or falling back; a Major's Doctrine also reaches another DRONE unit |
+| 1 | Bonded Colony | Priority Assets | HUNTER models regain D3 wounds each Command phase; MGALEKGOLO re-roll wound rolls of 1 against VEHICLES and MONSTERS |
+| 1 | Engineer Reclamation Detail | Take and Hold | Repair and Refit restores infantry shields; +1 SP regeneration within 3" of a HURAGOK |
+| 1 | Grunt Levy | Take and Hold | +1 A for GRUNT units of 10+ models; Unggoy Sergeants' Doctrines reach GRUNT units within 6" |
+| 1 | Siege Engines | Disruption | WALKERS shoot and charge after advancing, cross terrain up to 4", [IGNORES COVER] |
+| 1 | Engines of Purification | Purge the Foe | TITANIC models ignore the Damaged penalty and re-roll hit rolls of 1; +D3 SP regeneration |
+| 1 | Special Operations | Disruption | Spec Ops units have Stealth and issue Special Operations Doctrines to themselves |
+| 1 | Hierarchs' Court | Priority Assets | +3" to SAN'SHYUUM abilities; HONOR GUARD and ENTOURAGE with a CHARACTER get +1 A and Feel No Pain 5+ |
+| 1 | Fleet Aviation | Purge the Foe | Banshees, Vampires and Seraphs re-roll hit rolls of 1 (all hit rolls against FLY) and move 6" after shooting |
+| 1 | Ghost Lances | Reconnaissance | MOUNTED units shoot and charge after advancing or falling back; mortal wounds after a charge |
+
+- Swords of Sanghelios: New Recruit shows an error on each JIRALHANAE or SAN'SHYUUM unit, Sergeant or Auxiliary.
+- Upgrades that name unit types (VEHICLE, WALKER, TITANIC with Shields, Banshee/Vampire/Seraph, SPECIAL OPERATIONS,
+  RANGER or ASSASSIN INFANTRY...) carry an `eligible` rule in `detachments.json`: `all` keywords, `any` keywords,
+  datasheet `names` and `sp` (needs Shields). Upgrades never go on CHARACTER, Sergeant or Auxiliary entries.
+- Enhancements without a restriction fit any CHARACTER that is not an Epic Hero.
 
 ## Detachment overhaul (revision 11)
 
