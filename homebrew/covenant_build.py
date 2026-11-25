@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 10
+REVISION = 11
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -34,7 +34,6 @@ ARMY_RULES = ["Caste Hierarchy", "Shielding Trait", "Chosen of the Hierarchs", "
               "Wargear Costs"]
 WEAPON_RULES = {"Supercombine": r"\bSupercombine\b", "Plasma": r"\bPlasma \((?:D|AP)[\dD+]+\)",
                 "Siegebreaker": r"\bSiegebreaker\b"}
-INVASION_VESSELS = {"Spirit", "Phantom", "Lich", "Kraken"}
 # Commanders with Chosen of the Hierarchs (+1CP each battle round while your Warlord), as EC's Sublime Strategist.
 WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel 'Vadam", "Rtas 'Vadum", "Tartarus",
               "Sangheili Shipmaster", "Sangheili Fieldmaster", "Jiralhanae Chieftain", "Yig-Yar Corsair-Talon"}
@@ -45,7 +44,6 @@ TORMENTOR_STYLE = {"Jiralhanae Assault Pack"}
 # models). The unit keywords (GRUNT, ELITE, BRUTE, JACKAL, DRONE, HUNTER, ENGINEER) are on datasheets only.
 SPECIES = {"Sangheili", "Special Operations", "Jiralhanae", "Yig-Yar", "T'vaoan", "Unggoy", "Huragok", "Yanme'e",
            "San'Shyuum", "Mgalekgolo", "Lekgolo"}
-SHADOW_CELL_KEYWORDS = {"Special Operations", "Ranger", "Assassin", "Blademaster"}
 
 
 def nid(key):
@@ -839,40 +837,20 @@ class Builder:
         restriction = self.plain_keywords(enh["restriction"] or "")
         character = "Character" in kws and "Epic Hero" not in kws
         if not enh["upgrade"]:
-            if "Shipmaster model only" in restriction:
-                return ds["name"] == "Sangheili Shipmaster"
-            if "Fieldmaster model only" in restriction:
-                return ds["name"] == "Sangheili Fieldmaster"
-            if restriction.startswith("Huragok Character"):
-                return character and "Huragok" in kws
-            if det["name"] == "The Great Journey":
-                return character and bool(kws & {"San'Shyuum", "Unggoy"})
-            return character
+            m = re.match(r"(.+?) model only\.?$", restriction)  # SANGHEILI model only. / SAN'SHYUUM or UNGGOY model only.
+            if not m:
+                return character
+            names = m.group(1).split(" or ")
+            if any(n in self.data for n in names):  # a named datasheet: Sangheili Shipmaster model only.
+                return ds["name"] in names
+            return character and bool(kws & set(names))
         if cat in ("SERGEANT", "AUXILIARY") or "Character" in kws and "excluding Character" in restriction:
             return False
-        r = restriction
-        if "Invasion Vessel" in r:
-            return ds["name"] in INVASION_VESSELS
-        if "Shadow Cell" in r:
-            return bool(kws & SHADOW_CELL_KEYWORDS) and "Infantry" in kws and "Character" not in kws
-        if "Armored Spearhead" in r:
-            ok = bool(kws & {"Vehicle", "Mounted"}) and not kws & {"Aircraft", "Titanic"}
-            if "SP characteristic" in r:
-                ok = ok and bool(ds["profile"].get("SP"))
-            return ok
-        if "Grunt Cadre unit" in r:
-            return ds["name"] == "Grunt Cadre"
-        if "Suicide Grunts unit" in r:
-            return ds["name"] == "Suicide Grunts"
-        if "Yanme'e Major model" in r or "Drone Swarm unit" in r:
-            return ds["name"] == "Yanme'e Drone Swarm"
-        if "Mgalekgolo unit" in r or "Hunter unit" in r:
-            return "Hunter" in kws
-        m = re.match(r"Upgrade - (\S+(?: \S+)?) Infantry unit only", r)
+        m = re.match(r"Upgrade - (\S+(?: \S+)?) Infantry unit only", restriction)
         if m:
             kw = m.group(1)
             return "Infantry" in kws and (kw == "Covenant" or kw in kws) and "Character" not in kws
-        self.log.append(f"Unrecognised restriction for {enh['name']}: {r}")
+        self.log.append(f"Unrecognised restriction for {enh['name']}: {restriction}")
         return False
 
     def detachments(self, units):

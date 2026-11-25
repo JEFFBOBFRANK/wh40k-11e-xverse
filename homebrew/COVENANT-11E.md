@@ -56,8 +56,8 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
   PNG or SVG) to use another image.
 - Army Rules and References: Caste Hierarchy, Shielding Trait, Chosen of the Hierarchs, Caste Doctrines, Supercombine, Plasma,
   Siegebreaker and Wargear Costs. Weapons link Supercombine, Plasma and Siegebreaker, and the core rules.
-- 12 detachments with their DP and Force Disposition. "KEYWORD: X" in the codex is Unique: only one
-  detachment with the same keyword (e.g. The Great Journey and Grunt Levy, both Grunt) can be taken.
+- 4 detachments with their DP and Force Disposition (see the detachment overhaul below). "KEYWORD: X" in the codex
+  is Unique: only one detachment with the same keyword can be taken.
   Enhancements appear only on eligible units of the chosen detachment; Upgrades that up to three units can
   take share one Enhancement selection. An Attached Unit can have only one Enhancement or Upgrade.
   Stratagem References follows the chosen detachments.
@@ -82,6 +82,40 @@ repeated another rule (12,812 -> 11,916 words in datasheets and detachments, plu
 - Every Upgrade can now be taken by up to three units, as 11e allows. Thirteen Upgrades that did not say "up to three"
   were limited to one before.
 
+## Detachment overhaul (revision 11)
+
+Four detachments are kept and rewritten: The Great Journey, Fleetborne Invasion, the Sangheili Warhost and the
+Jiralhanae Warpack. The other eight (Covenant Expeditionary Force, Yig-Yar Hunting Talon, Shadow Cell, Armored
+Spearhead, Grunt Levy, Drone Hive Swarm, Bonded Colony, Engineer Reclamation Detail) are removed. Each species
+detachment has a rule for its unit keyword and one for its species keyword, which also reaches that species'
+Sergeants and Auxiliaries in other units, including a change to how that species' Sergeants issue Doctrines.
+
+- **The Great Journey (3DP, GRUNT, Take and Hold).** Fanatical Doctrines: once per turn each SAN'SHYUUM model gives
+  one COVENANT INFANTRY unit within 6" a Fanatical Doctrine until the end of the turn (Shielded by Faith 4+
+  invulnerable save, Claim the Sacred Path +2 OC, Wrath of the Prophets [SUSTAINED HITS 1]; Armour of the Faithful
+  is gone). Fevered Pilgrimage: GRUNT units can shoot and charge after advancing. Devoted: UNGGOY Sergeants issue a
+  Fanatical Doctrine each battle round as well as their Caste Doctrine. The Stratagems target GRUNT units instead of
+  units affected by a Fanatical Doctrine; Martyr's Zeal replaces the Fevered Pilgrimage Stratagem. 3DP needs Strike
+  Force (Incursion gives 2DP).
+- **Fleetborne Invasion (2DP, Take and Hold).** Invasion Vessels are the Spirit, Phantom and Lich (not the Kraken).
+  Drop Assault: units disembarking from a vessel that did not arrive from reserves this turn can make an Assault
+  Disembark move (11e core 18.06) and still charge. Beachhead: +1 OC for COVENANT INFANTRY within 6" of a vessel,
+  replacing Landing Force. New Stratagems: Hot Drop (2CP, Assault Disembark on the turn of arrival),
+  Gravity-Lift Insertion (Shock Disembark after the vessel advanced) and Strafing Run (six D6, twelve for a Lich,
+  a mortal wound on each 4+ against a unit the vessel moved over). Cut: Orbital Descent Vector (the datasheets'
+  Rapid Aerial Insertion already does it), Launch the Second Wave, Renewed Glassing Authorisation, Fleet Command
+  Network, and three of the seven Enhancements.
+- **Sangheili Warhost (2DP, ELITE, Priority Assets).** Worthy Foe: one enemy unit each battle round, +1 to wound for
+  ELITE units against it. Shields of the Sangheili: SANGHEILI models re-roll a Shield Save of 1, units with SANGHEILI
+  models add 1 to battle-shock rolls, and Doctrines issued by SANGHEILI Sergeants last until the end of the turn.
+  Exultant and Honour-Bound Veterans are gone. Enhancements: Blade of the Kaidon, Mark of Glory (1CP when the
+  bearer's unit destroys the Worthy Foe), Kaidon's Shield Generator, Hunter's Eye.
+- **Jiralhanae Warpack (2DP, BRUTE, Purge the Foe).** Bloodlust: +1 A on melee weapons after a charge move. Pack
+  Dominance: units with JIRALHANAE models re-roll charge rolls, and JIRALHANAE Sergeants issue a Doctrine in each
+  player's turn. Pack Encirclement is gone. Pin the Prey is 2CP; Hold Them Fast forces a Desperate Escape test.
+- Enhancement restrictions read "SANGHEILI model only", "SAN'SHYUUM or UNGGOY model only" or name a datasheet
+  ("Sangheili Shipmaster model only"); they go on CHARACTERS that are not Epic Heroes.
+
 ## Keywords (revision 10)
 
 - As in the core rules (02.05.01), a unit has the keywords of all its models, Sergeants and Auxiliaries included: a
@@ -91,13 +125,10 @@ repeated another rule (12,812 -> 11,916 words in datasheets and detachments, plu
   (Unggoy), ELITE (Sangheili), BRUTE (Jiralhanae), JACKAL (Yig-Yar and T'vaoan), DRONE (Yanme'e), HUNTER (Mgalekgolo)
   and ENGINEER (Huragok), the names the detachments' Unique tags use. BRUTE was taken off the Pack Alpha and the
   Jiralhanae Auxiliary. The Goblin Battlesuit (UNGGOY) is GRUNT and the Yig-Yar Raider-Skiff is JACKAL.
-- Rules that target a species' units use its unit keyword, so they hit the same units as before: the Sangheili Warhost
-  (ELITE), Jiralhanae Warpack (BRUTE), Yig-Yar Hunting Talon (JACKAL), Bonded Colony (HUNTER) and Engineer Reclamation
-  Detail (ENGINEER) rules, the Unggoy Deacon's Voice of the Deacon and Religious Authority (GRUNT), Consecrated War
-  Harnesses and Massed Plasma Volley (GRUNT), the Raider-Skiff's Raider Extraction (JACKAL) and the Yanme'e Major's
-  Control Node (DRONE). Rules about models ("each SANGHEILI model") keep the species keyword.
-- Grunt Levy rules that return Unggoy Warriors name the Grunt Cadre. Expendable Screen protects non-GRUNT units.
-- Shadow Cell keeps its exception: Sergeant and Auxiliary keywords do not make a unit a Shadow Cell unit.
+- Rules that target a species' units use its unit keyword: the detachment rules for ELITE, BRUTE and GRUNT units, the
+  Unggoy Deacon's Voice of the Deacon and Religious Authority (GRUNT), Consecrated War Harnesses (GRUNT), the
+  Raider-Skiff's Raider Extraction (JACKAL) and the Yanme'e Major's Control Node (DRONE). Rules about models ("each
+  SANGHEILI model") keep the species keyword.
 
 ## Sergeant and Auxiliary weapons (revision 8)
 

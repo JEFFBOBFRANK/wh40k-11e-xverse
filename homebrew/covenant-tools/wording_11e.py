@@ -126,45 +126,9 @@ NON_KW = re.compile(rf"\bnon-({KW})\b")
 AGAINST_KW = re.compile(rf"\bagainst ((?:{KW})s?(?:(?:, | or | and )(?:{KW})s?)*)\b")
 
 # ---------------------------------------------------------------- hand rewrites, keyed by (owner, rule name)
-REWRITES = {
-    ("The Great Journey", "Fanatical Doctrines"): [
-        "SAN'SHYUUM models from your army have the following ability.",
-        "**Voice of the Great Journey:** At the start of any phase, this model can issue one Fanatical Doctrine "
-        "it has not issued this turn to one friendly COVENANT INFANTRY unit within 6\" that is not affected by a "
-        "Fanatical Doctrine. Until the end of the phase, that unit is affected by that Doctrine. Each SAN'SHYUUM "
-        "model can issue one Fanatical Doctrine per phase. A unit can be affected by one Caste Doctrine and one "
-        "Fanatical Doctrine at the same time.",
-        "**Shielded by Faith:** Models in this unit have a 4+ invulnerable save.\n"
-        "**Claim the Sacred Path:** Add 2 to the OC characteristic of models in this unit.\n"
-        "**Armour of the Faithful:** Improve the Sv characteristic of models in this unit by 1 (to a maximum of 2+)."],
-    ("The Great Journey", "Devoted Sergeants"): [
-        "UNGGOY Sergeant models from your army have the following ability.",
-        "**Fanatical Preacher:** At the start of any phase, instead of issuing a Caste Doctrine this battle round, "
-        "this model can issue one Fanatical Doctrine to its unit."],
-    ("Covenant Expeditionary Force", "Integrated Battle Groups"): [
-        "Line Elements are friendly COVENANT INFANTRY and MOUNTED units. Support Elements are friendly COVENANT "
-        "VEHICLE and MONSTER units.",
-        "After a Line Element has made its attacks, select one enemy unit it hit: that unit is Designated until "
-        "the end of the phase. After a Support Element has made its attacks, select one enemy unit it hit: that "
-        "unit is Suppressed until the end of the phase.",
-        "Each time a model in a Support Element attacks a Designated unit, add 1 to the hit roll. Each time a model "
-        "in a Line Element attacks a Suppressed unit, improve the AP characteristic of that attack by 1."],
-    ("Yig-Yar Hunting Talon", "Scuttle to Cover"): [
-        "Once per battle round, each time a friendly YIG-YAR unit is selected as the target of one or more ranged "
-        "attacks, before those attacks are made, it can make a normal move of up to D6+2\". The attacking unit can "
-        "then select new targets for any of its attacks. Each YIG-YAR unit can do this once per battle round."],
+REWRITES = {  # (detachment, rule): rewritten text
 }
 STRATAGEM_REWRITES = {
-    ("Sangheili Warhost", "Honour Duel"): dict(
-        target="One SANGHEILI CHARACTER unit within engagement range of one or more enemy CHARACTER units.",
-        effect="Select one SANGHEILI CHARACTER model in your unit and one enemy CHARACTER model within engagement "
-               "range of it. Your opponent accepts or refuses the duel.\n"
-               "■ Accepted: until both models have fought, each can only make melee attacks against the other, and "
-               "other attacks cannot be allocated to either of them. If either would be reduced to 0 wounds by the "
-               "other before it has fought, it is left with 1 wound and is destroyed after it has fought. If your "
-               "unit is Exultant, add 1 to the D characteristic of your model's melee weapons.\n"
-               "■ Refused: until the end of the phase, models in your unit can re-roll hit and wound rolls for "
-               "melee attacks that target that enemy CHARACTER's unit."),
 }
 
 
