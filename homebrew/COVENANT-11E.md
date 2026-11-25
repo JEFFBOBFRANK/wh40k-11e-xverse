@@ -82,6 +82,17 @@ repeated another rule (12,812 -> 11,916 words in datasheets and detachments, plu
 - Every Upgrade can now be taken by up to three units, as 11e allows. Thirteen Upgrades that did not say "up to three"
   were limited to one before.
 
+## Keywords (revision 9)
+
+- As in the core rules (02.05.01), a unit has the keywords of all its models, Sergeants and Auxiliaries included: a
+  SANGHEILI unit with an Unggoy Auxiliary is also an UNGGOY unit. New Recruit adds the species keyword (SANGHEILI,
+  JIRALHANAE, BRUTE, YIG-YAR, T'VAOAN, UNGGOY, HURAGOK, YANME'E...) to the unit while it includes such a model.
+- Only the Grunt Cadre has the GRUNT keyword. Rules for GRUNT units affect only Grunt Cadres; rules for UNGGOY units
+  affect any unit with an Unggoy in it. The Grunt Levy rules that named the Grunt Cadre now use GRUNT (Replacement
+  Drafts, Master of the Muster, Surplus Plasma Cells, Expendable Screen, More Where They Came From). Expendable Screen
+  protects non-GRUNT units, so an Elite unit with an Unggoy Auxiliary can still be screened.
+- Shadow Cell keeps its exception: Sergeant and Auxiliary keywords do not make a unit a Shadow Cell unit.
+
 ## Sergeant and Auxiliary weapons (revision 8)
 
 Sergeants and Auxiliaries pick their weapons one slot at a time, as the Emperor's Children Obsessionist ("Melee weapon",

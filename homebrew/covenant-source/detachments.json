@@ -840,7 +840,7 @@
    {
     "name": "Replacement Drafts",
     "text": [
-     "At the end of your Command phase, select one friendly Grunt Cadre unit that is below starting strength. Return up to D3+2 destroyed Unggoy Warrior models to that unit. Sergeant, Auxiliary and CHARACTER models cannot be returned using this rule."
+     "At the end of your Command phase, select one friendly GRUNT unit that is below starting strength. Return up to D3+2 destroyed Unggoy Warrior models to that unit. Sergeant, Auxiliary and CHARACTER models cannot be returned using this rule."
     ]
    }
   ],
@@ -851,14 +851,14 @@
     "upgrade": false,
     "restriction": "COVENANT CHARACTER model only, excluding Epic Heroes.",
     "text": [
-     "While the bearer is leading a Grunt Cadre, each time that unit is selected for Replacement Drafts, return 2 additional Unggoy Warrior models."
+     "While the bearer is leading a GRUNT unit, each time that unit is selected for Replacement Drafts, return 2 additional Unggoy Warrior models."
     ]
    },
    {
     "name": "Surplus Plasma Cells",
     "points": 15,
     "upgrade": true,
-    "restriction": "Upgrade - Grunt Cadre unit only.",
+    "restriction": "Upgrade - GRUNT unit only.",
     "text": [
      "Once per battle, when this unit is selected to shoot, it can activate this Upgrade. If it does, until the end of the phase, add 1 to the A characteristic of ranged weapons equipped by Unggoy Warrior models in this unit."
     ]
@@ -886,16 +886,16 @@
     "name": "Expendable Screen",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Your opponent's Shooting phase, just after an enemy unit selects a friendly non-UNGGOY COVENANT INFANTRY unit as the target of one or more attacks.",
-    "target": "That COVENANT INFANTRY unit and one friendly Grunt Cadre within 3\" of it.",
-    "effect": "Until the attacking unit has finished making its attacks, each time one of those attacks targets your COVENANT INFANTRY unit, if the selected Grunt Cadre is an eligible target, change that attack's target to the Grunt Cadre."
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects a friendly non-GRUNT COVENANT INFANTRY unit as the target of one or more attacks.",
+    "target": "That COVENANT INFANTRY unit and one friendly GRUNT unit within 3\" of it.",
+    "effect": "Until the attacking unit has finished making its attacks, each time one of those attacks targets your COVENANT INFANTRY unit, if the selected GRUNT unit is an eligible target, change that attack's target to that GRUNT unit."
    },
    {
     "name": "More Where They Came From",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
     "when": "Your Command phase, just after resolving Replacement Drafts.",
-    "target": "One different Grunt Cadre unit that is below starting strength.",
+    "target": "One different GRUNT unit that is below starting strength.",
     "effect": "Return up to D3+1 destroyed Unggoy Warrior models to that unit."
    }
   ],

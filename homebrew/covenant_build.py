@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 8
+REVISION = 9
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -41,6 +41,10 @@ WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel
 # Units laid out like the Emperor's Children Tormentors: Sergeant on top (as the Obsessionist), then the model counters,
 # then Auxiliary models as counters too, in that order (sortIndex).
 TORMENTOR_STYLE = {"Jiralhanae Assault Pack"}
+# Species keywords a unit gains from its Sergeant and Auxiliary models (core rules: a unit has the keywords of all its
+# models). GRUNT stays on the Grunt Cadre datasheet only.
+SPECIES = {"Sangheili", "Special Operations", "Jiralhanae", "Brute", "Yig-Yar", "T'vaoan", "Unggoy", "Huragok", "Yanme'e",
+           "San'Shyuum", "Mgalekgolo", "Lekgolo"}
 SHADOW_CELL_KEYWORDS = {"Special Operations", "Ranger", "Assassin", "Blademaster"}
 
 
@@ -452,6 +456,7 @@ class Builder:
                 family = self.squad(node, ds, spec)
             self.sergeants(node, spec)
             self.auxiliaries(node, spec, family)
+            self.addon_keywords(node, ds)
         node["categoryLinks"] = self.keywords(unit_id, ds, primary)
         node.setdefault("costs", []).insert(0, dict(name="pts", typeId=POINTS,
                                                     value=0 if spec.get("per_model") else ds["points"]))
@@ -708,6 +713,7 @@ class Builder:
                 for key in ("selectionEntries", "infoLinks"):
                     if key in e and not e[key]:
                         del e[key]
+                e["_source"] = name
                 types.append(e)
                 if not replaces:
                     bearers[tid] = parts
@@ -732,6 +738,25 @@ class Builder:
                 self.link_weapon_rules(item)
                 items.append(item)
         return types, items
+
+    def addon_keywords(self, node, ds):
+        """The unit gains a species keyword while it includes a Sergeant or Auxiliary model with it."""
+        have = {k.casefold() for k in ds["keywords"]}
+        shared = {m["id"]: n for n, m in self.shared_models.items()}
+        sources = OrderedDict()
+        for sub in walk(node):
+            if not isinstance(sub, dict):
+                continue
+            name = sub.get("_source") or (shared.get(sub.get("targetId")) if sub.get("type") == "selectionEntry" else None)
+            if not name:
+                continue
+            for kw in self.data[name]["keywords"]:
+                if kw in SPECIES and kw.casefold() not in have:
+                    sources.setdefault(kw, []).append(sub.get("targetId") or sub["id"])
+        for kw, ids in sources.items():
+            cat_id, _ = self.category(kw)
+            node.setdefault("modifiers", []).append(dict(type="add", field="category", value=cat_id, conditionGroups=[
+                dict(type="or", conditions=[selected(i, scope=node["id"]) for i in dict.fromkeys(ids)])]))
 
     def aux_members(self, pool):
         names = list(pool["entries"])
@@ -848,8 +873,8 @@ class Builder:
             if "SP characteristic" in r:
                 ok = ok and bool(ds["profile"].get("SP"))
             return ok
-        if "Grunt Cadre unit" in r:
-            return ds["name"] == "Grunt Cadre"
+        if "Grunt Cadre unit" in r or "Grunt unit" in r:
+            return "Grunt" in kws
         if "Suicide Grunts unit" in r:
             return ds["name"] == "Suicide Grunts"
         if "Yanme'e Major model" in r or "Drone Swarm unit" in r:

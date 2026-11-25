@@ -113,7 +113,7 @@ WEAPON_ABILITIES = [
     r"Twin-linked(?! Energy)", r"One Shot",
 ]
 
-KEYWORDS = ["Dedicated Transport", "Special Operations", "Epic Hero", "Jump Pack", "Drone Swarm", "Covenant",
+KEYWORDS = ["Dedicated Transport", "Special Operations", "Epic Hero", "Jump Pack", "Drone Swarm", "Covenant", "Grunt",
             "Infantry", "Grenades", "Fly", "Character", "Sangheili", "Vehicle", "Jiralhanae", "Brute", "Yig-Yar",
             "Transport", "Unggoy", "San'Shyuum", "T'vaoan", "Battleline", "Mgalekgolo", "Lekgolo", "Mounted",
             "Titanic", "Walker", "Yanme'e", "Huragok", "Aircraft", "Fortification", "Monster", "Towering",

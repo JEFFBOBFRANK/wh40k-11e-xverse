@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 8,
+    "revision": 9,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -130,6 +130,11 @@
         "hidden": false
       },
       {
+        "name": "Unggoy",
+        "id": "9d39-77db-45a5-1e16",
+        "hidden": false
+      },
+      {
         "name": "Shipmaster",
         "id": "2783-53f3-9d93-d824",
         "hidden": false
@@ -167,11 +172,6 @@
       {
         "name": "Raider",
         "id": "2706-97f0-c1fb-e104",
-        "hidden": false
-      },
-      {
-        "name": "Unggoy",
-        "id": "9d39-77db-45a5-1e16",
         "hidden": false
       },
       {
@@ -243,6 +243,11 @@
         "name": "Count: Grunt Cadre - special",
         "id": "2206-3131-c289-1391",
         "hidden": true
+      },
+      {
+        "name": "Grunt",
+        "id": "0593-50cd-8861-f0ff",
+        "hidden": false
       },
       {
         "name": "Cadre",
@@ -1286,7 +1291,7 @@
                     "name": "Replacement Drafts",
                     "id": "6479-bae1-04c9-15c4",
                     "hidden": false,
-                    "description": "\n\nAt the end of your Command phase, select one friendly Grunt Cadre unit that is below starting strength. Return up to D3+2 destroyed Unggoy Warrior models to that unit. Sergeant, Auxiliary and CHARACTER models cannot be returned using this rule."
+                    "description": "\n\nAt the end of your Command phase, select one friendly GRUNT unit that is below starting strength. Return up to D3+2 destroyed Unggoy Warrior models to that unit. Sergeant, Auxiliary and CHARACTER models cannot be returned using this rule."
                   }
                 ],
                 "categoryLinks": [
@@ -9403,6 +9408,29 @@
             ]
           }
         ],
+        "modifiers": [
+          {
+            "type": "add",
+            "field": "category",
+            "value": "9d39-77db-45a5-1e16",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c8ef-252b-3a09-842e",
+                    "field": "selections",
+                    "scope": "a654-55fb-e663-c87f",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {
             "name": "Character",
@@ -10731,6 +10759,29 @@
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "add",
+            "field": "category",
+            "value": "9d39-77db-45a5-1e16",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c8ef-252b-3a09-842e",
+                    "field": "selections",
+                    "scope": "4d66-a95e-2bf0-ca09",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -22851,6 +22902,93 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "9d39-77db-45a5-1e16",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5ab2-672b-5532-75f5",
+                    "field": "selections",
+                    "scope": "49fd-d448-c9d3-9cc9",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "33a3-0465-4a75-c213",
+                    "field": "selections",
+                    "scope": "49fd-d448-c9d3-9cc9",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "dead-aaf8-03b5-911b",
+                    "field": "selections",
+                    "scope": "49fd-d448-c9d3-9cc9",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "6cc5-ea0a-7d6e-ba53",
+                    "field": "selections",
+                    "scope": "49fd-d448-c9d3-9cc9",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "a6d0-a320-a636-bad6",
+                    "field": "selections",
+                    "scope": "49fd-d448-c9d3-9cc9",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "589e-0eb2-e64c-3f99",
+                    "field": "selections",
+                    "scope": "49fd-d448-c9d3-9cc9",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "ee5e-ea74-843f-115f",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c21b-7e5f-4af2-fce6",
+                    "field": "selections",
+                    "scope": "49fd-d448-c9d3-9cc9",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -24461,6 +24599,90 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "5bff-3bb9-98e7-6396",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "cf51-b8f4-8eb0-cb3c",
+                    "field": "selections",
+                    "scope": "ad54-5dcf-2efb-a761",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "cf5b-f9dd-7acb-a262",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "cf51-b8f4-8eb0-cb3c",
+                    "field": "selections",
+                    "scope": "ad54-5dcf-2efb-a761",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "ee5e-ea74-843f-115f",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c21b-7e5f-4af2-fce6",
+                    "field": "selections",
+                    "scope": "ad54-5dcf-2efb-a761",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "9d39-77db-45a5-1e16",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c8ef-252b-3a09-842e",
+                    "field": "selections",
+                    "scope": "ad54-5dcf-2efb-a761",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -24580,7 +24802,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Unggoy, Infantry, Grenades, Battleline, Cadre. Faction: Covenant."
+                "$text": "Keywords: Unggoy, Grunt, Infantry, Grenades, Battleline, Cadre. Faction: Covenant."
               }
             ]
           }
@@ -26167,6 +26389,147 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "ee5e-ea74-843f-115f",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c21b-7e5f-4af2-fce6",
+                    "field": "selections",
+                    "scope": "3061-7f0c-158d-dac7",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "6d4d-96ff-f47a-1d86",
+                    "field": "selections",
+                    "scope": "3061-7f0c-158d-dac7",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "5bff-3bb9-98e7-6396",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "cf51-b8f4-8eb0-cb3c",
+                    "field": "selections",
+                    "scope": "3061-7f0c-158d-dac7",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "bf75-e534-b43e-597e",
+                    "field": "selections",
+                    "scope": "3061-7f0c-158d-dac7",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "cf5b-f9dd-7acb-a262",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "cf51-b8f4-8eb0-cb3c",
+                    "field": "selections",
+                    "scope": "3061-7f0c-158d-dac7",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "bf75-e534-b43e-597e",
+                    "field": "selections",
+                    "scope": "3061-7f0c-158d-dac7",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "f621-2079-f54b-6892",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "3889-7c1f-8073-5ba5",
+                    "field": "selections",
+                    "scope": "3061-7f0c-158d-dac7",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "2092-8b83-d871-c9ec",
+                    "field": "selections",
+                    "scope": "3061-7f0c-158d-dac7",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "343e-8e6d-2382-017d",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2092-8b83-d871-c9ec",
+                    "field": "selections",
+                    "scope": "3061-7f0c-158d-dac7",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -26181,6 +26544,13 @@
             "name": "Unggoy",
             "id": "d794-1a21-3bc5-dd83",
             "targetId": "9d39-77db-45a5-1e16",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Grunt",
+            "id": "a3be-7e0e-f506-4e49",
+            "targetId": "0593-50cd-8861-f0ff",
             "primary": false,
             "hidden": false
           },
@@ -29887,6 +30257,120 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "9d39-77db-45a5-1e16",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c8ef-252b-3a09-842e",
+                    "field": "selections",
+                    "scope": "34a6-ed21-1b15-55ed",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "f621-2079-f54b-6892",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "3889-7c1f-8073-5ba5",
+                    "field": "selections",
+                    "scope": "34a6-ed21-1b15-55ed",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "2092-8b83-d871-c9ec",
+                    "field": "selections",
+                    "scope": "34a6-ed21-1b15-55ed",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "343e-8e6d-2382-017d",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2092-8b83-d871-c9ec",
+                    "field": "selections",
+                    "scope": "34a6-ed21-1b15-55ed",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "5bff-3bb9-98e7-6396",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "bf75-e534-b43e-597e",
+                    "field": "selections",
+                    "scope": "34a6-ed21-1b15-55ed",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "cf5b-f9dd-7acb-a262",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "bf75-e534-b43e-597e",
+                    "field": "selections",
+                    "scope": "34a6-ed21-1b15-55ed",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -30657,6 +31141,29 @@
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "add",
+            "field": "category",
+            "value": "717c-8757-297a-2845",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "bc2c-6715-ff25-1d1f",
+                    "field": "selections",
+                    "scope": "f03c-b51c-db64-febe",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -34885,6 +35392,78 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "717c-8757-297a-2845",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "bc2c-6715-ff25-1d1f",
+                    "field": "selections",
+                    "scope": "07ed-af7a-a067-c0c3",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "f621-2079-f54b-6892",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "3889-7c1f-8073-5ba5",
+                    "field": "selections",
+                    "scope": "07ed-af7a-a067-c0c3",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "2092-8b83-d871-c9ec",
+                    "field": "selections",
+                    "scope": "07ed-af7a-a067-c0c3",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "343e-8e6d-2382-017d",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2092-8b83-d871-c9ec",
+                    "field": "selections",
+                    "scope": "07ed-af7a-a067-c0c3",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -37737,6 +38316,27 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "3685-11dd-af33-7fe6",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f81c-513d-fda3-8120",
+                    "field": "selections",
+                    "scope": "e017-8a10-4141-2f37",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -38577,6 +39177,122 @@
             ]
           }
         ],
+        "modifiers": [
+          {
+            "type": "add",
+            "field": "category",
+            "value": "9d39-77db-45a5-1e16",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c8ef-252b-3a09-842e",
+                    "field": "selections",
+                    "scope": "16a8-c4b0-1a62-871b",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "f621-2079-f54b-6892",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "3889-7c1f-8073-5ba5",
+                    "field": "selections",
+                    "scope": "16a8-c4b0-1a62-871b",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "2092-8b83-d871-c9ec",
+                    "field": "selections",
+                    "scope": "16a8-c4b0-1a62-871b",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "343e-8e6d-2382-017d",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2092-8b83-d871-c9ec",
+                    "field": "selections",
+                    "scope": "16a8-c4b0-1a62-871b",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "3685-11dd-af33-7fe6",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f81c-513d-fda3-8120",
+                    "field": "selections",
+                    "scope": "16a8-c4b0-1a62-871b",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "83cd-abde-95bb-faf7",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5914-bd22-8c0b-a8bd",
+                    "field": "selections",
+                    "scope": "16a8-c4b0-1a62-871b",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {
             "name": "Infantry",
@@ -39053,6 +39769,80 @@
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "add",
+            "field": "category",
+            "value": "f621-2079-f54b-6892",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "3889-7c1f-8073-5ba5",
+                    "field": "selections",
+                    "scope": "3fb2-bd94-1836-a53c",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  },
+                  {
+                    "childId": "2092-8b83-d871-c9ec",
+                    "field": "selections",
+                    "scope": "3fb2-bd94-1836-a53c",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "343e-8e6d-2382-017d",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2092-8b83-d871-c9ec",
+                    "field": "selections",
+                    "scope": "3fb2-bd94-1836-a53c",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "3685-11dd-af33-7fe6",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f81c-513d-fda3-8120",
+                    "field": "selections",
+                    "scope": "3fb2-bd94-1836-a53c",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -40708,6 +41498,48 @@
                     "scope": "d684-05fa-2f52-f69f",
                     "type": "notEqualTo",
                     "value": 10,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "ee5e-ea74-843f-115f",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c21b-7e5f-4af2-fce6",
+                    "field": "selections",
+                    "scope": "d684-05fa-2f52-f69f",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "3685-11dd-af33-7fe6",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "f81c-513d-fda3-8120",
+                    "field": "selections",
+                    "scope": "d684-05fa-2f52-f69f",
+                    "type": "atLeast",
+                    "value": 1,
                     "shared": true,
                     "includeChildSelections": true
                   }
@@ -42591,6 +43423,48 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "ee5e-ea74-843f-115f",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "bc2c-6715-ff25-1d1f",
+                    "field": "selections",
+                    "scope": "8db3-4b68-c645-8fd5",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "717c-8757-297a-2845",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "bc2c-6715-ff25-1d1f",
+                    "field": "selections",
+                    "scope": "8db3-4b68-c645-8fd5",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -43472,6 +44346,48 @@
                     "scope": "6722-b6ce-ee9f-4740",
                     "type": "notEqualTo",
                     "value": 10,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "5bff-3bb9-98e7-6396",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "cf51-b8f4-8eb0-cb3c",
+                    "field": "selections",
+                    "scope": "6722-b6ce-ee9f-4740",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "cf5b-f9dd-7acb-a262",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "cf51-b8f4-8eb0-cb3c",
+                    "field": "selections",
+                    "scope": "6722-b6ce-ee9f-4740",
+                    "type": "atLeast",
+                    "value": 1,
                     "shared": true,
                     "includeChildSelections": true
                   }
@@ -49121,6 +50037,48 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "ee5e-ea74-843f-115f",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c21b-7e5f-4af2-fce6",
+                    "field": "selections",
+                    "scope": "e60d-ddcb-3639-324d",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "f621-2079-f54b-6892",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2feb-04bc-2dc0-496d",
+                    "field": "selections",
+                    "scope": "e60d-ddcb-3639-324d",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -49655,6 +50613,69 @@
                 "value": 11,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "5bff-3bb9-98e7-6396",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "cf51-b8f4-8eb0-cb3c",
+                    "field": "selections",
+                    "scope": "ed40-19a8-ae39-885e",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "cf5b-f9dd-7acb-a262",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "cf51-b8f4-8eb0-cb3c",
+                    "field": "selections",
+                    "scope": "ed40-19a8-ae39-885e",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "category",
+            "value": "ee5e-ea74-843f-115f",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c21b-7e5f-4af2-fce6",
+                    "field": "selections",
+                    "scope": "ed40-19a8-ae39-885e",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -80141,7 +81162,7 @@
             "name": "Master of the Muster",
             "id": "7798-ef4f-ada8-a786",
             "hidden": false,
-            "description": "COVENANT CHARACTER model only, excluding Epic Heroes.\n\nWhile the bearer is leading a Grunt Cadre, each time that unit is selected for Replacement Drafts, return 2 additional Unggoy Warrior models."
+            "description": "COVENANT CHARACTER model only, excluding Epic Heroes.\n\nWhile the bearer is leading a GRUNT unit, each time that unit is selected for Replacement Drafts, return 2 additional Unggoy Warrior models."
           }
         ]
       },
@@ -80184,7 +81205,7 @@
             "name": "Surplus Plasma Cells",
             "id": "d35b-2ad9-206a-bdd6",
             "hidden": false,
-            "description": "Upgrade - Grunt Cadre unit only.\n\nOnce per battle, when this unit is selected to shoot, it can activate this Upgrade. If it does, until the end of the phase, add 1 to the A characteristic of ranged weapons equipped by Unggoy Warrior models in this unit."
+            "description": "Upgrade - GRUNT unit only.\n\nOnce per battle, when this unit is selected to shoot, it can activate this Upgrade. If it does, until the end of the phase, add 1 to the A characteristic of ranged weapons equipped by Unggoy Warrior models in this unit."
           }
         ],
         "modifiers": [
@@ -81421,7 +82442,7 @@
         "name": "Caste Hierarchy",
         "id": "5023-1c9e-82fb-acb4",
         "hidden": false,
-        "description": "​<br><br>**Sergeants:**<br>A Sergeant model's entry lists the Caste Doctrines it can issue.\n\n**Auxiliaries:**<br>A unit can include Auxiliary models at the rate printed on its datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries). There is one Auxiliary entry per species: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the YIG-YAR keyword, so they can be taken wherever Yig-Yar Auxiliaries can. Each Auxiliary model can take one Specialist ability from its entry, at the points shown.\n\n**Keywords:**<br>A unit's keywords are those on its datasheet. Sergeant and Auxiliary models do not add their keywords to their unit, but rules can still affect a model by its own keywords.\n\n**Toughness:**<br>A unit's T characteristic is the one that the most models in it have. If two or more are tied, use the lowest.\n\n**Issuing Caste Doctrines:**<br>Once per battle round, at the start of any phase, each Sergeant model from your army can issue one Caste Doctrine from its entry to its unit. Unless otherwise stated, a unit can be affected by only one Caste Doctrine at a time."
+        "description": "​<br><br>**Sergeants:**<br>A Sergeant model's entry lists the Caste Doctrines it can issue.\n\n**Auxiliaries:**<br>A unit can include Auxiliary models at the rate printed on its datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries). There is one Auxiliary entry per species: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the YIG-YAR keyword, so they can be taken wherever Yig-Yar Auxiliaries can. Each Auxiliary model can take one Specialist ability from its entry, at the points shown.\n\n**Keywords:**<br>As in the core rules, a unit has the keywords of all its models, including its Sergeant and Auxiliary models: a SANGHEILI unit with an Unggoy Auxiliary is also an UNGGOY unit. Only Grunt Cadres have the GRUNT keyword, so rules for GRUNT units affect only them, while rules for UNGGOY units affect any unit with an Unggoy model in it.\n\n**Toughness:**<br>A unit's T characteristic is the one that the most models in it have. If two or more are tied, use the lowest.\n\n**Issuing Caste Doctrines:**<br>Once per battle round, at the start of any phase, each Sergeant model from your army can issue one Caste Doctrine from its entry to its unit. Unless otherwise stated, a unit can be affected by only one Caste Doctrine at a time."
       },
       {
         "name": "Shielding Trait",
@@ -81727,13 +82748,13 @@
         "name": "Grunt Levy — Expendable Screen / 1 CP",
         "id": "c616-2233-99b3-47e9",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase, just after an enemy unit selects a friendly non-UNGGOY COVENANT INFANTRY unit as the target of one or more attacks.\n\n**Target**<br>That COVENANT INFANTRY unit and one friendly Grunt Cadre within 3\" of it.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, each time one of those attacks targets your COVENANT INFANTRY unit, if the selected Grunt Cadre is an eligible target, change that attack's target to the Grunt Cadre."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase, just after an enemy unit selects a friendly non-GRUNT COVENANT INFANTRY unit as the target of one or more attacks.\n\n**Target**<br>That COVENANT INFANTRY unit and one friendly GRUNT unit within 3\" of it.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, each time one of those attacks targets your COVENANT INFANTRY unit, if the selected GRUNT unit is an eligible target, change that attack's target to that GRUNT unit."
       },
       {
         "name": "Grunt Levy — More Where They Came From / 1 CP",
         "id": "fd7a-45c9-0bc3-ec37",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Command phase, just after resolving Replacement Drafts.\n\n**Target**<br>One different Grunt Cadre unit that is below starting strength.\n\n**Effect**<br>Return up to D3+1 destroyed Unggoy Warrior models to that unit."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Command phase, just after resolving Replacement Drafts.\n\n**Target**<br>One different GRUNT unit that is below starting strength.\n\n**Effect**<br>Return up to D3+1 destroyed Unggoy Warrior models to that unit."
       },
       {
         "name": "Drone Hive Swarm — Replenish the Brood / 1 CP",
