@@ -355,6 +355,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Infantry",
    "Grenades",
    "Character",
@@ -456,6 +457,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Infantry",
    "Grenades",
    "Character",
@@ -583,6 +585,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Infantry",
    "Grenades",
    "Character",
@@ -832,6 +835,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Infantry",
    "Grenades",
    "Character",
@@ -930,6 +934,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Infantry",
    "Grenades",
    "Character",
@@ -998,6 +1003,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Infantry",
    "Grenades",
    "Character",
@@ -1238,6 +1244,7 @@
   ],
   "keywords": [
    "Yig-Yar",
+   "Jackal",
    "Infantry",
    "Grenades",
    "Character",
@@ -1378,6 +1385,7 @@
   ],
   "keywords": [
    "Yig-Yar",
+   "Jackal",
    "Infantry",
    "Grenades",
    "Character",
@@ -1463,6 +1471,7 @@
   ],
   "keywords": [
    "Yig-Yar",
+   "Jackal",
    "T'vaoan",
    "Infantry",
    "Grenades",
@@ -1537,15 +1546,16 @@
    },
    {
     "name": "Voice of the Deacon",
-    "text": "While a friendly UNGGOY unit is within 6\" of this model, it is considered to contain an Unggoy Sergeant for the purpose of accessing Unggoy Doctrines."
+    "text": "While a friendly GRUNT unit is within 6\" of this model, it is considered to contain an Unggoy Sergeant for the purpose of accessing Unggoy Doctrines."
    },
    {
     "name": "Religious Authority",
-    "text": "While a friendly UNGGOY unit is within 6\" of this model, improve that unit's Ld characteristic by 1."
+    "text": "While a friendly GRUNT unit is within 6\" of this model, improve that unit's Ld characteristic by 1."
    }
   ],
   "keywords": [
    "Unggoy",
+   "Grunt",
    "Infantry",
    "Grenades",
    "Character",
@@ -1884,6 +1894,7 @@
   ],
   "keywords": [
    "Yig-Yar",
+   "Jackal",
    "Infantry",
    "Grenades",
    "Battleline",
@@ -2074,6 +2085,7 @@
   ],
   "keywords": [
    "Yanme'e",
+   "Drone",
    "Infantry",
    "Fly",
    "Battleline",
@@ -2239,6 +2251,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Infantry",
    "Grenades",
    "Warrior Cadre"
@@ -2339,6 +2352,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Ranger",
    "Infantry",
    "Grenades"
@@ -2424,6 +2438,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Swordmaster",
    "Infantry",
    "Grenades"
@@ -2566,6 +2581,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Special Operations",
    "Infantry",
    "Grenades"
@@ -2672,6 +2688,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Assassin",
    "Infantry",
    "Grenades"
@@ -2801,6 +2818,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Zealot",
    "Infantry",
    "Grenades"
@@ -2865,6 +2883,7 @@
   ],
   "keywords": [
    "Sangheili",
+   "Elite",
    "Honor Guard",
    "Infantry",
    "Grenades"
@@ -3281,6 +3300,7 @@
   ],
   "keywords": [
    "Yig-Yar",
+   "Jackal",
    "Infantry",
    "Grenades",
    "Corsairs"
@@ -3419,6 +3439,7 @@
   ],
   "keywords": [
    "Yig-Yar",
+   "Jackal",
    "Infantry",
    "Grenades",
    "Marksmen"
@@ -3507,6 +3528,7 @@
   ],
   "keywords": [
    "Yig-Yar",
+   "Jackal",
    "T'vaoan",
    "Infantry",
    "Grenades",
@@ -3801,6 +3823,7 @@
   ],
   "keywords": [
    "Yig-Yar",
+   "Jackal",
    "T'vaoan",
    "Infantry",
    "Grenades",
@@ -3862,6 +3885,7 @@
   ],
   "keywords": [
    "Unggoy",
+   "Grunt",
    "Infantry",
    "Grenades",
    "Suicide Grunts"
@@ -3948,6 +3972,7 @@
   ],
   "keywords": [
    "Unggoy",
+   "Grunt",
    "Infantry",
    "Grenades",
    "Heavy Weapons Team"
@@ -4021,6 +4046,7 @@
   ],
   "keywords": [
    "Unggoy",
+   "Grunt",
    "Infantry",
    "Grenades",
    "Zealots"
@@ -4666,6 +4692,7 @@
   ],
   "keywords": [
    "Mgalekgolo",
+   "Hunter",
    "Lekgolo",
    "Monster",
    "Titanic",
@@ -4971,6 +4998,7 @@
   ],
   "keywords": [
    "Unggoy",
+   "Grunt",
    "Vehicle",
    "Walker",
    "Goblin"
@@ -5787,11 +5815,12 @@
    },
    {
     "name": "Raider Extraction",
-    "text": "At the end of your opponent's Fight phase, select one friendly YIG-YAR INFANTRY unit wholly within 6\". If neither unit is within engagement range and it fits within this model, that unit can embark."
+    "text": "At the end of your opponent's Fight phase, select one friendly JACKAL INFANTRY unit wholly within 6\". If neither unit is within engagement range and it fits within this model, that unit can embark."
    }
   ],
   "keywords": [
    "Yig-Yar",
+   "Jackal",
    "Vehicle",
    "Fly",
    "Frame",
@@ -7020,7 +7049,6 @@
   ],
   "keywords": [
    "Jiralhanae",
-   "Brute",
    "Infantry",
    "Grenades",
    "Sergeant",
@@ -7374,7 +7402,7 @@
    },
    {
     "name": "Control Node",
-    "text": "While this model is in a YANME'E unit, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by other Yanme'e Drone models in that unit by 1."
+    "text": "While this model is in a DRONE unit, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by other Yanme'e Drone models in that unit by 1."
    },
    {
     "name": "Caste Doctrines",
@@ -7761,7 +7789,6 @@
   ],
   "keywords": [
    "Jiralhanae",
-   "Brute",
    "Infantry",
    "Grenades",
    "Auxiliary"

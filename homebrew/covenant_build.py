@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 9
+REVISION = 10
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -42,8 +42,8 @@ WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel
 # then Auxiliary models as counters too, in that order (sortIndex).
 TORMENTOR_STYLE = {"Jiralhanae Assault Pack"}
 # Species keywords a unit gains from its Sergeant and Auxiliary models (core rules: a unit has the keywords of all its
-# models). GRUNT stays on the Grunt Cadre datasheet only.
-SPECIES = {"Sangheili", "Special Operations", "Jiralhanae", "Brute", "Yig-Yar", "T'vaoan", "Unggoy", "Huragok", "Yanme'e",
+# models). The unit keywords (GRUNT, ELITE, BRUTE, JACKAL, DRONE, HUNTER, ENGINEER) are on datasheets only.
+SPECIES = {"Sangheili", "Special Operations", "Jiralhanae", "Yig-Yar", "T'vaoan", "Unggoy", "Huragok", "Yanme'e",
            "San'Shyuum", "Mgalekgolo", "Lekgolo"}
 SHADOW_CELL_KEYWORDS = {"Special Operations", "Ranger", "Assassin", "Blademaster"}
 
@@ -623,29 +623,16 @@ class Builder:
         if not spec["sergeants"]:
             return
         gid = nid(node["id"] + ":sergeant")
-        if node["name"] in TORMENTOR_STYLE:  # on top of the unit, like the Tormentors' Obsessionist
-            count, _ = self.category("Count: Sergeant", hidden=True)
-            for name in spec["sergeants"]:
-                target = self.shared_model(name, auxiliary=False)
-                if not any(l["targetId"] == count for l in target.setdefault("categoryLinks", [])):
-                    target["categoryLinks"].append(dict(name="count", id=nid(target["id"] + ":cat:sergeant"),
-                                                        targetId=count, primary=False, hidden=False))
-                lid = nid(gid + ":" + name)
-                node.setdefault("entryLinks", []).append(dict(
-                    name=name, id=lid, targetId=target["id"], type="selectionEntry", hidden=False, sortIndex=0,
-                    constraints=[constraint(nid(lid + ":max"), "max", 1)], **{"import": True}))
-            if len(spec["sergeants"]) > 1:
-                node.setdefault("modifiers", []).append(dict(
-                    type="add", field="error", value="Take at most one Sergeant: " + " or ".join(spec["sergeants"]) + ".",
-                    conditions=[selected(count, scope=node["id"], value=2)]))
-            return
         links = []
         for name in spec["sergeants"]:
             target = self.shared_model(name, auxiliary=False)
             links.append(dict(name=name, id=nid(gid + ":" + name), targetId=target["id"], type="selectionEntry",
                               hidden=False, **{"import": True}))
-        node["selectionEntryGroups"].append(dict(name="Sergeant", id=gid, hidden=False, entryLinks=links,
-                                                 constraints=[constraint(nid(gid + ":max"), "max", 1)]))
+        group = dict(name="Sergeant", id=gid, hidden=False, entryLinks=links,
+                     constraints=[constraint(nid(gid + ":max"), "max", 1)])
+        if node["name"] in TORMENTOR_STYLE:  # on top of the unit, like the Tormentors' Obsessionist
+            group["sortIndex"] = 0
+        node["selectionEntryGroups"].append(group)
 
     def aux_types(self, unit, pool, family, gid):
         """Tormentor layout: every Auxiliary loadout is its own model type with a counter (as "Tormentor with
@@ -873,14 +860,14 @@ class Builder:
             if "SP characteristic" in r:
                 ok = ok and bool(ds["profile"].get("SP"))
             return ok
-        if "Grunt Cadre unit" in r or "Grunt unit" in r:
-            return "Grunt" in kws
+        if "Grunt Cadre unit" in r:
+            return ds["name"] == "Grunt Cadre"
         if "Suicide Grunts unit" in r:
             return ds["name"] == "Suicide Grunts"
         if "Yanme'e Major model" in r or "Drone Swarm unit" in r:
             return ds["name"] == "Yanme'e Drone Swarm"
-        if "Mgalekgolo unit" in r:
-            return "Mgalekgolo" in kws
+        if "Mgalekgolo unit" in r or "Hunter unit" in r:
+            return "Hunter" in kws
         m = re.match(r"Upgrade - (\S+(?: \S+)?) Infantry unit only", r)
         if m:
             kw = m.group(1)

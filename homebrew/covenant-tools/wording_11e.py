@@ -114,6 +114,7 @@ WEAPON_ABILITIES = [
 ]
 
 KEYWORDS = ["Dedicated Transport", "Special Operations", "Epic Hero", "Jump Pack", "Drone Swarm", "Covenant", "Grunt",
+            "Elite", "Jackal", "Drone", "Hunter", "Engineer",
             "Infantry", "Grenades", "Fly", "Character", "Sangheili", "Vehicle", "Jiralhanae", "Brute", "Yig-Yar",
             "Transport", "Unggoy", "San'Shyuum", "T'vaoan", "Battleline", "Mgalekgolo", "Lekgolo", "Mounted",
             "Titanic", "Walker", "Yanme'e", "Huragok", "Aircraft", "Fortification", "Monster", "Towering",

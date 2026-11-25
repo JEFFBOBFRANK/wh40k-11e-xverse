@@ -53,7 +53,7 @@
     "name": "Consecrated War Harnesses",
     "points": 15,
     "upgrade": true,
-    "restriction": "Upgrade - UNGGOY INFANTRY unit only.",
+    "restriction": "Upgrade - GRUNT INFANTRY unit only.",
     "text": [
      "Improve the Sv and Ld characteristics of UNGGOY models in this unit by 1. A Sv characteristic cannot be improved beyond 2+."
     ]
@@ -230,13 +230,13 @@
     "name": "Worthy Foe",
     "text": [
      "At the start of your Command phase, select one unit from your opponent's army that has the CHARACTER, MONSTER or VEHICLE keyword, is within range of an objective marker, or is your opponent's Warlord's unit. Until the start of your next Command phase, that enemy unit is your Worthy Foe.",
-     "Each time a SANGHEILI model attacks your Worthy Foe, re-roll a hit roll of 1 and a wound roll of 1. SANGHEILI units can re-roll charge rolls made against your Worthy Foe."
+     "Each time a SANGHEILI model attacks your Worthy Foe, re-roll a hit roll of 1 and a wound roll of 1. ELITE units can re-roll charge rolls made against your Worthy Foe."
     ]
    },
    {
     "name": "Exultant",
     "text": [
-     "After a SANGHEILI unit destroys your Worthy Foe, that unit immediately resolves Regenerating Shields and is Exultant until the end of your next turn.",
+     "After an ELITE unit destroys your Worthy Foe, that unit immediately resolves Regenerating Shields and is Exultant until the end of your next turn.",
      "While a unit is Exultant, it is eligible to shoot and declare a charge in a turn in which it made an advance or fall-back move."
     ]
    }
@@ -266,14 +266,14 @@
     "upgrade": false,
     "restriction": null,
     "text": [
-     "While the bearer is leading a SANGHEILI unit, each time that unit resolves Regenerating Shields, each SANGHEILI model in that unit regains 1 additional lost SP, up to its starting SP."
+     "While the bearer is leading an ELITE unit, each time that unit resolves Regenerating Shields, each SANGHEILI model in that unit regains 1 additional lost SP, up to its starting SP."
     ]
    },
    {
     "name": "Honour-Bound Veterans",
     "points": 15,
     "upgrade": true,
-    "restriction": "Upgrade - SANGHEILI INFANTRY unit only, excluding CHARACTER units.",
+    "restriction": "Upgrade - ELITE INFANTRY unit only, excluding CHARACTER units.",
     "text": [
      "Once per battle, after this unit destroys an enemy unit that was not your Worthy Foe, it can become Exultant until the end of your next turn. This does not resolve Regenerating Shields."
     ]
@@ -284,16 +284,16 @@
     "name": "Relentless Pursuit",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Your Movement phase, just after a SANGHEILI INFANTRY or SANGHEILI MOUNTED unit is selected to make an advance move.",
-    "target": "That SANGHEILI unit.",
+    "when": "Your Movement phase, just after an ELITE INFANTRY or ELITE MOUNTED unit is selected to make an advance move.",
+    "target": "That ELITE unit.",
     "effect": "Until the end of the turn, your unit is eligible to declare a charge after making an advance move. If your unit is Exultant, do not make an advance roll; instead add 6\" to its M characteristic until the end of the phase."
    },
    {
     "name": "The Killing Stroke",
     "cp": 1,
     "type": "Battle Tactic Stratagem",
-    "when": "Your Shooting phase or the Fight phase, just after a SANGHEILI unit is selected to shoot or fight.",
-    "target": "That SANGHEILI unit.",
+    "when": "Your Shooting phase or the Fight phase, just after an ELITE unit is selected to shoot or fight.",
+    "target": "That ELITE unit.",
     "effect": "Until the end of the phase, add 1 to wound rolls for attacks made by your unit against your Worthy Foe. If your unit is Exultant, also improve the AP characteristic of those attacks by 1."
    },
    {
@@ -301,31 +301,31 @@
     "cp": 1,
     "type": "Epic Deed Stratagem",
     "when": "Start of the Fight phase.",
-    "target": "One SANGHEILI CHARACTER unit within engagement range of one or more enemy CHARACTER units.",
+    "target": "One ELITE CHARACTER unit within engagement range of one or more enemy CHARACTER units.",
     "effect": "Select one SANGHEILI CHARACTER model in your unit and one enemy CHARACTER model within engagement range of it. Your opponent accepts or refuses the duel.\n■ Accepted: until both models have fought, each can only make melee attacks against the other, and other attacks cannot be allocated to either of them. If either would be reduced to 0 wounds by the other before it has fought, it is left with 1 wound and is destroyed after it has fought. If your unit is Exultant, add 1 to the D characteristic of your model's melee weapons.\n■ Refused: until the end of the phase, models in your unit can re-roll hit and wound rolls for melee attacks that target that enemy CHARACTER's unit."
    },
    {
     "name": "Shields Unbroken",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects a SANGHEILI unit as the target of one or more attacks.",
-    "target": "That SANGHEILI unit.",
+    "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects an ELITE unit as the target of one or more attacks.",
+    "target": "That ELITE unit.",
     "effect": "Until the attacking unit has finished making its attacks, Shield Saves made for models in your unit succeed on a 2+. If your unit is Exultant, reduce this Stratagem's CP cost by 1CP."
    },
    {
     "name": "Death Before Dishonour",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Fight phase, just after an enemy unit selects a SANGHEILI unit as the target of one or more attacks.",
-    "target": "That SANGHEILI unit.",
+    "when": "Fight phase, just after an enemy unit selects an ELITE unit as the target of one or more attacks.",
+    "target": "That ELITE unit.",
     "effect": "Until the end of the phase, each time a model in your unit is destroyed before it has fought, roll one D6. On a 4+, do not remove it. After the attacking unit finishes making its attacks, that model can fight and is then removed. If your unit is Exultant, this succeeds on a 3+."
    },
    {
     "name": "Claim the Trophy",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Fight phase, just after a SANGHEILI unit has fought and destroyed one or more enemy units, before it consolidates.",
-    "target": "That SANGHEILI unit.",
+    "when": "Fight phase, just after an ELITE unit has fought and destroyed one or more enemy units, before it consolidates.",
+    "target": "That ELITE unit.",
     "effect": "When your unit consolidates, its models can move up to 6\" instead of 3\" and must end closer to the closest enemy unit or closest objective marker. If your unit is Exultant, reduce this Stratagem's CP cost by 1CP."
    }
   ],
@@ -341,8 +341,8 @@
    {
     "name": "Pack Encirclement",
     "text": [
-     "JIRALHANAE units can re-roll charge rolls made against an enemy unit that is within engagement range of one or more other friendly COVENANT units.",
-     "Each time a JIRALHANAE unit makes melee attacks against an enemy unit that is within engagement range of one or more other friendly COVENANT units, add 1 to the A characteristic of melee weapons equipped by models in that JIRALHANAE unit until it has finished making those attacks."
+     "BRUTE units can re-roll charge rolls made against an enemy unit that is within engagement range of one or more other friendly COVENANT units.",
+     "Each time a BRUTE unit makes melee attacks against an enemy unit that is within engagement range of one or more other friendly COVENANT units, add 1 to the A characteristic of melee weapons equipped by models in that BRUTE unit until it has finished making those attacks."
     ]
    }
   ],
@@ -378,7 +378,7 @@
     "name": "Coordinated Assault Cohort",
     "points": 15,
     "upgrade": true,
-    "restriction": "Upgrade - JIRALHANAE INFANTRY unit only, excluding CHARACTER units.",
+    "restriction": "Upgrade - BRUTE INFANTRY unit only, excluding CHARACTER units.",
     "text": [
      "Each time a model in this unit makes a melee attack against an enemy unit within engagement range of another friendly COVENANT unit, re-roll a hit roll of 1 and a wound roll of 1."
     ]
@@ -390,14 +390,14 @@
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
     "when": "End of your opponent's Movement phase.",
-    "target": "One friendly unengaged JIRALHANAE INFANTRY or JIRALHANAE MOUNTED unit within 12\" of one or more enemy units that ended a normal, advance or fall-back move this phase.",
+    "target": "One friendly unengaged BRUTE INFANTRY or BRUTE MOUNTED unit within 12\" of one or more enemy units that ended a normal, advance or fall-back move this phase.",
     "effect": "Resolve a charge with your unit. When selecting charge targets, you can only select enemy units that ended a normal, advance or fall-back move this phase."
    },
    {
     "name": "Crushing Envelopment",
     "cp": 1,
     "type": "Battle Tactic Stratagem",
-    "when": "Fight phase, when a JIRALHANAE unit is selected to fight.",
+    "when": "Fight phase, when a BRUTE unit is selected to fight.",
     "target": "That unit and one enemy unit within engagement range of another friendly COVENANT unit.",
     "effect": "Until the end of the phase, add 1 to wound rolls for melee attacks made by your unit against that enemy unit."
    },
@@ -405,8 +405,8 @@
     "name": "Pack-Covered Advance",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Your opponent's Shooting phase, just after an enemy unit selects a JIRALHANAE unit as the target of one or more attacks.",
-    "target": "That JIRALHANAE unit, provided it is within 3\" of another friendly COVENANT unit.",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects a BRUTE unit as the target of one or more attacks.",
+    "target": "That BRUTE unit, provided it is within 3\" of another friendly COVENANT unit.",
     "effect": "Until the attacking unit has finished making its attacks, worsen the AP characteristic of those attacks by 1."
    },
    {
@@ -414,23 +414,23 @@
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
     "when": "Just after another friendly COVENANT unit destroys an enemy unit in the Shooting or Fight phase.",
-    "target": "One JIRALHANAE unit within 6\" of that friendly COVENANT unit.",
+    "target": "One BRUTE unit within 6\" of that friendly COVENANT unit.",
     "effect": "Your unit can make a normal move of up to D6\". It cannot end that move within engagement range of an enemy unit."
    },
    {
     "name": "Hold Them Fast",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Your opponent's Movement phase, when an enemy unit within engagement range of a JIRALHANAE unit is selected to make a fall-back move.",
-    "target": "That JIRALHANAE unit.",
+    "when": "Your opponent's Movement phase, when an enemy unit within engagement range of a BRUTE unit is selected to make a fall-back move.",
+    "target": "That BRUTE unit.",
     "effect": "Roll one D6. On a 3+, that enemy unit cannot make a fall-back move this phase and suffers D3 mortal wounds."
    },
    {
     "name": "Brutal Efficiency",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Fight phase, just after a JIRALHANAE unit destroys an enemy unit, before it consolidates.",
-    "target": "That JIRALHANAE unit.",
+    "when": "Fight phase, just after a BRUTE unit destroys an enemy unit, before it consolidates.",
+    "target": "That BRUTE unit.",
     "effect": "When your unit consolidates, its models can move up to 6\" instead of 3\" and must end closer to the closest enemy unit or closest objective marker."
    }
   ],
@@ -446,7 +446,7 @@
    {
     "name": "Scuttle to Cover",
     "text": [
-     "Once per battle round, each time a friendly YIG-YAR unit is selected as the target of one or more ranged attacks, before those attacks are made, it can make a normal move of up to D6+2\". The attacking unit can then select new targets for any of its attacks. Each YIG-YAR unit can do this once per battle round."
+     "Once per battle round, each time a friendly JACKAL unit is selected as the target of one or more ranged attacks, before those attacks are made, it can make a normal move of up to D6+2\". The attacking unit can then select new targets for any of its attacks. Each JACKAL unit can do this once per battle round."
     ]
    }
   ],
@@ -457,7 +457,7 @@
     "upgrade": false,
     "restriction": null,
     "text": [
-     "After both players have deployed, select up to three friendly YIG-YAR units. Redeploy those units. Any can instead be placed into strategic reserves."
+     "After both players have deployed, select up to three friendly JACKAL units. Redeploy those units. Any can instead be placed into strategic reserves."
     ]
    },
    {
@@ -466,7 +466,7 @@
     "upgrade": false,
     "restriction": null,
     "text": [
-     "While the bearer is leading a YIG-YAR unit, after that unit makes a Scuttle to Cover move, Shield Saves made for models in that unit succeed on a 2+ until the end of the phase."
+     "While the bearer is leading a JACKAL unit, after that unit makes a Scuttle to Cover move, Shield Saves made for models in that unit succeed on a 2+ until the end of the phase."
     ]
    },
    {
@@ -482,7 +482,7 @@
     "name": "Forward Talon",
     "points": 15,
     "upgrade": true,
-    "restriction": "Upgrade - YIG-YAR INFANTRY unit only, excluding CHARACTER units.",
+    "restriction": "Upgrade - JACKAL INFANTRY unit only, excluding CHARACTER units.",
     "text": [
      "Models in this unit have Scouts 6\". This unit remains eligible to start an action after making a Scuttle to Cover move."
     ]
@@ -493,8 +493,8 @@
     "name": "Break the Firing Solution",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Your opponent's Shooting phase, when a YIG-YAR unit makes a Scuttle to Cover move.",
-    "target": "That YIG-YAR unit.",
+    "when": "Your opponent's Shooting phase, when a JACKAL unit makes a Scuttle to Cover move.",
+    "target": "That JACKAL unit.",
     "effect": "Do not roll to determine the distance of that move. Your unit can move up to 8\" instead and can move through friendly models, but cannot end on top of them."
    },
    {
@@ -502,22 +502,22 @@
     "cp": 1,
     "type": "Battle Tactic Stratagem",
     "when": "Your opponent's Shooting phase, just after an enemy unit has shot.",
-    "target": "One YIG-YAR unit that was targeted by one or more of those attacks and is eligible to shoot.",
+    "target": "One JACKAL unit that was targeted by one or more of those attacks and is eligible to shoot.",
     "effect": "Your unit shoots using Snap Shooting, but can only target that enemy unit."
    },
    {
     "name": "Crossfire Quarry",
     "cp": 1,
     "type": "Battle Tactic Stratagem",
-    "when": "Your Shooting phase, when a YIG-YAR unit is selected to shoot.",
-    "target": "That unit and one enemy unit visible to another friendly YIG-YAR unit.",
+    "when": "Your Shooting phase, when a JACKAL unit is selected to shoot.",
+    "target": "That unit and one enemy unit visible to another friendly JACKAL unit.",
     "effect": "Until the end of the phase, improve the AP characteristic of ranged attacks made by your unit against that enemy unit by 1."
    },
    {
     "name": "Hidden Firing Lanes",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Your Shooting phase, when a YIG-YAR INFANTRY unit wholly within a terrain feature is selected to shoot.",
+    "when": "Your Shooting phase, when a JACKAL INFANTRY unit wholly within a terrain feature is selected to shoot.",
     "target": "That unit.",
     "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have [LETHAL HITS]."
    },
@@ -525,8 +525,8 @@
     "name": "Snare the Advance",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Your opponent's Charge phase, just after an enemy unit declares a charge against a YIG-YAR INFANTRY unit.",
-    "target": "That YIG-YAR unit.",
+    "when": "Your opponent's Charge phase, just after an enemy unit declares a charge against a JACKAL INFANTRY unit.",
+    "target": "That JACKAL unit.",
     "effect": "Until the end of the phase, subtract 2 from charge rolls made for that enemy unit."
    },
    {
@@ -534,7 +534,7 @@
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
     "when": "End of your opponent's Fight phase.",
-    "target": "One YIG-YAR INFANTRY unit that is unengaged.",
+    "target": "One JACKAL INFANTRY unit that is unengaged.",
     "effect": "Remove your unit from the battlefield and place it into strategic reserves."
    }
   ],
@@ -840,7 +840,7 @@
    {
     "name": "Replacement Drafts",
     "text": [
-     "At the end of your Command phase, select one friendly GRUNT unit that is below starting strength. Return up to D3+2 destroyed Unggoy Warrior models to that unit. Sergeant, Auxiliary and CHARACTER models cannot be returned using this rule."
+     "At the end of your Command phase, select one friendly Grunt Cadre that is below starting strength. Return up to D3+2 destroyed Unggoy Warrior models to that unit. Sergeant, Auxiliary and CHARACTER models cannot be returned using this rule."
     ]
    }
   ],
@@ -851,14 +851,14 @@
     "upgrade": false,
     "restriction": "COVENANT CHARACTER model only, excluding Epic Heroes.",
     "text": [
-     "While the bearer is leading a GRUNT unit, each time that unit is selected for Replacement Drafts, return 2 additional Unggoy Warrior models."
+     "While the bearer is leading a Grunt Cadre, each time that unit is selected for Replacement Drafts, return 2 additional Unggoy Warrior models."
     ]
    },
    {
     "name": "Surplus Plasma Cells",
     "points": 15,
     "upgrade": true,
-    "restriction": "Upgrade - GRUNT unit only.",
+    "restriction": "Upgrade - Grunt Cadre unit only.",
     "text": [
      "Once per battle, when this unit is selected to shoot, it can activate this Upgrade. If it does, until the end of the phase, add 1 to the A characteristic of ranged weapons equipped by Unggoy Warrior models in this unit."
     ]
@@ -878,7 +878,7 @@
     "name": "Massed Plasma Volley",
     "cp": 1,
     "type": "Battle Tactic Stratagem",
-    "when": "Your Shooting phase, when an UNGGOY INFANTRY unit is selected to shoot.",
+    "when": "Your Shooting phase, when a GRUNT INFANTRY unit is selected to shoot.",
     "target": "That unit.",
     "effect": "Until the end of the phase, ranged weapons equipped by UNGGOY models in your unit have [LETHAL HITS]."
    },
@@ -887,15 +887,15 @@
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
     "when": "Your opponent's Shooting phase, just after an enemy unit selects a friendly non-GRUNT COVENANT INFANTRY unit as the target of one or more attacks.",
-    "target": "That COVENANT INFANTRY unit and one friendly GRUNT unit within 3\" of it.",
-    "effect": "Until the attacking unit has finished making its attacks, each time one of those attacks targets your COVENANT INFANTRY unit, if the selected GRUNT unit is an eligible target, change that attack's target to that GRUNT unit."
+    "target": "That COVENANT INFANTRY unit and one friendly Grunt Cadre within 3\" of it.",
+    "effect": "Until the attacking unit has finished making its attacks, each time one of those attacks targets your COVENANT INFANTRY unit, if the selected Grunt Cadre is an eligible target, change that attack's target to that Grunt Cadre."
    },
    {
     "name": "More Where They Came From",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
     "when": "Your Command phase, just after resolving Replacement Drafts.",
-    "target": "One different GRUNT unit that is below starting strength.",
+    "target": "One different Grunt Cadre that is below starting strength.",
     "effect": "Return up to D3+1 destroyed Unggoy Warrior models to that unit."
    }
   ],
@@ -983,7 +983,7 @@
    {
     "name": "Colony Bonds",
     "text": [
-     "During Declare Battle Formations, you can organise friendly MGALEKGOLO units into bonds of two. Each unit can have only one Bondmate. Each time a MGALEKGOLO unit attacks an enemy unit that was hit by its Bondmate earlier in the same phase, re-roll hit rolls of 1 and wound rolls of 1. When a MGALEKGOLO unit's Bondmate is destroyed, add 1 to the A characteristic of weapons equipped by models in the surviving unit for the remainder of the battle."
+     "During Declare Battle Formations, you can organise friendly HUNTER units into bonds of two. Each unit can have only one Bondmate. Each time a HUNTER unit attacks an enemy unit that was hit by its Bondmate earlier in the same phase, re-roll hit rolls of 1 and wound rolls of 1. When a HUNTER unit's Bondmate is destroyed, add 1 to the A characteristic of weapons equipped by models in the surviving unit for the remainder of the battle."
     ]
    }
   ],
@@ -992,7 +992,7 @@
     "name": "Regenerative Worm-mass",
     "points": 20,
     "upgrade": true,
-    "restriction": "Upgrade - MGALEKGOLO unit only.",
+    "restriction": "Upgrade - HUNTER unit only.",
     "text": [
      "At the start of your Command phase, one model in this unit regains up to D3 lost wounds."
     ]
@@ -1001,7 +1001,7 @@
     "name": "Ancient Colony",
     "points": 25,
     "upgrade": true,
-    "restriction": "Upgrade - MGALEKGOLO unit only.",
+    "restriction": "Upgrade - HUNTER unit only.",
     "text": [
      "Add 1 to the OC characteristic of models in this unit, and battle-shock rolls made for this unit can be re-rolled."
     ]
@@ -1012,7 +1012,7 @@
     "name": "Interlocking Shields",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects a MGALEKGOLO unit as the target of one or more attacks.",
+    "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects a HUNTER unit as the target of one or more attacks.",
     "target": "That unit, provided it is within 6\" of its Bondmate.",
     "effect": "Until the attacking unit has finished making its attacks, worsen the AP characteristic of those attacks by 1."
    },
@@ -1020,7 +1020,7 @@
     "name": "Synchronized Destruction",
     "cp": 1,
     "type": "Battle Tactic Stratagem",
-    "when": "Your Shooting phase or the Fight phase, when a MGALEKGOLO unit is selected to shoot or fight.",
+    "when": "Your Shooting phase or the Fight phase, when a HUNTER unit is selected to shoot or fight.",
     "target": "That unit and one enemy unit hit by its Bondmate this phase.",
     "effect": "Until the end of the phase, add 1 to wound rolls for attacks made by your unit against that enemy unit."
    },
@@ -1028,8 +1028,8 @@
     "name": "Wrath of the Bereaved",
     "cp": 1,
     "type": "Epic Deed Stratagem",
-    "when": "Just after an enemy unit destroys a MGALEKGOLO unit's Bondmate.",
-    "target": "The surviving MGALEKGOLO unit.",
+    "when": "Just after an enemy unit destroys a HUNTER unit's Bondmate.",
+    "target": "The surviving HUNTER unit.",
     "effect": "Until the end of your next turn, add 1 to Hit and wound rolls for attacks made by your unit against the enemy unit that destroyed its Bondmate."
    }
   ],
@@ -1084,7 +1084,7 @@
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
     "when": "End of your Movement phase.",
-    "target": "One HURAGOK unit within 3\" of a Reclamation marker.",
+    "target": "One ENGINEER unit within 3\" of a Reclamation marker.",
     "effect": "Remove that marker. Set up one new Covenant Deployable Turret unit at starting strength wholly within 3\" of your Huragok and more than 3\" from all enemy models.",
     "restriction": "You cannot use this Stratagem more than once per battle."
    },
@@ -1093,7 +1093,7 @@
     "cp": 1,
     "type": "Epic Deed Stratagem",
     "when": "Any phase, just after an enemy unit finishes making attacks that destroyed a friendly non-TITANIC COVENANT VEHICLE or FORTIFICATION unit within 3\" of a friendly HURAGOK model.",
-    "target": "That destroyed unit and one such HURAGOK unit.",
+    "target": "That destroyed unit and one such ENGINEER unit.",
     "effect": "Roll one D6. On a 3+, return one destroyed model from the target unit to the battlefield as close as possible to where it was destroyed and outside engagement range of enemy models. It has 1 wound remaining and 0 SP.",
     "restriction": "You cannot use this Stratagem more than once per battle."
    },

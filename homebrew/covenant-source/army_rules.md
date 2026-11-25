@@ -8,7 +8,7 @@ _Source: Codex: Covenant v5.5.0 in 11th-edition wording. Caste Hierarchy is the 
 
 **Auxiliaries:** A unit can include Auxiliary models at the rate printed on its datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries). There is one Auxiliary entry per species: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the YIG-YAR keyword, so they can be taken wherever Yig-Yar Auxiliaries can. Each Auxiliary model can take one Specialist ability from its entry, at the points shown.
 
-**Keywords:** As in the core rules, a unit has the keywords of all its models, including its Sergeant and Auxiliary models: a SANGHEILI unit with an Unggoy Auxiliary is also an UNGGOY unit. Only Grunt Cadres have the GRUNT keyword, so rules for GRUNT units affect only them, while rules for UNGGOY units affect any unit with an Unggoy model in it.
+**Keywords:** As in the core rules, a unit has the keywords of all its models, including its Sergeant and Auxiliary models: a Sangheili Warrior Cadre with an Unggoy Auxiliary is also an UNGGOY unit. Each species' own datasheets also have a unit keyword that its Sergeant and Auxiliary models do not: GRUNT (Unggoy), ELITE (Sangheili), BRUTE (Jiralhanae), JACKAL (Yig-Yar and T'vaoan), DRONE (Yanme'e), HUNTER (Mgalekgolo) and ENGINEER (Huragok). Rules for those keywords affect only that species' units; rules for UNGGOY, SANGHEILI and the other species keywords affect any unit with such a model in it.
 
 **Toughness:** A unit's T characteristic is the one that the most models in it have. If two or more are tied, use the lowest.
 

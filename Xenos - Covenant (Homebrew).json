@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 9,
+    "revision": 10,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -67,6 +67,11 @@
       {
         "name": "Sangheili",
         "id": "ee5e-ea74-843f-115f",
+        "hidden": false
+      },
+      {
+        "name": "Elite",
+        "id": "2c03-cc09-adb0-2fe1",
         "hidden": false
       },
       {
@@ -155,6 +160,11 @@
         "hidden": false
       },
       {
+        "name": "Jackal",
+        "id": "6954-ba22-41bd-49ca",
+        "hidden": false
+      },
+      {
         "name": "Corsair-Talon",
         "id": "823d-afdc-c8a3-46f9",
         "hidden": false
@@ -172,6 +182,11 @@
       {
         "name": "Raider",
         "id": "2706-97f0-c1fb-e104",
+        "hidden": false
+      },
+      {
+        "name": "Grunt",
+        "id": "0593-50cd-8861-f0ff",
         "hidden": false
       },
       {
@@ -197,11 +212,6 @@
       {
         "name": "Count: Jiralhanae Assault Pack - heavy",
         "id": "d2d8-a6ac-7940-5e58",
-        "hidden": true
-      },
-      {
-        "name": "Count: Sergeant",
-        "id": "848c-ffa1-59d4-d221",
         "hidden": true
       },
       {
@@ -243,11 +253,6 @@
         "name": "Count: Grunt Cadre - special",
         "id": "2206-3131-c289-1391",
         "hidden": true
-      },
-      {
-        "name": "Grunt",
-        "id": "0593-50cd-8861-f0ff",
-        "hidden": false
       },
       {
         "name": "Cadre",
@@ -988,13 +993,13 @@
                     "name": "Worthy Foe",
                     "id": "4ce9-2406-2ac5-db0a",
                     "hidden": false,
-                    "description": "\n\nAt the start of your Command phase, select one unit from your opponent's army that has the CHARACTER, MONSTER or VEHICLE keyword, is within range of an objective marker, or is your opponent's Warlord's unit. Until the start of your next Command phase, that enemy unit is your Worthy Foe.\n\nEach time a SANGHEILI model attacks your Worthy Foe, re-roll a hit roll of 1 and a wound roll of 1. SANGHEILI units can re-roll charge rolls made against your Worthy Foe."
+                    "description": "\n\nAt the start of your Command phase, select one unit from your opponent's army that has the CHARACTER, MONSTER or VEHICLE keyword, is within range of an objective marker, or is your opponent's Warlord's unit. Until the start of your next Command phase, that enemy unit is your Worthy Foe.\n\nEach time a SANGHEILI model attacks your Worthy Foe, re-roll a hit roll of 1 and a wound roll of 1. ELITE units can re-roll charge rolls made against your Worthy Foe."
                   },
                   {
                     "name": "Exultant",
                     "id": "ca24-fecf-62f2-8364",
                     "hidden": false,
-                    "description": "\n\nAfter a SANGHEILI unit destroys your Worthy Foe, that unit immediately resolves Regenerating Shields and is Exultant until the end of your next turn.\n\nWhile a unit is Exultant, it is eligible to shoot and declare a charge in a turn in which it made an advance or fall-back move."
+                    "description": "\n\nAfter an ELITE unit destroys your Worthy Foe, that unit immediately resolves Regenerating Shields and is Exultant until the end of your next turn.\n\nWhile a unit is Exultant, it is eligible to shoot and declare a charge in a turn in which it made an advance or fall-back move."
                   }
                 ],
                 "categoryLinks": [
@@ -1043,7 +1048,7 @@
                     "name": "Pack Encirclement",
                     "id": "ec42-f6d8-6e89-2239",
                     "hidden": false,
-                    "description": "\n\nJIRALHANAE units can re-roll charge rolls made against an enemy unit that is within engagement range of one or more other friendly COVENANT units.\n\nEach time a JIRALHANAE unit makes melee attacks against an enemy unit that is within engagement range of one or more other friendly COVENANT units, add 1 to the A characteristic of melee weapons equipped by models in that JIRALHANAE unit until it has finished making those attacks."
+                    "description": "\n\nBRUTE units can re-roll charge rolls made against an enemy unit that is within engagement range of one or more other friendly COVENANT units.\n\nEach time a BRUTE unit makes melee attacks against an enemy unit that is within engagement range of one or more other friendly COVENANT units, add 1 to the A characteristic of melee weapons equipped by models in that BRUTE unit until it has finished making those attacks."
                   }
                 ],
                 "categoryLinks": [
@@ -1092,7 +1097,7 @@
                     "name": "Scuttle to Cover",
                     "id": "7136-07d3-5061-7737",
                     "hidden": false,
-                    "description": "\n\nOnce per battle round, each time a friendly YIG-YAR unit is selected as the target of one or more ranged attacks, before those attacks are made, it can make a normal move of up to D6+2\". The attacking unit can then select new targets for any of its attacks. Each YIG-YAR unit can do this once per battle round."
+                    "description": "\n\nOnce per battle round, each time a friendly JACKAL unit is selected as the target of one or more ranged attacks, before those attacks are made, it can make a normal move of up to D6+2\". The attacking unit can then select new targets for any of its attacks. Each JACKAL unit can do this once per battle round."
                   }
                 ],
                 "categoryLinks": [
@@ -1291,7 +1296,7 @@
                     "name": "Replacement Drafts",
                     "id": "6479-bae1-04c9-15c4",
                     "hidden": false,
-                    "description": "\n\nAt the end of your Command phase, select one friendly GRUNT unit that is below starting strength. Return up to D3+2 destroyed Unggoy Warrior models to that unit. Sergeant, Auxiliary and CHARACTER models cannot be returned using this rule."
+                    "description": "\n\nAt the end of your Command phase, select one friendly Grunt Cadre that is below starting strength. Return up to D3+2 destroyed Unggoy Warrior models to that unit. Sergeant, Auxiliary and CHARACTER models cannot be returned using this rule."
                   }
                 ],
                 "categoryLinks": [
@@ -1412,7 +1417,7 @@
                     "name": "Colony Bonds",
                     "id": "a626-c24a-3172-d934",
                     "hidden": false,
-                    "description": "\n\nDuring Declare Battle Formations, you can organise friendly MGALEKGOLO units into bonds of two. Each unit can have only one Bondmate. Each time a MGALEKGOLO unit attacks an enemy unit that was hit by its Bondmate earlier in the same phase, re-roll hit rolls of 1 and wound rolls of 1. When a MGALEKGOLO unit's Bondmate is destroyed, add 1 to the A characteristic of weapons equipped by models in the surviving unit for the remainder of the battle."
+                    "description": "\n\nDuring Declare Battle Formations, you can organise friendly HUNTER units into bonds of two. Each unit can have only one Bondmate. Each time a HUNTER unit attacks an enemy unit that was hit by its Bondmate earlier in the same phase, re-roll hit rolls of 1 and wound rolls of 1. When a HUNTER unit's Bondmate is destroyed, add 1 to the A characteristic of weapons equipped by models in the surviving unit for the remainder of the battle."
                   }
                 ],
                 "categoryLinks": [
@@ -4572,7 +4577,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Infantry, Grenades, Character, Epic Hero, Thel 'Vadam. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Infantry, Grenades, Character, Epic Hero, Thel 'Vadam. Faction: Covenant."
               }
             ]
           }
@@ -4969,6 +4974,13 @@
             "hidden": false
           },
           {
+            "name": "Elite",
+            "id": "b661-a41b-812d-7f16",
+            "targetId": "2c03-cc09-adb0-2fe1",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Infantry",
             "id": "b9b0-6756-e736-d376",
             "targetId": "cf47-a0d7-7207-29dc",
@@ -5205,7 +5217,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Infantry, Grenades, Character, Epic Hero, Rtas 'Vadum. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Infantry, Grenades, Character, Epic Hero, Rtas 'Vadum. Faction: Covenant."
               }
             ]
           }
@@ -5536,6 +5548,13 @@
             "hidden": false
           },
           {
+            "name": "Elite",
+            "id": "241e-0b5f-715a-60fe",
+            "targetId": "2c03-cc09-adb0-2fe1",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Infantry",
             "id": "d08d-3252-f9ec-f874",
             "targetId": "cf47-a0d7-7207-29dc",
@@ -5788,7 +5807,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Infantry, Grenades, Character, Epic Hero, Special Operations, N'tho 'Sraom, Usze 'Taham. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Infantry, Grenades, Character, Epic Hero, Special Operations, N'tho 'Sraom, Usze 'Taham. Faction: Covenant."
               }
             ]
           }
@@ -6567,6 +6586,13 @@
             "name": "Sangheili",
             "id": "d7b8-8c5b-2d2d-bab0",
             "targetId": "ee5e-ea74-843f-115f",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Elite",
+            "id": "d42b-d1c8-a195-df48",
+            "targetId": "2c03-cc09-adb0-2fe1",
             "primary": false,
             "hidden": false
           },
@@ -8251,7 +8277,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Infantry, Grenades, Character, Shipmaster. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Infantry, Grenades, Character, Shipmaster. Faction: Covenant."
               }
             ]
           }
@@ -9447,6 +9473,13 @@
             "hidden": false
           },
           {
+            "name": "Elite",
+            "id": "cedb-29a1-72e2-b703",
+            "targetId": "2c03-cc09-adb0-2fe1",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Infantry",
             "id": "f975-e7af-6f38-723f",
             "targetId": "cf47-a0d7-7207-29dc",
@@ -9636,7 +9669,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Infantry, Grenades, Character, Fieldmaster. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Infantry, Grenades, Character, Fieldmaster. Faction: Covenant."
               }
             ]
           }
@@ -10802,6 +10835,13 @@
             "hidden": false
           },
           {
+            "name": "Elite",
+            "id": "2fc8-09a2-d495-bc9c",
+            "targetId": "2c03-cc09-adb0-2fe1",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Infantry",
             "id": "a5a6-22b5-353e-324d",
             "targetId": "cf47-a0d7-7207-29dc",
@@ -11030,7 +11070,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Infantry, Grenades, Character, Blademaster. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Infantry, Grenades, Character, Blademaster. Faction: Covenant."
               }
             ]
           }
@@ -11195,6 +11235,13 @@
             "name": "Sangheili",
             "id": "a3c0-7f11-616a-9668",
             "targetId": "ee5e-ea74-843f-115f",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Elite",
+            "id": "396b-6ef8-be16-87f2",
+            "targetId": "2c03-cc09-adb0-2fe1",
             "primary": false,
             "hidden": false
           },
@@ -13616,7 +13663,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Yig-Yar, Infantry, Grenades, Character, Corsair-Talon. Faction: Covenant."
+                "$text": "Keywords: Yig-Yar, Jackal, Infantry, Grenades, Character, Corsair-Talon. Faction: Covenant."
               }
             ]
           }
@@ -13870,6 +13917,13 @@
             "name": "Yig-Yar",
             "id": "4fd6-13d9-b333-e3c7",
             "targetId": "f621-2079-f54b-6892",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Jackal",
+            "id": "d967-b3f2-0095-6605",
+            "targetId": "6954-ba22-41bd-49ca",
             "primary": false,
             "hidden": false
           },
@@ -14719,7 +14773,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Yig-Yar, Infantry, Grenades, Character, Headtaker. Faction: Covenant."
+                "$text": "Keywords: Yig-Yar, Jackal, Infantry, Grenades, Character, Headtaker. Faction: Covenant."
               }
             ]
           }
@@ -15914,6 +15968,13 @@
             "hidden": false
           },
           {
+            "name": "Jackal",
+            "id": "8cd0-222e-30ed-e7c6",
+            "targetId": "6954-ba22-41bd-49ca",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Infantry",
             "id": "4946-5602-6f28-c80d",
             "targetId": "cf47-a0d7-7207-29dc",
@@ -16097,7 +16158,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Yig-Yar, T'vaoan, Infantry, Grenades, Fly, Character, Raider. Faction: Covenant."
+                "$text": "Keywords: Yig-Yar, Jackal, T'vaoan, Infantry, Grenades, Fly, Character, Raider. Faction: Covenant."
               }
             ]
           }
@@ -16301,6 +16362,13 @@
             "name": "Yig-Yar",
             "id": "b031-89ab-28a9-5080",
             "targetId": "f621-2079-f54b-6892",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Jackal",
+            "id": "3e36-bf51-fbe8-d1d7",
+            "targetId": "6954-ba22-41bd-49ca",
             "primary": false,
             "hidden": false
           },
@@ -17079,7 +17147,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While a friendly UNGGOY unit is within 6\" of this model, it is considered to contain an Unggoy Sergeant for the purpose of accessing Unggoy Doctrines."
+                "$text": "While a friendly GRUNT unit is within 6\" of this model, it is considered to contain an Unggoy Sergeant for the purpose of accessing Unggoy Doctrines."
               }
             ]
           },
@@ -17093,7 +17161,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While a friendly UNGGOY unit is within 6\" of this model, improve that unit's Ld characteristic by 1."
+                "$text": "While a friendly GRUNT unit is within 6\" of this model, improve that unit's Ld characteristic by 1."
               }
             ]
           },
@@ -17121,7 +17189,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Unggoy, Infantry, Grenades, Character, Deacon. Faction: Covenant."
+                "$text": "Keywords: Unggoy, Grunt, Infantry, Grenades, Character, Deacon. Faction: Covenant."
               }
             ]
           }
@@ -17311,6 +17379,13 @@
             "name": "Unggoy",
             "id": "77ed-cafe-984e-d3e5",
             "targetId": "9d39-77db-45a5-1e16",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Grunt",
+            "id": "49db-639e-89d8-5fd3",
+            "targetId": "0593-50cd-8861-f0ff",
             "primary": false,
             "hidden": false
           },
@@ -20959,6 +21034,41 @@
             ]
           },
           {
+            "name": "Sergeant",
+            "id": "3cfd-d62e-be4a-a41a",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Jiralhanae Pack Alpha",
+                "id": "b5c8-c60f-fd23-043f",
+                "targetId": "cf51-b8f4-8eb0-cb3c",
+                "type": "selectionEntry",
+                "hidden": false,
+                "import": true
+              },
+              {
+                "name": "Sangheili Ultra",
+                "id": "5276-7b2e-caa7-10a5",
+                "targetId": "c21b-7e5f-4af2-fce6",
+                "type": "selectionEntry",
+                "hidden": false,
+                "import": true
+              }
+            ],
+            "constraints": [
+              {
+                "id": "d444-ae87-650c-8b0e",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "sortIndex": 0
+          },
+          {
             "name": "Auxiliary",
             "id": "6c4e-5ae1-8d99-0fe0",
             "hidden": false,
@@ -22889,17 +22999,22 @@
           },
           {
             "type": "add",
-            "field": "error",
-            "value": "Take at most one Sergeant: Jiralhanae Pack Alpha or Sangheili Ultra.",
-            "conditions": [
+            "field": "category",
+            "value": "ee5e-ea74-843f-115f",
+            "conditionGroups": [
               {
-                "childId": "848c-ffa1-59d4-d221",
-                "field": "selections",
-                "scope": "49fd-d448-c9d3-9cc9",
-                "type": "atLeast",
-                "value": 2,
-                "shared": true,
-                "includeChildSelections": true
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "c21b-7e5f-4af2-fce6",
+                    "field": "selections",
+                    "scope": "49fd-d448-c9d3-9cc9",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           },
@@ -22968,69 +23083,6 @@
                 ]
               }
             ]
-          },
-          {
-            "type": "add",
-            "field": "category",
-            "value": "ee5e-ea74-843f-115f",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "c21b-7e5f-4af2-fce6",
-                    "field": "selections",
-                    "scope": "49fd-d448-c9d3-9cc9",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "entryLinks": [
-          {
-            "name": "Jiralhanae Pack Alpha",
-            "id": "b5c8-c60f-fd23-043f",
-            "targetId": "cf51-b8f4-8eb0-cb3c",
-            "type": "selectionEntry",
-            "hidden": false,
-            "sortIndex": 0,
-            "constraints": [
-              {
-                "id": "e556-00bf-b664-f092",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "import": true
-          },
-          {
-            "name": "Sangheili Ultra",
-            "id": "5276-7b2e-caa7-10a5",
-            "targetId": "c21b-7e5f-4af2-fce6",
-            "type": "selectionEntry",
-            "hidden": false,
-            "sortIndex": 0,
-            "constraints": [
-              {
-                "id": "e865-e854-737f-0408",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "import": true
           }
         ],
         "categoryLinks": [
@@ -23157,7 +23209,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Yig-Yar, Infantry, Grenades, Battleline, Marauders. Faction: Covenant."
+                "$text": "Keywords: Yig-Yar, Jackal, Infantry, Grenades, Battleline, Marauders. Faction: Covenant."
               }
             ]
           }
@@ -24624,27 +24676,6 @@
           {
             "type": "add",
             "field": "category",
-            "value": "cf5b-f9dd-7acb-a262",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "cf51-b8f4-8eb0-cb3c",
-                    "field": "selections",
-                    "scope": "ad54-5dcf-2efb-a761",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "add",
-            "field": "category",
             "value": "ee5e-ea74-843f-115f",
             "conditionGroups": [
               {
@@ -24697,6 +24728,13 @@
             "name": "Yig-Yar",
             "id": "8467-21fe-68ef-4a85",
             "targetId": "f621-2079-f54b-6892",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Jackal",
+            "id": "0211-685d-cee3-e721",
+            "targetId": "6954-ba22-41bd-49ca",
             "primary": false,
             "hidden": false
           },
@@ -26453,36 +26491,6 @@
           {
             "type": "add",
             "field": "category",
-            "value": "cf5b-f9dd-7acb-a262",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "cf51-b8f4-8eb0-cb3c",
-                    "field": "selections",
-                    "scope": "3061-7f0c-158d-dac7",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "childId": "bf75-e534-b43e-597e",
-                    "field": "selections",
-                    "scope": "3061-7f0c-158d-dac7",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "add",
-            "field": "category",
             "value": "f621-2079-f54b-6892",
             "conditionGroups": [
               {
@@ -26661,7 +26669,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Yanme'e, Infantry, Fly, Battleline, Drone Swarm. Faction: Covenant."
+                "$text": "Keywords: Yanme'e, Drone, Infantry, Fly, Battleline, Drone Swarm. Faction: Covenant."
               }
             ]
           }
@@ -27158,6 +27166,13 @@
             "hidden": false
           },
           {
+            "name": "Drone",
+            "id": "c49a-bc45-35e6-6530",
+            "targetId": "2471-e2e0-3f55-d6cb",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Infantry",
             "id": "2257-f70d-fe19-8741",
             "targetId": "cf47-a0d7-7207-29dc",
@@ -27259,7 +27274,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Infantry, Grenades, Warrior Cadre. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Infantry, Grenades, Warrior Cadre. Faction: Covenant."
               }
             ]
           }
@@ -30350,27 +30365,6 @@
                 ]
               }
             ]
-          },
-          {
-            "type": "add",
-            "field": "category",
-            "value": "cf5b-f9dd-7acb-a262",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "bf75-e534-b43e-597e",
-                    "field": "selections",
-                    "scope": "34a6-ed21-1b15-55ed",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
           }
         ],
         "categoryLinks": [
@@ -30385,6 +30379,13 @@
             "name": "Sangheili",
             "id": "0f17-b69b-d77d-a5bf",
             "targetId": "ee5e-ea74-843f-115f",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Elite",
+            "id": "adf1-0e8e-8988-780a",
+            "targetId": "2c03-cc09-adb0-2fe1",
             "primary": false,
             "hidden": false
           },
@@ -30474,7 +30475,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Ranger, Infantry, Grenades. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Ranger, Infantry, Grenades. Faction: Covenant."
               }
             ]
           }
@@ -31184,6 +31185,13 @@
             "hidden": false
           },
           {
+            "name": "Elite",
+            "id": "2984-6a44-870b-1759",
+            "targetId": "2c03-cc09-adb0-2fe1",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Ranger",
             "id": "f12b-1ce0-cfe1-ad51",
             "targetId": "da97-4592-37a2-89b9",
@@ -31278,7 +31286,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Swordmaster, Infantry, Grenades. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Swordmaster, Infantry, Grenades. Faction: Covenant."
               }
             ]
           }
@@ -31888,6 +31896,13 @@
             "hidden": false
           },
           {
+            "name": "Elite",
+            "id": "df5d-d61c-42f2-8b39",
+            "targetId": "2c03-cc09-adb0-2fe1",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Swordmaster",
             "id": "c293-f9fd-5b17-4c42",
             "targetId": "118e-6353-9cff-f88f",
@@ -31973,7 +31988,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Special Operations, Infantry, Grenades. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Special Operations, Infantry, Grenades. Faction: Covenant."
               }
             ]
           }
@@ -34197,6 +34212,13 @@
             "hidden": false
           },
           {
+            "name": "Elite",
+            "id": "ca28-c0b0-f19a-aafa",
+            "targetId": "2c03-cc09-adb0-2fe1",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Special Operations",
             "id": "9070-0c3c-1353-5c01",
             "targetId": "717c-8757-297a-2845",
@@ -34291,7 +34313,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Assassin, Infantry, Grenades. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Assassin, Infantry, Grenades. Faction: Covenant."
               }
             ]
           }
@@ -35482,6 +35504,13 @@
             "hidden": false
           },
           {
+            "name": "Elite",
+            "id": "5415-be3a-0c47-9470",
+            "targetId": "2c03-cc09-adb0-2fe1",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Assassin",
             "id": "03c7-587b-9dee-580e",
             "targetId": "2b8b-2a5d-7bd8-2859",
@@ -35581,7 +35610,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Zealot, Infantry, Grenades. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Zealot, Infantry, Grenades. Faction: Covenant."
               }
             ]
           }
@@ -37329,6 +37358,13 @@
             "hidden": false
           },
           {
+            "name": "Elite",
+            "id": "e655-25c4-3083-53de",
+            "targetId": "2c03-cc09-adb0-2fe1",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Zealot",
             "id": "b9e6-edd3-5639-1f16",
             "targetId": "4fc4-9eab-fb34-aff0",
@@ -37428,7 +37464,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Sangheili, Honor Guard, Infantry, Grenades. Faction: Covenant."
+                "$text": "Keywords: Sangheili, Elite, Honor Guard, Infantry, Grenades. Faction: Covenant."
               }
             ]
           }
@@ -37782,6 +37818,13 @@
             "name": "Sangheili",
             "id": "3634-3362-c137-b807",
             "targetId": "ee5e-ea74-843f-115f",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Elite",
+            "id": "e491-d3be-e50f-368e",
+            "targetId": "2c03-cc09-adb0-2fe1",
             "primary": false,
             "hidden": false
           },
@@ -40542,7 +40585,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Yig-Yar, Infantry, Grenades, Corsairs. Faction: Covenant."
+                "$text": "Keywords: Yig-Yar, Jackal, Infantry, Grenades, Corsairs. Faction: Covenant."
               }
             ]
           }
@@ -41564,6 +41607,13 @@
             "hidden": false
           },
           {
+            "name": "Jackal",
+            "id": "47a3-5260-345e-8c73",
+            "targetId": "6954-ba22-41bd-49ca",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Grenades",
             "id": "70c9-86a4-b4d6-f64e",
             "targetId": "5a61-81ac-eb7c-a87e",
@@ -41649,7 +41699,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Yig-Yar, Infantry, Grenades, Marksmen. Faction: Covenant."
+                "$text": "Keywords: Yig-Yar, Jackal, Infantry, Grenades, Marksmen. Faction: Covenant."
               }
             ]
           }
@@ -43483,6 +43533,13 @@
             "hidden": false
           },
           {
+            "name": "Jackal",
+            "id": "6f32-7ffd-e07d-4924",
+            "targetId": "6954-ba22-41bd-49ca",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Grenades",
             "id": "4aa5-2a22-06ea-f482",
             "targetId": "5a61-81ac-eb7c-a87e",
@@ -43577,7 +43634,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Yig-Yar, T'vaoan, Infantry, Grenades, Butchers. Faction: Covenant."
+                "$text": "Keywords: Yig-Yar, Jackal, T'vaoan, Infantry, Grenades, Butchers. Faction: Covenant."
               }
             ]
           }
@@ -44373,27 +44430,6 @@
                 ]
               }
             ]
-          },
-          {
-            "type": "add",
-            "field": "category",
-            "value": "cf5b-f9dd-7acb-a262",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "cf51-b8f4-8eb0-cb3c",
-                    "field": "selections",
-                    "scope": "6722-b6ce-ee9f-4740",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
           }
         ],
         "categoryLinks": [
@@ -44408,6 +44444,13 @@
             "name": "Yig-Yar",
             "id": "f419-3108-4eca-d697",
             "targetId": "f621-2079-f54b-6892",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Jackal",
+            "id": "3284-8f24-3bb5-13ab",
+            "targetId": "6954-ba22-41bd-49ca",
             "primary": false,
             "hidden": false
           },
@@ -44574,7 +44617,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Yig-Yar, T'vaoan, Infantry, Grenades, Skirmishers. Faction: Covenant."
+                "$text": "Keywords: Yig-Yar, Jackal, T'vaoan, Infantry, Grenades, Skirmishers. Faction: Covenant."
               }
             ]
           }
@@ -48935,6 +48978,13 @@
             "hidden": false
           },
           {
+            "name": "Jackal",
+            "id": "208a-2ba0-baba-1800",
+            "targetId": "6954-ba22-41bd-49ca",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "T'vaoan",
             "id": "b2de-397d-c667-2d40",
             "targetId": "343e-8e6d-2382-017d",
@@ -49064,7 +49114,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Unggoy, Infantry, Grenades, Suicide Grunts. Faction: Covenant."
+                "$text": "Keywords: Unggoy, Grunt, Infantry, Grenades, Suicide Grunts. Faction: Covenant."
               }
             ]
           }
@@ -49429,6 +49479,13 @@
             "hidden": false
           },
           {
+            "name": "Grunt",
+            "id": "1326-3ed4-2c8f-447c",
+            "targetId": "0593-50cd-8861-f0ff",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Grenades",
             "id": "539c-1815-9f10-0340",
             "targetId": "5a61-81ac-eb7c-a87e",
@@ -49514,7 +49571,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Unggoy, Infantry, Grenades, Heavy Weapons Team. Faction: Covenant."
+                "$text": "Keywords: Unggoy, Grunt, Infantry, Grenades, Heavy Weapons Team. Faction: Covenant."
               }
             ]
           }
@@ -50097,6 +50154,13 @@
             "hidden": false
           },
           {
+            "name": "Grunt",
+            "id": "96d4-d6f0-ea54-3bfc",
+            "targetId": "0593-50cd-8861-f0ff",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Grenades",
             "id": "7f6b-cae8-b0fc-9609",
             "targetId": "5a61-81ac-eb7c-a87e",
@@ -50182,7 +50246,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Unggoy, Infantry, Grenades, Zealots. Faction: Covenant."
+                "$text": "Keywords: Unggoy, Grunt, Infantry, Grenades, Zealots. Faction: Covenant."
               }
             ]
           }
@@ -50640,27 +50704,6 @@
           {
             "type": "add",
             "field": "category",
-            "value": "cf5b-f9dd-7acb-a262",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "childId": "cf51-b8f4-8eb0-cb3c",
-                    "field": "selections",
-                    "scope": "ed40-19a8-ae39-885e",
-                    "type": "atLeast",
-                    "value": 1,
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "add",
-            "field": "category",
             "value": "ee5e-ea74-843f-115f",
             "conditionGroups": [
               {
@@ -50692,6 +50735,13 @@
             "name": "Unggoy",
             "id": "1e29-02e7-4941-8170",
             "targetId": "9d39-77db-45a5-1e16",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Grunt",
+            "id": "ce66-bff5-5550-e8f6",
+            "targetId": "0593-50cd-8861-f0ff",
             "primary": false,
             "hidden": false
           },
@@ -54517,7 +54567,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Mgalekgolo, Lekgolo, Monster, Titanic, Towering, Goliath. Faction: Covenant."
+                "$text": "Keywords: Mgalekgolo, Hunter, Lekgolo, Monster, Titanic, Towering, Goliath. Faction: Covenant."
               }
             ]
           }
@@ -54696,6 +54746,13 @@
             "name": "Mgalekgolo",
             "id": "b411-6a5b-3a96-7de2",
             "targetId": "e178-6776-0f06-d89a",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Hunter",
+            "id": "caef-0e10-e55d-a394",
+            "targetId": "1aac-4583-de2a-8cc9",
             "primary": false,
             "hidden": false
           },
@@ -55988,7 +56045,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Unggoy, Vehicle, Walker, Goblin. Faction: Covenant."
+                "$text": "Keywords: Unggoy, Grunt, Vehicle, Walker, Goblin. Faction: Covenant."
               }
             ]
           }
@@ -56670,6 +56727,13 @@
             "name": "Unggoy",
             "id": "30d0-9dff-96ba-6d7f",
             "targetId": "9d39-77db-45a5-1e16",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Grunt",
+            "id": "dc7a-e315-83f7-da91",
+            "targetId": "0593-50cd-8861-f0ff",
             "primary": false,
             "hidden": false
           },
@@ -60823,7 +60887,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the end of your opponent's Fight phase, select one friendly YIG-YAR INFANTRY unit wholly within 6\". If neither unit is within engagement range and it fits within this model, that unit can embark."
+                "$text": "At the end of your opponent's Fight phase, select one friendly JACKAL INFANTRY unit wholly within 6\". If neither unit is within engagement range and it fits within this model, that unit can embark."
               }
             ]
           },
@@ -60851,7 +60915,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Yig-Yar, Vehicle, Fly, Frame, Transport, Dedicated Transport, Raider-Skiff. Faction: Covenant."
+                "$text": "Keywords: Yig-Yar, Jackal, Vehicle, Fly, Frame, Transport, Dedicated Transport, Raider-Skiff. Faction: Covenant."
               }
             ]
           }
@@ -61442,6 +61506,13 @@
             "name": "Yig-Yar",
             "id": "0997-c206-750d-6ca6",
             "targetId": "f621-2079-f54b-6892",
+            "primary": false,
+            "hidden": false
+          },
+          {
+            "name": "Jackal",
+            "id": "2936-2913-069a-903c",
+            "targetId": "6954-ba22-41bd-49ca",
             "primary": false,
             "hidden": false
           },
@@ -67533,15 +67604,6 @@
             "typeId": "51b2-306e-1021-d207",
             "value": 45
           }
-        ],
-        "categoryLinks": [
-          {
-            "name": "count",
-            "id": "27d5-0efb-2211-e94c",
-            "targetId": "848c-ffa1-59d4-d221",
-            "primary": false,
-            "hidden": false
-          }
         ]
       },
       {
@@ -70188,7 +70250,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Jiralhanae, Brute, Infantry, Grenades, Sergeant, Pack Alpha. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
+                "$text": "Jiralhanae, Infantry, Grenades, Sergeant, Pack Alpha. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
               }
             ]
           }
@@ -70935,15 +70997,6 @@
             "name": "Feel No Pain 6+",
             "targetId": "676c-ecb5-d24d-3540",
             "type": "rule",
-            "hidden": false
-          }
-        ],
-        "categoryLinks": [
-          {
-            "name": "count",
-            "id": "8b65-143d-c79f-c85e",
-            "targetId": "848c-ffa1-59d4-d221",
-            "primary": false,
             "hidden": false
           }
         ]
@@ -72645,7 +72698,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Jiralhanae, Brute, Infantry, Grenades, Auxiliary. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
+                "$text": "Jiralhanae, Infantry, Grenades, Auxiliary. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
               }
             ]
           }
@@ -77685,7 +77738,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model is in a YANME'E unit, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by other Yanme'e Drone models in that unit by 1."
+                "$text": "While this model is in a DRONE unit, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by other Yanme'e Drone models in that unit by 1."
               }
             ]
           },
@@ -79453,7 +79506,7 @@
             "name": "Consecrated War Harnesses",
             "id": "80ff-cfe6-5a86-b9d5",
             "hidden": false,
-            "description": "Upgrade - UNGGOY INFANTRY unit only.\n\nImprove the Sv and Ld characteristics of UNGGOY models in this unit by 1. A Sv characteristic cannot be improved beyond 2+."
+            "description": "Upgrade - GRUNT INFANTRY unit only.\n\nImprove the Sv and Ld characteristics of UNGGOY models in this unit by 1. A Sv characteristic cannot be improved beyond 2+."
           }
         ],
         "modifiers": [
@@ -79838,7 +79891,7 @@
             "name": "Kaidon's Shield Generator",
             "id": "cb95-e9ed-6ebf-efc9",
             "hidden": false,
-            "description": "While the bearer is leading a SANGHEILI unit, each time that unit resolves Regenerating Shields, each SANGHEILI model in that unit regains 1 additional lost SP, up to its starting SP."
+            "description": "While the bearer is leading an ELITE unit, each time that unit resolves Regenerating Shields, each SANGHEILI model in that unit regains 1 additional lost SP, up to its starting SP."
           }
         ]
       },
@@ -79881,7 +79934,7 @@
             "name": "Honour-Bound Veterans",
             "id": "47d3-ae48-b515-cb54",
             "hidden": false,
-            "description": "Upgrade - SANGHEILI INFANTRY unit only, excluding CHARACTER units.\n\nOnce per battle, after this unit destroys an enemy unit that was not your Worthy Foe, it can become Exultant until the end of your next turn. This does not resolve Regenerating Shields."
+            "description": "Upgrade - ELITE INFANTRY unit only, excluding CHARACTER units.\n\nOnce per battle, after this unit destroys an enemy unit that was not your Worthy Foe, it can become Exultant until the end of your next turn. This does not resolve Regenerating Shields."
           }
         ],
         "modifiers": [
@@ -80095,7 +80148,7 @@
             "name": "Coordinated Assault Cohort",
             "id": "af83-5d1f-3232-3abe",
             "hidden": false,
-            "description": "Upgrade - JIRALHANAE INFANTRY unit only, excluding CHARACTER units.\n\nEach time a model in this unit makes a melee attack against an enemy unit within engagement range of another friendly COVENANT unit, re-roll a hit roll of 1 and a wound roll of 1."
+            "description": "Upgrade - BRUTE INFANTRY unit only, excluding CHARACTER units.\n\nEach time a model in this unit makes a melee attack against an enemy unit within engagement range of another friendly COVENANT unit, re-roll a hit roll of 1 and a wound roll of 1."
           }
         ],
         "modifiers": [
@@ -80180,7 +80233,7 @@
             "name": "Corsair's Route-Map",
             "id": "03df-1cb5-1111-7aed",
             "hidden": false,
-            "description": "After both players have deployed, select up to three friendly YIG-YAR units. Redeploy those units. Any can instead be placed into strategic reserves."
+            "description": "After both players have deployed, select up to three friendly JACKAL units. Redeploy those units. Any can instead be placed into strategic reserves."
           }
         ]
       },
@@ -80223,7 +80276,7 @@
             "name": "Refraction Shield Matrix",
             "id": "fe1d-8238-7191-fb82",
             "hidden": false,
-            "description": "While the bearer is leading a YIG-YAR unit, after that unit makes a Scuttle to Cover move, Shield Saves made for models in that unit succeed on a 2+ until the end of the phase."
+            "description": "While the bearer is leading a JACKAL unit, after that unit makes a Scuttle to Cover move, Shield Saves made for models in that unit succeed on a 2+ until the end of the phase."
           }
         ]
       },
@@ -80309,7 +80362,7 @@
             "name": "Forward Talon",
             "id": "e1bf-f5a7-0ace-91db",
             "hidden": false,
-            "description": "Upgrade - YIG-YAR INFANTRY unit only, excluding CHARACTER units.\n\nModels in this unit have Scouts 6\". This unit remains eligible to start an action after making a Scuttle to Cover move."
+            "description": "Upgrade - JACKAL INFANTRY unit only, excluding CHARACTER units.\n\nModels in this unit have Scouts 6\". This unit remains eligible to start an action after making a Scuttle to Cover move."
           }
         ],
         "modifiers": [
@@ -81162,7 +81215,7 @@
             "name": "Master of the Muster",
             "id": "7798-ef4f-ada8-a786",
             "hidden": false,
-            "description": "COVENANT CHARACTER model only, excluding Epic Heroes.\n\nWhile the bearer is leading a GRUNT unit, each time that unit is selected for Replacement Drafts, return 2 additional Unggoy Warrior models."
+            "description": "COVENANT CHARACTER model only, excluding Epic Heroes.\n\nWhile the bearer is leading a Grunt Cadre, each time that unit is selected for Replacement Drafts, return 2 additional Unggoy Warrior models."
           }
         ]
       },
@@ -81205,7 +81258,7 @@
             "name": "Surplus Plasma Cells",
             "id": "d35b-2ad9-206a-bdd6",
             "hidden": false,
-            "description": "Upgrade - GRUNT unit only.\n\nOnce per battle, when this unit is selected to shoot, it can activate this Upgrade. If it does, until the end of the phase, add 1 to the A characteristic of ranged weapons equipped by Unggoy Warrior models in this unit."
+            "description": "Upgrade - Grunt Cadre unit only.\n\nOnce per battle, when this unit is selected to shoot, it can activate this Upgrade. If it does, until the end of the phase, add 1 to the A characteristic of ranged weapons equipped by Unggoy Warrior models in this unit."
           }
         ],
         "modifiers": [
@@ -81630,7 +81683,7 @@
             "name": "Regenerative Worm-mass",
             "id": "3d45-3e45-68a8-96e2",
             "hidden": false,
-            "description": "Upgrade - MGALEKGOLO unit only.\n\nAt the start of your Command phase, one model in this unit regains up to D3 lost wounds."
+            "description": "Upgrade - HUNTER unit only.\n\nAt the start of your Command phase, one model in this unit regains up to D3 lost wounds."
           }
         ],
         "modifiers": [
@@ -81715,7 +81768,7 @@
             "name": "Ancient Colony",
             "id": "c359-b418-3557-16c6",
             "hidden": false,
-            "description": "Upgrade - MGALEKGOLO unit only.\n\nAdd 1 to the OC characteristic of models in this unit, and battle-shock rolls made for this unit can be re-rolled."
+            "description": "Upgrade - HUNTER unit only.\n\nAdd 1 to the OC characteristic of models in this unit, and battle-shock rolls made for this unit can be re-rolled."
           }
         ],
         "modifiers": [
@@ -82442,7 +82495,7 @@
         "name": "Caste Hierarchy",
         "id": "5023-1c9e-82fb-acb4",
         "hidden": false,
-        "description": "​<br><br>**Sergeants:**<br>A Sergeant model's entry lists the Caste Doctrines it can issue.\n\n**Auxiliaries:**<br>A unit can include Auxiliary models at the rate printed on its datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries). There is one Auxiliary entry per species: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the YIG-YAR keyword, so they can be taken wherever Yig-Yar Auxiliaries can. Each Auxiliary model can take one Specialist ability from its entry, at the points shown.\n\n**Keywords:**<br>As in the core rules, a unit has the keywords of all its models, including its Sergeant and Auxiliary models: a SANGHEILI unit with an Unggoy Auxiliary is also an UNGGOY unit. Only Grunt Cadres have the GRUNT keyword, so rules for GRUNT units affect only them, while rules for UNGGOY units affect any unit with an Unggoy model in it.\n\n**Toughness:**<br>A unit's T characteristic is the one that the most models in it have. If two or more are tied, use the lowest.\n\n**Issuing Caste Doctrines:**<br>Once per battle round, at the start of any phase, each Sergeant model from your army can issue one Caste Doctrine from its entry to its unit. Unless otherwise stated, a unit can be affected by only one Caste Doctrine at a time."
+        "description": "​<br><br>**Sergeants:**<br>A Sergeant model's entry lists the Caste Doctrines it can issue.\n\n**Auxiliaries:**<br>A unit can include Auxiliary models at the rate printed on its datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries). There is one Auxiliary entry per species: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the YIG-YAR keyword, so they can be taken wherever Yig-Yar Auxiliaries can. Each Auxiliary model can take one Specialist ability from its entry, at the points shown.\n\n**Keywords:**<br>As in the core rules, a unit has the keywords of all its models, including its Sergeant and Auxiliary models: a Sangheili Warrior Cadre with an Unggoy Auxiliary is also an UNGGOY unit. Each species' own datasheets also have a unit keyword that its Sergeant and Auxiliary models do not: GRUNT (Unggoy), ELITE (Sangheili), BRUTE (Jiralhanae), JACKAL (Yig-Yar and T'vaoan), DRONE (Yanme'e), HUNTER (Mgalekgolo) and ENGINEER (Huragok). Rules for those keywords affect only that species' units; rules for UNGGOY, SANGHEILI and the other species keywords affect any unit with such a model in it.\n\n**Toughness:**<br>A unit's T characteristic is the one that the most models in it have. If two or more are tied, use the lowest.\n\n**Issuing Caste Doctrines:**<br>Once per battle round, at the start of any phase, each Sergeant model from your army can issue one Caste Doctrine from its entry to its unit. Unless otherwise stated, a unit can be affected by only one Caste Doctrine at a time."
       },
       {
         "name": "Shielding Trait",
@@ -82562,109 +82615,109 @@
         "name": "Sangheili Warhost — Relentless Pursuit / 1 CP",
         "id": "be4a-cbbb-182c-3fac",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Movement phase, just after a SANGHEILI INFANTRY or SANGHEILI MOUNTED unit is selected to make an advance move.\n\n**Target**<br>That SANGHEILI unit.\n\n**Effect**<br>Until the end of the turn, your unit is eligible to declare a charge after making an advance move. If your unit is Exultant, do not make an advance roll; instead add 6\" to its M characteristic until the end of the phase."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Movement phase, just after an ELITE INFANTRY or ELITE MOUNTED unit is selected to make an advance move.\n\n**Target**<br>That ELITE unit.\n\n**Effect**<br>Until the end of the turn, your unit is eligible to declare a charge after making an advance move. If your unit is Exultant, do not make an advance roll; instead add 6\" to its M characteristic until the end of the phase."
       },
       {
         "name": "Sangheili Warhost — The Killing Stroke / 1 CP",
         "id": "364a-6912-fbfe-3dc4",
         "hidden": false,
-        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase or the Fight phase, just after a SANGHEILI unit is selected to shoot or fight.\n\n**Target**<br>That SANGHEILI unit.\n\n**Effect**<br>Until the end of the phase, add 1 to wound rolls for attacks made by your unit against your Worthy Foe. If your unit is Exultant, also improve the AP characteristic of those attacks by 1."
+        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase or the Fight phase, just after an ELITE unit is selected to shoot or fight.\n\n**Target**<br>That ELITE unit.\n\n**Effect**<br>Until the end of the phase, add 1 to wound rolls for attacks made by your unit against your Worthy Foe. If your unit is Exultant, also improve the AP characteristic of those attacks by 1."
       },
       {
         "name": "Sangheili Warhost — Honour Duel / 1 CP",
         "id": "6819-7aa5-a848-b864",
         "hidden": false,
-        "description": "\n\n*Epic Deed Stratagem*\n\n**When**<br>Start of the Fight phase.\n\n**Target**<br>One SANGHEILI CHARACTER unit within engagement range of one or more enemy CHARACTER units.\n\n**Effect**<br>Select one SANGHEILI CHARACTER model in your unit and one enemy CHARACTER model within engagement range of it. Your opponent accepts or refuses the duel.\n■ Accepted: until both models have fought, each can only make melee attacks against the other, and other attacks cannot be allocated to either of them. If either would be reduced to 0 wounds by the other before it has fought, it is left with 1 wound and is destroyed after it has fought. If your unit is Exultant, add 1 to the D characteristic of your model's melee weapons.\n■ Refused: until the end of the phase, models in your unit can re-roll hit and wound rolls for melee attacks that target that enemy CHARACTER's unit."
+        "description": "\n\n*Epic Deed Stratagem*\n\n**When**<br>Start of the Fight phase.\n\n**Target**<br>One ELITE CHARACTER unit within engagement range of one or more enemy CHARACTER units.\n\n**Effect**<br>Select one SANGHEILI CHARACTER model in your unit and one enemy CHARACTER model within engagement range of it. Your opponent accepts or refuses the duel.\n■ Accepted: until both models have fought, each can only make melee attacks against the other, and other attacks cannot be allocated to either of them. If either would be reduced to 0 wounds by the other before it has fought, it is left with 1 wound and is destroyed after it has fought. If your unit is Exultant, add 1 to the D characteristic of your model's melee weapons.\n■ Refused: until the end of the phase, models in your unit can re-roll hit and wound rolls for melee attacks that target that enemy CHARACTER's unit."
       },
       {
         "name": "Sangheili Warhost — Shields Unbroken / 1 CP",
         "id": "d38f-cb22-8afb-0b5a",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects a SANGHEILI unit as the target of one or more attacks.\n\n**Target**<br>That SANGHEILI unit.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, Shield Saves made for models in your unit succeed on a 2+. If your unit is Exultant, reduce this Stratagem's CP cost by 1CP."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects an ELITE unit as the target of one or more attacks.\n\n**Target**<br>That ELITE unit.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, Shield Saves made for models in your unit succeed on a 2+. If your unit is Exultant, reduce this Stratagem's CP cost by 1CP."
       },
       {
         "name": "Sangheili Warhost — Death Before Dishonour / 1 CP",
         "id": "ac75-1e33-a0c5-3c32",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Fight phase, just after an enemy unit selects a SANGHEILI unit as the target of one or more attacks.\n\n**Target**<br>That SANGHEILI unit.\n\n**Effect**<br>Until the end of the phase, each time a model in your unit is destroyed before it has fought, roll one D6. On a 4+, do not remove it. After the attacking unit finishes making its attacks, that model can fight and is then removed. If your unit is Exultant, this succeeds on a 3+."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Fight phase, just after an enemy unit selects an ELITE unit as the target of one or more attacks.\n\n**Target**<br>That ELITE unit.\n\n**Effect**<br>Until the end of the phase, each time a model in your unit is destroyed before it has fought, roll one D6. On a 4+, do not remove it. After the attacking unit finishes making its attacks, that model can fight and is then removed. If your unit is Exultant, this succeeds on a 3+."
       },
       {
         "name": "Sangheili Warhost — Claim the Trophy / 1 CP",
         "id": "8ac8-6353-cafd-60eb",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Fight phase, just after a SANGHEILI unit has fought and destroyed one or more enemy units, before it consolidates.\n\n**Target**<br>That SANGHEILI unit.\n\n**Effect**<br>When your unit consolidates, its models can move up to 6\" instead of 3\" and must end closer to the closest enemy unit or closest objective marker. If your unit is Exultant, reduce this Stratagem's CP cost by 1CP."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Fight phase, just after an ELITE unit has fought and destroyed one or more enemy units, before it consolidates.\n\n**Target**<br>That ELITE unit.\n\n**Effect**<br>When your unit consolidates, its models can move up to 6\" instead of 3\" and must end closer to the closest enemy unit or closest objective marker. If your unit is Exultant, reduce this Stratagem's CP cost by 1CP."
       },
       {
         "name": "Jiralhanae Warpack — Pin the Prey / 1 CP",
         "id": "79c8-0ff1-ee77-b35c",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>End of your opponent's Movement phase.\n\n**Target**<br>One friendly unengaged JIRALHANAE INFANTRY or JIRALHANAE MOUNTED unit within 12\" of one or more enemy units that ended a normal, advance or fall-back move this phase.\n\n**Effect**<br>Resolve a charge with your unit. When selecting charge targets, you can only select enemy units that ended a normal, advance or fall-back move this phase."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>End of your opponent's Movement phase.\n\n**Target**<br>One friendly unengaged BRUTE INFANTRY or BRUTE MOUNTED unit within 12\" of one or more enemy units that ended a normal, advance or fall-back move this phase.\n\n**Effect**<br>Resolve a charge with your unit. When selecting charge targets, you can only select enemy units that ended a normal, advance or fall-back move this phase."
       },
       {
         "name": "Jiralhanae Warpack — Crushing Envelopment / 1 CP",
         "id": "7629-bf07-5bd3-40c4",
         "hidden": false,
-        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Fight phase, when a JIRALHANAE unit is selected to fight.\n\n**Target**<br>That unit and one enemy unit within engagement range of another friendly COVENANT unit.\n\n**Effect**<br>Until the end of the phase, add 1 to wound rolls for melee attacks made by your unit against that enemy unit."
+        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Fight phase, when a BRUTE unit is selected to fight.\n\n**Target**<br>That unit and one enemy unit within engagement range of another friendly COVENANT unit.\n\n**Effect**<br>Until the end of the phase, add 1 to wound rolls for melee attacks made by your unit against that enemy unit."
       },
       {
         "name": "Jiralhanae Warpack — Pack-Covered Advance / 1 CP",
         "id": "2565-18ec-51f1-aaff",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase, just after an enemy unit selects a JIRALHANAE unit as the target of one or more attacks.\n\n**Target**<br>That JIRALHANAE unit, provided it is within 3\" of another friendly COVENANT unit.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, worsen the AP characteristic of those attacks by 1."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase, just after an enemy unit selects a BRUTE unit as the target of one or more attacks.\n\n**Target**<br>That BRUTE unit, provided it is within 3\" of another friendly COVENANT unit.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, worsen the AP characteristic of those attacks by 1."
       },
       {
         "name": "Jiralhanae Warpack — Seize the Opening / 1 CP",
         "id": "512f-6f65-d0ec-a502",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Just after another friendly COVENANT unit destroys an enemy unit in the Shooting or Fight phase.\n\n**Target**<br>One JIRALHANAE unit within 6\" of that friendly COVENANT unit.\n\n**Effect**<br>Your unit can make a normal move of up to D6\". It cannot end that move within engagement range of an enemy unit."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Just after another friendly COVENANT unit destroys an enemy unit in the Shooting or Fight phase.\n\n**Target**<br>One BRUTE unit within 6\" of that friendly COVENANT unit.\n\n**Effect**<br>Your unit can make a normal move of up to D6\". It cannot end that move within engagement range of an enemy unit."
       },
       {
         "name": "Jiralhanae Warpack — Hold Them Fast / 1 CP",
         "id": "dd28-5a76-a9d9-b491",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Movement phase, when an enemy unit within engagement range of a JIRALHANAE unit is selected to make a fall-back move.\n\n**Target**<br>That JIRALHANAE unit.\n\n**Effect**<br>Roll one D6. On a 3+, that enemy unit cannot make a fall-back move this phase and suffers D3 mortal wounds."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Movement phase, when an enemy unit within engagement range of a BRUTE unit is selected to make a fall-back move.\n\n**Target**<br>That BRUTE unit.\n\n**Effect**<br>Roll one D6. On a 3+, that enemy unit cannot make a fall-back move this phase and suffers D3 mortal wounds."
       },
       {
         "name": "Jiralhanae Warpack — Brutal Efficiency / 1 CP",
         "id": "57fe-61ec-1b23-cfdf",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Fight phase, just after a JIRALHANAE unit destroys an enemy unit, before it consolidates.\n\n**Target**<br>That JIRALHANAE unit.\n\n**Effect**<br>When your unit consolidates, its models can move up to 6\" instead of 3\" and must end closer to the closest enemy unit or closest objective marker."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Fight phase, just after a BRUTE unit destroys an enemy unit, before it consolidates.\n\n**Target**<br>That BRUTE unit.\n\n**Effect**<br>When your unit consolidates, its models can move up to 6\" instead of 3\" and must end closer to the closest enemy unit or closest objective marker."
       },
       {
         "name": "Yig-Yar Hunting Talon — Break the Firing Solution / 1 CP",
         "id": "ba75-7827-2390-275b",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase, when a YIG-YAR unit makes a Scuttle to Cover move.\n\n**Target**<br>That YIG-YAR unit.\n\n**Effect**<br>Do not roll to determine the distance of that move. Your unit can move up to 8\" instead and can move through friendly models, but cannot end on top of them."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase, when a JACKAL unit makes a Scuttle to Cover move.\n\n**Target**<br>That JACKAL unit.\n\n**Effect**<br>Do not roll to determine the distance of that move. Your unit can move up to 8\" instead and can move through friendly models, but cannot end on top of them."
       },
       {
         "name": "Yig-Yar Hunting Talon — Return Fire / 1 CP",
         "id": "bc32-6ae3-bdcc-6a33",
         "hidden": false,
-        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your opponent's Shooting phase, just after an enemy unit has shot.\n\n**Target**<br>One YIG-YAR unit that was targeted by one or more of those attacks and is eligible to shoot.\n\n**Effect**<br>Your unit shoots using Snap Shooting, but can only target that enemy unit."
+        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your opponent's Shooting phase, just after an enemy unit has shot.\n\n**Target**<br>One JACKAL unit that was targeted by one or more of those attacks and is eligible to shoot.\n\n**Effect**<br>Your unit shoots using Snap Shooting, but can only target that enemy unit."
       },
       {
         "name": "Yig-Yar Hunting Talon — Crossfire Quarry / 1 CP",
         "id": "f1da-3ef5-4f9c-2185",
         "hidden": false,
-        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase, when a YIG-YAR unit is selected to shoot.\n\n**Target**<br>That unit and one enemy unit visible to another friendly YIG-YAR unit.\n\n**Effect**<br>Until the end of the phase, improve the AP characteristic of ranged attacks made by your unit against that enemy unit by 1."
+        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase, when a JACKAL unit is selected to shoot.\n\n**Target**<br>That unit and one enemy unit visible to another friendly JACKAL unit.\n\n**Effect**<br>Until the end of the phase, improve the AP characteristic of ranged attacks made by your unit against that enemy unit by 1."
       },
       {
         "name": "Yig-Yar Hunting Talon — Hidden Firing Lanes / 1 CP",
         "id": "bfd0-89b4-6786-5bca",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Shooting phase, when a YIG-YAR INFANTRY unit wholly within a terrain feature is selected to shoot.\n\n**Target**<br>That unit.\n\n**Effect**<br>Until the end of the phase, ranged weapons equipped by models in your unit have [LETHAL HITS]."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Shooting phase, when a JACKAL INFANTRY unit wholly within a terrain feature is selected to shoot.\n\n**Target**<br>That unit.\n\n**Effect**<br>Until the end of the phase, ranged weapons equipped by models in your unit have [LETHAL HITS]."
       },
       {
         "name": "Yig-Yar Hunting Talon — Snare the Advance / 1 CP",
         "id": "a062-d9c8-fcc2-9ca4",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Charge phase, just after an enemy unit declares a charge against a YIG-YAR INFANTRY unit.\n\n**Target**<br>That YIG-YAR unit.\n\n**Effect**<br>Until the end of the phase, subtract 2 from charge rolls made for that enemy unit."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Charge phase, just after an enemy unit declares a charge against a JACKAL INFANTRY unit.\n\n**Target**<br>That JACKAL unit.\n\n**Effect**<br>Until the end of the phase, subtract 2 from charge rolls made for that enemy unit."
       },
       {
         "name": "Yig-Yar Hunting Talon — Vanish Into the Rocks / 1 CP",
         "id": "38e6-7597-f6bf-e1ae",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>End of your opponent's Fight phase.\n\n**Target**<br>One YIG-YAR INFANTRY unit that is unengaged.\n\n**Effect**<br>Remove your unit from the battlefield and place it into strategic reserves."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>End of your opponent's Fight phase.\n\n**Target**<br>One JACKAL INFANTRY unit that is unengaged.\n\n**Effect**<br>Remove your unit from the battlefield and place it into strategic reserves."
       },
       {
         "name": "Fleetborne Invasion — Launch the Second Wave / 1 CP",
@@ -82742,19 +82795,19 @@
         "name": "Grunt Levy — Massed Plasma Volley / 1 CP",
         "id": "2e45-98b3-fb75-35da",
         "hidden": false,
-        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase, when an UNGGOY INFANTRY unit is selected to shoot.\n\n**Target**<br>That unit.\n\n**Effect**<br>Until the end of the phase, ranged weapons equipped by UNGGOY models in your unit have [LETHAL HITS]."
+        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase, when a GRUNT INFANTRY unit is selected to shoot.\n\n**Target**<br>That unit.\n\n**Effect**<br>Until the end of the phase, ranged weapons equipped by UNGGOY models in your unit have [LETHAL HITS]."
       },
       {
         "name": "Grunt Levy — Expendable Screen / 1 CP",
         "id": "c616-2233-99b3-47e9",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase, just after an enemy unit selects a friendly non-GRUNT COVENANT INFANTRY unit as the target of one or more attacks.\n\n**Target**<br>That COVENANT INFANTRY unit and one friendly GRUNT unit within 3\" of it.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, each time one of those attacks targets your COVENANT INFANTRY unit, if the selected GRUNT unit is an eligible target, change that attack's target to that GRUNT unit."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase, just after an enemy unit selects a friendly non-GRUNT COVENANT INFANTRY unit as the target of one or more attacks.\n\n**Target**<br>That COVENANT INFANTRY unit and one friendly Grunt Cadre within 3\" of it.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, each time one of those attacks targets your COVENANT INFANTRY unit, if the selected Grunt Cadre is an eligible target, change that attack's target to that Grunt Cadre."
       },
       {
         "name": "Grunt Levy — More Where They Came From / 1 CP",
         "id": "fd7a-45c9-0bc3-ec37",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Command phase, just after resolving Replacement Drafts.\n\n**Target**<br>One different GRUNT unit that is below starting strength.\n\n**Effect**<br>Return up to D3+1 destroyed Unggoy Warrior models to that unit."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Command phase, just after resolving Replacement Drafts.\n\n**Target**<br>One different Grunt Cadre that is below starting strength.\n\n**Effect**<br>Return up to D3+1 destroyed Unggoy Warrior models to that unit."
       },
       {
         "name": "Drone Hive Swarm — Replenish the Brood / 1 CP",
@@ -82778,31 +82831,31 @@
         "name": "Bonded Colony — Interlocking Shields / 1 CP",
         "id": "845a-9d3b-e2c8-6470",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects a MGALEKGOLO unit as the target of one or more attacks.\n\n**Target**<br>That unit, provided it is within 6\" of its Bondmate.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, worsen the AP characteristic of those attacks by 1."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase or the Fight phase, just after an enemy unit selects a HUNTER unit as the target of one or more attacks.\n\n**Target**<br>That unit, provided it is within 6\" of its Bondmate.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, worsen the AP characteristic of those attacks by 1."
       },
       {
         "name": "Bonded Colony — Synchronized Destruction / 1 CP",
         "id": "eb24-e32c-cd7e-8b58",
         "hidden": false,
-        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase or the Fight phase, when a MGALEKGOLO unit is selected to shoot or fight.\n\n**Target**<br>That unit and one enemy unit hit by its Bondmate this phase.\n\n**Effect**<br>Until the end of the phase, add 1 to wound rolls for attacks made by your unit against that enemy unit."
+        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase or the Fight phase, when a HUNTER unit is selected to shoot or fight.\n\n**Target**<br>That unit and one enemy unit hit by its Bondmate this phase.\n\n**Effect**<br>Until the end of the phase, add 1 to wound rolls for attacks made by your unit against that enemy unit."
       },
       {
         "name": "Bonded Colony — Wrath of the Bereaved / 1 CP",
         "id": "6866-0210-c816-ae35",
         "hidden": false,
-        "description": "\n\n*Epic Deed Stratagem*\n\n**When**<br>Just after an enemy unit destroys a MGALEKGOLO unit's Bondmate.\n\n**Target**<br>The surviving MGALEKGOLO unit.\n\n**Effect**<br>Until the end of your next turn, add 1 to Hit and wound rolls for attacks made by your unit against the enemy unit that destroyed its Bondmate."
+        "description": "\n\n*Epic Deed Stratagem*\n\n**When**<br>Just after an enemy unit destroys a HUNTER unit's Bondmate.\n\n**Target**<br>The surviving HUNTER unit.\n\n**Effect**<br>Until the end of your next turn, add 1 to Hit and wound rolls for attacks made by your unit against the enemy unit that destroyed its Bondmate."
       },
       {
         "name": "Engineer Reclamation Detail — Field-fabricated Emplacement / 1 CP",
         "id": "db13-1ff5-474d-001b",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>End of your Movement phase.\n\n**Target**<br>One HURAGOK unit within 3\" of a Reclamation marker.\n\n**Effect**<br>Remove that marker. Set up one new Covenant Deployable Turret unit at starting strength wholly within 3\" of your Huragok and more than 3\" from all enemy models.\n\n**Restrictions**<br>You cannot use this Stratagem more than once per battle."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>End of your Movement phase.\n\n**Target**<br>One ENGINEER unit within 3\" of a Reclamation marker.\n\n**Effect**<br>Remove that marker. Set up one new Covenant Deployable Turret unit at starting strength wholly within 3\" of your Huragok and more than 3\" from all enemy models.\n\n**Restrictions**<br>You cannot use this Stratagem more than once per battle."
       },
       {
         "name": "Engineer Reclamation Detail — Last-second Stabilisation / 1 CP",
         "id": "8531-439f-9a5b-21b9",
         "hidden": false,
-        "description": "\n\n*Epic Deed Stratagem*\n\n**When**<br>Any phase, just after an enemy unit finishes making attacks that destroyed a friendly non-TITANIC COVENANT VEHICLE or FORTIFICATION unit within 3\" of a friendly HURAGOK model.\n\n**Target**<br>That destroyed unit and one such HURAGOK unit.\n\n**Effect**<br>Roll one D6. On a 3+, return one destroyed model from the target unit to the battlefield as close as possible to where it was destroyed and outside engagement range of enemy models. It has 1 wound remaining and 0 SP.\n\n**Restrictions**<br>You cannot use this Stratagem more than once per battle."
+        "description": "\n\n*Epic Deed Stratagem*\n\n**When**<br>Any phase, just after an enemy unit finishes making attacks that destroyed a friendly non-TITANIC COVENANT VEHICLE or FORTIFICATION unit within 3\" of a friendly HURAGOK model.\n\n**Target**<br>That destroyed unit and one such ENGINEER unit.\n\n**Effect**<br>Roll one D6. On a 3+, return one destroyed model from the target unit to the battlefield as close as possible to where it was destroyed and outside engagement range of enemy models. It has 1 wound remaining and 0 SP.\n\n**Restrictions**<br>You cannot use this Stratagem more than once per battle."
       },
       {
         "name": "Engineer Reclamation Detail — Emergency Shield Reboot / 1 CP",

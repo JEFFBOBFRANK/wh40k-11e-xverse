@@ -82,15 +82,21 @@ repeated another rule (12,812 -> 11,916 words in datasheets and detachments, plu
 - Every Upgrade can now be taken by up to three units, as 11e allows. Thirteen Upgrades that did not say "up to three"
   were limited to one before.
 
-## Keywords (revision 9)
+## Keywords (revision 10)
 
 - As in the core rules (02.05.01), a unit has the keywords of all its models, Sergeants and Auxiliaries included: a
-  SANGHEILI unit with an Unggoy Auxiliary is also an UNGGOY unit. New Recruit adds the species keyword (SANGHEILI,
-  JIRALHANAE, BRUTE, YIG-YAR, T'VAOAN, UNGGOY, HURAGOK, YANME'E...) to the unit while it includes such a model.
-- Only the Grunt Cadre has the GRUNT keyword. Rules for GRUNT units affect only Grunt Cadres; rules for UNGGOY units
-  affect any unit with an Unggoy in it. The Grunt Levy rules that named the Grunt Cadre now use GRUNT (Replacement
-  Drafts, Master of the Muster, Surplus Plasma Cells, Expendable Screen, More Where They Came From). Expendable Screen
-  protects non-GRUNT units, so an Elite unit with an Unggoy Auxiliary can still be screened.
+  Sangheili Warrior Cadre with an Unggoy Auxiliary is also an UNGGOY unit. New Recruit adds the species keyword to the
+  unit while it includes such a model.
+- Each species' own datasheets also have a unit keyword that their Sergeant and Auxiliary models do not: GRUNT
+  (Unggoy), ELITE (Sangheili), BRUTE (Jiralhanae), JACKAL (Yig-Yar and T'vaoan), DRONE (Yanme'e), HUNTER (Mgalekgolo)
+  and ENGINEER (Huragok), the names the detachments' Unique tags use. BRUTE was taken off the Pack Alpha and the
+  Jiralhanae Auxiliary. The Goblin Battlesuit (UNGGOY) is GRUNT and the Yig-Yar Raider-Skiff is JACKAL.
+- Rules that target a species' units use its unit keyword, so they hit the same units as before: the Sangheili Warhost
+  (ELITE), Jiralhanae Warpack (BRUTE), Yig-Yar Hunting Talon (JACKAL), Bonded Colony (HUNTER) and Engineer Reclamation
+  Detail (ENGINEER) rules, the Unggoy Deacon's Voice of the Deacon and Religious Authority (GRUNT), Consecrated War
+  Harnesses and Massed Plasma Volley (GRUNT), the Raider-Skiff's Raider Extraction (JACKAL) and the Yanme'e Major's
+  Control Node (DRONE). Rules about models ("each SANGHEILI model") keep the species keyword.
+- Grunt Levy rules that return Unggoy Warriors name the Grunt Cadre. Expendable Screen protects non-GRUNT units.
 - Shadow Cell keeps its exception: Sergeant and Auxiliary keywords do not make a unit a Shadow Cell unit.
 
 ## Sergeant and Auxiliary weapons (revision 8)
@@ -116,8 +122,8 @@ are fixed (the Pack Alpha's Mangler, the Unggoy Ultra's Close Combat Weapon).
 The Jiralhanae Assault Pack is laid out like the Emperor's Children Tormentors (`TORMENTOR_STYLE` in
 `covenant_build.py`):
 
-1. The Sergeant sits at the top, as the Obsessionist: tick Jiralhanae Pack Alpha or Sangheili Ultra and its weapon
-   choices open underneath. Taking both shows an error.
+1. The Sergeant sits at the top, as the Obsessionist: one choice, Jiralhanae Pack Alpha or Sangheili Ultra, and its
+   weapon choices open underneath. Ticking the other replaces it.
 2. The Jiralhanae Warrior counters, with the Bolt Spiker, Brute Shot and Skewer model types, as before.
 3. Auxiliary models are counters too, one model type per loadout, as "Tormentor with Meltagun": Unggoy Auxiliary
    (Plasma Pistol), with Plasma Rifle, Needler, Storm Rifle, Fuel Rod (+10) or Proximity Detonation (+5, replaces
