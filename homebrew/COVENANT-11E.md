@@ -207,9 +207,17 @@ catalogue (not as units) for checking. Swords of Sanghelios' error also covers J
   popup). Every weapon with Plasma (DX) or Plasma (APX) links it.
 - Transport Space (army rule): INFANTRY 1 (MGALEKGOLO 5), MOUNTED 4, VEHICLE 8; a transport with a capacity in
   Transport Space carries any mix up to that total, within its datasheet's limits. AIRCRAFT, TITANIC and TRANSPORT
-  models cannot be carried unless a datasheet says so.
-- Spirit: 30 Transport Space, at most 2 VEHICLE models (e.g. 2 Wraiths, 1 Ghost and 10 INFANTRY). The other
-  transports keep their old capacities for now.
+  VEHICLE models cannot be carried unless a datasheet says so; MOUNTED transports (Revenant, Spectre) can.
+
+| Transport | Transport Space | Limits |
+|---|---|---|
+| Spirit | 30 | at most 2 VEHICLE (e.g. 2 Wraiths, 1 Ghost and 10 INFANTRY) |
+| Phantom | 24 | at most 1 VEHICLE and 2 MOUNTED (e.g. 1 Wraith, 1 Ghost and 12 INFANTRY) |
+| Shadow | 8 | INFANTRY (no MGALEKGOLO) and 1 MOUNTED; no VEHICLE |
+| Lich | 48 | at most 4 VEHICLE; can carry 1 Phantom with its embarked units (revision 14) |
+| Kraken | 264 | at most 8 VEHICLE; can carry 1 Phantom with its embarked units (revision 14) |
+
+The Revenant, Spectre, Raider-Skiff, Prowler Command Barge and Scarab keep their infantry capacities.
 
 ## House weapon standard (revision 6)
 

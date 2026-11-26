@@ -5856,7 +5856,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 8 Covenant Infantry models, excluding Mgalekgolo; or 1 Ghost."
+   "Transport capacity: 8 Transport Space. This model can carry COVENANT INFANTRY models, excluding MGALEKGOLO models, and 1 MOUNTED model. It cannot carry VEHICLE models."
   ],
   "rules_notes": [],
   "wargear": [],
@@ -5931,7 +5931,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 24 Covenant Infantry models; or 2 Ghosts; or 1 Revenant, Spectre or Wraith. Each Mgalekgolo model takes the space of 5 models."
+   "Transport capacity: 24 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 1 VEHICLE model and 2 MOUNTED models. For example: 1 Wraith (8), 1 Ghost (4) and 12 INFANTRY models (12)."
   ],
   "rules_notes": [],
   "wargear": [],
@@ -6145,7 +6145,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 40 Covenant Infantry models and 1 empty Phantom. Each Mgalekgolo model takes the space of 5 models."
+   "Transport capacity: 48 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 4 VEHICLE models. It can also carry 1 Phantom (a VEHICLE model) with any units embarked within it; those units do not use this model's Transport Space."
   ],
   "rules_notes": [],
   "wargear": [],
@@ -6296,7 +6296,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 200 Covenant Infantry models and either: up to 8 Covenant Mounted models and up to 4 non-Titanic Covenant Vehicle models; or 1 empty Phantom. Each Mgalekgolo model takes the space of 5 models."
+   "Transport capacity: 264 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 8 VEHICLE models. It can also carry 1 Phantom (a VEHICLE model) with any units embarked within it; those units do not use this model's Transport Space."
   ],
   "rules_notes": [],
   "wargear": [],
