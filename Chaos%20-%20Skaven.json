@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 78,
+    "revision": 79,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -11510,7 +11510,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle round, before this model uses a spell, you can Sacrifice 2 Bodyguard models from the unit it is leading. If you do, add 1 to this model's Psyker Level until the end of the battle round."
+                "$text": "Once per battle round, before this model uses a spell, you can Sacrifice 2 other friendly SKAVEN INFANTRY models within 6\" of this model. If you do, add 1 to this model's Psyker Level until the end of the battle round."
               }
             ]
           },
@@ -18732,7 +18732,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this unit would roll for Warpstone Backlash, you can Sacrifice 1 Bodyguard model from this unit first. If you do, do not roll: this unit suffers no Warpstone Backlash for those attacks."
+                "$text": "Each time this unit would roll for Warpstone Backlash, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model first. If you do, do not roll: this unit suffers no Warpstone Backlash for those attacks."
               }
             ]
           },
@@ -88574,7 +88574,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle, when this model is destroyed, you can Sacrifice 1 Bodyguard model from its unit. If you do, set this model back up as close as possible to where it was destroyed, in unit coherency, with 1 wound remaining."
+                "$text": "Once per battle, when this model is destroyed, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, set this model back up as close as possible to where it was destroyed, in unit coherency, with 1 wound remaining."
               }
             ]
           },
@@ -90100,7 +90100,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle round, just before this model's unit is selected to shoot, you can Sacrifice 1 Bodyguard model from that unit. If you do, until the end of the phase, ranged weapons equipped by models in that unit have [SUSTAINED HITS 1]."
+                "$text": "Once per battle round, just before this model's unit is selected to shoot, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, until the end of the phase, ranged weapons equipped by models in this model's unit have [SUSTAINED HITS 1]."
               }
             ]
           },
@@ -92861,7 +92861,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your Command phase, you can Sacrifice 1 Bodyguard model from the unit this model is leading. If you do, until the start of your next Command phase, models in that unit have the Feel No Pain 5+ ability."
+                "$text": "In your Command phase, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, until the start of your next Command phase, models in this model's unit have the Feel No Pain 5+ ability."
               }
             ]
           },
@@ -94186,7 +94186,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the end of your opponent's turn, you can Sacrifice 1 Bodyguard model from the unit this model is leading. If you do, if that unit is not engaged, it can make a normal move of up to 6\"."
+                "$text": "At the end of your opponent's turn, you can Sacrifice 1 other friendly SKAVEN INFANTRY model within 6\" of this model. If you do, if this model's unit is not engaged, it can make a normal move of up to 6\"."
               }
             ]
           },

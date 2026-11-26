@@ -40,6 +40,9 @@ detachments). The layout follows the Emperor's Children catalogue.
   censer or a Censer-hammer; plain Censer Bearers (Great plague censer) plus model types with Twin plague censers (any),
   a Fumigator censer and Censer haft (1 per 5 models) and a Plague-reliquary censer (1). Rot-bell (Choking Fumes at 6")
   and Plague-gas Globes are optional wargear. Points stay 95 / 190.
+- Better Them-Than Me! (revision 79): every BTTM ability Sacrifices nearby models ("other friendly SKAVEN
+  INFANTRY models within 6\" of this model"), not Bodyguard models from the character's own unit. This changed the
+  Eshin Sorcerer (Shadow-Step!), Grey Seer, Warlock Engineer, Clan Chieftain, Arch-Warlock and Pox-Abbot.
 - Mounts (Screaming Bell, Gnaw-beast, Plague Furnace) are options on the character.
   The mounted profile replaces the foot profile and the INFANTRY keyword changes.
 - Vermindoom Land-Fortress: exactly one Clan Flagship and six jury-rigged
