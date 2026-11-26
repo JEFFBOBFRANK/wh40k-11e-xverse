@@ -4695,6 +4695,7 @@
    "Hunter",
    "Lekgolo",
    "Monster",
+   "Frame",
    "Titanic",
    "Towering",
    "Goliath"
@@ -5298,6 +5299,7 @@
   "keywords": [
    "Vehicle",
    "Walker",
+   "Frame",
    "Locust"
   ]
  },

@@ -219,6 +219,14 @@ catalogue (not as units) for checking. Swords of Sanghelios' error also covers J
 
 The Revenant, Spectre, Raider-Skiff, Prowler Command Barge and Scarab keep their infantry capacities.
 
+## Frame (revision 15)
+
+FRAME (core rules 17.02) is for models without a base and some other large models. It is on the vehicles and
+mounted models, the Scarab, Lich, Kraken, Deployable Turret and Barricade, and now also the Locust and the
+Mgalekgolo Goliath. The Goblin Battlesuit is a based walker, like a Dreadnought, and has no FRAME. The game system
+has the keyword but no rule text, so every FRAME unit links a short Frame rule (measure to and from the closest
+point of the model; a model without a base turns any amount around its central axis).
+
 ## House weapon standard (revision 6)
 
 Weapons follow `homebrew/house_dice.py`, the 11e codex style also used for Skaven and Black-Flag: D6 damage becomes

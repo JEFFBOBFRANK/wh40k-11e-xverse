@@ -156,6 +156,11 @@ def main():
             check(pts == en["points"], f"{ename}: points {pts} != {en['points']}")
         for s in d["stratagems"]:
             check(f"{d['name']} — {s['name']} / {s['cp']} CP" in strat_names, f"{d['name']}: stratagem {s['name']}")
+    frame = next(r["id"] for r in rules.values() if r["name"] == "Frame")
+    for ds in data:
+        if "Frame" in ds["keywords"] and ds["name"] in entries:
+            check(any(l.get("targetId") == frame for l in entries[ds["name"]].get("infoLinks", [])),
+                  f"{ds['name']}: Frame rule not linked")
     chosen = next(r["id"] for r in rules.values() if r["name"] == "Chosen of the Hierarchs")
     for n in ("Rtas 'Vadum", "Sangheili Shipmaster", "Prophet of Truth"):
         check(any(l.get("targetId") == chosen for l in entries[n].get("infoLinks", [])),

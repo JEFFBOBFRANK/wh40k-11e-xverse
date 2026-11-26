@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 14,
+    "revision": 15,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -120741,6 +120741,15 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "infoLinks": [
+          {
+            "id": "1640-6e4e-6445-923c",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
+          }
+        ],
         "modifiers": [
           {
             "type": "add",
@@ -121092,6 +121101,13 @@
             "id": "fa78-f178-2a83-4ca8",
             "name": "Scouts 9\"",
             "targetId": "9ea5-acc2-a2ac-257b",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "2f76-4e6b-02eb-0ceb",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
             "type": "rule",
             "hidden": false
           }
@@ -121574,6 +121590,13 @@
                 "value": "Firing Deck 1"
               }
             ]
+          },
+          {
+            "id": "af7c-419d-1bc1-b325",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "selectionEntryGroups": [
@@ -122047,6 +122070,13 @@
                 "value": "Firing Deck 2"
               }
             ]
+          },
+          {
+            "id": "9fb2-a745-d702-5495",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "selectionEntryGroups": [
@@ -122261,7 +122291,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Mgalekgolo, Hunter, Lekgolo, Monster, Titanic, Towering, Goliath. Faction: Covenant."
+                "$text": "Keywords: Mgalekgolo, Hunter, Lekgolo, Monster, Frame, Titanic, Towering, Goliath. Faction: Covenant."
               }
             ]
           }
@@ -122458,6 +122488,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "2ad7-c55c-9db3-987d",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Titanic",
             "id": "cf89-5df6-4f61-71e7",
             "targetId": "5929-ad51-d006-e008",
@@ -122532,6 +122569,13 @@
                 "value": "Deadly Demise D6"
               }
             ]
+          },
+          {
+            "id": "42e6-f888-9c7e-e47c",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "selectionEntryGroups": [
@@ -123059,6 +123103,15 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "infoLinks": [
+          {
+            "id": "6327-1cac-3efc-3277",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "selectionEntryGroups": [
@@ -123645,6 +123698,15 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "infoLinks": [
+          {
+            "id": "5f18-8fbc-f8bf-73a7",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "selectionEntryGroups": [
@@ -125239,6 +125301,13 @@
                 "value": "Deadly Demise D6"
               }
             ]
+          },
+          {
+            "id": "b2ed-dbae-2d5e-a291",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "selectionEntryGroups": [
@@ -126229,6 +126298,13 @@
                 "value": "Deadly Demise D3"
               }
             ]
+          },
+          {
+            "id": "a73d-2172-a5c7-909d",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ]
       },
@@ -126307,7 +126383,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Keywords: Vehicle, Walker, Locust. Faction: Covenant."
+                "$text": "Keywords: Vehicle, Walker, Frame, Locust. Faction: Covenant."
               }
             ]
           }
@@ -126563,6 +126639,13 @@
             "hidden": false
           },
           {
+            "name": "Frame",
+            "id": "7fa8-3048-6c8e-c255",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false,
+            "hidden": false
+          },
+          {
             "name": "Locust",
             "id": "006d-e584-c218-9c54",
             "targetId": "d7f3-6d5a-022a-e51e",
@@ -126623,6 +126706,13 @@
                 "value": "Deadly Demise D3"
               }
             ]
+          },
+          {
+            "id": "fcba-723a-e7e2-b41b",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "selectionEntryGroups": [
@@ -127275,6 +127365,13 @@
                 "value": "Deadly Demise D3"
               }
             ]
+          },
+          {
+            "id": "da22-0bbb-04cd-6ee3",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "selectionEntryGroups": [
@@ -127915,6 +128012,13 @@
             "id": "7de1-644d-4bbe-12fc",
             "name": "Transport Space",
             "targetId": "c607-1b68-433e-2b41",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "e712-4887-0234-9615",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
             "type": "rule",
             "hidden": false
           }
@@ -128646,6 +128750,13 @@
             "id": "2ce1-dd25-7f48-8c19",
             "name": "Stealth",
             "targetId": "bec5-4288-34a6-ccfa",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "60cf-c2cf-25ea-153c",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
             "type": "rule",
             "hidden": false
           }
@@ -129438,6 +129549,13 @@
             "id": "f0a1-ce4f-704f-f48d",
             "name": "Stealth",
             "targetId": "bec5-4288-34a6-ccfa",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "60c5-de65-0894-cf09",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
             "type": "rule",
             "hidden": false
           }
@@ -130587,6 +130705,13 @@
             "targetId": "08fb-4cb5-36fb-d638",
             "type": "rule",
             "hidden": false
+          },
+          {
+            "id": "e1c5-2f77-2113-b8c8",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ]
       },
@@ -130964,6 +131089,13 @@
             "id": "217d-9e55-dc88-8baf",
             "name": "Transport Space",
             "targetId": "c607-1b68-433e-2b41",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "cd08-33fc-0214-356a",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
             "type": "rule",
             "hidden": false
           }
@@ -131525,6 +131657,13 @@
             "id": "37b5-819e-b5df-0c40",
             "name": "Transport Space",
             "targetId": "c607-1b68-433e-2b41",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "57a8-2b2e-c459-54ca",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
             "type": "rule",
             "hidden": false
           }
@@ -132350,6 +132489,13 @@
                 "value": "Firing Deck 20"
               }
             ]
+          },
+          {
+            "id": "e496-9846-495d-62d0",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "selectionEntryGroups": [
@@ -133432,6 +133578,13 @@
             "id": "4f2f-2a41-022e-004e",
             "name": "Transport Space",
             "targetId": "c607-1b68-433e-2b41",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "8496-a49e-f084-6b57",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
             "type": "rule",
             "hidden": false
           }
@@ -134743,6 +134896,13 @@
             "targetId": "c607-1b68-433e-2b41",
             "type": "rule",
             "hidden": false
+          },
+          {
+            "id": "b4bc-886c-6e45-bdc3",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ],
         "selectionEntryGroups": [
@@ -135330,6 +135490,15 @@
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
+        ],
+        "infoLinks": [
+          {
+            "id": "dbf6-edfe-2bab-8adb",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
+          }
         ]
       },
       {
@@ -135561,6 +135730,15 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "infoLinks": [
+          {
+            "id": "cb28-a8b9-da6b-c9ef",
+            "name": "Frame",
+            "targetId": "3b0b-65af-3bd1-256b",
+            "type": "rule",
+            "hidden": false
           }
         ]
       },
@@ -152594,6 +152772,12 @@
         "id": "c607-1b68-433e-2b41",
         "hidden": false,
         "description": "\n\nEach model takes up transport capacity by size: INFANTRY models 1 (MGALEKGOLO models 5), MOUNTED models 4 and VEHICLE models 8. A TRANSPORT whose capacity is given in Transport Space can carry any mix of eligible models up to that total, within the limits on its datasheet. AIRCRAFT, TITANIC and TRANSPORT VEHICLE models cannot be carried unless a datasheet says otherwise; MOUNTED transports such as the Revenant and Spectre can."
+      },
+      {
+        "name": "Frame",
+        "id": "3b0b-65af-3bd1-256b",
+        "hidden": false,
+        "description": "\n\nCore rules 17.02. Whenever a rule refers to a FRAME model's position relative to anything else on the battlefield, such as when measuring distances, measure to and from the closest point of that model, not necessarily its base. When a FRAME model without a base rotates as part of a move, turn it any amount around its central axis, keeping it upright."
       },
       {
         "name": "The Great Journey — Proclaim the Sacred Path / 1 CP",

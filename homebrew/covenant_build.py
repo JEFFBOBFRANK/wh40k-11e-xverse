@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 14
+REVISION = 15
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -466,6 +466,8 @@ class Builder:
         node.setdefault("constraints", []).append(constraint(nid(unit_id + ":copies"), "max", copies, scope="roster",
                                                              child=True, forces=True))
         self.add_abilities(node, ds)
+        if "Frame" in ds["keywords"]:
+            rule_link(node, self.rules["Frame"])
         if name in WARLORD_CP:
             rule_link(node, self.rules["Chosen of the Hierarchs"])
         node["profiles"].append(self.ability_profile(nid(unit_id + ":keywords"), "Printed Keywords and Notes",
@@ -778,6 +780,11 @@ class Builder:
                 continue
             body = "\n".join(lines).strip()
             self.rule(name, body)
+        # the game system has the FRAME keyword but no rule text for it; linked on every FRAME unit
+        self.rule("Frame", "Core rules 17.02. Whenever a rule refers to a FRAME model's position relative to anything "
+                           "else on the battlefield, such as when measuring distances, measure to and from the closest "
+                           "point of that model, not necessarily its base. When a FRAME model without a base rotates "
+                           "as part of a move, turn it any amount around its central axis, keeping it upright.")
 
     # ------------------------------------------------------------ attachments
     def associations(self, units):
