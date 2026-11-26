@@ -99,6 +99,36 @@ def main():
                 pts = next((c["value"] for c in (option or {}).get("costs", []) if c["name"] == "pts"), 0)
                 check(pts == a["points"], f"{name}: {a['name']} costs {pts}, expected {a['points']}")
 
+    # Tormentor layout: every Auxiliary in a unit is a set of model types, with its Specialist abilities offered
+    by_ds = {d["name"]: d for d in data}
+    for uname, spec in UNITS.items():
+        unit = entries.get(uname)
+        if not unit:
+            continue
+        nodes = list(walk(unit))
+        groups = [g for g in unit.get("selectionEntryGroups", [])]
+        serg = next((g for g in groups if g["name"] == "Sergeant"), None)
+        if spec["sergeants"]:
+            check(serg is not None and serg.get("sortIndex") == (1 if spec["single"] else 0),
+                  f"{uname}: Sergeant group not on top")
+        for pool in spec["aux"]:
+            members = list(pool["entries"]) + [d["name"] for d in data if d["category"] == "AUXILIARY"
+                                               and any(l in d["keywords"] for l in pool["lists"])
+                                               and d["name"] not in pool["entries"]]
+            for m in dict.fromkeys(members):
+                types = [n for n in nodes if n.get("type") == "model" and
+                         (n.get("name") == m or str(n.get("name", "")).startswith(m + " with "))]
+                check(types, f"{uname}: no {m} model types")
+                for a in by_ds[m].get("specialist_abilities", []):
+                    if a.get("replaces_weapons"):
+                        ok = any(t["name"] == f"{m} with {a['name']}" for t in types)
+                    else:
+                        ok = any(n.get("type") == "upgrade" and n.get("associations") and
+                                 next((c["value"] for c in n.get("costs", []) if c["name"] == "pts"), 0) == a["points"] and
+                                 any(p.get("name") == a["name"] for p in walk(n) if isinstance(p, dict)
+                                     and p.get("typeName")) for n in nodes)
+                    check(ok, f"{uname}: {m} Specialist ability {a['name']} missing")
+
     det_entry = entries["Detachment"]
     options = det_entry["selectionEntryGroups"][0]["selectionEntries"]
     check(len(options) == len(dets) == 18, f"{len(options)} detachments, expected 18")
@@ -132,7 +162,8 @@ def main():
               f"{n}: Chosen of the Hierarchs missing")
     army = entries["Army Rules and References"]
     army_names = {rules[l["targetId"]]["name"] for l in army["infoLinks"]}
-    for n in ("Caste Hierarchy", "Shielding Trait", "Caste Doctrines", "Supercombine", "Plasma", "Siegebreaker"):
+    for n in ("Caste Hierarchy", "Shielding Trait", "Caste Doctrines", "Supercombine", "Plasma", "Siegebreaker",
+              "Transport Space"):
         check(n in army_names, f"army rule {n} missing")
     text = json.dumps(cat)
     for old in ("400 points", "50% of its Non-Auxiliary"):

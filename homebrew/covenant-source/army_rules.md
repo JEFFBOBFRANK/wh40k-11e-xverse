@@ -87,7 +87,7 @@ After this unit has made its hit rolls, for every three hits scored against the 
 
 ## Plasma
 
-**Plasma (DX) / Plasma (APX):** Each time an attack made with this weapon scores a critical hit, add X to that attack's D characteristic (Plasma (DX)) or improve its AP characteristic by X (Plasma (APX)). Extra hits from [SUSTAINED HITS] do not benefit.
+Each time an attack made with a Plasma weapon scores a critical hit, add X to that attack's D characteristic if the weapon has Plasma (DX), or improve that attack's AP characteristic by X if it has Plasma (APX). For example, a critical hit with a Plasma (AP1) weapon improves that attack's AP by 1. Extra hits from [SUSTAINED HITS] do not benefit.
 
 ## Siegebreaker
 
@@ -96,3 +96,7 @@ Each time an attack made with this weapon scores a critical hit, invulnerable sa
 ## Wargear Costs
 
 Weapon exchanges are free, except: Fuel Rod, Skewer, two Needlers, Gravity Hammer and Twin-linked Energy Swords (+10 pts each) and Wrist Shield (+5 pts). A datasheet's own limits and costs take precedence.
+
+## Transport Space
+
+Each model takes up transport capacity by size: INFANTRY models 1 (MGALEKGOLO models 5), MOUNTED models 4 and VEHICLE models 8. A TRANSPORT whose capacity is given in Transport Space can carry any mix of eligible models up to that total, within the limits on its datasheet. AIRCRAFT, TITANIC and TRANSPORT models cannot be carried unless a datasheet says otherwise.

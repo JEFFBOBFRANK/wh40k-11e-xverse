@@ -5419,7 +5419,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 30 Covenant Infantry models; or 2 Ghost, Revenant and/or Spectre models; or 1 Wraith. Each Mgalekgolo model takes the space of 5 models."
+   "Transport capacity: 30 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 2 VEHICLE models. For example: 2 Wraiths (16), 1 Ghost (4) and 10 INFANTRY models (10)."
   ],
   "rules_notes": [],
   "wargear": [],

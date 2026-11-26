@@ -55,7 +55,7 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
   transparent background, like New Recruit's own faction symbols. Replace the file (same name,
   PNG or SVG) to use another image.
 - Army Rules and References: Caste Hierarchy, Shielding Trait, Chosen of the Hierarchs, Caste Doctrines, Supercombine, Plasma,
-  Siegebreaker and Wargear Costs. Weapons link Supercombine, Plasma and Siegebreaker, and the core rules.
+  Siegebreaker, Wargear Costs and Transport Space. Weapons link Supercombine, Plasma and Siegebreaker, and the core rules.
 - 18 detachments with their DP and Force Disposition (see the detachments below). None is Unique.
   Enhancements appear only on eligible units of the chosen detachment; Upgrades that up to three units can
   take share one Enhancement selection. An Attached Unit can have only one Enhancement or Upgrade.
@@ -180,22 +180,36 @@ are fixed (the Pack Alpha's Mangler, the Unggoy Ultra's Close Combat Weapon).
 - Combined names read "A, B and C" everywhere.
 - In the Tormentor layout, each legal combination is one Auxiliary model type.
 
-## Tormentor layout (revision 7, Jiralhanae Assault Pack)
+## Tormentor layout (every unit since revision 13; the Jiralhanae Assault Pack since revision 7)
 
-The Jiralhanae Assault Pack is laid out like the Emperor's Children Tormentors (`TORMENTOR_STYLE` in
-`covenant_build.py`):
+Every unit with a Sergeant or Auxiliaries is laid out like the Emperor's Children Tormentors (`covenant_build.py`,
+`sergeants`, `aux_types` and `auxiliaries`):
 
-1. The Sergeant sits at the top, as the Obsessionist: one choice, Jiralhanae Pack Alpha or Sangheili Ultra, and its
-   weapon choices open underneath. Ticking the other replaces it.
-2. The Jiralhanae Warrior counters, with the Bolt Spiker, Brute Shot and Skewer model types, as before.
-3. Auxiliary models are counters too, one model type per loadout, as "Tormentor with Meltagun": Unggoy Auxiliary
-   (Plasma Pistol), with Plasma Rifle, Needler, Storm Rifle, Fuel Rod (+10) or Proximity Detonation (+5, replaces
-   its weapons). Each goes up to 1 per 4 Warriors, and the Auxiliary Slots total still applies.
-4. Specialist abilities that do not replace weapons (Ammunition Runner, Forward Infiltration +10) are at the bottom,
-   as the Icon of Excess: set how many, then pick which Auxiliary model carries each one.
+1. The Sergeant sits at the top, as the Obsessionist: one choice (e.g. Jiralhanae Pack Alpha or Sangheili Ultra), and
+   its weapon choices open underneath. Ticking the other replaces it. A character with a retinue (Shipmaster,
+   Fieldmaster) stays above its Sergeant.
+2. The unit's own model counters and model types, as before.
+3. Auxiliary models are counters too, one model type per loadout, as "Tormentor with Meltagun": for example Sangheili
+   Auxiliary with Fuel Rod, Jiralhanae Auxiliary with Gravity Hammer, T'vaoan Auxiliary with Shield Raider, Unggoy
+   Auxiliary with Proximity Detonation (replaces its weapons). Each type is capped by the unit's Auxiliary rate, and
+   the Auxiliary Slots total (with weights such as Jiralhanae 3 in a Warrior Cadre) still applies.
+4. Auxiliary wargear (Stealth Projector, Wrist Shield) and Specialist abilities that do not replace weapons
+   (Ammunition Runner, Pack Enforcer, Trailblazer...) are at the bottom, as the Icon of Excess: set how many, then
+   pick which Auxiliary model carries each one.
 
 New Recruit shows a model with choices as a "+" button (each one configured separately) and a fixed-loadout model as
-a counter, so the counters need one model type per loadout.
+a counter, so the counters need one model type per loadout. The Sergeant and Auxiliary reference entries stay in the
+catalogue (not as units) for checking. Swords of Sanghelios' error also covers Jiralhanae Auxiliary model types.
+
+## Plasma and Transport Space (revision 13)
+
+- Plasma's rule text is one sentence (no "Plasma (DX) / Plasma (APX):" heading or blank first line in New Recruit's
+  popup). Every weapon with Plasma (DX) or Plasma (APX) links it.
+- Transport Space (army rule): INFANTRY 1 (MGALEKGOLO 5), MOUNTED 4, VEHICLE 8; a transport with a capacity in
+  Transport Space carries any mix up to that total, within its datasheet's limits. AIRCRAFT, TITANIC and TRANSPORT
+  models cannot be carried unless a datasheet says so.
+- Spirit: 30 Transport Space, at most 2 VEHICLE models (e.g. 2 Wraiths, 1 Ghost and 10 INFANTRY). The other
+  transports keep their old capacities for now.
 
 ## House weapon standard (revision 6)
 

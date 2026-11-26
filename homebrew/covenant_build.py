@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 12
+REVISION = 13
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -31,15 +31,15 @@ REFERENCE = "eef1-be80-500a-edfc"
 ROLE = {"EPIC HERO": "Epic Hero", "CHARACTER": "Character", "BATTLELINE": "Battleline", "INFANTRY": "Infantry",
         "MOUNTED": "Mounted", "MONSTER": "Monster", "VEHICLE": "Vehicle", "FORTIFICATION": "Fortification"}
 ARMY_RULES = ["Caste Hierarchy", "Shielding Trait", "Chosen of the Hierarchs", "Caste Doctrines", "Supercombine", "Plasma", "Siegebreaker",
-              "Wargear Costs"]
+              "Wargear Costs", "Transport Space"]
 WEAPON_RULES = {"Supercombine": r"\bSupercombine\b", "Plasma": r"\bPlasma \((?:D|AP)[\dD+]+\)",
                 "Siegebreaker": r"\bSiegebreaker\b"}
 # Commanders with Chosen of the Hierarchs (+1CP each battle round while your Warlord), as EC's Sublime Strategist.
 WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel 'Vadam", "Rtas 'Vadum", "Tartarus",
               "Sangheili Shipmaster", "Sangheili Fieldmaster", "Jiralhanae Chieftain", "Yig-Yar Corsair-Talon"}
-# Units laid out like the Emperor's Children Tormentors: Sergeant on top (as the Obsessionist), then the model counters,
-# then Auxiliary models as counters too, in that order (sortIndex).
-TORMENTOR_STYLE = {"Jiralhanae Assault Pack"}
+# Every unit is laid out like the Emperor's Children Tormentors: Sergeant on top (as the Obsessionist), then the model
+# counters, then Auxiliary models as counters too (one model type per loadout), then Auxiliary wargear and Specialist
+# abilities with a model picker (as the Icon of Excess), in that order (sortIndex 0-3).
 # Species keywords a unit gains from its Sergeant and Auxiliary models (core rules: a unit has the keywords of all its
 # models). The unit keywords (GRUNT, ELITE, BRUTE, JACKAL, DRONE, HUNTER, ENGINEER) are on datasheets only.
 SPECIES = {"Sangheili", "Special Operations", "Jiralhanae", "Yig-Yar", "T'vaoan", "Unggoy", "Huragok", "Yanme'e",
@@ -337,6 +337,8 @@ class Builder:
             node.setdefault("profiles", []).append(dict(
                 id=nid(node["id"] + ":transport"), name=ds["name"], hidden=False, typeId=kind["id"],
                 typeName="Transport", characteristics=[dict(name=c["name"], typeId=c["id"], **{"$text": text})]))
+            if "Transport Space" in text:
+                rule_link(node, self.rules["Transport Space"])
 
     def link_weapon_rules(self, node):
         weapon_rules(node, self.system)
@@ -448,6 +450,7 @@ class Builder:
                 mid = nid(unit_id + ":model")
                 model = self.single_model(mid, ds, spec)
                 model["constraints"] = [constraint(nid(mid + ":min"), "min", 1), constraint(nid(mid + ":max"), "max", 1)]
+                model["sortIndex"] = 0  # the character on top, then its Sergeant and Auxiliaries
                 node["selectionEntries"].append(model)
                 family = None
             else:
@@ -573,7 +576,7 @@ class Builder:
         span = f"{low}-{high}" if low != high else str(high)
         gid = nid(unit_id + ":family:" + name)
         group = dict(name=f"{span} {plural}", id=gid, hidden=False, defaultSelectionEntryId=base["id"],
-                     **({"sortIndex": 1} if node["name"] in TORMENTOR_STYLE else {}),
+                     sortIndex=1,
                      selectionEntries=[base] + variants,
                      constraints=[constraint(nid(gid + ":min"), "min", low), constraint(nid(gid + ":max"), "max", high)])
         node["selectionEntryGroups"].append(group)
@@ -628,8 +631,7 @@ class Builder:
                               hidden=False, **{"import": True}))
         group = dict(name="Sergeant", id=gid, hidden=False, entryLinks=links,
                      constraints=[constraint(nid(gid + ":max"), "max", 1)])
-        if node["name"] in TORMENTOR_STYLE:  # on top of the unit, like the Tormentors' Obsessionist
-            group["sortIndex"] = 0
+        group["sortIndex"] = 1 if spec["single"] else 0  # on top, like the Tormentors' Obsessionist (below a character)
         node["selectionEntryGroups"].append(group)
 
     def aux_types(self, unit, pool, family, gid):
@@ -756,34 +758,10 @@ class Builder:
             gid = nid(node["id"] + f":auxiliary:{i}")
             label = "Auxiliary" if len(spec["aux"]) == 1 else "Auxiliary: " + ", ".join(
                 [e.replace(" Auxiliary", "") for e in pool["entries"]] + pool["lists"])
-            links = []
-            for name in self.aux_members(pool):
-                target = self.shared_model(name, auxiliary=True)
-                link = dict(name=name, id=nid(gid + ":" + name), targetId=target["id"], type="selectionEntry",
-                            hidden=False, **{"import": True})
-                ds = self.data[name]
-                weight = next((w for lst, w in pool["weights"].items() if lst in ds["keywords"]), 1)
-                if weight != 1:
-                    link["modifiers"] = [dict(field=self.aux_slot, type="set", value=weight)]
-                if node["name"] in TORMENTOR_STYLE:  # a counter, like a Tormentor special-weapon model
-                    cap_id = nid(link["id"] + ":max")
-                    link["constraints"] = [constraint(cap_id, "max", (pool["fixed"] or 0) // weight)]
-                    if pool["per"] and family and pool["slots"] // weight:
-                        link.setdefault("modifiers", []).append(dict(
-                            field=cap_id, type="increment", value=pool["slots"] // weight, repeats=[dict(
-                                childId=family["cat"], field="selections", scope=node["id"], shared=True,
-                                includeChildSelections=True, value=pool["per"], repeats=1, roundUp=False)]))
-                links.append(link)
             cap = constraint(nid(gid + ":slots"), "max", pool["fixed"] or 0, field=self.aux_slot, child=True)
-            if node["name"] in TORMENTOR_STYLE:
-                links = []
-                types, items = self.aux_types(node, pool, family, gid)
-                for item in items:
-                    node["selectionEntries"].append(item)
-            else:
-                types = []
-            group = dict(name=label, id=gid, hidden=False, entryLinks=links, constraints=[cap], selectionEntries=types,
-                         **({"sortIndex": 2} if node["name"] in TORMENTOR_STYLE else {}))
+            types, items = self.aux_types(node, pool, family, gid)
+            node["selectionEntries"].extend(items)
+            group = dict(name=label, id=gid, hidden=False, constraints=[cap], selectionEntries=types, sortIndex=2)
             if pool["per"] and family:
                 group["modifiers"] = [dict(field=cap["id"], type="increment", value=pool["slots"], repeats=[
                     dict(childId=family["cat"], field="selections", scope=node["id"], shared=True,
@@ -905,9 +883,10 @@ class Builder:
                 banned = set(det["forbid"])
                 message = f"{det['name']}: your army cannot include " + " or ".join(
                     k.upper() for k in det["forbid"]) + " models."
-                targets = units + list(self.shared_models.values())
+                targets = units + list(self.shared_models.values()) + [
+                    t for u in units for t in walk(u) if isinstance(t, dict) and t.get("_source")]
                 for t in targets:
-                    ds = self.data.get(t["name"])
+                    ds = self.data.get(t.get("_source") or t["name"])
                     if ds and banned & set(ds["keywords"]):
                         t.setdefault("modifiers", []).append(dict(type="add", field="error", value=message,
                                                                   conditions=[selected(det_id, scope="roster")]))
@@ -1001,6 +980,9 @@ def build(source, system_path):
                                                       if d["category"] in ("SERGEANT", "AUXILIARY") and n not in MODELS]
     assert not missing, missing
     units = [b.datasheet(n) for n in names]
+    for n, d in b.data.items():  # reference entries for every Sergeant and Auxiliary model (not root-linked)
+        if d["category"] in ("SERGEANT", "AUXILIARY"):
+            b.shared_model(n, auxiliary=d["category"] == "AUXILIARY")
     b.associations(units)
     det_entry, enhancements, strat_links = b.detachments(units)
     for unit in units:  # an Attached Unit has at most one Enhancement or Upgrade
