@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 21,
+    "revision": 22,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -2229,6 +2229,31 @@
             "name": "Fleetborne Invasion — Clear the Landing Zone / 1 CP",
             "id": "4498-42c4-b8cf-d6a0",
             "targetId": "fc72-59d8-6e9c-24c4",
+            "type": "rule",
+            "hidden": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "value": false,
+                "type": "set",
+                "conditions": [
+                  {
+                    "childId": "2335-cecb-78db-38cf",
+                    "field": "selections",
+                    "scope": "force",
+                    "type": "atLeast",
+                    "value": 1,
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Fleetborne Invasion — Glassing Beam / 2 CP",
+            "id": "0b31-4a38-9f04-1acf",
+            "targetId": "834a-3f9b-a6ab-d29b",
             "type": "rule",
             "hidden": true,
             "modifiers": [
@@ -142267,6 +142292,12 @@
         "id": "fc72-59d8-6e9c-24c4",
         "hidden": false,
         "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase or the Fight phase, just after an Invasion Vessel from your army, or a COVENANT unit from your army within 6\" of one, is selected to shoot or fight.\n\n**Target**<br>That unit.\n\n**Effect**<br>Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of an objective marker, add 1 to the wound roll."
+      },
+      {
+        "name": "Fleetborne Invasion — Glassing Beam / 2 CP",
+        "id": "834a-3f9b-a6ab-d29b",
+        "hidden": false,
+        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase.\n\n**Target**<br>One Sangheili Shipmaster model from your army.\n\n**Effect**<br>Your fleet answers the Shipmaster's call. Select one enemy unit within 48\" of and visible to your model, then roll one D6. On a 3+, that enemy unit suffers 3D6 mortal wounds.\n\n**Restrictions**<br>You can only use this Stratagem once per battle."
       },
       {
         "name": "Sangheili Warhost — The Killing Stroke / 1 CP",

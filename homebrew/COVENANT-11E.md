@@ -90,7 +90,7 @@ other units; where the species has Sergeants, that rule changes how they issue D
 | DP | Detachment | Disposition | Core of the rules |
 |---|---|---|---|
 | 3 | The Great Journey | Take and Hold | Fanatical Doctrines from SAN'SHYUUM; GRUNT units shoot and charge after advancing |
-| 2 | Fleetborne Invasion | Take and Hold | Assault Disembark from Spirits, Phantoms and Liches; +1 OC near a vessel |
+| 2 | Fleetborne Invasion | Take and Hold | Assault Disembark from Spirits, Phantoms and Liches; +1 OC near a vessel; Glassing Beam Stratagem (2CP, once per battle, a Shipmaster calls it: 3D6 mortal wounds on a 3+, revision 22) |
 | 2 | Sangheili Warhost | Priority Assets | Worthy Foe (+1 to wound); SANGHEILI Doctrines last the turn |
 | 2 | Jiralhanae Warpack | Purge the Foe | +1 A after a charge; JIRALHANAE Sergeants issue a Doctrine in each player's turn |
 | 3 | Covenant Expeditionary Force | Priority Assets | Chain of Command (revision 19): Sangheili Sergeants issue 3 Caste Doctrines a battle round, Jiralhanae 2, to any COVENANT unit within 6" (vehicles included); units within 6" of a friendly unit with another designation (ELITE, BRUTE... or VEHICLE) re-roll hit rolls of 1 |

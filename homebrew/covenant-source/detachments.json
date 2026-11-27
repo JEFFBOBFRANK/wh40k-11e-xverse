@@ -227,6 +227,15 @@
     "when": "Your Shooting phase or the Fight phase, just after an Invasion Vessel from your army, or a COVENANT unit from your army within 6\" of one, is selected to shoot or fight.",
     "target": "That unit.",
     "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of an objective marker, add 1 to the wound roll."
+   },
+   {
+    "name": "Glassing Beam",
+    "cp": 2,
+    "type": "Battle Tactic Stratagem",
+    "when": "Your Shooting phase.",
+    "target": "One Sangheili Shipmaster model from your army.",
+    "effect": "Your fleet answers the Shipmaster's call. Select one enemy unit within 48\" of and visible to your model, then roll one D6. On a 3+, that enemy unit suffers 3D6 mortal wounds.",
+    "restriction": "You can only use this Stratagem once per battle."
    }
   ],
   "rules_intro": [],
