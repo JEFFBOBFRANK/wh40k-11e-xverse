@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 36
+REVISION = 37
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -41,6 +41,9 @@ WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel
 # Units listed here would instead show Auxiliaries as counters, one model type per loadout, as the Emperor's Children
 # Tormentors (the Jiralhanae Assault Pack used this until revision 35).
 TORMENTOR_STYLE = set()
+# Species keyword -> unit keyword (designation). A unit never takes Auxiliaries of its own species.
+UNIT_KEYWORD = {"Sangheili": "Elite", "Unggoy": "Grunt", "Jiralhanae": "Brute", "Yig-Yar": "Jackal",
+                "T'vaoan": "Jackal", "Yanme'e": "Drone", "Huragok": "Engineer", "Mgalekgolo": "Hunter"}
 # Species keywords a unit gains from its Sergeant and Auxiliary models (core rules: a unit has the keywords of all its
 # models). The unit keywords (GRUNT, ELITE, BRUTE, JACKAL, DRONE, HUNTER, ENGINEER) are on datasheets only.
 SPECIES = {"Sangheili", "Special Operations", "Jiralhanae", "Yig-Yar", "T'vaoan", "Unggoy", "Huragok", "Yanme'e",
@@ -645,7 +648,7 @@ class Builder:
         Meltagun"), and Specialist abilities and optional wargear are unit options with a model picker (as the
         Icon of Excess). An ability that replaces the model's weapons (Proximity Detonation) is a model type."""
         types, items, seen_items = [], [], set()
-        for name in self.aux_members(pool):
+        for name in self.aux_members(pool, unit["name"]):
             ds, spec = self.data[name], MODELS[name]
             weight = next((w for lst, w in pool["weights"].items() if lst in ds["keywords"]), 1)
             base_max = (pool["fixed"] or 0) // weight
@@ -751,12 +754,17 @@ class Builder:
             node.setdefault("modifiers", []).append(dict(type="add", field="category", value=cat_id, conditionGroups=[
                 dict(type="or", conditions=[selected(i, scope=node["id"]) for i in dict.fromkeys(ids)])]))
 
-    def aux_members(self, pool):
+    def aux_members(self, pool, unit=None):
+        """Auxiliary entries a pool offers; never the unit's own species (no Sangheili Auxiliaries in an ELITE unit,
+        no Unggoy Auxiliaries in a GRUNT unit...)."""
         names = list(pool["entries"])
         for lst in pool["lists"]:
             for ds in self.data.values():
                 if ds["category"] == "AUXILIARY" and lst in ds["keywords"] and ds["name"] not in names:
                     names.append(ds["name"])
+        if unit:
+            own = {k for k in self.data[unit]["keywords"] if k in UNIT_KEYWORD.values()}  # e.g. {"Elite"}
+            names = [n for n in names if not any(UNIT_KEYWORD.get(k) in own for k in self.data[n]["keywords"])]
         return names
 
     def auxiliaries(self, node, spec, family):
@@ -765,7 +773,7 @@ class Builder:
             label = "Auxiliary" if len(spec["aux"]) == 1 else "Auxiliary: " + ", ".join(
                 [e.replace(" Auxiliary", "") for e in pool["entries"]] + pool["lists"])
             links = []
-            for name in self.aux_members(pool):
+            for name in self.aux_members(pool, node["name"]):
                 target = self.shared_model(name, auxiliary=True)
                 link = dict(name=name, id=nid(gid + ":" + name), targetId=target["id"], type="selectionEntry",
                             hidden=False, **{"import": True})

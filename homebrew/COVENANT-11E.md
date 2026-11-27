@@ -194,6 +194,13 @@ Every unit, the Jiralhanae Assault Pack included (revision 35), uses this layout
 layout (Auxiliaries as counters, one per loadout) on every unit, then a size tick and weapon swaps; all of it is
 undone.
 
+## Auxiliaries of the unit's own species (revision 37)
+
+A unit never takes Auxiliaries of its own species: no Sangheili Auxiliaries in ELITE units, no Unggoy Auxiliaries in
+GRUNT units, no Jiralhanae Auxiliaries in BRUTE units, and so on (army rules, Caste Hierarchy; `UNIT_KEYWORD` in the
+builder filters every Auxiliary allowance). The Sangheili Swordmasters and Special Operations Team lose their Sangheili
+Auxiliaries; every other allowance already used other species.
+
 ## Points (revision 24)
 
 Prices are set against comparable 11th-edition units (points per model, each SP counted as about half a wound), e.g.

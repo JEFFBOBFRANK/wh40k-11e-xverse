@@ -10,6 +10,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from covenant_units import MODELS, UNITS  # noqa: E402
+from covenant_build import UNIT_KEYWORD  # noqa: E402
 
 problems = []
 POINTS_ID = "51b2-306e-1021-d207"
@@ -122,6 +123,13 @@ def main():
             members = list(pool["entries"]) + [d["name"] for d in data if d["category"] == "AUXILIARY"
                                                and any(l in d["keywords"] for l in pool["lists"])
                                                and d["name"] not in pool["entries"]]
+            own = {k for k in by_ds[uname]["keywords"] if k in UNIT_KEYWORD.values()}
+            members = [m for m in members if not any(UNIT_KEYWORD.get(k) in own for k in by_ds[m]["keywords"])]
+            offered = {l["name"] for g in unit.get("selectionEntryGroups", []) if g["name"].startswith("Auxiliary")
+                       for l in g.get("entryLinks", [])}
+            for name in offered:
+                check(not any(UNIT_KEYWORD.get(k) in own for k in by_ds[name]["keywords"]),
+                      f"{uname}: offers {name}, an Auxiliary of its own species")
             for m in dict.fromkeys(members):
                 if any(n.get("type") == "selectionEntry" and n.get("name") == m and n.get("targetId") ==
                        entries.get(m, {}).get("id") for n in nodes):

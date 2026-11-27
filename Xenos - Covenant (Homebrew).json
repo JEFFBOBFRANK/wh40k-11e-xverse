@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 36,
+    "revision": 37,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -29488,52 +29488,6 @@
               }
             ],
             "sortIndex": 0
-          },
-          {
-            "name": "Auxiliary",
-            "id": "7e1d-8fec-3d4b-1a3a",
-            "hidden": false,
-            "entryLinks": [
-              {
-                "name": "Sangheili Auxiliary",
-                "id": "bd6b-8295-762e-e10d",
-                "targetId": "6d4d-96ff-f47a-1d86",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              }
-            ],
-            "constraints": [
-              {
-                "id": "0e44-09b6-42ba-a167",
-                "type": "max",
-                "value": 0,
-                "scope": "parent",
-                "field": "e9ed-377d-8449-4036",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "selectionEntries": [],
-            "modifiers": [
-              {
-                "field": "0e44-09b6-42ba-a167",
-                "type": "increment",
-                "value": 1,
-                "repeats": [
-                  {
-                    "childId": "4a4b-a9c2-db48-8fec",
-                    "field": "selections",
-                    "scope": "b6fe-bb17-d1d2-eec8",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "value": 2,
-                    "repeats": 1,
-                    "roundUp": false
-                  }
-                ]
-              }
-            ]
           }
         ],
         "modifiers": [
@@ -31705,33 +31659,6 @@
               }
             ],
             "sortIndex": 0
-          },
-          {
-            "name": "Auxiliary",
-            "id": "2294-3db7-d38b-8a93",
-            "hidden": false,
-            "entryLinks": [
-              {
-                "name": "Sangheili Auxiliary",
-                "id": "045d-7af9-f875-fabd",
-                "targetId": "6d4d-96ff-f47a-1d86",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              }
-            ],
-            "constraints": [
-              {
-                "id": "8613-d018-6c34-f582",
-                "type": "max",
-                "value": 5,
-                "scope": "parent",
-                "field": "e9ed-377d-8449-4036",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "selectionEntries": []
           },
           {
             "name": "Enhancements and Upgrades",
@@ -83158,7 +83085,7 @@
         "name": "Caste Hierarchy",
         "id": "5023-1c9e-82fb-acb4",
         "hidden": false,
-        "description": "​<br><br>**Sergeants:**<br>A Sergeant model's entry lists the Caste Doctrines it can issue.\n\n**Auxiliaries:**<br>A unit can include Auxiliary models at the rate printed on its datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries). There is one Auxiliary entry per species: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the YIG-YAR keyword, so they can be taken wherever Yig-Yar Auxiliaries can. Each Auxiliary model can take one Specialist ability from its entry, at the points shown.\n\n**Keywords:**<br>As in the core rules, a unit has the keywords of all its models, including its Sergeant and Auxiliary models: a Sangheili Warrior Cadre with an Unggoy Auxiliary is also an UNGGOY unit. Each species' own datasheets also have a unit keyword that its Sergeant and Auxiliary models do not: GRUNT (Unggoy), ELITE (Sangheili), BRUTE (Jiralhanae), JACKAL (Yig-Yar and T'vaoan), DRONE (Yanme'e), HUNTER (Mgalekgolo) and ENGINEER (Huragok). Rules for those keywords affect only that species' units; rules for UNGGOY, SANGHEILI and the other species keywords affect any unit with such a model in it.\n\n**Toughness:**<br>A unit's T characteristic is the one that the most models in it have. If two or more are tied, use the lowest.\n\n**Issuing Caste Doctrines:**<br>Once per battle round, at the start of any phase, each Sergeant model from your army can issue one Caste Doctrine from its entry to its unit. Unless otherwise stated, a unit can be affected by only one Caste Doctrine at a time."
+        "description": "​<br><br>**Sergeants:**<br>A Sergeant model's entry lists the Caste Doctrines it can issue.\n\n**Auxiliaries:**<br>A unit can include Auxiliary models at the rate printed on its datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries). There is one Auxiliary entry per species: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the YIG-YAR keyword, so they can be taken wherever Yig-Yar Auxiliaries can. A unit cannot include Auxiliary models of its own species: an ELITE unit cannot include Sangheili Auxiliaries, a GRUNT unit cannot include Unggoy Auxiliaries, a BRUTE unit cannot include Jiralhanae Auxiliaries, and so on. Each Auxiliary model can take one Specialist ability from its entry, at the points shown.\n\n**Keywords:**<br>As in the core rules, a unit has the keywords of all its models, including its Sergeant and Auxiliary models: a Sangheili Warrior Cadre with an Unggoy Auxiliary is also an UNGGOY unit. Each species' own datasheets also have a unit keyword that its Sergeant and Auxiliary models do not: GRUNT (Unggoy), ELITE (Sangheili), BRUTE (Jiralhanae), JACKAL (Yig-Yar and T'vaoan), DRONE (Yanme'e), HUNTER (Mgalekgolo) and ENGINEER (Huragok). Rules for those keywords affect only that species' units; rules for UNGGOY, SANGHEILI and the other species keywords affect any unit with such a model in it.\n\n**Toughness:**<br>A unit's T characteristic is the one that the most models in it have. If two or more are tied, use the lowest.\n\n**Issuing Caste Doctrines:**<br>Once per battle round, at the start of any phase, each Sergeant model from your army can issue one Caste Doctrine from its entry to its unit. Unless otherwise stated, a unit can be affected by only one Caste Doctrine at a time."
       },
       {
         "name": "Shielding Trait",

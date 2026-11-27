@@ -2433,7 +2433,7 @@
    "Add 1 Sangheili Ultra."
   ],
   "auxiliary": [
-   "For every 2 Sangheili Swordmasters, add up to 1 Sangheili Auxiliary."
+   "This unit cannot include Auxiliary models."
   ],
   "wargear_options": [],
   "leader": [],
@@ -2519,7 +2519,7 @@
    "Add 1 Sangheili Ultra or 1 Sangheili Shadowmaster."
   ],
   "auxiliary": [
-   "Add up to 5 Sangheili Auxiliaries."
+   "This unit cannot include Auxiliary models."
   ],
   "wargear_options": [
    "1 model can replace both Plasma Rifles with a Particle Beam Rifle or Stalker Rifle.",

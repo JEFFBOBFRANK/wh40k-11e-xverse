@@ -148,8 +148,7 @@ UNITS = {
     "Sangheili Swordmasters": U(
         [M("Sangheili Swordmaster", (2, 4), ["Energy Sword", "Plasma Pistol"],
            gear=["Sangheili Personal Shield", "Stealth Projector"])],
-        sizes=[2, 4], prices=[55, 110], sergeants=["Sangheili Ultra"],
-        aux=[Pool(entries=["Sangheili Auxiliary"], per=2, slots=1)]),
+        sizes=[2, 4], prices=[55, 110], sergeants=["Sangheili Ultra"]),
     "Sangheili Special Operations Team": U(
         [M("Sangheili Special Operations Warrior", (3, 3), ["Plasma Rifles", SANG_CCW],
            gear=["Sangheili Personal Shield", "Stealth Projector"], variants=[
@@ -159,8 +158,7 @@ UNITS = {
                V("Special Operations Warrior with Energy Sword", ["Plasma Rifle", "Energy Sword"], count=1),
                V("Special Operations Warrior with Satchel Charge", ["Plasma Rifle", "Satchel Charge", SANG_CCW],
                  count=1)])],
-        sizes=[3], prices=[110], sergeants=["Sangheili Ultra", "Sangheili Shadowmaster"],
-        aux=[Pool(entries=["Sangheili Auxiliary"], fixed=5)]),
+        sizes=[3], prices=[110], sergeants=["Sangheili Ultra", "Sangheili Shadowmaster"]),
     "Sangheili Assassins": U(
         [M("Sangheili Assassin", (3, 6), ["Covenant Carbine", "Plasma Pistol", SANG_CCW],
            gear=["Sangheili Personal Shield"], variants=[
