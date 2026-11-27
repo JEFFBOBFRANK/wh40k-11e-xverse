@@ -212,7 +212,7 @@ group's total attacks, so each weapon gets its share and the total is unchanged:
 | Vampire | Medium Plasma Cannons A6 | 2x Medium Plasma Cannon A3 |
 | Scarab | Pek-pattern Plasma Cannons A12 | 3x Pek-pattern Plasma Cannon A4 |
 | Blisterback Siege Crawler | Heavy Plasma Cannons A6 | 2x Heavy Plasma Cannon A3 |
-| Marauder, Brute Chopper | Bolt Spikers A6, Rapid Fire 6 | 2x Bolt Spiker A3, Rapid Fire 3 |
+| Marauder | Bolt Spikers A6, Rapid Fire 6 | 2x Bolt Spiker A3, Rapid Fire 3 |
 | Marauder, Prowler Command Barge | Plasma Repeaters A4 | 2x Plasma Repeater A2 |
 | Sangheili and T'vaoan models | Plasma Rifles A6, Needlers A8, Plasma Pistols A2 | 2x Plasma Rifle A3, 2x Needler A4, 2x Plasma Pistol A1 |
 | Kraken | Port/Starboard Shade Turret I-III | 6x Shade Turret (same profile) |
@@ -220,6 +220,9 @@ group's total attacks, so each weapon gets its share and the total is unchanged:
 
 In a weapon choice or loadout package (the Ultra's "2 Plasma Rifles", the T'vaoan "Rifleman"), the option holds the
 weapons: 2 Plasma Rifles > 2x Plasma Rifle. Usze's "Plasma Rifles - Usze" is a hero weapon and stays one profile.
+
+Revision 42: the Brute Chopper's Bolt Spikers are one twin-mounted weapon, A4, Rapid Fire 3, [TWIN-LINKED] (was A6,
+Rapid Fire 6). The Wraith's Heavy Anti-tank Plasma Cannon is Damage 6 (was D3+6).
 
 ## Auxiliaries of the unit's own species (revision 37)
 

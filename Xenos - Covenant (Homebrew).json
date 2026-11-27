@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 41,
+    "revision": 42,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -49417,15 +49417,15 @@
                 "import": true,
                 "selectionEntries": [
                   {
-                    "name": "Bolt Spiker",
-                    "id": "ea9c-4f83-feda-728b",
+                    "name": "Bolt Spikers",
+                    "id": "581b-135b-621b-7ee0",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "58cb-000b-5733-83a2",
-                        "name": "Bolt Spiker",
+                        "id": "d087-296e-a1ac-e1d7",
+                        "name": "Bolt Spikers",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -49438,7 +49438,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "3"
+                            "$text": "4"
                           },
                           {
                             "name": "BS",
@@ -49463,25 +49463,25 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Devastating Wounds, Rapid Fire 3"
+                            "$text": "Devastating Wounds, Rapid Fire 3, Twin-linked"
                           }
                         ]
                       }
                     ],
                     "constraints": [
                       {
-                        "id": "51a6-7a58-b36f-f2be",
+                        "id": "0739-fa63-07c5-6769",
                         "type": "min",
-                        "value": 2,
+                        "value": 1,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
                       },
                       {
-                        "id": "2166-6efc-c116-0090",
+                        "id": "ecbe-966d-3777-8721",
                         "type": "max",
-                        "value": 2,
+                        "value": 1,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
@@ -49490,14 +49490,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "bdb7-e027-4801-0ef9",
+                        "id": "6f54-03af-7d90-03f5",
                         "name": "Devastating Wounds",
                         "targetId": "be1e-ac8e-1e2c-3528",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "f07b-2895-4a63-84f6",
+                        "id": "9e4f-a3c4-f83c-27a8",
+                        "name": "Twin-linked",
+                        "targetId": "cf93-ad4d-2f08-a79d",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "3fb9-37e5-95ff-d922",
                         "name": "Rapid Fire",
                         "targetId": "c5c8-8b58-b8b6-7786",
                         "type": "rule",
@@ -55327,7 +55334,7 @@
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "D3+6"
+                        "$text": "6"
                       },
                       {
                         "name": "Keywords",

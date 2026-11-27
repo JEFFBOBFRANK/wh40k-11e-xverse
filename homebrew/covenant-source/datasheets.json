@@ -4395,7 +4395,7 @@
    "This unit can include up to 3 Brute Choppers - 70pts/model."
   ],
   "equipped": [
-   "2 Bolt Spikers",
+   "Bolt Spikers",
    "Chainwheel"
   ],
   "sergeant": [],
@@ -4409,14 +4409,15 @@
    {
     "name": "Bolt Spikers",
     "range": "24\"",
-    "A": "6",
+    "A": "4",
     "BS_WS": "4+",
     "S": "5",
     "AP": "-1",
     "D": "2",
     "keywords": [
      "Devastating Wounds",
-     "Rapid Fire 6"
+     "Rapid Fire 3",
+     "Twin-linked"
     ]
    }
   ],
@@ -5246,7 +5247,7 @@
     "BS_WS": "3+",
     "S": "16",
     "AP": "-4",
-    "D": "D3+6",
+    "D": "6",
     "keywords": [
      "Anti-Vehicle 3+",
      "Heavy",

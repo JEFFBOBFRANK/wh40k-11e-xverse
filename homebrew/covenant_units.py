@@ -242,7 +242,7 @@ UNITS = {
         sizes=[2], prices=[190]),
 
     # Mounted and Monster
-    "Brute Chopper": U([M("Brute Chopper", (1, 3), ["2 Bolt Spikers", "Chainwheel"])], sizes=[1, 3], per_model=70),
+    "Brute Chopper": U([M("Brute Chopper", (1, 3), ["Bolt Spikers", "Chainwheel"])], sizes=[1, 3], per_model=70),
     "Ghost": S(),
     "Revenant": S(),
     "Spectre": S(),
