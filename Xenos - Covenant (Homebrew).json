@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 39,
+    "revision": 40,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -34,6 +34,26 @@
           {
             "id": "de31-d72e-cbc6-9c6e",
             "name": "SP"
+          }
+        ]
+      },
+      {
+        "id": "15b2-0140-fd17-7025",
+        "name": "Caste Doctrines",
+        "characteristicTypes": [
+          {
+            "id": "2eac-1f1c-7490-94b9",
+            "name": "Description"
+          }
+        ]
+      },
+      {
+        "id": "703f-1e32-e9bc-f54f",
+        "name": "Auxiliary",
+        "characteristicTypes": [
+          {
+            "id": "e2d4-dc8c-d7b0-19ec",
+            "name": "Description"
           }
         ]
       }
@@ -1881,6 +1901,48 @@
             "id": "5de7-dccd-8fdf-4527",
             "name": "Caste Doctrines",
             "targetId": "c90d-a56b-3da1-c859",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "4446-510e-ed45-e824",
+            "name": "Sangheili Doctrines",
+            "targetId": "a3f8-668f-b15c-021c",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "07f1-5703-b445-3683",
+            "name": "Sangheili Special Operations Doctrines",
+            "targetId": "1852-76bd-89cd-2652",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "c425-6a13-4751-7ae2",
+            "name": "Jiralhanae Doctrines",
+            "targetId": "150a-dfec-c31f-a3b2",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "40eb-385f-c408-e6c8",
+            "name": "Yig-Yar Doctrines",
+            "targetId": "eb4d-4c33-aa64-2960",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "764c-2a46-f162-d9fd",
+            "name": "Unggoy Doctrines",
+            "targetId": "96a0-95cb-3bc6-4ba2",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "19ed-2a9e-189b-d096",
+            "name": "Yanme'e Doctrines",
+            "targetId": "dd52-86b6-c681-d569",
             "type": "rule",
             "hidden": false
           },
@@ -65408,20 +65470,6 @@
             ]
           },
           {
-            "id": "9e87-1eab-6467-9289",
-            "name": "Caste Doctrines",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model can issue Relentless Charge, Savage Momentum or Unyielding Fury."
-              }
-            ]
-          },
-          {
             "id": "caed-0950-9db2-30c3",
             "name": "Model Keywords",
             "hidden": false,
@@ -65432,6 +65480,48 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Jiralhanae, Infantry, Grenades, Sergeant, Pack Alpha. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
+              }
+            ]
+          },
+          {
+            "id": "db8f-3794-59a0-7d45",
+            "name": "Relentless Charge",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Charge phase, until the end of the phase, add 1 to charge rolls made for this unit."
+              }
+            ]
+          },
+          {
+            "id": "2925-06a8-1017-3b4d",
+            "name": "Savage Momentum",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of the Fight phase, until the end of the phase, add 2 to the S characteristic of melee weapons equipped by models in this unit if this unit made a charge move this turn."
+              }
+            ]
+          },
+          {
+            "id": "69c0-c2ad-bee6-6110",
+            "name": "Unyielding Fury",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your opponent's Shooting phase or at the start of the Fight phase, until the end of the phase, subtract 1 from wound rolls for attacks that target this unit."
               }
             ]
           }
@@ -66278,20 +66368,6 @@
             ]
           },
           {
-            "id": "cff9-eec5-b363-5d9e",
-            "name": "Caste Doctrines",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model can issue Focused Assault, Sangheili Ambush or Tactical Withdrawal."
-              }
-            ]
-          },
-          {
             "id": "e152-2f52-5313-f021",
             "name": "Model Keywords",
             "hidden": false,
@@ -66302,6 +66378,48 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Sangheili, Infantry, Grenades, Sergeant, Ultra. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
+              }
+            ]
+          },
+          {
+            "id": "80dd-f63f-147b-1639",
+            "name": "Focused Assault",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Shooting or Fight phase, until the end of the phase, add 1 to hit rolls for attacks made by models in this unit."
+              }
+            ]
+          },
+          {
+            "id": "5dc7-8a3e-2f7d-a3dc",
+            "name": "Sangheili Ambush",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Shooting or Fight phase, select one of the following effects until the end of the phase: weapons equipped by models in this unit have [SUSTAINED HITS 1]; weapons equipped by models in this unit have [LETHAL HITS]; or unmodified hit rolls of 5+ made by models in this unit are critical hits."
+              }
+            ]
+          },
+          {
+            "id": "565c-f847-a576-91af",
+            "name": "Tactical Withdrawal",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Shooting or Charge phase, until the end of the phase, this unit is eligible to shoot or declare a charge, respectively, in a turn in which it made a fall-back move."
               }
             ]
           }
@@ -68003,14 +68121,14 @@
           },
           {
             "id": "64ba-8c4a-3a7e-11b1",
-            "name": "Model Keywords",
+            "name": "Unggoy Auxiliary Keywords",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "703f-1e32-e9bc-f54f",
+            "typeName": "Auxiliary",
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "e2d4-dc8c-d7b0-19ec",
                 "$text": "Unggoy, Infantry, Grenades, Auxiliary. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
               }
             ]
@@ -68645,12 +68763,12 @@
                     "id": "2f4a-dc9d-1161-48dc",
                     "name": "Ammunition Runner",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "Once per Shooting phase for each model in this unit with this ability, re-roll one dice used to determine a weapon's number of attacks, one hit roll and one wound roll made by this unit."
                       }
                     ]
@@ -68679,12 +68797,12 @@
                     "id": "2c9b-dbe7-d2ab-a488",
                     "name": "Forward Infiltration",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "This model's unit has Infiltrators."
                       }
                     ]
@@ -68720,12 +68838,12 @@
                     "id": "0046-ab5f-db24-0a48",
                     "name": "Proximity Detonation",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "Each time this model ends a move within 3\" of an enemy unit, or an enemy model ends a move within 3\" of it, this model detonates. Roll one D6; on a 3+, select one such enemy unit to suffer D3+3 mortal wounds. This model is then destroyed."
                       }
                     ]
@@ -68975,20 +69093,6 @@
             ]
           },
           {
-            "id": "be73-9d15-7a2c-9820",
-            "name": "Caste Doctrines",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model can issue Pick Apart the Weak, Fire and Scuttle or Survival Above Honour."
-              }
-            ]
-          },
-          {
             "id": "4ff0-24fe-3528-9aa0",
             "name": "Model Keywords",
             "hidden": false,
@@ -68999,6 +69103,48 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Yig-Yar, Infantry, Grenades, Sergeant, Talon. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
+              }
+            ]
+          },
+          {
+            "id": "dd14-47cb-9ea0-adae",
+            "name": "Pick Apart the Weak",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Shooting phase, until the end of the phase, add 1 to wound rolls for ranged attacks made by models in this unit that target a unit below starting strength or within range of an objective marker."
+              }
+            ]
+          },
+          {
+            "id": "06ae-4ae4-4bc3-4bc9",
+            "name": "Fire and Scuttle",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Shooting phase, until the end of the phase, after this unit has shot it can make a normal move of up to 6\". If it does, it cannot declare a charge this turn."
+              }
+            ]
+          },
+          {
+            "id": "d653-46a7-c8c5-500f",
+            "name": "Survival Above Honour",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your opponent's Shooting phase, until the end of the phase, this unit has Stealth and improve the Shield Save of models in it by 1, to a maximum of 2+."
               }
             ]
           }
@@ -70002,20 +70148,6 @@
             ]
           },
           {
-            "id": "d74e-f56e-fd51-f1a1",
-            "name": "Caste Doctrines",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model can issue Desperate Survival, Vengeful Retaliation or Courage Through Fear."
-              }
-            ]
-          },
-          {
             "id": "74c8-e6e9-cd9f-8728",
             "name": "Model Keywords",
             "hidden": false,
@@ -70026,6 +70158,48 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Unggoy, Infantry, Grenades, Sergeant, Ultra. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
+              }
+            ]
+          },
+          {
+            "id": "bdc9-7d7f-b0fd-90e2",
+            "name": "Desperate Survival",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of any phase, until the end of the phase, models in this unit have Feel No Pain 4+."
+              }
+            ]
+          },
+          {
+            "id": "829a-9aec-2683-a375",
+            "name": "Vengeful Retaliation",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of the Shooting or Fight phase, until the end of the phase, each time a model in this unit is destroyed, before removing it roll one D6. On a 4+, it can shoot if destroyed in the Shooting phase, or fight if destroyed in the Fight phase and it has not fought. Remove it after resolving those attacks."
+              }
+            ]
+          },
+          {
+            "id": "6d22-3bde-620a-30e1",
+            "name": "Courage Through Fear",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of any phase, until the end of the phase, improve this unit's Ld characteristic by 2 and re-roll battle-shock rolls made for it."
               }
             ]
           }
@@ -70619,14 +70793,14 @@
           },
           {
             "id": "ee75-f839-4b11-f132",
-            "name": "Model Keywords",
+            "name": "Sangheili Auxiliary Keywords",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "703f-1e32-e9bc-f54f",
+            "typeName": "Auxiliary",
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "e2d4-dc8c-d7b0-19ec",
                 "$text": "Sangheili, Infantry, Grenades, Auxiliary. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
               }
             ]
@@ -70644,12 +70818,12 @@
                 "id": "eb8f-4e4d-deb1-6ff5",
                 "name": "Sangheili Personal Shield",
                 "hidden": false,
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
+                "typeId": "703f-1e32-e9bc-f54f",
+                "typeName": "Auxiliary",
                 "characteristics": [
                   {
                     "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573",
+                    "typeId": "e2d4-dc8c-d7b0-19ec",
                     "$text": "The bearer has a starting SP value of 2."
                   }
                 ]
@@ -71706,12 +71880,12 @@
                     "id": "85e1-2ea3-4a94-94c6",
                     "name": "Stealth Projector",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "The bearer has Stealth."
                       }
                     ]
@@ -71774,12 +71948,12 @@
                     "id": "035c-c827-a19b-e7e7",
                     "name": "Forward Operative",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "This model's unit is eligible to shoot in a turn in which it made an advance move."
                       }
                     ]
@@ -71815,12 +71989,12 @@
                     "id": "2647-d837-1686-dafc",
                     "name": "Vengeful Pursuit",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "Once per battle round, after an enemy unit destroys one or more models in this model's unit with ranged attacks, that unit can make a surge move of D6+2\" towards the closest enemy and can end within engagement range."
                       }
                     ]
@@ -71856,12 +72030,12 @@
                     "id": "2974-3868-25a1-8bb8",
                     "name": "Remote Destructive Device",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "Once per battle, when an enemy unit ends a normal, advance, fall-back or charge move within 6\" of this model's unit, roll one D6. On a 2+, that unit suffers D3 mortal wounds."
                       }
                     ]
@@ -72215,14 +72389,14 @@
           },
           {
             "id": "7d38-df95-39dc-7f92",
-            "name": "Model Keywords",
+            "name": "Jiralhanae Auxiliary Keywords",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "703f-1e32-e9bc-f54f",
+            "typeName": "Auxiliary",
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "e2d4-dc8c-d7b0-19ec",
                 "$text": "Jiralhanae, Infantry, Grenades, Auxiliary. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
               }
             ]
@@ -73109,12 +73283,12 @@
                     "id": "03c2-7f6e-c555-f26a",
                     "name": "Pack Enforcer",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "Re-roll hit rolls of 1 for melee attacks made by UNGGOY or YIG-YAR models in this model's unit."
                       }
                     ]
@@ -73143,12 +73317,12 @@
                     "id": "d63f-1551-d12b-a7e8",
                     "name": "Sworn Protector",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "While a CHARACTER model is part of this model's unit, each time an attack with [PRECISION] is allocated to that Character, allocate that attack to this model instead. Each time that Character would suffer one or more mortal wounds, this model suffers those mortal wounds instead. A unit cannot contain more than one model with this ability."
                       }
                     ]
@@ -73157,12 +73331,12 @@
                     "id": "92f7-d09e-e52a-9f76",
                     "name": "Personal Shield Generator",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "The bearer has a starting SP value of 3."
                       }
                     ]
@@ -73212,12 +73386,12 @@
                     "id": "cce6-4de5-13dc-b9cd",
                     "name": "Stalking Predator",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "Models in this model's unit have Scouts 6\"."
                       }
                     ]
@@ -73708,14 +73882,14 @@
           },
           {
             "id": "4ad8-8ac8-77e0-2f4f",
-            "name": "Model Keywords",
+            "name": "Yig-Yar Auxiliary Keywords",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "703f-1e32-e9bc-f54f",
+            "typeName": "Auxiliary",
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "e2d4-dc8c-d7b0-19ec",
                 "$text": "Yig-Yar, Infantry, Grenades, Auxiliary. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
               }
             ]
@@ -74370,12 +74544,12 @@
                     "id": "8130-f3e1-8c64-5c01",
                     "name": "Wrist Shield",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12\", its Shield Save is 4+ instead."
                       }
                     ]
@@ -74452,12 +74626,12 @@
                     "id": "54f0-e3c3-92cc-ea9e",
                     "name": "Mark the Target",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "Once per battle, at the start of your Shooting phase, ranged weapons equipped by models in this model's unit have [PRECISION] until the end of the phase."
                       }
                     ]
@@ -74493,12 +74667,12 @@
                     "id": "fea8-7285-9f54-9394",
                     "name": "Spotter's Nest",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "While this model's unit remained stationary this turn, its ranged weapons have [IGNORES COVER]."
                       }
                     ]
@@ -74534,12 +74708,12 @@
                     "id": "8628-4458-3088-903b",
                     "name": "Trailblazer",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "Models in this model's unit have Scouts 6\"."
                       }
                     ]
@@ -74719,14 +74893,14 @@
           },
           {
             "id": "a88e-3492-57f5-c7e2",
-            "name": "Model Keywords",
+            "name": "T'vaoan Auxiliary Keywords",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "703f-1e32-e9bc-f54f",
+            "typeName": "Auxiliary",
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "e2d4-dc8c-d7b0-19ec",
                 "$text": "Yig-Yar, T'vaoan, Infantry, Grenades, Auxiliary. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
               }
             ]
@@ -76328,12 +76502,12 @@
                     "id": "6428-e420-45af-baff",
                     "name": "Wrist Shield",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "The bearer has a starting SP value of 6 and a Shield Save of 2+. Against attacks made by models within 12\", its Shield Save is 4+ instead."
                       }
                     ]
@@ -77160,12 +77334,12 @@
                     "id": "0075-699e-6bb8-59a0",
                     "name": "Trailblazer",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "Models in this model's unit have Scouts 6\"."
                       }
                     ]
@@ -77201,12 +77375,12 @@
                     "id": "1e34-0b85-237d-cf30",
                     "name": "Break from the Pack",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "At the start of your Movement phase, if this model's unit is unengaged, this model can split off as a separate unit with starting strength 1. It cannot rejoin another unit during the battle."
                       }
                     ]
@@ -77333,20 +77507,6 @@
             ]
           },
           {
-            "id": "b535-4fae-b5e0-a2e5",
-            "name": "Caste Doctrines",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model can issue Swarm Convergence, Predatory Descent or Fade Into Shadow."
-              }
-            ]
-          },
-          {
             "id": "641d-4f95-f7ee-cea6",
             "name": "Model Keywords",
             "hidden": false,
@@ -77357,6 +77517,48 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Yanme'e, Infantry, Fly, Sergeant, Major. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
+              }
+            ]
+          },
+          {
+            "id": "193a-f899-a98d-5997",
+            "name": "Swarm Convergence",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Shooting or Fight phase, until the end of the phase, add 1 to hit rolls for attacks made by models in this unit while it contains 5 or more models."
+              }
+            ]
+          },
+          {
+            "id": "c323-2c46-6936-65a6",
+            "name": "Predatory Descent",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Charge or Fight phase, until the end of the phase, add 1 to charge rolls made for this unit and melee weapons equipped by its models have [SUSTAINED HITS 1]."
+              }
+            ]
+          },
+          {
+            "id": "f59a-1f08-5189-438e",
+            "name": "Fade Into Shadow",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your opponent's Shooting phase, until the end of the phase, this unit has the Stealth ability."
               }
             ]
           }
@@ -77626,6 +77828,90 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Sangheili, Infantry, Grenades, Sergeant, Special Operations, Shadowmaster. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
+              }
+            ]
+          },
+          {
+            "id": "ef21-d768-790d-20d4",
+            "name": "Focused Assault",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Shooting or Fight phase, until the end of the phase, add 1 to hit rolls for attacks made by models in this unit."
+              }
+            ]
+          },
+          {
+            "id": "a871-d2b1-7d71-6cf7",
+            "name": "Sangheili Ambush",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Shooting or Fight phase, select one of the following effects until the end of the phase: weapons equipped by models in this unit have [SUSTAINED HITS 1]; weapons equipped by models in this unit have [LETHAL HITS]; or unmodified hit rolls of 5+ made by models in this unit are critical hits."
+              }
+            ]
+          },
+          {
+            "id": "1a15-b74e-9efc-1d70",
+            "name": "Tactical Withdrawal",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Shooting or Charge phase, until the end of the phase, this unit is eligible to shoot or declare a charge, respectively, in a turn in which it made a fall-back move."
+              }
+            ]
+          },
+          {
+            "id": "95a5-4285-abb1-a0ec",
+            "name": "Silent Approach",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Movement phase, until the end of the turn, this unit is eligible to shoot and declare a charge in a turn in which it made an advance move, and enemy units cannot use Fire Overwatch against it."
+              }
+            ]
+          },
+          {
+            "id": "c01d-9a33-8547-dcd9",
+            "name": "Decapitation Strike",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your Shooting or Fight phase, until the end of the phase, attacks made by models in this unit have [PRECISION]. When such an attack targets a CHARACTER unit, re-roll a wound roll of 1."
+              }
+            ]
+          },
+          {
+            "id": "58a8-8630-cc20-86ac",
+            "name": "Fade Into Shadow",
+            "hidden": false,
+            "typeId": "15b2-0140-fd17-7025",
+            "typeName": "Caste Doctrines",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "2eac-1f1c-7490-94b9",
+                "$text": "At the start of your opponent's Shooting phase, until the end of the phase, this unit has the Stealth ability."
               }
             ]
           }
@@ -78450,27 +78736,27 @@
           {
             "id": "4efe-9adf-77ac-66d7",
             "name": "Targeting Relay",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "703f-1e32-e9bc-f54f",
+            "typeName": "Auxiliary",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "e2d4-dc8c-d7b0-19ec",
                 "$text": "Once per battle round, when this model's unit is selected to shoot, select one enemy unit visible to this model. Until the end of the phase, ranged attacks made by this model's unit against that enemy have [IGNORES COVER]."
               }
             ]
           },
           {
             "id": "0b88-50c5-39ab-3a4a",
-            "name": "Model Keywords",
+            "name": "Yanme'e Auxiliary Keywords",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "703f-1e32-e9bc-f54f",
+            "typeName": "Auxiliary",
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "e2d4-dc8c-d7b0-19ec",
                 "$text": "Yanme'e, Infantry, Fly, Auxiliary. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
               }
             ]
@@ -78761,14 +79047,14 @@
           },
           {
             "id": "c16a-9670-b9cd-4126",
-            "name": "Model Keywords",
+            "name": "Huragok Auxiliary Keywords",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "703f-1e32-e9bc-f54f",
+            "typeName": "Auxiliary",
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "e2d4-dc8c-d7b0-19ec",
                 "$text": "Huragok, Infantry, Fly, Auxiliary. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
               }
             ]
@@ -78866,12 +79152,12 @@
                     "id": "4144-fb9b-5b8f-1185",
                     "name": "Biological Restoration",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "At the end of your Movement phase, select one other COVENANT INFANTRY model in this model's unit; that model heals D3. Once per battle, instead revive one destroyed non-CHARACTER, non-Auxiliary model in this model's unit with 1 wound remaining. That model cannot be a HUNTER model or have a starting W characteristic greater than 3."
                       }
                     ]
@@ -78900,12 +79186,12 @@
                     "id": "f73d-22b8-61e6-5cb4",
                     "name": "Shield Maintenance",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "703f-1e32-e9bc-f54f",
+                    "typeName": "Auxiliary",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "e2d4-dc8c-d7b0-19ec",
                         "$text": "At the start of your Command phase, select up to three other models in this model's unit. Each regains 2 lost SP, up to its starting SP value."
                       }
                     ]
@@ -82466,7 +82752,7 @@
         "name": "Caste Hierarchy",
         "id": "5023-1c9e-82fb-acb4",
         "hidden": false,
-        "description": "​<br><br>**Sergeants:**<br>A Sergeant model's entry lists the Caste Doctrines it can issue.\n\n**Auxiliaries:**<br>A unit can include Auxiliary models at the rate printed on its datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries). There is one Auxiliary entry per species: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the YIG-YAR keyword, so they can be taken wherever Yig-Yar Auxiliaries can. A unit cannot include Auxiliary models of its own species: an ELITE unit cannot include Sangheili Auxiliaries, a GRUNT unit cannot include Unggoy Auxiliaries, a BRUTE unit cannot include Jiralhanae Auxiliaries, and so on (the Sangheili Special Operations Team is the exception). Each Auxiliary model can take one Specialist ability from its entry, at the points shown.\n\n**Keywords:**<br>As in the core rules, a unit has the keywords of all its models, including its Sergeant and Auxiliary models: a Sangheili Warrior Cadre with an Unggoy Auxiliary is also an UNGGOY unit. Each species' own datasheets also have a unit keyword that its Sergeant and Auxiliary models do not: GRUNT (Unggoy), ELITE (Sangheili), BRUTE (Jiralhanae), JACKAL (Yig-Yar and T'vaoan), DRONE (Yanme'e), HUNTER (Mgalekgolo) and ENGINEER (Huragok). Rules for those keywords affect only that species' units; rules for UNGGOY, SANGHEILI and the other species keywords affect any unit with such a model in it.\n\n**Toughness:**<br>A unit's T characteristic is the one that the most models in it have. If two or more are tied, use the lowest.\n\n**Issuing Caste Doctrines:**<br>Once per battle round, at the start of any phase, each Sergeant model from your army can issue one Caste Doctrine from its entry to its unit. Unless otherwise stated, a unit can be affected by only one Caste Doctrine at a time."
+        "description": "​<br><br>**Sergeants:**<br>A Sergeant model's entry lists the Caste Doctrines it can issue.\n\n**Auxiliaries:**<br>■ A unit can include Auxiliary models at the rate printed on its datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries).\n■ There is one Auxiliary entry per species: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the YIG-YAR keyword, so they can be taken wherever Yig-Yar Auxiliaries can.\n■ A unit cannot include Auxiliary models of its own species: an ELITE unit cannot include Sangheili Auxiliaries, a GRUNT unit cannot include Unggoy Auxiliaries, a BRUTE unit cannot include Jiralhanae Auxiliaries, and so on (the Sangheili Special Operations Team is the exception).\n■ Each Auxiliary model can take one Specialist ability from its entry, at the points shown.\n\n**Keywords:**<br>■ As in the core rules, a unit has the keywords of all its models, including its Sergeant and Auxiliary models: a Sangheili Warrior Cadre with an Unggoy Auxiliary is also an UNGGOY unit.\n■ Each species' own datasheets also have a unit keyword that its Sergeant and Auxiliary models do not: GRUNT (Unggoy), ELITE (Sangheili), BRUTE (Jiralhanae), JACKAL (Yig-Yar and T'vaoan), DRONE (Yanme'e), HUNTER (Mgalekgolo) and ENGINEER (Huragok).\n■ Rules for those keywords affect only that species' units; rules for UNGGOY, SANGHEILI and the other species keywords affect any unit with such a model in it.\n\n**Toughness:**<br>A unit's T characteristic is the one that the most models in it have. If two or more are tied, use the lowest."
       },
       {
         "name": "Shielding Trait",
@@ -82484,7 +82770,43 @@
         "name": "Caste Doctrines",
         "id": "c90d-a56b-3da1-c859",
         "hidden": false,
-        "description": "​<br><br>**Sangheili Doctrines**<br>**Focused Assault:**<br>At the start of your Shooting or Fight phase, until the end of the phase, add 1 to hit rolls for attacks made by models in this unit.\n\n**Sangheili Ambush:**<br>At the start of your Shooting or Fight phase, select one of the following effects until the end of the phase: weapons equipped by models in this unit have [SUSTAINED HITS 1]; weapons equipped by models in this unit have [LETHAL HITS]; or unmodified hit rolls of 5+ made by models in this unit are critical hits.\n\n**Tactical Withdrawal:**<br>At the start of your Shooting or Charge phase, until the end of the phase, this unit is eligible to shoot or declare a charge, respectively, in a turn in which it made a fall-back move.\n\n**Sangheili Special Operations Doctrines**<br>**Silent Approach:**<br>At the start of your Movement phase, until the end of the turn, this unit is eligible to shoot and declare a charge in a turn in which it made an advance move, and enemy units cannot use Fire Overwatch against it.\n\n**Decapitation Strike:**<br>At the start of your Shooting or Fight phase, until the end of the phase, attacks made by models in this unit have [PRECISION]. When such an attack targets a CHARACTER unit, re-roll a wound roll of 1.\n\n**Fade Into Shadow:**<br>At the start of your opponent's Shooting phase, until the end of the phase, this unit has the Stealth ability.\n\n**Jiralhanae Doctrines**<br>**Relentless Charge:**<br>At the start of your Charge phase, until the end of the phase, add 1 to charge rolls made for this unit.\n\n**Savage Momentum:**<br>At the start of the Fight phase, until the end of the phase, add 2 to the S characteristic of melee weapons equipped by models in this unit if this unit made a charge move this turn.\n\n**Unyielding Fury:**<br>At the start of your opponent's Shooting phase or at the start of the Fight phase, until the end of the phase, subtract 1 from wound rolls for attacks that target this unit.\n\n**Yig-Yar Doctrines**<br>**Pick Apart the Weak:**<br>At the start of your Shooting phase, until the end of the phase, add 1 to wound rolls for ranged attacks made by models in this unit that target a unit below starting strength or within range of an objective marker.\n\n**Fire and Scuttle:**<br>At the start of your Shooting phase, until the end of the phase, after this unit has shot it can make a normal move of up to 6\". If it does, it cannot declare a charge this turn.\n\n**Survival Above Honour:**<br>At the start of your opponent's Shooting phase, until the end of the phase, this unit has Stealth and improve the Shield Save of models in it by 1, to a maximum of 2+.\n\n**Unggoy Doctrines**<br>**Desperate Survival:**<br>At the start of any phase, until the end of the phase, models in this unit have Feel No Pain 4+.\n\n**Vengeful Retaliation:**<br>At the start of the Shooting or Fight phase, until the end of the phase, each time a model in this unit is destroyed, before removing it roll one D6. On a 4+, it can shoot if destroyed in the Shooting phase, or fight if destroyed in the Fight phase and it has not fought. Remove it after resolving those attacks.\n\n**Courage Through Fear:**<br>At the start of any phase, until the end of the phase, improve this unit's Ld characteristic by 2 and re-roll battle-shock rolls made for it.\n\n**Yanme'e Doctrines**<br>**Swarm Convergence:**<br>At the start of your Shooting or Fight phase, until the end of the phase, add 1 to hit rolls for attacks made by models in this unit while it contains 5 or more models.\n\n**Predatory Descent:**<br>At the start of your Charge or Fight phase, until the end of the phase, add 1 to charge rolls made for this unit and melee weapons equipped by its models have [SUSTAINED HITS 1].\n\n**Fade Into Shadow:**<br>At the start of your opponent's Shooting phase, until the end of the phase, this unit has the Stealth ability."
+        "description": "\n\nOnce per battle round, at the start of any phase, each Sergeant model from your army can issue one Caste Doctrine from its entry to its unit. Unless otherwise stated, a unit can be affected by only one Caste Doctrine at a time.\n\nEach Sergeant's entry shows the Caste Doctrines it can issue. The Doctrines of each species follow."
+      },
+      {
+        "name": "Sangheili Doctrines",
+        "id": "a3f8-668f-b15c-021c",
+        "hidden": false,
+        "description": "​<br><br>**Focused Assault:**<br>At the start of your Shooting or Fight phase, until the end of the phase, add 1 to hit rolls for attacks made by models in this unit.\n\n**Sangheili Ambush:**<br>At the start of your Shooting or Fight phase, select one of the following effects until the end of the phase: weapons equipped by models in this unit have [SUSTAINED HITS 1]; weapons equipped by models in this unit have [LETHAL HITS]; or unmodified hit rolls of 5+ made by models in this unit are critical hits.\n\n**Tactical Withdrawal:**<br>At the start of your Shooting or Charge phase, until the end of the phase, this unit is eligible to shoot or declare a charge, respectively, in a turn in which it made a fall-back move."
+      },
+      {
+        "name": "Sangheili Special Operations Doctrines",
+        "id": "1852-76bd-89cd-2652",
+        "hidden": false,
+        "description": "​<br><br>**Silent Approach:**<br>At the start of your Movement phase, until the end of the turn, this unit is eligible to shoot and declare a charge in a turn in which it made an advance move, and enemy units cannot use Fire Overwatch against it.\n\n**Decapitation Strike:**<br>At the start of your Shooting or Fight phase, until the end of the phase, attacks made by models in this unit have [PRECISION]. When such an attack targets a CHARACTER unit, re-roll a wound roll of 1.\n\n**Fade Into Shadow:**<br>At the start of your opponent's Shooting phase, until the end of the phase, this unit has the Stealth ability."
+      },
+      {
+        "name": "Jiralhanae Doctrines",
+        "id": "150a-dfec-c31f-a3b2",
+        "hidden": false,
+        "description": "​<br><br>**Relentless Charge:**<br>At the start of your Charge phase, until the end of the phase, add 1 to charge rolls made for this unit.\n\n**Savage Momentum:**<br>At the start of the Fight phase, until the end of the phase, add 2 to the S characteristic of melee weapons equipped by models in this unit if this unit made a charge move this turn.\n\n**Unyielding Fury:**<br>At the start of your opponent's Shooting phase or at the start of the Fight phase, until the end of the phase, subtract 1 from wound rolls for attacks that target this unit."
+      },
+      {
+        "name": "Yig-Yar Doctrines",
+        "id": "eb4d-4c33-aa64-2960",
+        "hidden": false,
+        "description": "​<br><br>**Pick Apart the Weak:**<br>At the start of your Shooting phase, until the end of the phase, add 1 to wound rolls for ranged attacks made by models in this unit that target a unit below starting strength or within range of an objective marker.\n\n**Fire and Scuttle:**<br>At the start of your Shooting phase, until the end of the phase, after this unit has shot it can make a normal move of up to 6\". If it does, it cannot declare a charge this turn.\n\n**Survival Above Honour:**<br>At the start of your opponent's Shooting phase, until the end of the phase, this unit has Stealth and improve the Shield Save of models in it by 1, to a maximum of 2+."
+      },
+      {
+        "name": "Unggoy Doctrines",
+        "id": "96a0-95cb-3bc6-4ba2",
+        "hidden": false,
+        "description": "​<br><br>**Desperate Survival:**<br>At the start of any phase, until the end of the phase, models in this unit have Feel No Pain 4+.\n\n**Vengeful Retaliation:**<br>At the start of the Shooting or Fight phase, until the end of the phase, each time a model in this unit is destroyed, before removing it roll one D6. On a 4+, it can shoot if destroyed in the Shooting phase, or fight if destroyed in the Fight phase and it has not fought. Remove it after resolving those attacks.\n\n**Courage Through Fear:**<br>At the start of any phase, until the end of the phase, improve this unit's Ld characteristic by 2 and re-roll battle-shock rolls made for it."
+      },
+      {
+        "name": "Yanme'e Doctrines",
+        "id": "dd52-86b6-c681-d569",
+        "hidden": false,
+        "description": "​<br><br>**Swarm Convergence:**<br>At the start of your Shooting or Fight phase, until the end of the phase, add 1 to hit rolls for attacks made by models in this unit while it contains 5 or more models.\n\n**Predatory Descent:**<br>At the start of your Charge or Fight phase, until the end of the phase, add 1 to charge rolls made for this unit and melee weapons equipped by its models have [SUSTAINED HITS 1].\n\n**Fade Into Shadow:**<br>At the start of your opponent's Shooting phase, until the end of the phase, this unit has the Stealth ability."
       },
       {
         "name": "Supercombine",
@@ -82502,7 +82824,7 @@
         "name": "Conversion",
         "id": "8d7f-7dc8-effc-fbf8",
         "hidden": false,
-        "description": "\n\nEach time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful hit roll of 4+ scores a critical hit."
+        "description": "\n\nEach time an attack made with this weapon targets a unit that is not within half range of that weapon, an unmodified hit roll of 4+ scores a critical hit."
       },
       {
         "name": "Gravity Slam",

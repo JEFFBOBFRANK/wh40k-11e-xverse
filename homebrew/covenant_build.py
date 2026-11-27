@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 39
+REVISION = 40
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -30,8 +30,16 @@ CONFIGURATION = "4ac9-fd30-1e3d-b249"
 REFERENCE = "eef1-be80-500a-edfc"
 ROLE = {"EPIC HERO": "Epic Hero", "CHARACTER": "Character", "BATTLELINE": "Battleline", "INFANTRY": "Infantry",
         "MOUNTED": "Mounted", "MONSTER": "Monster", "VEHICLE": "Vehicle", "FORTIFICATION": "Fortification"}
-ARMY_RULES = ["Caste Hierarchy", "Shielding Trait", "Chosen of the Hierarchs", "Caste Doctrines", "Supercombine", "Plasma", "Conversion",
-              "Gravity Slam", "Siegebreaker", "Wargear Costs", "Transport Space"]
+# Caste Doctrines by species, one army rule each (each species gets its own block in the Army Rules reference).
+DOCTRINE_RULES = ["Sangheili Doctrines", "Sangheili Special Operations Doctrines", "Jiralhanae Doctrines",
+                  "Yig-Yar Doctrines", "Unggoy Doctrines", "Yanme'e Doctrines"]
+ARMY_RULES = ["Caste Hierarchy", "Shielding Trait", "Chosen of the Hierarchs", "Caste Doctrines", *DOCTRINE_RULES,
+              "Supercombine", "Plasma", "Conversion", "Gravity Slam", "Siegebreaker", "Wargear Costs", "Transport Space"]
+# The Doctrines each Sergeant can issue, shown in a "Caste Doctrines" box on the Sergeant model.
+SERGEANT_DOCTRINES = {"Sangheili Ultra": ["Sangheili Doctrines"],
+                      "Sangheili Shadowmaster": ["Sangheili Doctrines", "Sangheili Special Operations Doctrines"],
+                      "Jiralhanae Pack Alpha": ["Jiralhanae Doctrines"], "Yig-Yar Talon": ["Yig-Yar Doctrines"],
+                      "Unggoy Ultra": ["Unggoy Doctrines"], "Yanme'e Major": ["Yanme'e Doctrines"]}
 WEAPON_RULES = {"Supercombine": r"\bSupercombine\b", "Plasma": r"\bPlasma \((?:D|AP)[\dD+]+\)",
                 "Conversion": r"\bConversion\b", "Gravity Slam": r"\bGravity Slam\b", "Siegebreaker": r"\bSiegebreaker\b"}
 # Commanders with Chosen of the Hierarchs (+1CP each battle round while your Warlord), as EC's Sublime Strategist.
@@ -133,6 +141,14 @@ class Builder:
         self.enh_count = nid("cost:enhancement-or-upgrade")
         self.shields_type = dict(id=nid("profile-type:shields"), name="Shields",
                                  characteristicTypes=[dict(id=nid("profile-type:shields:sp"), name="SP")])
+        # own boxes on the unit, like Shields: a Sergeant's Caste Doctrines, an Auxiliary model's abilities
+        self.doctrine_type = dict(id=nid("profile-type:caste-doctrines"), name="Caste Doctrines",
+                                  characteristicTypes=[dict(id=nid("profile-type:caste-doctrines:text"),
+                                                            name="Description")])
+        self.auxiliary_type = dict(id=nid("profile-type:auxiliary"), name="Auxiliary",
+                                   characteristicTypes=[dict(id=nid("profile-type:auxiliary:text"),
+                                                             name="Description")])
+        self.doctrines = OrderedDict()
         self.log = []
 
     # ------------------------------------------------------------ categories, rules, profiles
@@ -175,6 +191,11 @@ class Builder:
         return dict(id=pid, name=weapon["name"], hidden=False, typeId=kind["id"], typeName=kind["name"],
                     characteristics=[dict(name=c["name"], typeId=c["id"], **{"$text": v})
                                      for c, v in zip(kind["characteristicTypes"], values)])
+
+    def text_profile(self, kind, pid, name, text):
+        c = kind["characteristicTypes"][0]
+        return dict(id=pid, name=name, hidden=False, typeId=kind["id"], typeName=kind["name"],
+                    characteristics=[dict(name=c["name"], typeId=c["id"], **{"$text": inches(text).strip()})])
 
     def ability_profile(self, pid, name, text, hidden=False):
         kind = self.sys_types["Abilities"]
@@ -628,6 +649,21 @@ class Builder:
         node["profiles"].append(self.ability_profile(nid(mid + ":keywords"), "Model Keywords",
                                                      ", ".join(ds["keywords"]) + ". These keywords belong to this "
                                                      "model only, not to its unit (Caste Hierarchy)."))
+        if name in SERGEANT_DOCTRINES:  # the Doctrines themselves replace the "can issue X, Y or Z" ability
+            node["profiles"] = [p for p in node["profiles"] if p["name"] != "Caste Doctrines"]
+            for rule in SERGEANT_DOCTRINES[name]:
+                for doctrine, text in self.doctrines[rule]:
+                    node["profiles"].append(self.text_profile(self.doctrine_type, nid(mid + ":doctrine:" + doctrine),
+                                                              doctrine, text))
+        if auxiliary:  # its abilities, Specialist abilities and keywords go in an Auxiliary box on the unit
+            for sub in walk(node):
+                for prof in sub.get("profiles", []) if isinstance(sub, dict) else []:
+                    if prof["typeName"] == "Abilities":
+                        text, hidden = prof["characteristics"][0]["$text"], prof.get("hidden", False)
+                        prof.update(self.text_profile(self.auxiliary_type, prof["id"], prof["name"], text),
+                                    hidden=hidden)
+                        if prof["name"] == "Model Keywords":
+                            prof["name"] = name + " Keywords"
         self.link_weapon_rules(node)
         self.shared_models[name] = node
         return node
@@ -819,6 +855,10 @@ class Builder:
                 continue
             body = "\n".join(lines).strip()
             self.rule(name, body)
+            if name in DOCTRINE_RULES:
+                self.doctrines[name] = [(m.group(1), m.group(2).strip()) for m in
+                                        re.finditer(r"^\*\*([^*\n]+?):\*\* +(.+)$", body, flags=re.M)]
+                assert self.doctrines[name], name
         # the game system has the FRAME keyword but no rule text for it; linked on every FRAME unit
         self.rule("Frame", "Core rules 17.02. Whenever a rule refers to a FRAME model's position relative to anything "
                            "else on the battlefield, such as when measuring distances, measure to and from the closest "
@@ -1085,7 +1125,7 @@ def build(source, system_path):
     cat["readme"] = "Covenant 11th-edition homebrew codex (Codex: Covenant v5.5.0, revised Caste Hierarchy)."
     cat["costTypes"] = [dict(name="Auxiliary Slots", id=b.aux_slot, defaultCostLimit=-1, hidden=True),
                         dict(name="Enhancement or Upgrade", id=b.enh_count, defaultCostLimit=-1, hidden=True)]
-    cat["profileTypes"] = [b.shields_type]
+    cat["profileTypes"] = [b.shields_type, b.doctrine_type, b.auxiliary_type]
     cat["categoryEntries"] = list(b.categories.values())
     shared = [det_entry, army_ref, strat_ref, warlord] + units + list(b.shared_models.values()) + enhancements
     cat["sharedSelectionEntries"] = shared

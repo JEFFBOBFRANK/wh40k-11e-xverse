@@ -10,7 +10,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from covenant_units import MODELS, UNITS  # noqa: E402
-from covenant_build import OWN_SPECIES_ALLOWED, UNIT_KEYWORD  # noqa: E402
+from covenant_build import DOCTRINE_RULES, OWN_SPECIES_ALLOWED, SERGEANT_DOCTRINES, UNIT_KEYWORD  # noqa: E402
 
 problems = []
 POINTS_ID = "51b2-306e-1021-d207"
@@ -69,7 +69,18 @@ def main():
         for a in ds["abilities"]:
             if a["name"] in ("Core", ""):
                 continue
+            if a["name"] == "Caste Doctrines" and ds["category"] == "SERGEANT":  # shown as the Doctrines themselves
+                shown = {p["name"] for p in profiles if p["typeName"] == "Caste Doctrines"}
+                for doctrine in re.findall(r"issue (.+)\.$", a["text"])[0].replace(" or ", ", ").split(", "):
+                    check(doctrine in shown, f"{name}: Caste Doctrine {doctrine} not shown")
+                continue
             check(a["name"] in names, f"{name}: ability {a['name']} missing")
+        if ds["category"] == "SERGEANT":
+            check(name in SERGEANT_DOCTRINES and any(p["typeName"] == "Caste Doctrines" for p in profiles),
+                  f"{name}: no Caste Doctrines box")
+        if ds["category"] == "AUXILIARY":
+            check(not any(p["typeName"] == "Abilities" for p in profiles),
+                  f"{name}: an ability is outside the Auxiliary box")
         for g in ds["wargear"]:
             if g["name"] in [x for x in ds["equipped"]] or any(g["name"] in o for o in ds["wargear_options"]):
                 check(g["name"] in names, f"{name}: wargear {g['name']} missing")
@@ -187,8 +198,8 @@ def main():
               f"{n}: Chosen of the Hierarchs missing")
     army = entries["Army Rules and References"]
     army_names = {rules[l["targetId"]]["name"] for l in army["infoLinks"]}
-    for n in ("Caste Hierarchy", "Shielding Trait", "Caste Doctrines", "Supercombine", "Plasma", "Conversion",
-              "Gravity Slam", "Siegebreaker", "Transport Space"):
+    for n in ("Caste Hierarchy", "Shielding Trait", "Caste Doctrines", *DOCTRINE_RULES, "Supercombine", "Plasma",
+              "Conversion", "Gravity Slam", "Siegebreaker", "Transport Space"):
         check(n in army_names, f"army rule {n} missing")
     text = json.dumps(cat)
     for old in ("400 points", "50% of its Non-Auxiliary"):

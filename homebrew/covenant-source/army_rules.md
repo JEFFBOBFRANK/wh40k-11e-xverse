@@ -6,13 +6,18 @@ _Source: Codex: Covenant v5.5.0 in 11th-edition wording. Caste Hierarchy is the 
 
 **Sergeants:** A Sergeant model's entry lists the Caste Doctrines it can issue.
 
-**Auxiliaries:** A unit can include Auxiliary models at the rate printed on its datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries). There is one Auxiliary entry per species: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the YIG-YAR keyword, so they can be taken wherever Yig-Yar Auxiliaries can. A unit cannot include Auxiliary models of its own species: an ELITE unit cannot include Sangheili Auxiliaries, a GRUNT unit cannot include Unggoy Auxiliaries, a BRUTE unit cannot include Jiralhanae Auxiliaries, and so on (the Sangheili Special Operations Team is the exception). Each Auxiliary model can take one Specialist ability from its entry, at the points shown.
+**Auxiliaries:**
+■ A unit can include Auxiliary models at the rate printed on its datasheet (for example, for every 5 Unggoy Warriors, 1 Sangheili Auxiliary or up to 2 Yig-Yar Auxiliaries).
+■ There is one Auxiliary entry per species: Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok and Yanme'e. T'vaoan Auxiliaries have the YIG-YAR keyword, so they can be taken wherever Yig-Yar Auxiliaries can.
+■ A unit cannot include Auxiliary models of its own species: an ELITE unit cannot include Sangheili Auxiliaries, a GRUNT unit cannot include Unggoy Auxiliaries, a BRUTE unit cannot include Jiralhanae Auxiliaries, and so on (the Sangheili Special Operations Team is the exception).
+■ Each Auxiliary model can take one Specialist ability from its entry, at the points shown.
 
-**Keywords:** As in the core rules, a unit has the keywords of all its models, including its Sergeant and Auxiliary models: a Sangheili Warrior Cadre with an Unggoy Auxiliary is also an UNGGOY unit. Each species' own datasheets also have a unit keyword that its Sergeant and Auxiliary models do not: GRUNT (Unggoy), ELITE (Sangheili), BRUTE (Jiralhanae), JACKAL (Yig-Yar and T'vaoan), DRONE (Yanme'e), HUNTER (Mgalekgolo) and ENGINEER (Huragok). Rules for those keywords affect only that species' units; rules for UNGGOY, SANGHEILI and the other species keywords affect any unit with such a model in it.
+**Keywords:**
+■ As in the core rules, a unit has the keywords of all its models, including its Sergeant and Auxiliary models: a Sangheili Warrior Cadre with an Unggoy Auxiliary is also an UNGGOY unit.
+■ Each species' own datasheets also have a unit keyword that its Sergeant and Auxiliary models do not: GRUNT (Unggoy), ELITE (Sangheili), BRUTE (Jiralhanae), JACKAL (Yig-Yar and T'vaoan), DRONE (Yanme'e), HUNTER (Mgalekgolo) and ENGINEER (Huragok).
+■ Rules for those keywords affect only that species' units; rules for UNGGOY, SANGHEILI and the other species keywords affect any unit with such a model in it.
 
 **Toughness:** A unit's T characteristic is the one that the most models in it have. If two or more are tied, use the lowest.
-
-**Issuing Caste Doctrines:** Once per battle round, at the start of any phase, each Sergeant model from your army can issue one Caste Doctrine from its entry to its unit. Unless otherwise stated, a unit can be affected by only one Caste Doctrine at a time.
 
 ## Shielding Trait
 
@@ -33,7 +38,11 @@ At the start of each battle round, if your WARLORD has this ability, gain 1CP.
 
 ## Caste Doctrines
 
-**Sangheili Doctrines**
+Once per battle round, at the start of any phase, each Sergeant model from your army can issue one Caste Doctrine from its entry to its unit. Unless otherwise stated, a unit can be affected by only one Caste Doctrine at a time.
+
+Each Sergeant's entry shows the Caste Doctrines it can issue. The Doctrines of each species follow.
+
+## Sangheili Doctrines
 
 **Focused Assault:** At the start of your Shooting or Fight phase, until the end of the phase, add 1 to hit rolls for attacks made by models in this unit.
 
@@ -41,7 +50,7 @@ At the start of each battle round, if your WARLORD has this ability, gain 1CP.
 
 **Tactical Withdrawal:** At the start of your Shooting or Charge phase, until the end of the phase, this unit is eligible to shoot or declare a charge, respectively, in a turn in which it made a fall-back move.
 
-**Sangheili Special Operations Doctrines**
+## Sangheili Special Operations Doctrines
 
 **Silent Approach:** At the start of your Movement phase, until the end of the turn, this unit is eligible to shoot and declare a charge in a turn in which it made an advance move, and enemy units cannot use Fire Overwatch against it.
 
@@ -49,7 +58,7 @@ At the start of each battle round, if your WARLORD has this ability, gain 1CP.
 
 **Fade Into Shadow:** At the start of your opponent's Shooting phase, until the end of the phase, this unit has the Stealth ability.
 
-**Jiralhanae Doctrines**
+## Jiralhanae Doctrines
 
 **Relentless Charge:** At the start of your Charge phase, until the end of the phase, add 1 to charge rolls made for this unit.
 
@@ -57,7 +66,7 @@ At the start of each battle round, if your WARLORD has this ability, gain 1CP.
 
 **Unyielding Fury:** At the start of your opponent's Shooting phase or at the start of the Fight phase, until the end of the phase, subtract 1 from wound rolls for attacks that target this unit.
 
-**Yig-Yar Doctrines**
+## Yig-Yar Doctrines
 
 **Pick Apart the Weak:** At the start of your Shooting phase, until the end of the phase, add 1 to wound rolls for ranged attacks made by models in this unit that target a unit below starting strength or within range of an objective marker.
 
@@ -65,7 +74,7 @@ At the start of each battle round, if your WARLORD has this ability, gain 1CP.
 
 **Survival Above Honour:** At the start of your opponent's Shooting phase, until the end of the phase, this unit has Stealth and improve the Shield Save of models in it by 1, to a maximum of 2+.
 
-**Unggoy Doctrines**
+## Unggoy Doctrines
 
 **Desperate Survival:** At the start of any phase, until the end of the phase, models in this unit have Feel No Pain 4+.
 
@@ -73,7 +82,7 @@ At the start of each battle round, if your WARLORD has this ability, gain 1CP.
 
 **Courage Through Fear:** At the start of any phase, until the end of the phase, improve this unit's Ld characteristic by 2 and re-roll battle-shock rolls made for it.
 
-**Yanme'e Doctrines**
+## Yanme'e Doctrines
 
 **Swarm Convergence:** At the start of your Shooting or Fight phase, until the end of the phase, add 1 to hit rolls for attacks made by models in this unit while it contains 5 or more models.
 
@@ -91,7 +100,7 @@ Each time an attack made with a Plasma weapon scores a critical hit, add X to th
 
 ## Conversion
 
-Each time an attack made with this weapon targets a unit more than 12" from the bearer, an unmodified successful hit roll of 4+ scores a critical hit.
+Each time an attack made with this weapon targets a unit that is not within half range of that weapon, an unmodified hit roll of 4+ scores a critical hit.
 
 ## Gravity Slam
 

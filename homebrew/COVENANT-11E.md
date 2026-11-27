@@ -16,7 +16,7 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
   models, 1 can..." scale with the unit size; model types that share one limit (Plasma Rifle or Needler)
   count together. Paid swaps add their points. New Recruit shows an error for an illegal unit size.
 - **Sergeant**: an optional group listing the Sergeant entries the datasheet allows. Each Sergeant keeps
-  its own loadout choices and Caste Doctrines.
+  its own loadout choices, and shows the Caste Doctrines it can issue in a "Caste Doctrines" table (revision 40).
 - **Auxiliary**: one entry per species (revision 3): Sangheili, Jiralhanae, Yig-Yar, T'vaoan, Unggoy, Huragok
   and Yanme'e. The unit's group lists the species its datasheet allows (T'vaoan have the Yig-Yar keyword, so
   they appear wherever Yig-Yar do). The allowance is shown in "Auxiliary Slots": for example a Grunt Cadre
@@ -40,6 +40,8 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
   Carbine, Needle Rifle, Particle Beam Rifle or Stalker Rifle cannot take a Wrist Shield (New Recruit shows an
   error). The T'vaoan's loadout packages are the Skirmisher's, plus the Tracker's Storm Rifle, Plasma Pistol and
   Yig-Yar Plasma Sabre.
+- **Auxiliary table** (revision 40): an Auxiliary model's abilities, its Specialist ability and its keywords show
+  in their own "Auxiliary" table on the unit, apart from the unit's Abilities (as the Shields table).
 - **Shields**: a "Shields" table shows SP on the wargear that gives it (e.g. "Sangheili Personal Shield: 2",
   "Wrist Shield: 6") or on the model when no wargear does (vehicles).
 - Wargear that gives an invulnerable save (Combat Shield, Layered Colony Armour) sets it on the stat line.
@@ -54,8 +56,10 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
 - Faction icon: `icons/armies/xenos-covenant-homebrew.png`, the Covenant symbol as a black silhouette on a
   transparent background, like New Recruit's own faction symbols. Replace the file (same name,
   PNG or SVG) to use another image.
-- Army Rules and References: Caste Hierarchy, Shielding Trait, Chosen of the Hierarchs, Caste Doctrines, Supercombine, Plasma,
-  Conversion, Gravity Slam, Siegebreaker, Wargear Costs and Transport Space. Weapons link Supercombine, Plasma and Siegebreaker, and the core rules.
+- Army Rules and References: Caste Hierarchy, Shielding Trait, Chosen of the Hierarchs, Caste Doctrines (how they
+  are issued), then one rule per species: Sangheili, Sangheili Special Operations, Jiralhanae, Yig-Yar, Unggoy and
+  Yanme'e Doctrines (revision 40), then Supercombine, Plasma, Conversion, Gravity Slam, Siegebreaker, Wargear Costs
+  and Transport Space. Weapons link Supercombine, Plasma and Siegebreaker, and the core rules.
 - 18 detachments with their DP and Force Disposition (see the detachments below). None is Unique.
   Enhancements appear only on eligible units of the chosen detachment; Upgrades that up to three units can
   take share one Enhancement selection. An Attached Unit can have only one Enhancement or Upgrade.
@@ -362,9 +366,9 @@ D3+X and random attacks become fixed, with [BLAST 1] or [BLAST 2].
 - **Gravity Slam** (undefined in v5.5.0) is defined in the army rules (revision 29): once per phase, when a unit with
   one or more Gravity Slam weapons is selected to fight, roll a D6 for each enemy unit within 3" of those models; on
   a 3+ it suffers D3 mortal wounds and must make a battle-shock roll. On every Gravity Hammer and the Fist of Rukt.
-- **Conversion Beam 30"** (undefined) is the 11e [CONVERSION] ability (revision 30, worded as on the 11e Relic
-  Contemptor Dreadnought): against a unit more than 12" from the bearer, an unmodified hit roll of 4+ is a critical
-  hit. In the army rules and linked on every Particle Beam Rifle.
+- **Conversion Beam 30"** (undefined) is Conversion (revision 40): against a unit that is not within half range of
+  the weapon, an unmodified hit roll of 4+ is a critical hit (the reverse of Rapid Fire). Revision 30 used 12" from
+  the bearer instead. In the army rules and linked on every Particle Beam Rifle.
 
 ## Rebuild and check
 
