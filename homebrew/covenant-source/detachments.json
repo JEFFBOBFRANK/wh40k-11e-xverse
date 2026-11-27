@@ -463,10 +463,10 @@
   "disposition": "Priority Assets",
   "rules": [
    {
-    "name": "Orders",
+    "name": "Chain of Command",
     "text": [
-     "In this detachment, issuing a Caste Doctrine is called an order. Each battle round, each SANGHEILI Sergeant model from your army can issue up to 3 orders, each JIRALHANAE Sergeant model up to 2, and each other Sergeant model 1.",
-     "Each order is issued at the start of any phase, to the Sergeant model's own unit or to one friendly COVENANT unit of any kind (including VEHICLE and MOUNTED units) within 6\" of it. That unit is affected by that Doctrine as though it contained that Sergeant model. A unit can still be affected by only one Caste Doctrine at a time."
+     "Each battle round, each SANGHEILI Sergeant model from your army can issue up to 3 Caste Doctrines, each JIRALHANAE Sergeant model up to 2, and each other Sergeant model 1.",
+     "Each Caste Doctrine is issued at the start of any phase, to the Sergeant model's own unit or to one friendly COVENANT unit of any kind (including VEHICLE and MOUNTED units) within 6\" of it. That unit is affected by that Doctrine as though it contained that Sergeant model. A unit can still be affected by only one Caste Doctrine at a time."
     ]
    },
    {
@@ -484,7 +484,7 @@
     "upgrade": false,
     "restriction": null,
     "text": [
-     "While the bearer is leading a unit, that unit's Sergeant model can issue one additional order each battle round."
+     "While the bearer is leading a unit, that unit's Sergeant model can issue one additional Caste Doctrine each battle round."
     ]
    },
    {
@@ -537,8 +537,8 @@
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
     "when": "Start of any phase.",
-    "target": "One unit from your army whose Sergeant model has issued all of its orders this battle round.",
-    "effect": "That Sergeant model can issue one additional order this battle round."
+    "target": "One unit from your army whose Sergeant model has issued all of its Caste Doctrines this battle round.",
+    "effect": "That Sergeant model can issue one additional Caste Doctrine this battle round."
    },
    {
     "name": "Focused Fire",
