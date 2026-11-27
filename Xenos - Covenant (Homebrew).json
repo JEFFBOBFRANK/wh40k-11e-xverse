@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 22,
+    "revision": 23,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -8183,6 +8183,66 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 5,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "1e0e-490b-9d06-3ba8",
+                        "childName": "San'Shyuum Advisor",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "Swords of Sanghelios: your army cannot include JIRALHANAE or SAN'SHYUUM models.",
+            "conditions": [
+              {
+                "childId": "77f3-4632-8ada-400c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
         "infoLinks": [
           {
             "id": "6e49-7e40-789c-3d8b",
@@ -8732,24 +8792,6 @@
             ]
           }
         ],
-        "modifiers": [
-          {
-            "type": "add",
-            "field": "error",
-            "value": "Swords of Sanghelios: your army cannot include JIRALHANAE or SAN'SHYUUM models.",
-            "conditions": [
-              {
-                "childId": "77f3-4632-8ada-400c",
-                "field": "selections",
-                "scope": "roster",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          }
-        ],
         "entryLinks": [
           {
             "name": "Warlord",
@@ -9260,6 +9302,50 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "a654-55fb-e663-c87f",
+                        "childName": "Sangheili Shipmaster",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -10614,6 +10700,50 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "4d66-a95e-2bf0-ca09",
+                        "childName": "Sangheili Fieldmaster",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "infoLinks": [
           {
             "id": "fa90-7d94-4ec0-17aa",
@@ -11739,6 +11869,50 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "b31b-1dca-640f-b688",
+                        "childName": "Sangheili Blademaster",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -13955,6 +14129,66 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "2c3e-2822-2c5b-8127",
+                        "childName": "Jiralhanae Chieftain",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "Swords of Sanghelios: your army cannot include JIRALHANAE or SAN'SHYUUM models.",
+            "conditions": [
+              {
+                "childId": "77f3-4632-8ada-400c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
         "infoLinks": [
           {
             "id": "7637-46f6-2922-8600",
@@ -14031,24 +14265,6 @@
                     "includeChildSelections": true
                   }
                 ]
-              }
-            ]
-          }
-        ],
-        "modifiers": [
-          {
-            "type": "add",
-            "field": "error",
-            "value": "Swords of Sanghelios: your army cannot include JIRALHANAE or SAN'SHYUUM models.",
-            "conditions": [
-              {
-                "childId": "77f3-4632-8ada-400c",
-                "field": "selections",
-                "scope": "roster",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
               }
             ]
           }
@@ -14476,6 +14692,50 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 5,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "1796-d318-b971-212b",
+                        "childName": "Yig-Yar Corsair-Talon",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -16155,6 +16415,50 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 5,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "9feb-a60c-0fba-fd62",
+                        "childName": "Yig-Yar Headtaker",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "infoLinks": [
           {
             "id": "a443-13a8-138b-b0de",
@@ -16565,6 +16869,50 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 5,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "5877-9114-a196-ec3d",
+                        "childName": "T'vaoan Raider",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -18259,6 +18607,50 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 5,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "f521-c268-7286-a22b",
+                        "childName": "Huragok Engineer",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -22446,6 +22838,48 @@
             ]
           },
           {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 5,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 3,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "49fd-d448-c9d3-9cc9",
+                        "childName": "Jiralhanae Assault Pack",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "type": "add",
             "field": "error",
             "value": "Swords of Sanghelios: your army cannot include JIRALHANAE or SAN'SHYUUM models.",
@@ -25985,6 +26419,48 @@
                     "value": 1,
                     "shared": true,
                     "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 5,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 3,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "ad54-5dcf-2efb-a761",
+                        "childName": "Yig-Yar Marauders",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -61301,6 +61777,48 @@
                 ]
               }
             ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "b6fe-bb17-d1d2-eec8",
+                        "childName": "Sangheili Swordmasters",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -66892,6 +67410,48 @@
                 "value": 2,
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "f961-d9be-78a1-db21",
+                        "childName": "Sangheili Special Operations Team",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -75733,6 +76293,48 @@
                 ]
               }
             ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "07ed-af7a-a067-c0c3",
+                        "childName": "Sangheili Assassins",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -77497,6 +78099,48 @@
                 "includeChildSelections": true
               }
             ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "1fc3-2a18-c94e-3393",
+                        "childName": "Sangheili Zealots",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -77923,6 +78567,50 @@
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "c4ad-7101-38e9-4978",
+                        "childName": "Sangheili Honor Guard",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -78701,6 +79389,48 @@
                     "value": 1,
                     "shared": true,
                     "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "e017-8a10-4141-2f37",
+                        "childName": "Jiralhanae Shock Pack",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -97013,6 +97743,48 @@
             ]
           },
           {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "3fb2-bd94-1836-a53c",
+                        "childName": "Jiralhanae Linebreakers",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "type": "add",
             "field": "error",
             "value": "Swords of Sanghelios: your army cannot include JIRALHANAE or SAN'SHYUUM models.",
@@ -100802,6 +101574,48 @@
                     "value": 1,
                     "shared": true,
                     "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "8db3-4b68-c645-8fd5",
+                        "childName": "Yig-Yar Marksmen",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
                   }
                 ]
               }
@@ -106182,6 +106996,50 @@
             ]
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "d4f9-4bd1-949a-2352",
+                        "childName": "T'vaoan Skirmishers",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {
             "name": "Infantry",
@@ -108465,6 +109323,50 @@
             ]
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 20,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "298f-8f9c-bc1f-7f8c",
+                        "childName": "Mgalekgolo Bond-Brother Pair",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {
             "name": "Infantry",
@@ -109008,6 +109910,50 @@
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 20,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "87c6-9c41-08e9-bea5",
+                        "childName": "Mgalekgolo Assault Pair",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -109576,6 +110522,50 @@
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 20,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "344c-10e6-dabc-1b7b",
+                        "childName": "Mgalekgolo Artillery Pair",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -111997,6 +112987,50 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 25,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "7687-734d-1f8c-89bc",
+                        "childName": "Mgalekgolo Goliath",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "infoLinks": [
           {
             "id": "536a-4772-1820-df0c",
@@ -112547,6 +113581,66 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "604b-98c5-da88-6eb3",
+                        "childName": "Marauder",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "Swords of Sanghelios: your army cannot include JIRALHANAE or SAN'SHYUUM models.",
+            "conditions": [
+              {
+                "childId": "77f3-4632-8ada-400c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
         "infoLinks": [
           {
             "id": "6327-1cac-3efc-3277",
@@ -112720,24 +113814,6 @@
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
-              }
-            ]
-          }
-        ],
-        "modifiers": [
-          {
-            "type": "add",
-            "field": "error",
-            "value": "Swords of Sanghelios: your army cannot include JIRALHANAE or SAN'SHYUUM models.",
-            "conditions": [
-              {
-                "childId": "77f3-4632-8ada-400c",
-                "field": "selections",
-                "scope": "roster",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
               }
             ]
           }
@@ -113142,6 +114218,66 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "c936-b8cf-1cdc-9919",
+                        "childName": "Prowler Command Barge",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "Swords of Sanghelios: your army cannot include JIRALHANAE or SAN'SHYUUM models.",
+            "conditions": [
+              {
+                "childId": "77f3-4632-8ada-400c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
         "infoLinks": [
           {
             "id": "5f18-8fbc-f8bf-73a7",
@@ -113315,24 +114451,6 @@
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
-              }
-            ]
-          }
-        ],
-        "modifiers": [
-          {
-            "type": "add",
-            "field": "error",
-            "value": "Swords of Sanghelios: your army cannot include JIRALHANAE or SAN'SHYUUM models.",
-            "conditions": [
-              {
-                "childId": "77f3-4632-8ada-400c",
-                "field": "selections",
-                "scope": "roster",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
               }
             ]
           }
@@ -114283,6 +115401,50 @@
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "107d-a9f0-85eb-dfe4",
+                        "childName": "Goblin Battlesuit",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -114727,6 +115889,50 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 25,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "c6b0-11a0-8e54-665e",
+                        "childName": "Blisterback Siege Crawler",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -115726,6 +116932,50 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "4c20-d4ba-0c14-a3b9",
+                        "childName": "Wraith",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "infoLinks": [
           {
             "id": "48ec-ec1c-3ccf-e980",
@@ -116132,6 +117382,50 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "f557-6920-5ed8-2b0b",
+                        "childName": "Locust",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -116791,6 +118085,50 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 10,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "e847-2552-c5ee-7696",
+                        "childName": "Banshee",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -118173,6 +119511,50 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "883d-4535-4520-8a06",
+                        "childName": "Vampire",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "infoLinks": [
           {
             "id": "817a-de3e-012a-51bd",
@@ -118970,6 +120352,50 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 25,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "9cf5-af26-779f-ea50",
+                        "childName": "Seraph",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -121903,6 +123329,50 @@
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 50,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "53b2-dee5-02e8-b108",
+                        "childName": "Scarab",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "infoLinks": [
           {
             "id": "bb53-0a2c-fafe-d6b3",
@@ -122999,6 +124469,50 @@
             "includeChildForces": false,
             "traverseAssociationGroup": true,
             "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 50,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "scope": "parent",
+                    "type": "atLeast",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "before",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "childId": "5aec-6071-71e2-f2dd",
+                        "childName": "Lich",
+                        "field": "selections",
+                        "scope": "self",
+                        "type": "instanceOf",
+                        "value": 1,
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [

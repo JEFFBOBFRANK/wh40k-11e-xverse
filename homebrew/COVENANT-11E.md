@@ -229,6 +229,25 @@ Auxiliary retinue. Glassing Beam and Call in Reinforcements are gone.
 | Sangheili Shipmaster | 90 (was 155) | Shipmaster's Command; Fleet Coordination: once per battle round a unit arriving from strategic reserves can be set up within 9" of the Shipmaster |
 | Sangheili Fieldmaster | 95 (was 180) | Field Command: once per battle round a Sergeant within 6" issues one more Caste Doctrine; Rally the Line: a battle-shocked INFANTRY unit within 6" recovers in your Command phase |
 
+## Points steps (revision 23)
+
+As in the Skaven catalogue, some datasheets cost more from a given copy on (`repeat_cost` in `datasheets.json`,
+e.g. "+10pts from the 3rd copy"). New Recruit raises that copy's points.
+
+| Step | Datasheets |
+|---|---|
+| +5 from the 4th copy | Jiralhanae Assault Pack, Yig-Yar Marauders |
+| +5 from the 3rd copy | Huragok Engineer, San'Shyuum Advisor, T'vaoan Raider, Yig-Yar Corsair-Talon, Yig-Yar Headtaker |
+| +10 from the 3rd copy | Jiralhanae Chieftain, Sangheili Blademaster, Fieldmaster and Shipmaster; Special Operations Team, Swordmasters, Assassins, Yig-Yar Marksmen, Jiralhanae Linebreakers and Shock Pack; Banshee, Marauder, Prowler Command Barge |
+| +15 from the 3rd copy | Sangheili Zealots, Honor Guard, T'vaoan Skirmishers; Wraith, Vampire, Goblin Battlesuit, Locust |
+| +20 from the 3rd copy | Mgalekgolo Bond-Brother, Assault and Artillery Pairs |
+| +25 from the 2nd copy | Mgalekgolo Goliath, Blisterback Siege Crawler, Seraph |
+| +50 from the 2nd copy | Scarab, Lich |
+
+No step: Epic Heroes (one copy), the other Battleline units, core infantry (Warrior Cadre, Rangers, Grunt units,
+Corsairs, Butchers, Heavy Weapons teams, Entourage), Unggoy Deacon, Ghost, Brute Chopper, Revenant, Spectre,
+transports, fortifications and the Kraken.
+
 ## Frame (revision 15)
 
 FRAME (core rules 17.02) is for models without a base and some other large models. It is on the vehicles and

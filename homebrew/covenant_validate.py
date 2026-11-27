@@ -88,6 +88,12 @@ def main():
                            and c["field"] == "selections"), None)
             want = 1 if "Epic Hero" in ds["keywords"] else 6 if "Battleline" in ds["keywords"] else 3
             check(copies == want, f"{name}: copy limit {copies}, expected {want}")
+            m = re.match(r"\+(\d+)pts from the (\d+)\w\w copy", ds.get("repeat_cost") or "")
+            if m:
+                steps = [x for x in e.get("modifiers", []) if x.get("type") == "increment" and x.get("value") == int(m.group(1))
+                         and any(g.get("value") == int(m.group(2)) - 1 for cg in x.get("conditionGroups", [])
+                                 for g in cg.get("localConditionGroups", []))]
+                check(steps, f"{name}: points step {ds['repeat_cost']} missing")
             if ds["leader"]:
                 check(e.get("associations"), f"{name}: Leader links missing")
         else:

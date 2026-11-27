@@ -738,7 +738,8 @@
    "Character",
    "Fly",
    "Advisor"
-  ]
+  ],
+  "repeat_cost": "+5pts from the 3rd copy"
  },
  {
   "name": "Sangheili Shipmaster",
@@ -839,7 +840,8 @@
    "Grenades",
    "Character",
    "Shipmaster"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "Sangheili Fieldmaster",
@@ -941,7 +943,8 @@
    "Grenades",
    "Character",
    "Fieldmaster"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "Sangheili Blademaster",
@@ -1010,7 +1013,8 @@
    "Grenades",
    "Character",
    "Blademaster"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "Jiralhanae Chieftain",
@@ -1165,7 +1169,8 @@
    "Grenades",
    "Character",
    "Chieftain"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "Yig-Yar Corsair-Talon",
@@ -1251,7 +1256,8 @@
    "Grenades",
    "Character",
    "Corsair-Talon"
-  ]
+  ],
+  "repeat_cost": "+5pts from the 3rd copy"
  },
  {
   "name": "Yig-Yar Headtaker",
@@ -1392,7 +1398,8 @@
    "Grenades",
    "Character",
    "Headtaker"
-  ]
+  ],
+  "repeat_cost": "+5pts from the 3rd copy"
  },
  {
   "name": "T'vaoan Raider",
@@ -1480,7 +1487,8 @@
    "Fly",
    "Character",
    "Raider"
-  ]
+  ],
+  "repeat_cost": "+5pts from the 3rd copy"
  },
  {
   "name": "Unggoy Deacon",
@@ -1627,7 +1635,8 @@
    "Character",
    "Fly",
    "Engineer"
-  ]
+  ],
+  "repeat_cost": "+5pts from the 3rd copy"
  },
  {
   "name": "Jiralhanae Assault Pack",
@@ -1773,7 +1782,8 @@
    "Grenades",
    "Battleline",
    "Assault Pack"
-  ]
+  ],
+  "repeat_cost": "+5pts from the 4th copy"
  },
  {
   "name": "Yig-Yar Marauders",
@@ -1901,7 +1911,8 @@
    "Grenades",
    "Battleline",
    "Marauders"
-  ]
+  ],
+  "repeat_cost": "+5pts from the 4th copy"
  },
  {
   "name": "Grunt Cadre",
@@ -2444,7 +2455,8 @@
    "Swordmaster",
    "Infantry",
    "Grenades"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "Sangheili Special Operations Team",
@@ -2587,7 +2599,8 @@
    "Special Operations",
    "Infantry",
    "Grenades"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "Sangheili Assassins",
@@ -2694,7 +2707,8 @@
    "Assassin",
    "Infantry",
    "Grenades"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "Sangheili Zealots",
@@ -2824,7 +2838,8 @@
    "Zealot",
    "Infantry",
    "Grenades"
-  ]
+  ],
+  "repeat_cost": "+15pts from the 3rd copy"
  },
  {
   "name": "Sangheili Honor Guard",
@@ -2889,7 +2904,8 @@
    "Honor Guard",
    "Infantry",
    "Grenades"
-  ]
+  ],
+  "repeat_cost": "+15pts from the 3rd copy"
  },
  {
   "name": "Jiralhanae Shock Pack",
@@ -2969,7 +2985,8 @@
    "Grenades",
    "Jump Pack",
    "Shock Pack"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "Jiralhanae Heavy Weapons Pack",
@@ -3125,7 +3142,8 @@
    "Infantry",
    "Grenades",
    "Linebreakers"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "Jiralhanae Entourage",
@@ -3445,7 +3463,8 @@
    "Infantry",
    "Grenades",
    "Marksmen"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "T'vaoan Butchers",
@@ -3830,7 +3849,8 @@
    "Infantry",
    "Grenades",
    "Skirmishers"
-  ]
+  ],
+  "repeat_cost": "+15pts from the 3rd copy"
  },
  {
   "name": "Suicide Grunts",
@@ -4135,7 +4155,8 @@
    "Infantry",
    "Hunter",
    "Bond-Brother Pair"
-  ]
+  ],
+  "repeat_cost": "+20pts from the 3rd copy"
  },
  {
   "name": "Mgalekgolo Assault Pair",
@@ -4217,7 +4238,8 @@
    "Infantry",
    "Hunter",
    "Assault Pair"
-  ]
+  ],
+  "repeat_cost": "+20pts from the 3rd copy"
  },
  {
   "name": "Mgalekgolo Artillery Pair",
@@ -4303,7 +4325,8 @@
    "Artillery",
    "Hunter",
    "Artillery Pair"
-  ]
+  ],
+  "repeat_cost": "+20pts from the 3rd copy"
  },
  {
   "name": "Brute Chopper",
@@ -4701,7 +4724,8 @@
    "Titanic",
    "Towering",
    "Goliath"
-  ]
+  ],
+  "repeat_cost": "+25pts from the 2nd copy"
  },
  {
   "name": "Marauder",
@@ -4787,7 +4811,8 @@
    "Vehicle",
    "Frame",
    "Marauder"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "Prowler Command Barge",
@@ -4871,7 +4896,8 @@
    "Transport",
    "Command",
    "Prowler"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "Goblin Battlesuit",
@@ -5005,7 +5031,8 @@
    "Vehicle",
    "Walker",
    "Goblin"
-  ]
+  ],
+  "repeat_cost": "+15pts from the 3rd copy"
  },
  {
   "name": "Blisterback Siege Crawler",
@@ -5098,7 +5125,8 @@
    "Fly",
    "Frame",
    "Blisterback"
-  ]
+  ],
+  "repeat_cost": "+25pts from the 2nd copy"
  },
  {
   "name": "Wraith",
@@ -5221,7 +5249,8 @@
    "Fly",
    "Frame",
    "Wraith"
-  ]
+  ],
+  "repeat_cost": "+15pts from the 3rd copy"
  },
  {
   "name": "Locust",
@@ -5303,7 +5332,8 @@
    "Walker",
    "Frame",
    "Locust"
-  ]
+  ],
+  "repeat_cost": "+15pts from the 3rd copy"
  },
  {
   "name": "Banshee",
@@ -5394,7 +5424,8 @@
    "Fly",
    "Frame",
    "Banshee"
-  ]
+  ],
+  "repeat_cost": "+10pts from the 3rd copy"
  },
  {
   "name": "Spirit",
@@ -5585,7 +5616,8 @@
    "Fly",
    "Frame",
    "Vampire"
-  ]
+  ],
+  "repeat_cost": "+15pts from the 3rd copy"
  },
  {
   "name": "Seraph",
@@ -5697,7 +5729,8 @@
    "Fly",
    "Frame",
    "Seraph"
-  ]
+  ],
+  "repeat_cost": "+25pts from the 2nd copy"
  },
  {
   "name": "Yig-Yar Raider-Skiff",
@@ -6115,7 +6148,8 @@
    "Towering",
    "Transport",
    "Scarab"
-  ]
+  ],
+  "repeat_cost": "+50pts from the 2nd copy"
  },
  {
   "name": "Lich",
@@ -6265,7 +6299,8 @@
    "Frame",
    "Transport",
    "Lich"
-  ]
+  ],
+  "repeat_cost": "+50pts from the 2nd copy"
  },
  {
   "name": "Kraken",

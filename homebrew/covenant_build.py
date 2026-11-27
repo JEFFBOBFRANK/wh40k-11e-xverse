@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 22
+REVISION = 23
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -465,6 +465,9 @@ class Builder:
         copies = 1 if primary == "Epic Hero" else 6 if primary == "Battleline" else 3
         node.setdefault("constraints", []).append(constraint(nid(unit_id + ":copies"), "max", copies, scope="roster",
                                                              child=True, forces=True))
+        step = repeat_modifier(unit_id, name, ds.get("repeat_cost"))
+        if step:  # points step, as Skaven: e.g. +10pts from the 3rd copy of this datasheet
+            node.setdefault("modifiers", []).append(step)
         self.add_abilities(node, ds)
         if "Frame" in ds["keywords"]:
             rule_link(node, self.rules["Frame"])
@@ -972,6 +975,21 @@ class Builder:
         if not hits:
             self.log.append(f"No eligible unit for {name}")
         return node
+
+
+def repeat_modifier(unit_id, name, text):
+    """'+10pts from the 3rd copy': this copy costs more when the army already has (copy - 1) of the datasheet."""
+    m = re.match(r"\+(\d+)pts from the (\d+)\w\w copy", text or "")
+    if not m:
+        return None
+    group = dict(field="selections", includeChildForces=True, includeChildSelections=True, repeats=1, scope="parent",
+                 type="atLeast", value=int(m.group(2)) - 1, conditions=[
+                     dict(childId="any", field="selections", scope="self", type="before", value=1, shared=True,
+                          includeChildSelections=True),
+                     dict(childId=unit_id, childName=name, field="selections", scope="self", type="instanceOf",
+                          value=1, shared=True, includeChildSelections=True)])
+    return dict(field=POINTS, type="increment", value=int(m.group(1)),
+                conditionGroups=[dict(type="and", localConditionGroups=[group])])
 
 
 def reference_entry(eid, name, links):
