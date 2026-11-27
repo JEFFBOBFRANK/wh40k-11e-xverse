@@ -198,8 +198,12 @@ undone.
 
 A unit never takes Auxiliaries of its own species: no Sangheili Auxiliaries in ELITE units, no Unggoy Auxiliaries in
 GRUNT units, no Jiralhanae Auxiliaries in BRUTE units, and so on (army rules, Caste Hierarchy; `UNIT_KEYWORD` in the
-builder filters every Auxiliary allowance). The Sangheili Swordmasters and Special Operations Team lose their Sangheili
-Auxiliaries; every other allowance already used other species.
+builder filters every Auxiliary allowance). The Sangheili Swordmasters lose their Sangheili Auxiliaries; the Special
+Operations Team is the exception and keeps up to 5 (revision 38).
+
+The Auxiliary Slots total shows the number of Auxiliary models (revision 38): a Grunt Cadre has 1 slot per 5 Unggoy
+Warriors (a Sangheili or Jiralhanae takes 1, a Yig-Yar or T'vaoan half, so 2 of them fit), and a Sangheili Warrior
+Cadre has 2 per 3 Warriors (2 at 3 models, 4 at 6; a Jiralhanae takes 2).
 
 ## Points (revision 24)
 

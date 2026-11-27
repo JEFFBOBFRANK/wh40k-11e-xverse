@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 37
+REVISION = 38
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -44,6 +44,7 @@ TORMENTOR_STYLE = set()
 # Species keyword -> unit keyword (designation). A unit never takes Auxiliaries of its own species.
 UNIT_KEYWORD = {"Sangheili": "Elite", "Unggoy": "Grunt", "Jiralhanae": "Brute", "Yig-Yar": "Jackal",
                 "T'vaoan": "Jackal", "Yanme'e": "Drone", "Huragok": "Engineer", "Mgalekgolo": "Hunter"}
+OWN_SPECIES_ALLOWED = {"Sangheili Special Operations Team"}  # the exception: up to 5 Sangheili Auxiliaries
 # Species keywords a unit gains from its Sergeant and Auxiliary models (core rules: a unit has the keywords of all its
 # models). The unit keywords (GRUNT, ELITE, BRUTE, JACKAL, DRONE, HUNTER, ENGINEER) are on datasheets only.
 SPECIES = {"Sangheili", "Special Operations", "Jiralhanae", "Yig-Yar", "T'vaoan", "Unggoy", "Huragok", "Yanme'e",
@@ -762,7 +763,7 @@ class Builder:
             for ds in self.data.values():
                 if ds["category"] == "AUXILIARY" and lst in ds["keywords"] and ds["name"] not in names:
                     names.append(ds["name"])
-        if unit:
+        if unit and unit not in OWN_SPECIES_ALLOWED:
             own = {k for k in self.data[unit]["keywords"] if k in UNIT_KEYWORD.values()}  # e.g. {"Elite"}
             names = [n for n in names if not any(UNIT_KEYWORD.get(k) in own for k in self.data[n]["keywords"])]
         return names

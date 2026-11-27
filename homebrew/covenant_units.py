@@ -120,8 +120,8 @@ UNITS = {
             V("Unggoy Warrior with Needler", ["Needler", UNG_CCW], per=5, count=1, key="special")])],
         sizes=[5, 10, 20], prices=[25, 45, 85],
         sergeants=["Sangheili Ultra", "Unggoy Ultra", "Jiralhanae Pack Alpha"],
-        aux=[Pool(lists=["Sangheili", "Jiralhanae", "Yig-Yar"], per=5, slots=2,
-                  weights={"Sangheili": 2, "Jiralhanae": 2, "Yig-Yar": 1})]),
+        aux=[Pool(lists=["Sangheili", "Jiralhanae", "Yig-Yar"], per=5, slots=1,
+                  weights={"Sangheili": 1, "Jiralhanae": 1, "Yig-Yar": 0.5})]),  # 1 per 5; a Yig-Yar is half
     "Yanme'e Drone Swarm": U(
         [M("Yanme'e Drone", (5, 10), ["Plasma Pistols", "Drone Claws"])], sizes=[5, 10], prices=[40, 80], exact=False,
         sergeants=["Yanme'e Major"]),
@@ -140,7 +140,7 @@ UNITS = {
                V("Sangheili Warrior with Fuel Rod", ["Plasma Pistol", "Fuel Rod", SANG_CCW], per=3, count=1,
                  key="heavy", cost=10)])],
         sizes=[3, 6], prices=[50, 100], exact=False, sergeants=["Sangheili Ultra"],
-        aux=[Pool(lists=["Unggoy", "Yig-Yar", "Jiralhanae"], per=3, slots=3, weights={"Jiralhanae": 3})]),
+        aux=[Pool(lists=["Unggoy", "Yig-Yar", "Jiralhanae"], per=3, slots=2, weights={"Jiralhanae": 2})]),
     "Sangheili Rangers": U(
         [M("Sangheili Ranger", (2, 2), ["Covenant Carbine", "Plasma Pistol", SANG_CCW],
            gear=["Sangheili Personal Shield", "Stealth Projector"])],
@@ -158,7 +158,8 @@ UNITS = {
                V("Special Operations Warrior with Energy Sword", ["Plasma Rifle", "Energy Sword"], count=1),
                V("Special Operations Warrior with Satchel Charge", ["Plasma Rifle", "Satchel Charge", SANG_CCW],
                  count=1)])],
-        sizes=[3], prices=[110], sergeants=["Sangheili Ultra", "Sangheili Shadowmaster"]),
+        sizes=[3], prices=[110], sergeants=["Sangheili Ultra", "Sangheili Shadowmaster"],
+        aux=[Pool(entries=["Sangheili Auxiliary"], fixed=5)]),  # the exception: Sangheili Auxiliaries in an ELITE unit
     "Sangheili Assassins": U(
         [M("Sangheili Assassin", (3, 6), ["Covenant Carbine", "Plasma Pistol", SANG_CCW],
            gear=["Sangheili Personal Shield"], variants=[

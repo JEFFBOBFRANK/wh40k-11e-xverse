@@ -2167,7 +2167,7 @@
    "Add 1 Sangheili Ultra."
   ],
   "auxiliary": [
-   "For every 3 Sangheili Warriors, add either up to 3 models from the Unggoy and/or Yig-Yar Auxiliary lists; or 1 model from the Jiralhanae Auxiliary list."
+   "For every 3 Sangheili Warriors, add either up to 2 models from the Unggoy and/or Yig-Yar Auxiliary lists; or 1 model from the Jiralhanae Auxiliary list."
   ],
   "wargear_options": [
    "For every 3 Sangheili Warriors, 1 can replace its Plasma Pistol and Storm Rifle with 2 Plasma Rifles.",
@@ -2519,7 +2519,7 @@
    "Add 1 Sangheili Ultra or 1 Sangheili Shadowmaster."
   ],
   "auxiliary": [
-   "This unit cannot include Auxiliary models."
+   "Add up to 5 Sangheili Auxiliaries."
   ],
   "wargear_options": [
    "1 model can replace both Plasma Rifles with a Particle Beam Rifle or Stalker Rifle.",
