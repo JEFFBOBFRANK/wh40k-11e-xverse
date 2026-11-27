@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 38
+REVISION = 39
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -545,6 +545,8 @@ class Builder:
             vid = nid(unit_id + ":variant:" + v["name"])
             items = v["weapons"] + m["gear"] + (v["gear"] or [])
             ve = model(vid, v["name"], items, m["cost"] + v["cost"])
+            if v.get("choice"):  # e.g. Covenant Carbine or Needler, picked on the model
+                ve["selectionEntryGroups"] = [self.choice_group(vid, v["choice"], ds)]
             limit_max = high
             if v["per"]:
                 limit_max = v["count"] * (high // v["per"])

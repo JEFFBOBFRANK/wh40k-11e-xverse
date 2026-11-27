@@ -36,8 +36,10 @@ def M(name, count, weapons, gear=(), variants=(), cost=0):
     return dict(name=name, count=count, weapons=list(weapons), gear=list(gear), variants=list(variants), cost=cost)
 
 
-def V(name, weapons, per=None, count=None, key=None, cost=0, gear=None):
-    return dict(name=name, weapons=list(weapons), per=per, count=count, key=key or name, cost=cost, gear=gear)
+def V(name, weapons, per=None, count=None, key=None, cost=0, gear=None, choice=None):
+    """choice: a C(...) on this model type, e.g. Covenant Carbine or Needler (the model is added with "+")."""
+    return dict(name=name, weapons=list(weapons), per=per, count=count, key=key or name, cost=cost, gear=gear,
+                choice=choice)
 
 
 def C(label, options, minimum=1, maximum=1, costs=None):
@@ -131,14 +133,10 @@ UNITS = {
         [M("Sangheili Warrior", (3, 6), ["Plasma Pistol", "Storm Rifle", SANG_CCW], gear=["Sangheili Personal Shield"],
            variants=[
                V("Sangheili Warrior with Plasma Rifles", ["Plasma Rifles", SANG_CCW], per=3, count=1, key="rifles"),
-               V("Sangheili Warrior with Covenant Carbine", ["Plasma Pistol", "Covenant Carbine", SANG_CCW],
-                 per=3, count=1, key="carbine"),
-               V("Sangheili Warrior with Needler", ["Plasma Pistol", "Needler", SANG_CCW], per=3, count=1,
-                 key="carbine"),
-               V("Sangheili Warrior with Plasma Repeater", ["Plasma Pistol", "Plasma Repeater", SANG_CCW],
-                 per=3, count=1, key="heavy"),
-               V("Sangheili Warrior with Fuel Rod", ["Plasma Pistol", "Fuel Rod", SANG_CCW], per=3, count=1,
-                 key="heavy", cost=10)])],
+               V("Sangheili Warrior with Carbine or Needler", ["Plasma Pistol", SANG_CCW], per=3, count=1,
+                 key="carbine", choice=C("Ranged weapon", ["Covenant Carbine", "Needler"])),
+               V("Sangheili Warrior with Repeater or Fuel Rod", ["Plasma Pistol", SANG_CCW], per=3, count=1,
+                 key="heavy", choice=C("Ranged weapon", ["Plasma Repeater", "Fuel Rod"], costs={"Fuel Rod": 10}))])],
         sizes=[3, 6], prices=[50, 100], exact=False, sergeants=["Sangheili Ultra"],
         aux=[Pool(lists=["Unggoy", "Yig-Yar", "Jiralhanae"], per=3, slots=2, weights={"Jiralhanae": 2})]),
     "Sangheili Rangers": U(

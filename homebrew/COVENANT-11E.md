@@ -185,8 +185,10 @@ are fixed (the Pack Alpha's Mangler, the Unggoy Ultra's Close Combat Weapon).
 Back to the layout before revision 13, with the Sergeant on top of every unit:
 
 1. **Sergeant**: one optional choice; its weapon choices open underneath.
-2. **Models**: the unit's model counter, plus model types with other weapons (e.g. "Sangheili Warrior with Fuel Rod",
-   up to 1 for every 3 models).
+2. **Models**: the unit's model counter, plus model types with other weapons (up to 1 for every 3 models). A model
+   type can carry a choice (revision 39): the Sangheili Warrior Cadre has "Sangheili Warrior with Plasma Rifles", "with
+   Carbine or Needler" and "with Repeater or Fuel Rod", the last two added with "+" and their weapon picked on the
+   model.
 3. **Auxiliary**: add an Auxiliary model ("+"), then choose its weapons (Ranged weapon, Sidearm, Melee weapon,
    Wargear) and its Specialist ability on that model. The Auxiliary Slots total still applies.
 
