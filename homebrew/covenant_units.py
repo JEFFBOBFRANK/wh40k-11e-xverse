@@ -356,7 +356,8 @@ MODELS = {
         C("Ranged weapon", ["Plasma Pistol", "Plasma Rifle", "Needler", "Storm Rifle", "Fuel Rod"], costs={"Fuel Rod": 10}),
         C("Melee weapon", [UNG_CCW])]),
     "Huragok Auxiliary": S(),
-    "Yanme'e Auxiliary": S(),
+    # no options in the codex, but weapon slots like the other Auxiliaries so it is added with "+" too
+    "Yanme'e Auxiliary": S(weapons=[], choices=[C("Ranged weapon", ["Plasma Rifle"]), C("Melee weapon", ["Drone Claws"])]),
 }
 
 # The codex's Auxiliary lists, by the keyword on each Auxiliary entry.

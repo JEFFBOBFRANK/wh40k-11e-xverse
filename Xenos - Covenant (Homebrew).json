@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 32,
+    "revision": 33,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -81094,62 +81094,104 @@
             ]
           }
         ],
-        "selectionEntries": [
+        "selectionEntries": [],
+        "selectionEntryGroups": [
           {
-            "name": "Plasma Rifle",
-            "id": "42ba-6006-e488-0cad",
-            "type": "upgrade",
+            "name": "Ranged weapon",
+            "id": "72b4-d13b-0e98-4a19",
             "hidden": false,
-            "import": true,
-            "profiles": [
+            "selectionEntries": [
               {
-                "id": "9702-7209-d05c-b9f0",
                 "name": "Plasma Rifle",
+                "id": "fe48-877c-9999-c493",
+                "type": "upgrade",
                 "hidden": false,
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "characteristics": [
+                "import": true,
+                "profiles": [
                   {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "15\""
+                    "id": "807d-bd32-7e28-2e20",
+                    "name": "Plasma Rifle",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "15\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Assault, Pistol, Plasma (AP1)"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "c000-aa6a-97ca-2b5e",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "a29e-37b7-4ccf-e8f8",
+                    "name": "Assault",
+                    "targetId": "fc8a-8c24-bae9-cc1c",
+                    "type": "rule",
+                    "hidden": false
                   },
                   {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "3"
+                    "id": "586a-cd2b-5c9a-9e0f",
+                    "name": "Pistol",
+                    "targetId": "8bf7-8812-923d-29e4",
+                    "type": "rule",
+                    "hidden": false
                   },
                   {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "4+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "6"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "-2"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "1"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Assault, Pistol, Plasma (AP1)"
+                    "id": "b1dc-f593-3846-b437",
+                    "name": "Plasma",
+                    "targetId": "96fc-ca3e-b5fb-a002",
+                    "type": "rule",
+                    "hidden": false
                   }
                 ]
               }
             ],
             "constraints": [
               {
-                "id": "a6c9-3e0f-3c37-cbc2",
+                "id": "59aa-a2dc-b7f8-a741",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -81158,7 +81200,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "ccf0-99e0-2c59-8d49",
+                "id": "7c2b-3d99-7008-d6f6",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -81167,85 +81209,81 @@
                 "includeChildSelections": false
               }
             ],
-            "infoLinks": [
-              {
-                "id": "aa77-ae60-018d-7d5d",
-                "name": "Assault",
-                "targetId": "fc8a-8c24-bae9-cc1c",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "77fd-6c7b-a15c-dca6",
-                "name": "Pistol",
-                "targetId": "8bf7-8812-923d-29e4",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "8c09-2893-0514-2e0f",
-                "name": "Plasma",
-                "targetId": "96fc-ca3e-b5fb-a002",
-                "type": "rule",
-                "hidden": false
-              }
-            ]
+            "defaultSelectionEntryId": "fe48-877c-9999-c493"
           },
           {
-            "name": "Drone Claws",
-            "id": "2514-3247-f896-c58c",
-            "type": "upgrade",
+            "name": "Melee weapon",
+            "id": "84f2-d68c-bef6-9494",
             "hidden": false,
-            "import": true,
-            "profiles": [
+            "selectionEntries": [
               {
-                "id": "b291-30dc-cfed-e6cc",
                 "name": "Drone Claws",
+                "id": "be59-b88f-3b0d-aba7",
+                "type": "upgrade",
                 "hidden": false,
-                "typeId": "8a40-4aaa-c780-9046",
-                "typeName": "Melee Weapons",
-                "characteristics": [
+                "import": true,
+                "profiles": [
                   {
-                    "name": "Range",
-                    "typeId": "914c-b413-91e3-a132",
-                    "$text": "Melee"
-                  },
+                    "id": "48a5-ed42-f85b-4183",
+                    "name": "Drone Claws",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "0"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "-"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
                   {
-                    "name": "A",
-                    "typeId": "2337-daa1-6682-b110",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "WS",
-                    "typeId": "95d1-95f-45b4-11d6",
-                    "$text": "4+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "ab33-d393-96ce-ccba",
-                    "$text": "3"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "41a0-1301-112a-e2f2",
-                    "$text": "0"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "3254-9fe6-d824-513e",
-                    "$text": "1"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "893f-9000-ccf7-648e",
-                    "$text": "-"
+                    "id": "303a-6dc4-2d45-92ad",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
                   }
                 ]
               }
             ],
             "constraints": [
               {
-                "id": "a8b5-c432-cd55-4625",
+                "id": "ea6f-7a31-1eca-7bb1",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -81254,7 +81292,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "36d2-386d-39d3-0858",
+                "id": "e258-6699-32db-73ce",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -81262,10 +81300,10 @@
                 "shared": true,
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "defaultSelectionEntryId": "be59-b88f-3b0d-aba7"
           }
         ],
-        "selectionEntryGroups": [],
         "costs": [
           {
             "name": "pts",
