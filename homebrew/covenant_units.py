@@ -123,7 +123,7 @@ UNITS = {
         aux=[Pool(lists=["Sangheili", "Jiralhanae", "Yig-Yar"], per=5, slots=2,
                   weights={"Sangheili": 2, "Jiralhanae": 2, "Yig-Yar": 1})]),
     "Yanme'e Drone Swarm": U(
-        [M("Yanme'e Drone", (5, 10), ["Plasma Pistols", "Drone Claws"])], sizes=[5, 10], per_model=8,
+        [M("Yanme'e Drone", (5, 10), ["Plasma Pistols", "Drone Claws"])], sizes=[5, 10], prices=[40, 80], exact=False,
         sergeants=["Yanme'e Major"]),
 
     # Infantry

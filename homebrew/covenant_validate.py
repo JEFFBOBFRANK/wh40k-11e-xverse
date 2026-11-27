@@ -12,6 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from covenant_units import MODELS, UNITS  # noqa: E402
 
 problems = []
+POINTS_ID = "51b2-306e-1021-d207"
 checks = 0
 
 
@@ -184,6 +185,15 @@ def main():
     for old in ("400 points", "50% of its Non-Auxiliary"):
         if old in text:
             print("NOTE: still printed:", old)
+    # points are always multiples of 5: costs and points modifiers alike
+    for n in walk(cat):
+        if not isinstance(n, dict):
+            continue
+        for co in n.get("costs", []) or []:
+            if co.get("name") == "pts":
+                check(co["value"] % 5 == 0, f"{n.get('name')}: {co['value']} pts is not a multiple of 5")
+        if n.get("field") == POINTS_ID and isinstance(n.get("value"), (int, float)):
+            check(n["value"] % 5 == 0, f"points modifier {n['value']} is not a multiple of 5")
     print(f"{checks} checks, {len(problems)} problems")
     for p in problems:
         print(" -", p)

@@ -204,9 +204,9 @@ paid, but cheap.
 | Group | Prices |
 |---|---|
 | Sergeants | Sangheili Ultra 15, Shadowmaster 20, Yig-Yar Talon 10, Pack Alpha 10, Unggoy Ultra 5, Yanme'e Major 5 |
-| Auxiliaries | Unggoy 8, Yig-Yar 8, T'vaoan 15, Sangheili 18, Jiralhanae 20, Yanme'e 10, Huragok 15 |
+| Auxiliaries | Unggoy 5, Yig-Yar 5, T'vaoan 15, Sangheili 15, Jiralhanae 20, Yanme'e 10, Huragok 15 (revision 36: every price is a multiple of 5) |
 | Sangheili infantry | Warrior Cadre 50/100, Swordmasters 55/110, Zealots 125/250, Honor Guard 100, Rangers 45, Assassins 75/150, Special Operations Team 110 |
-| Other infantry | Drone Swarm 8 per model, Marauders 55, Shock Pack 90/180, Entourage 80, Butchers 65/120, Skirmishers 150, Corsairs 65/130, Marksmen 90/170, Unggoy Heavy Weapons Team 75/150; Grunt Cadre, Assault Pack, Heavy Weapons Pack, Linebreakers, Unggoy Zealots, Suicide Grunts unchanged |
+| Other infantry | Drone Swarm 40/80, Marauders 55, Shock Pack 90/180, Entourage 80, Butchers 65/120, Skirmishers 150, Corsairs 65/130, Marksmen 90/170, Unggoy Heavy Weapons Team 75/150; Grunt Cadre, Assault Pack, Heavy Weapons Pack, Linebreakers, Unggoy Zealots, Suicide Grunts unchanged |
 | Mgalekgolo | Bond-Brother Pair 200, Assault Pair 180, Artillery Pair 190, Goliath 300 |
 | Characters | Chieftain 100, Blademaster 80, Headtaker 60; Prophets of Truth 130, Regret 110, Mercy 95; Thel 'Vadam 150, Tartarus 150, Champions of the Arbiter 160 |
 | Vehicles | Wraith 170, Spirit 160, Shadow 85, Banshee 100, Seraph 220, Vampire 150, Blisterback 200, Goblin 160, Locust 140, Marauder 130, Prowler 150, Raider-Skiff 80, Ghost 40, Revenant 75, Spectre 70, Brute Chopper 70 each, Scarab 700, Lich 700; Phantom 120 and Kraken 2000 unchanged |

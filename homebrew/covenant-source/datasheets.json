@@ -2071,7 +2071,7 @@
   "page": 61,
   "unit_composition": [
    "5 Yanme'e Drones",
-   "Add up to 5 additional Yanme'e Drones - 8pts/model."
+   "Add up to 5 additional Yanme'e Drones - 40pts."
   ],
   "equipped": [
    "2 Plasma Pistols",
@@ -7514,7 +7514,7 @@
   "name": "Sangheili Auxiliary",
   "category": "AUXILIARY",
   "subtitle": "Sangheili Auxiliary",
-  "points": 18,
+  "points": 15,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -7894,7 +7894,7 @@
   "name": "Yig-Yar Auxiliary",
   "category": "AUXILIARY",
   "subtitle": "Yig-Yar Auxiliary",
-  "points": 8,
+  "points": 5,
   "profile": {
    "M": "8\"",
    "T": "3",
@@ -8360,7 +8360,7 @@
   "name": "Unggoy Auxiliary",
   "category": "AUXILIARY",
   "subtitle": "Unggoy Auxiliary",
-  "points": 8,
+  "points": 5,
   "profile": {
    "M": "6\"",
    "T": "3",

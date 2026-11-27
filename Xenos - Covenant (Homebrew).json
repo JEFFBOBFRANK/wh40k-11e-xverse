@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 35,
+    "revision": 36,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -25001,13 +25001,6 @@
                     "hidden": false
                   }
                 ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 8
-                  }
-                ],
                 "constraints": [
                   {
                     "id": "fed1-3983-657d-e73e",
@@ -25135,6 +25128,24 @@
             ]
           }
         ],
+        "modifiers": [
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 40,
+            "conditions": [
+              {
+                "childId": "b8ab-0b58-9038-81d5",
+                "field": "selections",
+                "scope": "78dc-5a3f-2ee3-d5fa",
+                "type": "atLeast",
+                "value": 6,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {
             "name": "Battleline",
@@ -25190,7 +25201,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 0
+            "value": 40
           }
         ],
         "constraints": [
@@ -69595,7 +69606,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 8
+            "value": 5
           },
           {
             "name": "Auxiliary Slots",
@@ -72834,7 +72845,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 18
+            "value": 15
           },
           {
             "name": "Auxiliary Slots",
@@ -75338,7 +75349,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 8
+            "value": 5
           },
           {
             "name": "Auxiliary Slots",
