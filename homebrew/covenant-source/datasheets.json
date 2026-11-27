@@ -3,7 +3,7 @@
   "name": "Prophet of Truth",
   "category": "EPIC HERO",
   "subtitle": "Supreme Hierarch - Epic Hero",
-  "points": 160,
+  "points": 130,
   "profile": {
    "M": "8\"",
    "T": "5",
@@ -86,7 +86,7 @@
   "name": "Prophet of Regret",
   "category": "EPIC HERO",
   "subtitle": "Militant Hierarch - Epic Hero",
-  "points": 135,
+  "points": 110,
   "profile": {
    "M": "10\"",
    "T": "5",
@@ -169,7 +169,7 @@
   "name": "Prophet of Mercy",
   "category": "EPIC HERO",
   "subtitle": "Keeper of the Faith - Epic Hero",
-  "points": 110,
+  "points": 95,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -252,7 +252,7 @@
   "name": "Thel 'Vadam",
   "category": "EPIC HERO",
   "subtitle": "The Arbiter - Epic Hero",
-  "points": 200,
+  "points": 150,
   "profile": {
    "M": "8\"",
    "T": "4",
@@ -469,7 +469,7 @@
   "name": "Champions of the Arbiter",
   "category": "EPIC HERO",
   "subtitle": "N'tho and Usze - Epic Heroes",
-  "points": 210,
+  "points": 160,
   "profile": {
    "M": "8\"",
    "T": "4",
@@ -599,7 +599,7 @@
   "name": "Tartarus",
   "category": "EPIC HERO",
   "subtitle": "Chieftain of the Rukt Clan - Epic Hero",
-  "points": 180,
+  "points": 150,
   "profile": {
    "M": "6\"",
    "T": "6",
@@ -950,7 +950,7 @@
   "name": "Sangheili Blademaster",
   "category": "CHARACTER",
   "subtitle": "Master Assassin",
-  "points": 90,
+  "points": 80,
   "profile": {
    "M": "8\"",
    "T": "4",
@@ -1020,7 +1020,7 @@
   "name": "Jiralhanae Chieftain",
   "category": "CHARACTER",
   "subtitle": "Pack Commander",
-  "points": 125,
+  "points": 100,
   "profile": {
    "M": "6\"",
    "T": "5",
@@ -1263,7 +1263,7 @@
   "name": "Yig-Yar Headtaker",
   "category": "CHARACTER",
   "subtitle": "Infiltration Sniper",
-  "points": 65,
+  "points": 60,
   "profile": {
    "M": "8\"",
    "T": "3",
@@ -1654,7 +1654,7 @@
   "page": 58,
   "unit_composition": [
    "4 Jiralhanae Warriors",
-   "Add up to 4 additional Jiralhanae Warriors - 75pts."
+   "Add 4 additional Jiralhanae Warriors - 75pts."
   ],
   "equipped": [
    "Spiker",
@@ -1789,7 +1789,7 @@
   "name": "Yig-Yar Marauders",
   "category": "BATTLELINE",
   "subtitle": "Battleline Infantry Squad",
-  "points": 70,
+  "points": 55,
   "profile": {
    "M": "8\"",
    "T": "3",
@@ -2026,7 +2026,7 @@
   "name": "Yanme'e Drone Swarm",
   "category": "BATTLELINE",
   "subtitle": "Battleline Flying Infantry Swarm",
-  "points": 50,
+  "points": 40,
   "profile": {
    "M": "12\"",
    "T": "3",
@@ -2038,7 +2038,7 @@
   "page": 61,
   "unit_composition": [
    "5 Yanme'e Drones",
-   "Add up to 5 additional Yanme'e Drones - 10pts/model."
+   "Add up to 5 additional Yanme'e Drones - 8pts/model."
   ],
   "equipped": [
    "2 Plasma Pistols",
@@ -2109,7 +2109,7 @@
   "name": "Sangheili Warrior Cadre",
   "category": "INFANTRY",
   "subtitle": "Elite Infantry Squad",
-  "points": 60,
+  "points": 50,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -2122,7 +2122,7 @@
   "page": 62,
   "unit_composition": [
    "3 Sangheili Warriors",
-   "Add up to 3 additional Sangheili Warriors — 60pts."
+   "Add 3 additional Sangheili Warriors - 50pts."
   ],
   "equipped": [
    "Plasma Pistol",
@@ -2274,7 +2274,7 @@
   "name": "Sangheili Rangers",
   "category": "INFANTRY",
   "subtitle": "Elite Infiltration Infantry",
-  "points": 65,
+  "points": 45,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -2375,7 +2375,7 @@
   "name": "Sangheili Swordmasters",
   "category": "INFANTRY",
   "subtitle": "Elite Melee Infantry",
-  "points": 90,
+  "points": 55,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -2388,7 +2388,7 @@
   "page": 64,
   "unit_composition": [
    "2 Sangheili Swordmasters",
-   "Add 2 additional Sangheili Swordmasters - 110pts."
+   "Add 2 additional Sangheili Swordmasters - 55pts."
   ],
   "equipped": [
    "Energy Sword",
@@ -2462,7 +2462,7 @@
   "name": "Sangheili Special Operations Team",
   "category": "INFANTRY",
   "subtitle": "Elite Infiltration Infantry",
-  "points": 135,
+  "points": 110,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -2606,7 +2606,7 @@
   "name": "Sangheili Assassins",
   "category": "INFANTRY",
   "subtitle": "Elite Character Hunters",
-  "points": 100,
+  "points": 75,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -2619,7 +2619,7 @@
   "page": 66,
   "unit_composition": [
    "3 Sangheili Assassins",
-   "Add up to 3 additional Sangheili Assassins - 100pts."
+   "Add 3 additional Sangheili Assassins - 75pts."
   ],
   "equipped": [
    "Covenant Carbine",
@@ -2714,7 +2714,7 @@
   "name": "Sangheili Zealots",
   "category": "INFANTRY",
   "subtitle": "Fanatical Elite Infantry",
-  "points": 150,
+  "points": 125,
   "profile": {
    "M": "8\"",
    "T": "4",
@@ -2726,7 +2726,7 @@
   "page": 67,
   "unit_composition": [
    "5 Sangheili Zealots",
-   "Add up to 5 additional Sangheili Zealots - 150pts."
+   "Add 5 additional Sangheili Zealots - 125pts."
   ],
   "equipped": [
    "Storm Rifle",
@@ -2845,7 +2845,7 @@
   "name": "Sangheili Honor Guard",
   "category": "INFANTRY",
   "subtitle": "Elite Character Retinue",
-  "points": 150,
+  "points": 100,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -2911,7 +2911,7 @@
   "name": "Jiralhanae Shock Pack",
   "category": "INFANTRY",
   "subtitle": "Jump Assault Infantry Squad",
-  "points": 100,
+  "points": 90,
   "profile": {
    "M": "10\"",
    "T": "5",
@@ -2923,7 +2923,7 @@
   "page": 69,
   "unit_composition": [
    "4 Jiralhanae Shock Troopers",
-   "Add up to 4 additional Jiralhanae Shock Troopers - 100pts."
+   "Add 4 additional Jiralhanae Shock Troopers - 90pts."
   ],
   "equipped": [
    "Mangler",
@@ -3149,7 +3149,7 @@
   "name": "Jiralhanae Entourage",
   "category": "INFANTRY",
   "subtitle": "Elite Bodyguard Infantry",
-  "points": 90,
+  "points": 80,
   "profile": {
    "M": "6\"",
    "T": "5",
@@ -3233,7 +3233,7 @@
   "name": "Yig-Yar Corsairs",
   "category": "INFANTRY",
   "subtitle": "Raiding Infantry Squad",
-  "points": 75,
+  "points": 65,
   "profile": {
    "M": "8\"",
    "T": "3",
@@ -3245,7 +3245,7 @@
   "page": 73,
   "unit_composition": [
    "5 Yig-Yar Corsairs",
-   "Add 5 additional Yig-Yar Corsairs - 75pts."
+   "Add 5 additional Yig-Yar Corsairs - 65pts."
   ],
   "equipped": [
    "Plasma Rifle",
@@ -3330,7 +3330,7 @@
   "name": "Yig-Yar Marksmen",
   "category": "INFANTRY",
   "subtitle": "Precision Infantry Squad",
-  "points": 120,
+  "points": 90,
   "profile": {
    "M": "8\"",
    "T": "3",
@@ -3342,7 +3342,7 @@
   "page": 74,
   "unit_composition": [
    "3 Yig-Yar Marksmen",
-   "Add up to 3 additional Yig-Yar Marksmen - 80pts."
+   "Add 3 additional Yig-Yar Marksmen - 80pts."
   ],
   "equipped": [
    "Covenant Carbine",
@@ -3470,7 +3470,7 @@
   "name": "T'vaoan Butchers",
   "category": "INFANTRY",
   "subtitle": "Fast Assault Infantry",
-  "points": 80,
+  "points": 65,
   "profile": {
    "M": "10\"",
    "T": "4",
@@ -3482,7 +3482,7 @@
   "page": 75,
   "unit_composition": [
    "5 T'vaoan Butchers",
-   "Add 5 additional T'vaoan Butchers - 70pts."
+   "Add 5 additional T'vaoan Butchers - 55pts."
   ],
   "equipped": [
    "Plasma Pistol",
@@ -3560,7 +3560,7 @@
   "name": "T'vaoan Skirmishers",
   "category": "INFANTRY",
   "subtitle": "Elite Hunter Team",
-  "points": 200,
+  "points": 150,
   "profile": {
    "M": "10\"",
    "T": "4",
@@ -3868,7 +3868,7 @@
   "page": 78,
   "unit_composition": [
    "5 Suicide Grunts",
-   "Add up to 5 additional Suicide Grunts - 40pts."
+   "Add 5 additional Suicide Grunts - 40pts."
   ],
   "equipped": [
    "Unstable Plasma Charges"
@@ -3917,7 +3917,7 @@
   "name": "Unggoy Heavy Weapons Team",
   "category": "INFANTRY",
   "subtitle": "Heavy Infantry Squad",
-  "points": 90,
+  "points": 75,
   "profile": {
    "M": "6\"",
    "T": "3",
@@ -3929,7 +3929,7 @@
   "page": 79,
   "unit_composition": [
    "3 Unggoy Heavy Weapon Gunners",
-   "Add up to 3 additional Gunners - 90pts."
+   "Add 3 additional Gunners - 75pts."
   ],
   "equipped": [
    "Fuel Rod",
@@ -4016,7 +4016,7 @@
   "page": 80,
   "unit_composition": [
    "10 Unggoy Zealots",
-   "Add up to 10 additional Unggoy Zealots - 55pts."
+   "Add 10 additional Unggoy Zealots - 55pts."
   ],
   "equipped": [
    "Plasma Pistol",
@@ -4078,7 +4078,7 @@
   "name": "Mgalekgolo Bond-Brother Pair",
   "category": "INFANTRY",
   "subtitle": "Heavy Infantry Squad",
-  "points": 260,
+  "points": 200,
   "profile": {
    "M": "6\"",
    "T": "8",
@@ -4162,7 +4162,7 @@
   "name": "Mgalekgolo Assault Pair",
   "category": "INFANTRY",
   "subtitle": "Siege Assault Infantry",
-  "points": 230,
+  "points": 180,
   "profile": {
    "M": "7\"",
    "T": "8",
@@ -4245,7 +4245,7 @@
   "name": "Mgalekgolo Artillery Pair",
   "category": "INFANTRY",
   "subtitle": "Long-range Heavy Infantry",
-  "points": 250,
+  "points": 190,
   "profile": {
    "M": "5\"",
    "T": "8",
@@ -4332,7 +4332,7 @@
   "name": "Brute Chopper",
   "category": "MOUNTED",
   "subtitle": "Jiralhanae Assault Mount",
-  "points": 80,
+  "points": 70,
   "profile": {
    "M": "10\"",
    "T": "8",
@@ -4343,8 +4343,8 @@
   },
   "page": 84,
   "unit_composition": [
-   "1 Brute Chopper - 80pts",
-   "This unit can include up to 3 Brute Choppers - 80pts/model."
+   "1 Brute Chopper - 70pts",
+   "This unit can include up to 3 Brute Choppers - 70pts/model."
   ],
   "equipped": [
    "2 Bolt Spikers",
@@ -4409,7 +4409,7 @@
   "name": "Ghost",
   "category": "MOUNTED",
   "subtitle": "Covenant Scout Bike",
-  "points": 50,
+  "points": 40,
   "profile": {
    "M": "16\"",
    "T": "6",
@@ -4482,7 +4482,7 @@
   "name": "Revenant",
   "category": "MOUNTED",
   "subtitle": "Covenant Swift Tank",
-  "points": 85,
+  "points": 75,
   "profile": {
    "M": "14\"",
    "T": "7",
@@ -4563,7 +4563,7 @@
   "name": "Spectre",
   "category": "MOUNTED",
   "subtitle": "Covenant Infantry Support Skimmer",
-  "points": 80,
+  "points": 70,
   "profile": {
    "M": "14\"",
    "T": "7",
@@ -4643,7 +4643,7 @@
   "name": "Mgalekgolo Goliath",
   "category": "MONSTER",
   "subtitle": "Titanic Lekgolo Colony",
-  "points": 315,
+  "points": 300,
   "profile": {
    "M": "8\"",
    "T": "13",
@@ -4731,7 +4731,7 @@
   "name": "Marauder",
   "category": "VEHICLE",
   "subtitle": "Jiralhanae Heavy Assault Vehicle",
-  "points": 150,
+  "points": 130,
   "profile": {
    "M": "8\"",
    "T": "10",
@@ -4818,7 +4818,7 @@
   "name": "Prowler Command Barge",
   "category": "VEHICLE",
   "subtitle": "Jiralhanae Command Transport",
-  "points": 175,
+  "points": 150,
   "profile": {
    "M": "8\"",
    "T": "10",
@@ -4903,7 +4903,7 @@
   "name": "Goblin Battlesuit",
   "category": "VEHICLE",
   "subtitle": "Unggoy Heavy Combat Walker",
-  "points": 180,
+  "points": 160,
   "profile": {
    "M": "10\"",
    "T": "9",
@@ -5038,7 +5038,7 @@
   "name": "Blisterback Siege Crawler",
   "category": "VEHICLE",
   "subtitle": "Heavy Aerial Artillery",
-  "points": 250,
+  "points": 200,
   "profile": {
    "M": "14\"",
    "T": "11",
@@ -5132,7 +5132,7 @@
   "name": "Wraith",
   "category": "VEHICLE",
   "subtitle": "Covenant Grav-tank",
-  "points": 210,
+  "points": 170,
   "profile": {
    "M": "10\"",
    "T": "11",
@@ -5256,7 +5256,7 @@
   "name": "Locust",
   "category": "VEHICLE",
   "subtitle": "Covenant Siege Walker",
-  "points": 155,
+  "points": 140,
   "profile": {
    "M": "9\"",
    "T": "9",
@@ -5339,7 +5339,7 @@
   "name": "Banshee",
   "category": "VEHICLE",
   "subtitle": "Covenant Ground-support Flyer",
-  "points": 125,
+  "points": 100,
   "profile": {
    "M": "20\"",
    "T": "7",
@@ -5431,7 +5431,7 @@
   "name": "Spirit",
   "category": "VEHICLE",
   "subtitle": "Covenant Heavy Dropship",
-  "points": 200,
+  "points": 160,
   "profile": {
    "M": "14\"",
    "T": "11",
@@ -5515,7 +5515,7 @@
   "name": "Vampire",
   "category": "VEHICLE",
   "subtitle": "Covenant Anti-air Support Fighter",
-  "points": 170,
+  "points": 150,
   "profile": {
    "M": "20\"",
    "T": "9",
@@ -5623,7 +5623,7 @@
   "name": "Seraph",
   "category": "VEHICLE",
   "subtitle": "Covenant Heavy Strike Fighter",
-  "points": 275,
+  "points": 220,
   "profile": {
    "M": "24\"",
    "T": "10",
@@ -5736,7 +5736,7 @@
   "name": "Yig-Yar Raider-Skiff",
   "category": "VEHICLE",
   "subtitle": "Dedicated Aerial Transport",
-  "points": 90,
+  "points": 80,
   "profile": {
    "M": "16\"",
    "T": "7",
@@ -5870,7 +5870,7 @@
   "name": "Shadow",
   "category": "VEHICLE",
   "subtitle": "Covenant Ground Transport",
-  "points": 100,
+  "points": 85,
   "profile": {
    "M": "12\"",
    "T": "9",
@@ -6026,7 +6026,7 @@
   "name": "Scarab",
   "category": "VEHICLE",
   "subtitle": "Covenant Fortress Breaker",
-  "points": 850,
+  "points": 700,
   "profile": {
    "M": "10\"",
    "T": "14",
@@ -6155,7 +6155,7 @@
   "name": "Lich",
   "category": "VEHICLE",
   "subtitle": "Covenant Ultra-heavy Deployment Vessel",
-  "points": 800,
+  "points": 700,
   "profile": {
    "M": "14\"",
    "T": "14",
@@ -6620,7 +6620,7 @@
   "name": "Sangheili Ultra",
   "category": "SERGEANT",
   "subtitle": "Sergeant Model",
-  "points": 45,
+  "points": 15,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -6846,7 +6846,7 @@
   "name": "Sangheili Shadowmaster",
   "category": "SERGEANT",
   "subtitle": "Special Operations Sergeant",
-  "points": 50,
+  "points": 20,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -6965,7 +6965,7 @@
   "name": "Jiralhanae Pack Alpha",
   "category": "SERGEANT",
   "subtitle": "Sergeant Model",
-  "points": 25,
+  "points": 10,
   "profile": {
    "M": "6\"",
    "T": "5",
@@ -7098,7 +7098,7 @@
   "name": "Yig-Yar Talon",
   "category": "SERGEANT",
   "subtitle": "Sergeant Model",
-  "points": 35,
+  "points": 10,
   "profile": {
    "M": "8\"",
    "T": "3",
@@ -7256,7 +7256,7 @@
   "name": "Unggoy Ultra",
   "category": "SERGEANT",
   "subtitle": "Sergeant Model",
-  "points": 20,
+  "points": 5,
   "profile": {
    "M": "6\"",
    "T": "3",
@@ -7382,7 +7382,7 @@
   "name": "Yanme'e Major",
   "category": "SERGEANT",
   "subtitle": "Sergeant Model",
-  "points": 20,
+  "points": 5,
   "profile": {
    "M": "12\"",
    "T": "3",
@@ -7460,7 +7460,7 @@
   "name": "Sangheili Auxiliary",
   "category": "AUXILIARY",
   "subtitle": "Sangheili Auxiliary",
-  "points": 20,
+  "points": 18,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -7837,7 +7837,7 @@
   "name": "Yig-Yar Auxiliary",
   "category": "AUXILIARY",
   "subtitle": "Yig-Yar Auxiliary",
-  "points": 10,
+  "points": 8,
   "profile": {
    "M": "8\"",
    "T": "3",
@@ -7997,7 +7997,7 @@
   "name": "T'vaoan Auxiliary",
   "category": "AUXILIARY",
   "subtitle": "T'vaoan Auxiliary",
-  "points": 20,
+  "points": 15,
   "profile": {
    "M": "10\"",
    "T": "4",
@@ -8301,7 +8301,7 @@
   "name": "Unggoy Auxiliary",
   "category": "AUXILIARY",
   "subtitle": "Unggoy Auxiliary",
-  "points": 15,
+  "points": 8,
   "profile": {
    "M": "6\"",
    "T": "3",
@@ -8458,7 +8458,7 @@
   "name": "Huragok Auxiliary",
   "category": "AUXILIARY",
   "subtitle": "Huragok Auxiliary",
-  "points": 25,
+  "points": 15,
   "profile": {
    "M": "10\"",
    "T": "3",
@@ -8520,7 +8520,7 @@
   "name": "Yanme'e Auxiliary",
   "category": "AUXILIARY",
   "subtitle": "Yanme'e Auxiliary",
-  "points": 20,
+  "points": 10,
   "profile": {
    "M": "12\"",
    "T": "3",

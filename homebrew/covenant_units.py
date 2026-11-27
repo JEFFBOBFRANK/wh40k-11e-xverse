@@ -76,7 +76,7 @@ UNITS = {
         [M("N'tho 'Sraom", (1, 1), ["Covenant Carbine - N'tho", "Plasma Pistol - N'tho", "Energy Sword"],
            gear=["Hero Personal Shield"]),
          M("Usze 'Taham", (1, 1), ["Plasma Rifles - Usze", "Energy Sword"], gear=["Hero Personal Shield"])],
-        sizes=[2], prices=[210]),
+        sizes=[2], prices=[160]),
     "Tartarus": S(),
 
     # Characters
@@ -111,7 +111,7 @@ UNITS = {
             V("Yig-Yar Marauder with Needler", ["Needler", YY_CCW], per=4, count=1),
             V("Yig-Yar Marauder with Covenant Carbine", ["Covenant Carbine", YY_CCW], per=4, count=1),
             V("Yig-Yar Marauder with Plasma Rifle", ["Plasma Rifle", YY_CCW], per=4, count=1)])],
-        sizes=[8], prices=[70], sergeants=["Jiralhanae Pack Alpha", "Sangheili Ultra", "Yig-Yar Talon"],
+        sizes=[8], prices=[55], sergeants=["Jiralhanae Pack Alpha", "Sangheili Ultra", "Yig-Yar Talon"],
         aux=[Pool(lists=["Unggoy"], per=4, slots=2)],
         counted=[Counted("Wrist Shield", 5, exclude=["Yig-Yar Marauder with Covenant Carbine"])]),
     "Grunt Cadre": U(
@@ -123,7 +123,7 @@ UNITS = {
         aux=[Pool(lists=["Sangheili", "Jiralhanae", "Yig-Yar"], per=5, slots=2,
                   weights={"Sangheili": 2, "Jiralhanae": 2, "Yig-Yar": 1})]),
     "Yanme'e Drone Swarm": U(
-        [M("Yanme'e Drone", (5, 10), ["Plasma Pistols", "Drone Claws"])], sizes=[5, 10], per_model=10,
+        [M("Yanme'e Drone", (5, 10), ["Plasma Pistols", "Drone Claws"])], sizes=[5, 10], per_model=8,
         sergeants=["Yanme'e Major"]),
 
     # Infantry
@@ -139,16 +139,16 @@ UNITS = {
                  per=3, count=1, key="heavy"),
                V("Sangheili Warrior with Fuel Rod", ["Plasma Pistol", "Fuel Rod", SANG_CCW], per=3, count=1,
                  key="heavy", cost=10)])],
-        sizes=[3, 6], prices=[60, 120], exact=False, sergeants=["Sangheili Ultra"],
+        sizes=[3, 6], prices=[50, 100], exact=False, sergeants=["Sangheili Ultra"],
         aux=[Pool(lists=["Unggoy", "Yig-Yar", "Jiralhanae"], per=3, slots=3, weights={"Jiralhanae": 3})]),
     "Sangheili Rangers": U(
         [M("Sangheili Ranger", (2, 2), ["Covenant Carbine", "Plasma Pistol", SANG_CCW],
            gear=["Sangheili Personal Shield", "Stealth Projector"])],
-        sizes=[2], prices=[65], sergeants=["Sangheili Ultra", "Sangheili Shadowmaster"]),
+        sizes=[2], prices=[45], sergeants=["Sangheili Ultra", "Sangheili Shadowmaster"]),
     "Sangheili Swordmasters": U(
         [M("Sangheili Swordmaster", (2, 4), ["Energy Sword", "Plasma Pistol"],
            gear=["Sangheili Personal Shield", "Stealth Projector"])],
-        sizes=[2, 4], prices=[90, 200], sergeants=["Sangheili Ultra"],
+        sizes=[2, 4], prices=[55, 110], sergeants=["Sangheili Ultra"],
         aux=[Pool(entries=["Sangheili Auxiliary"], per=2, slots=1)]),
     "Sangheili Special Operations Team": U(
         [M("Sangheili Special Operations Warrior", (3, 3), ["Plasma Rifles", SANG_CCW],
@@ -159,26 +159,26 @@ UNITS = {
                V("Special Operations Warrior with Energy Sword", ["Plasma Rifle", "Energy Sword"], count=1),
                V("Special Operations Warrior with Satchel Charge", ["Plasma Rifle", "Satchel Charge", SANG_CCW],
                  count=1)])],
-        sizes=[3], prices=[135], sergeants=["Sangheili Ultra", "Sangheili Shadowmaster"],
+        sizes=[3], prices=[110], sergeants=["Sangheili Ultra", "Sangheili Shadowmaster"],
         aux=[Pool(entries=["Sangheili Auxiliary"], fixed=5)]),
     "Sangheili Assassins": U(
         [M("Sangheili Assassin", (3, 6), ["Covenant Carbine", "Plasma Pistol", SANG_CCW],
            gear=["Sangheili Personal Shield"], variants=[
                V("Sangheili Assassin with Energy Sword", ["Energy Sword", "Plasma Pistol", SANG_CCW])])],
-        sizes=[3, 6], prices=[100, 200], exact=False, sergeants=["Sangheili Ultra", "Sangheili Shadowmaster"],
+        sizes=[3, 6], prices=[75, 150], exact=False, sergeants=["Sangheili Ultra", "Sangheili Shadowmaster"],
         aux=[Pool(lists=["Yig-Yar"], per=3, slots=2)]),
     "Sangheili Zealots": U(
         [M("Sangheili Zealot", (5, 10), ["Storm Rifle", "Plasma Pistol", SANG_CCW], variants=[
             V("Sangheili Zealot with Fuel Rod", ["Fuel Rod", "Plasma Pistol", SANG_CCW], per=5, count=1, cost=10),
             V("Sangheili Zealot with Energy Sword", ["Plasma Pistol", "Energy Sword"], per=5, count=1),
             V("Sangheili Zealot with Plasma Rifles", ["Plasma Rifles", SANG_CCW])])],
-        sizes=[5, 10], prices=[150, 300], exact=False, sergeants=["Sangheili Ultra"]),
+        sizes=[5, 10], prices=[125, 250], exact=False, sergeants=["Sangheili Ultra"]),
     "Sangheili Honor Guard": U(
         [M("Sangheili Honor Guard", (3, 3), ["Honor Guard Pike"], gear=["Honor Guard Personal Shield"])],
-        sizes=[3], prices=[150]),
+        sizes=[3], prices=[100]),
     "Jiralhanae Shock Pack": U(
         [M("Jiralhanae Shock Trooper", (4, 8), ["Mangler", "Brute Heavy Melee Weapon"])],
-        sizes=[4, 8], prices=[100, 200], exact=False,
+        sizes=[4, 8], prices=[90, 180], exact=False,
         aux=[Pool(entries=["Yanme'e Auxiliary"], per=4, slots=1)]),
     "Jiralhanae Heavy Weapons Pack": U(
         [M("Jiralhanae Gunner", (3, 3), ["Bolt Spiker", "Brute Heavy Melee Weapon"], variants=[
@@ -189,23 +189,23 @@ UNITS = {
         sergeants=["Jiralhanae Pack Alpha"], aux=[Pool(lists=["Yig-Yar", "Yanme'e"], fixed=1)]),
     "Jiralhanae Entourage": U(
         [M("Jiralhanae Honor Guard", (2, 2), ["Gravity Hammer", "Mangler"], gear=["Honor Guard Shield"])],
-        sizes=[2], prices=[90]),
+        sizes=[2], prices=[80]),
     "Yig-Yar Corsairs": U(
         [M("Yig-Yar Corsair", (5, 10), ["Plasma Rifle", "Yig-Yar Plasma Sabre"], variants=[
             V("Yig-Yar Corsair with Needler", ["Needler", "Yig-Yar Plasma Sabre"], per=5, count=2)])],
-        sizes=[5, 10], prices=[75, 150], sergeants=["Sangheili Ultra", "Yig-Yar Talon"],
+        sizes=[5, 10], prices=[65, 130], sergeants=["Sangheili Ultra", "Yig-Yar Talon"],
         aux=[Pool(entries=["Yanme'e Auxiliary"], per=5, slots=1)]),
     "Yig-Yar Marksmen": U(
         [M("Yig-Yar Marksman", (3, 6), ["Covenant Carbine", "Plasma Pistol", YY_CCW], gear=["Stealth Projector"],
            variants=[V("Yig-Yar Marksman with Needle Rifle", ["Needle Rifle", "Plasma Pistol", YY_CCW]),
                      V("Yig-Yar Marksman with Particle Beam Rifle", ["Particle Beam Rifle", "Plasma Pistol", YY_CCW]),
                      V("Yig-Yar Marksman with Stalker Rifle", ["Stalker Rifle", "Plasma Pistol", YY_CCW])])],
-        sizes=[3, 6], prices=[120, 200], exact=False, sergeants=["Yig-Yar Talon", "Sangheili Shadowmaster"]),
+        sizes=[3, 6], prices=[90, 170], exact=False, sergeants=["Yig-Yar Talon", "Sangheili Shadowmaster"]),
     "T'vaoan Butchers": U(
         [M("T'vaoan Butcher", (5, 10), ["Plasma Pistol", "T'vaoan Plasma Sabres"], variants=[
             V("T'vaoan Butcher with Heavy Plasma Melee Weapon", ["Plasma Pistol", "Heavy Plasma Melee Weapon"],
               count=2)])],
-        sizes=[5, 10], prices=[80, 150], sergeants=["Yig-Yar Talon", "Jiralhanae Pack Alpha"]),
+        sizes=[5, 10], prices=[65, 120], sergeants=["Yig-Yar Talon", "Jiralhanae Pack Alpha"]),
     "T'vaoan Skirmishers": U(
         [M("T'vaoan Skirmisher (Rifleman)", (6, 6), ["Plasma Rifles", "T'vaoan Plasma Sabres"], variants=[
             V("T'vaoan Skirmisher (Carbine)", ["Covenant Carbine", "Plasma Rifle", "T'vaoan Plasma Sabres"]),
@@ -224,27 +224,27 @@ UNITS = {
             V("T'vaoan Skirmisher (Anti-armour, Skewer)", ["Skewer", "Plasma Pistol", "T'vaoan Plasma Sabres"],
               cost=10),
             V("T'vaoan Skirmisher (Twin-Blade)", ["Plasma Rifles", "Twin-linked Energy Swords"], cost=10)])],
-        sizes=[6], prices=[200]),
+        sizes=[6], prices=[150]),
     "Suicide Grunts": U([M("Suicide Grunt", (5, 10), ["Unstable Plasma Charges"])], sizes=[5, 10], prices=[45, 85],
                         exact=False),
     "Unggoy Heavy Weapons Team": U(
         [M("Unggoy Heavy Weapon Gunner", (3, 6), ["Fuel Rod", "Plasma Pistol", UNG_CCW])],
-        sizes=[3, 6], prices=[90, 180], exact=False, sergeants=["Unggoy Ultra", "Sangheili Ultra", "Yig-Yar Talon"]),
+        sizes=[3, 6], prices=[75, 150], exact=False, sergeants=["Unggoy Ultra", "Sangheili Ultra", "Yig-Yar Talon"]),
     "Unggoy Zealots": U(
         [M("Unggoy Zealot", (10, 20), ["Plasma Pistol", UNG_CCW])], sizes=[10, 20], prices=[60, 115], exact=False,
         sergeants=["Jiralhanae Pack Alpha", "Sangheili Ultra"]),
     "Mgalekgolo Bond-Brother Pair": U(
         [M("Mgalekgolo Hunter", (2, 2), ["Mgalekgolo Assault Cannon", "Shield Bash"], gear=["Combat Shield"])],
-        sizes=[2], prices=[260]),
+        sizes=[2], prices=[200]),
     "Mgalekgolo Assault Pair": U(
         [M("Mgalekgolo Assault Hunter", (2, 2), ["Assault Beam", "Crushing Shield"], gear=["Combat Shield"])],
-        sizes=[2], prices=[230]),
+        sizes=[2], prices=[180]),
     "Mgalekgolo Artillery Pair": U(
         [M("Mgalekgolo Artillery Hunter", (2, 2), ["Heavy Plasma Mortar", "Shield Bash"], gear=["Combat Shield"])],
-        sizes=[2], prices=[250]),
+        sizes=[2], prices=[190]),
 
     # Mounted and Monster
-    "Brute Chopper": U([M("Brute Chopper", (1, 3), ["Bolt Spikers", "Chainwheel"])], sizes=[1, 3], per_model=80),
+    "Brute Chopper": U([M("Brute Chopper", (1, 3), ["Bolt Spikers", "Chainwheel"])], sizes=[1, 3], per_model=70),
     "Ghost": S(),
     "Revenant": S(),
     "Spectre": S(),

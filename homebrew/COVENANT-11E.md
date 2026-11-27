@@ -180,26 +180,42 @@ are fixed (the Pack Alpha's Mangler, the Unggoy Ultra's Close Combat Weapon).
 - Combined names read "A, B and C" everywhere.
 - In the Tormentor layout, each legal combination is one Auxiliary model type.
 
-## Tormentor layout (every unit since revision 13; the Jiralhanae Assault Pack since revision 7)
+## Unit layout (revision 24)
 
-Every unit with a Sergeant or Auxiliaries is laid out like the Emperor's Children Tormentors (`covenant_build.py`,
-`sergeants`, `aux_types` and `auxiliaries`):
+Every squad is built the same way, top to bottom:
 
-1. The Sergeant sits at the top, as the Obsessionist: one choice (e.g. Jiralhanae Pack Alpha or Sangheili Ultra), and
-   its weapon choices open underneath. Ticking the other replaces it. A character with a retinue stays on top of
-   the unit.
-2. The unit's own model counters and model types, as before.
-3. Auxiliary models are counters too, one model type per loadout, as "Tormentor with Meltagun": for example Sangheili
-   Auxiliary with Fuel Rod, Jiralhanae Auxiliary with Gravity Hammer, T'vaoan Auxiliary with Shield Raider, Unggoy
-   Auxiliary with Proximity Detonation (replaces its weapons). Each type is capped by the unit's Auxiliary rate, and
-   the Auxiliary Slots total (with weights such as Jiralhanae 3 in a Warrior Cadre) still applies.
-4. Auxiliary wargear (Stealth Projector, Wrist Shield) and Specialist abilities that do not replace weapons
-   (Ammunition Runner, Pack Enforcer, Trailblazer...) are at the bottom, as the Icon of Excess: set how many, then
-   pick which Auxiliary model carries each one.
+1. **Sergeant**: one optional choice (e.g. Jiralhanae Pack Alpha or Sangheili Ultra); its weapon choices open
+   underneath. A character with a retinue stays on top of the unit.
+2. **Unit size**: one choice per legal size ("3 Sangheili Warriors" / "6 Sangheili Warriors"), holding that many
+   models; the larger size adds its points. Per-model squads (Yanme'e Drone Swarm, Brute Choppers) keep a counter, and
+   one-size squads are fixed. "Add up to N additional models" now means the two printed sizes.
+3. **Weapon swaps**: one counter per swap ("Fuel Rod", "Covenant Carbine", "2 Plasma Rifles"...). Each swaps one
+   model's weapons and never adds a model. Limits follow the codex (e.g. 1 for every 3 models, with Carbine/Needler and
+   Repeater/Fuel Rod sharing one limit), and there can be no more swaps than models. The T'vaoan Skirmishers' loadout
+   packages are swaps too.
+4. **Auxiliary**: counters, one model type per loadout, under a heading per species (Unggoy, Yig-Yar, T'vaoan,
+   Jiralhanae...). The Auxiliary Slots total (with weights such as Jiralhanae 3 in a Warrior Cadre) still applies.
+5. **Auxiliary wargear and Specialist abilities** (Stealth Projector, Wrist Shield, Ammunition Runner, Pack Enforcer...)
+   with a picker for the model that carries each one.
 
-New Recruit shows a model with choices as a "+" button (each one configured separately) and a fixed-loadout model as
-a counter, so the counters need one model type per loadout. The Sergeant and Auxiliary reference entries stay in the
-catalogue (not as units) for checking. Swords of Sanghelios' error also covers Jiralhanae Auxiliary model types.
+## Points (revision 24)
+
+Prices are set against comparable 11th-edition units (points per model, each SP counted as about half a wound), e.g.
+Sangheili Warrior against an Intercessor (16), Swordmaster against a Flawless Blade (32), Mgalekgolo against a
+Carnifex (90), Wraith against a Leman Russ (160), Banshee against a Storm Speeder (105). Sergeants stay optional and
+paid, but cheap.
+
+| Group | Prices |
+|---|---|
+| Sergeants | Sangheili Ultra 15, Shadowmaster 20, Yig-Yar Talon 10, Pack Alpha 10, Unggoy Ultra 5, Yanme'e Major 5 |
+| Auxiliaries | Unggoy 8, Yig-Yar 8, T'vaoan 15, Sangheili 18, Jiralhanae 20, Yanme'e 10, Huragok 15 |
+| Sangheili infantry | Warrior Cadre 50/100, Swordmasters 55/110, Zealots 125/250, Honor Guard 100, Rangers 45, Assassins 75/150, Special Operations Team 110 |
+| Other infantry | Drone Swarm 8 per model, Marauders 55, Shock Pack 90/180, Entourage 80, Butchers 65/120, Skirmishers 150, Corsairs 65/130, Marksmen 90/170, Unggoy Heavy Weapons Team 75/150; Grunt Cadre, Assault Pack, Heavy Weapons Pack, Linebreakers, Unggoy Zealots, Suicide Grunts unchanged |
+| Mgalekgolo | Bond-Brother Pair 200, Assault Pair 180, Artillery Pair 190, Goliath 300 |
+| Characters | Chieftain 100, Blademaster 80, Headtaker 60; Prophets of Truth 130, Regret 110, Mercy 95; Thel 'Vadam 150, Tartarus 150, Champions of the Arbiter 160 |
+| Vehicles | Wraith 170, Spirit 160, Shadow 85, Banshee 100, Seraph 220, Vampire 150, Blisterback 200, Goblin 160, Locust 140, Marauder 130, Prowler 150, Raider-Skiff 80, Ghost 40, Revenant 75, Spectre 70, Brute Chopper 70 each, Scarab 700, Lich 700; Phantom 120 and Kraken 2000 unchanged |
+
+The points steps (revision 23) apply on top of these prices.
 
 ## Plasma and Transport Space (revision 13)
 
@@ -279,8 +295,8 @@ D3+X and random attacks become fixed, with [BLAST 1] or [BLAST 2].
 ## Choices made where the codex is open
 
 - Sergeants are optional (0-1). "Add 1 model from the ... Auxiliary lists" is up to 1.
-- "Add up to N additional models - X pts" adds X points for any number of extra models; "Add N additional
-  models - X pts" (no "up to") allows only the two sizes.
+- "Add up to N additional models - X pts" and "Add N additional models - X pts" both allow only the two printed
+  sizes (revision 24; before, any size in between paid the larger price).
 - Marauders' Wrist Shields are counted on the unit ("3x Wrist Shield", +5 pts each, not on Carbine models).
 - T'vaoan Skirmishers pick their loadout package as a model type for each model.
 - A Plasma Rifle swapped onto Special Operations Team and T'vaoan models uses the Sangheili BS 3+ profile.

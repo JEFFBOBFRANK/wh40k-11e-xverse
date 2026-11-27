@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 23
+REVISION = 24
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -37,9 +37,9 @@ WEAPON_RULES = {"Supercombine": r"\bSupercombine\b", "Plasma": r"\bPlasma \((?:D
 # Commanders with Chosen of the Hierarchs (+1CP each battle round while your Warlord), as EC's Sublime Strategist.
 WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel 'Vadam", "Rtas 'Vadum", "Tartarus",
               "Sangheili Shipmaster", "Sangheili Fieldmaster", "Jiralhanae Chieftain", "Yig-Yar Corsair-Talon"}
-# Every unit is laid out like the Emperor's Children Tormentors: Sergeant on top (as the Obsessionist), then the model
-# counters, then Auxiliary models as counters too (one model type per loadout), then Auxiliary wargear and Specialist
-# abilities with a model picker (as the Icon of Excess), in that order (sortIndex 0-3).
+# Unit layout (sortIndex 0-4): Sergeant on top (as the Tormentors' Obsessionist), then the unit size, then weapon swaps,
+# then Auxiliary models as counters (one model type per loadout, under a heading per species), then Auxiliary wargear
+# and Specialist abilities with a model picker (as the Icon of Excess).
 # Species keywords a unit gains from its Sergeant and Auxiliary models (core rules: a unit has the keywords of all its
 # models). The unit keywords (GRUNT, ELITE, BRUTE, JACKAL, DRONE, HUNTER, ENGINEER) are on datasheets only.
 SPECIES = {"Sangheili", "Special Operations", "Jiralhanae", "Yig-Yar", "T'vaoan", "Unggoy", "Huragok", "Yanme'e",
@@ -61,6 +61,22 @@ def constraint(cid, kind, value, scope="parent", field="selections", child=False
 def selected(child, scope="force", kind="atLeast", value=1):
     return dict(childId=child, field="selections", scope=scope, type=kind, value=value, shared=True,
                 includeChildSelections=True)
+
+
+def plural_of(name):
+    """Sangheili Warrior -> Sangheili Warriors; T'vaoan Skirmisher (Rifleman) -> T'vaoan Skirmishers (Rifleman)."""
+    if " (" in name:
+        head, tail = name.split(" (", 1)
+        return plural_of(head) + " (" + tail
+    return name if name.endswith("s") else name + "s"
+
+
+def swap_label(variant):
+    """'Sangheili Warrior with Fuel Rod' -> 'Fuel Rod'; "T'vaoan Skirmisher (Carbine)" -> 'Carbine'."""
+    if " with " in variant:
+        return variant.split(" with ", 1)[1]
+    m = re.search(r"\(([^()]*)\)$", variant)
+    return m.group(1) if m else variant
 
 
 def entry(eid, name, kind="upgrade", **extra):
@@ -483,38 +499,26 @@ class Builder:
         return node
 
     def squad(self, node, ds, spec):
-        unit_id = node["id"]
         node.setdefault("modifiers", [])
-        families = []
-        for m in spec["models"]:
-            families.append(self.family(node, ds, spec, m))
-        main = families[0]
-        if spec.get("per_model"):
-            pass
-        elif len(spec["sizes"]) > 1:
-            sizes, prices = spec["sizes"], spec["prices"]
-            for i in range(1, len(sizes)):
-                at = sizes[i] if spec["exact"] else sizes[i - 1] + 1
-                node["modifiers"].append(dict(field=POINTS, type="increment", value=prices[i] - prices[i - 1],
-                                              conditions=[selected(main["cat"], scope=unit_id, value=at)]))
-            if spec["exact"]:
-                legal = ", ".join(str(s) for s in sizes[:-1]) + f" or {sizes[-1]}"
-                node["modifiers"].append(dict(type="add", field="error",
-                                              value=f"Select {legal} {main['plural']}.",
-                                              conditionGroups=[dict(type="and", conditions=[
-                                                  selected(main["cat"], scope=unit_id, kind="notEqualTo", value=s)
-                                                  for s in sizes])]))
-        return main
+        families = [self.family(node, ds, spec, m, first=i == 0) for i, m in enumerate(spec["models"])]
+        return families[0]
 
-    def family(self, node, ds, spec, m):
-        """Plain models plus model types with other weapons, as in the Emperor's Children Tormentors."""
+    def family(self, node, ds, spec, m, first=True):
+        """Pick the unit size, then tick weapon swaps.
+
+        A squad with several sizes has a "Unit size" choice (one option per size, holding that many models); otherwise
+        the models are a counter (per-model squads) or fixed. Model types with other weapons are "Weapon swaps": each
+        swaps one model's weapons and never adds a model, up to its limit (e.g. 1 for every 3 models)."""
         unit_id = node["id"]
         low, high = m["count"]
         name = m["name"]
-        plural = name if name.endswith("s") else name + "s"
+        plural = plural_of(name)
         cat_id, _ = self.category(f"Count: {ds['name']} - {name}", hidden=True)
         per_model = spec.get("per_model")
         weapons_gear = m["weapons"] + m["gear"]
+        sizes, prices = spec["sizes"], spec["prices"]
+        radio = first and not per_model and len(sizes) > 1
+        counts = sizes if radio else range(low, high + 1)
 
         def model(mid, mname, items, cost):
             gear_nodes = [self.gear_entry(mid, item, ds, fixed=True) for item in items]
@@ -529,65 +533,90 @@ class Builder:
                 e["costs"] = [dict(name="pts", typeId=POINTS, value=total)]
             return e
 
-        bid = nid(unit_id + ":model:" + name)
-        base = model(bid, name, weapons_gear, m["cost"])
-        mins, maxs = constraint(nid(bid + ":min"), "min", low), constraint(nid(bid + ":max"), "max", high)
-        base["constraints"] = [mins, maxs]
-        base["defaultAmount"] = low
-        variants, errors = [], []
+        gid = nid(unit_id + ":family:" + name)
+        if radio:
+            options = []
+            for n, price in zip(sizes, prices):
+                oid = nid(unit_id + ":size:" + str(n))
+                mdl = model(nid(oid + ":model"), name, weapons_gear, m["cost"])
+                mdl["constraints"] = [constraint(nid(oid + ":model:min"), "min", n),
+                                      constraint(nid(oid + ":model:max"), "max", n)]
+                mdl["defaultAmount"] = n
+                opt = entry(oid, f"{n} {plural}", selectionEntries=[mdl])
+                if price != prices[0]:
+                    opt["costs"] = [dict(name="pts", typeId=POINTS, value=price - prices[0])]
+                options.append(opt)
+            group = dict(name="Unit size", id=gid, hidden=False, defaultSelectionEntryId=options[0]["id"], sortIndex=1,
+                         selectionEntries=options,
+                         constraints=[constraint(nid(gid + ":min"), "min", 1), constraint(nid(gid + ":max"), "max", 1)])
+        else:
+            bid = nid(unit_id + ":model:" + name)
+            base = model(bid, name, weapons_gear, m["cost"])
+            base["constraints"] = [constraint(nid(bid + ":min"), "min", low if low != high else 0),
+                                   constraint(nid(bid + ":max"), "max", high)]
+            base["defaultAmount"] = low
+            span = f"{low}-{high}" if low != high else str(high)
+            group = dict(name=f"{span} {plural}", id=gid, hidden=False, defaultSelectionEntryId=base["id"], sortIndex=1,
+                         selectionEntries=[base],
+                         constraints=[constraint(nid(gid + ":min"), "min", low), constraint(nid(gid + ":max"), "max", high)])
+        node["selectionEntryGroups"].append(group)
+
+        swaps, errors = [], []
         keys = OrderedDict()
+        scat, _ = self.category(f"Count: {ds['name']} - {name} swaps", hidden=True)
         for v in m["variants"]:
             vid = nid(unit_id + ":variant:" + v["name"])
-            items = v["weapons"] + m["gear"] + (v["gear"] or [])
-            ve = model(vid, v["name"], items, m["cost"] + v["cost"])
-            limit_max = high
+            items = v["weapons"] + (v["gear"] or [])
+            new_items = [i for i in items if i not in weapons_gear] or items
+            se = entry(vid, swap_label(v["name"]), selectionEntries=[self.gear_entry(vid, i, ds, fixed=True)
+                                                                     for i in new_items],
+                       categoryLinks=[dict(name="count", id=nid(vid + ":cat:" + scat), targetId=scat, primary=False,
+                                           hidden=False)])
+            if v["cost"]:
+                se["costs"] = [dict(name="pts", typeId=POINTS, value=v["cost"])]
+            cap = constraint(nid(vid + ":max"), "max", 0 if v["per"] else (v["count"] if v["count"] is not None
+                                                                           else high))
+            se["constraints"] = [cap]
             if v["per"]:
-                limit_max = v["count"] * (high // v["per"])
-            elif v["count"] is not None:
-                limit_max = v["count"]
-            ve["constraints"] = [constraint(nid(vid + ":max"), "max", limit_max)]
-            variants.append(ve)
+                se["modifiers"] = [dict(field=cap["id"], type="increment", value=v["count"], repeats=[dict(
+                    childId=cat_id, field="selections", scope=unit_id, shared=True, includeChildSelections=True,
+                    value=v["per"], repeats=1, roundUp=False)])]
+            se["_vname"] = v["name"]
+            swaps.append(se)
             if v["count"] is not None:
                 keys.setdefault(v["key"], dict(per=v["per"], count=v["count"], ids=[], names=[]))
                 keys[v["key"]]["ids"].append(vid)
-                keys[v["key"]]["names"].append(v["name"])
-            # each special model replaces a plain one
-            for limit_id in ((mins["id"], maxs["id"]) if low != high else (maxs["id"],)):
-                base.setdefault("modifiers", []).append(dict(field=limit_id, type="increment", value=-1, repeats=[
-                    dict(childId=vid, field="selections", scope=unit_id, shared=True, includeChildSelections=True,
-                         value=1, repeats=1, roundUp=False)]))
+                keys[v["key"]]["names"].append(swap_label(v["name"]))
         for key, lim in keys.items():
+            if len(lim["ids"]) < 2:
+                continue  # one swap: its own limit is enough
             kcat, _ = self.category(f"Count: {ds['name']} - {key}", hidden=True)
-            for ve in variants:
-                if ve["id"] in lim["ids"]:
-                    ve["categoryLinks"].append(dict(name="count", id=nid(ve["id"] + ":cat:" + kcat), targetId=kcat,
+            for se in swaps:
+                if se["id"] in lim["ids"]:
+                    se["categoryLinks"].append(dict(name="count", id=nid(se["id"] + ":cat:" + kcat), targetId=kcat,
                                                     primary=False, hidden=False))
-            label = " or ".join(n.split(" with ")[-1] if " with " in n else n for n in lim["names"])
+            label = " or ".join(lim["names"])
             if lim["per"]:
-                rule = f"At most {lim['count']} {label} for every {lim['per']} models."
-                conds = []
-                for n in range(low, high + 1):
-                    cap = lim["count"] * (n // lim["per"])
-                    conds.append(dict(type="and", conditions=[
-                        selected(cat_id, scope=unit_id, kind="equalTo", value=n),
-                        selected(kcat, scope=unit_id, value=cap + 1)]))
-                errors.append(dict(type="add", field="error", value=rule,
+                conds = [dict(type="and", conditions=[selected(cat_id, scope=unit_id, kind="equalTo", value=n),
+                                                      selected(kcat, scope=unit_id, value=lim["count"] * (n // lim["per"]) + 1)])
+                         for n in counts]
+                errors.append(dict(type="add", field="error",
+                                   value=f"At most {lim['count']} {label} for every {lim['per']} models.",
                                    conditionGroups=[dict(type="or", conditionGroups=conds)]))
             else:
                 errors.append(dict(type="add", field="error", value=f"At most {lim['count']} {label}.",
                                    conditions=[selected(kcat, scope=unit_id, value=lim["count"] + 1)]))
-        if low == high:
-            mins["value"] = 0
-        span = f"{low}-{high}" if low != high else str(high)
-        gid = nid(unit_id + ":family:" + name)
-        group = dict(name=f"{span} {plural}", id=gid, hidden=False, defaultSelectionEntryId=base["id"],
-                     sortIndex=1,
-                     selectionEntries=[base] + variants,
-                     constraints=[constraint(nid(gid + ":min"), "min", low), constraint(nid(gid + ":max"), "max", high)])
-        node["selectionEntryGroups"].append(group)
+        if swaps:
+            conds = [dict(type="and", conditions=[selected(cat_id, scope=unit_id, kind="equalTo", value=n),
+                                                  selected(scat, scope=unit_id, value=n + 1)]) for n in counts]
+            errors.append(dict(type="add", field="error",
+                               value="Each weapon swap replaces one model's weapons: no more swaps than models.",
+                               conditionGroups=[dict(type="or", conditionGroups=conds)]))
+            node["selectionEntryGroups"].append(dict(name="Weapon swaps", id=nid(unit_id + ":swaps:" + name),
+                                                     hidden=False, sortIndex=2, selectionEntries=swaps))
         node.setdefault("modifiers", []).extend(errors)
         for counted in spec.get("counted", []):
-            self.counted_option(node, ds, counted, cat_id, high, variants)
+            self.counted_option(node, ds, counted, cat_id, high, swaps)
         return dict(cat=cat_id, plural=plural, low=low, high=high)
 
     def counted_option(self, node, ds, spec, family_cat, high, variants):
@@ -600,7 +629,7 @@ class Builder:
         cap["value"] = high
         opt["modifiers"] = []
         for v in variants:
-            if v["name"] in spec["exclude"]:
+            if v.get("_vname", v["name"]) in spec["exclude"]:
                 opt["modifiers"].append(dict(field=cap["id"], type="increment", value=-1, repeats=[
                     dict(childId=v["id"], field="selections", scope=node["id"], shared=True,
                          includeChildSelections=True, value=1, repeats=1, roundUp=False)]))
@@ -726,7 +755,7 @@ class Builder:
                     scope=unit["id"], defaultSelectionEntryId="none", conditionGroups=[dict(type="or", conditions=[
                         dict(childId=t, field="selections", scope="self", type="instanceOf", value=1, shared=True,
                              includeChildSelections=True) for t in allowed])])]
-                item["sortIndex"] = 3
+                item["sortIndex"] = 4
                 self.link_weapon_rules(item)
                 items.append(item)
         return types, items
@@ -777,7 +806,16 @@ class Builder:
                         first["defaultAmount"] = pool["fixed"] // weight
                         break
             node["selectionEntries"].extend(items)
-            group = dict(name=label, id=gid, hidden=False, constraints=constraints, selectionEntries=types, sortIndex=2)
+            by_species = OrderedDict()
+            for t in types:
+                by_species.setdefault(t["_source"], []).append(t)
+            if len(by_species) > 1:  # one heading per Auxiliary entry (Unggoy, Yig-Yar, T'vaoan...)
+                group = dict(name=label, id=gid, hidden=False, constraints=constraints, sortIndex=3,
+                             selectionEntryGroups=[dict(name=src, id=nid(gid + ":" + src), hidden=False,
+                                                        selectionEntries=ts) for src, ts in by_species.items()])
+            else:
+                group = dict(name=label, id=gid, hidden=False, constraints=constraints, selectionEntries=types,
+                             sortIndex=3)
             if pool["per"] and family:
                 group["modifiers"] = [dict(field=cap["id"], type="increment", value=pool["slots"], repeats=[
                     dict(childId=family["cat"], field="selections", scope=node["id"], shared=True,
