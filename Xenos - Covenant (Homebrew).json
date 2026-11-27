@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 18,
+    "revision": 19,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -958,7 +958,7 @@
                     "name": "Chain of Command",
                     "id": "7f23-9138-e461-2bdc",
                     "hidden": false,
-                    "description": "\n\nEach battle round, each SANGHEILI Sergeant model from your army can issue up to 3 Caste Doctrines, each JIRALHANAE Sergeant model up to 2, and each other Sergeant model 1.\n\nEach Caste Doctrine is issued at the start of any phase, to the Sergeant model's own unit or to one friendly COVENANT unit of any kind (including VEHICLE and MOUNTED units) within 6\" of it. That unit is affected by that Doctrine as though it contained that Sergeant model. A unit can still be affected by only one Caste Doctrine at a time."
+                    "description": "\n\nEach battle round, each SANGHEILI Sergeant model from your army can issue up to 3 Caste Doctrines, and each JIRALHANAE Sergeant model up to 2.\n\nEach Caste Doctrine is issued at the start of any phase, to the Sergeant model's own unit or to one friendly COVENANT unit of any kind (including VEHICLE and MOUNTED units) within 6\" of it. That unit is affected by that Doctrine as though it contained that Sergeant model. A unit can still be affected by only one Caste Doctrine at a time."
                   },
                   {
                     "name": "Combined Arms",

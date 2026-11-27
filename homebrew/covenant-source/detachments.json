@@ -465,7 +465,7 @@
    {
     "name": "Chain of Command",
     "text": [
-     "Each battle round, each SANGHEILI Sergeant model from your army can issue up to 3 Caste Doctrines, each JIRALHANAE Sergeant model up to 2, and each other Sergeant model 1.",
+     "Each battle round, each SANGHEILI Sergeant model from your army can issue up to 3 Caste Doctrines, and each JIRALHANAE Sergeant model up to 2.",
      "Each Caste Doctrine is issued at the start of any phase, to the Sergeant model's own unit or to one friendly COVENANT unit of any kind (including VEHICLE and MOUNTED units) within 6\" of it. That unit is affected by that Doctrine as though it contained that Sergeant model. A unit can still be affected by only one Caste Doctrine at a time."
     ]
    },
