@@ -55,7 +55,7 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
   transparent background, like New Recruit's own faction symbols. Replace the file (same name,
   PNG or SVG) to use another image.
 - Army Rules and References: Caste Hierarchy, Shielding Trait, Chosen of the Hierarchs, Caste Doctrines, Supercombine, Plasma,
-  Conversion, Siegebreaker, Wargear Costs and Transport Space. Weapons link Supercombine, Plasma and Siegebreaker, and the core rules.
+  Conversion, Gravity Slam, Siegebreaker, Wargear Costs and Transport Space. Weapons link Supercombine, Plasma and Siegebreaker, and the core rules.
 - 18 detachments with their DP and Force Disposition (see the detachments below). None is Unique.
   Enhancements appear only on eligible units of the chosen detachment; Upgrades that up to three units can
   take share one Enhancement selection. An Attached Unit can have only one Enhancement or Upgrade.
@@ -301,11 +301,12 @@ D3+X and random attacks become fixed, with [BLAST 1] or [BLAST 2].
 
 ## Open points in the codex text
 
-- **Gravity Slam** is a weapon ability with no definition in v5.5.0; it is shown on the weapons but not linked to a
-  rule.
-- **Conversion Beam 30"** (also undefined) is replaced by the 11e [CONVERSION] ability, as on the Knights' conversion
-  beams (revision 28): an unmodified hit roll of 4+ is a critical hit against a unit more than 12" away. It is in the
-  army rules and linked on every Particle Beam Rifle.
+- **Gravity Slam** (undefined in v5.5.0) is defined in the army rules (revision 29): once per phase, when a unit with
+  one or more Gravity Slam weapons is selected to fight, roll a D6 for each enemy unit within 3" of those models; on
+  a 3+ it suffers D3 mortal wounds and must make a battle-shock roll. On every Gravity Hammer and the Fist of Rukt.
+- **Conversion Beam 30"** (undefined; 30" is half a Particle Beam Rifle's range) is [CONVERSION] (revision 29): like
+  [RAPID FIRE] turned around, against a target that is not within half range an unmodified hit roll of 4+ is a
+  critical hit. In the army rules and linked on every Particle Beam Rifle.
 
 ## Rebuild and check
 

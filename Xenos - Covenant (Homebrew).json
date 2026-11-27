@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 28,
+    "revision": 29,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -1902,6 +1902,13 @@
             "id": "d1f3-e79a-9394-1a54",
             "name": "Conversion",
             "targetId": "8d7f-7dc8-effc-fbf8",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "3653-284f-a798-3575",
+            "name": "Gravity Slam",
+            "targetId": "a2be-2f11-50f3-e77c",
             "type": "rule",
             "hidden": false
           },
@@ -7671,6 +7678,13 @@
                 "id": "3612-89e0-dacf-5839",
                 "name": "Devastating Wounds",
                 "targetId": "be1e-ac8e-1e2c-3528",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "1d9e-bc57-8a4d-4152",
+                "name": "Gravity Slam",
+                "targetId": "a2be-2f11-50f3-e77c",
                 "type": "rule",
                 "hidden": false
               }
@@ -13493,6 +13507,13 @@
                     "id": "d33f-9f9a-c83b-2954",
                     "name": "Pistol",
                     "targetId": "8bf7-8812-923d-29e4",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "0018-cfa3-c11e-c6be",
+                    "name": "Gravity Slam",
+                    "targetId": "a2be-2f11-50f3-e77c",
                     "type": "rule",
                     "hidden": false
                   }
@@ -38711,6 +38732,13 @@
                         "targetId": "be1e-ac8e-1e2c-3528",
                         "type": "rule",
                         "hidden": false
+                      },
+                      {
+                        "id": "7d24-cd2c-5531-bb00",
+                        "name": "Gravity Slam",
+                        "targetId": "a2be-2f11-50f3-e77c",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   }
@@ -39230,6 +39258,13 @@
                         "id": "77ea-f8e8-5ce9-e991",
                         "name": "Devastating Wounds",
                         "targetId": "be1e-ac8e-1e2c-3528",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "78ef-5a7b-4f18-7ed5",
+                        "name": "Gravity Slam",
+                        "targetId": "a2be-2f11-50f3-e77c",
                         "type": "rule",
                         "hidden": false
                       }
@@ -68229,6 +68264,13 @@
                     "targetId": "be1e-ac8e-1e2c-3528",
                     "type": "rule",
                     "hidden": false
+                  },
+                  {
+                    "id": "5de2-4df0-dc51-46f1",
+                    "name": "Gravity Slam",
+                    "targetId": "a2be-2f11-50f3-e77c",
+                    "type": "rule",
+                    "hidden": false
                   }
                 ]
               }
@@ -75267,6 +75309,13 @@
                     "id": "2f03-19bc-d0fe-6b6d",
                     "name": "Devastating Wounds",
                     "targetId": "be1e-ac8e-1e2c-3528",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "763f-f9f1-e199-64a9",
+                    "name": "Gravity Slam",
+                    "targetId": "a2be-2f11-50f3-e77c",
                     "type": "rule",
                     "hidden": false
                   }
@@ -84652,7 +84701,13 @@
         "name": "Conversion",
         "id": "8d7f-7dc8-effc-fbf8",
         "hidden": false,
-        "description": "\n\nEach time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful hit roll of 4+ scores a critical hit."
+        "description": "\n\nEach time an attack made with this weapon targets a unit that is not within half range of that weapon, an unmodified hit roll of 4+ scores a critical hit."
+      },
+      {
+        "name": "Gravity Slam",
+        "id": "a2be-2f11-50f3-e77c",
+        "hidden": false,
+        "description": "\n\nOnce per phase, when a unit containing one or more models equipped with this weapon is selected to fight, before it makes its attacks, roll one D6 for each enemy unit within 3\" of one or more of those models. On a 3+, that enemy unit suffers D3 mortal wounds and must make a battle-shock roll."
       },
       {
         "name": "Siegebreaker",

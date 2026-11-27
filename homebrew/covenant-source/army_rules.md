@@ -91,7 +91,11 @@ Each time an attack made with a Plasma weapon scores a critical hit, add X to th
 
 ## Conversion
 
-Each time an attack made with this weapon targets a unit more than 12" from the bearer, an unmodified successful hit roll of 4+ scores a critical hit.
+Each time an attack made with this weapon targets a unit that is not within half range of that weapon, an unmodified hit roll of 4+ scores a critical hit.
+
+## Gravity Slam
+
+Once per phase, when a unit containing one or more models equipped with this weapon is selected to fight, before it makes its attacks, roll one D6 for each enemy unit within 3" of one or more of those models. On a 3+, that enemy unit suffers D3 mortal wounds and must make a battle-shock roll.
 
 ## Siegebreaker
 
