@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 27,
+    "revision": 28,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -1895,6 +1895,13 @@
             "id": "9b7e-656e-4a0d-a591",
             "name": "Plasma",
             "targetId": "96fc-ca3e-b5fb-a002",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "d1f3-e79a-9394-1a54",
+            "name": "Conversion",
+            "targetId": "8d7f-7dc8-effc-fbf8",
             "type": "rule",
             "hidden": false
           },
@@ -15782,7 +15789,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Conversion Beam 30\", Precision, Sustained Hits 1"
+                        "$text": "Conversion, Precision, Sustained Hits 1"
                       }
                     ]
                   }
@@ -15810,6 +15817,13 @@
                     "id": "3e8e-05a9-8c9a-d188",
                     "name": "Precision",
                     "targetId": "9143-31ae-e0a6-6007",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "0ec4-1702-0f38-0e1a",
+                    "name": "Conversion",
+                    "targetId": "8d7f-7dc8-effc-fbf8",
                     "type": "rule",
                     "hidden": false
                   }
@@ -31905,7 +31919,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Conversion Beam 30\", Precision, Sustained Hits 1"
+                            "$text": "Conversion, Precision, Sustained Hits 1"
                           }
                         ]
                       }
@@ -31942,6 +31956,13 @@
                         "id": "6bd6-7c77-079a-1131",
                         "name": "Precision",
                         "targetId": "9143-31ae-e0a6-6007",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "c1c3-130b-902a-c6d6",
+                        "name": "Conversion",
+                        "targetId": "8d7f-7dc8-effc-fbf8",
                         "type": "rule",
                         "hidden": false
                       }
@@ -41627,7 +41648,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Conversion Beam 30\", Precision, Sustained Hits 1"
+                            "$text": "Conversion, Precision, Sustained Hits 1"
                           }
                         ]
                       }
@@ -41664,6 +41685,13 @@
                         "id": "9f02-cd56-e0ba-41fa",
                         "name": "Precision",
                         "targetId": "9143-31ae-e0a6-6007",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "8438-766a-b9b1-0624",
+                        "name": "Conversion",
+                        "targetId": "8d7f-7dc8-effc-fbf8",
                         "type": "rule",
                         "hidden": false
                       }
@@ -68954,7 +68982,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Conversion Beam 30\", Precision, Sustained Hits 1"
+                        "$text": "Conversion, Precision, Sustained Hits 1"
                       }
                     ]
                   }
@@ -68982,6 +69010,13 @@
                     "id": "7e3e-0f67-2f64-63d3",
                     "name": "Precision",
                     "targetId": "9143-31ae-e0a6-6007",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "ac11-f2a4-90ce-e8fc",
+                    "name": "Conversion",
+                    "targetId": "8d7f-7dc8-effc-fbf8",
                     "type": "rule",
                     "hidden": false
                   }
@@ -71796,7 +71831,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Conversion Beam 30\", Precision, Sustained Hits 1"
+                        "$text": "Conversion, Precision, Sustained Hits 1"
                       }
                     ]
                   },
@@ -71926,6 +71961,13 @@
                     "id": "69c0-cfbb-2bb0-fd29",
                     "name": "Plasma",
                     "targetId": "96fc-ca3e-b5fb-a002",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "8760-4eea-67d1-4ca8",
+                    "name": "Conversion",
+                    "targetId": "8d7f-7dc8-effc-fbf8",
                     "type": "rule",
                     "hidden": false
                   }
@@ -76364,7 +76406,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Conversion Beam 30\", Precision, Sustained Hits 1"
+                        "$text": "Conversion, Precision, Sustained Hits 1"
                       }
                     ]
                   }
@@ -76399,6 +76441,13 @@
                     "id": "3129-d8d5-5612-20a2",
                     "name": "Precision",
                     "targetId": "9143-31ae-e0a6-6007",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "e2ec-2255-e5a4-c5fa",
+                    "name": "Conversion",
+                    "targetId": "8d7f-7dc8-effc-fbf8",
                     "type": "rule",
                     "hidden": false
                   }
@@ -84598,6 +84647,12 @@
         "id": "96fc-ca3e-b5fb-a002",
         "hidden": false,
         "description": "\n\nEach time an attack made with a Plasma weapon scores a critical hit, add X to that attack's D characteristic if the weapon has Plasma (DX), or improve that attack's AP characteristic by X if it has Plasma (APX). For example, a critical hit with a Plasma (AP1) weapon improves that attack's AP by 1. Extra hits from [SUSTAINED HITS] do not benefit."
+      },
+      {
+        "name": "Conversion",
+        "id": "8d7f-7dc8-effc-fbf8",
+        "hidden": false,
+        "description": "\n\nEach time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful hit roll of 4+ scores a critical hit."
       },
       {
         "name": "Siegebreaker",

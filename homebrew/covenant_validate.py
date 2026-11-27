@@ -177,8 +177,8 @@ def main():
               f"{n}: Chosen of the Hierarchs missing")
     army = entries["Army Rules and References"]
     army_names = {rules[l["targetId"]]["name"] for l in army["infoLinks"]}
-    for n in ("Caste Hierarchy", "Shielding Trait", "Caste Doctrines", "Supercombine", "Plasma", "Siegebreaker",
-              "Transport Space"):
+    for n in ("Caste Hierarchy", "Shielding Trait", "Caste Doctrines", "Supercombine", "Plasma", "Conversion",
+              "Siegebreaker", "Transport Space"):
         check(n in army_names, f"army rule {n} missing")
     text = json.dumps(cat)
     for old in ("400 points", "50% of its Non-Auxiliary"):

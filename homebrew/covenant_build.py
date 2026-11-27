@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 27
+REVISION = 28
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -30,10 +30,10 @@ CONFIGURATION = "4ac9-fd30-1e3d-b249"
 REFERENCE = "eef1-be80-500a-edfc"
 ROLE = {"EPIC HERO": "Epic Hero", "CHARACTER": "Character", "BATTLELINE": "Battleline", "INFANTRY": "Infantry",
         "MOUNTED": "Mounted", "MONSTER": "Monster", "VEHICLE": "Vehicle", "FORTIFICATION": "Fortification"}
-ARMY_RULES = ["Caste Hierarchy", "Shielding Trait", "Chosen of the Hierarchs", "Caste Doctrines", "Supercombine", "Plasma", "Siegebreaker",
-              "Wargear Costs", "Transport Space"]
+ARMY_RULES = ["Caste Hierarchy", "Shielding Trait", "Chosen of the Hierarchs", "Caste Doctrines", "Supercombine", "Plasma", "Conversion",
+              "Siegebreaker", "Wargear Costs", "Transport Space"]
 WEAPON_RULES = {"Supercombine": r"\bSupercombine\b", "Plasma": r"\bPlasma \((?:D|AP)[\dD+]+\)",
-                "Siegebreaker": r"\bSiegebreaker\b"}
+                "Conversion": r"\bConversion\b", "Siegebreaker": r"\bSiegebreaker\b"}
 # Commanders with Chosen of the Hierarchs (+1CP each battle round while your Warlord), as EC's Sublime Strategist.
 WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel 'Vadam", "Rtas 'Vadum", "Tartarus",
               "Sangheili Shipmaster", "Sangheili Fieldmaster", "Jiralhanae Chieftain", "Yig-Yar Corsair-Talon"}

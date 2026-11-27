@@ -89,6 +89,10 @@ After this unit has made its hit rolls, for every three hits scored against the 
 
 Each time an attack made with a Plasma weapon scores a critical hit, add X to that attack's D characteristic if the weapon has Plasma (DX), or improve that attack's AP characteristic by X if it has Plasma (APX). For example, a critical hit with a Plasma (AP1) weapon improves that attack's AP by 1. Extra hits from [SUSTAINED HITS] do not benefit.
 
+## Conversion
+
+Each time an attack made with this weapon targets a unit more than 12" from the bearer, an unmodified successful hit roll of 4+ scores a critical hit.
+
 ## Siegebreaker
 
 Each time an attack made with this weapon scores a critical hit, invulnerable saves cannot be used against that attack. Extra hits from [SUSTAINED HITS] do not benefit.
