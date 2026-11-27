@@ -463,9 +463,9 @@
   "disposition": "Priority Assets",
   "rules": [
    {
-    "name": "Castes United",
+    "name": "Combined Command",
     "text": [
-     "A Sergeant model from your army can also issue the Caste Doctrines of the species of any model in its unit. For example, a Sangheili Ultra leading a Grunt Cadre can issue Unggoy Doctrines."
+     "Each time a Sergeant model from your army issues a Caste Doctrine, you can select one friendly COVENANT VEHICLE or MOUNTED unit within 6\" of that Sergeant model. That unit is also affected by that Doctrine, as though it contained that Sergeant model."
     ]
    },
    {

@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 15,
+    "revision": 16,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -955,10 +955,10 @@
                 ],
                 "rules": [
                   {
-                    "name": "Castes United",
-                    "id": "d559-c044-ea1d-da0d",
+                    "name": "Combined Command",
+                    "id": "a931-89c0-f090-e548",
                     "hidden": false,
-                    "description": "\n\nA Sergeant model from your army can also issue the Caste Doctrines of the species of any model in its unit. For example, a Sangheili Ultra leading a Grunt Cadre can issue Unggoy Doctrines."
+                    "description": "\n\nEach time a Sergeant model from your army issues a Caste Doctrine, you can select one friendly COVENANT VEHICLE or MOUNTED unit within 6\" of that Sergeant model. That unit is also affected by that Doctrine, as though it contained that Sergeant model."
                   },
                   {
                     "name": "Combined Arms",

@@ -93,7 +93,7 @@ other units; where the species has Sergeants, that rule changes how they issue D
 | 2 | Fleetborne Invasion | Take and Hold | Assault Disembark from Spirits, Phantoms and Liches; +1 OC near a vessel |
 | 2 | Sangheili Warhost | Priority Assets | Worthy Foe (+1 to wound); SANGHEILI Doctrines last the turn |
 | 2 | Jiralhanae Warpack | Purge the Foe | +1 A after a charge; JIRALHANAE Sergeants issue a Doctrine in each player's turn |
-| 2 | Covenant Expeditionary Force | Priority Assets | Sergeants issue the Doctrines of every species in their unit; infantry and vehicles within 6" re-roll hit rolls of 1 |
+| 2 | Covenant Expeditionary Force | Priority Assets | A Sergeant's Doctrine also affects one VEHICLE or MOUNTED unit within 6" (revision 16); infantry and vehicles within 6" re-roll hit rolls of 1 |
 | 2 | Armored Spearhead | Purge the Foe | VEHICLE Plasma weapons score critical hits on 5+; shoot after advancing or falling back; +1 SP regeneration |
 | 2 | Swords of Sanghelios | Take and Hold | No JIRALHANAE or SAN'SHYUUM models; ELITE re-roll hit and wound rolls of 1; GRUNT near ELITE re-roll hit rolls of 1, +1 OC |
 | 1 | Yig-Yar Hunting Talon | Reconnaissance | JACKAL re-roll hit rolls against units below starting strength; Talons issue two Doctrines at once |
