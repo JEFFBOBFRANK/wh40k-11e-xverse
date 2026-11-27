@@ -151,7 +151,8 @@ def main():
             continue
         check(o["costs"][0]["value"] == d["dp"], f"{d['name']}: DP")
         cats = {c["name"] for c in o["categoryLinks"]}
-        check(d["disposition"] in cats, f"{d['name']}: disposition {d['disposition']} missing")
+        for disp in (d["disposition"] if isinstance(d["disposition"], list) else [d["disposition"]]):
+            check(disp in cats, f"{d['name']}: disposition {disp} missing")
         if d["unique"]:
             check(f"Unique: {d['unique'].upper()}" in cats, f"{d['name']}: unique tag missing")
         check({r["name"] for r in o["rules"]} == {r["name"] for r in d["rules"]}, f"{d['name']}: rules differ")

@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 26
+REVISION = 27
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -899,7 +899,8 @@ class Builder:
             node = entry(det_id, det["name"], constraints=[constraint(nid(det_id + ":max"), "max", 1)],
                          costs=[dict(name="Detachment Points", typeId=DP, value=det["dp"])], rules=[],
                          categoryLinks=[])
-            tags = (["3DP Detachment"] if det["dp"] == 3 else []) + [det["disposition"]]
+            dispositions = det["disposition"] if isinstance(det["disposition"], list) else [det["disposition"]]
+            tags = (["3DP Detachment"] if det["dp"] == 3 else []) + dispositions  # one or two Force Dispositions
             node["categoryLinks"] = [self.cat_link(det_id, t) for t in tags]
             if det["unique"]:
                 uname = "Unique: " + det["unique"].upper()

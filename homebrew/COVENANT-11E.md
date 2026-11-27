@@ -93,7 +93,7 @@ other units; where the species has Sergeants, that rule changes how they issue D
 | 2 | Fleetborne Invasion | Take and Hold | Assault Disembark from Spirits, Phantoms and Liches; +1 OC near a vessel; Glassing Beam Stratagem (2CP, once per battle, a Shipmaster calls it: 3D6 mortal wounds on a 3+, revision 22) |
 | 2 | Sangheili Warhost | Priority Assets | Worthy Foe (+1 to wound); SANGHEILI Doctrines last the turn |
 | 2 | Jiralhanae Warpack | Purge the Foe | +1 A after a charge; JIRALHANAE Sergeants issue a Doctrine in each player's turn |
-| 3 | Covenant Expeditionary Force | Priority Assets | Chain of Command (revision 19): Sangheili Sergeants issue 3 Caste Doctrines a battle round, Jiralhanae 2, to any COVENANT unit within 6" (vehicles included); units within 6" of a friendly unit with another designation (ELITE, BRUTE... or VEHICLE) re-roll hit rolls of 1 |
+| 3 | Covenant Expeditionary Force | Priority Assets or Purge the Foe | Chain of Command (revision 19): Sangheili Sergeants issue 3 Caste Doctrines a battle round, Jiralhanae 2, to any COVENANT unit within 6" (vehicles included); units within 6" of a friendly unit with another designation (ELITE, BRUTE... or VEHICLE) re-roll hit rolls of 1 |
 | 2 | Armored Spearhead | Purge the Foe | VEHICLE Plasma weapons score critical hits on 5+; shoot after advancing or falling back; +1 SP regeneration |
 | 2 | Swords of Sanghelios | Take and Hold | No JIRALHANAE or SAN'SHYUUM models; ELITE re-roll hit and wound rolls of 1; GRUNT near ELITE re-roll hit rolls of 1, +1 OC |
 | 1 | Yig-Yar Hunting Talon | Reconnaissance | JACKAL re-roll hit rolls against units below starting strength; Talons issue two Doctrines at once |

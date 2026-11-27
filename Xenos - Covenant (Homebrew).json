@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 26,
+    "revision": 27,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -979,6 +979,13 @@
                     "name": "Priority Assets",
                     "id": "bdb2-78f1-6922-9724",
                     "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "Purge the Foe",
+                    "id": "6596-651d-8a32-1771",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
                     "primary": false,
                     "hidden": false
                   }

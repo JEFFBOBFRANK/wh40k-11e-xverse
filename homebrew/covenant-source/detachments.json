@@ -469,7 +469,10 @@
   "name": "Covenant Expeditionary Force",
   "dp": 3,
   "unique": null,
-  "disposition": "Priority Assets",
+  "disposition": [
+   "Priority Assets",
+   "Purge the Foe"
+  ],
   "rules": [
    {
     "name": "Chain of Command",
