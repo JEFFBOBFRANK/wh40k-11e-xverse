@@ -122,6 +122,9 @@ def main():
                                                and any(l in d["keywords"] for l in pool["lists"])
                                                and d["name"] not in pool["entries"]]
             for m in dict.fromkeys(members):
+                if any(n.get("type") == "selectionEntry" and n.get("name") == m and n.get("targetId") ==
+                       entries.get(m, {}).get("id") for n in nodes):
+                    continue  # added with "+", weapons and Specialist ability chosen on the model itself
                 types = [n for n in nodes if n.get("type") == "model" and
                          (n.get("name") == m or str(n.get("name", "")).startswith(m + " with "))]
                 check(types, f"{uname}: no {m} model types")

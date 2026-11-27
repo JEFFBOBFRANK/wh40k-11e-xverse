@@ -180,22 +180,19 @@ are fixed (the Pack Alpha's Mangler, the Unggoy Ultra's Close Combat Weapon).
 - Combined names read "A, B and C" everywhere.
 - In the Tormentor layout, each legal combination is one Auxiliary model type.
 
-## Unit layout (revisions 24-25)
+## Unit layout (revision 26)
 
-Every squad is built the same way, top to bottom:
+Back to the layout before revision 13, with the Sergeant on top of every unit:
 
-1. **Sergeant**: one optional choice (e.g. Jiralhanae Pack Alpha or Sangheili Ultra); its weapon choices open
-   underneath. A character with a retinue stays on top of the unit.
-2. **Models**: a counter for the unit's models (e.g. 3-6 Sangheili Warriors); a larger size adds its points
-   (revision 25 restored the counter after a size tick was tried in revision 24).
-3. **Weapon swaps**: one counter per swap ("Fuel Rod", "Covenant Carbine", "2 Plasma Rifles"...). Each swaps one
-   model's weapons and never adds a model. Limits follow the codex (e.g. 1 for every 3 models, with Carbine/Needler and
-   Repeater/Fuel Rod sharing one limit), and there can be no more swaps than models. The T'vaoan Skirmishers' loadout
-   packages are swaps too.
-4. **Auxiliary**: counters, one model type per loadout, under a heading per species (Unggoy, Yig-Yar, T'vaoan,
-   Jiralhanae...). The Auxiliary Slots total (with weights such as Jiralhanae 3 in a Warrior Cadre) still applies.
-5. **Auxiliary wargear and Specialist abilities** (Stealth Projector, Wrist Shield, Ammunition Runner, Pack Enforcer...)
-   with a picker for the model that carries each one.
+1. **Sergeant**: one optional choice; its weapon choices open underneath.
+2. **Models**: the unit's model counter, plus model types with other weapons (e.g. "Sangheili Warrior with Fuel Rod",
+   up to 1 for every 3 models).
+3. **Auxiliary**: add an Auxiliary model ("+"), then choose its weapons (Ranged weapon, Sidearm, Melee weapon,
+   Wargear) and its Specialist ability on that model. The Auxiliary Slots total still applies.
+
+The Jiralhanae Assault Pack keeps the Tormentor layout (Auxiliaries as counters, one per loadout, and Specialist
+abilities with a model picker). Revisions 13-25 tried that layout on every unit, then a size tick and weapon swaps;
+all of it is undone.
 
 ## Points (revision 24)
 
