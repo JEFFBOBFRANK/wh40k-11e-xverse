@@ -44,9 +44,10 @@ def C(label, options, minimum=1, maximum=1, costs=None):
     return dict(label=label, options=list(options), min=minimum, max=maximum, costs=dict(costs or {}))
 
 
-def Pool(lists=(), entries=(), per=None, slots=1, fixed=None, weights=None):
+def Pool(lists=(), entries=(), per=None, slots=1, fixed=None, weights=None, required=False, label=None):
+    """required: the unit always has exactly `fixed` slots of these models (a commander's retinue)."""
     return dict(lists=list(lists), entries=list(entries), per=per, slots=slots, fixed=fixed,
-                weights=dict(weights or {}))
+                weights=dict(weights or {}), required=required, label=label)
 
 
 def Counted(name, cost, exclude=()):
@@ -80,10 +81,13 @@ UNITS = {
 
     # Characters
     "San'Shyuum Advisor": S(),
-    "Sangheili Shipmaster": S(sergeants=["Sangheili Ultra"],
-                              aux=[Pool(entries=["Sangheili Auxiliary"], fixed=3), Pool(lists=["Unggoy"], fixed=2)]),
-    "Sangheili Fieldmaster": S(sergeants=["Sangheili Ultra"],
-                               aux=[Pool(entries=["Sangheili Auxiliary"], fixed=3), Pool(lists=["Unggoy"], fixed=2)]),
+    # commanders: 1 Sangheili bodyguard and 2 Unggoy specialists, always (Auxiliary models with their options)
+    "Sangheili Shipmaster": S(aux=[Pool(entries=["Sangheili Auxiliary"], fixed=1, required=True, label="Bodyguard"),
+                                   Pool(entries=["Unggoy Auxiliary"], fixed=2, required=True,
+                                        label="Unggoy Specialists")]),
+    "Sangheili Fieldmaster": S(aux=[Pool(entries=["Sangheili Auxiliary"], fixed=1, required=True, label="Bodyguard"),
+                                    Pool(entries=["Unggoy Auxiliary"], fixed=2, required=True,
+                                         label="Unggoy Specialists")]),
     "Sangheili Blademaster": S(),
     "Jiralhanae Chieftain": S(weapons=[], gear=["Chieftain Shield"], choices=[C("Weapons", [
         "Spiker + Brute Heavy Melee Weapon", "Bolt Spiker + Brute Heavy Melee Weapon",

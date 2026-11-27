@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 19
+REVISION = 20
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -758,12 +758,23 @@ class Builder:
     def auxiliaries(self, node, spec, family):
         for i, pool in enumerate(spec["aux"]):
             gid = nid(node["id"] + f":auxiliary:{i}")
-            label = "Auxiliary" if len(spec["aux"]) == 1 else "Auxiliary: " + ", ".join(
-                [e.replace(" Auxiliary", "") for e in pool["entries"]] + pool["lists"])
+            label = pool.get("label") or ("Auxiliary" if len(spec["aux"]) == 1 else "Auxiliary: " + ", ".join(
+                [e.replace(" Auxiliary", "") for e in pool["entries"]] + pool["lists"]))
             cap = constraint(nid(gid + ":slots"), "max", pool["fixed"] or 0, field=self.aux_slot, child=True)
+            constraints = [cap]
+            if pool.get("required"):  # a commander's retinue: always exactly this many
+                constraints.append(constraint(nid(gid + ":slots-min"), "min", pool["fixed"], field=self.aux_slot,
+                                              child=True))
             types, items = self.aux_types(node, pool, family, gid)
+            if pool.get("required"):  # start with the default loadouts already taken
+                for name in self.aux_members(pool):
+                    first = next((t for t in types if t.get("_source") == name), None)
+                    weight = next((w for lst, w in pool["weights"].items() if lst in self.data[name]["keywords"]), 1)
+                    if first:
+                        first["defaultAmount"] = pool["fixed"] // weight
+                        break
             node["selectionEntries"].extend(items)
-            group = dict(name=label, id=gid, hidden=False, constraints=[cap], selectionEntries=types, sortIndex=2)
+            group = dict(name=label, id=gid, hidden=False, constraints=constraints, selectionEntries=types, sortIndex=2)
             if pool["per"] and family:
                 group["modifiers"] = [dict(field=cap["id"], type="increment", value=pool["slots"], repeats=[
                     dict(childId=family["cat"], field="selections", scope=node["id"], shared=True,

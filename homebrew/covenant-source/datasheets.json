@@ -744,7 +744,7 @@
   "name": "Sangheili Shipmaster",
   "category": "CHARACTER",
   "subtitle": "Fleet Command Unit",
-  "points": 155,
+  "points": 90,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -757,7 +757,7 @@
   "page": 49,
   "unit_composition": [
    "1 Sangheili Shipmaster",
-   "This unit can also include 0-1 Sangheili Ultra, 0-3 Sangheili Auxiliaries and 0-2 Unggoy Auxiliaries."
+   "1 Sangheili Auxiliary (bodyguard) and 2 Unggoy Auxiliaries (specialists). Each Auxiliary model can take one Specialist ability from its entry, at the points shown."
   ],
   "equipped": [
    "Plasma Repeater",
@@ -829,8 +829,12 @@
     "text": "Once per turn, at the start of any phase, select one friendly COVENANT unit within 6\" of this model and one Sangheili Caste Doctrine that can be used in that phase. Until the end of the phase, that unit is affected by the Doctrine. It need not contain a Sangheili Sergeant. This use does not count as the unit using a Caste Doctrine."
    },
    {
-    "name": "Glassing Beam",
-    "text": "Once per battle, in your Shooting phase, select one enemy unit within 48\" of and visible to this model, then roll one D6. On a 3+, that enemy unit suffers 3D6 mortal wounds."
+    "name": "Fleet Coordination",
+    "text": "Once per battle round, when a friendly COVENANT unit makes an ingress move while this model is on the battlefield, it can be set up wholly within 9\" of this model instead of within 6\" of a battlefield edge. All other ingress rules still apply."
+   },
+   {
+    "name": "Command Retinue",
+    "text": "While this unit contains one or more other models, attacks can only be allocated to this model if they have [PRECISION]."
    }
   ],
   "keywords": [
@@ -846,7 +850,7 @@
   "name": "Sangheili Fieldmaster",
   "category": "CHARACTER",
   "subtitle": "Field Command Unit",
-  "points": 180,
+  "points": 95,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -859,7 +863,7 @@
   "page": 50,
   "unit_composition": [
    "1 Sangheili Fieldmaster",
-   "This unit can also include 0-1 Sangheili Ultra, 0-3 Sangheili Auxiliaries and 0-2 Unggoy Auxiliaries."
+   "1 Sangheili Auxiliary (bodyguard) and 2 Unggoy Auxiliaries (specialists). Each Auxiliary model can take one Specialist ability from its entry, at the points shown."
   ],
   "equipped": [
    "Plasma Rifle",
@@ -928,8 +932,16 @@
     "text": "Leader"
    },
    {
-    "name": "Call in Reinforcements",
-    "text": "Once per battle round, when a friendly COVENANT INFANTRY unit is destroyed within 24\" of this model, you can spend 1CP. Add a new unit identical to the destroyed unit to your army and place it into strategic reserves at starting strength. It includes the destroyed unit's Sergeants and non-Auxiliary wargear, but no Auxiliary models. A replacement unit created by this ability cannot itself be replaced by this ability."
+    "name": "Field Command",
+    "text": "Once per battle round, at the start of any phase, select one Sergeant model in a friendly COVENANT unit within 6\" of this model. That Sergeant model can issue one additional Caste Doctrine this battle round."
+   },
+   {
+    "name": "Rally the Line",
+    "text": "In your Command phase, select one battle-shocked friendly COVENANT INFANTRY unit within 6\" of this model. That unit is no longer battle-shocked."
+   },
+   {
+    "name": "Command Retinue",
+    "text": "While this unit contains one or more other models, attacks can only be allocated to this model if they have [PRECISION]."
    }
   ],
   "keywords": [

@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 19,
+    "revision": 20,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -8758,8 +8758,8 @@
             ]
           },
           {
-            "id": "563a-c05c-f741-60fe",
-            "name": "Glassing Beam",
+            "id": "5766-91cc-adc5-1a4e",
+            "name": "Fleet Coordination",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -8767,7 +8767,21 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle, in your Shooting phase, select one enemy unit within 48\" of and visible to this model, then roll one D6. On a 3+, that enemy unit suffers 3D6 mortal wounds."
+                "$text": "Once per battle round, when a friendly COVENANT unit makes an ingress move while this model is on the battlefield, it can be set up wholly within 9\" of this model instead of within 6\" of a battlefield edge. All other ingress rules still apply."
+              }
+            ]
+          },
+          {
+            "id": "e5af-4310-367e-e8a3",
+            "name": "Command Retinue",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this unit contains one or more other models, attacks can only be allocated to this model if they have [PRECISION]."
               }
             ]
           },
@@ -9212,7 +9226,7 @@
               {
                 "id": "6a54-5e48-4bf0-62cc",
                 "type": "max",
-                "value": 3,
+                "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -9345,7 +9359,7 @@
               {
                 "id": "a216-df43-2f3e-7e7b",
                 "type": "max",
-                "value": 3,
+                "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -9478,7 +9492,7 @@
               {
                 "id": "dd63-33ae-6843-51c9",
                 "type": "max",
-                "value": 3,
+                "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -9611,7 +9625,7 @@
               {
                 "id": "e4ee-db59-a730-f02c",
                 "type": "max",
-                "value": 3,
+                "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -9926,41 +9940,23 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "Sergeant",
-            "id": "c27f-bb4e-083f-0e43",
-            "hidden": false,
-            "entryLinks": [
-              {
-                "name": "Sangheili Ultra",
-                "id": "ea89-f873-c65e-957a",
-                "targetId": "c21b-7e5f-4af2-fce6",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              }
-            ],
-            "constraints": [
-              {
-                "id": "f2d6-7a55-772b-2dc1",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "sortIndex": 1
-          },
-          {
-            "name": "Auxiliary: Sangheili",
+            "name": "Bodyguard",
             "id": "2331-f338-bcdc-4209",
             "hidden": false,
             "constraints": [
               {
                 "id": "d86f-d43f-b66a-d84b",
                 "type": "max",
-                "value": 3,
+                "value": 1,
+                "scope": "parent",
+                "field": "e9ed-377d-8449-4036",
+                "shared": true,
+                "includeChildSelections": true
+              },
+              {
+                "id": "5d3b-29c1-fc73-0b23",
+                "type": "min",
+                "value": 1,
                 "scope": "parent",
                 "field": "e9ed-377d-8449-4036",
                 "shared": true,
@@ -10360,13 +10356,14 @@
                   {
                     "id": "bc65-24d2-086e-b026",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
                   }
-                ]
+                ],
+                "defaultAmount": 1
               },
               {
                 "name": "Sangheili Auxiliary with Covenant Carbine",
@@ -10760,7 +10757,7 @@
                   {
                     "id": "b01e-db2b-7a92-f59b",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -11160,7 +11157,7 @@
                   {
                     "id": "fae9-4e52-3629-9b9e",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -11567,7 +11564,7 @@
                   {
                     "id": "4ae6-14b4-96f0-c0c9",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -11960,7 +11957,7 @@
                   {
                     "id": "2b7d-edcd-fb53-f84b",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -12278,7 +12275,7 @@
                   {
                     "id": "6291-d0da-949e-8d62",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -12589,7 +12586,7 @@
                   {
                     "id": "4fda-dcf2-8da2-6287",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -12820,7 +12817,7 @@
                   {
                     "id": "a3e2-f732-f22a-30b5",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -12832,13 +12829,22 @@
             "sortIndex": 2
           },
           {
-            "name": "Auxiliary: Unggoy",
+            "name": "Unggoy Specialists",
             "id": "4372-8bb2-d007-89ee",
             "hidden": false,
             "constraints": [
               {
                 "id": "a5a5-deed-171c-8429",
                 "type": "max",
+                "value": 2,
+                "scope": "parent",
+                "field": "e9ed-377d-8449-4036",
+                "shared": true,
+                "includeChildSelections": true
+              },
+              {
+                "id": "e5ef-03e5-ef76-441f",
+                "type": "min",
                 "value": 2,
                 "scope": "parent",
                 "field": "e9ed-377d-8449-4036",
@@ -13108,7 +13114,8 @@
                     "shared": true,
                     "includeChildSelections": false
                   }
-                ]
+                ],
+                "defaultAmount": 2
               },
               {
                 "name": "Unggoy Auxiliary with Plasma Rifle",
@@ -15271,7 +15278,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 155
+            "value": 90
           }
         ],
         "constraints": [
@@ -15391,8 +15398,8 @@
         "import": true,
         "profiles": [
           {
-            "id": "bc0b-5ba5-bf6c-fc13",
-            "name": "Call in Reinforcements",
+            "id": "13f5-3f27-e545-5c44",
+            "name": "Field Command",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -15400,7 +15407,35 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle round, when a friendly COVENANT INFANTRY unit is destroyed within 24\" of this model, you can spend 1CP. Add a new unit identical to the destroyed unit to your army and place it into strategic reserves at starting strength. It includes the destroyed unit's Sergeants and non-Auxiliary wargear, but no Auxiliary models. A replacement unit created by this ability cannot itself be replaced by this ability."
+                "$text": "Once per battle round, at the start of any phase, select one Sergeant model in a friendly COVENANT unit within 6\" of this model. That Sergeant model can issue one additional Caste Doctrine this battle round."
+              }
+            ]
+          },
+          {
+            "id": "3517-2811-e0b4-c9d5",
+            "name": "Rally the Line",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Command phase, select one battle-shocked friendly COVENANT INFANTRY unit within 6\" of this model. That unit is no longer battle-shocked."
+              }
+            ]
+          },
+          {
+            "id": "62ba-109d-0d81-9f7f",
+            "name": "Command Retinue",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this unit contains one or more other models, attacks can only be allocated to this model if they have [PRECISION]."
               }
             ]
           },
@@ -15852,7 +15887,7 @@
               {
                 "id": "bdde-5645-0011-fda9",
                 "type": "max",
-                "value": 3,
+                "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -15985,7 +16020,7 @@
               {
                 "id": "f7e3-6f47-ae96-ff49",
                 "type": "max",
-                "value": 3,
+                "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -16118,7 +16153,7 @@
               {
                 "id": "5937-bdc8-88ad-7cef",
                 "type": "max",
-                "value": 3,
+                "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -16251,7 +16286,7 @@
               {
                 "id": "7ec6-4006-c15e-d903",
                 "type": "max",
-                "value": 3,
+                "value": 1,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -16566,41 +16601,23 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "Sergeant",
-            "id": "07e8-36ca-9cdd-36be",
-            "hidden": false,
-            "entryLinks": [
-              {
-                "name": "Sangheili Ultra",
-                "id": "6408-1ab9-29c9-12c8",
-                "targetId": "c21b-7e5f-4af2-fce6",
-                "type": "selectionEntry",
-                "hidden": false,
-                "import": true
-              }
-            ],
-            "constraints": [
-              {
-                "id": "1c4e-0393-fbf0-4d0b",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "sortIndex": 1
-          },
-          {
-            "name": "Auxiliary: Sangheili",
+            "name": "Bodyguard",
             "id": "8641-c913-bafc-05f3",
             "hidden": false,
             "constraints": [
               {
                 "id": "0a4e-a551-8fd7-c005",
                 "type": "max",
-                "value": 3,
+                "value": 1,
+                "scope": "parent",
+                "field": "e9ed-377d-8449-4036",
+                "shared": true,
+                "includeChildSelections": true
+              },
+              {
+                "id": "7850-064a-c921-8a6c",
+                "type": "min",
+                "value": 1,
                 "scope": "parent",
                 "field": "e9ed-377d-8449-4036",
                 "shared": true,
@@ -17000,13 +17017,14 @@
                   {
                     "id": "77ef-a50c-acfb-6a44",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
                   }
-                ]
+                ],
+                "defaultAmount": 1
               },
               {
                 "name": "Sangheili Auxiliary with Covenant Carbine",
@@ -17400,7 +17418,7 @@
                   {
                     "id": "71c4-9dec-4894-986e",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -17800,7 +17818,7 @@
                   {
                     "id": "b96b-557e-5a90-3903",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -18207,7 +18225,7 @@
                   {
                     "id": "ad05-8623-1b7d-4e40",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -18600,7 +18618,7 @@
                   {
                     "id": "87bc-f96a-f90c-3088",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -18918,7 +18936,7 @@
                   {
                     "id": "5cfd-e300-8e6a-312b",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -19229,7 +19247,7 @@
                   {
                     "id": "1586-91fa-9da5-3cfb",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -19460,7 +19478,7 @@
                   {
                     "id": "5479-42c8-92a7-ebab",
                     "type": "max",
-                    "value": 3,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
@@ -19472,13 +19490,22 @@
             "sortIndex": 2
           },
           {
-            "name": "Auxiliary: Unggoy",
+            "name": "Unggoy Specialists",
             "id": "5f2b-0ddb-e156-7f09",
             "hidden": false,
             "constraints": [
               {
                 "id": "b424-9447-e143-6656",
                 "type": "max",
+                "value": 2,
+                "scope": "parent",
+                "field": "e9ed-377d-8449-4036",
+                "shared": true,
+                "includeChildSelections": true
+              },
+              {
+                "id": "f838-aee0-a747-b354",
+                "type": "min",
                 "value": 2,
                 "scope": "parent",
                 "field": "e9ed-377d-8449-4036",
@@ -19748,7 +19775,8 @@
                     "shared": true,
                     "includeChildSelections": false
                   }
-                ]
+                ],
+                "defaultAmount": 2
               },
               {
                 "name": "Unggoy Auxiliary with Plasma Rifle",
@@ -21874,7 +21902,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 95
           }
         ],
         "constraints": [
@@ -135750,6 +135778,848 @@
         ]
       },
       {
+        "name": "Jiralhanae Pack Alpha",
+        "id": "cf51-b8f4-8eb0-cb3c",
+        "type": "model",
+        "hidden": false,
+        "import": true,
+        "profiles": [
+          {
+            "id": "25c5-e13d-d27b-86d7",
+            "name": "Jiralhanae Pack Alpha",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
+              },
+              {
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "3"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": "-"
+              }
+            ]
+          },
+          {
+            "id": "9e87-1eab-6467-9289",
+            "name": "Caste Doctrines",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can issue Relentless Charge, Savage Momentum or Unyielding Fury."
+              }
+            ]
+          },
+          {
+            "id": "caed-0950-9db2-30c3",
+            "name": "Model Keywords",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Jiralhanae, Infantry, Grenades, Sergeant, Pack Alpha. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Mangler",
+            "id": "71f0-5132-089a-40ff",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "profiles": [
+              {
+                "id": "5a75-2e02-71ff-bc6e",
+                "name": "Mangler",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "12\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "Devastating Wounds, Pistol"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "2188-e101-5445-7ec5",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "ffbd-eeb9-69c8-6914",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "id": "0b11-929f-0ee5-be2c",
+                "name": "Devastating Wounds",
+                "targetId": "be1e-ac8e-1e2c-3528",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "0ae1-e2e2-f512-0de5",
+                "name": "Pistol",
+                "targetId": "8bf7-8812-923d-29e4",
+                "type": "rule",
+                "hidden": false
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Ranged weapon",
+            "id": "e552-8f8b-ac97-478b",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Spiker",
+                "id": "ad2f-e0b7-f81b-3213",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "8fa2-8c2c-0772-522c",
+                    "name": "Spiker",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "24\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Devastating Wounds"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "db55-f3c0-7acc-7120",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "c5f7-615f-b2e9-6e9a",
+                    "name": "Devastating Wounds",
+                    "targetId": "be1e-ac8e-1e2c-3528",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Brute Shot",
+                "id": "57ff-c29e-19e0-3081",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "1b10-0540-76e2-28b6",
+                    "name": "Brute Shot",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "12\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Blast, Ignores Cover"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "246b-c0c5-4e7d-b32b",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "da84-ab96-c400-adda",
+                    "name": "Blast",
+                    "targetId": "6c1f-1cf7-ff25-c99e",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "42d1-ed65-b5e7-a657",
+                    "name": "Ignores Cover",
+                    "targetId": "4640-43e7-30b-215a",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "491e-506c-2b3f-0e8a",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "6514-b350-aca8-f3d7",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "defaultSelectionEntryId": "ad2f-e0b7-f81b-3213",
+            "modifiers": [
+              {
+                "type": "set",
+                "field": "491e-506c-2b3f-0e8a",
+                "value": 0,
+                "conditions": [
+                  {
+                    "childId": "1340-b918-d0f3-2291",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "set",
+                "field": "6514-b350-aca8-f3d7",
+                "value": 0,
+                "conditions": [
+                  {
+                    "childId": "1340-b918-d0f3-2291",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Melee weapon",
+            "id": "03d3-77ab-6639-82b3",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Brute Close Combat Weapon",
+                "id": "d0e7-cc78-d6ef-fe20",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "f1ed-ab25-9ebf-7011",
+                    "name": "Brute Close Combat Weapon",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Lethal Hits"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "a31a-8f2f-60cc-fb72",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "ab6b-4f5a-96a2-3330",
+                    "name": "Lethal Hits",
+                    "targetId": "d1d1-611e-5191-1095",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Brute Heavy Melee Weapon",
+                "id": "6ab6-b42a-a6b7-7dd6",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "9998-b47e-74a3-42f8",
+                    "name": "Brute Heavy Melee Weapon",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Lethal Hits"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "49d1-993a-95ce-d70c",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "1762-2b84-57de-210c",
+                    "name": "Lethal Hits",
+                    "targetId": "d1d1-611e-5191-1095",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Gravity Hammer",
+                "id": "1340-b918-d0f3-2291",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "a13a-9154-dad6-df3f",
+                    "name": "Gravity Hammer",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "10"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-4"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Devastating Wounds, Gravity Slam"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "7ee8-cfb0-d08f-7a58",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "id": "8d14-0c1e-a304-d05a",
+                    "name": "Devastating Wounds",
+                    "targetId": "be1e-ac8e-1e2c-3528",
+                    "type": "rule",
+                    "hidden": false
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "c379-b6ec-905a-8938",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "8407-db9f-8961-5f20",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "defaultSelectionEntryId": "d0e7-cc78-d6ef-fe20"
+          },
+          {
+            "name": "Wargear",
+            "id": "667f-8953-3d78-3e98",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Officer Shield Generator",
+                "id": "a964-1960-40b5-590f",
+                "type": "upgrade",
+                "hidden": false,
+                "import": true,
+                "profiles": [
+                  {
+                    "id": "42c2-c6e1-7da9-a8fa",
+                    "name": "Officer Shield Generator",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "The bearer has a starting SP value of 3."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "26d7-e457-9ed3-aa60",
+                    "name": "Officer Shield Generator",
+                    "hidden": false,
+                    "typeId": "6f69-e28a-7643-db6f",
+                    "typeName": "Shields",
+                    "characteristics": [
+                      {
+                        "name": "SP",
+                        "typeId": "de31-d72e-cbc6-9c6e",
+                        "$text": "3"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "406c-82d1-1c81-33dd",
+                    "type": "max",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "2293-d082-940c-664e",
+                "type": "min",
+                "value": 0,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "db5c-60c4-9c5d-c02e",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "add",
+            "field": "error",
+            "value": "Brute Shot cannot be taken with a Brute Heavy Melee Weapon.",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "57ff-c29e-19e0-3081",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ],
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "6ab6-b42a-a6b7-7dd6",
+                        "field": "selections",
+                        "scope": "self",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "Gravity Hammer replaces the ranged weapon: remove it.",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "1340-b918-d0f3-2291",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ],
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "ad2f-e0b7-f81b-3213",
+                        "field": "selections",
+                        "scope": "self",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "57ff-c29e-19e0-3081",
+                        "field": "selections",
+                        "scope": "self",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "field": "error",
+            "value": "Swords of Sanghelios: your army cannot include JIRALHANAE or SAN'SHYUUM models.",
+            "conditions": [
+              {
+                "childId": "77f3-4632-8ada-400c",
+                "field": "selections",
+                "scope": "roster",
+                "type": "atLeast",
+                "value": 1,
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 25
+          }
+        ],
+        "infoLinks": [
+          {
+            "id": "4366-1676-75ac-9e9b",
+            "name": "Feel No Pain 6+",
+            "targetId": "676c-ecb5-d24d-3540",
+            "type": "rule",
+            "hidden": false
+          }
+        ]
+      },
+      {
         "name": "Sangheili Ultra",
         "id": "c21b-7e5f-4af2-fce6",
         "type": "model",
@@ -137463,848 +138333,6 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 45
-          }
-        ]
-      },
-      {
-        "name": "Jiralhanae Pack Alpha",
-        "id": "cf51-b8f4-8eb0-cb3c",
-        "type": "model",
-        "hidden": false,
-        "import": true,
-        "profiles": [
-          {
-            "id": "25c5-e13d-d27b-86d7",
-            "name": "Jiralhanae Pack Alpha",
-            "hidden": false,
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "characteristics": [
-              {
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "6\""
-              },
-              {
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "5"
-              },
-              {
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da",
-                "$text": "4+"
-              },
-              {
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "3"
-              },
-              {
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc",
-                "$text": "6+"
-              },
-              {
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8",
-                "$text": "2"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "-"
-              }
-            ]
-          },
-          {
-            "id": "9e87-1eab-6467-9289",
-            "name": "Caste Doctrines",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model can issue Relentless Charge, Savage Momentum or Unyielding Fury."
-              }
-            ]
-          },
-          {
-            "id": "caed-0950-9db2-30c3",
-            "name": "Model Keywords",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Jiralhanae, Infantry, Grenades, Sergeant, Pack Alpha. These keywords belong to this model only, not to its unit (Caste Hierarchy)."
-              }
-            ]
-          }
-        ],
-        "selectionEntries": [
-          {
-            "name": "Mangler",
-            "id": "71f0-5132-089a-40ff",
-            "type": "upgrade",
-            "hidden": false,
-            "import": true,
-            "profiles": [
-              {
-                "id": "5a75-2e02-71ff-bc6e",
-                "name": "Mangler",
-                "hidden": false,
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "12\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "1"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "4+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "5"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "0"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "1"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Devastating Wounds, Pistol"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "2188-e101-5445-7ec5",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "ffbd-eeb9-69c8-6914",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "infoLinks": [
-              {
-                "id": "0b11-929f-0ee5-be2c",
-                "name": "Devastating Wounds",
-                "targetId": "be1e-ac8e-1e2c-3528",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "0ae1-e2e2-f512-0de5",
-                "name": "Pistol",
-                "targetId": "8bf7-8812-923d-29e4",
-                "type": "rule",
-                "hidden": false
-              }
-            ]
-          }
-        ],
-        "selectionEntryGroups": [
-          {
-            "name": "Ranged weapon",
-            "id": "e552-8f8b-ac97-478b",
-            "hidden": false,
-            "selectionEntries": [
-              {
-                "name": "Spiker",
-                "id": "ad2f-e0b7-f81b-3213",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "profiles": [
-                  {
-                    "id": "8fa2-8c2c-0772-522c",
-                    "name": "Spiker",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "24\""
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "2"
-                      },
-                      {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "4+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "5"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-1"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Devastating Wounds"
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "id": "db55-f3c0-7acc-7120",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "c5f7-615f-b2e9-6e9a",
-                    "name": "Devastating Wounds",
-                    "targetId": "be1e-ac8e-1e2c-3528",
-                    "type": "rule",
-                    "hidden": false
-                  }
-                ]
-              },
-              {
-                "name": "Brute Shot",
-                "id": "57ff-c29e-19e0-3081",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "profiles": [
-                  {
-                    "id": "1b10-0540-76e2-28b6",
-                    "name": "Brute Shot",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "12\""
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "3"
-                      },
-                      {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "4+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "2"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Blast, Ignores Cover"
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "id": "246b-c0c5-4e7d-b32b",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "da84-ab96-c400-adda",
-                    "name": "Blast",
-                    "targetId": "6c1f-1cf7-ff25-c99e",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "42d1-ed65-b5e7-a657",
-                    "name": "Ignores Cover",
-                    "targetId": "4640-43e7-30b-215a",
-                    "type": "rule",
-                    "hidden": false
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "491e-506c-2b3f-0e8a",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "6514-b350-aca8-f3d7",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "defaultSelectionEntryId": "ad2f-e0b7-f81b-3213",
-            "modifiers": [
-              {
-                "type": "set",
-                "field": "491e-506c-2b3f-0e8a",
-                "value": 0,
-                "conditions": [
-                  {
-                    "childId": "1340-b918-d0f3-2291",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "field": "6514-b350-aca8-f3d7",
-                "value": 0,
-                "conditions": [
-                  {
-                    "childId": "1340-b918-d0f3-2291",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Melee weapon",
-            "id": "03d3-77ab-6639-82b3",
-            "hidden": false,
-            "selectionEntries": [
-              {
-                "name": "Brute Close Combat Weapon",
-                "id": "d0e7-cc78-d6ef-fe20",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "profiles": [
-                  {
-                    "id": "f1ed-ab25-9ebf-7011",
-                    "name": "Brute Close Combat Weapon",
-                    "hidden": false,
-                    "typeId": "8a40-4aaa-c780-9046",
-                    "typeName": "Melee Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "914c-b413-91e3-a132",
-                        "$text": "Melee"
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "2337-daa1-6682-b110",
-                        "$text": "3"
-                      },
-                      {
-                        "name": "WS",
-                        "typeId": "95d1-95f-45b4-11d6",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "ab33-d393-96ce-ccba",
-                        "$text": "4"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "41a0-1301-112a-e2f2",
-                        "$text": "-1"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "3254-9fe6-d824-513e",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Lethal Hits"
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "id": "a31a-8f2f-60cc-fb72",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "ab6b-4f5a-96a2-3330",
-                    "name": "Lethal Hits",
-                    "targetId": "d1d1-611e-5191-1095",
-                    "type": "rule",
-                    "hidden": false
-                  }
-                ]
-              },
-              {
-                "name": "Brute Heavy Melee Weapon",
-                "id": "6ab6-b42a-a6b7-7dd6",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "profiles": [
-                  {
-                    "id": "9998-b47e-74a3-42f8",
-                    "name": "Brute Heavy Melee Weapon",
-                    "hidden": false,
-                    "typeId": "8a40-4aaa-c780-9046",
-                    "typeName": "Melee Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "914c-b413-91e3-a132",
-                        "$text": "Melee"
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "2337-daa1-6682-b110",
-                        "$text": "3"
-                      },
-                      {
-                        "name": "WS",
-                        "typeId": "95d1-95f-45b4-11d6",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "ab33-d393-96ce-ccba",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "41a0-1301-112a-e2f2",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "3254-9fe6-d824-513e",
-                        "$text": "2"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Lethal Hits"
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "id": "49d1-993a-95ce-d70c",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "1762-2b84-57de-210c",
-                    "name": "Lethal Hits",
-                    "targetId": "d1d1-611e-5191-1095",
-                    "type": "rule",
-                    "hidden": false
-                  }
-                ]
-              },
-              {
-                "name": "Gravity Hammer",
-                "id": "1340-b918-d0f3-2291",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "profiles": [
-                  {
-                    "id": "a13a-9154-dad6-df3f",
-                    "name": "Gravity Hammer",
-                    "hidden": false,
-                    "typeId": "8a40-4aaa-c780-9046",
-                    "typeName": "Melee Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "914c-b413-91e3-a132",
-                        "$text": "Melee"
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "2337-daa1-6682-b110",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "WS",
-                        "typeId": "95d1-95f-45b4-11d6",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "ab33-d393-96ce-ccba",
-                        "$text": "10"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "41a0-1301-112a-e2f2",
-                        "$text": "-4"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "3254-9fe6-d824-513e",
-                        "$text": "5"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Devastating Wounds, Gravity Slam"
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "id": "7ee8-cfb0-d08f-7a58",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 10
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "8d14-0c1e-a304-d05a",
-                    "name": "Devastating Wounds",
-                    "targetId": "be1e-ac8e-1e2c-3528",
-                    "type": "rule",
-                    "hidden": false
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "c379-b6ec-905a-8938",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "8407-db9f-8961-5f20",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "defaultSelectionEntryId": "d0e7-cc78-d6ef-fe20"
-          },
-          {
-            "name": "Wargear",
-            "id": "667f-8953-3d78-3e98",
-            "hidden": false,
-            "selectionEntries": [
-              {
-                "name": "Officer Shield Generator",
-                "id": "a964-1960-40b5-590f",
-                "type": "upgrade",
-                "hidden": false,
-                "import": true,
-                "profiles": [
-                  {
-                    "id": "42c2-c6e1-7da9-a8fa",
-                    "name": "Officer Shield Generator",
-                    "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "The bearer has a starting SP value of 3."
-                      }
-                    ]
-                  },
-                  {
-                    "id": "26d7-e457-9ed3-aa60",
-                    "name": "Officer Shield Generator",
-                    "hidden": false,
-                    "typeId": "6f69-e28a-7643-db6f",
-                    "typeName": "Shields",
-                    "characteristics": [
-                      {
-                        "name": "SP",
-                        "typeId": "de31-d72e-cbc6-9c6e",
-                        "$text": "3"
-                      }
-                    ]
-                  }
-                ],
-                "constraints": [
-                  {
-                    "id": "406c-82d1-1c81-33dd",
-                    "type": "max",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 20
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "2293-d082-940c-664e",
-                "type": "min",
-                "value": 0,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "db5c-60c4-9c5d-c02e",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ]
-          }
-        ],
-        "modifiers": [
-          {
-            "type": "add",
-            "field": "error",
-            "value": "Brute Shot cannot be taken with a Brute Heavy Melee Weapon.",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "57ff-c29e-19e0-3081",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "childId": "6ab6-b42a-a6b7-7dd6",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "type": "atLeast",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "add",
-            "field": "error",
-            "value": "Gravity Hammer replaces the ranged weapon: remove it.",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "1340-b918-d0f3-2291",
-                    "field": "selections",
-                    "scope": "self",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "childId": "ad2f-e0b7-f81b-3213",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "type": "atLeast",
-                        "value": 1
-                      },
-                      {
-                        "childId": "57ff-c29e-19e0-3081",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "type": "atLeast",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "add",
-            "field": "error",
-            "value": "Swords of Sanghelios: your army cannot include JIRALHANAE or SAN'SHYUUM models.",
-            "conditions": [
-              {
-                "childId": "77f3-4632-8ada-400c",
-                "field": "selections",
-                "scope": "roster",
-                "type": "atLeast",
-                "value": 1,
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          }
-        ],
-        "costs": [
-          {
-            "name": "pts",
-            "typeId": "51b2-306e-1021-d207",
-            "value": 25
-          }
-        ],
-        "infoLinks": [
-          {
-            "id": "4366-1676-75ac-9e9b",
-            "name": "Feel No Pain 6+",
-            "targetId": "676c-ecb5-d24d-3540",
-            "type": "rule",
-            "hidden": false
           }
         ]
       },
