@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 34
+REVISION = 35
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -38,9 +38,9 @@ WEAPON_RULES = {"Supercombine": r"\bSupercombine\b", "Plasma": r"\bPlasma \((?:D
 WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel 'Vadam", "Rtas 'Vadum", "Tartarus",
               "Sangheili Shipmaster", "Sangheili Fieldmaster", "Jiralhanae Chieftain", "Yig-Yar Corsair-Talon"}
 # Sergeant on top of every unit. Auxiliaries: add one ("+"), then choose its weapons and Specialist ability.
-# The Jiralhanae Assault Pack is laid out like the Emperor's Children Tormentors instead: Sergeant, model counters, then
-# Auxiliary models as counters (one model type per loadout), then Auxiliary abilities with a model picker.
-TORMENTOR_STYLE = {"Jiralhanae Assault Pack"}
+# Units listed here would instead show Auxiliaries as counters, one model type per loadout, as the Emperor's Children
+# Tormentors (the Jiralhanae Assault Pack used this until revision 35).
+TORMENTOR_STYLE = set()
 # Species keywords a unit gains from its Sergeant and Auxiliary models (core rules: a unit has the keywords of all its
 # models). The unit keywords (GRUNT, ELITE, BRUTE, JACKAL, DRONE, HUNTER, ENGINEER) are on datasheets only.
 SPECIES = {"Sangheili", "Special Operations", "Jiralhanae", "Yig-Yar", "T'vaoan", "Unggoy", "Huragok", "Yanme'e",

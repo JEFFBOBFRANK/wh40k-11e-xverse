@@ -190,9 +190,9 @@ Back to the layout before revision 13, with the Sergeant on top of every unit:
 3. **Auxiliary**: add an Auxiliary model ("+"), then choose its weapons (Ranged weapon, Sidearm, Melee weapon,
    Wargear) and its Specialist ability on that model. The Auxiliary Slots total still applies.
 
-The Jiralhanae Assault Pack keeps the Tormentor layout (Auxiliaries as counters, one per loadout, and Specialist
-abilities with a model picker). Revisions 13-25 tried that layout on every unit, then a size tick and weapon swaps;
-all of it is undone.
+Every unit, the Jiralhanae Assault Pack included (revision 35), uses this layout. Revisions 13-25 tried the Tormentor
+layout (Auxiliaries as counters, one per loadout) on every unit, then a size tick and weapon swaps; all of it is
+undone.
 
 ## Points (revision 24)
 
