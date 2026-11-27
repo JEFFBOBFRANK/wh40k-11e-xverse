@@ -81,13 +81,8 @@ UNITS = {
 
     # Characters
     "San'Shyuum Advisor": S(),
-    # commanders: 1 Sangheili bodyguard and 2 Unggoy specialists, always (Auxiliary models with their options)
-    "Sangheili Shipmaster": S(aux=[Pool(entries=["Sangheili Auxiliary"], fixed=1, required=True, label="Bodyguard"),
-                                   Pool(entries=["Unggoy Auxiliary"], fixed=2, required=True,
-                                        label="Unggoy Specialists")]),
-    "Sangheili Fieldmaster": S(aux=[Pool(entries=["Sangheili Auxiliary"], fixed=1, required=True, label="Bodyguard"),
-                                    Pool(entries=["Unggoy Auxiliary"], fixed=2, required=True,
-                                         label="Unggoy Specialists")]),
+    "Sangheili Shipmaster": S(),
+    "Sangheili Fieldmaster": S(),
     "Sangheili Blademaster": S(),
     "Jiralhanae Chieftain": S(weapons=[], gear=["Chieftain Shield"], choices=[C("Weapons", [
         "Spiker + Brute Heavy Melee Weapon", "Bolt Spiker + Brute Heavy Melee Weapon",

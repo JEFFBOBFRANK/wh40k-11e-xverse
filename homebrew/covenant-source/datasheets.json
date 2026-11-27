@@ -756,8 +756,7 @@
   },
   "page": 49,
   "unit_composition": [
-   "1 Sangheili Shipmaster",
-   "1 Sangheili Auxiliary (bodyguard) and 2 Unggoy Auxiliaries (specialists). Each Auxiliary model can take one Specialist ability from its entry, at the points shown."
+   "1 Sangheili Shipmaster"
   ],
   "equipped": [
    "Plasma Repeater",
@@ -831,10 +830,6 @@
    {
     "name": "Fleet Coordination",
     "text": "Once per battle round, when a friendly COVENANT unit makes an ingress move while this model is on the battlefield, it can be set up wholly within 9\" of this model instead of within 6\" of a battlefield edge. All other ingress rules still apply."
-   },
-   {
-    "name": "Command Retinue",
-    "text": "While this unit contains one or more other models, attacks can only be allocated to this model if they have [PRECISION]."
    }
   ],
   "keywords": [
@@ -862,8 +857,7 @@
   },
   "page": 50,
   "unit_composition": [
-   "1 Sangheili Fieldmaster",
-   "1 Sangheili Auxiliary (bodyguard) and 2 Unggoy Auxiliaries (specialists). Each Auxiliary model can take one Specialist ability from its entry, at the points shown."
+   "1 Sangheili Fieldmaster"
   ],
   "equipped": [
    "Plasma Rifle",
@@ -938,10 +932,6 @@
    {
     "name": "Rally the Line",
     "text": "In your Command phase, select one battle-shocked friendly COVENANT INFANTRY unit within 6\" of this model. That unit is no longer battle-shocked."
-   },
-   {
-    "name": "Command Retinue",
-    "text": "While this unit contains one or more other models, attacks can only be allocated to this model if they have [PRECISION]."
    }
   ],
   "keywords": [

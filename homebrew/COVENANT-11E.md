@@ -186,8 +186,8 @@ Every unit with a Sergeant or Auxiliaries is laid out like the Emperor's Childre
 `sergeants`, `aux_types` and `auxiliaries`):
 
 1. The Sergeant sits at the top, as the Obsessionist: one choice (e.g. Jiralhanae Pack Alpha or Sangheili Ultra), and
-   its weapon choices open underneath. Ticking the other replaces it. A character with a retinue (Shipmaster,
-   Fieldmaster) stays on top of the unit.
+   its weapon choices open underneath. Ticking the other replaces it. A character with a retinue stays on top of
+   the unit.
 2. The unit's own model counters and model types, as before.
 3. Auxiliary models are counters too, one model type per loadout, as "Tormentor with Meltagun": for example Sangheili
    Auxiliary with Fuel Rod, Jiralhanae Auxiliary with Gravity Hammer, T'vaoan Auxiliary with Shield Raider, Unggoy
@@ -219,20 +219,15 @@ catalogue (not as units) for checking. Swords of Sanghelios' error also covers J
 
 The Revenant, Spectre, Raider-Skiff, Prowler Command Barge and Scarab keep their infantry capacities.
 
-## Shipmaster and Fieldmaster (revision 20)
+## Shipmaster and Fieldmaster (revision 21)
 
-Each is a command unit and a Leader: the character, 1 Sangheili Auxiliary as its bodyguard and 2 Unggoy Auxiliaries as
-specialists, always (they start selected; their weapons and Specialist abilities are chosen as on any Auxiliary). The
-Sergeant option and the 0-3 Sangheili / 0-2 Unggoy retinue are gone. When the commander leads a unit, the whole
-command unit joins it. Command Retinue: while the unit has other models, attacks are allocated to the commander only
-if they have [PRECISION].
+Single-model Leaders again (revision 20's bodyguard and Unggoy specialists were dropped), with no Sergeant or
+Auxiliary retinue. Glassing Beam and Call in Reinforcements are gone.
 
 | Unit | Points | Abilities |
 |---|---|---|
-| Sangheili Shipmaster | 90 + 50 for the retinue = 140 | Shipmaster's Command (kept); Fleet Coordination: once per battle round a unit arriving from strategic reserves can be set up within 9" of the Shipmaster |
-| Sangheili Fieldmaster | 95 + 50 = 145 | Field Command: once per battle round a Sergeant within 6" issues one more Caste Doctrine; Rally the Line: a battle-shocked INFANTRY unit within 6" recovers in your Command phase |
-
-Glassing Beam and Call in Reinforcements are removed.
+| Sangheili Shipmaster | 90 (was 155) | Shipmaster's Command; Fleet Coordination: once per battle round a unit arriving from strategic reserves can be set up within 9" of the Shipmaster |
+| Sangheili Fieldmaster | 95 (was 180) | Field Command: once per battle round a Sergeant within 6" issues one more Caste Doctrine; Rally the Line: a battle-shocked INFANTRY unit within 6" recovers in your Command phase |
 
 ## Frame (revision 15)
 
