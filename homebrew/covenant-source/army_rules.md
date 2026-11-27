@@ -107,4 +107,11 @@ Weapon exchanges are free, except: Fuel Rod, Skewer, two Needlers, Gravity Hamme
 
 ## Transport Space
 
-Each model takes up transport capacity by size: INFANTRY models 1 (MGALEKGOLO models 5), MOUNTED models 4 and VEHICLE models 8. A TRANSPORT whose capacity is given in Transport Space can carry any mix of eligible models up to that total, within the limits on its datasheet. AIRCRAFT, TITANIC and TRANSPORT VEHICLE models cannot be carried unless a datasheet says otherwise; MOUNTED transports such as the Revenant and Spectre can.
+Each model takes up the following Transport Space:
+
+■ INFANTRY: 1
+■ HUNTER INFANTRY: 5
+■ MOUNTED: 4
+■ VEHICLE: 8
+
+A TRANSPORT whose capacity is given in Transport Space can carry any mix of eligible models up to that total, within the limits on its datasheet. AIRCRAFT, TITANIC and TRANSPORT VEHICLE models cannot be carried unless a datasheet says otherwise.

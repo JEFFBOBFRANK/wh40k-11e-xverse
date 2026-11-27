@@ -217,19 +217,20 @@ The points steps (revision 23) apply on top of these prices.
 
 - Plasma's rule text is one sentence (no "Plasma (DX) / Plasma (APX):" heading or blank first line in New Recruit's
   popup). Every weapon with Plasma (DX) or Plasma (APX) links it.
-- Transport Space (army rule): INFANTRY 1 (MGALEKGOLO 5), MOUNTED 4, VEHICLE 8; a transport with a capacity in
-  Transport Space carries any mix up to that total, within its datasheet's limits. AIRCRAFT, TITANIC and TRANSPORT
-  VEHICLE models cannot be carried unless a datasheet says so; MOUNTED transports (Revenant, Spectre) can.
+- Transport Space (army rule, revision 32): INFANTRY 1, HUNTER INFANTRY 5, MOUNTED 4, VEHICLE 8. A transport with a
+  capacity in Transport Space carries any mix up to that total, within its datasheet's limits. AIRCRAFT, TITANIC and
+  TRANSPORT VEHICLE models cannot be carried unless a datasheet says so.
 
 | Transport | Transport Space | Limits |
 |---|---|---|
-| Spirit | 30 | at most 2 VEHICLE (e.g. 2 Wraiths, 1 Ghost and 10 INFANTRY) |
-| Phantom | 24 | at most 1 VEHICLE and 2 MOUNTED (e.g. 1 Wraith, 1 Ghost and 12 INFANTRY) |
-| Shadow | 8 | INFANTRY (no MGALEKGOLO) and 1 MOUNTED; no VEHICLE |
-| Lich | 48 | at most 4 VEHICLE; can carry 1 Phantom with its embarked units (revision 14) |
-| Kraken | 264 | at most 8 VEHICLE; can carry 1 Phantom with its embarked units (revision 14) |
+| Spirit | 30 | at most 2 VEHICLE |
+| Phantom | 24 | at most 1 VEHICLE and 2 MOUNTED |
+| Shadow | 8 | INFANTRY (no HUNTER) and 1 MOUNTED; no VEHICLE |
+| Scarab | 20 | INFANTRY only |
+| Lich | 48 | at most 4 VEHICLE; can carry 1 Phantom with its embarked units |
+| Kraken | 264 | at most 8 VEHICLE; can carry 1 Phantom with its embarked units |
 
-The Revenant, Spectre, Raider-Skiff, Prowler Command Barge and Scarab keep their infantry capacities.
+The Revenant, Spectre, Raider-Skiff and Prowler Command Barge keep their infantry capacities.
 
 ## Shipmaster and Fieldmaster (revision 21)
 

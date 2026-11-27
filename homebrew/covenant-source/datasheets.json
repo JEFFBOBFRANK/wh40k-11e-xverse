@@ -5505,7 +5505,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 30 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 2 VEHICLE models. For example: 2 Wraiths (16), 1 Ghost (4) and 10 INFANTRY models (10)."
+   "Transport capacity: 30 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 2 VEHICLE models."
   ],
   "rules_notes": [],
   "wargear": [],
@@ -5944,7 +5944,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 8 Transport Space. This model can carry COVENANT INFANTRY models, excluding MGALEKGOLO models, and 1 MOUNTED model. It cannot carry VEHICLE models."
+   "Transport capacity: 8 Transport Space. This model can carry COVENANT INFANTRY models, excluding HUNTER models, and 1 MOUNTED model. It cannot carry VEHICLE models."
   ],
   "rules_notes": [],
   "wargear": [],
@@ -6019,7 +6019,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 24 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 1 VEHICLE model and 2 MOUNTED models. For example: 1 Wraith (8), 1 Ghost (4) and 12 INFANTRY models (12)."
+   "Transport capacity: 24 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 1 VEHICLE model and 2 MOUNTED models."
   ],
   "rules_notes": [],
   "wargear": [],
@@ -6102,7 +6102,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 20 Covenant Infantry models. Each Mgalekgolo model takes the space of 5 models."
+   "Transport capacity: 20 Transport Space. This model can carry COVENANT INFANTRY models."
   ],
   "rules_notes": [],
   "wargear": [],

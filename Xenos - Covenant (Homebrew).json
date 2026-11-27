@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 31,
+    "revision": 32,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -59783,7 +59783,7 @@
               {
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84",
-                "$text": "30 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 2 VEHICLE models. For example: 2 Wraiths (16), 1 Ghost (4) and 10 INFANTRY models (10)."
+                "$text": "30 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 2 VEHICLE models."
               }
             ]
           },
@@ -62941,7 +62941,7 @@
               {
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84",
-                "$text": "8 Transport Space. This model can carry COVENANT INFANTRY models, excluding MGALEKGOLO models, and 1 MOUNTED model. It cannot carry VEHICLE models."
+                "$text": "8 Transport Space. This model can carry COVENANT INFANTRY models, excluding HUNTER models, and 1 MOUNTED model. It cannot carry VEHICLE models."
               }
             ]
           },
@@ -63509,7 +63509,7 @@
               {
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84",
-                "$text": "24 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 1 VEHICLE model and 2 MOUNTED models. For example: 1 Wraith (8), 1 Ghost (4) and 12 INFANTRY models (12)."
+                "$text": "24 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 1 VEHICLE model and 2 MOUNTED models."
               }
             ]
           },
@@ -64133,7 +64133,7 @@
               {
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84",
-                "$text": "20 Covenant Infantry models. Each Mgalekgolo model takes the space of 5 models."
+                "$text": "20 Transport Space. This model can carry COVENANT INFANTRY models."
               }
             ]
           },
@@ -64670,6 +64670,13 @@
                 "value": "Firing Deck 20"
               }
             ]
+          },
+          {
+            "id": "6546-2dfe-a505-e5c4",
+            "name": "Transport Space",
+            "targetId": "c607-1b68-433e-2b41",
+            "type": "rule",
+            "hidden": false
           },
           {
             "id": "e496-9846-495d-62d0",
@@ -85099,7 +85106,7 @@
         "name": "Transport Space",
         "id": "c607-1b68-433e-2b41",
         "hidden": false,
-        "description": "\n\nEach model takes up transport capacity by size: INFANTRY models 1 (MGALEKGOLO models 5), MOUNTED models 4 and VEHICLE models 8. A TRANSPORT whose capacity is given in Transport Space can carry any mix of eligible models up to that total, within the limits on its datasheet. AIRCRAFT, TITANIC and TRANSPORT VEHICLE models cannot be carried unless a datasheet says otherwise; MOUNTED transports such as the Revenant and Spectre can."
+        "description": "\n\nEach model takes up the following Transport Space:\n\n■ INFANTRY: 1\n■ HUNTER INFANTRY: 5\n■ MOUNTED: 4\n■ VEHICLE: 8\n\nA TRANSPORT whose capacity is given in Transport Space can carry any mix of eligible models up to that total, within the limits on its datasheet. AIRCRAFT, TITANIC and TRANSPORT VEHICLE models cannot be carried unless a datasheet says otherwise."
       },
       {
         "name": "Frame",
