@@ -458,20 +458,22 @@
  },
  {
   "name": "Covenant Expeditionary Force",
-  "dp": 2,
+  "dp": 3,
   "unique": null,
   "disposition": "Priority Assets",
   "rules": [
    {
-    "name": "Combined Command",
+    "name": "Orders",
     "text": [
-     "Each time a Sergeant model from your army issues a Caste Doctrine, you can select one friendly COVENANT VEHICLE or MOUNTED unit within 6\" of that Sergeant model. That unit is also affected by that Doctrine, as though it contained that Sergeant model."
+     "In this detachment, issuing a Caste Doctrine is called an order. Each battle round, each SANGHEILI Sergeant model from your army can issue up to 3 orders, each JIRALHANAE Sergeant model up to 2, and each other Sergeant model 1.",
+     "Each order is issued at the start of any phase, to the Sergeant model's own unit or to one friendly COVENANT unit of any kind (including VEHICLE and MOUNTED units) within 6\" of it. That unit is affected by that Doctrine as though it contained that Sergeant model. A unit can still be affected by only one Caste Doctrine at a time."
     ]
    },
    {
     "name": "Combined Arms",
     "text": [
-     "While a COVENANT INFANTRY unit from your army is within 6\" of a COVENANT VEHICLE or MOUNTED unit from your army, each time a model in either unit makes an attack, re-roll a hit roll of 1."
+     "Each unit's designation is its unit keyword: ELITE, BRUTE, GRUNT, JACKAL, DRONE, HUNTER or ENGINEER. VEHICLE and MOUNTED units have the VEHICLE designation instead. An Attached unit has the designations of all its units.",
+     "While a unit from your army is within 6\" of a friendly unit with a designation it does not have, each time a model in it makes an attack, re-roll a hit roll of 1."
     ]
    }
   ],
@@ -482,7 +484,7 @@
     "upgrade": false,
     "restriction": null,
     "text": [
-     "While the bearer is leading a unit, that unit's Sergeant model can issue one additional Caste Doctrine each battle round."
+     "While the bearer is leading a unit, that unit's Sergeant model can issue one additional order each battle round."
     ]
    },
    {
@@ -535,8 +537,8 @@
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
     "when": "Start of any phase.",
-    "target": "One unit from your army whose Sergeant model has already issued a Caste Doctrine this battle round.",
-    "effect": "That Sergeant model can issue a different Caste Doctrine. It replaces the Doctrine affecting your unit."
+    "target": "One unit from your army whose Sergeant model has issued all of its orders this battle round.",
+    "effect": "That Sergeant model can issue one additional order this battle round."
    },
    {
     "name": "Focused Fire",

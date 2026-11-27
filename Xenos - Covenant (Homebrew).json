@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 16,
+    "revision": 17,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -950,24 +950,31 @@
                   {
                     "name": "Detachment Points",
                     "typeId": "82ae-1066-5107-6ae0",
-                    "value": 2
+                    "value": 3
                   }
                 ],
                 "rules": [
                   {
-                    "name": "Combined Command",
-                    "id": "a931-89c0-f090-e548",
+                    "name": "Orders",
+                    "id": "78d2-476d-33f8-69ec",
                     "hidden": false,
-                    "description": "\n\nEach time a Sergeant model from your army issues a Caste Doctrine, you can select one friendly COVENANT VEHICLE or MOUNTED unit within 6\" of that Sergeant model. That unit is also affected by that Doctrine, as though it contained that Sergeant model."
+                    "description": "\n\nIn this detachment, issuing a Caste Doctrine is called an order. Each battle round, each SANGHEILI Sergeant model from your army can issue up to 3 orders, each JIRALHANAE Sergeant model up to 2, and each other Sergeant model 1.\n\nEach order is issued at the start of any phase, to the Sergeant model's own unit or to one friendly COVENANT unit of any kind (including VEHICLE and MOUNTED units) within 6\" of it. That unit is affected by that Doctrine as though it contained that Sergeant model. A unit can still be affected by only one Caste Doctrine at a time."
                   },
                   {
                     "name": "Combined Arms",
                     "id": "8fd4-a6ee-bf4f-962b",
                     "hidden": false,
-                    "description": "\n\nWhile a COVENANT INFANTRY unit from your army is within 6\" of a COVENANT VEHICLE or MOUNTED unit from your army, each time a model in either unit makes an attack, re-roll a hit roll of 1."
+                    "description": "\n\nEach unit's designation is its unit keyword: ELITE, BRUTE, GRUNT, JACKAL, DRONE, HUNTER or ENGINEER. VEHICLE and MOUNTED units have the VEHICLE designation instead. An Attached unit has the designations of all its units.\n\nWhile a unit from your army is within 6\" of a friendly unit with a designation it does not have, each time a model in it makes an attack, re-roll a hit roll of 1."
                   }
                 ],
                 "categoryLinks": [
+                  {
+                    "name": "3DP Detachment",
+                    "id": "752f-ab04-f2c1-bc1e",
+                    "targetId": "7d80-2de5-816e-9d2b",
+                    "primary": false,
+                    "hidden": false
+                  },
                   {
                     "name": "Priority Assets",
                     "id": "bdb2-78f1-6922-9724",
@@ -149992,7 +149999,7 @@
             "name": "Hierarch's Mandate",
             "id": "a5b6-995b-ee2b-0ed5",
             "hidden": false,
-            "description": "While the bearer is leading a unit, that unit's Sergeant model can issue one additional Caste Doctrine each battle round."
+            "description": "While the bearer is leading a unit, that unit's Sergeant model can issue one additional order each battle round."
           }
         ]
       },
@@ -152939,7 +152946,7 @@
         "name": "Covenant Expeditionary Force — Change of Command / 1 CP",
         "id": "719c-3563-8869-e750",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Start of any phase.\n\n**Target**<br>One unit from your army whose Sergeant model has already issued a Caste Doctrine this battle round.\n\n**Effect**<br>That Sergeant model can issue a different Caste Doctrine. It replaces the Doctrine affecting your unit."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Start of any phase.\n\n**Target**<br>One unit from your army whose Sergeant model has issued all of its orders this battle round.\n\n**Effect**<br>That Sergeant model can issue one additional order this battle round."
       },
       {
         "name": "Covenant Expeditionary Force — Focused Fire / 1 CP",
