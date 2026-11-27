@@ -296,6 +296,15 @@ always count for Combined Arms); Coordinated Strike, Armoured Escort and Combine
 Assault replaces Focused Fire (+1 to wound in melee against a unit also engaged with another designation); Extended
 Command Net replaces Change of Command (a Sergeant's Caste Doctrines reach 12" for a phase).
 
+## Healing (revision 34)
+
+Healing follows the 11e core rule (02.02.04): a unit that heals X regains up to X lost wounds on its wounded models, and
+once they are all at full wounds each further wound revives one destroyed non-CHARACTER model with 1 wound; a model
+that heals only regains its own wounds. Reinforce the Levy (Grunt Levy) and Endless Hive (Drone Hive Swarm) now read
+"your unit heals D3+2 / D3+1"; Colony Regeneration (Bonded Colony) and Repair and Refit (Huragok Engineer) heal the
+model; Biological Restoration (Huragok Auxiliary) heals one model D3 and once per battle revives one model instead.
+Shield regeneration (lost SP) is not healing and is unchanged.
+
 ## Frame (revision 15)
 
 FRAME (core rules 17.02) is for models without a base and some other large models. It is on the vehicles and

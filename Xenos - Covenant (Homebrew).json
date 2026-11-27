@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 33,
+    "revision": 34,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -1206,7 +1206,7 @@
                     "name": "Living Colony",
                     "id": "79b4-c6da-3abf-d4c9",
                     "hidden": false,
-                    "description": "​<br><br>**Colony Regeneration:**<br>At the start of your Command phase, each model in a HUNTER unit from your army regains up to D3 lost wounds.\n\n**Hunters of Machines:**<br>Each time a MGALEKGOLO model from your army makes an attack that targets a VEHICLE or MONSTER unit, re-roll a wound roll of 1."
+                    "description": "​<br><br>**Colony Regeneration:**<br>At the start of your Command phase, each model in a HUNTER unit from your army heals D3.\n\n**Hunters of Machines:**<br>Each time a MGALEKGOLO model from your army makes an attack that targets a VEHICLE or MONSTER unit, re-roll a wound roll of 1."
                   }
                 ],
                 "categoryLinks": [
@@ -18604,7 +18604,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the end of your Movement phase, select one friendly COVENANT VEHICLE or FORTIFICATION model within 3\". That model regains D3+1 lost Wounds or D3+1 lost SP. A model can be selected by this ability only once per turn."
+                "$text": "At the end of your Movement phase, select one friendly COVENANT VEHICLE or FORTIFICATION model within 3\". That model heals D3+1, or regains D3+1 lost SP. A model can be selected by this ability only once per turn."
               }
             ]
           },
@@ -81490,7 +81490,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "At the end of your Movement phase, select one other COVENANT INFANTRY model in this model's unit. It regains D3 lost Wounds. Once per battle, instead return one destroyed non-CHARACTER, non-Auxiliary model to that unit with 1 Wound remaining. That model cannot be Mgalekgolo and cannot have a starting W characteristic greater than 3."
+                        "$text": "At the end of your Movement phase, select one other COVENANT INFANTRY model in this model's unit; that model heals D3. Once per battle, instead revive one destroyed non-CHARACTER, non-Auxiliary model in this model's unit with 1 wound remaining. That model cannot be a HUNTER model or have a starting W characteristic greater than 3."
                       }
                     ]
                   }
@@ -85432,7 +85432,7 @@
         "name": "Drone Hive Swarm — Endless Hive / 1 CP",
         "id": "9d01-f72e-a221-367f",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Command phase.\n\n**Target**<br>One DRONE unit from your army that is below its starting strength.\n\n**Effect**<br>Up to D3+1 destroyed Yanme'e Drone models are returned to your unit."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Command phase.\n\n**Target**<br>One DRONE unit from your army that is below its starting strength.\n\n**Effect**<br>Your unit heals D3+1."
       },
       {
         "name": "Drone Hive Swarm — Needler Storm / 1 CP",
@@ -85492,7 +85492,7 @@
         "name": "Grunt Levy — Reinforce the Levy / 1 CP",
         "id": "fad6-a562-b638-9125",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Command phase.\n\n**Target**<br>One Grunt Cadre unit from your army that is below its starting strength.\n\n**Effect**<br>Up to D3+2 destroyed Unggoy Warrior models are returned to your unit."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Command phase.\n\n**Target**<br>One Grunt Cadre unit from your army that is below its starting strength.\n\n**Effect**<br>Your unit heals D3+2."
       },
       {
         "name": "Grunt Levy — Grenade Rush / 1 CP",

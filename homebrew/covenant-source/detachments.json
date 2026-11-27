@@ -935,7 +935,7 @@
     "type": "Strategic Ploy Stratagem",
     "when": "Your Command phase.",
     "target": "One DRONE unit from your army that is below its starting strength.",
-    "effect": "Up to D3+1 destroyed Yanme'e Drone models are returned to your unit."
+    "effect": "Your unit heals D3+1."
    },
    {
     "name": "Needler Storm",
@@ -966,7 +966,7 @@
    {
     "name": "Living Colony",
     "text": [
-     "**Colony Regeneration:** At the start of your Command phase, each model in a HUNTER unit from your army regains up to D3 lost wounds.",
+     "**Colony Regeneration:** At the start of your Command phase, each model in a HUNTER unit from your army heals D3.",
      "**Hunters of Machines:** Each time a MGALEKGOLO model from your army makes an attack that targets a VEHICLE or MONSTER unit, re-roll a wound roll of 1."
     ]
    }
@@ -1142,7 +1142,7 @@
     "type": "Strategic Ploy Stratagem",
     "when": "Your Command phase.",
     "target": "One Grunt Cadre unit from your army that is below its starting strength.",
-    "effect": "Up to D3+2 destroyed Unggoy Warrior models are returned to your unit."
+    "effect": "Your unit heals D3+2."
    },
    {
     "name": "Grenade Rush",

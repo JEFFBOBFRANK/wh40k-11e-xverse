@@ -1657,7 +1657,7 @@
    },
    {
     "name": "Repair and Refit",
-    "text": "At the end of your Movement phase, select one friendly COVENANT VEHICLE or FORTIFICATION model within 3\". That model regains D3+1 lost Wounds or D3+1 lost SP. A model can be selected by this ability only once per turn."
+    "text": "At the end of your Movement phase, select one friendly COVENANT VEHICLE or FORTIFICATION model within 3\". That model heals D3+1, or regains D3+1 lost SP. A model can be selected by this ability only once per turn."
    }
   ],
   "keywords": [
@@ -8558,7 +8558,7 @@
    {
     "name": "Biological Restoration",
     "points": 0,
-    "text": "At the end of your Movement phase, select one other COVENANT INFANTRY model in this model's unit. It regains D3 lost Wounds. Once per battle, instead return one destroyed non-CHARACTER, non-Auxiliary model to that unit with 1 Wound remaining. That model cannot be Mgalekgolo and cannot have a starting W characteristic greater than 3.",
+    "text": "At the end of your Movement phase, select one other COVENANT INFANTRY model in this model's unit; that model heals D3. Once per battle, instead revive one destroyed non-CHARACTER, non-Auxiliary model in this model's unit with 1 wound remaining. That model cannot be a HUNTER model or have a starting W characteristic greater than 3.",
     "source": "Huragok Lifeworker"
    },
    {
