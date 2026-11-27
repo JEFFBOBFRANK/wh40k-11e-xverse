@@ -3,7 +3,7 @@
   "name": "Prophet of Truth",
   "category": "EPIC HERO",
   "subtitle": "Supreme Hierarch - Epic Hero",
-  "points": 130,
+  "points": 140,
   "profile": {
    "M": "8\"",
    "T": "5",
@@ -18,7 +18,7 @@
    "1 Prophet of Truth - Epic Hero"
   ],
   "equipped": [
-   "Gravity Throne Assault Cannons",
+   "Hierarch's Throne Cannons",
    "Gravity Throne",
    "Hierarch Shield"
   ],
@@ -36,12 +36,12 @@
   ],
   "ranged_weapons": [
    {
-    "name": "Gravity Throne Assault Cannons",
+    "name": "Hierarch's Throne Cannons",
     "range": "24\"",
     "A": "6",
-    "BS_WS": "3+",
+    "BS_WS": "2+",
     "S": "6",
-    "AP": "-1",
+    "AP": "-2",
     "D": "2",
     "keywords": [
      "Twin-linked"
@@ -86,7 +86,7 @@
   "name": "Prophet of Regret",
   "category": "EPIC HERO",
   "subtitle": "Militant Hierarch - Epic Hero",
-  "points": 110,
+  "points": 120,
   "profile": {
    "M": "10\"",
    "T": "5",
@@ -101,7 +101,7 @@
    "1 Prophet of Regret - Epic Hero"
   ],
   "equipped": [
-   "Gravity Throne Assault Cannons",
+   "Crusader's Throne Cannons",
    "Gravity Throne",
    "Hierarch Shield"
   ],
@@ -119,12 +119,12 @@
   ],
   "ranged_weapons": [
    {
-    "name": "Gravity Throne Assault Cannons",
+    "name": "Crusader's Throne Cannons",
     "range": "24\"",
-    "A": "6",
+    "A": "8",
     "BS_WS": "3+",
     "S": "6",
-    "AP": "-1",
+    "AP": "-2",
     "D": "2",
     "keywords": [
      "Twin-linked"
@@ -205,7 +205,7 @@
     "name": "Gravity Throne Assault Cannons",
     "range": "24\"",
     "A": "6",
-    "BS_WS": "4+",
+    "BS_WS": "3+",
     "S": "6",
     "AP": "-1",
     "D": "2",
@@ -219,7 +219,7 @@
     "name": "Gravity Throne",
     "range": "Melee",
     "A": "2",
-    "BS_WS": "6+",
+    "BS_WS": "4+",
     "S": "4",
     "AP": "0",
     "D": "1",
@@ -268,7 +268,7 @@
   ],
   "equipped": [
    "Prophet's Bane",
-   "Plasma Rifle",
+   "Arbiter's Plasma Rifle",
    "Plasma Pistol",
    "Arbiter Personal Shield",
    "Stealth Projector"
@@ -293,9 +293,9 @@
   ],
   "ranged_weapons": [
    {
-    "name": "Plasma Rifle",
+    "name": "Arbiter's Plasma Rifle",
     "range": "15\"",
-    "A": "3",
+    "A": "4",
     "BS_WS": "2+",
     "S": "6",
     "AP": "-2",
@@ -382,9 +382,9 @@
    "1 Rtas 'Vadum - Epic Hero"
   ],
   "equipped": [
-   "Covenant Carbine",
+   "Fleetmaster's Carbine",
    "Plasma Pistol",
-   "Energy Sword",
+   "Rtas's Energy Sword",
    "Commander Personal Shield"
   ],
   "sergeant": [],
@@ -403,9 +403,9 @@
   ],
   "ranged_weapons": [
    {
-    "name": "Covenant Carbine",
+    "name": "Fleetmaster's Carbine",
     "range": "48\"",
-    "A": "2",
+    "A": "3",
     "BS_WS": "2+",
     "S": "6",
     "AP": "-2",
@@ -431,9 +431,9 @@
   ],
   "melee_weapons": [
    {
-    "name": "Energy Sword",
+    "name": "Rtas's Energy Sword",
     "range": "Melee",
-    "A": "5",
+    "A": "6",
     "BS_WS": "2+",
     "S": "8",
     "AP": "-3",
@@ -507,7 +507,7 @@
    {
     "name": "Covenant Carbine - N'tho",
     "range": "48\"",
-    "A": "2",
+    "A": "3",
     "BS_WS": "2+",
     "S": "6",
     "AP": "-2",
@@ -533,7 +533,7 @@
    {
     "name": "Plasma Rifles - Usze",
     "range": "15\"",
-    "A": "6",
+    "A": "8",
     "BS_WS": "2+",
     "S": "6",
     "AP": "-2",
@@ -549,7 +549,7 @@
    {
     "name": "Energy Sword",
     "range": "Melee",
-    "A": "4",
+    "A": "5",
     "BS_WS": "2+",
     "S": "8",
     "AP": "-3",
@@ -599,7 +599,7 @@
   "name": "Tartarus",
   "category": "EPIC HERO",
   "subtitle": "Chieftain of the Rukt Clan - Epic Hero",
-  "points": 150,
+  "points": 160,
   "profile": {
    "M": "6\"",
    "T": "6",
@@ -631,19 +631,33 @@
     "text": "The bearer has a starting SP value of 4."
    }
   ],
-  "ranged_weapons": [],
+  "ranged_weapons": [
+   {
+    "name": "Fist of Rukt - shockwave",
+    "range": "12\"",
+    "A": "3",
+    "BS_WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "keywords": [
+     "Blast 1"
+    ]
+   }
+  ],
   "melee_weapons": [
    {
-    "name": "Fist of Rukt",
+    "name": "Fist of Rukt - strike",
     "range": "Melee",
-    "A": "4",
+    "A": "5",
     "BS_WS": "2+",
     "S": "12",
     "AP": "-4",
     "D": "6",
     "keywords": [
      "Devastating Wounds",
-     "Gravity Slam"
+     "Gravity Slam",
+     "Cleave 2"
     ]
    }
   ],
@@ -690,7 +704,8 @@
    "1 San'Shyuum Advisor"
   ],
   "equipped": [
-   "Ceremonial Staff"
+   "Gravity Pulse",
+   "Energy Staff"
   ],
   "sergeant": [],
   "auxiliary": [],
@@ -701,16 +716,29 @@
   "transport": [],
   "rules_notes": [],
   "wargear": [],
-  "ranged_weapons": [],
+  "ranged_weapons": [
+   {
+    "name": "Gravity Pulse",
+    "range": "12\"",
+    "A": "2",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "keywords": [
+     "Pistol"
+    ]
+   }
+  ],
   "melee_weapons": [
    {
-    "name": "Ceremonial Staff",
+    "name": "Energy Staff",
     "range": "Melee",
-    "A": "2",
-    "BS_WS": "5+",
-    "S": "3",
-    "AP": "0",
-    "D": "1",
+    "A": "3",
+    "BS_WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
     "keywords": []
    }
   ],
@@ -745,7 +773,7 @@
   "name": "Sangheili Shipmaster",
   "category": "CHARACTER",
   "subtitle": "Fleet Command Unit",
-  "points": 90,
+  "points": 100,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -760,9 +788,9 @@
    "1 Sangheili Shipmaster"
   ],
   "equipped": [
-   "Plasma Repeater",
+   "Shipmaster's Plasma Repeater",
    "Plasma Pistol",
-   "Energy Sword",
+   "Ancestral Energy Sword",
    "Shipmaster Personal Shield"
   ],
   "sergeant": [],
@@ -781,10 +809,10 @@
   ],
   "ranged_weapons": [
    {
-    "name": "Plasma Repeater",
+    "name": "Shipmaster's Plasma Repeater",
     "range": "24\"",
-    "A": "2",
-    "BS_WS": "3+",
+    "A": "3",
+    "BS_WS": "2+",
     "S": "8",
     "AP": "-2",
     "D": "3",
@@ -797,7 +825,7 @@
     "name": "Plasma Pistol",
     "range": "12\"",
     "A": "1",
-    "BS_WS": "3+",
+    "BS_WS": "2+",
     "S": "6",
     "AP": "-2",
     "D": "1",
@@ -809,10 +837,10 @@
   ],
   "melee_weapons": [
    {
-    "name": "Energy Sword",
+    "name": "Ancestral Energy Sword",
     "range": "Melee",
-    "A": "4",
-    "BS_WS": "3+",
+    "A": "5",
+    "BS_WS": "2+",
     "S": "8",
     "AP": "-3",
     "D": "3",
@@ -847,7 +875,7 @@
   "name": "Sangheili Fieldmaster",
   "category": "CHARACTER",
   "subtitle": "Field Command Unit",
-  "points": 95,
+  "points": 105,
   "profile": {
    "M": "7\"",
    "T": "4",
@@ -862,9 +890,9 @@
    "1 Sangheili Fieldmaster"
   ],
   "equipped": [
-   "Plasma Rifle",
+   "Fieldmaster's Plasma Rifle",
    "Plasma Pistol",
-   "Energy Sword",
+   "Ancestral Energy Sword",
    "Fieldmaster Personal Shield"
   ],
   "sergeant": [],
@@ -883,10 +911,10 @@
   ],
   "ranged_weapons": [
    {
-    "name": "Plasma Rifle",
+    "name": "Fieldmaster's Plasma Rifle",
     "range": "15\"",
-    "A": "3",
-    "BS_WS": "3+",
+    "A": "4",
+    "BS_WS": "2+",
     "S": "6",
     "AP": "-2",
     "D": "1",
@@ -900,7 +928,7 @@
     "name": "Plasma Pistol",
     "range": "12\"",
     "A": "1",
-    "BS_WS": "3+",
+    "BS_WS": "2+",
     "S": "6",
     "AP": "-2",
     "D": "1",
@@ -912,10 +940,10 @@
   ],
   "melee_weapons": [
    {
-    "name": "Energy Sword",
+    "name": "Ancestral Energy Sword",
     "range": "Melee",
-    "A": "4",
-    "BS_WS": "3+",
+    "A": "5",
+    "BS_WS": "2+",
     "S": "8",
     "AP": "-3",
     "D": "3",
@@ -965,7 +993,7 @@
    "1 Sangheili Blademaster"
   ],
   "equipped": [
-   "Twin-linked Energy Swords",
+   "Blades of the Kaidon",
    "Blademaster Personal Shield"
   ],
   "sergeant": [],
@@ -983,16 +1011,17 @@
   "ranged_weapons": [],
   "melee_weapons": [
    {
-    "name": "Twin-linked Energy Swords",
+    "name": "Blades of the Kaidon",
     "range": "Melee",
-    "A": "7",
+    "A": "8",
     "BS_WS": "2+",
     "S": "8",
     "AP": "-3",
     "D": "3",
     "keywords": [
      "Precision",
-     "Twin-linked"
+     "Twin-linked",
+     "Lethal Hits"
     ]
    }
   ],
@@ -1020,7 +1049,7 @@
   "name": "Jiralhanae Chieftain",
   "category": "CHARACTER",
   "subtitle": "Pack Commander",
-  "points": 100,
+  "points": 110,
   "profile": {
    "M": "6\"",
    "T": "5",
@@ -1036,13 +1065,13 @@
   ],
   "equipped": [
    "Spiker",
-   "Brute Heavy Melee Weapon",
+   "Chieftain's War Blade",
    "Chieftain Shield"
   ],
   "sergeant": [],
   "auxiliary": [],
   "wargear_options": [
-   "Replace the Spiker and Brute Heavy Melee Weapon with a Mangler and Gravity Hammer - 10pts.",
+   "Replace the Spiker and Chieftain's War Blade with a Mangler and Chieftain's Gravity Hammer - 10pts.",
    "Alternatively, replace the Spiker with one Covenant or Jiralhanae ranged weapon available to a Jiralhanae Auxiliary."
   ],
   "leader": [
@@ -1060,8 +1089,8 @@
    {
     "name": "Spiker",
     "range": "24\"",
-    "A": "2",
-    "BS_WS": "4+",
+    "A": "3",
+    "BS_WS": "3+",
     "S": "5",
     "AP": "-1",
     "D": "1",
@@ -1073,7 +1102,7 @@
     "name": "Mangler",
     "range": "12\"",
     "A": "1",
-    "BS_WS": "4+",
+    "BS_WS": "3+",
     "S": "5",
     "AP": "0",
     "D": "1",
@@ -1086,7 +1115,7 @@
     "name": "Bolt Spiker",
     "range": "24\"",
     "A": "3",
-    "BS_WS": "4+",
+    "BS_WS": "3+",
     "S": "5",
     "AP": "-1",
     "D": "2",
@@ -1099,7 +1128,7 @@
     "name": "Skewer",
     "range": "48\"",
     "A": "1",
-    "BS_WS": "4+",
+    "BS_WS": "3+",
     "S": "12",
     "AP": "-4",
     "D": "4",
@@ -1111,7 +1140,7 @@
     "name": "Brute Shot",
     "range": "12\"",
     "A": "3",
-    "BS_WS": "4+",
+    "BS_WS": "3+",
     "S": "6",
     "AP": "-2",
     "D": "2",
@@ -1123,28 +1152,30 @@
   ],
   "melee_weapons": [
    {
-    "name": "Brute Heavy Melee Weapon",
+    "name": "Chieftain's War Blade",
     "range": "Melee",
-    "A": "3",
-    "BS_WS": "3+",
+    "A": "4",
+    "BS_WS": "2+",
     "S": "6",
     "AP": "-2",
     "D": "2",
     "keywords": [
-     "Lethal Hits"
+     "Lethal Hits",
+     "Cleave 1"
     ]
    },
    {
-    "name": "Gravity Hammer",
+    "name": "Chieftain's Gravity Hammer",
     "range": "Melee",
-    "A": "1",
-    "BS_WS": "3+",
+    "A": "2",
+    "BS_WS": "2+",
     "S": "10",
     "AP": "-4",
     "D": "5",
     "keywords": [
      "Devastating Wounds",
-     "Gravity Slam"
+     "Gravity Slam",
+     "Cleave 1"
     ]
    }
   ],
@@ -1191,7 +1222,7 @@
    "1 Yig-Yar Corsair-Talon"
   ],
   "equipped": [
-   "Needler",
+   "Pirate's Needler",
    "Wrist Shield",
    "Yig-Yar Plasma Sabre"
   ],
@@ -1211,10 +1242,10 @@
   ],
   "ranged_weapons": [
    {
-    "name": "Needler",
+    "name": "Pirate's Needler",
     "range": "14\"",
-    "A": "4",
-    "BS_WS": "3+",
+    "A": "5",
+    "BS_WS": "2+",
     "S": "1",
     "AP": "0",
     "D": "1",
@@ -1229,8 +1260,8 @@
    {
     "name": "Yig-Yar Plasma Sabre",
     "range": "Melee",
-    "A": "3",
-    "BS_WS": "3+",
+    "A": "4",
+    "BS_WS": "2+",
     "S": "5",
     "AP": "-1",
     "D": "1",
@@ -1300,7 +1331,7 @@
    {
     "name": "Covenant Carbine",
     "range": "48\"",
-    "A": "2",
+    "A": "3",
     "BS_WS": "2+",
     "S": "6",
     "AP": "-2",
@@ -1313,7 +1344,7 @@
    {
     "name": "Needle Rifle",
     "range": "60\"",
-    "A": "3",
+    "A": "4",
     "BS_WS": "2+",
     "S": "1",
     "AP": "0",
@@ -1328,7 +1359,7 @@
    {
     "name": "Particle Beam Rifle",
     "range": "60\"",
-    "A": "1",
+    "A": "2",
     "BS_WS": "2+",
     "S": "8",
     "AP": "-3",
@@ -1342,7 +1373,7 @@
    {
     "name": "Stalker Rifle",
     "range": "60\"",
-    "A": "2",
+    "A": "3",
     "BS_WS": "2+",
     "S": "8",
     "AP": "-3",
@@ -1420,7 +1451,7 @@
   ],
   "equipped": [
    "2 Plasma Rifles",
-   "T'vaoan Plasma Sabres"
+   "Raider's Sabres"
   ],
   "sergeant": [],
   "auxiliary": [],
@@ -1434,7 +1465,7 @@
     "name": "Plasma Rifles",
     "range": "15\"",
     "A": "6",
-    "BS_WS": "3+",
+    "BS_WS": "2+",
     "S": "6",
     "AP": "-2",
     "D": "1",
@@ -1447,10 +1478,10 @@
   ],
   "melee_weapons": [
    {
-    "name": "T'vaoan Plasma Sabres",
+    "name": "Raider's Sabres",
     "range": "Melee",
-    "A": "4",
-    "BS_WS": "3+",
+    "A": "5",
+    "BS_WS": "2+",
     "S": "5",
     "AP": "-1",
     "D": "1",
@@ -1509,7 +1540,7 @@
   ],
   "equipped": [
    "Plasma Pistol",
-   "Unggoy Close Combat Weapon"
+   "Deacon's Staff"
   ],
   "sergeant": [],
   "auxiliary": [],
@@ -1525,7 +1556,7 @@
     "name": "Plasma Pistol",
     "range": "12\"",
     "A": "1",
-    "BS_WS": "4+",
+    "BS_WS": "3+",
     "S": "6",
     "AP": "-2",
     "D": "1",
@@ -1537,11 +1568,11 @@
   ],
   "melee_weapons": [
    {
-    "name": "Unggoy Close Combat Weapon",
+    "name": "Deacon's Staff",
     "range": "Melee",
     "A": "3",
-    "BS_WS": "5+",
-    "S": "3",
+    "BS_WS": "4+",
+    "S": "4",
     "AP": "0",
     "D": "1",
     "keywords": [
@@ -1749,7 +1780,8 @@
     "AP": "-1",
     "D": "1",
     "keywords": [
-     "Lethal Hits"
+     "Lethal Hits",
+     "Cleave 1"
     ]
    },
    {
@@ -1761,7 +1793,8 @@
     "AP": "-2",
     "D": "2",
     "keywords": [
-     "Lethal Hits"
+     "Lethal Hits",
+     "Cleave 1"
     ]
    }
   ],
@@ -2885,7 +2918,9 @@
     "S": "8",
     "AP": "-2",
     "D": "3",
-    "keywords": []
+    "keywords": [
+     "Cleave 1"
+    ]
    }
   ],
   "abilities": [
@@ -2963,7 +2998,8 @@
     "AP": "-2",
     "D": "2",
     "keywords": [
-     "Lethal Hits"
+     "Lethal Hits",
+     "Cleave 1"
     ]
    }
   ],
@@ -3057,7 +3093,8 @@
     "AP": "-2",
     "D": "2",
     "keywords": [
-     "Lethal Hits"
+     "Lethal Hits",
+     "Cleave 1"
     ]
    }
   ],
@@ -3122,7 +3159,8 @@
     "D": "5",
     "keywords": [
      "Devastating Wounds",
-     "Gravity Slam"
+     "Gravity Slam",
+     "Cleave 1"
     ]
    }
   ],
@@ -3206,7 +3244,8 @@
     "D": "5",
     "keywords": [
      "Devastating Wounds",
-     "Gravity Slam"
+     "Gravity Slam",
+     "Cleave 1"
     ]
    }
   ],
@@ -3537,7 +3576,8 @@
     "AP": "-2",
     "D": "2",
     "keywords": [
-     "Plasma (AP1)"
+     "Plasma (AP1)",
+     "Cleave 1"
     ]
    }
   ],
@@ -3774,7 +3814,8 @@
     "AP": "-2",
     "D": "2",
     "keywords": [
-     "Plasma (AP1)"
+     "Plasma (AP1)",
+     "Cleave 1"
     ]
    },
    {
@@ -3786,7 +3827,8 @@
     "AP": "-2",
     "D": "2",
     "keywords": [
-     "Lethal Hits"
+     "Lethal Hits",
+     "Cleave 1"
     ]
    },
    {
@@ -4132,7 +4174,9 @@
     "S": "8",
     "AP": "-2",
     "D": "2",
-    "keywords": []
+    "keywords": [
+     "Cleave 1"
+    ]
    }
   ],
   "abilities": [
@@ -4215,7 +4259,9 @@
     "S": "9",
     "AP": "-2",
     "D": "3",
-    "keywords": []
+    "keywords": [
+     "Cleave 1"
+    ]
    }
   ],
   "abilities": [
@@ -4301,7 +4347,9 @@
     "S": "8",
     "AP": "-2",
     "D": "2",
-    "keywords": []
+    "keywords": [
+     "Cleave 1"
+    ]
    }
   ],
   "abilities": [
@@ -4382,7 +4430,8 @@
     "AP": "-1",
     "D": "1",
     "keywords": [
-     "Sustained Hits 4"
+     "Sustained Hits 4",
+     "Cleave 1"
     ]
    }
   ],
@@ -4694,7 +4743,9 @@
     "S": "8",
     "AP": "-2",
     "D": "2",
-    "keywords": []
+    "keywords": [
+     "Cleave 2"
+    ]
    }
   ],
   "abilities": [
@@ -7047,7 +7098,8 @@
     "AP": "-1",
     "D": "1",
     "keywords": [
-     "Lethal Hits"
+     "Lethal Hits",
+     "Cleave 1"
     ]
    },
    {
@@ -7059,7 +7111,8 @@
     "AP": "-2",
     "D": "2",
     "keywords": [
-     "Lethal Hits"
+     "Lethal Hits",
+     "Cleave 1"
     ]
    },
    {
@@ -7072,7 +7125,8 @@
     "D": "5",
     "keywords": [
      "Devastating Wounds",
-     "Gravity Slam"
+     "Gravity Slam",
+     "Cleave 1"
     ]
    }
   ],
@@ -7768,7 +7822,8 @@
     "AP": "-1",
     "D": "1",
     "keywords": [
-     "Lethal Hits"
+     "Lethal Hits",
+     "Cleave 1"
     ]
    },
    {
@@ -7780,7 +7835,8 @@
     "AP": "-2",
     "D": "2",
     "keywords": [
-     "Lethal Hits"
+     "Lethal Hits",
+     "Cleave 1"
     ]
    },
    {
@@ -7793,7 +7849,8 @@
     "D": "5",
     "keywords": [
      "Devastating Wounds",
-     "Gravity Slam"
+     "Gravity Slam",
+     "Cleave 1"
     ]
    }
   ],
@@ -8224,7 +8281,8 @@
     "AP": "-2",
     "D": "2",
     "keywords": [
-     "Plasma (AP1)"
+     "Plasma (AP1)",
+     "Cleave 1"
     ]
    },
    {
@@ -8236,7 +8294,8 @@
     "AP": "-2",
     "D": "2",
     "keywords": [
-     "Lethal Hits"
+     "Lethal Hits",
+     "Cleave 1"
     ]
    },
    {

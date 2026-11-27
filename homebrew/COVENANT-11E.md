@@ -260,6 +260,41 @@ No step: Epic Heroes (one copy), the other Battleline units, core infantry (Warr
 Corsairs, Butchers, Heavy Weapons teams, Entourage), Unggoy Deacon, Ghost, Brute Chopper, Revenant, Spectre,
 transports, fortifications and the Kraken.
 
+## Character weapons, Cleave and Expeditionary Force (revision 31)
+
+**Character and Epic Hero weapons** get their own names and a modest boost (usually +1 A and +1 BS/WS):
+
+| Model | Weapons |
+|---|---|
+| Sangheili Shipmaster (100 pts) | Shipmaster's Plasma Repeater A3 BS2+, Ancestral Energy Sword A5 WS2+, Plasma Pistol BS2+ |
+| Sangheili Fieldmaster (105 pts) | Fieldmaster's Plasma Rifle A4 BS2+, Ancestral Energy Sword A5 WS2+, Plasma Pistol BS2+ |
+| Sangheili Blademaster | Blades of the Kaidon A8, adds [LETHAL HITS] |
+| Jiralhanae Chieftain (110 pts) | Guns BS3+ (Spiker A3), Chieftain's War Blade A4 WS2+, Chieftain's Gravity Hammer A2 WS2+ |
+| Yig-Yar Corsair-Talon | Pirate's Needler A5 BS2+, Plasma Sabre A4 WS2+ |
+| Yig-Yar Headtaker | +1 A on each precision rifle |
+| T'vaoan Raider | Plasma Rifles BS2+, Raider's Sabres A5 WS2+ |
+| Unggoy Deacon | Plasma Pistol BS3+, Deacon's Staff A3 WS4+ S4 |
+| San'Shyuum Advisor | Energy Staff A3 WS4+ S5 AP-1 D2, new Gravity Pulse pistol 12" A2 S5 AP-1 |
+| Prophet of Truth (140 pts) | Hierarch's Throne Cannons BS2+ AP-2 |
+| Prophet of Regret (120 pts) | Crusader's Throne Cannons A8 AP-2 |
+| Prophet of Mercy | Throne Cannons BS3+, Gravity Throne WS4+ |
+| Thel 'Vadam | Arbiter's Plasma Rifle A4 |
+| Rtas 'Vadum | Fleetmaster's Carbine A3, Rtas's Energy Sword A6 |
+| Champions of the Arbiter | N'tho's Carbine A3, Usze's Plasma Rifles A8, Energy Swords A5 |
+| Tartarus (160 pts) | Fist of Rukt - strike A5 [CLEAVE 2]; new Fist of Rukt - shockwave 12" A3 S8 AP-2 D2 [BLAST 1] |
+
+The Special Operations Team and T'vaoan Skirmishers now borrow their Plasma Rifle from the T'vaoan Auxiliary (same
+A3 BS3+ profile the Fieldmaster had).
+
+**[CLEAVE]** (core rule; +X attacks for every 5 models in a single target): Brute Close Combat Weapon, Brute Heavy
+Melee Weapon, Gravity Hammer, Chieftain's weapons, Chainwheel, Honor Guard Pike, Heavy Plasma Melee Weapon,
+Mgalekgolo Shield Bash and Crushing Shield [CLEAVE 1]; Fist of Rukt and Goliath Crushing Claws (sweep) [CLEAVE 2].
+
+**Covenant Expeditionary Force:** Liaison Officer replaces Veteran of Many Worlds (units within 6" of the bearer's unit
+always count for Combined Arms); Coordinated Strike, Armoured Escort and Combined Assault use designations; Joint
+Assault replaces Focused Fire (+1 to wound in melee against a unit also engaged with another designation); Extended
+Command Net replaces Change of Command (a Sergeant's Caste Doctrines reach 12" for a phase).
+
 ## Frame (revision 15)
 
 FRAME (core rules 17.02) is for models without a base and some other large models. It is on the vehicles and

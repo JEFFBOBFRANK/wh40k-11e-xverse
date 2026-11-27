@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 30,
+    "revision": 31,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -2647,9 +2647,9 @@
             ]
           },
           {
-            "name": "Covenant Expeditionary Force — Change of Command / 1 CP",
-            "id": "bc1c-1cc0-34a7-44ae",
-            "targetId": "719c-3563-8869-e750",
+            "name": "Covenant Expeditionary Force — Extended Command Net / 1 CP",
+            "id": "f8cc-34a9-48df-e967",
+            "targetId": "91e8-0253-92e1-abb4",
             "type": "rule",
             "hidden": true,
             "modifiers": [
@@ -2672,9 +2672,9 @@
             ]
           },
           {
-            "name": "Covenant Expeditionary Force — Focused Fire / 1 CP",
-            "id": "ef6e-c8c9-3e8b-ce54",
-            "targetId": "2171-2a9c-763d-8cda",
+            "name": "Covenant Expeditionary Force — Joint Assault / 1 CP",
+            "id": "0d01-2ff1-6453-6d0f",
+            "targetId": "dac9-7dfa-3094-0f0a",
             "type": "rule",
             "hidden": true,
             "modifiers": [
@@ -4010,15 +4010,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "Gravity Throne Assault Cannons",
-            "id": "e95e-f272-35cf-fa80",
+            "name": "Hierarch's Throne Cannons",
+            "id": "2f23-48d9-d845-2428",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "50e1-40ee-775e-d196",
-                "name": "Gravity Throne Assault Cannons",
+                "id": "197a-bce9-081b-c9af",
+                "name": "Hierarch's Throne Cannons",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -4036,7 +4036,7 @@
                   {
                     "name": "BS",
                     "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
+                    "$text": "2+"
                   },
                   {
                     "name": "S",
@@ -4046,7 +4046,7 @@
                   {
                     "name": "AP",
                     "typeId": "9ead-8a10-520-de15",
-                    "$text": "-1"
+                    "$text": "-2"
                   },
                   {
                     "name": "D",
@@ -4063,7 +4063,7 @@
             ],
             "constraints": [
               {
-                "id": "1871-f171-df12-acce",
+                "id": "3565-0534-4b33-dff1",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -4072,7 +4072,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "11a1-eea6-5255-671c",
+                "id": "25a6-54a8-c7d7-a8a4",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -4083,7 +4083,7 @@
             ],
             "infoLinks": [
               {
-                "id": "04b7-1f90-a1b7-000e",
+                "id": "ab37-9b6a-e039-87c3",
                 "name": "Twin-linked",
                 "targetId": "cf93-ad4d-2f08-a79d",
                 "type": "rule",
@@ -4270,7 +4270,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 130
+            "value": 140
           }
         ],
         "constraints": [
@@ -4446,15 +4446,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "Gravity Throne Assault Cannons",
-            "id": "969d-250d-6eb6-e441",
+            "name": "Crusader's Throne Cannons",
+            "id": "5157-886d-21aa-bc93",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "5c7c-7ac5-672e-d11e",
-                "name": "Gravity Throne Assault Cannons",
+                "id": "8e85-7932-048d-23b9",
+                "name": "Crusader's Throne Cannons",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -4467,7 +4467,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "6"
+                    "$text": "8"
                   },
                   {
                     "name": "BS",
@@ -4482,7 +4482,7 @@
                   {
                     "name": "AP",
                     "typeId": "9ead-8a10-520-de15",
-                    "$text": "-1"
+                    "$text": "-2"
                   },
                   {
                     "name": "D",
@@ -4499,7 +4499,7 @@
             ],
             "constraints": [
               {
-                "id": "d717-b1c0-0630-4d80",
+                "id": "6d0b-9ee8-e822-8ce5",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -4508,7 +4508,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "92da-50a5-4ce3-f749",
+                "id": "9c7b-c336-bd68-95fb",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -4519,7 +4519,7 @@
             ],
             "infoLinks": [
               {
-                "id": "263d-fc19-d606-8ed6",
+                "id": "a1e5-ac67-0d78-3c65",
                 "name": "Twin-linked",
                 "targetId": "cf93-ad4d-2f08-a79d",
                 "type": "rule",
@@ -4706,7 +4706,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 120
           }
         ],
         "constraints": [
@@ -4908,7 +4908,7 @@
                   {
                     "name": "BS",
                     "typeId": "94d-8a98-cf90-183e",
-                    "$text": "4+"
+                    "$text": "3+"
                   },
                   {
                     "name": "S",
@@ -4990,7 +4990,7 @@
                   {
                     "name": "WS",
                     "typeId": "95d1-95f-45b4-11d6",
-                    "$text": "6+"
+                    "$text": "4+"
                   },
                   {
                     "name": "S",
@@ -5421,15 +5421,15 @@
             ]
           },
           {
-            "name": "Plasma Rifle",
-            "id": "6cb2-82b5-2c03-e495",
+            "name": "Arbiter's Plasma Rifle",
+            "id": "abaa-1262-b589-c176",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "2618-a534-217f-caff",
-                "name": "Plasma Rifle",
+                "id": "d5fc-a977-6fe4-993e",
+                "name": "Arbiter's Plasma Rifle",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -5442,7 +5442,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "3"
+                    "$text": "4"
                   },
                   {
                     "name": "BS",
@@ -5474,7 +5474,7 @@
             ],
             "constraints": [
               {
-                "id": "9b39-82ec-50c8-8016",
+                "id": "65a6-9cfd-f174-52fa",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -5483,7 +5483,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "4ef4-d714-4638-63ca",
+                "id": "06a0-732f-01a7-ee06",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -5494,21 +5494,21 @@
             ],
             "infoLinks": [
               {
-                "id": "f634-c675-227e-3342",
+                "id": "9700-0537-a9ba-35d8",
                 "name": "Assault",
                 "targetId": "fc8a-8c24-bae9-cc1c",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "ceab-b498-5182-c526",
+                "id": "2e37-559d-a6ce-2576",
                 "name": "Pistol",
                 "targetId": "8bf7-8812-923d-29e4",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "e767-c4df-30ae-85e9",
+                "id": "4512-6c54-7958-e95f",
                 "name": "Plasma",
                 "targetId": "96fc-ca3e-b5fb-a002",
                 "type": "rule",
@@ -5972,15 +5972,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "Covenant Carbine",
-            "id": "0a79-3a4c-b2a2-edbf",
+            "name": "Fleetmaster's Carbine",
+            "id": "1264-78d8-aeae-3a87",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "3168-82ce-54ad-9b35",
-                "name": "Covenant Carbine",
+                "id": "ff2f-e8ca-4d62-3667",
+                "name": "Fleetmaster's Carbine",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -5993,7 +5993,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "2"
+                    "$text": "3"
                   },
                   {
                     "name": "BS",
@@ -6025,7 +6025,7 @@
             ],
             "constraints": [
               {
-                "id": "0470-b6d8-be52-0fbf",
+                "id": "6f8a-22fc-932c-fa69",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -6034,7 +6034,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "aa1a-977b-3503-7a81",
+                "id": "b50a-dae3-3b5b-e5cc",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -6045,14 +6045,14 @@
             ],
             "infoLinks": [
               {
-                "id": "1d94-415b-940c-9a31",
+                "id": "0aab-49a8-766d-74b4",
                 "name": "Precision",
                 "targetId": "9143-31ae-e0a6-6007",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "106a-e9d7-6515-f8d0",
+                "id": "f2f9-b755-bbbc-fb64",
                 "name": "Lethal Hits",
                 "targetId": "d1d1-611e-5191-1095",
                 "type": "rule",
@@ -6150,15 +6150,15 @@
             ]
           },
           {
-            "name": "Energy Sword",
-            "id": "6d41-7647-d97c-f04f",
+            "name": "Rtas's Energy Sword",
+            "id": "3fc0-db94-8fbb-6953",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "36ce-55b4-dd60-ab17",
-                "name": "Energy Sword",
+                "id": "4c6f-c67c-26be-96c1",
+                "name": "Rtas's Energy Sword",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
@@ -6171,7 +6171,7 @@
                   {
                     "name": "A",
                     "typeId": "2337-daa1-6682-b110",
-                    "$text": "5"
+                    "$text": "6"
                   },
                   {
                     "name": "WS",
@@ -6203,7 +6203,7 @@
             ],
             "constraints": [
               {
-                "id": "98f7-5fde-4f98-a93e",
+                "id": "4aed-5eb1-ebd7-0242",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -6212,7 +6212,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "33a1-7173-42b2-9460",
+                "id": "1cf6-2343-f8ed-5b31",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -6596,7 +6596,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "2"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -6774,7 +6774,7 @@
                           {
                             "name": "A",
                             "typeId": "2337-daa1-6682-b110",
-                            "$text": "4"
+                            "$text": "5"
                           },
                           {
                             "name": "WS",
@@ -7017,7 +7017,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "8"
                           },
                           {
                             "name": "BS",
@@ -7113,7 +7113,7 @@
                           {
                             "name": "A",
                             "typeId": "2337-daa1-6682-b110",
-                            "$text": "4"
+                            "$text": "5"
                           },
                           {
                             "name": "WS",
@@ -7609,8 +7609,52 @@
             "import": true,
             "profiles": [
               {
-                "id": "1751-0e4d-6d94-e534",
-                "name": "Fist of Rukt",
+                "id": "03ee-aadd-d690-8057",
+                "name": "Fist of Rukt - shockwave",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "12\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "Blast 1"
+                  }
+                ]
+              },
+              {
+                "id": "5a4c-aa47-6003-71d4",
+                "name": "Fist of Rukt - strike",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
@@ -7623,7 +7667,7 @@
                   {
                     "name": "A",
                     "typeId": "2337-daa1-6682-b110",
-                    "$text": "4"
+                    "$text": "5"
                   },
                   {
                     "name": "WS",
@@ -7648,7 +7692,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e",
-                    "$text": "Devastating Wounds, Gravity Slam"
+                    "$text": "Devastating Wounds, Gravity Slam, Cleave 2"
                   }
                 ]
               }
@@ -7678,6 +7722,20 @@
                 "id": "3612-89e0-dacf-5839",
                 "name": "Devastating Wounds",
                 "targetId": "be1e-ac8e-1e2c-3528",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "7953-0fd3-0abb-d9ce",
+                "name": "Blast",
+                "targetId": "6c1f-1cf7-ff25-c99e",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "b817-2b78-4782-5af7",
+                "name": "Cleave",
+                "targetId": "bf16-5d16-4725-f912",
                 "type": "rule",
                 "hidden": false
               },
@@ -7817,7 +7875,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 160
           }
         ],
         "constraints": [
@@ -8060,15 +8118,97 @@
         ],
         "selectionEntries": [
           {
-            "name": "Ceremonial Staff",
-            "id": "5dce-3f59-aaef-387f",
+            "name": "Gravity Pulse",
+            "id": "aead-385e-3725-280c",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "3564-caf6-a08b-6aa3",
-                "name": "Ceremonial Staff",
+                "id": "6692-7e9a-4069-3e78",
+                "name": "Gravity Pulse",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "12\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "Pistol"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "501a-f705-fa95-4750",
+                "type": "min",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              },
+              {
+                "id": "2b39-b014-e793-0891",
+                "type": "max",
+                "value": 1,
+                "scope": "parent",
+                "field": "selections",
+                "shared": true,
+                "includeChildSelections": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "id": "9a7f-5c72-21e5-c788",
+                "name": "Pistol",
+                "targetId": "8bf7-8812-923d-29e4",
+                "type": "rule",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Energy Staff",
+            "id": "2fad-07e9-2943-7c2b",
+            "type": "upgrade",
+            "hidden": false,
+            "import": true,
+            "profiles": [
+              {
+                "id": "88af-156a-73f2-1701",
+                "name": "Energy Staff",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
@@ -8081,27 +8221,27 @@
                   {
                     "name": "A",
                     "typeId": "2337-daa1-6682-b110",
-                    "$text": "2"
+                    "$text": "3"
                   },
                   {
                     "name": "WS",
                     "typeId": "95d1-95f-45b4-11d6",
-                    "$text": "5+"
+                    "$text": "4+"
                   },
                   {
                     "name": "S",
                     "typeId": "ab33-d393-96ce-ccba",
-                    "$text": "3"
+                    "$text": "5"
                   },
                   {
                     "name": "AP",
                     "typeId": "41a0-1301-112a-e2f2",
-                    "$text": "0"
+                    "$text": "-1"
                   },
                   {
                     "name": "D",
                     "typeId": "3254-9fe6-d824-513e",
-                    "$text": "1"
+                    "$text": "2"
                   },
                   {
                     "name": "Keywords",
@@ -8113,7 +8253,7 @@
             ],
             "constraints": [
               {
-                "id": "c982-8d1c-7867-8301",
+                "id": "9552-ca47-ea6c-c778",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -8122,7 +8262,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "8002-96fa-d6cc-5a0b",
+                "id": "62c6-ed8b-dc8a-41e0",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -8583,9 +8723,9 @@
                 "import": true
               },
               {
-                "name": "Veteran of Many Worlds",
-                "id": "8fc4-088b-c975-c2b5",
-                "targetId": "8e98-4d81-7d7e-2822",
+                "name": "Liaison Officer",
+                "id": "6dfc-c952-3e57-502a",
+                "targetId": "ea6d-dc4a-ab86-90e3",
                 "type": "selectionEntry",
                 "hidden": true,
                 "modifiers": [
@@ -8608,7 +8748,7 @@
                 ],
                 "constraints": [
                   {
-                    "id": "49bb-0714-e56a-71e5",
+                    "id": "563d-31bb-d50d-4df4",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -8939,15 +9079,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "Plasma Repeater",
-            "id": "fe62-b021-a7e6-348d",
+            "name": "Shipmaster's Plasma Repeater",
+            "id": "47ab-f3e3-6ec1-93cb",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "e9e4-7f64-aa63-fcce",
-                "name": "Plasma Repeater",
+                "id": "b143-831a-2834-8c9c",
+                "name": "Shipmaster's Plasma Repeater",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -8960,12 +9100,12 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "2"
+                    "$text": "3"
                   },
                   {
                     "name": "BS",
                     "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
+                    "$text": "2+"
                   },
                   {
                     "name": "S",
@@ -8992,7 +9132,7 @@
             ],
             "constraints": [
               {
-                "id": "f4aa-807e-3e9a-6f14",
+                "id": "463a-f74c-6632-55f3",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -9001,7 +9141,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "79ee-63ae-0c26-2313",
+                "id": "bca1-2ad0-81d9-99f2",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -9012,14 +9152,14 @@
             ],
             "infoLinks": [
               {
-                "id": "7231-e67e-9a54-ddbf",
+                "id": "5a2a-454d-641d-d77d",
                 "name": "Lethal Hits",
                 "targetId": "d1d1-611e-5191-1095",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "faa7-5014-54d5-dbb0",
+                "id": "19ce-9c2c-7602-2fc5",
                 "name": "Plasma",
                 "targetId": "96fc-ca3e-b5fb-a002",
                 "type": "rule",
@@ -9054,7 +9194,7 @@
                   {
                     "name": "BS",
                     "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
+                    "$text": "2+"
                   },
                   {
                     "name": "S",
@@ -9117,15 +9257,15 @@
             ]
           },
           {
-            "name": "Energy Sword",
-            "id": "948a-9295-b385-fdbc",
+            "name": "Ancestral Energy Sword",
+            "id": "1272-dcfe-7535-90ad",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "0aa7-6242-16d1-87bd",
-                "name": "Energy Sword",
+                "id": "71e5-0632-2752-8204",
+                "name": "Ancestral Energy Sword",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
@@ -9138,12 +9278,12 @@
                   {
                     "name": "A",
                     "typeId": "2337-daa1-6682-b110",
-                    "$text": "4"
+                    "$text": "5"
                   },
                   {
                     "name": "WS",
                     "typeId": "95d1-95f-45b4-11d6",
-                    "$text": "3+"
+                    "$text": "2+"
                   },
                   {
                     "name": "S",
@@ -9170,7 +9310,7 @@
             ],
             "constraints": [
               {
-                "id": "9a5e-c062-34fd-283b",
+                "id": "7cf2-e55c-2236-38c8",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -9179,7 +9319,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "72aa-8ea6-7360-3a19",
+                "id": "383e-709b-185c-226a",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -9302,7 +9442,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 100
           }
         ],
         "constraints": [
@@ -9824,9 +9964,9 @@
                 "import": true
               },
               {
-                "name": "Veteran of Many Worlds",
-                "id": "3cbd-3108-2b30-4219",
-                "targetId": "8e98-4d81-7d7e-2822",
+                "name": "Liaison Officer",
+                "id": "f00e-a739-3626-76b6",
+                "targetId": "ea6d-dc4a-ab86-90e3",
                 "type": "selectionEntry",
                 "hidden": true,
                 "modifiers": [
@@ -9849,7 +9989,7 @@
                 ],
                 "constraints": [
                   {
-                    "id": "cbf7-2579-e9d6-4cca",
+                    "id": "0883-e23b-715b-f30e",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -10328,15 +10468,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "Plasma Rifle",
-            "id": "e59f-7c4f-565b-b655",
+            "name": "Fieldmaster's Plasma Rifle",
+            "id": "6fc1-d682-67a4-14a2",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "e896-20aa-6697-7fcf",
-                "name": "Plasma Rifle",
+                "id": "ee45-d484-b38b-7c65",
+                "name": "Fieldmaster's Plasma Rifle",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -10349,12 +10489,12 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "3"
+                    "$text": "4"
                   },
                   {
                     "name": "BS",
                     "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
+                    "$text": "2+"
                   },
                   {
                     "name": "S",
@@ -10381,7 +10521,7 @@
             ],
             "constraints": [
               {
-                "id": "036f-faea-cef8-a87e",
+                "id": "fdf4-3387-13c1-904b",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -10390,7 +10530,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "fedb-6f7f-20f2-16ae",
+                "id": "54d2-5129-d93d-5cde",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -10401,21 +10541,21 @@
             ],
             "infoLinks": [
               {
-                "id": "58a6-ef4c-1a2e-e630",
+                "id": "f4a1-44b0-c61d-4e50",
                 "name": "Assault",
                 "targetId": "fc8a-8c24-bae9-cc1c",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "50d9-8510-df5a-f6e4",
+                "id": "e725-ada9-49d7-7281",
                 "name": "Pistol",
                 "targetId": "8bf7-8812-923d-29e4",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "e92f-d961-f1fc-06e5",
+                "id": "b400-fad9-e91c-afec",
                 "name": "Plasma",
                 "targetId": "96fc-ca3e-b5fb-a002",
                 "type": "rule",
@@ -10450,7 +10590,7 @@
                   {
                     "name": "BS",
                     "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
+                    "$text": "2+"
                   },
                   {
                     "name": "S",
@@ -10513,15 +10653,15 @@
             ]
           },
           {
-            "name": "Energy Sword",
-            "id": "37a3-034d-c1da-5c9e",
+            "name": "Ancestral Energy Sword",
+            "id": "818c-d035-d6b1-9212",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "0685-d070-0f18-c5f5",
-                "name": "Energy Sword",
+                "id": "5c4e-fee8-ec20-b8b7",
+                "name": "Ancestral Energy Sword",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
@@ -10534,12 +10674,12 @@
                   {
                     "name": "A",
                     "typeId": "2337-daa1-6682-b110",
-                    "$text": "4"
+                    "$text": "5"
                   },
                   {
                     "name": "WS",
                     "typeId": "95d1-95f-45b4-11d6",
-                    "$text": "3+"
+                    "$text": "2+"
                   },
                   {
                     "name": "S",
@@ -10566,7 +10706,7 @@
             ],
             "constraints": [
               {
-                "id": "4d6a-eca3-2519-efae",
+                "id": "01e3-5aec-fabe-8ba9",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -10575,7 +10715,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "ea94-4731-2366-de7e",
+                "id": "e736-f61d-f3bd-9903",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -10698,7 +10838,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 105
           }
         ],
         "constraints": [
@@ -11192,9 +11332,9 @@
                 "import": true
               },
               {
-                "name": "Veteran of Many Worlds",
-                "id": "a9f1-f768-9bc6-6b4b",
-                "targetId": "8e98-4d81-7d7e-2822",
+                "name": "Liaison Officer",
+                "id": "62f8-f67f-da3b-e98c",
+                "targetId": "ea6d-dc4a-ab86-90e3",
                 "type": "selectionEntry",
                 "hidden": true,
                 "modifiers": [
@@ -11217,7 +11357,7 @@
                 ],
                 "constraints": [
                   {
-                    "id": "b837-c4ec-2a7b-5a35",
+                    "id": "8435-62d4-acf9-6c2b",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -11668,15 +11808,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "Twin-linked Energy Swords",
-            "id": "bc5e-7cf0-709d-2ca0",
+            "name": "Blades of the Kaidon",
+            "id": "75c1-0ef1-c53a-fe73",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "c651-598a-459f-f04f",
-                "name": "Twin-linked Energy Swords",
+                "id": "1a26-6a2b-e34a-465c",
+                "name": "Blades of the Kaidon",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
@@ -11689,7 +11829,7 @@
                   {
                     "name": "A",
                     "typeId": "2337-daa1-6682-b110",
-                    "$text": "7"
+                    "$text": "8"
                   },
                   {
                     "name": "WS",
@@ -11714,14 +11854,14 @@
                   {
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e",
-                    "$text": "Precision, Twin-linked"
+                    "$text": "Precision, Twin-linked, Lethal Hits"
                   }
                 ]
               }
             ],
             "constraints": [
               {
-                "id": "f276-69fa-2c4e-f770",
+                "id": "5adc-4b6b-3a03-b71f",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -11730,7 +11870,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "8f95-4db9-f7a3-2cfb",
+                "id": "a295-5289-4a92-608c",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -11741,16 +11881,23 @@
             ],
             "infoLinks": [
               {
-                "id": "6fcf-d090-76b7-f2a2",
+                "id": "1ddb-75b4-ee19-384b",
                 "name": "Twin-linked",
                 "targetId": "cf93-ad4d-2f08-a79d",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "75f7-58f9-d12d-0b04",
+                "id": "2aa3-368d-8513-7ea6",
                 "name": "Precision",
                 "targetId": "9143-31ae-e0a6-6007",
+                "type": "rule",
+                "hidden": false
+              },
+              {
+                "id": "eab0-9bfe-dc60-7159",
+                "name": "Lethal Hits",
+                "targetId": "d1d1-611e-5191-1095",
                 "type": "rule",
                 "hidden": false
               }
@@ -12297,9 +12444,9 @@
                 "import": true
               },
               {
-                "name": "Veteran of Many Worlds",
-                "id": "351f-4b17-852c-3d51",
-                "targetId": "8e98-4d81-7d7e-2822",
+                "name": "Liaison Officer",
+                "id": "ee83-a50f-1d95-27b2",
+                "targetId": "ea6d-dc4a-ab86-90e3",
                 "type": "selectionEntry",
                 "hidden": true,
                 "modifiers": [
@@ -12322,7 +12469,7 @@
                 ],
                 "constraints": [
                   {
-                    "id": "91f1-8a05-67b1-28b6",
+                    "id": "af75-a2ac-b07b-75f1",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -12865,14 +13012,14 @@
             "hidden": false,
             "selectionEntries": [
               {
-                "name": "Spiker and Brute Heavy Melee Weapon",
-                "id": "114d-8d60-7753-5f6a",
+                "name": "Spiker and Chieftain's War Blade",
+                "id": "89d9-3ece-c9c1-a7fb",
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
                 "profiles": [
                   {
-                    "id": "086c-79bd-39f2-6fca",
+                    "id": "06aa-e15f-dd84-c972",
                     "name": "Spiker",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -12886,12 +13033,12 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "2"
+                        "$text": "3"
                       },
                       {
                         "name": "BS",
                         "typeId": "94d-8a98-cf90-183e",
-                        "$text": "4+"
+                        "$text": "3+"
                       },
                       {
                         "name": "S",
@@ -12916,8 +13063,8 @@
                     ]
                   },
                   {
-                    "id": "8fe0-f463-773b-5317",
-                    "name": "Brute Heavy Melee Weapon",
+                    "id": "8bb5-a742-5fe8-4228",
+                    "name": "Chieftain's War Blade",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "Melee Weapons",
@@ -12930,12 +13077,12 @@
                       {
                         "name": "A",
                         "typeId": "2337-daa1-6682-b110",
-                        "$text": "3"
+                        "$text": "4"
                       },
                       {
                         "name": "WS",
                         "typeId": "95d1-95f-45b4-11d6",
-                        "$text": "3+"
+                        "$text": "2+"
                       },
                       {
                         "name": "S",
@@ -12955,14 +13102,14 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Lethal Hits"
+                        "$text": "Lethal Hits, Cleave 1"
                       }
                     ]
                   }
                 ],
                 "constraints": [
                   {
-                    "id": "37ce-fb9d-d781-5d22",
+                    "id": "bd3b-cccf-6d2b-6e02",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -12973,30 +13120,37 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "9c70-3a7c-c1b9-3316",
+                    "id": "3c4e-fae7-0ff2-00fb",
                     "name": "Devastating Wounds",
                     "targetId": "be1e-ac8e-1e2c-3528",
                     "type": "rule",
                     "hidden": false
                   },
                   {
-                    "id": "424c-2049-2aaa-9b03",
+                    "id": "fd35-109c-542f-472b",
                     "name": "Lethal Hits",
                     "targetId": "d1d1-611e-5191-1095",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "83ab-3c0c-df1e-13f5",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   }
                 ]
               },
               {
-                "name": "Bolt Spiker and Brute Heavy Melee Weapon",
-                "id": "d30f-08a9-1c5d-d499",
+                "name": "Bolt Spiker and Chieftain's War Blade",
+                "id": "a453-319e-dac9-cce9",
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
                 "profiles": [
                   {
-                    "id": "22ac-2e24-ed4a-06e0",
+                    "id": "80dc-38ca-32f1-7733",
                     "name": "Bolt Spiker",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -13015,7 +13169,7 @@
                       {
                         "name": "BS",
                         "typeId": "94d-8a98-cf90-183e",
-                        "$text": "4+"
+                        "$text": "3+"
                       },
                       {
                         "name": "S",
@@ -13040,8 +13194,8 @@
                     ]
                   },
                   {
-                    "id": "c594-97ff-5d51-71ed",
-                    "name": "Brute Heavy Melee Weapon",
+                    "id": "c081-4bbc-553c-920f",
+                    "name": "Chieftain's War Blade",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "Melee Weapons",
@@ -13054,12 +13208,12 @@
                       {
                         "name": "A",
                         "typeId": "2337-daa1-6682-b110",
-                        "$text": "3"
+                        "$text": "4"
                       },
                       {
                         "name": "WS",
                         "typeId": "95d1-95f-45b4-11d6",
-                        "$text": "3+"
+                        "$text": "2+"
                       },
                       {
                         "name": "S",
@@ -13079,14 +13233,14 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Lethal Hits"
+                        "$text": "Lethal Hits, Cleave 1"
                       }
                     ]
                   }
                 ],
                 "constraints": [
                   {
-                    "id": "c83a-d3ce-fbef-9950",
+                    "id": "a24f-879a-ea2d-53fe",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -13097,37 +13251,44 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "148c-5e08-9a00-c8df",
+                    "id": "7788-f8ad-c5f5-4f87",
                     "name": "Devastating Wounds",
                     "targetId": "be1e-ac8e-1e2c-3528",
                     "type": "rule",
                     "hidden": false
                   },
                   {
-                    "id": "a6d3-3f91-dd04-8bca",
+                    "id": "d594-8140-366a-c14d",
                     "name": "Lethal Hits",
                     "targetId": "d1d1-611e-5191-1095",
                     "type": "rule",
                     "hidden": false
                   },
                   {
-                    "id": "421b-1ba7-7bd5-a498",
+                    "id": "814b-146b-a197-32c6",
                     "name": "Rapid Fire",
                     "targetId": "c5c8-8b58-b8b6-7786",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "7620-917a-68d1-c636",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   }
                 ]
               },
               {
-                "name": "Brute Shot and Brute Heavy Melee Weapon",
-                "id": "870b-8708-03c7-104a",
+                "name": "Brute Shot and Chieftain's War Blade",
+                "id": "4f23-6761-440c-2267",
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
                 "profiles": [
                   {
-                    "id": "b60a-996f-5dde-89a4",
+                    "id": "bd1c-9aca-9c06-c94f",
                     "name": "Brute Shot",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -13146,7 +13307,7 @@
                       {
                         "name": "BS",
                         "typeId": "94d-8a98-cf90-183e",
-                        "$text": "4+"
+                        "$text": "3+"
                       },
                       {
                         "name": "S",
@@ -13171,8 +13332,8 @@
                     ]
                   },
                   {
-                    "id": "8623-f41e-d153-2d65",
-                    "name": "Brute Heavy Melee Weapon",
+                    "id": "ead2-9106-9bf8-8128",
+                    "name": "Chieftain's War Blade",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "Melee Weapons",
@@ -13185,12 +13346,12 @@
                       {
                         "name": "A",
                         "typeId": "2337-daa1-6682-b110",
-                        "$text": "3"
+                        "$text": "4"
                       },
                       {
                         "name": "WS",
                         "typeId": "95d1-95f-45b4-11d6",
-                        "$text": "3+"
+                        "$text": "2+"
                       },
                       {
                         "name": "S",
@@ -13210,14 +13371,14 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Lethal Hits"
+                        "$text": "Lethal Hits, Cleave 1"
                       }
                     ]
                   }
                 ],
                 "constraints": [
                   {
-                    "id": "4c5f-79f5-41ca-4259",
+                    "id": "de39-2e16-1898-fda1",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -13228,37 +13389,44 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "eaf7-b635-e0e4-84fc",
+                    "id": "4b4a-4326-15b2-0f58",
                     "name": "Blast",
                     "targetId": "6c1f-1cf7-ff25-c99e",
                     "type": "rule",
                     "hidden": false
                   },
                   {
-                    "id": "d4d4-cd6e-08b1-d9cb",
+                    "id": "be66-1980-8e43-1cc9",
                     "name": "Lethal Hits",
                     "targetId": "d1d1-611e-5191-1095",
                     "type": "rule",
                     "hidden": false
                   },
                   {
-                    "id": "8f74-f814-8096-2127",
+                    "id": "7d72-6e28-7847-aef9",
                     "name": "Ignores Cover",
                     "targetId": "4640-43e7-30b-215a",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "bc4e-d0ae-1e56-6d1c",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   }
                 ]
               },
               {
-                "name": "Skewer and Brute Heavy Melee Weapon",
-                "id": "21a0-8ad6-ffe9-afca",
+                "name": "Skewer and Chieftain's War Blade",
+                "id": "695f-f894-a161-fc36",
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
                 "profiles": [
                   {
-                    "id": "6b8c-589a-8f2f-8486",
+                    "id": "027f-9e8d-b5a0-e7bb",
                     "name": "Skewer",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -13277,7 +13445,7 @@
                       {
                         "name": "BS",
                         "typeId": "94d-8a98-cf90-183e",
-                        "$text": "4+"
+                        "$text": "3+"
                       },
                       {
                         "name": "S",
@@ -13302,8 +13470,8 @@
                     ]
                   },
                   {
-                    "id": "055b-5b40-ee60-c331",
-                    "name": "Brute Heavy Melee Weapon",
+                    "id": "3ae3-3a3f-8aba-01f4",
+                    "name": "Chieftain's War Blade",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "Melee Weapons",
@@ -13316,12 +13484,12 @@
                       {
                         "name": "A",
                         "typeId": "2337-daa1-6682-b110",
-                        "$text": "3"
+                        "$text": "4"
                       },
                       {
                         "name": "WS",
                         "typeId": "95d1-95f-45b4-11d6",
-                        "$text": "3+"
+                        "$text": "2+"
                       },
                       {
                         "name": "S",
@@ -13341,14 +13509,14 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Lethal Hits"
+                        "$text": "Lethal Hits, Cleave 1"
                       }
                     ]
                   }
                 ],
                 "constraints": [
                   {
-                    "id": "627a-ff57-9bf7-0564",
+                    "id": "e2ef-c4d3-ee7c-21e9",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -13366,30 +13534,37 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "715e-3ce9-538f-ead3",
+                    "id": "04c5-0f22-1361-bce6",
                     "name": "Devastating Wounds",
                     "targetId": "be1e-ac8e-1e2c-3528",
                     "type": "rule",
                     "hidden": false
                   },
                   {
-                    "id": "7b2d-785f-855a-b653",
+                    "id": "d848-0582-f8c4-36f6",
                     "name": "Lethal Hits",
                     "targetId": "d1d1-611e-5191-1095",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "2d85-b6d1-6f39-d664",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   }
                 ]
               },
               {
-                "name": "Mangler and Gravity Hammer",
-                "id": "0072-71fc-8fbc-44fc",
+                "name": "Mangler and Chieftain's Gravity Hammer",
+                "id": "3e2d-5cc7-fbe7-7bbc",
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
                 "profiles": [
                   {
-                    "id": "d816-a95e-22a1-3c9c",
+                    "id": "81e8-3b08-00c5-5b03",
                     "name": "Mangler",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -13408,7 +13583,7 @@
                       {
                         "name": "BS",
                         "typeId": "94d-8a98-cf90-183e",
-                        "$text": "4+"
+                        "$text": "3+"
                       },
                       {
                         "name": "S",
@@ -13433,8 +13608,8 @@
                     ]
                   },
                   {
-                    "id": "3977-1d1b-4a2f-fcab",
-                    "name": "Gravity Hammer",
+                    "id": "0045-f624-045b-4355",
+                    "name": "Chieftain's Gravity Hammer",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "Melee Weapons",
@@ -13447,12 +13622,12 @@
                       {
                         "name": "A",
                         "typeId": "2337-daa1-6682-b110",
-                        "$text": "1"
+                        "$text": "2"
                       },
                       {
                         "name": "WS",
                         "typeId": "95d1-95f-45b4-11d6",
-                        "$text": "3+"
+                        "$text": "2+"
                       },
                       {
                         "name": "S",
@@ -13472,14 +13647,14 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Devastating Wounds, Gravity Slam"
+                        "$text": "Devastating Wounds, Gravity Slam, Cleave 1"
                       }
                     ]
                   }
                 ],
                 "constraints": [
                   {
-                    "id": "be02-c1d6-01f0-a39c",
+                    "id": "e9cb-5bf9-15e0-c1a0",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -13497,21 +13672,28 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "ab9b-e79f-b67d-6e45",
+                    "id": "2cb4-3edb-9d28-270b",
                     "name": "Devastating Wounds",
                     "targetId": "be1e-ac8e-1e2c-3528",
                     "type": "rule",
                     "hidden": false
                   },
                   {
-                    "id": "d33f-9f9a-c83b-2954",
+                    "id": "19c4-8fdb-82ba-9be5",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "be65-2245-01b0-7c86",
                     "name": "Pistol",
                     "targetId": "8bf7-8812-923d-29e4",
                     "type": "rule",
                     "hidden": false
                   },
                   {
-                    "id": "0018-cfa3-c11e-c6be",
+                    "id": "396d-adea-8cb3-a277",
                     "name": "Gravity Slam",
                     "targetId": "a2be-2f11-50f3-e77c",
                     "type": "rule",
@@ -13540,7 +13722,7 @@
                 "includeChildSelections": false
               }
             ],
-            "defaultSelectionEntryId": "114d-8d60-7753-5f6a"
+            "defaultSelectionEntryId": "89d9-3ece-c9c1-a7fb"
           },
           {
             "name": "Enhancements and Upgrades",
@@ -13881,9 +14063,9 @@
                 "import": true
               },
               {
-                "name": "Veteran of Many Worlds",
-                "id": "a018-ba20-c244-d0d5",
-                "targetId": "8e98-4d81-7d7e-2822",
+                "name": "Liaison Officer",
+                "id": "ecdb-bb06-7f2a-42e8",
+                "targetId": "ea6d-dc4a-ab86-90e3",
                 "type": "selectionEntry",
                 "hidden": true,
                 "modifiers": [
@@ -13906,7 +14088,7 @@
                 ],
                 "constraints": [
                   {
-                    "id": "a26e-1295-6b69-df1c",
+                    "id": "d8d4-778c-194d-ddab",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -14134,7 +14316,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 110
           }
         ],
         "constraints": [
@@ -14409,15 +14591,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "Needler",
-            "id": "b728-fc7f-cc8e-c2a3",
+            "name": "Pirate's Needler",
+            "id": "4c07-f2b5-0622-d8f6",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "3ff9-59a2-d8f8-9eda",
-                "name": "Needler",
+                "id": "4c52-9302-8789-89d4",
+                "name": "Pirate's Needler",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -14430,12 +14612,12 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "4"
+                    "$text": "5"
                   },
                   {
                     "name": "BS",
                     "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
+                    "$text": "2+"
                   },
                   {
                     "name": "S",
@@ -14462,7 +14644,7 @@
             ],
             "constraints": [
               {
-                "id": "1ff3-3a54-b65b-9014",
+                "id": "c9bb-2c72-98c0-b3aa",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -14471,7 +14653,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "2ba3-2fe1-7561-d460",
+                "id": "bf92-9e2c-fed4-102b",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -14482,21 +14664,21 @@
             ],
             "infoLinks": [
               {
-                "id": "1fbf-1feb-c41e-b029",
+                "id": "ff93-262d-b346-8b02",
                 "name": "Anti",
                 "targetId": "4111-82e3-9444-e942",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "94a6-51e6-8fff-6933",
+                "id": "7746-0fb5-1ce9-5095",
                 "name": "Sustained Hits",
                 "targetId": "1897-c22c-9597-12b1",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "90a8-f81f-6194-947a",
+                "id": "1146-ebad-159b-3660",
                 "name": "Supercombine",
                 "targetId": "0b56-995d-14f8-c61c",
                 "type": "rule",
@@ -14583,12 +14765,12 @@
                   {
                     "name": "A",
                     "typeId": "2337-daa1-6682-b110",
-                    "$text": "3"
+                    "$text": "4"
                   },
                   {
                     "name": "WS",
                     "typeId": "95d1-95f-45b4-11d6",
-                    "$text": "3+"
+                    "$text": "2+"
                   },
                   {
                     "name": "S",
@@ -15036,9 +15218,9 @@
                 "import": true
               },
               {
-                "name": "Veteran of Many Worlds",
-                "id": "a6ef-5703-3ecf-ce33",
-                "targetId": "8e98-4d81-7d7e-2822",
+                "name": "Liaison Officer",
+                "id": "2c9c-e241-34db-a30a",
+                "targetId": "ea6d-dc4a-ab86-90e3",
                 "type": "selectionEntry",
                 "hidden": true,
                 "modifiers": [
@@ -15061,7 +15243,7 @@
                 ],
                 "constraints": [
                   {
-                    "id": "9f93-eb3b-8a31-3f20",
+                    "id": "ad0c-8706-f8b0-520d",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -15611,7 +15793,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "2"
+                        "$text": "3"
                       },
                       {
                         "name": "BS",
@@ -15691,7 +15873,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "3"
+                        "$text": "4"
                       },
                       {
                         "name": "BS",
@@ -15785,7 +15967,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "1"
+                        "$text": "2"
                       },
                       {
                         "name": "BS",
@@ -15872,7 +16054,7 @@
                       {
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "2"
+                        "$text": "3"
                       },
                       {
                         "name": "BS",
@@ -16137,9 +16319,9 @@
                 "import": true
               },
               {
-                "name": "Veteran of Many Worlds",
-                "id": "7d43-8f8e-af57-68cb",
-                "targetId": "8e98-4d81-7d7e-2822",
+                "name": "Liaison Officer",
+                "id": "a7df-b469-6876-fa88",
+                "targetId": "ea6d-dc4a-ab86-90e3",
                 "type": "selectionEntry",
                 "hidden": true,
                 "modifiers": [
@@ -16162,7 +16344,7 @@
                 ],
                 "constraints": [
                   {
-                    "id": "943f-f7aa-814d-b235",
+                    "id": "a83a-35f6-3cc5-4c99",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -16655,7 +16837,7 @@
                   {
                     "name": "BS",
                     "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
+                    "$text": "2+"
                   },
                   {
                     "name": "S",
@@ -16725,15 +16907,15 @@
             ]
           },
           {
-            "name": "T'vaoan Plasma Sabres",
-            "id": "594e-b958-1565-6f1d",
+            "name": "Raider's Sabres",
+            "id": "d3a3-3f22-31b9-7116",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "52e0-dd7b-ca7a-8649",
-                "name": "T'vaoan Plasma Sabres",
+                "id": "b90c-a926-ef23-3ef8",
+                "name": "Raider's Sabres",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
@@ -16746,12 +16928,12 @@
                   {
                     "name": "A",
                     "typeId": "2337-daa1-6682-b110",
-                    "$text": "4"
+                    "$text": "5"
                   },
                   {
                     "name": "WS",
                     "typeId": "95d1-95f-45b4-11d6",
-                    "$text": "3+"
+                    "$text": "2+"
                   },
                   {
                     "name": "S",
@@ -16778,7 +16960,7 @@
             ],
             "constraints": [
               {
-                "id": "19a6-afd7-5ad0-641a",
+                "id": "f126-0968-8343-2bda",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -16787,7 +16969,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "6328-3e5f-f955-7215",
+                "id": "d0c1-ca66-a50b-13b0",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -16798,14 +16980,14 @@
             ],
             "infoLinks": [
               {
-                "id": "a41a-76af-f781-9832",
+                "id": "fe55-b617-9aca-81e4",
                 "name": "Twin-linked",
                 "targetId": "cf93-ad4d-2f08-a79d",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "e5fa-6ae1-4862-650a",
+                "id": "50c5-76dc-5d9c-c097",
                 "name": "Plasma",
                 "targetId": "96fc-ca3e-b5fb-a002",
                 "type": "rule",
@@ -17163,9 +17345,9 @@
                 "import": true
               },
               {
-                "name": "Veteran of Many Worlds",
-                "id": "9e6d-e03a-bed2-84c2",
-                "targetId": "8e98-4d81-7d7e-2822",
+                "name": "Liaison Officer",
+                "id": "cbc8-5fb3-d6ed-2396",
+                "targetId": "ea6d-dc4a-ab86-90e3",
                 "type": "selectionEntry",
                 "hidden": true,
                 "modifiers": [
@@ -17188,7 +17370,7 @@
                 ],
                 "constraints": [
                   {
-                    "id": "0bef-4643-3c29-408d",
+                    "id": "9176-5e66-7791-8683",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -17545,7 +17727,7 @@
                   {
                     "name": "BS",
                     "typeId": "94d-8a98-cf90-183e",
-                    "$text": "4+"
+                    "$text": "3+"
                   },
                   {
                     "name": "S",
@@ -17608,15 +17790,15 @@
             ]
           },
           {
-            "name": "Unggoy Close Combat Weapon",
-            "id": "818c-5910-e099-9b4c",
+            "name": "Deacon's Staff",
+            "id": "c070-4bec-16d7-7cfb",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "56d7-0118-f073-c3f9",
-                "name": "Unggoy Close Combat Weapon",
+                "id": "827b-0c90-9eca-4cf1",
+                "name": "Deacon's Staff",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
@@ -17634,12 +17816,12 @@
                   {
                     "name": "WS",
                     "typeId": "95d1-95f-45b4-11d6",
-                    "$text": "5+"
+                    "$text": "4+"
                   },
                   {
                     "name": "S",
                     "typeId": "ab33-d393-96ce-ccba",
-                    "$text": "3"
+                    "$text": "4"
                   },
                   {
                     "name": "AP",
@@ -17661,7 +17843,7 @@
             ],
             "constraints": [
               {
-                "id": "a192-0534-31e0-d5c2",
+                "id": "4051-bde5-c386-fcb3",
                 "type": "min",
                 "value": 1,
                 "scope": "parent",
@@ -17670,7 +17852,7 @@
                 "includeChildSelections": false
               },
               {
-                "id": "dae9-e278-0d81-fdf9",
+                "id": "8f27-eda3-629e-cc04",
                 "type": "max",
                 "value": 1,
                 "scope": "parent",
@@ -17681,7 +17863,7 @@
             ],
             "infoLinks": [
               {
-                "id": "ee77-cd06-bbac-29c1",
+                "id": "ebb5-73a3-7ca0-7b4f",
                 "name": "Lethal Hits",
                 "targetId": "d1d1-611e-5191-1095",
                 "type": "rule",
@@ -18115,9 +18297,9 @@
                 "import": true
               },
               {
-                "name": "Veteran of Many Worlds",
-                "id": "be52-8dcc-7fd4-e156",
-                "targetId": "8e98-4d81-7d7e-2822",
+                "name": "Liaison Officer",
+                "id": "9a63-1164-dfc0-8bd3",
+                "targetId": "ea6d-dc4a-ab86-90e3",
                 "type": "selectionEntry",
                 "hidden": true,
                 "modifiers": [
@@ -18140,7 +18322,7 @@
                 ],
                 "constraints": [
                   {
-                    "id": "5ece-9965-5c5b-07be",
+                    "id": "0ad2-87a4-e571-7a7f",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -18894,9 +19076,9 @@
                 "import": true
               },
               {
-                "name": "Veteran of Many Worlds",
-                "id": "ebad-0b18-407e-e608",
-                "targetId": "8e98-4d81-7d7e-2822",
+                "name": "Liaison Officer",
+                "id": "3d57-17d8-32b0-bdc3",
+                "targetId": "ea6d-dc4a-ab86-90e3",
                 "type": "selectionEntry",
                 "hidden": true,
                 "modifiers": [
@@ -18919,7 +19101,7 @@
                 ],
                 "constraints": [
                   {
-                    "id": "2586-0e6e-f1ca-ff13",
+                    "id": "0f3a-810a-396c-aeec",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -19654,7 +19836,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Lethal Hits"
+                            "$text": "Lethal Hits, Cleave 1"
                           }
                         ]
                       }
@@ -19684,6 +19866,13 @@
                         "id": "1d7c-abe1-4982-b449",
                         "name": "Lethal Hits",
                         "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "28cd-b15e-4f0e-3431",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
                         "type": "rule",
                         "hidden": false
                       }
@@ -20103,7 +20292,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Lethal Hits"
+                            "$text": "Lethal Hits, Cleave 1"
                           }
                         ]
                       }
@@ -20133,6 +20322,13 @@
                         "id": "21a9-1974-b369-d37f",
                         "name": "Lethal Hits",
                         "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "de43-85f3-88a2-7934",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
                         "type": "rule",
                         "hidden": false
                       }
@@ -20445,7 +20641,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Lethal Hits"
+                            "$text": "Lethal Hits, Cleave 1"
                           }
                         ]
                       }
@@ -20475,6 +20671,13 @@
                         "id": "4475-4f5b-fdaf-6c38",
                         "name": "Lethal Hits",
                         "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "d725-a8d9-bf5f-2aac",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
                         "type": "rule",
                         "hidden": false
                       }
@@ -20780,7 +20983,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Lethal Hits"
+                            "$text": "Lethal Hits, Cleave 1"
                           }
                         ]
                       }
@@ -20810,6 +21013,13 @@
                         "id": "06bd-930a-834b-a9d3",
                         "name": "Lethal Hits",
                         "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "b2f0-30ec-60b4-5c05",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
                         "type": "rule",
                         "hidden": false
                       }
@@ -36814,7 +37024,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "-"
+                            "$text": "Cleave 1"
                           }
                         ]
                       }
@@ -36837,6 +37047,15 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "8ae7-4434-26e9-cec4",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   },
@@ -37360,7 +37579,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Lethal Hits"
+                            "$text": "Lethal Hits, Cleave 1"
                           }
                         ]
                       }
@@ -37390,6 +37609,13 @@
                         "id": "85b4-0497-719d-1960",
                         "name": "Lethal Hits",
                         "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "7e3f-75ae-ecf4-f817",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
                         "type": "rule",
                         "hidden": false
                       }
@@ -37925,7 +38151,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Lethal Hits"
+                            "$text": "Lethal Hits, Cleave 1"
                           }
                         ]
                       }
@@ -37955,6 +38181,13 @@
                         "id": "5784-f675-b040-817e",
                         "name": "Lethal Hits",
                         "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "4697-a34f-91b9-4c75",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
                         "type": "rule",
                         "hidden": false
                       }
@@ -38193,7 +38426,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Lethal Hits"
+                            "$text": "Lethal Hits, Cleave 1"
                           }
                         ]
                       }
@@ -38223,6 +38456,13 @@
                         "id": "f314-674f-a1f5-532d",
                         "name": "Lethal Hits",
                         "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "5cb4-e8e6-af04-91c1",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
                         "type": "rule",
                         "hidden": false
                       }
@@ -38700,7 +38940,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Devastating Wounds, Gravity Slam"
+                            "$text": "Devastating Wounds, Gravity Slam, Cleave 1"
                           }
                         ]
                       }
@@ -38730,6 +38970,13 @@
                         "id": "2c9b-efd1-5288-013c",
                         "name": "Devastating Wounds",
                         "targetId": "be1e-ac8e-1e2c-3528",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "a352-e19b-fac8-0a2a",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
                         "type": "rule",
                         "hidden": false
                       },
@@ -39228,7 +39475,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Devastating Wounds, Gravity Slam"
+                            "$text": "Devastating Wounds, Gravity Slam, Cleave 1"
                           }
                         ]
                       }
@@ -39258,6 +39505,13 @@
                         "id": "77ea-f8e8-5ce9-e991",
                         "name": "Devastating Wounds",
                         "targetId": "be1e-ac8e-1e2c-3528",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "9e21-07db-ab07-d1b0",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
                         "type": "rule",
                         "hidden": false
                       },
@@ -43153,7 +43407,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Plasma (AP1)"
+                            "$text": "Plasma (AP1), Cleave 1"
                           }
                         ]
                       }
@@ -43179,6 +43433,13 @@
                       }
                     ],
                     "infoLinks": [
+                      {
+                        "id": "6ff4-d5cb-4eac-4389",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
+                        "type": "rule",
+                        "hidden": false
+                      },
                       {
                         "id": "8586-04b7-9af8-4354",
                         "name": "Plasma",
@@ -45741,7 +46002,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Plasma (AP1)"
+                            "$text": "Plasma (AP1), Cleave 1"
                           }
                         ]
                       }
@@ -45767,6 +46028,13 @@
                       }
                     ],
                     "infoLinks": [
+                      {
+                        "id": "45ad-2c55-515a-102c",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
+                        "type": "rule",
+                        "hidden": false
+                      },
                       {
                         "id": "050e-3ae3-b992-d6cf",
                         "name": "Plasma",
@@ -45994,7 +46262,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Lethal Hits"
+                            "$text": "Lethal Hits, Cleave 1"
                           }
                         ]
                       }
@@ -46024,6 +46292,13 @@
                         "id": "5d67-30f3-b2c9-f280",
                         "name": "Lethal Hits",
                         "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "3da9-ddaf-0d3e-ae58",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
                         "type": "rule",
                         "hidden": false
                       }
@@ -50015,7 +50290,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "-"
+                            "$text": "Cleave 1"
                           }
                         ]
                       }
@@ -50038,6 +50313,15 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "218a-6f33-a75d-edfb",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   },
@@ -50605,7 +50889,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "-"
+                            "$text": "Cleave 1"
                           }
                         ]
                       }
@@ -50628,6 +50912,15 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "d308-98c7-f4df-12e0",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   },
@@ -51216,7 +51509,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "-"
+                            "$text": "Cleave 1"
                           }
                         ]
                       }
@@ -51239,6 +51532,15 @@
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "3796-e111-b713-8e09",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   },
@@ -51806,7 +52108,7 @@
                           {
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e",
-                            "$text": "Sustained Hits 4"
+                            "$text": "Sustained Hits 4, Cleave 1"
                           }
                         ]
                       }
@@ -51836,6 +52138,13 @@
                         "id": "5263-33c6-97f0-7d99",
                         "name": "Sustained Hits",
                         "targetId": "1897-c22c-9597-12b1",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "2030-bfec-2f3b-d1fb",
+                        "name": "Cleave",
+                        "targetId": "bf16-5d16-4725-f912",
                         "type": "rule",
                         "hidden": false
                       }
@@ -53771,7 +54080,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e",
-                    "$text": "-"
+                    "$text": "Cleave 2"
                   }
                 ]
               }
@@ -53794,6 +54103,15 @@
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "id": "561f-50d6-77d3-1de2",
+                "name": "Cleave",
+                "targetId": "bf16-5d16-4725-f912",
+                "type": "rule",
+                "hidden": false
               }
             ]
           },
@@ -68088,7 +68406,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Lethal Hits"
+                        "$text": "Lethal Hits, Cleave 1"
                       }
                     ]
                   }
@@ -68109,6 +68427,13 @@
                     "id": "ab6b-4f5a-96a2-3330",
                     "name": "Lethal Hits",
                     "targetId": "d1d1-611e-5191-1095",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "bd33-5e85-1322-4eef",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   }
@@ -68161,7 +68486,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Lethal Hits"
+                        "$text": "Lethal Hits, Cleave 1"
                       }
                     ]
                   }
@@ -68182,6 +68507,13 @@
                     "id": "1762-2b84-57de-210c",
                     "name": "Lethal Hits",
                     "targetId": "d1d1-611e-5191-1095",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "68ea-885a-88a4-3498",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   }
@@ -68234,7 +68566,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Devastating Wounds, Gravity Slam"
+                        "$text": "Devastating Wounds, Gravity Slam, Cleave 1"
                       }
                     ]
                   }
@@ -68262,6 +68594,13 @@
                     "id": "8d14-0c1e-a304-d05a",
                     "name": "Devastating Wounds",
                     "targetId": "be1e-ac8e-1e2c-3528",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "4e0b-0fe7-ff59-be4b",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   },
@@ -75135,7 +75474,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Lethal Hits"
+                        "$text": "Lethal Hits, Cleave 1"
                       }
                     ]
                   }
@@ -75156,6 +75495,13 @@
                     "id": "dacd-b49d-3dd0-91f4",
                     "name": "Lethal Hits",
                     "targetId": "d1d1-611e-5191-1095",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "e2a0-b1f8-7e3b-74d2",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   }
@@ -75208,7 +75554,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Lethal Hits"
+                        "$text": "Lethal Hits, Cleave 1"
                       }
                     ]
                   }
@@ -75229,6 +75575,13 @@
                     "id": "1169-a3b2-d4d0-d66c",
                     "name": "Lethal Hits",
                     "targetId": "d1d1-611e-5191-1095",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "2e85-11cc-ab3d-0ddf",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   }
@@ -75281,7 +75634,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Devastating Wounds, Gravity Slam"
+                        "$text": "Devastating Wounds, Gravity Slam, Cleave 1"
                       }
                     ]
                   }
@@ -75309,6 +75662,13 @@
                     "id": "2f03-19bc-d0fe-6b6d",
                     "name": "Devastating Wounds",
                     "targetId": "be1e-ac8e-1e2c-3528",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "93d8-afb5-2bfe-99a0",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   },
@@ -78026,7 +78386,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Plasma (AP1)"
+                        "$text": "Plasma (AP1), Cleave 1"
                       }
                     ]
                   }
@@ -78047,6 +78407,13 @@
                     "id": "be3d-e2c9-fabe-170a",
                     "name": "Assault",
                     "targetId": "fc8a-8c24-bae9-cc1c",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "7e2b-4829-7317-492b",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   },
@@ -78157,7 +78524,7 @@
                       {
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e",
-                        "$text": "Lethal Hits"
+                        "$text": "Lethal Hits, Cleave 1"
                       }
                     ]
                   }
@@ -78185,6 +78552,13 @@
                     "id": "4354-d1e9-4eb9-0fe1",
                     "name": "Lethal Hits",
                     "targetId": "d1d1-611e-5191-1095",
+                    "type": "rule",
+                    "hidden": false
+                  },
+                  {
+                    "id": "de9d-0e0d-2a0a-bde7",
+                    "name": "Cleave",
+                    "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   },
@@ -81982,8 +82356,8 @@
         ]
       },
       {
-        "name": "Veteran of Many Worlds",
-        "id": "8e98-4d81-7d7e-2822",
+        "name": "Liaison Officer",
+        "id": "ea6d-dc4a-ab86-90e3",
         "type": "upgrade",
         "hidden": false,
         "import": true,
@@ -82006,7 +82380,7 @@
         ],
         "constraints": [
           {
-            "id": "02ec-656e-f110-2291",
+            "id": "5c4d-9db8-f99b-1aa2",
             "type": "max",
             "value": 1,
             "scope": "roster",
@@ -82017,10 +82391,10 @@
         ],
         "rules": [
           {
-            "name": "Veteran of Many Worlds",
-            "id": "5fa2-4c7e-80e1-a961",
+            "name": "Liaison Officer",
+            "id": "320e-4762-0f8e-245c",
             "hidden": false,
-            "description": "Once per battle, at the start of any phase, the bearer's unit can be affected by one Caste Doctrine of your choice that can be used in that phase, as though it contained the appropriate Sergeant model."
+            "description": "While the bearer is leading a unit, friendly units within 6\" of that unit always count as being within 6\" of a friendly unit with a designation they do not have (Combined Arms)."
           }
         ]
       },
@@ -84887,25 +85261,25 @@
         "name": "Covenant Expeditionary Force — Coordinated Strike / 1 CP",
         "id": "2ab7-de24-110f-6131",
         "hidden": false,
-        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase, just after a COVENANT VEHICLE unit from your army has shot.\n\n**Target**<br>One enemy unit hit by one or more of those attacks, and one COVENANT INFANTRY unit from your army that has not been selected to shoot this phase.\n\n**Effect**<br>Until the end of the phase, each time a model in your INFANTRY unit makes an attack that targets that enemy unit, add 1 to the wound roll."
+        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase, just after a unit from your army has shot.\n\n**Target**<br>One enemy unit hit by one or more of those attacks, and one other unit from your army that has a designation the first unit does not have and has not been selected to shoot this phase.\n\n**Effect**<br>Until the end of the phase, each time a model in that other unit makes an attack that targets that enemy unit, add 1 to the wound roll."
       },
       {
         "name": "Covenant Expeditionary Force — Armoured Escort / 1 CP",
         "id": "c4f5-0089-113a-dad6",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase, just after an enemy unit selects a COVENANT INFANTRY unit from your army within 6\" of a COVENANT VEHICLE unit from your army as the target of one or more attacks.\n\n**Target**<br>That COVENANT INFANTRY unit.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, your unit has the benefit of cover."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your opponent's Shooting phase, just after an enemy unit selects a unit from your army within 6\" of a friendly unit with the VEHICLE designation as the target of one or more attacks.\n\n**Target**<br>That unit.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, your unit has the benefit of cover."
       },
       {
-        "name": "Covenant Expeditionary Force — Change of Command / 1 CP",
-        "id": "719c-3563-8869-e750",
+        "name": "Covenant Expeditionary Force — Extended Command Net / 1 CP",
+        "id": "91e8-0253-92e1-abb4",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Start of any phase.\n\n**Target**<br>One unit from your army whose Sergeant model has issued all of its Caste Doctrines this battle round.\n\n**Effect**<br>That Sergeant model can issue one additional Caste Doctrine this battle round."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Start of any phase.\n\n**Target**<br>One unit from your army that contains a Sergeant model.\n\n**Effect**<br>Until the end of the phase, that Sergeant model can issue Caste Doctrines to units within 12\" of it instead of 6\"."
       },
       {
-        "name": "Covenant Expeditionary Force — Focused Fire / 1 CP",
-        "id": "2171-2a9c-763d-8cda",
+        "name": "Covenant Expeditionary Force — Joint Assault / 1 CP",
+        "id": "dac9-7dfa-3094-0f0a",
         "hidden": false,
-        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Your Shooting phase, just after a COVENANT unit from your army is selected to shoot.\n\n**Target**<br>That unit.\n\n**Effect**<br>Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that was hit by an attack made by another unit from your army this phase, add 1 to the hit roll."
+        "description": "\n\n*Battle Tactic Stratagem*\n\n**When**<br>Fight phase, just after a unit from your army is selected to fight.\n\n**Target**<br>That unit.\n\n**Effect**<br>Until the end of the phase, each time a model in your unit makes a melee attack that targets an enemy unit that is also engaged with a friendly unit with a designation your unit does not have, add 1 to the wound roll."
       },
       {
         "name": "Covenant Expeditionary Force — Shield Relay / 1 CP",
@@ -84917,7 +85291,7 @@
         "name": "Covenant Expeditionary Force — Combined Assault / 1 CP",
         "id": "579a-ee9a-1e78-5e7b",
         "hidden": false,
-        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Charge phase, just after a COVENANT VEHICLE or MOUNTED unit from your army ends a charge move.\n\n**Target**<br>One COVENANT INFANTRY unit from your army that has not declared a charge this phase.\n\n**Effect**<br>Until the end of the phase, if your INFANTRY unit declares a charge against an enemy unit engaged with that VEHICLE or MOUNTED unit, you can re-roll its charge roll."
+        "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>Your Charge phase, just after a unit from your army ends a charge move.\n\n**Target**<br>One other unit from your army with a designation that unit does not have, that has not declared a charge this phase.\n\n**Effect**<br>Until the end of the phase, if your unit declares a charge against an enemy unit engaged with the first unit, you can re-roll its charge roll."
       },
       {
         "name": "Armored Spearhead — Overcharged Cannons / 1 CP",

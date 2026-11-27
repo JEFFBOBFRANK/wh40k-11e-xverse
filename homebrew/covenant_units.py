@@ -57,8 +57,8 @@ def Counted(name, cost, exclude=()):
 
 # Weapons a model swaps to that its own datasheet does not print (same profile and skill elsewhere in the codex).
 BORROW = {
-    ("Sangheili Special Operations Team", "Plasma Rifle"): "Sangheili Fieldmaster",
-    ("T'vaoan Skirmishers", "Plasma Rifle"): "Sangheili Fieldmaster",
+    ("Sangheili Special Operations Team", "Plasma Rifle"): "T'vaoan Auxiliary",
+    ("T'vaoan Skirmishers", "Plasma Rifle"): "T'vaoan Auxiliary",
 }
 
 SANG_CCW = "Sangheili Close Combat Weapon"
@@ -85,9 +85,9 @@ UNITS = {
     "Sangheili Fieldmaster": S(),
     "Sangheili Blademaster": S(),
     "Jiralhanae Chieftain": S(weapons=[], gear=["Chieftain Shield"], choices=[C("Weapons", [
-        "Spiker + Brute Heavy Melee Weapon", "Bolt Spiker + Brute Heavy Melee Weapon",
-        "Brute Shot + Brute Heavy Melee Weapon", "Skewer + Brute Heavy Melee Weapon", "Mangler + Gravity Hammer"],
-        costs={"Skewer + Brute Heavy Melee Weapon": 10, "Mangler + Gravity Hammer": 10})]),
+        "Spiker + Chieftain's War Blade", "Bolt Spiker + Chieftain's War Blade",
+        "Brute Shot + Chieftain's War Blade", "Skewer + Chieftain's War Blade", "Mangler + Chieftain's Gravity Hammer"],
+        costs={"Skewer + Chieftain's War Blade": 10, "Mangler + Chieftain's Gravity Hammer": 10})]),
     "Yig-Yar Corsair-Talon": S(),
     "Yig-Yar Headtaker": S(weapons=["Plasma Pistol", YY_CCW], choices=[C("Precision weapon", [
         "Covenant Carbine", "Needle Rifle", "Particle Beam Rifle", "Stalker Rifle"])]),

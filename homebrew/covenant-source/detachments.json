@@ -509,12 +509,12 @@
     ]
    },
    {
-    "name": "Veteran of Many Worlds",
+    "name": "Liaison Officer",
     "points": 15,
     "upgrade": false,
     "restriction": null,
     "text": [
-     "Once per battle, at the start of any phase, the bearer's unit can be affected by one Caste Doctrine of your choice that can be used in that phase, as though it contained the appropriate Sergeant model."
+     "While the bearer is leading a unit, friendly units within 6\" of that unit always count as being within 6\" of a friendly unit with a designation they do not have (Combined Arms)."
     ]
    },
    {
@@ -532,33 +532,33 @@
     "name": "Coordinated Strike",
     "cp": 1,
     "type": "Battle Tactic Stratagem",
-    "when": "Your Shooting phase, just after a COVENANT VEHICLE unit from your army has shot.",
-    "target": "One enemy unit hit by one or more of those attacks, and one COVENANT INFANTRY unit from your army that has not been selected to shoot this phase.",
-    "effect": "Until the end of the phase, each time a model in your INFANTRY unit makes an attack that targets that enemy unit, add 1 to the wound roll."
+    "when": "Your Shooting phase, just after a unit from your army has shot.",
+    "target": "One enemy unit hit by one or more of those attacks, and one other unit from your army that has a designation the first unit does not have and has not been selected to shoot this phase.",
+    "effect": "Until the end of the phase, each time a model in that other unit makes an attack that targets that enemy unit, add 1 to the wound roll."
    },
    {
     "name": "Armoured Escort",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Your opponent's Shooting phase, just after an enemy unit selects a COVENANT INFANTRY unit from your army within 6\" of a COVENANT VEHICLE unit from your army as the target of one or more attacks.",
-    "target": "That COVENANT INFANTRY unit.",
+    "when": "Your opponent's Shooting phase, just after an enemy unit selects a unit from your army within 6\" of a friendly unit with the VEHICLE designation as the target of one or more attacks.",
+    "target": "That unit.",
     "effect": "Until the attacking unit has finished making its attacks, your unit has the benefit of cover."
    },
    {
-    "name": "Change of Command",
+    "name": "Extended Command Net",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
     "when": "Start of any phase.",
-    "target": "One unit from your army whose Sergeant model has issued all of its Caste Doctrines this battle round.",
-    "effect": "That Sergeant model can issue one additional Caste Doctrine this battle round."
+    "target": "One unit from your army that contains a Sergeant model.",
+    "effect": "Until the end of the phase, that Sergeant model can issue Caste Doctrines to units within 12\" of it instead of 6\"."
    },
    {
-    "name": "Focused Fire",
+    "name": "Joint Assault",
     "cp": 1,
     "type": "Battle Tactic Stratagem",
-    "when": "Your Shooting phase, just after a COVENANT unit from your army is selected to shoot.",
+    "when": "Fight phase, just after a unit from your army is selected to fight.",
     "target": "That unit.",
-    "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that was hit by an attack made by another unit from your army this phase, add 1 to the hit roll."
+    "effect": "Until the end of the phase, each time a model in your unit makes a melee attack that targets an enemy unit that is also engaged with a friendly unit with a designation your unit does not have, add 1 to the wound roll."
    },
    {
     "name": "Shield Relay",
@@ -572,9 +572,9 @@
     "name": "Combined Assault",
     "cp": 1,
     "type": "Strategic Ploy Stratagem",
-    "when": "Your Charge phase, just after a COVENANT VEHICLE or MOUNTED unit from your army ends a charge move.",
-    "target": "One COVENANT INFANTRY unit from your army that has not declared a charge this phase.",
-    "effect": "Until the end of the phase, if your INFANTRY unit declares a charge against an enemy unit engaged with that VEHICLE or MOUNTED unit, you can re-roll its charge roll."
+    "when": "Your Charge phase, just after a unit from your army ends a charge move.",
+    "target": "One other unit from your army with a designation that unit does not have, that has not declared a charge this phase.",
+    "effect": "Until the end of the phase, if your unit declares a charge against an enemy unit engaged with the first unit, you can re-roll its charge roll."
    }
   ],
   "rules_intro": [],
