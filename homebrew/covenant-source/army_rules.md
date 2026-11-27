@@ -91,7 +91,7 @@ Each time an attack made with a Plasma weapon scores a critical hit, add X to th
 
 ## Conversion
 
-Each time an attack made with this weapon targets a unit that is not within half range of that weapon, an unmodified hit roll of 4+ scores a critical hit.
+Each time an attack made with this weapon targets a unit more than 12" from the bearer, an unmodified successful hit roll of 4+ scores a critical hit.
 
 ## Gravity Slam
 

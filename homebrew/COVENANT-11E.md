@@ -304,9 +304,9 @@ D3+X and random attacks become fixed, with [BLAST 1] or [BLAST 2].
 - **Gravity Slam** (undefined in v5.5.0) is defined in the army rules (revision 29): once per phase, when a unit with
   one or more Gravity Slam weapons is selected to fight, roll a D6 for each enemy unit within 3" of those models; on
   a 3+ it suffers D3 mortal wounds and must make a battle-shock roll. On every Gravity Hammer and the Fist of Rukt.
-- **Conversion Beam 30"** (undefined; 30" is half a Particle Beam Rifle's range) is [CONVERSION] (revision 29): like
-  [RAPID FIRE] turned around, against a target that is not within half range an unmodified hit roll of 4+ is a
-  critical hit. In the army rules and linked on every Particle Beam Rifle.
+- **Conversion Beam 30"** (undefined) is the 11e [CONVERSION] ability (revision 30, worded as on the 11e Relic
+  Contemptor Dreadnought): against a unit more than 12" from the bearer, an unmodified hit roll of 4+ is a critical
+  hit. In the army rules and linked on every Particle Beam Rifle.
 
 ## Rebuild and check
 

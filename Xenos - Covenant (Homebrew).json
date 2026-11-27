@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 29,
+    "revision": 30,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -84701,7 +84701,7 @@
         "name": "Conversion",
         "id": "8d7f-7dc8-effc-fbf8",
         "hidden": false,
-        "description": "\n\nEach time an attack made with this weapon targets a unit that is not within half range of that weapon, an unmodified hit roll of 4+ scores a critical hit."
+        "description": "\n\nEach time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful hit roll of 4+ scores a critical hit."
       },
       {
         "name": "Gravity Slam",
