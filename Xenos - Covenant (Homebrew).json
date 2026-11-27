@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 42,
+    "revision": 43,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -767,7 +767,7 @@
                     "name": "Fanatical Doctrines",
                     "id": "1590-033d-6196-48e8",
                     "hidden": false,
-                    "description": "\n\nOnce per turn, at the start of any phase, each SAN'SHYUUM model from your army can issue one Fanatical Doctrine to one friendly COVENANT INFANTRY unit within 6\" of it. That unit is affected by that Doctrine until the end of the turn. A unit can be affected by one Caste Doctrine and one Fanatical Doctrine at the same time.\n\n**Shielded by Faith:**<br>Models in this unit have a 4+ invulnerable save.\n**Claim the Sacred Path:** Add 2 to the OC characteristic of models in this unit.\n**Wrath of the Prophets:** Weapons equipped by models in this unit have [SUSTAINED HITS 1]."
+                    "description": "\n\nOnce per turn, at the start of any phase, each SAN'SHYUUM model from your army can issue one Fanatical Doctrine to one friendly COVENANT INFANTRY unit within 6\" of it. That unit is affected by that Doctrine until the end of the turn. A unit can be affected by one Caste Doctrine and one Fanatical Doctrine at the same time.\n\n**Shielded by Faith:**<br>Models in this unit have an InSv characteristic of 4+.\n**Claim the Sacred Path:** Add 2 to the OC characteristic of models in this unit.\n**Wrath of the Prophets:** Weapons equipped by models in this unit have [SUSTAINED HITS 1]."
                   },
                   {
                     "name": "Fevered Pilgrimage",
@@ -984,7 +984,7 @@
                     "name": "Combined Arms",
                     "id": "8fd4-a6ee-bf4f-962b",
                     "hidden": false,
-                    "description": "\n\nEach unit's designation is its unit keyword: ELITE, BRUTE, GRUNT, JACKAL, DRONE, HUNTER or ENGINEER. VEHICLE and MOUNTED units have the VEHICLE designation instead. An Attached unit has the designations of all its units.\n\nWhile a unit from your army is within 6\" of a friendly unit with a designation it does not have, each time a model in it makes an attack, re-roll a hit roll of 1."
+                    "description": "\n\nEach unit's designation is its unit keyword: ELITE, BRUTE, GRUNT, JACKAL, DRONE, HUNTER or ENGINEER. VEHICLE and MOUNTED units have the VEHICLE designation instead. An attached unit has the designations of all its units.\n\nWhile a unit from your army is within 6\" of a friendly unit with a designation it does not have, each time a model in it makes an attack, re-roll a hit roll of 1."
                   }
                 ],
                 "categoryLinks": [
@@ -4051,7 +4051,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model is not part of an Attached unit, it has the Lone Operative ability."
+                "$text": "While this model is not part of an attached unit, it has the Lone Operative ability."
               }
             ]
           },
@@ -4357,7 +4357,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -4487,7 +4487,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model is not part of an Attached unit, it has the Lone Operative ability."
+                "$text": "While this model is not part of an attached unit, it has the Lone Operative ability."
               }
             ]
           },
@@ -4793,7 +4793,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -4923,7 +4923,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model is not part of an Attached unit, it has the Lone Operative ability."
+                "$text": "While this model is not part of an attached unit, it has the Lone Operative ability."
               }
             ]
           },
@@ -5229,7 +5229,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -5331,7 +5331,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model is leading a unit, that unit is considered to contain a Sangheili Sergeant for the purpose of using Sangheili Caste Doctrines."
+                "$text": "While this model is leading a unit, that unit is considered to contain a SANGHEILI Sergeant for the purpose of using Sangheili Caste Doctrines."
               }
             ]
           },
@@ -5855,7 +5855,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -6429,7 +6429,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -6589,7 +6589,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While both N'tho and Usze are on the battlefield, re-roll hit rolls of 1 and wound rolls of 1 for attacks made by models in this unit. While this unit is leading another unit, models in that Bodyguard unit also receive this benefit."
+                "$text": "While both N'tho and Usze are on the battlefield, re-roll hit rolls of 1 and wound rolls of 1 for attacks made by models in this unit. While this unit is leading another unit, models in that bodyguard unit also receive this benefit."
               }
             ]
           },
@@ -7485,7 +7485,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -7962,7 +7962,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -8145,7 +8145,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model is not part of an Attached unit, it has the Lone Operative ability."
+                "$text": "While this model is not part of an attached unit, it has the Lone Operative ability."
               }
             ]
           },
@@ -8408,7 +8408,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -9092,7 +9092,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per turn, at the start of any phase, select one friendly COVENANT unit within 6\" of this model and one Sangheili Caste Doctrine that can be used in that phase. Until the end of the phase, that unit is affected by the Doctrine. It need not contain a Sangheili Sergeant. This use does not count as the unit using a Caste Doctrine."
+                "$text": "Once per turn, at the start of any phase, select one friendly COVENANT unit within 6\" of this model and one Sangheili Caste Doctrine that can be used in that phase. Until the end of the phase, that unit is affected by the Doctrine. It need not contain a SANGHEILI Sergeant. This use does not count as the unit using a Caste Doctrine."
               }
             ]
           },
@@ -9529,7 +9529,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -10925,7 +10925,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -12103,7 +12103,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -12961,7 +12961,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This model is treated as a Jiralhanae Sergeant for the purpose of issuing Jiralhanae Caste Doctrines to its own unit."
+                "$text": "This model is treated as a JIRALHANAE Sergeant for the purpose of issuing Jiralhanae Caste Doctrines to its own unit."
               }
             ]
           },
@@ -14403,7 +14403,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -14968,7 +14968,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -16696,7 +16696,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -17152,7 +17152,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -17714,7 +17714,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While a friendly GRUNT unit is within 6\" of this model, it is considered to contain an Unggoy Sergeant for the purpose of accessing Unggoy Doctrines."
+                "$text": "While a friendly GRUNT unit is within 6\" of this model, it is considered to contain an UNGGOY Sergeant for the purpose of accessing Unggoy Doctrines."
               }
             ]
           },
@@ -18014,7 +18014,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -18890,7 +18890,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -19401,7 +19401,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the end of the Charge phase, select one enemy unit within engagement range of this unit. It must make a battle-shock roll, subtracting 1 from that test."
+                "$text": "At the end of the Charge phase, select one enemy unit engaged with this unit. That unit must make a battle-shock roll, subtracting 1 from that roll."
               }
             ]
           },
@@ -21352,7 +21352,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -22989,7 +22989,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -24777,7 +24777,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -24798,7 +24798,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this unit contains a Yanme'e Major, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by Yanme'e Drone models in this unit by 1."
+                "$text": "While this unit contains a Yanme'e Major, improve the BS and WS characteristics of weapons equipped by Yanme'e Drone models in this unit by 1."
               }
             ]
           },
@@ -25288,7 +25288,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -27761,7 +27761,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -27782,7 +27782,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This unit is eligible to shoot and perform an Action in a turn in which it made an advance move. Performing an Action does not prevent it from shooting, and shooting does not cause an Action it is performing to fail."
+                "$text": "This unit is eligible to start an action in a turn in which it made an advance move. Starting an action does not stop it being eligible to shoot that turn."
               }
             ]
           },
@@ -28453,7 +28453,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -29069,7 +29069,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -31324,7 +31324,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -32548,7 +32548,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -32569,7 +32569,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle round, after an enemy unit finishes making ranged attacks, if one or more models in this unit were destroyed, choose one: Surge - move D6+2\" towards the closest enemy unit and this move can end within engagement range; or Return Fire - this unit shoots, but can target only the enemy unit that triggered this ability."
+                "$text": "Once per battle round, after an enemy unit finishes making ranged attacks, if one or more models in this unit were destroyed, choose one: Surge: this unit makes a surge move of up to D6+2\"; or Return Fire: this unit shoots, but can target only the enemy unit that triggered this ability."
               }
             ]
           },
@@ -32583,7 +32583,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the start of the Fight phase, if this unit is unengaged, destroy one model in it. If you do, this unit can move D6\" towards the closest enemy and can end within engagement range. If it cannot, it can instead move that distance towards the closest objective marker."
+                "$text": "At the start of the Fight phase, if this unit is unengaged, destroy one model in it. If you do, this unit can make a surge move of up to D6\". If it cannot end that move engaged, it can instead make a normal move of up to that distance towards the closest objective marker."
               }
             ]
           },
@@ -34353,7 +34353,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -34388,7 +34388,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Before the battle, this unit can be attached to one COVENANT CHARACTER model. That model becomes part of this unit. This does not count as that Character having joined a unit; it can still be attached to an eligible Bodyguard unit, in which case this Honor Guard also joins that unit."
+                "$text": "Before the battle, this unit can be attached to one COVENANT CHARACTER model. That model becomes part of this unit. This does not count as that Character having joined a unit; it can still be attached to an eligible bodyguard unit, in which case this Honor Guard also joins that unit."
               }
             ]
           },
@@ -34833,7 +34833,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -35396,7 +35396,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -36274,7 +36274,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -36304,7 +36304,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this unit ends a charge move, select one enemy unit within engagement range. Roll one D6 for each Jiralhanae Linebreaker in this unit; for each 3+, that enemy unit suffers D3 mortal wounds."
+                "$text": "Each time this unit ends a charge move, select one enemy unit engaged with it. Roll one D6 for each Jiralhanae Linebreaker in this unit; for each 3+, that enemy unit suffers D3 mortal wounds."
               }
             ]
           },
@@ -36809,7 +36809,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -36839,7 +36839,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Before the battle, this unit can be attached to one friendly COVENANT CHARACTER unit. While that unit contains a CHARACTER model, subtract 1 from wound rolls for attacks that target it. These models are not Leaders and do not prevent the Character from joining another eligible unit."
+                "$text": "Before the battle, this unit can be attached to one friendly COVENANT CHARACTER unit. While that unit contains a CHARACTER model, subtract 1 from wound rolls for attacks that target it. These models are not Leaders and do not prevent the CHARACTER from joining another eligible unit."
               }
             ]
           },
@@ -37295,7 +37295,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -37343,7 +37343,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Ranged weapons equipped by models in this unit have Assault."
+                "$text": "Ranged weapons equipped by models in this unit have [ASSAULT]."
               }
             ]
           },
@@ -37357,7 +37357,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the start of the Fight phase, each enemy unit within 6\" of this unit must make a battle-shock roll, subtracting 1 from that test."
+                "$text": "At the start of the Fight phase, each enemy unit within 6\" of this unit must make a battle-shock roll, subtracting 1 from that roll."
               }
             ]
           },
@@ -38414,7 +38414,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -40353,7 +40353,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -41246,7 +41246,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -45797,7 +45797,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -45855,7 +45855,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time a model in this unit is destroyed, roll one D3. The remaining models can each move up to that many inches and must end closer to the closest enemy unit, excluding Aircraft. Resolve this once for each destroyed model."
+                "$text": "Each time a model in this unit is destroyed, roll one D3. The remaining models can each move up to that many inches; each must end that move closer to the closest enemy unit (excluding AIRCRAFT units). Resolve this once for each destroyed model."
               }
             ]
           },
@@ -46254,7 +46254,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -46930,7 +46930,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -47516,7 +47516,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -47786,7 +47786,7 @@
                           {
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573",
-                            "$text": "The bearer has a 4+ invulnerable save."
+                            "$text": "The bearer has an InSv characteristic of 4+."
                           }
                         ]
                       }
@@ -48122,7 +48122,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -48385,7 +48385,7 @@
                           {
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573",
-                            "$text": "The bearer has a 4+ invulnerable save."
+                            "$text": "The bearer has an InSv characteristic of 4+."
                           }
                         ]
                       }
@@ -48721,7 +48721,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -49005,7 +49005,7 @@
                           {
                             "name": "Description",
                             "typeId": "9b8f-694b-e5e-b573",
-                            "$text": "The bearer has a 4+ invulnerable save."
+                            "$text": "The bearer has an InSv characteristic of 4+."
                           }
                         ]
                       }
@@ -49348,7 +49348,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ]
       },
@@ -49881,7 +49881,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -50236,7 +50236,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -50453,7 +50453,7 @@
               {
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84",
-                "$text": "1 Covenant Infantry model, excluding Mgalekgolo models."
+                "$text": "1 Transport Space. This model can carry COVENANT INFANTRY models, excluding MGALEKGOLO models."
               }
             ]
           },
@@ -50716,7 +50716,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -50733,6 +50733,13 @@
                 "value": "Firing Deck 1"
               }
             ]
+          },
+          {
+            "id": "b174-4761-cc34-c533",
+            "name": "Transport Space",
+            "targetId": "c607-1b68-433e-2b41",
+            "type": "rule",
+            "hidden": false
           },
           {
             "id": "af7c-419d-1bc1-b325",
@@ -50940,7 +50947,7 @@
               {
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84",
-                "$text": "2 Covenant Infantry models, excluding Mgalekgolo models."
+                "$text": "2 Transport Space. This model can carry COVENANT INFANTRY models, excluding MGALEKGOLO models."
               }
             ]
           },
@@ -51196,7 +51203,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -51213,6 +51220,13 @@
                 "value": "Firing Deck 2"
               }
             ]
+          },
+          {
+            "id": "a66e-ac0b-9ad2-1101",
+            "name": "Transport Space",
+            "targetId": "c607-1b68-433e-2b41",
+            "type": "rule",
+            "hidden": false
           },
           {
             "id": "9fb2-a745-d702-5495",
@@ -51378,7 +51392,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this model ends a charge move, select one enemy unit within engagement range and roll one D6. On a 2+, that unit suffers D3+3 mortal wounds."
+                "$text": "Each time this model ends a charge move, select one enemy unit engaged with it and roll one D6. On a 2+, that unit suffers D3+3 mortal wounds."
               }
             ]
           },
@@ -51406,7 +51420,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model has 10 or fewer Wounds remaining, add 2\" to its M characteristic and add 2 to the A characteristic of both Goliath Crushing Claws profiles."
+                "$text": "While this model has 10 or fewer wounds remaining, add 2\" to its M characteristic and add 2 to the A characteristic of both Goliath Crushing Claws profiles."
               }
             ]
           },
@@ -51583,7 +51597,7 @@
                   {
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573",
-                    "$text": "The bearer has a 5+ invulnerable save."
+                    "$text": "The bearer has an InSv characteristic of 5+."
                   }
                 ]
               }
@@ -51704,7 +51718,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -52298,7 +52312,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -52628,7 +52642,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the start of each phase, this model can issue one Jiralhanae Caste Doctrine to one friendly COVENANT INFANTRY unit within 6\". That unit is treated as though it contained a Jiralhanae Sergeant. It can be affected by this Doctrine even if it is already affected by one other Caste Doctrine."
+                "$text": "At the start of each phase, this model can issue one Jiralhanae Caste Doctrine to one friendly COVENANT INFANTRY unit within 6\". That unit is treated as though it contained a JIRALHANAE Sergeant. It can be affected by this Doctrine even if it is already affected by one other Caste Doctrine."
               }
             ]
           },
@@ -52656,7 +52670,7 @@
               {
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84",
-                "$text": "8 Jiralhanae Infantry models. This model cannot transport Jiralhanae Linebreakers."
+                "$text": "8 Transport Space. This model can carry JIRALHANAE INFANTRY models, excluding Jiralhanae Linebreakers."
               }
             ]
           },
@@ -52935,7 +52949,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -52999,6 +53013,13 @@
           }
         ],
         "infoLinks": [
+          {
+            "id": "2ca7-6e7a-b13d-6f75",
+            "name": "Transport Space",
+            "targetId": "c607-1b68-433e-2b41",
+            "type": "rule",
+            "hidden": false
+          },
           {
             "id": "5f18-8fbc-f8bf-73a7",
             "name": "Frame",
@@ -53237,7 +53258,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this model ends a charge move, select one enemy unit within engagement range and roll one D6. On a 2+, it suffers D3 mortal wounds. If it is a Vehicle, it must also make a battle-shock roll and subtract 1 from hit rolls until the start of your next Command phase."
+                "$text": "Each time this model ends a charge move, select one enemy unit engaged with it and roll one D6. On a 2+, it suffers D3 mortal wounds. If it is a VEHICLE unit, it must also make a battle-shock roll and subtract 1 from hit rolls until the start of your next Command phase."
               }
             ]
           },
@@ -54119,7 +54140,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -54608,7 +54629,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -55649,7 +55670,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -55781,7 +55802,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the start of your Shooting phase, if this model has at least 2 SP, it can lose 2 SP. If it does, add 1 to the Attacks and Damage characteristics of its Focus Cannon until the end of the phase."
+                "$text": "At the start of your Shooting phase, if this model has at least 2 SP, it can lose 2 SP. If it does, add 1 to the A and D characteristics of its Focus Cannon until the end of the phase."
               }
             ]
           },
@@ -56101,7 +56122,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -56804,7 +56825,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -57192,7 +57213,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "After this model is set up on the battlefield from reserves, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
+                "$text": "After this model makes an ingress move, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
               }
             ]
           },
@@ -57206,7 +57227,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the end of your Movement phase, select one COVENANT INFANTRY unit that disembarked from this model during that phase. Until the start of your next Command phase, that unit has Stealth and the Benefit of Cover."
+                "$text": "At the end of your Movement phase, select one COVENANT INFANTRY unit that disembarked from this model during that phase. Until the start of your next Command phase, that unit has Stealth and the benefit of cover."
               }
             ]
           },
@@ -57490,7 +57511,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -58228,7 +58249,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -59071,7 +59092,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -59452,7 +59473,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "After this model is set up on the battlefield from reserves, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
+                "$text": "After this model makes an ingress move, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
               }
             ]
           },
@@ -59480,7 +59501,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the end of your opponent's Fight phase, select one friendly JACKAL INFANTRY unit wholly within 6\". If neither unit is within engagement range and it fits within this model, that unit can embark."
+                "$text": "At the end of your opponent's Fight phase, select one friendly JACKAL INFANTRY unit wholly within 6\". If neither unit is engaged and it fits within this model, that unit can embark."
               }
             ]
           },
@@ -59494,7 +59515,7 @@
               {
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84",
-                "$text": "8 Covenant Infantry models. Each Sangheili or Jiralhanae model takes the space of 2 models. This model cannot transport Mgalekgolo models."
+                "$text": "8 Transport Space. This model can carry COVENANT INFANTRY models, excluding MGALEKGOLO models. Each SANGHEILI or JIRALHANAE model takes up 2 Transport Space."
               }
             ]
           },
@@ -60255,7 +60276,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -60291,6 +60312,13 @@
             "id": "ae66-22cb-6c28-26cd",
             "name": "Scouts 6\"",
             "targetId": "08fb-4cb5-36fb-d638",
+            "type": "rule",
+            "hidden": false
+          },
+          {
+            "id": "d50d-abb2-8285-06a5",
+            "name": "Transport Space",
+            "targetId": "c607-1b68-433e-2b41",
             "type": "rule",
             "hidden": false
           },
@@ -60378,7 +60406,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While a friendly COVENANT INFANTRY unit is wholly within 6\" of this model, models in that unit have the Benefit of Cover against ranged attacks."
+                "$text": "While a friendly COVENANT INFANTRY unit is wholly within 6\" of this model, models in that unit have the benefit of cover against ranged attacks."
               }
             ]
           },
@@ -60641,7 +60669,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -60932,7 +60960,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "After this model is set up on the battlefield from reserves, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
+                "$text": "After this model makes an ingress move, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
               }
             ]
           },
@@ -61223,7 +61251,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -61557,20 +61585,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Each time an enemy INFANTRY model makes a melee attack that targets this model, an unmodified wound roll of 5+ is a critical wound."
-              }
-            ]
-          },
-          {
-            "id": "8590-a9fd-f0a8-ddfe",
-            "name": "Damaged",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "10 Wounds Remaining. While this model has 10 or fewer Wounds remaining, subtract 1 from its hit rolls."
               }
             ]
           },
@@ -62046,7 +62060,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -62119,6 +62133,20 @@
                 "field": "name",
                 "type": "set",
                 "value": "Firing Deck 20"
+              }
+            ]
+          },
+          {
+            "id": "7b06-cfeb-3cc6-31b5",
+            "name": "Damaged",
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 10"
               }
             ]
           },
@@ -62492,7 +62520,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "After this model is set up on the battlefield from reserves, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
+                "$text": "After this model makes an ingress move, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
               }
             ]
           },
@@ -62521,20 +62549,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Regenerating Shields gives this unit D6+3 lost SP instead of D3+1."
-              }
-            ]
-          },
-          {
-            "id": "63dc-a261-1246-66f2",
-            "name": "Damaged",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "12 Wounds Remaining. While this model has 12 or fewer Wounds remaining, subtract 1 from its hit rolls."
               }
             ]
           },
@@ -62907,7 +62921,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "modifiers": [
@@ -62966,6 +62980,20 @@
                 "field": "name",
                 "type": "set",
                 "value": "Deadly Demise 2D6"
+              }
+            ]
+          },
+          {
+            "id": "5daf-7f8b-e609-72c0",
+            "name": "Damaged",
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 12"
               }
             ]
           },
@@ -63349,20 +63377,6 @@
             ]
           },
           {
-            "id": "4323-9028-7580-42ec",
-            "name": "Damaged",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "25 Wounds Remaining. While this model has 25 or fewer Wounds remaining, subtract 1 from its hit rolls."
-              }
-            ]
-          },
-          {
             "id": "716a-e078-99c6-e85a",
             "name": "Kraken",
             "hidden": false,
@@ -63738,7 +63752,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -63767,6 +63781,20 @@
                 "field": "name",
                 "type": "set",
                 "value": "Firing Deck 60"
+              }
+            ]
+          },
+          {
+            "id": "921e-dade-4da3-64d0",
+            "name": "Damaged",
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Damaged 25"
               }
             ]
           },
@@ -64368,7 +64396,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -64442,7 +64470,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "A COVENANT INFANTRY model wholly within 1 inch of a Metal Barricade receives the Benefit of Cover against ranged attacks."
+                "$text": "A COVENANT INFANTRY model wholly within 1\" of a Metal Barricade has the benefit of cover against ranged attacks."
               }
             ]
           },
@@ -64456,7 +64484,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "A COVENANT INFANTRY model wholly within 1 inch of the Shield Wall has 2 additional SP. These SP are lost first and are removed when that model is no longer wholly within 1 inch of the Shield Wall."
+                "$text": "A COVENANT INFANTRY model wholly within 1\" of the Shield Wall has 2 additional SP. These SP are lost first and are removed when that model is no longer wholly within 1\" of the Shield Wall."
               }
             ]
           },
@@ -64609,7 +64637,7 @@
             "includeChildSelections": true,
             "includeChildForces": false,
             "traverseAssociationGroup": true,
-            "message": "An Attached Unit can only take 1 Enhancement or Upgrade."
+            "message": "An attached unit can only take 1 Enhancement or Upgrade."
           }
         ],
         "infoLinks": [
@@ -71319,7 +71347,7 @@
                       {
                         "name": "Description",
                         "typeId": "e2d4-dc8c-d7b0-19ec",
-                        "$text": "Once per battle round, after an enemy unit destroys one or more models in this model's unit with ranged attacks, that unit can make a surge move of D6+2\" towards the closest enemy and can end within engagement range."
+                        "$text": "Once per battle round, after an enemy unit destroys one or more models in this model's unit with ranged attacks, that unit can make a surge move of up to D6+2\"."
                       }
                     ]
                   }
@@ -77036,7 +77064,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model is in a DRONE unit, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by other Yanme'e Drone models in that unit by 1."
+                "$text": "While this model is in a DRONE unit, improve the BS and WS characteristics of weapons equipped by other Yanme'e Drone models in that unit by 1."
               }
             ]
           },
@@ -80098,7 +80126,7 @@
             "name": "Ancestral Armour",
             "id": "2a95-2f82-8b86-c32e",
             "hidden": false,
-            "description": "SANGHEILI model only.\n\nThe bearer has a 4+ invulnerable save, and add 2 to its starting SP."
+            "description": "SANGHEILI model only.\n\nThe bearer has an InSv characteristic of 4+, and add 2 to its starting SP."
           }
         ]
       },
@@ -81335,7 +81363,7 @@
             "name": "Gravity Throne Shield",
             "id": "78a1-2af1-3866-8768",
             "hidden": false,
-            "description": "SAN'SHYUUM model only.\n\nThe bearer has a 4+ invulnerable save and a starting SP of 3."
+            "description": "SAN'SHYUUM model only.\n\nThe bearer has an InSv characteristic of 4+ and a starting SP of 3."
           }
         ]
       },
@@ -82400,7 +82428,7 @@
         "name": "Siegebreaker",
         "id": "9348-4dee-8f07-563b",
         "hidden": false,
-        "description": "\n\nEach time an attack made with this weapon scores a critical hit, invulnerable saves cannot be used against that attack. Extra hits from [SUSTAINED HITS] do not benefit."
+        "description": "\n\nEach time an attack made with this weapon scores a critical hit, the target's InSv characteristic is ignored for that attack. Extra hits from [SUSTAINED HITS] do not benefit."
       },
       {
         "name": "Wargear Costs",
@@ -82694,7 +82722,7 @@
         "name": "Yig-Yar Hunting Talon — Shield Wall / 1 CP",
         "id": "ffd1-cb02-3018-cdf0",
         "hidden": false,
-        "description": "\n\n*Wargear Stratagem*\n\n**When**<br>Your opponent's Shooting phase, just after an enemy unit selects a JACKAL INFANTRY unit from your army as the target of one or more attacks.\n\n**Target**<br>That JACKAL unit.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, models in your unit have a 4+ invulnerable save."
+        "description": "\n\n*Wargear Stratagem*\n\n**When**<br>Your opponent's Shooting phase, just after an enemy unit selects a JACKAL INFANTRY unit from your army as the target of one or more attacks.\n\n**Target**<br>That JACKAL unit.\n\n**Effect**<br>Until the attacking unit has finished making its attacks, models in your unit have an InSv characteristic of 4+."
       },
       {
         "name": "Drone Hive Swarm — Endless Hive / 1 CP",

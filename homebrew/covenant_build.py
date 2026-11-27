@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 42
+REVISION = 43
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -302,9 +302,9 @@ class Builder:
                 if sp:
                     node["profiles"].append(self.shields_profile(nid(eid + ":sp"), value["name"], sp.group(1)))
                     node["_sp"] = int(sp.group(1))
-                m = re.search(r"has an? (\d\+) invulnerable save", value["text"])
+                m = re.search(r"has an? (\d\+) invulnerable save|has an InSv characteristic of (\d\+)", value["text"])
                 if m:
-                    inv = m.group(1)
+                    inv = m.group(1) or m.group(2)
         if inv:
             node["_inv"] = inv
         node["constraints"] = [constraint(nid(eid + ":max"), "max", count)]
@@ -1139,7 +1139,7 @@ def build(source, system_path):
         unit.setdefault("constraints", []).append(dict(
             id=nid(unit["id"] + ":attached-enhancement"), childId="any", field=b.enh_count, type="max", value=1,
             scope="root-entry", shared=True, includeChildSelections=True, includeChildForces=False,
-            traverseAssociationGroup=True, message="An Attached Unit can only take 1 Enhancement or Upgrade."))
+            traverseAssociationGroup=True, message="An attached unit can only take 1 Enhancement or Upgrade."))
 
     warlord_role = next(c for c in b.system["categoryEntries"] if c["name"] == "Warlord")
     warlord_id = nid("warlord-selection")

@@ -108,7 +108,7 @@ Once per phase, when a unit containing one or more models equipped with this wea
 
 ## Siegebreaker
 
-Each time an attack made with this weapon scores a critical hit, invulnerable saves cannot be used against that attack. Extra hits from [SUSTAINED HITS] do not benefit.
+Each time an attack made with this weapon scores a critical hit, the target's InSv characteristic is ignored for that attack. Extra hits from [SUSTAINED HITS] do not benefit.
 
 ## Wargear Costs
 

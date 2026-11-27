@@ -71,7 +71,7 @@
    },
    {
     "name": "Sacred Authority",
-    "text": "While this model is not part of an Attached unit, it has the Lone Operative ability."
+    "text": "While this model is not part of an attached unit, it has the Lone Operative ability."
    }
   ],
   "keywords": [
@@ -154,7 +154,7 @@
    },
    {
     "name": "Sacred Authority",
-    "text": "While this model is not part of an Attached unit, it has the Lone Operative ability."
+    "text": "While this model is not part of an attached unit, it has the Lone Operative ability."
    }
   ],
   "keywords": [
@@ -237,7 +237,7 @@
    },
    {
     "name": "Sacred Authority",
-    "text": "While this model is not part of an Attached unit, it has the Lone Operative ability."
+    "text": "While this model is not part of an attached unit, it has the Lone Operative ability."
    }
   ],
   "keywords": [
@@ -342,7 +342,7 @@
    },
    {
     "name": "The Arbiter",
-    "text": "While this model is leading a unit, that unit is considered to contain a Sangheili Sergeant for the purpose of using Sangheili Caste Doctrines."
+    "text": "While this model is leading a unit, that unit is considered to contain a SANGHEILI Sergeant for the purpose of using Sangheili Caste Doctrines."
    },
    {
     "name": "Master of the Sangheili Doctrines",
@@ -580,7 +580,7 @@
    },
    {
     "name": "Coordinated Assault",
-    "text": "While both N'tho and Usze are on the battlefield, re-roll hit rolls of 1 and wound rolls of 1 for attacks made by models in this unit. While this unit is leading another unit, models in that Bodyguard unit also receive this benefit."
+    "text": "While both N'tho and Usze are on the battlefield, re-roll hit rolls of 1 and wound rolls of 1 for attacks made by models in this unit. While this unit is leading another unit, models in that bodyguard unit also receive this benefit."
    }
   ],
   "keywords": [
@@ -757,7 +757,7 @@
    },
    {
     "name": "Sacred Authority",
-    "text": "While this model is not part of an Attached unit, it has the Lone Operative ability."
+    "text": "While this model is not part of an attached unit, it has the Lone Operative ability."
    }
   ],
   "keywords": [
@@ -854,7 +854,7 @@
    },
    {
     "name": "Shipmaster's Command",
-    "text": "Once per turn, at the start of any phase, select one friendly COVENANT unit within 6\" of this model and one Sangheili Caste Doctrine that can be used in that phase. Until the end of the phase, that unit is affected by the Doctrine. It need not contain a Sangheili Sergeant. This use does not count as the unit using a Caste Doctrine."
+    "text": "Once per turn, at the start of any phase, select one friendly COVENANT unit within 6\" of this model and one Sangheili Caste Doctrine that can be used in that phase. Until the end of the phase, that unit is affected by the Doctrine. It need not contain a SANGHEILI Sergeant. This use does not count as the unit using a Caste Doctrine."
    },
    {
     "name": "Fleet Coordination",
@@ -1186,7 +1186,7 @@
    },
    {
     "name": "Caste Doctrine Master",
-    "text": "This model is treated as a Jiralhanae Sergeant for the purpose of issuing Jiralhanae Caste Doctrines to its own unit."
+    "text": "This model is treated as a JIRALHANAE Sergeant for the purpose of issuing Jiralhanae Caste Doctrines to its own unit."
    },
    {
     "name": "Pack Commander",
@@ -1587,7 +1587,7 @@
    },
    {
     "name": "Voice of the Deacon",
-    "text": "While a friendly GRUNT unit is within 6\" of this model, it is considered to contain an Unggoy Sergeant for the purpose of accessing Unggoy Doctrines."
+    "text": "While a friendly GRUNT unit is within 6\" of this model, it is considered to contain an UNGGOY Sergeant for the purpose of accessing Unggoy Doctrines."
    },
    {
     "name": "Religious Authority",
@@ -1805,7 +1805,7 @@
    },
    {
     "name": "Dominating Presence",
-    "text": "At the end of the Charge phase, select one enemy unit within engagement range of this unit. It must make a battle-shock roll, subtracting 1 from that test."
+    "text": "At the end of the Charge phase, select one enemy unit engaged with this unit. That unit must make a battle-shock roll, subtracting 1 from that roll."
    }
   ],
   "keywords": [
@@ -2122,7 +2122,7 @@
    },
    {
     "name": "Synaptic Host",
-    "text": "While this unit contains a Yanme'e Major, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by Yanme'e Drone models in this unit by 1."
+    "text": "While this unit contains a Yanme'e Major, improve the BS and WS characteristics of weapons equipped by Yanme'e Drone models in this unit by 1."
    },
    {
     "name": "Swarming Flight",
@@ -2393,7 +2393,7 @@
    },
    {
     "name": "Forward Operatives",
-    "text": "This unit is eligible to shoot and perform an Action in a turn in which it made an advance move. Performing an Action does not prevent it from shooting, and shooting does not cause an Action it is performing to fail."
+    "text": "This unit is eligible to start an action in a turn in which it made an advance move. Starting an action does not stop it being eligible to shoot that turn."
    }
   ],
   "keywords": [
@@ -2858,11 +2858,11 @@
   "abilities": [
    {
     "name": "Vengeful Pursuit",
-    "text": "Once per battle round, after an enemy unit finishes making ranged attacks, if one or more models in this unit were destroyed, choose one: Surge - move D6+2\" towards the closest enemy unit and this move can end within engagement range; or Return Fire - this unit shoots, but can target only the enemy unit that triggered this ability."
+    "text": "Once per battle round, after an enemy unit finishes making ranged attacks, if one or more models in this unit were destroyed, choose one: Surge: this unit makes a surge move of up to D6+2\"; or Return Fire: this unit shoots, but can target only the enemy unit that triggered this ability."
    },
    {
     "name": "Sacrificial Advance",
-    "text": "At the start of the Fight phase, if this unit is unengaged, destroy one model in it. If you do, this unit can move D6\" towards the closest enemy and can end within engagement range. If it cannot, it can instead move that distance towards the closest objective marker."
+    "text": "At the start of the Fight phase, if this unit is unengaged, destroy one model in it. If you do, this unit can make a surge move of up to D6\". If it cannot end that move engaged, it can instead make a normal move of up to that distance towards the closest objective marker."
    }
   ],
   "keywords": [
@@ -2930,7 +2930,7 @@
    },
    {
     "name": "Honor Guard Retinue",
-    "text": "Before the battle, this unit can be attached to one COVENANT CHARACTER model. That model becomes part of this unit. This does not count as that Character having joined a unit; it can still be attached to an eligible Bodyguard unit, in which case this Honor Guard also joins that unit."
+    "text": "Before the battle, this unit can be attached to one COVENANT CHARACTER model. That model becomes part of this unit. This does not count as that Character having joined a unit; it can still be attached to an eligible bodyguard unit, in which case this Honor Guard also joins that unit."
    }
   ],
   "keywords": [
@@ -3171,7 +3171,7 @@
    },
    {
     "name": "Shock Assault",
-    "text": "Each time this unit ends a charge move, select one enemy unit within engagement range. Roll one D6 for each Jiralhanae Linebreaker in this unit; for each 3+, that enemy unit suffers D3 mortal wounds."
+    "text": "Each time this unit ends a charge move, select one enemy unit engaged with it. Roll one D6 for each Jiralhanae Linebreaker in this unit; for each 3+, that enemy unit suffers D3 mortal wounds."
    }
   ],
   "keywords": [
@@ -3256,7 +3256,7 @@
    },
    {
     "name": "Bodyguard",
-    "text": "Before the battle, this unit can be attached to one friendly COVENANT CHARACTER unit. While that unit contains a CHARACTER model, subtract 1 from wound rolls for attacks that target it. These models are not Leaders and do not prevent the Character from joining another eligible unit."
+    "text": "Before the battle, this unit can be attached to one friendly COVENANT CHARACTER unit. While that unit contains a CHARACTER model, subtract 1 from wound rolls for attacks that target it. These models are not Leaders and do not prevent the CHARACTER from joining another eligible unit."
    }
   ],
   "keywords": [
@@ -3350,11 +3350,11 @@
   "abilities": [
    {
     "name": "Weapons Free",
-    "text": "Ranged weapons equipped by models in this unit have Assault."
+    "text": "Ranged weapons equipped by models in this unit have [ASSAULT]."
    },
    {
     "name": "Predatory Terror",
-    "text": "At the start of the Fight phase, each enemy unit within 6\" of this unit must make a battle-shock roll, subtracting 1 from that test."
+    "text": "At the start of the Fight phase, each enemy unit within 6\" of this unit must make a battle-shock roll, subtracting 1 from that roll."
    }
   ],
   "keywords": [
@@ -3944,7 +3944,7 @@
    },
    {
     "name": "Fevered Explosives",
-    "text": "Each time a model in this unit is destroyed, roll one D3. The remaining models can each move up to that many inches and must end closer to the closest enemy unit, excluding Aircraft. Resolve this once for each destroyed model."
+    "text": "Each time a model in this unit is destroyed, roll one D3. The remaining models can each move up to that many inches; each must end that move closer to the closest enemy unit (excluding AIRCRAFT units). Resolve this once for each destroyed model."
    }
   ],
   "keywords": [
@@ -4147,7 +4147,7 @@
   "wargear": [
    {
     "name": "Combat Shield",
-    "text": "The bearer has a 4+ invulnerable save."
+    "text": "The bearer has an InSv characteristic of 4+."
    }
   ],
   "ranged_weapons": [
@@ -4233,7 +4233,7 @@
   "wargear": [
    {
     "name": "Combat Shield",
-    "text": "The bearer has a 4+ invulnerable save."
+    "text": "The bearer has an InSv characteristic of 4+."
    }
   ],
   "ranged_weapons": [
@@ -4318,7 +4318,7 @@
   "wargear": [
    {
     "name": "Combat Shield",
-    "text": "The bearer has a 4+ invulnerable save."
+    "text": "The bearer has an InSv characteristic of 4+."
    }
   ],
   "ranged_weapons": [
@@ -4555,7 +4555,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 1 Covenant Infantry model, excluding Mgalekgolo models."
+   "Transport capacity: 1 Transport Space. This model can carry COVENANT INFANTRY models, excluding MGALEKGOLO models."
   ],
   "rules_notes": [],
   "wargear": [],
@@ -4636,7 +4636,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 2 Covenant Infantry models, excluding Mgalekgolo models."
+   "Transport capacity: 2 Transport Space. This model can carry COVENANT INFANTRY models, excluding MGALEKGOLO models."
   ],
   "rules_notes": [],
   "wargear": [],
@@ -4721,7 +4721,7 @@
   "wargear": [
    {
     "name": "Layered Colony Armour",
-    "text": "The bearer has a 5+ invulnerable save."
+    "text": "The bearer has an InSv characteristic of 5+."
    }
   ],
   "ranged_weapons": [],
@@ -4756,7 +4756,7 @@
    },
    {
     "name": "Living Battering Ram",
-    "text": "Each time this model ends a charge move, select one enemy unit within engagement range and roll one D6. On a 2+, that unit suffers D3+3 mortal wounds."
+    "text": "Each time this model ends a charge move, select one enemy unit engaged with it and roll one D6. On a 2+, that unit suffers D3+3 mortal wounds."
    },
    {
     "name": "Unstoppable Colony",
@@ -4764,7 +4764,7 @@
    },
    {
     "name": "Colony Frenzy",
-    "text": "While this model has 10 or fewer Wounds remaining, add 2\" to its M characteristic and add 2 to the A characteristic of both Goliath Crushing Claws profiles."
+    "text": "While this model has 10 or fewer wounds remaining, add 2\" to its M characteristic and add 2 to the A characteristic of both Goliath Crushing Claws profiles."
    }
   ],
   "keywords": [
@@ -4893,7 +4893,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 8 Jiralhanae Infantry models. This model cannot transport Jiralhanae Linebreakers."
+   "Transport capacity: 8 Transport Space. This model can carry JIRALHANAE INFANTRY models, excluding Jiralhanae Linebreakers."
   ],
   "rules_notes": [],
   "wargear": [],
@@ -4933,7 +4933,7 @@
    },
    {
     "name": "Jiralhanae Command Network",
-    "text": "At the start of each phase, this model can issue one Jiralhanae Caste Doctrine to one friendly COVENANT INFANTRY unit within 6\". That unit is treated as though it contained a Jiralhanae Sergeant. It can be affected by this Doctrine even if it is already affected by one other Caste Doctrine."
+    "text": "At the start of each phase, this model can issue one Jiralhanae Caste Doctrine to one friendly COVENANT INFANTRY unit within 6\". That unit is treated as though it contained a JIRALHANAE Sergeant. It can be affected by this Doctrine even if it is already affected by one other Caste Doctrine."
    },
    {
     "name": "Command Barge Shield",
@@ -5070,7 +5070,7 @@
   "abilities": [
    {
     "name": "EMP Stomp",
-    "text": "Each time this model ends a charge move, select one enemy unit within engagement range and roll one D6. On a 2+, it suffers D3 mortal wounds. If it is a Vehicle, it must also make a battle-shock roll and subtract 1 from hit rolls until the start of your next Command phase."
+    "text": "Each time this model ends a charge move, select one enemy unit engaged with it and roll one D6. On a 2+, it suffers D3 mortal wounds. If it is a VEHICLE unit, it must also make a battle-shock roll and subtract 1 from hit rolls until the start of your next Command phase."
    },
    {
     "name": "Stabilizer Thrusters",
@@ -5376,7 +5376,7 @@
    },
    {
     "name": "Power Transfer",
-    "text": "At the start of your Shooting phase, if this model has at least 2 SP, it can lose 2 SP. If it does, add 1 to the Attacks and Damage characteristics of its Focus Cannon until the end of the phase."
+    "text": "At the start of your Shooting phase, if this model has at least 2 SP, it can lose 2 SP. If it does, add 1 to the A and D characteristics of its Focus Cannon until the end of the phase."
    }
   ],
   "keywords": [
@@ -5544,11 +5544,11 @@
    },
    {
     "name": "Rapid Aerial Insertion",
-    "text": "After this model is set up on the battlefield from reserves, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
+    "text": "After this model makes an ingress move, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
    },
    {
     "name": "Gravity-Lift Screen",
-    "text": "At the end of your Movement phase, select one COVENANT INFANTRY unit that disembarked from this model during that phase. Until the start of your next Command phase, that unit has Stealth and the Benefit of Cover."
+    "text": "At the end of your Movement phase, select one COVENANT INFANTRY unit that disembarked from this model during that phase. Until the start of your next Command phase, that unit has Stealth and the benefit of cover."
    },
    {
     "name": "Spirit Shield",
@@ -5814,7 +5814,7 @@
   ],
   "leader": [],
   "transport": [
-   "Transport capacity: 8 Covenant Infantry models. Each Sangheili or Jiralhanae model takes the space of 2 models. This model cannot transport Mgalekgolo models."
+   "Transport capacity: 8 Transport Space. This model can carry COVENANT INFANTRY models, excluding MGALEKGOLO models. Each SANGHEILI or JIRALHANAE model takes up 2 Transport Space."
   ],
   "rules_notes": [],
   "wargear": [
@@ -5896,7 +5896,7 @@
    },
    {
     "name": "Rapid Aerial Insertion",
-    "text": "After this model is set up on the battlefield from reserves, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
+    "text": "After this model makes an ingress move, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
    },
    {
     "name": "Rapid Deployment",
@@ -5904,7 +5904,7 @@
    },
    {
     "name": "Raider Extraction",
-    "text": "At the end of your opponent's Fight phase, select one friendly JACKAL INFANTRY unit wholly within 6\". If neither unit is within engagement range and it fits within this model, that unit can embark."
+    "text": "At the end of your opponent's Fight phase, select one friendly JACKAL INFANTRY unit wholly within 6\". If neither unit is engaged and it fits within this model, that unit can embark."
    }
   ],
   "keywords": [
@@ -5982,7 +5982,7 @@
    },
    {
     "name": "Mobile Bulwark",
-    "text": "While a friendly COVENANT INFANTRY unit is wholly within 6\" of this model, models in that unit have the Benefit of Cover against ranged attacks."
+    "text": "While a friendly COVENANT INFANTRY unit is wholly within 6\" of this model, models in that unit have the benefit of cover against ranged attacks."
    }
   ],
   "keywords": [
@@ -6058,7 +6058,7 @@
    },
    {
     "name": "Rapid Aerial Insertion",
-    "text": "After this model is set up on the battlefield from reserves, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
+    "text": "After this model makes an ingress move, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
    },
    {
     "name": "Suppressive Barrage",
@@ -6165,7 +6165,7 @@
   "abilities": [
    {
     "name": "Core",
-    "text": "Deadly Demise D6+3, Firing Deck 20"
+    "text": "Deadly Demise D6+3, Firing Deck 20, Damaged 10"
    },
    {
     "name": "Scarab Shield",
@@ -6186,10 +6186,6 @@
    {
     "name": "Board the Scarab",
     "text": "Each time an enemy INFANTRY model makes a melee attack that targets this model, an unmodified wound roll of 5+ is a critical wound."
-   },
-   {
-    "name": "Damaged",
-    "text": "10 Wounds Remaining. While this model has 10 or fewer Wounds remaining, subtract 1 from its hit rolls."
    }
   ],
   "keywords": [
@@ -6280,11 +6276,11 @@
   "abilities": [
    {
     "name": "Core",
-    "text": "Deadly Demise 2D6"
+    "text": "Deadly Demise 2D6, Damaged 12"
    },
    {
     "name": "Rapid Aerial Insertion",
-    "text": "After this model is set up on the battlefield from reserves, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
+    "text": "After this model makes an ingress move, it can make a normal move of up to 8\", but cannot end that move within 6\" of any enemy model."
    },
    {
     "name": "Invasion Fire-Control Nexus",
@@ -6293,10 +6289,6 @@
    {
     "name": "Lich Shield",
     "text": "Regenerating Shields gives this unit D6+3 lost SP instead of D3+1."
-   },
-   {
-    "name": "Damaged",
-    "text": "12 Wounds Remaining. While this model has 12 or fewer Wounds remaining, subtract 1 from its hit rolls."
    }
   ],
   "keywords": [
@@ -6385,7 +6377,7 @@
   "abilities": [
    {
     "name": "Core",
-    "text": "Deadly Demise 3D6, Firing Deck 60"
+    "text": "Deadly Demise 3D6, Firing Deck 60, Damaged 25"
    },
    {
     "name": "Siege Tower",
@@ -6402,10 +6394,6 @@
    {
     "name": "Exposed Pulse Generator",
     "text": "Each time an enemy INFANTRY model makes a melee attack that targets this model, an unmodified wound roll of 5+ is a critical wound."
-   },
-   {
-    "name": "Damaged",
-    "text": "25 Wounds Remaining. While this model has 25 or fewer Wounds remaining, subtract 1 from its hit rolls."
    }
   ],
   "keywords": [
@@ -6502,7 +6490,7 @@
   "unit_composition": [
    "2 Metal Barricades, each 2.5\" long",
    "1 Shield Wall, 1.5\" long",
-   "When deployed, each section must be set up within 0.5\" of another section from this unit. After setup, each is treated as a separate terrain section."
+   "When deployed, each section must be set up within 0.5\" of another section from this unit. After being set up, each is treated as a separate terrain section."
   ],
   "equipped": [
    "Fortified Structure"
@@ -6530,11 +6518,11 @@
   "abilities": [
    {
     "name": "Defensive Position",
-    "text": "A COVENANT INFANTRY model wholly within 1 inch of a Metal Barricade receives the Benefit of Cover against ranged attacks."
+    "text": "A COVENANT INFANTRY model wholly within 1\" of a Metal Barricade has the benefit of cover against ranged attacks."
    },
    {
     "name": "Shield Wall",
-    "text": "A COVENANT INFANTRY model wholly within 1 inch of the Shield Wall has 2 additional SP. These SP are lost first and are removed when that model is no longer wholly within 1 inch of the Shield Wall."
+    "text": "A COVENANT INFANTRY model wholly within 1\" of the Shield Wall has 2 additional SP. These SP are lost first and are removed when that model is no longer wholly within 1\" of the Shield Wall."
    }
   ],
   "keywords": [
@@ -7371,7 +7359,7 @@
    },
    {
     "name": "Control Node",
-    "text": "While this model is in a DRONE unit, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by other Yanme'e Drone models in that unit by 1."
+    "text": "While this model is in a DRONE unit, improve the BS and WS characteristics of weapons equipped by other Yanme'e Drone models in that unit by 1."
    },
    {
     "name": "Caste Doctrines",
@@ -7569,7 +7557,7 @@
    {
     "name": "Vengeful Pursuit",
     "points": 10,
-    "text": "Once per battle round, after an enemy unit destroys one or more models in this model's unit with ranged attacks, that unit can make a surge move of D6+2\" towards the closest enemy and can end within engagement range.",
+    "text": "Once per battle round, after an enemy unit destroys one or more models in this model's unit with ranged attacks, that unit can make a surge move of up to D6+2\".",
     "source": "Sangheili Zealot"
    },
    {

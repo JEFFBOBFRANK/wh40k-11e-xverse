@@ -9,7 +9,7 @@
     "name": "Fanatical Doctrines",
     "text": [
      "Once per turn, at the start of any phase, each SAN'SHYUUM model from your army can issue one Fanatical Doctrine to one friendly COVENANT INFANTRY unit within 6\" of it. That unit is affected by that Doctrine until the end of the turn. A unit can be affected by one Caste Doctrine and one Fanatical Doctrine at the same time.",
-     "**Shielded by Faith:** Models in this unit have a 4+ invulnerable save.\n**Claim the Sacred Path:** Add 2 to the OC characteristic of models in this unit.\n**Wrath of the Prophets:** Weapons equipped by models in this unit have [SUSTAINED HITS 1]."
+     "**Shielded by Faith:** Models in this unit have an InSv characteristic of 4+.\n**Claim the Sacred Path:** Add 2 to the OC characteristic of models in this unit.\n**Wrath of the Prophets:** Weapons equipped by models in this unit have [SUSTAINED HITS 1]."
     ]
    },
    {
@@ -484,7 +484,7 @@
    {
     "name": "Combined Arms",
     "text": [
-     "Each unit's designation is its unit keyword: ELITE, BRUTE, GRUNT, JACKAL, DRONE, HUNTER or ENGINEER. VEHICLE and MOUNTED units have the VEHICLE designation instead. An Attached unit has the designations of all its units.",
+     "Each unit's designation is its unit keyword: ELITE, BRUTE, GRUNT, JACKAL, DRONE, HUNTER or ENGINEER. VEHICLE and MOUNTED units have the VEHICLE designation instead. An attached unit has the designations of all its units.",
      "While a unit from your army is within 6\" of a friendly unit with a designation it does not have, each time a model in it makes an attack, re-roll a hit roll of 1."
     ]
    }
@@ -747,7 +747,7 @@
     "upgrade": false,
     "restriction": "SANGHEILI model only.",
     "text": [
-     "The bearer has a 4+ invulnerable save, and add 2 to its starting SP."
+     "The bearer has an InSv characteristic of 4+, and add 2 to its starting SP."
     ]
    },
    {
@@ -883,7 +883,7 @@
     "type": "Wargear Stratagem",
     "when": "Your opponent's Shooting phase, just after an enemy unit selects a JACKAL INFANTRY unit from your army as the target of one or more attacks.",
     "target": "That JACKAL unit.",
-    "effect": "Until the attacking unit has finished making its attacks, models in your unit have a 4+ invulnerable save."
+    "effect": "Until the attacking unit has finished making its attacks, models in your unit have an InSv characteristic of 4+."
    }
   ],
   "rules_intro": [],
@@ -1393,7 +1393,7 @@
     "upgrade": false,
     "restriction": "SAN'SHYUUM model only.",
     "text": [
-     "The bearer has a 4+ invulnerable save and a starting SP of 3."
+     "The bearer has an InSv characteristic of 4+ and a starting SP of 3."
     ]
    },
    {

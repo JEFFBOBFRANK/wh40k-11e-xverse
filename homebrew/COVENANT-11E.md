@@ -62,8 +62,31 @@ printed in the codex. The layout follows the Emperor's Children and Skaven catal
   and Transport Space. Weapons link Supercombine, Plasma and Siegebreaker, and the core rules.
 - 18 detachments with their DP and Force Disposition (see the detachments below). None is Unique.
   Enhancements appear only on eligible units of the chosen detachment; Upgrades that up to three units can
-  take share one Enhancement selection. An Attached Unit can have only one Enhancement or Upgrade.
+  take share one Enhancement selection. An attached unit can have only one Enhancement or Upgrade.
   Stratagem References follows the chosen detachments.
+
+## 11th-edition wording sweep (revision 43)
+
+Checked against the 11e core rules; meaning unchanged unless noted.
+
+- **Engaged**: "within engagement range" is now "engaged with" (Dominating Presence, Shock Assault, Living Battering
+  Ram, EMP Stomp, Raider Extraction). Battle-shock modifiers apply to "that roll", not "that test".
+- **Surge moves** (core 21.02): Zealots' Vengeful Pursuit and Sacrificial Advance and the Sangheili Auxiliary's
+  Vengeful Pursuit make a surge move of up to the rolled distance, instead of moving towards the closest enemy and
+  ending within engagement range. A surge move cannot be made while battle-shocked.
+- **Actions** (core 16) are started and completed: Rangers' Forward Operatives lets them start an action after an
+  advance move, and starting one does not stop them shooting.
+- **Ingress**: Rapid Aerial Insertion (Spirit, Phantom, Lich, Raider-Skiff) triggers after the model makes an ingress
+  move.
+- **InSv**: wargear and rules that gave "a 4+ invulnerable save" give an InSv characteristic of 4+ (Combat Shield,
+  Layered Colony Armour, Shielded by Faith, Ancestral Armour, Shield Wall, Gravity Throne Shield). Siegebreaker: the
+  target's InSv characteristic is ignored for that attack.
+- **Damaged** is the core ability (24.39): Scarab Damaged 10, Lich Damaged 12, Kraken Damaged 25, linked like Deadly
+  Demise instead of printed as their own ability.
+- **Transport Space** wording on the last four transports, same capacity: Revenant 1, Spectre 2, Prowler Command Barge
+  8 (JIRALHANAE INFANTRY), Raider-Skiff 8 (SANGHEILI and JIRALHANAE models take up 2).
+- Characteristics by abbreviation (BS, WS, A, D), [ASSAULT] in brackets, keywords in capitals (VEHICLE, AIRCRAFT,
+  CHARACTER, SANGHEILI Sergeant...), benefit of cover, attached unit and bodyguard unit in lower case, 1" for 1 inch.
 
 ## 11th-edition wording (revision 5)
 
