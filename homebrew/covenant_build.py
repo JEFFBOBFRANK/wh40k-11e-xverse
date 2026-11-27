@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 24
+REVISION = 25
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -37,7 +37,7 @@ WEAPON_RULES = {"Supercombine": r"\bSupercombine\b", "Plasma": r"\bPlasma \((?:D
 # Commanders with Chosen of the Hierarchs (+1CP each battle round while your Warlord), as EC's Sublime Strategist.
 WARLORD_CP = {"Prophet of Truth", "Prophet of Regret", "Prophet of Mercy", "Thel 'Vadam", "Rtas 'Vadum", "Tartarus",
               "Sangheili Shipmaster", "Sangheili Fieldmaster", "Jiralhanae Chieftain", "Yig-Yar Corsair-Talon"}
-# Unit layout (sortIndex 0-4): Sergeant on top (as the Tormentors' Obsessionist), then the unit size, then weapon swaps,
+# Unit layout (sortIndex 0-4): Sergeant on top (as the Tormentors' Obsessionist), then the model counter, then weapon swaps,
 # then Auxiliary models as counters (one model type per loadout, under a heading per species), then Auxiliary wargear
 # and Specialist abilities with a model picker (as the Icon of Excess).
 # Species keywords a unit gains from its Sergeant and Auxiliary models (core rules: a unit has the keywords of all its
@@ -499,16 +499,28 @@ class Builder:
         return node
 
     def squad(self, node, ds, spec):
+        unit_id = node["id"]
         node.setdefault("modifiers", [])
-        families = [self.family(node, ds, spec, m, first=i == 0) for i, m in enumerate(spec["models"])]
-        return families[0]
+        families = [self.family(node, ds, spec, m) for m in spec["models"]]
+        main = families[0]
+        if not spec.get("per_model") and len(spec["sizes"]) > 1:  # larger sizes cost more (model counter)
+            sizes, prices = spec["sizes"], spec["prices"]
+            for i in range(1, len(sizes)):
+                at = sizes[i] if spec["exact"] else sizes[i - 1] + 1
+                node["modifiers"].append(dict(field=POINTS, type="increment", value=prices[i] - prices[i - 1],
+                                              conditions=[selected(main["cat"], scope=unit_id, value=at)]))
+            if spec["exact"]:
+                legal = ", ".join(str(s) for s in sizes[:-1]) + f" or {sizes[-1]}"
+                node["modifiers"].append(dict(type="add", field="error",
+                                              value=f"Select {legal} {main['plural']}.",
+                                              conditionGroups=[dict(type="and", conditions=[
+                                                  selected(main["cat"], scope=unit_id, kind="notEqualTo", value=s)
+                                                  for s in sizes])]))
+        return main
 
-    def family(self, node, ds, spec, m, first=True):
-        """Pick the unit size, then tick weapon swaps.
-
-        A squad with several sizes has a "Unit size" choice (one option per size, holding that many models); otherwise
-        the models are a counter (per-model squads) or fixed. Model types with other weapons are "Weapon swaps": each
-        swaps one model's weapons and never adds a model, up to its limit (e.g. 1 for every 3 models)."""
+    def family(self, node, ds, spec, m):
+        """Models are a counter (as before); model types with other weapons are "Weapon swaps": each swaps one
+        model's weapons and never adds a model, up to its limit (e.g. 1 for every 3 models)."""
         unit_id = node["id"]
         low, high = m["count"]
         name = m["name"]
@@ -516,9 +528,7 @@ class Builder:
         cat_id, _ = self.category(f"Count: {ds['name']} - {name}", hidden=True)
         per_model = spec.get("per_model")
         weapons_gear = m["weapons"] + m["gear"]
-        sizes, prices = spec["sizes"], spec["prices"]
-        radio = first and not per_model and len(sizes) > 1
-        counts = sizes if radio else range(low, high + 1)
+        counts = range(low, high + 1)
 
         def model(mid, mname, items, cost):
             gear_nodes = [self.gear_entry(mid, item, ds, fixed=True) for item in items]
@@ -534,31 +544,15 @@ class Builder:
             return e
 
         gid = nid(unit_id + ":family:" + name)
-        if radio:
-            options = []
-            for n, price in zip(sizes, prices):
-                oid = nid(unit_id + ":size:" + str(n))
-                mdl = model(nid(oid + ":model"), name, weapons_gear, m["cost"])
-                mdl["constraints"] = [constraint(nid(oid + ":model:min"), "min", n),
-                                      constraint(nid(oid + ":model:max"), "max", n)]
-                mdl["defaultAmount"] = n
-                opt = entry(oid, f"{n} {plural}", selectionEntries=[mdl])
-                if price != prices[0]:
-                    opt["costs"] = [dict(name="pts", typeId=POINTS, value=price - prices[0])]
-                options.append(opt)
-            group = dict(name="Unit size", id=gid, hidden=False, defaultSelectionEntryId=options[0]["id"], sortIndex=1,
-                         selectionEntries=options,
-                         constraints=[constraint(nid(gid + ":min"), "min", 1), constraint(nid(gid + ":max"), "max", 1)])
-        else:
-            bid = nid(unit_id + ":model:" + name)
-            base = model(bid, name, weapons_gear, m["cost"])
-            base["constraints"] = [constraint(nid(bid + ":min"), "min", low if low != high else 0),
-                                   constraint(nid(bid + ":max"), "max", high)]
-            base["defaultAmount"] = low
-            span = f"{low}-{high}" if low != high else str(high)
-            group = dict(name=f"{span} {plural}", id=gid, hidden=False, defaultSelectionEntryId=base["id"], sortIndex=1,
-                         selectionEntries=[base],
-                         constraints=[constraint(nid(gid + ":min"), "min", low), constraint(nid(gid + ":max"), "max", high)])
+        bid = nid(unit_id + ":model:" + name)
+        base = model(bid, name, weapons_gear, m["cost"])
+        base["constraints"] = [constraint(nid(bid + ":min"), "min", low if low != high else 0),
+                               constraint(nid(bid + ":max"), "max", high)]
+        base["defaultAmount"] = low
+        span = f"{low}-{high}" if low != high else str(high)
+        group = dict(name=f"{span} {plural}", id=gid, hidden=False, defaultSelectionEntryId=base["id"], sortIndex=1,
+                     selectionEntries=[base],
+                     constraints=[constraint(nid(gid + ":min"), "min", low), constraint(nid(gid + ":max"), "max", high)])
         node["selectionEntryGroups"].append(group)
 
         swaps, errors = [], []

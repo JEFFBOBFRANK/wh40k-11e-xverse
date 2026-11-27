@@ -180,15 +180,14 @@ are fixed (the Pack Alpha's Mangler, the Unggoy Ultra's Close Combat Weapon).
 - Combined names read "A, B and C" everywhere.
 - In the Tormentor layout, each legal combination is one Auxiliary model type.
 
-## Unit layout (revision 24)
+## Unit layout (revisions 24-25)
 
 Every squad is built the same way, top to bottom:
 
 1. **Sergeant**: one optional choice (e.g. Jiralhanae Pack Alpha or Sangheili Ultra); its weapon choices open
    underneath. A character with a retinue stays on top of the unit.
-2. **Unit size**: one choice per legal size ("3 Sangheili Warriors" / "6 Sangheili Warriors"), holding that many
-   models; the larger size adds its points. Per-model squads (Yanme'e Drone Swarm, Brute Choppers) keep a counter, and
-   one-size squads are fixed. "Add up to N additional models" now means the two printed sizes.
+2. **Models**: a counter for the unit's models (e.g. 3-6 Sangheili Warriors); a larger size adds its points
+   (revision 25 restored the counter after a size tick was tried in revision 24).
 3. **Weapon swaps**: one counter per swap ("Fuel Rod", "Covenant Carbine", "2 Plasma Rifles"...). Each swaps one
    model's weapons and never adds a model. Limits follow the codex (e.g. 1 for every 3 models, with Carbine/Needler and
    Repeater/Fuel Rod sharing one limit), and there can be no more swaps than models. The T'vaoan Skirmishers' loadout
@@ -295,8 +294,8 @@ D3+X and random attacks become fixed, with [BLAST 1] or [BLAST 2].
 ## Choices made where the codex is open
 
 - Sergeants are optional (0-1). "Add 1 model from the ... Auxiliary lists" is up to 1.
-- "Add up to N additional models - X pts" and "Add N additional models - X pts" both allow only the two printed
-  sizes (revision 24; before, any size in between paid the larger price).
+- "Add up to N additional models - X pts" adds X points for any number of extra models; "Add N additional
+  models - X pts" (no "up to") allows only the two sizes.
 - Marauders' Wrist Shields are counted on the unit ("3x Wrist Shield", +5 pts each, not on Carbine models).
 - T'vaoan Skirmishers pick their loadout package as a model type for each model.
 - A Plasma Rifle swapped onto Special Operations Team and T'vaoan models uses the Sangheili BS 3+ profile.

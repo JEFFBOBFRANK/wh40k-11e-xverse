@@ -1654,7 +1654,7 @@
   "page": 58,
   "unit_composition": [
    "4 Jiralhanae Warriors",
-   "Add 4 additional Jiralhanae Warriors - 75pts."
+   "Add up to 4 additional Jiralhanae Warriors - 75pts."
   ],
   "equipped": [
    "Spiker",
@@ -2122,7 +2122,7 @@
   "page": 62,
   "unit_composition": [
    "3 Sangheili Warriors",
-   "Add 3 additional Sangheili Warriors - 50pts."
+   "Add up to 3 additional Sangheili Warriors - 50pts."
   ],
   "equipped": [
    "Plasma Pistol",
@@ -2619,7 +2619,7 @@
   "page": 66,
   "unit_composition": [
    "3 Sangheili Assassins",
-   "Add 3 additional Sangheili Assassins - 75pts."
+   "Add up to 3 additional Sangheili Assassins - 75pts."
   ],
   "equipped": [
    "Covenant Carbine",
@@ -2726,7 +2726,7 @@
   "page": 67,
   "unit_composition": [
    "5 Sangheili Zealots",
-   "Add 5 additional Sangheili Zealots - 125pts."
+   "Add up to 5 additional Sangheili Zealots - 125pts."
   ],
   "equipped": [
    "Storm Rifle",
@@ -2923,7 +2923,7 @@
   "page": 69,
   "unit_composition": [
    "4 Jiralhanae Shock Troopers",
-   "Add 4 additional Jiralhanae Shock Troopers - 90pts."
+   "Add up to 4 additional Jiralhanae Shock Troopers - 90pts."
   ],
   "equipped": [
    "Mangler",
@@ -3342,7 +3342,7 @@
   "page": 74,
   "unit_composition": [
    "3 Yig-Yar Marksmen",
-   "Add 3 additional Yig-Yar Marksmen - 80pts."
+   "Add up to 3 additional Yig-Yar Marksmen - 80pts."
   ],
   "equipped": [
    "Covenant Carbine",
@@ -3868,7 +3868,7 @@
   "page": 78,
   "unit_composition": [
    "5 Suicide Grunts",
-   "Add 5 additional Suicide Grunts - 40pts."
+   "Add up to 5 additional Suicide Grunts - 40pts."
   ],
   "equipped": [
    "Unstable Plasma Charges"
@@ -3929,7 +3929,7 @@
   "page": 79,
   "unit_composition": [
    "3 Unggoy Heavy Weapon Gunners",
-   "Add 3 additional Gunners - 75pts."
+   "Add up to 3 additional Gunners - 75pts."
   ],
   "equipped": [
    "Fuel Rod",
@@ -4016,7 +4016,7 @@
   "page": 80,
   "unit_composition": [
    "10 Unggoy Zealots",
-   "Add 10 additional Unggoy Zealots - 55pts."
+   "Add up to 10 additional Unggoy Zealots - 55pts."
   ],
   "equipped": [
    "Plasma Pistol",
