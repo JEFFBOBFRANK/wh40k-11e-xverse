@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 40
+REVISION = 41
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -102,6 +102,25 @@ def split_option(option):
     if " = " in option:
         option = option.split(" = ", 1)[1]
     return [p.strip() for p in option.split(" + ")]
+
+
+def singular(name):
+    return name[:-1] if name.endswith("s") and not name.endswith("ss") else name
+
+
+def share_of(weapon, n):
+    """One of n identical weapons. The codex prints such a group as one profile with their combined attacks
+    ("Bolt Spikers" A6, Rapid Fire 6); each weapon gets its share (Bolt Spiker A3, Rapid Fire 3)."""
+    a = weapon["A"]
+    assert a.isdigit() and int(a) % n == 0, (weapon["name"], a, n)
+    keywords = []
+    for k in weapon["keywords"]:
+        m = re.fullmatch(r"Rapid Fire (\d+)", k)
+        if m:
+            assert int(m.group(1)) % n == 0, (weapon["name"], k, n)
+            k = f"Rapid Fire {int(m.group(1)) // n}"
+        keywords.append(k)
+    return dict(weapon, name=singular(weapon["name"]), A=str(int(a) // n), keywords=keywords)
 
 
 def option_name(option):
@@ -216,7 +235,7 @@ class Builder:
         """An equipped item -> ('weapon', [(weapon, ranged)]) or ('gear', wargear dict)."""
         weapons = self.weapons_of(ds)
         name = re.sub(r"^\d+\s+", "", item.strip())
-        for candidate in (item.strip(), name):
+        for candidate in (item.strip(), name, singular(name)):
             if candidate in weapons:
                 return "weapon", [weapons[candidate]]
         multi = [weapons[w] for w in weapons if w.startswith(name + " - ")]
@@ -236,13 +255,42 @@ class Builder:
                 return "gear", gear
         raise ValueError(f"{ds['name']}: cannot resolve '{item}'")
 
+    def counted_weapon(self, ds, item):
+        """'3 Medium Plasma Cannons' -> (3, one Medium Plasma Cannon, ranged); None for anything else."""
+        m = re.fullmatch(r"(\d+)\s+(.+)", item.strip())
+        if not m or int(m.group(1)) < 2:
+            return None
+        n, name = int(m.group(1)), m.group(2)
+        weapons = self.weapons_of(ds)
+        if name in weapons and singular(name) != name:  # a combined profile: each weapon gets its share
+            weapon, ranged = weapons[name]
+            return n, share_of(weapon, n), ranged
+        if singular(name) in weapons:  # "6 Shade Turrets": six of the "Shade Turret" profile
+            weapon, ranged = weapons[singular(name)]
+            return n, weapon, ranged
+        return None
+
     def gear_entry(self, owner, option, ds, fixed=False, cost=0):
-        """An upgrade carrying one or more weapons and wargear items ('A + B' takes both)."""
+        """An upgrade carrying one or more weapons and wargear items ('A + B' takes both). A counted weapon
+        ('3 Medium Plasma Cannons') is that many identical weapons, shown as 3x Medium Plasma Cannon."""
         parts = split_option(option)
         eid = nid(owner + ":gear:" + option)
         node = entry(eid, option_name(option), profiles=[])
         inv = None
+        count = 1
         for part in parts:
+            counted = self.counted_weapon(ds, part)
+            if counted:
+                n, weapon, ranged = counted
+                if len(parts) == 1 and fixed:  # the entry itself is the weapon, n times
+                    node["name"], count = weapon["name"], n
+                    node["profiles"].append(self.weapon_profile(nid(eid + ":" + weapon["name"]), weapon, ranged))
+                else:  # inside a choice or package: the option holds n of the weapon
+                    cid = nid(eid + ":each:" + weapon["name"])
+                    node.setdefault("selectionEntries", []).append(entry(
+                        cid, weapon["name"], profiles=[self.weapon_profile(nid(cid + ":profile"), weapon, ranged)],
+                        constraints=[constraint(nid(cid + ":min"), "min", n), constraint(nid(cid + ":max"), "max", n)]))
+                continue
             kind, value = self.resolve(ds, part)
             if kind == "weapon":
                 for weapon, ranged in value:
@@ -259,9 +307,9 @@ class Builder:
                     inv = m.group(1)
         if inv:
             node["_inv"] = inv
-        node["constraints"] = [constraint(nid(eid + ":max"), "max", 1)]
+        node["constraints"] = [constraint(nid(eid + ":max"), "max", count)]
         if fixed:
-            node["constraints"].insert(0, constraint(nid(eid + ":min"), "min", 1))
+            node["constraints"].insert(0, constraint(nid(eid + ":min"), "min", count))
         if cost:
             node["costs"] = [dict(name="pts", typeId=POINTS, value=cost)]
         return node

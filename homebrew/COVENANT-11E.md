@@ -200,6 +200,27 @@ Every unit, the Jiralhanae Assault Pack included (revision 35), uses this layout
 layout (Auxiliaries as counters, one per loadout) on every unit, then a size tick and weapon swaps; all of it is
 undone.
 
+## Counted weapons (revision 41)
+
+A model with several identical weapons now has that many of one weapon, as on the official Land Raider ("2x
+Godhammer Lascannon"), instead of one combined profile. The codex prints such a group as one profile with the
+group's total attacks, so each weapon gets its share and the total is unchanged:
+
+| Datasheet | Was | Now |
+|---|---|---|
+| Phantom | Medium Plasma Cannons A12 | 3x Medium Plasma Cannon A4 |
+| Vampire | Medium Plasma Cannons A6 | 2x Medium Plasma Cannon A3 |
+| Scarab | Pek-pattern Plasma Cannons A12 | 3x Pek-pattern Plasma Cannon A4 |
+| Blisterback Siege Crawler | Heavy Plasma Cannons A6 | 2x Heavy Plasma Cannon A3 |
+| Marauder, Brute Chopper | Bolt Spikers A6, Rapid Fire 6 | 2x Bolt Spiker A3, Rapid Fire 3 |
+| Marauder, Prowler Command Barge | Plasma Repeaters A4 | 2x Plasma Repeater A2 |
+| Sangheili and T'vaoan models | Plasma Rifles A6, Needlers A8, Plasma Pistols A2 | 2x Plasma Rifle A3, 2x Needler A4, 2x Plasma Pistol A1 |
+| Kraken | Port/Starboard Shade Turret I-III | 6x Shade Turret (same profile) |
+| Lich | Port/Starboard Plasma Turret I-II | 4x Plasma Turret (same profile) |
+
+In a weapon choice or loadout package (the Ultra's "2 Plasma Rifles", the T'vaoan "Rifleman"), the option holds the
+weapons: 2 Plasma Rifles > 2x Plasma Rifle. Usze's "Plasma Rifles - Usze" is a hero weapon and stays one profile.
+
 ## Auxiliaries of the unit's own species (revision 37)
 
 A unit never takes Auxiliaries of its own species: no Sangheili Auxiliaries in ELITE units, no Unggoy Auxiliaries in

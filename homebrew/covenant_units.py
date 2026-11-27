@@ -1,7 +1,8 @@
 """Model and wargear layout for every Covenant datasheet (Codex: Covenant v5.5.0).
 
 The codex gives wargear options as prose; this table turns them into New Recruit models and choices.
-Weapon and wargear names must match datasheets.json; "2 Plasma Rifles" is the "Plasma Rifles" profile.
+Weapon and wargear names must match datasheets.json; "2 Plasma Rifles" is two Plasma Rifles,
+each with half the attacks of the codex's combined "Plasma Rifles" profile (shown as 2x Plasma Rifle).
 
 S(...)     a one-model datasheet. weapons/gear default to everything the datasheet equips.
 U(...)     a squad: models, legal sizes and prices, Sergeants and Auxiliary pools.
@@ -125,14 +126,14 @@ UNITS = {
         aux=[Pool(lists=["Sangheili", "Jiralhanae", "Yig-Yar"], per=5, slots=1,
                   weights={"Sangheili": 1, "Jiralhanae": 1, "Yig-Yar": 0.5})]),  # 1 per 5; a Yig-Yar is half
     "Yanme'e Drone Swarm": U(
-        [M("Yanme'e Drone", (5, 10), ["Plasma Pistols", "Drone Claws"])], sizes=[5, 10], prices=[40, 80], exact=False,
+        [M("Yanme'e Drone", (5, 10), ["2 Plasma Pistols", "Drone Claws"])], sizes=[5, 10], prices=[40, 80], exact=False,
         sergeants=["Yanme'e Major"]),
 
     # Infantry
     "Sangheili Warrior Cadre": U(
         [M("Sangheili Warrior", (3, 6), ["Plasma Pistol", "Storm Rifle", SANG_CCW], gear=["Sangheili Personal Shield"],
            variants=[
-               V("Sangheili Warrior with Plasma Rifles", ["Plasma Rifles", SANG_CCW], per=3, count=1, key="rifles"),
+               V("Sangheili Warrior with Plasma Rifles", ["2 Plasma Rifles", SANG_CCW], per=3, count=1, key="rifles"),
                V("Sangheili Warrior with Carbine or Needler", ["Plasma Pistol", SANG_CCW], per=3, count=1,
                  key="carbine", choice=C("Ranged weapon", ["Covenant Carbine", "Needler"])),
                V("Sangheili Warrior with Repeater or Fuel Rod", ["Plasma Pistol", SANG_CCW], per=3, count=1,
@@ -148,7 +149,7 @@ UNITS = {
            gear=["Sangheili Personal Shield", "Stealth Projector"])],
         sizes=[2, 4], prices=[55, 110], sergeants=["Sangheili Ultra"]),
     "Sangheili Special Operations Team": U(
-        [M("Sangheili Special Operations Warrior", (3, 3), ["Plasma Rifles", SANG_CCW],
+        [M("Sangheili Special Operations Warrior", (3, 3), ["2 Plasma Rifles", SANG_CCW],
            gear=["Sangheili Personal Shield", "Stealth Projector"], variants=[
                V("Special Operations Warrior with Particle Beam Rifle", ["Particle Beam Rifle", SANG_CCW], count=1,
                  key="long"),
@@ -168,7 +169,7 @@ UNITS = {
         [M("Sangheili Zealot", (5, 10), ["Storm Rifle", "Plasma Pistol", SANG_CCW], variants=[
             V("Sangheili Zealot with Fuel Rod", ["Fuel Rod", "Plasma Pistol", SANG_CCW], per=5, count=1, cost=10),
             V("Sangheili Zealot with Energy Sword", ["Plasma Pistol", "Energy Sword"], per=5, count=1),
-            V("Sangheili Zealot with Plasma Rifles", ["Plasma Rifles", SANG_CCW])])],
+            V("Sangheili Zealot with Plasma Rifles", ["2 Plasma Rifles", SANG_CCW])])],
         sizes=[5, 10], prices=[125, 250], exact=False, sergeants=["Sangheili Ultra"]),
     "Sangheili Honor Guard": U(
         [M("Sangheili Honor Guard", (3, 3), ["Honor Guard Pike"], gear=["Honor Guard Personal Shield"])],
@@ -204,23 +205,23 @@ UNITS = {
               count=2)])],
         sizes=[5, 10], prices=[65, 120], sergeants=["Yig-Yar Talon", "Jiralhanae Pack Alpha"]),
     "T'vaoan Skirmishers": U(
-        [M("T'vaoan Skirmisher (Rifleman)", (6, 6), ["Plasma Rifles", "T'vaoan Plasma Sabres"], variants=[
+        [M("T'vaoan Skirmisher (Rifleman)", (6, 6), ["2 Plasma Rifles", "T'vaoan Plasma Sabres"], variants=[
             V("T'vaoan Skirmisher (Carbine)", ["Covenant Carbine", "Plasma Rifle", "T'vaoan Plasma Sabres"]),
             V("T'vaoan Skirmisher (Storm)", ["Storm Rifle", "Bolt Spiker", "T'vaoan Plasma Sabres"]),
             V("T'vaoan Skirmisher (Repeater)", ["Plasma Repeater", "Spiker", "T'vaoan Plasma Sabres"]),
             V("T'vaoan Skirmisher (Demolitionist)", ["Brute Shot", "Plasma Pistol", "Satchel Charge",
                                                      "T'vaoan Plasma Sabres"]),
-            V("T'vaoan Skirmisher (Heavy Gunner, Heavy Plasma)", ["Plasma Rifles", "Heavy Plasma Melee Weapon"]),
-            V("T'vaoan Skirmisher (Heavy Gunner, Brute Heavy)", ["Plasma Rifles", "Brute Heavy Melee Weapon"]),
-            V("T'vaoan Skirmisher (Melee Specialist)", ["Plasma Rifles", "Energy Sword"]),
+            V("T'vaoan Skirmisher (Heavy Gunner, Heavy Plasma)", ["2 Plasma Rifles", "Heavy Plasma Melee Weapon"]),
+            V("T'vaoan Skirmisher (Heavy Gunner, Brute Heavy)", ["2 Plasma Rifles", "Brute Heavy Melee Weapon"]),
+            V("T'vaoan Skirmisher (Melee Specialist)", ["2 Plasma Rifles", "Energy Sword"]),
             V("T'vaoan Skirmisher (Shield Raider)", ["Plasma Rifle", "T'vaoan Plasma Sabres"], gear=["Wrist Shield"],
               cost=5),
-            V("T'vaoan Skirmisher (Needler)", ["Needlers", "T'vaoan Plasma Sabres"], cost=10),
+            V("T'vaoan Skirmisher (Needler)", ["2 Needlers", "T'vaoan Plasma Sabres"], cost=10),
             V("T'vaoan Skirmisher (Anti-armour, Fuel Rod)", ["Fuel Rod", "Plasma Pistol", "T'vaoan Plasma Sabres"],
               cost=10),
             V("T'vaoan Skirmisher (Anti-armour, Skewer)", ["Skewer", "Plasma Pistol", "T'vaoan Plasma Sabres"],
               cost=10),
-            V("T'vaoan Skirmisher (Twin-Blade)", ["Plasma Rifles", "Twin-linked Energy Swords"], cost=10)])],
+            V("T'vaoan Skirmisher (Twin-Blade)", ["2 Plasma Rifles", "Twin-linked Energy Swords"], cost=10)])],
         sizes=[6], prices=[150]),
     "Suicide Grunts": U([M("Suicide Grunt", (5, 10), ["Unstable Plasma Charges"])], sizes=[5, 10], prices=[45, 85],
                         exact=False),
@@ -241,7 +242,7 @@ UNITS = {
         sizes=[2], prices=[190]),
 
     # Mounted and Monster
-    "Brute Chopper": U([M("Brute Chopper", (1, 3), ["Bolt Spikers", "Chainwheel"])], sizes=[1, 3], per_model=70),
+    "Brute Chopper": U([M("Brute Chopper", (1, 3), ["2 Bolt Spikers", "Chainwheel"])], sizes=[1, 3], per_model=70),
     "Ghost": S(),
     "Revenant": S(),
     "Spectre": S(),
@@ -330,25 +331,25 @@ MODELS = {
         C("Wargear", ["Wrist Shield"], minimum=0, costs={"Wrist Shield": 5})],
         exclude=[("Wrist Shield", ["Covenant Carbine", "Needle Rifle", "Particle Beam Rifle", "Stalker Rifle"])]),
     "T'vaoan Auxiliary": S(weapons=[], gear=[], choices=[C("Loadout package", [
-        "Rifleman = Plasma Rifles + T'vaoan Plasma Sabres",
+        "Rifleman = 2 Plasma Rifles + T'vaoan Plasma Sabres",
         "Carbine = Covenant Carbine + Plasma Rifle + T'vaoan Plasma Sabres",
         "Storm = Storm Rifle + Bolt Spiker + T'vaoan Plasma Sabres",
         "Repeater = Plasma Repeater + Spiker + T'vaoan Plasma Sabres",
         "Demolitionist = Brute Shot + Plasma Pistol + Satchel Charge + T'vaoan Plasma Sabres",
-        "Heavy Gunner (Heavy Plasma) = Plasma Rifles + Heavy Plasma Melee Weapon",
-        "Heavy Gunner (Brute Heavy) = Plasma Rifles + Brute Heavy Melee Weapon",
-        "Melee Specialist = Plasma Rifles + Energy Sword",
+        "Heavy Gunner (Heavy Plasma) = 2 Plasma Rifles + Heavy Plasma Melee Weapon",
+        "Heavy Gunner (Brute Heavy) = 2 Plasma Rifles + Brute Heavy Melee Weapon",
+        "Melee Specialist = 2 Plasma Rifles + Energy Sword",
         "Tracker = Storm Rifle + Plasma Pistol + Yig-Yar Plasma Sabre",
         "Shield Raider = Plasma Rifle + Wrist Shield + T'vaoan Plasma Sabres",
-        "Needler = Needlers + T'vaoan Plasma Sabres",
+        "Needler = 2 Needlers + T'vaoan Plasma Sabres",
         "Anti-armour (Fuel Rod) = Fuel Rod + Plasma Pistol + T'vaoan Plasma Sabres",
         "Anti-armour (Skewer) = Skewer + Plasma Pistol + T'vaoan Plasma Sabres",
-        "Twin-Blade = Plasma Rifles + Twin-linked Energy Swords"],
+        "Twin-Blade = 2 Plasma Rifles + Twin-linked Energy Swords"],
         costs={"Shield Raider = Plasma Rifle + Wrist Shield + T'vaoan Plasma Sabres": 5,
-               "Needler = Needlers + T'vaoan Plasma Sabres": 10,
+               "Needler = 2 Needlers + T'vaoan Plasma Sabres": 10,
                "Anti-armour (Fuel Rod) = Fuel Rod + Plasma Pistol + T'vaoan Plasma Sabres": 10,
                "Anti-armour (Skewer) = Skewer + Plasma Pistol + T'vaoan Plasma Sabres": 10,
-               "Twin-Blade = Plasma Rifles + Twin-linked Energy Swords": 10})]),
+               "Twin-Blade = 2 Plasma Rifles + Twin-linked Energy Swords": 10})]),
     "Unggoy Auxiliary": S(weapons=[], choices=[
         C("Ranged weapon", ["Plasma Pistol", "Plasma Rifle", "Needler", "Storm Rifle", "Fuel Rod"], costs={"Fuel Rod": 10}),
         C("Melee weapon", [UNG_CCW])]),

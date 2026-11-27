@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 40,
+    "revision": 41,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -16873,15 +16873,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "2 Plasma Rifles",
+            "name": "Plasma Rifle",
             "id": "0bb1-0edd-1a3c-1c81",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "2840-4c95-c422-edb6",
-                "name": "Plasma Rifles",
+                "id": "89c4-4f09-4144-264b",
+                "name": "Plasma Rifle",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -16894,7 +16894,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "6"
+                    "$text": "3"
                   },
                   {
                     "name": "BS",
@@ -16928,7 +16928,7 @@
               {
                 "id": "3993-52b4-7735-3737",
                 "type": "min",
-                "value": 1,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -16937,7 +16937,7 @@
               {
                 "id": "8d5c-ff1f-ab49-1004",
                 "type": "max",
-                "value": 1,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -24846,15 +24846,15 @@
                 "import": true,
                 "selectionEntries": [
                   {
-                    "name": "Plasma Pistols",
-                    "id": "1f0b-5eea-bf6b-f209",
+                    "name": "Plasma Pistol",
+                    "id": "2f96-72f3-a22d-7af7",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "2666-6ef3-bc64-b57f",
-                        "name": "Plasma Pistols",
+                        "id": "5e94-f139-d6fe-c46e",
+                        "name": "Plasma Pistol",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -24867,7 +24867,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "2"
+                            "$text": "1"
                           },
                           {
                             "name": "BS",
@@ -24899,18 +24899,18 @@
                     ],
                     "constraints": [
                       {
-                        "id": "cb40-dc63-f3d4-d0d6",
+                        "id": "8349-5005-3724-3b21",
                         "type": "min",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
                       },
                       {
-                        "id": "ca1b-5ddd-cab2-86b1",
+                        "id": "8234-7619-00a7-0148",
                         "type": "max",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
@@ -24919,14 +24919,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "c33d-36f6-e130-a8c2",
+                        "id": "2895-f4f8-86f3-71fe",
                         "name": "Pistol",
                         "targetId": "8bf7-8812-923d-29e4",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "7a10-e9ef-c468-1aee",
+                        "id": "1956-67b6-e4d9-c3c5",
                         "name": "Plasma",
                         "targetId": "96fc-ca3e-b5fb-a002",
                         "type": "rule",
@@ -25849,15 +25849,15 @@
                 "import": true,
                 "selectionEntries": [
                   {
-                    "name": "Plasma Rifles",
-                    "id": "0b50-5baa-c864-8882",
+                    "name": "Plasma Rifle",
+                    "id": "8fa8-1b9a-bfc7-6a9a",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "3287-e7b9-a11b-0e51",
-                        "name": "Plasma Rifles",
+                        "id": "3856-a187-f746-4f89",
+                        "name": "Plasma Rifle",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -25870,7 +25870,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -25902,18 +25902,18 @@
                     ],
                     "constraints": [
                       {
-                        "id": "7678-6941-4531-0d0b",
+                        "id": "e95b-6cb9-2716-c052",
                         "type": "min",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
                       },
                       {
-                        "id": "44f0-9214-a3f0-146b",
+                        "id": "d9de-4ecc-1271-b70b",
                         "type": "max",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
@@ -25922,21 +25922,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "b518-c2dd-9d69-d925",
+                        "id": "1ce9-2920-c8bc-b4de",
                         "name": "Assault",
                         "targetId": "fc8a-8c24-bae9-cc1c",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "041a-96fa-cdc3-60cc",
+                        "id": "5573-8ea2-0428-cb3c",
                         "name": "Pistol",
                         "targetId": "8bf7-8812-923d-29e4",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "0f51-2ca7-42ed-fde2",
+                        "id": "b061-95e4-b927-4a43",
                         "name": "Plasma",
                         "targetId": "96fc-ca3e-b5fb-a002",
                         "type": "rule",
@@ -29124,15 +29124,15 @@
                 "import": true,
                 "selectionEntries": [
                   {
-                    "name": "Plasma Rifles",
-                    "id": "2a05-850f-0574-6556",
+                    "name": "Plasma Rifle",
+                    "id": "91d0-3e47-1eb3-0e36",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "e07f-dd46-cab6-ff7e",
-                        "name": "Plasma Rifles",
+                        "id": "43f9-e2bb-e7e2-cf5a",
+                        "name": "Plasma Rifle",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -29145,7 +29145,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -29177,18 +29177,18 @@
                     ],
                     "constraints": [
                       {
-                        "id": "85e5-cb8d-b49b-1782",
+                        "id": "d075-b154-1107-9f22",
                         "type": "min",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
                       },
                       {
-                        "id": "5ac6-1390-e701-ed6d",
+                        "id": "236a-9799-b7e1-9505",
                         "type": "max",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
@@ -29197,21 +29197,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "6e60-1a40-fc11-e82d",
+                        "id": "0af7-62c2-f1dd-6f0d",
                         "name": "Assault",
                         "targetId": "fc8a-8c24-bae9-cc1c",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "c238-b489-9d49-95d1",
+                        "id": "c02e-8b08-1d37-390a",
                         "name": "Pistol",
                         "targetId": "8bf7-8812-923d-29e4",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "133f-731d-f943-fcf8",
+                        "id": "8dd7-f313-ee02-87aa",
                         "name": "Plasma",
                         "targetId": "96fc-ca3e-b5fb-a002",
                         "type": "rule",
@@ -33634,15 +33634,15 @@
                 "import": true,
                 "selectionEntries": [
                   {
-                    "name": "Plasma Rifles",
-                    "id": "20c1-195a-f5a1-fedc",
+                    "name": "Plasma Rifle",
+                    "id": "b9ee-24c5-cbb1-fdb0",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "d255-fec2-bb7c-fab0",
-                        "name": "Plasma Rifles",
+                        "id": "3e79-4453-8601-dd8c",
+                        "name": "Plasma Rifle",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -33655,7 +33655,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -33687,18 +33687,18 @@
                     ],
                     "constraints": [
                       {
-                        "id": "bcbc-a245-377d-74c7",
+                        "id": "20de-d6c0-b1eb-72af",
                         "type": "min",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
                       },
                       {
-                        "id": "9a30-3795-33ba-3a17",
+                        "id": "d256-1044-80ac-6986",
                         "type": "max",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
@@ -33707,21 +33707,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "c4a2-c03d-a54d-c3de",
+                        "id": "0bc5-2e53-a6bc-4800",
                         "name": "Assault",
                         "targetId": "fc8a-8c24-bae9-cc1c",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "9ecd-fe59-12a4-2cc8",
+                        "id": "1e27-8986-360b-2c35",
                         "name": "Pistol",
                         "targetId": "8bf7-8812-923d-29e4",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "0127-b6cb-bb60-b1e2",
+                        "id": "bef0-00f1-0bad-bc6f",
                         "name": "Plasma",
                         "targetId": "96fc-ca3e-b5fb-a002",
                         "type": "rule",
@@ -41371,15 +41371,15 @@
                 "import": true,
                 "selectionEntries": [
                   {
-                    "name": "Plasma Rifles",
-                    "id": "29fb-9735-9e0e-57b4",
+                    "name": "Plasma Rifle",
+                    "id": "bb68-a7bf-97f0-70cc",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "b062-4354-de6c-7691",
-                        "name": "Plasma Rifles",
+                        "id": "0896-5ba5-6b1f-7cae",
+                        "name": "Plasma Rifle",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -41392,7 +41392,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -41424,18 +41424,18 @@
                     ],
                     "constraints": [
                       {
-                        "id": "135d-7f94-049a-2a4c",
+                        "id": "84cf-f7f7-1511-e3ce",
                         "type": "min",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
                       },
                       {
-                        "id": "9227-d7d3-f9bb-58be",
+                        "id": "7cb0-3d71-d859-a090",
                         "type": "max",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
@@ -41444,21 +41444,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "f54d-d0b8-b360-268a",
+                        "id": "ec8d-a82a-599d-d959",
                         "name": "Assault",
                         "targetId": "fc8a-8c24-bae9-cc1c",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "f20c-4a2b-26a6-3e32",
+                        "id": "1d15-9b7d-e6ba-678d",
                         "name": "Pistol",
                         "targetId": "8bf7-8812-923d-29e4",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "eef6-57a1-ab42-cae2",
+                        "id": "4704-a1da-23cc-dcdb",
                         "name": "Plasma",
                         "targetId": "96fc-ca3e-b5fb-a002",
                         "type": "rule",
@@ -43304,15 +43304,15 @@
                 "import": true,
                 "selectionEntries": [
                   {
-                    "name": "Plasma Rifles",
-                    "id": "c60a-93a0-65cb-6aa1",
+                    "name": "Plasma Rifle",
+                    "id": "1496-45db-2fb8-e487",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "2c22-0984-cd38-40fc",
-                        "name": "Plasma Rifles",
+                        "id": "bf3b-cd98-6c18-dd6e",
+                        "name": "Plasma Rifle",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -43325,7 +43325,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -43357,18 +43357,18 @@
                     ],
                     "constraints": [
                       {
-                        "id": "1240-7db2-34c8-9445",
+                        "id": "20b0-42b1-3bcc-622f",
                         "type": "min",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
                       },
                       {
-                        "id": "64e0-baa8-1364-7768",
+                        "id": "1619-a8e0-5c5f-f9a9",
                         "type": "max",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
@@ -43377,21 +43377,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "15f8-b374-4a35-d756",
+                        "id": "a81f-439a-ebbc-2f05",
                         "name": "Assault",
                         "targetId": "fc8a-8c24-bae9-cc1c",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "f99a-dc12-61b7-113f",
+                        "id": "5648-816a-2370-5940",
                         "name": "Pistol",
                         "targetId": "8bf7-8812-923d-29e4",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "9024-8d98-4e87-22e6",
+                        "id": "3bc3-36de-cd05-44ee",
                         "name": "Plasma",
                         "targetId": "96fc-ca3e-b5fb-a002",
                         "type": "rule",
@@ -43564,15 +43564,15 @@
                 "import": true,
                 "selectionEntries": [
                   {
-                    "name": "Plasma Rifles",
-                    "id": "53c8-aa93-a315-bc2c",
+                    "name": "Plasma Rifle",
+                    "id": "7035-30f4-074d-77e5",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "2158-34dd-f6f7-185a",
-                        "name": "Plasma Rifles",
+                        "id": "98e8-b78f-3cc1-ae21",
+                        "name": "Plasma Rifle",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -43585,7 +43585,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -43617,18 +43617,18 @@
                     ],
                     "constraints": [
                       {
-                        "id": "0698-ef42-bde6-33c2",
+                        "id": "48d6-67e5-c81a-89b3",
                         "type": "min",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
                       },
                       {
-                        "id": "eabb-c16b-d8f6-7ddb",
+                        "id": "d744-fab5-4e2e-9a88",
                         "type": "max",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
@@ -43637,21 +43637,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "386f-84d6-c49a-4289",
+                        "id": "4d99-8f37-73a2-2e53",
                         "name": "Assault",
                         "targetId": "fc8a-8c24-bae9-cc1c",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "3f3b-adb7-6cb9-ddaf",
+                        "id": "d1cc-39b3-3bce-1df2",
                         "name": "Pistol",
                         "targetId": "8bf7-8812-923d-29e4",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "0a7b-e604-9bf2-d23f",
+                        "id": "955c-3ae5-44e7-2d84",
                         "name": "Plasma",
                         "targetId": "96fc-ca3e-b5fb-a002",
                         "type": "rule",
@@ -43824,15 +43824,15 @@
                 "import": true,
                 "selectionEntries": [
                   {
-                    "name": "Plasma Rifles",
-                    "id": "e15d-d51b-b8cc-6904",
+                    "name": "Plasma Rifle",
+                    "id": "5336-38ed-c468-85ec",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "81c2-7f73-495d-2bb5",
-                        "name": "Plasma Rifles",
+                        "id": "110d-c7ec-c3c9-b437",
+                        "name": "Plasma Rifle",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -43845,7 +43845,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -43877,18 +43877,18 @@
                     ],
                     "constraints": [
                       {
-                        "id": "4c93-be2b-a994-277e",
+                        "id": "ddf4-48e3-c629-4a06",
                         "type": "min",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
                       },
                       {
-                        "id": "fa62-8a9c-c157-8c2a",
+                        "id": "2a23-6dbc-79d4-defa",
                         "type": "max",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
@@ -43897,21 +43897,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "97bb-5a08-878e-57cc",
+                        "id": "3f2e-9e1f-cda9-1da0",
                         "name": "Assault",
                         "targetId": "fc8a-8c24-bae9-cc1c",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "4690-55fb-63c2-e6db",
+                        "id": "e4ca-9d00-121d-2c5d",
                         "name": "Pistol",
                         "targetId": "8bf7-8812-923d-29e4",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "b1fa-1ef7-f67e-03ba",
+                        "id": "7dd8-0296-0120-1e43",
                         "name": "Plasma",
                         "targetId": "96fc-ca3e-b5fb-a002",
                         "type": "rule",
@@ -44392,15 +44392,15 @@
                 "import": true,
                 "selectionEntries": [
                   {
-                    "name": "Needlers",
-                    "id": "9f09-d8d9-e3b7-e404",
+                    "name": "Needler",
+                    "id": "b14a-74d4-7401-63a7",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "b969-1824-3176-8aed",
-                        "name": "Needlers",
+                        "id": "200f-1f77-6109-e95b",
+                        "name": "Needler",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -44413,7 +44413,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "8"
+                            "$text": "4"
                           },
                           {
                             "name": "BS",
@@ -44445,18 +44445,18 @@
                     ],
                     "constraints": [
                       {
-                        "id": "17d6-a5a6-4399-2979",
+                        "id": "5404-199b-3f79-308f",
                         "type": "min",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
                       },
                       {
-                        "id": "a6b4-c7e5-bace-fd4e",
+                        "id": "1332-6572-52e3-d948",
                         "type": "max",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
@@ -44465,21 +44465,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "4e4f-e3a1-fe2e-b2d7",
+                        "id": "b27a-d576-5490-9457",
                         "name": "Anti",
                         "targetId": "4111-82e3-9444-e942",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "1f57-b5f4-13ab-052a",
+                        "id": "8cf4-74c7-0660-5ddd",
                         "name": "Sustained Hits",
                         "targetId": "1897-c22c-9597-12b1",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "eb18-191a-bfd5-1d16",
+                        "id": "79b3-520b-9f25-ee13",
                         "name": "Supercombine",
                         "targetId": "0b56-995d-14f8-c61c",
                         "type": "rule",
@@ -45343,15 +45343,15 @@
                 "import": true,
                 "selectionEntries": [
                   {
-                    "name": "Plasma Rifles",
-                    "id": "9fc1-da87-46bb-8f16",
+                    "name": "Plasma Rifle",
+                    "id": "37ec-7283-dbfe-47f2",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "ba6b-5734-ed67-e19c",
-                        "name": "Plasma Rifles",
+                        "id": "c559-5bcd-f30f-be28",
+                        "name": "Plasma Rifle",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -45364,7 +45364,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -45396,18 +45396,18 @@
                     ],
                     "constraints": [
                       {
-                        "id": "738f-f81d-9c5b-009d",
+                        "id": "b49d-708c-187c-7862",
                         "type": "min",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
                       },
                       {
-                        "id": "7afa-295d-45c6-3eb1",
+                        "id": "7028-07bc-3c0e-e6f8",
                         "type": "max",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
@@ -45416,21 +45416,21 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "d52e-01c4-bd6c-d1c4",
+                        "id": "d736-36d6-7f22-3ed9",
                         "name": "Assault",
                         "targetId": "fc8a-8c24-bae9-cc1c",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "ee90-7c0f-2c08-e193",
+                        "id": "7712-55c3-6513-8fc3",
                         "name": "Pistol",
                         "targetId": "8bf7-8812-923d-29e4",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "e3f5-7b04-ca4b-07e1",
+                        "id": "163a-66fc-e172-03d9",
                         "name": "Plasma",
                         "targetId": "96fc-ca3e-b5fb-a002",
                         "type": "rule",
@@ -49417,15 +49417,15 @@
                 "import": true,
                 "selectionEntries": [
                   {
-                    "name": "Bolt Spikers",
-                    "id": "581b-135b-621b-7ee0",
+                    "name": "Bolt Spiker",
+                    "id": "ea9c-4f83-feda-728b",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "d087-296e-a1ac-e1d7",
-                        "name": "Bolt Spikers",
+                        "id": "58cb-000b-5733-83a2",
+                        "name": "Bolt Spiker",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
@@ -49438,7 +49438,7 @@
                           {
                             "name": "A",
                             "typeId": "3bb-c35f-f54-fb08",
-                            "$text": "6"
+                            "$text": "3"
                           },
                           {
                             "name": "BS",
@@ -49463,25 +49463,25 @@
                           {
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c",
-                            "$text": "Devastating Wounds, Rapid Fire 6"
+                            "$text": "Devastating Wounds, Rapid Fire 3"
                           }
                         ]
                       }
                     ],
                     "constraints": [
                       {
-                        "id": "0739-fa63-07c5-6769",
+                        "id": "51a6-7a58-b36f-f2be",
                         "type": "min",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
                         "includeChildSelections": false
                       },
                       {
-                        "id": "ecbe-966d-3777-8721",
+                        "id": "2166-6efc-c116-0090",
                         "type": "max",
-                        "value": 1,
+                        "value": 2,
                         "scope": "parent",
                         "field": "selections",
                         "shared": true,
@@ -49490,14 +49490,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "6f54-03af-7d90-03f5",
+                        "id": "bdb7-e027-4801-0ef9",
                         "name": "Devastating Wounds",
                         "targetId": "be1e-ac8e-1e2c-3528",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "3fb9-37e5-95ff-d922",
+                        "id": "f07b-2895-4a63-84f6",
                         "name": "Rapid Fire",
                         "targetId": "c5c8-8b58-b8b6-7786",
                         "type": "rule",
@@ -51958,15 +51958,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "2 Bolt Spikers",
+            "name": "Bolt Spiker",
             "id": "7557-5b6e-bea9-ce69",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "4b0b-5126-44b1-95e0",
-                "name": "Bolt Spikers",
+                "id": "62e3-e233-d5ea-2266",
+                "name": "Bolt Spiker",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -51979,7 +51979,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "6"
+                    "$text": "3"
                   },
                   {
                     "name": "BS",
@@ -52004,7 +52004,7 @@
                   {
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Devastating Wounds, Rapid Fire 6"
+                    "$text": "Devastating Wounds, Rapid Fire 3"
                   }
                 ]
               }
@@ -52013,7 +52013,7 @@
               {
                 "id": "82b6-965e-c08b-af72",
                 "type": "min",
-                "value": 1,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -52022,7 +52022,7 @@
               {
                 "id": "bf2e-157e-812e-83d5",
                 "type": "max",
-                "value": 1,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -52047,15 +52047,15 @@
             ]
           },
           {
-            "name": "2 Plasma Repeaters",
+            "name": "Plasma Repeater",
             "id": "3da2-ffab-4512-94fe",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "c22f-2bf1-810b-c0f1",
-                "name": "Plasma Repeaters",
+                "id": "9286-f082-555d-159a",
+                "name": "Plasma Repeater",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -52068,7 +52068,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "4"
+                    "$text": "2"
                   },
                   {
                     "name": "BS",
@@ -52102,7 +52102,7 @@
               {
                 "id": "8dfa-dd3f-02ea-4912",
                 "type": "min",
-                "value": 1,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -52111,7 +52111,7 @@
               {
                 "id": "6066-d4e4-fda9-7844",
                 "type": "max",
-                "value": 1,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -52670,15 +52670,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "2 Plasma Repeaters",
+            "name": "Plasma Repeater",
             "id": "1ba6-63eb-cf88-e61f",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "a306-4b97-9748-525c",
-                "name": "Plasma Repeaters",
+                "id": "1afd-62ee-e34a-9e2f",
+                "name": "Plasma Repeater",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -52691,7 +52691,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "4"
+                    "$text": "2"
                   },
                   {
                     "name": "BS",
@@ -52725,7 +52725,7 @@
               {
                 "id": "8245-5431-9ffb-a67d",
                 "type": "min",
-                "value": 1,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -52734,7 +52734,7 @@
               {
                 "id": "5b39-1554-9c08-232d",
                 "type": "max",
-                "value": 1,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -54270,15 +54270,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "2 Heavy Plasma Cannons",
+            "name": "Heavy Plasma Cannon",
             "id": "07be-823a-a172-635e",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "ce57-3a43-0adb-9bad",
-                "name": "Heavy Plasma Cannons",
+                "id": "31ab-04f6-e162-9164",
+                "name": "Heavy Plasma Cannon",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -54291,7 +54291,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "6"
+                    "$text": "3"
                   },
                   {
                     "name": "BS",
@@ -54325,7 +54325,7 @@
               {
                 "id": "d894-0089-b52c-e45c",
                 "type": "min",
-                "value": 1,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -54334,7 +54334,7 @@
               {
                 "id": "b4ba-08f0-bb7e-0b7b",
                 "type": "max",
-                "value": 1,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -57856,15 +57856,15 @@
             ]
           },
           {
-            "name": "2 Medium Plasma Cannons",
+            "name": "Medium Plasma Cannon",
             "id": "1e80-573b-8178-e4ce",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "2789-13a2-5855-88f1",
-                "name": "Medium Plasma Cannons",
+                "id": "c8bb-687e-3bf3-317b",
+                "name": "Medium Plasma Cannon",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -57877,7 +57877,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "6"
+                    "$text": "3"
                   },
                   {
                     "name": "BS",
@@ -57911,7 +57911,7 @@
               {
                 "id": "f6e1-ef81-04f8-05a3",
                 "type": "min",
-                "value": 1,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -57920,7 +57920,7 @@
               {
                 "id": "0699-09cc-adf1-f69c",
                 "type": "max",
-                "value": 1,
+                "value": 2,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -60974,15 +60974,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "3 Medium Plasma Cannons",
+            "name": "Medium Plasma Cannon",
             "id": "1c97-eb73-ac3e-4aad",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "ade3-cbc7-c8bf-4faf",
-                "name": "Medium Plasma Cannons",
+                "id": "2450-62b9-9b74-1c43",
+                "name": "Medium Plasma Cannon",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -60995,7 +60995,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "12"
+                    "$text": "4"
                   },
                   {
                     "name": "BS",
@@ -61029,7 +61029,7 @@
               {
                 "id": "26c5-24a2-e2b5-ffae",
                 "type": "min",
-                "value": 1,
+                "value": 3,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -61038,7 +61038,7 @@
               {
                 "id": "5a8d-837f-1a8e-d21f",
                 "type": "max",
-                "value": 1,
+                "value": 3,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -61790,15 +61790,15 @@
             ]
           },
           {
-            "name": "3 Pek-pattern Plasma Cannons",
+            "name": "Pek-pattern Plasma Cannon",
             "id": "a7f8-7427-2b23-6ebb",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "3612-0c24-c1c6-3cff",
-                "name": "Pek-pattern Plasma Cannons",
+                "id": "d8aa-1d4a-c8fc-6663",
+                "name": "Pek-pattern Plasma Cannon",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -61811,7 +61811,7 @@
                   {
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "12"
+                    "$text": "4"
                   },
                   {
                     "name": "BS",
@@ -61845,7 +61845,7 @@
               {
                 "id": "f3d8-c144-dd19-6223",
                 "type": "min",
-                "value": 1,
+                "value": 3,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -61854,7 +61854,7 @@
               {
                 "id": "15cc-4cc2-64e9-a444",
                 "type": "max",
-                "value": 1,
+                "value": 3,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -62651,15 +62651,15 @@
             ]
           },
           {
-            "name": "Starboard Plasma Turret I",
-            "id": "086d-0b96-e2fb-579e",
+            "name": "Plasma Turret",
+            "id": "b25c-8e67-b5b5-242b",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "b45b-3e99-7c03-4346",
-                "name": "Starboard Plasma Turret I",
+                "id": "dda5-f875-bcb9-d71c",
+                "name": "Plasma Turret",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -62704,18 +62704,18 @@
             ],
             "constraints": [
               {
-                "id": "7d24-c632-be70-9850",
+                "id": "6273-5c46-7248-5926",
                 "type": "min",
-                "value": 1,
+                "value": 4,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
               },
               {
-                "id": "443f-98c3-9d65-12e2",
+                "id": "aec7-03f7-c735-5d8a",
                 "type": "max",
-                "value": 1,
+                "value": 4,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -62724,309 +62724,21 @@
             ],
             "infoLinks": [
               {
-                "id": "cde5-9478-c026-736e",
+                "id": "205d-394d-88fe-ff65",
                 "name": "Twin-linked",
                 "targetId": "cf93-ad4d-2f08-a79d",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "c81a-d377-e797-006c",
+                "id": "4318-bd18-aebd-8056",
                 "name": "Sustained Hits",
                 "targetId": "1897-c22c-9597-12b1",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "0ba8-9692-f56f-8f6f",
-                "name": "Plasma",
-                "targetId": "96fc-ca3e-b5fb-a002",
-                "type": "rule",
-                "hidden": false
-              }
-            ]
-          },
-          {
-            "name": "Port Plasma Turret I",
-            "id": "00a6-2ff0-39f5-060d",
-            "type": "upgrade",
-            "hidden": false,
-            "import": true,
-            "profiles": [
-              {
-                "id": "1c2b-3f74-8253-4185",
-                "name": "Port Plasma Turret I",
-                "hidden": false,
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "36\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "4"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "8"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "-2"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Sustained Hits 1, Twin-linked, Plasma (AP1)"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "4fa8-3d82-9df9-e510",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "38f5-dd8d-2bc6-1c8b",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "infoLinks": [
-              {
-                "id": "dea6-98b0-192e-9163",
-                "name": "Twin-linked",
-                "targetId": "cf93-ad4d-2f08-a79d",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "70bd-7e87-62f5-38d1",
-                "name": "Sustained Hits",
-                "targetId": "1897-c22c-9597-12b1",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "5064-f5f2-7191-44cb",
-                "name": "Plasma",
-                "targetId": "96fc-ca3e-b5fb-a002",
-                "type": "rule",
-                "hidden": false
-              }
-            ]
-          },
-          {
-            "name": "Starboard Plasma Turret II",
-            "id": "b57e-f807-b560-d935",
-            "type": "upgrade",
-            "hidden": false,
-            "import": true,
-            "profiles": [
-              {
-                "id": "35d9-67f9-1e8a-cafc",
-                "name": "Starboard Plasma Turret II",
-                "hidden": false,
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "36\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "4"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "8"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "-2"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Sustained Hits 1, Twin-linked, Plasma (AP1)"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "f343-e925-60b0-3a57",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "f841-3bd7-03cb-142b",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "infoLinks": [
-              {
-                "id": "06ba-9f94-68bd-36b6",
-                "name": "Twin-linked",
-                "targetId": "cf93-ad4d-2f08-a79d",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "51fe-e186-99a2-f565",
-                "name": "Sustained Hits",
-                "targetId": "1897-c22c-9597-12b1",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "6514-aff8-6d37-7fe7",
-                "name": "Plasma",
-                "targetId": "96fc-ca3e-b5fb-a002",
-                "type": "rule",
-                "hidden": false
-              }
-            ]
-          },
-          {
-            "name": "Port Plasma Turret II",
-            "id": "3aaa-14a5-8512-3881",
-            "type": "upgrade",
-            "hidden": false,
-            "import": true,
-            "profiles": [
-              {
-                "id": "1d49-9655-290b-c638",
-                "name": "Port Plasma Turret II",
-                "hidden": false,
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "36\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "4"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "8"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "-2"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Sustained Hits 1, Twin-linked, Plasma (AP1)"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "dac3-4b18-bd4f-957e",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "3101-3dab-393b-aed6",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "infoLinks": [
-              {
-                "id": "f011-190f-eaf9-02ac",
-                "name": "Twin-linked",
-                "targetId": "cf93-ad4d-2f08-a79d",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "a498-2916-14a2-c330",
-                "name": "Sustained Hits",
-                "targetId": "1897-c22c-9597-12b1",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "7a02-2e15-9801-13a2",
+                "id": "856b-f91b-da27-ca2d",
                 "name": "Plasma",
                 "targetId": "96fc-ca3e-b5fb-a002",
                 "type": "rule",
@@ -63674,15 +63386,15 @@
         ],
         "selectionEntries": [
           {
-            "name": "Port Shade Turret I",
-            "id": "dba9-6eb7-c713-ab3e",
+            "name": "Shade Turret",
+            "id": "c8aa-895f-2b89-2a30",
             "type": "upgrade",
             "hidden": false,
             "import": true,
             "profiles": [
               {
-                "id": "69f6-968f-e7e4-802c",
-                "name": "Port Shade Turret I",
+                "id": "d2bc-72e5-63e9-d2c3",
+                "name": "Shade Turret",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
@@ -63727,18 +63439,18 @@
             ],
             "constraints": [
               {
-                "id": "7753-19da-7f8a-1247",
+                "id": "5acb-891e-35ef-a48c",
                 "type": "min",
-                "value": 1,
+                "value": 6,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
                 "includeChildSelections": false
               },
               {
-                "id": "625d-588d-4a26-acea",
+                "id": "d803-4e33-454f-dfdf",
                 "type": "max",
-                "value": 1,
+                "value": 6,
                 "scope": "parent",
                 "field": "selections",
                 "shared": true,
@@ -63747,543 +63459,28 @@
             ],
             "infoLinks": [
               {
-                "id": "2db3-d010-11b4-ec31",
+                "id": "f8c0-d625-2f68-c827",
                 "name": "Twin-linked",
                 "targetId": "cf93-ad4d-2f08-a79d",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "e89f-7cd8-fe2a-9df1",
+                "id": "01fc-1627-b0cb-52a4",
                 "name": "Anti",
                 "targetId": "4111-82e3-9444-e942",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "22cc-bae0-46cf-85e3",
+                "id": "99c2-6687-5900-5582",
                 "name": "Sustained Hits",
                 "targetId": "1897-c22c-9597-12b1",
                 "type": "rule",
                 "hidden": false
               },
               {
-                "id": "633f-93fa-a971-bc2a",
-                "name": "Plasma",
-                "targetId": "96fc-ca3e-b5fb-a002",
-                "type": "rule",
-                "hidden": false
-              }
-            ]
-          },
-          {
-            "name": "Starboard Shade Turret I",
-            "id": "3481-6ee4-91a1-7df0",
-            "type": "upgrade",
-            "hidden": false,
-            "import": true,
-            "profiles": [
-              {
-                "id": "8090-c7b9-7f09-8659",
-                "name": "Starboard Shade Turret I",
-                "hidden": false,
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "36\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "6"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "8"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "-2"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Anti-Fly 3+, Sustained Hits 1, Twin-linked, Plasma (AP1)"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "7335-7bb1-bf05-40de",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "f30a-64ad-c076-27de",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "infoLinks": [
-              {
-                "id": "73f7-06e9-f05c-ef9c",
-                "name": "Twin-linked",
-                "targetId": "cf93-ad4d-2f08-a79d",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "1422-d44a-9020-c674",
-                "name": "Anti",
-                "targetId": "4111-82e3-9444-e942",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "bba6-3675-b320-fc4a",
-                "name": "Sustained Hits",
-                "targetId": "1897-c22c-9597-12b1",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "b27b-c554-bb46-dec0",
-                "name": "Plasma",
-                "targetId": "96fc-ca3e-b5fb-a002",
-                "type": "rule",
-                "hidden": false
-              }
-            ]
-          },
-          {
-            "name": "Port Shade Turret II",
-            "id": "8b09-02fe-68f9-bddb",
-            "type": "upgrade",
-            "hidden": false,
-            "import": true,
-            "profiles": [
-              {
-                "id": "c9ac-2692-7536-e98f",
-                "name": "Port Shade Turret II",
-                "hidden": false,
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "36\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "6"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "8"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "-2"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Anti-Fly 3+, Sustained Hits 1, Twin-linked, Plasma (AP1)"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "9f14-f500-815a-5e43",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "6dfa-946d-5c5e-f675",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "infoLinks": [
-              {
-                "id": "6b72-7ea4-2f4a-f5a4",
-                "name": "Twin-linked",
-                "targetId": "cf93-ad4d-2f08-a79d",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "18a9-fcaa-f167-4080",
-                "name": "Anti",
-                "targetId": "4111-82e3-9444-e942",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "179a-8a7a-1f09-695f",
-                "name": "Sustained Hits",
-                "targetId": "1897-c22c-9597-12b1",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "2252-aa91-476f-c063",
-                "name": "Plasma",
-                "targetId": "96fc-ca3e-b5fb-a002",
-                "type": "rule",
-                "hidden": false
-              }
-            ]
-          },
-          {
-            "name": "Starboard Shade Turret II",
-            "id": "9c02-1443-640a-1adf",
-            "type": "upgrade",
-            "hidden": false,
-            "import": true,
-            "profiles": [
-              {
-                "id": "e510-ce8b-5533-b322",
-                "name": "Starboard Shade Turret II",
-                "hidden": false,
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "36\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "6"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "8"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "-2"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Anti-Fly 3+, Sustained Hits 1, Twin-linked, Plasma (AP1)"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "0a47-6820-e4b4-facc",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "bdee-4cd3-4091-4c9f",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "infoLinks": [
-              {
-                "id": "2114-012f-f5a1-f5c9",
-                "name": "Twin-linked",
-                "targetId": "cf93-ad4d-2f08-a79d",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "fbc3-eb17-42fa-1777",
-                "name": "Anti",
-                "targetId": "4111-82e3-9444-e942",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "6bab-7270-ce23-572d",
-                "name": "Sustained Hits",
-                "targetId": "1897-c22c-9597-12b1",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "100d-3dca-66f8-f070",
-                "name": "Plasma",
-                "targetId": "96fc-ca3e-b5fb-a002",
-                "type": "rule",
-                "hidden": false
-              }
-            ]
-          },
-          {
-            "name": "Port Shade Turret III",
-            "id": "084a-e770-293c-1b5c",
-            "type": "upgrade",
-            "hidden": false,
-            "import": true,
-            "profiles": [
-              {
-                "id": "5c62-b1f3-81e9-cf19",
-                "name": "Port Shade Turret III",
-                "hidden": false,
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "36\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "6"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "8"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "-2"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Anti-Fly 3+, Sustained Hits 1, Twin-linked, Plasma (AP1)"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "d73c-c990-652a-ca32",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "60d2-5b71-72d1-dda6",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "infoLinks": [
-              {
-                "id": "d5f5-a3d1-dc03-b474",
-                "name": "Twin-linked",
-                "targetId": "cf93-ad4d-2f08-a79d",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "378e-0dd6-5cd2-4987",
-                "name": "Anti",
-                "targetId": "4111-82e3-9444-e942",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "6fe9-ce51-db96-f5a0",
-                "name": "Sustained Hits",
-                "targetId": "1897-c22c-9597-12b1",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "30fa-a864-736a-f393",
-                "name": "Plasma",
-                "targetId": "96fc-ca3e-b5fb-a002",
-                "type": "rule",
-                "hidden": false
-              }
-            ]
-          },
-          {
-            "name": "Starboard Shade Turret III",
-            "id": "53ee-f12d-ef7e-4ffe",
-            "type": "upgrade",
-            "hidden": false,
-            "import": true,
-            "profiles": [
-              {
-                "id": "48b7-55e5-46b5-0695",
-                "name": "Starboard Shade Turret III",
-                "hidden": false,
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc",
-                    "$text": "36\""
-                  },
-                  {
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08",
-                    "$text": "6"
-                  },
-                  {
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e",
-                    "$text": "3+"
-                  },
-                  {
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3",
-                    "$text": "8"
-                  },
-                  {
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15",
-                    "$text": "-2"
-                  },
-                  {
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3",
-                    "$text": "2"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c",
-                    "$text": "Anti-Fly 3+, Sustained Hits 1, Twin-linked, Plasma (AP1)"
-                  }
-                ]
-              }
-            ],
-            "constraints": [
-              {
-                "id": "4c17-3121-83d0-c483",
-                "type": "min",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              },
-              {
-                "id": "7468-874b-4409-b770",
-                "type": "max",
-                "value": 1,
-                "scope": "parent",
-                "field": "selections",
-                "shared": true,
-                "includeChildSelections": false
-              }
-            ],
-            "infoLinks": [
-              {
-                "id": "7056-6811-08ab-5492",
-                "name": "Twin-linked",
-                "targetId": "cf93-ad4d-2f08-a79d",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "bbd0-8da7-9aed-c93a",
-                "name": "Anti",
-                "targetId": "4111-82e3-9444-e942",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "8f97-67ff-085e-e6ca",
-                "name": "Sustained Hits",
-                "targetId": "1897-c22c-9597-12b1",
-                "type": "rule",
-                "hidden": false
-              },
-              {
-                "id": "251a-3a90-3588-c1b6",
+                "id": "67db-7a38-b654-00d0",
                 "name": "Plasma",
                 "targetId": "96fc-ca3e-b5fb-a002",
                 "type": "rule",
@@ -67069,48 +66266,94 @@
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
-                "profiles": [
+                "profiles": [],
+                "selectionEntries": [
                   {
-                    "id": "dc70-47b1-6373-4c86",
-                    "name": "Plasma Pistols",
+                    "name": "Plasma Pistol",
+                    "id": "b206-1e3e-67cc-1860",
+                    "type": "upgrade",
                     "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
+                    "import": true,
+                    "profiles": [
                       {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "12\""
+                        "id": "7f1a-a46f-edef-b875",
+                        "name": "Plasma Pistol",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Pistol, Plasma (AP1)"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "6ef9-ec4a-b212-c9b0",
+                        "type": "min",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
                       },
                       {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "2"
+                        "id": "4494-ddbc-d3f4-5ea1",
+                        "type": "max",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "f7e8-2450-446f-fe19",
+                        "name": "Pistol",
+                        "targetId": "8bf7-8812-923d-29e4",
+                        "type": "rule",
+                        "hidden": false
                       },
                       {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Pistol, Plasma (AP1)"
+                        "id": "7fc4-df76-7dd1-2fcf",
+                        "name": "Plasma",
+                        "targetId": "96fc-ca3e-b5fb-a002",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   }
@@ -67125,22 +66368,6 @@
                     "shared": true,
                     "includeChildSelections": false
                   }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "c6b8-8011-f2ce-f66c",
-                    "name": "Pistol",
-                    "targetId": "8bf7-8812-923d-29e4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "0f27-1b4b-4867-58ee",
-                    "name": "Plasma",
-                    "targetId": "96fc-ca3e-b5fb-a002",
-                    "type": "rule",
-                    "hidden": false
-                  }
                 ]
               },
               {
@@ -67149,48 +66376,101 @@
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
-                "profiles": [
+                "profiles": [],
+                "selectionEntries": [
                   {
-                    "id": "c915-28ab-c859-f4d6",
-                    "name": "Plasma Rifles",
+                    "name": "Plasma Rifle",
+                    "id": "e65a-5df6-b56f-1ce7",
+                    "type": "upgrade",
                     "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
+                    "import": true,
+                    "profiles": [
                       {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "15\""
+                        "id": "aae2-c4f9-9f54-5294",
+                        "name": "Plasma Rifle",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "15\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Assault, Pistol, Plasma (AP1)"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "f24e-5179-50cb-da25",
+                        "type": "min",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
                       },
                       {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "6"
+                        "id": "8c01-2efa-6120-1a1a",
+                        "type": "max",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "f9a9-9d70-6d39-4075",
+                        "name": "Assault",
+                        "targetId": "fc8a-8c24-bae9-cc1c",
+                        "type": "rule",
+                        "hidden": false
                       },
                       {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "3+"
+                        "id": "55ca-a7cd-5f9e-ba4d",
+                        "name": "Pistol",
+                        "targetId": "8bf7-8812-923d-29e4",
+                        "type": "rule",
+                        "hidden": false
                       },
                       {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Assault, Pistol, Plasma (AP1)"
+                        "id": "4482-917d-77dc-4ab8",
+                        "name": "Plasma",
+                        "targetId": "96fc-ca3e-b5fb-a002",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   }
@@ -67205,29 +66485,6 @@
                     "shared": true,
                     "includeChildSelections": false
                   }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "c6da-febf-9137-2d49",
-                    "name": "Assault",
-                    "targetId": "fc8a-8c24-bae9-cc1c",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "17d6-31c5-78ab-6692",
-                    "name": "Pistol",
-                    "targetId": "8bf7-8812-923d-29e4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "b61f-9747-8ea4-7d64",
-                    "name": "Plasma",
-                    "targetId": "96fc-ca3e-b5fb-a002",
-                    "type": "rule",
-                    "hidden": false
-                  }
                 ]
               },
               {
@@ -67236,48 +66493,101 @@
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
-                "profiles": [
+                "profiles": [],
+                "selectionEntries": [
                   {
-                    "id": "d013-e6d3-b3a4-3737",
-                    "name": "Needlers",
+                    "name": "Needler",
+                    "id": "b727-336c-c0d6-1f57",
+                    "type": "upgrade",
                     "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
+                    "import": true,
+                    "profiles": [
                       {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "14\""
+                        "id": "6153-c6f8-c8d8-5d24",
+                        "name": "Needler",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "14\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "2+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "0"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Anti-Infantry 2+, Supercombine, Sustained Hits 4"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "ce99-6e8e-d1f5-8297",
+                        "type": "min",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
                       },
                       {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "8"
+                        "id": "43ea-c4b4-78dd-95ff",
+                        "type": "max",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "3638-3120-dd4d-85e3",
+                        "name": "Anti",
+                        "targetId": "4111-82e3-9444-e942",
+                        "type": "rule",
+                        "hidden": false
                       },
                       {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "2+"
+                        "id": "45af-35ca-6c93-d6f5",
+                        "name": "Sustained Hits",
+                        "targetId": "1897-c22c-9597-12b1",
+                        "type": "rule",
+                        "hidden": false
                       },
                       {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "0"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Anti-Infantry 2+, Supercombine, Sustained Hits 4"
+                        "id": "c975-69a8-09a2-8dbd",
+                        "name": "Supercombine",
+                        "targetId": "0b56-995d-14f8-c61c",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   }
@@ -67298,29 +66608,6 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 10
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "1b41-1f90-2ace-5027",
-                    "name": "Anti",
-                    "targetId": "4111-82e3-9444-e942",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "a166-4629-5bc7-4aa9",
-                    "name": "Sustained Hits",
-                    "targetId": "1897-c22c-9597-12b1",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "2258-87c4-4cb4-71e8",
-                    "name": "Supercombine",
-                    "targetId": "0b56-995d-14f8-c61c",
-                    "type": "rule",
-                    "hidden": false
                   }
                 ]
               }
@@ -71284,48 +70571,101 @@
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
-                "profiles": [
+                "profiles": [],
+                "selectionEntries": [
                   {
-                    "id": "d240-a519-c8e9-481d",
-                    "name": "Plasma Rifles",
+                    "name": "Plasma Rifle",
+                    "id": "7c1f-385b-28c8-cc35",
+                    "type": "upgrade",
                     "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
+                    "import": true,
+                    "profiles": [
                       {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "15\""
+                        "id": "bb7e-5c84-6889-5233",
+                        "name": "Plasma Rifle",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "15\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Assault, Pistol, Plasma (AP1)"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "a942-8a75-6683-b170",
+                        "type": "min",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
                       },
                       {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "6"
+                        "id": "25bf-fffb-4916-4512",
+                        "type": "max",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "e191-2d9f-0f15-65f0",
+                        "name": "Assault",
+                        "targetId": "fc8a-8c24-bae9-cc1c",
+                        "type": "rule",
+                        "hidden": false
                       },
                       {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "3+"
+                        "id": "11ee-8308-3dcd-18ce",
+                        "name": "Pistol",
+                        "targetId": "8bf7-8812-923d-29e4",
+                        "type": "rule",
+                        "hidden": false
                       },
                       {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Assault, Pistol, Plasma (AP1)"
+                        "id": "06d8-d725-f4d2-4212",
+                        "name": "Plasma",
+                        "targetId": "96fc-ca3e-b5fb-a002",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   }
@@ -71339,29 +70679,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "1903-581c-064b-eb54",
-                    "name": "Assault",
-                    "targetId": "fc8a-8c24-bae9-cc1c",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "1b51-44a7-71db-7abe",
-                    "name": "Pistol",
-                    "targetId": "8bf7-8812-923d-29e4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "504c-b60a-85cd-e569",
-                    "name": "Plasma",
-                    "targetId": "96fc-ca3e-b5fb-a002",
-                    "type": "rule",
-                    "hidden": false
                   }
                 ]
               }
@@ -74915,57 +74232,13 @@
             "selectionEntries": [
               {
                 "name": "Rifleman",
-                "id": "2cbd-cde5-cadc-2736",
+                "id": "8f57-2f5b-dc9f-85b9",
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
                 "profiles": [
                   {
-                    "id": "3f7b-89c4-0080-2d6d",
-                    "name": "Plasma Rifles",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "15\""
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Assault, Pistol, Plasma (AP1)"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "32c5-51be-eda3-e264",
+                    "id": "e000-4124-67f0-e181",
                     "name": "T'vaoan Plasma Sabres",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -75009,9 +74282,107 @@
                     ]
                   }
                 ],
+                "selectionEntries": [
+                  {
+                    "name": "Plasma Rifle",
+                    "id": "0b5b-2c82-f985-b707",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "6e1c-9f00-43fe-1442",
+                        "name": "Plasma Rifle",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "15\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Assault, Pistol, Plasma (AP1)"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "4c7b-1f2f-f1cb-894c",
+                        "type": "min",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "1b01-a45d-7634-ebed",
+                        "type": "max",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "6409-6c9a-ca5f-18e4",
+                        "name": "Assault",
+                        "targetId": "fc8a-8c24-bae9-cc1c",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "4424-fe7e-b77d-c8b0",
+                        "name": "Pistol",
+                        "targetId": "8bf7-8812-923d-29e4",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "0ff6-a7c4-df60-7524",
+                        "name": "Plasma",
+                        "targetId": "96fc-ca3e-b5fb-a002",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
                 "constraints": [
                   {
-                    "id": "766f-fa75-2991-aba9",
+                    "id": "09b9-234a-6d4c-448d",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -75022,28 +74393,14 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "493d-2ca7-5c8b-5e5d",
-                    "name": "Assault",
-                    "targetId": "fc8a-8c24-bae9-cc1c",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "fe4c-3e43-3f13-15b5",
+                    "id": "c86c-caa6-57dd-ba21",
                     "name": "Twin-linked",
                     "targetId": "cf93-ad4d-2f08-a79d",
                     "type": "rule",
                     "hidden": false
                   },
                   {
-                    "id": "2172-78be-24df-7958",
-                    "name": "Pistol",
-                    "targetId": "8bf7-8812-923d-29e4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "bdfa-bfa5-7db7-a662",
+                    "id": "2107-9d26-170f-17ea",
                     "name": "Plasma",
                     "targetId": "96fc-ca3e-b5fb-a002",
                     "type": "rule",
@@ -75860,57 +75217,13 @@
               },
               {
                 "name": "Heavy Gunner (Heavy Plasma)",
-                "id": "3888-ef30-1a5c-67d0",
+                "id": "7bad-049a-30ad-ddbc",
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
                 "profiles": [
                   {
-                    "id": "8aa7-70db-0ab5-fbf5",
-                    "name": "Plasma Rifles",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "15\""
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Assault, Pistol, Plasma (AP1)"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "38fc-5a2f-dc88-91ae",
+                    "id": "c871-a177-ac40-8d14",
                     "name": "Heavy Plasma Melee Weapon",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -75954,9 +75267,107 @@
                     ]
                   }
                 ],
+                "selectionEntries": [
+                  {
+                    "name": "Plasma Rifle",
+                    "id": "4976-cc36-10f6-a26d",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "0f3d-6165-0273-6eb0",
+                        "name": "Plasma Rifle",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "15\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Assault, Pistol, Plasma (AP1)"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "1744-53d7-389e-771e",
+                        "type": "min",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "9206-d096-45cc-7e47",
+                        "type": "max",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "8eb5-8cf5-3a97-ca0c",
+                        "name": "Assault",
+                        "targetId": "fc8a-8c24-bae9-cc1c",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "77f3-ab69-1845-652e",
+                        "name": "Pistol",
+                        "targetId": "8bf7-8812-923d-29e4",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "5573-8a5b-a9bd-a64c",
+                        "name": "Plasma",
+                        "targetId": "96fc-ca3e-b5fb-a002",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
                 "constraints": [
                   {
-                    "id": "98eb-111d-2d10-4791",
+                    "id": "f2db-8ceb-75bf-fa15",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -75967,28 +75378,14 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "be3d-e2c9-fabe-170a",
-                    "name": "Assault",
-                    "targetId": "fc8a-8c24-bae9-cc1c",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "7e2b-4829-7317-492b",
+                    "id": "70b2-6712-04fd-8967",
                     "name": "Cleave",
                     "targetId": "bf16-5d16-4725-f912",
                     "type": "rule",
                     "hidden": false
                   },
                   {
-                    "id": "80f6-9f21-8321-a75e",
-                    "name": "Pistol",
-                    "targetId": "8bf7-8812-923d-29e4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "dbaf-cb9e-99d1-ac6b",
+                    "id": "a885-c3cf-9347-cd07",
                     "name": "Plasma",
                     "targetId": "96fc-ca3e-b5fb-a002",
                     "type": "rule",
@@ -75998,57 +75395,13 @@
               },
               {
                 "name": "Heavy Gunner (Brute Heavy)",
-                "id": "8525-f4c8-948c-87e7",
+                "id": "c732-25ff-3cec-f241",
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
                 "profiles": [
                   {
-                    "id": "a436-9d89-12fe-612e",
-                    "name": "Plasma Rifles",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "15\""
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Assault, Pistol, Plasma (AP1)"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "6495-5907-7fb7-ee26",
+                    "id": "d86a-9dc0-a635-4532",
                     "name": "Brute Heavy Melee Weapon",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -76092,9 +75445,107 @@
                     ]
                   }
                 ],
+                "selectionEntries": [
+                  {
+                    "name": "Plasma Rifle",
+                    "id": "6574-7144-37cc-edf6",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "a307-009b-6af1-b807",
+                        "name": "Plasma Rifle",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "15\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Assault, Pistol, Plasma (AP1)"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "db0c-b36a-f08c-d95d",
+                        "type": "min",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "f89d-bb7a-29a6-43f2",
+                        "type": "max",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "a205-7595-0c39-8f1d",
+                        "name": "Assault",
+                        "targetId": "fc8a-8c24-bae9-cc1c",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "a5df-eeac-f7d6-5615",
+                        "name": "Pistol",
+                        "targetId": "8bf7-8812-923d-29e4",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "74e4-5210-71b9-f7b7",
+                        "name": "Plasma",
+                        "targetId": "96fc-ca3e-b5fb-a002",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
                 "constraints": [
                   {
-                    "id": "69f4-d18d-7460-be5a",
+                    "id": "cc98-93b1-62b8-240f",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -76105,37 +75556,16 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "3849-9449-cac0-7dcc",
-                    "name": "Assault",
-                    "targetId": "fc8a-8c24-bae9-cc1c",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "4354-d1e9-4eb9-0fe1",
+                    "id": "86f1-a3d4-18ec-5acb",
                     "name": "Lethal Hits",
                     "targetId": "d1d1-611e-5191-1095",
                     "type": "rule",
                     "hidden": false
                   },
                   {
-                    "id": "de9d-0e0d-2a0a-bde7",
+                    "id": "98a6-fb50-e949-ca17",
                     "name": "Cleave",
                     "targetId": "bf16-5d16-4725-f912",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "61dd-79b7-4cb2-ed7a",
-                    "name": "Pistol",
-                    "targetId": "8bf7-8812-923d-29e4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "4f57-acb0-e8d1-ea42",
-                    "name": "Plasma",
-                    "targetId": "96fc-ca3e-b5fb-a002",
                     "type": "rule",
                     "hidden": false
                   }
@@ -76143,57 +75573,13 @@
               },
               {
                 "name": "Melee Specialist",
-                "id": "4fbf-8833-6e7f-087c",
+                "id": "35db-dd4f-c74f-717b",
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
                 "profiles": [
                   {
-                    "id": "73b8-7582-7507-a525",
-                    "name": "Plasma Rifles",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "15\""
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Assault, Pistol, Plasma (AP1)"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "07b0-dfe5-93e2-f3fc",
+                    "id": "03ac-c45c-4b8d-72aa",
                     "name": "Energy Sword",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -76237,38 +75623,113 @@
                     ]
                   }
                 ],
+                "selectionEntries": [
+                  {
+                    "name": "Plasma Rifle",
+                    "id": "58d5-9067-261d-8ff2",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "1df7-8443-87ca-16f3",
+                        "name": "Plasma Rifle",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "15\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Assault, Pistol, Plasma (AP1)"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "1e84-a65c-3459-7c74",
+                        "type": "min",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "8864-92f3-7714-d9f0",
+                        "type": "max",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "c684-d478-543a-ecc1",
+                        "name": "Assault",
+                        "targetId": "fc8a-8c24-bae9-cc1c",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "f28f-5b16-9c6a-54e3",
+                        "name": "Pistol",
+                        "targetId": "8bf7-8812-923d-29e4",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "e2b1-4359-feda-428c",
+                        "name": "Plasma",
+                        "targetId": "96fc-ca3e-b5fb-a002",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
                 "constraints": [
                   {
-                    "id": "057e-b875-96d6-e8c8",
+                    "id": "e3bb-74b9-014b-add5",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "8392-7039-32c9-90bb",
-                    "name": "Assault",
-                    "targetId": "fc8a-8c24-bae9-cc1c",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "c5ed-1ef2-1c45-1248",
-                    "name": "Pistol",
-                    "targetId": "8bf7-8812-923d-29e4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "014a-a16a-ba0c-e921",
-                    "name": "Plasma",
-                    "targetId": "96fc-ca3e-b5fb-a002",
-                    "type": "rule",
-                    "hidden": false
                   }
                 ]
               },
@@ -76622,57 +76083,13 @@
               },
               {
                 "name": "Needler",
-                "id": "1be6-3985-21fd-53fe",
+                "id": "20f9-1a5a-98bd-8241",
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
                 "profiles": [
                   {
-                    "id": "1eb7-3edc-f2a7-c9f9",
-                    "name": "Needlers",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "14\""
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "8"
-                      },
-                      {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "0"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Anti-Infantry 2+, Supercombine, Sustained Hits 4"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "4661-e0ec-c567-3b86",
+                    "id": "99d7-32e4-c67a-97dd",
                     "name": "T'vaoan Plasma Sabres",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -76716,9 +76133,107 @@
                     ]
                   }
                 ],
+                "selectionEntries": [
+                  {
+                    "name": "Needler",
+                    "id": "2344-98d8-f641-aa81",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "d4db-b458-9126-0dfb",
+                        "name": "Needler",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "14\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "0"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Anti-Infantry 2+, Supercombine, Sustained Hits 4"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "b80b-ffff-39df-6a1b",
+                        "type": "min",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "e9b6-e629-3d48-274b",
+                        "type": "max",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "b5ad-a966-6e0e-1ca7",
+                        "name": "Anti",
+                        "targetId": "4111-82e3-9444-e942",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "4b7e-8b23-a71e-866c",
+                        "name": "Sustained Hits",
+                        "targetId": "1897-c22c-9597-12b1",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "f156-7d68-82af-fc74",
+                        "name": "Supercombine",
+                        "targetId": "0b56-995d-14f8-c61c",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
                 "constraints": [
                   {
-                    "id": "d561-588b-a858-ca57",
+                    "id": "f340-753f-5d15-f85c",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -76736,35 +76251,14 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "4bc1-29dc-d38c-d1b1",
+                    "id": "d565-2240-cae3-8de2",
                     "name": "Twin-linked",
                     "targetId": "cf93-ad4d-2f08-a79d",
                     "type": "rule",
                     "hidden": false
                   },
                   {
-                    "id": "701d-87a6-2b93-689d",
-                    "name": "Anti",
-                    "targetId": "4111-82e3-9444-e942",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "d777-696d-949b-3fe5",
-                    "name": "Sustained Hits",
-                    "targetId": "1897-c22c-9597-12b1",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "4818-6a33-d161-7077",
-                    "name": "Supercombine",
-                    "targetId": "0b56-995d-14f8-c61c",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "4a72-b844-e62a-b32b",
+                    "id": "bb79-a0c3-46c0-9d7b",
                     "name": "Plasma",
                     "targetId": "96fc-ca3e-b5fb-a002",
                     "type": "rule",
@@ -77152,57 +76646,13 @@
               },
               {
                 "name": "Twin-Blade",
-                "id": "e893-2d18-ce33-9068",
+                "id": "922f-33bf-ccd9-fb0a",
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
                 "profiles": [
                   {
-                    "id": "1fd9-c16a-6cb0-8171",
-                    "name": "Plasma Rifles",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "15\""
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "3+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Assault, Pistol, Plasma (AP1)"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "b1e6-ea90-9599-6058",
+                    "id": "7fcd-e978-2437-1d10",
                     "name": "Twin-linked Energy Swords",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -77246,9 +76696,107 @@
                     ]
                   }
                 ],
+                "selectionEntries": [
+                  {
+                    "name": "Plasma Rifle",
+                    "id": "b494-047d-4883-5123",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "e221-904d-4219-e9b4",
+                        "name": "Plasma Rifle",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "15\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Assault, Pistol, Plasma (AP1)"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "8035-4def-b35f-623d",
+                        "type": "min",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "817e-bbea-dbb9-ff44",
+                        "type": "max",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "ccd9-3363-1b50-6690",
+                        "name": "Assault",
+                        "targetId": "fc8a-8c24-bae9-cc1c",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "84cb-e0cb-e662-db63",
+                        "name": "Pistol",
+                        "targetId": "8bf7-8812-923d-29e4",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "e86a-6c08-faab-0dd4",
+                        "name": "Plasma",
+                        "targetId": "96fc-ca3e-b5fb-a002",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  }
+                ],
                 "constraints": [
                   {
-                    "id": "fbab-1b25-2ca5-1bf2",
+                    "id": "df92-87ed-bc0f-3cc6",
                     "type": "max",
                     "value": 1,
                     "scope": "parent",
@@ -77266,30 +76814,9 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "0904-63be-4093-41a2",
-                    "name": "Assault",
-                    "targetId": "fc8a-8c24-bae9-cc1c",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "1d55-f1b3-c747-6687",
+                    "id": "bb05-e996-8253-31bb",
                     "name": "Twin-linked",
                     "targetId": "cf93-ad4d-2f08-a79d",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "6f0f-7b4a-1351-7e29",
-                    "name": "Pistol",
-                    "targetId": "8bf7-8812-923d-29e4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "5df1-08b5-8157-7448",
-                    "name": "Plasma",
-                    "targetId": "96fc-ca3e-b5fb-a002",
                     "type": "rule",
                     "hidden": false
                   }
@@ -77316,7 +76843,7 @@
                 "includeChildSelections": false
               }
             ],
-            "defaultSelectionEntryId": "2cbd-cde5-cadc-2736"
+            "defaultSelectionEntryId": "8f57-2f5b-dc9f-85b9"
           },
           {
             "name": "Specialist ability",
@@ -78067,48 +77594,101 @@
                 "type": "upgrade",
                 "hidden": false,
                 "import": true,
-                "profiles": [
+                "profiles": [],
+                "selectionEntries": [
                   {
-                    "id": "c4a1-2d12-7c28-0af2",
-                    "name": "Plasma Rifles",
+                    "name": "Plasma Rifle",
+                    "id": "eb52-3c75-8d9b-deac",
+                    "type": "upgrade",
                     "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
+                    "import": true,
+                    "profiles": [
                       {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "15\""
+                        "id": "abbd-d279-3e20-f1d7",
+                        "name": "Plasma Rifle",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "15\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Assault, Pistol, Plasma (AP1)"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "602a-d7c2-0d04-517c",
+                        "type": "min",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
                       },
                       {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "6"
+                        "id": "2b90-8d3e-583e-c0c7",
+                        "type": "max",
+                        "value": 2,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "6829-317b-6632-de9d",
+                        "name": "Assault",
+                        "targetId": "fc8a-8c24-bae9-cc1c",
+                        "type": "rule",
+                        "hidden": false
                       },
                       {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "3+"
+                        "id": "3436-b4f4-3cfd-9f9e",
+                        "name": "Pistol",
+                        "targetId": "8bf7-8812-923d-29e4",
+                        "type": "rule",
+                        "hidden": false
                       },
                       {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "6"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Assault, Pistol, Plasma (AP1)"
+                        "id": "261c-c3a2-7fc3-703c",
+                        "name": "Plasma",
+                        "targetId": "96fc-ca3e-b5fb-a002",
+                        "type": "rule",
+                        "hidden": false
                       }
                     ]
                   }
@@ -78122,29 +77702,6 @@
                     "field": "selections",
                     "shared": true,
                     "includeChildSelections": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "id": "5878-075b-62b7-3eda",
-                    "name": "Assault",
-                    "targetId": "fc8a-8c24-bae9-cc1c",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "ed1e-42f7-55b4-4ec3",
-                    "name": "Pistol",
-                    "targetId": "8bf7-8812-923d-29e4",
-                    "type": "rule",
-                    "hidden": false
-                  },
-                  {
-                    "id": "3cd5-da4c-5e3b-a2b5",
-                    "name": "Plasma",
-                    "targetId": "96fc-ca3e-b5fb-a002",
-                    "type": "rule",
-                    "hidden": false
                   }
                 ]
               }

@@ -6222,10 +6222,7 @@
   ],
   "equipped": [
    "Emim-pattern Focus Beam",
-   "Starboard Plasma Turret I",
-   "Port Plasma Turret I",
-   "Starboard Plasma Turret II",
-   "Port Plasma Turret II",
+   "4 Plasma Turrets",
    "Lich Shield",
    "Armoured Hull"
   ],
@@ -6253,49 +6250,7 @@
     ]
    },
    {
-    "name": "Port Plasma Turret I",
-    "range": "36\"",
-    "A": "4",
-    "BS_WS": "3+",
-    "S": "8",
-    "AP": "-2",
-    "D": "2",
-    "keywords": [
-     "Sustained Hits 1",
-     "Twin-linked",
-     "Plasma (AP1)"
-    ]
-   },
-   {
-    "name": "Port Plasma Turret II",
-    "range": "36\"",
-    "A": "4",
-    "BS_WS": "3+",
-    "S": "8",
-    "AP": "-2",
-    "D": "2",
-    "keywords": [
-     "Sustained Hits 1",
-     "Twin-linked",
-     "Plasma (AP1)"
-    ]
-   },
-   {
-    "name": "Starboard Plasma Turret I",
-    "range": "36\"",
-    "A": "4",
-    "BS_WS": "3+",
-    "S": "8",
-    "AP": "-2",
-    "D": "2",
-    "keywords": [
-     "Sustained Hits 1",
-     "Twin-linked",
-     "Plasma (AP1)"
-    ]
-   },
-   {
-    "name": "Starboard Plasma Turret II",
+    "name": "Plasma Turret",
     "range": "36\"",
     "A": "4",
     "BS_WS": "3+",
@@ -6372,12 +6327,7 @@
    "1 Kraken"
   ],
   "equipped": [
-   "Port Shade Turret I",
-   "Starboard Shade Turret I",
-   "Port Shade Turret II",
-   "Starboard Shade Turret II",
-   "Port Shade Turret III",
-   "Starboard Shade Turret III",
+   "6 Shade Turrets",
    "Grappler Arms",
    "Titanic Stomp"
   ],
@@ -6392,82 +6342,7 @@
   "wargear": [],
   "ranged_weapons": [
    {
-    "name": "Port Shade Turret I",
-    "range": "36\"",
-    "A": "6",
-    "BS_WS": "3+",
-    "S": "8",
-    "AP": "-2",
-    "D": "2",
-    "keywords": [
-     "Anti-Fly 3+",
-     "Sustained Hits 1",
-     "Twin-linked",
-     "Plasma (AP1)"
-    ]
-   },
-   {
-    "name": "Port Shade Turret II",
-    "range": "36\"",
-    "A": "6",
-    "BS_WS": "3+",
-    "S": "8",
-    "AP": "-2",
-    "D": "2",
-    "keywords": [
-     "Anti-Fly 3+",
-     "Sustained Hits 1",
-     "Twin-linked",
-     "Plasma (AP1)"
-    ]
-   },
-   {
-    "name": "Port Shade Turret III",
-    "range": "36\"",
-    "A": "6",
-    "BS_WS": "3+",
-    "S": "8",
-    "AP": "-2",
-    "D": "2",
-    "keywords": [
-     "Anti-Fly 3+",
-     "Sustained Hits 1",
-     "Twin-linked",
-     "Plasma (AP1)"
-    ]
-   },
-   {
-    "name": "Starboard Shade Turret I",
-    "range": "36\"",
-    "A": "6",
-    "BS_WS": "3+",
-    "S": "8",
-    "AP": "-2",
-    "D": "2",
-    "keywords": [
-     "Anti-Fly 3+",
-     "Sustained Hits 1",
-     "Twin-linked",
-     "Plasma (AP1)"
-    ]
-   },
-   {
-    "name": "Starboard Shade Turret II",
-    "range": "36\"",
-    "A": "6",
-    "BS_WS": "3+",
-    "S": "8",
-    "AP": "-2",
-    "D": "2",
-    "keywords": [
-     "Anti-Fly 3+",
-     "Sustained Hits 1",
-     "Twin-linked",
-     "Plasma (AP1)"
-    ]
-   },
-   {
-    "name": "Starboard Shade Turret III",
+    "name": "Shade Turret",
     "range": "36\"",
     "A": "6",
     "BS_WS": "3+",

@@ -65,7 +65,8 @@ def main():
         names = {p["name"] for p in profiles}
         spec = (MODELS if reference else UNITS)[name]
         for w in ds["ranged_weapons"] + ds["melee_weapons"]:
-            check(w["name"] in names, f"{name}: weapon {w['name']} not offered")
+            check(w["name"] in names or (w["name"].endswith("s") and w["name"][:-1] in names),
+                  f"{name}: weapon {w['name']} not offered")  # "Plasma Rifles" is offered as 2x Plasma Rifle
         for a in ds["abilities"]:
             if a["name"] in ("Core", ""):
                 continue
