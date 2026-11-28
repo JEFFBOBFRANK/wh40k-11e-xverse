@@ -47,9 +47,9 @@ At the start of each battle round, you can burn one Active Edict. Its Burning ef
 battle round, and that Edict becomes Suspended.
 
 **Edict of Resurrection**
-- *Passive — The Dead Shall Rise:* Each time an enemy model is destroyed within your Dominion, select one friendly unit
-  within your Dominion that is within 12" of that model. That unit heals a number of wounds equal to that enemy
-  model's W characteristic.
+- *Passive — The Dead Shall Rise:* Once per phase, when an enemy model is destroyed within your Dominion, select one
+  friendly unit within your Dominion that is within 12" of that model. That unit heals a number of wounds equal to
+  that enemy model's W characteristic (maximum 3).
 - *Burning — Legion Reborn:* Select up to three friendly units that were destroyed within your Dominion, excluding
   CHARACTER, MONSTER and VEHICLE units. For each of those units, add a new unit to your army that is identical to it,
   at its starting strength and with the same wargear, excluding any attached CHARACTER models. Place those new units
@@ -67,8 +67,9 @@ battle round, and that Edict becomes Suspended.
 
 ### III. A State of Undeath
 
-If your Army Faction is LEGIONS OF THE DEAD, each time a unit from your army fails a battle-shock roll, it does not
-become battle-shocked. Instead, make one hazard roll for each model in that unit. These are Unbinding Hazard rolls.
+If your Army Faction is LEGIONS OF THE DEAD, each time a unit from your army fails a battle-shock roll, or would become
+battle-shocked for any other reason, it does not become battle-shocked. Instead, make one hazard roll for each model in
+that unit. These are Unbinding Hazard rolls.
 
 (11e hazard roll: on a 1–2 it fails and the unit suffers 1 mortal wound, or 3 if every model in it is a
 MONSTER/VEHICLE.)
@@ -86,6 +87,8 @@ MONSTER/VEHICLE.)
 | Swarming Souls | Melee | 6 | 2+ | 6 | -2 | 1 | [EXTRA ATTACKS], [PSYCHIC] |
 
 Faction: Dominion of Death, The Edicts of Nagash, A State of Undeath. Psychic Level 8 (see open points).
+
+Nagash has no Damaged X ability (decided: kept off).
 
 - **Indomitable (2):** Each time this unit suffers mortal wounds from failed Unbinding Hazard rolls, reduce the number
   of mortal wounds it suffers by 2 (to a minimum of 0). If two or more models in a unit have this ability, use the
@@ -181,14 +184,17 @@ Keywords: INFANTRY, BATTLELINE, OSSIARCH, MORTEK SENTINELS. Faction: LEGIONS OF 
 ## Open points
 
 - Psychic Level 8 (Nagash): the 11e core only says a psychic ability with a psychic level cannot be used twice in a
-  phase; the army needs its own rule for what Psychic Levels do (as the Skaven Psyker Level), or Nagash drops it.
-- Edict of Resurrection (Passive): healing equal to the enemy model's W characteristic also revives destroyed models
-  (11e healing), and triggers once per enemy model destroyed.
-- Burning an Edict suspends it for the rest of the battle (its Passive is gone and it cannot be burned again).
-- A State of Undeath replaces failed battle-shock rolls only; rules that make a unit battle-shocked without a roll
-  (combat or emergency disembark) still apply.
-- Nagash has no Damaged X ability.
-
-- Points and unit sizes (5 Wardens and 3 Sentinels only so far).
+  phase. It does nothing yet; when the army's spells arrive it gets a rule (as the Skaven Psyker Level), otherwise
+  it is dropped.
+- Points and unit sizes for the Mortek Wardens and Sentinels (5 and 3 models so far).
 - Sentinels can field two Nadirite Annihilators (one Sentinel and the Hekatos); the Hekatos' Annihilator is BS 3+ as
   printed, not 2+ like his other weapons. Kept as written.
+
+## Decisions
+
+- The Dead Shall Rise: once per phase, heal at most 3 (11e healing also revives destroyed models, so uncapped it
+  brought back several models per kill).
+- A State of Undeath also covers rules that battle-shock a unit without a roll (combat or emergency disembark):
+  those units make Unbinding Hazard rolls instead.
+- Burning an Edict suspends it for the rest of the battle (at most three burns): kept.
+- Nagash has no Damaged X.
