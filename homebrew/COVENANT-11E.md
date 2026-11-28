@@ -225,6 +225,18 @@ Every unit, the Jiralhanae Assault Pack included (revision 35), uses this layout
 layout (Auxiliaries as counters, one per loadout) on every unit, then a size tick and weapon swaps; all of it is
 undone.
 
+## Phantom and Spirit (revision 45)
+
+The two dropships' stat lines were the wrong way round for their models: the Phantom is now the big one.
+
+| | M | T | Sv | W | Ld | OC | SP (regen) | Transport Space | Pts |
+|---|---|---|---|---|---|---|---|---|---|
+| Phantom (Dedicated Transport) | 14" | 11 | 3+ | 16 | 7+ | 5 | 6 (D3+2, Phantom Shield) | 30, at most 2 VEHICLE | 160 |
+| Spirit | 16" | 9 | 3+ | 10 | 7+ | 4 | 4 (D3+1) | 24, at most 1 VEHICLE and 2 MOUNTED | 120 |
+
+Each keeps its own weapons and abilities (Phantom: 3x Medium Plasma Cannon, Suppressive Barrage; Spirit: Heavy Plasma
+Cannon, Gravity-Lift Screen), and the Phantom stays the Dedicated Transport.
+
 ## Counted weapons (revision 41)
 
 A model with several identical weapons now has that many of one weapon, as on the official Land Raider ("2x
@@ -275,7 +287,7 @@ paid, but cheap.
 | Other infantry | Drone Swarm 40/80, Marauders 55, Shock Pack 90/180, Entourage 80, Butchers 65/120, Skirmishers 150, Corsairs 65/130, Marksmen 90/170, Unggoy Heavy Weapons Team 75/150; Grunt Cadre, Assault Pack, Heavy Weapons Pack, Linebreakers, Unggoy Zealots, Suicide Grunts unchanged |
 | Mgalekgolo | Bond-Brother Pair 200, Assault Pair 180, Artillery Pair 190, Goliath 300 |
 | Characters | Chieftain 100, Blademaster 80, Headtaker 60; Prophets of Truth 130, Regret 110, Mercy 95; Thel 'Vadam 150, Tartarus 150, Champions of the Arbiter 160 |
-| Vehicles | Wraith 170, Spirit 160, Shadow 85, Banshee 100, Seraph 220, Vampire 150, Blisterback 200, Goblin 160, Locust 140, Marauder 130, Prowler 150, Raider-Skiff 80, Ghost 40, Revenant 75, Spectre 70, Brute Chopper 70 each, Scarab 700, Lich 700; Phantom 120 and Kraken 2000 unchanged |
+| Vehicles | Wraith 170, Spirit 120 (revision 45), Shadow 85, Banshee 100, Seraph 220, Vampire 150, Blisterback 200, Goblin 160, Locust 140, Marauder 130, Prowler 150, Raider-Skiff 80, Ghost 40, Revenant 75, Spectre 70, Brute Chopper 70 each, Scarab 700, Lich 700; Phantom 160 (revision 45), Kraken 2000 unchanged |
 
 The points steps (revision 23) apply on top of these prices.
 
@@ -289,8 +301,8 @@ The points steps (revision 23) apply on top of these prices.
 
 | Transport | Transport Space | Limits |
 |---|---|---|
-| Spirit | 30 | at most 2 VEHICLE |
-| Phantom | 24 | at most 1 VEHICLE and 2 MOUNTED |
+| Phantom | 30 | at most 2 VEHICLE |
+| Spirit | 24 | at most 1 VEHICLE and 2 MOUNTED |
 | Shadow | 8 | INFANTRY (no HUNTER) and 1 MOUNTED; no VEHICLE |
 | Scarab | 20 | INFANTRY only |
 | Lich | 48 | at most 4 VEHICLE; can carry 1 Phantom with its embarked units |

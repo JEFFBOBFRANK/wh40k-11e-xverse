@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 44,
+    "revision": 45,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -57801,12 +57801,12 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "14\""
+                "$text": "16\""
               },
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "9"
               },
               {
                 "name": "Sv",
@@ -57816,7 +57816,7 @@
               {
                 "name": "W",
                 "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "16"
+                "$text": "10"
               },
               {
                 "name": "LD",
@@ -57826,7 +57826,7 @@
               {
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8",
-                "$text": "5"
+                "$text": "4"
               },
               {
                 "name": "InSv",
@@ -57845,7 +57845,7 @@
               {
                 "name": "SP",
                 "typeId": "de31-d72e-cbc6-9c6e",
-                "$text": "6"
+                "$text": "4"
               }
             ]
           },
@@ -57878,20 +57878,6 @@
             ]
           },
           {
-            "id": "a226-4832-06d0-ef57",
-            "name": "Spirit Shield",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "characteristics": [
-              {
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Regenerating Shields gives this unit D3+2 lost SP instead of D3+1."
-              }
-            ]
-          },
-          {
             "id": "c186-8dee-ce94-698a",
             "name": "Spirit",
             "hidden": false,
@@ -57901,7 +57887,7 @@
               {
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84",
-                "$text": "30 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 2 VEHICLE models."
+                "$text": "24 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 1 VEHICLE model and 2 MOUNTED models."
               }
             ]
           },
@@ -58132,7 +58118,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 160
+            "value": 120
           }
         ],
         "constraints": [
@@ -61548,12 +61534,12 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "16\""
+                "$text": "14\""
               },
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "9"
+                "$text": "11"
               },
               {
                 "name": "Sv",
@@ -61563,7 +61549,7 @@
               {
                 "name": "W",
                 "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "10"
+                "$text": "16"
               },
               {
                 "name": "LD",
@@ -61573,7 +61559,7 @@
               {
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8",
-                "$text": "4"
+                "$text": "5"
               },
               {
                 "name": "InSv",
@@ -61592,7 +61578,7 @@
               {
                 "name": "SP",
                 "typeId": "de31-d72e-cbc6-9c6e",
-                "$text": "4"
+                "$text": "6"
               }
             ]
           },
@@ -61625,6 +61611,20 @@
             ]
           },
           {
+            "id": "39c5-9186-2528-75b3",
+            "name": "Phantom Shield",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Regenerating Shields gives this unit D3+2 lost SP instead of D3+1."
+              }
+            ]
+          },
+          {
             "id": "5665-3657-fc1f-d495",
             "name": "Phantom",
             "hidden": false,
@@ -61634,7 +61634,7 @@
               {
                 "name": "Capacity",
                 "typeId": "30f2-be70-861d-1b84",
-                "$text": "24 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 1 VEHICLE model and 2 MOUNTED models."
+                "$text": "30 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 2 VEHICLE models."
               }
             ]
           },
@@ -61872,7 +61872,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 160
           }
         ],
         "constraints": [

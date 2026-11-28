@@ -5483,15 +5483,15 @@
   "name": "Spirit",
   "category": "VEHICLE",
   "subtitle": "Covenant Heavy Dropship",
-  "points": 160,
+  "points": 120,
   "profile": {
-   "M": "14\"",
-   "T": "11",
+   "M": "16\"",
+   "T": "9",
    "SV": "3+",
-   "W": "16",
+   "W": "10",
    "LD": "7+",
-   "OC": "5",
-   "SP": "6"
+   "OC": "4",
+   "SP": "4"
   },
   "page": 96,
   "unit_composition": [
@@ -5506,7 +5506,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 30 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 2 VEHICLE models."
+   "Transport capacity: 24 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 1 VEHICLE model and 2 MOUNTED models."
   ],
   "rules_notes": [],
   "wargear": [],
@@ -5549,10 +5549,6 @@
    {
     "name": "Gravity-Lift Screen",
     "text": "At the end of your Movement phase, select one COVENANT INFANTRY unit that disembarked from this model during that phase. Until the start of your next Command phase, that unit has Stealth and the benefit of cover."
-   },
-   {
-    "name": "Spirit Shield",
-    "text": "Regenerating Shields gives this unit D3+2 lost SP instead of D3+1."
    }
   ],
   "keywords": [
@@ -5997,15 +5993,15 @@
   "name": "Phantom",
   "category": "VEHICLE",
   "subtitle": "Covenant Dedicated Dropship",
-  "points": 120,
+  "points": 160,
   "profile": {
-   "M": "16\"",
-   "T": "9",
+   "M": "14\"",
+   "T": "11",
    "SV": "3+",
-   "W": "10",
+   "W": "16",
    "LD": "7+",
-   "OC": "4",
-   "SP": "4"
+   "OC": "5",
+   "SP": "6"
   },
   "page": 101,
   "unit_composition": [
@@ -6020,7 +6016,7 @@
   "wargear_options": [],
   "leader": [],
   "transport": [
-   "Transport capacity: 24 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 1 VEHICLE model and 2 MOUNTED models."
+   "Transport capacity: 30 Transport Space. This model can carry COVENANT INFANTRY, MOUNTED and VEHICLE models, but no more than 2 VEHICLE models."
   ],
   "rules_notes": [],
   "wargear": [],
@@ -6063,6 +6059,10 @@
    {
     "name": "Suppressive Barrage",
     "text": "After this model has shot, select one enemy INFANTRY unit hit by its Medium Plasma Cannons. That unit must make a battle-shock roll."
+   },
+   {
+    "name": "Phantom Shield",
+    "text": "Regenerating Shields gives this unit D3+2 lost SP instead of D3+1."
    }
   ],
   "keywords": [
