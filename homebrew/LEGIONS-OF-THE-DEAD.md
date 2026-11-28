@@ -217,12 +217,67 @@ Wargear: each model is equipped with a Nadirite Dread Halberd (no Ossiarch Aegis
 
 Keywords: INFANTRY, OSSIARCH, IMMORTIS GUARD. Faction: LEGIONS OF THE DEAD.
 
+## Necropolis Stalkers — points TBD
+
+Unit composition: 1 Necropolis Hekatos and 3 Necropolis Stalkers.
+
+| M | T | Sv | W | Ld | OC | InSv |
+|---|---|---|---|---|---|---|
+| 8" | 6 | 2+ | 2 | 6+ | 2 | 4+ |
+
+- **Indomitable** (Ossiarch universal ability).
+- **Quadrarch Aspects:** At the start of the Fight phase, select one aspect; this unit has it until the end of the phase.
+  - *Domination:* Subtract 1 from the OC characteristic of models in enemy units engaged with this unit (to a minimum
+    of 1).
+  - *Blade-Parry:* Each time an enemy model makes a melee attack that targets this unit, subtract 1 from the hit roll.
+  - *Destroyer:* Melee weapons equipped by models in this unit have [DEVASTATING WOUNDS].
+  - *Precision:* Each time a model in this unit makes a melee attack that targets a CHARACTER unit, that attack has
+    [PRECISION].
+
+| Melee weapon | Range | A | WS | S | AP | D | Abilities |
+|---|---|---|---|---|---|---|---|
+| Nadirite Stalker Blades | Melee | 6 | 2+ | 6 | -2 | 2 | [SUSTAINED HITS 1] |
+| Nadirite Dread Falchions | Melee | 4 | 2+ | 10 | -3 | 3 | [LETHAL HITS] |
+| Nadirite Daggers | Melee | 8 | 2+ | 5 | -2 | 1 | [TWIN-LINKED] |
+
+Wargear options: each model is equipped with Nadirite Stalker Blades; any model can replace them with Nadirite Dread
+Falchions or Nadirite Daggers. The Necropolis Hekatos uses the same profile and weapons.
+
+Keywords: INFANTRY, OSSIARCH, NECROPOLIS STALKERS. Faction: LEGIONS OF THE DEAD.
+
+## Mortis Reapers — points TBD
+
+Unit composition: 1 Mortis Hekatos and 4 Mortis Reapers.
+
+| M | T | Sv | W | Ld | OC | InSv |
+|---|---|---|---|---|---|---|
+| 8" | 5 | 3+ | 2 | 6+ | 1 | 4+ |
+
+- **Indomitable** (Ossiarch universal ability).
+- **Reapers of the Dominion:** Each time a model is destroyed within your Dominion (Death's Harvest) within 12" of this
+  unit, this unit gains 1 Reaping token. It can hold at most 3 Reaping tokens; any more are lost. At the start of your
+  Shooting phase or of the Fight phase, you can spend any number of this unit's Reaping tokens. For each one, add 1 to
+  the A characteristic of the ranged weapons (Shooting phase) or melee weapons (Fight phase) equipped by models in this
+  unit until the end of the phase.
+
+| Weapon | Range | A | BS/WS | S | AP | D | Abilities |
+|---|---|---|---|---|---|---|---|
+| Reaper Blades | Melee | 4 | 3+ | 5 | -2 | 1 | [PRECISION] |
+| Soulshard Rifles | 24" | 3 | 3+ | 6 | -2 | 2 | [ASSAULT] |
+
+Wargear options: every model in this unit is equipped with Reaper Blades, or every model with Soulshard Rifles. The
+Mortis Hekatos uses the same profile and weapons.
+
+Keywords: INFANTRY, OSSIARCH, MORTIS REAPERS. Faction: LEGIONS OF THE DEAD.
+
 ## Open points
 
 - Psychic Level 8 (Nagash): the 11e core only says a psychic ability with a psychic level cannot be used twice in a
   phase. It does nothing yet; when the army's spells arrive it gets a rule (as the Skaven Psyker Level), otherwise
   it is dropped.
-- Unit sizes are fixed so far (Wardens 5, Sentinels 3, Immortis Guard 3); say if any can be larger.
+- Unit sizes are fixed so far (Wardens 5, Sentinels 3, Immortis Guard 3, Necropolis Stalkers 4, Mortis Reapers 5);
+  say if any can be larger.
+- Points for the Necropolis Stalkers and Mortis Reapers.
 - Which characters can lead the Immortis Guard (and the Mortek units) comes with the characters.
 - Sentinels can field two Nadirite Annihilators (one Sentinel and the Hekatos); the Hekatos' Annihilator is BS 3+ as
   printed, not 2+ like his other weapons. Kept as written.
@@ -239,5 +294,8 @@ Keywords: INFANTRY, OSSIARCH, IMMORTIS GUARD. Faction: LEGIONS OF THE DEAD.
   the updated datasheet text still says the Decapitator replaces it.
 - Nagash's "Indomitable (2)" is now "Undying (2)", so it does not share a name with the Ossiarch Indomitable (two
   different rules cannot share a name in New Recruit).
+- Reaping tokens are capped at 3 per unit: uncapped, a unit near a big kill (or Nagash's 18" Dominion) gained a
+  token per model destroyed, friendly or enemy, and added that many attacks to every model.
+- Necropolis Stalkers start with Nadirite Stalker Blades (the datasheet gave three choices but no default).
 - Edict of the Grave's Passive (re-roll Unbinding Hazard rolls of 1) adds nothing for OSSIARCH units, which re-roll
   them anyway; it matters for the other Legions.
