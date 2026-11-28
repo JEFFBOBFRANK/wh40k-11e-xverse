@@ -212,10 +212,12 @@ are fixed (the Pack Alpha's Mangler, the Unggoy Ultra's Close Combat Weapon).
 Back to the layout before revision 13, with the Sergeant on top of every unit:
 
 1. **Sergeant**: one optional choice; its weapon choices open underneath.
-2. **Models**: the unit's model counter, plus model types with other weapons (up to 1 for every 3 models). A model
-   type can carry a choice (revision 39): the Sangheili Warrior Cadre has "Sangheili Warrior with Plasma Rifles", "with
-   Carbine or Needler" and "with Repeater or Fuel Rod", the last two added with "+" and their weapon picked on the
-   model.
+2. **Models**: the unit's model counter, plus model types with other weapons (up to 1 for every 3 models), each a
+   counter. The Sangheili Warrior Cadre uses the Minor and Major ranks (revision 44): Sangheili Minor (Storm Rifle and
+   Plasma Pistol), Minor with Plasma Rifles, Minor with Covenant Carbine or with Needler (1 per 3 together), Major
+   with Plasma Repeater or with Fuel Rod (+10; 1 per 3 together). They keep the entry IDs of revision 38's "Sangheili
+   Warrior with ..." models, so saved lists keep them. Revision 39 put the weapon choice on the model, which made New
+   Recruit add those models with "+" instead of a counter.
 3. **Auxiliary**: add an Auxiliary model ("+"), then choose its weapons (Ranged weapon, Sidearm, Melee weapon,
    Wargear) and its Specialist ability on that model. The Auxiliary Slots total still applies.
 

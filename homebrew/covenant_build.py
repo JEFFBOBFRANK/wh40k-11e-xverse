@@ -21,7 +21,7 @@ from datasheet_format import add_ability, core_rules, detachment_point_counter, 
 from covenant_units import AUX_LISTS, BORROW, MODELS, UNITS  # noqa: E402
 from skaven_build import format_subrules  # noqa: E402
 
-REVISION = 43
+REVISION = 44
 NAME = "Xenos - Covenant (Homebrew)"
 POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
@@ -585,8 +585,9 @@ class Builder:
         unit_id = node["id"]
         low, high = m["count"]
         name = m["name"]
-        plural = name if name.endswith("s") else name + "s"
-        cat_id, _ = self.category(f"Count: {ds['name']} - {name}", hidden=True)
+        id_name = m.get("id_name") or name  # entry IDs follow the earlier name, so saved lists keep their models
+        plural = m.get("plural") or (name if name.endswith("s") else name + "s")
+        cat_id, _ = self.category(f"Count: {ds['name']} - {id_name}", hidden=True)
         per_model = spec.get("per_model")
         weapons_gear = m["weapons"] + m["gear"]
 
@@ -603,7 +604,7 @@ class Builder:
                 e["costs"] = [dict(name="pts", typeId=POINTS, value=total)]
             return e
 
-        bid = nid(unit_id + ":model:" + name)
+        bid = nid(unit_id + ":model:" + id_name)
         base = model(bid, name, weapons_gear, m["cost"])
         mins, maxs = constraint(nid(bid + ":min"), "min", low), constraint(nid(bid + ":max"), "max", high)
         base["constraints"] = [mins, maxs]
@@ -611,7 +612,7 @@ class Builder:
         variants, errors = [], []
         keys = OrderedDict()
         for v in m["variants"]:
-            vid = nid(unit_id + ":variant:" + v["name"])
+            vid = nid(unit_id + ":variant:" + (v.get("id_name") or v["name"]))
             items = v["weapons"] + m["gear"] + (v["gear"] or [])
             ve = model(vid, v["name"], items, m["cost"] + v["cost"])
             if v.get("choice"):  # e.g. Covenant Carbine or Needler, picked on the model
@@ -655,7 +656,7 @@ class Builder:
         if low == high:
             mins["value"] = 0
         span = f"{low}-{high}" if low != high else str(high)
-        gid = nid(unit_id + ":family:" + name)
+        gid = nid(unit_id + ":family:" + id_name)
         group = dict(name=f"{span} {plural}", id=gid, hidden=False, defaultSelectionEntryId=base["id"],
                      **({"sortIndex": 1} if node["name"] in TORMENTOR_STYLE else {}),
                      selectionEntries=[base] + variants,

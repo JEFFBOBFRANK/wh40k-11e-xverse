@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 43,
+    "revision": 44,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -25345,7 +25345,7 @@
             "defaultSelectionEntryId": "e05b-540e-5b12-ca18",
             "selectionEntries": [
               {
-                "name": "Sangheili Warrior",
+                "name": "Sangheili Minor",
                 "id": "e05b-540e-5b12-ca18",
                 "type": "model",
                 "hidden": false,
@@ -25663,7 +25663,7 @@
                 "profiles": [
                   {
                     "id": "4406-729b-2a76-830a",
-                    "name": "Sangheili Warrior",
+                    "name": "Sangheili Minor",
                     "hidden": false,
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -25777,7 +25777,7 @@
                     "value": -1,
                     "repeats": [
                       {
-                        "childId": "a5d8-4299-b504-2cc9",
+                        "childId": "4909-d19b-48ab-fdef",
                         "field": "selections",
                         "scope": "34a6-ed21-1b15-55ed",
                         "shared": true,
@@ -25794,7 +25794,7 @@
                     "value": -1,
                     "repeats": [
                       {
-                        "childId": "a5d8-4299-b504-2cc9",
+                        "childId": "4909-d19b-48ab-fdef",
                         "field": "selections",
                         "scope": "34a6-ed21-1b15-55ed",
                         "shared": true,
@@ -25811,7 +25811,7 @@
                     "value": -1,
                     "repeats": [
                       {
-                        "childId": "147b-0f60-dc3e-4725",
+                        "childId": "12cc-c843-bbb1-0fb1",
                         "field": "selections",
                         "scope": "34a6-ed21-1b15-55ed",
                         "shared": true,
@@ -25828,7 +25828,75 @@
                     "value": -1,
                     "repeats": [
                       {
-                        "childId": "147b-0f60-dc3e-4725",
+                        "childId": "12cc-c843-bbb1-0fb1",
+                        "field": "selections",
+                        "scope": "34a6-ed21-1b15-55ed",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "d2f4-fcb9-0e0b-beab",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "e43a-7eef-9fd5-95a0",
+                        "field": "selections",
+                        "scope": "34a6-ed21-1b15-55ed",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "e17e-d903-b621-ef72",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "e43a-7eef-9fd5-95a0",
+                        "field": "selections",
+                        "scope": "34a6-ed21-1b15-55ed",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "d2f4-fcb9-0e0b-beab",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "5bb6-244f-13eb-aaf7",
+                        "field": "selections",
+                        "scope": "34a6-ed21-1b15-55ed",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "value": 1,
+                        "repeats": 1,
+                        "roundUp": false
+                      }
+                    ]
+                  },
+                  {
+                    "field": "e17e-d903-b621-ef72",
+                    "type": "increment",
+                    "value": -1,
+                    "repeats": [
+                      {
+                        "childId": "5bb6-244f-13eb-aaf7",
                         "field": "selections",
                         "scope": "34a6-ed21-1b15-55ed",
                         "shared": true,
@@ -25842,7 +25910,7 @@
                 ]
               },
               {
-                "name": "Sangheili Warrior with Plasma Rifles",
+                "name": "Sangheili Minor with Plasma Rifles",
                 "id": "1907-f4ce-2453-62bf",
                 "type": "model",
                 "hidden": false,
@@ -26078,7 +26146,7 @@
                 "profiles": [
                   {
                     "id": "4313-b841-eb88-b6e3",
-                    "name": "Sangheili Warrior with Plasma Rifles",
+                    "name": "Sangheili Minor with Plasma Rifles",
                     "hidden": false,
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -26150,21 +26218,21 @@
                 ]
               },
               {
-                "name": "Sangheili Warrior with Carbine or Needler",
-                "id": "a5d8-4299-b504-2cc9",
+                "name": "Sangheili Minor with Covenant Carbine",
+                "id": "4909-d19b-48ab-fdef",
                 "type": "model",
                 "hidden": false,
                 "import": true,
                 "selectionEntries": [
                   {
                     "name": "Plasma Pistol",
-                    "id": "fce9-70c6-f05b-9c39",
+                    "id": "2097-a4d1-ceec-620b",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "4962-764c-2319-69c3",
+                        "id": "bd31-d783-ea0e-b31b",
                         "name": "Plasma Pistol",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -26210,7 +26278,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "6fe7-c6ec-6d8d-0c6b",
+                        "id": "b4d2-a3bf-ab95-dd65",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -26219,7 +26287,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "4515-81bb-354f-9404",
+                        "id": "aa72-7444-6425-7291",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -26230,14 +26298,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "929d-983b-9628-7625",
+                        "id": "4407-6bc6-7f3f-5dfa",
                         "name": "Pistol",
                         "targetId": "8bf7-8812-923d-29e4",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "3001-c55c-3787-9712",
+                        "id": "8217-9a92-fe0f-3203",
                         "name": "Plasma",
                         "targetId": "96fc-ca3e-b5fb-a002",
                         "type": "rule",
@@ -26246,14 +26314,103 @@
                     ]
                   },
                   {
-                    "name": "Sangheili Close Combat Weapon",
-                    "id": "212e-215a-bd88-fed5",
+                    "name": "Covenant Carbine",
+                    "id": "9cdb-46f6-f74a-ab65",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "03b8-b78e-ba6d-d463",
+                        "id": "e05c-ec63-3029-b2d6",
+                        "name": "Covenant Carbine",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "48\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "2+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Lethal Hits, Precision"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "07ee-dc36-052e-675d",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "d71f-6028-7019-8e49",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "381c-9377-abf4-6b21",
+                        "name": "Precision",
+                        "targetId": "9143-31ae-e0a6-6007",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "88bd-d738-7d13-5c8c",
+                        "name": "Lethal Hits",
+                        "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sangheili Close Combat Weapon",
+                    "id": "7251-3ca2-1b75-e22b",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "1a36-5bf3-162f-ae88",
                         "name": "Sangheili Close Combat Weapon",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -26299,7 +26456,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "3921-aeab-42be-1798",
+                        "id": "59d4-231b-8f8b-3143",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -26308,7 +26465,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "c5dc-5891-9413-fdc2",
+                        "id": "e7d6-6c78-ee99-e1ed",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -26320,13 +26477,13 @@
                   },
                   {
                     "name": "Sangheili Personal Shield",
-                    "id": "5456-0f96-776e-e617",
+                    "id": "4ed3-7485-d91f-4c7c",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "2e1c-02f3-5f91-6114",
+                        "id": "ccb9-b499-6e3f-a243",
                         "name": "Sangheili Personal Shield",
                         "hidden": false,
                         "typeId": "9cc3-6d83-4dd3-9b64",
@@ -26340,7 +26497,7 @@
                         ]
                       },
                       {
-                        "id": "78b5-c2ba-42c1-01f7",
+                        "id": "f828-0636-cb9c-7775",
                         "name": "Sangheili Personal Shield",
                         "hidden": false,
                         "typeId": "6f69-e28a-7643-db6f",
@@ -26356,7 +26513,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "a0f0-d019-3d8c-7496",
+                        "id": "1691-bb5b-9335-0727",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -26365,7 +26522,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "8f5a-9a94-c80a-28bf",
+                        "id": "6b09-9fde-8698-ce94",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -26378,8 +26535,8 @@
                 ],
                 "profiles": [
                   {
-                    "id": "a173-45c8-ec4f-ddee",
-                    "name": "Sangheili Warrior with Carbine or Needler",
+                    "id": "5ff7-cb46-8907-2a04",
+                    "name": "Sangheili Minor with Covenant Carbine",
                     "hidden": false,
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -26425,219 +26582,22 @@
                 "categoryLinks": [
                   {
                     "name": "count",
-                    "id": "bc50-8ce7-a7a7-70cc",
+                    "id": "dec8-fbe4-0463-8263",
                     "targetId": "6b96-01ba-d300-b708",
                     "primary": false,
                     "hidden": false
                   },
                   {
                     "name": "count",
-                    "id": "6bea-7e15-cb09-b824",
+                    "id": "8264-8fb8-d3a0-8af6",
                     "targetId": "cf82-a176-bdc3-a30c",
                     "primary": false,
                     "hidden": false
                   }
                 ],
-                "selectionEntryGroups": [
-                  {
-                    "name": "Ranged weapon",
-                    "id": "2bb6-0a72-325e-fab8",
-                    "hidden": false,
-                    "selectionEntries": [
-                      {
-                        "name": "Covenant Carbine",
-                        "id": "aee9-c8bb-672c-c0d9",
-                        "type": "upgrade",
-                        "hidden": false,
-                        "import": true,
-                        "profiles": [
-                          {
-                            "id": "07de-149d-a4a9-7f8f",
-                            "name": "Covenant Carbine",
-                            "hidden": false,
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "characteristics": [
-                              {
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc",
-                                "$text": "48\""
-                              },
-                              {
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08",
-                                "$text": "2"
-                              },
-                              {
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e",
-                                "$text": "2+"
-                              },
-                              {
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3",
-                                "$text": "6"
-                              },
-                              {
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15",
-                                "$text": "-2"
-                              },
-                              {
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3",
-                                "$text": "2"
-                              },
-                              {
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c",
-                                "$text": "Lethal Hits, Precision"
-                              }
-                            ]
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "id": "ef40-70d6-73f2-1c48",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "infoLinks": [
-                          {
-                            "id": "24ae-d32e-64e3-a67e",
-                            "name": "Precision",
-                            "targetId": "9143-31ae-e0a6-6007",
-                            "type": "rule",
-                            "hidden": false
-                          },
-                          {
-                            "id": "9f2a-29cd-d573-62f6",
-                            "name": "Lethal Hits",
-                            "targetId": "d1d1-611e-5191-1095",
-                            "type": "rule",
-                            "hidden": false
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Needler",
-                        "id": "ee29-e4d5-850c-2def",
-                        "type": "upgrade",
-                        "hidden": false,
-                        "import": true,
-                        "profiles": [
-                          {
-                            "id": "92a7-ed1c-b123-8552",
-                            "name": "Needler",
-                            "hidden": false,
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "characteristics": [
-                              {
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc",
-                                "$text": "14\""
-                              },
-                              {
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08",
-                                "$text": "4"
-                              },
-                              {
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e",
-                                "$text": "2+"
-                              },
-                              {
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3",
-                                "$text": "1"
-                              },
-                              {
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15",
-                                "$text": "0"
-                              },
-                              {
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3",
-                                "$text": "1"
-                              },
-                              {
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c",
-                                "$text": "Anti-Infantry 2+, Supercombine, Sustained Hits 4"
-                              }
-                            ]
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "id": "2e8a-f9e6-4a8d-adfe",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "infoLinks": [
-                          {
-                            "id": "daa2-d6e0-76e2-6dc6",
-                            "name": "Anti",
-                            "targetId": "4111-82e3-9444-e942",
-                            "type": "rule",
-                            "hidden": false
-                          },
-                          {
-                            "id": "6df4-a2a2-3725-8c76",
-                            "name": "Sustained Hits",
-                            "targetId": "1897-c22c-9597-12b1",
-                            "type": "rule",
-                            "hidden": false
-                          },
-                          {
-                            "id": "fb2f-a36a-b7c8-ec2b",
-                            "name": "Supercombine",
-                            "targetId": "0b56-995d-14f8-c61c",
-                            "type": "rule",
-                            "hidden": false
-                          }
-                        ]
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "id": "3386-b223-d8bf-a4fb",
-                        "type": "min",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "id": "9930-9deb-78c5-8688",
-                        "type": "max",
-                        "value": 1,
-                        "scope": "parent",
-                        "field": "selections",
-                        "shared": true,
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "defaultSelectionEntryId": "aee9-c8bb-672c-c0d9"
-                  }
-                ],
                 "constraints": [
                   {
-                    "id": "0bd8-bcf2-c66d-88b2",
+                    "id": "6197-e4f4-9084-8b18",
                     "type": "max",
                     "value": 2,
                     "scope": "parent",
@@ -26648,21 +26608,21 @@
                 ]
               },
               {
-                "name": "Sangheili Warrior with Repeater or Fuel Rod",
-                "id": "147b-0f60-dc3e-4725",
+                "name": "Sangheili Minor with Needler",
+                "id": "12cc-c843-bbb1-0fb1",
                 "type": "model",
                 "hidden": false,
                 "import": true,
                 "selectionEntries": [
                   {
                     "name": "Plasma Pistol",
-                    "id": "b2bd-267a-6f15-4375",
+                    "id": "98ca-c202-7924-f0b1",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "4be8-a54a-756c-2ed3",
+                        "id": "7d2d-7874-0d4c-ee60",
                         "name": "Plasma Pistol",
                         "hidden": false,
                         "typeId": "f77d-b953-8fa4-b762",
@@ -26708,7 +26668,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "7c90-6190-c0b9-d2af",
+                        "id": "31d0-d471-d5c3-d604",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -26717,7 +26677,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "86a1-c1c9-a766-0562",
+                        "id": "5cf0-794a-4601-6ef7",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -26728,14 +26688,14 @@
                     ],
                     "infoLinks": [
                       {
-                        "id": "75d9-27ad-3019-f89f",
+                        "id": "b124-398f-5aca-4773",
                         "name": "Pistol",
                         "targetId": "8bf7-8812-923d-29e4",
                         "type": "rule",
                         "hidden": false
                       },
                       {
-                        "id": "12da-f8b3-ad8b-01bf",
+                        "id": "5227-4c11-823d-37b6",
                         "name": "Plasma",
                         "targetId": "96fc-ca3e-b5fb-a002",
                         "type": "rule",
@@ -26744,14 +26704,110 @@
                     ]
                   },
                   {
-                    "name": "Sangheili Close Combat Weapon",
-                    "id": "5903-7294-5cf8-a424",
+                    "name": "Needler",
+                    "id": "2e03-6f2a-6e3f-a4a1",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "34a9-3fd0-8eee-4662",
+                        "id": "dc34-bcb2-acfc-42f2",
+                        "name": "Needler",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "14\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "2+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "0"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Anti-Infantry 2+, Supercombine, Sustained Hits 4"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "f0ca-0471-593f-6559",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "52b4-249d-cd8e-875a",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "ab77-fb45-4e55-5bc7",
+                        "name": "Anti",
+                        "targetId": "4111-82e3-9444-e942",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "4c5c-cdb6-37c7-ed64",
+                        "name": "Sustained Hits",
+                        "targetId": "1897-c22c-9597-12b1",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "1dc5-fe3f-fe9f-14a1",
+                        "name": "Supercombine",
+                        "targetId": "0b56-995d-14f8-c61c",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sangheili Close Combat Weapon",
+                    "id": "ef3c-9ed9-4b70-6485",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "4d9b-ed68-cf17-f965",
                         "name": "Sangheili Close Combat Weapon",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -26797,7 +26853,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "2a1f-a45f-9763-1500",
+                        "id": "6cdc-90e1-dca6-30ac",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -26806,7 +26862,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "e496-7b1d-53ce-7738",
+                        "id": "0d48-f591-e182-df45",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -26818,13 +26874,13 @@
                   },
                   {
                     "name": "Sangheili Personal Shield",
-                    "id": "3048-85aa-dc1c-b9c5",
+                    "id": "91ad-ebde-651e-5c5e",
                     "type": "upgrade",
                     "hidden": false,
                     "import": true,
                     "profiles": [
                       {
-                        "id": "9415-6efc-834e-5a47",
+                        "id": "240e-143c-e6ae-4173",
                         "name": "Sangheili Personal Shield",
                         "hidden": false,
                         "typeId": "9cc3-6d83-4dd3-9b64",
@@ -26838,7 +26894,7 @@
                         ]
                       },
                       {
-                        "id": "c530-b589-0121-ad44",
+                        "id": "6ba6-f925-40cc-f791",
                         "name": "Sangheili Personal Shield",
                         "hidden": false,
                         "typeId": "6f69-e28a-7643-db6f",
@@ -26854,7 +26910,7 @@
                     ],
                     "constraints": [
                       {
-                        "id": "f69e-7320-ce4a-5aa2",
+                        "id": "baac-2fca-9563-0529",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -26863,7 +26919,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "d9f5-5e3a-b2fa-3e3d",
+                        "id": "eb86-3dbf-796c-457a",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -26876,8 +26932,8 @@
                 ],
                 "profiles": [
                   {
-                    "id": "d24a-84dc-08fa-4aca",
-                    "name": "Sangheili Warrior with Repeater or Fuel Rod",
+                    "id": "b0ef-2f10-fa52-b1bf",
+                    "name": "Sangheili Minor with Needler",
                     "hidden": false,
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
@@ -26923,189 +26979,93 @@
                 "categoryLinks": [
                   {
                     "name": "count",
-                    "id": "a967-aebb-a198-ce5e",
+                    "id": "cc98-3e03-cbdf-6646",
                     "targetId": "6b96-01ba-d300-b708",
                     "primary": false,
                     "hidden": false
                   },
                   {
                     "name": "count",
-                    "id": "1e10-204b-34eb-fa33",
-                    "targetId": "b92b-e413-b227-9e70",
+                    "id": "e2ea-ac5a-6402-0f93",
+                    "targetId": "cf82-a176-bdc3-a30c",
                     "primary": false,
                     "hidden": false
                   }
                 ],
-                "selectionEntryGroups": [
+                "constraints": [
                   {
-                    "name": "Ranged weapon",
-                    "id": "c11a-459c-ab9b-b6b7",
+                    "id": "afc9-69a5-cd76-2d86",
+                    "type": "max",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Sangheili Major with Plasma Repeater",
+                "id": "e43a-7eef-9fd5-95a0",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "selectionEntries": [
+                  {
+                    "name": "Plasma Pistol",
+                    "id": "d16f-2126-bf1a-70d3",
+                    "type": "upgrade",
                     "hidden": false,
-                    "selectionEntries": [
+                    "import": true,
+                    "profiles": [
                       {
-                        "name": "Plasma Repeater",
-                        "id": "0f63-a692-0896-ae22",
-                        "type": "upgrade",
+                        "id": "c82d-46ad-f4e9-e317",
+                        "name": "Plasma Pistol",
                         "hidden": false,
-                        "import": true,
-                        "profiles": [
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
                           {
-                            "id": "fe92-36b7-e278-dcf3",
-                            "name": "Plasma Repeater",
-                            "hidden": false,
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "characteristics": [
-                              {
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc",
-                                "$text": "24\""
-                              },
-                              {
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08",
-                                "$text": "2"
-                              },
-                              {
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e",
-                                "$text": "3+"
-                              },
-                              {
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3",
-                                "$text": "8"
-                              },
-                              {
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15",
-                                "$text": "-2"
-                              },
-                              {
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3",
-                                "$text": "3"
-                              },
-                              {
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c",
-                                "$text": "Lethal Hits, Plasma (AP1)"
-                              }
-                            ]
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "id": "94a0-72db-ae9a-2c68",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "infoLinks": [
-                          {
-                            "id": "12dc-24cf-555f-6214",
-                            "name": "Lethal Hits",
-                            "targetId": "d1d1-611e-5191-1095",
-                            "type": "rule",
-                            "hidden": false
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
                           },
                           {
-                            "id": "d69a-3329-f3ac-cc87",
-                            "name": "Plasma",
-                            "targetId": "96fc-ca3e-b5fb-a002",
-                            "type": "rule",
-                            "hidden": false
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Fuel Rod",
-                        "id": "dfc1-6efc-faee-e287",
-                        "type": "upgrade",
-                        "hidden": false,
-                        "import": true,
-                        "profiles": [
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "1"
+                          },
                           {
-                            "id": "9ae1-424f-1d88-4f7f",
-                            "name": "Fuel Rod",
-                            "hidden": false,
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "characteristics": [
-                              {
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc",
-                                "$text": "24\""
-                              },
-                              {
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08",
-                                "$text": "1"
-                              },
-                              {
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e",
-                                "$text": "3+"
-                              },
-                              {
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3",
-                                "$text": "10"
-                              },
-                              {
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15",
-                                "$text": "-4"
-                              },
-                              {
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3",
-                                "$text": "D3+2"
-                              },
-                              {
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c",
-                                "$text": "Blast"
-                              }
-                            ]
-                          }
-                        ],
-                        "constraints": [
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
                           {
-                            "id": "1273-76fc-359d-59a8",
-                            "type": "max",
-                            "value": 1,
-                            "scope": "parent",
-                            "field": "selections",
-                            "shared": true,
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "costs": [
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
                           {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 10
-                          }
-                        ],
-                        "infoLinks": [
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
                           {
-                            "id": "2e5f-9a48-d677-9358",
-                            "name": "Blast",
-                            "targetId": "6c1f-1cf7-ff25-c99e",
-                            "type": "rule",
-                            "hidden": false
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Pistol, Plasma (AP1)"
                           }
                         ]
                       }
                     ],
                     "constraints": [
                       {
-                        "id": "60cb-50d7-f0df-9f34",
+                        "id": "987e-23d0-63cf-f8a2",
                         "type": "min",
                         "value": 1,
                         "scope": "parent",
@@ -27114,7 +27074,7 @@
                         "includeChildSelections": false
                       },
                       {
-                        "id": "400f-a2ee-cae2-767f",
+                        "id": "f896-a09e-7910-6450",
                         "type": "max",
                         "value": 1,
                         "scope": "parent",
@@ -27123,12 +27083,698 @@
                         "includeChildSelections": false
                       }
                     ],
-                    "defaultSelectionEntryId": "0f63-a692-0896-ae22"
+                    "infoLinks": [
+                      {
+                        "id": "8e63-b059-c46e-5147",
+                        "name": "Pistol",
+                        "targetId": "8bf7-8812-923d-29e4",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "3bc0-9b79-a7d2-5488",
+                        "name": "Plasma",
+                        "targetId": "96fc-ca3e-b5fb-a002",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Plasma Repeater",
+                    "id": "77ae-8c96-46a6-ddcf",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "d2b7-e5c3-fa4c-4d99",
+                        "name": "Plasma Repeater",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "24\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "2"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "8"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Lethal Hits, Plasma (AP1)"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "bf22-c01f-0ca6-6eb0",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "b554-11f3-9c20-a77c",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "8bc9-38ae-7526-d241",
+                        "name": "Lethal Hits",
+                        "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "23e1-f3cf-fff0-85bc",
+                        "name": "Plasma",
+                        "targetId": "96fc-ca3e-b5fb-a002",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sangheili Close Combat Weapon",
+                    "id": "f29f-2ae5-e80b-bf9f",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "61fb-3894-b810-87e2",
+                        "name": "Sangheili Close Combat Weapon",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-1"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "-"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "0918-9fa9-998c-926c",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "af44-ccfa-2b6c-1984",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sangheili Personal Shield",
+                    "id": "e922-dbca-6e33-a710",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "8b54-c3fb-461f-098d",
+                        "name": "Sangheili Personal Shield",
+                        "hidden": false,
+                        "typeId": "9cc3-6d83-4dd3-9b64",
+                        "typeName": "Abilities",
+                        "characteristics": [
+                          {
+                            "name": "Description",
+                            "typeId": "9b8f-694b-e5e-b573",
+                            "$text": "The bearer has a starting SP value of 2."
+                          }
+                        ]
+                      },
+                      {
+                        "id": "daf2-9235-9f66-04ae",
+                        "name": "Sangheili Personal Shield",
+                        "hidden": false,
+                        "typeId": "6f69-e28a-7643-db6f",
+                        "typeName": "Shields",
+                        "characteristics": [
+                          {
+                            "name": "SP",
+                            "typeId": "de31-d72e-cbc6-9c6e",
+                            "$text": "2"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "0f8c-b39b-8b7f-de71",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "9623-bb34-dfaf-e0e8",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "id": "e3c3-c487-46ac-35f9",
+                    "name": "Sangheili Major with Plasma Repeater",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "7\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "-"
+                      }
+                    ]
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "count",
+                    "id": "9800-8950-5ec8-c551",
+                    "targetId": "6b96-01ba-d300-b708",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "count",
+                    "id": "7a95-e6c6-a0dc-260e",
+                    "targetId": "b92b-e413-b227-9e70",
+                    "primary": false,
+                    "hidden": false
                   }
                 ],
                 "constraints": [
                   {
-                    "id": "cb2d-e3e9-2aaf-c28c",
+                    "id": "686b-b153-5f87-8f31",
+                    "type": "max",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "shared": true,
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "name": "Sangheili Major with Fuel Rod",
+                "id": "5bb6-244f-13eb-aaf7",
+                "type": "model",
+                "hidden": false,
+                "import": true,
+                "selectionEntries": [
+                  {
+                    "name": "Plasma Pistol",
+                    "id": "6b6f-21ae-6719-55e5",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "f343-2082-8e37-a96a",
+                        "name": "Plasma Pistol",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "12\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-2"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Pistol, Plasma (AP1)"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "e60a-e237-6c8c-0846",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "ec4f-50dd-fae6-284e",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "cbb7-350b-c583-8864",
+                        "name": "Pistol",
+                        "targetId": "8bf7-8812-923d-29e4",
+                        "type": "rule",
+                        "hidden": false
+                      },
+                      {
+                        "id": "e4ef-26b1-fc3c-15a7",
+                        "name": "Plasma",
+                        "targetId": "96fc-ca3e-b5fb-a002",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Fuel Rod",
+                    "id": "a407-059b-47c3-ef62",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "36e6-e085-ed2f-b966",
+                        "name": "Fuel Rod",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "24\""
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "10"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-4"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "D3+2"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Blast"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "7b59-6190-d9e6-b083",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "52b7-ca3d-3dc0-e0f6",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "id": "a05d-a84d-d633-48fd",
+                        "name": "Blast",
+                        "targetId": "6c1f-1cf7-ff25-c99e",
+                        "type": "rule",
+                        "hidden": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sangheili Close Combat Weapon",
+                    "id": "5ced-710e-72b8-6581",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "3782-4ca9-b576-af38",
+                        "name": "Sangheili Close Combat Weapon",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "4"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-1"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "1"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "-"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "7c75-bffc-3a70-4716",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "6970-5fc2-d85f-1276",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sangheili Personal Shield",
+                    "id": "1964-d598-554b-c9c0",
+                    "type": "upgrade",
+                    "hidden": false,
+                    "import": true,
+                    "profiles": [
+                      {
+                        "id": "753e-89ea-613b-0ee7",
+                        "name": "Sangheili Personal Shield",
+                        "hidden": false,
+                        "typeId": "9cc3-6d83-4dd3-9b64",
+                        "typeName": "Abilities",
+                        "characteristics": [
+                          {
+                            "name": "Description",
+                            "typeId": "9b8f-694b-e5e-b573",
+                            "$text": "The bearer has a starting SP value of 2."
+                          }
+                        ]
+                      },
+                      {
+                        "id": "e233-290c-7522-5e03",
+                        "name": "Sangheili Personal Shield",
+                        "hidden": false,
+                        "typeId": "6f69-e28a-7643-db6f",
+                        "typeName": "Shields",
+                        "characteristics": [
+                          {
+                            "name": "SP",
+                            "typeId": "de31-d72e-cbc6-9c6e",
+                            "$text": "2"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "id": "0e69-3eb9-f568-5648",
+                        "type": "min",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      },
+                      {
+                        "id": "23ce-7096-b604-a22f",
+                        "type": "max",
+                        "value": 1,
+                        "scope": "parent",
+                        "field": "selections",
+                        "shared": true,
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "id": "6230-e125-f807-7fb0",
+                    "name": "Sangheili Major with Fuel Rod",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "7\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "-"
+                      }
+                    ]
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "count",
+                    "id": "dcc9-5a7e-2187-c2da",
+                    "targetId": "6b96-01ba-d300-b708",
+                    "primary": false,
+                    "hidden": false
+                  },
+                  {
+                    "name": "count",
+                    "id": "ba3f-6d6c-42da-d00a",
+                    "targetId": "b92b-e413-b227-9e70",
+                    "primary": false,
+                    "hidden": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "2edf-edf5-ee3e-5861",
                     "type": "max",
                     "value": 2,
                     "scope": "parent",
@@ -27373,7 +28019,7 @@
           {
             "type": "add",
             "field": "error",
-            "value": "At most 1 Carbine or Needler for every 3 models.",
+            "value": "At most 1 Covenant Carbine or Needler for every 3 models.",
             "conditionGroups": [
               {
                 "type": "or",
@@ -27477,7 +28123,7 @@
           {
             "type": "add",
             "field": "error",
-            "value": "At most 1 Repeater or Fuel Rod for every 3 models.",
+            "value": "At most 1 Plasma Repeater or Fuel Rod for every 3 models.",
             "conditionGroups": [
               {
                 "type": "or",

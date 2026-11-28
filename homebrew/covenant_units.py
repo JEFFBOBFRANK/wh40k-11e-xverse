@@ -33,14 +33,17 @@ def U(models, sizes, prices=None, exact=True, per_model=None, sergeants=(), aux=
                 per_model=per_model, sergeants=list(sergeants), aux=list(aux), counted=list(counted))
 
 
-def M(name, count, weapons, gear=(), variants=(), cost=0):
-    return dict(name=name, count=count, weapons=list(weapons), gear=list(gear), variants=list(variants), cost=cost)
+def M(name, count, weapons, gear=(), variants=(), cost=0, id_name=None, plural=None):
+    """id_name keeps an earlier name's entry ID (saved lists keep their models); plural names the model group."""
+    return dict(name=name, count=count, weapons=list(weapons), gear=list(gear), variants=list(variants), cost=cost,
+                id_name=id_name, plural=plural)
 
 
-def V(name, weapons, per=None, count=None, key=None, cost=0, gear=None, choice=None):
-    """choice: a C(...) on this model type, e.g. Covenant Carbine or Needler (the model is added with "+")."""
+def V(name, weapons, per=None, count=None, key=None, cost=0, gear=None, choice=None, id_name=None):
+    """choice: a C(...) on this model type (the model is then added with "+", not a counter).
+    id_name keeps an earlier name's entry ID."""
     return dict(name=name, weapons=list(weapons), per=per, count=count, key=key or name, cost=cost, gear=gear,
-                choice=choice)
+                choice=choice, id_name=id_name)
 
 
 def C(label, options, minimum=1, maximum=1, costs=None):
@@ -131,13 +134,19 @@ UNITS = {
 
     # Infantry
     "Sangheili Warrior Cadre": U(
-        [M("Sangheili Warrior", (3, 6), ["Plasma Pistol", "Storm Rifle", SANG_CCW], gear=["Sangheili Personal Shield"],
-           variants=[
-               V("Sangheili Warrior with Plasma Rifles", ["2 Plasma Rifles", SANG_CCW], per=3, count=1, key="rifles"),
-               V("Sangheili Warrior with Carbine or Needler", ["Plasma Pistol", SANG_CCW], per=3, count=1,
-                 key="carbine", choice=C("Ranged weapon", ["Covenant Carbine", "Needler"])),
-               V("Sangheili Warrior with Repeater or Fuel Rod", ["Plasma Pistol", SANG_CCW], per=3, count=1,
-                 key="heavy", choice=C("Ranged weapon", ["Plasma Repeater", "Fuel Rod"], costs={"Fuel Rod": 10}))])],
+        # Minor and Major ranks: every loadout is its own counter (revision 44); IDs as in revision 38
+        [M("Sangheili Minor", (3, 6), ["Plasma Pistol", "Storm Rifle", SANG_CCW], gear=["Sangheili Personal Shield"],
+           id_name="Sangheili Warrior", plural="Sangheili Warriors", variants=[
+               V("Sangheili Minor with Plasma Rifles", ["2 Plasma Rifles", SANG_CCW], per=3, count=1, key="rifles",
+                 id_name="Sangheili Warrior with Plasma Rifles"),
+               V("Sangheili Minor with Covenant Carbine", ["Plasma Pistol", "Covenant Carbine", SANG_CCW], per=3,
+                 count=1, key="carbine", id_name="Sangheili Warrior with Covenant Carbine"),
+               V("Sangheili Minor with Needler", ["Plasma Pistol", "Needler", SANG_CCW], per=3, count=1,
+                 key="carbine", id_name="Sangheili Warrior with Needler"),
+               V("Sangheili Major with Plasma Repeater", ["Plasma Pistol", "Plasma Repeater", SANG_CCW], per=3,
+                 count=1, key="heavy", id_name="Sangheili Warrior with Plasma Repeater"),
+               V("Sangheili Major with Fuel Rod", ["Plasma Pistol", "Fuel Rod", SANG_CCW], per=3, count=1,
+                 key="heavy", cost=10, id_name="Sangheili Warrior with Fuel Rod")])],
         sizes=[3, 6], prices=[50, 100], exact=False, sergeants=["Sangheili Ultra"],
         aux=[Pool(lists=["Unggoy", "Yig-Yar", "Jiralhanae"], per=3, slots=2, weights={"Jiralhanae": 2})]),
     "Sangheili Rangers": U(
