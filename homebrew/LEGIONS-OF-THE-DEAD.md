@@ -12,7 +12,8 @@ Ossiarch units play like 10th-edition Custodes: few, elite, very durable models.
   and one special weapon per unit ([DEVASTATING WOUNDS] or [HEAVY]) against big targets.
 - Melee weapons carry an integrated 12" [ASSAULT] shot, so melee squads still shoot.
 - The Mortek Hekatos leads each squad: a better WS/BS (2+) and an upgraded version of the squad's weapons.
-- The Ossiarch Aegis is the faction's defensive signature; every model carries one.
+- The Ossiarch Aegis is the Mortek's defensive signature; every Mortek model carries one.
+- Every OSSIARCH unit has Indomitable (re-roll Unbinding Hazard rolls), so A State of Undeath rarely hurts them.
 
 Catalogue: "Xenos - Legions of the Dead (Homebrew)", beside the Covenant.
 
@@ -74,6 +75,11 @@ that unit. These are Unbinding Hazard rolls.
 (11e hazard roll: on a 1–2 it fails and the unit suffers 1 mortal wound, or 3 if every model in it is a
 MONSTER/VEHICLE.)
 
+### Ossiarch universal ability
+
+**Indomitable:** You can re-roll Unbinding Hazard rolls made for models in this unit. Every OSSIARCH datasheet has it
+(built as one shared rule, linked on each Ossiarch unit).
+
 ## Nagash (Epic Hero) — 500 pts
 
 | M | T | Sv | W | Ld | OC | InSv |
@@ -90,9 +96,9 @@ Faction: Dominion of Death, The Edicts of Nagash, A State of Undeath. Psychic Le
 
 Nagash has no Damaged X ability (decided: kept off).
 
-- **Indomitable (2):** Each time this unit suffers mortal wounds from failed Unbinding Hazard rolls, reduce the number
+- **Undying (2):** Each time this unit suffers mortal wounds from failed Unbinding Hazard rolls, reduce the number
   of mortal wounds it suffers by 2 (to a minimum of 0). If two or more models in a unit have this ability, use the
-  highest value.
+  highest value. (Was "Indomitable (2)"; renamed so it does not clash with the Ossiarch Indomitable.)
 - **Supreme Lord of the Undead:** Once per battle, at the start of your Command phase, select one friendly LEGIONS OF
   THE DEAD unit that was destroyed during the battle, excluding CHARACTER, MONSTER and VEHICLE units. Add a new unit to
   your army that is identical to it, at its starting strength and with the same wargear, excluding any attached
@@ -117,13 +123,17 @@ Nagash has no Damaged X ability (decided: kept off).
 
 Keywords: MONSTER, CHARACTER, EPIC HERO, FLY, PSYKER, NAGASH. Faction: LEGIONS OF THE DEAD.
 
-## Mortek Wardens (Battleline)
+## Mortek Wardens (Battleline) — 250 pts
 
 Unit composition: 4 Mortek Wardens and 1 Mortek Hekatos.
 
 | M | T | Sv | W | Ld | OC | InSv |
 |---|---|---|---|---|---|---|
 | 6" | 6 | 2+ | 3 | 6+ | 2 | 4+ |
+
+- **Unbreakable Formation:** While this unit is within range of an objective marker you control, add 1 to the OC
+  characteristic of models in this unit.
+- **Indomitable** (Ossiarch universal ability).
 
 **Wargear ability — Ossiarch Aegis:** Each time an attack is allocated to a model with this wargear, worsen the AP
 characteristic of that attack by 1.
@@ -140,13 +150,13 @@ characteristic of that attack by 1.
 | Ranged weapon | Range | A | BS | S | AP | D | Abilities |
 |---|---|---|---|---|---|---|---|
 | Soulshard Sidearm (Hekatos) | 12" | 2 | 3+ | 5 | -1 | 1 | [ASSAULT] |
-| Nadirite Soulpike – soulshard (integrated) | 12" | 1 | 3+ | 5 | -1 | 1 | [ASSAULT] |
-| Nadirite Reaver Blades – bone flechettes (integrated) | 12" | 2 | 3+ | 4 | 0 | 1 | [ASSAULT] |
+| Soulshard (with a Nadirite Soulpike) | 12" | 1 | 3+ | 5 | -1 | 1 | [ASSAULT] |
+| Bone Flechettes (with Nadirite Reaver Blades) | 12" | 2 | 3+ | 4 | 0 | 1 | [ASSAULT] |
 
 Wargear options:
 
 - Each Mortek Warden is equipped with an Ossiarch Aegis and either a Nadirite Soulpike or Nadirite Reaver Blades.
-  Each weapon includes its integrated ranged profile.
+  A model with a Nadirite Soulpike also has a Soulshard; a model with Nadirite Reaver Blades also has Bone Flechettes.
 - One Mortek Warden can replace its Nadirite Soulpike or Nadirite Reaver Blades with a Nadirite Decapitator. It keeps
   its Ossiarch Aegis.
 - The Mortek Hekatos is equipped with an Ossiarch Aegis, a Soulshard Sidearm and one of: Soulrender Glaive, Twin
@@ -154,13 +164,17 @@ Wargear options:
 
 Keywords: INFANTRY, BATTLELINE, OSSIARCH, MORTEK WARDENS. Faction: LEGIONS OF THE DEAD.
 
-## Mortek Sentinels (Battleline)
+## Mortek Sentinels (Battleline) — 190 pts
 
 Unit composition: 2 Mortek Sentinels and 1 Mortek Hekatos.
 
 | M | T | Sv | W | Ld | OC | InSv |
 |---|---|---|---|---|---|---|
 | 6" | 6 | 2+ | 3 | 6+ | 2 | 4+ |
+
+- **Execution Protocols:** Each time a model in this unit makes a ranged attack, if this unit remained stationary this
+  turn, improve the AP characteristic of that attack by 1.
+- **Indomitable** (Ossiarch universal ability).
 
 **Wargear ability — Ossiarch Aegis:** as Mortek Wardens.
 
@@ -181,12 +195,35 @@ Wargear options:
 
 Keywords: INFANTRY, BATTLELINE, OSSIARCH, MORTEK SENTINELS. Faction: LEGIONS OF THE DEAD.
 
+## Immortis Guard — 330 pts
+
+Unit composition: 3 Immortis Guard.
+
+| M | T | Sv | W | Ld | OC | InSv |
+|---|---|---|---|---|---|---|
+| 6" | 8 | 2+ | 5 | 6+ | 2 | 4+ |
+
+- **Soulbound Guardians (Aura):** While a friendly LEGIONS OF THE DEAD CHARACTER unit is within 3" of this unit, models
+  in that CHARACTER unit have Feel No Pain 5+.
+- **Unyielding Constructs:** Each time an attack is allocated to a model in this unit, subtract 1 from the D
+  characteristic of that attack (to a minimum of 1).
+- **Indomitable** (Ossiarch universal ability).
+
+| Melee weapon | Range | A | WS | S | AP | D | Abilities |
+|---|---|---|---|---|---|---|---|
+| Nadirite Dread Halberd | Melee | 3 | 2+ | 10 | -3 | 3 | [LETHAL HITS] |
+
+Wargear: each model is equipped with a Nadirite Dread Halberd (no Ossiarch Aegis).
+
+Keywords: INFANTRY, OSSIARCH, IMMORTIS GUARD. Faction: LEGIONS OF THE DEAD.
+
 ## Open points
 
 - Psychic Level 8 (Nagash): the 11e core only says a psychic ability with a psychic level cannot be used twice in a
   phase. It does nothing yet; when the army's spells arrive it gets a rule (as the Skaven Psyker Level), otherwise
   it is dropped.
-- Points and unit sizes for the Mortek Wardens and Sentinels (5 and 3 models so far).
+- Unit sizes are fixed so far (Wardens 5, Sentinels 3, Immortis Guard 3); say if any can be larger.
+- Which characters can lead the Immortis Guard (and the Mortek units) comes with the characters.
 - Sentinels can field two Nadirite Annihilators (one Sentinel and the Hekatos); the Hekatos' Annihilator is BS 3+ as
   printed, not 2+ like his other weapons. Kept as written.
 
@@ -198,3 +235,9 @@ Keywords: INFANTRY, BATTLELINE, OSSIARCH, MORTEK SENTINELS. Faction: LEGIONS OF 
   those units make Unbinding Hazard rolls instead.
 - Burning an Edict suspends it for the rest of the battle (at most three burns): kept.
 - Nagash has no Damaged X.
+- The Mortek Wardens' Decapitator model keeps its Ossiarch Aegis and the Wardens' Hekatos has one, as decided, though
+  the updated datasheet text still says the Decapitator replaces it.
+- Nagash's "Indomitable (2)" is now "Undying (2)", so it does not share a name with the Ossiarch Indomitable (two
+  different rules cannot share a name in New Recruit).
+- Edict of the Grave's Passive (re-roll Unbinding Hazard rolls of 1) adds nothing for OSSIARCH units, which re-roll
+  them anyway; it matters for the other Legions.
