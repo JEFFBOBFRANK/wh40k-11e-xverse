@@ -25,7 +25,7 @@ POINTS = "51b2-306e-1021-d207"
 ENHANCEMENT_SLOT = "f759-1bc4-cb3a-f0d2"
 DP = "82ae-1066-5107-6ae0"
 INCURSION, STRIKE_FORCE, ONSLAUGHT = "d62d-db22-4893-4bc0", "baf8-997f-e323-a090", "4204-82d0-908c-a62a"
-REVISION = 79
+REVISION = 80
 
 RENAMED = {  # current catalogue name -> handoff name (keeps saved-roster IDs)
     "Warlord": "Clawlord",
@@ -1508,6 +1508,81 @@ def format_subrules(catalogue):
                 field["$text"] = format_text(field["$text"])
 
 
+# ---------------------------------------------------------------- spells
+SPELLS_TYPE = dict(id=nid("profile-type:spells"), name="Spells",
+                   characteristicTypes=[dict(id=nid("profile-type:spells:text"), name="Description")])
+# Enhancements that give a choice of lore spells: (entry name, lore, lead-in shown on each spell)
+SPELL_CHOICES = [("Grimoire of Thirteen Names", "Lore of the Hidden Fang",
+                  "Grimoire of Thirteen Names: the bearer knows one of these spells, of your choice.")]
+
+
+def lore_spells(text):
+    """army_rules.md -> {lore: [(spell name, [WHEN/TARGET/EFFECT/OVERCAST lines])]}"""
+    lores = OrderedDict()
+    for heading, lines in sections(text):
+        if not heading or not heading.startswith("Lore of "):
+            continue
+        for spell, spell_lines in sections("\n".join(lines), level="#### "):
+            if spell is None:
+                continue
+            parts = [f"**{m.group(1)}:** {m.group(2).strip()}" for m in
+                     (re.match(r"^-\s*\*\*(WHEN|TARGET|EFFECT|OVERCAST):\*\*\s*(.+)$", line.strip()) for line in spell_lines)
+                     if m]
+            assert parts, spell
+            lores.setdefault(heading, []).append((spell, parts))
+    return lores
+
+
+def spell_profile(owner_id, lore, spell, parts, lead=None):
+    c = SPELLS_TYPE["characteristicTypes"][0]
+    text = "<br>".join(([lead] if lead else []) + [f"*{lore}*"] + parts)
+    return dict(id=nid(owner_id + ":spell:" + spell), name=spell, hidden=False, typeId=SPELLS_TYPE["id"],
+                typeName="Spells", characteristics=[dict(name=c["name"], typeId=c["id"], **{"$text": text})])
+
+
+def spell_boxes(catalogue, rules_text):
+    """A Spells box on each PSYKER (as the Covenant Shields box): its datasheet spells, then every spell of the lores
+    its 'This model knows ...' ability gives it."""
+    lores = lore_spells(rules_text)
+    found = []
+    for node in walk(catalogue["sharedSelectionEntries"]):
+        if not isinstance(node, dict) or not node.get("profiles"):
+            continue
+        added = []
+        for prof in node["profiles"]:
+            if prof.get("typeName") != "Abilities" or prof.get("hidden"):
+                continue
+            text = prof["characteristics"][0]["$text"]
+            if re.search(r"\(Psychic Level \d+\)$", prof["name"]):  # a datasheet spell moves into the box
+                c = SPELLS_TYPE["characteristicTypes"][0]
+                prof.update(typeId=SPELLS_TYPE["id"], typeName="Spells",
+                            characteristics=[dict(name=c["name"], typeId=c["id"], **{"$text": text})])
+                continue
+            m = re.match(r"\s*This model knows (.+?)\.(?:\s|$)", text)
+            if not m:
+                continue
+            known = m.group(1)
+            only = re.fullmatch(r"(.+) \((Lore of [^)]+)\)", known)  # "Warp Lightning and Howling Warpgale (Lore of Ruin)"
+            if only:
+                names = re.split(r", | and ", only.group(1))
+                picks = [(only.group(2), sp) for sp in lores[only.group(2)] if sp[0].split(" (")[0] in names]
+                assert len(picks) == len(names), known
+            else:
+                picks = [(lore, sp) for lore in lores if lore in known for sp in lores[lore]]
+                assert picks, known
+            added += [spell_profile(node["id"], lore, sp, parts) for lore, (sp, parts) in picks]
+            found.append((node["name"], [sp for _, (sp, _) in picks]))
+        node["profiles"] += added
+    for enh, lore, lead in SPELL_CHOICES:
+        nodes = [n for n in catalogue["sharedSelectionEntries"] if n["name"] == enh]
+        assert nodes, enh
+        for node in nodes:
+            node.setdefault("profiles", []).extend(spell_profile(node["id"], lore, sp, parts, lead)
+                                                   for sp, parts in lores[lore])
+            found.append((enh, [sp for sp, _ in lores[lore]]))
+    return found
+
+
 # ---------------------------------------------------------------- assembly
 def reference_entry(eid, name, links=None, rules_links=None):
     node = entry(eid, name, categoryLinks=[dict(name="Reference", id=nid(eid + ":cat"),
@@ -1696,6 +1771,8 @@ def build(source, catalogue_path, system_path):
     new["sharedRules"] = list(b.rules.values())
     detachment_point_counter(new)
     format_subrules(new)
+    new["profileTypes"] = [SPELLS_TYPE]
+    b.spells = spell_boxes(new, (b.source / "army_rules.md").read_text())
     for msg in b.log:
         print("NOTE:", msg)
     return dict(catalogue=new), b

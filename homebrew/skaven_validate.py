@@ -11,9 +11,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from skaven_build import (DETACHMENTS, CLAN_UNIQUE, POINTS, ENHANCEMENT_SLOT, DP, cards, sections, title,  # noqa
-                          weapon_keyword, walk)
+                          weapon_keyword, walk, lore_spells)
 
 ROOT = Path(__file__).resolve().parent.parent
+LORES = {}
 OLD_TERMS = ["Knawhole", "Ogre", "Peril", "manifest", "Battle-shock test", "Hazardous test", "Burn-Burn Warpstone",
              "Terrifying Monstrosity", "Casting Value", "Verminous Spells", "Expendable Vermin", "Tribute to Ruin"]
 
@@ -28,6 +29,9 @@ def main():
     cat = json.loads(Path(args.catalogue).read_text())["catalogue"]
     system = json.loads(Path(args.system).read_text())["gameSystem"]
     data = json.loads((source / "datasheets.json").read_text())
+    global LORES
+    LORES = {lore.replace("Lore of the ", "Lore of "): [sp for sp, _ in spells] for lore, spells in
+             lore_spells((source / "army_rules.md").read_text()).items()}
     points = {e["name"]: e for g in json.loads((source / "points.json").read_text())["points"] for e in g["entries"]}
     problems, checks = [], 0
 
@@ -85,7 +89,14 @@ def main():
             check(bool(got), f"{name}: weapon {w['name']} missing")
             if got:
                 check(all(g == want for g in got), f"{name}: weapon {w['name']} is {got[0]}, expected {want}")
-        abilities = {p["name"] for p in walk(e) if isinstance(p, dict) and p.get("typeName") == "Abilities"}
+        abilities = {p["name"] for p in walk(e) if isinstance(p, dict) and p.get("typeName") in ("Abilities", "Spells")}
+        spells = {p["name"] for p in walk(e) if isinstance(p, dict) and p.get("typeName") == "Spells"}
+        for a in ds["abilities"]:  # each lore the model knows is listed in full in its Spells box
+            for lore in re.findall(r"Lore of (?:the )?([A-Z][a-z]+(?: [A-Z][a-z]+)?)", a.get("text", "")):
+                lore = "Lore of " + lore
+                if "knows the" in a.get("text", "") and lore in LORES:
+                    missing = [sp for sp in LORES[lore] if sp not in spells]
+                    check(not missing, f"{name}: Spells box lacks {missing} ({lore})")
         for a in ds["abilities"]:
             if a["name"] in ("CORE", "FACTION"):
                 continue

@@ -16,6 +16,11 @@ detachments). The layout follows the Emperor's Children catalogue.
   Emperor's Children Tormentors (e.g. "Stormvermin with Heavy shock weapon").
   Each one taken lowers the plain model count; New Recruit flags the plain count
   until it is reduced. Limits such as one per five models apply to each type.
+- **Spells box** (revision 80): each PSYKER has a "Spells" table, like the Covenant Shields table, listing its
+  datasheet spells and every spell of each lore its "This model knows ..." ability gives it, with the lore,
+  WHEN, TARGET, EFFECT and OVERCAST (e.g. a Grey Seer lists The Dreaded Thirteenth, Vermintide and the six Lore of
+  Ruin and Lore of Plague spells; a Warlock Engineer lists Warp Lightning and Howling Warpgale). The Grimoire of
+  Thirteen Names lists the three Lore of the Hidden Fang spells its bearer chooses from.
 - Abilities are separate named profiles. Core abilities and weapon keywords link
   to the standard rules; Scurry Away! and [WARPSTONE] link to the Skaven rules.
 - Leaders and Supports attach to their printed units with New Recruit's

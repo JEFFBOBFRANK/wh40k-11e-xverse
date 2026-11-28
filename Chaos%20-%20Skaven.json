@@ -7,7 +7,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "library": false,
     "type": "catalogue",
-    "revision": 79,
+    "revision": 80,
     "gameSystemRevision": 26,
     "authorName": "Xverse homebrew",
     "authorContact": "",
@@ -5027,13 +5027,13 @@
           {
             "id": "0c17-f71d-2ad9-c431",
             "name": "The Dreaded Thirteenth (Psychic Level 3)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes 13 spell hits: S6, AP-1, D2. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: the spell hits are S8, AP-2 instead. This spell can be used only once per battle round by your army."
               }
             ]
@@ -5119,6 +5119,90 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Beast, Character, Epic Hero, Psyker, Masterclan, Grey Seer, Thanquol. Faction: Skaven."
+              }
+            ]
+          },
+          {
+            "id": "06d3-0739-9c22-89dc",
+            "name": "Warp Lightning (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 2D6 spell hits: S8, AP-2, D2.<br>**OVERCAST:** That unit takes 3D6 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "3709-2d1f-83fd-95f9",
+            "name": "Howling Warpgale (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Movement phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** Until the start of your next turn, subtract 2\" from the Move characteristic of models in that unit (4\" if it has FLY), and that unit cannot Advance.<br>**OVERCAST:** Until the start of your next turn, also subtract 2 from Charge rolls made for that unit."
+              }
+            ]
+          },
+          {
+            "id": "ddbd-2298-26a6-2e45",
+            "name": "Crack's Call (Psychic Level 2)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One point on the battlefield exactly 18\" from and visible to this PSYKER.<br>**EFFECT:** Draw a straight line from this PSYKER to that point. Roll one D6 for each enemy unit (excluding units with FLY) that has one or more models whose base or hull is crossed by that line. On a 3+, that unit takes D6 spell hits: S8, AP-2, D2 (S12, AP-3, D3 if it is a VEHICLE). Each unit can be affected only once each time this spell is used.<br>**OVERCAST:** The point is exactly 24\" away instead, and units are affected on a 2+ instead."
+              }
+            ]
+          },
+          {
+            "id": "3610-c833-603a-ac85",
+            "name": "Bless with Filth (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Start of the Fight phase.<br>**TARGET:** One friendly SKAVEN unit within 18\" of this PSYKER.<br>**EFFECT:** Until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS].<br>**OVERCAST:** Until the end of the phase, each time a model in that unit makes a melee attack, an unmodified hit roll of 5+ scores a critical hit."
+              }
+            ]
+          },
+          {
+            "id": "b07e-15d6-7214-9d19",
+            "name": "Pestilent Breath (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 12\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes D6+3 spell hits: S5, AP-1, D1, [ANTI-INFANTRY 3+]. Until the start of your next turn, subtract 1 from hit rolls made for models in that unit.<br>**OVERCAST:** That unit takes 2D6+3 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "1b67-eff0-d0ea-2ef5",
+            "name": "Plague (Psychic Level 2)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 18\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 3D6 spell hits: S6, AP-1, D1, [ANTI-INFANTRY 3+]. Then roll one D6 for each other unit (friendly or enemy) within 3\" of it. On a 4+, that unit takes D6 spell hits with the same profile. The plague does not spread further.<br>**OVERCAST:** Roll for each other unit within 6\" instead."
               }
             ]
           }
@@ -6855,13 +6939,13 @@
           {
             "id": "4ce7-94c5-25ec-0534",
             "name": "Storm Daemon (Psychic Level 0)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "In your Shooting phase, and at the start of the Fight phase, if this unit is not battle-shocked, you can make a psychic roll; this spell spends no Psychic Level. On a 1, this unit becomes battle-shocked. Regardless of the result: in your Shooting phase, select one enemy unit within 18\" of and visible to this model, and it takes 2D6 spell hits: S9, AP-3, D2 (3D6 if Overcast); at the start of the Fight phase, until the end of the phase, this model's Storm Daemon weapon has +2 Strength and [DEVASTATING WOUNDS] (and +1 Attacks if Overcast). If the psychic roll includes an unmodified 1, this spell cannot be used again this battle; the Storm Daemon weapon can still be used."
               }
             ]
@@ -6869,13 +6953,13 @@
           {
             "id": "8198-dbd5-7def-a427",
             "name": "Flensing Ruin (Psychic Level 2)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes D6+3 spell hits: S6, AP-2, D1. Then, until the end of the turn, worsen the Save characteristic of its models by 1 (this does not affect invulnerable saves). Overcast: worsen it by 2 instead."
               }
             ]
@@ -6961,6 +7045,48 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Infantry, Character, Epic Hero, Psyker, Skryre, Ikit Claw. Faction: Skaven."
+              }
+            ]
+          },
+          {
+            "id": "fea8-ce24-a11a-bf8d",
+            "name": "Warp Lightning (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 2D6 spell hits: S8, AP-2, D2.<br>**OVERCAST:** That unit takes 3D6 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "5046-c5fa-eabe-25b1",
+            "name": "Howling Warpgale (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Movement phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** Until the start of your next turn, subtract 2\" from the Move characteristic of models in that unit (4\" if it has FLY), and that unit cannot Advance.<br>**OVERCAST:** Until the start of your next turn, also subtract 2 from Charge rolls made for that unit."
+              }
+            ]
+          },
+          {
+            "id": "fab8-30fe-7ae4-0f4f",
+            "name": "Crack's Call (Psychic Level 2)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One point on the battlefield exactly 18\" from and visible to this PSYKER.<br>**EFFECT:** Draw a straight line from this PSYKER to that point. Roll one D6 for each enemy unit (excluding units with FLY) that has one or more models whose base or hull is crossed by that line. On a 3+, that unit takes D6 spell hits: S8, AP-2, D2 (S12, AP-3, D3 if it is a VEHICLE). Each unit can be affected only once each time this spell is used.<br>**OVERCAST:** The point is exactly 24\" away instead, and units are affected on a 2+ instead."
               }
             ]
           }
@@ -8842,13 +8968,13 @@
           {
             "id": "48f0-4d94-54ac-1ca8",
             "name": "Pestilent Birth (Psychic Level 2)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "At the end of your Movement phase, if this unit is not battle-shocked, you can make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, using Summoned Vermin, add a temporary unit of 10 Plague Monks (including 1 Plague Deacon) to your army. Set it up wholly within 12\" of this model and more than 8\" horizontally from all enemy models. Remove it at the start of your next Command phase. Overcast: the unit has 20 Plague Monks (still including 1 Plague Deacon) instead."
               }
             ]
@@ -8934,6 +9060,48 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Infantry, Character, Psyker, Epic Hero, Pestilens, Lord Skrolk. Faction: Skaven."
+              }
+            ]
+          },
+          {
+            "id": "ca12-5feb-39e4-0824",
+            "name": "Bless with Filth (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Start of the Fight phase.<br>**TARGET:** One friendly SKAVEN unit within 18\" of this PSYKER.<br>**EFFECT:** Until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS].<br>**OVERCAST:** Until the end of the phase, each time a model in that unit makes a melee attack, an unmodified hit roll of 5+ scores a critical hit."
+              }
+            ]
+          },
+          {
+            "id": "f19f-56ce-3bbc-991f",
+            "name": "Pestilent Breath (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 12\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes D6+3 spell hits: S5, AP-1, D1, [ANTI-INFANTRY 3+]. Until the start of your next turn, subtract 1 from hit rolls made for models in that unit.<br>**OVERCAST:** That unit takes 2D6+3 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "f1ef-1840-5913-d546",
+            "name": "Plague (Psychic Level 2)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 18\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 3D6 spell hits: S6, AP-1, D1, [ANTI-INFANTRY 3+]. Then roll one D6 for each other unit (friendly or enemy) within 3\" of it. On a 4+, that unit takes D6 spell hits with the same profile. The plague does not spread further.<br>**OVERCAST:** Roll for each other unit within 6\" instead."
               }
             ]
           }
@@ -10476,13 +10644,13 @@
           {
             "id": "5856-480a-ba62-34d9",
             "name": "The Dreaded Thirteenth (Psychic Level 3)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes 13 spell hits: S6, AP-1, D2. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: the spell hits are S8, AP-2 instead. This spell can be used only once per battle round by your army."
               }
             ]
@@ -10490,13 +10658,13 @@
           {
             "id": "3674-e19d-3c2e-d69f",
             "name": "Armour of Darkness (Psychic Level 1)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "In your Movement phase, if this unit is not battle-shocked, you can select one friendly SKAVEN INFANTRY unit within 18\" of this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, until the start of your next turn, improve the Save characteristic of models in that unit by 1 (not better than 4+). Overcast: improve it by 2 instead (still not better than 4+)."
               }
             ]
@@ -10568,6 +10736,132 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Monster, Character, Epic Hero, Daemon, Psyker, Lord Skreech. Faction: Skaven."
+              }
+            ]
+          },
+          {
+            "id": "5d5e-a8fc-2b0b-e22f",
+            "name": "Warp Lightning (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 2D6 spell hits: S8, AP-2, D2.<br>**OVERCAST:** That unit takes 3D6 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "733b-7c6c-ab3e-c194",
+            "name": "Howling Warpgale (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Movement phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** Until the start of your next turn, subtract 2\" from the Move characteristic of models in that unit (4\" if it has FLY), and that unit cannot Advance.<br>**OVERCAST:** Until the start of your next turn, also subtract 2 from Charge rolls made for that unit."
+              }
+            ]
+          },
+          {
+            "id": "9264-38be-878d-f81e",
+            "name": "Crack's Call (Psychic Level 2)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One point on the battlefield exactly 18\" from and visible to this PSYKER.<br>**EFFECT:** Draw a straight line from this PSYKER to that point. Roll one D6 for each enemy unit (excluding units with FLY) that has one or more models whose base or hull is crossed by that line. On a 3+, that unit takes D6 spell hits: S8, AP-2, D2 (S12, AP-3, D3 if it is a VEHICLE). Each unit can be affected only once each time this spell is used.<br>**OVERCAST:** The point is exactly 24\" away instead, and units are affected on a 2+ instead."
+              }
+            ]
+          },
+          {
+            "id": "5926-d9b9-925d-47f5",
+            "name": "Bless with Filth (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Start of the Fight phase.<br>**TARGET:** One friendly SKAVEN unit within 18\" of this PSYKER.<br>**EFFECT:** Until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS].<br>**OVERCAST:** Until the end of the phase, each time a model in that unit makes a melee attack, an unmodified hit roll of 5+ scores a critical hit."
+              }
+            ]
+          },
+          {
+            "id": "6b66-f645-175c-8079",
+            "name": "Pestilent Breath (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 12\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes D6+3 spell hits: S5, AP-1, D1, [ANTI-INFANTRY 3+]. Until the start of your next turn, subtract 1 from hit rolls made for models in that unit.<br>**OVERCAST:** That unit takes 2D6+3 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "1e5f-954f-c6f7-3273",
+            "name": "Plague (Psychic Level 2)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 18\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 3D6 spell hits: S6, AP-1, D1, [ANTI-INFANTRY 3+]. Then roll one D6 for each other unit (friendly or enemy) within 3\" of it. On a 4+, that unit takes D6 spell hits with the same profile. The plague does not spread further.<br>**OVERCAST:** Roll for each other unit within 6\" instead."
+              }
+            ]
+          },
+          {
+            "id": "86a3-2a1e-5cf8-72bc",
+            "name": "Skitterleap (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of the Hidden Fang*<br>**WHEN:** End of your Movement phase.<br>**TARGET:** One friendly SKAVEN INFANTRY unit within 12\" of this PSYKER.<br>**EFFECT:** Remove that unit from the battlefield and set it up again anywhere on the battlefield, more than 8\" horizontally from all enemy models. That unit counts as having made an ingress move.<br>**OVERCAST:** Set it up more than 6\" horizontally from all enemy models instead."
+              }
+            ]
+          },
+          {
+            "id": "0aa7-ec94-a64c-9d06",
+            "name": "Warp Stars (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of the Hidden Fang*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 18\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 4 spell hits: S7, AP-3, D2, [PRECISION].<br>**OVERCAST:** That unit takes 6 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "54db-861b-5f60-a356",
+            "name": "Veil of Shadows (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of the Hidden Fang*<br>**WHEN:** Your Movement phase.<br>**TARGET:** One friendly SKAVEN INFANTRY unit within 18\" of this PSYKER.<br>**EFFECT:** Until the start of your next turn, that unit cannot be selected as the target of a ranged attack unless the attacking model is within 12\" of it.<br>**OVERCAST:** 6\" instead of 12\"."
               }
             ]
           }
@@ -11461,13 +11755,13 @@
           {
             "id": "6520-01ea-3b93-14e4",
             "name": "The Dreaded Thirteenth (Psychic Level 3)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy INFANTRY unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes 13 spell hits: S6, AP-1, D2. If it is destroyed by this spell, using Summoned Vermin, add a permanent unit of 10 Clanrats to your army and set it up wholly within 6\" of where its last model was and more than 8\" horizontally from all enemy models; if it cannot be set up, it is not added. Overcast: the spell hits are S8, AP-2 instead. This spell can be used only once per battle round by your army."
               }
             ]
@@ -11475,13 +11769,13 @@
           {
             "id": "1cc3-d09f-0c95-1d3d",
             "name": "Vermintide (Psychic Level 1)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "At the end of your Movement phase, if this unit is not battle-shocked, you can make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, using Summoned Vermin, add a temporary unit of 10 Clanrats to your army. Set it up wholly within 12\" of this model and more than 8\" horizontally from all enemy models. Remove it at the start of your next Command phase. Overcast: the unit has 20 Clanrats instead."
               }
             ]
@@ -11553,6 +11847,90 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Infantry, Character, Psyker, Masterclan, Grey Seer. Faction: Skaven."
+              }
+            ]
+          },
+          {
+            "id": "c4b5-f885-bd78-a62f",
+            "name": "Warp Lightning (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 2D6 spell hits: S8, AP-2, D2.<br>**OVERCAST:** That unit takes 3D6 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "6a1e-58f6-56a7-ea67",
+            "name": "Howling Warpgale (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Movement phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** Until the start of your next turn, subtract 2\" from the Move characteristic of models in that unit (4\" if it has FLY), and that unit cannot Advance.<br>**OVERCAST:** Until the start of your next turn, also subtract 2 from Charge rolls made for that unit."
+              }
+            ]
+          },
+          {
+            "id": "0fd1-006a-c694-b1fb",
+            "name": "Crack's Call (Psychic Level 2)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One point on the battlefield exactly 18\" from and visible to this PSYKER.<br>**EFFECT:** Draw a straight line from this PSYKER to that point. Roll one D6 for each enemy unit (excluding units with FLY) that has one or more models whose base or hull is crossed by that line. On a 3+, that unit takes D6 spell hits: S8, AP-2, D2 (S12, AP-3, D3 if it is a VEHICLE). Each unit can be affected only once each time this spell is used.<br>**OVERCAST:** The point is exactly 24\" away instead, and units are affected on a 2+ instead."
+              }
+            ]
+          },
+          {
+            "id": "f360-b957-a59b-75b4",
+            "name": "Bless with Filth (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Start of the Fight phase.<br>**TARGET:** One friendly SKAVEN unit within 18\" of this PSYKER.<br>**EFFECT:** Until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS].<br>**OVERCAST:** Until the end of the phase, each time a model in that unit makes a melee attack, an unmodified hit roll of 5+ scores a critical hit."
+              }
+            ]
+          },
+          {
+            "id": "8656-2d0b-431c-db0c",
+            "name": "Pestilent Breath (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 12\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes D6+3 spell hits: S5, AP-1, D1, [ANTI-INFANTRY 3+]. Until the start of your next turn, subtract 1 from hit rolls made for models in that unit.<br>**OVERCAST:** That unit takes 2D6+3 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "df50-db7e-ebd2-98de",
+            "name": "Plague (Psychic Level 2)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 18\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 3D6 spell hits: S6, AP-1, D1, [ANTI-INFANTRY 3+]. Then roll one D6 for each other unit (friendly or enemy) within 3\" of it. On a 4+, that unit takes D6 spell hits with the same profile. The plague does not spread further.<br>**OVERCAST:** Roll for each other unit within 6\" instead."
               }
             ]
           }
@@ -11832,12 +12210,12 @@
                     "id": "3886-8acd-c77c-8c1d",
                     "name": "Peal of Doom (Psychic Level 1)",
                     "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
+                    "typeId": "5419-64f0-ebfb-e928",
+                    "typeName": "Spells",
                     "characteristics": [
                       {
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
+                        "typeId": "5222-15c4-4193-4155",
                         "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 13\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes D6+3 spell hits: S6, AP-1, D1, and must take a battle-shock roll. Overcast: it takes 2D6+3 spell hits instead, and subtract 1 from that battle-shock roll."
                       }
                     ]
@@ -16865,6 +17243,48 @@
                 "$text": "Keywords: Infantry, Character, Psyker, Pestilens, Plague Priest. Faction: Skaven."
               }
             ]
+          },
+          {
+            "id": "11a3-03d2-d780-ce33",
+            "name": "Bless with Filth (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Start of the Fight phase.<br>**TARGET:** One friendly SKAVEN unit within 18\" of this PSYKER.<br>**EFFECT:** Until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS].<br>**OVERCAST:** Until the end of the phase, each time a model in that unit makes a melee attack, an unmodified hit roll of 5+ scores a critical hit."
+              }
+            ]
+          },
+          {
+            "id": "742e-a940-efc2-4e11",
+            "name": "Pestilent Breath (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 12\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes D6+3 spell hits: S5, AP-1, D1, [ANTI-INFANTRY 3+]. Until the start of your next turn, subtract 1 from hit rolls made for models in that unit.<br>**OVERCAST:** That unit takes 2D6+3 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "fd1b-adc8-f8a7-718d",
+            "name": "Plague (Psychic Level 2)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 18\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 3D6 spell hits: S6, AP-1, D1, [ANTI-INFANTRY 3+]. Then roll one D6 for each other unit (friendly or enemy) within 3\" of it. On a 4+, that unit takes D6 spell hits with the same profile. The plague does not spread further.<br>**OVERCAST:** Roll for each other unit within 6\" instead."
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -18775,6 +19195,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Infantry, Character, Psyker, Skryre, Warlock Engineer. Faction: Skaven."
+              }
+            ]
+          },
+          {
+            "id": "a174-9566-0878-66cb",
+            "name": "Warp Lightning (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 2D6 spell hits: S8, AP-2, D2.<br>**OVERCAST:** That unit takes 3D6 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "d604-e909-e51e-f91e",
+            "name": "Howling Warpgale (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Movement phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** Until the start of your next turn, subtract 2\" from the Move characteristic of models in that unit (4\" if it has FLY), and that unit cannot Advance.<br>**OVERCAST:** Until the start of your next turn, also subtract 2 from Charge rolls made for that unit."
               }
             ]
           }
@@ -21758,13 +22206,13 @@
           {
             "id": "e5a8-82e6-5eeb-e3aa",
             "name": "Death Frenzy (Psychic Level 2)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "At the start of the Fight phase, if this unit is not battle-shocked, you can select one friendly SKAVEN INFANTRY or SKAVEN BEAST unit within 18\" of this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, until the end of the phase, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it yet; it can fight after the attacking unit has finished making its attacks, and is then removed. Overcast: until the end of the phase, also add 1 to the Attacks characteristic of melee weapons equipped by models in that unit."
               }
             ]
@@ -21836,6 +22284,48 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Monster, Character, Daemon, Psyker, Verminlord Warbringer. Faction: Skaven."
+              }
+            ]
+          },
+          {
+            "id": "6891-5f38-47c9-e4e3",
+            "name": "Warp Lightning (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 2D6 spell hits: S8, AP-2, D2.<br>**OVERCAST:** That unit takes 3D6 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "f9d0-83f1-b2d9-b29b",
+            "name": "Howling Warpgale (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Movement phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** Until the start of your next turn, subtract 2\" from the Move characteristic of models in that unit (4\" if it has FLY), and that unit cannot Advance.<br>**OVERCAST:** Until the start of your next turn, also subtract 2 from Charge rolls made for that unit."
+              }
+            ]
+          },
+          {
+            "id": "7b31-d088-bebd-8c2b",
+            "name": "Crack's Call (Psychic Level 2)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One point on the battlefield exactly 18\" from and visible to this PSYKER.<br>**EFFECT:** Draw a straight line from this PSYKER to that point. Roll one D6 for each enemy unit (excluding units with FLY) that has one or more models whose base or hull is crossed by that line. On a 3+, that unit takes D6 spell hits: S8, AP-2, D2 (S12, AP-3, D3 if it is a VEHICLE). Each unit can be affected only once each time this spell is used.<br>**OVERCAST:** The point is exactly 24\" away instead, and units are affected on a 2+ instead."
               }
             ]
           }
@@ -23047,13 +23537,13 @@
           {
             "id": "b042-bfba-8a12-4664",
             "name": "Master of Lightning (Psychic Level 2)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 24\" of and visible to this model, and up to two other enemy units within 6\" of that unit and within 24\" of and visible to this model, and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, each selected unit takes D6 spell hits: S8, AP-2, D2. Overcast: each takes 2D6 spell hits instead."
               }
             ]
@@ -23125,6 +23615,48 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Monster, Character, Daemon, Psyker, Verminlord Warpseer. Faction: Skaven."
+              }
+            ]
+          },
+          {
+            "id": "63b4-ca72-4534-ed4a",
+            "name": "Warp Lightning (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 2D6 spell hits: S8, AP-2, D2.<br>**OVERCAST:** That unit takes 3D6 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "369c-1e3e-e1f2-98ba",
+            "name": "Howling Warpgale (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Movement phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** Until the start of your next turn, subtract 2\" from the Move characteristic of models in that unit (4\" if it has FLY), and that unit cannot Advance.<br>**OVERCAST:** Until the start of your next turn, also subtract 2 from Charge rolls made for that unit."
+              }
+            ]
+          },
+          {
+            "id": "6c29-5926-e082-39c1",
+            "name": "Crack's Call (Psychic Level 2)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One point on the battlefield exactly 18\" from and visible to this PSYKER.<br>**EFFECT:** Draw a straight line from this PSYKER to that point. Roll one D6 for each enemy unit (excluding units with FLY) that has one or more models whose base or hull is crossed by that line. On a 3+, that unit takes D6 spell hits: S8, AP-2, D2 (S12, AP-3, D3 if it is a VEHICLE). Each unit can be affected only once each time this spell is used.<br>**OVERCAST:** The point is exactly 24\" away instead, and units are affected on a 2+ instead."
               }
             ]
           }
@@ -24359,13 +24891,13 @@
           {
             "id": "4404-2e1e-9e23-a88c",
             "name": "Black Whirlwind (Psychic Level 2)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one point on the battlefield within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, place a Black Whirlwind marker on that point until the start of your next Command phase. Each unit (friendly or enemy) within 3\" of the marker takes D6 spell hits: S6, AP-1, D2. Until it is removed, each time a unit ends a normal, advance, fall-back or charge move within 3\" of the marker, that unit takes D6 spell hits with the same profile. Each unit can take spell hits from this marker only once per turn. Overcast: use 6\" instead of 3\"."
               }
             ]
@@ -24437,6 +24969,48 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Monster, Character, Daemon, Psyker, Verminlord Deceiver. Faction: Skaven."
+              }
+            ]
+          },
+          {
+            "id": "0bc3-96c1-07da-275a",
+            "name": "Skitterleap (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of the Hidden Fang*<br>**WHEN:** End of your Movement phase.<br>**TARGET:** One friendly SKAVEN INFANTRY unit within 12\" of this PSYKER.<br>**EFFECT:** Remove that unit from the battlefield and set it up again anywhere on the battlefield, more than 8\" horizontally from all enemy models. That unit counts as having made an ingress move.<br>**OVERCAST:** Set it up more than 6\" horizontally from all enemy models instead."
+              }
+            ]
+          },
+          {
+            "id": "e240-11d0-75dd-bf60",
+            "name": "Warp Stars (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of the Hidden Fang*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 18\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 4 spell hits: S7, AP-3, D2, [PRECISION].<br>**OVERCAST:** That unit takes 6 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "f907-0058-f778-e873",
+            "name": "Veil of Shadows (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of the Hidden Fang*<br>**WHEN:** Your Movement phase.<br>**TARGET:** One friendly SKAVEN INFANTRY unit within 18\" of this PSYKER.<br>**EFFECT:** Until the start of your next turn, that unit cannot be selected as the target of a ranged attack unless the attacking model is within 12\" of it.<br>**OVERCAST:** 6\" instead of 12\"."
               }
             ]
           }
@@ -25706,13 +26280,13 @@
           {
             "id": "77ef-eaa5-72c5-b30d",
             "name": "Plaguemaster (Psychic Level 2)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one point on the battlefield within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, each unit (friendly or enemy) within 3\" of that point takes 2D6 spell hits: S6, AP-1, D2. Overcast: use 6\" instead of 3\"."
               }
             ]
@@ -25720,13 +26294,13 @@
           {
             "id": "69ac-d470-257f-5c58",
             "name": "Wither (Psychic Level 1)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, until the start of your next turn, subtract 1 from the Toughness characteristic of models in that enemy unit (to a minimum of 1). Overcast: subtract 2 instead (to a minimum of 1)."
               }
             ]
@@ -25784,6 +26358,48 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Monster, Character, Daemon, Psyker, Verminlord Corruptor. Faction: Skaven."
+              }
+            ]
+          },
+          {
+            "id": "62a6-7810-f24d-02af",
+            "name": "Bless with Filth (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Start of the Fight phase.<br>**TARGET:** One friendly SKAVEN unit within 18\" of this PSYKER.<br>**EFFECT:** Until the end of the phase, melee weapons equipped by models in that unit have [LETHAL HITS].<br>**OVERCAST:** Until the end of the phase, each time a model in that unit makes a melee attack, an unmodified hit roll of 5+ scores a critical hit."
+              }
+            ]
+          },
+          {
+            "id": "54f4-a68a-80b5-d2c8",
+            "name": "Pestilent Breath (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 12\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes D6+3 spell hits: S5, AP-1, D1, [ANTI-INFANTRY 3+]. Until the start of your next turn, subtract 1 from hit rolls made for models in that unit.<br>**OVERCAST:** That unit takes 2D6+3 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "cbb1-c701-3ff3-0880",
+            "name": "Plague (Psychic Level 2)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Plague*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 18\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 3D6 spell hits: S6, AP-1, D1, [ANTI-INFANTRY 3+]. Then roll one D6 for each other unit (friendly or enemy) within 3\" of it. On a 4+, that unit takes D6 spell hits with the same profile. The plague does not spread further.<br>**OVERCAST:** Roll for each other unit within 6\" instead."
               }
             ]
           }
@@ -90065,13 +90681,13 @@
           {
             "id": "6791-9311-3488-ab10",
             "name": "Scorch (Psychic Level 1)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "In your Shooting phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, that enemy unit takes 1 spell hit for each model in it (maximum 13): S6, AP-1, D1. Overcast: it takes 2 spell hits for each model in it instead (maximum 26)."
               }
             ]
@@ -90143,6 +90759,34 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Infantry, Character, Psyker, Skryre, Arch-Warlock. Faction: Skaven."
+              }
+            ]
+          },
+          {
+            "id": "2105-649a-a944-5e22",
+            "name": "Warp Lightning (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 2D6 spell hits: S8, AP-2, D2.<br>**OVERCAST:** That unit takes 3D6 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "811e-1492-d092-0d2b",
+            "name": "Howling Warpgale (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of Ruin*<br>**WHEN:** Your Movement phase.<br>**TARGET:** One enemy unit within 24\" of and visible to this PSYKER.<br>**EFFECT:** Until the start of your next turn, subtract 2\" from the Move characteristic of models in that unit (4\" if it has FLY), and that unit cannot Advance.<br>**OVERCAST:** Until the start of your next turn, also subtract 2 from Charge rolls made for that unit."
               }
             ]
           }
@@ -94151,13 +94795,13 @@
           {
             "id": "721b-b6c9-8f11-53da",
             "name": "Brittle Bone (Psychic Level 1)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
             "hidden": false,
             "characteristics": [
               {
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573",
+                "typeId": "5222-15c4-4193-4155",
                 "$text": "At the start of the Fight phase, if this unit is not battle-shocked, you can select one enemy unit within 18\" of and visible to this model and make a psychic roll. On a 1, this unit becomes battle-shocked. Regardless of the result, until the end of the phase, subtract 1 from the Damage characteristic of melee weapons equipped by models in that enemy unit (to a minimum of 1). Overcast: also subtract 1 from the Attacks characteristic of those weapons (to a minimum of 1)."
               }
             ]
@@ -94229,6 +94873,48 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "Keywords: Infantry, Character, Psyker, Eshin, Eshin Sorcerer. Faction: Skaven."
+              }
+            ]
+          },
+          {
+            "id": "325a-bf34-8398-b4ab",
+            "name": "Skitterleap (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of the Hidden Fang*<br>**WHEN:** End of your Movement phase.<br>**TARGET:** One friendly SKAVEN INFANTRY unit within 12\" of this PSYKER.<br>**EFFECT:** Remove that unit from the battlefield and set it up again anywhere on the battlefield, more than 8\" horizontally from all enemy models. That unit counts as having made an ingress move.<br>**OVERCAST:** Set it up more than 6\" horizontally from all enemy models instead."
+              }
+            ]
+          },
+          {
+            "id": "5b39-6ec2-f8d3-284b",
+            "name": "Warp Stars (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of the Hidden Fang*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 18\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 4 spell hits: S7, AP-3, D2, [PRECISION].<br>**OVERCAST:** That unit takes 6 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "12d5-2ddc-c206-d360",
+            "name": "Veil of Shadows (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "*Lore of the Hidden Fang*<br>**WHEN:** Your Movement phase.<br>**TARGET:** One friendly SKAVEN INFANTRY unit within 18\" of this PSYKER.<br>**EFFECT:** Until the start of your next turn, that unit cannot be selected as the target of a ranged attack unless the attacking model is within 12\" of it.<br>**OVERCAST:** 6\" instead of 12\"."
               }
             ]
           }
@@ -96548,6 +97234,50 @@
             "id": "930b-c303-86ad-cb5f",
             "hidden": false,
             "description": "Non-EPIC HERO GREY SEER model only.\n\nThe bearer knows one spell of your choice from the Lore of the Hidden Fang."
+          }
+        ],
+        "profiles": [
+          {
+            "id": "de18-eb5e-ab07-571c",
+            "name": "Skitterleap (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "Grimoire of Thirteen Names: the bearer knows one of these spells, of your choice.<br>*Lore of the Hidden Fang*<br>**WHEN:** End of your Movement phase.<br>**TARGET:** One friendly SKAVEN INFANTRY unit within 12\" of this PSYKER.<br>**EFFECT:** Remove that unit from the battlefield and set it up again anywhere on the battlefield, more than 8\" horizontally from all enemy models. That unit counts as having made an ingress move.<br>**OVERCAST:** Set it up more than 6\" horizontally from all enemy models instead."
+              }
+            ]
+          },
+          {
+            "id": "a2b3-6778-8100-f5ad",
+            "name": "Warp Stars (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "Grimoire of Thirteen Names: the bearer knows one of these spells, of your choice.<br>*Lore of the Hidden Fang*<br>**WHEN:** Your Shooting phase.<br>**TARGET:** One enemy unit within 18\" of and visible to this PSYKER.<br>**EFFECT:** That unit takes 4 spell hits: S7, AP-3, D2, [PRECISION].<br>**OVERCAST:** That unit takes 6 spell hits instead."
+              }
+            ]
+          },
+          {
+            "id": "4cfc-306a-b643-fa45",
+            "name": "Veil of Shadows (Psychic Level 1)",
+            "hidden": false,
+            "typeId": "5419-64f0-ebfb-e928",
+            "typeName": "Spells",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "5222-15c4-4193-4155",
+                "$text": "Grimoire of Thirteen Names: the bearer knows one of these spells, of your choice.<br>*Lore of the Hidden Fang*<br>**WHEN:** Your Movement phase.<br>**TARGET:** One friendly SKAVEN INFANTRY unit within 18\" of this PSYKER.<br>**EFFECT:** Until the start of your next turn, that unit cannot be selected as the target of a ranged attack unless the attacking model is within 12\" of it.<br>**OVERCAST:** 6\" instead of 12\"."
+              }
+            ]
           }
         ]
       },
@@ -102118,6 +102848,18 @@
         "id": "e8d9-ed82-4647-91de",
         "hidden": false,
         "description": "\n\n*Strategic Ploy Stratagem*\n\n**When**<br>End of your Movement phase.\n\n**Target**<br>One CLANRATS unit from your army and one friendly SKAVENSLAVES unit within 6\" of it.\n\n**Effect**<br>Sacrifice up to D3 models from that SKAVENSLAVES unit. For each model Sacrificed, return one destroyed Clanrat model to your CLANRATS unit, not exceeding its starting strength."
+      }
+    ],
+    "profileTypes": [
+      {
+        "id": "5419-64f0-ebfb-e928",
+        "name": "Spells",
+        "characteristicTypes": [
+          {
+            "id": "5222-15c4-4193-4155",
+            "name": "Description"
+          }
+        ]
       }
     ]
   }
